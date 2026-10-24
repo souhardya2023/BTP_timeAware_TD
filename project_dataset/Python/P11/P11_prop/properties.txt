@@ -1,0 +1,42 @@
+pair: P11
+original_id: PY-SB-click-shotgun_surgery-202f018590d5a281a569674993e9efa4
+language: Python
+project: click
+repository: https://github.com/pallets/click
+base_commit: 1d038f270701498433cb432f54db89f95f07a845
+
+P11_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P11_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: coupling_cohesion
+td_subtype: shotgun_surgery
+cwe: -
+description: -
+source: SmellBench (injected by LLM agent, test-validated by its authors)
+tier: main
+smellbench_difficulty: easy
+
+files_changed: 3
+lines_added: 71
+lines_deleted: 18
+  - src/click/core.py
+  - src/click/types.py
+  - src/click/utils.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 1314, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 1314, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=29, complexity.functions=3, complexity.ccn_sum=4, complexity.ccn_mean=-0.013, structure.dep_edges=1, structure.density=0.0037
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 1314, 'failed': 0}, tests_on_TD {'passed': 1314, 'failed': 0} -> match

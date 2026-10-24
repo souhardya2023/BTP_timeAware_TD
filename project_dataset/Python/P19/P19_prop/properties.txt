@@ -1,0 +1,42 @@
+pair: P19
+original_id: PY-SB-click-dead_code_elimination-7a8e2a494a7aea9c10a1e1d4f3990546
+language: Python
+project: click
+repository: https://github.com/pallets/click
+base_commit: 1d038f270701498433cb432f54db89f95f07a845
+
+P19_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P19_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: dependency_structure
+td_subtype: dead_code_elimination
+cwe: -
+description: -
+source: SmellBench (injected by LLM agent, test-validated by its authors)
+tier: main
+smellbench_difficulty: medium
+
+files_changed: 3
+lines_added: 135
+lines_deleted: 3
+  - src/click/_utils.py
+  - src/click/core.py
+  - src/click/shell_completion.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 1314, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 1314, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=55, complexity.functions=5, complexity.ccn_sum=21, complexity.ccn_mean=0.007, complexity.fn_ccn_gt10=1, complexity.fn_nloc_gt50=1, structure.dep_edges=1, structure.density=0.0037
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 1314, 'failed': 0}, tests_on_TD {'passed': 1314, 'failed': 0} -> match

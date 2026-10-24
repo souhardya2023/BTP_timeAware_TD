@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -682,7 +682,7 @@
+     """
+     # TODO: hit_count/miss_count?
+     def __init__(self, threshold=0.001):
+-        if not 0 < threshold < 1:
++        if not 0 < threshold <= 1:
+             raise ValueError('expected threshold between 0 and 1, not: %r'
+                              % threshold)
+ 

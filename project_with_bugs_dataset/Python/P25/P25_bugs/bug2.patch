@@ -1,0 +1,11 @@
+--- a/src/jinja2/loaders.py
++++ b/src/jinja2/loaders.py
+@@ -662,7 +662,7 @@
+ 
+     @staticmethod
+     def get_module_filename(name: str) -> str:
+-        return ModuleLoader.get_template_key(name) + ".py"
++        return ModuleLoader.get_template_key(name) - ".py"
+ 
+     @internalcode
+     def load(

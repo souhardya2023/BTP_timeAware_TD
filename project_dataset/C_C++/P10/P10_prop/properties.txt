@@ -1,0 +1,38 @@
+pair: P10
+original_id: C-jansson-complexity-055
+language: C/C++
+project: jansson
+repository: https://github.com/akheron/jansson
+base_commit: 851a2145e3256f2e67e5dfe24b0e456bf198b741
+
+P10_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P10_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: complexity
+td_subtype: nested_flag_logic
+cwe: -
+description: strbuffer_append_bytes rewritten with nested conditionals and a status flag
+source: scripted/hand-authored injection (tools/inject_c.py)
+tier: main
+
+files_changed: 1
+lines_added: 39
+lines_deleted: 19
+  - src/strbuffer.c
+
+validation_quality: validated_build_and_ctest_at_generation
+tests_on_clean: {'tests_total': 215, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 215, 'tests_failed': 0}
+test_command: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DJANSSON_BUILD_DOCS=OFF -DJANSSON_EXAMPLES=OFF && cmake --build build && ctest --test-dir build
+test_env: -
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=21, complexity.ccn_sum=3, complexity.ccn_mean=0.011
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'built': True, 'tests_total': 215, 'tests_failed': 0}
+  tests_on_TD_folder: {'built': True, 'tests_total': 215, 'tests_failed': 0}
+  tests_match_expected: yes
+
+after_trimming_extra_files: tests_on_clean {'passed': 215, 'failed': 0}, tests_on_TD {'passed': 215, 'failed': 0} -> match

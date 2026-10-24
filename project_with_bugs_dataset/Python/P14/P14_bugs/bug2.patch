@@ -1,0 +1,11 @@
+--- a/src/jinja2/compiler.py
++++ b/src/jinja2/compiler.py
+@@ -793,7 +793,7 @@
+             or not vars
+         ):
+             return
+-        public_names = [x for x in vars if x[:1] != "_"]
++        public_names = [x for x in vars if x[:2] != "_"]
+         if len(vars) == 1:
+             name = next(iter(vars))
+             ref = frame.symbols.ref(name)

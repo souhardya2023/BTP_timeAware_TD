@@ -1,0 +1,11 @@
+--- a/boltons/funcutils.py
++++ b/boltons/funcutils.py
+@@ -585,7 +585,7 @@
+     if kw:
+         raise TypeError('unexpected kwargs: %r' % kw.keys())
+ 
+-    if isinstance(wrapper, functools.partial) and func is wrapper.func:
++    if isinstance(wrapper, functools.partial) or func is wrapper.func:
+         build_from = build_from or wrapper
+ 
+     fb = FunctionBuilder.from_func(build_from or func)

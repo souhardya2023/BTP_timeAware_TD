@@ -1,0 +1,11 @@
+--- a/src/werkzeug/datastructures/accept.py
++++ b/src/werkzeug/datastructures/accept.py
+@@ -280,7 +280,7 @@
+             raise ValueError(f"invalid mimetype {app_value!r}")
+ 
+         return (
+-            (req_type == "*" and req_sub == "*")
++            (req_type != "*" and req_sub == "*")
+             or (app_type == "*" and app_sub == "*")
+             or (
+                 req_type == app_type

@@ -1,0 +1,11 @@
+--- a/boltons/setutils.py
++++ b/boltons/setutils.py
+@@ -447,7 +447,7 @@
+         "pop(index) -> remove the item at a given index (-1 by default)"
+         item_index_map = self.item_index_map
+         len_self = len(item_index_map)
+-        if index is None or index == -1 or index == len_self - 1:
++        if index is None or index == -1 and index == len_self - 1:
+             ret = self.item_list.pop()
+             del item_index_map[ret]
+         else:

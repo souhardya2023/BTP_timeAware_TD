@@ -1,0 +1,43 @@
+pair: P25
+original_id: PY-SB-jinja-deeply_inlined_method-e35f619f69a350e858539b2657eb69c0
+language: Python
+project: jinja
+repository: https://github.com/pallets/jinja
+base_commit: 15206881c006c79667fe5154fe80c01c65410679
+
+P25_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P25_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: complexity
+td_subtype: deeply_inlined_method
+cwe: -
+description: -
+source: SmellBench (injected by LLM agent, test-validated by its authors)
+tier: main
+smellbench_difficulty: hard
+
+files_changed: 4
+lines_added: 196
+lines_deleted: 60
+  - src/jinja2/environment.py
+  - src/jinja2/nodes.py
+  - src/jinja2/runtime.py
+  - src/jinja2/utils.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 909, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 909, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=58, complexity.functions=5, complexity.ccn_sum=16, complexity.ccn_mean=0.003, complexity.fn_nloc_gt50=1, security.sec_medium=1, security.sec_total=1
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 909, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 909, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 909, 'failed': 0}, tests_on_TD {'passed': 909, 'failed': 0} -> match

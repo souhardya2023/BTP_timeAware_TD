@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -314,7 +314,7 @@
+         with self._recv_lock:
+             if maxsize is _UNSET:
+                 maxsize = self.maxsize
+-            if maxsize is None:
++            if not (maxsize is None):
+                 maxsize = _RECV_LARGE_MAXSIZE
+             if timeout is _UNSET:
+                 timeout = self.timeout

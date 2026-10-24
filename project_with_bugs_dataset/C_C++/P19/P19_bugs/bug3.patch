@@ -1,0 +1,11 @@
+--- a/src/dumper.c
++++ b/src/dumper.c
+@@ -232,7 +232,7 @@
+         }
+     }
+ 
+-    else if (emitter->anchors[index-1].references == 2) {
++    else if (emitter->anchors[index-1].references != 2) {
+         emitter->anchors[index-1].anchor = (++ emitter->last_anchor_id);
+     }
+ }

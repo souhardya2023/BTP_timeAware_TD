@@ -1,0 +1,11 @@
+--- a/src/werkzeug/http.py
++++ b/src/werkzeug/http.py
+@@ -418,7 +418,7 @@
+             item += char
+             continue
+ 
+-        if quote:
++        if not (quote):
+             if char == "\\":
+                 escape = True
+             elif char == '"':

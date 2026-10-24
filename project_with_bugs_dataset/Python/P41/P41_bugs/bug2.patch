@@ -1,0 +1,11 @@
+--- a/boltons/tableutils.py
++++ b/boltons/tableutils.py
+@@ -504,7 +504,7 @@
+ 
+     def _add_horizontal_html_lines(self, lines, headers, max_depth):
+         esc = self.get_cell_html
+-        new_depth = max_depth - 1 if max_depth > 1 else max_depth
++        new_depth = max_depth - 1 if max_depth >= 1 else max_depth
+         if max_depth > 1:
+             new_depth = max_depth - 1
+         if headers:

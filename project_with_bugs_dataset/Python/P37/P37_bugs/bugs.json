@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 414,
+  "function": "recv_size",
+  "kind": "negate_cond",
+  "description": "condition negated in recv_size()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/strutils.py",
+  "line": 604,
+  "function": "handle_entityref",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in handle_entityref()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/tableutils.py",
+  "line": 363,
+  "function": "from_data",
+  "kind": "cmp_boundary",
+  "description": "`<` -> `<=` in a comparison in from_data()",
+  "in_td_file": false
+ }
+]

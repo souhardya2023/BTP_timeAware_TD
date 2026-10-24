@@ -1,0 +1,20 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..018d000 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -250,11 +250,10 @@ class BufferedSocket:
+         :exc:`Timeout` will be raised. If the connection is closed, a
+         :exc:`ConnectionClosed` will be raised.
+         """
+-        with self._recv_lock:
+-            if len(self.rbuf) >= size:
+-                return self.rbuf[:size]
+-            data = self.recv_size(size, timeout=timeout)
+-            self.rbuf = data + self.rbuf
++        if len(self.rbuf) >= size:
++            return self.rbuf[:size]
++        data = self.recv_size(size, timeout=timeout)
++        self.rbuf = data + self.rbuf
+         return data
+ 
+     def recv_close(self, timeout=_UNSET, maxsize=_UNSET):

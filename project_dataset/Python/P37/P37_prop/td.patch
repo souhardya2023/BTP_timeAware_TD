@@ -1,0 +1,14 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..f87ac0a 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -476,8 +476,7 @@ class BufferedSocket:
+ 
+     def buffer(self, data):
+         "Buffer *data* bytes for the next send operation."
+-        with self._send_lock:
+-            self.sbuf.append(data)
++        self.sbuf.append(data)
+         return
+ 
+     # # #

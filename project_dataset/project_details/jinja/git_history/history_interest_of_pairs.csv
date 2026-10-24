@@ -1,0 +1,6 @@
+pair,project,td_type,files_analyzed,commits_analyzed,historical_td_interest_pm
+P14,jinja,coupling_cohesion,src/jinja2/loaders.py,32,4.641160798250082
+P15,jinja,coupling_cohesion,"src/jinja2/bccache.py, src/jinja2/loaders.py",48,7.451043506332199
+P16,jinja,coupling_cohesion,"src/jinja2/defaults.py, src/jinja2/environment.py, src/jinja2/lexer.py, src/jinja2/utils.py",112,23.97318066668067
+P24,jinja,complexity,"src/jinja2/compiler.py, src/jinja2/environment.py",85,23.88639311671212
+P25,jinja,complexity,"src/jinja2/environment.py, src/jinja2/nodes.py, src/jinja2/runtime.py, src/jinja2/utils.py",134,32.36159931845438

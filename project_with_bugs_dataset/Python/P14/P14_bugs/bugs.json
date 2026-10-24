@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/jinja2/loaders.py",
+  "line": 239,
+  "function": "list_templates",
+  "kind": "negate_cond",
+  "description": "condition negated in list_templates()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/jinja2/compiler.py",
+  "line": 796,
+  "function": "pop_assign_tracking",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in pop_assign_tracking()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/jinja2/parser.py",
+  "line": 732,
+  "function": "parse_tuple",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in parse_tuple()",
+  "in_td_file": false
+ }
+]

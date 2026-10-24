@@ -1,0 +1,11 @@
+--- a/boltons/mathutils.py
++++ b/boltons/mathutils.py
+@@ -174,7 +174,7 @@
+                 k += self.len
+             if k < 0 or k >= self.len:
+                 raise IndexError(k)
+-            return bool((1 << (self.len - k - 1)) & self.val)
++            return bool((1 << (self.len + k - 1)) & self.val)
+         raise TypeError(type(k))
+ 
+     def __len__(self):

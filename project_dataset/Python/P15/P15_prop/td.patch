@@ -1,0 +1,108 @@
+diff --git a/src/jinja2/bccache.py b/src/jinja2/bccache.py
+index ada8b099..759ab0fc 100644
+--- a/src/jinja2/bccache.py
++++ b/src/jinja2/bccache.py
+@@ -164,6 +164,18 @@ class BytecodeCache:
+         """Returns a checksum for the source."""
+         return sha1(source.encode("utf-8")).hexdigest()
+ 
++    def resolve_source_info(
++        self, name: str, filename: t.Optional[str], source: str
++    ) -> t.Tuple[str, str]:
++        """Resolve the cache key and source checksum for a template.
++
++        Returns a ``(key, checksum)`` tuple that can be used to
++        construct a :class:`Bucket` for subsequent bytecode lookups.
++        """
++        key = self.get_cache_key(name, filename)
++        checksum = self.get_source_checksum(source)
++        return key, checksum
++
+     def get_bucket(
+         self,
+         environment: "Environment",
+diff --git a/src/jinja2/loaders.py b/src/jinja2/loaders.py
+index 3913ee51..2289072c 100644
+--- a/src/jinja2/loaders.py
++++ b/src/jinja2/loaders.py
+@@ -14,6 +14,7 @@ from hashlib import sha1
+ from importlib import import_module
+ from types import ModuleType
+ 
++from .bccache import Bucket
+ from .exceptions import TemplateNotFound
+ from .utils import internalcode
+ 
+@@ -104,6 +105,39 @@ class BaseLoader:
+         """
+         raise TypeError("this loader cannot iterate over all templates")
+ 
++    def _resolve_cached_bytecode(
++        self,
++        environment: "Environment",
++        name: str,
++        filename: t.Optional[str],
++        source: str,
++    ) -> t.Tuple[t.Optional[Bucket], t.Optional[t.Any]]:
++        """Look up previously compiled bytecode from the environment's
++        bytecode cache, returning ``(bucket, code)``."""
++        bytecode_cache = environment.bytecode_cache
++        if bytecode_cache is None:
++            return None, None
++        cache_key, source_checksum = bytecode_cache.resolve_source_info(
++            name, filename, source
++        )
++        bucket = Bucket(environment, cache_key, source_checksum)
++        bytecode_cache.load_bytecode(bucket)
++        return bucket, bucket.code
++
++    def _persist_compiled_bytecode(
++        self,
++        environment: "Environment",
++        bucket: t.Optional[Bucket],
++        code: t.Any,
++    ) -> None:
++        """Write newly compiled bytecode back into the environment's
++        bytecode cache when appropriate."""
++        if bucket is not None and bucket.code is None:
++            bytecode_cache = environment.bytecode_cache
++            if bytecode_cache is not None:
++                bucket.code = code
++                bytecode_cache.set_bucket(bucket)
++
+     @internalcode
+     def load(
+         self,
+@@ -117,7 +151,6 @@ class BaseLoader:
+         loaders (such as :class:`PrefixLoader` or :class:`ChoiceLoader`)
+         will not call this method but `get_source` directly.
+         """
+-        code = None
+         if globals is None:
+             globals = {}
+ 
+@@ -127,10 +160,9 @@ class BaseLoader:
+ 
+         # try to load the code from the bytecode cache if there is a
+         # bytecode cache configured.
+-        bcc = environment.bytecode_cache
+-        if bcc is not None:
+-            bucket = bcc.get_bucket(environment, name, filename, source)
+-            code = bucket.code
++        bucket, code = self._resolve_cached_bytecode(
++            environment, name, filename, source
++        )
+ 
+         # if we don't have code so far (not cached, no longer up to
+         # date) etc. we compile the template
+@@ -140,9 +172,7 @@ class BaseLoader:
+         # if the bytecode cache is available and the bucket doesn't
+         # have a code so far, we give the bucket the new code and put
+         # it back to the bytecode cache.
+-        if bcc is not None and bucket.code is None:
+-            bucket.code = code
+-            bcc.set_bucket(bucket)
++        self._persist_compiled_bytecode(environment, bucket, code)
+ 
+         return environment.template_class.from_code(
+             environment, code, globals, uptodate

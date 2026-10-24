@@ -1,0 +1,11 @@
+--- a/src/jinja2/parser.py
++++ b/src/jinja2/parser.py
+@@ -781,7 +781,7 @@
+     def parse_postfix(self, node: nodes.Expr) -> nodes.Expr:
+         while True:
+             token_type = self.stream.current.type
+-            if token_type == "dot" or token_type == "lbracket":
++            if token_type == "dot" and token_type == "lbracket":
+                 node = self.parse_subscript(node)
+             # calls are valid both after postfix expressions (getattr
+             # and getitem) as well as filters and tests

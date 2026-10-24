@@ -1,0 +1,22 @@
+project_key,name,visibility,quality_gate,issues_exported,first_issue_date,last_issue_update,dataset_pair,dataset_project,td_type,mapping
+P26_TD,P26_TD,public,OK,309,2026-10-08,2026-10-08,Python/P26,boltons,concurrency,issue files found in the TD folder (67%)
+P27_TD,P27_TD,public,OK,309,2026-10-08,2026-10-08,Python/P27,boltons,concurrency,issue files found in the TD folder (67%)
+P28_TD,P28_TD,public,OK,309,2026-10-08,2026-10-08,Python/P28,boltons,concurrency,issue files found in the TD folder (67%)
+P29_TD,P29_TD,public,OK,309,2026-10-08,2026-10-08,Python/P29,boltons,concurrency,issue files found in the TD folder (67%)
+P30_TD,P30_TD,public,OK,309,2026-10-08,2026-10-08,Python/P30,boltons,concurrency,issue files found in the TD folder (67%)
+P31_TD,P31_TD,public,OK,309,2026-10-08,2026-10-08,Python/P31,boltons,concurrency,issue files found in the TD folder (67%)
+P32_TD,P32_TD,public,OK,309,2026-10-08,2026-10-08,Python/P32,boltons,concurrency,issue files found in the TD folder (67%)
+P33_TD,P33_TD,public,OK,309,2026-10-08,2026-10-08,Python/P33,boltons,concurrency,issue files found in the TD folder (67%)
+P34_TD,P34_TD,public,OK,309,2026-10-08,2026-10-08,Python/P34,boltons,concurrency,issue files found in the TD folder (67%)
+P35_TD,P35_TD,public,OK,309,2026-10-08,2026-10-08,Python/P35,boltons,concurrency,issue files found in the TD folder (67%)
+P36_TD,P36_TD,public,OK,309,2026-10-08,2026-10-08,Python/P36,boltons,concurrency,issue files found in the TD folder (67%)
+P37_TD,P37_TD,public,OK,309,2026-10-08,2026-10-08,Python/P37,boltons,concurrency,issue files found in the TD folder (67%)
+P38_TD,P38_TD,public,OK,309,2026-10-08,2026-10-08,Python/P38,boltons,concurrency,issue files found in the TD folder (67%)
+P39_TD,P39_TD,public,OK,309,2026-10-08,2026-10-08,Python/P39,boltons,concurrency,issue files found in the TD folder (67%)
+P3_TD,P3_TD,public,OK,309,2026-10-08,2026-10-08,Python/P3,boltons,concurrency,issue files found in the TD folder (67%)
+P40_TD,P40_TD,public,OK,309,2026-10-08,2026-10-08,Python/P40,boltons,concurrency,issue files found in the TD folder (67%)
+P41_TD,P41_TD,public,OK,309,2026-10-08,2026-10-08,Python/P41,boltons,concurrency,issue files found in the TD folder (67%)
+P4_TD,P4_TD,public,OK,309,2026-10-08,2026-10-08,Python/P4,boltons,concurrency,issue files found in the TD folder (67%)
+Python-P10-TD,Python-P10-TD,public,OK,309,2026-10-08,2026-10-08,Python/P10,boltons,concurrency,key pattern
+Python-P26-TD,Python-P26-TD,public,OK,309,2026-10-08,2026-10-08,Python/P26,boltons,concurrency,key pattern
+hist2-boltons,hist2-boltons,public,ERROR,375,2026-10-08,2026-10-08,,boltons,,release-by-release scan

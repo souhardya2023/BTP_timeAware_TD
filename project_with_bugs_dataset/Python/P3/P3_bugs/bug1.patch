@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -263,7 +263,7 @@
+             try:
+                 ret = super().pop(key)
+             except KeyError:
+-                if default is _MISSING:
++                if not (default is _MISSING):
+                     raise
+                 ret = default
+             else:

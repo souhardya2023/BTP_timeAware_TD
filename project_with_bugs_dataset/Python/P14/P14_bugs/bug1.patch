@@ -1,0 +1,11 @@
+--- a/src/jinja2/loaders.py
++++ b/src/jinja2/loaders.py
+@@ -236,7 +236,7 @@
+                         .strip(os.path.sep)
+                         .replace(os.path.sep, "/")
+                     )
+-                    if template[:2] == "./":
++                    if not (template[:2] == "./"):
+                         template = template[2:]
+                     if template not in found:
+                         found.add(template)

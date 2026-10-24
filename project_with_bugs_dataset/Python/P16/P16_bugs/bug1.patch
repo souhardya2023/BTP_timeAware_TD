@@ -1,0 +1,11 @@
+--- a/src/jinja2/lexer.py
++++ b/src/jinja2/lexer.py
+@@ -627,7 +627,7 @@
+ 
+             value: t.Any = value_str
+ 
+-            if token == TOKEN_LINESTATEMENT_BEGIN:
++            if token != TOKEN_LINESTATEMENT_BEGIN:
+                 token = TOKEN_BLOCK_BEGIN
+             elif token == TOKEN_LINESTATEMENT_END:
+                 token = TOKEN_BLOCK_END

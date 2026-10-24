@@ -1,0 +1,22 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..bc4c731 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -564,12 +564,11 @@ class BufferedSocket:
+         method. After calling this method, future socket operations
+         will raise :exc:`socket.error`.
+         """
+-        with self._recv_lock:
+-            with self._send_lock:
+-                self.rbuf = b''
+-                self.rbuf_unconsumed = self.rbuf
+-                self.sbuf[:] = []
+-                self.sock.close()
++        with self._send_lock:
++            self.rbuf = b''
++            self.rbuf_unconsumed = self.rbuf
++            self.sbuf[:] = []
++            self.sock.close()
+         return
+ 
+     def shutdown(self, how):

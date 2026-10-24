@@ -1,0 +1,11 @@
+--- a/src/click/_textwrap.py
++++ b/src/click/_textwrap.py
+@@ -43,7 +43,7 @@
+         for idx, line in enumerate(text.splitlines()):
+             indent = self.initial_indent
+ 
+-            if idx > 0:
++            if idx > 1:
+                 indent = self.subsequent_indent
+ 
+             rv.append(f"{indent}{line}")

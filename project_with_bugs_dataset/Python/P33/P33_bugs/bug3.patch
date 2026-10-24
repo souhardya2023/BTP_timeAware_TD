@@ -1,0 +1,14 @@
+--- a/boltons/debugutils.py
++++ b/boltons/debugutils.py
+@@ -201,9 +201,9 @@
+                 try:
+                     ret = func(*a, **kw)
+                 except Exception:
+-                    if not hook(event='raise', label=_label, obj=obj,
++                    if not (not hook(event='raise', label=_label, obj=obj,
+                                 attr_name=attr_name, args=a, kwargs=kw,
+-                                result=sys.exc_info()):
++                                result=sys.exc_info())):
+                         raise
+             else:
+                 ret = func(*a, **kw)

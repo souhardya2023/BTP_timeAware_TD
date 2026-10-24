@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 701,
+  "function": "write_ns",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a comparison in write_ns()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/setutils.py",
+  "line": 283,
+  "function": "isdisjoint",
+  "kind": "negate_cond",
+  "description": "condition negated in isdisjoint()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/listutils.py",
+  "line": 167,
+  "function": "pop",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in pop()",
+  "in_td_file": false
+ }
+]

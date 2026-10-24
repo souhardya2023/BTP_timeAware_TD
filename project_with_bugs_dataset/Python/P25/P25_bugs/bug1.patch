@@ -1,0 +1,11 @@
+--- a/src/jinja2/utils.py
++++ b/src/jinja2/utils.py
+@@ -317,7 +317,7 @@
+                 tail = tail[end_index:]
+ 
+         if _http_re.match(middle):
+-            if middle.startswith("https://") or middle.startswith("http://"):
++            if not (middle.startswith("https://") or middle.startswith("http://")):
+                 middle = (
+                     f'<a href="{middle}"{rel_attr}{target_attr}>{trim_url(middle)}</a>'
+                 )

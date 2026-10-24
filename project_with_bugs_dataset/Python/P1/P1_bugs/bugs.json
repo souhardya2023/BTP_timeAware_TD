@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/werkzeug/security.py",
+  "line": 65,
+  "function": "_hash_internal",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in _hash_internal()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/werkzeug/http.py",
+  "line": 421,
+  "function": "parse_list_header",
+  "kind": "negate_cond",
+  "description": "condition negated in parse_list_header()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/werkzeug/datastructures/accept.py",
+  "line": 283,
+  "function": "_value_matches",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in _value_matches()",
+  "in_td_file": false
+ }
+]

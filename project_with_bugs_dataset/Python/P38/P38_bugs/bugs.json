@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 317,
+  "function": "recv_until",
+  "kind": "negate_cond",
+  "description": "condition negated in recv_until()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/namedutils.py",
+  "line": 186,
+  "function": "namedtuple",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in namedtuple()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/iterutils.py",
+  "line": 1632,
+  "function": "untyped_sorted",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in untyped_sorted()",
+  "in_td_file": false
+ }
+]

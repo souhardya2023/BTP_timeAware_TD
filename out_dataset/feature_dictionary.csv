@@ -1,0 +1,134 @@
+feature,block,what
+s_files,structure,directory layout and file sizes
+s_dirs,structure,directory layout and file sizes
+s_files_per_dir_mean,structure,directory layout and file sizes
+s_files_per_dir_max,structure,directory layout and file sizes
+s_depth_mean,structure,directory layout and file sizes
+s_depth_max,structure,directory layout and file sizes
+s_file_bytes_log_mean,structure,directory layout and file sizes
+s_file_bytes_log_p50,structure,directory layout and file sizes
+s_file_bytes_log_p90,structure,directory layout and file sizes
+s_file_bytes_log_p100,structure,directory layout and file sizes
+s_file_size_gini,structure,directory layout and file sizes
+s_share_headers,structure,directory layout and file sizes
+s_share_init,structure,directory layout and file sizes
+s_graph_nodes,structure,dependency graph (imports / #includes)
+s_graph_edges,structure,dependency graph (imports / #includes)
+s_graph_density,structure,dependency graph (imports / #includes)
+s_graph_edges_per_node,structure,dependency graph (imports / #includes)
+s_cyc_groups,structure,dependency graph (imports / #includes)
+s_cyc_nodes_share,structure,dependency graph (imports / #includes)
+s_cyc_largest,structure,dependency graph (imports / #includes)
+s_fan_in_mean,structure,dependency graph (imports / #includes)
+s_fan_in_p50,structure,dependency graph (imports / #includes)
+s_fan_in_p90,structure,dependency graph (imports / #includes)
+s_fan_in_p100,structure,dependency graph (imports / #includes)
+s_fan_out_mean,structure,dependency graph (imports / #includes)
+s_fan_out_p50,structure,dependency graph (imports / #includes)
+s_fan_out_p90,structure,dependency graph (imports / #includes)
+s_fan_out_p100,structure,dependency graph (imports / #includes)
+s_fan_in_gini,structure,dependency graph (imports / #includes)
+s_fan_out_gini,structure,dependency graph (imports / #includes)
+s_instability_mean,structure,dependency graph (imports / #includes)
+s_isolated_share,structure,dependency graph (imports / #includes)
+s_dep_depth,structure,dependency graph (imports / #includes)
+s_weak_components,structure,dependency graph (imports / #includes)
+s_clustering,structure,dependency graph (imports / #includes)
+s_modularity,structure,dependency graph (imports / #includes)
+s_communities,structure,dependency graph (imports / #includes)
+s_assortativity,structure,dependency graph (imports / #includes)
+s_pagerank_max,structure,dependency graph (imports / #includes)
+s_pagerank_entropy,structure,dependency graph (imports / #includes)
+s_spec_0,structure,dependency graph (imports / #includes)
+s_spec_1,structure,dependency graph (imports / #includes)
+s_spec_2,structure,dependency graph (imports / #includes)
+s_spec_3,structure,dependency graph (imports / #includes)
+s_spec_4,structure,dependency graph (imports / #includes)
+s_spec_5,structure,dependency graph (imports / #includes)
+c_loc,code,"lines of code, comments, file sizes, indentation"
+c_sloc,code,"lines of code, comments, file sizes, indentation"
+c_comment_ratio,code,"lines of code, comments, file sizes, indentation"
+c_blank_ratio,code,"lines of code, comments, file sizes, indentation"
+c_file_sloc_log_mean,code,"lines of code, comments, file sizes, indentation"
+c_file_sloc_log_p50,code,"lines of code, comments, file sizes, indentation"
+c_file_sloc_log_p90,code,"lines of code, comments, file sizes, indentation"
+c_file_sloc_log_p100,code,"lines of code, comments, file sizes, indentation"
+c_big_files,code,"lines of code, comments, file sizes, indentation"
+c_indent_max,code,"lines of code, comments, file sizes, indentation"
+c_indent_mean,code,"lines of code, comments, file sizes, indentation"
+c_functions,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_funcs_per_kloc,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_nloc_mean,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_nloc_p50,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_nloc_p90,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_nloc_p100,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_ccn_mean,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_ccn_p50,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_ccn_p90,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_ccn_p100,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_par_mean,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_par_p50,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_par_p90,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_par_p100,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_tok_mean,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_tok_p50,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_tok_p90,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_nloc_std,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_ccn_sum_per_kloc,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_fn_short_share,code,"functions: count, size, cyclomatic complexity, parameters, tokens"
+c_py_classes,code,Python idioms
+c_py_methods_per_class,code,Python idioms
+c_py_annotated,code,Python idioms
+c_py_doc_funcs,code,Python idioms
+c_py_doc_classes,code,Python idioms
+c_py_decorated,code,Python idioms
+c_py_async,code,Python idioms
+c_py_try_per_kloc,code,Python idioms
+c_py_bare_except_per_kloc,code,Python idioms
+c_py_raise_per_kloc,code,Python idioms
+c_py_lambda_per_kloc,code,Python idioms
+c_c_defines_per_kloc,code,C idioms
+c_c_ifdefs_per_kloc,code,C idioms
+c_c_goto_per_kloc,code,C idioms
+c_c_alloc_per_kloc,code,C idioms
+c_c_arrow_per_kloc,code,C idioms
+c_c_casts_per_kloc,code,C idioms
+c_c_statics_per_kloc,code,C idioms
+c_c_asserts_per_kloc,code,C idioms
+t_long_method,technical_debt,code smells and their principal (COCOMO II)
+t_complex_method,technical_debt,code smells and their principal (COCOMO II)
+t_many_params,technical_debt,code smells and their principal (COCOMO II)
+t_long_share,technical_debt,code smells and their principal (COCOMO II)
+t_complex_share,technical_debt,code smells and their principal (COCOMO II)
+t_params_share,technical_debt,code smells and their principal (COCOMO II)
+t_smell_share,technical_debt,code smells and their principal (COCOMO II)
+t_smell_count,technical_debt,code smells and their principal (COCOMO II)
+t_principal_pm,technical_debt,code smells and their principal (COCOMO II)
+t_principal_pm_per_kloc,technical_debt,code smells and their principal (COCOMO II)
+t_very_complex,technical_debt,code smells and their principal (COCOMO II)
+t_huge_functions,technical_debt,code smells and their principal (COCOMO II)
+t_large_files,technical_debt,code smells and their principal (COCOMO II)
+t_smell_file_share,technical_debt,code smells and their principal (COCOMO II)
+t_smell_top1_share,technical_debt,code smells and their principal (COCOMO II)
+t_god_classes,technical_debt,class cohesion
+t_lcom4_mean,technical_debt,class cohesion
+t_lcom4_gt1_share,technical_debt,class cohesion
+t_lcom4_max,technical_debt,class cohesion
+t_satd_design,technical_debt,self-admitted debt in comments
+t_satd_defect,technical_debt,self-admitted debt in comments
+t_satd_requirement,technical_debt,self-admitted debt in comments
+t_satd_test,technical_debt,self-admitted debt in comments
+t_satd_doc,technical_debt,self-admitted debt in comments
+t_satd_any,technical_debt,self-admitted debt in comments
+t_satd_ratio,technical_debt,self-admitted debt in comments
+t_dup_ratio,technical_debt,duplicated code
+t_dup_blocks,technical_debt,duplicated code
+t_sec_findings,technical_debt,security findings and validation guards
+t_sec_high,technical_debt,security findings and validation guards
+t_guards_per_kloc,technical_debt,security findings and validation guards
+t_conc_lock_per_kloc,technical_debt,concurrency idioms
+t_conc_thread_per_kloc,technical_debt,concurrency idioms
+t_conc_wait_per_kloc,technical_debt,concurrency idioms
+t_conc_atomic_per_kloc,technical_debt,concurrency idioms
+t_conc_global_mut_per_kloc,technical_debt,concurrency idioms
+t_conc_uses_threads,technical_debt,concurrency idioms

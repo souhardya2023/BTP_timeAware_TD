@@ -1,0 +1,11 @@
+--- a/src/strconv.c
++++ b/src/strconv.c
+@@ -112,7 +112,7 @@
+     }
+ 
+     p = buffer;
+-    if (sign == 1) {
++    if (!(sign == 1)) {
+         *p++ = '-';
+     }
+ 

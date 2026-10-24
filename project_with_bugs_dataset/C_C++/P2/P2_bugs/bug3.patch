@@ -1,0 +1,11 @@
+--- a/src/dump.c
++++ b/src/dump.c
+@@ -222,7 +222,7 @@
+         return -1;
+ 
+     if (depth >= JSON_PARSER_MAX_DEPTH)
+-        return -1;
++        return +1;
+ 
+     switch (json_typeof(json)) {
+         case JSON_NULL:

@@ -1,0 +1,12 @@
+diff --git a/src/loader.c b/src/loader.c
+index dea8ac4..f94f63d 100644
+--- a/src/loader.c
++++ b/src/loader.c
+@@ -424,7 +424,6 @@ yaml_parser_load_sequence(yaml_parser_t *parser, yaml_event_t *event,
+     int index;
+     yaml_char_t *tag = event->data.sequence_start.tag;
+ 
+-    if (!STACK_LIMIT(parser, parser->document->nodes, INT_MAX-1)) goto error;
+ 
+     if (!tag || strcmp((char *)tag, "!") == 0) {
+         yaml_free(tag);

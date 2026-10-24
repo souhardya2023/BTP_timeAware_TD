@@ -1,0 +1,38 @@
+diff --git a/src/jinja2/loaders.py b/src/jinja2/loaders.py
+index 3913ee51..6e4c2734 100644
+--- a/src/jinja2/loaders.py
++++ b/src/jinja2/loaders.py
+@@ -14,6 +14,7 @@ from hashlib import sha1
+ from importlib import import_module
+ from types import ModuleType
+ 
++from .bccache import Bucket
+ from .exceptions import TemplateNotFound
+ from .utils import internalcode
+ 
+@@ -128,8 +129,12 @@ class BaseLoader:
+         # try to load the code from the bytecode cache if there is a
+         # bytecode cache configured.
+         bcc = environment.bytecode_cache
++        bucket: t.Optional[Bucket] = None
+         if bcc is not None:
+-            bucket = bcc.get_bucket(environment, name, filename, source)
++            key = bcc.get_cache_key(name, filename)
++            checksum = bcc.get_source_checksum(source)
++            bucket = Bucket(environment, key, checksum)
++            bcc.load_bytecode(bucket)
+             code = bucket.code
+ 
+         # if we don't have code so far (not cached, no longer up to
+@@ -140,9 +145,9 @@ class BaseLoader:
+         # if the bytecode cache is available and the bucket doesn't
+         # have a code so far, we give the bucket the new code and put
+         # it back to the bytecode cache.
+-        if bcc is not None and bucket.code is None:
++        if bcc is not None and bucket is not None and bucket.code is None:
+             bucket.code = code
+-            bcc.set_bucket(bucket)
++            bcc.dump_bytecode(bucket)
+ 
+         return environment.template_class.from_code(
+             environment, code, globals, uptodate

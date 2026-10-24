@@ -1,0 +1,85 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..b081e61 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -378,44 +378,43 @@ class BufferedSocket:
+         :exc:`Timeout` will be raised. If the connection is closed, a
+         :exc:`ConnectionClosed` will be raised.
+         """
+-        with self._recv_lock:
+-            if timeout is _UNSET:
+-                timeout = self.timeout
+-            chunks = []
+-            total_bytes = 0
+-            try:
+-                start = time.time()
+-                self.sock.settimeout(timeout)
+-                nxt = self.rbuf or self.sock.recv(self._recvsize)
+-                while nxt:
+-                    total_bytes += len(nxt)
+-                    if total_bytes >= size:
+-                        break
+-                    chunks.append(nxt)
+-                    if timeout:
+-                        cur_timeout = timeout - (time.time() - start)
+-                        if cur_timeout <= 0.0:
+-                            raise socket.timeout()
+-                        self.sock.settimeout(cur_timeout)
+-                    nxt = self.sock.recv(self._recvsize)
+-                else:
+-                    msg = ('connection closed after reading %s of %s requested'
+-                           ' bytes' % (total_bytes, size))
+-                    raise ConnectionClosed(msg)  # check recv buffer
+-            except socket.timeout:
+-                self.rbuf = b''.join(chunks)
+-                msg = f'read {total_bytes} of {size} bytes'
+-                raise Timeout(timeout, msg)  # check recv buffer
+-            except Exception:
+-                # received data is still buffered in the case of errors
+-                self.rbuf = b''.join(chunks)
+-                raise
+-            extra_bytes = total_bytes - size
+-            if extra_bytes:
+-                last, self.rbuf = nxt[:-extra_bytes], nxt[-extra_bytes:]
++        if timeout is _UNSET:
++            timeout = self.timeout
++        chunks = []
++        total_bytes = 0
++        try:
++            start = time.time()
++            self.sock.settimeout(timeout)
++            nxt = self.rbuf or self.sock.recv(self._recvsize)
++            while nxt:
++                total_bytes += len(nxt)
++                if total_bytes >= size:
++                    break
++                chunks.append(nxt)
++                if timeout:
++                    cur_timeout = timeout - (time.time() - start)
++                    if cur_timeout <= 0.0:
++                        raise socket.timeout()
++                    self.sock.settimeout(cur_timeout)
++                nxt = self.sock.recv(self._recvsize)
+             else:
+-                last, self.rbuf = nxt, b''
+-            chunks.append(last)
++                msg = ('connection closed after reading %s of %s requested'
++                       ' bytes' % (total_bytes, size))
++                raise ConnectionClosed(msg)  # check recv buffer
++        except socket.timeout:
++            self.rbuf = b''.join(chunks)
++            msg = f'read {total_bytes} of {size} bytes'
++            raise Timeout(timeout, msg)  # check recv buffer
++        except Exception:
++            # received data is still buffered in the case of errors
++            self.rbuf = b''.join(chunks)
++            raise
++        extra_bytes = total_bytes - size
++        if extra_bytes:
++            last, self.rbuf = nxt[:-extra_bytes], nxt[-extra_bytes:]
++        else:
++            last, self.rbuf = nxt, b''
++        chunks.append(last)
+         return b''.join(chunks)
+ 
+     def send(self, data, flags=0, timeout=_UNSET):

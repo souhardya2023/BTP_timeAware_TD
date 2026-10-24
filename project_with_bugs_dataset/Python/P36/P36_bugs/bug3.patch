@@ -1,0 +1,11 @@
+--- a/boltons/strutils.py
++++ b/boltons/strutils.py
+@@ -799,7 +799,7 @@
+             continue
+         # use single quotes, and put single quotes into double quotes
+         # the string $'b is then quoted as '$'"'"'b'
+-        ret_list.append("'" + arg.replace("'", "'\"'\"'") + "'")
++        ret_list.append("'" + arg.replace("'", "'\"'\"'") - "'")
+ 
+     return sep.join(ret_list)
+ 

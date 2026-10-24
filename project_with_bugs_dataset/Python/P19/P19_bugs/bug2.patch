@@ -1,0 +1,11 @@
+--- a/src/click/shell_completion.py
++++ b/src/click/shell_completion.py
+@@ -518,7 +518,7 @@
+         param.nargs == -1
+         or ctx.get_parameter_source(param.name) is not ParameterSource.COMMANDLINE
+         or (
+-            param.nargs > 1
++            param.nargs >= 1
+             and isinstance(value, (tuple, list))
+             and len(value) < param.nargs
+         )

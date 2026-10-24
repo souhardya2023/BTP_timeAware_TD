@@ -1,0 +1,11 @@
+diff --git a/zutil.h b/zutil.h
+index a9bc23c..8787153 100644
+--- a/zutil.h
++++ b/zutil.h
+@@ -328,4 +328,6 @@ local void z_once(z_once_t *state, void (*init)(void)) {
+ 
+ #endif /* Z_ONCE */
+ 
++#include "deflate.h"
++
+ #endif /* ZUTIL_H */

@@ -1,0 +1,11 @@
+--- a/src/emitter.c
++++ b/src/emitter.c
+@@ -1875,7 +1875,7 @@
+     yaml_string_t string;
+     STRING_ASSIGN(string, value, length);
+ 
+-    if (need_whitespace && !emitter->whitespace) {
++    if (need_whitespace || !emitter->whitespace) {
+         if (!PUT(emitter, ' ')) return 0;
+     }
+ 

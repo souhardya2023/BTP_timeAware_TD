@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 344,
+  "function": "recv_until",
+  "kind": "negate_cond",
+  "description": "condition negated in recv_until()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/tbutils.py",
+  "line": 592,
+  "function": "format_exception_only",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in format_exception_only()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/listutils.py",
+  "line": 184,
+  "function": "iter_slice",
+  "kind": "cmp_boundary",
+  "description": "`<` -> `<=` in a comparison in iter_slice()",
+  "in_td_file": false
+ }
+]

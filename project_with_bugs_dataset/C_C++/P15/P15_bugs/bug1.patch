@@ -1,0 +1,11 @@
+--- a/src/loader.c
++++ b/src/loader.c
+@@ -466,7 +466,7 @@
+ 
+     assert(((*ctx).top - (*ctx).start) > 0);
+ 
+-    index = *((*ctx).top - 1);
++    index = *((*ctx).top + 1);
+     assert(parser->document->nodes.start[index-1].type == YAML_SEQUENCE_NODE);
+     parser->document->nodes.start[index-1].end_mark = event->end_mark;
+ 

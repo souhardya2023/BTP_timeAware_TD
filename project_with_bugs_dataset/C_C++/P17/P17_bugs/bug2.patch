@@ -1,0 +1,11 @@
+--- a/src/scanner.c
++++ b/src/scanner.c
+@@ -3052,7 +3052,7 @@
+     int leading_blanks;
+ 
+     if (!STRING_INIT(parser, string, INITIAL_STRING_SIZE)) goto error;
+-    if (!STRING_INIT(parser, leading_break, INITIAL_STRING_SIZE)) goto error;
++    if (!(!STRING_INIT(parser, leading_break, INITIAL_STRING_SIZE))) goto error;
+     if (!STRING_INIT(parser, trailing_breaks, INITIAL_STRING_SIZE)) goto error;
+     if (!STRING_INIT(parser, whitespaces, INITIAL_STRING_SIZE)) goto error;
+ 

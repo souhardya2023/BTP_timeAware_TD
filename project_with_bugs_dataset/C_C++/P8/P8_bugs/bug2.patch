@@ -1,0 +1,11 @@
+--- a/src/load.c
++++ b/src/load.c
+@@ -355,7 +355,7 @@
+          - two \uXXXX escapes (length 12) forming an UTF-16 surrogate pair
+            are converted to 4 bytes
+     */
+-    t = jsonp_malloc(lex->saved_text.length + 1);
++    t = jsonp_malloc(lex->saved_text.length - 1);
+     if (!t) {
+         /* this is not very nice, since TOKEN_INVALID is returned */
+         goto out;

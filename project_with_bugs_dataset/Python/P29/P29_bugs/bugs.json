@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 804,
+  "function": "update",
+  "kind": "negate_cond",
+  "description": "condition negated in update()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/timeutils.py",
+  "line": 129,
+  "function": "isoparse",
+  "kind": "const_off_by_one",
+  "description": "constant 6 -> 7 in isoparse()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/tbutils.py",
+  "line": 523,
+  "function": "to_dict",
+  "kind": "arith",
+  "description": "`-` -> `+` in an expression in to_dict()",
+  "in_td_file": false
+ }
+]

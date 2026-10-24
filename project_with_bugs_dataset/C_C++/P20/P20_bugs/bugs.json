@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "pngset.c",
+  "line": 252,
+  "function": "png_set_mDCV_fixed",
+  "kind": "negate_cond",
+  "description": "condition negated in png_set_mDCV_fixed()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "png.c",
+  "line": 1606,
+  "function": "png_icc_check_length",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a condition in png_icc_check_length()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "pngwrite.c",
+  "line": 1511,
+  "function": "png_write_png",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in a condition in png_write_png()",
+  "in_td_file": false
+ }
+]

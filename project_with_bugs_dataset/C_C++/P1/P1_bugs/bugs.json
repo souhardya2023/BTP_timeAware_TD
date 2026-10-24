@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/dump.c",
+  "line": 394,
+  "function": "do_dump",
+  "kind": "negate_cond",
+  "description": "condition negated in do_dump()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/dtoa.c",
+  "line": 3990,
+  "function": "gethex",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in a condition in gethex()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/hashtable_seed.c",
+  "line": 271,
+  "function": "json_object_seed",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a condition in json_object_seed()",
+  "in_td_file": false
+ }
+]

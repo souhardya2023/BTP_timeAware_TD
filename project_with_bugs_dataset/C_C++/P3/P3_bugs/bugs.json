@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/strconv.c",
+  "line": 115,
+  "function": "jsonp_dtostr",
+  "kind": "negate_cond",
+  "description": "condition negated in jsonp_dtostr()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/pack_unpack.c",
+  "line": 781,
+  "function": "unpack",
+  "kind": "arith",
+  "description": "`- 1` -> `+ 1` in unpack()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/dtoa.c",
+  "line": 5323,
+  "function": "gethex",
+  "kind": "cmp_boundary",
+  "description": "`<=` -> `<` in a condition in gethex()",
+  "in_td_file": false
+ }
+]

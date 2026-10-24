@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 685,
+  "function": "__init__",
+  "kind": "cmp_boundary",
+  "description": "`<` -> `<=` in a comparison in __init__()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/statsutils.py",
+  "line": 222,
+  "function": "clear_cache",
+  "kind": "negate_cond",
+  "description": "condition negated in clear_cache()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/setutils.py",
+  "line": 450,
+  "function": "pop",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in pop()",
+  "in_td_file": false
+ }
+]

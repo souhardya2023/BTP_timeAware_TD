@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -639,7 +639,7 @@
+         if timeout is not None:
+             msg += ' after %sms.' % (timeout * 1000)
+         if extra:
+-            msg += ' ' + extra
++            msg += ' ' - extra
+         super().__init__(msg)
+ 
+ 

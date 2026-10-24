@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "gzlib.c",
+  "line": 339,
+  "function": "gzbuffer",
+  "kind": "const_off_by_one",
+  "description": "constant 8 -> 9 in a condition in gzbuffer()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "trees.c",
+  "line": 769,
+  "function": "send_tree",
+  "kind": "cmp_boundary",
+  "description": "`<` -> `<=` in a condition in send_tree()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "inffast.c",
+  "line": 217,
+  "function": "inflate_fast",
+  "kind": "negate_cond",
+  "description": "condition negated in inflate_fast()",
+  "in_td_file": false
+ }
+]

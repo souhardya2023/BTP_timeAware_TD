@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/loader.c",
+  "line": 469,
+  "function": "yaml_parser_load_sequence_end",
+  "kind": "arith",
+  "description": "`- 1` -> `+ 1` in yaml_parser_load_sequence_end()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/dumper.c",
+  "line": 385,
+  "function": "yaml_emitter_dump_mapping",
+  "kind": "negate_cond",
+  "description": "condition negated in yaml_emitter_dump_mapping()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/scanner.c",
+  "line": 2844,
+  "function": "yaml_parser_scan_block_scalar",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in a condition in yaml_parser_scan_block_scalar()",
+  "in_td_file": false
+ }
+]

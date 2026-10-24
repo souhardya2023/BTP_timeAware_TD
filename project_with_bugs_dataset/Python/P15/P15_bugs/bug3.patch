@@ -1,0 +1,11 @@
+--- a/src/jinja2/tests.py
++++ b/src/jinja2/tests.py
+@@ -19,7 +19,7 @@
+ 
+ def test_even(value: int) -> bool:
+     """Return true if the variable is even."""
+-    return value % 2 == 0
++    return value % 2 != 0
+ 
+ 
+ def test_divisibleby(value: int, num: int) -> bool:

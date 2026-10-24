@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 458,
+  "function": "send",
+  "kind": "cmp_boundary",
+  "description": "`<=` -> `<` in a comparison in send()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/funcutils.py",
+  "line": 94,
+  "function": "inspect_formatargspec",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in inspect_formatargspec()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/debugutils.py",
+  "line": 204,
+  "function": "wrapped",
+  "kind": "negate_cond",
+  "description": "condition negated in wrapped()",
+  "in_td_file": false
+ }
+]

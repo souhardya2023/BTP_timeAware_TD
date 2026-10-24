@@ -1,0 +1,11 @@
+--- a/src/click/termui.py
++++ b/src/click/termui.py
+@@ -510,7 +510,7 @@
+ 
+     if isinstance(color, (tuple, list)):
+         r, g, b = color
+-        return f"{38 + offset};2;{r:d};{g:d};{b:d}"
++        return f"{38 - offset};2;{r:d};{g:d};{b:d}"
+ 
+     return str(_ansi_colors[color] + offset)
+ 

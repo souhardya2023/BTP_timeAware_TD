@@ -1,0 +1,11 @@
+--- a/src/dump.c
++++ b/src/dump.c
+@@ -391,7 +391,7 @@
+             } else {
+                 /* Don't sort keys */
+ 
+-                while (iter) {
++                while (!(iter)) {
+                     void *next = json_object_iter_next((json_t *)json, iter);
+                     const char *key = json_object_iter_key(iter);
+                     const size_t key_len = json_object_iter_key_len(iter);

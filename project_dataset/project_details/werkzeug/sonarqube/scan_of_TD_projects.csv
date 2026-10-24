@@ -1,0 +1,544 @@
+Pair,Language,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,Sonar_Rule,Sonar_Severity,Sonar_Type,Sonar_File,Sonar_Line,Sonar_Message
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/_header_property.py,66,"Define a constant instead of duplicating this literal ""read only property"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/_header_property.py,233,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/_header_property.py,253,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/_header_property.py,276,"Remove the unused function parameter ""cls""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/_header_property.py,287,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S6353,MINOR,CODE_SMELL,src/werkzeug/_internal.py,116,Use concise character class syntax '\d' instead of '[0-9]'.
+P1,Python,werkzeug,security,predictable_salt,3,python:S7496,MINOR,CODE_SMELL,src/werkzeug/_reloader.py,21,Replace this tuple constructor call by a tuple literal.
+P1,Python,werkzeug,security,predictable_salt,3,python:S7504,MINOR,CODE_SMELL,src/werkzeug/_reloader.py,47,Remove this unnecessary `list()` call on an already iterable object.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/_reloader.py,69,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S6353,MINOR,CODE_SMELL,src/werkzeug/datastructures/accept.py,15,Use concise character class syntax '\d' instead of '[0-9]'.
+P1,Python,werkzeug,security,predictable_salt,3,python:S2638,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/accept.py,109,Add missing parameters start stop. This method overrides collections.abc.Sequence.index.
+P1,Python,werkzeug,security,predictable_salt,3,python:S6395,MAJOR,CODE_SMELL,src/werkzeug/datastructures/accept.py,247,Unwrap this unnecessarily grouped subpattern.
+P1,Python,werkzeug,security,predictable_salt,3,python:S8786,MAJOR,CODE_SMELL,src/werkzeug/datastructures/accept.py,247,"Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/headers.py,509,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,58,"Remove the unused function parameter ""item""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,61,"Remove the unused function parameter ""item""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,64,"Remove the unused function parameter ""iterable""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,67,"Remove the unused function parameter ""pos""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,67,"Remove the unused function parameter ""value""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,70,"Remove the unused function parameter ""index""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,76,"Remove the unused function parameter ""reverse""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,76,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,201,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,201,"Remove the unused function parameter ""value""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,204,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,204,"Remove the unused function parameter ""values""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,207,"Remove the unused function parameter ""value""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,207,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,210,"Remove the unused function parameter ""value""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,210,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,213,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,216,"Remove the unused function parameter ""arg""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,219,"Remove the unused function parameter ""arg""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,225,"Remove the unused function parameter ""pos""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,225,"Remove the unused function parameter ""value""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,228,"Remove the unused function parameter ""default""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,228,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,234,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,234,"Remove the unused function parameter ""default""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,237,"Remove the unused function parameter ""key""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,237,"Remove the unused function parameter ""default""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1135,INFO,CODE_SMELL,src/werkzeug/datastructures/range.py,196,"Complete the task associated to this ""TODO"" comment."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/range.py,203,Refactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/range.py,426,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/structures.py,186,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S7494,MINOR,CODE_SMELL,src/werkzeug/datastructures/structures.py,675,Replace set constructor call with a set comprehension.
+P1,Python,werkzeug,security,predictable_salt,3,python:S2638,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/structures.py,817,Make parameter self keyword-or-positional. This method overrides typing.MutableMapping.setdefault.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/__init__.py,56,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/__init__.py,143,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/debug/__init__.py,365,"Define a constant instead of duplicating this literal ""text/html"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,390,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""execute_command"" type hint."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,403,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""display_console"" type hint."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,425,"Return a value of type ""Response"" instead of ""NotFound"" or update function ""get_resource"" type hint."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,428,"Return a value of type ""Response"" instead of ""NotFound"" or update function ""get_resource"" type hint."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,475,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""pin_auth"" type hint."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,529,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""log_pin_request"" type hint."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1186,CRITICAL,CODE_SMELL,src/werkzeug/debug/console.py,28,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1186,CRITICAL,CODE_SMELL,src/werkzeug/debug/console.py,31,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1186,CRITICAL,CODE_SMELL,src/werkzeug/debug/console.py,34,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/console.py,138,Rename this variable; it shadows a builtin.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/console.py,209,Rename this variable; it shadows a builtin.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/console.py,211,Rename this variable; it shadows a builtin.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/debug/repr.py,109,"Define a constant instead of duplicating this literal '<span class=""extended"">' 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/debug/repr.py,113,"Define a constant instead of duplicating this literal ""</span>"" 4 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/repr.py,243,Rename this variable; it shadows a builtin.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S2703,BLOCKER,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,60,"Add the ""let"", ""const"" or ""var"" keyword to this declaration of ""EVALEX_TRUSTED"" to make it explicit."
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S7741,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,121,Compare with `undefined` directly instead of using `typeof`.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,156,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,174,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,179,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,199,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S7778,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,212,Do not call `Element#classList.add()` multiple times.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S7762,MAJOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,257,Prefer `childNode.remove()` over `parentNode.removeChild(childNode)`.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S7768,MAJOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,285,"Prefer `spanToWrap.before(wrapperSpan)` over `parentDiv.insertBefore(wrapperSpan, spanToWrap)`."
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S7762,MAJOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,288,Prefer `childNode.remove()` over `parentNode.removeChild(childNode)`.
+P1,Python,werkzeug,security,predictable_salt,3,javascript:S7773,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,330,Prefer `Number.parseFloat` over `parseFloat`.
+P1,Python,werkzeug,security,predictable_salt,3,css:S4656,MAJOR,BUG,src/werkzeug/debug/shared/style.css,91,"Duplicate property ""background"""
+P1,Python,werkzeug,security,predictable_salt,3,css:S4656,MAJOR,BUG,src/werkzeug/debug/shared/style.css,106,"Duplicate property ""white-space"""
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/tbtools.py,126,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5707,CRITICAL,BUG,src/werkzeug/debug/tbtools.py,212,Replace this expression with an exception or None
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/tbtools.py,272,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,100,"Remove the unused function parameter ""environ""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,101,"Remove the unused function parameter ""scope""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,115,"Remove the unused function parameter ""scope""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,128,"Remove the unused function parameter ""environ""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,129,"Remove the unused function parameter ""scope""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S7498,MINOR,CODE_SMELL,src/werkzeug/formparser.py,128,Replace this constructor call with a literal.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/formparser.py,140,"Define a constant instead of duplicating this literal ""The 'cls' parameter is deprecated and will be removed in Werkzeug 4.0."" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S7498,MINOR,CODE_SMELL,src/werkzeug/formparser.py,297,Replace this constructor call with a literal.
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/formparser.py,401,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/formparser.py,414,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/http.py,543,Refactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/http.py,913,"Remove the unused function parameter ""make_inclusive""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/http.py,1299,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1135,INFO,CODE_SMELL,src/werkzeug/http.py,1417,"Complete the task associated to this ""TODO"" comment."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/local.py,286,"Remove the unused function parameter ""instance""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/local.py,294,"Remove the unused function parameter ""instance""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/local.py,478,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/http_proxy.py,103,Refactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,165,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,264,"Define a constant instead of duplicating this literal ""wsgi.input"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,265,"Define a constant instead of duplicating this literal ""wsgi.errors"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,296,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1066,MAJOR,CODE_SMELL,src/werkzeug/middleware/lint.py,368,Merge this if statement with the enclosing one.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/middleware/proxy_fix.py,144,"Define a constant instead of duplicating this literal ""wsgi.url_scheme"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/shared_data.py,212,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/routing/converters.py,185,"Define a constant instead of duplicating this literal ""Outside of allowed range."" 4 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,284,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,541,Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,841,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,882,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/matcher.py,75,Refactor this function to reduce its Cognitive Complexity from 95 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5843,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,46,Simplify this regular expression to reduce its complexity from 23 to the 20 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S6395,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,52,Unwrap this unnecessarily grouped subpattern.
+P1,Python,werkzeug,security,predictable_salt,3,python:S6353,MINOR,CODE_SMELL,src/werkzeug/routing/rules.py,55,Use concise character class syntax '\w' instead of '[a-zA-Z0-9_]'.
+P1,Python,werkzeug,security,predictable_salt,3,python:S6353,MINOR,CODE_SMELL,src/werkzeug/routing/rules.py,59,Use concise character class syntax '\w' instead of '[a-zA-Z0-9_]'.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5843,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,69,Simplify this regular expression to reduce its complexity from 39 to the 20 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S8786,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,70,"Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5855,MAJOR,BUG,src/werkzeug/routing/rules.py,73,Remove or rework this redundant alternative.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5869,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,77,Remove duplicates in this character class.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/rules.py,270,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5890,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,480,"Replace the type hint ""Map"" with ""Optional[Map]"" or don't assign ""None"" to this expression"
+P1,Python,werkzeug,security,predictable_salt,3,python:S7498,MINOR,CODE_SMELL,src/werkzeug/routing/rules.py,542,Replace this constructor call with a literal.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,584,"Remove the unused function parameter ""variable_name""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/rules.py,605,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/rules.py,739,Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/http.py,13,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5843,MAJOR,CODE_SMELL,src/werkzeug/sansio/http.py,95,Simplify this regular expression to reduce its complexity from 28 to the 20 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/multipart.py,140,Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1481,MINOR,CODE_SMELL,src/werkzeug/sansio/multipart.py,174,"Replace the unused local variable ""disposition"" with ""_""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/multipart.py,175,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/multipart.py,306,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/sansio/request.py,180,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/sansio/request.py,210,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/sansio/request.py,611,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,286,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,292,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/sansio/response.py,401,"Define a constant instead of duplicating this literal ""The 'content_md5' attribute is deprecated and will be removed in"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,420,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,434,"Use "".get()"" method to safely access this header."
+P1,Python,werkzeug,security,predictable_salt,3,python:S6353,MINOR,CODE_SMELL,src/werkzeug/sansio/utils.py,19,Use concise character class syntax '\d' instead of '[0-9]'.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/utils.py,25,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S7494,MINOR,CODE_SMELL,src/werkzeug/security.py,13,Replace list constructor call with a list comprehension.
+P1,Python,werkzeug,security,predictable_salt,3,python:S2245,MAJOR,VULNERABILITY,src/werkzeug/security.py,118,Make sure that using this pseudorandom number generator is safe here.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,121,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,171,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,193,"Define a constant instead of duplicating this literal ""wsgi.input"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,252,Refactor this function to reduce its Cognitive Complexity from 52 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/serving.py,659,"Remove the unused function parameter ""port""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1313,MINOR,CODE_SMELL,src/werkzeug/serving.py,693,"Make sure using this hardcoded IP address ""fd31:f903:5ab5:1::1"" is safe here."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1313,MINOR,CODE_SMELL,src/werkzeug/serving.py,693,"Make sure using this hardcoded IP address ""10.253.155.219"" is safe here."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,715,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5332,MINOR,VULNERABILITY,src/werkzeug/serving.py,823,Using HTTP protocol is insecure. Use HTTPS instead.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5747,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,833,"Remove this ""raise"" statement or move it inside an ""except"" block."
+P1,Python,werkzeug,security,predictable_salt,3,python:S107,MAJOR,CODE_SMELL,src/werkzeug/serving.py,965,"Function ""run_simple"" has 16 parameters, which is greater than the 13 authorized."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,56,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S2245,MAJOR,VULNERABILITY,src/werkzeug/test.py,72,Make sure that using this pseudorandom number generator is safe here.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1481,MINOR,CODE_SMELL,src/werkzeug/test.py,159,"Replace the unused local variable ""length"" with ""_""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,285,Refactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S107,MAJOR,CODE_SMELL,src/werkzeug/test.py,286,"Method ""__init__"" has 18 parameters, which is greater than the 13 authorized."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,1004,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1481,MINOR,CODE_SMELL,src/werkzeug/test.py,1013,"Replace the unused local variable ""anchor"" with ""_""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S2836,MAJOR,CODE_SMELL,src/werkzeug/test.py,1153,"Add a ""break"" statement or remove this ""else"" clause."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,1232,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S117,MINOR,CODE_SMELL,src/werkzeug/utils.py,211,"Rename this parameter ""Response"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/utils.py,304,Refactor this function to reduce its Cognitive Complexity from 72 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/wrappers/request.py,360,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1135,INFO,CODE_SMELL,src/werkzeug/wrappers/request.py,385,"Complete the task associated to this ""TODO"" comment."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5756,BLOCKER,BUG,src/werkzeug/wrappers/request.py,428,Fix this call; this expression has type NoneType and it is not callable.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5756,BLOCKER,BUG,src/werkzeug/wrappers/request.py,429,Fix this call; this expression has type NoneType and it is not callable.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1135,INFO,CODE_SMELL,src/werkzeug/wrappers/request.py,448,"Complete the task associated to this ""TODO"" comment."
+P1,Python,werkzeug,security,predictable_salt,3,python:S1135,INFO,CODE_SMELL,src/werkzeug/wrappers/request.py,666,"Complete the task associated to this ""TODO"" comment."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/wrappers/request.py,814,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/wrappers/response.py,650,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S3626,MINOR,CODE_SMELL,src/werkzeug/wrappers/response.py,705,Remove this redundant return.
+P1,Python,werkzeug,security,predictable_salt,3,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/wrappers/response.py,861,"Define a constant instead of duplicating this literal ""I/O operation on closed file"" 3 times."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/wsgi.py,541,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9083,MINOR,CODE_SMELL,tests/conftest.py,231,Remove empty parentheses from this decorator.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9083,MINOR,CODE_SMELL,tests/conftest.py,247,Remove empty parentheses from this decorator.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_apply_conditions.py,73,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_apply_conditions.py,124,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_apply_range.py,78,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_datastructures.py,219,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_datastructures.py,222,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,239,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,244,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,296,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,612,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,617,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_datastructures.py,740,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_datastructures.py,765,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_datastructures.py,767,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,192,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,199,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,209,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P1,Python,werkzeug,security,predictable_salt,3,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,214,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_exceptions.py,59,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_exceptions.py,67,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_exceptions.py,68,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_exceptions.py,71,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_exceptions.py,72,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_formparser.py,60,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_formparser.py,85,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_formparser.py,101,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_formparser.py,389,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_formparser.py,394,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_formparser.py,438,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_http.py,34,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_http.py,49,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,132,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,134,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,136,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,139,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,142,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_local.py,51,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_local.py,52,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_local.py,79,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_local.py,80,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,36,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,37,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,138,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,190,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,191,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,213,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,214,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,224,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,225,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,286,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,298,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,309,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,330,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,351,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,368,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,377,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,402,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,460,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,512,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,567,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,699,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,1104,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_routing.py,1194,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9073,MAJOR,CODE_SMELL,tests/test_routing.py,1258,Split this composite assertion into separate assertions.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,1853,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,1906,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_send_file.py,82,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S5778,MAJOR,CODE_SMELL,tests/test_serving.py,331,Refactor this exception test to have only one invocation possibly throwing an exception.
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_test.py,490,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_test.py,502,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_test.py,508,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_test.py,743,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9078,MAJOR,CODE_SMELL,tests/test_urls.py,78,Remove this duplicate test case.
+P1,Python,werkzeug,security,predictable_salt,3,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,167,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_utils.py,169,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_utils.py,190,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_utils.py,191,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3415,MAJOR,CODE_SMELL,tests/test_wrappers.py,97,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P1,Python,werkzeug,security,predictable_salt,3,python:S3415,MAJOR,CODE_SMELL,tests/test_wrappers.py,99,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,157,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,158,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,159,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,160,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,161,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,368,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,632,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,633,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,634,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wrappers.py,807,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wsgi.py,66,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wsgi.py,69,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wsgi.py,72,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wsgi.py,88,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P1,Python,werkzeug,security,predictable_salt,3,python:S9000,MAJOR,BUG,tests/test_wsgi.py,99,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/_header_property.py,66,"Define a constant instead of duplicating this literal ""read only property"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/_header_property.py,233,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/_header_property.py,253,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/_header_property.py,276,"Remove the unused function parameter ""cls""."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/_header_property.py,287,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S6353,MINOR,CODE_SMELL,src/werkzeug/_internal.py,116,Use concise character class syntax '\d' instead of '[0-9]'.
+P2,Python,werkzeug,security,weak_hash,1,python:S7496,MINOR,CODE_SMELL,src/werkzeug/_reloader.py,21,Replace this tuple constructor call by a tuple literal.
+P2,Python,werkzeug,security,weak_hash,1,python:S7504,MINOR,CODE_SMELL,src/werkzeug/_reloader.py,47,Remove this unnecessary `list()` call on an already iterable object.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/_reloader.py,69,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S6353,MINOR,CODE_SMELL,src/werkzeug/datastructures/accept.py,15,Use concise character class syntax '\d' instead of '[0-9]'.
+P2,Python,werkzeug,security,weak_hash,1,python:S2638,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/accept.py,109,Add missing parameters start stop. This method overrides collections.abc.Sequence.index.
+P2,Python,werkzeug,security,weak_hash,1,python:S8786,MAJOR,CODE_SMELL,src/werkzeug/datastructures/accept.py,247,"Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking."
+P2,Python,werkzeug,security,weak_hash,1,python:S6395,MAJOR,CODE_SMELL,src/werkzeug/datastructures/accept.py,247,Unwrap this unnecessarily grouped subpattern.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/headers.py,509,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,58,"Remove the unused function parameter ""item""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,61,"Remove the unused function parameter ""item""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,64,"Remove the unused function parameter ""iterable""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,67,"Remove the unused function parameter ""value""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,67,"Remove the unused function parameter ""pos""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,70,"Remove the unused function parameter ""index""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,76,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,76,"Remove the unused function parameter ""reverse""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,201,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,201,"Remove the unused function parameter ""value""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,204,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,204,"Remove the unused function parameter ""values""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,207,"Remove the unused function parameter ""value""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,207,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,210,"Remove the unused function parameter ""value""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,210,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,213,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,216,"Remove the unused function parameter ""arg""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,219,"Remove the unused function parameter ""arg""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,225,"Remove the unused function parameter ""value""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,225,"Remove the unused function parameter ""pos""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,228,"Remove the unused function parameter ""default""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,228,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,234,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,234,"Remove the unused function parameter ""default""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,237,"Remove the unused function parameter ""key""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/datastructures/mixins.py,237,"Remove the unused function parameter ""default""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1135,INFO,CODE_SMELL,src/werkzeug/datastructures/range.py,196,"Complete the task associated to this ""TODO"" comment."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/range.py,203,Refactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/range.py,426,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/structures.py,186,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S7494,MINOR,CODE_SMELL,src/werkzeug/datastructures/structures.py,675,Replace set constructor call with a set comprehension.
+P2,Python,werkzeug,security,weak_hash,1,python:S2638,CRITICAL,CODE_SMELL,src/werkzeug/datastructures/structures.py,817,Make parameter self keyword-or-positional. This method overrides typing.MutableMapping.setdefault.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/__init__.py,56,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/__init__.py,143,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/debug/__init__.py,365,"Define a constant instead of duplicating this literal ""text/html"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,390,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""execute_command"" type hint."
+P2,Python,werkzeug,security,weak_hash,1,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,403,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""display_console"" type hint."
+P2,Python,werkzeug,security,weak_hash,1,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,425,"Return a value of type ""Response"" instead of ""NotFound"" or update function ""get_resource"" type hint."
+P2,Python,werkzeug,security,weak_hash,1,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,428,"Return a value of type ""Response"" instead of ""NotFound"" or update function ""get_resource"" type hint."
+P2,Python,werkzeug,security,weak_hash,1,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,475,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""pin_auth"" type hint."
+P2,Python,werkzeug,security,weak_hash,1,python:S5886,MAJOR,CODE_SMELL,src/werkzeug/debug/__init__.py,529,"Return a value of type ""Response"" instead of ""SecurityError"" or update function ""log_pin_request"" type hint."
+P2,Python,werkzeug,security,weak_hash,1,python:S1186,CRITICAL,CODE_SMELL,src/werkzeug/debug/console.py,28,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P2,Python,werkzeug,security,weak_hash,1,python:S1186,CRITICAL,CODE_SMELL,src/werkzeug/debug/console.py,31,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P2,Python,werkzeug,security,weak_hash,1,python:S1186,CRITICAL,CODE_SMELL,src/werkzeug/debug/console.py,34,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P2,Python,werkzeug,security,weak_hash,1,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/console.py,138,Rename this variable; it shadows a builtin.
+P2,Python,werkzeug,security,weak_hash,1,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/console.py,209,Rename this variable; it shadows a builtin.
+P2,Python,werkzeug,security,weak_hash,1,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/console.py,211,Rename this variable; it shadows a builtin.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/debug/repr.py,109,"Define a constant instead of duplicating this literal '<span class=""extended"">' 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/debug/repr.py,113,"Define a constant instead of duplicating this literal ""</span>"" 4 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S5806,MAJOR,CODE_SMELL,src/werkzeug/debug/repr.py,243,Rename this variable; it shadows a builtin.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S2703,BLOCKER,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,60,"Add the ""let"", ""const"" or ""var"" keyword to this declaration of ""EVALEX_TRUSTED"" to make it explicit."
+P2,Python,werkzeug,security,weak_hash,1,javascript:S7741,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,121,Compare with `undefined` directly instead of using `typeof`.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,156,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,174,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,179,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S4138,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,199,Expected a `for-of` loop instead of a `for` loop with this simple iteration.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S7778,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,212,Do not call `Element#classList.add()` multiple times.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S7762,MAJOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,257,Prefer `childNode.remove()` over `parentNode.removeChild(childNode)`.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S7768,MAJOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,285,"Prefer `spanToWrap.before(wrapperSpan)` over `parentDiv.insertBefore(wrapperSpan, spanToWrap)`."
+P2,Python,werkzeug,security,weak_hash,1,javascript:S7762,MAJOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,288,Prefer `childNode.remove()` over `parentNode.removeChild(childNode)`.
+P2,Python,werkzeug,security,weak_hash,1,javascript:S7773,MINOR,CODE_SMELL,src/werkzeug/debug/shared/debugger.js,330,Prefer `Number.parseFloat` over `parseFloat`.
+P2,Python,werkzeug,security,weak_hash,1,css:S4656,MAJOR,BUG,src/werkzeug/debug/shared/style.css,91,"Duplicate property ""background"""
+P2,Python,werkzeug,security,weak_hash,1,css:S4656,MAJOR,BUG,src/werkzeug/debug/shared/style.css,106,"Duplicate property ""white-space"""
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/tbtools.py,126,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5707,CRITICAL,BUG,src/werkzeug/debug/tbtools.py,212,Replace this expression with an exception or None
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/debug/tbtools.py,272,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,100,"Remove the unused function parameter ""environ""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,101,"Remove the unused function parameter ""scope""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,115,"Remove the unused function parameter ""scope""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,128,"Remove the unused function parameter ""environ""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/exceptions.py,129,"Remove the unused function parameter ""scope""."
+P2,Python,werkzeug,security,weak_hash,1,python:S7498,MINOR,CODE_SMELL,src/werkzeug/formparser.py,128,Replace this constructor call with a literal.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/formparser.py,140,"Define a constant instead of duplicating this literal ""The 'cls' parameter is deprecated and will be removed in Werkzeug 4.0."" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S7498,MINOR,CODE_SMELL,src/werkzeug/formparser.py,297,Replace this constructor call with a literal.
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/formparser.py,401,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/formparser.py,414,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/http.py,543,Refactor this function to reduce its Cognitive Complexity from 58 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/http.py,913,"Remove the unused function parameter ""make_inclusive""."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/http.py,1299,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1135,INFO,CODE_SMELL,src/werkzeug/http.py,1417,"Complete the task associated to this ""TODO"" comment."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/local.py,286,"Remove the unused function parameter ""instance""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/local.py,294,"Remove the unused function parameter ""instance""."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/local.py,478,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/http_proxy.py,103,Refactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,165,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,264,"Define a constant instead of duplicating this literal ""wsgi.input"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,265,"Define a constant instead of duplicating this literal ""wsgi.errors"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/lint.py,296,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1066,MAJOR,CODE_SMELL,src/werkzeug/middleware/lint.py,368,Merge this if statement with the enclosing one.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/middleware/proxy_fix.py,144,"Define a constant instead of duplicating this literal ""wsgi.url_scheme"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/middleware/shared_data.py,212,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/routing/converters.py,185,"Define a constant instead of duplicating this literal ""Outside of allowed range."" 4 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,284,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,541,Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,841,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/map.py,882,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/matcher.py,75,Refactor this function to reduce its Cognitive Complexity from 95 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5843,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,46,Simplify this regular expression to reduce its complexity from 23 to the 20 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S6395,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,52,Unwrap this unnecessarily grouped subpattern.
+P2,Python,werkzeug,security,weak_hash,1,python:S6353,MINOR,CODE_SMELL,src/werkzeug/routing/rules.py,55,Use concise character class syntax '\w' instead of '[a-zA-Z0-9_]'.
+P2,Python,werkzeug,security,weak_hash,1,python:S6353,MINOR,CODE_SMELL,src/werkzeug/routing/rules.py,59,Use concise character class syntax '\w' instead of '[a-zA-Z0-9_]'.
+P2,Python,werkzeug,security,weak_hash,1,python:S5843,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,69,Simplify this regular expression to reduce its complexity from 39 to the 20 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S8786,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,70,"Simplify this regular expression to reduce its runtime, as it has super-linear performance due to backtracking."
+P2,Python,werkzeug,security,weak_hash,1,python:S5855,MAJOR,BUG,src/werkzeug/routing/rules.py,73,Remove or rework this redundant alternative.
+P2,Python,werkzeug,security,weak_hash,1,python:S5869,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,77,Remove duplicates in this character class.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/rules.py,270,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5890,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,480,"Replace the type hint ""Map"" with ""Optional[Map]"" or don't assign ""None"" to this expression"
+P2,Python,werkzeug,security,weak_hash,1,python:S7498,MINOR,CODE_SMELL,src/werkzeug/routing/rules.py,542,Replace this constructor call with a literal.
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/routing/rules.py,584,"Remove the unused function parameter ""variable_name""."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/rules.py,605,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/routing/rules.py,739,Refactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/http.py,13,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5843,MAJOR,CODE_SMELL,src/werkzeug/sansio/http.py,95,Simplify this regular expression to reduce its complexity from 28 to the 20 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/multipart.py,140,Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1481,MINOR,CODE_SMELL,src/werkzeug/sansio/multipart.py,174,"Replace the unused local variable ""disposition"" with ""_""."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/multipart.py,175,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/multipart.py,306,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/sansio/request.py,180,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P2,Python,werkzeug,security,weak_hash,1,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/sansio/request.py,210,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P2,Python,werkzeug,security,weak_hash,1,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/sansio/request.py,611,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,286,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,292,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/sansio/response.py,401,"Define a constant instead of duplicating this literal ""The 'content_md5' attribute is deprecated and will be removed in"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,420,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S8371,BLOCKER,BUG,src/werkzeug/sansio/response.py,434,"Use "".get()"" method to safely access this header."
+P2,Python,werkzeug,security,weak_hash,1,python:S6353,MINOR,CODE_SMELL,src/werkzeug/sansio/utils.py,19,Use concise character class syntax '\d' instead of '[0-9]'.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/sansio/utils.py,25,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S7494,MINOR,CODE_SMELL,src/werkzeug/security.py,11,Replace list constructor call with a list comprehension.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,121,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,171,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,193,"Define a constant instead of duplicating this literal ""wsgi.input"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,252,Refactor this function to reduce its Cognitive Complexity from 52 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1172,MAJOR,CODE_SMELL,src/werkzeug/serving.py,659,"Remove the unused function parameter ""port""."
+P2,Python,werkzeug,security,weak_hash,1,python:S1313,MINOR,CODE_SMELL,src/werkzeug/serving.py,693,"Make sure using this hardcoded IP address ""fd31:f903:5ab5:1::1"" is safe here."
+P2,Python,werkzeug,security,weak_hash,1,python:S1313,MINOR,CODE_SMELL,src/werkzeug/serving.py,693,"Make sure using this hardcoded IP address ""10.253.155.219"" is safe here."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,715,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5332,MINOR,VULNERABILITY,src/werkzeug/serving.py,823,Using HTTP protocol is insecure. Use HTTPS instead.
+P2,Python,werkzeug,security,weak_hash,1,python:S5747,CRITICAL,CODE_SMELL,src/werkzeug/serving.py,833,"Remove this ""raise"" statement or move it inside an ""except"" block."
+P2,Python,werkzeug,security,weak_hash,1,python:S107,MAJOR,CODE_SMELL,src/werkzeug/serving.py,965,"Function ""run_simple"" has 16 parameters, which is greater than the 13 authorized."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,56,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S2245,MAJOR,VULNERABILITY,src/werkzeug/test.py,72,Make sure that using this pseudorandom number generator is safe here.
+P2,Python,werkzeug,security,weak_hash,1,python:S1481,MINOR,CODE_SMELL,src/werkzeug/test.py,159,"Replace the unused local variable ""length"" with ""_""."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,285,Refactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S107,MAJOR,CODE_SMELL,src/werkzeug/test.py,286,"Method ""__init__"" has 18 parameters, which is greater than the 13 authorized."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,1004,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S1481,MINOR,CODE_SMELL,src/werkzeug/test.py,1013,"Replace the unused local variable ""anchor"" with ""_""."
+P2,Python,werkzeug,security,weak_hash,1,python:S2836,MAJOR,CODE_SMELL,src/werkzeug/test.py,1153,"Add a ""break"" statement or remove this ""else"" clause."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/test.py,1232,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S117,MINOR,CODE_SMELL,src/werkzeug/utils.py,211,"Rename this parameter ""Response"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/utils.py,304,Refactor this function to reduce its Cognitive Complexity from 72 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S5864,MAJOR,CODE_SMELL,src/werkzeug/wrappers/request.py,360,Fix this call; Previous type checks suggest that this expression has type NoneType and it is not callable.
+P2,Python,werkzeug,security,weak_hash,1,python:S1135,INFO,CODE_SMELL,src/werkzeug/wrappers/request.py,385,"Complete the task associated to this ""TODO"" comment."
+P2,Python,werkzeug,security,weak_hash,1,python:S5756,BLOCKER,BUG,src/werkzeug/wrappers/request.py,428,Fix this call; this expression has type NoneType and it is not callable.
+P2,Python,werkzeug,security,weak_hash,1,python:S5756,BLOCKER,BUG,src/werkzeug/wrappers/request.py,429,Fix this call; this expression has type NoneType and it is not callable.
+P2,Python,werkzeug,security,weak_hash,1,python:S1135,INFO,CODE_SMELL,src/werkzeug/wrappers/request.py,448,"Complete the task associated to this ""TODO"" comment."
+P2,Python,werkzeug,security,weak_hash,1,python:S1135,INFO,CODE_SMELL,src/werkzeug/wrappers/request.py,666,"Complete the task associated to this ""TODO"" comment."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/wrappers/request.py,814,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/wrappers/response.py,650,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S3626,MINOR,CODE_SMELL,src/werkzeug/wrappers/response.py,705,Remove this redundant return.
+P2,Python,werkzeug,security,weak_hash,1,python:S1192,CRITICAL,CODE_SMELL,src/werkzeug/wrappers/response.py,861,"Define a constant instead of duplicating this literal ""I/O operation on closed file"" 3 times."
+P2,Python,werkzeug,security,weak_hash,1,python:S3776,CRITICAL,CODE_SMELL,src/werkzeug/wsgi.py,541,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P2,Python,werkzeug,security,weak_hash,1,python:S9083,MINOR,CODE_SMELL,tests/conftest.py,231,Remove empty parentheses from this decorator.
+P2,Python,werkzeug,security,weak_hash,1,python:S9083,MINOR,CODE_SMELL,tests/conftest.py,247,Remove empty parentheses from this decorator.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_apply_conditions.py,73,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_apply_conditions.py,124,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_apply_range.py,78,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_datastructures.py,219,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_datastructures.py,222,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,239,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,244,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,296,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,612,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_datastructures.py,617,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_datastructures.py,740,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_datastructures.py,765,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_datastructures.py,767,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,192,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P2,Python,werkzeug,security,weak_hash,1,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,199,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P2,Python,werkzeug,security,weak_hash,1,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,209,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P2,Python,werkzeug,security,weak_hash,1,python:S8997,MAJOR,CODE_SMELL,tests/test_debug.py,214,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_exceptions.py,59,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_exceptions.py,67,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_exceptions.py,68,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_exceptions.py,71,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_exceptions.py,72,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_formparser.py,60,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_formparser.py,85,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_formparser.py,101,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_formparser.py,389,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_formparser.py,394,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_formparser.py,438,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_http.py,34,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_http.py,49,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,132,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,134,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,136,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,139,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_http.py,142,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_local.py,51,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_local.py,52,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_local.py,79,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_local.py,80,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,36,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,37,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,138,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,190,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,191,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,213,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,214,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,224,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,225,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,286,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,298,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,309,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,330,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,351,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,368,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,377,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,402,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,460,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,512,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,567,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,699,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,1104,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_routing.py,1194,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9073,MAJOR,CODE_SMELL,tests/test_routing.py,1258,Split this composite assertion into separate assertions.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,1853,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_routing.py,1906,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_send_file.py,82,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S5778,MAJOR,CODE_SMELL,tests/test_serving.py,331,Refactor this exception test to have only one invocation possibly throwing an exception.
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_test.py,490,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_test.py,502,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_test.py,508,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_test.py,743,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9078,MAJOR,CODE_SMELL,tests/test_urls.py,78,Remove this duplicate test case.
+P2,Python,werkzeug,security,weak_hash,1,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,167,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_utils.py,169,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_utils.py,190,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_utils.py,191,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S3415,MAJOR,CODE_SMELL,tests/test_wrappers.py,97,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P2,Python,werkzeug,security,weak_hash,1,python:S3415,MAJOR,CODE_SMELL,tests/test_wrappers.py,99,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,157,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,158,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,159,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,160,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,161,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,368,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,632,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,633,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,634,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wrappers.py,807,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wsgi.py,66,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wsgi.py,69,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wsgi.py,72,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wsgi.py,88,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P2,Python,werkzeug,security,weak_hash,1,python:S9000,MAJOR,BUG,tests/test_wsgi.py,99,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."

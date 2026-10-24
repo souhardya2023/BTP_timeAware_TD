@@ -1,0 +1,11 @@
+--- a/src/click/termui.py
++++ b/src/click/termui.py
+@@ -253,7 +253,7 @@
+             echo(_("Error: invalid input"), err=err)
+             continue
+         break
+-    if abort and not rv:
++    if abort or not rv:
+         raise Abort()
+     return rv
+ 

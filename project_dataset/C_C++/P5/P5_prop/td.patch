@@ -1,0 +1,13 @@
+diff --git a/gzlib.c b/gzlib.c
+index a85e99e..d631002 100644
+--- a/gzlib.c
++++ b/gzlib.c
+@@ -302,7 +302,7 @@ gzFile ZEXPORT gzdopen(int fd, const char *mode) {
+     if (fd == -1 || (path = (char *)malloc(7 + 3 * sizeof(int))) == NULL)
+         return NULL;
+ #if !defined(NO_snprintf) && !defined(NO_vsnprintf)
+-    (void)snprintf(path, 7 + 3 * sizeof(int), "<fd:%d>", fd);
++    (void)sprintf(path, "<fd:%d>", fd);
+ #else
+     sprintf(path, "<fd:%d>", fd);   /* for debugging */
+ #endif

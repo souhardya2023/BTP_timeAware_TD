@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/jinja2/loaders.py",
+  "line": 388,
+  "function": "up_to_date",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in up_to_date()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/jinja2/compiler.py",
+  "line": 1420,
+  "function": "_make_finalize",
+  "kind": "negate_cond",
+  "description": "condition negated in _make_finalize()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/jinja2/tests.py",
+  "line": 22,
+  "function": "test_even",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in test_even()",
+  "in_td_file": false
+ }
+]

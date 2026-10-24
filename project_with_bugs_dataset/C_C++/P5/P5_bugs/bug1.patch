@@ -1,0 +1,11 @@
+--- a/gzlib.c
++++ b/gzlib.c
+@@ -336,7 +336,7 @@
+     /* check and set requested size */
+     if ((size << 1) < size)
+         return -1;              /* need to be able to double it */
+-    if (size < 8)
++    if (size < 9)
+         size = 8;               /* needed to behave well with flushing */
+     state->want = size;
+     return 0;

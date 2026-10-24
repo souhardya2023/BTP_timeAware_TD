@@ -1,0 +1,11 @@
+--- a/src/parser.c
++++ b/src/parser.c
+@@ -979,7 +979,7 @@
+     token = PEEK_TOKEN(parser);
+     if (!token) return 0;
+ 
+-    if (token->type != YAML_FLOW_SEQUENCE_END_TOKEN)
++    if (!(token->type != YAML_FLOW_SEQUENCE_END_TOKEN))
+     {
+         if (!first) {
+             if (token->type == YAML_FLOW_ENTRY_TOKEN) {

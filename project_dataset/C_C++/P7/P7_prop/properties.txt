@@ -1,0 +1,40 @@
+pair: P7
+original_id: C-cJSON-dependency_structure-040
+language: C/C++
+project: cJSON
+repository: https://github.com/DaveGamble/cJSON
+base_commit: 6d9f2443ab071f86e5d9b43025a40929ec41c46c
+
+P7_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P7_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: dependency_structure
+td_subtype: cyclic_header_dependency
+cwe: -
+description: cJSON.h now includes cJSON_Utils.h, which already includes cJSON.h (cycle)
+source: scripted/hand-authored injection (tools/inject_c.py)
+tier: main
+
+files_changed: 1
+lines_added: 2
+lines_deleted: 0
+  - cJSON.h
+
+validation_quality: validated_build_and_ctest_at_generation
+tests_on_clean: {'tests_total': 19, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 19, 'tests_failed': 0}
+test_command: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DENABLE_CJSON_TEST=ON -DENABLE_CJSON_UNINSTALL=OFF -DBUILD_SHARED_AND_STATIC_LIBS=OFF && cmake --build build && ctest --test-dir build
+test_env: -
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=1, structure.dep_edges=1, structure.cyclic_groups=1, structure.modules_in_cycles=2, structure.density=0.0179
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'built': True, 'tests_total': 19, 'tests_failed': 0}
+  tests_on_TD_folder: {'built': True, 'tests_total': 19, 'tests_failed': 0}
+  tests_match_expected: yes
+
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 19, 'failed': 0}, tests_on_TD {'passed': 19, 'failed': 0} -> match

@@ -1,0 +1,4 @@
+Pair,Language,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,Sonar_Rule,Sonar_Severity,Sonar_Type,Sonar_File,Sonar_Line,Sonar_Message
+P5,C_C++,zlib,security,bounded_to_unbounded_copy,1,NONE,NONE,NONE,NONE,NONE,NONE
+P6,C_C++,zlib,security,bounded_to_unbounded_copy,1,NONE,NONE,NONE,NONE,NONE,NONE
+P9,C_C++,zlib,dependency_structure,cyclic_header_dependency,2,NONE,NONE,NONE,NONE,NONE,NONE

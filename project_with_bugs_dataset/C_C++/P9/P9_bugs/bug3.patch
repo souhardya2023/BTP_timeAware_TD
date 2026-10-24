@@ -1,0 +1,11 @@
+--- a/deflate.c
++++ b/deflate.c
+@@ -1187,7 +1187,7 @@
+     }
+     if (s->status == HCRC_STATE) {
+         if (s->gzhead->hcrc) {
+-            if (s->pending + 2 > s->pending_buf_size) {
++            if (s->pending + 2 >= s->pending_buf_size) {
+                 flush_pending(strm);
+                 if (s->pending != 0) {
+                     s->last_flush = -1;

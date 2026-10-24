@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -698,7 +698,7 @@
+ 
+     def write_ns(self, payload):
+         size = len(payload)
+-        if size > self.maxsize:
++        if size >= self.maxsize:
+             raise NetstringMessageTooLong(size, self.maxsize)
+         data = str(size).encode('ascii') + b':' + payload + b','
+         self.bsock.send(data)

@@ -1,0 +1,11 @@
+--- a/src/werkzeug/routing/converters.py
++++ b/src/werkzeug/routing/converters.py
+@@ -179,7 +179,7 @@
+         except ValueError as e:  # if > sys.get_int_max_str_digits()
+             raise ValidationError() from e
+ 
+-        if (self.min is not None and value_num < self.min) or (
++        if (self.min is not None and value_num < self.min) and (
+             self.max is not None and value_num > self.max
+         ):
+             raise ValidationError("Outside of allowed range.")

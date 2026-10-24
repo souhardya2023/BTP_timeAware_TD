@@ -1,0 +1,62 @@
+pair,project,td_type,files_analyzed,commits_analyzed,historical_td_interest_pm
+P1,werkzeug,security,src/werkzeug/security.py,36,2.2948513325488022
+P10,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P11,click,coupling_cohesion,"src/click/core.py, src/click/types.py, src/click/utils.py",293,29.351401986583145
+P12,click,coupling_cohesion,"src/click/_utils.py, src/click/core.py, src/click/globals.py, src/click/shell_completion.py, src/click/types.py",298,29.49551345051662
+P13,click,coupling_cohesion,"src/click/_compat.py, src/click/core.py, src/click/decorators.py, src/click/exceptions.py, src/click/globals.py, src/click/termui.py, src/click/testing.py, src/click/types.py, src/click/utils.py",499,46.57697810947272
+P14,jinja,coupling_cohesion,src/jinja2/loaders.py,32,4.641160798250082
+P15,jinja,coupling_cohesion,"src/jinja2/bccache.py, src/jinja2/loaders.py",48,7.451043506332199
+P16,jinja,coupling_cohesion,"src/jinja2/defaults.py, src/jinja2/environment.py, src/jinja2/lexer.py, src/jinja2/utils.py",112,23.97318066668067
+P17,click,dependency_structure,"src/click/core.py, src/click/globals.py, src/click/termui.py, src/click/testing.py, src/click/types.py",347,33.704297604491956
+P18,click,dependency_structure,"src/click/_utils.py, src/click/core.py, src/click/decorators.py, src/click/globals.py, src/click/utils.py",290,26.918980896670153
+P19,click,dependency_structure,"src/click/_utils.py, src/click/core.py, src/click/shell_completion.py",221,22.402607229066536
+P2,werkzeug,security,src/werkzeug/debug/__init__.py,51,3.4472240923507407
+P20,click,dependency_structure,"src/click/__init__.py, src/click/core.py, src/click/decorators.py, src/click/testing.py, src/click/types.py",375,34.10662420499936
+P21,click,complexity,"src/click/core.py, src/click/utils.py",226,22.61706506145269
+P22,click,complexity,"src/click/_compat.py, src/click/core.py, src/click/formatting.py, src/click/globals.py, src/click/testing.py",274,28.28440154118055
+P23,click,complexity,"src/click/core.py, src/click/utils.py",226,22.61706506145269
+P24,jinja,complexity,"src/jinja2/compiler.py, src/jinja2/environment.py",85,23.886393116712117
+P25,jinja,complexity,"src/jinja2/environment.py, src/jinja2/nodes.py, src/jinja2/runtime.py, src/jinja2/utils.py",134,32.36159931845438
+P26,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P27,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P28,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P29,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P3,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P30,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P31,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P32,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P33,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P34,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P35,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P36,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P37,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P38,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P39,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P4,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P40,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P41,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P5,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P6,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566
+P7,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P8,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P9,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135
+P1,jansson,security,src/dump.c,86,4.2596656443953895
+P10,jansson,complexity,src/strbuffer.c,23,0.6862557472071986
+P11,C-Thread-Pool,concurrency,thpool.c,81,6.39088972686015
+P12,C-Thread-Pool,concurrency,thpool.c,81,6.39088972686015
+P13,C-Thread-Pool,security,thpool.c,81,6.39088972686015
+P14,C-Thread-Pool,security,thpool.c,81,6.39088972686015
+P15,libyaml,security,src/loader.c,8,1.9625630123804183
+P16,libyaml,security,src/parser.c,21,6.221366236803532
+P17,libyaml,security,src/api.c,28,6.436572019691996
+P18,libyaml,security,src/parser.c,21,6.221366236803532
+P19,libyaml,security,src/loader.c,8,1.9625630123804183
+P2,jansson,security,src/strconv.c,12,1.0607967496600317
+P20,libpng,security,"contrib/libtests/pnggetset.c, pngset.c",538,24.26422625578915
+P3,jansson,security,src/strconv.c,12,1.0607967496600317
+P4,jansson,security,src/load.c,100,8.111020574182845
+P5,zlib,security,gzlib.c,63,3.1350667554733733
+P6,zlib,security,gzlib.c,63,3.1350667554733733
+P7,cJSON,dependency_structure,cJSON.h,137,2.5784634798569708
+P8,jansson,dependency_structure,src/hashtable.h,25,1.0456682642437989
+P9,zlib,dependency_structure,zutil.h,77,2.830734088682946

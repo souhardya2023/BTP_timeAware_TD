@@ -1,0 +1,11 @@
+--- a/src/dtoa.c
++++ b/src/dtoa.c
+@@ -1956,7 +1956,7 @@
+ 	if (!(TI = *PTI))
+ 		*PTI = TI = get_TI();
+ #endif
+-	if (!(p5 = p5s)) {
++	if (!(!(p5 = p5s))) {
+ 		/* first time */
+ #ifdef MULTIPLE_THREADS
+ 		if (!(TI = *PTI))

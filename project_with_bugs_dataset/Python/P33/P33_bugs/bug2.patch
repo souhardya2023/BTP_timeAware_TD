@@ -1,0 +1,11 @@
+--- a/boltons/funcutils.py
++++ b/boltons/funcutils.py
+@@ -91,7 +91,7 @@
+     if kwonlyargs:
+         for kwonlyarg in kwonlyargs:
+             spec = formatargandannotation(kwonlyarg)
+-            if kwonlydefaults and kwonlyarg in kwonlydefaults:
++            if kwonlydefaults or kwonlyarg in kwonlydefaults:
+                 spec += formatvalue(kwonlydefaults[kwonlyarg])
+             specs.append(spec)
+     if varkw is not None:

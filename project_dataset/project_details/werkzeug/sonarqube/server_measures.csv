@@ -1,0 +1,6 @@
+project_key,complexity,duplicated_lines_density,duplicated_lines,functions,security_remediation_effort,classes,software_quality_security_issues,software_quality_maintainability_remediation_effort,statements,sqale_index,sqale_rating,bugs,software_quality_reliability_issues,ncloc,duplicated_files,reliability_remediation_effort,lines,reliability_rating,code_smells,security_rating,violations,sqale_debt_ratio,comment_lines_density,security_hotspots,alert_status,comment_lines,cognitive_complexity,duplicated_blocks,software_quality_maintainability_issues,files,vulnerabilities,software_quality_maintainability_rating,new_technical_debt
+P2_TD,3929,0.3,92,1967,40,270,4,1891,14646,1661,1.0,72,75,21829,2,387,34709,5.0,197,3.0,271,0.3,25.7,0,OK,7540,3268,5,259,91,2,1.0,
+Python-P1-TD,3929,0.3,92,1967,50,270,5,1891,14648,1661,1.0,72,75,21831,2,387,34711,5.0,197,3.0,272,0.3,25.7,0,OK,7540,3268,5,259,91,3,1.0,
+Python-P2-TD,3929,0.3,92,1967,40,270,4,1891,14646,1661,1.0,72,75,21829,2,387,34709,5.0,197,3.0,271,0.3,25.7,0,OK,7540,3268,5,259,91,2,1.0,
+hist2-werkzeug,2810,0.1,32,1115,100,181,6,1240,8815,1340,1.0,2,4,12031,1,15,21739,4.0,132,4.0,138,0.4,36.0,0,ERROR,6768,2955,2,128,52,4,1.0,11
+werkzeug-P1-TD,3017,0.4,92,1197,50,184,5,1430,9369,1485,1.0,15,18,13847,2,102,24407,5.0,159,3.0,177,0.4,34.1,0,OK,7154,3068,5,164,56,3,1.0,

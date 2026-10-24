@@ -1,0 +1,12 @@
+diff --git a/src/parser.c b/src/parser.c
+index 2dfa2ba..837c462 100644
+--- a/src/parser.c
++++ b/src/parser.c
+@@ -377,7 +377,6 @@ yaml_parser_parse_document_start(yaml_parser_t *parser, yaml_event_t *event,
+         while (token->type == YAML_DOCUMENT_END_TOKEN) {
+             SKIP_TOKEN(parser);
+             token = PEEK_TOKEN(parser);
+-            if (!token) return 0;
+         }
+     }
+ 

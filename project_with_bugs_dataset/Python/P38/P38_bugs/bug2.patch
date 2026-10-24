@@ -1,0 +1,11 @@
+--- a/boltons/namedutils.py
++++ b/boltons/namedutils.py
+@@ -183,7 +183,7 @@
+     fmt_kw = {'typename': typename}
+     fmt_kw['field_names'] = tuple(field_names)
+     fmt_kw['num_fields'] = len(field_names)
+-    fmt_kw['arg_list'] = repr(tuple(field_names)).replace("'", "")[1:-1]
++    fmt_kw['arg_list'] = repr(tuple(field_names)).replace("'", "")[1:-2]
+     fmt_kw['repr_fmt'] = ', '.join(_repr_tmpl.format(name=name)
+                                    for name in field_names)
+     fmt_kw['field_defs'] = '\n'.join(_imm_field_tmpl.format(index=index, name=name)

@@ -1,0 +1,33 @@
+diff --git a/boltons/cacheutils.py b/boltons/cacheutils.py
+index ee13a17..53f4207 100644
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -363,18 +363,17 @@ class LRU(LRI):
+     ``LRU`` acts like its parent class, the built-in Python :class:`dict`.
+     """
+     def __getitem__(self, key):
+-        with self._lock:
+-            try:
+-                link = self._get_link_and_move_to_front_of_ll(key)
+-            except KeyError:
+-                self.miss_count += 1
+-                if not self.on_miss:
+-                    raise
+-                ret = self[key] = self.on_miss(key)
+-                return ret
++        try:
++            link = self._get_link_and_move_to_front_of_ll(key)
++        except KeyError:
++            self.miss_count += 1
++            if not self.on_miss:
++                raise
++            ret = self[key] = self.on_miss(key)
++            return ret
+ 
+-            self.hit_count += 1
+-            return link[VALUE]
++        self.hit_count += 1
++        return link[VALUE]
+ 
+ 
+ ### Cached decorator

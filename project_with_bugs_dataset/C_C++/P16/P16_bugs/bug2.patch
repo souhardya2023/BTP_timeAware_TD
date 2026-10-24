@@ -1,0 +1,11 @@
+--- a/src/loader.c
++++ b/src/loader.c
+@@ -381,7 +381,7 @@
+ 
+     if (!STACK_LIMIT(parser, parser->document->nodes, INT_MAX-1)) goto error;
+ 
+-    if (!tag || strcmp((char *)tag, "!") == 0) {
++    if (!tag || strcmp((char *)tag, "!") == 1) {
+         yaml_free(tag);
+         tag = yaml_strdup((yaml_char_t *)YAML_DEFAULT_SCALAR_TAG);
+         if (!tag) goto error;

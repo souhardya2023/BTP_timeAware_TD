@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "thpool.c",
+  "line": 428,
+  "function": "jobqueue_init",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a condition in jobqueue_init()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "thpool.c",
+  "line": 362,
+  "function": "thread_do",
+  "kind": "negate_cond",
+  "description": "condition negated in thread_do()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug3",
+  "file": "thpool.c",
+  "line": 145,
+  "function": "thpool_init",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in a condition in thpool_init()",
+  "in_td_file": true
+ }
+]

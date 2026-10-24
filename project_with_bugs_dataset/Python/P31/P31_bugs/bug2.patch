@@ -1,0 +1,11 @@
+--- a/boltons/strutils.py
++++ b/boltons/strutils.py
+@@ -757,7 +757,7 @@
+     output for each style.
+     """
+     if not style:
+-        style = 'cmd' if sys.platform == 'win32' else 'sh'
++        style = 'cmd' if sys.platform != 'win32' else 'sh'
+ 
+     if style == 'sh':
+         return args2sh(args, sep=sep)

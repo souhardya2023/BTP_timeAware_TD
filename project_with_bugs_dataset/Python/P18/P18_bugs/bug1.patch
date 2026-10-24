@@ -1,0 +1,15 @@
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -3260,10 +3260,10 @@
+         # A flag which is activated always returns the flag value, unless the value
+         # comes from the explicitly sets default.
+         elif (
+-            self.is_flag
++            not (self.is_flag
+             and value is True
+             and not self.is_bool_flag
+-            and source not in (ParameterSource.DEFAULT, ParameterSource.DEFAULT_MAP)
++            and source not in (ParameterSource.DEFAULT, ParameterSource.DEFAULT_MAP))
+         ):
+             value = self.flag_value
+ 

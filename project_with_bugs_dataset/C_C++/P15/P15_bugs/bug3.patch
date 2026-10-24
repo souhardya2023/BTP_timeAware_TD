@@ -1,0 +1,11 @@
+--- a/src/scanner.c
++++ b/src/scanner.c
+@@ -2841,7 +2841,7 @@
+ 
+     /* Eat whitespaces and comments to the end of the line. */
+ 
+-    if (!CACHE(parser, 1)) goto error;
++    if (!CACHE(parser, 2)) goto error;
+ 
+     while (IS_BLANK(parser->buffer)) {
+         SKIP(parser);

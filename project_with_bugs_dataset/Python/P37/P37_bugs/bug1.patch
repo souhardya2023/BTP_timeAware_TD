@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -411,7 +411,7 @@
+                 self.rbuf = b''.join(chunks)
+                 raise
+             extra_bytes = total_bytes - size
+-            if extra_bytes:
++            if not (extra_bytes):
+                 last, self.rbuf = nxt[:-extra_bytes], nxt[-extra_bytes:]
+             else:
+                 last, self.rbuf = nxt, b''

@@ -1,0 +1,11 @@
+--- a/boltons/setutils.py
++++ b/boltons/setutils.py
+@@ -286,7 +286,7 @@
+ 
+     def issubset(self, other):
+         "issubset(other) -> return True if other contains this set"
+-        if len(other) < len(self):
++        if not (len(other) < len(self)):
+             return False
+         for k in self.item_index_map:
+             if k not in other:

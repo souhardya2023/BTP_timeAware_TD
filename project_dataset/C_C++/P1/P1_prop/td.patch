@@ -1,0 +1,14 @@
+diff --git a/src/dump.c b/src/dump.c
+index 9b44c11..f9e9e45 100644
+--- a/src/dump.c
++++ b/src/dump.c
+@@ -176,8 +176,7 @@ static int dump_string(const char *str, size_t len, json_dump_callback_t dump, v
+                     first = 0xD800 | ((codepoint & 0xffc00) >> 10);
+                     last = 0xDC00 | (codepoint & 0x003ff);
+ 
+-                    snprintf(seq, sizeof(seq), "\\u%04X\\u%04X", (unsigned int)first,
+-                             (unsigned int)last);
++                    sprintf(seq, "\\u%04X\\u%04X", (unsigned int)first, (unsigned int)last);
+                     length = 12;
+                 }
+ 

@@ -1,0 +1,13 @@
+diff --git a/src/strconv.c b/src/strconv.c
+index 9e202c5..f240fea 100644
+--- a/src/strconv.c
++++ b/src/strconv.c
+@@ -135,7 +135,7 @@ int jsonp_dtostr(char *buffer, size_t size, double value, int precision) {
+         strncpy(p, digits, decpt - 0);
+         p += decpt - 0;
+         *p++ = '.';
+-        strncpy(p, digits + decpt, digits_len - decpt);
++        strcpy(p, digits + decpt);
+         p += digits_len - decpt;
+     } else {
+         strncpy(p, digits, digits_len);

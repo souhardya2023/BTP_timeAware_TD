@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -142,7 +142,7 @@
+ 	threads_on_hold   = 0;
+ 	threads_keepalive = 1;
+ 
+-	if (num_threads < 0){
++	if (num_threads < 1){
+ 		num_threads = 0;
+ 	}
+ 

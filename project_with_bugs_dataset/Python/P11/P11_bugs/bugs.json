@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/types.py",
+  "line": 979,
+  "function": "convert",
+  "kind": "negate_cond",
+  "description": "condition negated in convert()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/_termui_impl.py",
+  "line": 731,
+  "function": "open_url",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in open_url()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/core.py",
+  "line": 2848,
+  "function": "__init__",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in __init__()",
+  "in_td_file": true
+ }
+]

@@ -1,0 +1,12 @@
+diff --git a/src/parser.c b/src/parser.c
+index 2dfa2ba..d93ed04 100644
+--- a/src/parser.c
++++ b/src/parser.c
+@@ -869,7 +869,6 @@ yaml_parser_parse_block_mapping_key(yaml_parser_t *parser,
+         yaml_mark_t mark = token->end_mark;
+         SKIP_TOKEN(parser);
+         token = PEEK_TOKEN(parser);
+-        if (!token) return 0;
+         if (token->type != YAML_KEY_TOKEN &&
+                 token->type != YAML_VALUE_TOKEN &&
+                 token->type != YAML_BLOCK_END_TOKEN) {

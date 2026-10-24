@@ -1,0 +1,9 @@
+project_key,name,visibility,quality_gate,issues_exported,first_issue_date,last_issue_update,dataset_pair,dataset_project,td_type,mapping
+P24_TD,P24_TD,public,OK,183,2026-10-08,2026-10-08,Python/P24,jinja,complexity,issue files found in the TD folder (52%)
+P25_TD,P25_TD,public,OK,183,2026-10-08,2026-10-08,Python/P25,jinja,complexity,issue files found in the TD folder (52%)
+Python-P14-TD,Python-P14-TD,public,OK,183,2026-10-08,2026-10-08,Python/P14,jinja,coupling_cohesion,key pattern
+Python-P15-TD,Python-P15-TD,public,OK,183,2026-10-08,2026-10-08,Python/P15,jinja,coupling_cohesion,key pattern
+Python-P16-TD,Python-P16-TD,public,OK,183,2026-10-08,2026-10-08,Python/P16,jinja,coupling_cohesion,key pattern
+Python-P24-TD,Python-P24-TD,public,OK,183,2026-10-08,2026-10-08,Python/P24,jinja,complexity,key pattern
+Python-P25-TD,Python-P25-TD,public,OK,183,2026-10-08,2026-10-08,Python/P25,jinja,complexity,key pattern
+hist2-jinja,hist2-jinja,public,OK,351,2026-10-08,2026-10-08,,jinja,,release-by-release scan

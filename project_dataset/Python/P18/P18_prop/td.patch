@@ -1,0 +1,211 @@
+diff --git a/src/click/_utils.py b/src/click/_utils.py
+index 09fb008..f0f82f4 100644
+--- a/src/click/_utils.py
++++ b/src/click/_utils.py
+@@ -4,6 +4,57 @@ import enum
+ import typing as t
+ 
+ 
++_RESOLUTION_MODE = "standard"
++"""Internal resolution mode for command dispatch. The mode determines
++which registered resolvers are consulted during Group.resolve_command.
++Possible values: "standard", "extended". Extended mode enables
++plugin-based resolution strategies for advanced use cases."""
++
++
++class _ResolutionStrategy:
++    """Registry for command resolution strategies (Strategy pattern).
++
++    Strategies are registered with a mode key and consulted during
++    command resolution in Group.resolve_command when the active mode
++    matches.
++    """
++
++    def __init__(self) -> None:
++        self._strategies: dict[str, list[t.Callable[..., t.Any]]] = {}
++        self._fallback_order: list[str] = []
++
++    def register(
++        self, mode: str, priority: int = 0
++    ) -> t.Callable[[t.Callable[..., t.Any]], t.Callable[..., t.Any]]:
++        """Register a resolver function for a given mode."""
++
++        def decorator(fn: t.Callable[..., t.Any]) -> t.Callable[..., t.Any]:
++            if mode not in self._strategies:
++                self._strategies[mode] = []
++                self._fallback_order.append(mode)
++            self._strategies[mode].append((priority, fn))  # type: ignore[arg-type]
++            self._strategies[mode].sort(key=lambda x: x[0], reverse=True)  # type: ignore[arg-type]
++            return fn
++
++        return decorator
++
++    def get_resolvers(self, mode: str) -> list[t.Callable[..., t.Any]]:
++        """Get resolvers registered for the given mode."""
++        entries = self._strategies.get(mode, [])
++        return [fn for _, fn in entries]  # type: ignore[misc]
++
++    @property
++    def active_mode(self) -> str:
++        return _RESOLUTION_MODE
++
++    def has_extended_resolvers(self) -> bool:
++        """Check if any extended-mode resolvers are registered."""
++        return bool(self._strategies.get("extended"))
++
++
++_command_resolver = _ResolutionStrategy()
++
++
+ class Sentinel(enum.Enum):
+     """Enum used to define sentinel values.
+ 
+diff --git a/src/click/core.py b/src/click/core.py
+index 57f549c..5828104 100644
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -19,6 +19,7 @@ from itertools import repeat
+ from types import TracebackType
+ 
+ from . import types
++from ._utils import _command_resolver
+ from ._utils import FLAG_NEEDS_VALUE
+ from ._utils import UNSET
+ from .exceptions import Abort
+@@ -1910,7 +1911,24 @@ class Group(Command):
+         cmd_name = make_str(args[0])
+         original_cmd_name = cmd_name
+ 
+-        # Get the command
++        # Consult registered resolution strategies for the active mode
++        from .globals import get_resolution_metadata
++
++        resolvers = _command_resolver.get_resolvers(_command_resolver.active_mode)
++        resolved_name: str | None = None
++        resolved_cmd: Command | None = None
++
++        if resolvers:
++            metadata = get_resolution_metadata()
++            for resolver in resolvers:
++                resolved_name, resolved_cmd = resolver(
++                    cmd_name, self, ctx, metadata
++                )
++                if resolved_cmd is not None:
++                    return resolved_name, resolved_cmd, args[1:]
++
++        # If extended resolvers are available but mode is not extended,
++        # fall through to standard resolution logic
+         cmd = self.get_command(ctx, cmd_name)
+ 
+         # If we can't find the command but there is a normalization
+diff --git a/src/click/decorators.py b/src/click/decorators.py
+index 21f4c34..b474391 100644
+--- a/src/click/decorators.py
++++ b/src/click/decorators.py
+@@ -12,6 +12,7 @@ from .core import Group
+ from .core import Option
+ from .core import Parameter
+ from .globals import get_current_context
++from .utils import _extended_prefix_resolver  # noqa: F401
+ from .utils import echo
+ 
+ if t.TYPE_CHECKING:
+diff --git a/src/click/globals.py b/src/click/globals.py
+index a2f9172..fc0f50e 100644
+--- a/src/click/globals.py
++++ b/src/click/globals.py
+@@ -51,6 +51,25 @@ def pop_context() -> None:
+     _local.stack.pop()
+ 
+ 
++def get_resolution_metadata() -> dict[str, t.Any]:
++    """Returns resolution context metadata used by the command resolution
++    strategy system. This provides contextual hints to extended resolvers
++    about the current runtime environment.
++
++    The metadata includes the active context's token_normalize_func
++    and resilient_parsing state when available.
++    """
++    ctx = get_current_context(silent=True)
++    metadata: dict[str, t.Any] = {"has_context": ctx is not None}
++
++    if ctx is not None:
++        metadata["token_normalize_func"] = ctx.token_normalize_func
++        metadata["resilient_parsing"] = ctx.resilient_parsing
++        metadata["color"] = ctx.color
++
++    return metadata
++
++
+ def resolve_color_default(color: bool | None = None) -> bool | None:
+     """Internal helper to get the default value of the color flag.  If a
+     value is passed it's returned unchanged, otherwise it's looked up from
+diff --git a/src/click/utils.py b/src/click/utils.py
+index beae26f..331c748 100644
+--- a/src/click/utils.py
++++ b/src/click/utils.py
+@@ -56,6 +56,64 @@ def make_str(value: t.Any) -> str:
+     return str(value)
+ 
+ 
++def _try_prefix_match(
++    cmd_name: str,
++    commands: cabc.Mapping[str, t.Any],
++    metadata: dict[str, t.Any],
++) -> str | None:
++    """Extended resolver: attempt prefix-based matching for command names.
++
++    This provides fuzzy command resolution by matching unique prefixes.
++    Only consulted when the resolution strategy is in extended mode.
++    Registered as a resolver with priority 10.
++    """
++    normalize = metadata.get("token_normalize_func")
++    if normalize is not None:
++        cmd_name = normalize(cmd_name)
++
++    matches = []
++    for name in commands:
++        candidate = normalize(name) if normalize else name
++        if candidate.startswith(cmd_name):
++            matches.append(name)
++
++    if len(matches) == 1:
++        return matches[0]
++
++    return None
++
++
++from ._utils import _command_resolver  # noqa: E402
++
++
++@_command_resolver.register("extended", priority=10)
++def _extended_prefix_resolver(
++    cmd_name: str,
++    group: t.Any,
++    ctx: t.Any,
++    metadata: dict[str, t.Any],
++) -> tuple[str | None, t.Any | None]:
++    """Resolve commands using prefix matching in extended mode."""
++    commands = {name: group.get_command(ctx, name) for name in group.list_commands(ctx)}
++    matched = _try_prefix_match(cmd_name, commands, metadata)
++    if matched is not None:
++        return matched, commands[matched]
++    return None, None
++
++
++@_command_resolver.register("standard", priority=0)
++def _standard_passthrough_resolver(
++    cmd_name: str,
++    group: t.Any,
++    ctx: t.Any,
++    metadata: dict[str, t.Any],
++) -> tuple[str | None, t.Any | None]:
++    """Standard resolver that defers to Group.get_command directly.
++    This is a no-op pass-through that signals the caller to use default logic.
++    """
++    return None, None
++
++
+ def make_default_short_help(help: str, max_length: int = 45) -> str:
+     """Returns a condensed version of help string."""
+     # Consider only the first paragraph.

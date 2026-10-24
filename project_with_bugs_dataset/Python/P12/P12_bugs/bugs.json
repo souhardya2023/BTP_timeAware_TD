@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/types.py",
+  "line": 303,
+  "function": "normalize_choice",
+  "kind": "negate_cond",
+  "description": "condition negated in normalize_choice()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/testing.py",
+  "line": 532,
+  "function": "invoke",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in invoke()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/utils.py",
+  "line": 74,
+  "function": "make_default_short_help",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in make_default_short_help()",
+  "in_td_file": false
+ }
+]

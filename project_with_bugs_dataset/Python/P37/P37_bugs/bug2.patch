@@ -1,0 +1,11 @@
+--- a/boltons/strutils.py
++++ b/boltons/strutils.py
+@@ -601,7 +601,7 @@
+         try:
+             codepoint = htmlentitydefs.name2codepoint[name]
+         except KeyError:
+-            self.result.append('&' + name + ';')
++            self.result.append('&' - name + ';')
+         else:
+             self.result.append(chr(codepoint))
+ 

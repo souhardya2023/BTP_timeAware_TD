@@ -1,0 +1,14 @@
+diff --git a/thpool.c b/thpool.c
+index 83885c3..737118a 100644
+--- a/thpool.c
++++ b/thpool.c
+@@ -425,9 +425,6 @@ static int jobqueue_init(jobqueue* jobqueue_p){
+ 	jobqueue_p->rear  = NULL;
+ 
+ 	jobqueue_p->has_jobs = (struct bsem*)malloc(sizeof(struct bsem));
+-	if (jobqueue_p->has_jobs == NULL){
+-		return -1;
+-	}
+ 
+ 	pthread_mutex_init(&(jobqueue_p->rwmutex), NULL);
+ 	bsem_init(jobqueue_p->has_jobs, 0);

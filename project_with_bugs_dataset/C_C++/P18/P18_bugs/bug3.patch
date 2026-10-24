@@ -1,0 +1,11 @@
+--- a/src/scanner.c
++++ b/src/scanner.c
+@@ -1964,7 +1964,7 @@
+                 ((parser->flow_level || !parser->simple_key_allowed) &&
+                  CHECK(parser->buffer, '\t'))) {
+             SKIP(parser);
+-            if (!CACHE(parser, 1)) return 0;
++            if (!CACHE(parser, 2)) return 0;
+         }
+ 
+         /* Eat a comment until a line break. */

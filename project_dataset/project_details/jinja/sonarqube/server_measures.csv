@@ -1,0 +1,9 @@
+project_key,complexity,duplicated_lines_density,duplicated_lines,functions,security_remediation_effort,classes,software_quality_security_issues,software_quality_maintainability_remediation_effort,statements,sqale_index,sqale_rating,bugs,software_quality_reliability_issues,ncloc,duplicated_files,reliability_remediation_effort,lines,reliability_rating,code_smells,security_rating,violations,sqale_debt_ratio,comment_lines_density,security_hotspots,alert_status,comment_lines,cognitive_complexity,duplicated_blocks,software_quality_maintainability_issues,files,vulnerabilities,software_quality_maintainability_rating,new_technical_debt
+P24_TD,2810,0.1,34,1577,175,236,10,1300,10393,1045,1.0,57,59,15493,1,285,22712,5.0,116,4.0,183,0.2,19.7,0,OK,3797,2201,2,170,53,10,1.0,
+P25_TD,2821,0.1,34,1581,175,236,10,1309,10408,1054,1.0,57,59,15498,1,285,22773,5.0,116,4.0,183,0.2,19.8,0,OK,3838,2204,2,170,53,10,1.0,
+Python-P14-TD,2805,0.2,34,1576,175,236,10,1300,10367,1045,1.0,57,59,15445,1,285,22642,5.0,116,4.0,183,0.2,19.7,0,OK,3782,2190,2,170,53,10,1.0,
+Python-P15-TD,2808,0.1,34,1579,175,236,10,1300,10379,1045,1.0,57,59,15470,1,285,22679,5.0,116,4.0,183,0.2,19.7,0,OK,3791,2192,2,170,53,10,1.0,
+Python-P16-TD,2806,0.1,34,1578,175,236,10,1300,10377,1045,1.0,57,59,15469,1,285,22674,5.0,116,4.0,183,0.2,19.7,0,OK,3785,2190,2,170,53,10,1.0,
+Python-P24-TD,2810,0.1,34,1577,175,236,10,1300,10393,1045,1.0,57,59,15493,1,285,22712,5.0,116,4.0,183,0.2,19.7,0,OK,3797,2201,2,170,53,10,1.0,
+Python-P25-TD,2821,0.1,34,1581,175,236,10,1309,10408,1054,1.0,57,59,15498,1,285,22773,5.0,116,4.0,183,0.2,19.8,0,OK,3838,2204,2,170,53,10,1.0,
+hist2-jinja,1931,0.2,34,775,175,160,10,938,6493,958,1.0,2,4,8620,1,10,14450,5.0,97,4.0,109,0.4,29.9,0,OK,3676,2098,2,96,25,10,1.0,0

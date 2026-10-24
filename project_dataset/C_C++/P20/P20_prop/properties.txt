@@ -1,0 +1,48 @@
+pair: P20
+original_id: C-natural-libpng-55d20aaa32
+language: C/C++
+project: libpng
+repository: https://github.com/pnggroup/libpng
+base_commit: 55d20aaa322c9274491cda82c5cd4f99b48c6bcc
+td_commit (parent of the fix): 930dfe0483fb105e8221869e886bc5b10bc26cd3
+
+P20_clean: the whole project at the FIX commit (the vulnerability is repaired)
+P20_TD:    the same project at the PARENT commit, i.e. clean + td.patch (the real, naturally occurring vulnerable state)
+
+td_type: security
+td_subtype: temporal_memory
+cwe: CWE-416
+cve: CVE-2026-34757
+description: fix: Handle getter-to-setter aliasing in append-style chunk setters (fix commit dated 2026-03-30)
+source: natural fix pair, regenerated from the C/C++ Security x Technical-Debt dataset (huggingface.co/datasets/Digsm003/cpp-security-technical-debt); not injected
+tier: main
+
+files_changed: 2
+lines_added: 8
+lines_deleted: 347
+  - contrib/libtests/pnggetset.c
+  - pngset.c
+
+td_records_in_this_pair: 2   (all records of this fix commit are kept)
+  [1] CVE-2026-34757 CWE-416  pngset.c  png_set_unknown_chunks()
+      security_mechanism: temporal_memory   technical_debt_labels (dataset's own taxonomy): defect_debt
+      debt_to_vulnerability: The fix addresses a defect where a pointer from a getter was used in a setter, leading to potential use-after-free vulnerabilities.
+  [2] CVE-2026-34757 CWE-416  pngset.c  png_set_text_2()
+      security_mechanism: temporal_memory   technical_debt_labels (dataset's own taxonomy): defect_debt
+      debt_to_vulnerability: The fix addresses a defect related to improper memory management when handling getter-to-setter aliasing, which can lead to use-after-free vulnerabilities.
+
+NOTE: the TD side differs from the clean side by the WHOLE fix commit (td.patch), which can touch more than the listed functions.
+
+validation_quality: natural_pair_both_sides_build_and_ctest
+tests_on_clean: {'tests_total': 37, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 37, 'tests_failed': 0}
+test_command: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DPNG_TESTS=ON -DPNG_SHARED=ON -DPNG_FRAMEWORK=OFF && cmake --build build && ctest --test-dir build
+test_env: -
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  TD folder == tree of the parent commit (diff -r): yes
+  tests: both sides built from scratch and passed ctest in an identical checkout (see tests_on_clean / tests_on_TD)
+  tests_match_expected: yes
+
+after_trimming_extra_files: tests_on_clean {'passed': 37, 'failed': 0}, tests_on_TD {'passed': 37, 'failed': 0} -> match

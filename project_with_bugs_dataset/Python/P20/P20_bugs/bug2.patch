@@ -1,0 +1,11 @@
+--- a/src/click/_termui_impl.py
++++ b/src/click/_termui_impl.py
+@@ -518,7 +518,7 @@
+ 
+     import shutil
+ 
+-    cmd = cmd_parts[0]
++    cmd = cmd_parts[1]
+ 
+     cmd_filepath = shutil.which(cmd)
+     if not cmd_filepath:

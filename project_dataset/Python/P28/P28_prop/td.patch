@@ -1,0 +1,24 @@
+diff --git a/boltons/cacheutils.py b/boltons/cacheutils.py
+index ee13a17..aeb3e7b 100644
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -285,13 +285,12 @@ class LRI(dict):
+         return self.__class__(max_size=self.max_size, values=self)
+ 
+     def setdefault(self, key, default=None):
+-        with self._lock:
+-            try:
+-                return self[key]
+-            except KeyError:
+-                self.soft_miss_count += 1
+-                self[key] = default
+-                return default
++        try:
++            return self[key]
++        except KeyError:
++            self.soft_miss_count += 1
++            self[key] = default
++            return default
+ 
+     def update(self, E=(), **F):
+         # E and F are throwback names to the dict() __doc__

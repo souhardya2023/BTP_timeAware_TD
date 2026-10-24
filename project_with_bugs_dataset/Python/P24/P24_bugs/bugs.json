@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/jinja2/compiler.py",
+  "line": 897,
+  "function": "visit_Template",
+  "kind": "negate_cond",
+  "description": "condition negated in visit_Template()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/jinja2/loaders.py",
+  "line": 315,
+  "function": "__init__",
+  "kind": "const_off_by_one",
+  "description": "constant 2 -> 3 in __init__()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/jinja2/parser.py",
+  "line": 784,
+  "function": "parse_postfix",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in parse_postfix()",
+  "in_td_file": false
+ }
+]

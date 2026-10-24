@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "gzlib.c",
+  "line": 222,
+  "function": "gz_open",
+  "kind": "arith",
+  "description": "`+ 1` -> `- 1` in gz_open()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "deflate.c",
+  "line": 866,
+  "function": "deflateBound_z",
+  "kind": "negate_cond",
+  "description": "condition negated in deflateBound_z()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "inflate.c",
+  "line": 1144,
+  "function": "inflate",
+  "kind": "const_off_by_one",
+  "description": "constant 4 -> 5 in a condition in inflate()",
+  "in_td_file": false
+ }
+]

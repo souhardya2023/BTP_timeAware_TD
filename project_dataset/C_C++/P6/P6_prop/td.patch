@@ -1,0 +1,14 @@
+diff --git a/gzlib.c b/gzlib.c
+index a85e99e..4e43f17 100644
+--- a/gzlib.c
++++ b/gzlib.c
+@@ -579,8 +579,7 @@ void ZLIB_INTERNAL gz_error(gz_statep state, int err, const char *msg) {
+         return;
+     }
+ #if !defined(NO_snprintf) && !defined(NO_vsnprintf)
+-    (void)snprintf(state->msg, strlen(state->path) + strlen(msg) + 3,
+-                   "%s%s%s", state->path, ": ", msg);
++    (void)sprintf(state->msg, "%s%s%s", state->path, ": ", msg);
+ #else
+     strcpy(state->msg, state->path);
+     strcat(state->msg, ": ");

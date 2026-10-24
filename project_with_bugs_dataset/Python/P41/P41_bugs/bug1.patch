@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -230,7 +230,7 @@
+                 data = self.sock.recv(self._recvsize)
+             except socket.timeout:
+                 raise Timeout(timeout)  # check the rbuf attr for more
+-            if len(data) > size:
++            if not (len(data) > size):
+                 data, self.rbuf = data[:size], data[size:]
+         return data
+ 

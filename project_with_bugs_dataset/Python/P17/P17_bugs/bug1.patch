@@ -1,0 +1,11 @@
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -3145,7 +3145,7 @@
+         # If show_default is set to True/False, provide this to `prompt` as well. For
+         # non-bool values of `show_default`, we use `prompt`'s default behavior
+         prompt_kwargs: t.Any = {}
+-        if isinstance(self.show_default, bool):
++        if not (isinstance(self.show_default, bool)):
+             prompt_kwargs["show_default"] = self.show_default
+ 
+         return prompt(

@@ -1,0 +1,184 @@
+id,bug,td_type,kind,file,function,line,description,in_td_file,clean_min,td_min,diff_min,time_source
+Python/P1,bug1,security,const_off_by_one,src/werkzeug/security.py,_hash_internal,65,constant 1 -> 2 in _hash_internal(),True,28.8,64.4,35.6,sample
+Python/P1,bug2,security,negate_cond,src/werkzeug/http.py,parse_list_header,421,condition negated in parse_list_header(),False,26.1,47.1,21.0,sample
+Python/P1,bug3,security,cmp_equality,src/werkzeug/datastructures/accept.py,_value_matches,283,`==` -> `!=` in a comparison in _value_matches(),False,29.7,55.0,25.3,sample
+Python/P2,bug1,security,negate_cond,src/werkzeug/debug/__init__.py,get_pin_and_cookie_name,164,condition negated in get_pin_and_cookie_name(),True,23.2,62.6,39.4,sample
+Python/P2,bug2,security,const_off_by_one,src/werkzeug/datastructures/structures.py,popitem,564,constant 0 -> 1 in popitem(),False,22.7,49.6,26.9,sample
+Python/P2,bug3,security,bool_op,src/werkzeug/routing/converters.py,to_python,182,`or` -> `and` in a condition in to_python(),False,26.9,52.0,25.1,sample
+Python/P3,bug1,concurrency,negate_cond,boltons/cacheutils.py,pop,266,condition negated in pop(),True,26.3,85.3,59.0,sample
+Python/P3,bug2,concurrency,cmp_boundary,boltons/iterutils.py,__init__,1475,`<` -> `<=` in a comparison in __init__(),False,33.0,91.5,58.5,sample
+Python/P3,bug3,concurrency,arith,boltons/statsutils.py,__init__,138,`+` -> `-` in an expression in __init__(),False,40.8,116.7,75.9,sample
+Python/P4,bug1,concurrency,cmp_boundary,boltons/cacheutils.py,__init__,685,`<` -> `<=` in a comparison in __init__(),True,22.4,76.5,54.1,sample
+Python/P4,bug2,concurrency,negate_cond,boltons/statsutils.py,clear_cache,222,condition negated in clear_cache(),False,22.2,57.4,35.2,sample
+Python/P4,bug3,concurrency,bool_op,boltons/setutils.py,pop,450,`or` -> `and` in a condition in pop(),False,21.9,62.9,41.0,sample
+Python/P5,bug1,concurrency,negate_cond,boltons/cacheutils.py,_get_flattened_ll,163,condition negated in _get_flattened_ll(),True,13.5,51.7,38.2,sample
+Python/P5,bug2,concurrency,const_off_by_one,boltons/strutils.py,ellipsize,1379,constant 1 -> 2 in ellipsize(),False,33.9,114.9,81.0,sample
+Python/P5,bug3,concurrency,cmp_equality,boltons/socketutils.py,recv_until,333,`!=` -> `==` in a comparison in recv_until(),False,43.2,124.1,80.9,sample
+Python/P6,bug1,concurrency,const_off_by_one,boltons/cacheutils.py,__init__,118,constant 0 -> 1 in __init__(),True,31.8,112.9,81.1,sample
+Python/P6,bug2,concurrency,arith,boltons/listutils.py,index,327,`+` -> `-` in an expression in index(),False,26.9,67.1,40.2,sample
+Python/P6,bug3,concurrency,cmp_equality,boltons/statsutils.py,describe,751,`==` -> `!=` in a comparison in describe(),False,17.4,55.0,37.6,sample
+Python/P7,bug1,concurrency,const_off_by_one,boltons/socketutils.py,send,455,constant 0 -> 1 in send(),True,20.7,77.0,56.3,sample
+Python/P7,bug2,concurrency,negate_cond,boltons/setutils.py,issubset,289,condition negated in issubset(),False,25.8,79.8,54.0,sample
+Python/P7,bug3,concurrency,bool_op,boltons/funcutils.py,format_exp_repr,380,`or` -> `and` in a condition in format_exp_repr(),False,30.1,73.6,43.5,sample
+Python/P8,bug1,concurrency,negate_cond,boltons/socketutils.py,write_ns,701,condition negated in write_ns(),True,22.7,72.9,50.2,sample
+Python/P8,bug2,concurrency,cmp_boundary,boltons/tableutils.py,from_data,363,`<` -> `<=` in a comparison in from_data(),False,25.5,63.4,37.9,sample
+Python/P8,bug3,concurrency,const_off_by_one,boltons/tbutils.py,from_string,770,constant 0 -> 1 in from_string(),False,20.5,63.4,42.9,sample
+Python/P9,bug1,concurrency,arith,boltons/socketutils.py,__init__,642,`+` -> `-` in an expression in __init__(),True,18.6,66.4,47.8,sample
+Python/P9,bug2,concurrency,negate_cond,boltons/statsutils.py,describe,749,condition negated in describe(),False,27.5,80.1,52.6,sample
+Python/P9,bug3,concurrency,cmp_equality,boltons/cacheutils.py,__eq__,318,`==` -> `!=` in a comparison in __eq__(),False,44.0,119.2,75.2,sample
+Python/P10,bug1,concurrency,negate_cond,boltons/socketutils.py,recv_until,344,condition negated in recv_until(),True,38.8,134.5,95.7,sample
+Python/P10,bug2,concurrency,arith,boltons/tbutils.py,format_exception_only,592,`+` -> `-` in an expression in format_exception_only(),False,19.6,56.5,36.9,sample
+Python/P10,bug3,concurrency,cmp_boundary,boltons/listutils.py,iter_slice,184,`<` -> `<=` in a comparison in iter_slice(),False,22.5,54.2,31.7,sample
+Python/P11,bug1,coupling_cohesion,negate_cond,src/click/types.py,convert,979,condition negated in convert(),True,24.1,33.8,9.7,sample
+Python/P11,bug2,coupling_cohesion,bool_op,src/click/_termui_impl.py,open_url,731,`or` -> `and` in a condition in open_url(),False,20.8,26.6,5.8,sample
+Python/P11,bug3,coupling_cohesion,cmp_equality,src/click/core.py,__init__,2848,`==` -> `!=` in a comparison in __init__(),True,40.8,56.4,15.6,sample
+Python/P12,bug1,coupling_cohesion,negate_cond,src/click/types.py,normalize_choice,303,condition negated in normalize_choice(),True,31.4,38.7,7.3,sample
+Python/P12,bug2,coupling_cohesion,const_off_by_one,src/click/testing.py,invoke,532,constant 1 -> 2 in invoke(),False,21.8,27.8,6.0,sample
+Python/P12,bug3,coupling_cohesion,cmp_equality,src/click/utils.py,make_default_short_help,74,`==` -> `!=` in a comparison in make_default_short_help(),False,17.8,25.2,7.4,sample
+Python/P13,bug1,coupling_cohesion,cmp_equality,src/click/core.py,type_cast_value,2365,`==` -> `!=` in a comparison in type_cast_value(),True,19.8,25.8,6.0,sample
+Python/P13,bug2,coupling_cohesion,bool_op,src/click/parser.py,parse_args,308,`or` -> `and` in a condition in parse_args(),False,20.2,26.5,6.3,sample
+Python/P13,bug3,coupling_cohesion,arith,src/click/formatting.py,write_dl,242,`-` -> `+` in an expression in write_dl(),False,21.6,26.5,4.9,sample
+Python/P14,bug1,coupling_cohesion,negate_cond,src/jinja2/loaders.py,list_templates,239,condition negated in list_templates(),True,20.4,26.3,5.9,sample
+Python/P14,bug2,coupling_cohesion,const_off_by_one,src/jinja2/compiler.py,pop_assign_tracking,796,constant 1 -> 2 in pop_assign_tracking(),False,30.3,40.6,10.3,sample
+Python/P14,bug3,coupling_cohesion,cmp_equality,src/jinja2/parser.py,parse_tuple,732,`==` -> `!=` in a comparison in parse_tuple(),False,21.2,28.2,7.0,sample
+Python/P15,bug1,coupling_cohesion,bool_op,src/jinja2/loaders.py,up_to_date,388,`and` -> `or` in a condition in up_to_date(),True,17.5,25.9,8.4,sample
+Python/P15,bug2,coupling_cohesion,negate_cond,src/jinja2/compiler.py,_make_finalize,1420,condition negated in _make_finalize(),False,21.2,28.0,6.8,sample
+Python/P15,bug3,coupling_cohesion,cmp_equality,src/jinja2/tests.py,test_even,22,`==` -> `!=` in a comparison in test_even(),False,15.7,22.4,6.7,sample
+Python/P16,bug1,coupling_cohesion,cmp_equality,src/jinja2/lexer.py,wrap,630,`==` -> `!=` in a comparison in wrap(),True,19.4,23.7,4.3,sample
+Python/P16,bug2,coupling_cohesion,negate_cond,src/jinja2/ext.py,parse,459,condition negated in parse(),False,19.2,24.5,5.3,sample
+Python/P16,bug3,coupling_cohesion,const_off_by_one,src/jinja2/filters.py,do_truncate,917,constant 0 -> 1 in do_truncate(),False,26.3,38.8,12.5,sample
+Python/P17,bug1,dependency_structure,negate_cond,src/click/core.py,prompt_for_value,3148,condition negated in prompt_for_value(),True,32.6,35.6,3.0,sample
+Python/P17,bug2,dependency_structure,bool_op,src/click/utils.py,make_default_short_help,89,`and` -> `or` in a condition in make_default_short_help(),False,27.7,30.3,2.6,sample
+Python/P17,bug3,dependency_structure,arith,src/click/parser.py,_unpack_args,106,`+` -> `-` in an expression in _unpack_args(),False,15.8,15.7,-0.1,sample
+Python/P18,bug1,dependency_structure,negate_cond,src/click/core.py,consume_value,3263,condition negated in consume_value(),True,24.3,25.8,1.5,sample
+Python/P18,bug2,dependency_structure,const_off_by_one,src/click/testing.py,invoke,512,constant 0 -> 1 in invoke(),False,28.2,29.0,0.8,sample
+Python/P18,bug3,dependency_structure,cmp_equality,src/click/__init__.py,__getattr__,88,`==` -> `!=` in a comparison in __getattr__(),False,38.4,38.6,0.2,sample
+Python/P19,bug1,dependency_structure,negate_cond,src/click/core.py,format_epilog,1175,condition negated in format_epilog(),True,14.6,16.2,1.6,sample
+Python/P19,bug2,dependency_structure,cmp_boundary,src/click/shell_completion.py,_is_incomplete_argument,521,`>` -> `>=` in a comparison in _is_incomplete_argument(),True,34.1,33.5,-0.6,sample
+Python/P19,bug3,dependency_structure,cmp_equality,src/click/termui.py,confirm,250,`==` -> `!=` in a comparison in confirm(),False,23.4,26.6,3.2,sample
+Python/P20,bug1,dependency_structure,negate_cond,src/click/__init__.py,__getattr__,88,condition negated in __getattr__(),True,18.2,15.7,-2.5,sample
+Python/P20,bug2,dependency_structure,const_off_by_one,src/click/_termui_impl.py,_tempfilepager,521,constant 0 -> 1 in _tempfilepager(),False,16.3,15.3,-1.0,sample
+Python/P20,bug3,dependency_structure,cmp_equality,src/click/_compat.py,_is_compat_stream_attr,224,`==` -> `!=` in a comparison in _is_compat_stream_attr(),False,21.5,23.1,1.6,sample
+Python/P21,bug1,complexity,bool_op,src/click/core.py,resolve_envvar_value,3180,`and` -> `or` in a condition in resolve_envvar_value(),True,20.2,34.8,14.6,sample
+Python/P21,bug2,complexity,negate_cond,src/click/types.py,convert,834,condition negated in convert(),False,22.7,40.8,18.1,sample
+Python/P21,bug3,complexity,arith,src/click/termui.py,_interpret_color,513,`+` -> `-` in an expression in _interpret_color(),False,22.7,39.0,16.3,sample
+Python/P22,bug1,complexity,negate_cond,src/click/core.py,get_help_extra,3089,condition negated in get_help_extra(),True,17.1,33.8,16.7,sample
+Python/P22,bug2,complexity,const_off_by_one,src/click/_textwrap.py,indent_only,46,constant 0 -> 1 in indent_only(),False,29.0,54.0,25.0,sample
+Python/P22,bug3,complexity,bool_op,src/click/_compat.py,open_stream,436,`and` -> `or` in a condition in open_stream(),True,21.7,33.1,11.4,sample
+Python/P23,bug1,complexity,negate_cond,src/click/core.py,get_help_extra,3089,condition negated in get_help_extra(),True,25.1,50.9,25.8,sample
+Python/P23,bug2,complexity,arith,src/click/_termui_impl.py,render_progress,255,`-` -> `+` in an expression in render_progress(),False,18.8,29.5,10.7,sample
+Python/P23,bug3,complexity,bool_op,src/click/termui.py,confirm,256,`and` -> `or` in a condition in confirm(),False,23.4,33.5,10.1,sample
+Python/P24,bug1,complexity,negate_cond,src/jinja2/compiler.py,visit_Template,897,condition negated in visit_Template(),True,28.8,60.7,31.9,sample
+Python/P24,bug2,complexity,const_off_by_one,src/jinja2/loaders.py,__init__,315,constant 2 -> 3 in __init__(),False,21.1,36.7,15.6,sample
+Python/P24,bug3,complexity,bool_op,src/jinja2/parser.py,parse_postfix,784,`or` -> `and` in a condition in parse_postfix(),False,21.6,35.8,14.2,sample
+Python/P25,bug1,complexity,negate_cond,src/jinja2/utils.py,urlize,320,condition negated in urlize(),True,24.6,41.4,16.8,sample
+Python/P25,bug2,complexity,arith,src/jinja2/loaders.py,get_module_filename,665,`+` -> `-` in an expression in get_module_filename(),False,19.8,34.5,14.7,sample
+Python/P25,bug3,complexity,bool_op,src/jinja2/compiler.py,macro_body,655,`and` -> `or` in a condition in macro_body(),False,35.8,53.5,17.7,sample
+Python/P26,bug1,concurrency,negate_cond,boltons/cacheutils.py,update,803,condition negated in update(),True,17.6,62.5,44.9,sample
+Python/P26,bug2,concurrency,arith,boltons/iterutils.py,frange,563,`-` -> `+` in an expression in frange(),False,37.0,123.1,86.1,sample
+Python/P26,bug3,concurrency,const_off_by_one,boltons/tableutils.py,_add_vertical_html_lines,536,constant 1 -> 2 in _add_vertical_html_lines(),False,24.1,69.8,45.7,sample
+Python/P27,bug1,concurrency,bool_op,boltons/cacheutils.py,most_common,731,`or` -> `and` in a condition in most_common(),True,26.0,90.3,64.3,sample
+Python/P27,bug2,concurrency,negate_cond,boltons/dictutils.py,__init__,806,condition negated in __init__(),False,46.7,124.8,78.1,sample
+Python/P27,bug3,concurrency,arith,boltons/mathutils.py,__getitem__,177,`-` -> `+` in an expression in __getitem__(),False,21.3,57.4,36.1,sample
+Python/P28,bug1,concurrency,negate_cond,boltons/cacheutils.py,__repr__,472,condition negated in __repr__(),True,21.2,67.3,46.1,sample
+Python/P28,bug2,concurrency,const_off_by_one,boltons/setutils.py,_get_apparent_index,174,constant 0 -> 1 in _get_apparent_index(),False,22.8,60.1,37.3,sample
+Python/P28,bug3,concurrency,cmp_equality,boltons/urlutils.py,get_authority,740,`!=` -> `==` in a comparison in get_authority(),False,40.0,111.1,71.1,sample
+Python/P29,bug1,concurrency,negate_cond,boltons/cacheutils.py,update,804,condition negated in update(),True,29.1,90.0,60.9,sample
+Python/P29,bug2,concurrency,const_off_by_one,boltons/timeutils.py,isoparse,129,constant 6 -> 7 in isoparse(),False,23.5,72.1,48.6,sample
+Python/P29,bug3,concurrency,arith,boltons/tbutils.py,to_dict,523,`-` -> `+` in an expression in to_dict(),False,22.0,73.6,51.6,sample
+Python/P30,bug1,concurrency,bool_op,boltons/cacheutils.py,make_cache_key,432,`and` -> `or` in a condition in make_cache_key(),True,21.9,64.1,42.2,sample
+Python/P30,bug2,concurrency,negate_cond,boltons/statsutils.py,trim_relative,546,condition negated in trim_relative(),False,19.1,55.3,36.2,sample
+Python/P30,bug3,concurrency,const_off_by_one,boltons/setutils.py,intersection,322,constant 1 -> 2 in intersection(),False,28.7,72.3,43.6,sample
+Python/P31,bug1,concurrency,negate_cond,boltons/cacheutils.py,update,803,condition negated in update(),True,18.3,75.4,57.1,sample
+Python/P31,bug2,concurrency,cmp_equality,boltons/strutils.py,escape_shell_args,760,`==` -> `!=` in a comparison in escape_shell_args(),False,19.0,60.2,41.2,sample
+Python/P31,bug3,concurrency,arith,boltons/timeutils.py,fromutc,624,`-` -> `+` in an expression in fromutc(),False,23.5,65.3,41.8,sample
+Python/P32,bug1,concurrency,negate_cond,boltons/socketutils.py,send,452,condition negated in send(),True,38.8,145.6,106.8,sample
+Python/P32,bug2,concurrency,bool_op,boltons/urlutils.py,__init__,498,`or` -> `and` in a condition in __init__(),False,26.8,80.1,53.3,sample
+Python/P32,bug3,concurrency,arith,boltons/iterutils.py,chunk_ranges,411,`+` -> `-` in an expression in chunk_ranges(),False,24.6,69.4,44.8,sample
+Python/P33,bug1,concurrency,cmp_boundary,boltons/socketutils.py,send,458,`<=` -> `<` in a comparison in send(),True,19.3,64.0,44.7,sample
+Python/P33,bug2,concurrency,bool_op,boltons/funcutils.py,inspect_formatargspec,94,`and` -> `or` in a condition in inspect_formatargspec(),False,40.5,126.1,85.6,sample
+Python/P33,bug3,concurrency,negate_cond,boltons/debugutils.py,wrapped,204,condition negated in wrapped(),False,20.4,50.4,30.0,sample
+Python/P34,bug1,concurrency,negate_cond,boltons/socketutils.py,__init__,639,condition negated in __init__(),True,29.4,102.6,73.2,sample
+Python/P34,bug2,concurrency,const_off_by_one,boltons/strutils.py,ordinalize,172,constant 2 -> 3 in ordinalize(),False,27.8,80.7,52.9,sample
+Python/P34,bug3,concurrency,cmp_equality,boltons/urlutils.py,__ne__,810,`==` -> `!=` in a comparison in __ne__(),False,20.9,63.9,43.0,sample
+Python/P35,bug1,concurrency,negate_cond,boltons/socketutils.py,__init__,163,condition negated in __init__(),True,14.9,52.0,37.1,sample
+Python/P35,bug2,concurrency,cmp_boundary,boltons/listutils.py,_balance_list,128,`>` -> `>=` in a comparison in _balance_list(),False,32.0,102.6,70.6,sample
+Python/P35,bug3,concurrency,bool_op,boltons/funcutils.py,update_wrapper,588,`and` -> `or` in a condition in update_wrapper(),False,23.6,67.1,43.5,sample
+Python/P36,bug1,concurrency,negate_cond,boltons/socketutils.py,recv_until,331,condition negated in recv_until(),True,24.5,86.5,62.0,sample
+Python/P36,bug2,concurrency,const_off_by_one,boltons/dictutils.py,__init__,796,constant 0 -> 1 in __init__(),False,35.6,104.5,68.9,sample
+Python/P36,bug3,concurrency,arith,boltons/strutils.py,args2sh,802,`+` -> `-` in an expression in args2sh(),False,31.8,81.1,49.3,sample
+Python/P37,bug1,concurrency,negate_cond,boltons/socketutils.py,recv_size,414,condition negated in recv_size(),True,23.2,67.8,44.6,sample
+Python/P37,bug2,concurrency,arith,boltons/strutils.py,handle_entityref,604,`+` -> `-` in an expression in handle_entityref(),False,16.4,49.9,33.5,sample
+Python/P37,bug3,concurrency,cmp_boundary,boltons/tableutils.py,from_data,363,`<` -> `<=` in a comparison in from_data(),False,20.2,52.6,32.4,sample
+Python/P38,bug1,concurrency,negate_cond,boltons/socketutils.py,recv_until,317,condition negated in recv_until(),True,33.4,102.0,68.6,sample
+Python/P38,bug2,concurrency,const_off_by_one,boltons/namedutils.py,namedtuple,186,constant 1 -> 2 in namedtuple(),False,23.4,61.4,38.0,sample
+Python/P38,bug3,concurrency,bool_op,boltons/iterutils.py,untyped_sorted,1632,`and` -> `or` in a condition in untyped_sorted(),False,38.0,120.0,82.0,sample
+Python/P39,bug1,concurrency,negate_cond,boltons/socketutils.py,__init__,163,condition negated in __init__(),True,29.6,114.6,85.0,sample
+Python/P39,bug2,concurrency,const_off_by_one,boltons/strutils.py,human_readable_list,1324,constant 0 -> 1 in human_readable_list(),False,16.7,46.0,29.3,sample
+Python/P39,bug3,concurrency,arith,boltons/tableutils.py,_add_horizontal_html_lines,507,`-` -> `+` in an expression in _add_horizontal_html_lines(),False,27.2,74.4,47.2,sample
+Python/P40,bug1,concurrency,cmp_boundary,boltons/socketutils.py,write_ns,701,`>` -> `>=` in a comparison in write_ns(),True,25.4,89.0,63.6,sample
+Python/P40,bug2,concurrency,negate_cond,boltons/setutils.py,isdisjoint,283,condition negated in isdisjoint(),False,16.0,40.5,24.5,sample
+Python/P40,bug3,concurrency,const_off_by_one,boltons/listutils.py,pop,167,constant 1 -> 2 in pop(),False,19.3,49.2,29.9,sample
+Python/P41,bug1,concurrency,negate_cond,boltons/socketutils.py,recv,233,condition negated in recv(),True,18.6,55.9,37.3,sample
+Python/P41,bug2,concurrency,cmp_boundary,boltons/tableutils.py,_add_horizontal_html_lines,507,`>` -> `>=` in a comparison in _add_horizontal_html_lines(),False,25.3,67.0,41.7,sample
+Python/P41,bug3,concurrency,arith,boltons/cacheutils.py,add,709,`-` -> `+` in an expression in add(),False,26.3,77.9,51.6,sample
+C_C++/P1,bug1,security,negate_cond,src/dump.c,do_dump,394,condition negated in do_dump(),True,20.5,50.1,29.6,sample
+C_C++/P1,bug2,security,const_off_by_one,src/dtoa.c,gethex,3990,constant 0 -> 1 in a condition in gethex(),False,22.3,48.6,26.3,sample
+C_C++/P1,bug3,security,cmp_equality,src/hashtable_seed.c,json_object_seed,271,`==` -> `!=` in a condition in json_object_seed(),False,21.0,46.8,25.8,sample
+C_C++/P2,bug1,security,negate_cond,src/strconv.c,jsonp_dtostr,94,condition negated in jsonp_dtostr(),True,27.5,71.9,44.4,sample
+C_C++/P2,bug2,security,const_off_by_one,src/dtoa.c,gethex,3934,constant 19 -> 20 in a condition in gethex(),False,19.3,43.5,24.2,sample
+C_C++/P2,bug3,security,arith,src/dump.c,do_dump,225,`- 1` -> `+ 1` in do_dump(),False,36.4,74.1,37.7,sample
+C_C++/P3,bug1,security,negate_cond,src/strconv.c,jsonp_dtostr,115,condition negated in jsonp_dtostr(),True,27.4,61.9,34.5,sample
+C_C++/P3,bug2,security,arith,src/pack_unpack.c,unpack,781,`- 1` -> `+ 1` in unpack(),False,34.7,78.9,44.2,sample
+C_C++/P3,bug3,security,cmp_boundary,src/dtoa.c,gethex,5323,`<=` -> `<` in a condition in gethex(),False,19.7,38.1,18.4,sample
+C_C++/P4,bug1,security,arith,src/load.c,lex_scan_string,389,`- 1` -> `+ 1` in lex_scan_string(),True,34.3,90.4,56.1,sample
+C_C++/P4,bug2,security,negate_cond,src/dtoa.c,pow5mult,1959,condition negated in pow5mult(),False,23.0,54.5,31.5,sample
+C_C++/P4,bug3,security,const_off_by_one,src/value.c,json_array_append_new,545,constant 1 -> 2 in a condition in json_array_append_new(),False,15.0,35.4,20.4,sample
+C_C++/P5,bug1,security,const_off_by_one,gzlib.c,gzbuffer,339,constant 8 -> 9 in a condition in gzbuffer(),True,18.0,47.6,29.6,sample
+C_C++/P5,bug2,security,cmp_boundary,trees.c,send_tree,769,`<` -> `<=` in a condition in send_tree(),False,41.6,72.6,31.0,sample
+C_C++/P5,bug3,security,negate_cond,inffast.c,inflate_fast,217,condition negated in inflate_fast(),False,19.3,33.6,14.3,sample
+C_C++/P6,bug1,security,arith,gzlib.c,gz_open,222,`+ 1` -> `- 1` in gz_open(),True,29.5,71.0,41.5,sample
+C_C++/P6,bug2,security,negate_cond,deflate.c,deflateBound_z,866,condition negated in deflateBound_z(),False,24.2,49.1,24.9,sample
+C_C++/P6,bug3,security,const_off_by_one,inflate.c,inflate,1144,constant 4 -> 5 in a condition in inflate(),False,31.1,59.8,28.7,sample
+C_C++/P7,bug1,dependency_structure,arith,cJSON_Utils.c,generate_merge_patch,1431,`- 1` -> `+ 1` in generate_merge_patch(),False,34.8,35.9,1.1,sample
+C_C++/P7,bug2,dependency_structure,cmp_equality,cJSON.c,cJSON_InsertItemInArray,2357,`==` -> `!=` in a condition in cJSON_InsertItemInArray(),False,20.4,22.0,1.6,sample
+C_C++/P7,bug3,dependency_structure,negate_cond,cJSON_Utils.c,detach_item_from_array,411,condition negated in detach_item_from_array(),False,24.2,26.1,1.9,sample
+C_C++/P8,bug1,dependency_structure,cmp_boundary,src/dtoa.c,gethex,4676,`>` -> `>=` in a condition in gethex(),False,26.5,24.0,-2.5,sample
+C_C++/P8,bug2,dependency_structure,arith,src/load.c,lex_scan_string,358,`+ 1` -> `- 1` in lex_scan_string(),False,34.4,41.0,6.6,sample
+C_C++/P8,bug3,dependency_structure,negate_cond,src/pack_unpack.c,unpack,712,condition negated in unpack(),False,26.5,26.4,-0.1,sample
+C_C++/P9,bug1,dependency_structure,negate_cond,zutil.h,z_once,284,condition negated in z_once(),True,26.4,30.3,3.9,sample
+C_C++/P9,bug2,dependency_structure,arith,trees.c,send_all_trees,853,`- 1` -> `+ 1` in send_all_trees(),False,17.6,18.3,0.7,sample
+C_C++/P9,bug3,dependency_structure,cmp_boundary,deflate.c,deflate,1190,`>` -> `>=` in a condition in deflate(),False,36.3,35.3,-1.0,sample
+C_C++/P10,bug1,complexity,arith,src/strbuffer.c,strbuffer_init,27,`- 1` -> `+ 1` in strbuffer_init(),True,34.0,56.3,22.3,sample
+C_C++/P10,bug2,complexity,negate_cond,src/dtoa.c,gethex,4756,condition negated in gethex(),False,32.9,51.5,18.6,sample
+C_C++/P10,bug3,complexity,bool_op,src/pack_unpack.c,unpack_object,491,`&&` -> `||` in a condition in unpack_object(),False,27.6,48.2,20.6,sample
+C_C++/P11,bug1,concurrency,cmp_equality,thpool.c,jobqueue_init,428,`==` -> `!=` in a condition in jobqueue_init(),True,37.5,140.0,102.5,sample
+C_C++/P11,bug2,concurrency,negate_cond,thpool.c,thread_init,304,condition negated in thread_init(),True,27.6,98.9,71.3,sample
+C_C++/P11,bug3,concurrency,const_off_by_one,thpool.c,thpool_init,160,constant 1 -> 2 in a condition in thpool_init(),True,22.5,84.5,62.0,sample
+C_C++/P12,bug1,concurrency,bool_op,thpool.c,thpool_wait,218,`||` -> `&&` in a condition in thpool_wait(),True,16.0,55.3,39.3,sample
+C_C++/P12,bug2,concurrency,cmp_boundary,thpool.c,bsem_init,527,`<` -> `<=` in a condition in bsem_init(),True,27.2,95.1,67.9,sample
+C_C++/P12,bug3,concurrency,cmp_equality,thpool.c,thread_init,304,`==` -> `!=` in a condition in thread_init(),True,20.8,65.1,44.3,sample
+C_C++/P13,bug1,security,cmp_equality,thpool.c,thpool_init,168,`==` -> `!=` in a condition in thpool_init(),True,18.0,42.0,24.0,sample
+C_C++/P13,bug2,security,negate_cond,thpool.c,thread_do,371,condition negated in thread_do(),True,23.8,65.0,41.2,sample
+C_C++/P13,bug3,security,bool_op,thpool.c,thpool_wait,218,`||` -> `&&` in a condition in thpool_wait(),True,34.3,76.5,42.2,sample
+C_C++/P14,bug1,security,cmp_equality,thpool.c,jobqueue_init,428,`==` -> `!=` in a condition in jobqueue_init(),True,25.4,60.2,34.8,sample
+C_C++/P14,bug2,security,negate_cond,thpool.c,thread_do,362,condition negated in thread_do(),True,17.1,39.1,22.0,sample
+C_C++/P14,bug3,security,const_off_by_one,thpool.c,thpool_init,145,constant 0 -> 1 in a condition in thpool_init(),True,18.2,43.3,25.1,sample
+C_C++/P15,bug1,security,arith,src/loader.c,yaml_parser_load_sequence_end,469,`- 1` -> `+ 1` in yaml_parser_load_sequence_end(),True,29.7,70.4,40.7,sample
+C_C++/P15,bug2,security,negate_cond,src/dumper.c,yaml_emitter_dump_mapping,385,condition negated in yaml_emitter_dump_mapping(),False,23.9,55.5,31.6,sample
+C_C++/P15,bug3,security,const_off_by_one,src/scanner.c,yaml_parser_scan_block_scalar,2844,constant 1 -> 2 in a condition in yaml_parser_scan_block_scalar(),False,25.7,54.3,28.6,sample
+C_C++/P16,bug1,security,negate_cond,src/parser.c,yaml_parser_parse_flow_sequence_entry,982,condition negated in yaml_parser_parse_flow_sequence_entry(),True,18.9,44.2,25.3,sample
+C_C++/P16,bug2,security,const_off_by_one,src/loader.c,yaml_parser_load_scalar,384,constant 0 -> 1 in a condition in yaml_parser_load_scalar(),False,15.9,32.7,16.8,sample
+C_C++/P16,bug3,security,bool_op,src/emitter.c,yaml_emitter_write_tag_content,1878,`&&` -> `||` in a condition in yaml_emitter_write_tag_content(),False,15.4,32.4,17.0,sample
+C_C++/P17,bug1,security,cmp_boundary,src/api.c,yaml_stack_extend,123,`>=` -> `>` in a condition in yaml_stack_extend(),True,21.6,50.9,29.3,sample
+C_C++/P17,bug2,security,negate_cond,src/scanner.c,yaml_parser_scan_flow_scalar,3055,condition negated in yaml_parser_scan_flow_scalar(),False,29.7,64.2,34.5,sample
+C_C++/P17,bug3,security,const_off_by_one,src/dumper.c,yaml_emitter_anchor_node,215,constant 1 -> 2 in a condition in yaml_emitter_anchor_node(),False,31.0,70.7,39.7,sample
+C_C++/P18,bug1,security,negate_cond,src/parser.c,yaml_parser_parse_flow_sequence_entry,974,condition negated in yaml_parser_parse_flow_sequence_entry(),True,30.7,75.3,44.6,sample
+C_C++/P18,bug2,security,bool_op,src/emitter.c,yaml_emitter_select_scalar_style,1226,`&&` -> `||` in a condition in yaml_emitter_select_scalar_style(),False,16.6,36.3,19.7,sample
+C_C++/P18,bug3,security,const_off_by_one,src/scanner.c,yaml_parser_scan_to_next_token,1967,constant 1 -> 2 in a condition in yaml_parser_scan_to_next_token(),False,26.7,61.1,34.4,sample
+C_C++/P19,bug1,security,negate_cond,src/loader.c,yaml_parser_load_node_add,317,condition negated in yaml_parser_load_node_add(),True,27.8,68.4,40.6,sample
+C_C++/P19,bug2,security,const_off_by_one,src/emitter.c,yaml_emitter_emit_flow_mapping_key,817,constant 0 -> 1 in a condition in yaml_emitter_emit_flow_mapping_key(),False,29.2,63.4,34.2,sample
+C_C++/P19,bug3,security,cmp_equality,src/dumper.c,yaml_emitter_anchor_node,235,`==` -> `!=` in a condition in yaml_emitter_anchor_node(),False,31.3,63.7,32.4,sample
+C_C++/P20,bug1,security,negate_cond,pngset.c,png_set_mDCV_fixed,252,condition negated in png_set_mDCV_fixed(),True,17.5,47.8,30.3,sample
+C_C++/P20,bug2,security,cmp_boundary,png.c,png_icc_check_length,1606,`>` -> `>=` in a condition in png_icc_check_length(),False,18.8,39.1,20.3,sample
+C_C++/P20,bug3,security,const_off_by_one,pngwrite.c,png_write_png,1511,constant 0 -> 1 in a condition in png_write_png(),False,28.6,55.7,27.1,sample

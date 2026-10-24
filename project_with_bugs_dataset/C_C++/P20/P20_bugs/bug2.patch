@@ -1,0 +1,11 @@
+--- a/png.c
++++ b/png.c
+@@ -1603,7 +1603,7 @@
+     * the caller supplies the profile buffer so libpng doesn't allocate it.  See
+     * the call to icc_check_length below (the write case).
+     */
+-   if (profile_length > png_chunk_max(png_ptr))
++   if (profile_length >= png_chunk_max(png_ptr))
+       return png_icc_profile_error(png_ptr, name, profile_length,
+             "profile too long");
+ 

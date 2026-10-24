@@ -1,0 +1,11 @@
+--- a/src/dtoa.c
++++ b/src/dtoa.c
+@@ -3931,7 +3931,7 @@
+ 		}
+ 	else {
+ 		if ((t00 & 0x1ff) && (~t00 & 0x1fe)) { /* unambiguous result? */
+-			if (nd > 19 && ((t00 + (1<<i) + 2) & 0x200) ^ (t00 & 0x200))
++			if (nd > 20 && ((t00 + (1<<i) + 2) & 0x200) ^ (t00 & 0x200))
+ 				goto many_digits;
+ 			if (erv <= 1)
+ 				goto denormal1;

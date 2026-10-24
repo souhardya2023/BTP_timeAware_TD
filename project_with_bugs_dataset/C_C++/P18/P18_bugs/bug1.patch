@@ -1,0 +1,11 @@
+--- a/src/parser.c
++++ b/src/parser.c
+@@ -971,7 +971,7 @@
+ 
+     if (first) {
+         token = PEEK_TOKEN(parser);
+-        if (!PUSH(parser, parser->marks, token->start_mark))
++        if (!(!PUSH(parser, parser->marks, token->start_mark)))
+             return 0;
+         SKIP_TOKEN(parser);
+     }

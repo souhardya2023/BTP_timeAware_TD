@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 803,
+  "function": "update",
+  "kind": "negate_cond",
+  "description": "condition negated in update()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/iterutils.py",
+  "line": 563,
+  "function": "frange",
+  "kind": "arith",
+  "description": "`-` -> `+` in an expression in frange()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/tableutils.py",
+  "line": 536,
+  "function": "_add_vertical_html_lines",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in _add_vertical_html_lines()",
+  "in_td_file": false
+ }
+]

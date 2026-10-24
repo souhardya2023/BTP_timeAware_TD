@@ -1,0 +1,11 @@
+--- a/boltons/tbutils.py
++++ b/boltons/tbutils.py
+@@ -520,7 +520,7 @@
+ 
+         # get the line numbers and textual lines
+         # without assuming DeferredLines
+-        start_line = self.lineno - len(self.pre_lines)
++        start_line = self.lineno + len(self.pre_lines)
+         pre_lines = [{'lineno': start_line + i, 'line': str(l)}
+                      for i, l in enumerate(self.pre_lines)]
+         # trim off leading empty lines

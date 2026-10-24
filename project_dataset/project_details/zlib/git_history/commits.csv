@@ -1,0 +1,1127 @@
+sha,date,ts,author,subject,added,deleted,files,bugfix
+bcf78a20978d76f64b7cd46d1a4d7a79a578c77b,2011-09-10,1315632991,29328b216c,zlib 0.71,5979,0,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inflate.c;inflate.h;inftest.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+913afb9174bb474104049906c1382dec81826424,2011-09-10,1315633937,29328b216c,zlib 0.79,546,127,deflate.c;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;inffast.c;inffast.h;inflate-0.72.c;inflate.c;inflate.h;inftrees.c;infutil.c;infutil.h;minigzip.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+4ca984fb447ac57120c394cf2fbba23837ed31c2,2011-09-10,1315634594,29328b216c,zlib 0.8,165,342,compress.c;deflate.c;example.c;gzio.c;infblock.c;infblock.h;inffast.c;inflate-0.72.c;inflate.c;inftest.c;inftrees.c;infutil.c;infutil.h;minigzip.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+64b2e892035cf6ea98800c54dce0d63730d50272,2011-09-10,1315634812,29328b216c,zlib 0.9,403,178,crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;inffast.c;inflate.c;infutil.c;infutil.h;trees.c;zconf.h;zlib.h;zutil.h,False
+1c71d8b13b54f91ddec361d3053ecce26e6ff761,2011-09-10,1315634855,29328b216c,zlib 0.91,70,27,deflate.c;example.c;gzio.c;inflate.c;minigzip.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+bdde4e09d21edff02ea5093b7f6eccbf166b272f,2011-09-10,1315634887,29328b216c,zlib 0.92,873,908,adler32.c;compress.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;inffast.c;inflate.c;inftest.c;inftrees.c;inftrees.h;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+6b834a58bdef976383cff6e2a83f353e668a9cf1,2011-09-10,1315634908,29328b216c,zlib 0.93,238,199,crc32.c;deflate.c;deflate.h;infblock.c;infcodes.c;inffast.c;inftrees.c;inftrees.h;infutil.h;minigzip.c;trees.c;zconf.h;zlib.h;zutil.h,False
+23c69f10698301ae97709eb0bbfb371d66b99a08,2011-09-10,1315634958,29328b216c,zlib 0.94,492,386,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+25e5325501edade156e897f95afdaa2be78ad9a3,2011-09-10,1315635021,29328b216c,zlib 0.95,190,119,deflate.c;deflate.h;example.c;gzio.c;inftrees.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+56bcb184fac036a45cb8937238d51778d0a796aa,2011-09-10,1315635097,29328b216c,zlib 0.99,1406,637,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+8a2acbffc86012de3523ecf91db2c4ea1b1c4ea2,2011-09-10,1315635207,29328b216c,zlib 1.0-pre,444,898,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+423eb40306489f9c88f7dba32c2f69179166730b,2011-09-10,1315635279,29328b216c,zlib 1.0.1,1009,519,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+e26a448e9673d67dc2866e11a48d24fc352e5f80,2011-09-10,1315635317,29328b216c,zlib 1.0.2,113,80,adler32.c;compress.c;deflate.c;example.c;gzio.c;inftrees.c;infutil.c;minigzip.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+ff11b0a61f7345572ff2e413173d3179486162f2,2011-09-10,1315635422,29328b216c,zlib 1.0.4,203,155,deflate.c;deflate.h;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+ebd3c2c0e734fc99a1360014ea52ed04fe6aade4,2011-09-10,1315635437,29328b216c,zlib 1.0.5,39,31,deflate.c;infblock.c;inftrees.c;zlib.h,False
+7850e4e406dce1f7a819297eeb151d1ca18e7cd9,2011-09-10,1315635453,29328b216c,zlib 1.0.7,955,370,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+6759211ad8a5006689216a86c3267bb503bfccc1,2011-09-10,1315635537,29328b216c,zlib 1.0.8,345,68,compress.c;crc32.c;deflate.c;example.c;gzio.c;infblock.c;inflate.c;inftrees.c;minigzip.c;test.c;trees.c;trees.h;zconf.h;zlib.h;ztest28975.c;zutil.c;zutil.h,False
+b8c9ecb0765fc39423c07613d909c5193378bdfd,2011-09-10,1315635561,29328b216c,zlib 1.0.9,326,301,adler32.c;compress.c;crc32.c;deflate.c;example.c;gzio.c;infblock.c;inflate.c;inftrees.c;inftrees.h;infutil.h;minigzip.c;test.c;uncompr.c;zconf.h;zlib.h;ztest28975.c;zutil.c;zutil.h,False
+965fe72aed580d518c979c9a33b49e7df28205f7,2011-09-10,1315635595,29328b216c,zlib 1.1.0,210,43,deflate.c;deflate.h;gzio.c;inflate.c;inftrees.c;minigzip.c;trees.c;trees.h;zlib.h,False
+02b6cf579f02ec78c052735020a5d3c5723ed641,2011-09-10,1315635607,29328b216c,zlib 1.1.1,12,10,deflate.c;deflate.h;inftrees.c;trees.c;zlib.h,False
+c34c1fcbb19852ca35216ad66276f4f86af3fc22,2011-09-10,1315635615,29328b216c,zlib 1.1.2,313,49,deflate.c;example.c;gzio.c;infblock.c;infcodes.c;inffast.c;inffixed.h;inftrees.c;inftrees.h;maketree.c;zlib.h,False
+14763ac7c6c03bca62c39e35c03cf5bfc7728802,2011-09-10,1315635629,29328b216c,zlib 1.1.3,342,304,deflate.c;deflate.h;example.c;gzio.c;infblock.c;infcodes.c;inffixed.h;inftrees.c;maketree.c;minigzip.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+a383133c4e7b93113cee912f213cf9502d785fa7,2011-09-10,1315635642,29328b216c,zlib 1.1.4,71,60,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;infutil.c;infutil.h;maketree.c;minigzip.c;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+7c2a874e50b871d04fbd19501f7b42cff55e5abc,2011-09-10,1315635707,29328b216c,zlib 1.2.0,4063,2346,adler32.c;compress.c;crc32.c;crc32.h;deflate.c;example.c;gzio.c;infback.c;infblock.c;infblock.h;infcodes.c;infcodes.h;inffast.c;inffast.h;inffixed.h;inflate.c;inflate.h;inftrees.c;inftrees.h;infutil.c;infutil.h;maketree.c;trees.c;uncompr.c;zconf.h;zconf.in.h;zlib.h;zutil.c;zutil.h,False
+13a294f044ef0a89b2dcbfbb5d4d4c792673348e,2011-09-10,1315635717,29328b216c,zlib 1.2.0.1,494,409,adler32.c;deflate.c;deflate.h;example.c;gzio.c;infback.c;inffast.c;inflate.c;inftrees.c;minigzip.c;trees.c;zconf.h;zconf.in.h;zlib.h;zutil.h,False
+8e34b3a8024c028dd9fd21d70525fc6d215efde5,2011-09-10,1315635730,29328b216c,zlib 1.2.0.2,450,211,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infback.c;inflate.c;inflate.h;inftrees.c;minigzip.c;uncompr.c;zconf.h;zconf.in.h;zlib.h;zutil.c;zutil.h,False
+85e7d7d9ba71d95a9e6a64b98bae4fac09f06f1c,2011-09-10,1315635741,29328b216c,zlib 1.2.0.3,16,13,deflate.c;example.c;gzio.c;inftrees.c;zconf.h;zconf.in.h;zlib.h,False
+086e982175da84b3db958191031380794315f95f,2011-09-10,1315635750,29328b216c,zlib 1.2.0.4,165,83,crc32.c;deflate.c;deflate.h;gzio.c;infback.c;inflate.c;inflate.h;inftrees.c;inftrees.h;minigzip.c;zlib.h;zutil.c,False
+4b5a43a219d51066c01ff2ab86af18b967f2d0dd,2011-09-10,1315635757,29328b216c,zlib 1.2.0.5,371,296,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infback.c;inffast.c;inffast.h;inflate.c;inflate.h;inftrees.c;minigzip.c;uncompr.c;zconf.h;zconf.in.h;zlib.h;zutil.c;zutil.h,False
+f81ba93d4a7e43fccf4730e5e7404ee765a76e3e,2011-09-10,1315635768,29328b216c,zlib 1.2.0.6,31,7,deflate.c;example.c;gzio.c;inffast.c;inftrees.c;zconf.h;zconf.in.h;zlib.h,False
+b97ec631c6f7dd9cff2e3caf3b38e70b006e1b2d,2011-09-10,1315635781,29328b216c,zlib 1.2.0.7,11,7,deflate.c;inftrees.c;trees.c;zlib.h;zutil.h,False
+a2506218cd8c32416d0d15260834f3c23d910fc8,2011-09-10,1315635794,29328b216c,zlib 1.2.0.8,105,25,adler32.c;deflate.c;gzio.c;inflate.c;inftrees.c;minigzip.c;zconf.h;zconf.in.h;zlib.h,False
+7a33a861d1526894272a8a4b08527ce32316d750,2011-09-10,1315635807,29328b216c,zlib 1.2.1,27,23,adler32.c;deflate.c;inftrees.c;zlib.h;zutil.h,False
+f0e76a6634eb26e3ddc6dfc6f2489553eff8c8f4,2011-09-10,1315635818,29328b216c,zlib 1.2.1.1,17,9,deflate.c;inftrees.c;zlib.h,False
+7a6955760ba950eb82f57929f8f6c9847c65f0af,2011-09-10,1315635825,29328b216c,zlib 1.2.1.2,164,123,crc32.c;deflate.c;deflate.h;gzio.c;infback.c;inffast.c;inflate.c;inftrees.c;trees.c;zconf.h;zconf.in.h;zlib.h;zutil.h,False
+79fbcdc939b5d515218187a0d5f2526fb632075a,2011-09-10,1315635842,29328b216c,zlib 1.2.2,71,70,crc32.c;deflate.c;gzio.c;infback.c;inflate.c;inftrees.c;zlib.h,False
+9811b53dd9e8f67015c7199fff12b5bfc6965330,2011-09-10,1315635864,29328b216c,zlib 1.2.2.1,545,90,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;example.c;gzio.c;infback.c;inflate.c;inflate.h;inftrees.c;minigzip.c;trees.c;zconf.h;zconf.in.h;zlib.h;zutil.c;zutil.h,False
+0484693e1723bbab791c56f95597bd7dbe867d03,2011-09-10,1315635873,29328b216c,zlib 1.2.2.2,164,86,adler32.c;crc32.c;deflate.c;{contrib/gzappend => examples}/gzappend.c;gzio.c;infback.c;inffast.c;inflate.c;inflate.h;inftrees.c;trees.c;zlib.h;zutil.c;zutil.h,False
+6b8233bfe00e79134cb1b84fc49d4f750a797f79,2011-09-10,1315635883,29328b216c,zlib 1.2.2.3,108,41,crc32.c;deflate.c;gzio.c;inflate.c;inftrees.c;minigzip.c;zconf.h;zconf.in.h;zlib.h;zutil.h,False
+9c3a5830218c4e7fff23b8fc4386269db77a03a9,2011-09-10,1315635892,29328b216c,zlib 1.2.2.4,162,57,crc32.c;deflate.c;deflate.h;gzio.c;infback.c;inflate.c;inftrees.c;inftrees.h;trees.c;zlib.h;zutil.c;zutil.h,False
+abf180a067223611620dd97dd5681df7c7fa7c9b,2011-09-10,1315635917,29328b216c,zlib 1.2.3,6,6,deflate.c;inftrees.c;zlib.h,False
+b1c19ca6d82c98a8be6cd9cad7a9c5fa5e8e634e,2011-09-10,1315635927,29328b216c,zlib 1.2.3.1,332,131,compress.c;deflate.c;deflate.h;example.c;gzio.c;inflate.h;inftrees.c;minigzip.c;trees.c;zconf.h;zconf.in.h;zlib.h;zutil.h,False
+d6231142d2b883a8c3b253fa34992b5cdb4ac2fe,2011-09-10,1315635938,29328b216c,zlib 1.2.3.2,16,412,deflate.c;inftrees.c;zconf.h;zconf.in.h;zlib.h;zlibdefs.h;zutil.h,False
+639be997883d9016baaf46017a2802b2ce1698bd,2011-09-10,1315635989,29328b216c,zlib 1.2.3.3,409,153,adler32.c;crc32.c;deflate.c;gzio.c;infback.c;inffast.c;inflate.c;inflate.h;inftrees.c;zlib.h;zutil.h,False
+f6194ef39af5864f792412460c354cc339dde7d1,2011-09-10,1315636000,29328b216c,zlib 1.2.3.4,423,246,adler32.c;crc32.c;deflate.c;deflate.h;gzio.c;infback.c;inffast.c;inflate.c;inflate.h;inftrees.c;inftrees.h;trees.c;zconf.h;zlib.h;zutil.h,False
+d004b047838a7e803818b4973a2e39e0ff8c1fa2,2011-09-10,1315636009,29328b216c,zlib 1.2.3.5,2210,141,deflate.c;gzclose.c;gzguts.h;gzio.c;gzlib.c;gzread.c;gzwrite.c;infback.c;inffast.c;inflate.c;inflate.h;inftrees.c;minigzip.c;zconf.h;zlib.h;zutil.h,False
+dc5a43ebfadb6b775f6e64bfeb5a461c66acb394,2011-09-10,1315636018,29328b216c,zlib 1.2.3.6,583,533,deflate.c;gzguts.h;gzio.c;gzlib.c;gzread.c;gzwrite.c;inflate.c;inftrees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+7df877eccdd826e94df53215f65dee639428e83f,2011-09-10,1315636028,29328b216c,zlib 1.2.3.7,610,132,deflate.c;gzclose.c;gzguts.h;gzlib.c;gzread.c;gzwrite.c;inflate.c;inftrees.c;zconf.h;zconf.in.h;zlib.h;zlibdefs.h,False
+e0ff940e1adb68d3575705ebf1546d9f07ad3b4a,2011-09-10,1315636037,29328b216c,zlib 1.2.3.8,76,39,deflate.c;gzguts.h;gzio.c;gzlib.c;gzread.c;gzwrite.c;inftrees.c;minigzip.c;zconf.h;zconf.in.h;zlib.h,False
+7751bd4c715ea8478113e34b49b5a794a4642e8e,2011-09-10,1315636046,29328b216c,zlib 1.2.3.9,33,1653,deflate.c;gzclose.c;gzio.c;gzlib.c;gzread.c;gzwrite.c;inftrees.c;zconf.in.h;zlib.h,False
+67cc20d0041a32bee12bd9eb20ae218f91b73f77,2011-09-10,1315636356,29328b216c,zlib 1.2.4-pre1,509,40,deflate.c;deflate.h;gzlib.c;gzread.c;gzwrite.c;inftrees.c;minigzip.c;trees.c;zconf.h;zlib.h,False
+59ca2179ff8ef92e9e8351a11f1a92e7138364c2,2011-09-10,1315636403,29328b216c,zlib 1.2.4-pre2,3,3,gzwrite.c;inftrees.c;zlib.h,False
+a1141160bcf563f1a269be68a21f1651f687bb69,2011-09-10,1315636439,29328b216c,zlib 1.2.4,4,4,gzguts.h;inftrees.c;zlib.h;zutil.h,False
+05d47d2627a68a15ba23fb10b17fbc73551aeec1,2011-09-10,1315636462,29328b216c,zlib 1.2.4.1,39,56,crc32.c;deflate.c;gzguts.h;gzlib.c;gzread.c;inftrees.c;minigzip.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+7147f24cd7b27dd95f6e841851a111cb311a9c07,2011-09-10,1315636470,29328b216c,zlib 1.2.4.2,36,22,deflate.c;gzguts.h;gzlib.c;inftrees.c;minigzip.c;zconf.h;zlib.h;zutil.h,False
+f4498bea2865325dce71189af47a047529229f22,2011-09-10,1315636478,29328b216c,zlib 1.2.4.3,44,42,deflate.c;gzguts.h;gzlib.c;inftrees.c;minigzip.c;zconf.h;zlib.h;zutil.h,False
+a7d70663cf4a7d4013ff7d285da01a164ed9b207,2011-09-10,1315636485,29328b216c,zlib 1.2.4.4,18,8,deflate.c;inftrees.c;zconf.h;zlib.h,False
+73014202489f913dbffc91d22089ea8a8920c054,2011-09-10,1315636495,29328b216c,zlib 1.2.4.5,65,59,deflate.c;deflate.h;gzguts.h;gzlib.c;inffast.c;inffast.h;inftrees.c;inftrees.h;trees.c;trees.h;zconf.h;zlib.h;zutil.c;zutil.h,False
+9712272c78b9d9c93746d9c8e156a3728c65ca72,2011-09-10,1315636510,29328b216c,zlib 1.2.5,18,17,crc32.c;deflate.c;deflate.h;inffast.c;inffast.h;inftrees.c;inftrees.h;trees.c;zlib.h;zutil.c,False
+10daf0d4d7815447799d555d04d30325836e1d44,2011-09-11,1315764289,29328b216c,zlib 1.2.5.1,188,99,adler32.c;crc32.c;crc32.h;deflate.c;deflate.h;example.c;gzlib.c;gzwrite.c;inftrees.c;zconf.h;zlib.h;zutil.c,False
+d6cbbd5c64e522fda640b69edc5b00e0e339983d,2011-09-11,1315765001,29328b216c,Change version numbers to 1.2.5.2 and release dates,8,8,deflate.c;inftrees.c;zlib.h,False
+d07d852bb4903aa12736fc17c808b6f4e6118bf1,2011-09-11,1315765327,1c499c467d,fix ld error: unable to find version dependency `ZLIB_1.2.5',0,0,,False
+06223a362e1855302be908e9ececb3c6c90be8ca,2011-09-11,1315767036,29328b216c,Add .gitignore [Frysinger],0,0,,False
+ae1de165d7133d6ebe9a69b10abdc952d877b6ae,2011-09-11,1315768870,3e14d14e99,use relative symlinks for shared libs,0,0,,False
+faa03d5141fad5ca0c34ac2a4a72b383668083aa,2011-09-23,1316760300,29328b216c,Avoid searching past window for Z_RLE strategy.,4,3,deflate.c,False
+5cf0930ba5cea55fc688151c9b718110b2c6adfd,2011-09-23,1316760484,29328b216c,Assure that high-water mark initialization is always applied in deflate.,1,1,deflate.c,False
+1250ac745d9c826f8bed79dc790ae4256b6dbfab,2011-09-23,1316760931,29328b216c,Add assertions to fill_window() in deflate.c to match comments.,5,0,deflate.c,False
+1f5827155d8d75c1bebd0c830f220c5c4855bd25,2011-09-23,1316796829,29328b216c,Update python link in README,0,0,,False
+f32370e5420556c41ecf8c1e4620bed0e9f8f08a,2011-09-24,1316848171,29328b216c,Correct spelling error in gzread.c,1,1,gzread.c,False
+0a81dc026c4e727e9498654d703730ef8efbb8de,2011-09-24,1316849386,29328b216c,Fix bug in gzgets() for a concatenated empty gzip stream.,6,6,gzread.c,True
+8824da8f01c63b0e77f96fe57faf762070bd0576,2011-09-24,1316878418,29328b216c,Correct error in comment for gz_make().,1,1,gzread.c,False
+a9ae24b6538a8c75b13826ef8a2547344fd2e08c,2011-09-24,1316885167,29328b216c,Change gzread() and related to ignore junk after gzip streams.,15,6,gzread.c;zlib.h,False
+5ad116abdad08c49b9ab20d748550eecd2c1d96d,2011-09-26,1317023846,29328b216c,Allow gzread() and related to continue after gzclearerr().,93,179,gzlib.c;gzread.c,False
+50e440f081a0edc293dcfe7333a91d764e3d15cd,2011-09-27,1317086432,29328b216c,Allow gzrewind() and gzseek() after a premature end-of-file.,3,2,gzlib.c,False
+8e0d212910a42b3f856bbaebed970e8ddc081ca3,2011-09-27,1317087247,29328b216c,Simplify gzseek() now that raw after gzip is ignored.,4,6,gzguts.h;gzlib.c;gzread.c,False
+acfc85772a811f4c0efec835a3087b53f83f6079,2011-09-27,1317102628,29328b216c,Change gzgetc() to a macro for speed (~40% speedup in testing).,119,91,gzguts.h;gzlib.c;gzread.c;gzwrite.c;zlib.h,False
+8768ba98af1cf44e9a24fa7dbdf013de4afecf62,2011-10-01,1317446352,29328b216c,Fix gzclose() to return the actual error last encountered.,9,6,gzwrite.c;zlib.h,True
+a4f7c653748f5b5116e841c11af7adae7a140b88,2011-10-01,1317446764,29328b216c,Update copyright dates on gz* source files.,3,3,gzguts.h;gzlib.c;gzread.c,False
+7142fcfeed453401ee47b0e36b5018a58575c065,2011-10-01,1317488529,5b72b5afee,Always add large file support for windows,5,1,gzlib.c;zutil.h,False
+64eccafa7869de5d09c1edd1aebbf8fa00d2d7d4,2011-10-01,1317489364,29328b216c,Include zconf.h for windows large file support.,5,1,zconf.h,False
+34538d8a937148198982d806afed5022be68e5f7,2011-10-01,1317489576,29328b216c,Include zconf.h.cmakein for windows large file support.,0,0,,False
+0956bd23dd070074ec572fd5557a74ff29797b2f,2011-10-02,1317542851,29328b216c,Update zconf.h.cmakein on make distclean.,0,0,,False
+00c836e325a07419f5d855e2f275500a37cb27d2,2011-10-02,1317579300,29328b216c,Merge vestigial vsnprintf determination from zutil.h to gzguts.h.,77,71,gzguts.h;gzwrite.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+be959acf80082c539cd533e58d78584311f1966a,2011-10-02,1317582569,29328b216c,Clarify how gzopen() appends in zlib.h comments.,7,0,zlib.h,False
+3c9d261809bfafc4350147ade7b74022dd144d32,2011-10-02,1317582830,29328b216c,Correct documentation of gzdirect() since junk at end now ignored.,1,3,zlib.h,False
+26a99cd8957db86bdc75d9d1ebf00146cb20c87c,2011-10-02,1317587669,29328b216c,Add a transparent write mode to gzopen() when 'T' is in the mode.,82,39,gzguts.h;gzlib.c;gzread.c;gzwrite.c;zlib.h,False
+af030e4273cd5c5ecbb4899061f0e6535866a179,2011-10-03,1317606321,29328b216c,Update python link in zlib man page.,0,0,,False
+518ad0177ae2f1aaefc49285b3536a6bd8d9973c,2011-10-06,1317871952,29328b216c,Get inffixed.h and MAKEFIXED result to match.,5,5,inffixed.h;inflate.c,False
+f442c1e89e99ae5a0068a2d32e7284c2623f09fd,2011-10-07,1317978716,29328b216c,Add a ./config --solo option to make zlib subset with no libary use,395,99,deflate.c;example.c;infback.c;inflate.c;minigzip.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+77b47d55f14be032c0ee10da44bbe7591be0abd8,2011-10-08,1318054417,29328b216c,Add undocumented inflateResetKeep() function for CAB file decoding.,16,4,inflate.c;zconf.h;zlib.h,False
+1bd2fa1b241d24dc444f17d217429780f0b657c0,2011-10-09,1318179048,29328b216c,Move example.c and minigzip.c to examples/ directory.,0,0,example.c => examples/example.c;minigzip.c => examples/minigzip.c,False
+d66a30794183e04f121fd1464d7bfcfbbcaf64ed,2011-10-09,1318181115,29328b216c,Add --cover option to ./configure for gcc coverage testing.,0,0,,False
+5b48d061c8c46bc19e6ad965157440880e5708b9,2011-10-09,1318199148,29328b216c,Fix indentation of code in inflate.c.,1,1,inflate.c,True
+5ab9f47745fe9353291b217f705086b6070575d5,2011-10-19,1319004337,29328b216c,Add #define ZLIB_CONST option to use const in the z_stream interface.,8,2,zconf.h;zlib.h,False
+6dbf1d10263dbf2f49d12d788f89ab308ba4ca6d,2011-10-20,1319126878,29328b216c,Add comment to gzdopen() in zlib.h to use dup() when using fileno().,5,1,zlib.h,False
+e8576790be06e976ba739a14d17480fd6709ee70,2011-10-23,1319397955,29328b216c,Note behavior of uncompress() to provide as much data as it can.,3,1,zlib.h,False
+9e50ed8ef10320f84e6e5e5f853a22aae6e62de7,2011-11-13,1321216967,29328b216c,Add files in contrib/minizip to aid in building libminizip.,0,0,,False
+d169dd73007cf1eadea79fb2c506b03f178a2bad,2011-11-13,1321218266,29328b216c,Split off AR options in Makefile.in and configure.,0,0,,False
+6715208bdb5087ae33a54f7e8150e020aebbf15d,2011-11-13,1321220102,29328b216c,Change ON macro to Z_ARG to avoid application conflicts.,4,4,zconf.h;zlib.h,False
+15b5671b78aa67a083565b6aaa41d35086ef5385,2011-11-19,1321739606,29328b216c,Facilitate compilation with Borland C++ for pragmas and vsnprintf.,7,1,gzguts.h;zutil.h,False
+0cbad869b044c022cdda20febca6e959b67e86a5,2011-11-22,1321929517,29328b216c,Include io.h for Turbo C / Borland C++.,4,0,gzguts.h,False
+1b57de3aef88bd0a7b80c11db3631281b08b650a,2011-11-27,1322432132,29328b216c,Move example.c and minigzip.c to test/.,0,0,{examples => test}/example.c;{examples => test}/minigzip.c,False
+014967ace3f79835ced79b0189d39eced1da7fa2,2011-11-27,1322432140,29328b216c,Test the inflate code with full coverage.,0,0,,False
+de32a2d74948e13e4d8ec17263a31e2c3ae900b1,2011-11-27,1322432140,29328b216c,Remove code from inflate.c and infback.c that is impossible to execute.,0,2,infback.c;inflate.c,False
+383d2cdab7662d21a3c720139635fe0fbc451a71,2011-11-27,1322432140,29328b216c,Simplify incomplete code table filling in inflate_table().,8,32,inftrees.c,False
+fbac04f666339eef3678e4eb81b25ae69bfcbd81,2011-12-01,1322713145,29328b216c,Clean up infcover.c.,0,0,,False
+afe7cf78d51b819dcdc5b0f4cb85a25a52a9fcd0,2011-12-08,1323332032,29328b216c,"Enable dictionary setting in middle of stream, and keeping the dictionary.",95,50,deflate.c;inflate.c;zconf.h;zlib.h,False
+fb00fda903bbd128952a8ecac4b4f6b459245012,2011-12-11,1323585197,29328b216c,Fix gzwrite.c to accommodate reduced memory zlib compilation.,8,1,gzguts.h;gzwrite.c,True
+421c7a61f08ff255bf898f0e687b7d7c8fbdae77,2011-12-11,1323585204,29328b216c,Have inflate() with Z_FINISH avoid the allocation of a window.,16,10,inflate.c;zlib.h,False
+70e3b1ca56f2ffe8944d3ac0d59b8781127bf94f,2011-12-11,1323585204,29328b216c,Do not set strm->adler when doing raw inflate.,2,1,inflate.c,False
+98f5779f4257682ba9b5fc490557618e3f15f84b,2011-12-12,1323656524,29328b216c,Fix gzeof() to behave just like feof() when read is not past end of file.,19,10,gzguts.h;gzlib.c;gzread.c,True
+377173b57ef9fab5066481a87a1901bd72fa2c32,2011-12-12,1323675056,29328b216c,Fix bug in gzread.c when end-of-file is reached.,1,1,gzread.c,True
+850a198ff1879e506c961c91da30009539ed14b3,2011-12-14,1323844177,29328b216c,Avoid use of Z_BUF_ERROR in gz* functions except for premature EOF.,3,3,gzread.c;gzwrite.c,False
+2556706d67b471b45e0882ea4f32aa8b2efc14ec,2011-12-14,1323865260,29328b216c,Document gzread() capability to read concurrently written files.,17,3,gzread.c;zlib.h,False
+4ab814df83f0ef5a0ccb28f19c3bd52c837ae4ec,2011-12-17,1324160913,29328b216c,Remove hard-coding of resource compiler in CMakeLists.txt [Blammo],0,0,,False
+fe61dfb8a27754137c2f6a1ff59b1e55d615210e,2011-12-18,1324233585,29328b216c,zlib 1.2.5.2,5,5,infback.c;inflate.c;zlib.h;zutil.h,False
+df60b50769ae9441c6ebd853948ee7da559286e0,2011-12-18,1324238845,29328b216c,Change version numbers to 1.2.5.3.,7,7,deflate.c;inftrees.c;zlib.h,False
+3d85f02a098baeede07c7d8fcc5b147e805f127b,2011-12-18,1324248428,29328b216c,Restore gzgetc function for binary compatibility.,9,5,gzread.c;zlib.h,False
+e7289ed5f7ad1310cd77e69cd18c30a9c64d1383,2011-12-19,1324275471,29328b216c,Do not use _lseeki64 under Borland C++ [Truta].,1,1,gzlib.c,False
+7de4b03b38de9e6efe5f8205a31db91b38bfc78c,2011-12-19,1324275602,29328b216c,Update win32/Makefile.msc to build test/*.c [Truta].,0,0,,False
+a8bd629c4e51da656be5586ea8112353524107a2,2011-12-19,1324276068,29328b216c,Remove old/visualc6 given CMakefile and other alternatives.,0,0,,False
+b745a48f413e114373f0f26e72411ff415f004d4,2011-12-20,1324362662,29328b216c,Update AS400 build files and documentation [Monnerat].,0,0,,False
+bafcad90289cb72993e32a5fe8f31c4e60629f9e,2011-12-24,1324702630,29328b216c,Update win32/Makefile.gcc to build test/*.c [Truta].,0,0,,False
+f1ebdd6a9c495a5db9a22aa80dd7d54ae7db42e9,2011-12-29,1325145434,29328b216c,Permit stronger flushes after Z_BLOCK flushes.,4,1,deflate.c,False
+9d55abc96968db80749df5ebf412d36e2d66de26,2011-12-29,1325145835,29328b216c,Avoid extraneous empty blocks when doing empty flushes.,35,10,deflate.c,False
+19761b8506f15d6eeeb6ccfab33a11abce0f40e7,2011-12-29,1325146544,29328b216c,Permit Z_NULL arguments to deflatePending.,6,3,deflate.c;zlib.h,False
+8f5eceefe8b384d7c18813519cb337efef21a0f3,2012-01-07,1325973787,29328b216c,Remove second empty static block for Z_PARTIAL_FLUSH.,0,25,deflate.h;trees.c,False
+263b1a05b04e442896d7941f87d022a2f35a9220,2012-01-07,1325973787,29328b216c,Allow deflatePrime() to insert bits in the middle of a stream.,26,13,deflate.c;deflate.h;trees.c;zlib.h,False
+0b828b4aa6c962ab46eae624578d77b35395b2c1,2012-01-07,1325974082,29328b216c,Write out all of the available bits when using Z_BLOCK.,19,6,deflate.c;deflate.h;trees.c,False
+4f5779a8e78e0b1c8b1ecdea88d8456dada17823,2012-01-14,1326520480,29328b216c,Insert the first two strings in the hash table after a flush.,22,3,deflate.c;deflate.h,False
+68f64498c2bbabaef0180f4d30207db2b0b67f07,2012-01-14,1326567203,29328b216c,Make sure that no extra inserting is done if the strategy changes.,3,0,deflate.c,False
+defd366a41f061dc9dc2bb7ab88876909bd5934c,2012-01-16,1326682701,29328b216c,zlib 1.2.5.3,3,3,zlib.h,False
+0ddfbd2346cc23ffbcea9a0c491e5da39cf743d2,2012-01-17,1326761069,29328b216c,Change version number to 1.2.6.,9,9,deflate.c;inftrees.c;zlib.h,False
+c3799a24809a5b335710a101ef975e90c52743bb,2012-01-17,1326761080,29328b216c,Update the Pascal interface in contrib/pascal.,0,0,,False
+5a5dd2c793df39a3e1765abc3dfcad0852bdf6cb,2012-01-17,1326761080,29328b216c,Fix large-entry detection in minizip on 64-bit systems [Schiffer].,0,0,,True
+2d55657c0341238eb9d6fd8d545bcd7efade5ed8,2012-01-17,1326761080,29328b216c,Have ./configure use the compiler return code for error indication.,0,0,,False
+ce0ca940c2aa8e5a97aebc27229b745f4fd7b1d7,2012-01-17,1326761080,29328b216c,Fix function numbers for gzgetc_ in zlibvc.def files.,0,0,,True
+eb33abcc553dcd65ce1c4c7fc9d6bc096721d5bc,2012-01-17,1326761080,29328b216c,Fix configure.ac for contrib/minizip [Schiffer].,0,0,,True
+509c1d2860c82ceeae8a3e3a32ef21edc3afa447,2012-01-17,1326768683,29328b216c,Fix CMakeLists.txt for cross compilation [McClure].,0,0,,True
+5c312df969b4b5bed7ec16cc057c61c652bcceb1,2012-01-17,1326768691,29328b216c,Fix compilation of contrib/minizip on FreeBSD [Márquez].,0,0,,True
+4a9e4dff0d3daf3827dd597da8589bd2594fdb58,2012-01-17,1326768691,29328b216c,"Correct suggested usages in win32/Makefile.msc [שחר, Horvath].",0,0,,False
+e1f45fed541cf462f2c68fc70cad135b2f810708,2012-01-17,1326768691,29328b216c,Fix contrib/minizip/zip.c for 64-bit architectures [Dalsnes].,0,0,,True
+b9a778a2b8a55115ecce1ebf88523623079660e7,2012-01-19,1326943982,29328b216c,Include io.h for Turbo C / Borland C on all platforms [Truta].,1,1,gzguts.h,False
+09bbe4c7f0a395c2939fad34b8138197473b10a4,2012-01-21,1327131419,29328b216c,Make version explicit in contrib/minizip/configure.ac [Bosmans].,0,0,,False
+9cdb49c96eea175736f6aa6a2b2d0730f4d8d65d,2012-01-21,1327175294,29328b216c,Avoid warning for no encryption in contrib/minizip/zip.c [Vollant].,0,0,,False
+06c0e754ce4dd76d85ad7a703ea63a1424de55be,2012-01-21,1327175371,29328b216c,Minor cleanup up contrib/minizip/unzip.c [Vollant].,0,0,,False
+0458bbf2c0cbc41ff06c4db3da0f63ab0785d801,2012-01-21,1327175915,29328b216c,Fix bug when compiling minizip with C++ [Vollant].,0,0,,True
+601b542a9d6c3689fce1414ec089d5f193656faa,2012-01-21,1327175925,29328b216c,Protect for long name and extra fields in contrib/minizip [Vollant].,0,0,,False
+de6cb6fe5c0b209c0337a78294017c38efd54c6b,2012-01-21,1327175925,29328b216c,Avoid some warnings in contrib/minizip [Vollant].,0,0,,False
+17741efa029dcfac56be14b70172d708ca612ad4,2012-01-21,1327176026,29328b216c,Remove trailing space in contrib/minizip/minizip.c.,0,0,,False
+ad88c19baae5203a7405ec88ac5becc1b4a641a4,2012-01-21,1327178738,370bd8a25a,Add -I../.. -L../.. to CFLAGS for minizip and miniunzip.,0,0,,False
+81015585d27875e250bdb8f375f2dd999e31a73f,2012-01-21,1327178785,370bd8a25a,Add missing libs to minizip linker command.,0,0,,False
+f0cff24214d437ef28d0eb92f9bc45a36cf25530,2012-01-21,1327179417,370bd8a25a,Add support for VPATH builds in contrib/minizip.,0,0,,False
+32d8a5379eb91c7fd55304b567a07ad0e2524398,2012-01-22,1327194948,370bd8a25a,Add an --enable-demos option to contrib/minizip/configure.,0,0,,False
+520561c5771d3145308bed193b136b8cd12c6267,2012-01-28,1327790930,29328b216c,Add the generation of configure.log by ./configure.,0,0,,False
+8fbd9f13400df299c8211b7b643bdbbe1ecabd77,2012-01-29,1327856033,29328b216c,Exit when required parameters not provided to win32/Makefile.gcc.,0,0,,False
+22eb01184fd2d33b482a289d0bb08b2e2b0c5a18,2012-01-29,1327859249,29328b216c,Have gzputc return the character written instead of the argument.,2,2,gzwrite.c,False
+5461db945cc64e16b717b3fdeeb58bd58810576e,2012-01-29,1327859291,29328b216c,Use the -m option on ldconfig for BSD systems [Tobias].,0,0,,False
+68a02240a6aa2b487ebebc322d8e0658b209e938,2012-01-29,1327859878,29328b216c,Correct in zlib.map when deflateResetKeep was added.,0,0,,False
+e75de023b6cd7177c8e44ef1c72b74f5efde5418,2012-01-29,1327860795,29328b216c,zlib 1.2.6,4,4,gzguts.h;gzwrite.c;zlib.h,False
+5dac2aa00710d4fee921cf492dd4b7fd2e27c238,2012-01-30,1327900524,29328b216c,"Avoid the use of the Objective-C reserved name ""id"".",5,5,inflate.c,False
+7b3f71ba5fc29f3743fae9b9dbe071018a6b6b4e,2012-01-30,1327900524,29328b216c,Change version number to 1.2.6.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+3fb727c34d2f499ba8fb22771dc42564383e902e,2012-01-30,1327900524,29328b216c,Include io.h in gzguts.h for Microsoft compilers.,1,2,gzguts.h,False
+98e5787e1b22c2f974e3e80eda135abe7e008251,2012-01-31,1327996514,29328b216c,Fix problem with ./configure --prefix and gzgetc macro.,8,2,zlib.h,True
+a8d23bb675e05cfc0cc70ddc8ea03dbbf0e49fb8,2012-02-02,1328166260,29328b216c,Include gz_header definition when compiling zlib solo.,3,5,zconf.h,False
+55b8b5fec16503cb9ce26074f600a1d7b426a0cc,2012-02-02,1328167534,29328b216c,Put gzflags() functionality back in zutil.c.,26,38,gzwrite.c;zconf.h;zlib.h;zutil.c,False
+f9e4edc99629ae10e3cfd7091a4742e4e4e2dbec,2012-02-02,1328169329,29328b216c,Avoid library header include in crc32.c for Z_SOLO.,3,0,crc32.c,False
+2dadd2fab4bc4806b4781b4b7b39728e76b7a9cc,2012-02-04,1328378448,29328b216c,"Use name in GCC_CLASSIC as C compiler for coverage testing, if set.",0,0,,False
+fc68b60086a69af7d3dab403b4dc98d01486780e,2012-02-04,1328379253,29328b216c,Minor cleanup in contrib/minizip/zip.c [Vollant].,0,0,,False
+9894494537635f51e79ac6fdb4157fe82c637328,2012-02-05,1328468109,29328b216c,Update make_vms.com [Zinser].,0,0,,False
+1a4ba8cd912466fe538f62d61fbcc25eead6d31a,2012-02-11,1328946912,29328b216c,Remove unnecessary gzgetc_ function.,4,11,gzread.c;zlib.h,False
+7d45cf5a1dbe9d34f9fb18e2f485efda83019493,2012-02-11,1328948798,29328b216c,Use optimized byte swap operations for Microsoft and GNU [Snyder].,19,13,crc32.c;inflate.c;zutil.h,False
+75143f819f14428f114ef69980af69071d65cbf9,2012-02-11,1328949084,29328b216c,Fix minor typo in zlib.h comments [Rześniowiecki].,2,3,zlib.h,False
+94acb3c1a0fbd14482224d6af3699ddb9e163510,2012-02-12,1329085233,29328b216c,zlib 1.2.6.1,9,9,crc32.c;gzread.c;inflate.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+72e2c8f088074d9f0c7c8dfb007abc1287ddbb97,2012-02-13,1329092147,29328b216c,Change version number to 1.2.7.,8,8,deflate.c;inftrees.c;zlib.h,False
+5bbdc122ad60dfd0bc219c9c10aab66822c0b099,2012-02-13,1329103686,29328b216c,Don't use built-in byte swaps if compiled solo.,12,9,zutil.h,False
+eee7b9e57660e5ec73d8e9d2a9864e39cc25435e,2012-02-14,1329203016,29328b216c,Remove unnecessary include for byte swap built-in [Bosmans].,0,1,zutil.h,False
+455adc302965e0fc0e8b084c204d055ae3d66606,2012-02-14,1329204888,29328b216c,Expunge gzgetc_ from configuration files.,0,1,zconf.h,False
+d1714a57c59173837fc3d9c027e18ad6a1b6fc52,2012-02-18,1329601065,29328b216c,Replace use of memmove() with a simple copy for portability.,8,3,gzread.c,False
+6838df92460eaceaaadd0f13aaea248a6b7c0a1b,2012-02-18,1329602109,29328b216c,Test for existence of strerror.,1,1,gzguts.h,False
+d81e7213b7c5756e8f82af2f2d9649d49112e8d7,2012-02-18,1329603317,29328b216c,Restore gzgetc_ for backward compatibility with 1.2.6.,8,0,gzread.c;zconf.h;zlib.h,False
+660103339f1940ef5572d331fb9815db7b8fc526,2012-02-18,1329604859,1c499c467d,Fix build with non-GNU make on Solaris.,0,0,,True
+a75d6ea070cedd3afa9865e63127c7ee8946d605,2012-02-18,1329608248,29328b216c,Require gcc 4.0 or later on Mac OS X to use the hidden attribute.,4,2,gzguts.h;zutil.h,False
+10fca844b1454ee19e28400a8267f72b0cccb591,2012-02-18,1329608257,29328b216c,Include unistd.h for Watcom C.,3,0,zconf.h,False
+d63c8880396bbfffdba451b3fa5a60eb189fc2c2,2012-02-19,1329635509,29328b216c,Use __WATCOMC__ instead of __WATCOM__.,1,1,zconf.h,False
+8435052a6bfb50d876b8f629b28123821e04ae01,2012-02-20,1329719800,29328b216c,Update version numbers and year in win32/README-WIN32.txt.,0,0,,False
+e6d2a8471b89d1c1d9fd84d14f26f516f5f66238,2012-02-20,1329720310,29328b216c,Do not use the visibility attribute if NO_VIZ defined.,2,2,gzguts.h;zutil.h,False
+3f4339b61b3737f6efdd55368488f0a5888e4935,2012-02-20,1329723190,29328b216c,Improve the detection of no hidden visibility attribute.,2,4,gzguts.h;zutil.h,False
+80f3e39eb858db060d9edede6edf7592b7f24934,2012-02-20,1329758670,29328b216c,Avoid using __int64 for gcc or solo compilation.,3,3,zconf.h,False
+05de38d11e2ec5f49995ab0325b1acf137434a16,2012-03-03,1330760862,29328b216c,Cast to char * in gzprintf to avoid warnings [Zinser].,12,11,gzwrite.c,False
+513dfcc00ec6c027429504a217a8cb7cb58dbbbf,2012-03-03,1330761017,29328b216c,Fix make_vms.com for VAX [Zinser].,0,0,,True
+2547c6c81fbf751e22ab7dcafdc1d1b50c8562a3,2012-03-03,1330761810,29328b216c,Don't use library or built-in byte swaps.,2,13,zutil.h,False
+dab7531eccdb5b22368797ae7958471401d1e427,2012-03-03,1330762800,29328b216c,Simplify test and use of gcc hidden attribute.,2,2,gzguts.h;zutil.h,False
+53bfe01cea647ef6f6b86edbc51d0fad4640e4a6,2012-03-03,1330795680,29328b216c,Fix bug in gzclose_w() when gzwrite() fails to allocate memory.,8,6,gzwrite.c,True
+755c41dc4bcde575ae654065921206ab4efec962,2012-03-03,1330799277,29328b216c,"Add ""x"" (O_EXCL) and ""e"" (O_CLOEXEC) modes support to gzopen().",15,2,gzlib.c;zlib.h,False
+41a18e1d7e2f5dea87c5105309e369ec1e86f2bd,2012-03-04,1330843395,29328b216c,Fix bug in test/minigzip.c for configure --solo.,0,0,,True
+e3ba2a10cacd2e7786cecfa12466df544747ff7c,2012-03-04,1330883185,29328b216c,Fix contrib/vstudio project link errors [Mohanathas].,0,0,,True
+2e04ce09154a078910a7878f2e36905f458f309f,2012-03-04,1330889185,29328b216c,Make sure that O_EXCL is used portably.,7,4,gzlib.c,False
+2cd90d2bf5e23f2e663086fdbec1075c9c771f57,2012-03-10,1331347430,29328b216c,Add ability to choose the builder in make_vms.com [Schweda].,0,0,,False
+9f4d9052dc08284ee5f248224fd2e7c334c579f8,2012-03-10,1331348808,1fd92b38fa,Add DESTDIR support to mingw32 win32/Makefile.gcc.,0,0,,False
+e2abd78a98335df958e8dbb1d513261a8cb89739,2012-03-10,1331402048,29328b216c,Avoid warnings when O_CLOEXEC or O_EXCL are not defined.,10,1,gzlib.c,False
+e076ca8e6254b7f52fca7b8cf3f3e3eb86dd9132,2012-03-10,1331402317,29328b216c,Fix comments in win32/Makefile.gcc for proper usage.,0,0,,False
+5d5befa4c3f150d3a287c46abe4c0b175bb33b2a,2012-03-11,1331447048,29328b216c,Update copyright years in gzlib.c.,1,1,gzlib.c,False
+f8867924c14a27f301b811933bcad3995016de22,2012-03-11,1331485815,dc8d9024d8,Allow overriding the default install locations for cmake.,0,0,,False
+ca6e7a0d552e3b54c0833658409e34f9de3bead6,2012-03-11,1331486164,dc8d9024d8,Generate and install the pkg-config file with cmake.,0,0,,False
+cd71ef302123032aed0accade96efaca3e1f33dd,2012-03-11,1331486172,dc8d9024d8,Build both a static and a shared version of zlib with cmake.,0,0,,False
+c1e84b258c462a88ea0398b45515781f0c583ecb,2012-03-11,1331486172,dc8d9024d8,Include version symbols for cmake builds.,0,0,,False
+39c7ed14ac67413ac481aa136d2606d94e24536e,2012-03-13,1331615716,dc8d9024d8,"If using cmake with MSVC, add the source directory to the includes.",0,0,,False
+142f051fb27ef7f40e0341a68b23dfd17a4b1fe9,2012-03-13,1331615916,29328b216c,Remove unneeded EXTRA_CFLAGS from win32/Makefile.gcc [Truta].,0,0,,False
+9c08a822463664c204ff57a0a91abe727d7987c1,2012-03-13,1331617384,29328b216c,Move obsolete emx makefile to old [Truta].,0,0,,False
+8dc21b17a626f4b0fb99c017fcbdf3ac20b35b32,2012-03-14,1331705978,29328b216c,Allow the use of -Wundef when compiling or using zlib.,17,9,zconf.h;zlib.h,False
+cb1c1a363e885670f5030b71f2c858cd0c286327,2012-03-14,1331739290,29328b216c,Avoid the use of the -u option with mktemp.,0,0,,False
+b18595d4c6925e97ec2c0a9e49230c189ce8fe64,2012-03-14,1331741895,29328b216c,Repair some damage caused by -Wundef allowance.,5,5,zconf.h,False
+50a1738fcb0e5d1e84275cfe3a052c5e32449b84,2012-03-14,1331746241,29328b216c,Make sure that unistd.h is included before using _LFS64_LARGEFILE.,16,14,zconf.h,False
+da32fd28927eeed480185184f1a3847f828235d1,2012-03-14,1331748982,29328b216c,Improve inflate() documentation on the use of Z_FINISH.,11,8,zlib.h,False
+a3881cc745729cde05d921b3750e2d56889b5d26,2012-03-15,1331792053,29328b216c,Recognize clang as gcc.,0,0,,False
+dbe0bed739c26a2c36319794108cb87ad77c5469,2012-03-17,1331956389,29328b216c,Add gzopen_w() in Windows for wide character path names.,40,17,gzguts.h;gzlib.c;zconf.h;zlib.h,False
+49b5d79a3bf448bbe011035d797806fc487b09fc,2012-03-18,1332045827,12b2d0eb83,Rename zconf.h in CMakeLists.txt to move it out of the way.,0,0,,False
+a1af6e96e35dfc3adfa2acba01883c14115f1090,2012-03-18,1332045901,29328b216c,Fix gzopen_w() type and add #include for the type.,6,2,gzguts.h;gzlib.c;zlib.h,True
+2c42538c2e420d9abaf7c6f2929c4b05d6c440b3,2012-03-18,1332045901,12b2d0eb83,Add source directory in CMakeLists.txt for building examples.,0,0,,False
+8e16df2c3f0dbe0f8a819e1913562073cf721636,2012-03-18,1332088184,29328b216c,More fixes for gzopen_w().,7,2,gzlib.c;zconf.h,True
+2bd5bd78a6f76553c38ab3a37e5b08b6c5f1610a,2012-03-18,1332098658,12b2d0eb83,Look in build directory for zlib.pc in CMakeLists.txt.,0,0,,False
+04afd39fcc753e2f1369cb471cb6592ea5946546,2012-03-18,1332105900,29328b216c,Fix syntax error in gzlib.c.,1,1,gzlib.c,True
+a5d803b7efde22b8d26a8d8e3044c13281a3ea9a,2012-03-18,1332107551,29328b216c,Attempt to convert the wchar_t path in gzopen_w() for errors.,20,3,gzlib.c,False
+11f4065ea938c503a6c690b66d1503582fdb7a6f,2012-03-23,1332480292,20515230a1,Remove gzflags from zlibvc.def in vc9 and vc10.,0,0,,False
+ba04838a74202955f7b8dfb66af5345bf5eaeb00,2012-03-27,1332818261,652c1e8c75,Fix contrib/minizip compilation in the MinGW environment.,0,0,,True
+3fb77ac08b773a64d2eeb9e6e365780677c3d5c6,2012-04-01,1333295340,29328b216c,Add more comments to configure.,0,0,,False
+6635b789876a05e1844d69d1c8067bb7c11c4462,2012-04-23,1335144461,29328b216c,"Update ./configure for Solaris, support --64 [Mooney].",0,0,,False
+cc538ebf79223487a958e4fc77abde0664e45747,2012-04-23,1335145271,29328b216c,Remove -R. from Solaris shared build (possible security issue).,0,0,,False
+1be117908397b0ce065c07c60fa2b4ae778ff112,2012-04-23,1335160686,29328b216c,Avoid race condition for parallel make (-j) running example.,0,0,,True
+6c9bd474aa08312ef2e2e9655a80e18db24a1680,2012-04-29,1335741492,29328b216c,Fix type mismatch between get_crc_table() and crc_table.,47,47,crc32.c;crc32.h;zconf.h;zlib.h,True
+dbcdbf8c41db8d03e47fdbb0483f2705f8ac77f7,2012-04-30,1335752405,29328b216c,Fix location of executable for finding a four-byte integer.,0,0,,True
+816e34e1b5b34a25d0e4eeb469a3d6994779edde,2012-04-30,1335759312,29328b216c,"Fix parsing of version with ""-"" in CMakeLists.txt [Snider, Ziegler].",0,0,,False
+4373bac37eab11b6140e8e1c99c4010335e8a473,2012-04-30,1335759645,4544453c5a,Fix the path to zlib.map in CMakeLists.txt.,0,0,,True
+dee3d4ae36be021ca7d488a82f3e02de7ef36c6c,2012-05-02,1335932228,29328b216c,Force the native libtool in Mac OS X to avoid GNU libtool [Beebe].,0,0,,False
+1b09651f8983927f37512e4b63198cb10c3fba05,2012-05-03,1336015079,29328b216c,Add instructions to win32/Makefile.gcc for shared install [Torri].,0,0,,False
+30a1c7065dc1dc2c2ed68ed403792b660bfdd805,2012-05-03,1336018355,29328b216c,zlib 1.2.7,2,2,zlib.h,False
+2689b3cceb054f83d4d084ffc1db09606b0c2515,2012-05-03,1336023506,29328b216c,Change version number to 1.2.7.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+c58f7ab28d5fc346032592414055db4edcc18050,2012-05-03,1336025918,29328b216c,Replace use of unsafe string functions with snprintf if available.,13,0,gzlib.c,False
+3a8e3bd9e566dacef78c5b2dc9509e0c6ca8964a,2012-05-04,1336105425,29328b216c,Avoid including stddef.h on Windows for Z_SOLO compile [Niessink].,3,1,zconf.h,False
+6a181356bdbde946a2a9f15d33578b88ef5f3443,2012-05-18,1337314403,29328b216c,Fix gzgetc undefine when Z_PREFIX set [Turk].,5,1,gzread.c,True
+0a2c92bc663f730a0edceeac1ecb579eda8ed551,2012-05-20,1337538733,29328b216c,Eliminate use of mktemp in Makefile (not always available).,0,0,,False
+eb90f6a56892d7f88df99e52300498d6780cacca,2012-05-23,1337751079,29328b216c,Fix bug in 'F' mode for gzopen().,2,0,gzlib.c,True
+dca9e1d6f3ee32f26c1831a0a9b3a6a8aa775509,2012-05-27,1338099935,29328b216c,Add inflateGetDictionary() function.,39,0,inflate.c;zconf.h;zlib.h,False
+ee026accdeefe2f25dbb09fa2bae6c1c63f98d15,2012-06-02,1338657403,29328b216c,Correct comment in deflate.h.,1,1,deflate.h,False
+25e4a3da552ab570d2a049cc2d75b6e23ba9362a,2012-06-03,1338752755,29328b216c,Use _snprintf for snprinf in Microsoft C.,8,0,gzguts.h,False
+f947435b30cf3c10b96eec3024429e7555185452,2012-06-03,1338766120,29328b216c,Use _snprintf for snprintf under Microsoft C in test/minigzip.c.,0,0,,False
+a72bcd5607a6b7f48a78c1485783c55389d18f55,2012-06-10,1339294536,29328b216c,"On Darwin, only use /usr/bin/libtool if libtool is not Apple.",0,0,,False
+148b8f630ced4e84264201fc94f07568dff6b3a2,2012-06-10,1339307993,29328b216c,Cleaner check for whether libtool is Apple or not on Darwin.,0,0,,False
+977e1080472337420e576130d576099bc0cad4c9,2012-06-10,1339307994,29328b216c,"Delete ""--version"" file if created by ""ar --version"" [Richard G.].",0,0,,False
+bfac1564633d0f0184369fd152e5c8b46c1137ca,2012-06-10,1339309027,29328b216c,Fix configure check for veracity of compiler error return codes.,0,0,,True
+486ef7b4b40c20df72a34820aabc2f235c986a41,2012-07-07,1341636560,906231f325,Fix CMake compilation of static lib for MSVC2010 x64.,0,0,,True
+d0c73312589ce8735425b526137b3627144a9056,2012-07-07,1341636595,906231f325,Update copyright year in win32/zlib1.rc.,0,0,,False
+f51cc49c94e451a23b3848233512603500264d15,2012-07-08,1341790448,20515230a1,Fix comment typos in unzip.h and unzip.c.,0,0,,False
+aef4174dd2b95029e29e004f4d4cae684d396033,2012-07-08,1341791316,29328b216c,Remove unused variable in infback9.c.,0,0,,False
+fb4e0599a5ddaef9eee726f786b9edef4943432b,2012-07-09,1341792073,29328b216c,Fix argument checks in gzlog_compress() and gzlog_write().,0,0,,True
+62d6112a7981ad7c34f3b43cffdf00d4662a4f25,2012-08-13,1344841360,29328b216c,Clean up the usage of z_const and respect const usage within zlib.,63,63,compress.c;deflate.c;gzlib.c;gzread.c;gzwrite.c;infback.c;inffast.c;inflate.c;trees.c;uncompr.c;zlib.h;zutil.c;zutil.h,False
+360c3e9532a7086ed252e3ab187d03fb6b86c4ca,2012-08-14,1344919750,29328b216c,Update examples/gun.c for proper z_const usage.,0,0,,False
+aa210a1b84615440e0f7fb84e03e0a5f17872279,2012-08-14,1344929398,29328b216c,Fix example/gzappend.c for proper z_const usage.,0,0,,True
+a2981775a91d762c1747e987e30aaa022e0393fd,2012-08-14,1344929444,29328b216c,Clean up examples/gzjoin.c for z_const usage.,0,0,,False
+3d9df6ecf83a41a3990fbff5c276f854d158e8ad,2012-08-19,1345338424,29328b216c,Clean up examples/gzlog.[ch] comparisons of different types.,0,0,,False
+17068938ce5544ec3728402abd39bf3c55aec113,2012-08-19,1345338446,29328b216c,Avoid shift equal to bits in type (caused endless loop).,0,0,,False
+aa566e86c46d2264bf623e51f5840bde642548ad,2012-08-24,1345845748,29328b216c,Fix unintialized value bug in gzputc() introduced by const patches.,10,8,gzwrite.c,True
+0cf495a1ca941428c0b11e2307cad760ae44993e,2012-09-30,1348983475,29328b216c,"Fix bug where gzopen(), gzclose() would write an empty file.",7,8,gzwrite.c,True
+bd143f1c0a24075b2ec063a91f7b2b4b3b3b6ad8,2012-09-30,1348983475,29328b216c,Fix memory allocation error in examples/zran.c [Nor].,0,0,,True
+c4888637eaee189c0e21259cb87ab7e5e1d4ce76,2012-10-02,1349157136,29328b216c,Fix bug in gzclose() when gzwrite() runs out of memory.,6,5,gzwrite.c,True
+e69a9ceee0f38e817fc87930ad9792aada3d82fe,2012-10-11,1349997059,29328b216c,Check for input buffer malloc failure in examples/gzappend.c.,0,0,,False
+b8522e0264b1dbad8c0deaf8f62fb80b41b3716d,2012-10-25,1351144057,29328b216c,Add note to contrib/blast to use binary mode in stdio.,0,0,,False
+b6c5057ca18b59d8c20cccac3bbbd84206fd4e83,2012-10-25,1351144223,29328b216c,Fix comparisons of differently signed integers in contrib/blast.,0,0,,True
+10056909c00bca2684340856ce20272f3fd8fa43,2013-01-21,1358792265,29328b216c,Check for invalid code length codes in contrib/puff.,0,0,,False
+51370f365607fe14a6a7a1a27b3bd29d788f5e5b,2013-02-19,1361252820,29328b216c,Fix serious but very rare decompression bug in inftrees.c.,4,4,inftrees.c,True
+931aa25aea560e8a9f5d425bdd2a44a1f2eff00d,2013-02-24,1361679140,29328b216c,"Update inflateBack() comments, since inflate() can be faster.",6,5,zlib.h,False
+d211ecdf026c0115313a02430bd6af6f5fb21f73,2013-02-24,1361680033,29328b216c,Use underscored I/O function names for WINAPI_FAMILY.,7,0,gzguts.h,False
+5afbdabacd496c9dfe204e82e10d8febb4710669,2013-02-24,1361681783,29328b216c,Add _tr_flush_bits to the external symbols prefixed by --zprefix.,1,0,zconf.h,False
+b116fb588deee3b3c9092a32783416c456da3bed,2013-02-24,1361688992,4a3ce4716c,Add contrib/vstudio/vc10 pre-build step for static only.,0,0,,False
+bb97bc9d508774fb5ec0564128a6082cc262b570,2013-02-24,1361689422,7cc8357433,Quote --version-script argument in CMakeLists.txt.,0,0,,False
+27b772322237cfbbb8ebe6d9e0ca029312c5401e,2013-02-24,1361689875,7cc8357433,Don't specify --version-script on Apple platforms in CMakeLists.txt.,0,0,,False
+00dfee0b2e235bcdb5321dd3bde199ee716a2f64,2013-02-24,1361690925,4a84ce9f14,Fix casting error in contrib/testzlib/testzlib.c.,0,0,,True
+63ba7582b80eb81b126c2931e485481c35596aab,2013-02-24,1361691150,8ece27ad55,Fix types in contrib/minizip to match result of get_crc_table().,0,0,,True
+79a7058be4426317effed799cbd4d2a4983da399,2013-02-24,1361691840,fbed0f64af,Simplify contrib/vstudio/vc10 with 'd' suffix.,0,0,,False
+64a77facc0f4f6f7f51acc30a25d23d113315cc9,2013-02-24,1361692020,a5799c6f85,Add TOP support to win32/Makefile.msc.,0,0,,False
+bc7e017112bb8e37a3103879148be718a48f5023,2013-02-24,1361692956,ae67fda6bf,Suport i686 and amd64 assembler builds in CMakeLists.txt.,0,0,,False
+a2d71e8e66530c325bfce936f3805ccff5831b62,2013-02-24,1361693784,29328b216c,Fix typos in the use of _LARGEFILE64_SOURCE in zconf.h.,2,2,zconf.h,False
+dd5d0940e93f2196a7791b1bf052d68309a7d45f,2013-03-23,1363999117,29328b216c,Add vc11 and vc12 build files to contrib/vstudio.,0,0,,False
+b06dee43696b5057ee8e1b9700655ad9e7d89669,2013-03-23,1364002357,29328b216c,Add gzvprintf() as an undocumented function in zlib.,24,7,gzwrite.c;zconf.h;zlib.h,False
+66fcefbb2fb867f3f941b71140532de8593f29d6,2013-03-23,1364071810,29328b216c,Fix configure for Sun shell.,0,0,,True
+03ff48cc67937fbb026a7952c0351615ef9be4e5,2013-03-24,1364103009,29328b216c,Remove runtime check in configure for four-byte integer type.,5,11,zconf.h,False
+f0546c8e34dbe1bcc636a6ab4529159266efafe6,2013-03-24,1364106778,29328b216c,Clean up the addition of inflateGetDictionary.,1,1,zlib.h,False
+0aac8cf7c4da2572609d177657fb5f947bf38cd2,2013-03-24,1364107635,29328b216c,Clean up the addition of gzvprintf.,4,2,zconf.h;zlib.h,False
+e9f0b78443884bfd88ead7235bcf5a6a1adae5cd,2013-03-24,1364166548,29328b216c,Add casts and consts to ease user conversion to C++.,15,14,gzlib.c;gzread.c;gzwrite.c;zconf.h,False
+318a5e190e836f37ee0904342f3323ea31a0290f,2013-03-24,1364167721,72c7f1caea,Add man pages for minizip and miniunzip.,0,0,,False
+d3b613e3208c0d0f9eb40d9480325becd69481da,2013-03-24,1364169365,29328b216c,Minor spacing cleanup in a comment in gzguts.h.,1,1,gzguts.h,False
+81c3068b9ac4e75a4c65338e5b95f421478f5295,2013-03-24,1364169452,29328b216c,"In Makefile uninstall, don't rm if preceding cd fails.",0,0,,False
+c661c374e8df43365738daa09f4390d61bc57f08,2013-03-25,1364188504,29328b216c,Do not return Z_BUF_ERROR if deflateParam() has nothing to write.,2,0,deflate.c,False
+f81b79c55998a0b7551c129ac379df5839d0949b,2013-03-25,1364189440,29328b216c,Line length cleanup.,3,2,inffast.c;zutil.h,False
+0b166094092efa2b92200cbb67f390e86c181ab4,2013-03-25,1364190479,29328b216c,zlib 1.2.7.1,14,14,deflate.c;gzguts.h;gzlib.c;gzread.c;gzwrite.c;inffast.c;inftrees.c;zconf.h;zlib.h;zutil.h,False
+8a93f49c86044934de225a395d3b5b851879257c,2013-04-13,1365865737,29328b216c,Change version number to 1.2.7.2.,7,7,deflate.c;inftrees.c;zlib.h,False
+5d33c62c7d7d053a1d55b92c1036e196ed1168bd,2013-04-13,1365893643,29328b216c,Change check for a four-byte type back to hexadecimal.,3,3,zconf.h,False
+9b703f200055eb93c3abfbf311076ceeb827c80a,2013-04-14,1365900897,29328b216c,Fix typo in win32/Makefile.msc.,0,0,,False
+70252daf893a5e181d8b6eb7da6cec9fab044ecc,2013-04-14,1365901446,29328b216c,Add casts in gzwrite.c for pointer differences.,4,3,gzguts.h;gzwrite.c,False
+139c67fc879b0836dcc1285947f0d353efe42e2d,2013-04-14,1365902142,29328b216c,zlib 1.2.7.2,1,1,zlib.h,False
+388a285cb89048a5a4aa656dc377c6cf0a53cdf0,2013-04-14,1365904726,29328b216c,Change version number to 1.2.7.3.,7,7,deflate.c;inftrees.c;zlib.h,False
+c714072020170474aa168769b4b41f61d919884e,2013-04-14,1365906808,29328b216c,Fix version numbers and DLL names in contrib/vstudio/*/zlib.rc.,0,0,,False
+b7bc38845416febaba0d3736fec890750ad9fb28,2013-04-14,1365913115,29328b216c,zlib 1.2.7.3,2,2,zlib.h,False
+e8fee0ea7bf62e595bd5518b7b22e3e16397278c,2013-04-28,1367189830,29328b216c,Change version number to 1.2.8.,8,8,deflate.c;inftrees.c;zlib.h,False
+b4d802825ac374af31e02e03aeb39d040b20ef0b,2013-04-28,1367189831,29328b216c,Clean up contrib/vstudio [Roß].,0,0,,False
+2dad5389af478ae7d09f4479650c1471dc13e0f5,2013-04-28,1367189831,29328b216c,Correct spelling error in zlib.h.,1,1,zlib.h,False
+bddc968b1432f045e4630f72273f2049b211c333,2013-04-28,1367189831,29328b216c,Do not force Z_CONST for C++.,1,1,zconf.h,False
+f5ec26344f2c9d4facc000cd9c8495e279a0eba6,2013-04-28,1367189831,29328b216c,Update some copyright years.,0,0,,False
+5481269e1fa6d99a1799762c657f1ba7155ad922,2013-04-28,1367189831,29328b216c,Update contrib/minizip/iowin32.c for Windows RT [Vollant].,0,0,,False
+5b5da45640eb33d0d102c0ce5f6967ca3d727dd7,2013-04-29,1367194947,29328b216c,Fix mixed line endings in contrib/vstudio.,0,0,,True
+50893291621658f355bc5b4d450a8d06a563053d,2013-04-29,1367195029,29328b216c,zlib 1.2.8,2,2,zlib.h,False
+ceeb615f4660966c192edb302207842c7283b5ac,2013-05-03,1367561574,29328b216c,Change version number to 1.2.8.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+303d92cfee8ffccaf446ba0ca442ef905dc059e3,2013-05-24,1369365114,29328b216c,Spacing cleanup.,1,1,deflate.c,False
+89e335abb49cd5c7d29d94e8f506d3f8ed71315a,2013-08-04,1375578803,29328b216c,Fix contrib/minizip to permit unzipping with desktop API [Zouzou].,0,0,,True
+799c87c0d8fc5af306f8c7a160dfd3d75746c2ce,2013-08-24,1377365792,29328b216c,Improve contrib/blast to return unused bytes.  Fix the test code to report the count of unused bytes at the end correctly.  Add the ability to provide initial input to blast().,0,0,,True
+72c70060d8312cff06754779188d8adeb974f18c,2014-04-24,1398383136,29328b216c,Assure that gzoffset() is correct when appending.,3,1,gzlib.c,False
+f898bbed8991fb2220940d19d70803cc68697b60,2014-04-26,1398524892,29328b216c,Fix compress() to work on lengths more than a maximum unsigned.,24,18,compress.c,True
+7d54c69413ed2275b9ea25b376627294ffac5ca8,2014-04-26,1398524905,29328b216c,Fix uncompress() to work on lengths more than a maximum unsigned.,41,20,uncompr.c,True
+9cbda797c10b16d7a369761ed6d5a68f26296ce6,2014-04-26,1398525157,29328b216c,Note in zlib.h that compress() uses Z_DEFAULT_COMPRESSION.,2,1,zlib.h,False
+283520baf786b81cfd97fe56909b7e8f2529eb22,2014-07-02,1404344062,29328b216c,Fix bug in test/example.c where error code not saved.,0,0,,True
+5370d99a2affe0b040550cffbc0ba8fa790594b3,2014-12-29,1419841122,29328b216c,Add inflateCodesUsed() function for internal use.,9,0,inflate.c,False
+9859a94c1002484ee5f824c05683a5b2484cbf49,2015-01-27,1422337362,29328b216c,Remedy Coverity warning. [Randers-Pehrson],1,1,inflate.c,False
+8a979f6c7986574e37316148cd8ca440c3bc08a3,2015-07-05,1436129510,29328b216c,Avoid left shift of a negative value in flush rank calculation.,1,1,deflate.c,False
+95698093f023852ca4365df307c19a1d7cfa3687,2015-07-06,1436145293,29328b216c,Improve speed of gzprintf() in transparent mode.,70,51,gzguts.h;gzlib.c;gzwrite.c;zlib.h,False
+e7ebb399d7a7ef9fd88c8fb194f943169fdaa346,2015-07-08,1436325061,29328b216c,Put license in zlib.3 man page.,0,0,,False
+b56d1c62ee1ff9705026c94a780dd6e4577cda02,2015-07-29,1438142766,29328b216c,Add comment about not using windowBits of 8 for deflate().,8,0,zlib.h,False
+0db8fd371477f42c280ddeee29e6de092fabf948,2015-07-29,1438144880,29328b216c,Fix inflateInit2() bug when windowBits is 16 or 32.,2,0,inflate.c,True
+0b22337126401ef68ac5cf0308413239a4fb9c83,2015-07-29,1438145709,29328b216c,Avoid use of reallocf() in test/infcover.c.,0,0,,False
+51a223def4382fdd0c9531ba77bd10724eae9f5f,2015-07-29,1438148671,29328b216c,Avoid use of DEBUG macro -- change to ZLIB_DEBUG.,25,25,deflate.c;deflate.h;trees.c;zlib.h;zutil.c;zutil.h,False
+c901a34c92c4aa74028f541a9773df726ce2b769,2015-07-29,1438150433,29328b216c,Avoid uninitialized access by gzclose_w().,2,1,deflate.c;gzwrite.c,False
+5701f48cf5178355b1ec51614d44aa14251250e5,2015-07-29,1438150790,29328b216c,Clarify deflateReset() documentation.,4,4,zlib.h,False
+2fc6d66797b87ad40e4739520cd4e0e40d42efd3,2015-07-29,1438151555,29328b216c,Define _POSIX_SOURCE to enable POSIX extensions on some systems.,4,0,gzguts.h,False
+b4ce6caf0992296230e4e25b22a63e418bdf4dcf,2015-08-02,1438475936,29328b216c,Compile the gzopen_w() function when __CYGWIN__ defined.,9,5,gzguts.h;gzlib.c;zlib.h,False
+43bfaba3d718a27c1b137b1d1aa90d9427ab4a4f,2015-08-02,1438499188,29328b216c,Align deflateParams() and its documentation in zlib.h.,27,14,deflate.c;zlib.h,False
+bfcace04f91bd27c8c7c040da2396fe4b7724422,2015-08-03,1438561340,29328b216c,Do not initialize unsigned with -1 in compress.c uncompr.c.,2,2,compress.c;uncompr.c,False
+55d98b4c302c74b619968bd02cf3b5e18d845977,2015-08-03,1438576550,29328b216c,Allow building zlib outside of the source directory.,0,0,,False
+82e9dc60932bf2ce5422a5e76e66e5a05abd26e3,2015-08-16,1439687090,29328b216c,Use const for static tree descriptions in deflate.,4,4,deflate.h;trees.c,False
+27ef026603319decd1b3d4d92a5d3bf21dcc2db5,2015-08-16,1439687690,29328b216c,Fix typo.,0,0,,False
+e54e1299404101a5a9d0cf5e45512b543967f958,2015-09-06,1441500355,29328b216c,Avoid shifts of negative values inflateMark().,3,2,inflate.c,False
+44ae761dc2047038dc42a7e5a162d042fc392d2b,2015-09-06,1441504615,29328b216c,Clean up portability for shifts and integer sizes.,4,4,adler32.c;inflate.c;zlib.h,False
+f77c9823441ba169b3877976cb40b72731aa7980,2015-09-16,1442443200,29328b216c,Use UTF-8 for non-ASCII characters in ChangeLog.,0,0,,False
+8f1b3744e52b2adb6475c3cd7a07ff9331e9c2fa,2015-10-04,1443984522,29328b216c,Use a consistent and more modern approach to not use a parameter.,10,6,zutil.c,False
+6cef1de7403b553ce8f7e790e38531da6529f34f,2015-11-27,1448607145,29328b216c,Fix bug that accepted invalid zlib header when windowBits is zero.,1,1,inflate.c,True
+4423fef8dc5f13a157a3cded687525ca5c91ee4e,2016-01-30,1454138695,29328b216c,Fix gzseek() problem on MinGW due to buggy _lseeki64 there.,1,1,gzlib.c,True
+4f1df003ed39280c2e4f62581888a62def3e34fe,2016-04-05,1459850999,29328b216c,Loop on write() calls in gzwrite.c in case of non-blocking I/O.,16,11,gzwrite.c,False
+2bcfc31188090093d688404321a2c537f014061c,2016-06-18,1466217370,29328b216c,Add configure.log to .gitignore.,0,0,,False
+70a8763b7187f2536ce7fe4d399ce9a79c9faf7c,2016-07-10,1468176197,29328b216c,Fix typo in blast.c.,0,0,,False
+93b0af4aa73c8debe2cc18e56101700423096146,2016-09-21,1474417648,29328b216c,Correct the size of the inflate state in the comments.,2,1,inflate.h,False
+9852c209ac49c0d8d1192e46115d7c37d4344bbd,2016-09-21,1474422937,29328b216c,Add option to not compute or check check values.,34,13,inflate.c;inflate.h;zlib.h,False
+33a7aff45da511c3fc181071394ad9a01d5e8d61,2016-09-21,1474472759,29328b216c,Fix typo.,1,1,inflate.h,False
+3fb251b363866417122fe54a158a1ac5a7837101,2016-09-22,1474515244,29328b216c,Remove dummy structure declarations for old buggy compilers.,0,18,deflate.c;zconf.h;zlib.h;zutil.c,False
+9aaec95e82117c1cb0f9624264c3618fc380cecb,2016-09-22,1474523475,29328b216c,Use post-increment only in inffast.c.,31,50,inffast.c,False
+6a043145ca6e9c55184013841a67b2fef87e44c0,2016-09-22,1474526150,29328b216c,Remove offset pointer optimization in inftrees.c.,8,10,inftrees.c,False
+d1d577490c15a0c6862473d7576352a9f18ef811,2016-09-29,1475120918,29328b216c,Avoid pre-decrement of pointer in big-endian CRC calculation.,1,3,crc32.c,False
+e08118c401d5434b7b3a57039263f4fa9b1f7d1a,2016-10-04,1475559206,29328b216c,Note the violation of the strict aliasing rule in crc32.c.,12,0,crc32.c,False
+2edb94a3025d288dc251bc6cbb2c02e60fbd7438,2016-10-12,1476236300,29328b216c,Avoid casting an out-of-range value to long.,1,1,inflate.c,False
+7096424f23df1b1813237fb5f8bc8f34cfcedd0c,2016-10-12,1476249350,29328b216c,Clean up type conversions.,62,57,deflate.c;deflate.h;gzread.c;gzwrite.c;infback.c;inflate.c;trees.c;zlib.h;zutil.c,False
+8b95fa19cd7bb62af05ccec1e408a33ec30d54fc,2016-10-12,1476249664,29328b216c,"Add --warn option to ./configure, instead of environment variable.",0,0,,False
+7d6956b6a148465947dbeacef654fecab9b31f55,2016-10-14,1476475854,29328b216c,Make globals in examples local to compilation unit.,0,0,,False
+ebbc57393d81c25c019851f6d9d7776baed0f4d7,2016-10-14,1476476167,29328b216c,Avoid recursive gzgetc() macro call.,2,2,zlib.h,False
+da64f1730c480ca97c755009c27e20e7bfd56c16,2016-10-14,1476476338,29328b216c,Move macro definition in deflate.c to where it is used.,4,3,deflate.c,False
+a0bf0f31d30088333aacf0b886d606c81a54bf21,2016-10-14,1476477018,29328b216c,Avoid obfuscating use of default case in inftrees.c.,1,1,inftrees.c,False
+049578f0a1849f502834167e233f4c1d52ddcbcc,2016-10-24,1477349539,29328b216c,Reject a window size of 256 bytes if not using the zlib wrapper.,1,1,deflate.c,False
+77fd7e56bfc75b4194145060bb1ec5256ce077c6,2016-10-24,1477350051,29328b216c,Document the rejection of 256-byte window requests in zlib.h.,4,0,zlib.h,False
+b516b4bdd7c0c9f0858adfebf732089014f7b282,2016-10-25,1477368463,29328b216c,Do a more thorough check of the state for every stream call.,72,41,deflate.c;inflate.c;inflate.h,False
+ce12c5cd00628bf8f680c98123a369974d32df15,2016-10-26,1477453541,29328b216c,Make a noble effort at setting OS_CODE correctly.,30,14,zutil.h,False
+bedea2483b6cf0f5af0f50010031bb56f5512124,2016-10-26,1477502710,29328b216c,Clean up and comment the use of local for static.,6,6,adler32.c;crc32.c;gzguts.h;zutil.h,False
+94575859cf7f657f0f31aff4c50761fe3f182699,2016-10-28,1477633843,29328b216c,Fix bug when level 0 used with Z_HUFFMAN or Z_RLE.,4,3,deflate.c,True
+03614c56ad299f9b238c75aa1e66f0c08fc4fc8b,2016-10-30,1477842541,29328b216c,Fix some typos.,8,8,deflate.c;zlib.h,False
+a456d898bb5d81a5e33705bfe2d476af8d4fee98,2016-12-04,1480865965,29328b216c,Use memcpy for stored blocks.,7,30,trees.c,False
+9674807c82ae06716a678d7374362acdb6f041b5,2016-12-04,1480865977,29328b216c,Fix bugs in creating a very large gzip header.,191,169,deflate.c;deflate.h,True
+fc130cdd9fcb0ea4decaf003be6ddf4c5dfd5760,2016-12-04,1480865977,29328b216c,Add --debug (-d) option to ./configure to define ZLIB_DEBUG.,0,0,,False
+001300d0d91f75f03eed5ec97eca160452f62d61,2016-12-04,1480866521,29328b216c,Minor edits to the documentation in source file contents.,107,91,zconf.h;zlib.h,False
+37281ac222ee7ceb8cc3253f13c8fa26a88dd566,2016-12-04,1480866527,29328b216c,"Add uncompress2() function, which returns the input size used.",39,18,uncompr.c;zlib.h,False
+1101ea79c65c6f42c33a1e3a5d5eef38c00a30a2,2016-12-04,1480866527,29328b216c,Explicitly ignore a return value in gzwrite.c.,1,1,gzwrite.c,False
+c5ee34c28a9144b1b5a5021d05ed29940c53010c,2016-12-04,1480866527,29328b216c,Don't need to emit an empty fixed block when changing parameters.,1,1,gzwrite.c,True
+123f9cfaf7730dcc52c380eaf04c15dc3e0b15f8,2016-12-04,1480866527,29328b216c,Clean up gz* function return values.,37,34,gzlib.c;gzwrite.c;zlib.h,False
+9dc5a8585f429109ef1948ab71b6b71bfa7181e2,2016-12-04,1480866527,29328b216c,Speed up deflation for level 0 (storing).,215,78,deflate.c,False
+7161ad76e2d0ac7de2a6235fcad3b9dfc99e9140,2016-12-04,1480866527,29328b216c,Assure that deflateParams() will not switch functions mid-block.,24,22,deflate.c;zlib.h,False
+21c66cd5ac8876f48a19882074933c6275eaa022,2016-12-04,1480866527,29328b216c,Increase verbosity required to warn about bit length overflow.,2,2,trees.c,True
+ca50ebd4dfd08dfd7e8c8bb087278e158cd67720,2016-12-04,1480866528,29328b216c,Create z_size_t and z_ssize_t types.,19,4,gzlib.c;gzread.c;gzwrite.c;zconf.h,False
+3f8c768745e85d0e63ba306581710c6dc9db0d65,2016-12-05,1480900776,29328b216c,Fix compile option for when z_size_t needs to be a long long.,2,0,zconf.h,True
+44dfd831d24f9b627ab666cf0973b0dce98fabba,2016-12-05,1480905341,29328b216c,"Add gzfread(), duplicating the interface of fread().",126,40,gzread.c;zlib.h,False
+77bc4f8944c0e1a1fd4689eddbcead6e93bef58a,2016-12-05,1480906054,29328b216c,"Add gzfwrite(), duplicating the interface of fwrite().",112,40,gzwrite.c;zlib.h,False
+feafcfaa05537869bd128af5474f62b19df8b502,2016-12-30,1483137052,29328b216c,No need to check for NULL argument to free().,2,4,gzread.c,False
+ee7d7b5dda25c111e61e19ac7b476c26aa6f3020,2016-12-31,1483144196,29328b216c,Add deflateGetDictionary() function.,43,0,deflate.c;zlib.h,False
+79b5c5acf0dff798f3436126b080472ef6b7bd65,2016-12-31,1483146811,29328b216c,Use snprintf() for later versions of Microsoft C.,3,4,gzguts.h,False
+d6f0da2fa3bad566a43c7778259c55069416bd25,2016-12-31,1483156851,29328b216c,Fix character encoding and link in contrib README.,0,0,,False
+50dca6d127cd92d20a7cfafebf6cfe9516b0043f,2016-12-31,1483156856,29328b216c,Fix init macros to use z_ prefix when requested.,35,14,zconf.h;zlib.h,True
+d46546544a1ec20671c7e5a9135ad7c6e83bb927,2016-12-31,1483156857,29328b216c,Replace as400 with os400 for OS/400 support (Monnerat).,0,0,,False
+f12d3dc367e51bcefba80217c645fa5de05e699c,2016-12-31,1483156857,29328b216c,Detect clang in cc version.,0,0,,False
+fb26fc427fb5b628e1ee062d08be334c1b8c3bbe,2016-12-31,1483164262,29328b216c,Allow minigzip to compile when testing with ./configure --solo.,0,0,,False
+8f147c3d12591a811c5438c011d4203bb7fc5260,2016-12-31,1483170130,29328b216c,Avoid some random compiler warnings on various platforms.,8,7,deflate.c;gzwrite.c;inftrees.c;trees.c,False
+f3fcb92cf6c81b3ecd04b3ceb9243548b80c0cd9,2016-12-31,1483170142,29328b216c,Use intptr_t for z_ssize_t on MSVC.,6,1,zconf.h,False
+b7fbee215674c3399212dffba1e71323056931d9,2016-12-31,1483202957,29328b216c,Use a uniform approach for the largest value of an unsigned type.,3,3,compress.c;inflate.c;uncompr.c,False
+cca27e95cf2bf057b2bbea93702135da3ca7be45,2016-12-31,1483207600,29328b216c,Avoid the need for ssize_t.,18,24,gzread.c;gzwrite.c;zconf.h,False
+61b91f27f87f03d67ee5ecfa5fc66b16dd5e3019,2017-01-01,1483235439,29328b216c,Make z_size_t unsigned long for non-standard C.,7,3,zconf.h,False
+b9ae6f0079099c1b2e26abbb434725c4cf62d6b2,2017-01-01,1483235452,29328b216c,Add crc32_z() and adler32_z() functions with size_t lengths.,38,8,adler32.c;crc32.c;zlib.h,False
+14e3194e1ebbfc2825e51caf8312e4e3b45c9c81,2017-01-01,1483239468,29328b216c,Update Visual Studio project files (AraHaan).,0,0,,False
+2fa463bacfff79181df1a5270fb67cc679a53e71,2017-01-01,1483256230,29328b216c,zlib 1.2.9,37,29,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;gzguts.h;gzlib.c;gzread.c;gzwrite.c;infback.c;inffast.c;inflate.c;inflate.h;inftrees.c;trees.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+6bdca5060d25755fb1def3ae7a78d635215eff21,2017-01-02,1483338221,29328b216c,Fix some stray 1.2.8.1 version numbers.,0,0,,False
+20e472546e1fb3018cebe59040644f0b6198902d,2017-01-02,1483338257,29328b216c,Change version number to zlib 1.2.9.1.,10,10,deflate.c;inftrees.c;zlib.h,False
+7358ef23c2b412543196df58c333ebc9aabb1d62,2017-01-02,1483338277,29328b216c,Avoid warnings on snprintf() return value.,4,4,gzlib.c,False
+52aa5501ecfffed933d39647092852cab397ca39,2017-01-02,1483338277,29328b216c,Minor edits and clarifications of comments.,8,7,zlib.h,False
+bc5503b224b64e2dfafe1f6d6f2dace191eb219d,2017-01-02,1483399079,29328b216c,Fix bug in deflate_stored() for zero-length input.,19,18,deflate.c,True
+0b5c158cc717839956e541a99df9986423c4cae4,2017-01-03,1483402663,29328b216c,Fix bug in gzwrite.c that produced corrupt gzip files.,1,0,gzwrite.c,True
+c7d77756d01210790b6d87442eba83dcc586a305,2017-01-03,1483405478,29328b216c,Remove files to be installed before copying them in Makefile.in.,0,0,,False
+1e3bccd4965d34cfd34e3fed7329b1b2c4b28d1d,2017-01-03,1483406907,29328b216c,Add warnings when compiling with assembler code.,4,1,deflate.c;inffast.c,False
+4a090adef8c773087ec8916ad3c2236ef560df27,2017-01-03,1483410089,29328b216c,zlib 1.2.10,8,8,deflate.c;inftrees.c;zlib.h,False
+e13def040e1236f2e3dd4333a6ece955967478b3,2017-01-03,1483410089,29328b216c,Fix compilation with --solo and --debug combined.,1,1,zutil.c,True
+11ceaed751369ec499e1f4c021a881f46bb1bb04,2017-01-15,1484500028,29328b216c,Change version number to 1.2.10.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+4c7c90768308587884fab6159d93a4695a5ab1f0,2017-01-15,1484500034,29328b216c,Fix deflate stored bug when pulling last block from window.,5,5,deflate.c,True
+c38a2603ce36ef30d3a6f94f9804a25253418018,2017-01-15,1484500034,29328b216c,Delete user-specific Visual Studio project files.,0,0,,False
+74d2696d87188f52296ee9c88f295eb0d896acf9,2017-01-15,1484500034,29328b216c,Update location of Visual Studio project files.,0,0,,False
+37ed2112a1727293f4fd431df85dc821ee475d3d,2017-01-15,1484500034,29328b216c,Update vestigial comment from very old Info-ZIP deflate.,2,2,trees.c,False
+7d9c9d410a7f8c732fdb0cac2b268659d624a6b6,2017-01-15,1484501367,29328b216c,Update high water mark in deflate_stored.,4,0,deflate.c,False
+cbbd20302c6e3fb626bee5bd8b4932524049515c,2017-01-15,1484501380,29328b216c,Permit immediate deflateParams changes before any deflate input.,7,5,deflate.c;zlib.h,False
+cacf7f1d4e3d44d871b605da3b647f07d718623f,2017-01-15,1484501380,29328b216c,zlib 1.2.11,12,12,deflate.c;gzlib.c;gzwrite.c;inffast.c;inftrees.c;zlib.h;zutil.c,False
+7d60b86782f96854974fdec6f17cb95cfaf020a6,2017-01-16,1484549163,29328b216c,Change version number to 1.2.11.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+5ff989033e8b839b80ce716a1452acf7664e2ff4,2017-01-16,1484588316,29328b216c,"Cygwin does not have _wopen(), so do not create gzopen_w() there.",2,2,gzguts.h;zlib.h,False
+f9694097dd69354b03cb8af959094c7f260db0a1,2017-02-16,1487227135,29328b216c,Permit a deflateParams() parameter change as soon as possible.,9,8,deflate.c;zlib.h,False
+2d80d3f6b52f9fa454c26c89d2d6a1790e1cecb0,2017-02-16,1487227165,29328b216c,Limit hash table inserts after switch from stored deflate.,9,1,deflate.c,False
+8ba393e70d984d902b15b9e6876f4d0d38ae4be8,2017-02-16,1487227165,29328b216c,Fix bug when window full in deflate_stored().,1,1,deflate.c,True
+e00a2bd392ca51351ecee55dbeee803f6ebda2f5,2017-02-16,1487227166,29328b216c,Have Makefile return non-zero error code on test failure.,0,0,,False
+38e8ce32afbaa82f67d992b9f3056f281fe69259,2017-02-16,1487227166,29328b216c,Fix CLEAR_HASH macro to be usable as a single statement.,5,2,deflate.c,True
+90287635ef9ae8e51e120483d1b48789239a0577,2017-02-16,1487227166,29328b216c,Return an error if the gzputs string length can't fit in an int.,7,4,gzwrite.c,False
+60a5ecc62b18d1e2391993b1fcfc10e100720642,2017-02-16,1487227166,29328b216c,Small speedup to inflate [psumbera].,14,14,inffast.c,False
+a3622937453f517285f851817a7505f54f4f19aa,2017-02-16,1487227166,29328b216c,Avoid a conversion error in gzseek when off_t type too small.,2,2,gzlib.c,False
+793ad7f559555757e6443ea591ce70de5505fc69,2017-02-16,1487227166,29328b216c,Avoid some conversion warnings in gzread.c and gzwrite.c.,6,8,gzread.c;gzwrite.c,False
+e1f1a3a1469c91b15ea1d31f1c2b92bdc27879fa,2017-02-16,1487227166,29328b216c,Update use of errno for newer Windows CE versions.,2,2,zutil.c,False
+be5e3647c4aca626dcfa833ae2455b7af21b60b3,2017-02-19,1487488021,29328b216c,Add address checking in clang to -w option of configure.,0,0,,False
+89245c0a84eac0c5cfc6f0eb2fe72854f4b2c9e6,2017-03-30,1490910523,29328b216c,Don't compute check value for raw inflate if asked to validate.,1,1,inflate.c,False
+44e8ac810d7d50381429a15cdc6e48816beafd2b,2017-04-16,1492356933,29328b216c,Handle case where inflateSync used when header never processed.,2,0,inflate.c,False
+3c46f5ddb5d4c6203805209076249dd80589682b,2017-06-03,1496508813,29328b216c,Avoid the use of ptrdiff_t.,3,11,crc32.c;zutil.h,False
+ae49d1472ec176ddc53a3a4905f91d46344386e6,2017-10-13,1507861679,f5561d568b,Avoid an undefined behavior of memcpy() in gzappend().,0,0,,False
+b25d5fcdcf4723ca3da8bc69ecc6c52010778f7c,2017-10-13,1507862159,f5561d568b,Avoid undefined behaviors of memcpy() in gz*printf().,2,2,gzwrite.c,False
+723e928b84b0adac84cc11ec5c075a45e1a79903,2017-10-13,1507862641,f5561d568b,Avoid an undefined behavior of memcpy() in _tr_stored_block().,2,1,trees.c,False
+a5773513942b1c57d0eff51fcb2ebac72796ed95,2017-10-13,1507863831,f5561d568b,Make the names in functions declarations identical to definitions.,6,6,gzwrite.c;trees.c;zlib.h,False
+288f1080317b954b6bdca33708631c011549c008,2017-10-13,1507865234,f5561d568b,Remove old assembler code in which bugs have manifested.,0,0,,True
+c376a417a724c21173f40765bd643388523b16f7,2017-10-13,1507867642,f5561d568b,Fix deflateEnd() to not report an error at start of raw deflate.,3,1,deflate.c,True
+ba9df2111e9c4a95bc48daf402a90873852b10af,2017-10-13,1507870671,f5561d568b,Add legal disclaimer to README.,0,0,,False
+bf88202e314898f74b42995a71bb67d1bcc51883,2018-01-09,1515464165,29328b216c,Emphasize the need to continue decompressing gzip members.,5,3,zlib.h,False
+e99813dbfe9a09e33d42e8da9e550a0c4b7ff734,2018-01-31,1517433852,29328b216c,Correct the initialization requirements for deflateInit2().,1,2,zlib.h,False
+5c44459c3b28a9bd3283aaceab7c615f8020c531,2018-04-20,1524192431,29328b216c,Fix a bug that can crash deflate on some input when using Z_FIXED.,79,70,deflate.c;deflate.h;trees.c,True
+4346a16853e19b45787ce933666026903fb8f3f8,2018-04-20,1524192473,29328b216c,Assure that the number of bits for deflatePrime() is valid.,2,1,deflate.c,False
+194e558efefe58866c88519708a7ff836b2c66be,2018-08-01,1533112623,29328b216c,Use a structure to make globals in enough.c evident.,0,0,,False
+4c14b51587b3bf484f7ca26a92dcfc0f8559201b,2018-08-01,1533112787,29328b216c,Use a macro for the printf format of big_t in enough.c.,0,0,,False
+8ba2cdb6bdbee95703e1c6632fd8519a5e4a206e,2018-08-02,1533178316,29328b216c,"Clean up code style in enough.c, update version.",0,0,,False
+5b1381006b715a93f226117f82b7b6dd81bfff5e,2018-08-06,1533535693,29328b216c,Use inline function instead of macro for index in enough.c.,0,0,,False
+d00c147f531e757bfbd5cfab58d941caa8333ba8,2018-08-06,1533535705,29328b216c,Clarify that prefix codes are counted in enough.c.,0,0,,False
+cd16ff0b3a3665273e47141de8973bf1088cdf59,2018-08-06,1533535713,29328b216c,Show all the codes for the maximum tables size in enough.c.,0,0,,False
+354fa43d123b9759e4308c81e181caa1f97187ed,2018-10-07,1538945700,29328b216c,"Add gznorm.c example, which normalizes gzip files.",0,0,,False
+921d81b2a853233659d50b3c499a5c711a11e998,2018-10-14,1539536254,29328b216c,Fix the zran.c example to work on a multiple-member gzip file.,0,0,,True
+47cb41295751ee1b1b7e0acbfb847ea24324d5aa,2018-11-04,1541299522,29328b216c,"Add tables for crc32_combine(), to speed it up by a factor of 200.",396,92,crc32.c;crc32.h,False
+41d86c73b21191a3fa9ea5f476fc9f1fc5e4f8b3,2018-11-04,1541356306,29328b216c,Add crc32_combine_gen() and crc32_combine_op() for fast combines.,97,0,crc32.c;zlib.h,False
+f8719f5ae5acdc31d3794ddfea8ac963359de41e,2018-12-26,1545856012,29328b216c,Speed up software CRC-32 computation by a factor of 1.5 to 3.,10195,1077,crc32.c;crc32.h;zlib.h;zutil.h,False
+7c0c75e990ca5395139c148f120042048b0ce091,2018-12-26,1545861027,29328b216c,"Use atomic test and set, if available, for dynamic CRC tables.",112,42,crc32.c,False
+0d36ec47f310478549c0864f215ab5c0114c49ba,2019-01-03,1546490440,29328b216c,Don't bother computing check value after successful inflateSync().,12,5,inflate.c;inflate.h,False
+aec89faa2e366e5cff501310771afaf16289c6ad,2019-02-04,1549252486,29328b216c,Correct comment in crc32.c.,2,1,crc32.c,False
+52fc78baf216dac4e76c5eb3bd940f68e87086da,2019-02-18,1550461737,29328b216c,Add use of the ARMv8 crc32 instructions when requested.,114,0,crc32.c,False
+deb44b57429b05d4ad5b4f793c969e58a9328f06,2019-02-18,1550465369,29328b216c,Use ARM crc32 instructions if the ARM architecture has them.,7,3,crc32.c,False
+0e96d8e7c7079ab9f07cc7b57ae3ca9de8c80742,2019-04-05,1554503267,29328b216c,Explicitly note that the 32-bit check values are 32 bits.,7,5,zlib.h,False
+79baebe50e4d6b73ae1f8b603f0ef41300110aa3,2019-04-14,1555200530,29328b216c,Avoid adding empty gzip member after gzflush with Z_FINISH.,13,1,gzguts.h;gzlib.c;gzwrite.c,False
+02064366155215162223417b939deebfe563ded0,2019-05-26,1558848200,29328b216c,Fix memory leak on error in gzlog.c.,0,0,,True
+d71dc66fa8a153fb6e7c626847095d9697a6cf42,2019-07-09,1562687713,29328b216c,Fix error in comment on the polynomial representation of a byte.,1,1,crc32.c,False
+e54494e6bc6dc661269201435f6961b44354fb40,2020-08-31,1598903638,29328b216c,"Clarify gz* function interfaces, referring to parameter names.",76,77,zlib.h,False
+53ce2713117ef2a8ed682d77b944df991c499252,2020-09-17,1600366186,29328b216c,Change macro name in inflate.c to avoid collision in VxWorks.,4,4,inflate.c,False
+506424c6405d0cf7ea7b9c3316516676f259c665,2021-01-18,1610949008,29328b216c,Correct typo in blast.c.,0,0,,False
+0530dbcef992b56b88a6bfd0fd2efa868669d04e,2021-02-10,1612998202,29328b216c,Improve portability of contrib/minizip.,0,0,,False
+c3f3043f7aa80750245f8166a338c4877020b589,2021-07-08,1625761938,29328b216c,Fix indentation in minizip's zip.c.,0,0,,True
+8678871f18f4dd51101a9db1e37791f975969079,2022-01-01,1640998627,29328b216c,Replace black/white with allow/block. (theresa-m),9,9,trees.c,False
+b135d46eaf5ba36b549be9db857c580f00b6182a,2022-01-01,1641000157,29328b216c,minizip warning fix if MAXU32 already defined. (gvollant),0,0,,True
+58ca4e57ce7d76734d8b5afa03d205f694419b17,2022-01-01,1641067770,29328b216c,Fix unztell64() in minizip to work past 4GB. (Daniël Hörchner),0,0,,True
+2014a993addbc8f1b9785d97f55fd189792c2f78,2022-01-01,1641077747,29328b216c,Clean up minizip to reduce warnings for testing.,0,0,,False
+76f70abbc73f8887ed42b12cf5c895b386595d59,2022-03-27,1648371250,29328b216c,Add fallthrough comments for gcc.,24,0,infback.c;inflate.c,False
+735eaa1ebd5ae99b10c5824f7c9277d972693e2a,2022-03-27,1648371257,29328b216c,Eliminate use of ULL constants.,3,3,zutil.h,False
+6847291ea0e3266f9ebf2c24dfe77f114a744d27,2022-03-27,1648371257,29328b216c,Separate out address sanitizing from warnings in configure.,0,0,,False
+1a1e8da703e28ea36873ef34dab0d90ff8f98393,2022-03-27,1648404110,29328b216c,Remove destructive aspects of make distclean.,0,0,,False
+e9a52aa129efe3834383e415580716a7c4027f8d,2022-03-27,1648414053,29328b216c,Check for cc masquerading as gcc or clang in configure.,0,0,,False
+296967c7b7b6bfb59ed8b831391359b2c0153e3d,2022-03-27,1648414099,29328b216c,Fix crc32.c to compile local functions only if used.,64,62,crc32.c,True
+21767c654d31d2dccdde4330529775c6c5fd5389,2022-03-27,1648422302,29328b216c,zlib 1.2.12,23,23,crc32.c;deflate.c;deflate.h;gzguts.h;gzlib.c;gzread.c;gzwrite.c;infback.c;inflate.c;inflate.h;inftrees.c;trees.c;zlib.h;zutil.h,False
+a4c17581d8fd9dc38d498430825d148fe7177881,2022-03-28,1648429669,29328b216c,Change version number on develop branch to 1.2.12.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+3df842426b53522e232da7aa06d5ef10eeb5ec4a,2022-03-28,1648489816,29328b216c,Silence some warnings from Visual Studio C.,5,5,deflate.h;trees.c,False
+05796d3d8d5546cf1b4dfe2cd72ab746afae505d,2022-03-29,1648517650,29328b216c,Fix configure issue that discarded provided CC definition.,0,0,,True
+ce12773790517034317274f5c65ba70cfeea29f7,2022-03-29,1648518419,29328b216c,Fix compile with Windows 10 SDK. (gvollant),0,0,,True
+ec3df00224d4b396e2ac6586ab5d25f673caa4c2,2022-03-30,1648664093,29328b216c,Correct incorrect inputs provided to the CRC functions.,4,4,crc32.c,True
+441a2ac6028aca34f1921b2f4cc469124c9235c7,2022-05-26,1653580071,88c61a55eb,Have build test report library version if it doesn't match zlib.h.,0,0,,False
+6c532a8e8a2fcedc4abbe2378dd26b5d89cf1c4a,2022-06-04,1654372333,88c61a55eb,Fix missing ZEXPORT for crc32_combine_op().,1,1,crc32.c,True
+7ecf7c7458578d05a20fa481436dd5c58db112f7,2022-06-04,1654380160,88c61a55eb,Fix odd error in Visual C compiler preventing automatic promotion.,2,2,crc32.c,True
+2333419cd76cb9ae5f15c9b240b16a2052b27691,2022-06-27,1656357604,88c61a55eb,Fix inflateBack to detect invalid input with distances too far.,1,0,infback.c,True
+b8bd09801f4a2c224655e14edffc5793943a33d2,2022-07-24,1658688067,88c61a55eb,Have infback() deliver all of the available output up to any error.,9,7,infback.c,False
+eff308af425b67093bab25f80f1ae950166bece1,2022-07-30,1659221882,88c61a55eb,Fix a bug when getting a gzip header extra field with inflate().,3,2,inflate.c,True
+22aec0cb0bb53c126f9feb0471f616203e55d37d,2022-07-31,1659285163,88c61a55eb,Add -g when debugging with -fsanitize=address to include symbols.,0,0,,False
+1eb7682f845ac9e9bf9ae35bbfb3bad5dacbd91d,2022-08-08,1659981340,88c61a55eb,Fix extra field processing bug that dereferences NULL state->head.,2,2,inflate.c,True
+5752b171fd4cc96b8d1f9526ec1940199c6e9740,2022-08-23,1661294113,88c61a55eb,Fix some typos.,10,10,crc32.c;deflate.c;inftrees.h;trees.c;zlib.h,False
+59b948acee57b77f9b018ac30ec2e4b499de5efd,2022-08-28,1661717597,88c61a55eb,Fix typo in contrib readme.,0,0,,False
+2d6d59e4728a45240c9d238adbeb33032e9eb19d,2022-10-01,1664668355,88c61a55eb,Avoid conversion warning in minigzip.c.,0,0,,False
+7fabcb53576aca08b8e25174eb7b0df7c585e4e0,2022-10-03,1664822538,88c61a55eb,Fix bug in block type selection when Z_FIXED used.,5,6,trees.c,True
+4078713e3bdd4a310fde906a1d6b74a6bfe77e5b,2022-10-05,1665008202,88c61a55eb,Tighten deflateBound bounds.,37,22,deflate.c,False
+d39a2558bc6a16748b80ec0b3b090d2bf3900431,2022-10-05,1665008272,88c61a55eb,Add missing symbols to os400/bndsrc.,0,0,,False
+3e4aa45834c2e76c1f21f9c463c2f356f3bb512c,2022-10-05,1665008272,88c61a55eb,Add new crc32 functions to z_ prefix defines.,3,0,zconf.h,False
+456775aec853102d5de9de3b225a547aa1583f02,2022-10-05,1665008272,88c61a55eb,Add WIN32_LEAN_AND_MEAN for windows.h include.,3,0,zconf.h,False
+84c6716a48743edfb71053ba07755e0cf7ba638d,2022-10-05,1665008272,88c61a55eb,Minor formatting improvements.,138,133,compress.c;deflate.c;gzlib.c;gzwrite.c;trees.c;uncompr.c;zlib.h;zutil.c,False
+cc8d08c21ec7211bd844eec50bb6d042c59d9426,2022-10-06,1665024400,88c61a55eb,Update copyright year in win32/zlib1.rc.,0,0,,False
+095da07753035a2b80654553e1cad92d1dee1481,2022-10-06,1665043398,88c61a55eb,Remove -pedantic from configure -w compile options.,0,0,,False
+d0704a820186481da35d08f4b655881e1d32089f,2022-10-07,1665114189,88c61a55eb,Remove deleted assembler code references.,2,16,deflate.c;zutil.c,False
+a9e14e85415eb326000f352bce3fcb04a125406d,2022-10-07,1665114198,88c61a55eb,Avoid undefined negation behavior if windowBits is INT_MIN.,4,0,deflate.c;inflate.c,False
+9b291c9f013f99ad494ffecf4295cb2f594a18e3,2022-10-07,1665114198,88c61a55eb,Fix incorrect cast in minizip's ioapi.c.,0,0,,True
+138c93cffb76f5c24e4ae6e81e6210428856f825,2022-10-07,1665114198,88c61a55eb,Security and warning fixes for minizip. [gvollant],0,0,,True
+2d283adfee7b944860ebf38f307a18ff6265b086,2022-10-07,1665114198,88c61a55eb,Fix c89 compatibility in minizip's ioapi.c. [gvollant],0,0,,True
+888b3da8deebe1b637259b62256512fea104d690,2022-10-07,1665114198,88c61a55eb,Provide missing function prototypes in CRC-32 code. [fredgan],13,3,crc32.c;zutil.h,False
+9331fecc10d1409b8f63cbb3cc2365596255d672,2022-10-07,1665114198,88c61a55eb,Remove redundant check in gz_look().,3,5,gzread.c,False
+4572dfbe99b9fc6ea3aa1fa938e270bd45973cd0,2022-10-07,1665114199,88c61a55eb,Remove some harmless semicolons in minizip.,0,0,,False
+352cb28d12baf02863ff5d4d96be0587ced419a1,2022-10-07,1665114199,88c61a55eb,Add a separate LICENSE file to the distribution.,0,0,,False
+67eb09a20bac154d658a9aae91f7539202606941,2022-10-07,1665118793,88c61a55eb,Add continuous integration workflows. [nmoinvaz],0,0,,False
+8cca42c33fcb31310ee33b1ec95cd58189dee007,2022-10-09,1665355235,88c61a55eb,Remove bypass of MinGW gcc case in configure.,0,0,,False
+013c0ca0f4a0601c21705405d6493129444ce64c,2022-10-09,1665359749,88c61a55eb,Search for system name in CHOST instead of trying to extract it.,0,0,,False
+19f8551627d2a89b910d961fc9c7f626f3af7b21,2022-10-10,1665361970,88c61a55eb,Don't try to include unistd.h on Windows with LLVM.,10,3,zconf.h,False
+d30b763dac1d49685a6082206ffc120163ef649a,2022-10-10,1665369872,88c61a55eb,Remove vestigial line from configure.,0,0,,False
+e61ff990c0a97aa17e76e7e388e6fc525da5300b,2022-10-10,1665375999,88c61a55eb,Comment out unused code in contrib/minizip/minizip.c.,0,0,,False
+2bb4961990e96ecab1ac6ae3566be42a5278b1a6,2022-10-10,1665388898,88c61a55eb,Avoid C89 warning in contrib/minizip/crypt.h.,0,0,,False
+40c5a9bc06c5b0746aab270971c8cc546e3d5fc7,2022-10-10,1665394773,88c61a55eb,Find other BSD's without *64 functions in contrib/minizip/ioapi.h.,0,0,,False
+29fd715fd0bdaffee21e2d2d37be8c5a6ac67ee4,2022-10-10,1665423022,88c61a55eb,Turn off RWX segment warnings on sparc systems.,0,0,,False
+0091cb02819dfd0bd83329831b68e4280ccbc5a4,2022-10-10,1665424849,88c61a55eb,Fix linking on AIX with gcc.,0,0,,True
+723abd54d897d899c0a2d8c249251c13511d5bd5,2022-10-10,1665425472,88c61a55eb,Minor formatting changes in configure.,0,0,,False
+462986f38e14ff8d9715500d37c5f6400420bb5c,2022-10-12,1665544908,67e809a692,CI: Make in-source builds default so we can upload failure logs.,0,0,,False
+d4fb7dd805c964844d45befed65e3ae086d20166,2022-10-12,1665544910,67e809a692,CI: Add instances for S390X using QEMU in configure workflow.,0,0,,False
+594e8e8f62f1db357c45613fb82d16fb572d5ec6,2022-10-12,1665544910,67e809a692,CI: Upload build errors on failure.,0,0,,False
+e029de6080b24c4a10838cc0c5742d4c488429fa,2022-10-12,1665544910,67e809a692,CI: Run infcover during test runs.,0,0,,False
+da6f1623c177c5ebfa2b1ee3b50eb297da5a77e1,2022-10-12,1665544910,67e809a692,CI: Run test applications against QEMU.,0,0,,False
+f5ceeb964d9d72b2bfabc031d6243e3c5ba4e5e0,2022-10-12,1665544910,67e809a692,CI: Add instances for PPC using QEMU in configure workflow.,0,0,,False
+76f3536af80b654a6353a706ada652ae7719c8c2,2022-10-12,1665544910,67e809a692,CI: Add instance for GCC -O3 on Ubuntu in cmake workflow.,0,0,,False
+b85c172e1d3d10dfe911dd2686d4da715070cada,2022-10-12,1665544910,67e809a692,CI: Add instances for ARM using QEMU in configure workflow.,0,0,,False
+2a9cb5ae6eb7eccf5e24bd9beb3d89a017a5ac12,2022-10-12,1665544910,67e809a692,CI: Add instance for Clang on macOS in configure workflow.,0,0,,False
+aefaf43b28da2fb7ebcd01db3613c29f030c6e65,2022-10-12,1665544910,67e809a692,CI: Add instance for GCC on Windows.,0,0,,False
+04f42ceca40f73e2978b50e93806c2a18c1281fc,2022-10-13,1665637615,88c61a55eb,zlib 1.2.13,8,8,deflate.c;inftrees.c;zlib.h,False
+41fda48fc264ed0cfe612f64a462bacac09f735e,2022-10-15,1665849741,29328b216c,Change version number on develop branch to 1.2.13.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+76820e4107f534231f1302351a7ea479e86d1dd4,2022-11-08,1667937340,29328b216c,Update broken article link in README.,0,0,,False
+e554695638228b846d49657f31eeff0ca4680e8a,2022-12-15,1671124531,29328b216c,Fix bug in deflateBound() for level 0 and memLevel 9.,2,1,deflate.c,True
+02a6049eb3884c430268bb0fe3296d597a03174c,2022-12-27,1672126680,29328b216c,Fix crash when gzsetparams() attempted for transparent write.,1,1,gzwrite.c,True
+a9b4c1de37bb1962048a6a83658479c3902ca9f8,2023-01-25,1674621799,29328b216c,"Update zlib_how.html to match the web page, and add a license.",0,0,,False
+fa8cd50ada68b873c754766bc73b12080b7b309e,2023-01-26,1674709252,29328b216c,Make z_size_t 64 bits when compiling on Windows with Z_SOLO.,5,1,zconf.h,False
+12b345c4309b37ab905e7e702021c1c2d2c095cc,2023-02-17,1676621192,29328b216c,Assure that inflatePrime() can't shift a 32-bit integer by 32 bits.,2,0,inflate.c,False
+eb0e038b297f2c9877ed8b3515c6718a4b65d485,2023-02-19,1676782419,29328b216c,Rewrite of zran in examples. See version history in zran.c.,0,0,,False
+7e6dc429af8e430e3ae5e748fb34dd61128c5546,2023-04-13,1681425692,29328b216c,Add a NOPRIME #define to zran.c to not use inflatePrime().,0,0,,False
+5799c14c8526bf1aaa130c021982f831d155b46d,2023-04-14,1681441792,29328b216c,Turn off C2X warning about deprecated K&R function syntax.,0,0,,False
+e9d5486e6635141f589e110fd789648aa08e9544,2023-04-16,1681618651,29328b216c,Remove K&R function definitions from zlib.,861,1445,adler32.c;compress.c;crc32.c;deflate.c;deflate.h;gzclose.c;gzguts.h;gzlib.c;gzread.c;gzwrite.c;infback.c;inffast.c;inffast.h;inflate.c;inftrees.c;inftrees.h;trees.c;uncompr.c;zlib.h;zutil.c;zutil.h,False
+c4aa356742e03af6670c043905cd2c96f515ad72,2023-04-16,1681618732,29328b216c,Remove K&R function definitions from infback9.,0,0,,False
+bf2578be2d0566dc3ee47655d56b62063fe6bae6,2023-04-16,1681624597,29328b216c,Remove K&R function definitions from contrib/minizip.,0,0,,False
+66588683b36042154ad35140bf9fcbb60c5d573c,2023-04-16,1681624603,29328b216c,Remove use of OF() from contrib/untgz and render it compilable.,0,0,,False
+9b962a45dd361cbebcac723de9b295e770925a94,2023-04-17,1681767317,29328b216c,No include file is needed for __int64 type on Windows.,1,1,zconf.h,False
+05527a1b1ef39014b44281fbbbec5deabb4be106,2023-04-17,1681767340,29328b216c,Fix cast in minizip's ioapi.c for Windows.,0,0,,True
+3365464851a972fe8ad217b93e80c7cd185a8179,2023-04-18,1681788118,29328b216c,Fix warnings on test/infcover.c.,0,0,,True
+b8a8373ec195c8d286fe7e81e78b4a6d31bd859f,2023-04-18,1681801724,29328b216c,Fix test/example.c to work with FORCE_STORED.,0,0,,True
+904016e851006a40a6b48d4866b5f4ffc4611aed,2023-05-01,1682974954,29328b216c,Update Java and Perl links in README.,0,0,,False
+48c3741002aca9dae84e9f2288ca149af14c9128,2023-05-01,1682975203,82eca203ff,"Remove duplicate ""the"" in zlib.h.",1,1,zlib.h,False
+263a9828669594d235dc65a8b61748be5bbacf2b,2023-05-17,1684294139,29328b216c,Correct comment in zlib.h on os setting in gzip header.,3,2,zlib.h,False
+a88f727dbe9366ffdb63a13fc2c5f122f486cd61,2023-07-10,1689013670,29328b216c,Document in zlib.h the initialization of stream fields by the Init and Reset functions.,5,3,zlib.h,False
+a566e156b3fa07b566ddbf6801b517a9dba04fa3,2023-07-30,1690693989,29328b216c,Avoid compiler complaints if _TIME_BITS defined when building zlib.,2,3,gzguts.h,False
+f209ca7be7981dc8fca79428706057e4ebc929ee,2023-07-30,1690697625,29b228188c,minizip: Fix being unable to open empty zip file,0,0,,True
+7b28ecc89d7c29f3e72f0b5dc6303d6f65a35979,2023-07-30,1690698012,c59da5d6a5,Remove duplicated code #806,0,0,,False
+e0bd0ad6e4d8afd2bc3d55d84d459a0e2c0e2890,2023-07-30,1690698866,29328b216c,Fix reading disk number start on zip64 files in minizip.,0,0,,True
+379bbda363d1925bdaf50195e74052ead801490c,2023-07-30,1690699465,c326dcd6de,Fix typos found by codespell in minizip,0,0,,False
+3061e5013c2569974fd7d830f2776b38da4e2691,2023-07-30,1690699882,29328b216c,Fix logic error in minizip argument processing.,0,0,,True
+dcd0d86b9e745ea79d74ba6fcd81f807b89e2f95,2023-07-30,1690700148,29328b216c,Match sign of printf directive to sign of argument in minizip.,0,0,,False
+b3f23f7fb7b00592af90f8b2d3c041bf0321dc52,2023-07-30,1690700291,29328b216c,Match sign of printf directive to sign of argument in testzlib.,0,0,,False
+f679a939d3db557fec0304602a179f0ac78e5afa,2023-08-03,1691085759,565e326b5a,Correct dummy filetime() prototype in minizip.c.,0,0,,False
+aa154e3da0d98629bbefe79cdfba8bc7178dc4ad,2023-08-03,1691086627,c59da5d6a5,Support Haiku in minizip.,0,0,,False
+be7aa11551e86c9ac77ee1bff48300e59ba1e3c4,2023-08-03,1691088214,4bfe976e50,Read multiple bytes instead of byte-by-byte in minizip unzip.c.,0,0,,False
+2bcc74873527f2ad9d3079ba6eff15c0eadc8910,2023-08-03,1691091521,29328b216c,Add minizip testing to Makefile.,0,0,,False
+c7ddcc2e0e8bb397ad720564228b538135ec11d8,2023-08-03,1691096004,c326dcd6de,Fix some spelling errors.,2,2,crc32.c,False
+7dd6aa72455ef1f2aacdc28a00d1eaf632d59593,2023-08-11,1691776743,29328b216c,Fix bug when gzungetc() is used immediately after gzopen().,4,0,gzread.c,True
+1411ccafc0f50997b56135c3ee542fdfe9d7f34c,2023-08-12,1691863426,29328b216c,Add memory sanitizer to configure (--memory).,0,0,,False
+981ee7570ad98a3cf1ae74d737e2ee619ed79171,2023-08-12,1691871321,969d9bb977,Suppress MSAN detections in deflate's slide_hash().,5,0,deflate.c,False
+c97a8f1e6771a7c7202c40fb5127e914866cd7ed,2023-08-14,1691972824,c326dcd6de,Replace gcc-9 with gcc-11 for macOS testing.,0,0,,False
+384e50eea4ac68dda7366f5999f444e9751a511c,2023-08-14,1691973816,29328b216c,Remove TRYFREE macro from minizip.,0,0,,False
+89ef46ba0983a91c62e595a2923877f5c22e4db0,2023-08-14,1691974007,29328b216c,Remove redundant includes in minizip.,0,0,,False
+6951bc609b5f70d07b752e33c340da334a30df3a,2023-08-14,1692026242,c326dcd6de,Fix typos in contrib/ada.,0,0,,False
+d98251478246c8ef2f405d76e4ef1678c14d7eda,2023-08-15,1692057714,29328b216c,Fix bug when using gzflush() with a very small buffer.,2,2,gzlib.c,True
+d524e2a818635d4a0402eb6e686f3b1e49fe8cc5,2023-08-17,1692308513,29328b216c,"zlib now uses ANSI C function prototypes, so zlib2ansi not needed.",0,0,,False
+efc9c7b80140c89581da68681496863bf520633a,2023-08-18,1692317412,911313aba3,Add license to contrib/untgz.,0,0,,False
+5f52b25059e0b2c61ccda7fd05f5fa86f8005716,2023-08-18,1692317429,29328b216c,Move load flags before object file in Makefile.in for Z/OS.,0,0,,False
+9889e988689cd9fcc08e45010fff9548aae3dbff,2023-08-18,1692317471,673b2874f9,Avoid cmake deprecation warning.,0,0,,False
+22fc20898be541409008a06b784a12ab00b8b770,2023-08-18,1692317471,29328b216c,Clarify requirement in zlib.h to avoid multiple flush markers.,2,2,zlib.h,False
+daf27aed082a505e787236c308f3c7fff9926592,2023-08-18,1692317572,4982d2b834,Look for a cross-compile libtool first in configure.,0,0,,False
+f5ae600cc702553d8bc2f72828229a10e96cdba1,2023-08-18,1692318851,29328b216c,Revert flipping of load flags in Makefile.in for z/OS.,0,0,,False
+e13289e307524894164d40581f24860f35562485,2023-08-18,1692319256,29328b216c,Fix typo in preceding reversion commit.,0,0,,False
+25bbd7f5a6a172b83b59fab7a80c55d1533dd100,2023-08-18,1692336943,29328b216c,Avoid uninitialized and unused warnings in contrib/minizip.,0,0,,False
+899ffefb19b66ac98f5c737c572de56834fc9a9d,2023-08-18,1692341544,29328b216c,Use original make and options when Makefile runs make.,0,0,,False
+09155eaa2f9270dc4ed1fa13e2b4b2613e6e4851,2023-08-18,1692348336,29328b216c,zlib 1.3,12,12,deflate.c;inftrees.c;zlib.h,False
+3a98b57e5543a58c61c51a060dea5b1bbfc14aac,2023-08-18,1692390187,29328b216c,Change version number on develop branch to 1.3.0.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+5dc7681ff1f78536386fb4fc7bd0edc7a83c9406,2023-08-18,1692399666,29328b216c,Fix version numbering for Darwin shared library.,0,0,,False
+0f68a0d89d8dd4edb444cc1a4219a44c17524820,2023-08-18,1692400653,29328b216c,Limit the length of Darwin shared library version number.,0,0,,False
+4c5a81c2ae5c96fc5f3f7d4baf5aedee062f6f09,2023-08-19,1692467016,29328b216c,Remove carriage returns from contrib/vstudio/readme.txt.,0,0,,False
+d7de5971f45f13570b326e613c9e61406747bf69,2023-08-19,1692467690,e7dc9bec3a,Add VS2022 project files.,0,0,,False
+4a47c1bf3d8c5285fa6e7da9c7626f36f2562b93,2023-08-19,1692467846,e7dc9bec3a,Add project and solution files for building a nuget package.,0,0,,False
+726e18943df8c3bd75e6fa91f2ff24ba956a4f95,2023-08-19,1692468459,29328b216c,Remove Windows ARM and ARM64 builds from cmake workflow.,0,0,,False
+73331a6a0481067628f065ffe87bb1d8f787d10c,2023-08-19,1692471372,968a1522f5,Reject overflows of zip header fields in minizip.,0,0,,False
+60bfe641af39c14724772363af6102a586ce8fd3,2023-08-19,1692472380,29328b216c,Rename contrib/vstudio/vc143 to vc17.,0,0,,False
+7192d692bee09cfde6dcde2bf6d8842060d75b49,2023-08-20,1692490055,29328b216c,Update vc directory in contrib/nuget.,0,0,,False
+8988e03256e9c80766ac6899e86c3bc57c347efc,2023-08-20,1692490392,29328b216c,Update version numbers and year in contrib/vstudio/vc17.,0,0,,False
+79a0e447a0dfa32979420cb21cfb96d684b2c9d5,2023-08-20,1692512249,29328b216c,Update version and date in contrib/nuget.,0,0,,False
+88e50f170525c0a6237ca5ed4db0c620af366fe7,2023-08-20,1692556683,015f178d5f,Update miniunz version.,0,0,,False
+5af7cef45eeef86ddf6ab00b4e363c1eecaf47b6,2023-08-24,1692857663,29328b216c,Fix bug in inflateSync() for data held in bit buffer.,1,1,inflate.c,True
+bd9c329c1055a9265812352655ed2eec93f36e92,2023-09-04,1693803007,0242be49dc,Make internal functions static in the test code.,0,0,,False
+ac8f12c97d1afd9bafa9c710f827d40a407d3266,2023-09-21,1695280496,29328b216c,Add LIT_MEM define to use more memory for a small deflate speedup.,67,3,deflate.c;deflate.h;trees.c,False
+15c45adb76e81a7e3a8a9e17b2a56eb90f668f44,2023-11-07,1699400801,29328b216c,Fix decision on the emission of Zip64 end records in minizip.,0,0,,True
+643e17b7498d12ab8d15565662880579692f769d,2023-11-15,1700016272,791b99ec68,Correct repeated words in source file comments and a readme.,6,6,inftrees.h;zlib.h,False
+431a9b65eacab7efabf2230ba97ff426c0e07f9d,2024-01-14,1705213798,29328b216c,"Add bounds checking to ERR_MSG() macro, used by zError().",1,1,zutil.h,False
+4bd9a71f3539b5ce47f0c67ab5e01f3196dc8ef9,2024-01-14,1705213830,29328b216c,Remove fdopen #defines in zutil.h.,1,22,zutil.h,False
+ee474ff2d11715485a87b123edbdd615ba218b88,2024-01-14,1705213830,968a1522f5,Fix pending buffer overflow assert with LIT_MEM allocation.,1,1,trees.c,True
+60c31985ecdc2b40873564867e1ad2aef0b88697,2024-01-14,1705213830,968a1522f5,Fix the copy of pending_buf in deflateCopy() for the LIT_MEM case.,5,7,deflate.c;deflate.h,True
+36e369e1a54b35a978dc584496af69a07ec2d71a,2024-01-14,1705213830,29328b216c,Note that the len2 argument of crc_combine*() must be non-negative.,2,2,zlib.h,False
+762cf49e6368af44dface31e809e69bd4ef7808f,2024-01-17,1705524374,5a1e03301b,Refer to correct function in contrib/minizip/unzip.c comment.,0,0,,False
+190168cc1ce9c03c0a4ee296ef13c6d607ced027,2024-01-17,1705524507,5a1e03301b,Correct case of MSDOS in contrib/minizip/miniunz.c.,0,0,,False
+16799d064b55a6b093fc52364f3343a1b1fa3b2f,2024-01-17,1705524721,5a1e03301b,"Fix ""the the"" in examples/gzlog.c.",0,0,,True
+01155ccc3f822a31291a64e4ecd5f1dbb8a8ee63,2024-01-17,1705528151,5f86d9b87d,Fix random typos over several source and text files.,0,0,,False
+44dc43ab047d65febed972a17b0e3bf7e994e8f2,2024-01-17,1705532154,015f178d5f,Add a CMake option to link the C runtime statically.,0,0,,False
+14a5f8f266c16c87ab6c086fc52b770b27701e01,2024-01-17,1705532888,001dd97649,Neutralize zip file traversal attacks in miniunz.,0,0,,False
+6201f893846bfd22faf060e84a3bb7bfc0e61761,2024-01-17,1705534441,01fc0c69ed,Add cmake option to control the build of the example executables.,0,0,,False
+01253ecd7e0a01d311670f2d03c61b82fc12d338,2024-01-18,1705536434,bd9c1e91cd,Make the existence of gz_intmax() unconditional.,6,10,gzguts.h;gzlib.c,False
+fe41d1892117fa81bd49f69b1c87d805635b853c,2024-01-18,1705538618,c326dcd6de,Correct typos in source code.,0,0,,False
+25263462377fa5c569947a40315815bd59e37f4b,2024-01-18,1705540743,29328b216c,Remove mentions of an official zlib DLL distribution.,0,0,,False
+ade6825c4996f73d776b0ffa038360762bd318ae,2024-01-18,1705542739,cdbf5d69db,Fix cmake build on AIX.,0,0,,True
+3f635df97edbb85f55f8e991e5f00d94f4132a14,2024-01-18,1705544432,29328b216c,Remove unused Z_ARG macro.,0,8,zconf.h,False
+7b632b486a591aa28d3d98d0ed8aa2235ee34643,2024-01-19,1705687842,29328b216c,"Revert ""Add a CMake option to link the C runtime statically.""",0,0,,False
+7af6320ad78b390de42f414fabdc64dc6d67a5ea,2024-01-19,1705695593,29328b216c,Fix a bug in ZLIB_DEBUG compiles in check_match().,14,6,deflate.c,True
+84f0bafd7cd76ef3787b8612ea79ba77c489d7bd,2024-01-19,1705706777,29328b216c,Remove carriage returns from zlib.map.,0,0,,False
+9404df5a1f35866d441e8033b34186ca42962ea9,2024-01-20,1705709771,0e06831e08,Use updated zconf.h when building out of directory with configure.,0,0,,False
+88ec24670e9c484219392def5f2f4b5e3f839db3,2024-01-21,1705804171,29328b216c,Remove -w compile option in configure test.,0,0,,False
+c06dfecb8a0c996dce87148b9086f0fe79734f32,2024-01-21,1705857944,29328b216c,Use Makefile compiler for minizip-test target.,0,0,,False
+2e3d86c4e12c4c23db4229eea7d0c1cd4571273e,2024-01-22,1705931001,76367d617b,Add target include directories to CMakeLists.txt.,0,0,,False
+1a8db63788c34a50e39e273d39b7e1033208aea2,2024-01-22,1705931661,29328b216c,Move the load flags before the object files in Makefile tests.,0,0,,False
+51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf,2024-01-22,1705948357,29328b216c,zlib 1.3.1,17,17,deflate.c;deflate.h;gzguts.h;gzlib.c;inftrees.c;trees.c;zconf.h;zlib.h;zutil.h,False
+9f0f2d4f9f1f28be7e16d8bf3b4e9d4ada70aa9f,2024-01-22,1705957661,29328b216c,Change version number on develop branch to 1.3.1.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+4de0b054a58bfee6974afabd831538dcedc23e22,2024-01-23,1706020069,f681ac1c29,Improve portability to RISC OS.,1,1,zutil.h,False
+da5937705d1656148b18348e57186aa0592a907d,2024-01-23,1706025758,29328b216c,Permit compiling contrib/minizip/unzip.c with decryption.,0,0,,False
+d4eaa1d939f59822ba3ab0b56a547a8fcde33f7e,2024-01-23,1706026764,29328b216c,Avoid unterminated file name in contrib/minizip/miniunz.c.,0,0,,False
+df3b26506453866c608bc0155293716a17a351b9,2024-01-23,1706027964,5f7bf1c31c,Add option to CMakeLists.txt to disable renaming of zconf.h.,0,0,,False
+8a76f02e0e05860f72a269d305a0e11af224f609,2024-01-23,1706028300,7f6357de4f,Avoid implicit conversion warnings in deflate.c and trees.c.,5,5,deflate.c;trees.c,False
+b289a50fc5cdbe28a7c058754287650b4ef3c02b,2024-01-23,1706036381,29328b216c,Ignore unknown options in configure.,0,0,,False
+f56ad0aafa868303ce324ae8d45675570c66b050,2024-01-23,1706040026,29328b216c,Note termination of returned strings in contrib/minizip/unzip.h.,0,0,,False
+04ca30003fd7826cd91a81c33d040e4a24a0f150,2024-01-24,1706062865,068b1a672d,Enable build of shared library on AIX.,0,0,,False
+31d3dd43066d4901e5ac88ada5438a3ce736e3e6,2024-01-24,1706136369,29328b216c,Update copyright years in LICENSE file.,0,0,,False
+b14484997a50c01b8d78f9db32516423573fc083,2024-01-28,1706475251,29328b216c,Fix version numbers in vstudio definition files.,0,0,,False
+f1f503da85d52e56aae11557b4d79a42bcaa2b86,2024-01-29,1706507426,29328b216c,Fix cmake build directory interference issue.,0,0,,True
+be4db0a79add326bf06ff46b550f564288749f90,2024-02-05,1707101310,29328b216c,Set returned index to NULL on an index build error in zran.c.,0,0,,False
+bb054d95d0336f8d36c85c5f1d8a98f935a3c131,2024-02-05,1707101380,29328b216c,Stop decoding in zran.c once request is satisfied.,0,0,,False
+6378d33478ea2d068960aa4e68cf9f11a5ffcfbe,2024-02-05,1707101380,29328b216c,Provide a reusable inflate engine in the index in example/zran.c.,0,0,,False
+037bca67fdf3a81996aea3662521c676f653dfc6,2024-02-05,1707101474,29328b216c,Allocate the dictionaries in examples/zran.c.,0,0,,False
+abd3d1a28930f89375d4b41408b39f6c1be157b2,2024-02-05,1707101491,29328b216c,Update zran version.,0,0,,False
+4b98fd39c817eb80f5951896a71b0c21f8161eab,2024-02-06,1707205891,82eca203ff,Enable fileno() for POSIX system in minigzip.c.,0,0,,False
+1382e661143edb8d132fc63caabaf40f8a42df9b,2024-02-07,1707272844,29328b216c,"Use _POSIX_C_SOURCE in gzguts.h, instead of _POSIX_SOURCE.",2,2,gzguts.h,False
+915a3d5b7be87a66bc3c3e1652c596658962e6a1,2024-02-07,1707272851,29328b216c,Avoid use of snprintf() in test/minigzip.c.,0,0,,False
+e342bb3daef3f6d89dd1d39a3059355db5a64c49,2024-02-07,1707272864,29328b216c,Assume no snprintf() or vsnprintf() if C89/90 in gzguts.h.,14,19,gzguts.h,False
+96d3e9e3dde39aaab732089495400ba59e30ad5f,2024-02-07,1707331735,29328b216c,Expand on the deflate strategy parameter in zlib.h.,15,12,zlib.h,False
+81e7c386082ccff6a6f9ba78013a79cf8e1657d2,2024-02-07,1707345537,29328b216c,Correct printf formats in test/infcover.c to %zu.,0,0,,False
+504403f3e468bca2dc85c055d96ad392e9c7aae0,2024-02-07,1707348951,0ab6c57c0d,Fix broken links.,0,0,,True
+985a62d11802b44d1d1049ddd692038923da6f0b,2024-02-09,1707446749,29328b216c,Address Microsoft deprecation warnings.,17,9,gzguts.h;gzlib.c,False
+25740f4ad5e1a0cb187ce5921f6c21f3ad8db14b,2024-02-09,1707496027,29328b216c,Include share.h on Windows for _SH_DENYNO.,1,0,gzguts.h,False
+76156087c8c4cf77a5857ecabc9197154c6f97c8,2024-02-09,1707499391,29328b216c,Update github actions versions.,0,0,,False
+3c13497a61c192dd255c280e73b806ed27ba8a0a,2024-02-09,1707500034,29328b216c,One more github actions version update.,0,0,,False
+7a7202de3568522dfc75a455927ccbd7faf63411,2024-02-10,1707538278,29328b216c,Correct a variable type in deflate.c.,2,1,deflate.c,False
+1bff6f0fd500ab2556b235adebe8a376b0cd85a1,2024-02-10,1707538299,29328b216c,Avoid signedness change warning in test/minigzip.c.,0,0,,False
+ceac32f156c4d39bf991e1163223b8d910a258d3,2024-02-10,1707538299,29328b216c,Keep lines short in gzread.c.,2,1,gzread.c,False
+fd5fe8b17e27ab92dcc70ed4974915b8dbe2a553,2024-02-10,1707538314,29328b216c,Further address Microsoft deprecation warnings.,18,21,gzguts.h;gzlib.c,False
+d9243a0f066fd0ad6e7597be620ab8d8bfe5ae72,2024-02-10,1707586075,7dfb09ff78,Add warnings and error on warning to configure and cmake tests.,0,0,,False
+0e958393245ecd1e5639fbe4376c1bf1467ad616,2024-02-10,1707590003,7dfb09ff78,Add github workflow to build with all available C standards.,0,0,,False
+c983609168d899e7ad29cd1878abac8c9282c6ac,2024-02-11,1707624375,29328b216c,Include unistd.h on DJGPP.,2,6,zconf.h,False
+04134633fa6f8a9ac87ffd4b2683ca61bd41acd6,2024-02-11,1707694666,29328b216c,Use 64-bit offsets in DJGPP.,5,5,zconf.h,False
+5c42a230b7b468dff011f444161c0145b5efae59,2024-02-11,1707694928,29328b216c,Correct argument types for 64-bit combine functions.,7,8,zlib.h;zutil.h,False
+35175f2c0e7c27ec6af6c1dc2c4d7ed83942467d,2024-02-12,1707726795,29328b216c,Remove conversion warning from msdos/Makefile.dj2.,0,0,,False
+6544c3ecb7d38914fa31f84fc2a3fdeb11d6ce2d,2024-02-13,1707840040,29328b216c,Use lseek under WinCE.,2,4,gzlib.c,False
+72d6aa2672c91d10f8f58ee796ed8d44325faca4,2024-02-29,1709174814,29328b216c,Reduce Windows header inclusion to speed up compilation.,10,5,gzguts.h,False
+a8c321be84c6669256a2b6f1a3ff1e3eebc28594,2024-03-10,1710057217,29328b216c,Make deflateBound() more conservative and handle Z_STREAM_END.,4,4,deflate.c,False
+54e205f8780b91f8c28865ff4d2bb1c9fda79e48,2024-03-10,1710057224,29328b216c,Permit changing minizip Makefile optimization with CFLAGS.,0,0,,False
+4a5e3e7d255f3f8eba9ecdb8bd8080db43bf0aeb,2024-03-10,1710059843,29328b216c,Add zipAlreadyThere() to minizip zip.c to help avoid duplicates.,0,0,,False
+f60ce91139b52f8cc19714137a02b6cbd16fa07c,2024-03-11,1710138070,29328b216c,Improve random number seeding in skipset.h.,0,0,,False
+99b229487c2997b4b22eaef90fedfbff4d8826cc,2024-03-12,1710276057,29328b216c,Avoid signed shift in minizip zip.c.,0,0,,False
+9f418e1028d98cd4782fd3a2b883eaaf1a09cae5,2024-03-16,1710550160,29328b216c,Update old comment in inflate.h.,1,1,inflate.h,False
+f02ea29e5f5f1b14e71dfdf44bf39ee969ca9bde,2024-03-16,1710613130,8b503732ee,Improve detection of UNIX-style systems in minizip.,0,0,,False
+90c677bc25f7ebf8be95ab0b4fe752c095417600,2024-03-23,1711171741,29328b216c,Use long long offsets for MinGW.,2,0,zconf.h,False
+d201f04c72b0881220f5ba75ca19fd0e19fa848b,2024-03-23,1711172856,29328b216c,Avoid conversion warning on 32-bit architectures in minizip.,0,0,,False
+0f51fb4933fc9ce18199cb2554dacea8033e7fd3,2024-03-29,1711740037,29328b216c,Avert minizip warnings for MSVC.,0,0,,False
+4f8a17e8cbf5856d8a27e112ed41a110f54129dd,2024-03-30,1711762576,d686cb8c80,Add -fPIC to compiler options for static library build on Android.,0,0,,False
+c5e87dcdef72abfb599579bb1b8176948be979c9,2024-03-31,1711928083,29328b216c,Make z_off_t 64 bits by default.,1,1,zconf.h,False
+2ba25b2ddab9aa939c321d087fcfca573a9cca55,2024-04-01,1711997345,da99fca614,Use z_const for setting msg to literal strings.,37,37,infback.c;inffast.c;inflate.c,False
+1b70083bed43663901b3901a44f5537ba8b16ba0,2024-04-30,1714439657,f432c39413,Replace autotools macro AC_HELP_STRING with AS_HELP_STRING.,0,0,,False
+0f3b7b9595cc7d85c3b13282e71fcecef7f18f9c,2024-05-17,1715911620,29328b216c,Correct typo in zlib.h comment.,5,5,zlib.h,False
+7e6f0784cc0c33e8d5fcb368248168c6656f73c8,2024-06-04,1717518961,29328b216c,Remedy conflict between libzip and minizip zip.h.,0,0,,False
+534864bccd78812648ad1beaccdeec7c9d47aeef,2024-06-29,1719633818,ec1cff603f,Add build folder to .gitignore.,0,0,,False
+e011d8c164402cbb1baf92533dfb4f933ec08fee,2024-07-02,1719880480,29328b216c,Add deflateUsed() function to get the used bits in the last byte.,26,0,deflate.c;deflate.h;trees.c;zconf.h;zlib.h,False
+884e0c0809e4cc5e88d6545d1c49de7946c1b1ca,2024-07-05,1720158536,29328b216c,Correct used bits from deflateUsed() for deflate_stored() case.,3,1,deflate.c,False
+3adaa095a7a6c3f2cc00f73311f9bc8688c21aa7,2024-07-06,1720238699,29328b216c,One more correction for deflateUsed() bits in stored case.,2,0,deflate.c,False
+ceadaf28dfa48dbf238a0ddb884d4c543b4170e8,2024-07-11,1720714967,29328b216c,Fix test/infcover.c function prototype when ZLIB_CONST defined.,0,0,,True
+3f44e55d5d3a3c094861b3d00f0e136fa1956be9,2024-07-29,1722238636,c65d1e5f7d,Add required gzguts.h dependencies in Makefile.in.,0,0,,False
+164b8e3c9f02e2680dfad35f8c0778f8f2ce3096,2024-07-29,1722288650,29328b216c,Avoid use of uintmax_t in enough.c.,0,0,,False
+be24a8f4ca8ae9870c1af4bd5a59375bb36c49fc,2024-08-01,1722490367,29328b216c,Avoid use of stdint.h in contrib/minizip.,0,0,,False
+4cacc3562b5f24832a78a060e64d54fd54ceba1f,2024-08-01,1722490376,29328b216c,Add header file dependencies to contrib/minizip/Makefile.,0,0,,False
+545f1949635949159fa6282e81712aec32b5d4f1,2024-08-01,1722490392,29328b216c,Add old gcc ULONG_LONG_MAX macro to find a 64-bit type in zutil.h.,2,0,zutil.h,False
+fff132fe7c41030b45eda2883e0b092697ef1a27,2024-09-01,1725221786,29328b216c,Avoid the use of a reserved macro name in contrib/minizip/ioapi.h.,0,0,,False
+f7d01aae6ec6115184de821b93fa47810abd88f9,2024-09-01,1725221849,29328b216c,Avoid out-of-bounds pointer arithmetic in inflateCopy().,1,1,inflate.c,True
+2968a496d9e297b75bee0d0887f94005799b2d07,2024-09-01,1725221849,29328b216c,Remove unneeded dependency on limits.h in examples/zran.c.,0,0,,False
+d476828316d05d54c6fd6a068b121b30c147b5cd,2024-09-01,1725222920,29328b216c,Repair github workflows for their updated macOS runner gcc name.,0,0,,False
+64191119d810730c0da919836208486f571e4940,2024-10-07,1728311291,bfdd4c57f0,Add Haiku to configure for proper LDSHARED settings.,0,0,,False
+6d3a66a11a9d98c80d5b6a36d489263a389c6b90,2024-10-14,1728866435,d5aaf83c21,Avoid attempting to redefine z_const in zconf.h.,6,4,zconf.h,False
+ef24c4c7502169f016dcd2a26923dbaf3216748c,2024-11-09,1731123454,29328b216c,Reject invalid MAX_WBITS values at compile time.,3,1,zutil.h,False
+71045aef60fc8d808ce31993224eb49156c4698a,2024-12-31,1735613553,29328b216c,Fix indent in infback.c.,1,1,infback.c,True
+2359cd3d601a15ddafe7137a49651069c95a13c3,2025-01-22,1737520175,923c940c40,Add Bazel targets.,0,0,,False
+b3907c2cd99908259c71fab6754f88e25d370fed,2025-01-31,1738338103,79cf00631f,CMake: Add options for shared and static build.,0,0,,False
+76c6a8601cc1267a7198c5b6ecc6cfa207825e5b,2025-01-31,1738338104,79cf00631f,CMake: Set version in project call.,0,0,,False
+6628a10f148d973a713b5fac63006a06aef1af27,2025-01-31,1738338104,79cf00631f,CMake: Move versionscript block to zlib definition.,0,0,,False
+74247f0947e4156551f0ba66ef0993c8147750a5,2025-01-31,1738338104,79cf00631f,CMake: Install libs with static and debug suffix.,0,0,,False
+ae5946e5d8accf8b0b101e7b77477a958d0b7185,2025-01-31,1738338104,79cf00631f,CMake: Add pdb install.,0,0,,False
+7f849d109fcf2a8fdcf3cb62ff17c98b17585627,2025-01-31,1738338104,79cf00631f,CMake: Bump minimum version.,0,0,,False
+ee00230f8e8e75e4175cc8f30c9686245a686d5c,2025-01-31,1738338104,79cf00631f,CMake: Switch to GNUInstallDirs.,0,0,,False
+676246752388ad183594765a49f6b159c2a53db2,2025-02-01,1738382320,79cf00631f,CMake: Rename examples and tests to avoid chain building confusion.,0,0,,False
+c7e9d282e7a92e881bf26972c7c167428dabf453,2025-02-01,1738382350,79cf00631f,CMake: Do just one build with -Werror in workflow.,0,0,,False
+c9467bd5f8864d67769c709193f47937aa8b0234,2025-02-01,1738382350,79cf00631f,Correct QEMU package name to qemu-system in workflow.,0,0,,False
+a5db296ace453aa82ba1ededc0d6d458650f5668,2025-02-01,1738382350,79cf00631f,CMake: Increase CMake version to 3.10 for tests.,0,0,,False
+c18815b63074960573af9598c93fa968babb52ed,2025-02-01,1738382350,79cf00631f,CMake: Simplify to one install option.,0,0,,False
+b6cb6f4c213d9a8d58f996552d2652baa5ee550d,2025-02-01,1738382350,79cf00631f,CMake: Rename examples to testing to reflect their intent.,0,0,,False
+c33f3bc641f327adb65b2c98b1cdb166c9860e9d,2025-02-01,1738382350,79cf00631f,CMake: Move version setting for Cygwin into set_target_properties.,0,0,,False
+48b9ee48caddc4ddfa3f5b9ebad3a8610df8d5be,2025-02-01,1738382350,79cf00631f,CMake: Use CMAKE_DEBUG_POSTFIX for simplification.,0,0,,False
+633ec876779b32f777e33574b65e41d2bbdec72f,2025-02-01,1738382350,79cf00631f,CMake: Add zlib1.rc to Cygwin build.,0,0,,False
+f4624f3f032fefefe49e6bfd89fb7a3191abf3f9,2025-02-01,1738382350,79cf00631f,CMake: Add zlibExport.,0,0,,False
+a794225144c335a0efe5a97ef7013746613eea46,2025-02-01,1738382350,79cf00631f,CMake: Permit install to put different things in different places.,0,0,,False
+7dc2b782067d746aac2a348e411004135fb5fbda,2025-02-01,1738382350,79cf00631f,CMake: Add test for usage with find_package.,0,0,,False
+1fce5f2cdf7849c4e4116488bbb0927bf80a7f1b,2025-02-01,1738382350,79cf00631f,CMake: Add more tests.,0,0,,False
+6084c550c310caf265156ea0c33bf6febf58e313,2025-02-01,1738382350,79cf00631f,CMake: Set the platform and configuration for the tests.,0,0,,False
+1af1bb6ce4b8e8d0b5b34985bafe7a8c3dd0e173,2025-02-01,1738382350,79cf00631f,CMake: Let cmake handle zlib1.rc.,0,0,,False
+ffbbe01b6d1ca8550bf5a72a148ab02011dfa2f3,2025-02-01,1738382350,79cf00631f,CMake: Remove allowance for unclosed constructs.,0,0,,False
+64e8307d6a16e93703453e7e8024ec063a6f5665,2025-02-01,1738382350,79cf00631f,CMake: Make formatting consistent.,0,0,,False
+e0b78cea4f5e526da33eeebfaa0d06a6fcd70aee,2025-02-01,1738382350,79cf00631f,CMake: Name the shared library cygz.dll on Cygwin.,0,0,,False
+b74d77a0ddb89b244e80fc61cebe8a032146c950,2025-02-01,1738382350,79cf00631f,CMake: Install compatible DLL on MinGW.,0,0,,False
+fd00a948388c9926f6caecdb72bccbfcb0ea29e0,2025-02-01,1738382350,79cf00631f,CMake: Disable MinGW and Cygwin tests.,0,0,,False
+155d88378e76b3bf123da4301a5b82aad17d06bc,2025-02-01,1738382350,79cf00631f,CMake: Test static builds.,0,0,,False
+15ba5055a935413c087a935e428eac35066acc29,2025-02-01,1738382350,79cf00631f,CMake: Adapt pkgconfig-file to the GnuInstallDirs layout.,0,0,,False
+f0175c69e216545ff543b1f46870d1c1a27aa5f0,2025-02-01,1738382350,79cf00631f,CMake: Add INSTALL_INTERFACE for a proper export.,0,0,,False
+f7ab6e43732bc68b38ef5db5feda27105d954b5b,2025-02-01,1738382350,79cf00631f,CMake: Add aliases to match the export names.,0,0,,False
+e37a1a8345420989d20f555102d5bef4cb116b86,2025-02-01,1738382350,79cf00631f,CMake: Warn if no build-type is selected.,0,0,,False
+b5c01971c210544286323a5bf7eefb3095ed4e01,2025-02-01,1738382350,79cf00631f,CMake: Remove zconf.h.,0,544,zconf.h,False
+79d96ebdb7f75ea5ac73adca12d3f125981a1f5c,2025-02-01,1738382350,79cf00631f,CMake: Clear variable with unset.,0,0,,False
+a7c6dbf821988d356b79c71db8d658c43b0d6bbc,2025-02-01,1738382350,79cf00631f,CMake: Detect visibility attribute in MSVC.,0,0,,False
+82665659ad0fffd3a14631556141b68b9303aaa7,2025-02-01,1738382350,79cf00631f,CMake: Remove leading underscore from _LARGEFILE64_SOURCE.,0,0,,False
+cff14d5dc3963afa2328767e932edc4466a32fb1,2025-02-01,1738382350,79cf00631f,CMake: Use the full version number.,0,0,,False
+4d74e4498eae2e4f527e67c0115ff2ec46923193,2025-02-01,1738382350,79cf00631f,CMake: Add the version to the exported configuration.,0,0,,False
+01ef679251f7045f20fa45d7f0b1b662c5d91682,2025-02-01,1738382350,79cf00631f,CMake: Pass CC and CFLAGS to the tests.,0,0,,False
+494830e2dfcff18f014abc2b289d6b83ddc8c222,2025-02-01,1738382350,79cf00631f,CMake: Remove use of ZLIB_BUILD_EXAMPLES option in workflow.,0,0,,False
+1869359d44f61df55dea4893a0a7495189ac3749,2025-02-01,1738382350,79cf00631f,CMake: Split the builds of infcover and minizip in workflow.,0,0,,False
+3b613563d30d99adcb8410af36b1ffc928bc947b,2025-02-01,1738382350,79cf00631f,CMake: Prefix coverage test name with zlib.,0,0,,False
+d80817ac954487599ec10f533afcfa083e81510c,2025-02-01,1738382350,79cf00631f,CMake: Restore leading underscore in _LARGEFILE64_SOURCE.,0,0,,False
+0b9b43b45b1d3de90139e9199383432e72a96579,2025-02-01,1738382350,79cf00631f,Fix inflate coverage test in Makefile.in.,0,0,,True
+93457606bf297c3febcfa5a475ad16007542cd3f,2025-02-01,1738382350,79cf00631f,CMake: Add inflate coverage test.,0,0,,False
+3d6dc3c3aa73fc5421a7671b32d1dd251fea1edc,2025-02-01,1738382350,79cf00631f,CMake: Create zconf.h from zconf.h.in.,0,0,,False
+9e058e844334a6f9289bf6e6650ca46d4a3e2ce9,2025-02-01,1738382350,79cf00631f,CMake: Add option for ZLIB_PREFIX.,0,0,,False
+53c2727aaf0ffbc052a50c80931b40cf5eb8ee65,2025-02-01,1738382350,79cf00631f,CMake: Silence deprecation warning on the action runners.,0,0,,False
+44919160dee8de9f6bf03e1af0162be988dcd493,2025-02-01,1738382350,79cf00631f,Adjust coverage testing to the llvm gcov calling convention.,0,0,,False
+d7afcaa2be30fd2413d5f79293e5841579b56be9,2025-02-01,1738382350,79cf00631f,CMake: Shorten test names.,0,0,,False
+920385267f71cd451754f83366f8bf2df1c9eb21,2025-02-01,1738382350,79cf00631f,CMake: Fix parallel testing.,0,0,,True
+5ff476ee43fda6053ec5cc6dcf974aa3eb80d98e,2025-02-01,1738382350,79cf00631f,CMake: Add minizip.,0,0,,False
+aefb4b5b94be42ac148f2aaad36e23ca141618c0,2025-02-01,1738382350,075e8b630c,CMake: Rename exports of minizip.,0,0,,False
+5f98365bc9035ca1028b75a9bc05c58009155598,2025-02-01,1738382350,075e8b630c,CMake: Install ints.h for minizip.,0,0,,False
+dfaf27b0c82706dbee8e7258473414f4525cc8cb,2025-02-01,1738382350,075e8b630c,CMake: Change to FindZLIB and ZLIB.cmake.,0,0,,False
+99d41ee5c6acdf67e0271bcac060e31adf7c52e5,2025-02-01,1738382350,075e8b630c,CMake: Make minizip search for config.,0,0,,False
+adb40de349d1cda5a24806aa46b1c72251321f35,2025-02-01,1738382350,79cf00631f,CMake: Indicate a clear signature in add_test.,0,0,,False
+27198174ca18157eba7b4e7f2625116506284b37,2025-02-01,1738382350,79cf00631f,CMake: Correct target to minizip.,0,0,,False
+5163cb6d3bd6fa72d7be7213f786455778a5e8f7,2025-02-01,1738382350,79cf00631f,CMake: Move testing into test/CMakeLists.txt.,0,0,,False
+9ddf1b4bc56d0183c4a41868ecc8515f5fc2d897,2025-02-01,1738382350,79cf00631f,CMake: Correct build directory for second workflow run.,0,0,,False
+d3ab1df503abffbc2480d10c110e955bad803e0a,2025-02-01,1738382350,79cf00631f,CMake: Test minizip in the workflows.,0,0,,False
+feb7fd325a66d8bad361cd8e7107cecddeab1da6,2025-02-01,1738382350,79cf00631f,CMake: Remove doubled include directories.,0,0,,False
+31d2462c1df539e6bb9bedc987ba991672a1906e,2025-02-01,1738382350,79cf00631f,CMake: Move compile_definitions to the targets.,0,0,,False
+899ef97c4a2ca0d9e27d3d91437f6da5e6eea218,2025-02-01,1738382350,79cf00631f,CMake: Use the same definition we checked for off64_t.,0,0,,False
+902f6eedf31d198dcc47abb89a99f5cead9ad6f7,2025-02-01,1738382350,79cf00631f,"CMake: Remove checks for sys/types.h, stdint.h and stddef.h.",0,0,,False
+2b2eec69b52ae600441f6ffb2f545b7833caa842,2025-02-01,1738382350,79cf00631f,CMake: Remove unneeded renaming for in-tree builds and the option for it.,0,0,,False
+5a2ca3cb80ed5834ba51dc610154fe7fb1a36d54,2025-02-01,1738382501,79cf00631f,CMake: Add packaging to tests.,0,0,,False
+c99a4ae60f140ce2d60726f193a86bb50307858b,2025-02-01,1738382501,79cf00631f,CMake: Depend on bzip2 only if it's found.,0,0,,False
+09b21ebd334be6d060393032583a9055c0ee8b9e,2025-02-01,1738382501,79cf00631f,Correct one more comment style in minizip.,0,0,,False
+d82da0fd1586f6df3fa1c5751f627a12bda8d2fe,2025-02-01,1738382501,79cf00631f,CMake: Remove cmake out-of-tree test.,0,0,,False
+e677f1f1c71231ba1befb9da6ed02b6db38dedc3,2025-02-01,1738382501,79cf00631f,Disable make cover if no gcov was found.,0,0,,False
+ede311d685a536fbf4a287818b70412baa14ca76,2025-02-01,1738382501,79cf00631f,CMake: Make bzip2 optional.,0,0,,False
+0263e58ad483421b3515e8f24158981f2c5e05fc,2025-02-01,1738382501,79cf00631f,CMake: Prevent a 32-bit minizip build.,0,0,,False
+9d25fa340ef7dc35606ea3373b090e9d4e8267b9,2025-02-01,1738382501,79cf00631f,Use consistent comment style in minizip.,0,0,,False
+039c3610e5fce300b2dd5a335394677b131512b5,2025-02-01,1738382501,79cf00631f,Remove -Werror from configure workflow.,0,0,,False
+e573155946e71cd4fdfaaa3e3bd433d3cfe914b0,2025-02-01,1738382501,79cf00631f,CMake: Add CPack.,0,0,,False
+373bc1d7c564fdff67847d215eb0b6a5896c23a2,2025-02-01,1738382501,79cf00631f,CMake: Uncomment stop sign.,0,0,,False
+121e4168b911a88128581b0679e80b5b3bbe6df2,2025-02-01,1738382501,79cf00631f,CMake: Increase CMake version to 3.12 for minizip tests.,0,0,,False
+2408dedfa538b90a59066cafcbbbd6ad7c7bd632,2025-02-01,1738382501,79cf00631f,Support clang without version suffix for coverage testing.,0,0,,False
+00cbe1d6b1abf6d766bb69c622ee1fcf725d57df,2025-02-01,1738382546,79cf00631f,CMake: Disable testing on Cygwin.,0,0,,False
+e843c631d6c677bb8585c31b0b960d281cfc42bc,2025-02-01,1738382546,79cf00631f,CMake: Refine tests.,0,0,,False
+abf7487d6c3dd12dde50bd54489cfc99cef59770,2025-02-01,1738382546,79cf00631f,CMake: Add components selection.,0,0,,False
+213998f2b0dbe21b50f18c242ddb43b34e79b75f,2025-02-01,1738382546,79cf00631f,CMake: Include bzip2 in the interface.,0,0,,False
+b9cf26c056fa422d97ddd77657ca49602f6b58d2,2025-02-01,1738382546,79cf00631f,CMake: Increase CMake minimum version to 3.12.,0,0,,False
+b8ae23d4c839093b3f63fb2af85f1cc3d6562c86,2025-02-01,1738382546,79cf00631f,CMake: Disable bzip2 for tests.,0,0,,False
+63ded6faaf16bf98536003e9c8c9d485a84e50c3,2025-02-01,1738382546,79cf00631f,CMake: Install missing bzip2 in workflow.,0,0,,False
+6c2ab4ddc6e7f0bce7764a470f4917607d3fd107,2025-02-01,1738382546,79cf00631f,CMake: Do not test with bzip2 on Windows or Cygwin.,0,0,,False
+05051d236bd554a71f9f39371f8cbe19c14e30f7,2025-02-01,1738382546,79cf00631f,CMake: Install bzip2 on Cygwin in workflow.,0,0,,False
+4f2671d50cf0f8632c9f6e84b884aba5031e4016,2025-02-01,1738382546,79cf00631f,CMake: Remove unused variable.,0,0,,False
+15a3751836739a987bfd1fb73d1c2f20ef85e69b,2025-02-01,1738382546,79cf00631f,CMake: Order the includes consistently.,0,0,,False
+6925d39b5005ecc6b01e34f3b59aa79d72de900e,2025-02-01,1738382546,79cf00631f,CMake: Fix typo.,0,0,,False
+7667ca55931302d8e35c37a46851eb02191d465f,2025-02-01,1738382546,79cf00631f,CMake: Re-enable Cygwin and MSYS tests.,0,0,,False
+42a670ec200d276616e5d0bcab667c7e2c5de10d,2025-02-01,1738382546,79cf00631f,CMake: Restore lost variable.,0,0,,False
+1be9392124c2e6dbc2c0f683fafab7482bdb3d33,2025-02-01,1738382546,79cf00631f,CMake: Add a README.cmake.,0,0,,False
+c31099862f61eea5481d5c5690dd95e4bd7096be,2025-02-01,1738382546,79cf00631f,CMake: Add one more alias for llvm-cov.,0,0,,False
+33b8e6f507c5cba92ef88bb66ca886bdfda5e2f5,2025-02-01,1738382546,79cf00631f,CMake: Rename option to ZLIB_INSTALL.,0,0,,False
+d51255713b9f7438ac9ecb2d144d8253fb9f8be8,2025-02-01,1738382546,79cf00631f,CMake: Do not link to bzip2.,0,0,,False
+8fee881981d472caa96d8f3c4d75f6067dbb2944,2025-02-01,1738382546,79cf00631f,CMake: Clean up formatting.,0,0,,False
+5fd63442f92ad7a0c90d008c7daac7a726fa9e19,2025-02-01,1738382546,79cf00631f,CMake: Search for zlib by CONFIG to get all needed targets.,0,0,,False
+734f974753571310fdf6c73ba38f17362dcf71ba,2025-02-01,1738382546,79cf00631f,CMake: Re-enable Cygwin tests without Ninja.,0,0,,False
+8b8a124eb42b027dceab01c7d4942a18c756d28e,2025-02-01,1738382546,79cf00631f,CMake: Add cmake-format.yaml and reformat the cmake files.,0,0,,False
+10a12ec427cca2b701648f6722a8875f6e67dd01,2025-02-01,1738382546,79cf00631f,CMake: Correct wording for minizip options.,0,0,,False
+5760ba15706b01d9b9d6e6e4806de0eb5b7b2ab5,2025-02-01,1738382546,79cf00631f,CMake: Correct runner.os to Linux.,0,0,,False
+c6d44927c5d7dfa3abba739f79050c34215b754e,2025-02-01,1738382546,79cf00631f,CMake: Switch from make back to ninja.,0,0,,False
+5a31e529bc974c0409bfd75f71fe1101a3e581f7,2025-02-01,1738382546,79cf00631f,CMake: Add the tested version of cmake (3.31).,0,0,,False
+cdb3ab194cf27c380779d4a59f9f824f03a34dfb,2025-02-01,1738382546,79cf00631f,CMake: Correct workflow options to disable bzip2 on Windows.,0,0,,False
+61a56bcbb0561e5c9a9a93af51d43e6a495b468f,2025-02-01,1738382546,79cf00631f,CMake: Make USE_FILE32API part of the interface.,0,0,,False
+de4dea800767466543bc7e7afeb162414e36dad3,2025-02-01,1738382546,79cf00631f,CMake: Disable minizip on Cygwin.,0,0,,False
+953b3d79bf280dd3c83a2f6ef056bdfc8beb25e6,2025-02-01,1738382546,79cf00631f,CMake: Correct workflow line continuation.,0,0,,False
+6c224f159e6d940f775c017b1bc354d39d74ee48,2025-02-01,1738382546,79cf00631f,CMake: Change README-cmake to README-cmake.md with formatting.,0,0,,False
+1cac365fe48f7191658181979db18247d0528206,2025-02-01,1738382546,79cf00631f,CMake: Add make to Cygwin.,0,0,,False
+4891d8185a48f694c80a7c648b97ea48b3ad9165,2025-02-01,1738382546,79cf00631f,CMake: Give minizip a suffix on Cygwin as well.,0,0,,False
+f42008f5b49e8fd718f38771d587f8a6b3b71b5c,2025-02-01,1738382546,79cf00631f,CMake: Avoid double inclusion of CPack warning.,0,0,,False
+03449d49ba812aac996dd4895d309cc204f9b704,2025-02-01,1738382546,79cf00631f,CMake: Re-enable testing with bzip2.,0,0,,False
+2c62f8885c073b67d828ea89ffd39e1556d52bdc,2025-02-01,1738382546,79cf00631f,CMake: Clean up spaces in required versions.,0,0,,False
+62b5b4eff81e5b8bc22a7e18f942ae103ea98483,2025-02-01,1738382546,79cf00631f,CMake: Make bzip2 required if it's requested.,0,0,,False
+ec346f1c39aa5569ec899d65ee5bba67a09ae2fc,2025-02-01,1738383530,29328b216c,Update Makefile to not recreate zconf.h and zconf.h.cmakein.,0,0,,False
+ab0266a36271746cea957f9edefc2ccf78aa2074,2025-02-02,1738458999,29328b216c,Avoid use of memcpy() in inflate when areas can overlap.,3,3,inflate.c,False
+ed1610791c0c681ee562bb3997e0f29bfae11b2d,2025-02-02,1738523177,29328b216c,"Revert previous commit, restoring the memcpy() call.",3,3,inflate.c,False
+c715ad71fe514b5e7768b1b334fc0b09f35842a3,2025-02-06,1738800611,29328b216c,Restore zconf.h to distribution.,544,0,zconf.h,False
+0b29118367551a44612a725970f7f6ff258cab06,2025-02-06,1738820616,ae4acbce5e,Fix Ada bindings on x64.,0,0,,True
+d20659fc74975e27962655d1b337da8cf3646638,2025-02-07,1738887825,79cf00631f,Repair MinGW cmake build.,0,0,,False
+8a844d434f0eef87d972ae6406b00968f7c52944,2025-02-07,1738891012,29328b216c,Use zconf.h instead of zconf.h.in for cmake.,0,0,,False
+00161eff1de25e9eed56bffdbe58f2c07ca16e51,2025-02-13,1739476286,e2265b44d7,Do not look for zconf.h in the source directory.,1,1,zlib.h,False
+7108497fda9d4536a1afade7f42266e06dca4488,2025-02-14,1739515488,29328b216c,Check that HAVE_UNISTD_H and HAVE_STDARG_H are not defined as 0.,2,2,zconf.h,False
+5a82f71ed1dfc0bec044d9702463dbdf84ea3b71,2025-02-18,1739919615,79cf00631f,Use generated zconf.h in cmake build.,5,1,zlib.h,False
+4d1c7207ffaea5b02a4fd822ef4bbf3d333fe4f7,2025-02-21,1740174785,29328b216c,Remove some unsightly spaces in zlib.h.,3,3,zlib.h,False
+aa27ba467717707881e4ae925849e6229ceabf38,2025-02-24,1740383910,29328b216c,Avoid a fruitless memory copy in gzread.c.,6,4,gzread.c,False
+aeab3f6cc7d57ff96c82c01578bf75b09cbb5dc2,2025-02-25,1740472297,29328b216c,Clarify the use of errnum in gzerror().,4,3,zlib.h,False
+a4e4521ee1303b756a8f96c18cdf4729327b687d,2025-02-25,1740472297,29328b216c,Have gz_skip() update how far it got for later continuation.,46,76,gzguts.h;gzlib.c;gzread.c;gzwrite.c,False
+473f78532aed8f5a8d55cd6e7b305160db9cf742,2025-05-14,1747184403,29328b216c,Fix bug in inflatePrime() for 16-bit ints.,21,10,inflate.c;zlib.h,True
+783886350b775fbf852947bfff103992856075f6,2025-05-14,1747184403,485ec3c35d,Correct Visual Studio readme.txt.,0,0,,False
+a9bb8c48d7fa233651dbc79407df0a83f27bbeda,2025-05-14,1747184403,29328b216c,Note the use of gzungetc() to run a deferred seek while reading.,5,0,zlib.h,False
+aaf94f387d78b03b6cb2a735ca32ce3c44fedea4,2025-05-14,1747184403,29328b216c,Note that gzseek() requests are deferred until the next operation.,2,1,zlib.h,False
+68320827df77cda0b1d411aa18148016a8c462c3,2025-05-14,1747184403,29328b216c,Constrain line lengths in inflate code.,22,12,infback.c;inffast.c;inflate.c,False
+1ab1026a20282383d9cd2282f81461655bea4028,2025-12-07,1765071554,29328b216c,"Add a ""G"" option to force gzip, disabling transparency in gzread().",31,5,gzlib.c;gzread.c;zlib.h,False
+d0fc110cc31a30132bf878a86cf530e83d34d974,2025-12-07,1765071584,29328b216c,Remove redundant frees of point list on error in examples/zran.c.,0,0,,False
+95278e4ef9de87294dea0c94184bd8fe4316c3a9,2025-12-07,1765071584,29328b216c,Improve the discrimination between trailing garbage and bad gzip.,37,30,gzguts.h;gzlib.c;gzread.c,False
+a2b61271a362d4881b9f67fb92455f4fbbab06df,2025-12-07,1765071584,29328b216c,Allow gzflush() to write empty gzip members.,3,2,gzwrite.c,False
+3e8e4bb5b2ad0ecfb69b34b04e6b5cf1f3807217,2025-12-07,1765071585,29328b216c,Clarify the use of inflateGetHeader().,16,14,zlib.h,False
+562b823635fdcd26e44961f6bd213ae0c10be098,2025-12-07,1765071585,d90e056e65,Fix indentation in gzread.c.,3,3,gzread.c,True
+bac2e2d457f17fce7aad7d8069ab7e8b392e185c,2025-12-07,1765071585,79cf00631f,CMake: Fix typos in test/CMakeLists.txt.,0,0,,False
+9702c9d64ee20f5efe4bc6b78820c84e81a99d2d,2025-12-07,1765071585,29328b216c,Update links to the RFCs.,2,2,deflate.c;zlib.h,False
+598130fd078f7b712498d348cf94b4b9806c4435,2025-12-07,1765079773,d90e056e65,Update gz*.c copyright dates.,4,4,gzguts.h;gzlib.c;gzread.c;gzwrite.c,False
+370ef1b41fd35fbfcf2af317ef3d8065a132f27a,2025-12-07,1765079773,d90e056e65,Return all available uncompressed data on error in gzread.c.,49,32,gzlib.c;gzread.c;zlib.h,False
+81cc0bebedd935daeb81b0b6e475d8786b51af3d,2025-12-08,1765194745,d90e056e65,Support non-blocking devices in the gz* routines.,276,116,gzguts.h;gzlib.c;gzread.c;gzwrite.c;zlib.h,False
+3516e02f22e246ee78cf6bddc360f60de4009027,2025-12-08,1765195363,79cf00631f,CMake: Repair Windows action.,0,0,,False
+9cca2787eab686802db91809732c6c7a205b19a5,2025-12-08,1765195381,79cf00631f,CMake: Repair macOS action.,0,0,,False
+66bdcdbe9d4bc6990a26937c00df6074c61ff810,2025-12-08,1765196551,d90e056e65,Look for gcov in configure only if coverage was requested.,0,0,,False
+9aa11a7ed2240b1ccaa15fb5c74a639e6d6220d9,2025-12-08,1765197983,d90e056e65,Avoid mixed signedness compare in gzwrite.c.,1,1,gzwrite.c,False
+570720b0c24f9686c33f35a1b3165c1f568b96be,2025-12-08,1765200618,d90e056e65,zlib 1.3.1.2,14,14,deflate.c;infback.c;inffast.c;inflate.c;inftrees.c;zconf.h;zlib.h,False
+fee7c52428e9255b78e9cb0f7b7af91a54fe9cf6,2026-01-05,1767646984,d90e056e65,Avoid Visual C warning in gzread.c.,1,1,gzread.c,False
+ba829a458576d1ff0f26fc7230c6de816d1f6a77,2026-01-05,1767646984,d90e056e65,Check for negative lengths in crc32_combine functions.,6,2,crc32.c;zlib.h,False
+2b250b88a4ec5c896183b08abca1b573de3251b3,2026-01-05,1767646984,d90e056e65,"Fix links to Mark Nelson's zlib article, now hosted on zlib.net.",0,0,,True
+cab7352dc71048f130a7d4e0b7fd773909761133,2026-01-05,1767646984,d90e056e65,Update the link for an snprintf/vsnprintf implementation in FAQ.,0,0,,False
+3509ab515f29002f64455d6e34e19df0c16b1707,2026-01-05,1767646984,d90e056e65,Copy only the initialized window contents in inflateCopy.,2,5,inflate.c,False
+c267ef7306fe9fc1399833e3556cd9798dec2eb0,2026-01-05,1767646984,d90e056e65,Use atomics to build inflate fixed tables once.,300,343,crc32.c;infback.c;inffixed.h;inflate.c;inftrees.c;inftrees.h;zconf.h;zutil.c;zutil.h,True
+fd366384cf324d750596feb03be44ddf4d1e6acd,2026-01-05,1767646984,d90e056e65,Prevent the use of insecure functions without an explicit request.,72,30,gzwrite.c;zlib.h;zutil.c,False
+916dc1ac351795c9bf86a3d19c3667b014b9d28e,2026-01-05,1767646984,d90e056e65,Add compressBound_z and deflateBound_z functions for large values.,40,13,compress.c;deflate.c;zconf.h;zlib.h,False
+42ca9c2c9b010c8c9b278079c98bf7aadb074e69,2026-01-06,1767723990,d90e056e65,Add definition of ZLIB_INSECURE to build tests with c89 and c94.,0,0,,False
+f81690699aec9afb718a14a801889969544b74b6,2026-01-06,1767725957,d90e056e65,Add compiler options to standards in c-std.yml for ZLIB_INSECURE.,0,0,,False
+2896db600d9f4520e036dd8f5d6e16ef54218f26,2026-01-06,1767727442,d90e056e65,Correct macro name for ZLIB_INSECURE in c-std.yml.,0,0,,False
+84045903ee415efbfaf6d3d443224c2f3a1daea0,2026-01-11,1768110007,d90e056e65,Copy only the initialized deflate state in deflateCopy.,17,5,deflate.c;deflate.h,False
+78832f5fe380c5fcfd720012ecc45230640d7906,2026-01-11,1768110007,d90e056e65,Add --undefined option to ./configure for UBSan checker.,0,0,,False
+edebc8c488a48ad556178286f6cea2672e477277,2026-01-11,1768110007,d90e056e65,Correct #endif comment in trees.c.,1,1,trees.c,False
+ecbaf031f81ddfcff200dcfd052df48c9047f3cf,2026-01-11,1768153844,d90e056e65,Zero inflate state on allocation.,2,0,inflate.c,False
+1a40058a92d525aa49a6eac698cfde500fc9b92f,2026-01-12,1768240373,d90e056e65,Remove untgz from contrib.,0,0,,False
+4edb00de5aac7e4aa9110374bd1991c4d070eddb,2026-01-12,1768241608,d90e056e65,Add _z versions of the compress and uncompress functions.,83,43,compress.c;uncompr.c;zconf.h;zlib.h,False
+6598de3581a2c3301a2cdddadeb8f07cf5995816,2026-01-12,1768241608,d90e056e65,Remove old subdirectory.,0,0,,False
+3a85de5fcbf1686187d8c43f13b78ac6fc0df8ac,2026-01-12,1768243594,79cf00631f,CMake: Move contrib options out of main file.,0,0,,False
+6f0e6f10b18c9a3f6f7f540c1250cb4a340c2a49,2026-01-12,1768244115,79cf00631f,CMake: Added contrib/gcc_gvmat64.,0,0,,False
+fb0479a8bdc3364babc9bf10f19ba8e888b9d2d6,2026-01-12,1768244115,79cf00631f,CMake: Added contrib/puff.,0,0,,False
+175ff0951a42f6111d8c96f8397f3329f4e463e4,2026-01-12,1768244115,79cf00631f,CMake: Clean out unneeded stuff.,0,0,,False
+f7df8cc974c5ca0f2d1ec3a5b93f10dd852973a8,2026-01-12,1768244115,79cf00631f,CMake: Added contrib/infback9.,0,0,,False
+fb4bdb74122393e5c3f6ea767d272fed14c5eb60,2026-01-12,1768244115,79cf00631f,CMake: Unify the options.,0,0,,False
+4db1cd9721f2a404a53edaa48a688db251d1daf5,2026-01-12,1768244115,79cf00631f,CMake: Added contrib/iostream3.,0,0,,False
+fe28c0216e61770b6b1adb6886f74e40dac9e529,2026-01-12,1768244115,79cf00631f,CMake: Filter out optimisation flags for the ada binder.,0,0,,False
+b74a346cbf6b9fac87ec2746a8c678bd0a65b7c8,2026-01-12,1768244115,79cf00631f,CMake: Added contrib/ada.,0,0,,False
+fa448d45d647442e0a769cdb14075872c2b39a63,2026-01-12,1768244115,79cf00631f,CMake: Set defaults for contrib/minizip from contrib.,0,0,,False
+1956b5a89f24a11647edf1c2625b2830cd1e16bc,2026-01-12,1768244115,79cf00631f,CMake: Moved everything to functions for consistency.,0,0,,False
+89889debe3abd4e5a07848ad0f6a211122a56071,2026-01-12,1768244115,79cf00631f,CMake: Removed bogus module-path.,0,0,,False
+5ba29aea46bc135dcde7bcf88314b816d77a1cf6,2026-01-12,1768244115,79cf00631f,CMake: Added contrib/blast.,0,0,,False
+a8631975bc22fdd19b6b6fe6958ecbf0647e0e77,2026-01-12,1768244863,79cf00631f,CMake: Added contrib/testzlib.,0,0,,False
+53af7b07e530807daf6ddc55b479c19a128c3870,2026-01-12,1768244882,79cf00631f,CMake: Make the options available in cmake-gui.,0,0,,False
+39728a2b005fa549307943a3ed00afa878ab9a65,2026-01-12,1768244939,79cf00631f,CMake: Add install and exports.,0,0,,False
+9444f8641b3dc9f3de11caa2d852400bf4776a22,2026-01-12,1768244968,79cf00631f,CMake: Make it work with add_subdirectory.,0,0,,False
+c6d16d4c3b59d2950e15ee557d40ace748ed5b40,2026-01-12,1768245001,79cf00631f,CMake: Name targets consistently.,0,0,,False
+dc35cccfa70e6d0440b065679680e0e9dc909866,2026-01-12,1768245003,79cf00631f,CMake: Name tests consistently.,0,0,,False
+883c24b6a25c3e6eeebf02cc19a3e8537ac5614f,2026-01-12,1768245003,79cf00631f,CMake: Add integration tests.,0,0,,False
+edd88953de3a8560b0925ad0637490925f086317,2026-01-12,1768245003,79cf00631f,CMake: Add install-target for contrib/testzlib.,0,0,,False
+16abbd29528bcc532e4c72b17cf4850e6ec84218,2026-01-12,1768245003,79cf00631f,CMake: Fix MSVC build.,0,0,,True
+e62a3ddbe333ec5c65fa048d32abef947d1c74ed,2026-01-12,1768245003,79cf00631f,CMake: Make final fixes for Windows.,0,0,,True
+8e50fb08515ff0dd7e16247de47858cc204ac26e,2026-01-18,1768760701,d90e056e65,Move new external names to correct location in zlib.map.,0,0,,False
+2209f63bda59360dd2fe765b71f89d84955ddd24,2026-01-18,1768760701,d90e056e65,Make z_once() local to avoid conditional external symbols.,74,76,crc32.c;inftrees.c;zutil.c;zutil.h,False
+ef16d9224df4f8467053df3cfc86703905f039f8,2026-01-28,1769565412,79cf00631f,Add workflow for OmniOS.,0,0,,False
+bd1bfbdc1296b38dfa2a9c7292c06c7e4a48fc7f,2026-01-28,1769565466,79cf00631f,CMake: Fix compile for OmniOS.,0,0,,True
+6e8a3817ccc8c71123953f5bd0f9fc64f0afa60e,2026-01-28,1769565538,79cf00631f,Add workflow for OpenIndiana.,0,0,,False
+2ae28cea489a66ac2ad7450e2ea931880ccf32b7,2026-01-28,1769565579,79cf00631f,Add workflow for NetBSD.,0,0,,False
+22f6fc17e9ff8143ad45c663fc49a91d1983d535,2026-01-28,1769565605,79cf00631f,Add workflow for OpenBSD.,0,0,,False
+6d61ddfe5a2b0c2316b28216c6e29880d1455039,2026-01-28,1769565633,79cf00631f,Add workflow for DragonflyBSD.,0,0,,False
+ac1be298289c7a20b099c33fb63b8c994df360b5,2026-01-28,1769565805,79cf00631f,Use copyback: false to improve workflow actions efficiency.,0,0,,False
+25af8abbb4323a0f9633a45448439510e565b9d3,2026-01-28,1769565860,79cf00631f,Add workflow for Solaris.,0,0,,False
+46b1cd314e1c27ae3a8879c7d793f8b576e8e429,2026-01-28,1769565902,79cf00631f,Sort jobs in others workflow.,0,0,,False
+70f2a6b58a5d510464f2dcaa45a574586d389eee,2026-01-28,1769565927,79cf00631f,Add workflow for FreeBSD.,0,0,,False
+47f1ae8cb52b3edc186c066c1d53cb8d8aeec5e3,2026-01-28,1769566070,79cf00631f,Remove anding operations in others workflow.,0,0,,False
+c5c3b0bff2e1c3f02d48e52bb17f6c892e9bfcb0,2026-01-28,1769566134,79cf00631f,Check multiple architectures in *BSD workflows.,0,0,,False
+dbc42c19990bd27823a5bcea417e6dce84ec38e0,2026-01-28,1769566189,79cf00631f,Add --output-on-failure to workflow tests.,0,0,,False
+45de8d73de7543d03924cf798a7ad5e89a6733d9,2026-01-28,1769566575,79cf00631f,Exclude coverage from FreeBSD workflow.,0,0,,False
+3382ba45561ea82a1d8976578b2a41facff3b8bc,2026-01-28,1769566586,79cf00631f,Update packages in Solaris workflow.,0,0,,False
+c0ac3d7f74fea821811e9a62f4f43a9ef5cb9d63,2026-01-28,1769566586,79cf00631f,Correct name of Solaris workflow.,0,0,,False
+4bbe0caf8998adf126fac75d1309876f549d4b08,2026-01-28,1769566586,79cf00631f,Fix OpenBSD workflow.,0,0,,True
+7b4ad8e0b9394af017d327e9df17651802c15066,2026-01-28,1769566586,79cf00631f,Remove OpenIndiana workflow until resolved.,0,0,,False
+07f2d4237eade624182b1cf11f1f516985aed620,2026-01-28,1769574137,41db407988,Vectorize the CRC-32 calculation on the s390x.,7,0,crc32.c,False
+a07427dee4950a5224d42ef669c14cfb595f8e93,2026-01-28,1769574152,d90e056e65,CMake: Correct zlib version number.,0,0,,False
+b63058bc2d15d319aa3a6abdb41a3c90c1402bae,2026-01-28,1769626061,79cf00631f,Fix MinGW clang workflow to use clang.,0,0,,True
+b1f8d483376d68cff73585c842d385c8262f8895,2026-01-28,1769626119,79cf00631f,Test minizip in the MinGW and Cygwin workflows.,0,0,,False
+202ea98552ad36908c12109e728a7d0d7c603535,2026-01-28,1769629702,4a3da036f0,Add ARM64 to Windows workflows.,0,0,,False
+8236296e42776f1a2317eb596a6b9753bbe76159,2026-01-28,1769630305,b2431631b6,Fix resource closures in test/minigzip.c.,0,0,,True
+2f752cea32bc30143bfbc714bc43919f8ca4079c,2026-01-28,1769633094,d90e056e65,Set bit 11 of the zip header flags in minizip if UTF-8.,0,0,,False
+74377e7215a1f72261d69725007299ac28c0019f,2026-01-28,1769635124,d90e056e65,Remove inline keyword from minizip zip.c.,0,0,,False
+75133f8599b7b4509db50e673c66a42c1da1be03,2026-01-28,1769637334,d90e056e65,Replace // with /* comments in minizip zip.c.,0,0,,False
+9a5c2008d07abc81555fd54824926163a8820af2,2026-01-28,1769640174,015f178d5f,Update INDEX for OS/400.,0,0,,False
+29c3c7932085db0aaf221eb50cfd41807b43db3e,2026-01-28,1769642946,057d6960b0,Fix BNDSRC copy to QSYS.LIB for OS/400.,0,0,,True
+df6b46cfcfd89b4a372e282e107850a48fbb8fd4,2026-01-28,1769643183,057d6960b0,Fix service program path for OS/400.,0,0,,True
+1004dd68de68f95cf8e48cbbc23d300ed1328247,2026-01-28,1769643222,057d6960b0,Fix OS/400 include file.,0,0,,True
+405a41990f86fddae7df4f6bae4de8ce317cb348,2026-01-28,1769643269,057d6960b0,Add full-free header for OS/400.,0,0,,False
+d8d366436f53e7213211eb69b5cc81a66191eac2,2026-01-28,1769643315,057d6960b0,Give type RPGLE to include member ZLIB.INC in OS/400 build.,0,0,,False
+a2e02d496572488c27b20327333e70a5960ceeb6,2026-01-28,1769643344,057d6960b0,Renamed OS/400 header with .rpgle extension.,0,0,,False
+d586324be7ed17afa7279e09995856a61a6f6e0d,2026-01-28,1769643385,057d6960b0,Gives members a type for OS/400.,0,0,,False
+9007c04dd07439a1e1a28ad5756e809ec1aad6b3,2026-01-28,1769643416,057d6960b0,Copy OS/400 free-form header to the source file.,0,0,,False
+8a6c8d4ece6fe8eaa733f7ec5149cbc54083e757,2026-01-28,1769643431,057d6960b0,Rename OS/400 free-form header.,0,0,,False
+6b50153d9128f08741e30d5800e6babfa83250e5,2026-01-28,1769643431,d90e056e65,Remove outdated nintendods build.,0,0,,False
+55551fe34e04c2768ceb3876c267059ae1838207,2026-01-29,1769645529,da99fca614,Remedy uninitialized variable warning in minizip.,0,0,,False
+605187f2353c8f8b2dca58700e47728cff2c876f,2026-01-29,1769651076,1740c67ae3,Fix missing dependencies in Makefile.in.,0,0,,True
+0dcef97505ccf205b05e202211567030d517d691,2026-01-29,1769651076,d1eb7180e7,Fix win32/Makefile.gcc to work with mingw32-make -r.,0,0,,True
+d380a71462f6207eaebdd9b2cb28eac8bd77c687,2026-01-29,1769651498,595e095caf,Add the architecture to the shared compile flags in configure.,0,0,,False
+9eadab425834142aed28c51129681ed31a09577d,2026-01-29,1769677194,3386cb10ec,Pass LDFLAGS to link tests in configure.,0,0,,False
+88c13334882d3a3007ff5f5e708e216bc9c4b155,2026-02-01,1769919058,79cf00631f,CMake: Use a normal components search for zlib.,0,0,,False
+d3e5c539ed8a761137354208fe557edaa2059054,2026-02-01,1769919058,79cf00631f,CMake: Add components tests for zlib.,0,0,,False
+3e9680762bf7e8c3fe710d1e99753e88abf009d3,2026-02-01,1769919136,79cf00631f,CMake: Use components in minizip.,0,0,,False
+8089c7dcb3dfc569a4c3e3681b020f7f85656f9e,2026-02-01,1769919185,79cf00631f,CMake: Use a normal components search in minizip.,0,0,,False
+46e7092741424ec15a55d7b2da7a515dc7933217,2026-02-01,1769919309,075e8b630c,CMake: Move the testers to the test directory.,0,0,,False
+9f25df2c80c2b26c8b050fba880f0851d9d243ea,2026-02-01,1769919309,fac2dea9e4,CMake: Fix the Ada standalone build.,0,0,,True
+315e40628545916701fff6f53a8a8987fef04af3,2026-02-01,1769919309,fac2dea9e4,Pre-install zlib for the contrib workflows.,0,0,,False
+bae5d2979b60781f1f19adceaf2462933a418922,2026-02-01,1769919309,075e8b630c,Add workflows for the contrib contents.,0,0,,False
+f84a26421e5e241e4398f743e1595c3a8e6bd4d9,2026-02-01,1769919309,075e8b630c,CMake: Make minizip buildable by itself.,0,0,,False
+c4d26cad9f866c08a1f079b1fe0bf19c5632569e,2026-02-01,1769919309,075e8b630c,CMake: Use the correct options.,0,0,,False
+9765e96141ff2b85339503ba1cb6ef98232338b2,2026-02-01,1769919309,79cf00631f,Add workflows for shared/static only building.,0,0,,False
+3089a0b468cd9dbc31946a45904c0c21475f09ae,2026-02-01,1769919309,fac2dea9e4,CMake: Fix the iostream3 install test.,0,0,,True
+9c77cc0d122120afd798b034904c881bb1ab5dc1,2026-02-01,1769919309,79cf00631f,CMake: Clarify README-cmake.md.,0,0,,False
+c9170ec2f463d0270f2461ecfc5f9cfb86e247cb,2026-02-01,1769919309,075e8b630c,CMake: Remove an empty line.,0,0,,False
+d48b805a8490916c1ca8d75b763e54f12523e9e1,2026-02-01,1769919309,075e8b630c,CMake: Correct a comment.,0,0,,False
+060c9e7c45f3ef736acffc35a8a83c52763f9a95,2026-02-03,1770157861,cd7093095d,"Remove all uses of the obsolete keyword ""register"".",14,14,deflate.c;trees.c,False
+cd55be2a2ff985d3b607208abb27333f1aa434c9,2026-02-07,1770508664,79cf00631f,CMake: Add tests for minizip components.,0,0,,False
+9b337785de3c565a056bfa9780d76542003e55db,2026-02-08,1770514398,d90e056e65,Fix typo in contribs workflow.,0,0,,False
+eb4022ee8fc6e7b5d2b9eceaf28753a3ffbd578d,2026-02-08,1770532217,d90e056e65,Make some down conversions explicit in the gz routines.,3,3,gzread.c;gzwrite.c,False
+f7d8be0478cb9fa802305dbcf5afb82f23539ed7,2026-02-09,1770649734,d90e056e65,Add a test to configure to check for a working compiler.,0,0,,False
+7eab3fd12b2d2050338c41d1b3900d017e98152a,2026-02-09,1770649734,d90e056e65,Clean up type usage in crc32.c.,26,32,crc32.c,False
+61f343885ee9560d541dcb1a5df94f441d75624f,2026-02-09,1770649734,d90e056e65,Use _WIN32 instead of WIN32 in pufftest.c.,0,0,,False
+8ad678edb44570303996db21c99cba44d0b83d59,2026-02-09,1770649734,d90e056e65,Make sign change in compress.c explicit.,1,1,compress.c,False
+fd2fe58bf43f451b04402f38d8787e4100ef48bf,2026-02-09,1770649792,d90e056e65,Add more compiler warnings for ./configure --warn --warn.,0,0,,False
+8371b539e2a4b2fb8470aacf867e230f256f11e4,2026-02-09,1770649792,d90e056e65,Allow --const to be used in configure without --warn.,0,0,,False
+81c41dd5c5ddfff868d8d394fc21fdfa4e55de92,2026-02-10,1770683643,d90e056e65,Fix the usage of types in deflate.c for when an int is 16 bits.,33,18,deflate.c;zlib.h,True
+029a4a490e459ba99b8a9a674e6daaef6362eaee,2026-02-10,1770743833,d90e056e65,Remove carriage returns from contrib/testzlib files.,0,0,,False
+ab8d74f5e08de80bd82d9fc6b2748dfdef1d654d,2026-02-10,1770762780,a11d3b7155,Bump the .github workflows action versions.,0,0,,False
+5a153ade3fed2803129629668c659c5b16fd7692,2026-02-11,1770791845,d90e056e65,Correct printf types in test/example.c.,0,0,,False
+d37e27eef65c6249631e8757601c43e813ded155,2026-02-11,1770791845,d90e056e65,Reduce warnings in contrib/minizip.,0,0,,False
+fc7593c0e5447fa7a56b8c269cac944dc83952a0,2026-02-11,1770791845,d90e056e65,Avoid missing-extern warnings.,4,0,zutil.h,False
+fb8dd62f77d88808bbe342b72eca41e6ac0ec7e0,2026-02-11,1770791845,d90e056e65,Clean up the use of switch cases.,10,8,gzread.c;infback.c;inflate.c;inftrees.c,False
+5c47755331cb7354133b82f357ed767578c95649,2026-02-11,1770839480,a4caaadee8,Check for invalid NULL pointer inputs to zlib operations.,9,1,compress.c;gzlib.c;uncompr.c,True
+cf14996099f3de50950ad5cb0c3fa7539608014a,2026-02-11,1770840323,cd7093095d,Add -static-libgcc to mingw build.,0,0,,False
+249e7533cb90dc59122e7613817013240e0f0aab,2026-02-11,1770841170,6ae9b7288e,Specify the zlib license in pkg-config files.,0,0,,False
+3dc79aae4eaac77492c28ac7aa0263252c9f13d5,2026-02-11,1770851817,cc032f067b,Fix AIX compile options for 64 bits.,0,0,,True
+4df5acd7d276a899f8c8b6582cb647f0448b3ba7,2026-02-11,1770851817,4b9a0feb68,Don't use *64 functions on Android before API level 24.,0,0,,False
+43386cf1dda163e1cad18cae0d7e956056c62f0b,2026-02-11,1770851984,40dfeb5e44,Add --mandir to ./configure to specify manual directory.,0,0,,False
+af0aa9b66a2d123a1ca26d9bfe138695012b045b,2026-02-11,1770853253,c326dcd6de,Catch a file open error in contrib/minizip/mztools.c.,0,0,,False
+3f5d21e8f573a549ffc200e17dd95321db454aa1,2026-02-12,1770886904,d90e056e65,Use underscores for Windows POSIX names in zpipe.c.,0,0,,False
+25704162641a9f11191c9e46ee207aa93ed6c0c0,2026-02-12,1770888842,d90e056e65,Update URLs to use https.,0,0,,False
+e5c1cd1a85528e24dcd6a58fc1fc37b7ee4077aa,2026-02-12,1770919757,c326dcd6de,Remove extraneous spaces in contrib/minizip/miniunz.c.,0,0,,False
+e0aef12fb6da7446b9b4447fb6c8a1431e1c6a7e,2026-02-12,1770920046,0a7532789e,Add LICENSE.Info-Zip to contrib/minizip.,0,0,,False
+a793abe0b518be90801fd804ea7d4d0aad70dc34,2026-02-12,1770922135,e7dc9bec3a,Add repository README to the nuget package.,0,0,,False
+aa82531bc524474d69092953ad08f05b53078390,2026-02-13,1770964326,d90e056e65,Permit all ./configure parameters to use '=' or ' '.,0,0,,False
+00aa188dab2ed018ccafc3c074da6fe6efcb5ab1,2026-02-13,1770964326,2c08380b85,Permit ./configure parameters using '=' to contain '='.,0,0,,False
+09f8d2b40e1b9ad99a3adc5ef598d2d14cb8e8a6,2026-02-13,1771020620,d90e056e65,Add --disable-shared to --static ./configure option.,0,0,,False
+c2711725f707431deee54489ed8a6eb622a0bfbd,2026-02-13,1771021513,58c4b17e3b,Return error codes in minizip miniunz.c and minuzip.c.,0,0,,False
+3c173d5851675b8f9ef8a4eb4f90886d6adb2cb2,2026-02-13,1771022600,ec45d69f2d,Match signedness in format specifiers.,6,6,trees.c,False
+9ac9b6bb2d1858e1d95561642f672798deb5c5f4,2026-02-13,1771024354,232371bc21,Fix the minizip Makefile to use the default variables and rules.,0,0,,True
+f4f34491eaa63a6493098251971f5dd28819b133,2026-02-14,1771032400,d90e056e65,Clean up debug sign conversions in deflate.c and trees.c.,7,7,deflate.c;trees.c,False
+965fbb574f2d2117329ed7e48536cae1012ce672,2026-02-16,1771235860,e2265b44d7,"CMake: Remove ""compatible"" zlib and minizip installations.",0,0,,False
+fa5ea47e620785e68a9c3bb294f8a0523e98780d,2026-02-16,1771237537,d90e056e65,Remove vstudio projects in lieu of cmake-generated projects.,0,0,,False
+0b3932c80dc338b36fe1b8bacd216bacb8991c17,2026-02-16,1771237537,e2265b44d7,CMake: Add build for zlib1.dll with zlib and minizip.,0,0,,False
+80165723eb5368c06110959aba08f50f4b9c421d,2026-02-16,1771237537,d90e056e65,Adjust cmake defaults.,0,0,,False
+725b6eee7c217c00e7b0f3dab225b0bf78b9c908,2026-02-17,1771290809,d90e056e65,Fix --insecure option for shared libraries.,0,0,,True
+731ce0c9e863c2a38f66ca7da0610bb3dc674f65,2026-02-17,1771292951,d90e056e65,Remove GNU-only constructs from Makefile.in.,0,0,,False
+d7bc8cafee5bdfde98732622d3b99e2f52f7b2eb,2026-02-17,1771293009,d90e056e65,Define NULL in inftrees.c if needed.,4,0,inftrees.c,False
+33e71060aa657e80e87b8d73e9e5cc3dd9be4e8b,2026-02-17,1771296780,d90e056e65,Align the backup zmem* functions with their library counterparts.,30,25,deflate.c;inflate.c;zutil.c;zutil.h,False
+1ebcfc9ddcc5d18c5330914a70b0f73165b61cfe,2026-02-17,1771304325,d90e056e65,Replace strcpy() with memcpy() in contrib/minizip.,0,0,,False
+40d05192c770090d3ed267cc9ee9a155ef8ec1d4,2026-02-17,1771307065,d90e056e65,Factor out a set_uniq() function to set the seed with noise.,0,0,,False
+f8b0f9b8719226d51054522490e39f5c8d2f3ca4,2026-02-17,1771319605,d90e056e65,Use command instead of which in ./configure.,0,0,,False
+6d95c6f685aa9b40e0afc5bcc999eef786ceef00,2026-02-17,1771320927,d90e056e65,Fix the minizip Makefile to work with both BSD and GNU make.,0,0,,True
+3b4b11d1cd10871517b420d7da1b127b1f81198b,2026-02-17,1771322633,d90e056e65,Remove make cover from the configure workflows.,0,0,,False
+591ef31613a6f37d21d90bd8355b313eaa70a420,2026-02-17,1771331808,d90e056e65,Avoid using the value of an undefined macro in crc32.c.,2,1,crc32.c,False
+b739f6f797fcd100089b9a36c5d055205ca68cbb,2026-02-17,1771331808,d90e056e65,Make type changes for solo code explicit in test/minigzip.c.,0,0,,False
+890953a4e40bfb96fdfed161b1a7a8fcc1216790,2026-02-17,1771332426,d90e056e65,Remove carriage returns from win32/zlib.def.,0,0,,False
+9e35567064baded660f61732b247ef5abc809014,2026-02-17,1771332426,d90e056e65,Version 1.3.2,27,27,compress.c;crc32.c;deflate.c;deflate.h;gzguts.h;gzlib.c;gzread.c;gzwrite.c;infback.c;inffast.c;inflate.c;inftrees.c;inftrees.h;trees.c;uncompr.c;zconf.h;zlib.h;zutil.c;zutil.h,False
+da607da739fa6047df13e66a2af6b8bec7c2a498,2026-02-17,1771333279,d90e056e65,zlib 1.3.2,0,0,,False
+dd625a9dfb8f4a6787f8efdb227f7bd860480d7c,2026-02-17,1771366335,d90e056e65,Change version number on develop branch to 1.3.2.1.,7,7,deflate.c;inftrees.c;zlib.h,False
+cb14dc9ade3759352417a300e6c2ed73268f1d97,2026-02-17,1771366930,c27afadd9a,Add dependency to ints.h in minizip Makefile.am.,0,0,,False
+846a66a2806bab9e95a05971b2b32efea431d239,2026-02-17,1771368776,d90e056e65,Remove redundant check in zmemzero().,0,1,zutil.c,False
+09a1572aa624e5ddb6c075dc013880de70b1b9b9,2026-02-22,1771744038,d90e056e65,Fix inflateBack() bug that would fail to detect a too far back.,0,2,infback.c,True
+63a623cb69cca9c562cce651c578ad4160c2cf00,2026-03-09,1773076358,d90e056e65,Correct ENOUGH_LENS and ENOUGH_DIST for PKZIP_BUG_WORKAROUND.,8,2,inftrees.h,False
+60ab906ea29f4f67204c4398be4ec5af8d7e87c7,2026-03-24,1774325246,767401c77d,Add setting of VGFMAFLAG to configure for s390x.,0,0,,False
+2d205239a3df0903c32fa354fc0202afd70748ec,2026-03-26,1774564758,3ff9f252c2,Remove C99 intermingled variable declarations from minizip.,0,0,,False
+74030f2f871dde4a6bcac3c011fcc66a6c22be80,2026-03-26,1774565212,d90e056e65,Clean up skipset.h comment formatting.,0,0,,False
+c68d46a55f7b5d2097b8d8a364bdb5f2d667eba3,2026-03-26,1774565212,d90e056e65,Make skipset functions static (not external) in minizip.,0,0,,False
+bb65dcb3dcc096dcfdb2357db7a0ebf75e79437c,2026-03-26,1774566337,640a2ed47a,CMake: Define exec_prefix to be the same as prefix in .pc file.,0,0,,False
+ed659f3802d809bc31643b5bd9703fbc57301b58,2026-03-26,1774566352,640a2ed47a,CMake: Use prefix for includedir in .pc file.,0,0,,False
+7cdaaa09095e9266dee21314599a9258db53685e,2026-03-26,1774566352,640a2ed47a,CMake: Don't add coverage tests if gcov is not found.,0,0,,False
+91292b1c442ae0f960badf17a9bdfd071b7b0c7b,2026-03-26,1774566352,640a2ed47a,CMake: Emit correct variables for absolute install directories.,0,0,,False
+f9dd6009be3ed32415edf1e89d1bc38380ecb95d,2026-03-27,1774571270,d90e056e65,Clean up comment formatting in minizip's zip.c and unzip.c.,0,0,,False
+51b2667cb4e02a583a8be55abd995421dccbfec0,2026-03-27,1774653715,3a136a69f4,Correct errno symbol in zlib.h comment.,2,2,zlib.h,False
+02adb14c90e3b0463942f8ad320126101fced79e,2026-03-29,1774759963,79cf00631f,CMake: Check for loaded config.,0,0,,False
+a18d683868673664d9b7970026bc9e0f8ea9f81a,2026-03-29,1774759978,79cf00631f,CMake: Reduce the noise in ZLIBConfig.cmake and minizipConfig.cmake.,0,0,,False
+88b597d51aafaeb00d85621de3f680f799cb7720,2026-03-29,1774759998,79cf00631f,CMake: Check for loaded config in minizip.,0,0,,False
+d767818335c1858fdfef2ed9b02a9c0c2cc556ff,2026-03-29,1774760016,79cf00631f,CMake: Add found vars for components.,0,0,,False
+7d697b0ead5a411594dc236c9e9ecb5313f1788a,2026-03-29,1774760050,79cf00631f,CMake: Clarify README-cmake.md about usage of components.,0,0,,False
+faaaab2a4dd1a6fc713c11d0553bb315392e3b01,2026-03-29,1774760066,79cf00631f,CMake: Search for minizip the right way.,0,0,,False
+bc406b9da9368c9719265a8922a776917d18bf55,2026-03-29,1774761157,79cf00631f,Use scp for vmactions which is hopefully more robust.,0,0,,False
+1c2519c8b8dab1d512a4edb04b8d99441415571d,2026-03-29,1774761157,e2265b44d7,CMake: Update README-cmake.md.,0,0,,False
+b55070a3e044b6d0909ab6573bbc17e6554f1477,2026-03-29,1774761157,79cf00631f,CMake: Fix naming of libs on MSVC.,0,0,,True
+494708ca978c6ee4800f01adcb6362f3d7d9ab00,2026-03-29,1774761157,79cf00631f,CMake: Fix naming on cygwin.,0,0,,True
+27703b291027e39160cb89cbf7b5b0290b55dd23,2026-06-01,1780294816,79cf00631f,CMake: Fix zlib1.dll typo.,0,0,,False
+43129bf8940cd34ddbddaecc67993afd12cc2114,2026-06-01,1780294816,79cf00631f,CMake: Create all package targets.,0,0,,False
+0d10bbd3d5e178f83e25fdd1e99da3ff822d553d,2026-06-01,1780294816,79cf00631f,CMake: Avoid failure if only static or shared is found.,0,0,,False
+321c6fbf836f97275feec77804c6708123a6e0f5,2026-06-01,1780294816,79cf00631f,CMake: Set puff build defaults to zlib defaults.,0,0,,False
+6bda445a9cc28907731a30978af73c303be34b75,2026-06-01,1780294816,79cf00631f,CMake: Set iostream build defaults to zlib defaults.,0,0,,False
+59c7b00a1313b982e04294b4317acc808e77ee4d,2026-06-01,1780294816,79cf00631f,CMake: Set blast build defaults to zlib defaults.,0,0,,False
+e1a1c153e8243d57b63bf55f816504ce6ed344ac,2026-06-01,1780294816,79cf00631f,CMake: Set Ada build defaults to zlib defaults.,0,0,,False
+8dab7e80cc324e9dbf1d53cf870ca64aee8a4ae3,2026-06-01,1780294816,79cf00631f,CMake: Add missing suffix for iostream.,0,0,,False
+4b4588d7dbab997913bb207556a0b22655a23186,2026-06-01,1780294816,79cf00631f,CMake: Use targets for iostream.,0,0,,False
+b49dce6e46810526c5bbe761202ecf1c3bc93cd0,2026-06-01,1780294816,79cf00631f,CMake: Enable tests for standalone puff.,0,0,,False
+dda8535a843f2a0ede9edb8bc61b46f1210d9651,2026-06-01,1780294816,79cf00631f,CMake: Allow minizip to build on 32-bit.,0,0,,False
+2d2b1870336926991311084bb647dbc3c8a340d2,2026-06-01,1780294816,79cf00631f,CMake: Add tests for zlib1.dll.,0,0,,False
+337803adc2a1a74200fe1589b5cf4a1c04d1c876,2026-06-01,1780294816,79cf00631f,CMake: Add installation and export to zlib1.dll and zlibwapi.dll.,0,0,,False
+8849c7c94544dd364bf91b1a2b2e3a2a0940388c,2026-06-01,1780294816,79cf00631f,CMake: Add debug-postfix to zlib1-dll.,0,0,,False
+d287163df781bdd06d693a40ae449b80cd7b35da,2026-06-01,1780294816,79cf00631f,CMake: Add path handling for standalone and chainbuild zlib1-dll.,0,0,,False
+caa51630980e9fc1c5f3b91d02b77d525556dfe8,2026-06-01,1780294816,79cf00631f,CMake: Bring all configs to the same level.,0,0,,False
+29e991a29dcf884644ee3257b0d9608ea1804f3c,2026-06-01,1780294816,79cf00631f,Add Windows to contrib tests and test contribs standalone.,0,0,,False
+021a13038b92d3267ad63a4f1f27965665b1e926,2026-06-01,1780294816,79cf00631f,CMake: Give clear option-names for zlib1_dll.,0,0,,False
+5c0dfd264ecfc838503f17683aac73abf14c416b,2026-06-01,1780294816,79cf00631f,CMake: Fix zlib1-dll when building from within zlib.,0,0,,True
+4a181d8d634fc58c14bee557c9dba5edd978f1bb,2026-06-01,1780294816,79cf00631f,CMake: Export symbols from iostream3.,0,0,,False
+dd0d7788752e80ae977701480be5ce944aa448aa,2026-06-01,1780294816,79cf00631f,CMake: Unify target names for blast.,0,0,,False
+0c147a7d54fe9756352600fc40ba390ac594d165,2026-06-01,1780294816,79cf00631f,CMake: Add alias for chainbuilding zlib1-dll.,0,0,,False
+74c677ca42e86b5bd136b97f0ca2594152f69cb5,2026-06-01,1780294816,79cf00631f,CMake: Add proper reconfiguration for standalone zlib1.dll.,0,0,,False
+407276764af594f49c888845216ce9dfe07dc3b9,2026-06-01,1780294816,79cf00631f,CMake: Fix assembler detection.,0,0,,True
+e171c51dde64d41c7cd1bbeb431fb6c93d050d7d,2026-06-01,1780294816,79cf00631f,CMake: Fix gvmat warning about unused linker-inputs.,0,0,,True
+7a675dbf0e866ae3c0c5dea9188dd5f0a03d02b8,2026-06-01,1780294816,79cf00631f,CMake: Move redundant variables higher in level.,0,0,,False
+aa9e1228bf4ce72893cc27fed32f8057af0f6fca,2026-06-01,1780294816,79cf00631f,CMake: Export puff symbols.,0,0,,False
+e2a957b1a2a6d73e26d6f8b6afb80ad59bb0aa4f,2026-06-01,1780294816,79cf00631f,CMake: Fix testzlib standalone build.,0,0,,True
+9c19e6849ab2a8716cb77d5770d92cc42985883f,2026-06-01,1780294816,79cf00631f,CMake: Move CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS to the right place.,0,0,,False
+2d407ac15f284f92a586acb1773c0632ed5d0dd6,2026-06-01,1780294816,79cf00631f,CMake: Remove extra parenthesis.,0,0,,False
+6af51362c65724e709a9e59770a30a56c61a07cc,2026-06-01,1780294816,79cf00631f,CMake: Fix conditional around wrong statement.,0,0,,True
+ecea898dace0cc02c45b7fbda2e889f84c179eeb,2026-06-01,1780294816,79cf00631f,CMake: Add indicator to check if minizip was compiled with bzip2.,0,0,,False
+d5671281abac25a579c22cd19fab8e0c1af157a5,2026-06-01,1780294855,79cf00631f,CMake: Rename the targets to the same schema.,0,0,,False
+81b3af3790f001d39fd99e48a7cef10088d71d64,2026-06-01,1780294876,79cf00631f,Avoid minizip test in c-std.,0,0,,False
+b2ed1975cf6dbbab61e20d5d8c41f82e9f64f285,2026-06-01,1780294952,79cf00631f,CMake: Consolidate build tests in the test directory.,0,0,,False
+582b8efd5f3e0efb92f5a9abb1e7d21960ce5b54,2026-06-01,1780298285,79cf00631f,CMake: Remove unnecessary make_directory calls.,0,0,,False
+ace35f66d647707affaa9c462f3efff1b8f6b875,2026-06-01,1780298315,79cf00631f,CMake: Break long lines for readability.,0,0,,False
+90d5bd8a134ed0021f0061421c9cd29f9bdc4b60,2026-06-01,1780298341,79cf00631f,CMake: Prefix targets and tests with zlib_ when not standalone.,0,0,,False
+f8444a951f20c4431a3c1de7d35ebdf64852f6c9,2026-06-01,1780298371,79cf00631f,CMake: Correct the name of blast_testStatic.,0,0,,False
+213ea4dc919fc07faf755150ffe6739cde955879,2026-06-01,1780298400,79cf00631f,CMake: Correct the iostream3_add_subdirectory test dependency.,0,0,,False
+7ccaebcfcbb926586ac9726d52fee4df1dd96fb5,2026-06-01,1780304306,79cf00631f,CMake: Fix minizip test-dep-graph.,0,0,,True
+6a0e00f094e5878e55a96d9fae85c87d853786fd,2026-06-01,1780304321,79cf00631f,CMake: Fix puff-test-dep-graph.,0,0,,True
+979a56e9a980bf9b031a8d1fec2a06cfdccca2e4,2026-06-01,1780304337,79cf00631f,CMake: Fix zlib test-dep-graph.,0,0,,True
+6de84ae0b0c7a473c18d565416311f076f83fbce,2026-06-01,1780304366,79cf00631f,CMake: Fix Ada test.dep-graph.,0,0,,True
+c95cdea223c1ba8283dd4b1ae71a834bb35839a1,2026-06-01,1780305087,79cf00631f,CMake: Move blast tests into test directory.,0,0,,False
+6d3b7761550439299babe7b01fd8e742e123d138,2026-06-01,1780305087,79cf00631f,CMake: Move minizip tests into test directory.,0,0,,False
+bcf22eeb0f5e4ae9b9a3888b1fe5fa17d57bf9f3,2026-06-01,1780305087,79cf00631f,CMake: Move Ada tests to test directory.,0,0,,False
+4fd956f9bffda6ae5821b9f52ed533b089fe772f,2026-06-01,1780305087,79cf00631f,CMake: Avoid resource conflict in blast tests.,0,0,,False
+1110699c0fcb6c4d8e040bbc65035afbb1c17a25,2026-06-01,1780305087,79cf00631f,CMake: Enable Ada to compile in different directories.,0,0,,False
+d491f4a609b368658a6bf0288383cf9da01d5b74,2026-06-01,1780305087,79cf00631f,CMake: Fix tests with pre-3.24 cmake updates.,0,0,,True
+25e021a3e5ec6bde8923b4a0ac6ddef6bd80bf4e,2026-06-01,1780305087,79cf00631f,CMake: Avoid running integration tests when not installing.,0,0,,False
+13c70daa4a4aea70f9019c4f4c3413b31ba0a9cb,2026-06-01,1780305087,79cf00631f,CMake: Fix Ada configuration.,0,0,,True
+160de9bf5f4e115ecf9f6ff1802cffb5e86481d6,2026-06-01,1780305087,79cf00631f,CMake: Fix DLL details when building with cmake.,0,0,,True
+e3dc0a85b7032e98380dec011bc8f2c2ee0d8fca,2026-06-01,1780305087,d90e056e65,Avoid undefined behavior in gzwrite.c.,2,1,gzwrite.c,False
+6672d10306f771d3b870da445d5b520cd02eb040,2026-06-01,1780305087,e2265b44d7,CMake: Fix broken link_helper.,0,0,,True
+bb0c497580e4ae2a20655af7d8557573bdaef776,2026-06-01,1780305087,79cf00631f,CMake: Avoid coverage testing when cross-compiling.,0,0,,False
+3e8969d1b953b60bca63b32e337e23dd701ba454,2026-06-01,1780305087,79cf00631f,CMake: Avoid test in tests.,0,0,,False
+629d8cba6b9dac7422d17f1b7cc5a2b2365846db,2026-06-01,1780305087,79cf00631f,Remove redundant cmake runs in testing.,0,0,,False
+2da4816791e00eb7601dc96bf0574f72aae7159b,2026-06-01,1780305087,79cf00631f,CMake: Move iostream3 tests into test directory.,0,0,,False
+8be6629344eac95f7536c2d0a1b2832a8eff5741,2026-06-01,1780305087,79cf00631f,CMake: Avoid masking a slash in REPLACE.,0,0,,False
+bbc2ccf3d0de267576b524b875c769a724a513b0,2026-06-19,1781913046,d90e056e65,Remedy missing return statement in gzwrite.c.,1,0,gzwrite.c,False
+df84af25dc1942490e1d1c899a07619152a46148,2026-09-17,1789604463,d90e056e65,Fix buffer overflow bug in non-blocking gzwrite.,4,1,gzwrite.c,True
+7235b0a581227c56a79a43ff828f8ef6794194c8,2026-09-17,1789605589,d90e056e65,Remedy another missing return statement in gzwrite.c.,1,0,gzwrite.c,False
+813dac5dcb5902ed241e9b0d38abd2d847a335a9,2026-09-17,1789606536,d90e056e65,Avoid use of EAGAIN or EWOULDBLOCK if not defined.,17,3,gzguts.h;gzread.c;gzwrite.c,False
+d81c2d7eb705c62294ba03299255672078e89115,2026-09-17,1789613099,d90e056e65,Honor gzprintf's all-or-nothing-written contract when blocked.,17,1,gzwrite.c;zlib.h,False
+e5374a85e897f41c4dfe36f2bb2242f8d068d56f,2026-09-20,1789916888,e2265b44d7,CMake: Update component note in README-cmake.md.,0,0,,False
+9bace80a7742699f077c4c797d03f3bc371e3765,2026-09-20,1789917194,79cf00631f,"CMake: Improve formatting, long lines broken into readable chunks.",0,0,,False
+05fa094c343daa5b3cb484698661bf2394667e8c,2026-09-20,1789917359,79cf00631f,CMake: Avoid coverage-test when cross-compiling.,0,0,,False
+2b5c6fc88d4c49a409e6928c1076ae770cc14b71,2026-09-20,1789917468,79cf00631f,CMake: Fix genex expressions in CMakeLists.txt.,0,0,,True
+dd79f1871be96755984077512e29a9ed53d95dbd,2026-09-20,1789917502,79cf00631f,CMake: Fix installation of public headers.,0,0,,True
+acf5b3769a720cea7ca2d43a99f4c1907d9f61d4,2026-09-20,1789917992,79cf00631f,CMake: Fix install of minizip pkgconfig.,0,0,,True
+b66f482d6570c38c34c3ab6c1b2743325db8e9af,2026-09-20,1789918053,79cf00631f,CMake: Fix minizip config.,0,0,,True
+c352fa05f0f3e06bf34f2fb7ca3df27c37c16c03,2026-09-20,1789918092,79cf00631f,CMake: Fix prefixing symbols.,0,0,,True
+6b5ad87bd383c887d75a46fdbab3670117dd3334,2026-09-20,1789918224,79cf00631f,CMake: Move minizip genex to the correct places.,0,0,,False
+2f0a85edb990e623d19387532263cb624b7b2cfc,2026-09-20,1789918333,79cf00631f,CMake: Correct minizip symbol.,0,0,,False
+4296ab67eaa09d488e9ef1f4af75e4cfb6cd27a6,2026-09-20,1789918359,79cf00631f,CMake: Add prefix to puff tests.,0,0,,False
+98095f829266a1cab0360bc9b4164c81a71bda66,2026-09-20,1789918519,79cf00631f,CMake: Avoid USE_FILE32API if MSVC.,0,0,,False
+b31d9844705b466564b9b44c586a435cd2c012a9,2026-09-20,1789937935,234f15ad8e,Fix bug in successive gzwrite SEEK_CURs losing zero fill.,1,1,gzlib.c,True
+6995c67bd443bc982771b043ef3be3591cc522d0,2026-09-21,1789951282,d90e056e65,Avoid signed-overflow undefined behaviors in gzseek.,29,20,gzguts.h;gzlib.c;zlib.h,True
+6ed77c4885c7df5e3b118171018177c009512c3a,2026-09-21,1789952474,d90e056e65,Leave the stream position unchanged when gzseek() fails.,2,3,gzlib.c;zlib.h,False
+a05eacf0bdc728a5583311457dc4c2152bc57313,2026-09-21,1789953983,86e63197ed,Fix bug where a complete gzip stream can be reported as truncated.,7,0,gzread.c,True
+a82e0db392178a3e05fb27bf551a6ce757a47898,2026-09-21,1789955984,d90e056e65,Move BLOCKED definition after errno.h include.,14,14,gzguts.h,False
+930cdf07705adcc388befea891e82fe6f11d8551,2026-09-21,1789958228,d90e056e65,Restore the proper detection of truncated gzip streams.,10,5,gzread.c,False
+ec63cd60eb08454cb02795b7535206876b9ef96e,2026-09-21,1789961060,d90e056e65,Fix one more truncated stream detection bug.,8,2,gzread.c,True
+767c4c947852e143f582c85f14cf573411df1b35,2026-09-21,1789961984,40dfeb5e44,Honor deflateReset promise to reset the header.,2,1,deflate.c,False

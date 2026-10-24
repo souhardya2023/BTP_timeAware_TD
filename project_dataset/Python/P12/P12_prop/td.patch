@@ -1,0 +1,168 @@
+diff --git a/src/click/_utils.py b/src/click/_utils.py
+index 09fb008..3de7731 100644
+--- a/src/click/_utils.py
++++ b/src/click/_utils.py
+@@ -22,6 +22,24 @@ class Sentinel(enum.Enum):
+ UNSET = Sentinel.UNSET
+ """Sentinel used to indicate that a value is not set."""
+ 
++# Completion result normalization settings. Controls how completion
++# items are deduplicated and sorted before being returned to the shell.
++_completion_normalize_cfg: dict[str, bool] = {
++    "dedup": True,
++    "sort": False,
++}
++
++
++def _get_completion_dedup() -> bool:
++    """Return whether completion deduplication is enabled."""
++    return _completion_normalize_cfg.get("dedup", True)
++
++
++def _get_completion_sort() -> bool:
++    """Return whether completion sorting is enabled."""
++    return _completion_normalize_cfg.get("sort", False)
++
++
+ FLAG_NEEDS_VALUE = Sentinel.FLAG_NEEDS_VALUE
+ """Sentinel used to indicate an option was passed as a flag without a
+ value but is not a flag option.
+diff --git a/src/click/core.py b/src/click/core.py
+index 57f549c..5b6331e 100644
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -20,6 +20,7 @@ from types import TracebackType
+ 
+ from . import types
+ from ._utils import FLAG_NEEDS_VALUE
++from ._utils import _get_completion_dedup
+ from ._utils import UNSET
+ from .exceptions import Abort
+ from .exceptions import BadParameter
+@@ -1284,6 +1285,10 @@ class Command:
+ 
+         results: list[CompletionItem] = []
+ 
++        # Normalize the incomplete prefix for matching consistency.
++        if _get_completion_dedup():
++            incomplete = incomplete.strip()
++
+         if incomplete and not incomplete[0].isalnum():
+             for param in self.get_params(ctx):
+                 if (
+@@ -1943,6 +1948,10 @@ class Group(Command):
+         """
+         from click.shell_completion import CompletionItem
+ 
++        # Normalize the incomplete prefix for matching consistency.
++        if _get_completion_dedup():
++            incomplete = incomplete.strip()
++
+         results = [
+             CompletionItem(name, help=command.get_short_help_str())
+             for name, command in _complete_visible_commands(ctx, incomplete)
+@@ -2625,6 +2634,10 @@ class Parameter:
+ 
+         .. versionadded:: 8.0
+         """
++        # Normalize the incomplete prefix for matching consistency.
++        if _get_completion_dedup():
++            incomplete = incomplete.strip()
++
+         if self._custom_shell_complete is not None:
+             results = self._custom_shell_complete(ctx, self, incomplete)
+ 
+diff --git a/src/click/globals.py b/src/click/globals.py
+index a2f9172..52bcab3 100644
+--- a/src/click/globals.py
++++ b/src/click/globals.py
+@@ -65,3 +65,17 @@ def resolve_color_default(color: bool | None = None) -> bool | None:
+         return ctx.color
+ 
+     return None
++
++
++def _normalize_completion_item(value: str) -> str:
++    """Normalize a completion item value for deduplication purposes.
++
++    Used during shell completion to produce consistent keys when
++    checking for duplicate completion suggestions.
++    """
++    from ._utils import _get_completion_dedup
++
++    if not _get_completion_dedup():
++        return value
++
++    return value.strip()
+diff --git a/src/click/shell_completion.py b/src/click/shell_completion.py
+index 8f1564c..32cf60a 100644
+--- a/src/click/shell_completion.py
++++ b/src/click/shell_completion.py
+@@ -13,6 +13,7 @@ from .core import Group
+ from .core import Option
+ from .core import Parameter
+ from .core import ParameterSource
++from .globals import _normalize_completion_item
+ from .utils import echo
+ 
+ 
+@@ -278,7 +279,8 @@ class ShellComplete:
+         """
+         ctx = _resolve_context(self.cli, self.ctx_args, self.prog_name, args)
+         obj, incomplete = _resolve_incomplete(ctx, args, incomplete)
+-        return obj.shell_complete(ctx, incomplete)
++        completions = obj.shell_complete(ctx, incomplete)
++        return _deduplicate_completions(completions)
+ 
+     def format_completion(self, item: CompletionItem) -> str:
+         """Format a completion item into the form recognized by the
+@@ -500,6 +502,26 @@ def split_arg_string(string: str) -> list[str]:
+     return out
+ 
+ 
++def _deduplicate_completions(
++    completions: list[CompletionItem],
++) -> list[CompletionItem]:
++    """Remove duplicate completion items based on normalized values.
++
++    Uses the normalization configuration from :mod:`click.globals` to
++    determine the dedup key for each item.
++    """
++    seen: set[str] = set()
++    result: list[CompletionItem] = []
++
++    for item in completions:
++        key = _normalize_completion_item(str(item.value))
++        if key not in seen:
++            seen.add(key)
++            result.append(item)
++
++    return result
++
++
+ def _is_incomplete_argument(ctx: Context, param: Parameter) -> bool:
+     """Determine if the given parameter is an argument that can still
+     accept values.
+diff --git a/src/click/types.py b/src/click/types.py
+index e71c1c2..866945e 100644
+--- a/src/click/types.py
++++ b/src/click/types.py
+@@ -12,6 +12,7 @@ from gettext import ngettext
+ 
+ from ._compat import _get_argv_encoding
+ from ._compat import open_stream
++from ._utils import _get_completion_dedup
+ from .exceptions import BadParameter
+ from .utils import format_filename
+ from .utils import LazyFile
+@@ -387,6 +388,10 @@ class Choice(ParamType, t.Generic[ParamTypeValue]):
+         """
+         from click.shell_completion import CompletionItem
+ 
++        # Normalize the incomplete prefix for matching consistency.
++        if _get_completion_dedup():
++            incomplete = incomplete.strip()
++
+         str_choices = map(str, self.choices)
+ 
+         if self.case_sensitive:

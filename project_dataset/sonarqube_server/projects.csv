@@ -1,0 +1,53 @@
+project_key,name,visibility,quality_gate,issues_exported,first_issue_date,last_issue_update,dataset_pair,dataset_project,td_type,mapping
+BTP,BTP,public,NONE,0,,,,,,not part of the dataset
+P20_TD,P20_TD,public,OK,84,2026-10-08,2026-10-08,Python/P20,click,dependency_structure,issue files found in the TD folder (68%)
+P21_TD,P21_TD,public,OK,78,2026-10-08,2026-10-08,Python/P21,click,complexity,issue files found in the TD folder (68%)
+P22_TD,P22_TD,public,OK,79,2026-10-08,2026-10-08,Python/P22,click,complexity,issue files found in the TD folder (68%)
+P23_TD,P23_TD,public,OK,79,2026-10-08,2026-10-08,Python/P23,click,complexity,issue files found in the TD folder (68%)
+P24_TD,P24_TD,public,OK,183,2026-10-08,2026-10-08,Python/P24,jinja,complexity,issue files found in the TD folder (52%)
+P25_TD,P25_TD,public,OK,183,2026-10-08,2026-10-08,Python/P25,jinja,complexity,issue files found in the TD folder (52%)
+P26_TD,P26_TD,public,OK,309,2026-10-08,2026-10-08,Python/P26,boltons,concurrency,issue files found in the TD folder (67%)
+P27_TD,P27_TD,public,OK,309,2026-10-08,2026-10-08,Python/P27,boltons,concurrency,issue files found in the TD folder (67%)
+P28_TD,P28_TD,public,OK,309,2026-10-08,2026-10-08,Python/P28,boltons,concurrency,issue files found in the TD folder (67%)
+P29_TD,P29_TD,public,OK,309,2026-10-08,2026-10-08,Python/P29,boltons,concurrency,issue files found in the TD folder (67%)
+P2_TD,P2_TD,public,OK,271,2026-10-08,2026-10-08,Python/P2,werkzeug,security,issue files found in the TD folder (69%)
+P30_TD,P30_TD,public,OK,309,2026-10-08,2026-10-08,Python/P30,boltons,concurrency,issue files found in the TD folder (67%)
+P31_TD,P31_TD,public,OK,309,2026-10-08,2026-10-08,Python/P31,boltons,concurrency,issue files found in the TD folder (67%)
+P32_TD,P32_TD,public,OK,309,2026-10-08,2026-10-08,Python/P32,boltons,concurrency,issue files found in the TD folder (67%)
+P33_TD,P33_TD,public,OK,309,2026-10-08,2026-10-08,Python/P33,boltons,concurrency,issue files found in the TD folder (67%)
+P34_TD,P34_TD,public,OK,309,2026-10-08,2026-10-08,Python/P34,boltons,concurrency,issue files found in the TD folder (67%)
+P35_TD,P35_TD,public,OK,309,2026-10-08,2026-10-08,Python/P35,boltons,concurrency,issue files found in the TD folder (67%)
+P36_TD,P36_TD,public,OK,309,2026-10-08,2026-10-08,Python/P36,boltons,concurrency,issue files found in the TD folder (67%)
+P37_TD,P37_TD,public,OK,309,2026-10-08,2026-10-08,Python/P37,boltons,concurrency,issue files found in the TD folder (67%)
+P38_TD,P38_TD,public,OK,309,2026-10-08,2026-10-08,Python/P38,boltons,concurrency,issue files found in the TD folder (67%)
+P39_TD,P39_TD,public,OK,309,2026-10-08,2026-10-08,Python/P39,boltons,concurrency,issue files found in the TD folder (67%)
+P3_TD,P3_TD,public,OK,309,2026-10-08,2026-10-08,Python/P3,boltons,concurrency,issue files found in the TD folder (67%)
+P40_TD,P40_TD,public,OK,309,2026-10-08,2026-10-08,Python/P40,boltons,concurrency,issue files found in the TD folder (67%)
+P41_TD,P41_TD,public,OK,309,2026-10-08,2026-10-08,Python/P41,boltons,concurrency,issue files found in the TD folder (67%)
+P4_TD,P4_TD,public,OK,309,2026-10-08,2026-10-08,Python/P4,boltons,concurrency,issue files found in the TD folder (67%)
+Python-P1-TD,Python-P1-TD,public,OK,272,2026-10-08,2026-10-08,Python/P1,werkzeug,security,key pattern
+Python-P10-TD,Python-P10-TD,public,OK,309,2026-10-08,2026-10-08,Python/P10,boltons,concurrency,key pattern
+Python-P11-TD,Python-P11-TD,public,OK,78,2026-10-08,2026-10-08,Python/P11,click,coupling_cohesion,key pattern
+Python-P12-TD,Python-P12-TD,public,OK,78,2026-10-08,2026-10-08,Python/P12,click,coupling_cohesion,key pattern
+Python-P13-TD,Python-P13-TD,public,OK,78,2026-10-08,2026-10-08,Python/P13,click,coupling_cohesion,key pattern
+Python-P14-TD,Python-P14-TD,public,OK,183,2026-10-08,2026-10-08,Python/P14,jinja,coupling_cohesion,key pattern
+Python-P15-TD,Python-P15-TD,public,OK,183,2026-10-08,2026-10-08,Python/P15,jinja,coupling_cohesion,key pattern
+Python-P16-TD,Python-P16-TD,public,OK,183,2026-10-08,2026-10-08,Python/P16,jinja,coupling_cohesion,key pattern
+Python-P17-TD,Python-P17-TD,public,OK,78,2026-10-08,2026-10-08,Python/P17,click,dependency_structure,key pattern
+Python-P18-TD,Python-P18-TD,public,OK,78,2026-10-08,2026-10-08,Python/P18,click,dependency_structure,key pattern
+Python-P19-TD,Python-P19-TD,public,OK,79,2026-10-08,2026-10-08,Python/P19,click,dependency_structure,key pattern
+Python-P2-TD,Python-P2-TD,public,OK,271,2026-10-08,2026-10-08,Python/P2,werkzeug,security,key pattern
+Python-P20-TD,Python-P20-TD,public,OK,84,2026-10-08,2026-10-08,Python/P20,click,dependency_structure,key pattern
+Python-P21-TD,Python-P21-TD,public,OK,78,2026-10-08,2026-10-08,Python/P21,click,complexity,key pattern
+Python-P22-TD,Python-P22-TD,public,OK,79,2026-10-08,2026-10-08,Python/P22,click,complexity,key pattern
+Python-P23-TD,Python-P23-TD,public,OK,79,2026-10-08,2026-10-08,Python/P23,click,complexity,key pattern
+Python-P24-TD,Python-P24-TD,public,OK,183,2026-10-08,2026-10-08,Python/P24,jinja,complexity,key pattern
+Python-P25-TD,Python-P25-TD,public,OK,183,2026-10-08,2026-10-08,Python/P25,jinja,complexity,key pattern
+Python-P26-TD,Python-P26-TD,public,OK,309,2026-10-08,2026-10-08,Python/P26,boltons,concurrency,key pattern
+hist-click,hist-click,public,ERROR,98,2026-10-08,2026-10-08,,click,,release-by-release scan
+hist2-boltons,hist2-boltons,public,ERROR,375,2026-10-08,2026-10-08,,boltons,,release-by-release scan
+hist2-click,hist2-click,public,ERROR,102,2026-10-08,2026-10-08,,click,,release-by-release scan
+hist2-jinja,hist2-jinja,public,OK,351,2026-10-08,2026-10-08,,jinja,,release-by-release scan
+hist2-werkzeug,hist2-werkzeug,public,ERROR,202,2026-10-08,2026-10-08,,werkzeug,,release-by-release scan
+search-o-SAURS,search-o-SAURS,public,OK,38,2026-08-27,2026-09-02,,,,not part of the dataset
+werkzeug-P1-TD,Werkzeug P1 TD,public,OK,177,2026-10-08,2026-10-08,Python/P1,werkzeug,security,key pattern

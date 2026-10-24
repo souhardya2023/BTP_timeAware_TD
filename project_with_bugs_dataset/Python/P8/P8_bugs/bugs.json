@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 701,
+  "function": "write_ns",
+  "kind": "negate_cond",
+  "description": "condition negated in write_ns()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/tableutils.py",
+  "line": 363,
+  "function": "from_data",
+  "kind": "cmp_boundary",
+  "description": "`<` -> `<=` in a comparison in from_data()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/tbutils.py",
+  "line": 770,
+  "function": "from_string",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in from_string()",
+  "in_td_file": false
+ }
+]

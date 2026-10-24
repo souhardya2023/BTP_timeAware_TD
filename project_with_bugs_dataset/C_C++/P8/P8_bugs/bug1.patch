@@ -1,0 +1,11 @@
+--- a/src/dtoa.c
++++ b/src/dtoa.c
+@@ -4673,7 +4673,7 @@
+ #endif
+ #ifndef Sudden_Underflow
+ 				if (!dval(&rv)) {
+-					if (bc.nd >nd) {
++					if (bc.nd >=nd) {
+ 						bc.uflchk = 1;
+ 						break;
+ 						}

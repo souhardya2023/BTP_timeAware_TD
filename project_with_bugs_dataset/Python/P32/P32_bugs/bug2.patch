@@ -1,0 +1,11 @@
+--- a/boltons/urlutils.py
++++ b/boltons/urlutils.py
+@@ -495,7 +495,7 @@
+         self.username = (unquote(ud['username'])
+                          if '%' in (ud['username'] or _e) else ud['username'] or _e)
+         self.password = (unquote(ud['password'])
+-                         if '%' in (ud['password'] or _e) else ud['password'] or _e)
++                         if '%' in (ud['password'] or _e) else ud['password'] and _e)
+         self.family = ud['family']
+ 
+         if not ud['host']:

@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 118,
+  "function": "__init__",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in __init__()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/listutils.py",
+  "line": 327,
+  "function": "index",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in index()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/statsutils.py",
+  "line": 751,
+  "function": "describe",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in describe()",
+  "in_td_file": false
+ }
+]

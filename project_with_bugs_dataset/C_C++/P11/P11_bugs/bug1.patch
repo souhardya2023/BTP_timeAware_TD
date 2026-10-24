@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -425,7 +425,7 @@
+ 	jobqueue_p->rear  = NULL;
+ 
+ 	jobqueue_p->has_jobs = (struct bsem*)malloc(sizeof(struct bsem));
+-	if (jobqueue_p->has_jobs == NULL){
++	if (jobqueue_p->has_jobs != NULL){
+ 		return -1;
+ 	}
+ 

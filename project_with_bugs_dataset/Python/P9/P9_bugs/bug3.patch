@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -315,7 +315,7 @@
+             if len(other) != len(self):
+                 return False
+             if not isinstance(other, LRI):
+-                return other == self
++                return other != self
+             return super().__eq__(other)
+ 
+     def __ne__(self, other):

@@ -1,0 +1,11 @@
+--- a/boltons/statsutils.py
++++ b/boltons/statsutils.py
+@@ -746,7 +746,7 @@
+ 
+         items.extend(q_items)
+         items.append(('max', self.max))
+-        if format == 'dict':
++        if not (format == 'dict'):
+             ret = dict(items)
+         elif format == 'list':
+             ret = items

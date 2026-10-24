@@ -1,0 +1,875 @@
+sha,date,ts,author,subject,added,deleted,files,bugfix
+17a69c2d66a86757877c3d4159e999da3a5434bf,2009-05-12,1242153841,6c2e3d233e,Initial import,1345,0,include/jansson.h;src/dump.c;src/hashtable.c;src/hashtable.h;src/load.c;src/value.c,False
+a2adf6ec98bb45a3152e5006606a3d511e7b77a0,2009-05-12,1242153885,6c2e3d233e,Add support for iterating over objects,45,3,include/jansson.h;src/value.c,False
+61d0111323c7df3326d57856c7120c1af807a062,2009-05-12,1242153885,6c2e3d233e,"Bump hashtable, allocate object->hashtable statically",107,58,src/hashtable.c;src/hashtable.h;src/value.c,False
+9ea51b28550555484583713261e45df13026fba8,2009-05-12,1242153885,6c2e3d233e,Implement dumping to file,162,22,src/dump.c,False
+514bbeaf7fd2f005aea34257d89cc27b3b8919cf,2009-05-12,1242153885,6c2e3d233e,Parse an empty object correctly,4,1,src/load.c,False
+86e1481cdbcdb0dc0934b461a470609618b9d132,2009-05-12,1242155270,6c2e3d233e,Get rid of include/,0,0,{include => src}/jansson.h,False
+0b58486ec47d0b5b4dba6ea603de2682aaa15525,2009-05-12,1242155748,6c2e3d233e,Fix json_object_get,1,0,src/value.c,True
+6e160c146c51b6f587381c00df050570a60ed82f,2009-05-12,1242156110,6c2e3d233e,"Use autoconf, automake & libtool",0,0,,False
+fdcf28b667182d6b396ad4e4014a649854d10751,2009-05-13,1242242734,6c2e3d233e,Refactor error reporting,42,36,src/jansson.h;src/load.c,False
+d1407bed3ad8917c7b10c51785e19be2476b0ea1,2009-05-16,1242476101,6c2e3d233e,Implement dumping to an fd,17,0,src/dump.c;src/jansson.h,False
+9e63004c43c92145275c7f0f326db095264b91f3,2009-05-16,1242502011,6c2e3d233e,Add autotools generated files to .gitignore,0,0,,False
+7764f3f3213d345a4091197563aeae15d59bf7df,2009-06-09,1244576251,6c2e3d233e,Implement json_dump and json_dumps,59,0,src/dump.c,False
+9b825f7b1832381a6f25199ffff3f88e0bee3295,2009-06-11,1244699680,6c2e3d233e,Move max() to util.h,7,2,src/util.h;src/value.c,False
+197d3aa1608a3442d95152d20e15c2b32204aaaf,2009-06-11,1244699771,6c2e3d233e,Implement strbuffer,91,28,src/dump.c;src/strbuffer.c;src/strbuffer.h,False
+3e0134782b942c1334e2cbb08ef4fce76e90301c,2009-06-13,1244921183,6c2e3d233e,strbuffer: Allocate enough space for value initially,1,1,src/strbuffer.c,False
+8c697312e424055100eb937f40f57f136bb644aa,2009-06-13,1244921243,6c2e3d233e,strbuffer_value: Return a read-only pointer rather than duplicating the value,4,4,src/dump.c;src/strbuffer.c;src/strbuffer.h,False
+d135a80e07359a769e007347433f5157bb1f1fc1,2009-06-15,1245063230,6c2e3d233e,"Implement json_load, json_loadf and json_loadfd",114,10,src/jansson.h;src/load.c,False
+7dc6cfd9cc01b4c45f76ebd909849cc1a322bd94,2009-06-15,1245063233,6c2e3d233e,Fix a few memory leaks in json_parse_object(),5,1,src/load.c,True
+acfee50d5b27a6b3bc6ff6b6a80be1568bd5979f,2009-06-15,1245063233,6c2e3d233e,Add TODO,0,0,,False
+82dffff71f379237abbb0530cbe44188ea39527c,2009-06-15,1245094217,6c2e3d233e,Don't use AM_MAINTAINER_MODE,0,0,,False
+ae5ed3ff70d3fee53d37304ad4af56650082db33,2009-06-15,1245094252,6c2e3d233e,Fix json_set_error,4,1,src/load.c,True
+39802813f408bb15710497646ce961384110925f,2009-06-30,1246359320,6c2e3d233e,Use -Werror,0,0,,False
+dc9b954b62145d114cbf9039ed6c8fb57b30ac36,2009-06-30,1246359320,6c2e3d233e,Print correct error message on premature end of array,16,14,src/load.c,False
+b1fe723a7f7261e1127ffb17c7ff564918e88203,2009-06-30,1246359320,6c2e3d233e,Fix json_loadf and json_loadfd with empty input,22,14,src/dump.c;src/load.c;src/strbuffer.c;src/strbuffer.h,True
+b724c2b12222f8b9d2b9ad57c8a18b5e02738a76,2009-07-04,1246702765,6c2e3d233e,Separate integers and real numbers,117,32,src/dump.c;src/jansson.h;src/load.c;src/value.c,False
+43847767766380bf4d92a15992c6be851fc48add,2009-07-04,1246702781,6c2e3d233e,Fix empty array dumping,1,1,src/dump.c,True
+55af26f05a8e4f3cd30d99c042ca136d9fcbc261,2009-07-04,1246702781,6c2e3d233e,strbuffer: Optimize string termination,5,6,src/strbuffer.c;src/strbuffer.h,False
+f9c2a113bb09a4ccff3f7ba92d639ad3b40ee693,2009-07-04,1246734272,6c2e3d233e,Fix number tokenizer,12,7,src/load.c,True
+6b14df13cc1b453d0cc277d0ba50cbabc2745089,2009-07-09,1247162392,6c2e3d233e,Fix dumping of Unicode control codes,33,13,src/dump.c,True
+8ef778c8431c17d970b2667943c6ea13c3770912,2009-07-09,1247162500,6c2e3d233e,Add some tests,0,0,,False
+68e948f567717eac2be6841d89b20de84592352f,2009-07-09,1247162503,6c2e3d233e,Don't dump extra spaces when indenting,1,2,src/dump.c,False
+13c7ad32199869836977882f390d896e9cbd1b68,2009-07-13,1247510711,6c2e3d233e,Make the lexer not depend on locale,12,8,src/load.c,False
+4c414bdd6d1038195bb6a125fc86eb68d67857e3,2009-07-13,1247510716,6c2e3d233e,Get rid of json_dumpfd and json_loadfd,0,52,src/dump.c;src/jansson.h;src/load.c,False
+287ec3f9daf1ce9ddfe8330d957d242634a039eb,2009-07-13,1247510716,6c2e3d233e,Unify naming in parser,73,74,src/load.c,False
+625f50f9166592d165b8e4bd9681ba7938d4c072,2009-07-13,1247510716,6c2e3d233e,Streamify the loader,258,126,src/load.c;src/strbuffer.c;src/strbuffer.h,False
+1b67edb54df7d82e5aa75e92732a1ed809422dbf,2009-07-13,1247510716,6c2e3d233e,Little clean-up in parser,15,10,src/load.c,False
+902bcdaa5e0d0273b1ba576c2fd676a5565b6d5e,2009-07-13,1247517481,6c2e3d233e,Decode and check for correct UTF-8,186,4,src/jansson_private.h;src/load.c;src/utf.c;src/utf.h;src/value.c,False
+1f65a3cae74ac4d022db398d2f2c3df13143219a,2009-07-13,1247517484,6c2e3d233e,Get rid of JSON_SORT_KEYS dump flag,0,1,src/jansson.h,False
+df307f1bc39104a50919d8aeabb6ea1f42d911e5,2009-07-13,1247520279,6c2e3d233e,Report errors from lexical and stream level in parser,88,52,src/load.c,False
+7b702e8ad78c45c327d55c46fa4c66914bf7b286,2009-07-16,1247727428,6c2e3d233e,Remove TODO,0,0,,False
+a0435e3061783743a1b645e0d910688a08a7cfdf,2009-07-16,1247727428,6c2e3d233e,"Show the whole UTF-8 sequence in error message, not just the first byte",14,1,src/load.c,False
+9240146c102f97045836d33fa1a79b267a050172,2009-07-16,1247727503,6c2e3d233e,Implement support for \u escapes,124,13,src/load.c;src/utf.c;src/utf.h,False
+20efe4aa261bb997dc5f5d64e51a5db20583f960,2009-07-26,1248597085,6c2e3d233e,Expand parser and Unicode test coverage,0,0,,False
+d3b3055a34cef092f440001c5c79ae67acd37934,2009-07-26,1248634305,6c2e3d233e,Expand encoder test coverage,0,0,,False
+f60c563bab0388ee0ee74571ef0e2abf641685a8,2009-07-28,1248766576,6c2e3d233e,Enhance test system,0,0,,False
+b348519e96f3414c6264748c2c63bc2a1c64642a,2009-07-28,1248766701,6c2e3d233e,Fix some memory leaks and invalid memory references,22,7,src/dump.c;src/load.c,True
+f41e3809844319feae0033ce84d3acc2c5340e8d,2009-07-28,1248767893,6c2e3d233e,"Rename json_{load,dump} to json_{load,dump}_file",35,35,src/dump.c;src/jansson.h;src/load.c,False
+2f4d6f8ae768886f8ee831bae169763856b5a827,2009-07-30,1248942744,6c2e3d233e,Add LICENSE and a copyright note to all sources,70,0,src/dump.c;src/jansson.h;src/jansson_private.h;src/load.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/util.h;src/value.c,False
+08d712d0382fe3b6340353b133f5c7f51e1946de,2009-07-30,1248942747,6c2e3d233e,Add macro json_is_boolean,1,0,src/jansson.h,False
+36530d8c2584815c8a35ab3c21a427b0a03e539c,2009-07-30,1248942747,6c2e3d233e,Remove unimplemented json_clone(),0,2,src/jansson.h,False
+0428f48d19b5206547d9b4ea010ff41eb5e5d92d,2009-08-04,1249408682,6c2e3d233e,Refuse to dump other types than array and object as the root value,6,0,src/dump.c,False
+251722d499cc2ec0962580f6cf60ed0acdc5330e,2009-08-13,1250177883,6c2e3d233e,Add README and API reference,0,0,,False
+c21ade41e07be9ccf43f5bd8acec87652418a744,2009-08-23,1251023652,6c2e3d233e,run-test: Don't remove all testlogs when starting a new test suite,0,0,,False
+0565988d12ef926c1381d11634eb039691246153,2009-08-23,1251023652,6c2e3d233e,Expand value test coverage,0,0,,False
+114fc96f761358a0e0c0746674345a537576e2f0,2009-08-23,1251023652,6c2e3d233e,array: Fix a few checks and a leak,4,2,src/value.c,True
+b3e265eb843328749b5d1a943377992034c49475,2009-08-24,1251136480,6c2e3d233e,Add test for numbers,0,0,,False
+ee2d164025b5090c7cd81ffd8c1e3e07d45e5d31,2009-08-24,1251136739,6c2e3d233e,Detect garbage near EOF in json_loadf() and json_load_file(),10,0,src/load.c,False
+6e17271fa9da663f8a422922a08e3ec196ec56eb,2009-08-25,1251211841,6c2e3d233e,Add some missing copyright notices,0,0,,False
+bf0d38396121d11ceccb530bb8b8739393b2690b,2009-08-25,1251224606,6c2e3d233e,test: Add Makefile.am to test/testprogs,0,0,,False
+390b0ba633ded8af492d842c0e7e184a355f33a8,2009-08-25,1251226114,6c2e3d233e,Distribute appropriate files,0,0,,False
+6b70406bf491c3b02f34a1893b2c61240c81a55a,2009-08-25,1251226247,6c2e3d233e,jansson 1.0,0,0,,False
+5ac491464256790b46ebffbf0e20e4c4f47a5bb2,2009-09-02,1251922246,6c2e3d233e,Change the version to 1.0+,0,0,,False
+89d09813c376a1ba59a5fd015dd905e2778c7407,2009-09-04,1252047157,6c2e3d233e,Add reference stealing functions for inserting values to objects and arrays,60,12,src/jansson.h;src/value.c,False
+9611780907cdb0154bd41232df7b2a41903a4ca5,2009-09-04,1252047160,6c2e3d233e,dump: Optimize indenting,9,8,src/dump.c,False
+05654bfcbad98324413c65bc0ea103a1b701c1be,2009-09-04,1252047160,6c2e3d233e,doc: Fix typo,0,0,,False
+93c5892bc3a8138ba44a626d0172563a714e5b64,2009-09-04,1252047160,6c2e3d233e,load: Factor out an unneeded strdup,12,1,src/load.c,False
+1095ca956b360a3614392f88b2dc132d89ef00a1,2009-09-04,1252047160,6c2e3d233e,Don't define -std=c99 in AM_CFLAGS,0,0,,False
+78eda92908fd98e9e20df89d3f0c26f7232de141,2009-09-04,1252066860,6c2e3d233e,jansson.h: Fix typo,1,1,src/jansson.h,False
+e4be4a4a288f2308c8f742da9127a6339fe36765,2009-09-04,1252087135,6c2e3d233e,jansson 1.0.1,0,0,,False
+ab2d93b72486eda30e868b226bec5dcd5ec3273e,2009-09-06,1252230347,6c2e3d233e,Add CHANGES,0,0,,False
+6ffb04f0d400e1ac4d08239c0003cd57e8c06721,2009-09-06,1252235162,6c2e3d233e,Expand test coverage,0,0,,False
+42e546d065cb27814ff06d13a919b0274df4b12d,2009-09-06,1252264598,6c2e3d233e,doc apiref: json_incref() returns its argument,0,0,,False
+98a8c1aebff7a414f0830bc4f6b7bee19405f865,2009-09-06,1252265062,6c2e3d233e,Don't include unistd.h,0,2,src/dump.c;src/load.c,False
+234ee4728124d8d07412d159b45dd10854b6d6d8,2009-09-06,1252265095,6c2e3d233e,Better argument validation,23,2,src/value.c,False
+057ba29a27c0aca5e6566a8037623c0cbdaea8d6,2009-09-07,1252346995,6c2e3d233e,doc apiref: Enhancements,0,0,,False
+c288188a0fd2d7ae5cc38c7c2b3ce326f15c25f9,2009-09-07,1252347922,6c2e3d233e,test/.gitignore: Add testprogs/test_simple,0,0,,False
+7ee974e91c05d334b3a186937916bc843c537b8e,2009-09-07,1252348814,6c2e3d233e,"Don't perform reference counting on true, false and null",8,8,src/jansson.h;src/value.c,False
+0f62dac6272e30fa33c59ba97d51dafb06bf12ee,2009-09-08,1252417267,6c2e3d233e,load: Handle EOF correctly,2,5,src/load.c,False
+827a01937f480bfc388da0fe5a5e2242fd2ec1c4,2009-09-08,1252417706,6c2e3d233e,jansson 1.0.2,0,0,,False
+9cc6fbe58024d63473846ddb424a69b7efc03b90,2009-09-08,1252418265,6c2e3d233e,Distribute CHANGES,0,0,,False
+04d550b02e8eadc0c9fb1966fe42fe9fc25f89e0,2009-09-08,1252418581,6c2e3d233e,Add stripped unit tests for decoder,0,0,,False
+9d16ec755c9754fe1f79fe55ab719a7f8578ce37,2009-09-11,1252696954,6c2e3d233e,test/json-compare.py: Use json module from Python >=2.6 or simplejson,0,0,,False
+743af38e7f2453bb90190433b1c05615eed6d747,2009-09-13,1252836994,6c2e3d233e,Use unsigned long instead of uint32_t,8,8,src/dump.c;src/jansson.h,False
+5406c2b3d347505149d382213b6f318f8c35de6a,2009-09-13,1252837081,6c2e3d233e,load: Check for integer and real overlfows and underflows,40,9,src/load.c,False
+ab3764ed0a376633037599773010feeba64ec1a3,2009-09-14,1252913271,6c2e3d233e,test/json-compare.py: Use json module from Python >=2.6 or simplejson,0,0,,False
+6d8c287032f9b87f1d787d41ecf9c37cdf29892c,2009-09-14,1252913283,6c2e3d233e,load: Check for integer and real overlfows and underflows,40,9,src/load.c,False
+b7bf96996f4db14c75499ddb529d5017893ad294,2009-09-14,1252927961,6c2e3d233e,jansson 1.0.3,0,0,,False
+b3e1fe2ec5c0fb4d7307ad27fe0ac0ef14c87b37,2009-09-20,1253472972,6c2e3d233e,doc: Add getting started guide,0,0,,False
+cbacac597516b3d7309bf0811ea18cd43870bce4,2009-09-29,1254251878,6c2e3d233e,Extend array API,158,10,src/jansson.h;src/value.c,False
+afc9c1a23a139b0ed1bba2c375ca27ebd278c642,2009-10-01,1254423269,6c2e3d233e,Relax Autoconf version prereq,0,0,,False
+9c5a8430dbb05f5308ab19fbd0a26d92483b7118,2009-10-01,1254423285,6c2e3d233e,Make it compile on platforms where char is unsigned,3,3,src/dump.c;src/load.c,False
+19588c2d694b85aa99c864a5f7abe316e46ab548,2009-10-06,1254824547,6c2e3d233e,Fix a few more compilation issues,2,2,src/load.c,True
+8de850be95342d1cfbc1133f0ab95cc1d4c99a25,2009-10-10,1255198882,6c2e3d233e,Remove config.h.in,0,0,,False
+9d648a87cb13df0308723c3000acc4fe0e955406,2009-10-10,1255204416,6c2e3d233e,Check json_object_set_new arguments,1,1,src/value.c,False
+40bb7bf4378e09570f3921cd76cdce6acc873259,2009-10-10,1255204515,6c2e3d233e,Fix API tests for object,0,0,,True
+1e00cd58a514a61e829e639f1e40dac94a334561,2009-10-11,1255283041,6c2e3d233e,Extend object API,94,13,src/hashtable.c;src/hashtable.h;src/jansson.h;src/value.c,False
+30015bde90a0de993b4e098cac49315b03bc4e97,2009-10-11,1255286321,6c2e3d233e,Remove config.h.in,0,0,,False
+12cd4e8c093476b596012a7f5f4840fac69d1605,2009-10-11,1255286322,6c2e3d233e,jansson 1.0.4,0,0,,False
+bad16ea52a98daa21afa8f05dcabd95bf74221f3,2009-10-11,1255286322,6c2e3d233e,Fix API tests for object,0,0,,True
+185e107d24f24a4641d598722bc3f60eac10effc,2009-10-13,1255437626,6c2e3d233e,Don't use non-portable asprintf(),13,14,src/dump.c,False
+951d091f071a3b1fe4c0ae29e31e94b9c475473e,2009-10-14,1255497782,6c2e3d233e,"Make integer, real and string mutable",47,4,src/jansson.h;src/value.c,False
+22af193a51a48d913afa86577a30189007ac86e8,2009-10-14,1255547354,6c2e3d233e,doc/Makefile.am: Remove *.pyc in clean,0,0,,False
+76999799ed675a8d6922a8f7c61cf1712f6f3d1f,2009-10-15,1255617589,6c2e3d233e,doc: Fix a small typo in apiref,0,0,,False
+79009e62c10bab0869d61edfaa6c813f03f027bc,2009-10-15,1255629272,6c2e3d233e,json_dumps: Close the strbuffer if dumping fails,6,2,src/dump.c,False
+4cd777712b1e4ec17dc9efcced80a90f83ec1915,2009-10-15,1255629747,6c2e3d233e,Enhance handling of circular references,75,42,src/dump.c;src/jansson_private.h;src/value.c,False
+b67e130fda46fb258ac9c974b73cd6f8c70665dc,2009-10-15,1255630019,6c2e3d233e,json_dumpf: Document the output shortage on error,0,0,,False
+86dc1d629b3ac74e5e9b65cbcb5ca53e1d15b698,2009-10-16,1255717238,6c2e3d233e,Fix indentation,14,13,src/dump.c;src/hashtable.h;src/load.c;src/value.c,True
+a00988f6636a4e53b736be8758b63db8d6ca0446,2009-10-17,1255778320,6c2e3d233e,doc: Add tutorial,0,0,,False
+a83cd30c31bbffe799be237cbbe2e4302e2243e0,2009-10-19,1255944141,22df517cc1,Add C++ guards to jansson.h,8,0,src/jansson.h,False
+cd96049d1061ff7095200bf460180554015cf32f,2009-10-19,1255978571,6c2e3d233e,Enhance documentation,0,0,,False
+1b02f3546c19664ce80f39181f077709ffb5f573,2009-10-20,1256063029,6c2e3d233e,Distribute stripped unit test data,0,0,,False
+325101e525087a24fcdf34da0fe0d4a6c9756d28,2009-10-20,1256063356,6c2e3d233e,jansson 1.1,0,0,,False
+8d53f447bff4fc307a83490ef6b7b8fd2ffcc56a,2009-10-21,1256104303,6c2e3d233e,Set the version number to 1.1+,0,0,,False
+5ff8ae8052fcd179bc919e9ed3c7b699a80b8c27,2009-10-21,1256104354,6c2e3d233e,Fix version 1.1 release date in CHANGES,0,0,,False
+7c7a1ed01eaffb5d211eebb14f3f139b102c4364,2009-10-24,1256382971,6c2e3d233e,Fix version 1.1 release date in CHANGES,0,0,,False
+9448ed3ef7a2dd0238d9d8d2c684eb1d499cf607,2009-10-24,1256382972,6c2e3d233e,Distribute all the docs,0,0,,False
+f95bb423a36ecac8a588def950ee4cf155dd3144,2009-10-24,1256419036,6c2e3d233e,Really distribute all the docs,0,0,,False
+59c58ea26c61d92d257b7a5971bcd3bdb235177f,2009-10-24,1256419223,6c2e3d233e,Build documentation in distcheck-hook,0,0,,False
+15d992cb6a6eeab8c2f4c7d00fa06a52fca62287,2009-10-26,1256585230,6c2e3d233e,jansson 1.1.1,0,0,,False
+f243930b6843295b81a4e4025497e40f19ff53ac,2009-10-27,1256658962,6c2e3d233e,json_load_file: Initialize the error struct properly,2,0,src/load.c,False
+d3959a8ce79bb30a8b39a275a4682885e97d17cc,2009-10-29,1256823916,6c2e3d233e,load: Parse a badly put - sign correctly,5,1,src/load.c,False
+bf01067a8a73b1a69301c99adbfa76ca836cedb7,2009-11-03,1257282544,6c2e3d233e,Build documentation in make html target,0,0,,False
+f236c14dc5457a41119492ebce41b8920fd31f65,2009-11-04,1257365380,6c2e3d233e,dump: Revise whitespace usage,25,16,src/dump.c;src/jansson.h,False
+ca6d26a1c2c4626c93b863580bf0959e690c446c,2009-11-07,1257597946,6c2e3d233e,Don't include stdint.h in jansson.h,0,1,src/jansson.h,False
+842bc2128b70e5390cacf83a24375cd5c0d0341c,2009-11-08,1257682412,6c2e3d233e,jansson 1.1.2,0,0,,False
+d857fd08a5bed44fc0c036737f0bc774db3ff562,2009-11-28,1259408346,6c2e3d233e,doc/github_commits.c Add copyright notice,0,0,,False
+330e892ff645c4cb0956f32a6a28dfe7203b3390,2009-11-29,1259492447,6c2e3d233e,Make parse_json static,1,1,src/load.c,False
+7c707a73a2251c20afaecc028267b99d0ee60184,2009-11-29,1259492652,6c2e3d233e,"Only export symbols starting with ""json_"" in libjansson.la",0,0,,False
+d67aeb9739bf3e963ceaa8b622d20cd87a0b65fe,2009-12-02,1259790834,6c2e3d233e,Use int32_t instead of plain int with Unicode code points,10,6,src/dump.c;src/load.c;src/utf.c,False
+50031440a3b7ab2623e9468bd20e837250250cd9,2009-12-05,1260046530,6c2e3d233e,Implement JSON_ENSURE_ASCII encoding flag,88,22,src/dump.c;src/jansson.h;src/load.c;src/utf.c;src/utf.h,False
+3add1cf36183d4acefa11ae1c0acd6d92719ac02,2009-12-16,1260996329,6c2e3d233e,Refactor the test system,0,0,,False
+19a606d7361e73ff2f5e0b240c2adb07b35e4273,2009-12-16,1260997959,6c2e3d233e,Implement JSON_SORT_KEYS encoding flag,87,13,src/dump.c;src/jansson.h,False
+ec96cbf01693a90db15a13c3e77f68909036989e,2009-12-17,1261087506,6c2e3d233e,Encode reals correctly,16,1,src/dump.c,False
+34fb97998cfeb4ae6f4bc9450c9144bd7572c1f6,2009-12-18,1261165392,6c2e3d233e,jansson 1.1.3,0,0,,False
+3889af476ba52e98de210e8e0b3b4a44a26b3a60,2009-12-21,1261392649,6c2e3d233e,Enhance tests,0,0,,False
+2db2f2cfb6d48e74539454a93b58734fb0246b8b,2009-12-21,1261392749,6c2e3d233e,Fix tests for real,0,0,,True
+f5202bedef766b68141e20bba3489b4a3aebaf3d,2009-12-21,1261397526,6c2e3d233e,Remove const qualifier from the json_t parameter in json_*_set() functions.,6,6,src/jansson.h;src/value.c,False
+dd2fe1ebe80fa9a95265fbcd20b6ffdfdc30d469,2009-12-23,1261600104,6c2e3d233e,Add _nocheck functions,18,12,src/jansson.h;src/jansson_private.h;src/value.c,False
+22173c1d8bba09e764ba847646941ef7a43451fc,2009-12-23,1261600199,6c2e3d233e,Add check-exports test,0,0,,False
+95a468cebb450ed779db90ca8c5805ffa2c93370,2009-12-31,1262278236,6c2e3d233e,Add equality test for JSON values,98,0,src/jansson.h;src/value.c,False
+9db34dc31a69312ec1f486e6273d1bf5c80f978d,2009-12-31,1262278239,6c2e3d233e,Add functions for shallow and deep copying JSON values,161,0,src/jansson.h;src/value.c,False
+aeb5b481c95c6bd71e3025a7965861ab82a643b8,2010-01-07,1262885420,6c2e3d233e,Add pkg-config support,0,0,,False
+508873de9bad7019872857c7aa031570f6c1f205,2010-01-10,1263127151,6c2e3d233e,Use _nocheck functions internally for speed,4,4,src/value.c,False
+b21f07b35c7cbf80a2275fde97b65b270119d9a1,2010-01-10,1263133126,6c2e3d233e,Enable Valgrind support in the API suite,0,0,,False
+93ac06c902cd9518fc467c1e40c6bd46c4ee0d0c,2010-01-10,1263150067,6c2e3d233e,Fix memory leaks in json_*_deep_copy(),2,2,src/value.c,True
+7f8684828d481b90a17a1738b8f15f732904569f,2010-01-10,1263150128,6c2e3d233e,Fix memory leaks in json_equal() tests,0,0,,True
+1e3b41e8ea82b83d7072a6e08a8dcb4a3c134a98,2010-01-12,1263287409,ce6362ebe3,initial commit of janssonxx.h,207,0,janssonxx.h,False
+39601c183a79686b7940dd7927e416268d2e8770,2010-01-12,1263287420,ce6362ebe3,add tests,66,0,test.cc,False
+6818c117ee1e2cfe304f15497e754823f15c29d9,2010-01-12,1263287438,ce6362ebe3,ignore test-bin output file,0,0,,False
+bd091278595b76cb2a72c977b8e6526a764d85b0,2010-01-12,1263288407,ce6362ebe3,cleaner assignment behavior,62,25,janssonxx.h;test.cc,False
+cd18aa97f079df52edae73a7a84cf6bf5e5ea901,2010-01-12,1263288584,ce6362ebe3,added README,0,0,,False
+5a20e2695bd3fefff62dd74bf5b77b89816a02d2,2010-01-12,1263288668,ce6362ebe3,add link to Jansson web to README,0,0,,False
+c994eddec418b4200b04e7f30287b15159e9eb9d,2010-01-12,1263288898,ce6362ebe3,expand array assignment tests,14,0,test.cc,False
+f743c4ee7f199ce2b0efeb99f56c91426e0f5263,2010-01-12,1263289277,ce6362ebe3,test object property assignment and clear,27,0,test.cc,False
+36085ab49af15a6df9aabbae4b027ca54f380bff,2010-01-12,1263298406,ce6362ebe3,include jansson.h inside the jansson namespace,3,1,janssonxx.h,False
+7ef3202f835835aa5d3f18c662ae09c2f6d5f603,2010-01-12,1263298817,ce6362ebe3,added save_file and save_string methods,19,0,janssonxx.h;test.cc,False
+d77c2e3fb0bee8bdb0c5210930845082a2064513,2010-01-12,1263299190,ce6362ebe3,cleanup the take_ownership function a bit,20,18,janssonxx.h,False
+8d5d2a93d589271aea335d0c3af0d25e6125fc7c,2010-01-12,1263299402,ce6362ebe3,remove some unnecessary checks,8,26,janssonxx.h,False
+b077d7988e2ec55e09df35e3c0383a86adf807da,2010-01-12,1263324556,6c2e3d233e,Update documentation,0,0,,False
+b98e9d180cdbe0d6f890ecaae3a6d3dcaf1f4926,2010-01-12,1263338097,ce6362ebe3,rename the set() methods,18,12,janssonxx.h;test.cc,False
+f79a81dad96a6f3a57c5d5b0bbb65aa0494975a6,2010-01-12,1263338985,ce6362ebe3,add (ugly) stream support,32,0,janssonxx.h;test.cc,False
+8d3a9e347cc05a05ae1909a7156cf0b96c440106,2010-01-12,1263339216,ce6362ebe3,rename as_json_t to as_json,6,6,janssonxx.h,False
+7d09af38c1c993bf2c08a9c776a58df9b0ce2efe,2010-01-12,1263339527,ce6362ebe3,remove auto type conversion on array/object assignment,6,14,janssonxx.h;test.cc,False
+7ba18d3f0a7c4ab83b28c6b98f21acee41616ed2,2010-01-13,1263341007,ce6362ebe3,use different temporaries in tests instead of reusing e3,56,56,test.cc,False
+492d95329aceab9a404d082562c24fa946196904,2010-01-13,1263341277,ce6362ebe3,add proper attribution to janssonxx.h,8,0,janssonxx.h,False
+17805e582951a2101452ddb6d3d211f82720d439,2010-01-13,1263341831,ce6362ebe3,insert and remove methods,35,3,janssonxx.h;test.cc,False
+01759517aa8172270725cdac22384239ceabee14,2010-01-14,1263436364,ce6362ebe3,add Value::from(float),1,0,janssonxx.h,False
+5a0efe6536faf22bdbab90b130fb8965631a519d,2010-01-14,1263436399,ce6362ebe3,add a safeguard against NULL return output stream,4,2,janssonxx.h,False
+63f762bc4847147bb9c18ed9ef41911daa444823,2010-01-14,1263436457,ce6362ebe3,save flags default to 0,2,2,janssonxx.h,False
+69437a7183c4d7105fc5e85021642ab9a04eaf6b,2010-01-14,1263436507,ce6362ebe3,dont attempt to create a std::string from NULL in as_string(),4,1,janssonxx.h,False
+b76ee75aad975849ce8a55d10c55e5090dd33d8f,2010-01-14,1263499428,6c2e3d233e,doc: Convert CHANGES to reStructuredText and add it to HTML docs,0,0,,False
+87df8bb0fe16f0a579b2b77a3fc694af12d6a6b8,2010-01-16,1263633199,ce6362ebe3,templatize janssonxx functionality to prepare for proxy setters,234,229,janssonxx.h;test.cc,False
+1bc0225441d17011de0681004265e9edec1a8eab,2010-01-16,1263633867,ce6362ebe3,add array element proxy support,42,9,janssonxx.h;test.cc,False
+f0be52f9f83909de249544d3d1c12bd3ccec057a,2010-01-16,1263634297,ce6362ebe3,add object property proxy support,36,6,janssonxx.h;test.cc,False
+49a64a6edf712d196f6c3b68f8c239436777870c,2010-01-16,1263634573,ce6362ebe3,rename and move the _* private classes to _private namespace,172,168,janssonxx.h,False
+2dc2b6bab7176f5e49597fc97aaf6788d5f53b01,2010-01-16,1263634816,ce6362ebe3,rename ArrayProxy to ElementProxy and ObjectProxy to PropertyProxy,20,20,janssonxx.h,False
+cc06bc334a39d78d5bd580438f3a92863a2b78df,2010-01-17,1263701733,ce6362ebe3,cleanup code,56,95,janssonxx.h,False
+f88a5a0e6b1ee3284238cb4ea3af73c0be501fcb,2010-01-17,1263701868,ce6362ebe3,added a couple minor comments,2,1,janssonxx.h,False
+df35adc43856cfef48abd3af93cf4275e7866899,2010-01-17,1263702112,ce6362ebe3,add comments noting inefficiency of stream ops,2,2,janssonxx.h,False
+dd36e4e838b6d7eb9c0951f92d81118289a0a0db,2010-01-17,1263702433,ce6362ebe3,rename files to match upstream's preferences,18,6,janssonxx.tcc => jansson-impl.hpp;janssonxx.h => jansson.hpp;test.cc => test.cpp,False
+95bf762eebf3f3c2ed2d690eaf30e6c3885143d4,2010-01-19,1263868633,ce6362ebe3,rename jansson namespace to json,42,42,jansson-impl.hpp;jansson.hpp;test.cpp,False
+ef6c35ae1baa9bab3333636088c4b132b3aeeec5,2010-01-19,1263869413,ce6362ebe3,"move static functions out of Value, add test driver to ensure linking works properly",134,130,driver.cpp;jansson-impl.hpp;jansson.hpp;test.cpp,False
+e0806677296e1d223adb02f0cbf0a03837bf893b,2010-01-19,1263871465,ce6362ebe3,replace json::from() with explicit Value() constructors,75,75,jansson-impl.hpp;jansson.hpp;test.cpp,False
+c9b33e33867ca101b50d54f36057463ca353ec29,2010-01-19,1263879362,ce6362ebe3,integrate jansson.hpp into build and test suite,0,0,,False
+56687e9b56e92ea44e3a9c5e90434833edadea36,2010-01-19,1263880525,ce6362ebe3,add meaningful copyright to jansson.hpp,2,4,src/jansson.hpp,False
+38950b081cae9b231b5474d4cb861f8fa2b1d099,2010-01-19,1263880541,ce6362ebe3,add meaningful copyright to jansson-impl.hpp too,2,4,src/jansson-impl.hpp,False
+e921e63b542e18f1667b8858052350ded186cfd3,2010-01-19,1263928777,6c2e3d233e,CHANGES: Update for v1.2,0,0,,False
+78594e9bd33372673969c96e08e6fe92d53bc368,2010-01-21,1264099985,6c2e3d233e,"Remove CHANGES preprocessing, as it didn't work with VPATH builds",0,0,,False
+4c6cb6afd18793f8ae5b56d8435088539c170290,2010-01-21,1264103311,6c2e3d233e,Distribute some missing files,0,0,,False
+2ae279e0d4f071c6dc3bbb1c2c2cfe1f337a5b98,2010-01-21,1264103344,6c2e3d233e,test/run-suites: Be less picky when searching for tests,0,0,,False
+8c2ca3fae650349a31d5e0c7ff3b7649ff8ee804,2010-01-21,1264103350,6c2e3d233e,jansson 1.2,0,0,,False
+04f7e278777048b7ab35305d03e74f141519cd0c,2010-01-21,1264105866,6c2e3d233e,Update LICENSE,0,0,,False
+aaae37afba8f3695bafff934dd259553c4aed974,2010-01-26,1264533588,6c2e3d233e,doc/Makefile.am: Don't remove changes.rst in clean,0,0,,False
+d8ea2f8c4b16d52d16d089de384b890c2201311f,2010-01-28,1264705072,6c2e3d233e,run-tests.sh: Print the test name correctly when VERBOSE=1,0,0,,False
+ab2e56768571dbe555d6bd56d31af07771f1e3a9,2010-01-28,1264705106,6c2e3d233e,test/suites/api: Fail when a test fails,0,0,,False
+f5662a82cd8fc4d5f43123ed81e5d4b7d5e34bb4,2010-01-28,1264705461,6c2e3d233e,test/suites/api/test_object.c: Enhance tests for iterators,0,0,,False
+b495b9654715ca8ea2f18d7f92eff9da2ed57083,2010-02-01,1265051239,6c2e3d233e,"Add functions json_object_iter_{at,set,set_new}",77,0,src/hashtable.c;src/hashtable.h;src/jansson.h;src/value.c,False
+5b1a666cf12e364713392fc9fa4d4162e83f514f,2010-02-02,1265135822,6c2e3d233e,test/suites/api: Detect tests correctly,0,0,,False
+2b43e7dbda1726f61b44c535590321dfcddde925,2010-02-02,1265137210,6c2e3d233e,"C++: Untabify, reindent, delete trailing whitespace",673,673,src/jansson-impl.hpp;src/jansson.hpp,False
+b07e69c37aa7cc1dd27aff9f3ba5cef703f2e357,2010-02-02,1265137310,6c2e3d233e,C++: Rename namespace json::_private to json::detail,12,12,src/jansson-impl.hpp;src/jansson.hpp,False
+d1a0c3ffc2c7d383c801e679c7aa0719a2f25794,2010-02-02,1265137858,6c2e3d233e,C++: Rename jansson-impl.hpp to jansson.ipp,4,4,src/jansson.hpp,False
+c9fc055351b67256042c73a6a0a915c5b3b40c63,2010-02-02,1265138090,6c2e3d233e,Add myself as another copyright holder for jansson.hpp and jansson.ipp,1,0,src/jansson.hpp,False
+08dc8d9bafcb13bb1541894918f4a394e644e6e1,2010-02-02,1265138771,6c2e3d233e,Add year 2010 to copyright notices,12,12,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson.h;src/jansson_private.h;src/load.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/util.h;src/value.c,False
+910a2f318bdf7d61d982ab76d2518d58d16b0365,2010-02-04,1265309341,6c2e3d233e,C++: Rename test.json to test_cpp.json,0,0,,False
+49d40f020b471f693fdd179729faa8be916f7114,2010-02-04,1265309402,6c2e3d233e,C++: #include <cstdio> in jansson.hpp,5,0,src/jansson.hpp,False
+b8059a18801ae067d13f1e5d9e872e4cf11bc58f,2010-02-04,1265310518,6c2e3d233e,C++: Rename some functions to better match the C API,3,3,src/jansson.hpp,False
+adb1b586274b920a78ca9dc4d728a9086510c2dd,2010-02-04,1265310522,6c2e3d233e,"C++: Add Value::dump_file(), load_file() and loads() that take an std::string",3,0,src/jansson.hpp,False
+f021ba00a2f06a08ac767a94f6fdebb01d3f74b4,2010-02-04,1265310604,6c2e3d233e,C++: Fix test_cpp.cpp to work with VPATH builds,0,0,,True
+286823227c8c06e729dd939ec53b124c5c9afbc4,2010-02-06,1265483501,6c2e3d233e,Make int32_t available on all systems,9,2,src/dump.c;src/load.c;src/utf.h,False
+acec2559a5da3390dcf2728eb37e69ecedf33267,2010-02-07,1265544534,6c2e3d233e,C++: Make proxies safer,7,5,src/jansson.hpp,False
+7e8b128740336bad50e32bbe9dc86f47b406ce6a,2010-02-08,1265655069,6c2e3d233e,C++: Optimize PropertyProxy,3,0,src/jansson.hpp,False
+307167fb66e83946dca6d1b22bc43ae9fd406a16,2010-02-09,1265741485,6c2e3d233e,Optimize hashtable_set(),24,16,src/hashtable.c,False
+f18ef5144a77ebdbe7285711884b217b86e2c3b6,2010-02-11,1265914136,6c2e3d233e,Implement JSON_PRESERVE_ORDER encoding flag,65,20,src/dump.c;src/jansson.h;src/jansson_private.h;src/value.c,False
+35ddd2de2058efdb3443760c85a8aa3ce8078584,2010-02-11,1265914556,6c2e3d233e,"Update CHANGES, change version to 1.2+",0,0,,False
+42621370c3b562dff33cd8a8a043cb7bd519d4a6,2010-02-11,1265915839,6c2e3d233e,hashtable: Fix typo in comment,1,1,src/hashtable.h,False
+a2a9107600da8ed0302e414fef8b9e70233e71ca,2010-03-18,1268889763,6c2e3d233e,Don't include stdint.h anywhere,1,1,src/utf.c,False
+7d5982e6fe4c65cdb6961d722d7e1e00ca45d40d,2010-03-18,1268919309,9cfc6069ec,c++ wrapper: add missing 'inline' statements to various constructors,6,6,src/jansson.hpp,False
+66a69f3f1056da25446b01b18e01c9484f432c68,2010-03-19,1268979108,6c2e3d233e,Ignore temporary files *~,0,0,,False
+f284e3c069abcdfc1145e939b0c284910c274d17,2010-03-23,1269324752,6c2e3d233e,"Fix reference counting on true, false and null",3,3,src/value.c,True
+f76966b4387607f54f294630ffc6d89a78530787,2010-03-26,1269631776,6c2e3d233e,Enhance tests for null byte,0,0,,False
+bb89a5d4d377f7b6b8c0c9ce3a2698b112447d08,2010-03-26,1269633596,6c2e3d233e,Estimate real number underflows with 0.0,1,8,src/load.c,False
+c7c2edae8a6a2ba25c31d50c9f44bbbf080889da,2010-03-26,1269633806,6c2e3d233e,doc: Add chapter on RFC conformance,0,0,,False
+29ee3832cf1cee4cfebad8e440b58877437c4615,2010-03-28,1269800048,6c2e3d233e,"Support compilers that don't have the ""inline"" keyword",5,0,src/hashtable.c;src/value.c,False
+024106bbfbd7376656876aa8bd00a333d5ada10c,2010-03-28,1269800380,6c2e3d233e,Require autoconf 2.60,0,0,,False
+047a1417fb4f09f995eb2671ee52253f7f1e1e76,2010-04-03,1270291796,6c2e3d233e,jansson 1.2.1,0,0,,False
+ce42e30b8c0fc57eb1c15e693b91924243f8ba14,2010-04-03,1270291796,6c2e3d233e,doc: Distribute conformance.rst,0,0,,False
+f9475f9577bd62b4e1586fbefcbcf70a460b9e61,2010-05-07,1273206911,6c2e3d233e,load.c: Make stream_init() static,2,1,src/load.c,False
+2630980f49088a06c32cebdc866e4f518106af29,2010-05-14,1273817156,6c2e3d233e,Zero the visited flag after encoding an empty array or object,6,2,src/dump.c,False
+453e4c0aa2fbca95676fa966cc5602f5daf0a1f2,2010-05-14,1273818215,6c2e3d233e,Zero the visited flag after an encoding error,24,16,src/dump.c,False
+978a47e2c52cca0999bbc8eb6d35674d4931ed5c,2010-05-20,1274370324,6c2e3d233e,Clarify the documentation on reference stealing,0,0,,False
+1a090bbcd3ce95260ee5a69f0e21bc50f655b606,2010-06-10,1276193767,6c2e3d233e,Fix a few memory leaks in tests,0,0,,True
+1347686dbf7c06e03d6a3d5c8999315cc7158af3,2010-06-12,1276371949,6c2e3d233e,Remove the C++ interface,0,317,src/jansson.hpp,False
+2caac965d4f675b51815be4a5ae1f305587be911,2010-06-13,1276450653,6c2e3d233e,jansson 1.3,0,0,,False
+b461c652b490219ccbbedc4fd663a564dd92d502,2010-06-14,1276515338,6c2e3d233e,Add a few missing changes to CHANGES for v1.3,0,0,,False
+b354f8a35af3b202e73d42ba9e1a252ad41062d8,2010-06-14,1276543815,6c2e3d233e,configure.ac: Remove unneeded AC_PROG_CXX,0,0,,False
+68f2861e92e08eb5e2af51c026981bc1e990e1eb,2010-06-15,1276605539,6c2e3d233e,Unify unsigned integer usage in the API,53,54,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson_private.h;src/value.c,False
+6e3ca5c45c984a27d0f5c9b9249e17ef0c412e3a,2010-06-16,1276713250,6c2e3d233e,Clarify the documentation,0,0,,False
+014c49c28570eddeb482f8580a88d48b491d15b0,2010-08-10,1281465918,6c2e3d233e,Change JSON integer's underlying type from int to long,9,9,src/dump.c;src/jansson_private.h;src/load.c;src/value.c,False
+7ce70533c90dc7dfc3570023144547dfb32950e1,2010-08-10,1281467815,6c2e3d233e,Move site configuration to jansson_config.h,0,0,,False
+f71eb7fe1749836ac45cc6c0015dd6d2aec4bef9,2010-08-12,1281636009,6c2e3d233e,Check for gcc before setting gcc specific CFLAGS,0,0,,False
+94182a5acc7e866e2ad56a34f0c5f74db45db86e,2010-08-12,1281636612,6c2e3d233e,Replace inline with JSON_INLINE in json_object_iter_set() declaration,0,0,,False
+519d52e2bb6a3840100a84e826d8d8ac91e2d3d8,2010-08-12,1281638091,6c2e3d233e,Beautify the container_of macro,2,1,src/jansson_private.h,False
+145032a57f7844c29f2c40415b46338ac3445207,2010-08-12,1281638123,6c2e3d233e,Make object_key_t portable,7,4,src/jansson_private.h;src/value.c,False
+ffbab6fedd86ee1a0c7884d62fa7233ce9d745d2,2010-08-13,1281726440,6c2e3d233e,Change the underlying type of JSON integer from long to json_int_t,35,18,src/dump.c;src/jansson.h;src/jansson_private.h;src/load.c;src/value.c,False
+f8d0e01e46cd9452b5d7780906029d899215cb89,2010-08-13,1281726756,6c2e3d233e,Change the maximum indentation size to 32 spaces in encoder,7,7,src/dump.c;src/jansson.h,False
+bfac1972e25b40f849852ce3c10e0a8ad47f79d7,2010-08-14,1281796089,6c2e3d233e,Add a flags parameter to all decoding functions for future needs,9,7,src/jansson.h;src/load.c,False
+b76c69de1b26b589551879d80ae582a5a3506cc0,2010-08-14,1281807735,6c2e3d233e,Clarify and document the integer type configuration,1,1,src/load.c,False
+cb8fcc780894420ab85bfd5e80ed274999c4161f,2010-08-14,1281808028,6c2e3d233e,Set the version number to 2.0pre,0,0,,False
+e3654c22459c0dd1c1cdf4aa0cda64c60f2a8299,2010-09-05,1283710726,6c2e3d233e,Don't use designated struct initializers,4,16,src/load.c;src/value.c,False
+976fc2279f79d18fcfeb81359782b8eee328b0d4,2010-09-05,1283710726,6c2e3d233e,Replace all occurences of inline with JSON_INLINE,8,13,src/hashtable.c;src/value.c,False
+a112563214884785d1e90b49a6ad22502f76ef47,2010-09-05,1283710726,6c2e3d233e,Use config.h only if it exists,2,0,src/utf.h,False
+06eb436008270420b10ed748c9f83c3d5464ff94,2010-09-05,1283710726,6c2e3d233e,"Move max() to jansson_private.h, define only if not already defined",6,15,src/jansson_private.h;src/strbuffer.c;src/util.h;src/value.c,False
+3c4cf31a010327ffc713aa92e9a78f9e8d726e86,2010-09-05,1283710897,6c2e3d233e,Add jansson_config.h.win32,0,0,,False
+cbb3855d97b6fe0029a8c6e0034f0fbdb197b9b5,2010-09-05,1283711402,6c2e3d233e,"On Windows, typedef int to int32_t",4,0,src/utf.h,False
+664c88ca97b0fa6b96e8625dbaf722c7d00f597f,2010-09-05,1283711886,6c2e3d233e,Add a section describing how to build on Windows,0,0,,False
+8567816542e23860ca7d162e1da319e71b6d4f69,2010-09-05,1283713247,6c2e3d233e,"Use Sphinx 1.0, change the HTML theme",0,0,,False
+3d5c0f46f10bcb26f054af9ab2cf1d910148f9d5,2010-09-06,1283795175,6c2e3d233e,Run Sphinx without the -W flag when building documentation,0,0,,False
+23dd078c8dcb17fd29d3b69f082b5b93f5f13b8f,2010-10-14,1287079357,6c2e3d233e,Make json_error_t opaque,58,39,src/jansson.h;src/load.c,False
+1acd1a7b56ee584da656c9cd5066cc6c2b5c1e03,2010-10-14,1287079522,6c2e3d233e,"Remove all ""Added in version 1.x"" info from documentation",0,0,,False
+198d537be76ae4debaac7f730bb2c591b04ab1df,2010-10-26,1288072746,f825cdc947,Adds json_pack / json_unpack variadic functions.,606,15,src/jansson.h;src/jansson_private.h;src/load.c;src/variadic.c,False
+bb5d4efb2ef9609bcd1163238bccd11a1df28095,2010-10-26,1288117234,6c2e3d233e,Make json_error_t transparent again,53,72,src/jansson.h;src/jansson_private.h;src/load.c;src/variadic.c,False
+818baf5fdb0710fba64274486650a289624f6a16,2010-10-26,1288117234,6c2e3d233e,Move and enhance documentation on json_error_t,0,0,,False
+5422a862de2354b3419ef628bac5a18c6ef522da,2010-10-27,1288205900,6c2e3d233e,Enhance error reporting,116,89,src/error.c;src/jansson.h;src/jansson_private.h;src/load.c;src/variadic.c,False
+23bc8e468d82bcb52a39af8d070776b972d77227,2010-12-14,1292353120,6c2e3d233e,Add version info to jansson.h,16,0,src/jansson.h,False
+c7611e7a0d2901ce05589c4815ca0f88c9788feb,2010-12-18,1292706174,6c2e3d233e,Make int32_t available when the configure script is not used,9,4,src/utf.h,False
+bf32f6cd75a6a809f685a02cd0ac574c96824049,2010-12-19,1292788500,6c2e3d233e,Document the version info constants,0,0,,False
+269e86b72572a6ba546270e8d22409efc40c2fbd,2010-12-20,1292872091,6c2e3d233e,Emphasize the constness of the return value of json_string_value(),0,0,,False
+3a7512d2b05af82c43578477941e92db72f0f57b,2011-01-14,1295034228,f825cdc947,Make json_pack/json_unpack() recursive,421,393,src/variadic.c,False
+a2423810244509aa417ab3bb3fe6e5619ff1aa60,2011-01-15,1295088308,f825cdc947,Remove debugging printf,0,1,src/variadic.c,False
+46f91797ecfbad6cfe81fe7803bb703536354913,2011-01-17,1295272300,6c2e3d233e,Build cleanly with gcc's -Werror=declaration-after-statement flag,2,2,src/load.c,False
+fa7c2ea070672d05b34b6341142a193e9a7d0a8c,2011-01-22,1295696594,6c2e3d233e,Update copyright notices for 2011,11,11,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson.h;src/jansson_private.h;src/load.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/value.c,False
+53383860e804d1e4f6e038a2c76461867b1ef497,2011-01-24,1295896495,6c2e3d233e,Unify style,70,73,src/variadic.c,False
+7f3018a4fb547a10ce250db91ec0d41b0cc57bf2,2011-01-24,1295897183,6c2e3d233e,Refactor json_pack(),151,228,src/error.c;src/jansson_private.h;src/variadic.c,False
+6d1f28f0508cbae7a14203be5bdf25bc41ad13b9,2011-01-25,1295938434,6c2e3d233e,Refactor json_unpack(),166,262,src/variadic.c,False
+2770dca2c091a9c5c898ff0922d905449111ff95,2011-01-25,1295938435,6c2e3d233e,Add validation features to json_unpack(),57,11,src/jansson_private.h;src/pack_unpack.c;src/value.c,False
+6825c2c706276312593cfe3cb770df644a539c21,2011-01-25,1295938435,6c2e3d233e,Rename variadic.c to pack_unpack.c,0,0,,False
+579c291882e1ccd09153665adf585d8e4830fc23,2011-01-25,1295942547,6c2e3d233e,"Expand the pack/unpack API, implement unpack flags",131,45,src/jansson.h;src/pack_unpack.c,False
+ac96ac13d491f87f5aa8747e208b366c81354a0b,2011-01-25,1295980673,6c2e3d233e,unpack: Unify and enhance error messages,31,29,src/pack_unpack.c,False
+a1c185a376d03b8baee06fc18bfe057ac81cf6d3,2011-01-25,1295980961,6c2e3d233e,Use 'f' for real and 'F' for number (real or integer) in unpack,13,1,src/pack_unpack.c,False
+908c62f3278b682d879e8ffbdb71bcec60846977,2011-01-25,1295984495,6c2e3d233e,Add the 'I' format for both pack and unpack,15,1,src/pack_unpack.c,False
+7706abcbedf7ed6d7675b846806830717c1f45d7,2011-01-26,1296026839,6c2e3d233e,Use the Sphinx default theme again for documentation,0,0,,False
+7d49fc75d5a6050c852f8c5e370190958ce3358e,2011-01-26,1296026839,6c2e3d233e,Documentation for pack and unpack functions,0,0,,False
+ef13fb91899584f6c80a40fad26405870a2ec780,2011-01-29,1296329887,6c2e3d233e,Tweak the default validation behaviour of the unpack API,35,39,src/jansson.h;src/pack_unpack.c,False
+f25698d08f72c16be9867d137474b6578c864091,2011-01-30,1296384834,6c2e3d233e,Fix an unpack example in the docs,0,0,,False
+dd7dd414f0968a2ca6436c493b4d1d4ed0723bda,2011-02-03,1296758514,f825cdc947,Resolve __va_list_tag ** -> va_list * type errors with clang and future GCCs,10,2,src/pack_unpack.c,False
+4be9e9e7fe54ae2fe6f63d39a8209b41e878196d,2011-02-17,1297930253,6c2e3d233e,Add custom memory allocation,126,52,src/dump.c;src/hashtable.c;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/strbuffer.c;src/value.c,False
+e54ea1f7c904a5beef64ca0fe986cf7dc4f62296,2011-02-19,1298110521,6c2e3d233e,"tests: Use ""make STOP=1 check"" to stop on first failure",0,0,,False
+5df7b7939794abc9e8a826919d84d27385a6679d,2011-02-22,1298369257,6c2e3d233e,Refactor decoder input stream,136,93,src/error.c;src/jansson.h;src/jansson_private.h;src/load.c;src/pack_unpack.c,False
+50dc64a7af3664ca55ac74b393459a6d54e6958f,2011-02-22,1298374477,6c2e3d233e,"Truncate error source from start, not end, if it's too long to fit",10,2,src/error.c,False
+a33c3628da8434d91609574f7d07f3c90bb8fe00,2011-02-22,1298375638,6c2e3d233e,Move json_error_t documentation to its own section,0,0,,False
+58f9d655358bc0c68bfadbc2946b964c2ac774b7,2011-02-22,1298394531,6c2e3d233e,"Add lots of tests for pack/unpack code, fix bugs found",105,59,src/error.c;src/jansson_private.h;src/pack_unpack.c,True
+a3468c9bd8f02bef8c4a42d385a68e81c46f9695,2011-02-22,1298401989,6c2e3d233e,Add a CHANGES entry for version 2.0,0,0,,False
+53bc9d8a39a440d6cbd70c139bff4ae67787b8eb,2011-02-24,1298578513,6c2e3d233e,"Add ""Upgrading from older releases"" to docs, tweak CHANGES a bit",0,0,,False
+ff26dc60d1d2c5d4e0d99270c29e1b92653b9e45,2011-02-24,1298579702,6c2e3d233e,Small documentation tweaks,0,0,,False
+b5dd566c83765e4e0bd7203f0513abf2e3f6621b,2011-02-25,1298660473,6c2e3d233e,doc: Change the title of the upgrading section,0,0,,False
+dd9b4e530c31b21f1be3e322b8dd1d8f79d999ee,2011-02-25,1298660944,6c2e3d233e,Remove invalid subdirs from test/suites/Makefile.am,0,0,,False
+cd854b5bc28cddbac603a36ad07b3566dc6e1333,2011-02-25,1298665452,6c2e3d233e,tests: Add missing json_decref() calls to suites/api/test_unpack.c,0,0,,False
+387298d4a623516bc732f7454dd38d2cd1fba232,2011-02-27,1298833795,6c2e3d233e,Update README,0,0,,False
+42b651ef56168937d0046bde9205f1014a940941,2011-02-27,1298835252,6c2e3d233e,Fix packing of invalid UTF-8 strings,12,2,src/pack_unpack.c,True
+cf9b384bcbd2fab0bfb44e0165368d3abc965f32,2011-02-28,1298918774,6c2e3d233e,jansson 2.0,3,3,src/jansson.h,False
+b397711a66751873132311e85ea072c6dbe34f5d,2011-03-10,1299785085,6c2e3d233e,Check documentation in make distcheck,0,0,,False
+7f09f48e7e7bc98f54c41ad3204ed1d29f313b7b,2011-03-10,1299785178,6c2e3d233e,Distribute doc/upgrading.rst,0,0,,False
+11119601205b4276464e55a6518049a370560e60,2011-03-10,1299785333,6c2e3d233e,Fix a declaration after statement,3,1,src/error.c,True
+b90ed1accb3fcdf1111dbe33a2ce4519eb6e5d0c,2011-03-20,1300649017,6c2e3d233e,Enhance portability of va_copy(),10,2,src/jansson_private.h;src/load.c,False
+6ecba848171f48d0b3806dbc1aa306be8e69bc82,2011-03-21,1300688554,6c2e3d233e,Fix json_object_size() return value,1,1,src/value.c,True
+c30e92603c0780040fa3a974d6234dedeb5cd266,2011-03-21,1300692494,6c2e3d233e,ANSI C requires struct initializers to be constant expressions,4,1,src/load.c,False
+af1857892826443f9e3691ef0a7d5c7b8c9f3a40,2011-03-23,1300861550,6c2e3d233e,Use the correct number of parens in JANSSON_VERSION_HEX macro,1,1,src/jansson.h,False
+38e35e0973afaeee3ab79ce3a18432af8e6f0260,2011-03-27,1301222083,6c2e3d233e,"Test framework enhancements, fix the check_exports test",0,0,,True
+279d8bf108bd1367bdd3647e881146e1acf0123d,2011-03-27,1301224360,6c2e3d233e,Use the correct number of parens in JANSSON_VERSION_HEX macro,1,1,src/jansson.h,False
+5456fc59ab8f4155f67e253215e1c08a14d5091f,2011-03-27,1301248984,6c2e3d233e,Set JANSSON_MICRO_VERSION to 255 (0xFF) for git master,1,1,src/jansson.h,False
+0944ac8d91ad6a02c44d6166f46c6c0183147976,2011-03-30,1301479068,6c2e3d233e,Fix invalid object key hashing in json_unpack() strict checking mode,26,15,src/jansson_private.h;src/pack_unpack.c;src/value.c,True
+eab23f05d873a7099f355ad937c9b8522abcc18e,2011-03-31,1301578663,6c2e3d233e,Fix a few malloc() and free() calls,3,3,src/hashtable.c;src/strbuffer.c,True
+1c0a3b2a556be9800e307413d41d4f040d1db062,2011-03-31,1301579966,6c2e3d233e,jansson 2.0.1,2,2,src/jansson.h,False
+c96763215dddce8fbd6f785b9c841b5d97458d41,2011-04-05,1302006973,9d4a6b2033,Avoid set-but-not-used warning/error in a test,0,0,,False
+b44e2be0322e4c68d290a75f6b0cf6eba2d5aab2,2011-04-10,1302458510,6c2e3d233e,Add json_loadb() for decoding possibly non null-terminated strings,53,0,src/jansson.h;src/load.c,False
+e20619e0718d6c3c6161d4c946b46127ee088861,2011-04-21,1303380922,6c2e3d233e,Fix a leak when memory allocation fails in json_object_set() & friends,3,0,src/value.c,True
+636d5f60f9070a2b48d0f43be6e8951286db3023,2011-05-14,1305367032,6c2e3d233e,Add JSON_ENCODE_ANY flag to allow encoding any JSON value,9,4,src/dump.c;src/jansson.h,False
+ab723c7fb5155be6eca4f347e462b14f8700a601,2011-05-14,1305367475,6c2e3d233e,docs: Add a note that object iteration doesn't give any particular order,0,0,,False
+e9e34f430e726462e13e2349c50392f5f2a8d6e6,2011-05-14,1305395534,6c2e3d233e,"doc: Add ""New in version 2.1"" notes to new features",0,0,,False
+92f6f0f22cbb7534d249bede78f03712bb788688,2011-05-15,1305452350,6c2e3d233e,doc: Clarify that Unicode normalization or comparison algorithms are not used,0,0,,False
+49fc708d4c5aeebad570f59a588f7520a4c62f78,2011-05-15,1305457069,6c2e3d233e,Add JSON_REJECT_DUPLICATES decoding flag,27,19,src/jansson.h;src/load.c,False
+013b8b3f60a7b3f3777499c62e729afc4f428bc0,2011-05-24,1306220381,6c2e3d233e,Clear errno before calling strtod(),1,0,src/load.c,False
+9febdf333c3720e1e28811a0cd28c980444e9ad3,2011-05-29,1306662805,6c2e3d233e,Reduce code duplication in the decoder,14,34,src/load.c,False
+a76ba52f3450cfb3ca544f7e7f451db1578822e6,2011-05-29,1306693635,6c2e3d233e,Add JSON_DISABLE_EOF_CHECK decoding flag,8,5,src/jansson.h;src/load.c,False
+f7f7bf5ab26c721aaf8a177f2a61f06393be7242,2011-06-07,1307471639,6c2e3d233e,Prepare for relase: Add CHANGES entry for v2.1,0,0,,False
+3988ab2d2730f76964f54211735d3dac0330862b,2011-06-07,1307472009,6c2e3d233e,Use ``literal`` syntax with macro and flag names in CHANGES,0,0,,False
+86d17a8dc21ab9bc5775e1611bc90c64e2bbf22c,2011-06-10,1307730611,6c2e3d233e,jansson 2.1,3,3,src/jansson.h,False
+1358d0bfac4ce74b6d9396080526d7f1be6ce04d,2011-06-10,1307731994,6c2e3d233e,CHANGES: Fix v2.1 release date,0,0,,True
+6e1f4bb560d18f290b3eba05f124389202e770ea,2011-06-17,1308333212,6c2e3d233e,doc: Clarify that removing from containers decrements the refcount,0,0,,False
+c0193bfb7fd4bed31fc68e8f991281aba2973dd0,2011-06-17,1308336139,6c2e3d233e,Check that target is string and value is not NULL in json_string_set(),3,0,src/value.c,False
+cd9757512d6d49009ff3b7964ace194df84ce88b,2011-06-30,1309455918,d253349d9b,"use size_t for strbuffer writes, and avoid integer overflow",12,5,src/strbuffer.c;src/strbuffer.h,True
+7fab57dcef5611b2275d9e11f39d887d92a1a7ff,2011-06-30,1309457089,6c2e3d233e,doc: Fix several typos and other little errors,0,0,,False
+c7d543d36c364b29750d4f1847a81226326034be,2011-06-30,1309459632,d253349d9b,"new typedef json_dump_callback_t, function json_dump_callback",18,8,src/dump.c;src/jansson.h,False
+54f38d250cf24e7b37cd2d815d63704d77c75a93,2011-06-30,1309459632,d253349d9b,test file for new json_dump_callback function,0,0,,False
+c7079a25eb96ba660f6d9613b0135f5c5933894c,2011-06-30,1309459657,6c2e3d233e,doc: Add documentation for json_dump_callback(),0,0,,False
+f241e14cab9b664be4a9c9f187c1e71aa25fc30f,2011-08-08,1312826350,6c2e3d233e,doc: Explain the non-constness of the first parameter of json_unpack() et al,0,0,,False
+68809cd913e2ec3215113c5c744014dfb1bd1741,2011-09-02,1314988141,6c2e3d233e,doc: json_dump_callback was added in v2.2,0,0,,False
+889f2959581f6aba4ed7b1afa1bc7961c3c78c43,2011-09-02,1314988780,6c2e3d233e,jansson 2.2,2,2,src/jansson.h,False
+e4cc77ce52894d43a94c30d4ffbe7640a9e62a32,2011-09-12,1315851740,6c2e3d233e,doc: Clarify the result of 's' format of json_unpack(),0,0,,False
+ff57dee13df3d57a1a46999b6884beffd02d9e73,2011-09-20,1316511989,cf301f1a21,unsed static variable removed,0,1,src/hashtable.c,False
+909874b1b9edc7d5f8f8ca797640069a054b71ac,2011-09-20,1316517032,cf301f1a21,scope error. result points to a out-of-score variable.,1,1,src/load.c,False
+b6d0191e51003dfdfd2dcb36a52baafcdbf4246c,2011-09-24,1316887834,6c2e3d233e,Implement all other encoding functions using json_dump_callback,5,18,src/dump.c,False
+d7ddbf366197605642f725cce6165dfb179a114e,2011-10-02,1317580277,6c2e3d233e,Make real number encoding and decoding work under all locales,117,23,src/dump.c;src/jansson_private.h;src/load.c;src/strconv.c,False
+fd56deb7dd7c227c56a267719c0449ece97c19b1,2011-10-03,1317621150,6c2e3d233e,Use strchr() when searching for a single character,2,2,src/strconv.c,False
+f0d5c047342c7bc68c5a75751cb2e3434c9273ca,2011-10-03,1317667396,6c2e3d233e,Make identifier decoding work under all locales,22,15,src/load.c,False
+0f358c8eaa2bd68dc2618ca816aa85e23bb1ae7e,2011-10-03,1317670959,6c2e3d233e,"doc: Add project status to introduction, add portability chapter",0,0,,False
+84f739036d47dbd35ce06b049a3de4a35470e31e,2011-10-04,1317751496,6c2e3d233e,Documentation fixes,0,0,,False
+6362032513fc7c41c02a41c7673aa7421aabe297,2011-10-04,1317751891,6c2e3d233e,json_load_file: Open the input file in rb mode,1,1,src/load.c,False
+9c6cb42f17fa1fb95edf766e2b44b128d1ebd08e,2011-10-06,1317925389,6c2e3d233e,jansson 2.2.1,2,2,src/jansson.h,False
+ed06777937bbc59fcccb0674be40bae0193ae5a3,2011-10-06,1317925389,6c2e3d233e,Distribute doc/portability.rst,0,0,,False
+32cd82127390b9fd5b5d090bc3c279d3e4d9f3a6,2011-10-07,1318009974,6c2e3d233e,json_dump_file: Open the output file in wb mode,1,1,src/dump.c,False
+bc98ab6a6973d5f7d59cf896fb27e4beb559252e,2011-11-01,1320173368,6c2e3d233e,Use %I64d format for printing long longs on Windows,4,0,src/jansson.h,False
+92d9b89d59e627ba46fbb175b1d8f9aebbd1aac7,2011-11-01,1320173392,6c2e3d233e,Fix test file comparisons on MinGW,0,0,,True
+8484ea3fb2333486535f2a0108246fc75f89c0c7,2011-11-01,1320173416,6c2e3d233e,Remove '+' and leading zeros from exponents in the encoder,22,1,src/strconv.c,False
+6799c8e4c9ff46d3c5fd3b78e6390c314a02bb63,2011-11-02,1320213439,6c2e3d233e,Distribute jansson_config.h.win32,0,0,,False
+72cd84b92af29360813a1678f0b9294d60da50f1,2011-11-02,1320213709,6c2e3d233e,doc: The configure script can be used on MinGW,0,0,,False
+5ec101ec21d5fec71dcf693e941c90c388430a32,2011-11-14,1321297061,cf301f1a21,json_load* return NULL if the first argument is NULL,28,5,src/load.c,False
+0f2cdd70ff9c2f0dd35a2e62b5bac87305d17bf4,2011-11-14,1321297273,6c2e3d233e,Avoid problems with object's serial number growing too big,6,2,src/dump.c;src/value.c,False
+0931d938b049b4ab190593bd2755d03891d8bfd6,2011-11-14,1321297294,6c2e3d233e,doc: The same JSON values must not be encoded in parallel,0,0,,False
+1e36667193fe51a7a886f9b2560e83ca6765df4b,2011-11-14,1321297809,cf301f1a21,JSON_DECODE_ANY,6,3,src/jansson.h;src/load.c,False
+68d6410da0f4aa5a0f2ca2462eea4b86a338c1c7,2011-11-14,1321297816,6c2e3d233e,Update the documentation of JSON_DECODE_ANY,0,0,,False
+c4a7bf90cf7a1b6fb1c701e2d071d1e236259e70,2011-11-14,1321298196,6c2e3d233e,"Revert ""json_dump_file: Open the output file in wb mode""",1,1,src/dump.c,False
+f471e63bb30d16b0288c5e2c0722de41fc4a138f,2012-01-23,1327346284,6c2e3d233e,Write number of bytes read to error position on successful decode,6,1,src/load.c,False
+5eb2c442a9f403f36d70b0c0e6efddf41adb056c,2012-01-24,1327430159,6c2e3d233e,Fix a potential memory leak,2,2,src/value.c,True
+a2381948bb7871aee7c55c6918953bfbdf9c3eb1,2012-01-24,1327431683,6c2e3d233e,Make hashtable less generic,97,218,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson_private.h;src/pack_unpack.c;src/value.c,False
+a3079747313f8d4f2e3954b29a1fb7ee67cd5d2e,2012-01-24,1327431684,6c2e3d233e,Implement json_object_foreach(),32,46,src/hashtable.h;src/jansson.h;src/value.c,False
+fa268b50177c85776023e369ae4fb954bd076f6a,2012-01-24,1327431816,6c2e3d233e,"Add json_object_update_{existing,missing}",34,0,src/jansson.h;src/value.c,False
+6cb14dd33707cd448f1ea3baee0ab2a6116aee0f,2012-01-26,1327605396,6c2e3d233e,Add support for optional object keys for json_unpack() and friends,74,37,src/pack_unpack.c,False
+f227483846e6febf7f43398d8cfa27cffc79e4b4,2012-01-27,1327690932,6c2e3d233e,jansson 2.3,3,3,src/jansson.h,False
+a894980258289fc20be7283f9b8b8221195fa714,2012-01-30,1327949972,6c2e3d233e,Set master to 2.4 development mode,2,2,src/jansson.h,False
+0d64e8ef89d0dbfb582a07fb1b02c0d301100d32,2012-01-30,1327951398,6c2e3d233e,Make test_load.c not depend on the C locale,0,0,,False
+ac97f6f225f85084770a26a8fddfb2a35232fb4e,2012-02-02,1328194835,6c2e3d233e,doc: Fix the names of library version constants,0,0,,False
+54d88753a6b33770a1c756921fee68c7d9421bba,2012-02-12,1329055527,6c2e3d233e,Disribute the check-exports tests,0,0,,False
+6ac6f311b5548479d9510bfb672917739527bad3,2012-03-08,1331211712,6c2e3d233e,Fix tests on shells that don't support the export FOO=bar syntax,0,0,,True
+02b915af54c4033b580875509ecb9388485a5c2a,2012-03-11,1331493172,6c2e3d233e,Remove unused declarations,0,4,src/hashtable.h,False
+4ae5736bd07160200192aa38f5d40f83589c4ac9,2012-03-20,1332269277,6c2e3d233e,Make sure strtoll() is available when using long long,0,0,,False
+3c6e36ba2df25121538753e20fcf2b2043ca67af,2012-03-20,1332269755,6c2e3d233e,Update copyright notices for 2012,15,15,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/pack_unpack.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/value.c,False
+353b5e08bac2cfe85683c638a4d97f17f2fa004f,2012-03-21,1332331426,2e43875426,Ignore *.exe,0,0,,False
+2637faa4509c78ac1463c7924f6e9f7cd96ed5d8,2012-03-22,1332398908,6c2e3d233e,Make test stripping locale independent,0,0,,False
+040bd7b0fafaf7bf8660b77ea0392f49d0d649b6,2012-03-22,1332399177,2e43875426,Add json_load_callback(),58,0,src/jansson.h;src/load.c,False
+09c39adc55f16dd986a38cb621144cb0229ffc92,2012-03-22,1332399769,6c2e3d233e,Add json_load_callback to the list of exported symbols,0,0,,False
+bd2c0c730d399351dfa901dfcbbd07972909e818,2012-03-25,1332681729,2e43875426,Ignore the binary test_load_callback,0,0,,False
+e8fd3e308505879e0f10603e2ed922757bd62c8c,2012-03-26,1332788001,6c2e3d233e,Document and tweak json_load_callback(),4,4,src/jansson.h;src/load.c,False
+bd72efbd8073c0e14fa3dacf7da2883c9ea70952,2012-04-18,1334773277,002a8c158c,load: Avoid unexpected behaviour in macro expansion,4,4,src/load.c,False
+aabfd493d3c79dae4a1d45ca8657bbd7f5aac659,2012-04-18,1334773277,002a8c158c,load: Change buffer_pos to be a size_t,1,1,src/load.c,False
+e46b912f53eac00816fffd7774fe0cea113550bc,2012-04-18,1334775532,6c2e3d233e,Fix tutorial to use Github API v3,0,0,,True
+ff6e6ee293fc31df0ad6f0b74c4a61294b370df0,2012-04-20,1334946900,6c2e3d233e,jansson 2.3.1,2,2,src/jansson.h,False
+42bc7a3c50e04a44765809a33531539350b37a77,2012-04-26,1335419916,6c2e3d233e,Check for missing args and envvars in run-tests.sh,0,0,,False
+233574e8e05b28230c115f5af34fbfeec5bf9874,2012-04-26,1335467369,57b7e48f50,fix slight typo in json_pack apiref example,0,0,,False
+c7f86abf6d1f96c0fce0b0ab5be5a74972ae84f5,2012-04-26,1335467446,57b7e48f50,fix slight typo in json_pack apiref example,0,0,,False
+ff0c05b8f13f4f8a1da82ef1337d594916ef9df9,2012-04-29,1335726569,6c2e3d233e,Support building on Windows,24,10,src/dump.c;src/error.c;src/hashtable.c;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/pack_unpack.c;src/value.c,False
+7ca783c3bc24cb7820b8afeab6a21b9680c8caf5,2012-04-30,1335793867,2e43875426,Add vs2010 solution and project,2,2,src/hashtable.c;src/jansson.h;src/jansson_config.h.win32 => win32/jansson_config.h,False
+a79f64e1551ca619594e2ae4dc10c84773cda884,2012-05-01,1335830532,2e43875426,Fix build warnings under MinGW,1,1,src/load.c,True
+c0139681cdaf95c40ac274ede69f415d489dba0a,2012-05-19,1337451779,6c2e3d233e,Update the documentation to mention Visual Studio 2010 support,0,0,,False
+2b87fdcb4395348fcff43acf0d65c73579824c1f,2012-06-06,1338961637,8784e8b17d,Bugfix: Changed all use of ssize_t to size_t.,0,0,,True
+f62b1f5d696a196a4fe97b52da7cc9777e648ab0,2012-06-06,1339006187,8784e8b17d,Bugfix: must cast void* to do pointer math,0,0,,True
+a0c262d08b46652ef2a256050ad66f65a8f95a93,2012-06-28,1340855648,4f801266a5,Escaping the slash when dump,3,2,src/dump.c,False
+b217cd668932a17fac002976e353541932d97128,2012-06-29,1340935476,4f801266a5,Created flag to dump escaping slash,13,5,src/dump.c;src/jansson.h,False
+37bc3bbf4b63b7f18d923b17751fd112fe5312b6,2012-06-29,1340965502,6c2e3d233e,Tweak slash escaping,11,16,src/dump.c,False
+a501a39626edf39f5449c6bd4d65656d1b2ccb6c,2012-06-29,1340965937,6c2e3d233e,Document the JSON_ESCAPE_SLASH encoding flag,0,0,,False
+7892ecce1c220c4d2bdffa2dbe1c8afe046d3509,2012-07-27,1343363298,6c2e3d233e,Fix a small error in tutorial,0,0,,True
+b6a1d8cfd4da10c9fd703a3c037d23603f3785ed,2012-07-30,1343622037,6c2e3d233e,Add json_boolean() macro,1,0,src/jansson.h,False
+ec7bb71d7523c59da729e0bfec15cc18f8b6ead7,2012-07-30,1343623961,6c2e3d233e,Add an initial CHANGES entry for v2.4,0,0,,False
+8176527f565327c8f443d796e177fb96cae19e3e,2012-08-11,1344706941,9583e867cd,fix check-exports test on ppc64,0,0,,True
+0dac319bc4fee21408610a049cadee0be2594564,2012-08-11,1344707125,6c2e3d233e,CHANGES entry for #88,0,0,,False
+6142dbd8d001699d1036204d8a157fd59f064f8b,2012-09-05,1346869003,6c2e3d233e,Fix a typo in README.rst,0,0,,False
+23d563434ac6e385ef3599bbe0360aa8e1c94a23,2012-09-06,1346922401,6c2e3d233e,Fix a typo on doc/apiref.rst,0,0,,False
+ee13c667f10ab6e3ccde9493e71f7ac79496f9e7,2012-09-13,1347515216,6c2e3d233e,Fix json_real_set() to return -1 on error,1,1,src/value.c,True
+4118315afa994ff71c2970c9f8933ab48178dbcb,2012-09-13,1347561019,6c2e3d233e,Disallow NaN or Inf real values,15,2,src/value.c,False
+c9223540765e8d1d50eb524274450fd40b6782a4,2012-09-15,1347698729,94e8a461e5,Add -no-undefined to LDFLAGS,0,0,,False
+597423ea807dcb6c7056780fa257fd1dfe082d28,2012-09-22,1348313129,6c2e3d233e,doc: Add versionadded directive for json_boolean(),0,0,,False
+4cff593dd40fd865cf54fdbed985d7458681fda9,2012-09-22,1348313176,6c2e3d233e,Update CHANGES for v2.4,0,0,,False
+21586701773110cccf285366aac1750c44412047,2012-09-23,1348393960,6c2e3d233e,Distribute win32 files,0,0,,False
+3279aacdeed2aac96741c02e2ddecbb5ae087ff8,2012-09-23,1348393961,6c2e3d233e,jansson 2.4,3,3,src/jansson.h,False
+5804e9de9bc502de955f2add2b4459a51e9d3518,2012-09-23,1348396900,6c2e3d233e,Set master for 2.5 development mode,2,2,src/jansson.h,False
+cf1074e70ea42a1dea4d6e57b2b29532049bcd28,2012-09-23,1348396976,6c2e3d233e,Add a script for making releases,0,0,,False
+4853a3454cf460c8c47c0a5068324f7d57077db2,2012-10-26,1351255426,75af84034b,Support building and testing with VPATH.,0,0,,False
+54d59c743c3cf5ae9b33f34ad92109e5237619a3,2012-12-04,1354606365,6c2e3d233e,Fix an off-by-one error in json_array_remove(),4,1,src/value.c,True
+e0a7f81b396c6a37a886a1679ddcd0969995d43e,2012-12-04,1354648859,6c2e3d233e,Really fix the off-by-one error in json_array_remove(),1,1,src/value.c,True
+f86bb0377fb942a71e4852e00a42e89e1af1eee1,2012-12-10,1355122020,487e8ea90d,Mark some constant data as const.,4,4,src/dump.c;src/hashtable.c;src/pack_unpack.c,False
+c82cea9d321a8e2242feb0f9c0c0f61334ad15be,2012-12-10,1355122020,c621053fdf,fixed l_isxdigit() macro,1,1,src/load.c,True
+872f847655225f9b3febc9afde203808beca94c4,2012-12-10,1355122020,487e8ea90d,Change const pointer to array,1,1,src/pack_unpack.c,False
+511db446d76487e83540b77e223332fdb9f93737,2012-12-23,1356239395,6c2e3d233e,Add Travis configuration,0,0,,False
+e9cb9dbf604f75f212331af30be37bb6a954afcc,2012-12-28,1356696703,6c2e3d233e,Fix // -> /* */,1,1,src/load.c,True
+99855b2d63ef72ef653e6d0fc3faf831fea377b7,2012-12-28,1356697225,6c2e3d233e,travis: Bootstrap autotools before building,0,0,,False
+a2de27a828ef7d80a0de4854200335ddd23b7ec5,2012-12-28,1356697344,6c2e3d233e,"travis: Run ""make check"" instead of ""make test""",0,0,,False
+3fab956599d351c0c695b9d9d11715ce3dbc3a46,2012-12-28,1356697651,6c2e3d233e,Add travis build status to README.rst,0,0,,False
+8ad98c9ad399d9088f72f25b9359b5d6f6c56887,2012-12-28,1356701415,6c2e3d233e,Add travis build status image more cleverly,0,0,,False
+02beb90db3734263c424fe208cdfae0a8405d640,2013-01-03,1357202738,6c2e3d233e,Make it possible to forward declare struct json_t,1,1,src/jansson.h,False
+5dbac70a670bff73195f5f0f1fefb7f695443095,2013-01-06,1357474708,6c2e3d233e,Compress bz2 doc tarballs with bzip2 instead of gzip,0,0,,False
+93a3c7f663327fbc835b464596e23d86f8135b6a,2013-02-04,1359964198,6c2e3d233e,Enable gcc specific flags in tests correctly,0,0,,False
+ccf6e48a5284949630c65adc6fd8838b5da92e5d,2013-02-04,1359964302,6c2e3d233e,Don't use -Werror by default,0,0,,False
+afa1d37e204046f6b06e245bd7698ef58a9e00e6,2013-02-04,1359964534,6c2e3d233e,Enable -Werror in Travis builds,0,0,,False
+a1882fee02671245000d9b8a41cbff5a31243d8f,2013-02-05,1360061318,6c2e3d233e,check-exports test: Filter out symbols that start with an underscore,0,0,,False
+3e03b078319238d87358fe9c9ba156e29072b446,2013-03-07,1362668761,8784e8b17d,Add CMake build system.,9,0,src/jansson.h;src/load.c;src/strconv.c,False
+3d5bea57148d62c313bc9519644fd6858ba79b05,2013-03-07,1362668798,8784e8b17d,Fixes for cmake for MSVC2010,0,0,,True
+e40d52c55013cf7368b46a7d05342d70ca8904ec,2013-03-07,1362669067,180b34f64c,Consolidated the CMake project.,0,0,,False
+741e6915e223d75aa12169d5fdee4e0f8e457f42,2013-03-07,1362669127,180b34f64c,Always use LF as line ending so that we don't get any problems with line endings in any tests.,0,0,,False
+52a807272760920533ee2db81b4ae009bb0a6e5c,2013-03-07,1362669128,180b34f64c,Rename the CMakeModules directory to simply cmake.,0,0,,False
+344d2b00ea274f5df806556c8c276c1c4c47b088,2013-03-07,1362669220,180b34f64c,Fix incorrect cast to ssize_t.,0,0,,True
+81ce1270481b2fe1dea3d0f8a48265d40df97f24,2013-03-07,1362669596,180b34f64c,Compile tests by default.,0,0,,False
+7214a222c746f6d2389e9320660b05cb405b9232,2013-03-07,1362669695,180b34f64c,Skip using a debug postfix with visual studio.,0,0,,False
+33b0855b2729c47177504ba698b7aea1012cd672,2013-03-07,1362670061,180b34f64c,Get rid of type warning on MSVC.,0,0,,False
+650707fcccdafd4ce09b62c6aab4990b5c8dd710,2013-03-07,1362677927,180b34f64c,Moved *config.h.cmake to the cmake directory.,0,0,,False
+3d0d61fdaf57b6b819ca0c359e7341c37053ab00,2013-03-09,1362856509,6c2e3d233e,Use json_decref() properly in tutorial,0,0,,False
+b1b4f307d5e2ff294ecee2ee0a3f67f0dea28c19,2013-03-12,1363129748,180b34f64c,Add back the old ENV variabe approach to json_process.,0,0,,False
+59bc1f42e45aa9bfd255c6002b0659e26c16e23f,2013-03-12,1363130137,180b34f64c,Got rid of some warnings for unused variables.,0,0,,False
+6db70f0301f8f9cbae12e6d19735f4570d8fa3c9,2013-03-14,1363292176,6c2e3d233e,cmake: Add stripped tests,0,0,,False
+263fd0c9d3b8bb2afbe53479fdc7f8ce3bad8917,2013-03-14,1363292301,6c2e3d233e,Remove trailing whitespace,0,0,,False
+dc2d54d9c6a6a72fd8ed0214e257a47698d20d57,2013-03-14,1363292697,6c2e3d233e,Fix a refleak in test/bin/json_process.c,0,0,,True
+1edff47af38a2335f88300ee6dc437118f5a20ff,2013-03-14,1363293251,5b0280f4e8,Do not define _GNU_SOURCE is already defined,11,0,src/dump.c;src/load.c;src/strbuffer.c;src/value.c,False
+7c4f323abc9e12e71d7c17c369ca41487feec7a7,2013-03-28,1364430665,8f87d6c44e,"Create Android.mk, preconfigured jansson_config.h and CleanSpec.mk for Android-like build systems.",0,0,,False
+bbd3b0ca4ffee0e035eb012350cf4fd3e5e3d587,2013-04-01,1364816470,6c2e3d233e,Fix a typo,0,0,,False
+d20751d53d77bb0e5c17945d60e7d2800cd60393,2013-04-11,1365712324,8f87d6c44e,Add android doc.,0,0,,False
+867079c820b3d9df472308244810782d0651cf08,2013-04-15,1366004949,6c2e3d233e,json_dump*(): Don't crash if json is NULL and JSON_ENCODE_ANY is set,3,0,src/dump.c,True
+42e307b3c5bc6784b33213836ca3054dbae5eb65,2013-04-15,1366006127,6c2e3d233e,Fix the signature of a test function,0,0,,True
+257a7160734854b6ceaea04096b4dd9410fe9645,2013-04-15,1366006503,6c2e3d233e,"Fix the signature again, and also rest of the errors",0,0,,True
+9591d3a15539a9cacfc895edde6bca28f919a2ac,2013-04-15,1366010732,6c2e3d233e,Tweak Android build documentation,0,0,,False
+6b1cba94e33732ef9d98abd4efeb80e7b1216be6,2013-04-15,1366011083,6c2e3d233e,"Document CMake build process, deprecate the VS2010 project",0,0,,False
+3000831365312f96c1b4bb6dd70a3f7de1028831,2013-04-18,1366277117,180b34f64c,Use -fPIC when possible.,0,0,,False
+8390c90a913f6e9cbb29f3288214c5cad743f6c2,2013-04-24,1366812840,180b34f64c,Added more detailed CMake documentation.,0,0,,False
+0687442f5dcdc612deb381e332f758fb9ff0fd24,2013-04-25,1366898366,180b34f64c,Fixed some minor issues.,0,0,,True
+f675514815323277dbffa15f1aba92bdbc704540,2013-04-29,1367238772,5c05ec114c,jansson:doc: modified incref doc,0,0,,False
+5793142861b312bbe0694e00cf3404fc4fbe791a,2013-04-29,1367238772,5c05ec114c,test:suites:api: modified error message,0,0,,False
+42d398243d306b7dfcd75b9479438ce4372a1cef,2013-05-06,1367843489,180b34f64c,Fix the cmake Sphinx find script.,0,0,,True
+54d86fb4a4a338341f872fdf32def0ad5a459847,2013-05-06,1367843692,180b34f64c,Create and install the pkg-config file jansson.pc for CMake.,0,0,,False
+6950cd203b99662e4240266d0b40a8b8ba99528a,2013-05-12,1368385406,e2ab32e227,"Add json_array_foreach() #define, parallelling json_object_foreach()",5,0,src/jansson.h,False
+e8c812b5006faa7f426bc40766aaf2069c7a474e,2013-05-12,1368387266,e2ab32e227,Added test cases and documentation for json_array_foreach(),0,0,,False
+7121134abdaf89664b6cea18e19b2c9b9c81052c,2013-05-12,1368387369,e2ab32e227,Removed (non-functioning) printfs from test code,0,0,,False
+b49280be7231cbb21fb80a333542df06e39ac913,2013-05-12,1368387933,e2ab32e227,"Fixed ""comparison between signed and unsigned"" warning",0,0,,True
+5cc594c9e8bc01f9531f80aba82c9775bba94c18,2013-05-21,1369115667,6c2e3d233e,Don't shadow the stdlib function index() with arg names,4,4,src/jansson.h,False
+2fd66fab1afe78eb1add6b2ba6ffb1934aa30dd1,2013-06-02,1370181632,8784e8b17d,Adjust CMakeLists.txt and .def: add _d postfix onto jansson_d.lib/dll,0,0,,False
+ddd10b5e0bb0165df1555a034242f2b624b514cf,2013-06-07,1370606902,82e603e80a,Added missing rv check - caught by clang,0,0,,False
+9e7f11a8478d0cf61945ba00db03048d47730ba4,2013-06-09,1370787287,82e603e80a,Implemented a decode option to only decode numbers to reals and never integers,6,1,src/jansson.h;src/load.c,False
+e6bd0aba9ddd086ac76d239c6854cc845a89cddd,2013-06-09,1370788470,82e603e80a,Added a simple test for the JSON_DECODE_NO_INT option,0,0,,False
+02a3829363badb184a61cc5a6b89b3ef4d380e4b,2013-06-11,1370949868,82e603e80a,Renamed flag to JSON_DECODE_INT_AS_REAL and added documentation,5,5,src/jansson.h;src/load.c,False
+c3e9725f0270447fcc688a57aa884f5954e860c8,2013-06-11,1370950301,82e603e80a,Changed :versionadded for JSON_DECODE_INT_AS_REAL docs,0,0,,False
+120a90a155b1db062eb984be53381f65a698e0e4,2013-06-11,1370959748,82e603e80a,Using jsonp_strtod instead of casting to double to catch double overflow,6,1,src/load.c,True
+a38704df5877de5252d5aeb5a65e8ff662bed752,2013-06-12,1371015028,6c2e3d233e,Fix indentation in docs,0,0,,False
+f639fbd2c329ef60ba05aabade529686871458e1,2013-06-12,1371015413,6c2e3d233e,Tweak the JSON_DECODE_INT_AS_REAL test introduced in #123,0,0,,False
+62531bd0123ccba70a1d9f638529b07f450c4d69,2013-06-13,1371119827,82e603e80a,Prevent unused-variable warning,0,0,,False
+19a19d1952b7afbc5d3d58374c900708a09ae039,2013-06-20,1371747640,c3f4857e84,Adding option for MSVC for those who are linking statically.,0,0,,False
+d9ee5a7f1b740ed04f7301ec83ae8aeb3076fef5,2013-06-25,1372174571,c3f4857e84,Update CMakeLists.txt,0,0,,False
+6fe231757ebae2cbf295790020daa53e6c4ea0b4,2013-06-26,1372240246,180b34f64c,BUGFIX: Compilation error with -DNDEBUG defined.,10,1,src/load.c,True
+8490e377c0ac0b4352fca60ce117365f2fab394f,2013-07-08,1373276216,6c2e3d233e,Make the argument of json_deep_copy() const,20,12,src/jansson.h;src/value.c,False
+11d45b0090be38423587ef8d1a0215937932223e,2013-07-21,1374400832,6c2e3d233e,Fix integer overflow in jsonp_strdup(),6,1,src/memory.c,True
+2489ea90b1ddf4e94bfc898badec785a743b1766,2013-07-23,1374574806,6c2e3d233e,Update copyrights for 2013,13,13,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/pack_unpack.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/value.c,False
+71676acd0b8868d3916f1df02c67b68a7ea28a5e,2013-07-27,1374949414,6c2e3d233e,Fix memory leaks and warnings in github_commits.c,0,0,,True
+49ad5328c7a8c5140abc59a4756f7c82950c850e,2013-08-06,1375765940,6c2e3d233e,doc: Add an example for circumventing problems with Windows heaps,0,0,,False
+3196ad48ed8c0f4427eb52cbad7bdbe250798370,2013-08-14,1376506451,6c2e3d233e,"pack: Add format specifiers s#, + and +#",176,56,src/jansson_private.h;src/pack_unpack.c;src/strbuffer.c;src/strbuffer.h,False
+21599b95f8228525e8e2135d74aad0137e0d5613,2013-08-28,1377658038,29b86be329,Replace strcpy with memcpy,1,1,src/memory.c,False
+24c67966aab09d929f944ca4f786e0f60ec4e10e,2013-09-16,1379310578,6c2e3d233e,Mention success first in json_load_callback_t docs,0,0,,False
+0747d3943ff48db0a66e2c523bb79d1a6e525969,2013-09-16,1379310578,aeac7b6abb,Clarified json_load_callback_t return value docs,0,0,,False
+c2e8fdde9d38c6fa3892e7bb37a3fc80d20e2fd4,2013-09-19,1379612751,6c2e3d233e,Mention success first in json_load_callback_t docs,0,0,,False
+db8ca3645f95b292131d1a4c0f760f81a514cc3a,2013-09-19,1379612822,aeac7b6abb,Clarified json_load_callback_t return value docs,0,0,,False
+bf2584703a486af36190ecd20c529dbf7b0f4310,2013-09-19,1379612837,6c2e3d233e,Mention success first in json_load_callback_t docs,0,0,,False
+641002da378d922539d655a8017ee2ee0f6b940c,2013-09-19,1379615206,6c2e3d233e,jansson 2.5,3,3,src/jansson.h,False
+9f9c9fe41066ef806e21d7b75166a91788bff7a3,2013-09-19,1379615206,6c2e3d233e,doc: Fix index type for json_array_foreach(),0,0,,False
+e4d6a9f6f4f90aa7bb1b5e09d146ac8d2cb3cd1d,2013-09-23,1379918068,6c2e3d233e,Add versionadded to the new json_pack() format specifiers,0,0,,False
+9c259c07aa53381df5819ef61627342c932d626f,2013-09-28,1380328326,bcef5af16c,"Support \u0000 - add size_t string lengths to API, load and dump \u000, etc. Also:   Steal strings during parsing for half the mallocs!   Change all input-caused assertions to errors.  No crashes please, we're programmers.",241,111,src/dump.c;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/pack_unpack.c;src/utf.c;src/utf.h;src/value.c,True
+dcaa90d21e9405973accbcb9f94d85f222444d7b,2013-09-28,1380328345,bcef5af16c,dump \u sequences as upper case for readability (just like error messages),2,2,src/dump.c,False
+face43929d2f1f5f544894611a6bd66fd7139dbf,2013-09-28,1380328345,bcef5af16c,"expect ""export"" in test configs",0,0,,False
+0be5c959daad58cf64d51b8dc56465ed3ad188b1,2013-09-28,1380334232,bcef5af16c,document new null-friendly functions,0,0,,False
+6c1ce27095348c00da2faa713409b1c5d28db9a1,2013-09-29,1380499043,bcef5af16c,add new public functions to jansson.def,0,0,,False
+7876125a22a3b54dbb3e7e830bcee554f2c91144,2013-09-30,1380520025,6c2e3d233e,"Document s% and s# for json_pack, s% for json_unpack",0,0,,False
+b961e8101e234d92a8aae706f8577af358f39ac1,2013-09-30,1380520599,6c2e3d233e,Add Chip's changes to release notes,0,0,,False
+78a80b8899d9267fe189a33ab7f4291eb4885bae,2013-09-30,1380522276,6c2e3d233e,load.c: Change an error message,1,1,src/load.c,False
+5744468c990dff6dc2c8647014814515597b107c,2013-09-30,1380527102,6c2e3d233e,Clarify json_string_length doc,0,0,,False
+4d5aead31cbc783915a1e0fe2e240316e5d71631,2013-09-30,1380527102,6c2e3d233e,Fix NUL byte check for object keys,1,1,src/load.c,True
+1bfc33362e16e1307eb38b1d045c4c1f86905057,2013-09-30,1380527102,6c2e3d233e,Add JSON_ALLOW_NUL decoding flag for enabling NUL byte support,12,1,src/jansson.h;src/load.c,False
+f8d8d524cfb2a1945e863e923a338823e822ffb7,2013-09-30,1380527734,6c2e3d233e,Document JSON_ALLOW_NUL and clarify NUL byte handling,0,0,,False
+6ebd0bc7a68c8eb143ba8e9c81ea585d010b4475,2013-09-30,1380585361,f60d33b6cd,fix type mismatch anywhere int != int32 (Vorne),1,1,src/utf.h,True
+a76dc45512acf8182f4fad5d3a9d5db6e08bbe9e,2013-10-04,1380852440,bcef5af16c,paper bag bug: json_string_set* functions should set the length too,1,0,src/value.c,True
+c7d479c74089e9251698f65a1202baf1ef3e8f16,2013-10-04,1380852470,bcef5af16c,"in simple string tests, always check lengths too",0,0,,False
+d544852ff61bddbbf3d2095f18ba30d9562487f2,2013-10-15,1381815844,6c2e3d233e,Avoid integer overflows with very long strings,8,1,src/hashtable.c;src/utf.c,False
+08be94e8e6370ce9ac75fad77db3598a96e58805,2013-10-15,1381815977,6c2e3d233e,Don't call strlen twice,1,1,src/hashtable.c,False
+30a4c88843788e2fd5155816fcc10539e277400b,2013-10-15,1381816180,6c2e3d233e,Fix an off-by-one error,1,1,src/hashtable.c,True
+67a7bc7376530ce942365a5a9d4f22a5ff6ea007,2013-11-14,1384411756,6c2e3d233e,doc: Set all memory to zero in secure_free,0,0,,False
+05f7d30e5a49e00bc0438b1a76103e27464500a7,2013-12-04,1386141259,6c2e3d233e,Add json_boolean_value as alias for json_is_true,1,0,src/jansson.h,False
+b951baec0da0d55e3c065d4d8dc357f7b3f27ebd,2013-12-13,1386919356,6c2e3d233e,Include CMake specific files in release tarballs,0,0,,False
+dc69aa797bbf3c2605edaafb677153b5a4e662a9,2013-12-27,1388127305,6c2e3d233e,github_commits.c: GitHub API v3 requires a User-Agent header,0,0,,False
+98610bfcecf618b2c7c179236132042a34b546fa,2013-12-28,1388207509,df6bf96a0f,Check for key == NULL in json_object_get and json_object_del,2,2,src/value.c,False
+b21cd65d305f04b52c3c7cb1a33c63a2b1d7ad28,2014-01-16,1389852185,6c2e3d233e,Fix CMake build flags for MinGW,0,0,,True
+913937c98d2b530292e35b7c3fb6c21b576698e9,2014-01-24,1390569182,180b34f64c,Added CMake config files.,0,0,,False
+3fe8f74e7f292f856717f7c0a3dccd4a45e574c1,2014-01-27,1390823332,180b34f64c,Renamed config.h -> jansson_private_config.h,4,3,src/strconv.c;src/utf.h,False
+30fdf6067e7d09e906fb76d45ce79269c02e7232,2014-01-28,1390893365,6c2e3d233e,Update copyrights for 2014,13,13,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/pack_unpack.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/value.c,False
+0c95a22888200548f1e3d7311f2b62ef66327b71,2014-01-28,1390899583,180b34f64c,Make sure the private config is included.,0,0,,False
+4c2cc0e36c01c13532e70dfc7ac0e1fc3cbe1336,2014-01-28,1390914403,180b34f64c,Add CMake build to Travis config.,0,0,,False
+7c8077882777cda5b279267bb4de61228b1f0f72,2014-01-28,1390914479,180b34f64c,Fix so that valgrind checks actually works with CMake.,0,0,,True
+b9c588de3deb4efdd7b9ec44aa79335dba11fd6b,2014-02-11,1392100874,bcef5af16c,"expect ""export"" in test configs",0,0,,False
+8f80c2d83808150724d31793e6ade92749b1faa4,2014-02-11,1392100890,6c2e3d233e,"CVE-2013-6401: Change hash function, randomize hashes",693,58,src/hashtable.c;src/hashtable.h;src/hashtable_seed.c;src/jansson.h;src/lookup3.h;src/utf.h;src/value.c,True
+492feb26ce9eecc5cae5abc09a5b7424599245eb,2014-02-11,1392104325,6c2e3d233e,Document json_object_seed(),0,0,,False
+e83ded066a610f8de7caaa3942769321ededa84f,2014-02-11,1392104730,6c2e3d233e,jansson 2.6,2,2,src/jansson.h,False
+42016a35c8907e477be73b0b5d06cc09af231ee4,2014-02-11,1392124487,6c2e3d233e,"Oops, ATOMIC_ACQ_REL is not a correct memmodel for __atomic_store_n",1,1,src/hashtable_seed.c,False
+569295fe3026f1deecfd6cc2e851054e6c9f9469,2014-02-12,1392187469,6c2e3d233e,Fix feature checks to use correct __ATOMIC flags,0,0,,True
+4bbb53a25db7197180d08c65f58bc626ce0815eb,2014-02-12,1392188046,6c2e3d233e,Make valgrind happy,0,0,,False
+1dc87ed5a10e0268eb253f5a2f282e1cc57d63e5,2014-02-12,1392188066,6c2e3d233e,Make valgrind happy,0,0,,False
+50a811ca076f9466f337b21e160fc79b06b07c4a,2014-02-12,1392188066,6c2e3d233e,Fix feature checks to use correct __ATOMIC flags,0,0,,True
+4fbe44605bbb60507554e1c4e3e6baf44858dbea,2014-02-15,1392480671,df6bf96a0f,Three fixes for hashtable seeding on Windows,5,6,src/hashtable_seed.c,True
+7a0b9af6626e0b11231b8fb068a49dab2d5d2bd7,2014-02-15,1392482422,96282ebd02,Allow to mix JSON_STRICT with optional keys,14,4,src/pack_unpack.c,False
+56a50e147dabdb57459a19c6c00f194b2ac49d24,2014-02-15,1392482642,96282ebd02,Micro-optimization for JSON_STRICT when no optional key is used,11,4,src/pack_unpack.c,False
+3922f84a2f51ba430451b89d72380a264b9d0a41,2014-02-15,1392482868,96282ebd02,Add new autotools-generated files to .gitignore,0,0,,False
+946531bd7b3f6f53fecca8cdabe71218f9cf12a8,2014-02-16,1392581977,6c2e3d233e,Merge pull request #162 from nmlgc/master,5,6,src/hashtable_seed.c,False
+78da1de021bbc1c88577e2cb7ef5b352c620ac25,2014-02-16,1392582002,6c2e3d233e,Merge pull request #163 from vincentbernat/fix/unpack-mix-optional-and-strict,22,5,src/pack_unpack.c,False
+960ead07f2d9d7c3b709273eebe2b0556826111a,2014-02-16,1392582025,6c2e3d233e,Merge pull request #164 from vincentbernat/fix/gitignore,0,0,,False
+88aa6a9e30e7465196a737bd0f82eb17f393a120,2014-03-04,1393914532,6c2e3d233e,"Remove VS2010 project files, CMake should be used on Windows instead",0,0,,False
+663fbfb7a4f697a1143bc613fd4153cf4640a5e5,2014-04-05,1396657688,a45700f554,SmartOS (Solaris) build,2,0,src/value.c,False
+33e498818017d28ecd1e5aa52382a00dcf66c533,2014-04-06,1396758532,a45700f554,SmartOS build fix,2,0,src/value.c,True
+571617ebfc7bda478a877cb468ec7d486acd7029,2014-04-08,1396972678,a45700f554,use __sun instead of sun,1,1,src/value.c,False
+dd2bf2971ef6e6672db0b6118696ca6d1c39b0c7,2014-04-11,1397225674,1944496e57,fix build error for android,0,0,,True
+a425f8c650028921adab64b59e7c22fe0635f879,2014-04-23,1398244634,6c2e3d233e,Rename variables to work aroung a GCC bug on Solaris,7,7,src/load.c,True
+db285b37649ffffabbb767029d4ca83af2e6f83d,2014-04-30,1398848751,6c2e3d233e,Check uint16_t and uint8_t support correctly,0,0,,False
+17b5fdd94b1e22ec294f6cb746599aafc021a54b,2014-04-30,1398851194,6c2e3d233e,Add JSON_REAL_PRECISION,21,13,src/dump.c;src/jansson.h;src/jansson_private.h;src/strconv.c,False
+fc6e314498183def435360df069beee1ce1b8d95,2014-05-03,1399149248,3c33c79c80,Enable usage of AddressSanitizer to check Jansson,20,1,src/lookup3.h,False
+541cdf5960efe7b06c87bf93344d38f0f924fab1,2014-05-05,1399290041,3c33c79c80,Remove unneeded undef,0,4,src/lookup3.h,False
+4debe8e56767a6faa6e1d7c0391794b44d5b2995,2014-05-07,1399439979,6c2e3d233e,Add missing tests for JSON_REAL_PRECISION,0,0,,False
+de1b5db70e21c9b485f79f0bf9f858a419304d09,2014-05-14,1400072602,6c2e3d233e,Fix autoreconf on Debian,0,0,,True
+df248712a5d982b0721b6e8d15b09d4a9264301e,2014-06-28,1403984508,6c2e3d233e,Include android config in tarballs,0,0,,False
+348401e7b8a769a772b3eb26d9edca3564261f21,2014-07-02,1404327874,6c2e3d233e,CMake: Use add_definitions for compiler flags,0,0,,False
+88943b64e35c01e170e2ccb242b07e97a91b5816,2014-07-07,1404722090,6c2e3d233e,Define JSON_MAX_INDENT,2,1,src/jansson.h,False
+23b1b7ba9a6bfce36d6e42623146c815e6b4e234,2014-07-12,1405136556,6c2e3d233e,Document JANSSON_BUILD_SHARED_LIBS CMake option,0,0,,False
+122a1e2af99280d9112c92c26040f6bccd29fec3,2014-07-15,1405466192,9260e92926,"Fixed cases where file would be opened, but not closed. And small realloc memory issue.",0,0,,True
+4f1238af71d26346b31b1c9cee3d38a2ccf6bcca,2014-07-15,1405466476,9260e92926,Fix whitespace issues,0,0,,False
+a6229a2d3edf913b055308ad63a9179a4ade6448,2014-07-21,1405919734,6c2e3d233e,doc: Enhance string overview,0,0,,False
+d4a7de7c11a7c2b7964f654805107ffa9601501d,2014-07-31,1406782231,6c2e3d233e,Android.mk: Add -DHAVE_STDINT_H to LOCAL_CFLAGS,0,0,,False
+485c7640a17f13506ee466ebf621923cf7999d95,2014-08-26,1409058073,e3eb2c533b,Don't use GNU-make specific export for global AM_CFLAGS,0,0,,False
+fa20e80860e9743d1c090aba4583dbd7cc761293,2014-08-27,1409115592,6c2e3d233e,Parse subnormal numbers correctly,2,1,src/strconv.c,False
+b94d767f86f712af7529654999663ed20d7afad3,2014-09-24,1411574925,180b34f64c,Added Windows CI support with appveyor,0,0,,False
+2137e0c8957cfe3bd18ee3a4e384de562f5ca6c0,2014-09-25,1411620715,6c2e3d233e,Add AppVeyor badge to README.rst,0,0,,False
+391d9101a8d32b083bef9c76f53a603800e3e09f,2014-10-02,1412229427,6c2e3d233e,Update CHANGES for 2.7,0,0,,False
+ee27b7e3ddf6853a698af163c8e0627fa295091b,2014-10-02,1412244645,6c2e3d233e,jansson 2.7,2,2,src/jansson.h,False
+7fbe7c3960185cc08f9046e869b50fad26f168ec,2014-10-03,1412314737,6c2e3d233e,Don't use the nonstandard __FUNCTION__ macro,0,0,,False
+d7a6269a17912b10005875c86b5c1fd7bf3e3af4,2014-10-03,1412315348,6c2e3d233e,Use expr instead of $((...)) in shell scripts,0,0,,False
+1395e4303a056f7b53d6b6ed5d47350bf8e7dea4,2014-10-13,1413198244,0622937cad,Fix static CRT selection.,0,0,,True
+b52e7a69aac457e258782bce0d0a3894d9acb686,2014-10-13,1413198362,0622937cad,Fix CFLAGS for static-CRT build.,0,0,,True
+bc743ad2d9807b00e7dc0b5d3524d0a47a14f3c3,2014-10-20,1413826076,6c2e3d233e,README: Documentation is hosted at RTD,0,0,,False
+9b435df3d42e3a2da2209f16963a5dd95703429a,2014-11-29,1417223486,888ac891cb,Warnings - use size_t where appropriate to prevent warning when compilation is targeting 64 bit,7,6,src/dump.c;src/error.c;src/load.c,False
+1c38ab17f5ab7e5f555b134fbb48eec049f383f1,2014-12-04,1417682726,6c2e3d233e,Include jansson_config.h with quotes,1,1,src/jansson.h,False
+3c9e5c992567c411e22bf303a123cc6adcca97be,2014-12-10,1418190101,6c2e3d233e,Move the list member to the top of hashtable_pair struct,4,1,src/hashtable.h,False
+19f33c0e71a950c673db39ed3e8c00eee928aad3,2014-12-12,1418425021,180b34f64c,Add support for coverage/coveralls.io in cmake project.,0,0,,False
+82a55ef205ca851c83c2648a70b4be77acb9bd7f,2014-12-15,1418622439,d940e46ea4,doc patch for jansson,0,0,,False
+5885035f5fb665ba6a01a9b598638ef309d93bc4,2014-12-15,1418624097,6c2e3d233e,Add coveralls.io badge to README.rst,0,0,,False
+5c1d87592ad3ad2b1742c356d35a5123342f1693,2014-12-15,1418625059,6c2e3d233e,wip: add tests,0,0,,False
+abaae7630ec9df0adca1ec012ddbcc4b211e54f1,2014-12-18,1418906624,6c2e3d233e,Make it possible to set initial hashtable size,5,1,src/hashtable.c,False
+d799ee11b42b72f5cd1e5570d35b0a5270571e31,2014-12-18,1418906828,6c2e3d233e,doc: Update the Getting Started chapter,0,0,,False
+5508ab403d71f003bddbf849eb1f57f371b18387,2014-12-18,1418908574,6c2e3d233e,Honor JSON_DECODE_INT_AS_REAL at lexical stage,11,16,src/load.c,False
+15653c47dd9a7d5714d1332704214446b71a5352,2014-12-19,1418968653,6c2e3d233e,Add a test case for \u0000,0,0,,False
+890760b2fb780c05446b3ad14f25e536312c21f9,2014-12-19,1418970946,6c2e3d233e,Increase test coverage,2,6,src/strbuffer.c;src/strbuffer.h,False
+48e0488f079899b451fb0d19923a48e5212bacc7,2014-12-26,1419619755,8b6467a73d,adding simple-parse example,0,0,,False
+220dcb7be3cd92a63f14d7541217724796407c45,2014-12-29,1419862939,8b6467a73d,use fgets() rather than getline(),0,0,,False
+fc83f10c85db30558b223b6327a2f64f6073b5a3,2014-12-30,1419922233,6c2e3d233e,Add Makefile.am for examples,0,0,,False
+8d561cd94e3bd6ed496eac9bffd4b221e37d4207,2014-12-30,1419922233,6c2e3d233e,"examples/simple_parse.c: Reindent, fix warnings & style",0,0,,False
+c244b1483e524da441b5d9545444220d451a899b,2014-12-30,1419922567,6c2e3d233e,examples/README.rst: Fix formatting,0,0,,False
+d0a8ad4c064151b11c5fe7958713272079877d9a,2015-01-13,1421162268,180b34f64c,Compile simple_parse example for CMake project.,0,0,,False
+6a38d0d431b0e392738ae15e91fb1fda8688efeb,2015-01-13,1421163000,180b34f64c,Disable warning for deliberate use on MSVS.,0,0,,False
+c242b46016fb420ac78b1753976da5f54dfb0dd5,2015-02-05,1423117573,9c82535586,test_object: Fix a duplicate conditional check in test_iterators,0,0,,True
+11813f4128bf603de8d261a158ebea2789ddea04,2015-02-07,1423287389,6c2e3d233e,Fix a use after free,1,1,src/pack_unpack.c,True
+76760011ff03706bb1ed65e10003c31214866086,2015-03-07,1425712446,6c2e3d233e,Don't crash when building documentation man pages,0,0,,True
+95dd927857a7ad4a1445f1987a280b19e2488042,2015-04-30,1430377885,5cd2bc7606,use snprintf and strncpy in place of sprintf and strcpy,6,6,src/dump.c;src/error.c;src/hashtable.c,False
+5d42e1520ad420bdc3feb1cf41f8dd1e53a5a1b1,2015-05-01,1430486333,40d4b64ac3,Optimized dump_indent to reduce the number of fwrite calls.,7,3,src/dump.c,False
+69678aaa35aa9374672f2c7c9b70c97f9be58aca,2015-05-19,1432014550,6c2e3d233e,doc: Copying doesn't preserve key insertion order,0,0,,False
+1dab656dee2f5c3df57ee5ba8aeeb1059f65530b,2015-05-19,1432014849,6c2e3d233e,doc: Copying doesn't preserve key insertion order,0,0,,False
+875b78dc9783814918fbf6e81ec715ed7d7e3e68,2015-08-13,1439451871,75c1a982ff,Update test_memory_funcs.c,0,0,,False
+4c4f692bd6814e598c9aa538a3c9979cdf05d566,2015-08-26,1440599575,6c2e3d233e,Add json_object_foreach_safe,7,0,src/jansson.h,False
+8f2298bad8f77a22efe0dc9a95676fae6c203e36,2015-08-31,1441057409,965566507f,Buildable with MS Compiler version  >= 1900,13,3,src/jansson_private.h,False
+f7331c71946fb9985aa14bda85b353efe3623d70,2015-10-05,1444046349,d474778166,Use sizeof(seq) instead of magic number 13,2,2,src/dump.c,False
+e89538f685159abf97a642e8f66fbb5f55c39ba9,2015-10-05,1444046444,d474778166,"Format %x expects unsigned int, not int",2,2,src/dump.c,False
+067dc50efee43cc27e811f7dae99edcf3021f372,2015-10-12,1444659116,f0a4812629,changed code from while to do/while,10,10,src/load.c,False
+e44b2231b50aea5de78b7ea2debec0d5327cd711,2015-10-20,1445325668,6c2e3d233e,doc: Fix a broken link,0,0,,False
+245e532934fc9a6df18cf246c29c79863d6ce714,2015-12-21,1450716392,6ebd2fa9f5,Add json_get_alloc_funcs() to allow alloc function fetching,9,0,src/jansson.h;src/memory.c,False
+581d5b899c2ee881d55b48903ce42c4d72ca1abc,2015-12-22,1450782328,6c2e3d233e,Add versionadded to json_get_alloc_funcs doc,0,0,,False
+1d513d063a65b7b2cfbb042b4068728f49516df5,2015-12-22,1450807531,cfd324c618,pack_unpack: List unrecognized keys in strict unpacking,28,1,src/pack_unpack.c,False
+1c2e707b34da45c040db79540c7a7edde14195b6,2015-12-23,1450849202,6c2e3d233e,Fix a comment,2,1,src/pack_unpack.c,False
+89f4c15e6da98892e270ec09ef0bae3fc9a71bc6,2015-12-23,1450849258,6c2e3d233e,Change doc version to 2.8-dev,0,0,,False
+e6b60da0434ea8fe32d53e7cbca90df6127fbd13,2015-12-23,1450851438,6c2e3d233e,Update CHANGES,0,0,,False
+0f50bb10b6cfc7cf6989b9957965b2e230836e55,2015-12-23,1450851507,6c2e3d233e,Fix a typo,0,0,,False
+b698ca13dec48769e8477027f321bfe64cb2a5e0,2016-02-03,1454510094,1b7c28f79b,"[Optimized functions] Optimized json_equal, json_delete, json_copy, json_deep_copy Replaced if to switch Removed unnecessary check for NULL.",74,67,src/value.c,False
+9d71d006cc84c6e09a48737f52086b072c45c83a,2016-02-10,1455104803,0ace0fd73d,Fix libdir is wrong when compile with cmake,0,0,,True
+811965b4756731dae5c08215ca048cb7af9b8b63,2016-02-22,1456176740,fe309bc312,"Implemented json_pack() format specifiers 's?', 'o?', and 'O?'.",51,17,src/pack_unpack.c,False
+107cfe94991190d20dd8d7a91e3078167ad62a6f,2016-02-23,1456255736,fe309bc312,"Implemented json_pack() format specifiers 's?', 'o?', and 'O?'.",55,17,src/pack_unpack.c,False
+ac97e0bf796a2bfd2c3cfc28e93d5b94e4a46018,2016-02-25,1456377833,6c2e3d233e,"json_pack(): Document s?, o?, O?",0,0,,False
+cfd817895a758dc9fa749d20a666ca5162c5659a,2016-02-25,1456378168,6c2e3d233e,doc: Fix a typo,0,0,,False
+130c2fff31c24a502c3e1e1b4e1ee42883e34b72,2016-03-02,1456929649,1b7c28f79b,Fix proto in doc,0,0,,False
+087ed94c452ecade26447c14605cd419e970cfd2,2016-04-28,1461816240,6c2e3d233e,Change readthedocs domain,0,0,,False
+64ce0ad3731ebd77e02897b07920eadd0e2cc318,2016-05-03,1462263726,b90f2d0374,Fix for issue #282,10,0,src/load.c,True
+762b299e71ecdc46928d6104d9b6cef78c336833,2016-05-17,1463473915,fc786bd5a0,Fix subnormal number parsing on mingw32,7,0,src/strconv.c,True
+72fd2fec4cfbad215e71be23ae4992e1b4d937b3,2016-05-30,1464598299,6c2e3d233e,Simplify snprintf and vsnprintf checking for Visual Studio,0,0,,False
+a8c834c88283e9a4d2cfe1f381b36c8c2286db5f,2016-06-01,1464794842,620c1388f4,doc: improve conciseness,0,0,,False
+7438cc8ba8939448c7fcc7bf50f24c35d086dd32,2016-06-01,1464794842,620c1388f4,doc: correct argument names,0,0,,False
+2d710d832fc1b0531c4767a7da80cacc660a829d,2016-06-03,1464944916,6c2e3d233e,appveyor.yml: Build on all Visual Studio versions,0,0,,False
+603fdc915459caa6a4261d135ff8139094f64567,2016-06-17,1466174747,2706d7853b,doc: fix code block formatting,0,0,,False
+9df267054fda51cbe3851a8c299ab95049ff6e64,2016-06-20,1466446223,6c2e3d233e,Always preserve insertion order of object items,27,63,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson_private.h;src/pack_unpack.c;src/value.c,False
+7daffabf079d776c7c87ebdaf880b2f8ade77e1d,2016-06-24,1466740549,6c2e3d233e,Fix a typo,0,0,,False
+835290dfdf27ab89692b4bb84b9e7c43ff04e5a9,2016-08-11,1470925126,14dd9642d8,Add a test case for OOM while allocating memory,0,0,,False
+86fdf76f7942d6a3921f66d792efb0e866f609bd,2016-08-11,1470926909,14dd9642d8,Check the allocation was successful before freeing existing hashtable buckets and increasing hashtable order,9,7,src/hashtable.c,False
+6a4b3f878dddb1525b59b86da7fb392ab8fdc7b2,2016-08-11,1470930689,14dd9642d8,Conform to c89,2,1,src/hashtable.c,False
+a931aace16b24cd51d0d468a5f91dac67713918c,2016-08-26,1472232952,6c2e3d233e,jansson 2.8,0,0,,False
+012c5f0ecac48db286d4d737133b6d64d128939c,2016-08-30,1472580568,6c2e3d233e,jansson 2.8,2,2,src/jansson.h,False
+a5610c8895b4f364ec2a1b3b4fbc1439f08c9af8,2016-08-30,1472581153,6c2e3d233e,Set documentation version to 2.8,0,0,,False
+ab1ba6902766615b617f1a01214f20f1ec5907e2,2016-08-30,1472581191,6c2e3d233e,Set documentation version to 2.9-dev,0,0,,False
+0ffecdbadee9f4541d74f31884300aeb5596de4c,2016-08-31,1472635023,6c2e3d233e,doc: Fix json_error_t::position type,0,0,,False
+b45745118daa81a7b70689e117720fb6091806a8,2016-08-31,1472635105,6c2e3d233e,doc: Fix json_error_t::position type,0,0,,False
+63b9fd055248bcd427fd455ce9623431885b235e,2016-08-31,1472648277,6ebd2fa9f5,Add support for the cleanup attribute in GCC/Clang,13,0,src/jansson.h,False
+811a30691ee46fe18b5e1654e7bea857bbd4b886,2016-09-01,1472690648,227f24147d,Fix typo,0,0,,False
+ada5372cffa7707d82a81878558f47dfa1437a05,2016-09-01,1472702785,6c2e3d233e,Fix another typo,0,0,,False
+16b516f976ba7c25d8faf272519755dcd96dff67,2016-09-07,1473268432,7af1a73447,Added test files to .gitignore,0,0,,False
+9258671924b54aaedb2654cf0eb72344c2686b18,2016-09-11,1473570289,b23a321834,Add install targets to be optional,0,0,,False
+889280c9766732d207ac7fc2e0ab8529271a29d9,2016-09-16,1474002146,6c2e3d233e,Don't include jansson_config.h in dist tarballs,0,0,,False
+e9fcab08fbe0825119c48f547dece60bd4e60c20,2016-09-16,1474002313,b23a321834,Add install targets to be optional,0,0,,False
+bdaf7584dbc48056df9f5c81dc3c0a086f30efe5,2016-09-16,1474002313,7af1a73447,Added test files to .gitignore,0,0,,False
+074bb3838f83c8ed5b2ec3ec075c9405e6589214,2016-09-18,1474197423,6c2e3d233e,Update copyrights for 2016,13,13,src/dump.c;src/hashtable.c;src/hashtable.h;src/jansson.h;src/jansson_private.h;src/load.c;src/memory.c;src/pack_unpack.c;src/strbuffer.c;src/strbuffer.h;src/utf.c;src/utf.h;src/value.c,False
+b02db4788145bb15ae0813fa876426c26184a6da,2016-09-18,1474198505,6c2e3d233e,jansson 2.9,2,2,src/jansson.h,False
+08cb7b6d6ff7131fd378ff75a2de624d349dfd30,2016-09-18,1474199537,6c2e3d233e,doc: Change version to 2.9,0,0,,False
+98be7da3e2cc256e16d3c9f76b3a0053a930eb2c,2016-09-18,1474199546,6c2e3d233e,doc: Change version to 2.10-dev,0,0,,False
+d1e97737d63f1f083cbe5323b88645e0db127064,2016-10-02,1475373994,e1643cbedc,Allow parsing of buffers larger than 2GB on most 64 bit arch.,1,1,src/load.c,False
+ddd1e1f22374190a199db806cfdef4ac1f8d183b,2016-10-07,1475849479,4d0c105b0d,Fix passing redundant argument to error_set(),1,1,src/load.c,True
+4467bf243fb4b553f56a3183b13ab725ebbf276e,2016-10-19,1476887966,2af917ec30,"part of conditional expression is always true (!done), found with pvs-studio",2,2,src/hashtable_seed.c,False
+2af820fb9914318942433a6a5a1dda1c03b57fdd,2016-11-13,1479005918,8db051a14c,parens for LONG_LONG_INT in cmake,0,0,,False
+b900967f6fbfae098ced9dfeab7b2b51e1a22c0a,2017-01-26,1485443784,6ebd2fa9f5,Implement json_dumpb(),28,0,src/dump.c;src/jansson.h,False
+1672bb5a65b711d84c8adb12144bb997a4da02d4,2017-01-27,1485504918,6ebd2fa9f5,Implement json_dumpfd() and json_loadfd(),67,2,src/dump.c;src/jansson.h;src/jansson_private.h;src/load.c,False
+b8bb078cc291a387ecce03a7a62ded593f76b85e,2017-02-27,1488226143,6ebd2fa9f5,Add JSON_EMBED encoding flag,11,6,src/dump.c;src/jansson.h,False
+b23201bb1a566d7e4ea84b76b3dcf2efcc025dac,2017-03-02,1488480582,6ebd2fa9f5,jansson 2.10,2,2,src/jansson.h,False
+17f77cf2c66ac5713953873f322b08d464100487,2017-03-29,1490760499,6c2e3d233e,CMakeLists.txt: Remove extra parenthesis,0,0,,False
+1b8bebf0bf8f1c0c3d92faf67a830bf8448897ed,2017-04-12,1492029418,4cb013bf2e,build: Use Autoconf macro @includedir@ for jansson.pc.,0,0,,False
+fbf720f2c54fa36154fdd0add5d8cf8b0e6f05a2,2017-04-13,1492079983,6c2e3d233e,Allow forward declaring json_error_t values,1,1,src/jansson.h,False
+28666cead0a4c946b234d42f25b8a9db81f9bbdf,2017-04-19,1492600769,6ebd2fa9f5,Enable optional object/array members in json_pack(),18,1,src/pack_unpack.c,False
+ad6c1e37ade2663d529b6ca6d02e9de64665a0cf,2017-07-16,1500200194,3f742d7014,Fix typo,0,0,,False
+0abcbce3bbae7e1068caacedbccc1563ff005df4,2017-08-05,1501957369,cb284d4cd7,"json_dump_file API returns success even when fclose fails (consider disk full case). API should check the return value of fclose before returning success to its caller. fwrite may not write anything into the file, it simply returns the number of bytes written into the buffer. When disk is full and fclose is called, it results in truncation of the file (resulting in zero sized file). Since, API is returning success, its caller can't take any remedial action on its failure.",3,1,src/dump.c,False
+3e5405c39e63c33b5ca07c6b4f7bdd53e7846b4c,2017-08-19,1503166172,6c2e3d233e,Work around gcc's -Wimplicit-fallthrough,11,11,src/lookup3.h,False
+271ffda903d2b64e3971f41a3e03af1ad0ddc217,2017-08-19,1503166217,6c2e3d233e,Make json_equal() const-correct,9,9,src/jansson.h;src/value.c,False
+112ccbd820449b85d7a7541d6b39cb31bdbb1bbb,2017-10-03,1507023727,ed75b7576d,Use last byte of error text as numeric error code,114,82,src/error.c;src/jansson.h;src/jansson_private.h;src/load.c;src/pack_unpack.c,False
+89f0dde7ff89fa3e4fc2dd73ef89bcea44f1fdfc,2017-10-29,1509301645,fcf1f32e13,Fix generated `pkg-config` file using cmake.,0,0,,True
+009ffa3fc8a4fbb5f79bdc764910149d0ea24b27,2017-11-07,1510042821,6c2e3d233e,Fix a compile error on macOS clang,1,1,src/jansson.h,True
+0b04762c94346314c3f0ad67c04f8fc1a0c1d6a0,2017-11-07,1510043534,cfc2474a44,Fixes akheron/jansson#373,0,0,,True
+bd91753e913194f008d1854d44834f86616da583,2017-11-15,1510721569,f4cd2c95ea,Remove extra reference actions in parsers.,2,6,src/load.c,False
+3951d39b40fa5fb9ceaa9182765ca64308c7f583,2017-12-10,1512921181,ed75b7576d,Document that length-aware string functions have been added in 2.7,0,0,,False
+9a1d9c88fce268b812453d0d23237ee805b9bc34,2017-12-13,1513191838,f4cd2c95ea,json_pack: Enable more complete stealing of references.,44,24,src/pack_unpack.c,False
+89dad8959b7903b1ab3653d11b3bd4335c44015e,2017-12-13,1513191847,f4cd2c95ea,json_object_iter_set_new: Fix error branch leak.,3,0,src/value.c,True
+6c78910011c5d10b9fcb95b6fdd038f4aa9bf74d,2017-12-13,1513191847,f4cd2c95ea,apiref: Clarify documentation for unpack `O` format.,0,0,,False
+24d45272a7553da609e747ef7deb1cf2c3d5beb7,2017-12-18,1513637492,ed75b7576d,document that json_error_code will be added in version 2.11,0,0,,False
+45228cada4c379fc1a290b1a0866f51e24396b47,2017-12-20,1513790824,ed75b7576d,Use a more specific error code for premature end of input,4,0,src/load.c,False
+dc3b313e91b573f393d8717c1c9e8c11a51f7ab1,2018-01-29,1517253478,f4cd2c95ea,Use thread-safe reference counting if supported by the compiler.,20,3,src/jansson.h,False
+37e0ee4d485f8d0821ea357d8bf97d3904145b73,2018-02-01,1517518465,f4cd2c95ea,json_dump: Fix thread safety issue.,48,48,src/dump.c;src/jansson_private.h;src/value.c,True
+3aee856d7bc453d488ff9fa5f2ac70e979dd9869,2018-02-01,1517518475,f4cd2c95ea,Docs: Update information on thread safety.,0,0,,False
+f44921e1766b4584bb239593ce7e7ea3242c99c3,2018-02-08,1518086294,6c2e3d233e,"Clarify thread safety docs, rename JANSSON_THREAD_SAFE",1,1,src/jansson.h,False
+efe6c7b3f2b3d75f1543c3ff4e4c3ecfe914b08d,2018-02-09,1518154653,6c2e3d233e,Add json_sprintf and json_vsprintf,39,0,src/jansson.h;src/value.c,False
+a6138a07b6f302567254c1f51193d9017dcb8d3e,2018-02-09,1518161753,6c2e3d233e,Document encoding requirements for callbacks,0,0,,False
+744fe5ed4415f7524da2814a28bc64519e820c4d,2018-02-09,1518197478,f4cd2c95ea,jansson 2.11,2,2,src/jansson.h,False
+73c22de51672cb40fdc29c95331923d4dcebb6fa,2018-02-15,1518707551,f4cd2c95ea,Improve test coverage.,7,13,src/load.c;src/pack_unpack.c;src/value.c,False
+a5af280bacacef2ec68021b7fda7a764f3258119,2018-02-20,1519114143,f4cd2c95ea,Enable branch coverage reporting.,0,0,,False
+ea664722d413eca98c1f92d1b06fb06272283452,2018-03-06,1520339116,f4cd2c95ea,Build: Add JANSSON_ATTRS macro.,27,21,src/hashtable.h;src/jansson.h;src/jansson_private.h,False
+e37e52549f5d89febd4cdef802c933137c5962f3,2018-03-06,1520342840,f4cd2c95ea,Add warn_unused_result to strbuffer_init.,14,28,src/pack_unpack.c;src/strbuffer.h,False
+749bef0b6a3fd7273595f1c0ec7bb79d138c83ad,2018-03-07,1520396894,f4cd2c95ea,More test coverage.,0,0,,False
+d8798468c6dae7227da4c5f0d6a568e99c27510f,2018-03-11,1520775285,126c8addd5,Upgrade CMake to 3.1 for Hunter,0,0,,False
+44f6606df86049668f04331df0123cc642529851,2018-03-11,1520776049,126c8addd5,Rename config files,0,0,,False
+a324d18940a7f3bfb3f4d684f0421f297316b426,2018-03-11,1520776386,126c8addd5,Rename target file,0,0,,False
+6d1ae86e1c1942c46203b788fa410e91f3963483,2018-03-11,1520776792,126c8addd5,Fix config file,0,0,,True
+b70364b36204467d7c523ff005927fa271137461,2018-03-11,1520777469,126c8addd5,Remove absolute path references,0,0,,False
+6d7a02beb0b5c246ac76caf636d3b634732c38f5,2018-03-11,1520778267,126c8addd5,Clean up CMake install,0,0,,False
+a586c0654f51496aae36666b9e03df8116357116,2018-03-11,1520778468,126c8addd5,Fix CMake include,0,0,,True
+fe7873e96324701648d70c3f4f69e2272219016f,2018-03-11,1520779035,126c8addd5,Fix package version config generation,0,0,,False
+92760bb363505bdff5fd6dc79508fe34e4481bea,2018-03-11,1520780042,126c8addd5,Remove warning,0,0,,False
+bb71db204f303fc07de4f99e22f2bd7eb5d7025c,2018-03-11,1520780054,126c8addd5,Fix output file name for version config,0,0,,False
+2c98c30a02e0d8ba004f9db7005dc7fbd9a90f1b,2018-03-11,1520780064,126c8addd5,Stop using absolute paths,0,0,,False
+15105b66b4df387037b670ac713584194ea10c2f,2018-03-22,1521706600,f0139f9200,Fix error handling in json_pack,32,32,src/pack_unpack.c,True
+50f29f9b1a555ccc2131776565d449700ad5fb96,2018-03-22,1521729989,f0139f9200,Add JSON_HAVE_SYNC_BUILTINS and JSON_HAVE_ATOMIC_BUILTINS for autoheader,0,0,,False
+9ff08f63126f0f1e8218cb811547485a4840c4e5,2018-05-07,1525671589,6c2e3d233e,Also build with VS 2017 in appveyor,0,0,,False
+fda9288b5f1f808820134ead984cf6cd2afe7030,2018-05-07,1525681028,6c2e3d233e,Update build instructions for Visual Studio,0,0,,False
+904f5c28aca5b5afd6793ea1b7b7194cd7da037a,2018-05-18,1526632505,496cfec185,CMake variable to number comparison changed to provide meaningful error message.  Explicitly specify STATIC and PIC,0,0,,False
+aed855e6920923898b94a1b922fbace27a34ddf2,2018-07-09,1531164395,6c2e3d233e,Avoid invalid memory read in json_pack(),4,1,src/pack_unpack.c,False
+81fe13eeed91d5c973db63d2f662ae766a8832c4,2018-07-14,1531589095,f4cd2c95ea,Deal with warnings under gcc 8.,1,1,src/error.c,False
+3e13f514ce5185a057a686221b61d9a9d9e86889,2018-07-14,1531600473,28e9e8373a,Update copyright for 2018,0,0,,False
+66e4ee795d21a30118f8503c966e9f9ae87db315,2018-07-25,1532511840,db3aedf75a,Call va_end after va_copy in json_vsprintf,12,5,src/value.c,False
+360b1ef5a1811594751234ffe630beabd138ba2e,2018-08-09,1533790466,6c2e8b5fc5,Enable -Bsymbolic-functions linker flag whenever possible,0,0,,False
+020cc26b5cb147ae3569a3f7d314d3900b4bbc0b,2018-08-12,1534087551,6c2e3d233e,Rename a varialble that shadows another one,4,4,src/dump.c,False
+d83d3d9172cb1b61347c1923b048c0beabf328cb,2018-08-30,1535633128,09f60f96e9,This fixes https://github.com/akheron/jansson/issues/434,2,2,src/dump.c;src/load.c,True
+fc591913ac600c57a900a81c0b7e67a9b6e38bdc,2018-08-31,1535698896,09f60f96e9,removed various warnings,8,12,src/dump.c;src/hashtable_seed.c;src/load.c;src/value.c,False
+5df5fc5b13cac5212482d36e7f3a78951782cfb5,2018-09-25,1537907719,f4cd2c95ea,json_pack: Improve handling of formats with '?' and '*'.,47,27,src/pack_unpack.c,False
+8d659113d53d7ef60eae6a6e2c5b0ecfc89fc74b,2018-09-25,1537912986,f4cd2c95ea,More work on json_pack error reporting.,41,5,src/pack_unpack.c,False
+ef080d17b5bc7cd35b8a0eb524d16683c4def38c,2018-09-29,1538246214,f4cd2c95ea,Fix code coverage ignored paths.,0,0,,True
+d11595334753881e969f0fd6bc9f4f2688e0f071,2018-10-15,1539579499,09f60f96e9,removed explicit casts,6,6,src/dump.c;src/load.c,False
+226b34d5463bc1e50f2d3ae0164a5b48069f4086,2018-10-15,1539579902,6d86ecfe11,fixed extra bracket,1,1,src/dump.c,True
+e262ea5fcd789d20d5d20d5d6d9c7ec06e3c00fd,2018-11-05,1541454562,f4cd2c95ea,Remove inappropriate jsonp_free which caused segmentation fault.,2,7,src/pack_unpack.c,False
+71978107148b411533e5cf60858c2fd6c55e6ead,2018-11-25,1543130843,428b71a93b,small updates to README,0,0,,False
+f44c137a847b8404988aebc86f93a89b34f24b55,2018-11-25,1543130954,428b71a93b,extra comma!,0,0,,False
+10afd33efb4d1b0e0e9d8056a7918f11c8d802e8,2018-11-25,1543135256,f4cd2c95ea,jansson 2.12,2,2,src/jansson.h,False
+f4498d2856fff130366e1dacc74d66d3502e0e5c,2018-11-26,1543222746,6c2e3d233e,CHANGES: Fix 2.12 release date,0,0,,True
+76300601d9cb3f8756dd94f0f8a354ff844ae686,2019-03-12,1552410214,50a0d14b94,Add runtime version checking functions,37,0,src/jansson.h;src/version.c,False
+100e5549b6e27bc48d6133be0941ea6bfd4b75ac,2019-06-28,1561727139,30c5037d1b,Create a fuzzing target for jansson,88,0,ossfuzz/json_load_fuzzer.cc;ossfuzz/standaloneengine.cc;ossfuzz/testinput.h,False
+24cc9dd0789d368861d750e0ebdda8747a0597d0,2019-07-19,1563526357,30c5037d1b,Move ossfuzz directory and use Makefile.am,0,11,ossfuzz/json_load_fuzzer.cc;{ossfuzz => test/ossfuzz}/standaloneengine.cc;{ossfuzz => test/ossfuzz}/testinput.h,False
+c49fbc7082a21d8db13aa3172a1de9c6dc62a90e,2019-07-22,1563764431,bcfc8a1070,correct spelling mistake,0,0,,False
+6e2659998037e8ed31a4ec4437ae34c09bb567fc,2019-07-22,1563791034,30c5037d1b,One byte fix to fix OSS Fuzz AFL support,0,0,,True
+66dec35c8c69449c1f85690b4ba58e2b6ce1f4ba,2019-07-24,1563959839,30c5037d1b,ossfuzz: Improvements to json_load_dump_fuzzer,0,0,,False
+a6f436fefca1240da23cfbd9db2a016e81014f0a,2019-07-24,1563961383,30c5037d1b,Ensure OSS fuzz travis builds work for PRs,0,0,,False
+7feae084b1be7f4fee424bfa4a76631ec1af37de,2019-07-24,1563961821,30c5037d1b,Use the correct branch for OSS Fuzz as well.,0,0,,False
+3858607be03ba91bb212a306a5175cfe9662bc37,2019-07-24,1563992057,30c5037d1b,"Depending on the dump_mode byte, dump out as a string or as a callback.",0,0,,False
+287b5acb07038431fac5e0ae7599fa76df192522,2019-07-24,1563993705,30c5037d1b,"ossfuzz: Zip up all ""input"" files to use as a seed corpus",0,0,,False
+e68c5ea0b5c0e8795e2c4237ea8c98b692af6ee1,2019-08-09,1565336517,f7bdc05da8,Update CMakeLists.txt,0,0,,False
+63fb81faa55e131277a41e8dca5b2399c9f1709d,2019-08-12,1565579845,bcfc8a1070,add loop check in json deep copy #457,56,17,src/dump.c;src/jansson_private.h;src/value.c,False
+53e9dd848f924021ec60ab3cd21c0c87c9dce37c,2019-09-16,1568620259,bcfc8a1070,add the loop key length macro for circular reference detect,6,5,src/dump.c;src/jansson_private.h;src/value.c,False
+672b6df4743dbf76e059c640ad3fe45f7c795594,2019-09-18,1568794731,f7bdc05da8,Update apiref.rst,0,0,,False
+3adf3e6a5acda08e941acbdff744940d94e07ade,2019-09-20,1569000956,22991ffaa5,Fix various typos,1,1,src/lookup3.h,False
+f5c0afecdb9abe19ca489e27ba44dcc404f2119f,2019-09-26,1569542042,2e1c23a6ef,Add vcpkg installation instructions,0,0,,False
+78ea35c8e91489129c67e37df71ac86022ec59f9,2019-10-08,1570522780,bcfc8a1070,fix issue #426,0,0,,True
+4f3305c50683056cad28512f87fe9a9af2a07a0b,2019-10-08,1570533410,bcfc8a1070,"fix issue #441 It already has ""strtod"" function in stdlib.h and because __USE_MINGW_ANSI_STDIO is desperated",0,4,src/strconv.c,True
+8682f2aab3891a53c30c5b47490a2814cb41f340,2019-10-08,1570537947,bcfc8a1070,fix issue #281,24,0,src/jansson.h,True
+1f889c4b603f37278c8660440912c17ac32bceee,2019-10-09,1570612324,bcfc8a1070,fix issue #481,24,24,src/hashtable.h;src/jansson.h;src/jansson_private.h;src/strbuffer.h,True
+4f26548e3ab24c91e88bb0dd24415819c6add1b8,2019-10-10,1570695370,bcfc8a1070,fix issue #453,0,0,,True
+a585a2778e0540e7e2514796c42da8287a77e190,2019-10-10,1570707797,bcfc8a1070,add note for non-blocking file descriptor used for json_loadfd,0,0,,False
+cb4727c4a931a471f7d2f1594b162a71349b4dfe,2019-10-11,1570764025,04da2d2f95,Add json_object_update_recursive(),21,0,src/jansson.h;src/value.c,False
+b403bbba8d161d28ac07d9bef083ccfdd92a0742,2019-10-12,1570848983,bcfc8a1070,modify some words,0,0,,False
+00d2d274bc4260d9197d5003cfb4531f7eca494b,2019-10-12,1570865765,bcfc8a1070,add loop check for json_object_update_recursive function,43,7,src/value.c,False
+fb602f331bb356aca4b2ec63c7db4da34773a381,2019-10-14,1571045544,bcfc8a1070,update the test case of json_object_update_recursive,0,0,,False
+010092c7bd21aabaea5d37162b30f526d46c25c4,2019-10-15,1571132517,bcfc8a1070,fix typo & add negative test case for test_equal_complex,0,0,,False
+c3958a326ca55db1eb750cd18439fcedf90262e9,2019-10-21,1571627619,d0e23283ec,remove undef __NO_ISOCEXT for strtod compatiblity,0,3,src/strconv.c,False
+7dc463ee4ee4d9b42ad4d914ac4caf734ecc56ae,2019-10-21,1571637183,6c2e3d233e,Add clang-format configuration,0,0,,False
+7c0297abe8f4fb4aafd642c3130628185dc78978,2019-10-21,1571637301,6c2e3d233e,Support running a specific clang-format version in CI,0,0,,False
+be0fca914efd7aec719cf5645ce5d6fde0fe2a86,2019-10-21,1571637301,6c2e3d233e,Add scripts for running clang-format,0,0,,False
+1a95a60f8093b709345ee6da8a954d1ebdfa5b7d,2019-10-21,1571637301,6c2e3d233e,"Run clang-format in CI, fail the build if everything's not formatted",0,0,,False
+79fe8c343572ea6a75c754a15bea8a94c7429265,2019-10-21,1571637301,6c2e3d233e,"Run clang-format on *.c, *.h",1165,1494,src/dump.c;src/error.c;src/hashtable.c;src/hashtable.h;src/hashtable_seed.c;src/jansson.h;src/jansson_private.h;src/load.c;src/lookup3.h;src/memory.c;src/pack_unpack.c;src/strbuffer.c;src/strbuffer.h;src/strconv.c;src/utf.c;src/utf.h;src/value.c;src/version.c,False
+78da35682a1804427fedf740db0571a29424bd46,2019-10-21,1571637363,6c2e3d233e,Set autoconf bug-report param to point to github issues,0,0,,True
+a8f5fa5f5a2b7613aa2aa27b4a4df83b5a0ecd1b,2019-10-21,1571637363,6c2e3d233e,Tweak clang-format configuration a bit,294,281,src/dump.c;src/error.c;src/hashtable.c;src/hashtable.h;src/hashtable_seed.c;src/jansson.h;src/jansson_private.h;src/load.c;src/pack_unpack.c;src/strbuffer.c;src/strconv.c;src/utf.c;src/value.c,False
+bb4f99e9190bbca8a4a5b2bb1ee2e9c0d8760c97,2019-10-21,1571637363,6c2e3d233e,Fix clang-format version checking,0,0,,False
+f912430cda4a9c3379d5781057297ff2ed453ba0,2019-10-21,1571637363,6c2e3d233e,Run clang-format with make check,0,0,,False
+5b8ff675b3ef1515515a2555496670c19a6f59ae,2019-10-21,1571644413,bcfc8a1070,"add MinGW build guideline, add new version of Visual Studio",0,0,,False
+67900c85d370dae2a0b2d0c0c17a4b3f388c61b0,2019-10-22,1571741575,bcfc8a1070,add changes since v2.12,0,0,,False
+3704e1cd78e0f7209d4f105f340de1dc00860f53,2019-10-24,1571905174,6c2e3d233e,Small modifications to CHANGES,0,0,,False
+6e211b24fe6e7270b610f0c3a98a88a87a17d8b4,2019-10-24,1571905366,6c2e3d233e,Fix the length of a section heading,0,0,,True
+e15fd861e1f571973948ad9b4ba309529cbcf75b,2020-01-21,1579588072,fbf3a0b5c0,Update apiref.rst,0,0,,False
+2882ead5bb90cf12a01b07b2c2361e24960fae02,2020-05-05,1588651636,6c2e3d233e,jansson 2.13,2,2,src/jansson.h,False
+bcb6b6f3fde24883c9ee1dc40deef69818e19307,2020-05-06,1588757508,3b599b9f59,add jansson_* to shared library exports,0,0,,False
+2d2efde34a7ad995cc328c6a80ab0bbc8a9e85c1,2020-05-06,1588759279,3b599b9f59,add `scripts` directory to EXTRA_DIST,0,0,,False
+e9ebfa7e77a6bee77df44e096b100e7131044059,2020-05-07,1588876739,6c2e3d233e,jansson 2.13.1,2,2,src/jansson.h,False
+38b001edbd06cce82c95cf7f367d6e60465d7311,2020-05-23,1590230080,fa5135a364,Handle vsnprintf corner cases.,4,2,src/value.c,False
+ca80d5127e56dd2ee056fdf3f4204017b78b89e0,2020-07-02,1593680080,dbe632f289,build: Add a symbol version to all exported symbols for glibc,0,0,,False
+798d40c3f3e0700501de1588274b69e2b128ad7c,2020-08-07,1596779685,6033a6094e,doc: convert refcounting directive to a class,0,0,,False
+94318890c0a917bc537381b28adf5a96116d01dc,2020-08-07,1596782065,6033a6094e,doc: do not use references for standard C types or file names,0,0,,False
+c329fd7bc81cbda3da6a3bd1104922c181635c99,2020-08-07,1596782127,6033a6094e,doc: add return types for function-like macros,0,0,,False
+d9c5b1d4dff8aae8cf59e36849fbccfdac6118f7,2020-08-08,1596885016,023585aa4b,"Lift ""Depth of nested values"" to a higher level",0,0,,False
+601b568b8dd2ec32d4d46fb9192f6ee49db5a61c,2020-08-08,1596921579,023585aa4b,Fix couple of typos,0,0,,False
+966f9cc20a45e68e150e26adc6fa84b4a7844767,2020-08-12,1597215427,f0139f9200,sort tests by alpha order,0,0,,False
+ba4503804bb6605598ce43d5cbde9ce1fa735d4d,2020-08-12,1597215434,f0139f9200,pass length of the key to internal API,79,54,src/dump.c;src/hashtable.c;src/hashtable.h;src/pack_unpack.c;src/value.c,False
+16a3899a9e02222a9b06d9c9e12b36ede47f5260,2020-09-01,1598944934,f0139f9200,conformance: remove U+0000 restriction for object keys,0,0,,False
+0758caaac02826fbda6179ce072cd37d343dc1cf,2020-09-01,1598944934,f0139f9200,reuse key len from loop check for better performance,62,33,src/dump.c;src/jansson_private.h;src/load.c;src/value.c,False
+ca6775dee4a3cbbb79074e523eb81feb6f1893a6,2020-09-01,1598944934,f0139f9200,introduce new fixed-size key API,89,5,src/hashtable.c;src/hashtable.h;src/jansson.h;src/value.c,True
+1d8201c6562c0efd8db7ed4214dc19efe617e6f6,2020-11-05,1604574354,fcb323784b,Print size_t properly with C11 %zd support.,0,0,,False
+ec1b6318e4d31e8dc7c62ef5bf9b63e0379cdc4b,2020-11-05,1604574398,fcb323784b,Use size_t to receive result from fread()/ftell().,0,0,,False
+38c4b80ab70aaa9fbc3d728959083ddff9132b6e,2020-11-05,1604612420,fcb323784b,Fix hashsize() should return size_t.,1,1,src/lookup3.h,True
+638449c43dfdc0a37ef999dd349988cf294525e6,2020-11-06,1604638274,fcb323784b,C11 %zd is bit overkill here. Especially requiring conditional compile.,0,0,,False
+55ea6d44dd63c8e591d23545ba298ffe42305191,2020-11-19,1605799623,6c2e3d233e,"doc: Rename ""Portability"" to ""Thread-safety""",0,0,,False
+fd3e9e3051fa17d293db7974863d84b512457528,2020-11-19,1605799873,6c2e3d233e,doc: Hoist a section,0,0,,False
+0441ccd3c63a3705dd5390ec385572ff6082484f,2021-01-14,1610651522,6c2e3d233e,Also build on Visual Studio 2019 on AppVeyor,0,0,,False
+aa52a60ca8e57234513b5bf3fae323e8f13899f1,2021-01-14,1610651522,6c2e3d233e,README: Update build badge,0,0,,False
+d8aedd3682bc90087ab20b3f1317080263dfacd4,2021-01-14,1610651522,6c2e3d233e,Delete Travis CI config,0,0,,False
+0bc4325222b8a4ef818aeda8364dd89f8800709f,2021-01-14,1610651522,6c2e3d233e,GitHub Actions,0,0,,False
+f7aee00928b08abdeadc7180c4cc8001dc8c4117,2021-01-25,1611606033,6c2e3d233e,Use cifuzz actions,0,0,,False
+bde3cab216bf00caf3bb4c186fb7b8e8192a5ddd,2021-01-26,1611682396,6c2e3d233e,Fix GitHub actions workflow syntax,0,0,,False
+2cd3126651ca4e1a7736ffc27708c08586be6f94,2021-01-26,1611684192,6c2e3d233e,Add name to the fuzz tests workflow,0,0,,False
+2de2c3d5fc702396a2a5ae8f70ab98a0011d486e,2021-01-26,1611691652,6c2e3d233e,Fix and simplify coveralls reporting,0,0,,True
+0dffb4284e7872c6e26956ad85fe127ba77220dc,2021-04-23,1619149318,c9419e195c,use --version-script in case of linkers that does not support --default-symver,0,0,,False
+e950e57e139250e4a2f2453025b6f97297b3b1bc,2021-09-06,1630947734,c9419e195c,fix --version-script for good,0,0,,False
+684e18c927e89615c2d501737e90018f4930d6c5,2021-09-09,1631211520,6c2e3d233e,jansson 2.14,3,3,src/jansson.h,False
+0677666f65b988b2dd44d02966a08fea490d5883,2021-09-09,1631213727,6c2e3d233e,Fix the check-exports tests for versioned symbols,0,0,,True
+eb816708811429261974fc28fbf779aaaab1d546,2021-09-12,1631461063,6c2e3d233e,Create CONTRIBUTING.md,0,0,,False
+78418c84f1621c9a919c480d1e400f0fe4d1eca1,2021-11-20,1637437634,f0139f9200,"value, pack: use key length from json_object iternals",19,12,src/pack_unpack.c;src/value.c,False
+586b4461e6317f93903ec034739a14955a10a33e,2021-11-20,1637438230,f0139f9200,tests: add some cases in fixed size test,0,0,,True
+addeeef408cf9e4711a234e04fc2c4bd7357561b,2021-11-22,1637591412,6c2e3d233e,Add some links to README,0,0,,False
+fe6e8eec7e7df4f1e72f0c9d9337b1fe11236687,2022-04-28,1651160214,acc3c64c12,Fix overwriting linker flags,0,0,,True
+de5f2963ab59fa070590ae36c2c0b22ada7b60f7,2022-08-09,1660071645,6c2e3d233e,Add a missing json_decref in the example,0,0,,False
+7e0453091632fbd9c537d4fc993456683c88df9c,2022-08-09,1660073078,6c2e3d233e,Remove the confusing vcpkg ad from README,0,0,,False
+1894366598bd36a66fbfe061380c7a7e971dc3ea,2022-08-23,1661217237,640433bb68,hashtable: change to ifdef,2,2,src/hashtable.c,False
+a7d04c855450ccfdb4e772905a531d2a4e752adf,2023-01-10,1673339744,0a0f073775,fix typo,0,0,,False
+e7c9ef8e52aec565530d9e69e81603d690419715,2023-03-29,1680086668,4c80208d46,Remove unused ${SOURCE_DIR}/include include path,0,0,,False
+60097f0096f337393b42d0ad13d403294ff4e782,2023-06-28,1687927348,6c2e3d233e,Create SECURITY.md,0,0,,False
+0154c4af07835317f730060a7a8e38253eb03bb4,2023-12-06,1701904203,a097dc8627, Add dependabot to update GHA,0,0,,False
+73d968feefe8b68dd8c83ae07f44630eb6ba88f2,2023-12-06,1701904214,a097dc8627, Bump GHA versions,0,0,,False
+0db4db10489347235ae15623e9038f84a5cb3cab,2024-03-07,1709840838,6c2e3d233e,Ditch coveralls,0,0,,False
+0c9c11a89df47b4dca19e8de4fbf7f1fb301aa5a,2024-03-07,1709842187,636363821c,Bump the github-actions group with 1 update,0,0,,False
+2d1c13224f757e780763e205e22fdf0517db82d0,2024-03-08,1709926581,6c2e3d233e,Use sprintf() to determine locale's decimal point,17,19,src/strconv.c,False
+0247b5e2e7abce5432b35e56cbb8543cddfacaaa,2024-03-15,1710529594,6c2e3d233e,Improve clang-format scripts,0,0,,False
+88375fb10ee775d0c07edd8394d09de34b7ebec3,2024-03-21,1711046198,6c2e3d233e,Refactor tests to work better with CMake,0,0,,False
+73dc6960ad5d1846aae70da83f5cde93f03928dd,2024-03-21,1711046202,6c2e3d233e,Show ctest output on failure in CI,0,0,,False
+649c9357c6f413362af324028a278afdc00ec56e,2024-03-21,1711046584,6c2e3d233e,Update CHANGES,0,0,,False
+dcbeb588297fe79e5d39c56f9d27b3860ee777f4,2024-03-25,1711386994,6c2e3d233e,Simplify tests even more,0,0,,False
+9699de8600c8fc74b9820f70f1bd73bc616bdc1c,2024-03-25,1711390103,6c2e3d233e,Fix tests,0,0,,True
+33a6c95d56bf020ab311a5ee57d6726a91318b71,2024-03-25,1711390103,6c2e3d233e,Fix compiler warnings,9,8,src/dtoa.c,True
+8b975abca1055d40637c90b1dc4585af1d7df76c,2024-03-25,1711390103,6c2e3d233e,Use dtoa for double to string conversion,6388,17,src/dtoa.c;src/dump.c;src/strconv.c,False
+ed06f65412f5a3dc3391197cf6d72aacac468160,2024-03-25,1711390103,6c2e3d233e,Rename a symbol to avoid collision on Windows,1,1,src/dtoa.c,False
+f5b3ab323ca63fe35ed70a3dc73cd9e0e8e6638c,2024-03-25,1711390103,6c2e3d233e,Add more tests,0,0,,False
+9d3abab61047fdc8f5bc8e5e33740549e59221c2,2024-03-25,1711390103,6c2e3d233e,Test with and without dtoa in CI,0,0,,False
+2297a2e320ebecc6dc98f7034a2f38509ad1d7f5,2024-03-25,1711390763,6c2e3d233e,Update LICENSE to add an exception for `src/dtoa.c`,0,0,,False
+c780171cf3a923e0cfbf4cda9b065570a1762015,2024-03-25,1711390781,6c2e3d233e,Update CHANGES,0,0,,False
+cce8caba26b6749e4912621c2860aea589256591,2024-03-31,1711912090,6c2e3d233e,Update badges in README,0,0,,False
+0f9c18dd1264704b55f41644aecbabf2567a9723,2024-07-10,1720571509,1138cd2ba4,Use target-based cmake settings,0,0,,False
+e5c38614fb7e0bdbcaec6db6133fa62cfed62818,2025-01-15,1736947647,722c934c56,"Only export symbols starting with ""json_"" and ""jansson_"" for cmake",0,0,,False
+cdb3b74d29dd37d84413e3f7702b603fff4b2792,2025-01-28,1738050099,aea6c8691c,include jansson_private_config.h only if HAVE_CONFIG_H is enabled,2,0,src/jansson_private.h,False
+ed5cae4ed0621ef409510f94270c9f8f263736d0,2025-03-23,1742732744,6c2e3d233e,jansson 2.14.1,2,2,src/jansson.h,False
+23905f372ca95110f071f31575aa968e8a581818,2025-03-23,1742759885,6c2e3d233e,Add readthedocs config,0,0,,False
+05a10aa8af8dcd832dd3270ef7a89bf5a3b834a1,2025-03-23,1742761916,6c2e3d233e,Fix code formatting,4,4,src/dump.c;src/jansson.h;src/strbuffer.c,False
+aef13f87f18efec7c2a543045301602af6177a83,2025-04-04,1743740120,6c2e3d233e,Set minimum cmake version to 3.10,0,0,,False
+3e989adaaf2390d822c459e8e23b397d58d86504,2025-06-14,1749932324,0ce87e94db,Optimized pack_unpack.c reuse key length,5,3,src/pack_unpack.c,False
+51000a9e03a81dc43e627439e1ff46895194f088,2025-06-14,1749933018,0ce87e94db,Optimized dump.c Move indentation check out of loop (do_dump),10,11,src/dump.c,False
+21d2727f3f5044bdacb94e8d608f084d5a409659,2025-07-08,1751997520,0ce87e94db,Add realloc,52,0,src/jansson.h;src/jansson_private.h;src/memory.c,False
+adc4e2c97be24360208e0472968f15847bcd86ad,2025-07-08,1751997520,0ce87e94db,Add realloc tests,0,0,,False
+9cf3f8813b86e37452b68bc290cb7182e4d02f41,2025-07-08,1751998946,0ce87e94db,add realloc in stringbuffer,1,4,src/strbuffer.c,False
+19c7f7faeea8b6d3b905cacf16b483743c30e020,2025-07-08,1751998947,0ce87e94db,add realloc in json_array,8,20,src/value.c,False
+a5c31170e3b6c0ec9347b14d89304e2f71b4ff71,2025-07-09,1752078098,0ce87e94db,rename typedef for realloc function pointer to json_realloc_t,0,0,,False
+0c4db95f53ad192bbad22d2fec2755c96b76815f,2025-07-09,1752078098,0ce87e94db,In hashtable_do_rehash user precalculated bucket size,1,1,src/hashtable.c,False
+8975069cc30adf919cc0eed5e065b4ad222169bc,2025-07-09,1752078098,0ce87e94db,add null check in secure_malloc for memory allocation,0,0,,False
+d17f2940e80be7bafb2146ead0acdf519bdadf58,2025-07-16,1752706018,0ce87e94db,Hashtable.h fix comments,5,6,src/hashtable.h,False
+38ad2dac2db05827777227ad0af8e095c27b1aa6,2025-07-16,1752709079,0ce87e94db,Remove unused function jsonp_strdup,0,3,src/jansson_private.h;src/memory.c,False
+11a1284aa1bbe269bf165c74b7a10f07461727cd,2025-07-16,1752709079,0ce87e94db,Removed duplicate prototype for jsonp_strndup,0,1,src/jansson_private.h,False
+914707424df80dd13a5d54075f566c0224ed7b1d,2025-07-16,1752709079,0ce87e94db,optimization: steal pointer from strbuffer,9,2,src/dump.c,False
+78e806ea4ff5eac46ca4dc267f73d5fa2b66024a,2025-09-25,1758794693,14cbb93e86,CMake: add configurable pkg-config path,0,0,,False
+c96e2d7c23feff6b357a71bc0d5f0ab222b8ae19,2026-01-24,1769287954,6c2e3d233e,Fix sphinx warnings,0,0,,True
+4a9a6db73d5dc553164992e87426502ab2d54512,2026-01-24,1769288084,6c2e3d233e,jansson 2.15.0,3,3,src/jansson.h,False
+82eff6dd5750919470c58a7011f78d86852aa50f,2026-02-01,1769964200,636363821c,Bump the github-actions group across 1 directory with 2 updates,0,0,,False
+2a9a35c0cdd32b5ec6619c339555f473dfd78aa9,2026-03-01,1772383393,636363821c,Bump actions/upload-artifact from 6 to 7 in the github-actions group,0,0,,False
+8b2f3e0fbe2ab775dd2c5fc7071ee44086b5f436,2026-03-25,1774449504,fad58acee9,Unpack: include keys in type mismatch error messages,30,20,src/pack_unpack.c,False
+ac29348128ba4ea1174e62eb3ec17606aa597ea7,2026-05-29,1780028415,4ff80fe91f,ossfuzz: add json_pack_unpack_fuzzer for unpack/deep-copy/dump paths,0,0,,False
+f45f0683b1ec2b4db1c6d807f2446c86a33bc32e,2026-06-13,1781349456,6c2e3d233e,Reject negative string length in json_pack s#/+# format,9,1,src/pack_unpack.c,False
+2836d8bde2eca55122d04cc163c6382dedd85a33,2026-06-13,1781350532,6c2e3d233e,"Limit recursion depth in dump, equal and deep copy to prevent stack overflow",32,16,src/dump.c;src/value.c,True
+b8635a73a12aef0721c0cbad9dc0fd3a40bd6c2b,2026-06-13,1781352166,6c2e3d233e,Fix oss-fuzz workflow's path filter,0,0,,True
+4288f7ba19bda796caffd58955336fe6dfe3f7cc,2026-06-13,1781352436,6c2e3d233e,Build and test in Release config on MSVC in CI,0,0,,False
+0c9099769c6ebe40111816bed3a52fd19df4e31a,2026-06-13,1781371695,6c2e3d233e,Use snprintf/strncat in json_process to prevent path buffer overflow,0,0,,True
+fa922856984daa641b3799c24b1299dff6720004,2026-06-13,1781371758,77d2aa0dbd,ossfuzz: add json_equal_copy_fuzzer for equal/copy/update APIs,0,0,,False
+e79b48b7d51f644c100504c961cae36ba887b3c2,2026-06-13,1781371758,1b6ba48c28,ossfuzz: wire json_equal_copy_fuzzer into Makefile.am and ossfuzz.sh,0,0,,False
+73a9269608c7fcde92c95b607c631a8e6c46291d,2026-06-13,1781375906,6c2e3d233e,ossfuzz: build json_equal_copy_fuzzer as C++ and widen json_loadb flag coverage,0,0,,False
+272d75a5e1685fc42f7123731f629e13af1942c0,2026-06-24,1782342879,3386cb10ec,configure: only use --default-symver when the linker supports it,0,0,,False
+52e34d1e42131cf9e5ddcfda27c593fca7ddab44,2026-06-27,1782561381,6f406c5165,ci: set least-privilege GITHUB_TOKEN permissions,0,0,,False
+9bc655abb88309a0b86abf660fd3a62156891d11,2026-07-01,1782924181,636363821c,Bump actions/checkout from 6 to 7 in the github-actions group,0,0,,False
+dbb5fb3636e155fccfce4cd215de752779bd6971,2026-07-01,1782930944,6c2e3d233e,jansson 2.15.1,2,2,src/jansson.h,False
+c9e39c0154f7cdb2de6c33b8c4640a669fea0b58,2026-07-09,1783581973,c0ebc3a975,CMake: Fix typo in SYMVER_WORKS test,0,0,,False
+fb012a005573435af7fef8d37df39c06b3c37c65,2026-07-09,1783581984,c0ebc3a975,CMake: Fix symbol versioning tests,0,0,,True

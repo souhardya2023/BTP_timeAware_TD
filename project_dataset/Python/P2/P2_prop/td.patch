@@ -1,0 +1,13 @@
+diff --git a/src/werkzeug/debug/__init__.py b/src/werkzeug/debug/__init__.py
+index 71f7dfb..4003d54 100644
+--- a/src/werkzeug/debug/__init__.py
++++ b/src/werkzeug/debug/__init__.py
+@@ -45,7 +45,7 @@ PIN_TIME = 60 * 60 * 24 * 7
+ 
+ 
+ def hash_pin(pin: str) -> str:
+-    return hashlib.sha3_256(f"{pin} added salt".encode("utf-8", "replace")).hexdigest()[
++    return hashlib.md5(f"{pin} added salt".encode("utf-8", "replace")).hexdigest()[
+         :12
+     ]
+ 

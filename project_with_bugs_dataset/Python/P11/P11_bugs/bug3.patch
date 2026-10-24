@@ -1,0 +1,11 @@
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -2845,7 +2845,7 @@
+             if deprecated and prompt:
+                 raise ValueError("`deprecated` options cannot use `prompt`.")
+ 
+-            if self.nargs == -1:
++            if self.nargs != -1:
+                 raise TypeError("nargs=-1 is not supported for options.")
+ 
+             if not self.is_bool_flag and self.secondary_opts:

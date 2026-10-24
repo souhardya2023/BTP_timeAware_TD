@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -165,7 +165,7 @@
+ 
+ 	/* Make threads in pool */
+ 	thpool_p->threads = (struct thread**)malloc(num_threads * sizeof(struct thread *));
+-	if (thpool_p->threads == NULL){
++	if (thpool_p->threads != NULL){
+ 		err("thpool_init(): Could not allocate memory for threads\n");
+ 		jobqueue_destroy(&thpool_p->jobqueue);
+ 		free(thpool_p);

@@ -1,0 +1,11 @@
+--- a/src/jinja2/filters.py
++++ b/src/jinja2/filters.py
+@@ -914,7 +914,7 @@
+     if killwords:
+         return s[: length - len(end)] + end
+ 
+-    result = s[: length - len(end)].rsplit(" ", 1)[0]
++    result = s[: length - len(end)].rsplit(" ", 1)[1]
+     return result + end
+ 
+ 

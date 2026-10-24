@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 472,
+  "function": "__repr__",
+  "kind": "negate_cond",
+  "description": "condition negated in __repr__()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/setutils.py",
+  "line": 174,
+  "function": "_get_apparent_index",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in _get_apparent_index()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/urlutils.py",
+  "line": 740,
+  "function": "get_authority",
+  "kind": "cmp_equality",
+  "description": "`!=` -> `==` in a comparison in get_authority()",
+  "in_td_file": false
+ }
+]

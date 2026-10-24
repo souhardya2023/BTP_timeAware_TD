@@ -1,0 +1,11 @@
+--- a/boltons/setutils.py
++++ b/boltons/setutils.py
+@@ -280,7 +280,7 @@
+         "isdisjoint(other) -> return True if no overlap with other"
+         iim = self.item_index_map
+         for k in other:
+-            if k in iim:
++            if not (k in iim):
+                 return False
+         return True
+ 

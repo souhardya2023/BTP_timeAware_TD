@@ -1,0 +1,12 @@
+{
+ "commits_non_merge": 874,
+ "first_commit": "2009-05-12",
+ "last_commit": "2026-07-09",
+ "authors": 114,
+ "bug_fix_commits": 114,
+ "lines_added": 21033,
+ "lines_deleted": 8285,
+ "szz_bugs": 45,
+ "szz_median_bug_lifetime_days": 84.5,
+ "release_tags": 34
+}

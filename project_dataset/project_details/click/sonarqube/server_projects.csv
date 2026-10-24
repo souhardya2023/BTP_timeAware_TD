@@ -1,0 +1,17 @@
+project_key,name,visibility,quality_gate,issues_exported,first_issue_date,last_issue_update,dataset_pair,dataset_project,td_type,mapping
+P20_TD,P20_TD,public,OK,84,2026-10-08,2026-10-08,Python/P20,click,dependency_structure,issue files found in the TD folder (68%)
+P21_TD,P21_TD,public,OK,78,2026-10-08,2026-10-08,Python/P21,click,complexity,issue files found in the TD folder (68%)
+P22_TD,P22_TD,public,OK,79,2026-10-08,2026-10-08,Python/P22,click,complexity,issue files found in the TD folder (68%)
+P23_TD,P23_TD,public,OK,79,2026-10-08,2026-10-08,Python/P23,click,complexity,issue files found in the TD folder (68%)
+Python-P11-TD,Python-P11-TD,public,OK,78,2026-10-08,2026-10-08,Python/P11,click,coupling_cohesion,key pattern
+Python-P12-TD,Python-P12-TD,public,OK,78,2026-10-08,2026-10-08,Python/P12,click,coupling_cohesion,key pattern
+Python-P13-TD,Python-P13-TD,public,OK,78,2026-10-08,2026-10-08,Python/P13,click,coupling_cohesion,key pattern
+Python-P17-TD,Python-P17-TD,public,OK,78,2026-10-08,2026-10-08,Python/P17,click,dependency_structure,key pattern
+Python-P18-TD,Python-P18-TD,public,OK,78,2026-10-08,2026-10-08,Python/P18,click,dependency_structure,key pattern
+Python-P19-TD,Python-P19-TD,public,OK,79,2026-10-08,2026-10-08,Python/P19,click,dependency_structure,key pattern
+Python-P20-TD,Python-P20-TD,public,OK,84,2026-10-08,2026-10-08,Python/P20,click,dependency_structure,key pattern
+Python-P21-TD,Python-P21-TD,public,OK,78,2026-10-08,2026-10-08,Python/P21,click,complexity,key pattern
+Python-P22-TD,Python-P22-TD,public,OK,79,2026-10-08,2026-10-08,Python/P22,click,complexity,key pattern
+Python-P23-TD,Python-P23-TD,public,OK,79,2026-10-08,2026-10-08,Python/P23,click,complexity,key pattern
+hist-click,hist-click,public,ERROR,98,2026-10-08,2026-10-08,,click,,release-by-release scan
+hist2-click,hist2-click,public,ERROR,102,2026-10-08,2026-10-08,,click,,release-by-release scan

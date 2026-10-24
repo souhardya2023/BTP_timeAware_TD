@@ -1,0 +1,11 @@
+--- a/src/api.c
++++ b/src/api.c
+@@ -120,7 +120,7 @@
+ {
+     void *new_start;
+ 
+-    if ((char *)*end - (char *)*start >= INT_MAX / 2)
++    if ((char *)*end - (char *)*start > INT_MAX / 2)
+ 	return 0;
+ 
+     new_start = yaml_realloc(*start, ((char *)*end - (char *)*start)*2);

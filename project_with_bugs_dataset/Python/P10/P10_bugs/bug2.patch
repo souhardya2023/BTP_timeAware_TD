@@ -1,0 +1,11 @@
+--- a/boltons/tbutils.py
++++ b/boltons/tbutils.py
+@@ -589,7 +589,7 @@
+     stype = etype.__name__
+     smod = etype.__module__
+     if smod not in ("__main__", "builtins", "exceptions"):
+-        stype = smod + '.' + stype
++        stype = smod - '.' + stype
+ 
+     if not issubclass(etype, SyntaxError):
+         return [_format_final_exc_line(stype, value)]

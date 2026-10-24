@@ -1,0 +1,11 @@
+--- a/trees.c
++++ b/trees.c
+@@ -766,7 +766,7 @@
+         curlen = nextlen; nextlen = tree[n + 1].Len;
+         if (++count < max_count && curlen == nextlen) {
+             continue;
+-        } else if (count < min_count) {
++        } else if (count <= min_count) {
+             do { send_code(s, curlen, s->bl_tree); } while (--count != 0);
+ 
+         } else if (curlen != 0) {

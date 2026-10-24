@@ -1,0 +1,11 @@
+--- a/src/dtoa.c
++++ b/src/dtoa.c
+@@ -5320,7 +5320,7 @@
+ 			leftright = 0;
+ 			/* fall through */
+ 		case 4:
+-			if (ndigits <= 0)
++			if (ndigits < 0)
+ 				ndigits = 1;
+ 			ilim = ilim1 = i = ndigits;
+ 			break;

@@ -1,0 +1,11 @@
+--- a/src/werkzeug/debug/__init__.py
++++ b/src/werkzeug/debug/__init__.py
+@@ -161,7 +161,7 @@
+     # Pin was provided explicitly
+     if pin is not None and pin.replace("-", "").isdecimal():
+         # If there are separators in the pin, return it directly
+-        if "-" in pin:
++        if not ("-" in pin):
+             rv = pin
+         else:
+             num = pin

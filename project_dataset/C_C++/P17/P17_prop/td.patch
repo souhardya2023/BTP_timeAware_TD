@@ -1,0 +1,12 @@
+diff --git a/src/api.c b/src/api.c
+index 16f88bd..a909f38 100644
+--- a/src/api.c
++++ b/src/api.c
+@@ -1316,7 +1316,6 @@ yaml_document_add_mapping(yaml_document_t *document,
+ 
+     MAPPING_NODE_INIT(node, tag_copy, pairs.start, pairs.end,
+             style, mark, mark);
+-    if (!PUSH(&context, document->nodes, node)) goto error;
+ 
+     return document->nodes.top - document->nodes.start;
+ 

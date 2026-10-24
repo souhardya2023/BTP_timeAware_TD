@@ -1,0 +1,228 @@
+sha,date,ts,author,subject,added,deleted,files,bugfix
+ceebf81b0b02e0bbe3e04979357022749349d6d9,2006-05-12,1147438892,69476d477c,Create the place for libyaml.,0,0,,False
+9e05b78ca5d1e05a5665da4d503eaad56eb49cb1,2006-05-12,1147462796,69476d477c,Add yaml.h with prototypes for basic structures.,186,0,include/yaml.h,False
+cec6fc98ebecc208edc30a900e6ab195e7c21851,2006-05-20,1148164995,69476d477c,Add the basic autoconf infrastructure.,117,39,include/{ => yaml}/yaml.h;include/yaml/yaml_error.h;include/yaml/yaml_version.h;src/version.c,False
+721c1923e49cc10cec9821d0877d94237265ca6f,2006-05-21,1148223512,69476d477c,Add doxygen support.,24,11,include/yaml/yaml.h;include/yaml/yaml_version.h;src/version.c,False
+a51447c932b63bcf7cc0226dafd621c6cd8a347a,2006-05-26,1148680007,69476d477c,Doxygenify the header file.,187,8,include/yaml/yaml.h;include/yaml/yaml_version.h;src/api.c,False
+95b98ba9b588df2f28b0a0acca11a1133fb266f0,2006-05-27,1148750347,69476d477c,Implementing Reader: first tries.,330,19,include/yaml/yaml.h;src/api.c;src/reader.c,False
+6eb1ded4c43d20264ed22f0d82f16043417cd765,2006-05-29,1148933289,69476d477c,Working on the decoding code.,365,52,include/yaml/yaml.h;src/api.c;src/reader.c,False
+3d790dfd5e1b802ce1ab82ff830d72eadd25e901,2006-05-30,1149011358,69476d477c,Complete UTF-8 and UTF-16 decoders.,240,106,include/yaml/yaml.h;src/reader.c,False
+2fa16060e00f4e96efa26568fa85ae10ab24d9f4,2006-06-01,1149193183,69476d477c,Complete buffering and encoding code.,81,59,include/yaml/yaml.h;src/reader.c,False
+f642fd1158f4b9ff7ff64aa58ad62e66908705ff,2006-06-02,1149253394,69476d477c,Add token constructors and destructors.,612,153,include/yaml/yaml.h;src/api.c;src/reader.c,False
+03be97ab0cb3d519a88b72ae820a00a269a775fa,2006-06-06,1149623014,69476d477c,Add scanner definitions.,781,3,include/yaml/yaml.h;src/scanner.c,False
+f2b59d4db01af719e98115dae18f6d9b33cc2327,2006-06-07,1149712222,69476d477c,Implementing Scanner: macros and high-level functions.,494,29,include/yaml/yaml.h;src/api.c;src/scanner.c,False
+eb9cceb5aa634810d6757baa1c6e3253bd96580a,2006-06-08,1149802630,69476d477c,Scanner: implement everything except token scanners.,1125,32,src/scanner.c,False
+e71095e3bf9b5f2222cde446327506542f86c847,2006-06-11,1150046949,69476d477c,"Implement scanners for directives, anchors, and tags.",1026,61,src/scanner.c,False
+92d41fe10302acbeeb89ffb611001df1f80c6bec,2006-06-16,1150490575,69476d477c,Implement the block scalar scanner.,412,20,src/scanner.c,False
+21fbedd41555fc23a512b3ad7799b12e53eb3775,2006-06-18,1150651225,69476d477c,The scanner is completed (not tested though).,577,24,src/api.c;src/scanner.c,False
+7e32c194136fd3fae534d05372623c6094b7bf85,2006-06-19,1150748842,69476d477c,Fix numerous bugs in the Scanner.,67,25,src/scanner.c,True
+26687d7db8333d9f3562cc701f0bfcc47369eb88,2006-07-03,1151933697,69476d477c,Add event constructors and destructors.,511,27,include/yaml/yaml.h;src/api.c;src/reader.c,False
+5eff53a4ac5d9d9563d5e6fdc073914d6ea88b49,2006-07-03,1151934554,69476d477c,Move yaml/yaml.h to yaml.h and merge version.c to api.c.,17,82,include/{yaml => }/yaml.h;include/yaml/yaml_error.h;include/yaml/yaml_version.h;src/api.c;src/reader.c;src/scanner.c;src/version.c,False
+1eb01be7e2303ff0061c8860429cb67d7caba0a5,2006-07-04,1152041996,69476d477c,Start working on the parser.,364,0,include/yaml.h;src/api.c;src/parser.c,False
+52fba2c6b357fefbc9ad2c099506e64618ef2ced,2006-07-05,1152129510,69476d477c,Implement half of the parsers.,772,6,include/yaml.h;src/api.c;src/parser.c,False
+ab01bac8b522ac9562333d15602972dbfd8b8828,2006-07-07,1152300865,69476d477c,Complete the Parser (it requires refactoring though) and fix some bugs.,498,15,src/api.c;src/parser.c;src/scanner.c,True
+625fcfe9edfbe8576ec6ef8d2d6adaed4bb86403,2006-07-21,1153489832,69476d477c,Refactor internal and external API.,1863,2761,include/yaml.h;src/api.c;src/parser.c;src/reader.c;src/scanner.c;src/yaml_private.h,False
+54815ffd349279576102da76745f482b5ba5a236,2006-07-21,1153506540,69476d477c,"Fix some leaks, segfaults and warnings.",20,6,src/api.c;src/parser.c;src/reader.c;src/scanner.c,True
+b1a54000b5f6bfc58221bbf6f9aa384c821264a3,2006-07-23,1153655856,69476d477c,Add Emitter definitions and implement the Writer.,1041,127,include/yaml.h;src/api.c;src/parser.c;src/scanner.c;src/writer.c;src/yaml_private.h,False
+cf6161665735051e6ebce2c5a105e2191e6d33fc,2006-07-25,1153860868,69476d477c,Add yaml_emitter_emit_* set of functions.,422,10,include/yaml.h;src/api.c;src/emitter.c;src/parser.c;src/yaml_private.h,False
+5a00d8fe664672493e14535cdca52d2fb69a0032,2006-07-26,1153945936,69476d477c,Implement Emitter state machine.,1278,447,include/yaml.h;src/api.c;src/emitter.c;src/parser.c;src/scanner.c;src/yaml_private.h,False
+e35af832e9765e72b3ee3e337b2bfb958e3c5962,2006-07-28,1154117374,69476d477c,Implement everything except tag and scalar writers.,1469,384,include/yaml.h;src/emitter.c;src/scanner.c;src/writer.c;src/yaml_private.h,False
+784340c2a76df9edf81d378dd8e2f09cb059e509,2006-07-29,1154211026,69476d477c,Scalar writers are completed.,417,16,src/api.c;src/emitter.c,False
+6d1672817d77bd1f8be2b13e5e44f22c3bc82c85,2006-07-30,1154263757,69476d477c,Fix Emitter bugs and leaks.,59,21,src/api.c;src/emitter.c;src/parser.c,True
+b3043c486c98b6f0be2ac532552b19f0e0f0099b,2006-07-30,1154263815,69476d477c,Add the run-emitter test.,0,0,,False
+2a02dfd2625480af0f2b48664c46dab20ea799da,2006-07-31,1154384672,69476d477c,Add two examples and prepare the build system for distribution.,7,3,include/yaml.h;src/api.c,False
+028f3e8709fdd7574f34aa19dd600777a7d86289,2006-08-01,1154431696,69476d477c,Prepare the initial release.,75,72,include/yaml.h,False
+609cce0ef9a142e5c93b8e45b7cd495a21cb2342,2006-08-15,1155662461,69476d477c,Older versions of gcc do not know about -Wno-pointer-sign.,0,0,,False
+c83b67a678b13ebc7cc198ee8d0ed68225ac3e2b,2006-12-11,1165864829,69476d477c,Force a new line at the end of the input stream even if there are no a new line character. This fixes a nasty bug when libyaml hangs on documents like `[[[[`. Thanks ciaranm for reporting the bug.,7,0,src/scanner.c,True
+a907bf857a165a271a23140919c26cde14223dfc,2006-12-11,1165865601,69476d477c,Add `const` qualifier for `yaml_parser_set_input_string` parameter `input`.,522,7,include/yaml.h;src/api.c;src/yaml_private.h,False
+e27a3c886ebe97dda5b6f961b04949bb3003d4a6,2007-01-07,1168200676,69476d477c,"Add functions for constructing, parsing and emitting YAML documents.",1447,298,include/yaml.h;src/api.c;src/dumper.c;src/emitter.c;src/loader.c;src/yaml_private.h,False
+0174ed6e0abc4b9316a91d32163f2507a31d29fb,2007-01-07,1168210270,69476d477c,Add win32 fixes and project files for VC6.,38,32,src/api.c;src/emitter.c;src/loader.c;src/reader.c;src/scanner.c;src/writer.c,True
+6f6bbb88ed41dd1235239b25189f10532e29e0e7,2007-01-08,1168259015,69476d477c,Add VC6 projects for the test executables.,0,0,,False
+071329aef541027cb9a1cadd92387dd577789b4d,2007-01-08,1168259228,69476d477c,Fix a bug in the emitter introduced while fixing warnings for VC6.,2,2,src/emitter.c,True
+01224901943b05fd939158398d1940ac86ce16b8,2007-01-08,1168272839,69476d477c,Undefine the NDEBUG directive for the test programs.,0,0,,False
+c9b74def08ff0fcac2f1466652b432e4c3129b35,2007-01-08,1168281235,69476d477c,Eliminate some warnings and add more doxygen definitions.,154,24,include/yaml.h;src/api.c;src/loader.c;src/parser.c;src/scanner.c;src/yaml_private.h,False
+ce8a93e657e22f1b5baa91cb7b123b60bb3d24e8,2007-01-08,1168281711,69476d477c,Fix the example_deconstructor project.,0,0,,True
+dd71484beb4d75c81b1e2c84a752bd04be632e3a,2007-01-08,1168296008,69476d477c,Add project files for Visual Studio 2003.,0,0,,False
+5e52c31904e21cf7a80a1ebd7a349c59f13e6aed,2007-04-17,1176831594,69476d477c,Fixed a problem when the DOCUMENT-END event is not emitted until the beginning of the next document is available.  Fixed #51.  Thanks edward(at)sweetbytes.net for the bug report.,12,3,src/parser.c,True
+b45749addd2b0f36745cf6204da5ad9ca0d433b9,2008-07-31,1217535739,69476d477c,Created a stable branch from revision [250].,0,0,,False
+6ac56d31410a0f76824ae1bb9110620e618968da,2008-07-31,1217535813,69476d477c,Bumped the version number in the stable branch.,0,0,,False
+6be8109b82eb483032ef336ef9bd2972590e0113,2008-07-31,1217536862,69476d477c,Fixed grammar in error messages (from YAML::XS::LibYAML).,13,13,src/parser.c;src/scanner.c,True
+70e3cdcc915aad3017102896cc293201ba213125,2008-09-30,1222777256,69476d477c,Added project files for Visual Studio 2008.,0,0,,False
+f0c45f39999f60229c2e026d4c56da9bd3e97ad2,2008-10-02,1222915126,69476d477c,Updated Visual Studio projects to use MSVCRT.dll.,0,0,,False
+40cc5d1517fdaf39d751add86085706a7e1568aa,2008-12-27,1230380094,69476d477c,Rewritten whitespace detection in the scalar analyzer and block scalar writers (ported from PyYAML).,103,110,src/emitter.c,False
+561ca6de7b3ee25f67e440b842b4aa1eb59a33c5,2008-12-27,1230405240,69476d477c,Fixed emitting folded scalars with trailing breaks; Forced emitting of a document end indicator when there is a possibility of ambiguous parsing.,31,1,include/yaml.h;src/emitter.c,True
+7e26b2e9af8b80b689fd101d732572fb01c5e2db,2008-12-27,1230405462,69476d477c,Bumped the version number.,0,0,,False
+59b46bb08a97e96874dd7ef461deb6f9e74a5ee9,2008-12-27,1230413315,69476d477c,Fixed the DLL name in the win32 projects.,0,0,,True
+cf436014a955d7f1f1faedf92e02d3f0ee5310ed,2008-12-27,1230415729,69476d477c,Updated the LibYAML announcement.,0,0,,False
+dded84b14d39bea4e1b8c427e9dd490f14d79d1c,2008-12-27,1230418539,69476d477c,Added autoconf rules to distribute win32 project files.,0,0,,False
+c70abc4d0d0b79f36713e2593571ae9ed7d6f10b,2008-12-28,1230497182,69476d477c,Always use lower case in error messages.,13,13,src/reader.c;src/writer.c,False
+b11a3e6e502e9ff301a3fbec355b3696a3203561,2008-12-30,1230608543,69476d477c,"'make distclean' should not remove html docs, 'make maintainer-clean' should (Thanks Anders Kaseorg).",0,0,,False
+45bc975e7b3b34f1f6e29c1b2941de14fb815a55,2009-01-05,1231147807,69476d477c,Set YAML_AGE to 0 as the current interface is not really compatible with the previous one.,0,0,,False
+252c575a5cd67b2207ef79e6b29d6f4d12f21ada,2009-02-23,1235419159,69476d477c,Fixed non-ANSI initializations (fixes #115).,70,25,src/api.c;src/emitter.c;src/loader.c;src/parser.c;src/scanner.c;src/yaml_private.h,True
+1893dabd78f6707d07882049997b7c2879bf02b9,2009-08-29,1251581171,69476d477c,Do not update the raw buffer when not necessary (fixes #123).,7,2,src/reader.c,True
+0be7421be5c44fdf0458d529777682cf731ef9ff,2009-08-29,1251587305,69476d477c,Preparing the 0.1.3 release.,0,0,,False
+d2f37f69785402c0d04ade82fef6b581406655c4,2009-08-29,1251588733,69476d477c,Added a short note on changes in this release.,0,0,,False
+bbaaf49bc48a283859625871216b487b8bb11af8,2010-10-11,1286778547,69476d477c,"Fixed a bug which prevented an empty mapping from being used as a simple key (#150, thank to spitzak(at)rhythm(dot)com).",1,1,src/emitter.c,True
+3b160b6028f8137d32a4d0c6360f7ab1a2226cbf,2010-10-11,1286779263,69476d477c,"Fixed pointer arithmetic overflow when calculating the position of a potential simple key (#156, thank to ppelletier(at)oblong(dot)com).",1,1,src/scanner.c,True
+52e34e2b73bef427dd85915199b7d97fc40d3aee,2011-05-29,1306636896,69476d477c,Use _WIN32 instead of WIN32 as the latter is not defined by Visual C.,1,1,include/yaml.h,False
+242a44b6a64b9781b0288b0d9ce1e7b6b83c0907,2011-05-29,1306646979,69476d477c,Added support for pkg-config.,0,0,,False
+adf72619336447d46d669b2211afdff4aebad86d,2011-05-29,1306648356,69476d477c,Bumped the version number and updated the announcement.,0,0,,False
+4dce9c142b5452c0d323db7d51e804b52c30c182,2012-12-24,1356321092,6f0a5ef408,update tags,0,0,,False
+f54fc409222be8b5bd52850d9ec141dfc06bfc05,2014-01-12,1389484889,69476d477c,Added tag 0.1.4 for changeset 3e6507fa0c26,0,0,,False
+01e8dadf4c67ec14e16057d725caee991414a502,2014-01-13,1389572859,69476d477c,Added a basic CMake project.,0,0,,False
+f56726b996a296c89aaf5912e1d789188d9fc019,2014-01-13,1389584664,69476d477c,Fixed invalid size_t->int cast (Thank to Florian Weimer).,1,1,src/scanner.c,True
+df33f257e5b99ecde7f9b6dbc6d449dce76a139f,2014-01-13,1389585039,69476d477c,Bumped the version number.,0,0,,False
+2d94fc50024ae139903ed55a7fd0748ec9fa70e4,2014-02-03,1391395990,69476d477c,Prevent node index overflow (Reported by Florian Weimer).,18,0,src/loader.c;src/yaml_private.h,True
+bb8ab829a252b2ecf328df9c152a96198e4cc8f6,2014-02-03,1391396045,69476d477c,Added .hgignore.,0,0,,False
+c201bf64fa16fb65b11624dacc24d96a46604f02,2014-02-03,1391406104,69476d477c,Guard against overflows in indent and flow_level.,14,7,src/scanner.c;src/yaml_private.h,False
+c9479c77ed4bd43099e53b272d395f62d58b461b,2014-02-03,1391408806,69476d477c,Limit input size to SIZE_MAX/2.,5,0,src/reader.c;src/yaml_private.h,False
+1ef1171721dae8f4dee1d8cc49953c69a56913d9,2014-02-03,1391409843,69476d477c,Forgot to set the error state.,6,2,src/scanner.c,False
+303b4558ef395f7dcac145e82732728a15e991e7,2014-02-04,1391485279,69476d477c,Manually define PTRDIFF_MAX for VS C compiler.,9,0,src/yaml_private.h,False
+662f4be270c519ae74b46404ed30cd5ed47735bc,2014-02-04,1391492544,69476d477c,Added tag 0.1.5 for changeset a5142b24428b,0,0,,False
+d1003a9d40b674520934f4f38ffc4ff2a809bc2d,2014-03-26,1395835397,69476d477c,Fixed heap overflow in yaml_parser_scan_uri_escapes (Thanks Ivan Fratric of the Google Security Team).,8,2,src/scanner.c;src/yaml_private.h,True
+1dda16859589730cb1a293c56ee132455b86820f,2014-03-26,1395860154,69476d477c,Added tag 0.1.6 for changeset bce8b60f0b9a,0,0,,False
+946596172d140497b560e016e581accb0a92cca4,2014-11-28,1417197312,69476d477c,Removed invalid simple key assertion (thank to Jonathan Gray).,0,7,src/scanner.c,False
+686b2d8507f0f751be91f0666eb87f62c67a28f8,2016-06-05,1465149776,69476d477c,Fixed segfault in yaml_string_write_handler.,1,1,src/api.c,True
+b608c76fa5e82b04ceb066f415f8ce3b775ee57f,2016-06-20,1466461802,69476d477c,Updated the link to the bug tracker.,0,0,,True
+99f8a01d7aab8486aeae775044b7e371a9587afe,2016-06-20,1466461993,69476d477c,Removed obsolete Visual Studio project files; use CMake.,0,0,,False
+d7904e816c9d0ddf29ae10996b67b524f6114e57,2016-06-20,1466462056,69476d477c,win32/config.h: bump the version number.,0,0,,False
+dfe448315f724c3fb64f7ede0dfe2bd6848b2f99,2016-06-21,1466468570,69476d477c,Fixed double free in an example.,0,0,,True
+3b570fc9abdb367eb2cd61deac3ede705bc97c96,2016-06-27,1466998105,69476d477c,Examples: prevent crashes on some input files (thank to Mathias Svensson).,0,0,,True
+45cf8b5411182c8239a9b228169d26f5ff89cf6d,2016-07-05,1467687503,69476d477c,Fixed error handling in run-emitter example.,0,0,,True
+955060d552989b31ca061b53ff7ae4a7d7b2336b,2016-08-27,1472331657,69476d477c,Updated announcement.,0,0,,False
+a7975608b00638e60c77c012baef28f1715f114c,2016-08-28,1472428513,69476d477c,Added tag 0.1.7 for changeset 88bd944837cd,0,0,,False
+6238ef6d9efef7e61f2cd5b18b6c09e18b09fe4a,2016-09-07,1473280271,ca076f4177,Use .gitignore instead of .hgignore,0,0,,False
+9db8216095b4785c2996c00b8da61de88779e452,2016-09-15,1473918258,f96651b6cd,Add `make test` target to Makefile,0,0,,False
+1525ded0edb37facd366cd5bf0fea4247b242726,2016-09-15,1473918258,f96651b6cd,Add .travis.yml to use Travis-CI,0,0,,False
+e5607fb569382c31d2406b3701d61a19c4635df7,2016-09-16,1474048151,ca076f4177,Make .travis.yml a little easier to read,0,0,,False
+56400d976a1999156b1abfd674c3122843980260,2016-09-21,1474481859,f96651b6cd,This code is not needed and breaks tests,0,4,src/emitter.c,False
+6db69c72d4823a95c8feddaaa4380d13cf02939c,2016-10-06,1475773428,f96651b6cd,spec-1.2 rule [53],4,0,src/scanner.c,False
+1d24d4d2ab6656bba29e949cdf5ffe15b98429cb,2016-11-23,1479916334,1615586147,added an examples directory with a few yaml examples,0,0,,False
+bdf4d192d07517f79b07c65d678ad83bd9502fa1,2016-11-23,1479917358,44c51efa1b,Picked typofix from Ruby's Psych parser,21,21,src/loader.c;src/scanner.c,False
+986dbde7b3ffb0826521b590bf46ec6ff8ff1eba,2016-11-23,1479939319,44c51efa1b,Removed trailing-whitespaces,16,20,src/emitter.c;src/parser.c;src/reader.c;src/scanner.c;src/writer.c;src/yaml_private.h,False
+e4fd0393e6e97439666527db71c1fa18482778a7,2016-11-23,1479939410,f96651b6cd,Update LICENSE years.,0,0,,False
+6dfd50f13f18be0d381d2bcd2f9cebb71d7c7615,2016-12-06,1481000360,5ed4f7dc91,add unit tests to cmake and appveyor config,0,0,,False
+37c92e06f887c85d39633ae2a055381ebe1c3d63,2016-12-07,1481112788,591ee09968,Fix misspell: preceed,4,4,src/emitter.c,True
+3c80be99fb18f3ee18af37221a3b0c4760e8df06,2016-12-07,1481113142,9a4a1b013d,Added missing Cflags path in pkg-config file,0,0,,False
+80f22796f123fb7ebe4df820102802af7f8ec1d1,2016-12-07,1481114718,ca076f4177,Start working with multiple Dockerfiles,0,0,,False
+d1de67e79c869fcb5494e6dd25d8ea5f33afc5d7,2016-12-07,1481114718,f96651b6cd,Dockerfile for creating a test environment,0,0,,False
+ef55068d8ea6f9b6003af28faea8e8606a3c1215,2016-12-08,1481157977,1615586147,Include an example of a custom tag from Python,0,0,,False
+989bfd791966c36b067389b88c9543d91d756f2b,2016-12-08,1481157977,1615586147,Include an example of a %YAML tag,0,0,,False
+e09a1ee23e4238b3fffdc159e7f1ec3bb68169ed,2016-12-08,1481157977,1615586147,Added an example of using a global tag,0,0,,False
+87a90e0b54c7e9312e1a8642de9e0e442c4c673b,2016-12-08,1481160677,ca076f4177,Add maintainer field to dockerfiles,0,0,,False
+d55b4f83bd4ffb9467c1fa228ef4cca26f8d3f87,2016-12-08,1481199817,ca076f4177,Update bug report URL in LibYAML,0,0,,True
+bc67233b541d9e50a71288524db71e4f663d9433,2016-12-09,1481293510,1615586147,Update bug report URL in README,0,0,,True
+fd039be5f1f13cd9278d510ddf8f3ccda0e0d1ec,2016-12-10,1481390096,ca076f4177,Use AM_CPPFLAGS since autotools deprecated INCLUDE,0,0,,False
+44d49c9019930352dea29b539fd949f1c22a5766,2016-12-17,1482010038,ca076f4177,Fix -Wformat compilation errors in tests,0,0,,True
+d688ead5eb73d6f2dd4d3ccd4c988b3320322ee2,2016-12-17,1482010038,ca076f4177,Utilize Travis CI's OSX builders,0,0,,False
+26b098f267b94476fa5592e99464d71b64fc0211,2016-12-17,1482015024,f96651b6cd,Add Makefile support for yaml-test-suite,0,0,,False
+c72cf5fde86348406b8115fece6a5bb4cc61b98d,2016-12-17,1482015197,f96651b6cd,Add `make test-all` to travis,0,0,,False
+6bc9e2466b54f015e1ed127cf6e053b73b5adacf,2016-12-29,1482988315,4965425b02,Fix typo,1,1,include/yaml.h,False
+b6cc3a689d9fd7f72863b7a4f95f430b2d75378e,2016-12-29,1483048541,ca076f4177,Add -Wall to list of compile flags,0,0,,False
+49be466cb1f7fa6beae258ac24cc6bb9fd4baa68,2016-12-29,1483048541,ca076f4177,Fix pointer warnings in example-deconstructor,0,0,,True
+70342132b45136d0d9794e4067755143fc5b44eb,2016-12-29,1483048541,ca076f4177,Fix pointer and enum warnings in deconstructor-alt,0,0,,True
+90d6ba3ca17010820135cd81e856728b94c7bba4,2016-12-30,1483059970,f96651b6cd,Update .gitignore with latest generated files,0,0,,False
+52b6634fb39a09c71782caf50005f0f23d2cec95,2016-12-30,1483060193,f96651b6cd,Move Travis CI steps into a Bash script,0,0,,False
+a672b0710919287ffbede8594c47aade35dd5874,2016-12-30,1483117798,f96651b6cd,Include libyaml-test and libyaml-parser-emitter,0,0,,False
+048095f030bdd05276e5b1c6d9f954f367aa0022,2016-12-30,1483134894,f96651b6cd,Get tests passing on Docker,0,0,,False
+2fc6dc0885abf9ce0dd7856a4fa1791caaac5920,2016-12-30,1483137666,f96651b6cd,Add fedora dockerfile from PR #43,0,0,,False
+de19e70b6d53f7df967b74f6946765e3981a1dfc,2017-01-02,1483381772,f96651b6cd,Add a `.makefile` for immediate make targets,0,0,,False
+ed44fa2ddff79336df1b17a8ab67ffbd29b16189,2017-01-02,1483382789,f96651b6cd,Add reminder when user is using GNUmakefile,0,0,,False
+7b67c28a39295727791effd8541fc319b00e2c84,2017-01-18,1484758924,f96651b6cd,Skip edge case test M7A3,0,0,,False
+c9878e19bdd9e6a0af55c1b420d4e941b28ed6c6,2017-02-09,1486657473,f96651b6cd,Switch test-suite run list from black to whitelist,0,0,,False
+300bd3f89e7ee0b581b5df2550486126abc47baf,2017-02-22,1487739603,adcc50cb25,cmake: Provide support for building dynamic and static libraries.,0,0,,False
+119b7b6adfa72552d6dc7eb03f402ff5cf8f9fa6,2017-03-10,1489180377,06c1dfa455,Updates defs for MingGW support on Windows,3,1,include/yaml.h,False
+6bbc217fc721b3b78ee7911e5267b40984943f4c,2017-05-13,1494718028,ca076f4177,Fix unitialized value crash found by OSS Fuzz,5,0,src/scanner.c,True
+660242d6a418f0348c61057ed3052450527b3abf,2017-05-14,1494763032,f96651b6cd,Remove deleted test from parser test list.,0,0,,False
+fe3d086fa75a289d6e4085df6f855f4c88c8d7c2,2017-11-30,1512047667,b013fec2b4,Improve CMake build system,0,0,,False
+fd5bf68a30725caa33a9166ea6dd4b49c18c2a93,2017-12-01,1512135199,d033138a8f,Skip 5 tests in libyaml-emitter.list,0,0,,False
+e5aadc734909797f25057a795be0053669c80f1b,2017-12-02,1512249803,d033138a8f,Rewrite make test-suite,0,0,,False
+6cc8b63ff77c92a8d90dcf4f171fb3fa2d1dd12a,2017-12-02,1512249985,d033138a8f,Forbid escaped singlequote in doublequotes,0,4,src/scanner.c,False
+5672b163823573c77edda2cd395e62e4efb52fd0,2017-12-23,1513990139,d033138a8f,Define PTRDIFF_MAX if it's not in stdint.h,7,0,src/yaml_private.h,False
+61dd999bfe57a18873358a6b78c7832d5bed3a41,2017-12-23,1514046099,d033138a8f,"Update libyaml-{parser,emitter}.list",0,0,,False
+6a9e942e27f0ca53d26ab2b4c87249dd82014723,2017-12-26,1514252271,d033138a8f,Replace Mercurial with Git in README,0,0,,False
+e4aee06ff401668404de21b4af4c6a90be0f35a6,2017-12-30,1514606287,f96651b6cd,Move tests/run-test-suite to branch run-test-suite,0,0,,False
+aa10f65706b474987d17a6b66ae087f823758e6f,2018-01-06,1515278352,f96651b6cd,Fix problems in CI failures (travis and semaphore),0,0,,False
+a70c7f36cb46a7fbda862389b4d602f5444ff3f2,2018-01-07,1515300198,0e9ba9e2f3,add -no-undefined to src/Makefile.am,0,0,,False
+a9a9b271fe6ea6c856159033e2328a3098bf1cc3,2018-01-08,1515399664,f96651b6cd,Docker test file changes (added alpine testing),0,0,,False
+2b8b563222293e2cc410cd7fd9cb31f05622d97e,2018-01-08,1515436635,f86903d396,Compilation fix for Solaris,6,1,src/yaml_private.h,True
+fc2dd942fc61ae135b7e2bfe5c248b1f15b74547,2018-01-08,1515437065,09962fd137,Fixed most compiler warnings -Wall -Wextra,78,58,src/api.c;src/dumper.c;src/emitter.c;src/loader.c;src/parser.c;src/scanner.c;src/yaml_private.h,True
+d9c23d9197dbd82845e89b3b4cd61d3c120202b4,2018-01-09,1515474478,0e9ba9e2f3,Add mingw-w64 builds to appveyor.yml,0,0,,False
+639981a546267ca32109b0138c1cd569ce33c39c,2018-01-10,1515560621,1bf4fc17d2,Update libyaml homepage link in README,0,0,,False
+d050fe3f3006b55edf33a2ef91019a67d6c3fb10,2018-01-10,1515566193,0e9ba9e2f3,Major cleanup of .gitignore,0,0,,False
+01f3a8786127748b5bbd4614880c4484570bbd44,2018-01-11,1515692191,a3324831ec,Remove need for PTRDIFF_MAX,14,25,src/reader.c;src/yaml_private.h,False
+83d3d3883877756963ca177e33f239f89a770fb1,2018-06-25,1529901889,a3c8977dc1,Fix two typos in header comments. (#120),2,2,include/yaml.h,False
+f6e09f829b606ca0d0adf774236fa8cdd5e2a7d1,2018-06-26,1530049439,f96651b6cd,Changes for 0.2.1 release,0,0,,False
+8ee83c0da22fe9aa7dea667be8f899a7e32ffb83,2018-06-29,1530301459,d033138a8f,Revert removing of open_ended after top level plain scalar,4,0,src/emitter.c,False
+56f4b17221868593d6903ee58d6d679b690cf4df,2018-06-29,1530310594,d033138a8f,Don't emit document-end marker at the end of stream,0,7,src/emitter.c,False
+2e849b3651d1ddca87c77b9f6121dd2d6002d6a8,2018-06-30,1530395245,400dace9ea,Fix token name typos in comments,3,3,include/yaml.h;src/scanner.c,False
+baf636a74b4b6d055d93e2d01366d6097eb82d90,2018-06-30,1530395253,d033138a8f,The closing single quote needs to be indented...,3,0,src/emitter.c,False
+1049e0406786329f9cdb347ad44dc637112ca6a4,2018-06-30,1530395254,d033138a8f,Fix comparison in tests/run-emitter.c,0,0,,True
+31bb2aaa34899b06f5c3666c4c9cbe44117203e5,2018-06-30,1530395254,09962fd137,Fix yaml_document_delete,0,5,src/api.c,True
+4657431277f14ae47a326c1b3ba3d610c88da5de,2018-06-30,1530395254,04b3a422f4,Fix typo error,1,1,src/scanner.c,False
+20496ee288fc0cbb9416a328f39379f69a5667da,2018-06-30,1530396759,d033138a8f,Allow colons in plain scalars inside flow collections,14,3,src/scanner.c,False
+75eddf785fedc2aeb9bf96db5a9bee97f7e4e72e,2018-07-17,1531861689,09962fd137,fix C++-compat error,15,10,include/yaml.h;src/dumper.c;src/emitter.c,True
+551ad48994360f994af0649686885aa3946e029f,2018-07-18,1531941735,09962fd137,fix clang -Wlogical-op warnings,3,3,src/scanner.c;src/yaml_private.h,True
+5b8859f728655747e01f202f71d52d863d18079e,2018-07-18,1531942000,09962fd137,fix C++ g++-6 errors,3,3,src/emitter.c,True
+96a49a1d9c771b1f7f29e8021abbb49c59f9b9a7,2018-07-18,1531943771,7f85b79b26,yaml_stack_extend: guard against integer overflow,6,1,src/api.c,True
+f0330018390eb73ae2dead53467a59ad76d67d5e,2018-07-18,1531944631,7b96aec9d4,fix version_directive memory leak,1,0,src/parser.c,True
+df5c05e12080c6f710da54b6e3348288f3506d46,2018-07-18,1531949818,d033138a8f,Fix unconditional yaml_free(),2,1,src/parser.c,True
+12dc1bef1f53fb1abdc599fbde1e66c6ca66af62,2018-07-19,1532036993,0e9ba9e2f3,build: do not install config.h,1,1,src/yaml_private.h,False
+85d1f168ef39f4c4419ef362d849ea225c53fffc,2018-07-19,1532037230,0e9ba9e2f3,appveyor.yml: fix Release build,0,0,,True
+1560fc82ad6f642553edacae9d99f192ed480221,2019-02-28,1551379253,d033138a8f,Make declarations before other statements,0,0,,False
+78e6ebfb20241a11eb9187c0f30b8892fb5e6862,2019-02-28,1551379804,d033138a8f,Remove stdbool,0,0,,False
+99e0a150ff62f37dec48334c559d2421574d3658,2019-03-02,1551490333,3d85a5dc51,allow override of Windows static lib name,0,0,,False
+24a020a1a2a1fbbb1caf3a032ccc81eb74018c31,2019-03-12,1552424730,d033138a8f,Changes for v0.2.2 release,0,0,,False
+690a781ef6af70ce6749d6e2be91743345123998,2019-03-13,1552439040,f96651b6cd,Update configure.ac for 0.2.2,0,0,,False
+fce35970037ab929f44cce7c0270d792377c244c,2019-06-06,1559825579,d033138a8f,Add required packages to README,0,0,,False
+641adbf244083ddbd7b2f1087bfc1a0038c7e221,2019-06-06,1559827682,d033138a8f,Fix typo in README,0,0,,False
+567353cee9c8c5f8de1f438f89a9a2fa7a7b06fe,2019-06-06,1559840937,44c51efa1b,Fixed typo.,2,2,src/emitter.c;src/scanner.c,False
+b4ca1390104f6e52329a1999272c758dc2fd38fa,2019-06-06,1559841089,2a3e466948,Fix typo in comment,1,1,include/yaml.h,False
+a21fc216973eee7f720be7f66e1d6a252028c38f,2019-06-06,1559841918,a45304a097,Use pointer to const for strings that aren't/shouldn't be modified,19,19,include/yaml.h;src/api.c,False
+aa2e89362fbd1613219a1f783bded44355d454dc,2019-06-06,1559845258,3642ac6f39,Squash a couple of warnings in example-deconstructor-alt,0,0,,False
+53f5b8682317d8dbe9082d1eeab3cc0e1adbb34b,2019-07-25,1564048756,3013c813d5,Fix spelling,1,1,src/scanner.c,False
+94ecadc50ebd19299c96ee96417d252a417c7816,2019-12-21,1576955486,f96651b6cd,Makefile test-suite rule builds libyaml first,0,0,,False
+42a370d6b02ff4f1f1257071c65e376adf9fb3bc,2020-03-26,1585257656,f96651b6cd,Move appveyor.yml to .appveyor.yml,0,0,,False
+21429b031f72f12fa8a8f9d2aadb38aba994ac94,2020-03-26,1585257872,d033138a8f,Add CHANGES file (#159),0,0,,False
+9afa10a8b04e8fb2883b11e7f32f2da1e2ced0d2,2020-03-26,1585258119,d033138a8f,Always output document end before directive (YAML 1.2 compatibility),3,5,src/emitter.c,False
+fa1293a11f2137709aec313f5789502406e587dd,2020-03-28,1585415218,d033138a8f,Output document end marker after open ended scalars (#162),12,0,src/emitter.c,False
+9f9e4a29b78d429442d3cae9313e0517da04d42b,2020-03-28,1585415542,f412c0178c,Change cmake target name from libOFF.a to libyaml.a (#157),0,0,,False
+e0b9e42d82437bae21ef0ce1cfc28c46f6849bf8,2020-03-28,1585415848,a790bca6b9,include/yaml.h: fix comments (#155),5,5,include/yaml.h,False
+d0cb513b333b1a80035d5a978cc06a1a8a4ea676,2020-04-10,1586546881,67cf7efdbf,Fix missing token in example (#169),1,0,src/scanner.c,True
+1b5bac0d3d1195496ac92547005673018619a111,2020-04-10,1586547028,3642ac6f39,Avoid recursion in the document loader. (#127),203,103,src/loader.c,False
+3d5b7e65dbd57a4d6f8508658efd3ad38d5125ce,2020-04-10,1586547915,d033138a8f,Support %YAML 1.2 directives (#172),8,2,src/emitter.c;src/parser.c,False
+a1dc7861f80f234b10e6445c1f1b1670baa12c52,2020-04-11,1586614250,644d8d6f57,Change dllexport controlling macro to use _WIN32,1,1,include/yaml.h,False
+bf5290289996338dcba9471b839013068d9e9ae8,2020-04-11,1586624902,d033138a8f,Changes for v0.2.3 release,0,0,,False
+47bf3f086fbea5c02b30f99dcf2e56984af1a641,2020-04-19,1587292561,d033138a8f,Add packaging/docker-dist to Makefile.am (#143),0,0,,False
+3694a4af7d2afe86b45e5bfd66ddf1fcba92ec50,2020-04-19,1587293261,d033138a8f,Fix logic for document end before directive,7,4,src/emitter.c,True
+4e5cea6419cc7dc2f7816c239f1e989a9239b4fb,2020-04-19,1587293261,d033138a8f,Allow emitting 1.2 directive,8,2,src/emitter.c,False
+72e2f75277ff88ad1fb8a81cf422df06bf371578,2020-04-19,1587294910,d033138a8f,Changes for v0.2.4 release,0,0,,False
+fec20d3fe68ef3cf521a7bf55f95739fd752d26f,2020-05-21,1590065420,d033138a8f,Output error position in run-parser-test-suite.c,0,0,,False
+ce8357938cbfe23a5355200d6bf189bd09d58ef6,2020-05-21,1590077055,d033138a8f,Add specific files back to .gitignore,0,0,,False
+0032321756cee86a67171de425267c1d0d406092,2020-05-21,1590077459,d033138a8f,Remove unnecessary include and malloc,0,0,,False
+9deee01508bb3b8ad25822f53d91d9f54eae9a0b,2020-05-29,1590781196,d033138a8f,Use GitHub Actions (#184),0,0,,False
+cf53b3b5f9b9ba9ea670580f3a268fff6404c872,2020-05-31,1590965245,d033138a8f,Add -h and --flow (on|off|keep) to run-*-test-suite (#187),0,0,,False
+f41d3600d6497046b4532706b3729d049061d856,2020-05-31,1590965431,d033138a8f,Flow indicators can not be part of local or shorthand tags (#179),22,14,src/scanner.c,False
+6e2fa9786ae20b670e77a72f1271d7574bc89f0f,2020-06-01,1591005355,d033138a8f,Emitter: Output space after an alias mapping key (#185),9,0,include/yaml.h;src/emitter.c,False
+7eb01976a05d9a43f3d3d7ffe870a1c4a0f1090d,2020-06-01,1591022483,d033138a8f,Emitter: Don't output trailing space for empty scalar nodes (#186),11,1,src/emitter.c,False
+1008696708b56c27709e6948b419d44e0f1bfb0d,2020-06-01,1591039723,d033138a8f,Allow question marks in plain scalars in flow collections (#105),1,1,src/scanner.c,False
+00780e83d2a1fe5f8eb9adc1119f285c98ee7226,2020-06-01,1591040019,f96651b6cd,A couple patches to improve test suite support (#191),0,0,,False
+d12ce2aa8851d3bf75fd57dd1758181210b16456,2020-06-01,1591041132,f96651b6cd,Allow test suite runner to come from a different repo,0,0,,False
+2c891fc7a770e8ba2fec34fc6b545c672beb37e6,2020-06-01,1591046390,d033138a8f,Changes for v0.2.5 release,0,0,,False
+acd6f6f014c25e46363e718381e0b35205df2d83,2020-06-22,1592846474,d033138a8f,Add workflow for creating release tarballs,0,0,,False
+f8f760f7387d2cc56a2fc7b1be313a3bf3f7f58c,2021-11-10,1636563782,d033138a8f,ci: Fix build on macOS (#230),0,0,,False
+fb57d89c04aaae0b7823a35f311916ebe64f6f6b,2024-04-01,1712012266,d033138a8f,Update Github actions,0,0,,False
+51843fe48257c6b7b6e70cdec1db634f64a40818,2024-04-08,1712592779,d033138a8f,Limit depth of nesting by default,50,0,include/yaml.h;src/parser.c,False
+1e66c1e13a50577bd7ad76abec61ba436d0145bd,2024-04-08,1712594010,ae93924706,Fix some typos,6,6,include/yaml.h;src/scanner.c,False
+abd744ec2fb3b8e38e01796a1485c1f25f8fb5f6,2024-04-28,1714319972,d033138a8f,ci: Install libtool on macOS,0,0,,False
+588eabff23ba2292f537872bbea5b64bce1e1a21,2024-05-06,1715015948,d033138a8f,Handle closing flow sequence after explicit key,7,0,src/parser.c,False
+840b65c40675e2d06bf40405ad3f12dec7f35923,2024-05-20,1716171716,d033138a8f,Fix closing flow sequence after explicit key,3,5,src/parser.c,True
+23b51d6cf566ab4a47177495c2fe2a56dcca4a0c,2026-05-05,1778005415,f96651b6cd,Bump cmake_minimum_required to 3.5,0,0,,False
+849d0aefecb42fe70165ed1557c329aff9e74d3e,2026-05-05,1778013253,f96651b6cd,Move nesting limit to scanner only,1,30,src/parser.c;src/scanner.c,False
+8362c8dd96b644bda4e4d24cc405ef7f0e642d21,2026-05-05,1778013253,f96651b6cd,Enforce nesting limit in scanner,12,0,src/scanner.c,False
+2ca0fab2b9102fc90baeb244e011579b7d38b1b4,2026-05-05,1778013253,f96651b6cd,Check combined nesting depth limit,2,2,src/scanner.c,False
+ab16c938fe6bd35c78c42dbab7a75b7a62d23c31,2026-05-05,1778013253,f96651b6cd,Add block nesting limit in scanner,6,0,src/scanner.c,False
+8c485809017598652637820a4edb249030ecd970,2026-05-05,1778013253,f96651b6cd,Update gitignore for new artifacts,0,0,,False
+82af3e5de239840265b08a6aed21533fd89e7ce0,2026-05-05,1778013296,d033138a8f,ci: Update github actions versions,0,0,,False
+893682bb98d5ed663a3e314c46dceaf9b1c8802f,2026-05-13,1778693960,dc83c739db,Bump cmake_minimum_required to 3.10,0,0,,False
+90a56d4500aa1a1798514c5cb55c3ad4cb095f94,2026-08-21,1787335962,45a69ff14e,Add getter and feature macro for nest depth control (#335),28,1,include/yaml.h;src/parser.c,False

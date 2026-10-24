@@ -1,0 +1,14 @@
+diff --git a/thpool.c b/thpool.c
+index 83885c3..289f641 100644
+--- a/thpool.c
++++ b/thpool.c
+@@ -364,9 +364,7 @@ static void* thread_do(struct thread* thread_p){
+ 	}
+ 
+ 	/* Mark thread as alive (initialized) */
+-	pthread_mutex_lock(&thpool_p->thcount_lock);
+ 	thpool_p->num_threads_alive += 1;
+-	pthread_mutex_unlock(&thpool_p->thcount_lock);
+ 
+ 	while(threads_keepalive){
+ 

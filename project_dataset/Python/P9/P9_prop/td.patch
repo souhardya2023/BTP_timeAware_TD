@@ -1,0 +1,46 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..9db610c 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -214,24 +214,23 @@ class BufferedSocket:
+         calls to recv will raise :exc:`socket.error`.
+ 
+         """
+-        with self._recv_lock:
+-            if timeout is _UNSET:
+-                timeout = self.timeout
+-            if flags:
+-                raise ValueError("non-zero flags not supported: %r" % flags)
+-            if len(self.rbuf) >= size:
+-                data, self.rbuf = self.rbuf[:size], self.rbuf[size:]
+-                return data
+-            if self.rbuf:
+-                ret, self.rbuf = self.rbuf, b''
+-                return ret
+-            self.sock.settimeout(timeout)
+-            try:
+-                data = self.sock.recv(self._recvsize)
+-            except socket.timeout:
+-                raise Timeout(timeout)  # check the rbuf attr for more
+-            if len(data) > size:
+-                data, self.rbuf = data[:size], data[size:]
++        if timeout is _UNSET:
++            timeout = self.timeout
++        if flags:
++            raise ValueError("non-zero flags not supported: %r" % flags)
++        if len(self.rbuf) >= size:
++            data, self.rbuf = self.rbuf[:size], self.rbuf[size:]
++            return data
++        if self.rbuf:
++            ret, self.rbuf = self.rbuf, b''
++            return ret
++        self.sock.settimeout(timeout)
++        try:
++            data = self.sock.recv(self._recvsize)
++        except socket.timeout:
++            raise Timeout(timeout)  # check the rbuf attr for more
++        if len(data) > size:
++            data, self.rbuf = data[:size], data[size:]
+         return data
+ 
+     def peek(self, size, timeout=_UNSET):

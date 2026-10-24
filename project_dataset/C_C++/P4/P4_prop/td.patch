@@ -1,0 +1,14 @@
+diff --git a/src/load.c b/src/load.c
+index 8ae7abd..6dad0df 100644
+--- a/src/load.c
++++ b/src/load.c
+@@ -109,8 +109,7 @@ static void error_set(json_error_t *error, const lex_t *lex, enum json_error_cod
+ 
+         if (saved_text && saved_text[0]) {
+             if (lex->saved_text.length <= 20) {
+-                snprintf(msg_with_context, JSON_ERROR_TEXT_LENGTH, "%s near '%s'",
+-                         msg_text, saved_text);
++                sprintf(msg_with_context, "%s near '%s'", msg_text, saved_text);
+                 msg_with_context[JSON_ERROR_TEXT_LENGTH - 1] = '\0';
+                 result = msg_with_context;
+             }

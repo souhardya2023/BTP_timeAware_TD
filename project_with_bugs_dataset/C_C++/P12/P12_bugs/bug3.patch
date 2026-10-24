@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -301,7 +301,7 @@
+ static int thread_init (thpool_* thpool_p, struct thread** thread_p, int id){
+ 
+ 	*thread_p = (struct thread*)malloc(sizeof(struct thread));
+-	if (*thread_p == NULL){
++	if (*thread_p != NULL){
+ 		err("thread_init(): Could not allocate memory for thread\n");
+ 		return -1;
+ 	}

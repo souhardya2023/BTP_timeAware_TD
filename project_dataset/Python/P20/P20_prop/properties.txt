@@ -1,0 +1,44 @@
+pair: P20
+original_id: PY-SB-click-interface_segregation-dcdbe5b1de7419afe6948071824d65b2
+language: Python
+project: click
+repository: https://github.com/pallets/click
+base_commit: 1d038f270701498433cb432f54db89f95f07a845
+
+P20_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P20_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: dependency_structure
+td_subtype: interface_segregation
+cwe: -
+description: -
+source: SmellBench (injected by LLM agent, test-validated by its authors)
+tier: main
+smellbench_difficulty: hard
+
+files_changed: 5
+lines_added: 338
+lines_deleted: 1
+  - src/click/__init__.py
+  - src/click/core.py
+  - src/click/decorators.py
+  - src/click/testing.py
+  - src/click/types.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 1314, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 1314, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=136, complexity.functions=27, complexity.ccn_sum=41, complexity.ccn_mean=-0.099, structure.dep_edges=1, structure.density=0.0037
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 1314, 'failed': 0}, tests_on_TD {'passed': 1314, 'failed': 0} -> match

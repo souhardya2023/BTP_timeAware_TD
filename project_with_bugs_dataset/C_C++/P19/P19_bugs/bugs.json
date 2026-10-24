@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/loader.c",
+  "line": 317,
+  "function": "yaml_parser_load_node_add",
+  "kind": "negate_cond",
+  "description": "condition negated in yaml_parser_load_node_add()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/emitter.c",
+  "line": 817,
+  "function": "yaml_emitter_emit_flow_mapping_key",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in a condition in yaml_emitter_emit_flow_mapping_key()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/dumper.c",
+  "line": 235,
+  "function": "yaml_emitter_anchor_node",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a condition in yaml_emitter_anchor_node()",
+  "in_td_file": false
+ }
+]

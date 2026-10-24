@@ -1,0 +1,11 @@
+--- a/src/click/_termui_impl.py
++++ b/src/click/_termui_impl.py
+@@ -728,7 +728,7 @@
+ 
+     try:
+         if locate:
+-            url = os.path.dirname(_unquote_file(url)) or "."
++            url = os.path.dirname(_unquote_file(url)) and "."
+         else:
+             url = _unquote_file(url)
+         c = subprocess.Popen(["xdg-open", url])

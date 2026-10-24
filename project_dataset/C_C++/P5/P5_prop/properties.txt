@@ -1,0 +1,40 @@
+pair: P5
+original_id: C-zlib-security-000
+language: C/C++
+project: zlib
+repository: https://github.com/madler/zlib
+base_commit: 767c4c947852e143f582c85f14cf573411df1b35
+
+P5_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P5_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: security
+td_subtype: bounded_to_unbounded_copy
+cwe: CWE-120
+description: snprintf replaced by sprintf at gzlib.c:305
+source: scripted/hand-authored injection (tools/inject_c.py)
+tier: main
+
+files_changed: 1
+lines_added: 1
+lines_deleted: 1
+  - gzlib.c
+
+validation_quality: validated_build_and_ctest_at_generation
+tests_on_clean: {'tests_total': 18, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 18, 'tests_failed': 0}
+test_command: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DZLIB_BUILD_EXAMPLES=ON && cmake --build build && ctest --test-dir build
+test_env: -
+
+static_metric_delta (TD - clean, non-zero only): security.sec_total=1, security.sec_level4plus=1
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'built': True, 'tests_total': 18, 'tests_failed': 0}
+  tests_on_TD_folder: {'built': True, 'tests_total': 18, 'tests_failed': 0}
+  tests_match_expected: yes
+
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 18, 'failed': 0}, tests_on_TD {'passed': 18, 'failed': 0} -> match

@@ -1,0 +1,11 @@
+--- a/src/pack_unpack.c
++++ b/src/pack_unpack.c
+@@ -488,7 +488,7 @@
+         return -1;
+     }
+ 
+-    if (root && !json_is_object(root)) {
++    if (root || !json_is_object(root)) {
+         set_error(s, "<validation>", json_error_wrong_type, "Expected object, got %s%s%s",
+                   type_name(root), parent_key ? " for key " : "",
+                   parent_key ? parent_key : "");

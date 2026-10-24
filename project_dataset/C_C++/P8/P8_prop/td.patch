@@ -1,0 +1,11 @@
+diff --git a/src/hashtable.h b/src/hashtable.h
+index 59ae7c5..bd1eb89 100644
+--- a/src/hashtable.h
++++ b/src/hashtable.h
+@@ -182,4 +182,6 @@ void *hashtable_iter_value(void *iter);
+  */
+ void hashtable_iter_set(void *iter, json_t *value);
+ 
++#include "jansson_private.h"
++
+ #endif

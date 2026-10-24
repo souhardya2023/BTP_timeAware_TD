@@ -1,0 +1,11 @@
+--- a/src/click/testing.py
++++ b/src/click/testing.py
+@@ -529,7 +529,7 @@
+                 sys.stdout.flush()
+                 sys.stderr.flush()
+                 stdout = outstreams[0].getvalue()
+-                stderr = outstreams[1].getvalue()
++                stderr = outstreams[2].getvalue()
+                 output = outstreams[2].getvalue()
+ 
+         return Result(

@@ -1,0 +1,641 @@
+Pair,Language,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,Sonar_Rule,Sonar_Severity,Sonar_Type,Sonar_File,Sonar_Line,Sonar_Message
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,62,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,63,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1186,CRITICAL,CODE_SMELL,boltons/cacheutils.py,76,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1186,CRITICAL,CODE_SMELL,boltons/cacheutils.py,79,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,133,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,155,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,232,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/cacheutils.py,296,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/cacheutils.py,296,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,309,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/cacheutils.py,322,"Use the opposite operator (""!="") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S125,MAJOR,CODE_SMELL,boltons/cacheutils.py,421,Remove this commented out code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,683,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,715,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/cacheutils.py,806,"Replace the unused loop index ""i"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,75,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,106,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,138,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/debugutils.py,141,Refactor this function to reduce its Cognitive Complexity from 66 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/debugutils.py,171,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/debugutils.py,172,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,240,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,246,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1871,MAJOR,CODE_SMELL,boltons/debugutils.py,258,"Either merge this branch with the identical one on line ""256"" or change one of the implementations."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/deprutils.py,36,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/deprutils.py,63,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,287,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/dictutils.py,287,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,287,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/dictutils.py,315,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,317,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/dictutils.py,317,"Remove the unused function parameter ""F""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,317,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/dictutils.py,349,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/dictutils.py,380,"Use the opposite operator (""!="") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/dictutils.py,667,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/dictutils.py,930,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/dictutils.py,957,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/dictutils.py,977,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/ecoutils.py,330,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S2612,MAJOR,VULNERABILITY,boltons/ecoutils.py,342,Make sure this permission is safe.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/ecoutils.py,399,"Remove the unused function parameter ""sep""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/ecoutils.py,417,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/ecoutils.py,417,"Remove the unused function parameter ""sep""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/excutils.py,37,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/excutils.py,40,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,68,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,112,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,299,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,307,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,321,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,387,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,436,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1066,MAJOR,CODE_SMELL,boltons/fileutils.py,453,Merge this if statement with the enclosing one.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,460,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,489,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/fileutils.py,492,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,552,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/fileutils.py,555,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,617,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,618,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1192,CRITICAL,CODE_SMELL,boltons/fileutils.py,637,Define a constant instead of duplicating this literal 'I/O operation on a closed file' 10 times.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,638,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,643,"Remove the unused function parameter ""size""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,648,Update this function so that its implementation is not identical to read on line 643.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,648,"Remove the unused function parameter ""size""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,653,"Remove the unused function parameter ""size""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,658,Update this function so that its implementation is not identical to flush on line 635.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,661,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,668,Update this function so that its implementation is not identical to flush on line 635.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,671,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,673,"Remove the unused function parameter ""string""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,673,Update this function so that its implementation is not identical to flush on line 635.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,676,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,678,Update this function so that its implementation is not identical to flush on line 635.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,678,"Remove the unused function parameter ""list_of_strings""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,681,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,686,Update this function so that its implementation is not identical to flush on line 635.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,689,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,728,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,65,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,66,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,122,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/formatutils.py,148,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,163,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,170,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S5779,CRITICAL,BUG,boltons/formatutils.py,184,Don't use assert inside a try-except that catches AssertionError.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,189,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,233,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,255,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,257,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,353,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/funcutils.py,56,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,141,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,151,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/funcutils.py,224,"Use the opposite operator (""<"") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/funcutils.py,225,"Use the opposite operator ("">"") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/funcutils.py,496,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7498,MINOR,CODE_SMELL,boltons/funcutils.py,610,Replace this constructor call with a literal.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/funcutils.py,763,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,837,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,838,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1854,MAJOR,CODE_SMELL,boltons/funcutils.py,889,Remove this assignment to local variable 'body'; the value is never used.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,914,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S7496,MINOR,CODE_SMELL,boltons/funcutils.py,936,Replace this list comprehension by a generator.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7496,MINOR,CODE_SMELL,boltons/funcutils.py,985,Replace this list comprehension by a generator.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/funcutils.py,986,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S2737,MINOR,CODE_SMELL,boltons/funcutils.py,996,Add logic to this except clause or eliminate it and rethrow the exception automatically.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/gcutils.py,59,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/gcutils.py,100,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S4144,MAJOR,CODE_SMELL,boltons/ioutils.py,231,Update this function so that its implementation is not identical to __iter__ on line 227.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7492,MINOR,CODE_SMELL,boltons/ioutils.py,548,Unpack this comprehension expression
+P10,Python,boltons,concurrency,lock_removed,4,python:S7492,MINOR,CODE_SMELL,boltons/ioutils.py,552,Unpack this comprehension expression
+P10,Python,boltons,concurrency,lock_removed,4,python:S7492,MINOR,CODE_SMELL,boltons/ioutils.py,555,Unpack this comprehension expression
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,121,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1192,CRITICAL,CODE_SMELL,boltons/iterutils.py,156,Define a constant instead of duplicating this literal 'expected an iterable' 4 times.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/iterutils.py,176,"Remove the unused function parameter ""x""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,190,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7498,MINOR,CODE_SMELL,boltons/iterutils.py,247,Replace this constructor call with a literal.
+P10,Python,boltons,concurrency,lock_removed,4,python:S8510,CRITICAL,CODE_SMELL,boltons/iterutils.py,250,"Rename this loop variable; it shadows the outer loop variable ""i""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,329,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,358,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,584,Refactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1244,MAJOR,BUG,boltons/iterutils.py,646,Do not perform equality checks with floating point values.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1244,MAJOR,BUG,boltons/iterutils.py,652,Do not perform equality checks with floating point values.
+P10,Python,boltons,concurrency,lock_removed,4,python:S2245,MAJOR,VULNERABILITY,boltons/iterutils.py,672,Make sure that using this pseudorandom number generator is safe here.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,681,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,867,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,870,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S108,MAJOR,CODE_SMELL,boltons/iterutils.py,905,Either remove or fill this block of code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,1098,Refactor this function to reduce its Cognitive Complexity from 72 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1209,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1210,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1259,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1294,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,1324,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S125,MAJOR,CODE_SMELL,boltons/iterutils.py,1445,Remove this commented out code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1445,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1446,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1447,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S4790,CRITICAL,VULNERABILITY,boltons/iterutils.py,1478,Make sure that hashing data is safe here.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,1489,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S8500,MAJOR,CODE_SMELL,boltons/iterutils.py,1616,"Add the missing comparison methods or use ""functools.total_ordering""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/jsonutils.py,51,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1244,MAJOR,BUG,boltons/jsonutils.py,192,Do not perform equality checks with floating point values.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1244,MAJOR,BUG,boltons/jsonutils.py,197,Do not perform equality checks with floating point values.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/jsonutils.py,229,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/jsonutils.py,264,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/listutils.py,52,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/listutils.py,56,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/listutils.py,57,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/listutils.py,151,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/listutils.py,159,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/listutils.py,267,"Replace the unused local variable ""step"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/listutils.py,267,"Replace the unused local variable ""start"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/listutils.py,267,"Replace the unused local variable ""stop"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/listutils.py,296,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S2638,CRITICAL,CODE_SMELL,boltons/listutils.py,301,Change this method signature to accept the same arguments as the method it overrides. This method overrides list.sort.
+P10,Python,boltons,concurrency,lock_removed,4,python:S2638,CRITICAL,CODE_SMELL,boltons/listutils.py,322,Add 2 missing parameters. This method overrides list.index.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/mathutils.py,140,Refactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S5806,MAJOR,CODE_SMELL,boltons/mathutils.py,240,Rename this variable; it shadows a builtin.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/mboxutils.py,74,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/namedutils.py,123,Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7498,MINOR,CODE_SMELL,boltons/namedutils.py,198,Replace this constructor call with a literal.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/namedutils.py,282,Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7498,MINOR,CODE_SMELL,boltons/namedutils.py,362,Replace this constructor call with a literal.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/queueutils.py,87,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/queueutils.py,88,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/queueutils.py,150,"Replace the unused local variable ""count"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/queueutils.py,150,"Replace the unused local variable ""priority"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,61,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,62,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,63,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,64,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S7498,MINOR,CODE_SMELL,boltons/setutils.py,113,Replace this constructor call with a literal.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,186,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/setutils.py,204,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/setutils.py,318,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/setutils.py,335,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1192,CRITICAL,CODE_SMELL,boltons/setutils.py,589,Define a constant instead of duplicating this literal 'argument must be another set or complement(set)' 8 times.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/setutils.py,640,"Use the opposite operator (""not in"") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,690,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,735,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/setutils.py,945,"Remove the unused local variable ""self""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1186,CRITICAL,CODE_SMELL,boltons/socketutils.py,75,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1186,CRITICAL,CODE_SMELL,boltons/socketutils.py,78,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/socketutils.py,283,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,474,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,480,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,572,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,588,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/socketutils.py,761,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/socketutils.py,762,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/socketutils.py,763,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/statsutils.py,225,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/statsutils.py,445,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/statsutils.py,452,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1244,MAJOR,BUG,boltons/statsutils.py,546,Do not perform equality checks with floating point values.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/statsutils.py,560,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S5806,MAJOR,CODE_SMELL,boltons/statsutils.py,730,Rename this variable; it shadows a builtin.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7504,MINOR,CODE_SMELL,boltons/statsutils.py,788,Remove this unnecessary `list()` call on an already iterable object.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/strutils.py,126,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S6396,MAJOR,CODE_SMELL,boltons/strutils.py,321,Remove this unnecessary quantifier.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/strutils.py,397,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S125,MAJOR,CODE_SMELL,boltons/strutils.py,688,Remove this commented out code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/strutils.py,701,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/strutils.py,807,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/strutils.py,923,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S2836,MAJOR,CODE_SMELL,boltons/strutils.py,990,"Add a ""break"" statement or remove this ""else"" clause."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tableutils.py,94,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1186,CRITICAL,CODE_SMELL,boltons/tableutils.py,114,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/tableutils.py,171,"Remove the unused function parameter ""obj""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/tableutils.py,185,"Remove the unused function parameter ""obj""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S125,MAJOR,CODE_SMELL,boltons/tableutils.py,260,Remove this commented out code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/tableutils.py,303,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/tableutils.py,337,Refactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tableutils.py,357,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S8518,MAJOR,CODE_SMELL,boltons/tableutils.py,402,Unpack the value from 'enumerate()' directly instead of using an index lookup.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/tableutils.py,427,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1854,MAJOR,CODE_SMELL,boltons/tableutils.py,536,Remove this assignment to local variable 'new_depth'; the value is never used.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,58,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,60,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/tbutils.py,198,"Use the opposite operator (""!="") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,224,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,316,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,384,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,435,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/tbutils.py,487,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/tbutils.py,497,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,567,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,617,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,671,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/tbutils.py,743,Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1481,MINOR,CODE_SMELL,boltons/timeutils.py,243,"Replace the unused local variable ""bbound"" with ""_""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/timeutils.py,310,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S108,MAJOR,CODE_SMELL,boltons/timeutils.py,377,Either remove or fill this block of code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/timeutils.py,421,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S5843,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Simplify this regular expression to reduce its complexity from 29 to the 20 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S6395,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Unwrap this unnecessarily grouped subpattern.
+P10,Python,boltons,concurrency,lock_removed,4,python:S6395,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Unwrap this unnecessarily grouped subpattern.
+P10,Python,boltons,concurrency,lock_removed,4,python:S6395,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Unwrap this unnecessarily grouped subpattern.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,136,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S125,MAJOR,CODE_SMELL,boltons/urlutils.py,317,Remove this commented out code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,367,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,375,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S108,MAJOR,CODE_SMELL,boltons/urlutils.py,380,Either remove or fill this block of code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,474,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,475,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S7496,MINOR,CODE_SMELL,boltons/urlutils.py,512,Replace this list comprehension by a generator.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,517,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,518,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S7496,MINOR,CODE_SMELL,boltons/urlutils.py,579,Replace this list comprehension by a generator.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,581,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,647,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,649,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,739,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S6659,MINOR,CODE_SMELL,boltons/urlutils.py,777,Use `not` and `startswith` here.
+P10,Python,boltons,concurrency,lock_removed,4,python:S6659,MINOR,CODE_SMELL,boltons/urlutils.py,780,Use `not` and `startswith` here.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,782,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/urlutils.py,805,"Use the opposite operator (""!="") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/urlutils.py,810,"Use the opposite operator (""!="") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,872,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,885,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S125,MAJOR,CODE_SMELL,boltons/urlutils.py,905,Remove this commented out code.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,918,"Complete the task associated to this ""TODO"" comment."
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1185,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1185,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,1185,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,1213,Remove this redundant return.
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1215,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1215,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P10,Python,boltons,concurrency,lock_removed,4,python:S1172,MAJOR,CODE_SMELL,boltons/urlutils.py,1215,"Remove the unused function parameter ""F""."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,1247,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P10,Python,boltons,concurrency,lock_removed,4,python:S1940,MINOR,CODE_SMELL,boltons/urlutils.py,1278,"Use the opposite operator (""!="") instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_cacheutils.py,122,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_cacheutils.py,132,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9084,MINOR,CODE_SMELL,tests/test_debugutils_trace.py,3,"Import ""pytest"" as a module."
+P10,Python,boltons,concurrency,lock_removed,4,python:S5863,MAJOR,BUG,tests/test_dictutils.py,50,Replace this assertion to not have the same actual and expected expression.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_dictutils.py,251,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_dictutils.py,303,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9073,MAJOR,CODE_SMELL,tests/test_dictutils.py,475,Split this composite assertion into separate assertions.
+P10,Python,boltons,concurrency,lock_removed,4,python:S5778,MAJOR,CODE_SMELL,tests/test_funcutils_fb.py,141,Refactor this exception test to have only one invocation possibly throwing an exception.
+P10,Python,boltons,concurrency,lock_removed,4,python:S5906,MINOR,CODE_SMELL,tests/test_ioutils.py,324,"Consider using ""assertIn"" instead."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,525,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,528,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,533,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,536,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_iterutils.py,83,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_iterutils.py,84,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S5778,MAJOR,CODE_SMELL,tests/test_iterutils.py,155,Refactor this exception test to have only one invocation possibly throwing an exception.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_listutils.py,162,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9084,MINOR,CODE_SMELL,tests/test_mathutils.py,1,"Import ""pytest"" as a module."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,20,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,22,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,23,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,24,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P10,Python,boltons,concurrency,lock_removed,4,python:S9084,MINOR,CODE_SMELL,tests/test_setutils.py,1,"Import ""pytest"" as a module."
+P10,Python,boltons,concurrency,lock_removed,4,python:S9073,MAJOR,CODE_SMELL,tests/test_setutils.py,316,Split this composite assertion into separate assertions.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9073,MAJOR,CODE_SMELL,tests/test_setutils.py,326,Split this composite assertion into separate assertions.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,35,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,71,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,74,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,129,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,141,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,158,Replace this assertion with pytest.fail(...) and provide a message.
+P10,Python,boltons,concurrency,lock_removed,4,python:S5863,MAJOR,BUG,tests/test_strutils.py,45,Replace this assertion to not have the same actual and expected expression.
+P10,Python,boltons,concurrency,lock_removed,4,python:S8997,MAJOR,CODE_SMELL,tests/test_tbutils.py,25,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P10,Python,boltons,concurrency,lock_removed,4,python:S8997,MAJOR,CODE_SMELL,tests/test_tbutils.py,40,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P10,Python,boltons,concurrency,lock_removed,4,python:S5863,MAJOR,BUG,tests/test_urlutils.py,167,Replace this assertion to not have the same actual and expected expression.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,62,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,63,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1186,CRITICAL,CODE_SMELL,boltons/cacheutils.py,76,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1186,CRITICAL,CODE_SMELL,boltons/cacheutils.py,79,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,133,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,155,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,232,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/cacheutils.py,295,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/cacheutils.py,295,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,308,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/cacheutils.py,321,"Use the opposite operator (""!="") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S125,MAJOR,CODE_SMELL,boltons/cacheutils.py,420,Remove this commented out code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/cacheutils.py,682,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/cacheutils.py,714,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/cacheutils.py,805,"Replace the unused loop index ""i"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,75,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,106,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,138,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/debugutils.py,141,Refactor this function to reduce its Cognitive Complexity from 66 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/debugutils.py,171,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/debugutils.py,172,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,240,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/debugutils.py,246,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1871,MAJOR,CODE_SMELL,boltons/debugutils.py,258,"Either merge this branch with the identical one on line ""256"" or change one of the implementations."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/deprutils.py,36,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/deprutils.py,63,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,287,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,287,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/dictutils.py,287,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/dictutils.py,315,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,317,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/dictutils.py,317,"Remove the unused function parameter ""F""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/dictutils.py,317,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/dictutils.py,349,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/dictutils.py,380,"Use the opposite operator (""!="") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/dictutils.py,667,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/dictutils.py,930,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/dictutils.py,957,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/dictutils.py,977,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/ecoutils.py,330,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S2612,MAJOR,VULNERABILITY,boltons/ecoutils.py,342,Make sure this permission is safe.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/ecoutils.py,399,"Remove the unused function parameter ""sep""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/ecoutils.py,417,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/ecoutils.py,417,"Remove the unused function parameter ""sep""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/excutils.py,37,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/excutils.py,40,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,68,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,112,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,299,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,307,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,321,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,387,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,436,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1066,MAJOR,CODE_SMELL,boltons/fileutils.py,453,Merge this if statement with the enclosing one.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,460,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,489,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/fileutils.py,492,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,552,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/fileutils.py,555,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,617,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/fileutils.py,618,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1192,CRITICAL,CODE_SMELL,boltons/fileutils.py,637,Define a constant instead of duplicating this literal 'I/O operation on a closed file' 10 times.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,638,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,643,"Remove the unused function parameter ""size""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,648,"Remove the unused function parameter ""size""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,648,Update this function so that its implementation is not identical to read on line 643.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,653,"Remove the unused function parameter ""size""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,658,Update this function so that its implementation is not identical to flush on line 635.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,661,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,668,Update this function so that its implementation is not identical to flush on line 635.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,671,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,673,Update this function so that its implementation is not identical to flush on line 635.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,673,"Remove the unused function parameter ""string""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,676,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/fileutils.py,678,"Remove the unused function parameter ""list_of_strings""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,678,Update this function so that its implementation is not identical to flush on line 635.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,681,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/fileutils.py,686,Update this function so that its implementation is not identical to flush on line 635.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,689,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/fileutils.py,728,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,65,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,66,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,122,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/formatutils.py,148,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,163,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,170,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S5779,CRITICAL,BUG,boltons/formatutils.py,184,Don't use assert inside a try-except that catches AssertionError.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,189,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,233,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,255,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,257,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/formatutils.py,353,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/funcutils.py,56,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,141,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,151,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/funcutils.py,224,"Use the opposite operator (""<"") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/funcutils.py,225,"Use the opposite operator ("">"") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/funcutils.py,496,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7498,MINOR,CODE_SMELL,boltons/funcutils.py,610,Replace this constructor call with a literal.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/funcutils.py,763,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,837,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,838,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1854,MAJOR,CODE_SMELL,boltons/funcutils.py,889,Remove this assignment to local variable 'body'; the value is never used.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/funcutils.py,914,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S7496,MINOR,CODE_SMELL,boltons/funcutils.py,936,Replace this list comprehension by a generator.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7496,MINOR,CODE_SMELL,boltons/funcutils.py,985,Replace this list comprehension by a generator.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/funcutils.py,986,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S2737,MINOR,CODE_SMELL,boltons/funcutils.py,996,Add logic to this except clause or eliminate it and rethrow the exception automatically.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/gcutils.py,59,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/gcutils.py,100,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S4144,MAJOR,CODE_SMELL,boltons/ioutils.py,231,Update this function so that its implementation is not identical to __iter__ on line 227.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7492,MINOR,CODE_SMELL,boltons/ioutils.py,548,Unpack this comprehension expression
+P26,Python,boltons,concurrency,lock_removed,3,python:S7492,MINOR,CODE_SMELL,boltons/ioutils.py,552,Unpack this comprehension expression
+P26,Python,boltons,concurrency,lock_removed,3,python:S7492,MINOR,CODE_SMELL,boltons/ioutils.py,555,Unpack this comprehension expression
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,121,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1192,CRITICAL,CODE_SMELL,boltons/iterutils.py,156,Define a constant instead of duplicating this literal 'expected an iterable' 4 times.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/iterutils.py,176,"Remove the unused function parameter ""x""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,190,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7498,MINOR,CODE_SMELL,boltons/iterutils.py,247,Replace this constructor call with a literal.
+P26,Python,boltons,concurrency,lock_removed,3,python:S8510,CRITICAL,CODE_SMELL,boltons/iterutils.py,250,"Rename this loop variable; it shadows the outer loop variable ""i""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,329,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,358,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,584,Refactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1244,MAJOR,BUG,boltons/iterutils.py,646,Do not perform equality checks with floating point values.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1244,MAJOR,BUG,boltons/iterutils.py,652,Do not perform equality checks with floating point values.
+P26,Python,boltons,concurrency,lock_removed,3,python:S2245,MAJOR,VULNERABILITY,boltons/iterutils.py,672,Make sure that using this pseudorandom number generator is safe here.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,681,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,867,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,870,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S108,MAJOR,CODE_SMELL,boltons/iterutils.py,905,Either remove or fill this block of code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,1098,Refactor this function to reduce its Cognitive Complexity from 72 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1209,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1210,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1259,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1294,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/iterutils.py,1324,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S125,MAJOR,CODE_SMELL,boltons/iterutils.py,1445,Remove this commented out code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1445,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1446,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/iterutils.py,1447,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S4790,CRITICAL,VULNERABILITY,boltons/iterutils.py,1478,Make sure that hashing data is safe here.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/iterutils.py,1489,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S8500,MAJOR,CODE_SMELL,boltons/iterutils.py,1616,"Add the missing comparison methods or use ""functools.total_ordering""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/jsonutils.py,51,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1244,MAJOR,BUG,boltons/jsonutils.py,192,Do not perform equality checks with floating point values.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1244,MAJOR,BUG,boltons/jsonutils.py,197,Do not perform equality checks with floating point values.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/jsonutils.py,229,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/jsonutils.py,264,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/listutils.py,52,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/listutils.py,56,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/listutils.py,57,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/listutils.py,151,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/listutils.py,159,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/listutils.py,267,"Replace the unused local variable ""start"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/listutils.py,267,"Replace the unused local variable ""stop"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/listutils.py,267,"Replace the unused local variable ""step"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/listutils.py,296,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S2638,CRITICAL,CODE_SMELL,boltons/listutils.py,301,Change this method signature to accept the same arguments as the method it overrides. This method overrides list.sort.
+P26,Python,boltons,concurrency,lock_removed,3,python:S2638,CRITICAL,CODE_SMELL,boltons/listutils.py,322,Add 2 missing parameters. This method overrides list.index.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/mathutils.py,140,Refactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S5806,MAJOR,CODE_SMELL,boltons/mathutils.py,240,Rename this variable; it shadows a builtin.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/mboxutils.py,74,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/namedutils.py,123,Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7498,MINOR,CODE_SMELL,boltons/namedutils.py,198,Replace this constructor call with a literal.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/namedutils.py,282,Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7498,MINOR,CODE_SMELL,boltons/namedutils.py,362,Replace this constructor call with a literal.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/queueutils.py,87,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/queueutils.py,88,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/queueutils.py,150,"Replace the unused local variable ""count"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/queueutils.py,150,"Replace the unused local variable ""priority"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,61,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,62,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,63,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,64,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S7498,MINOR,CODE_SMELL,boltons/setutils.py,113,Replace this constructor call with a literal.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,186,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/setutils.py,204,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/setutils.py,318,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/setutils.py,335,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1192,CRITICAL,CODE_SMELL,boltons/setutils.py,589,Define a constant instead of duplicating this literal 'argument must be another set or complement(set)' 8 times.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/setutils.py,640,"Use the opposite operator (""not in"") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,690,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/setutils.py,735,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/setutils.py,945,"Remove the unused local variable ""self""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1186,CRITICAL,CODE_SMELL,boltons/socketutils.py,75,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1186,CRITICAL,CODE_SMELL,boltons/socketutils.py,78,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/socketutils.py,284,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,475,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,481,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,573,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/socketutils.py,589,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/socketutils.py,762,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/socketutils.py,763,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/socketutils.py,764,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/statsutils.py,225,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/statsutils.py,445,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/statsutils.py,452,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1244,MAJOR,BUG,boltons/statsutils.py,546,Do not perform equality checks with floating point values.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/statsutils.py,560,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S5806,MAJOR,CODE_SMELL,boltons/statsutils.py,730,Rename this variable; it shadows a builtin.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7504,MINOR,CODE_SMELL,boltons/statsutils.py,788,Remove this unnecessary `list()` call on an already iterable object.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/strutils.py,126,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S6396,MAJOR,CODE_SMELL,boltons/strutils.py,321,Remove this unnecessary quantifier.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/strutils.py,397,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S125,MAJOR,CODE_SMELL,boltons/strutils.py,688,Remove this commented out code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/strutils.py,701,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/strutils.py,807,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/strutils.py,923,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S2836,MAJOR,CODE_SMELL,boltons/strutils.py,990,"Add a ""break"" statement or remove this ""else"" clause."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tableutils.py,94,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1186,CRITICAL,CODE_SMELL,boltons/tableutils.py,114,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/tableutils.py,171,"Remove the unused function parameter ""obj""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/tableutils.py,185,"Remove the unused function parameter ""obj""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S125,MAJOR,CODE_SMELL,boltons/tableutils.py,260,Remove this commented out code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/tableutils.py,303,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/tableutils.py,337,Refactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tableutils.py,357,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S8518,MAJOR,CODE_SMELL,boltons/tableutils.py,402,Unpack the value from 'enumerate()' directly instead of using an index lookup.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/tableutils.py,427,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1854,MAJOR,CODE_SMELL,boltons/tableutils.py,536,Remove this assignment to local variable 'new_depth'; the value is never used.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,58,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,60,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/tbutils.py,198,"Use the opposite operator (""!="") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,224,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,316,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,384,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,435,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/tbutils.py,487,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/tbutils.py,497,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,567,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,617,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/tbutils.py,671,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/tbutils.py,743,Refactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1481,MINOR,CODE_SMELL,boltons/timeutils.py,243,"Replace the unused local variable ""bbound"" with ""_""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/timeutils.py,310,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S108,MAJOR,CODE_SMELL,boltons/timeutils.py,377,Either remove or fill this block of code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/timeutils.py,421,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S6395,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Unwrap this unnecessarily grouped subpattern.
+P26,Python,boltons,concurrency,lock_removed,3,python:S6395,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Unwrap this unnecessarily grouped subpattern.
+P26,Python,boltons,concurrency,lock_removed,3,python:S5843,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Simplify this regular expression to reduce its complexity from 29 to the 20 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S6395,MAJOR,CODE_SMELL,boltons/urlutils.py,133,Unwrap this unnecessarily grouped subpattern.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,136,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S125,MAJOR,CODE_SMELL,boltons/urlutils.py,317,Remove this commented out code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,367,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,375,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S108,MAJOR,CODE_SMELL,boltons/urlutils.py,380,Either remove or fill this block of code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,474,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,475,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S7496,MINOR,CODE_SMELL,boltons/urlutils.py,512,Replace this list comprehension by a generator.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,517,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,518,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S7496,MINOR,CODE_SMELL,boltons/urlutils.py,579,Replace this list comprehension by a generator.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,581,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,647,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,649,Refactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,739,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S6659,MINOR,CODE_SMELL,boltons/urlutils.py,777,Use `not` and `startswith` here.
+P26,Python,boltons,concurrency,lock_removed,3,python:S6659,MINOR,CODE_SMELL,boltons/urlutils.py,780,Use `not` and `startswith` here.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,782,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/urlutils.py,805,"Use the opposite operator (""!="") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/urlutils.py,810,"Use the opposite operator (""!="") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,872,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,885,Refactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S125,MAJOR,CODE_SMELL,boltons/urlutils.py,905,Remove this commented out code.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1135,INFO,CODE_SMELL,boltons/urlutils.py,918,"Complete the task associated to this ""TODO"" comment."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,1185,Refactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1185,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1185,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3626,MINOR,CODE_SMELL,boltons/urlutils.py,1213,Remove this redundant return.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1172,MAJOR,CODE_SMELL,boltons/urlutils.py,1215,"Remove the unused function parameter ""F""."
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1215,"Rename this parameter ""F"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S117,MINOR,CODE_SMELL,boltons/urlutils.py,1215,"Rename this parameter ""E"" to match the regular expression ^[_a-z][a-z0-9_]*$."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3776,CRITICAL,CODE_SMELL,boltons/urlutils.py,1247,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P26,Python,boltons,concurrency,lock_removed,3,python:S1940,MINOR,CODE_SMELL,boltons/urlutils.py,1278,"Use the opposite operator (""!="") instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_cacheutils.py,122,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_cacheutils.py,132,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9084,MINOR,CODE_SMELL,tests/test_debugutils_trace.py,3,"Import ""pytest"" as a module."
+P26,Python,boltons,concurrency,lock_removed,3,python:S5863,MAJOR,BUG,tests/test_dictutils.py,50,Replace this assertion to not have the same actual and expected expression.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_dictutils.py,251,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_dictutils.py,303,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9073,MAJOR,CODE_SMELL,tests/test_dictutils.py,475,Split this composite assertion into separate assertions.
+P26,Python,boltons,concurrency,lock_removed,3,python:S5778,MAJOR,CODE_SMELL,tests/test_funcutils_fb.py,141,Refactor this exception test to have only one invocation possibly throwing an exception.
+P26,Python,boltons,concurrency,lock_removed,3,python:S5906,MINOR,CODE_SMELL,tests/test_ioutils.py,324,"Consider using ""assertIn"" instead."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,525,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,528,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,533,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_ioutils.py,536,"Swap these 2 arguments so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_iterutils.py,83,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_iterutils.py,84,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S5778,MAJOR,CODE_SMELL,tests/test_iterutils.py,155,Refactor this exception test to have only one invocation possibly throwing an exception.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_listutils.py,162,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9084,MINOR,CODE_SMELL,tests/test_mathutils.py,1,"Import ""pytest"" as a module."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,20,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,22,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,23,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S3415,MAJOR,CODE_SMELL,tests/test_mathutils.py,24,"Swap these 2 sides so they are in the correct order: actual value, expected value."
+P26,Python,boltons,concurrency,lock_removed,3,python:S9084,MINOR,CODE_SMELL,tests/test_setutils.py,1,"Import ""pytest"" as a module."
+P26,Python,boltons,concurrency,lock_removed,3,python:S9073,MAJOR,CODE_SMELL,tests/test_setutils.py,316,Split this composite assertion into separate assertions.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9073,MAJOR,CODE_SMELL,tests/test_setutils.py,326,Split this composite assertion into separate assertions.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,35,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,71,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,74,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,129,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,141,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S9077,MAJOR,CODE_SMELL,tests/test_socketutils.py,158,Replace this assertion with pytest.fail(...) and provide a message.
+P26,Python,boltons,concurrency,lock_removed,3,python:S5863,MAJOR,BUG,tests/test_strutils.py,45,Replace this assertion to not have the same actual and expected expression.
+P26,Python,boltons,concurrency,lock_removed,3,python:S8997,MAJOR,CODE_SMELL,tests/test_tbutils.py,25,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P26,Python,boltons,concurrency,lock_removed,3,python:S8997,MAJOR,CODE_SMELL,tests/test_tbutils.py,40,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P26,Python,boltons,concurrency,lock_removed,3,python:S5863,MAJOR,BUG,tests/test_urlutils.py,167,Replace this assertion to not have the same actual and expected expression.
+P27,Python,boltons,concurrency,lock_removed,2,NONE,NONE,NONE,NONE,NONE,NONE
+P28,Python,boltons,concurrency,lock_removed,6,NONE,NONE,NONE,NONE,NONE,NONE
+P29,Python,boltons,concurrency,lock_removed,11,NONE,NONE,NONE,NONE,NONE,NONE
+P3,Python,boltons,concurrency,lock_removed,10,NONE,NONE,NONE,NONE,NONE,NONE
+P30,Python,boltons,concurrency,lock_removed,7,NONE,NONE,NONE,NONE,NONE,NONE
+P31,Python,boltons,concurrency,lock_removed,10,NONE,NONE,NONE,NONE,NONE,NONE
+P32,Python,boltons,concurrency,lock_removed,13,NONE,NONE,NONE,NONE,NONE,NONE
+P33,Python,boltons,concurrency,lock_removed,47,NONE,NONE,NONE,NONE,NONE,NONE
+P34,Python,boltons,concurrency,lock_removed,36,NONE,NONE,NONE,NONE,NONE,NONE
+P35,Python,boltons,concurrency,lock_removed,22,NONE,NONE,NONE,NONE,NONE,NONE
+P36,Python,boltons,concurrency,lock_removed,1,NONE,NONE,NONE,NONE,NONE,NONE
+P37,Python,boltons,concurrency,lock_removed,1,NONE,NONE,NONE,NONE,NONE,NONE
+P38,Python,boltons,concurrency,lock_removed,5,NONE,NONE,NONE,NONE,NONE,NONE
+P39,Python,boltons,concurrency,lock_removed,4,NONE,NONE,NONE,NONE,NONE,NONE
+P4,Python,boltons,concurrency,lock_removed,10,NONE,NONE,NONE,NONE,NONE,NONE
+P40,Python,boltons,concurrency,lock_removed,2,NONE,NONE,NONE,NONE,NONE,NONE
+P41,Python,boltons,concurrency,lock_removed,1,NONE,NONE,NONE,NONE,NONE,NONE
+P5,Python,boltons,concurrency,lock_removed,2,NONE,NONE,NONE,NONE,NONE,NONE
+P6,Python,boltons,concurrency,lock_removed,9,NONE,NONE,NONE,NONE,NONE,NONE
+P7,Python,boltons,concurrency,lock_removed,1,NONE,NONE,NONE,NONE,NONE,NONE
+P8,Python,boltons,concurrency,lock_removed,1,NONE,NONE,NONE,NONE,NONE,NONE
+P9,Python,boltons,concurrency,lock_removed,17,NONE,NONE,NONE,NONE,NONE,NONE

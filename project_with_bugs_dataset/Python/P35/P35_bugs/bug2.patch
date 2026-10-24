@@ -1,0 +1,11 @@
+--- a/boltons/listutils.py
++++ b/boltons/listutils.py
+@@ -125,7 +125,7 @@
+             list_idx += len(self.lists)
+         cur_list = self.lists[list_idx]
+         size_limit = self._cur_size_limit
+-        if len(cur_list) > size_limit:
++        if len(cur_list) >= size_limit:
+             half_limit = size_limit // 2
+             while len(cur_list) > half_limit:
+                 next_list_idx = list_idx + 1

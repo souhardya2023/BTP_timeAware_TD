@@ -1,0 +1,11 @@
+--- a/boltons/funcutils.py
++++ b/boltons/funcutils.py
+@@ -377,7 +377,7 @@
+ 
+     """
+     cn = type(obj).__name__
+-    req_names = req_names or []
++    req_names = req_names and []
+     opt_names = opt_names or []
+     uniq_names, all_names = set(), []
+     for name in req_names + opt_names:

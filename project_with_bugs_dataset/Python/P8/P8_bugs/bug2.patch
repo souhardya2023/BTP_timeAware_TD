@@ -1,0 +1,11 @@
+--- a/boltons/tableutils.py
++++ b/boltons/tableutils.py
+@@ -360,7 +360,7 @@
+         metadata = kwargs.pop('metadata', None)
+         _data_type = kwargs.pop('_data_type', None)
+ 
+-        if max_depth < 1:
++        if max_depth <= 1:
+             # return data instead?
+             return cls(headers=headers, metadata=metadata)
+         is_seq = isinstance(data, Sequence)

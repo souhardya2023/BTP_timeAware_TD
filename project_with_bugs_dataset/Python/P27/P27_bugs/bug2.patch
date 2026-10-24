@@ -1,0 +1,11 @@
+--- a/boltons/dictutils.py
++++ b/boltons/dictutils.py
+@@ -803,7 +803,7 @@
+         dict.__init__(self, *a, **kw)
+         self.inv = self.__class__(_OTO_INV_MARKER, self)
+ 
+-        if len(self) == len(self.inv):
++        if not (len(self) == len(self.inv)):
+             # if lengths match, that means everything's unique
+             return
+ 

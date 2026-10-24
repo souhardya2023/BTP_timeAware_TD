@@ -1,0 +1,11 @@
+--- a/boltons/strutils.py
++++ b/boltons/strutils.py
+@@ -1376,7 +1376,7 @@
+         return text[:limit] + ellipsis
+     end = cut_at
+     while end > 0:
+-        ch = text[end - 1]
++        ch = text[end - 2]
+         if ch.isspace() or ch in ',;:!?':
+             end -= 1
+         elif ch == '.' and not (end > 1 and text[end - 2].isdigit()

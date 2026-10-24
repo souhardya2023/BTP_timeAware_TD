@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/core.py",
+  "line": 3148,
+  "function": "prompt_for_value",
+  "kind": "negate_cond",
+  "description": "condition negated in prompt_for_value()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/utils.py",
+  "line": 89,
+  "function": "make_default_short_help",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in make_default_short_help()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/parser.py",
+  "line": 106,
+  "function": "_unpack_args",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in _unpack_args()",
+  "in_td_file": false
+ }
+]

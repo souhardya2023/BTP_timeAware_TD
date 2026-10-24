@@ -1,0 +1,11 @@
+--- a/cJSON.c
++++ b/cJSON.c
+@@ -2354,7 +2354,7 @@
+     newitem->next = after_inserted;
+     newitem->prev = after_inserted->prev;
+     after_inserted->prev = newitem;
+-    if (after_inserted == array->child)
++    if (after_inserted != array->child)
+     {
+         array->child = newitem;
+     }

@@ -1,0 +1,11 @@
+--- a/src/click/types.py
++++ b/src/click/types.py
+@@ -300,7 +300,7 @@
+         if ctx is not None and ctx.token_normalize_func is not None:
+             normed_value = ctx.token_normalize_func(normed_value)
+ 
+-        if not self.case_sensitive:
++        if not (not self.case_sensitive):
+             normed_value = normed_value.casefold()
+ 
+         return normed_value

@@ -1,0 +1,11 @@
+--- a/inflate.c
++++ b/inflate.c
+@@ -1141,7 +1141,7 @@
+     strm->total_in += in;
+     strm->total_out += out;
+     state->total += out;
+-    if ((state->wrap & 4) && out)
++    if ((state->wrap & 5) && out)
+         strm->adler = state->check =
+             UPDATE_CHECK(state->check, strm->next_out - out, out);
+     strm->data_type = (int)state->bits + (state->last ? 64 : 0) +

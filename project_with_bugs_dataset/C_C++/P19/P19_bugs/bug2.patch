@@ -1,0 +1,11 @@
+--- a/src/emitter.c
++++ b/src/emitter.c
+@@ -814,7 +814,7 @@
+             if (!yaml_emitter_write_indent(emitter))
+                 return 0;
+         }
+-        if (!yaml_emitter_write_indicator(emitter, "}", 0, 0, 0))
++        if (!yaml_emitter_write_indicator(emitter, "}", 1, 0, 0))
+             return 0;
+         emitter->state = POP(emitter, emitter->states);
+ 

@@ -1,0 +1,144 @@
+diff --git a/src/click/core.py b/src/click/core.py
+index 57f549c..977a353 100644
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -2338,6 +2338,9 @@ class Parameter:
+         """Convert and validate a value against the parameter's
+         :attr:`type`, :attr:`multiple`, and :attr:`nargs`.
+         """
++        from .utils import _resolve_cast_mode
++        from .utils import _validate_nargs_value_count
++
+         if value is None:
+             if self.multiple or self.nargs == -1:
+                 return ()
+@@ -2355,35 +2358,27 @@ class Parameter:
+                     _("Value must be an iterable."), ctx=ctx, param=self
+                 ) from None
+ 
+-        # Define the conversion function based on nargs and type.
++        # Determine the conversion strategy based on nargs and type.
++        cast_mode = _resolve_cast_mode(self.nargs, self.type.is_composite)
+ 
+-        if self.nargs == 1 or self.type.is_composite:
++        if cast_mode == "direct":
+ 
+             def convert(value: t.Any) -> t.Any:
+                 return self.type(value, param=self, ctx=ctx)
+ 
+-        elif self.nargs == -1:
++        elif cast_mode == "variadic":
+ 
+             def convert(value: t.Any) -> t.Any:  # tuple[t.Any, ...]
+-                return tuple(self.type(x, self, ctx) for x in check_iter(value))
++                return self.type.convert_sequence(
++                    check_iter(value), self, ctx
++                )
+ 
+-        else:  # nargs > 1
++        else:  # cast_mode == "fixed"
+ 
+             def convert(value: t.Any) -> t.Any:  # tuple[t.Any, ...]
+                 value = tuple(check_iter(value))
+-
+-                if len(value) != self.nargs:
+-                    raise BadParameter(
+-                        ngettext(
+-                            "Takes {nargs} values but 1 was given.",
+-                            "Takes {nargs} values but {len} were given.",
+-                            len(value),
+-                        ).format(nargs=self.nargs, len=len(value)),
+-                        ctx=ctx,
+-                        param=self,
+-                    )
+-
+-                return tuple(self.type(x, self, ctx) for x in value)
++                _validate_nargs_value_count(value, self.nargs, ctx, self)
++                return self.type.convert_sequence(value, self, ctx)
+ 
+         if self.multiple:
+             return tuple(convert(x) for x in check_iter(value))
+diff --git a/src/click/types.py b/src/click/types.py
+index e71c1c2..e5a60a7 100644
+--- a/src/click/types.py
++++ b/src/click/types.py
+@@ -123,6 +123,22 @@ class ParamType:
+         """
+         return value
+ 
++    def convert_sequence(
++        self,
++        values: cabc.Iterable[t.Any],
++        param: Parameter | None = None,
++        ctx: Context | None = None,
++    ) -> tuple[t.Any, ...]:
++        """Convert an iterable of values using this type's conversion.
++
++        Each element in *values* is passed through :meth:`__call__`
++        individually, and the results are collected into a tuple.
++
++        This is used internally for parameters that accept multiple
++        values (``nargs != 1``).
++        """
++        return tuple(self(x, param, ctx) for x in values)
++
+     def split_envvar_value(self, rv: str) -> cabc.Sequence[str]:
+         """Given a value from an environment variable this splits it up
+         into small chunks depending on the defined envvar list splitter.
+diff --git a/src/click/utils.py b/src/click/utils.py
+index beae26f..1284887 100644
+--- a/src/click/utils.py
++++ b/src/click/utils.py
+@@ -22,6 +22,8 @@ from ._compat import WIN
+ from .globals import resolve_color_default
+ 
+ if t.TYPE_CHECKING:
++    from .core import Context
++    from .core import Parameter
+     import typing_extensions as te
+ 
+     P = te.ParamSpec("P")
+@@ -625,3 +627,43 @@ def _expand_args(
+             out.extend(matches)
+ 
+     return out
++
++
++def _resolve_cast_mode(nargs: int, is_composite: bool) -> str:
++    """Determine the casting strategy for a parameter value based on
++    nargs and whether the type is composite.
++
++    Returns ``"direct"`` for single values, ``"variadic"`` for
++    unbounded sequences, or ``"fixed"`` for sequences with a specific
++    expected count.
++    """
++    if nargs == 1 or is_composite:
++        return "direct"
++    elif nargs == -1:
++        return "variadic"
++    return "fixed"
++
++
++def _validate_nargs_value_count(
++    value: tuple[t.Any, ...],
++    nargs: int,
++    ctx: Context | None,
++    param: Parameter | None,
++) -> None:
++    """Validate that the number of values in *value* matches the
++    expected *nargs* count.  Raises :exc:`BadParameter` on mismatch.
++    """
++    from gettext import ngettext
++
++    from .exceptions import BadParameter
++
++    if len(value) != nargs:
++        raise BadParameter(
++            ngettext(
++                "Takes {nargs} values but 1 was given.",
++                "Takes {nargs} values but {len} were given.",
++                len(value),
++            ).format(nargs=nargs, len=len(value)),
++            ctx=ctx,
++            param=param,
++        )

@@ -1,0 +1,11 @@
+--- a/src/jinja2/compiler.py
++++ b/src/jinja2/compiler.py
+@@ -1417,7 +1417,7 @@
+         finalize = default = self._default_finalize
+         src = None
+ 
+-        if self.environment.finalize:
++        if not (self.environment.finalize):
+             src = "environment.finalize("
+             env_finalize = self.environment.finalize
+             pass_arg = {

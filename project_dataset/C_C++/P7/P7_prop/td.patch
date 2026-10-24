@@ -1,0 +1,11 @@
+diff --git a/cJSON.h b/cJSON.h
+index cab5feb..f0bb27f 100644
+--- a/cJSON.h
++++ b/cJSON.h
+@@ -303,4 +303,6 @@ CJSON_PUBLIC(void) cJSON_free(void *object);
+ }
+ #endif
+ 
++#include "cJSON_Utils.h"
++
+ #endif

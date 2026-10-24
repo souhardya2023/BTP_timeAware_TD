@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -801,7 +801,7 @@
+         to integer counts.
+         """
+         if iterable is not None:
+-            if callable(getattr(iterable, 'items', None)):
++            if not (callable(getattr(iterable, 'items', None))):
+                 for key, count in iterable.items():
+                     for i in range(count):
+                         self.add(key)

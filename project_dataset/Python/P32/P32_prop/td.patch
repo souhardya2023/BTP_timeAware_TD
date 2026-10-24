@@ -1,0 +1,38 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..53d202b 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -265,20 +265,19 @@ class BufferedSocket:
+         # and ignoring ConnectionClose, returning and clearing the
+         # internal buffer instead. It raises an exception if
+         # ConnectionClosed isn't raised.
+-        with self._recv_lock:
+-            if maxsize is _UNSET:
+-                maxsize = self.maxsize
+-            if maxsize is None:
+-                maxsize = _RECV_LARGE_MAXSIZE
+-            try:
+-                recvd = self.recv_size(maxsize + 1, timeout)
+-            except ConnectionClosed:
+-                ret, self.rbuf = self.rbuf, b''
+-            else:
+-                # put extra received bytes (now in rbuf) after recvd
+-                self.rbuf = recvd + self.rbuf
+-                size_read = min(maxsize, len(self.rbuf))
+-                raise MessageTooLong(size_read)  # check receive buffer
++        if maxsize is _UNSET:
++            maxsize = self.maxsize
++        if maxsize is None:
++            maxsize = _RECV_LARGE_MAXSIZE
++        try:
++            recvd = self.recv_size(maxsize + 1, timeout)
++        except ConnectionClosed:
++            ret, self.rbuf = self.rbuf, b''
++        else:
++            # put extra received bytes (now in rbuf) after recvd
++            self.rbuf = recvd + self.rbuf
++            size_read = min(maxsize, len(self.rbuf))
++            raise MessageTooLong(size_read)  # check receive buffer
+         return ret
+ 
+     def recv_until(self, delimiter, timeout=_UNSET, maxsize=_UNSET,

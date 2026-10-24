@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 163,
+  "function": "_get_flattened_ll",
+  "kind": "negate_cond",
+  "description": "condition negated in _get_flattened_ll()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/strutils.py",
+  "line": 1379,
+  "function": "ellipsize",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in ellipsize()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/socketutils.py",
+  "line": 333,
+  "function": "recv_until",
+  "kind": "cmp_equality",
+  "description": "`!=` -> `==` in a comparison in recv_until()",
+  "in_td_file": false
+ }
+]

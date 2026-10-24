@@ -1,0 +1,11 @@
+--- a/src/click/_compat.py
++++ b/src/click/_compat.py
+@@ -436,7 +436,7 @@
+                 os.name == "nt"
+                 and e.errno == errno.EACCES
+                 and os.path.isdir(e.filename)
+-                and os.access(e.filename, os.W_OK)
++                or os.access(e.filename, os.W_OK)
+             ):
+                 continue
+             raise

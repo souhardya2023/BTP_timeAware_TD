@@ -1,0 +1,11 @@
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -2362,7 +2362,7 @@
+             def convert(value: t.Any) -> t.Any:
+                 return self.type(value, param=self, ctx=ctx)
+ 
+-        elif self.nargs == -1:
++        elif self.nargs != -1:
+ 
+             def convert(value: t.Any) -> t.Any:  # tuple[t.Any, ...]
+                 return tuple(self.type(x, self, ctx) for x in check_iter(value))

@@ -1,0 +1,11 @@
+--- a/boltons/timeutils.py
++++ b/boltons/timeutils.py
+@@ -621,7 +621,7 @@
+             return std_time.replace(fold=1)
+         if std_time < start or dst_time >= end:
+             return std_time
+-        if start <= std_time < end - HOUR:
++        if start <= std_time < end + HOUR:
+             return dst_time
+         return std_time
+ 

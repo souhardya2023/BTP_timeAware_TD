@@ -1,0 +1,11 @@
+--- a/src/loader.c
++++ b/src/loader.c
+@@ -314,7 +314,7 @@
+         case YAML_SEQUENCE_NODE:
+             if (!STACK_LIMIT(parser, parent->data.sequence.items, INT_MAX-1))
+                 return 0;
+-            if (!PUSH(parser, parent->data.sequence.items, index))
++            if (!(!PUSH(parser, parent->data.sequence.items, index)))
+                 return 0;
+             break;
+         case YAML_MAPPING_NODE: {

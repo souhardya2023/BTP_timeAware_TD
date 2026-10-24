@@ -1,0 +1,11 @@
+--- a/boltons/statsutils.py
++++ b/boltons/statsutils.py
+@@ -543,7 +543,7 @@
+                              % trim)
+         size = len(self.data)
+         size_diff = int(size * trim)
+-        if size_diff == 0.0:
++        if not (size_diff == 0.0):
+             return
+         self.data = self._get_sorted_data()[size_diff:-size_diff]
+         self.clear_cache()

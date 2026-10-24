@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 432,
+  "function": "make_cache_key",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in make_cache_key()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/statsutils.py",
+  "line": 546,
+  "function": "trim_relative",
+  "kind": "negate_cond",
+  "description": "condition negated in trim_relative()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/setutils.py",
+  "line": 322,
+  "function": "intersection",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in intersection()",
+  "in_td_file": false
+ }
+]

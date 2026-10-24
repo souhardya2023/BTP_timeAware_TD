@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/core.py",
+  "line": 3263,
+  "function": "consume_value",
+  "kind": "negate_cond",
+  "description": "condition negated in consume_value()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/testing.py",
+  "line": 512,
+  "function": "invoke",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in invoke()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/__init__.py",
+  "line": 88,
+  "function": "__getattr__",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in __getattr__()",
+  "in_td_file": false
+ }
+]

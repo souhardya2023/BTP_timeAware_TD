@@ -1,0 +1,11 @@
+--- a/src/dtoa.c
++++ b/src/dtoa.c
+@@ -3987,7 +3987,7 @@
+ #endif
+ 				t00 += tg << 1;
+ 				if (!(t00 & 0x8000000000000000ull)) {
+-					if (++erv > 0)
++					if (++erv > 1)
+ 						goto smallest_normal;
+ 					t00 = 0x8000000000000000ull;
+ 					}

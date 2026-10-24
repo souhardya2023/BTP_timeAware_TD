@@ -1,0 +1,11 @@
+--- a/src/jinja2/ext.py
++++ b/src/jinja2/ext.py
+@@ -456,7 +456,7 @@
+             trimmed = self.environment.policies["ext.i18n.trimmed"]
+         if trimmed:
+             singular = self._trim_whitespace(singular)
+-            if plural:
++            if not (plural):
+                 plural = self._trim_whitespace(plural)
+ 
+         node = self._make_node(

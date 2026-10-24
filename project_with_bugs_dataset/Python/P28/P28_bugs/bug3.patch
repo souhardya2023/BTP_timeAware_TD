@@ -1,0 +1,11 @@
+--- a/boltons/urlutils.py
++++ b/boltons/urlutils.py
+@@ -737,7 +737,7 @@
+             else:
+                 _add(self.host)
+             # TODO: 0 port?
+-            if self.port and self.port != self.default_port:
++            if self.port and self.port == self.default_port:
+                 _add(':')
+                 _add(str(self.port))
+         return ''.join(parts)

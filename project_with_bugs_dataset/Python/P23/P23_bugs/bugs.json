@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/core.py",
+  "line": 3089,
+  "function": "get_help_extra",
+  "kind": "negate_cond",
+  "description": "condition negated in get_help_extra()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/_termui_impl.py",
+  "line": 255,
+  "function": "render_progress",
+  "kind": "arith",
+  "description": "`-` -> `+` in an expression in render_progress()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/termui.py",
+  "line": 256,
+  "function": "confirm",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in confirm()",
+  "in_td_file": false
+ }
+]

@@ -1,0 +1,11 @@
+--- a/src/hashtable_seed.c
++++ b/src/hashtable_seed.c
+@@ -268,7 +268,7 @@
+     uint32_t new_seed = (uint32_t)seed;
+ 
+     if (hashtable_seed == 0) {
+-        if (new_seed == 0)
++        if (new_seed != 0)
+             new_seed = generate_seed();
+ 
+         hashtable_seed = new_seed;

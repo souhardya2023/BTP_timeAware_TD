@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "zutil.h",
+  "line": 284,
+  "function": "z_once",
+  "kind": "negate_cond",
+  "description": "condition negated in z_once()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "trees.c",
+  "line": 853,
+  "function": "send_all_trees",
+  "kind": "arith",
+  "description": "`- 1` -> `+ 1` in send_all_trees()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "deflate.c",
+  "line": 1190,
+  "function": "deflate",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a condition in deflate()",
+  "in_td_file": false
+ }
+]

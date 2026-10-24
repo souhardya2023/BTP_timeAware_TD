@@ -1,0 +1,11 @@
+--- a/boltons/iterutils.py
++++ b/boltons/iterutils.py
+@@ -1472,7 +1472,7 @@
+ 
+     def __init__(self, size=24):
+         self.size = size
+-        if size < 20 or size > 36:
++        if size <= 20 or size > 36:
+             raise ValueError('expected 20 <= size <= 36')
+         import hashlib
+         self._sha1 = hashlib.sha1

@@ -1,0 +1,6 @@
+Pair,Language,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,Sonar_Rule,Sonar_Severity,Sonar_Type,Sonar_File,Sonar_Line,Sonar_Message
+P15,C_C++,libyaml,security,bounds_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P16,C_C++,libyaml,security,null_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P17,C_C++,libyaml,security,bounds_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P18,C_C++,libyaml,security,null_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P19,C_C++,libyaml,security,bounds_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE

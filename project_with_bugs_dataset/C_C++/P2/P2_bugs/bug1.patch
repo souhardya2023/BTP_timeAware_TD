@@ -1,0 +1,11 @@
+--- a/src/strconv.c
++++ b/src/strconv.c
+@@ -91,7 +91,7 @@
+ 
+     vdigits_start = decpt <= 0 ? decpt - 1 : 0;
+     vdigits_end = digits_len;
+-    if (!use_exp) {
++    if (!(!use_exp)) {
+         /* decpt + 1 to add ".0" if value is an integer */
+         vdigits_end = vdigits_end > decpt ? vdigits_end : decpt + 1;
+     } else {

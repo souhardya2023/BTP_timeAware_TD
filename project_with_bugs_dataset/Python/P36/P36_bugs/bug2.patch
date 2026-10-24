@@ -1,0 +1,11 @@
+--- a/boltons/dictutils.py
++++ b/boltons/dictutils.py
+@@ -793,7 +793,7 @@
+     def __init__(self, *a, **kw):
+         raise_on_dupe = False
+         if a:
+-            if a[0] is _OTO_INV_MARKER:
++            if a[1] is _OTO_INV_MARKER:
+                 self.inv = a[1]
+                 dict.__init__(self, [(v, k) for k, v in self.inv.items()])
+                 return

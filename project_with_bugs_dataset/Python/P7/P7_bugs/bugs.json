@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 455,
+  "function": "send",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in send()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/setutils.py",
+  "line": 289,
+  "function": "issubset",
+  "kind": "negate_cond",
+  "description": "condition negated in issubset()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/funcutils.py",
+  "line": 380,
+  "function": "format_exp_repr",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in format_exp_repr()",
+  "in_td_file": false
+ }
+]

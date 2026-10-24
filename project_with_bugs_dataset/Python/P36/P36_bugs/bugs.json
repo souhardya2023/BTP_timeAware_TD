@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 331,
+  "function": "recv_until",
+  "kind": "negate_cond",
+  "description": "condition negated in recv_until()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/dictutils.py",
+  "line": 796,
+  "function": "__init__",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in __init__()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/strutils.py",
+  "line": 802,
+  "function": "args2sh",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in args2sh()",
+  "in_td_file": false
+ }
+]

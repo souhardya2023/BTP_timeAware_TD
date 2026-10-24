@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -636,7 +636,7 @@
+     """
+     def __init__(self, timeout, extra=""):
+         msg = 'socket operation timed out'
+-        if timeout is not None:
++        if not (timeout is not None):
+             msg += ' after %sms.' % (timeout * 1000)
+         if extra:
+             msg += ' ' + extra

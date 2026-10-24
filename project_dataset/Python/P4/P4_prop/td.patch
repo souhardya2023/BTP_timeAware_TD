@@ -1,0 +1,33 @@
+diff --git a/boltons/cacheutils.py b/boltons/cacheutils.py
+index ee13a17..abfd7f2 100644
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -232,18 +232,17 @@ class LRI(dict):
+         return
+ 
+     def __getitem__(self, key):
+-        with self._lock:
+-            try:
+-                link = self._link_lookup[key]
+-            except KeyError:
+-                self.miss_count += 1
+-                if not self.on_miss:
+-                    raise
+-                ret = self[key] = self.on_miss(key)
+-                return ret
++        try:
++            link = self._link_lookup[key]
++        except KeyError:
++            self.miss_count += 1
++            if not self.on_miss:
++                raise
++            ret = self[key] = self.on_miss(key)
++            return ret
+ 
+-            self.hit_count += 1
+-            return link[VALUE]
++        self.hit_count += 1
++        return link[VALUE]
+ 
+     def get(self, key, default=None):
+         try:

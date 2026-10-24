@@ -1,0 +1,11 @@
+--- a/src/jinja2/compiler.py
++++ b/src/jinja2/compiler.py
+@@ -894,7 +894,7 @@
+         self.outdent()
+ 
+         # make sure that the parent root is called.
+-        if have_extends:
++        if not (have_extends):
+             if not self.has_known_extends:
+                 self.indent()
+                 self.writeline("if parent_template is not None:")

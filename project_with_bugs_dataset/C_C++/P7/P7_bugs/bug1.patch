@@ -1,0 +1,11 @@
+--- a/cJSON_Utils.c
++++ b/cJSON_Utils.c
+@@ -1428,7 +1428,7 @@
+             }
+             else
+             {
+-                diff = -1;
++                diff = +1;
+             }
+         }
+         else

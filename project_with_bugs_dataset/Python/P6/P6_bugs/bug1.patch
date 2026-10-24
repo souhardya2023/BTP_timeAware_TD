@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -115,7 +115,7 @@
+     """
+     def __init__(self, max_size=DEFAULT_MAX_SIZE, values=None,
+                  on_miss=None):
+-        if max_size <= 0:
++        if max_size <= 1:
+             raise ValueError('expected max_size > 0, not %r' % max_size)
+         self.hit_count = self.miss_count = self.soft_miss_count = 0
+         self.max_size = max_size

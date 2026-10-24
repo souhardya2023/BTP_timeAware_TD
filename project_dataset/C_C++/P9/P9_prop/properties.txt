@@ -1,0 +1,39 @@
+pair: P9
+original_id: C-zlib-dependency_structure-045
+language: C/C++
+project: zlib
+repository: https://github.com/madler/zlib
+base_commit: 767c4c947852e143f582c85f14cf573411df1b35
+
+P9_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P9_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: dependency_structure
+td_subtype: cyclic_header_dependency
+cwe: -
+description: zutil.h now includes deflate.h, which already includes zutil.h (cycle)
+source: scripted/hand-authored injection (tools/inject_c.py)
+tier: main
+
+files_changed: 1
+lines_added: 2
+lines_deleted: 0
+  - zutil.h
+
+validation_quality: validated_build_and_ctest_at_generation
+tests_on_clean: {'tests_total': 18, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 18, 'tests_failed': 0}
+test_command: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug -DZLIB_BUILD_EXAMPLES=ON && cmake --build build && ctest --test-dir build
+test_env: -
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=1, structure.dep_edges=1, structure.cyclic_groups=1, structure.modules_in_cycles=2, structure.density=0.0015
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'built': True, 'tests_total': 18, 'tests_failed': 0}
+  tests_on_TD_folder: {'built': True, 'tests_total': 18, 'tests_failed': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 18, 'failed': 0}, tests_on_TD {'passed': 18, 'failed': 0} -> match

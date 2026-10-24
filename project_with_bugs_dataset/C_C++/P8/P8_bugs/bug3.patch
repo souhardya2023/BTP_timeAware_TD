@@ -1,0 +1,11 @@
+--- a/src/pack_unpack.c
++++ b/src/pack_unpack.c
+@@ -709,7 +709,7 @@
+ 
+                 if (token(s) == '%') {
+                     len_target = va_arg(*ap, size_t *);
+-                    if (!len_target) {
++                    if (!(!len_target)) {
+                         set_error(s, "<args>", json_error_null_value,
+                                   "NULL string length argument");
+                         return -1;

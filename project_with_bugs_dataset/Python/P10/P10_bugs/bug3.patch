@@ -1,0 +1,11 @@
+--- a/boltons/listutils.py
++++ b/boltons/listutils.py
+@@ -181,7 +181,7 @@
+     def iter_slice(self, start, stop, step=None):
+         length = len(self)
+         start, stop, step = slice(start, stop, step).indices(length)
+-        if step < 0:
++        if step <= 0:
+             return islice(reversed(self), length - 1 - start, length - 1 - stop, -step)
+         return islice(self, start, stop, step)
+ 

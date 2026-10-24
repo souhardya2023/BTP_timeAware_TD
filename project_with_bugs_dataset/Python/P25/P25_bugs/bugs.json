@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/jinja2/utils.py",
+  "line": 320,
+  "function": "urlize",
+  "kind": "negate_cond",
+  "description": "condition negated in urlize()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/jinja2/loaders.py",
+  "line": 665,
+  "function": "get_module_filename",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in get_module_filename()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/jinja2/compiler.py",
+  "line": 655,
+  "function": "macro_body",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in macro_body()",
+  "in_td_file": false
+ }
+]

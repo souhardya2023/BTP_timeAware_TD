@@ -1,0 +1,56 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..d1ec494 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -437,29 +437,28 @@ class BufferedSocket:
+         :meth:`BufferedSocket.getsendbuffer` to see which data was
+         unsent.
+         """
+-        with self._send_lock:
+-            if timeout is _UNSET:
+-                timeout = self.timeout
+-            if flags:
+-                raise ValueError("non-zero flags not supported")
+-            sbuf = self.sbuf
+-            sbuf.append(data)
+-            if len(sbuf) > 1:
+-                sbuf[:] = [b''.join([s for s in sbuf if s])]
+-            self.sock.settimeout(timeout)
+-            start, total_sent = time.time(), 0
+-            try:
+-                while sbuf[0]:
+-                    sent = self.sock.send(sbuf[0])
+-                    total_sent += sent
+-                    sbuf[0] = sbuf[0][sent:]
+-                    if timeout:
+-                        cur_timeout = timeout - (time.time() - start)
+-                        if cur_timeout <= 0.0:
+-                            raise socket.timeout()
+-                        self.sock.settimeout(cur_timeout)
+-            except socket.timeout:
+-                raise Timeout(timeout, '%s bytes unsent' % len(sbuf[0]))
++        if timeout is _UNSET:
++            timeout = self.timeout
++        if flags:
++            raise ValueError("non-zero flags not supported")
++        sbuf = self.sbuf
++        sbuf.append(data)
++        if len(sbuf) > 1:
++            sbuf[:] = [b''.join([s for s in sbuf if s])]
++        self.sock.settimeout(timeout)
++        start, total_sent = time.time(), 0
++        try:
++            while sbuf[0]:
++                sent = self.sock.send(sbuf[0])
++                total_sent += sent
++                sbuf[0] = sbuf[0][sent:]
++                if timeout:
++                    cur_timeout = timeout - (time.time() - start)
++                    if cur_timeout <= 0.0:
++                        raise socket.timeout()
++                    self.sock.settimeout(cur_timeout)
++        except socket.timeout:
++            raise Timeout(timeout, '%s bytes unsent' % len(sbuf[0]))
+         return total_sent
+ 
+     def sendall(self, data, flags=0, timeout=_UNSET):

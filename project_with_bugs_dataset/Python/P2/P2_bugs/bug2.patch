@@ -1,0 +1,11 @@
+--- a/src/werkzeug/datastructures/structures.py
++++ b/src/werkzeug/datastructures/structures.py
+@@ -561,7 +561,7 @@
+ 
+             return item[0], item[1][0]
+         except KeyError as e:
+-            raise exceptions.BadRequestKeyError(e.args[0]) from None
++            raise exceptions.BadRequestKeyError(e.args[1]) from None
+ 
+     def poplist(self, key: K) -> list[V]:
+         """Pop the list for a key from the dict.  If the key is not in the dict

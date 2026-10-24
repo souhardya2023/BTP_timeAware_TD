@@ -1,0 +1,32 @@
+pair: P39
+original_id: PY-boltons-concurrency-022
+language: Python
+project: boltons
+repository: https://github.com/mahmoud/boltons
+base_commit: 4e5faa3d7e4008d89e0d8bf1ea87b6d9a061a16d
+
+P39_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P39_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: concurrency
+td_subtype: lock_removed
+cwe: CWE-362
+description: removed `with self._send_lock:` at boltons/socketutils.py:568
+source: scripted injection (tools/inject_python.py)
+tier: extra
+
+files_changed: 1
+lines_added: 4
+lines_deleted: 5
+  - boltons/socketutils.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 525, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 525, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': '.'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=-1, concurrency.with_lock_blocks=-1
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 525, 'failed': 0}, tests_on_TD {'passed': 525, 'failed': 0} -> match

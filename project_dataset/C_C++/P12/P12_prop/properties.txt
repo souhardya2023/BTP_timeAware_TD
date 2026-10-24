@@ -1,0 +1,37 @@
+pair: P12
+original_id: C-C-Thread-Pool-concurrency-lock_pair_removed-13
+language: C/C++
+project: C-Thread-Pool
+repository: https://github.com/Pithikos/C-Thread-Pool
+base_commit: 2b56942a7347280ea4d0ede238cefacef96db4bb
+
+P12_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P12_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: concurrency
+td_subtype: lock_pair_removed
+cwe: CWE-362
+description: lock/unlock of &thpool_p->thcount_lock removed in thread_do() at thpool.c:367-369
+source: scripted injection (tools/c_new.py)
+tier: main
+
+files_changed: 1
+lines_added: 0
+lines_deleted: 2
+  - thpool.c
+
+validation_quality: validated_build_and_tests_at_generation
+tests_on_clean: {'tests_total': 5, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 5, 'tests_failed': 0}
+test_command: bash tests/<name>.sh for threadpool api pause_resume heap_stack_garbage wait (inside tests/)
+test_env: -
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=-2, concurrency.lock_calls=-1, concurrency.unlock_calls=-1
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  tests_on_clean_folder: {'tests_total': 5, 'tests_failed': 0} (fresh build, run on a copy)
+  tests_on_TD_folder: {'tests_total': 5, 'tests_failed': 0} (fresh build, run on a copy)
+  tests_match_expected: yes
+
+after_trimming_extra_files: tests_on_clean {'passed': 5, 'failed': 0}, tests_on_TD {'passed': 5, 'failed': 0} -> match

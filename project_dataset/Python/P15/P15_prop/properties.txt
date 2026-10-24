@@ -1,0 +1,41 @@
+pair: P15
+original_id: PY-SB-jinja-feature_envy-295941333c1f118cfff6ee3031b1a3b0
+language: Python
+project: jinja
+repository: https://github.com/pallets/jinja
+base_commit: 15206881c006c79667fe5154fe80c01c65410679
+
+P15_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P15_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: coupling_cohesion
+td_subtype: feature_envy
+cwe: -
+description: -
+source: SmellBench (injected by LLM agent, test-validated by its authors)
+tier: main
+smellbench_difficulty: medium
+
+files_changed: 2
+lines_added: 50
+lines_deleted: 8
+  - src/jinja2/bccache.py
+  - src/jinja2/loaders.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 909, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 909, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=30, complexity.functions=3, complexity.ccn_sum=4, complexity.ccn_mean=-0.005, structure.dep_edges=1, structure.density=0.0016
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 909, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 909, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 909, 'failed': 0}, tests_on_TD {'passed': 909, 'failed': 0} -> match

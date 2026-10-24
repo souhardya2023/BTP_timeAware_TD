@@ -1,0 +1,12 @@
+diff --git a/src/loader.c b/src/loader.c
+index dea8ac4..ac164e6 100644
+--- a/src/loader.c
++++ b/src/loader.c
+@@ -391,7 +391,6 @@ yaml_parser_load_scalar(yaml_parser_t *parser, yaml_event_t *event,
+             event->data.scalar.length, event->data.scalar.style,
+             event->start_mark, event->end_mark);
+ 
+-    if (!PUSH(parser, parser->document->nodes, node)) goto error;
+ 
+     index = parser->document->nodes.top - parser->document->nodes.start;
+ 

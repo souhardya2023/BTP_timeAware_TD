@@ -1,0 +1,6 @@
+project_key,name,visibility,quality_gate,issues_exported,first_issue_date,last_issue_update,dataset_pair,dataset_project,td_type,mapping
+P2_TD,P2_TD,public,OK,271,2026-10-08,2026-10-08,Python/P2,werkzeug,security,issue files found in the TD folder (69%)
+Python-P1-TD,Python-P1-TD,public,OK,272,2026-10-08,2026-10-08,Python/P1,werkzeug,security,key pattern
+Python-P2-TD,Python-P2-TD,public,OK,271,2026-10-08,2026-10-08,Python/P2,werkzeug,security,key pattern
+hist2-werkzeug,hist2-werkzeug,public,ERROR,202,2026-10-08,2026-10-08,,werkzeug,,release-by-release scan
+werkzeug-P1-TD,Werkzeug P1 TD,public,OK,177,2026-10-08,2026-10-08,Python/P1,werkzeug,security,key pattern

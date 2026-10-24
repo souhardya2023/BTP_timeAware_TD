@@ -1,0 +1,11 @@
+--- a/src/click/utils.py
++++ b/src/click/utils.py
+@@ -71,7 +71,7 @@
+         return ""
+ 
+     # The first paragraph started with a "no rewrap" marker, ignore it.
+-    if words[0] == "\b":
++    if words[0] != "\b":
+         words = words[1:]
+ 
+     total_length = 0

@@ -1,0 +1,259 @@
+diff --git a/src/click/core.py b/src/click/core.py
+index 57f549c..9ce01f3 100644
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -32,6 +32,8 @@ from .formatting import HelpFormatter
+ from .formatting import join_options
+ from .globals import pop_context
+ from .globals import push_context
++from .globals import set_prompt_err_default
++from .globals import set_prompt_suffix_default
+ from .parser import _OptionParser
+ from .parser import _split_opt
+ from .termui import confirm
+@@ -439,6 +441,8 @@ class Context:
+         self._depth = 0
+         self._parameter_source: dict[str, ParameterSource] = {}
+         self._exit_stack = ExitStack()
++        self._prompt_err: bool = False
++        self._prompt_suffix: str = ": "
+ 
+     @property
+     def protected_args(self) -> list[str]:
+@@ -3123,6 +3127,14 @@ class Option(Parameter):
+         # attempting any user interaction.
+         default = self.get_default(ctx)
+ 
++        # Configure prompt output through thread-local defaults so that
++        # nested prompt infrastructure picks up the right output stream
++        # and suffix without explicit parameter passing.
++        prompt_err = getattr(ctx, "_prompt_err", False) if ctx is not None else False
++        prompt_suffix = getattr(ctx, "_prompt_suffix", ": ") if ctx is not None else ": "
++        set_prompt_err_default(prompt_err)
++        set_prompt_suffix_default(prompt_suffix)
++
+         # A boolean flag can use a simplified [y/n] confirmation prompt.
+         if self.is_bool_flag:
+             # If we have no boolean default, we force the user to explicitly provide
+diff --git a/src/click/globals.py b/src/click/globals.py
+index a2f9172..cefff44 100644
+--- a/src/click/globals.py
++++ b/src/click/globals.py
+@@ -65,3 +65,24 @@ def resolve_color_default(color: bool | None = None) -> bool | None:
+         return ctx.color
+ 
+     return None
++
++
++def get_prompt_err_default() -> bool:
++    """Returns the current prompt error stream setting from thread-local
++    state, falling back to False if not set."""
++    return getattr(_local, "prompt_err", False)
++
++
++def set_prompt_err_default(err: bool) -> None:
++    """Sets the prompt error stream default in thread-local state."""
++    _local.prompt_err = err
++
++
++def get_prompt_suffix_default() -> str:
++    """Returns the current prompt suffix from thread-local state."""
++    return getattr(_local, "prompt_suffix", ": ")
++
++
++def set_prompt_suffix_default(suffix: str) -> None:
++    """Sets the prompt suffix default in thread-local state."""
++    _local.prompt_suffix = suffix
+diff --git a/src/click/termui.py b/src/click/termui.py
+index 2e98a07..e106350 100644
+--- a/src/click/termui.py
++++ b/src/click/termui.py
+@@ -14,6 +14,8 @@ from ._compat import strip_ansi
+ from .exceptions import Abort
+ from .exceptions import UsageError
+ from .globals import resolve_color_default
++from .globals import get_prompt_err_default
++from .globals import get_prompt_suffix_default
+ from .types import Choice
+ from .types import convert_type
+ from .types import ParamType
+@@ -29,6 +31,36 @@ V = t.TypeVar("V")
+ # functions to customize how they work.
+ visible_prompt_func: t.Callable[[str], str] = input
+ 
++# Prompt display strategy registry. Allows callers to register custom
++# prompt rendering strategies keyed by name. The default strategy is
++# used when no specific strategy is requested.
++_prompt_strategies: dict[str, t.Callable[..., str]] = {}
++
++
++def _register_prompt_strategy(name: str, func: t.Callable[..., str]) -> None:
++    """Register a prompt display strategy by name."""
++    _prompt_strategies[name] = func
++
++
++def _get_prompt_strategy(name: str | None) -> t.Callable[..., str] | None:
++    """Look up a registered prompt strategy."""
++    if name is None:
++        return None
++    return _prompt_strategies.get(name)
++
++
++def _default_prompt_render(
++    text: str, suffix: str, show_default: bool,
++    default: t.Any | None, show_choices: bool,
++    type: ParamType | None, prompt_hint: str | None,
++) -> str:
++    """Default rendering strategy for prompts."""
++    return _build_prompt(text, suffix, show_default, default, show_choices,
++                         type, prompt_hint)
++
++
++_register_prompt_strategy("default", _default_prompt_render)
++
+ _ansi_colors = {
+     "black": 30,
+     "red": 31,
+@@ -64,10 +96,13 @@ def _build_prompt(
+     default: t.Any | None = None,
+     show_choices: bool = True,
+     type: ParamType | None = None,
++    prompt_hint: str | None = None,
+ ) -> str:
+     prompt = text
+     if type is not None and show_choices and isinstance(type, Choice):
+         prompt += f" ({', '.join(map(str, type.choices))})"
++    elif prompt_hint is not None and show_choices:
++        prompt += f" [{prompt_hint}]"
+     if default is not None and show_default:
+         prompt = f"{prompt} [{_format_default(default)}]"
+     return f"{prompt}{suffix}"
+@@ -87,9 +122,9 @@ def prompt(
+     confirmation_prompt: bool | str = False,
+     type: ParamType | t.Any | None = None,
+     value_proc: t.Callable[[str], t.Any] | None = None,
+-    prompt_suffix: str = ": ",
++    prompt_suffix: str | None = None,
+     show_default: bool = True,
+-    err: bool = False,
++    err: bool | None = None,
+     show_choices: bool = True,
+ ) -> t.Any:
+     """Prompts a user for input.  This is a convenience function that can
+@@ -111,9 +146,11 @@ def prompt(
+                        is invoked instead of the type conversion to
+                        convert a value.
+     :param prompt_suffix: a suffix that should be added to the prompt.
++        If ``None``, uses the thread-local default (typically ``": "``).
+     :param show_default: shows or hides the default value in the prompt.
+     :param err: if set to true the file defaults to ``stderr`` instead of
+-                ``stdout``, the same as with echo.
++                ``stdout``, the same as with echo. If ``None``, uses the
++                thread-local default.
+     :param show_choices: Show or hide choices if the passed type is a Choice.
+                          For example if type is a Choice of either day or week,
+                          show_choices is true and text is "Group by" then the
+@@ -135,6 +172,15 @@ def prompt(
+         Added the `err` parameter.
+ 
+     """
++    if prompt_suffix is None:
++        prompt_suffix = get_prompt_suffix_default()
++
++    if err is None:
++        err = get_prompt_err_default()
++
++    prompt_hint: str | None = None
++    if type is not None and isinstance(type, ParamType):
++        prompt_hint = type.get_prompt_hint()
+ 
+     def prompt_func(text: str) -> str:
+         f = hidden_prompt_func if hide_input else visible_prompt_func
+@@ -157,7 +203,8 @@ def prompt(
+         value_proc = convert_type(type, default)
+ 
+     prompt = _build_prompt(
+-        text, prompt_suffix, show_default, default, show_choices, type
++        text, prompt_suffix, show_default, default, show_choices, type,
++        prompt_hint,
+     )
+ 
+     if confirmation_prompt:
+diff --git a/src/click/testing.py b/src/click/testing.py
+index f6f60b8..f4a0bb0 100644
+--- a/src/click/testing.py
++++ b/src/click/testing.py
+@@ -14,6 +14,7 @@ from . import _compat
+ from . import formatting
+ from . import termui
+ from . import utils
++from . import globals as click_globals
+ from ._compat import _find_binary_reader
+ 
+ if t.TYPE_CHECKING:
+@@ -393,6 +394,8 @@ class CliRunner:
+         old__getchar_func = termui._getchar
+         old_should_strip_ansi = utils.should_strip_ansi  # type: ignore
+         old__compat_should_strip_ansi = _compat.should_strip_ansi
++        old_prompt_err = click_globals.get_prompt_err_default()
++        old_prompt_suffix = click_globals.get_prompt_suffix_default()
+         termui.visible_prompt_func = visible_input
+         termui.hidden_prompt_func = hidden_input
+         termui._getchar = _getchar
+@@ -428,6 +431,8 @@ class CliRunner:
+             termui._getchar = old__getchar_func
+             utils.should_strip_ansi = old_should_strip_ansi  # type: ignore
+             _compat.should_strip_ansi = old__compat_should_strip_ansi
++            click_globals.set_prompt_err_default(old_prompt_err)
++            click_globals.set_prompt_suffix_default(old_prompt_suffix)
+             formatting.FORCED_WIDTH = old_forced_width
+ 
+     def invoke(
+diff --git a/src/click/types.py b/src/click/types.py
+index e71c1c2..f5bb44f 100644
+--- a/src/click/types.py
++++ b/src/click/types.py
+@@ -59,6 +59,20 @@ class ParamType:
+     #: Windows).
+     envvar_list_splitter: t.ClassVar[str | None] = None
+ 
++    def get_prompt_hint(self) -> str | None:
++        """Returns a type-specific hint to display alongside prompt text.
++        This helps the user understand the expected input format.
++
++        Subclasses may override to provide domain-specific hints.
++        """
++        return None
++
++    def should_show_choices_in_prompt(self) -> bool:
++        """Whether this type provides enumerable choices that should be
++        displayed inline in the prompt text. Defaults to False; Choice
++        overrides this."""
++        return False
++
+     def to_info_dict(self) -> dict[str, t.Any]:
+         """Gather information that could be useful for a tool generating
+         user-facing documentation.
+@@ -261,6 +275,12 @@ class Choice(ParamType, t.Generic[ParamTypeValue]):
+         self.choices: cabc.Sequence[ParamTypeValue] = tuple(choices)
+         self.case_sensitive = case_sensitive
+ 
++    def should_show_choices_in_prompt(self) -> bool:
++        return True
++
++    def get_prompt_hint(self) -> str | None:
++        return ", ".join(map(str, self.choices))
++
+     def to_info_dict(self) -> dict[str, t.Any]:
+         info_dict = super().to_info_dict()
+         info_dict["choices"] = self.choices
+@@ -568,6 +588,9 @@ class _NumberRangeBase(_NumberParamTypeBase):
+         rop = "<" if self.max_open else "<="
+         return f"{self.min}{lop}x{rop}{self.max}"
+ 
++    def get_prompt_hint(self) -> str | None:
++        return self._describe_range()
++
+     def __repr__(self) -> str:
+         clamp = " clamped" if self.clamp else ""
+         return f"<{type(self).__name__} {self._describe_range()}{clamp}>"

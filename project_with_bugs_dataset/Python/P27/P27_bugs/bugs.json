@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 731,
+  "function": "most_common",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in most_common()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/dictutils.py",
+  "line": 806,
+  "function": "__init__",
+  "kind": "negate_cond",
+  "description": "condition negated in __init__()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/mathutils.py",
+  "line": 177,
+  "function": "__getitem__",
+  "kind": "arith",
+  "description": "`-` -> `+` in an expression in __getitem__()",
+  "in_td_file": false
+ }
+]

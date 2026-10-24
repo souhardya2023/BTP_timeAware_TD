@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/core.py",
+  "line": 3180,
+  "function": "resolve_envvar_value",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in resolve_envvar_value()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/types.py",
+  "line": 834,
+  "function": "convert",
+  "kind": "negate_cond",
+  "description": "condition negated in convert()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/termui.py",
+  "line": 513,
+  "function": "_interpret_color",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in _interpret_color()",
+  "in_td_file": false
+ }
+]

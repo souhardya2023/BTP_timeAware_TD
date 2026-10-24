@@ -1,0 +1,39 @@
+pair: P2
+original_id: PY-werkzeug-security-005
+language: Python
+project: werkzeug
+repository: https://github.com/pallets/werkzeug
+base_commit: 594452f6a4fe4de38a544962fbf04bfc9d37fbc2
+
+P2_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P2_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: security
+td_subtype: weak_hash
+cwe: CWE-327
+description: debugger PIN hash changed from SHA3-256 to MD5
+source: scripted injection (tools/inject_python.py)
+tier: main
+
+files_changed: 1
+lines_added: 1
+lines_deleted: 1
+  - src/werkzeug/debug/__init__.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 1064, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 1064, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): security.sec_total=1
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 1064, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 1064, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 1064, 'failed': 0}, tests_on_TD {'passed': 1064, 'failed': 0} -> match

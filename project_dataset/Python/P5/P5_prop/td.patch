@@ -1,0 +1,16 @@
+diff --git a/boltons/cacheutils.py b/boltons/cacheutils.py
+index ee13a17..065a9f0 100644
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -253,9 +253,8 @@ class LRI(dict):
+             return default
+ 
+     def __delitem__(self, key):
+-        with self._lock:
+-            super().__delitem__(key)
+-            self._remove_from_ll(key)
++        super().__delitem__(key)
++        self._remove_from_ll(key)
+ 
+     def pop(self, key, default=_MISSING):
+         # NB: hit/miss counts are bypassed for pop()

@@ -1,0 +1,11 @@
+--- a/src/jinja2/compiler.py
++++ b/src/jinja2/compiler.py
+@@ -652,7 +652,7 @@
+             else:
+                 args.append(frame.symbols.declare_parameter("caller"))
+             macro_ref.accesses_caller = True
+-        if "kwargs" in undeclared and "kwargs" not in skip_special_params:
++        if "kwargs" in undeclared or "kwargs" not in skip_special_params:
+             args.append(frame.symbols.declare_parameter("kwargs"))
+             macro_ref.accesses_kwargs = True
+         if "varargs" in undeclared and "varargs" not in skip_special_params:

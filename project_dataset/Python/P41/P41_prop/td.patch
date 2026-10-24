@@ -1,0 +1,14 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..d40fa70 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -584,8 +584,7 @@ class BufferedSocket:
+         .. _an issue: https://github.com/mahmoud/boltons/issues
+         """
+         with self._recv_lock:
+-            with self._send_lock:
+-                self.sock.shutdown(how)
++            self.sock.shutdown(how)
+         return
+ 
+     # end BufferedSocket

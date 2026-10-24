@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 452,
+  "function": "send",
+  "kind": "negate_cond",
+  "description": "condition negated in send()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/urlutils.py",
+  "line": 498,
+  "function": "__init__",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in __init__()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/iterutils.py",
+  "line": 411,
+  "function": "chunk_ranges",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in chunk_ranges()",
+  "in_td_file": false
+ }
+]

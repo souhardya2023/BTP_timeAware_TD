@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -800,7 +800,7 @@
+         Source can be an iterable of keys to add, or a mapping of keys
+         to integer counts.
+         """
+-        if iterable is not None:
++        if not (iterable is not None):
+             if callable(getattr(iterable, 'items', None)):
+                 for key, count in iterable.items():
+                     for i in range(count):

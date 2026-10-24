@@ -1,0 +1,11 @@
+{
+ "server": {
+  "id": "4F833BF3-AaBjNqba6G8foh43EVnC",
+  "version": "26.8.0.126808",
+  "status": "UP"
+ },
+ "exported": "2026-10-24 12:11",
+ "host": "http://localhost:9000",
+ "projects": 52,
+ "issues": 10727
+}

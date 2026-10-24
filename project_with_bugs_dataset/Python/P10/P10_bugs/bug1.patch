@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -341,7 +341,7 @@
+                         raise MessageTooLong(maxsize, delimiter)  # see rbuf
+                     if timeout:
+                         cur_timeout = timeout - (time.time() - start)
+-                        if cur_timeout <= 0.0:
++                        if not (cur_timeout <= 0.0):
+                             raise socket.timeout()
+                         sock.settimeout(cur_timeout)
+                     nxt = sock.recv(self._recvsize)

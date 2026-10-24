@@ -1,0 +1,34 @@
+metric,name,type,domain,description
+new_technical_debt,Added Technical Debt,WORK_DUR,Maintainability,Added technical debt
+bugs,Bugs,INT,Reliability,Bugs
+classes,Classes,INT,Size,Classes
+code_smells,Code Smells,INT,Maintainability,Code Smells
+cognitive_complexity,Cognitive Complexity,INT,Complexity,Cognitive complexity
+comment_lines,Comment Lines,INT,Size,Number of comment lines
+comment_lines_density,Comments (%),PERCENT,Size,Comments balanced by ncloc + comment lines
+complexity,Cyclomatic Complexity,INT,Complexity,Cyclomatic complexity
+duplicated_blocks,Duplicated Blocks,INT,Duplications,Duplicated blocks
+duplicated_files,Duplicated Files,INT,Duplications,Duplicated files
+duplicated_lines,Duplicated Lines,INT,Duplications,Duplicated lines
+duplicated_lines_density,Duplicated Lines (%),PERCENT,Duplications,Duplicated lines balanced by statements
+files,Files,INT,Size,Number of files
+functions,Functions,INT,Size,Functions
+violations,Issues,INT,Issues,Issues
+lines,Lines,INT,Size,Lines
+ncloc,Lines of Code,INT,Size,Non commenting lines of code
+software_quality_maintainability_issues,Maintainability Issues,INT,Maintainability,Maintainability Issues
+software_quality_maintainability_rating,Maintainability Rating,RATING,Maintainability,Maintainability rating
+sqale_rating,Maintainability Rating,RATING,Maintainability,A-to-E rating based on the technical debt ratio
+alert_status,Quality Gate Status,LEVEL,Releasability,The project status with regard to its quality gate.
+software_quality_reliability_issues,Reliability Issues,INT,Reliability,Reliability Issues
+reliability_rating,Reliability Rating,RATING,Reliability,Reliability rating
+reliability_remediation_effort,Reliability Remediation Effort,WORK_DUR,Reliability,Reliability Remediation Effort
+security_hotspots,Security Hotspots,INT,SecurityReview,Security Hotspots
+software_quality_security_issues,Security Issues,INT,Security,Security Issues
+security_rating,Security Rating,RATING,Security,Security rating
+security_remediation_effort,Security Remediation Effort,WORK_DUR,Security,Security remediation effort
+statements,Statements,INT,Size,Number of statements
+sqale_index,Technical Debt,WORK_DUR,Maintainability,Total effort (in minutes) to fix all the issues on the component and therefore to comply to all the requirements.
+software_quality_maintainability_remediation_effort,Technical Debt,WORK_DUR,Maintainability,Total effort (in minutes) to fix all the maintainability issues on the component and therefore to comply to all the requirements.
+sqale_debt_ratio,Technical Debt Ratio,PERCENT,Maintainability,Ratio of the actual technical debt compared to the estimated cost to develop the whole source code from scratch
+vulnerabilities,Vulnerabilities,INT,Security,Vulnerabilities

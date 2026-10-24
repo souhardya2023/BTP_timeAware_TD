@@ -1,0 +1,11 @@
+--- a/src/load.c
++++ b/src/load.c
+@@ -386,7 +386,7 @@
+                         int32_t value2 = decode_unicode_escape(++p);
+                         if (value2 < 0) {
+                             error_set(error, lex, json_error_invalid_syntax,
+-                                      "invalid Unicode escape '%.6s'", p - 1);
++                                      "invalid Unicode escape '%.6s'", p + 1);
+                             goto out;
+                         }
+                         p += 5;

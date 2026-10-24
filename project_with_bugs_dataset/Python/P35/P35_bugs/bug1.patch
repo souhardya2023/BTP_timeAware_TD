@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -160,7 +160,7 @@
+             else:
+                 self.timeout = float(timeout)
+ 
+-        if recvsize is _UNSET:
++        if not (recvsize is _UNSET):
+             self._recvsize = self.maxsize
+         else:
+             self._recvsize = int(recvsize)

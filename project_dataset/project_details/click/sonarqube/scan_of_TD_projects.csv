@@ -1,0 +1,790 @@
+Pair,Language,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,Sonar_Rule,Sonar_Severity,Sonar_Type,Sonar_File,Sonar_Line,Sonar_Message
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,273,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S107,MAJOR,CODE_SMELL,src/click/core.py,274,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1112,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1137,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1173,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1338,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1778,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1784,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1818,Rename this variable; it shadows a builtin.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2472,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2599,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2602,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2605,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2704,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2726,Rename this variable; it shadows a builtin.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2886,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2900,Use `startswith` here.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2980,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3004,Rename this variable; it shadows a builtin.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3023,Replace this expression; used as a condition it will always be constant.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3025,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3032,Merge this if statement with the enclosing one.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,162,"Remove the unused function parameter ""param""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,162,"Remove the unused function parameter ""ctx""."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,984,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1072,Rename this variable; it shadows a builtin.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1128,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,67,Rename this variable; it shadows a builtin.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,209,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,224,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P11,Python,click,coupling_cohesion,shotgun_surgery,71,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,274,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S107,MAJOR,CODE_SMELL,src/click/core.py,275,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1113,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1138,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1174,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1343,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1783,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1789,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1823,Rename this variable; it shadows a builtin.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2486,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2613,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2616,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2619,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2722,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2744,Rename this variable; it shadows a builtin.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2904,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2918,Use `startswith` here.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2998,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3022,Rename this variable; it shadows a builtin.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3041,Replace this expression; used as a condition it will always be constant.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3043,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3050,Merge this if statement with the enclosing one.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,584,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,104,"Remove the unused function parameter ""param""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,104,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,147,"Remove the unused function parameter ""param""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,147,"Remove the unused function parameter ""ctx""."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,973,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1061,Rename this variable; it shadows a builtin.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1117,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P12,Python,click,coupling_cohesion,shotgun_surgery,73,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,379,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,437,Make sure that using this pseudorandom number generator is safe here.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,471,"Remove the unused function parameter ""delete""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,571,"Remove the unused function parameter ""encoding""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,571,"Remove the unused function parameter ""errors""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,571,"Remove the unused function parameter ""f""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,288,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S107,MAJOR,CODE_SMELL,src/click/core.py,289,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1127,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1152,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1188,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1353,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1793,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1799,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1833,Rename this variable; it shadows a builtin.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2492,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2619,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2622,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2625,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2724,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2746,Rename this variable; it shadows a builtin.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2906,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2920,Use `startswith` here.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3000,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3024,Rename this variable; it shadows a builtin.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3043,Replace this expression; used as a condition it will always be constant.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3045,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3052,Merge this if statement with the enclosing one.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,178,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,431,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,179,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,84,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,84,Refactor this method to not always return the same value.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,235,Extract this nested conditional expression into an independent statement.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,297,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,306,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,317,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,337,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,520,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,152,Rename this variable; it shadows a builtin.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,288,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,104,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,104,"Remove the unused function parameter ""param""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,147,"Remove the unused function parameter ""param""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,147,"Remove the unused function parameter ""ctx""."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,969,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1057,Rename this variable; it shadows a builtin.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1113,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,77,Rename this variable; it shadows a builtin.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,219,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,234,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P13,Python,click,coupling_cohesion,shotgun_surgery,129,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P17,Python,click,dependency_structure,data_clumps,112,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P17,Python,click,dependency_structure,data_clumps,112,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,275,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S107,MAJOR,CODE_SMELL,src/click/core.py,276,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1116,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1141,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1177,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1342,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1782,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1788,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1822,Rename this variable; it shadows a builtin.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2481,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2608,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2611,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2614,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2713,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2735,Rename this variable; it shadows a builtin.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2895,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2909,Use `startswith` here.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2989,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3013,Rename this variable; it shadows a builtin.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3032,Replace this expression; used as a condition it will always be constant.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3034,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3041,Merge this if statement with the enclosing one.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,118,Refactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,118,Refactor this method to not always return the same value.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,280,Extract this nested conditional expression into an independent statement.
+P17,Python,click,dependency_structure,data_clumps,112,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,342,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,351,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P17,Python,click,dependency_structure,data_clumps,112,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,362,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P17,Python,click,dependency_structure,data_clumps,112,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,382,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,565,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,145,Rename this variable; it shadows a builtin.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,281,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,117,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,117,"Remove the unused function parameter ""param""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,160,"Remove the unused function parameter ""param""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,160,"Remove the unused function parameter ""ctx""."
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,991,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1079,Rename this variable; it shadows a builtin.
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1135,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P17,Python,click,dependency_structure,data_clumps,112,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P17,Python,click,dependency_structure,data_clumps,112,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P17,Python,click,dependency_structure,data_clumps,112,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P17,Python,click,dependency_structure,data_clumps,112,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P17,Python,click,dependency_structure,data_clumps,112,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P17,Python,click,dependency_structure,data_clumps,112,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P17,Python,click,dependency_structure,data_clumps,112,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P17,Python,click,dependency_structure,data_clumps,112,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P17,Python,click,dependency_structure,data_clumps,112,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P17,Python,click,dependency_structure,data_clumps,112,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,274,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S107,MAJOR,CODE_SMELL,src/click/core.py,275,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1113,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1138,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1174,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1339,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1779,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1785,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1819,Rename this variable; it shadows a builtin.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2495,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2622,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2625,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2628,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2727,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2749,Rename this variable; it shadows a builtin.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2909,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2923,Use `startswith` here.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3003,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3027,Rename this variable; it shadows a builtin.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3046,Replace this expression; used as a condition it will always be constant.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3048,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3055,Merge this if statement with the enclosing one.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,169,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,422,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""ctx""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""param""."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,968,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1056,Rename this variable; it shadows a builtin.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1112,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,123,Rename this variable; it shadows a builtin.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,265,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P18,Python,click,dependency_structure,dead_code_elimination,148,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,116,"Remove the unused function parameter ""args""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,359,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S107,MAJOR,CODE_SMELL,src/click/core.py,360,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1198,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1223,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1259,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1424,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1864,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1870,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1904,Rename this variable; it shadows a builtin.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2563,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2690,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2693,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2696,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2795,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2817,Rename this variable; it shadows a builtin.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2977,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2991,Use `startswith` here.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3071,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3095,Rename this variable; it shadows a builtin.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3114,Replace this expression; used as a condition it will always be constant.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3116,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3123,Merge this if statement with the enclosing one.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,566,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""param""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""ctx""."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,968,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1056,Rename this variable; it shadows a builtin.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1112,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P19,Python,click,dependency_structure,dead_code_elimination,135,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,275,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S107,MAJOR,CODE_SMELL,src/click/core.py,276,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1001,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1001,"Remove the unused function parameter ""cmd_name""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1011,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1068,"Remove the unused function parameter ""cmd_name""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1068,"Remove the unused function parameter ""args""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1068,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1199,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1224,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1260,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1430,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1907,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1913,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1947,Rename this variable; it shadows a builtin.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2606,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2733,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2736,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2739,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2838,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2860,Rename this variable; it shadows a builtin.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3020,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S6659,MINOR,CODE_SMELL,src/click/core.py,3034,Use `startswith` here.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3114,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3138,Rename this variable; it shadows a builtin.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3157,Replace this expression; used as a condition it will always be constant.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3159,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3166,Merge this if statement with the enclosing one.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""param""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""ctx""."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,968,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1056,Rename this variable; it shadows a builtin.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1112,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P20,Python,click,dependency_structure,interface_segregation,338,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P20,Python,click,dependency_structure,interface_segregation,338,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,274,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S107,MAJOR,CODE_SMELL,src/click/core.py,275,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1113,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1138,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1174,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1339,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1805,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1811,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1845,Rename this variable; it shadows a builtin.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2504,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2631,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2634,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2637,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2736,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2758,Rename this variable; it shadows a builtin.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2918,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2932,Use `startswith` here.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3012,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3036,Rename this variable; it shadows a builtin.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3055,Replace this expression; used as a condition it will always be constant.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3057,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3064,Merge this if statement with the enclosing one.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""param""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""ctx""."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,968,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1056,Rename this variable; it shadows a builtin.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1112,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P21,Python,click,complexity,deeply_inlined_method,47,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P21,Python,click,complexity,deeply_inlined_method,47,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,396,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,454,Make sure that using this pseudorandom number generator is safe here.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,488,"Remove the unused function parameter ""delete""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,588,"Remove the unused function parameter ""encoding""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,588,"Remove the unused function parameter ""errors""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,588,"Remove the unused function parameter ""f""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,293,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S107,MAJOR,CODE_SMELL,src/click/core.py,294,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1132,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1157,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1193,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1358,Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1798,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1804,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1838,Rename this variable; it shadows a builtin.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2497,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2624,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2627,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2630,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2729,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2751,Rename this variable; it shadows a builtin.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2911,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2925,Use `startswith` here.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3005,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3029,Rename this variable; it shadows a builtin.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3048,Replace this expression; used as a condition it will always be constant.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3050,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3057,Merge this if statement with the enclosing one.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,58,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,150,Rename this variable; it shadows a builtin.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,286,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,439,Refactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""ctx""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""param""."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,968,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1056,Rename this variable; it shadows a builtin.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1112,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P22,Python,click,complexity,deeply_inlined_method,303,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P22,Python,click,complexity,deeply_inlined_method,303,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S6537,MAJOR,CODE_SMELL,src/click/_compat.py,16,Consider replacing this octal escape sequence with a Unicode or hexadecimal sequence instead.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/_compat.py,371,Refactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S2245,MAJOR,VULNERABILITY,src/click/_compat.py,429,Make sure that using this pseudorandom number generator is safe here.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,463,"Remove the unused function parameter ""delete""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""errors""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""f""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/_compat.py,563,"Remove the unused function parameter ""encoding""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S107,MAJOR,CODE_SMELL,src/click/_termui_impl.py,45,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,369,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,411,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1135,INFO,CODE_SMELL,src/click/_termui_impl.py,535,"Complete the task associated to this ""TODO"" comment."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1700,MAJOR,CODE_SMELL,src/click/_termui_impl.py,572,"Rename field ""editor"""
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/_termui_impl.py,676,Refactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5332,MINOR,VULNERABILITY,src/click/_termui_impl.py,739,Using HTTP protocol is insecure. Use HTTPS instead.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S101,MINOR,CODE_SMELL,src/click/_winconsole.py,87,"Rename class ""Py_buffer"" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5713,MINOR,CODE_SMELL,src/click/_winconsole.py,269,Remove this redundant Exception class; it derives from another which is already caught.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,274,Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S107,MAJOR,CODE_SMELL,src/click/core.py,275,"Method ""__init__"" has 16 parameters, which is greater than the 13 authorized."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1192,CRITICAL,CODE_SMELL,src/click/core.py,1113,"Define a constant instead of duplicating this literal ""(DEPRECATED)"" 3 times."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1138,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1174,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,1339,Refactor this function to reduce its Cognitive Complexity from 37 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5754,CRITICAL,CODE_SMELL,src/click/core.py,1471,Catch a more specific exception or reraise the exception
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1852,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,1858,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,1892,Rename this variable; it shadows a builtin.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2551,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1186,CRITICAL,CODE_SMELL,src/click/core.py,2678,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2681,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/core.py,2684,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2783,Refactor this function to reduce its Cognitive Complexity from 69 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,2805,Rename this variable; it shadows a builtin.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,2965,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S6659,MINOR,CODE_SMELL,src/click/core.py,2979,Use `startswith` here.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3059,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5806,MAJOR,CODE_SMELL,src/click/core.py,3083,Rename this variable; it shadows a builtin.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5797,CRITICAL,CODE_SMELL,src/click/core.py,3102,Replace this expression; used as a condition it will always be constant.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/core.py,3104,Refactor this function to reduce its Cognitive Complexity from 43 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1066,MAJOR,CODE_SMELL,src/click/core.py,3111,Merge this if statement with the enclosing one.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,168,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/decorators.py,421,Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/exceptions.py,160,Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/formatting.py,31,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,51,Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/parser.py,389,Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/shell_completion.py,562,Refactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3516,BLOCKER,CODE_SMELL,src/click/termui.py,83,Refactor this method to not always return the same value.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,83,Refactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3358,MAJOR,CODE_SMELL,src/click/termui.py,233,Extract this nested conditional expression into an independent statement.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,295,"Function ""progressbar"" has 14 parameters, which is greater than the 13 authorized."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1192,CRITICAL,CODE_SMELL,src/click/termui.py,304,"Define a constant instead of duplicating this literal ""%(label)s  [%(bar)s]  %(info)s"" 3 times."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,315,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S107,MAJOR,CODE_SMELL,src/click/termui.py,335,"Function ""progressbar"" has 16 parameters, which is greater than the 13 authorized."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/termui.py,518,Refactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5806,MAJOR,CODE_SMELL,src/click/testing.py,144,Rename this variable; it shadows a builtin.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/testing.py,280,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,103,"Remove the unused function parameter ""param""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""ctx""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1172,MAJOR,CODE_SMELL,src/click/types.py,146,"Remove the unused function parameter ""param""."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,968,Refactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5806,MAJOR,CODE_SMELL,src/click/types.py,1056,Rename this variable; it shadows a builtin.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/types.py,1112,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5806,MAJOR,CODE_SMELL,src/click/utils.py,65,Rename this variable; it shadows a builtin.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S1186,CRITICAL,CODE_SMELL,src/click/utils.py,207,"Add a nested comment explaining why this method is empty, or complete the implementation."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S3776,CRITICAL,CODE_SMELL,src/click/utils.py,222,Refactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S9001,MAJOR,CODE_SMELL,tests/test_chain.py,221,Provide a reason for marking this test as expected to fail.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,584,Refactor this exception test to have only one invocation possibly throwing an exception.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5778,MAJOR,CODE_SMELL,tests/test_context.py,655,Refactor this exception test to have only one invocation possibly throwing an exception.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,338,Remove empty parentheses from this decorator.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S9083,MINOR,CODE_SMELL,tests/test_shell_completion.py,470,Remove empty parentheses from this decorator.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S9078,MAJOR,CODE_SMELL,tests/test_termui.py,155,Remove this duplicate test case.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,197,Refactor this exception test to have only one invocation possibly throwing an exception.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,204,Refactor this exception test to have only one invocation possibly throwing an exception.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,211,Refactor this exception test to have only one invocation possibly throwing an exception.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S5778,MAJOR,CODE_SMELL,tests/test_types.py,247,Refactor this exception test to have only one invocation possibly throwing an exception.
+P23,Python,click,complexity,deeply_inlined_method,126,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,105,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S8997,MAJOR,CODE_SMELL,tests/test_utils.py,106,"Use the ""monkeypatch"" fixture for temporary modifications instead of manually modifying global state."
+P23,Python,click,complexity,deeply_inlined_method,126,python:S9000,MAJOR,BUG,tests/test_utils.py,392,"Prefer the context manager form: wrap the raising code in ""with pytest.raises(...)""."

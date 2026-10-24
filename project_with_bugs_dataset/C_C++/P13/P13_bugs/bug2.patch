@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -368,7 +368,7 @@
+ 	thpool_p->num_threads_alive += 1;
+ 	pthread_mutex_unlock(&thpool_p->thcount_lock);
+ 
+-	while(threads_keepalive){
++	while(!(threads_keepalive)){
+ 
+ 		bsem_wait(thpool_p->jobqueue.has_jobs);
+ 

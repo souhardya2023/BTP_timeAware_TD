@@ -1,0 +1,6 @@
+pair,project,td_type,files_analyzed,commits_analyzed,historical_td_interest_pm
+P15,libyaml,security,src/loader.c,8,1.9625630123804183
+P16,libyaml,security,src/parser.c,21,6.221366236803532
+P17,libyaml,security,src/api.c,28,6.436572019691996
+P18,libyaml,security,src/parser.c,21,6.221366236803532
+P19,libyaml,security,src/loader.c,8,1.9625630123804183

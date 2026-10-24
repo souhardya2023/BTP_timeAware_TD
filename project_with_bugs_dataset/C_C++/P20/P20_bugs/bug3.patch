@@ -1,0 +1,11 @@
+--- a/pngwrite.c
++++ b/pngwrite.c
+@@ -1508,7 +1508,7 @@
+ #endif
+ 
+    /* Invert the alpha channel from opacity to transparency */
+-   if ((transforms & PNG_TRANSFORM_INVERT_ALPHA) != 0)
++   if ((transforms & PNG_TRANSFORM_INVERT_ALPHA) != 1)
+ #ifdef PNG_WRITE_INVERT_ALPHA_SUPPORTED
+       png_set_invert_alpha(png_ptr);
+ #else

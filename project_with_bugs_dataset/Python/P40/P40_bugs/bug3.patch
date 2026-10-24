@@ -1,0 +1,11 @@
+--- a/boltons/listutils.py
++++ b/boltons/listutils.py
+@@ -164,7 +164,7 @@
+         if index == () or index is None or index == -1:
+             while len(lists) > 1 and not lists[-1]:
+                 lists.pop()  # clean up empty tail sublists first
+-            ret = lists[-1].pop()
++            ret = lists[-2].pop()
+             if len(lists) > 1 and not lists[-1]:
+                 lists.pop()
+         else:

@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/cacheutils.py",
+  "line": 266,
+  "function": "pop",
+  "kind": "negate_cond",
+  "description": "condition negated in pop()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/iterutils.py",
+  "line": 1475,
+  "function": "__init__",
+  "kind": "cmp_boundary",
+  "description": "`<` -> `<=` in a comparison in __init__()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/statsutils.py",
+  "line": 138,
+  "function": "__init__",
+  "kind": "arith",
+  "description": "`+` -> `-` in an expression in __init__()",
+  "in_td_file": false
+ }
+]

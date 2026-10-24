@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/jinja2/lexer.py",
+  "line": 630,
+  "function": "wrap",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in wrap()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/jinja2/ext.py",
+  "line": 459,
+  "function": "parse",
+  "kind": "negate_cond",
+  "description": "condition negated in parse()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/jinja2/filters.py",
+  "line": 917,
+  "function": "do_truncate",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in do_truncate()",
+  "in_td_file": false
+ }
+]

@@ -1,0 +1,14 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..b158d30 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -186,8 +186,7 @@ class BufferedSocket:
+ 
+     def getrecvbuffer(self):
+         "Returns the receive buffer bytestring (rbuf)."
+-        with self._recv_lock:
+-            return self.rbuf
++        return self.rbuf
+ 
+     def getsendbuffer(self):
+         "Returns a copy of the send buffer list."

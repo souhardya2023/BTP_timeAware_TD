@@ -1,0 +1,11 @@
+--- a/src/value.c
++++ b/src/value.c
+@@ -542,7 +542,7 @@
+     }
+     array = json_to_array(json);
+ 
+-    if (!json_array_grow(array, 1)) {
++    if (!json_array_grow(array, 2)) {
+         json_decref(value);
+         return -1;
+     }

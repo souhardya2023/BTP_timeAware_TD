@@ -1,0 +1,11 @@
+--- a/boltons/urlutils.py
++++ b/boltons/urlutils.py
+@@ -807,7 +807,7 @@
+         return True
+ 
+     def __ne__(self, other):
+-        return not self == other
++        return not self != other
+ 
+ 
+ try:

@@ -1,0 +1,14 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..e913688 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -470,8 +470,7 @@ class BufferedSocket:
+ 
+     def flush(self):
+         "Send the contents of the internal send buffer."
+-        with self._send_lock:
+-            self.send(b'')
++        self.send(b'')
+         return
+ 
+     def buffer(self, data):

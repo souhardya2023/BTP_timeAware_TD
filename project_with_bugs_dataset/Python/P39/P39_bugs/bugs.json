@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 163,
+  "function": "__init__",
+  "kind": "negate_cond",
+  "description": "condition negated in __init__()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/strutils.py",
+  "line": 1324,
+  "function": "human_readable_list",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in human_readable_list()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/tableutils.py",
+  "line": 507,
+  "function": "_add_horizontal_html_lines",
+  "kind": "arith",
+  "description": "`-` -> `+` in an expression in _add_horizontal_html_lines()",
+  "in_td_file": false
+ }
+]

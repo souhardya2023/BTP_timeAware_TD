@@ -1,0 +1,11 @@
+--- a/src/click/core.py
++++ b/src/click/core.py
+@@ -1172,7 +1172,7 @@
+ 
+     def format_epilog(self, ctx: Context, formatter: HelpFormatter) -> None:
+         """Writes the epilog into the formatter if it exists."""
+-        if self.epilog:
++        if not (self.epilog):
+             epilog = inspect.cleandoc(self.epilog)
+             formatter.write_paragraph()
+ 

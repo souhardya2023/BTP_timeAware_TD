@@ -1,0 +1,58 @@
+327 snapshots in total; 119 release snapshots with a bug-removal label from 9 repos
+           n  bugs_fixed_next_year  life_med_days  life_med_min  life_med_max  T_clear_days
+repo                                                                                       
+boltons   20                   8.4         1004.1           4.9        3996.4         365.0
+cJSON     21                   5.4          561.6         276.2        1358.3         365.0
+click     12                  12.0          256.0          39.2         912.7         365.0
+jansson    9                   5.0          582.3           4.4        1113.3         365.0
+jinja     19                   6.1          231.8           0.1        1765.2         365.0
+libpng    12                  20.2          451.8          20.1        3037.3         365.0
+libyaml    3                   4.0          777.9           0.6        4200.1         365.0
+werkzeug  12                   5.9          348.4         176.3        1166.2         365.0
+zlib      11                   6.1          126.1          73.6        4233.4         365.0
+
+== leave-one-repo-out ==
+                MAE_days                R2        spearman       
+model                 rf      ridge     rf  ridge       rf  ridge
+features                                                         
+size_only        635.165    572.935 -0.537 -0.123   -0.171 -0.196
+history          565.122    571.721 -0.246 -0.269    0.111  0.132
+structure        596.866    605.140 -0.304 -2.075   -0.168 -0.160
+code             592.730    586.109 -0.276 -0.305   -0.218 -0.144
+td               568.033   6543.116 -0.128 -1.120    0.099  0.200
+static (s+c+td)  588.809    652.578 -0.303 -0.283   -0.165  0.261
+static w/o td    605.425    596.823 -0.397 -1.112   -0.247 -0.066
+embeddings only  562.416  14408.770 -0.127 -1.998   -0.102 -0.406
+all              579.479   7205.751 -0.206 -1.971   -0.014 -0.169
+all w/o td       585.398   8612.139 -0.237 -2.502   -0.104 -0.208
+
+== temporal ==
+                MAE_days              R2        spearman       
+model                 rf    ridge     rf  ridge       rf  ridge
+features                                                       
+size_only        892.980  983.219 -1.884 -1.866    0.200 -0.326
+history          997.671  992.788 -2.885 -1.955   -0.460 -0.364
+structure        938.031  968.958 -2.628 -2.298   -0.094 -0.297
+code             908.991  940.419 -2.133 -2.506   -0.126 -0.008
+td               894.609  980.025 -1.706 -4.012   -0.002 -0.302
+static (s+c+td)  933.531  950.344 -2.439 -3.873   -0.197 -0.223
+static w/o td    931.731  929.323 -2.609 -2.409   -0.120  0.120
+embeddings only  953.479  937.182 -2.240 -2.334   -0.251 -0.094
+all              951.452  985.006 -2.570 -3.221   -0.336 -0.197
+all w/o td       964.295  972.013 -2.635 -2.790   -0.350 -0.127
+
+within-repo rank correlation with the bug age at removal (most negative / positive):
+t_long_method             -0.571
+t_guards_per_kloc         -0.462
+t_long_share              -0.412
+t_huge_functions          -0.410
+t_satd_requirement        -0.397
+t_principal_pm_per_kloc   -0.371
+c_fn_par_p100              0.313
+t_smell_count              0.318
+c_sloc                     0.344
+s_file_bytes_log_p100      0.348
+c_loc                      0.403
+c_file_sloc_log_p100       0.428
+
+PAIR PREDICTION SKIPPED: best leave-one-repo-out result for the full vector is R2 = -0.21, Spearman = -0.01; the model has no out-of-sample skill, so a clean-vs-TD difference would be noise.

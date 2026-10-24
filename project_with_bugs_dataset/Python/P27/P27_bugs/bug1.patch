@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -728,7 +728,7 @@
+         if n is not None and n <= 0:
+             return []
+         ret = sorted(self.iteritems(), key=lambda x: x[1], reverse=True)
+-        if n is None or n >= len(ret):
++        if n is None and n >= len(ret):
+             return ret
+         return ret[:n]
+ 

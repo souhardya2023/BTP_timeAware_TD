@@ -1,0 +1,11 @@
+--- a/boltons/strutils.py
++++ b/boltons/strutils.py
+@@ -169,7 +169,7 @@
+     if numstr and numstr[-1] in string.digits:
+         try:
+             # first check for teens
+-            if numstr[-2] == '1':
++            if numstr[-3] == '1':
+                 ext = 'th'
+             else:
+                 # all other cases

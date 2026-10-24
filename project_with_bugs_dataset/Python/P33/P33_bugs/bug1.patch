@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -455,7 +455,7 @@
+                     sbuf[0] = sbuf[0][sent:]
+                     if timeout:
+                         cur_timeout = timeout - (time.time() - start)
+-                        if cur_timeout <= 0.0:
++                        if cur_timeout < 0.0:
+                             raise socket.timeout()
+                         self.sock.settimeout(cur_timeout)
+             except socket.timeout:

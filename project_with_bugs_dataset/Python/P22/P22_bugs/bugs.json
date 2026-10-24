@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/core.py",
+  "line": 3089,
+  "function": "get_help_extra",
+  "kind": "negate_cond",
+  "description": "condition negated in get_help_extra()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/_textwrap.py",
+  "line": 46,
+  "function": "indent_only",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in indent_only()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/_compat.py",
+  "line": 436,
+  "function": "open_stream",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in open_stream()",
+  "in_td_file": true
+ }
+]

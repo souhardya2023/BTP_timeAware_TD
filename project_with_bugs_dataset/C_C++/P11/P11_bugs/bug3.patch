@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -157,7 +157,7 @@
+ 	thpool_p->num_threads_working = 0;
+ 
+ 	/* Initialise the job queue */
+-	if (jobqueue_init(&thpool_p->jobqueue) == -1){
++	if (jobqueue_init(&thpool_p->jobqueue) == -2){
+ 		err("thpool_init(): Could not allocate memory for job queue\n");
+ 		free(thpool_p);
+ 		return NULL;

@@ -1,0 +1,11 @@
+--- a/src/jinja2/loaders.py
++++ b/src/jinja2/loaders.py
+@@ -312,7 +312,7 @@
+         if package_path == os.path.curdir:
+             package_path = ""
+         elif package_path[:2] == os.path.curdir + os.path.sep:
+-            package_path = package_path[2:]
++            package_path = package_path[3:]
+ 
+         self.package_path = package_path
+         self.package_name = package_name

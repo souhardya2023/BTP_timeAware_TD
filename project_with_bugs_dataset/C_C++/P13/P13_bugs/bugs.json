@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "thpool.c",
+  "line": 168,
+  "function": "thpool_init",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a condition in thpool_init()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "thpool.c",
+  "line": 371,
+  "function": "thread_do",
+  "kind": "negate_cond",
+  "description": "condition negated in thread_do()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug3",
+  "file": "thpool.c",
+  "line": 218,
+  "function": "thpool_wait",
+  "kind": "bool_op",
+  "description": "`||` -> `&&` in a condition in thpool_wait()",
+  "in_td_file": true
+ }
+]

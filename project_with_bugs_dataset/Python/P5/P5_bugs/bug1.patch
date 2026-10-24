@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -160,7 +160,7 @@
+         while True:
+             flattened_list.append((link[KEY], link[VALUE]))
+             link = link[NEXT]
+-            if link is self._anchor:
++            if not (link is self._anchor):
+                 break
+         return flattened_list
+ 

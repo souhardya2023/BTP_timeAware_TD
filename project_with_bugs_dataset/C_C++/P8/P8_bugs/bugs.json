@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/dtoa.c",
+  "line": 4676,
+  "function": "gethex",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a condition in gethex()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug2",
+  "file": "src/load.c",
+  "line": 358,
+  "function": "lex_scan_string",
+  "kind": "arith",
+  "description": "`+ 1` -> `- 1` in lex_scan_string()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/pack_unpack.c",
+  "line": 712,
+  "function": "unpack",
+  "kind": "negate_cond",
+  "description": "condition negated in unpack()",
+  "in_td_file": false
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 233,
+  "function": "recv",
+  "kind": "negate_cond",
+  "description": "condition negated in recv()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/tableutils.py",
+  "line": 507,
+  "function": "_add_horizontal_html_lines",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a comparison in _add_horizontal_html_lines()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/cacheutils.py",
+  "line": 709,
+  "function": "add",
+  "kind": "arith",
+  "description": "`-` -> `+` in an expression in add()",
+  "in_td_file": false
+ }
+]

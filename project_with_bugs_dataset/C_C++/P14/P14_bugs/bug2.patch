@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -359,7 +359,7 @@
+ 	sigemptyset(&act.sa_mask);
+ 	act.sa_flags = SA_ONSTACK;
+ 	act.sa_handler = thread_hold;
+-	if (sigaction(SIGUSR1, &act, NULL) == -1) {
++	if (!(sigaction(SIGUSR1, &act, NULL) == -1)) {
+ 		err("thread_do(): cannot handle SIGUSR1");
+ 	}
+ 

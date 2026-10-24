@@ -1,0 +1,11 @@
+--- a/src/jinja2/parser.py
++++ b/src/jinja2/parser.py
+@@ -729,7 +729,7 @@
+             if self.is_tuple_end(extra_end_rules):
+                 break
+             args.append(parse())
+-            if self.stream.current.type == "comma":
++            if self.stream.current.type != "comma":
+                 is_tuple = True
+             else:
+                 break

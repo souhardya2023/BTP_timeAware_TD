@@ -1,0 +1,11 @@
+--- a/thpool.c
++++ b/thpool.c
+@@ -524,7 +524,7 @@
+ 
+ /* Init semaphore to 1 or 0 */
+ static void bsem_init(bsem *bsem_p, int value) {
+-	if (value < 0 || value > 1) {
++	if (value <= 0 || value > 1) {
+ 		err("bsem_init(): Binary semaphore can take only values 1 or 0");
+ 		exit(1);
+ 	}

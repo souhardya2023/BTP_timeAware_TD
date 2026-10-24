@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/strbuffer.c",
+  "line": 27,
+  "function": "strbuffer_init",
+  "kind": "arith",
+  "description": "`- 1` -> `+ 1` in strbuffer_init()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/dtoa.c",
+  "line": 4756,
+  "function": "gethex",
+  "kind": "negate_cond",
+  "description": "condition negated in gethex()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/pack_unpack.c",
+  "line": 491,
+  "function": "unpack_object",
+  "kind": "bool_op",
+  "description": "`&&` -> `||` in a condition in unpack_object()",
+  "in_td_file": false
+ }
+]

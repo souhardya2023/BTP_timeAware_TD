@@ -1,0 +1,37 @@
+pair: P16
+original_id: C-libyaml-security-null_check_removed-19
+language: C/C++
+project: libyaml
+repository: https://github.com/yaml/libyaml
+base_commit: 90a56d4500aa1a1798514c5cb55c3ad4cb095f94
+
+P16_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P16_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: security
+td_subtype: null_check_removed
+cwe: CWE-476
+description: NULL guard `if (!token) return 0;` removed at src/parser.c:872
+source: scripted injection (tools/c_new.py)
+tier: main
+
+files_changed: 1
+lines_added: 0
+lines_deleted: 1
+  - src/parser.c
+
+validation_quality: validated_build_and_tests_at_generation
+tests_on_clean: {'tests_total': 3, 'tests_failed': 0}
+tests_on_TD: {'tests_total': 3, 'tests_failed': 0}
+test_command: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Debug  && cmake --build build && ctest --test-dir build
+test_env: -
+
+static_metric_delta (TD - clean, non-zero only): complexity.ccn_mean=-0.005, complexity.ccn_sum=-1, complexity.fn_ccn_gt10=-1, complexity.nloc=-1, security.guard_checks=-1
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  tests_on_clean_folder: {'tests_total': 3, 'tests_failed': 0} (fresh build, run on a copy)
+  tests_on_TD_folder: {'tests_total': 3, 'tests_failed': 0} (fresh build, run on a copy)
+  tests_match_expected: yes
+
+after_trimming_extra_files: tests_on_clean {'passed': 3, 'failed': 0}, tests_on_TD {'passed': 3, 'failed': 0} -> match

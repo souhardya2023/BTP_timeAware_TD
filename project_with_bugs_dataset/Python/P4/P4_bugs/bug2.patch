@@ -1,0 +1,11 @@
+--- a/boltons/statsutils.py
++++ b/boltons/statsutils.py
+@@ -219,7 +219,7 @@
+         """
+         for attr_name in self._prop_attr_names:
+             attr_name = getattr(self.__class__, attr_name).internal_name
+-            if not hasattr(self, attr_name):
++            if not (not hasattr(self, attr_name)):
+                 continue
+             delattr(self, attr_name)
+         return

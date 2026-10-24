@@ -1,0 +1,7 @@
+pair,project,td_type,files_analyzed,commits_analyzed,historical_td_interest_pm
+P1,jansson,security,src/dump.c,86,4.2596656443953895
+P10,jansson,complexity,src/strbuffer.c,23,0.6862557472071986
+P2,jansson,security,src/strconv.c,12,1.0607967496600317
+P3,jansson,security,src/strconv.c,12,1.0607967496600317
+P4,jansson,security,src/load.c,100,8.111020574182845
+P8,jansson,dependency_structure,src/hashtable.h,25,1.0456682642437989

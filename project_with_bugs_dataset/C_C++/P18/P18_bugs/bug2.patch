@@ -1,0 +1,11 @@
+--- a/src/emitter.c
++++ b/src/emitter.c
+@@ -1223,7 +1223,7 @@
+         if (!emitter->scalar_data.length
+                 && (emitter->flow_level || emitter->simple_key_context))
+             style = YAML_SINGLE_QUOTED_SCALAR_STYLE;
+-        if (no_tag && !event->data.scalar.plain_implicit)
++        if (no_tag || !event->data.scalar.plain_implicit)
+             style = YAML_SINGLE_QUOTED_SCALAR_STYLE;
+     }
+ 

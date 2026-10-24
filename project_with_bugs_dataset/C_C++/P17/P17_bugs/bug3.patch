@@ -1,0 +1,11 @@
+--- a/src/dumper.c
++++ b/src/dumper.c
+@@ -212,7 +212,7 @@
+ 
+     emitter->anchors[index-1].references ++;
+ 
+-    if (emitter->anchors[index-1].references == 1) {
++    if (emitter->anchors[index-2].references == 1) {
+         switch (node->type) {
+             case YAML_SEQUENCE_NODE:
+                 for (item = node->data.sequence.items.start;

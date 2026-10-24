@@ -1,0 +1,11 @@
+--- a/src/jinja2/loaders.py
++++ b/src/jinja2/loaders.py
+@@ -385,7 +385,7 @@
+             mtime = os.path.getmtime(p)
+ 
+             def up_to_date() -> bool:
+-                return os.path.isfile(p) and os.path.getmtime(p) == mtime
++                return os.path.isfile(p) or os.path.getmtime(p) == mtime
+ 
+         else:
+             # Package is a zip file.

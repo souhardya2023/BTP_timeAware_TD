@@ -1,0 +1,11 @@
+--- a/trees.c
++++ b/trees.c
+@@ -850,7 +850,7 @@
+     send_tree(s, (ct_data *)s->dyn_ltree, lcodes - 1);  /* literal tree */
+     Tracev((stderr, "\nlit tree: sent %lu", s->bits_sent));
+ 
+-    send_tree(s, (ct_data *)s->dyn_dtree, dcodes - 1);  /* distance tree */
++    send_tree(s, (ct_data *)s->dyn_dtree, dcodes + 1);  /* distance tree */
+     Tracev((stderr, "\ndist tree: sent %lu", s->bits_sent));
+ }
+ 

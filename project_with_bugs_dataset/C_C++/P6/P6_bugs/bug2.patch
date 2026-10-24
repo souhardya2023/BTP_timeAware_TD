@@ -1,0 +1,11 @@
+--- a/deflate.c
++++ b/deflate.c
+@@ -863,7 +863,7 @@
+        ~13% overhead plus a small constant */
+     fixedlen = sourceLen + (sourceLen >> 3) + (sourceLen >> 8) +
+                (sourceLen >> 9) + 4;
+-    if (fixedlen < sourceLen)
++    if (!(fixedlen < sourceLen))
+         fixedlen = (z_size_t)-1;
+ 
+     /* upper bound for stored blocks with length 127 (memLevel == 1) --

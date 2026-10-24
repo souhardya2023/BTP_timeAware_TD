@@ -1,0 +1,11 @@
+--- a/src/click/types.py
++++ b/src/click/types.py
+@@ -976,7 +976,7 @@
+         is_dash = self.file_okay and self.allow_dash and rv in (b"-", "-")
+ 
+         if not is_dash:
+-            if self.resolve_path:
++            if not (self.resolve_path):
+                 rv = os.path.realpath(rv)
+ 
+             try:

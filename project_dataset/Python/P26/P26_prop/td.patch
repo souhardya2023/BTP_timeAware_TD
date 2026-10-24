@@ -1,0 +1,18 @@
+diff --git a/boltons/cacheutils.py b/boltons/cacheutils.py
+index ee13a17..f172ecc 100644
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -271,10 +271,9 @@ class LRI(dict):
+             return ret
+ 
+     def popitem(self):
+-        with self._lock:
+-            item = super().popitem()
+-            self._remove_from_ll(item[0])
+-            return item
++        item = super().popitem()
++        self._remove_from_ll(item[0])
++        return item
+ 
+     def clear(self):
+         with self._lock:

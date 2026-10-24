@@ -1,0 +1,9 @@
+layout,protocol,without_time,with_time,difference,evidence,verdict
+delta_only,given_stratified,0.7868852459016393,0.918032786885246,0.1311475409836066,"95% CI +0.05 to +0.23; fixed 8, broken 0; McNemar p=0.008","better, clear"
+delta_only,repeated_stratified,0.8401639344262295,0.937704918032787,0.0975409836065574,with time better in 20 of 20 splits (range +0.049 to +0.148),"better, clear"
+delta_only,given_by_project,0.3114754098360656,0.5081967213114754,0.1967213114754098,"95% CI +0.10 to +0.30; fixed 12, broken 0; McNemar p=0.000","better, clear"
+delta_only,leave_one_project_out,0.4262295081967213,0.5081967213114754,0.0819672131147541,"95% CI +0.02 to +0.16; fixed 5, broken 0; McNemar p=0.062","better, borderline"
+full,given_stratified,0.7049180327868853,0.819672131147541,0.1147540983606557,"95% CI +0.03 to +0.20; fixed 7, broken 0; McNemar p=0.016","better, clear"
+full,repeated_stratified,0.7811475409836065,0.927049180327869,0.1459016393442624,with time better in 20 of 20 splits (range +0.082 to +0.197),"better, clear"
+full,given_by_project,0.1147540983606557,0.2786885245901639,0.1639344262295081,"95% CI +0.08 to +0.26; fixed 10, broken 0; McNemar p=0.002","better, clear"
+full,leave_one_project_out,0.2459016393442623,0.3770491803278688,0.1311475409836065,"95% CI +0.05 to +0.21; fixed 8, broken 0; McNemar p=0.008","better, clear"

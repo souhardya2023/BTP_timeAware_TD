@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/click/core.py",
+  "line": 1175,
+  "function": "format_epilog",
+  "kind": "negate_cond",
+  "description": "condition negated in format_epilog()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/click/shell_completion.py",
+  "line": 521,
+  "function": "_is_incomplete_argument",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a comparison in _is_incomplete_argument()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug3",
+  "file": "src/click/termui.py",
+  "line": 250,
+  "function": "confirm",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a comparison in confirm()",
+  "in_td_file": false
+ }
+]

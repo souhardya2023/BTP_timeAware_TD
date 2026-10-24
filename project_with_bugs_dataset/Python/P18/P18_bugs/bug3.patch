@@ -1,0 +1,11 @@
+--- a/src/click/__init__.py
++++ b/src/click/__init__.py
+@@ -85,7 +85,7 @@
+         )
+         return _BaseCommand
+ 
+-    if name == "MultiCommand":
++    if name != "MultiCommand":
+         from .core import _MultiCommand
+ 
+         warnings.warn(

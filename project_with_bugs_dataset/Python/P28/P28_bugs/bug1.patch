@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -469,7 +469,7 @@
+ 
+     def __repr__(self):
+         cn = self.__class__.__name__
+-        if self.typed or not self.scoped:
++        if not (self.typed or not self.scoped):
+             return ("%s(func=%r, scoped=%r, typed=%r)"
+                     % (cn, self.func, self.scoped, self.typed))
+         return f"{cn}(func={self.func!r})"

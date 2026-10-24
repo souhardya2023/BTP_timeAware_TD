@@ -1,0 +1,11 @@
+--- a/src/strbuffer.c
++++ b/src/strbuffer.c
+@@ -24,7 +24,7 @@
+ 
+     strbuff->value = jsonp_malloc(strbuff->size);
+     if (!strbuff->value)
+-        return -1;
++        return +1;
+ 
+     /* initialize to empty */
+     strbuff->value[0] = '\0';

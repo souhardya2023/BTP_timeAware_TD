@@ -1,0 +1,11 @@
+--- a/boltons/statsutils.py
++++ b/boltons/statsutils.py
+@@ -135,7 +135,7 @@
+     def __init__(self, name, func):
+         self.name = name
+         self.func = func
+-        self.internal_name = '_' + name
++        self.internal_name = '_' - name
+ 
+         doc = func.__doc__ or ''
+         pre_doctest_doc, _, _ = doc.partition('>>>')

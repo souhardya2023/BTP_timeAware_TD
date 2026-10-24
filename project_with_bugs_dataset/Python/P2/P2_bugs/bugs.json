@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/werkzeug/debug/__init__.py",
+  "line": 164,
+  "function": "get_pin_and_cookie_name",
+  "kind": "negate_cond",
+  "description": "condition negated in get_pin_and_cookie_name()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/werkzeug/datastructures/structures.py",
+  "line": 564,
+  "function": "popitem",
+  "kind": "const_off_by_one",
+  "description": "constant 0 -> 1 in popitem()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/werkzeug/routing/converters.py",
+  "line": 182,
+  "function": "to_python",
+  "kind": "bool_op",
+  "description": "`or` -> `and` in a condition in to_python()",
+  "in_td_file": false
+ }
+]

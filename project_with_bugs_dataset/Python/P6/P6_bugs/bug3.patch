@@ -1,0 +1,11 @@
+--- a/boltons/statsutils.py
++++ b/boltons/statsutils.py
+@@ -748,7 +748,7 @@
+         items.append(('max', self.max))
+         if format == 'dict':
+             ret = dict(items)
+-        elif format == 'list':
++        elif format != 'list':
+             ret = items
+         elif format == 'text':
+             ret = '\n'.join(['{}{}'.format((label + ':').ljust(10), val)

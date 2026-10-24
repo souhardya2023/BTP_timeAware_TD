@@ -1,0 +1,11 @@
+--- a/boltons/iterutils.py
++++ b/boltons/iterutils.py
+@@ -408,7 +408,7 @@
+     for i in range(input_offset, input_stop, chunk_size - overlap_size):
+         yield (i, min(i + chunk_size, input_stop))
+ 
+-        if i + chunk_size >= input_stop:
++        if i - chunk_size >= input_stop:
+             return
+ 
+ 

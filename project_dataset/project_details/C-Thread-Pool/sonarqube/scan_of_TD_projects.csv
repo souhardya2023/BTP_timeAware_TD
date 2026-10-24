@@ -1,0 +1,5 @@
+Pair,Language,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,Sonar_Rule,Sonar_Severity,Sonar_Type,Sonar_File,Sonar_Line,Sonar_Message
+P11,C_C++,C-Thread-Pool,concurrency,lock_pair_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P12,C_C++,C-Thread-Pool,concurrency,lock_pair_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P13,C_C++,C-Thread-Pool,security,null_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE
+P14,C_C++,C-Thread-Pool,security,null_check_removed,0,NONE,NONE,NONE,NONE,NONE,NONE

@@ -1,0 +1,11 @@
+--- a/pngset.c
++++ b/pngset.c
+@@ -249,7 +249,7 @@
+    wx = png_ITU_fixed_16(&error, white_x);
+    wy = png_ITU_fixed_16(&error, white_y);
+ 
+-   if (error)
++   if (!(error))
+    {
+       png_chunk_report(png_ptr,
+          "mDCV chromaticities outside representable range",

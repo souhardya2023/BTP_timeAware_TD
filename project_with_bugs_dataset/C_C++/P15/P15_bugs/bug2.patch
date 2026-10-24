@@ -1,0 +1,11 @@
+--- a/src/dumper.c
++++ b/src/dumper.c
+@@ -382,7 +382,7 @@
+ 
+     for (pair = node->data.mapping.pairs.start;
+             pair < node->data.mapping.pairs.top; pair ++) {
+-        if (!yaml_emitter_dump_node(emitter, pair->key)) return 0;
++        if (!(!yaml_emitter_dump_node(emitter, pair->key))) return 0;
+         if (!yaml_emitter_dump_node(emitter, pair->value)) return 0;
+     }
+ 

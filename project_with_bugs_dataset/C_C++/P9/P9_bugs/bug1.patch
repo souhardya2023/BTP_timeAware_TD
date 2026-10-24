@@ -1,0 +1,11 @@
+--- a/zutil.h
++++ b/zutil.h
+@@ -281,7 +281,7 @@
+  */
+ local void z_once(z_once_t *state, void (*init)(void)) {
+     if (!atomic_load(&state->done)) {
+-        if (atomic_flag_test_and_set(&state->begun))
++        if (!(atomic_flag_test_and_set(&state->begun)))
+             while (!atomic_load(&state->done))
+                 ;
+         else {

@@ -1,0 +1,11 @@
+pair,project,td_type,files_analyzed,commits_analyzed,historical_td_interest_pm
+P11,click,coupling_cohesion,"src/click/core.py, src/click/types.py, src/click/utils.py",293,29.351401986583145
+P12,click,coupling_cohesion,"src/click/_utils.py, src/click/core.py, src/click/globals.py, src/click/shell_completion.py, src/click/types.py",298,29.49551345051662
+P13,click,coupling_cohesion,"src/click/_compat.py, src/click/core.py, src/click/decorators.py, src/click/exceptions.py, src/click/globals.py, src/click/termui.py, src/click/testing.py, src/click/types.py, src/click/utils.py",499,46.57697810947272
+P17,click,dependency_structure,"src/click/core.py, src/click/globals.py, src/click/termui.py, src/click/testing.py, src/click/types.py",347,33.70429760449196
+P18,click,dependency_structure,"src/click/_utils.py, src/click/core.py, src/click/decorators.py, src/click/globals.py, src/click/utils.py",290,26.918980896670156
+P19,click,dependency_structure,"src/click/_utils.py, src/click/core.py, src/click/shell_completion.py",221,22.402607229066536
+P20,click,dependency_structure,"src/click/__init__.py, src/click/core.py, src/click/decorators.py, src/click/testing.py, src/click/types.py",375,34.10662420499936
+P21,click,complexity,"src/click/core.py, src/click/utils.py",226,22.61706506145269
+P22,click,complexity,"src/click/_compat.py, src/click/core.py, src/click/formatting.py, src/click/globals.py, src/click/testing.py",274,28.28440154118055
+P23,click,complexity,"src/click/core.py, src/click/utils.py",226,22.61706506145269

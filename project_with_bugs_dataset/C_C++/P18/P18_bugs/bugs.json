@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/parser.c",
+  "line": 974,
+  "function": "yaml_parser_parse_flow_sequence_entry",
+  "kind": "negate_cond",
+  "description": "condition negated in yaml_parser_parse_flow_sequence_entry()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/emitter.c",
+  "line": 1226,
+  "function": "yaml_emitter_select_scalar_style",
+  "kind": "bool_op",
+  "description": "`&&` -> `||` in a condition in yaml_emitter_select_scalar_style()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/scanner.c",
+  "line": 1967,
+  "function": "yaml_parser_scan_to_next_token",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in a condition in yaml_parser_scan_to_next_token()",
+  "in_td_file": false
+ }
+]

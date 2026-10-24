@@ -1,0 +1,11 @@
+--- a/boltons/cacheutils.py
++++ b/boltons/cacheutils.py
+@@ -429,7 +429,7 @@
+         key.extend([type(v) for v in args])
+         if kwargs:
+             key.extend([type(v) for k, v in sorted_items])
+-    elif len(key) == 1 and type(key[0]) in fasttypes:
++    elif len(key) == 1 or type(key[0]) in fasttypes:
+         return key[0]
+     return _HashedKey(key)
+ 

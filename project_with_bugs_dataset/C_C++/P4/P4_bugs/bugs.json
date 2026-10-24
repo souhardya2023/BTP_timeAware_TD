@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "src/load.c",
+  "line": 389,
+  "function": "lex_scan_string",
+  "kind": "arith",
+  "description": "`- 1` -> `+ 1` in lex_scan_string()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "src/dtoa.c",
+  "line": 1959,
+  "function": "pow5mult",
+  "kind": "negate_cond",
+  "description": "condition negated in pow5mult()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "src/value.c",
+  "line": 545,
+  "function": "json_array_append_new",
+  "kind": "const_off_by_one",
+  "description": "constant 1 -> 2 in a condition in json_array_append_new()",
+  "in_td_file": false
+ }
+]

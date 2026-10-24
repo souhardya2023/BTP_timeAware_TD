@@ -1,0 +1,11 @@
+--- a/src/click/testing.py
++++ b/src/click/testing.py
+@@ -509,7 +509,7 @@
+                 if e_code is None:
+                     e_code = 0
+ 
+-                if e_code != 0:
++                if e_code != 1:
+                     exception = e
+ 
+                 if not isinstance(e_code, int):

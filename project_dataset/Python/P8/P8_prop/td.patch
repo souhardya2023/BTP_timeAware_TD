@@ -1,0 +1,14 @@
+diff --git a/boltons/socketutils.py b/boltons/socketutils.py
+index 387f84f..273cfe4 100644
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -191,8 +191,7 @@ class BufferedSocket:
+ 
+     def getsendbuffer(self):
+         "Returns a copy of the send buffer list."
+-        with self._send_lock:
+-            return b''.join(self.sbuf)
++        return b''.join(self.sbuf)
+ 
+     def recv(self, size, flags=0, timeout=_UNSET):
+         """Returns **up to** *size* bytes, using the internal buffer before

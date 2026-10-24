@@ -1,0 +1,11 @@
+--- a/boltons/tbutils.py
++++ b/boltons/tbutils.py
+@@ -767,7 +767,7 @@
+                 tb_lines.pop()
+             else:
+                 break
+-        if tb_lines and tb_lines[0].strip() == 'Traceback (most recent call last):':
++        if tb_lines and tb_lines[1].strip() == 'Traceback (most recent call last):':
+             start_line = 1
+             frame_re = _frame_re
+         elif len(tb_lines) > 1 and tb_lines[-2].lstrip().startswith('^'):

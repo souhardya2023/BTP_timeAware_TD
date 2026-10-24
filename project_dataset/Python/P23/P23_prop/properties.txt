@@ -1,0 +1,41 @@
+pair: P23
+original_id: PY-SB-click-deeply_inlined_method-342dc279237d2cf9e41cccfe4599dde1
+language: Python
+project: click
+repository: https://github.com/pallets/click
+base_commit: 1d038f270701498433cb432f54db89f95f07a845
+
+P23_clean: the whole project at base_commit, unchanged (no intentionally injected technical debt)
+P23_TD:    the same project with td.patch applied (exactly one controlled change)
+
+td_type: complexity
+td_subtype: deeply_inlined_method
+cwe: -
+description: -
+source: SmellBench (injected by LLM agent, test-validated by its authors)
+tier: main
+smellbench_difficulty: medium
+
+files_changed: 2
+lines_added: 126
+lines_deleted: 12
+  - src/click/core.py
+  - src/click/utils.py
+
+validation_quality: validated_full_test_suite
+tests_on_clean: {'passed': 1314, 'failed': 0, 'errors': 0}
+tests_on_TD: {'passed': 1314, 'failed': 0, 'errors': 0}
+test_command: pytest tests -q -p no:cacheprovider
+test_env: {'PYTHONPATH': 'src'}
+
+static_metric_delta (TD - clean, non-zero only): complexity.nloc=67, complexity.functions=1, complexity.ccn_sum=17, complexity.ccn_mean=0.027, complexity.fn_nloc_gt50=1
+
+verified_on_this_folder:
+  structure: clean/TD/prop present, no .git
+  clean_vs_TD_differ_only_in_patch_files: yes
+  tests_on_clean_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_on_TD_folder: {'passed': 1314, 'failed': 0, 'errors': 0}
+  tests_match_expected: yes
+
+
+after_trimming_extra_files: tests_on_clean {'passed': 1314, 'failed': 0}, tests_on_TD {'passed': 1314, 'failed': 0} -> match

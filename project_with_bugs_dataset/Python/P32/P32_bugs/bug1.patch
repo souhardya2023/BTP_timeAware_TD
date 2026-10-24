@@ -1,0 +1,11 @@
+--- a/boltons/socketutils.py
++++ b/boltons/socketutils.py
+@@ -449,7 +449,7 @@
+             self.sock.settimeout(timeout)
+             start, total_sent = time.time(), 0
+             try:
+-                while sbuf[0]:
++                while not (sbuf[0]):
+                     sent = self.sock.send(sbuf[0])
+                     total_sent += sent
+                     sbuf[0] = sbuf[0][sent:]

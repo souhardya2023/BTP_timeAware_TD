@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "boltons/socketutils.py",
+  "line": 163,
+  "function": "__init__",
+  "kind": "negate_cond",
+  "description": "condition negated in __init__()",
+  "in_td_file": true
+ },
+ {
+  "bug": "bug2",
+  "file": "boltons/listutils.py",
+  "line": 128,
+  "function": "_balance_list",
+  "kind": "cmp_boundary",
+  "description": "`>` -> `>=` in a comparison in _balance_list()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "boltons/funcutils.py",
+  "line": 588,
+  "function": "update_wrapper",
+  "kind": "bool_op",
+  "description": "`and` -> `or` in a condition in update_wrapper()",
+  "in_td_file": false
+ }
+]

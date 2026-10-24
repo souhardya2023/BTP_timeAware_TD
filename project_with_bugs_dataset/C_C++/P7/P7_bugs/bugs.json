@@ -1,0 +1,29 @@
+[
+ {
+  "bug": "bug1",
+  "file": "cJSON_Utils.c",
+  "line": 1431,
+  "function": "generate_merge_patch",
+  "kind": "arith",
+  "description": "`- 1` -> `+ 1` in generate_merge_patch()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug2",
+  "file": "cJSON.c",
+  "line": 2357,
+  "function": "cJSON_InsertItemInArray",
+  "kind": "cmp_equality",
+  "description": "`==` -> `!=` in a condition in cJSON_InsertItemInArray()",
+  "in_td_file": false
+ },
+ {
+  "bug": "bug3",
+  "file": "cJSON_Utils.c",
+  "line": 411,
+  "function": "detach_item_from_array",
+  "kind": "negate_cond",
+  "description": "condition negated in detach_item_from_array()",
+  "in_td_file": false
+ }
+]
