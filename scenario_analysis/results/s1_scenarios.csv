@@ -1,0 +1,24 @@
+scenario,family,adjusted_for,verdict,python_rr,python_lo,python_hi,python_n_repos,python_agree,c_rr,c_lo,c_hi,c_n_repos,c_agree,synthetic_rr,synthetic_lo,synthetic_hi,synthetic_n_repos,synthetic_agree
+paid in the previous release pair,history,size,LANGUAGE-SPECIFIC,1.15,0.832,1.56,12,0.583,2.527,1.514,3.531,16,0.75,1.337,1.095,1.692,13.0,0.615
+paid 2+ times before,history,size,LANGUAGE-SPECIFIC,1.046,0.953,1.123,13,0.538,2.223,1.373,2.857,16,0.938,1.086,0.803,1.464,23.0,0.609
+"has never paid, observed 5+ releases",history,size,LANGUAGE-SPECIFIC,0.814,0.604,1.235,12,0.667,0.154,0.089,0.454,16,0.812,0.297,0.139,0.5,14.0,0.929
+large for its repository (top third),size,none,REPEATS strong,1.439,1.218,1.739,15,0.8,1.762,1.479,2.107,17,1.0,1.395,0.827,2.121,20.0,0.5
+small for its repository (bottom third),size,none,REPEATS strong,0.659,0.519,0.802,14,0.929,0.569,0.456,0.656,17,1.0,0.551,0.382,0.752,24.0,0.792
+Long Method,type,size,REPEATS weak,0.939,0.883,0.992,13,0.692,0.953,0.908,0.988,17,0.765,0.985,0.963,1.011,29.0,0.862
+Complex Method,type,size,NOISE,0.996,0.902,1.105,14,0.286,1.015,0.944,1.097,17,0.412,1.022,0.935,1.112,35.0,0.257
+Many Parameters,type,size,LANGUAGE-SPECIFIC,1.4,1.107,1.703,11,0.727,1.066,0.887,1.32,13,0.692,,,,,
+very complex (ccn >= 20),type,size,NOISE,0.956,0.633,1.4,12,0.417,1.007,0.742,1.364,16,0.562,,,,,
+two or more smells in the same function,type,size,NOISE,1.191,0.964,1.483,12,0.583,1.009,0.721,1.645,16,0.625,0.412,0.289,0.525,4.0,1.0
+new debt (age 0-1 releases),age,size,LANGUAGE-SPECIFIC,0.744,0.521,1.01,13,0.769,1.32,1.039,1.557,17,0.529,1.066,0.706,1.49,13.0,0.385
+old debt (age 7+ releases),age,size,NOISE,0.961,0.717,1.277,13,0.462,0.724,0.568,1.008,17,0.353,0.989,0.765,1.212,33.0,0.697
+minor or major release,release,none,REPEATS strong,4.577,3.322,7.409,11,1.0,7.982,2.129,17.204,13,0.923,,,,,
+long gap since last tag (above repo median),release,none,LANGUAGE-SPECIFIC,2.449,1.557,3.76,14,0.786,1.197,0.958,1.926,17,0.824,1.992,1.721,2.301,37.0,0.892
+busy release (commits above repo median),release,none,REPEATS strong,4.403,3.083,6.135,12,1.0,2.822,1.723,6.556,16,0.938,2.498,2.116,2.868,26.0,0.962
+a sibling in the file paid before,file,size,NOISE,1.067,0.776,1.395,13,0.538,0.978,0.795,1.353,17,0.647,1.233,1.079,1.444,6.0,1.0
+file holds 3+ debt instances,file,size,LANGUAGE-SPECIFIC,1.166,0.926,1.621,12,0.833,1.719,1.104,2.938,16,0.75,0.888,0.582,1.298,10.0,0.5
+debt function is edited more than a clean one,avoidance,size,NOISE,1.057,0.88,1.262,16,0.5,1.084,0.946,1.237,17,0.588,0.545,0.346,0.985,14.0,0.429
+a bug-fix commit creates debt more often,commit,size of change,NOISE,1.001,0.73,1.352,14,0.429,0.862,0.738,1.043,14,0.857,,,,,
+a big commit (top quarter) creates debt more often,commit,none,REPEATS strong,9.302,7.643,11.287,12,1.0,10.471,8.361,13.562,14,1.0,,,,,
+a 'refactor/simplify' commit removes debt more often,commit,size of change,REPEATS strong,1.674,1.305,2.603,6,1.0,1.682,1.357,2.04,7,0.857,,,,,
+a commit that adds TODO/FIXME creates debt more often,commit,size of change,LANGUAGE-SPECIFIC,1.5,1.241,1.688,4,1.0,1.058,0.814,1.146,5,0.6,,,,,
+a commit with many files (>=5 source) creates debt more often,commit,size of change,LANGUAGE-SPECIFIC,0.656,0.401,0.86,13,0.769,0.875,0.749,1.007,15,0.667,,,,,
