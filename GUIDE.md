@@ -22,6 +22,7 @@ The study asks: **given a software project and the same project with technical d
 | `pipeline/` | 128 KB | **the code** that turns the two folders above into the machine-learning input | hand-written |
 | `out_dataset/` | 472 KB | **the machine-learning input**: CSV files with the label, the features and the time feature | `pipeline/make_dataset.py build` |
 | `ml_model/` | 3.9 MB | the with-time vs without-time experiments, 4 trained models, `predict.py` | `ml_model/*.py` |
+| `interest_exp/` | 21 MB | the **interest** experiments: calculation of the technical-debt interest in person-months (2025 method) for 9 real projects, prediction of it, code and data | `interest_exp/code/` |
 | `results/` | 4 MB | **all experiments and their numbers**: 10 documents (dataset, audit, features, history, time model, classification, ablations, earlier experiments, current vs previous, limits) + `data/` CSVs + the scripts that produce them | `results/scripts/` |
 | `README.md`, `GUIDE.md` | | overview, this guide | |
 Every folder has its own `README.md`; the guide below tells you what to read when.
