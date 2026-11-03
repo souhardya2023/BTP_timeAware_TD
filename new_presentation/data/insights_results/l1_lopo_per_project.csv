@@ -1,0 +1,6 @@
+,C-Thread-Pool,boltons,cJSON,click,jansson,jinja,libpng,libyaml,werkzeug,zlib
+"whole-project delta, 10-best + RF (talk)",1.0,0.0,0.0,0.3,0.8333333333333334,0.6,1.0,1.0,1.0,1.0
+"whole-project delta, RF",1.0,0.0,1.0,0.5,1.0,0.4,1.0,1.0,1.0,0.6666666666666666
+"LOCAL delta (touched files), RF",0.5,0.0,1.0,0.4,1.0,0.6,1.0,1.0,0.5,1.0
+"LOCAL delta (touched files), 10-best + RF",0.5,0.0,1.0,0.5,1.0,0.6,1.0,1.0,0.5,1.0
+"PATCH WORDS (added/removed identifiers), LR",1.0,0.0,1.0,0.3,0.5,0.0,1.0,1.0,1.0,1.0

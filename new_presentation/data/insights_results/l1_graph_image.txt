@@ -1,0 +1,19 @@
+## 1. What a debt change does to the dependency graph
+pairs whose dependency graph changes at all: 14 of 61
+                     e_added e_removed cyc_nodes_delta touched_nodes
+                        mean      mean            mean          mean
+td_type                                                             
+complexity              0.17       0.0            0.00          0.33
+concurrency             0.00       0.0            0.00          0.00
+coupling_cohesion       1.50       0.0            0.00          2.50
+dependency_structure    1.00       0.0            0.86          2.00
+security                0.00       0.0            0.00          0.00
+share of pairs with a changed graph, by type: {'complexity': 0.17, 'concurrency': 0.0, 'coupling_cohesion': 1.0, 'dependency_structure': 1.0, 'security': 0.0}
+number of graph pixels that differ (of the 32x32 delta image), median: 0
+
+## 2. Classical models (accuracy, no time feature; majority = 0.426)
+  edit-graph features (6 numbers), RF                  stratified 0.492   leave-one-project-out 0.623
+  flattened adjacency image of the debt copy, LR       stratified 0.672   leave-one-project-out 0.541
+  flattened DIFFERENCE image, LR                       stratified 0.295   leave-one-project-out 0.541
+
+Dependency-structure vs the rest from the 6 edit-graph numbers: AUC 0.95 (leave-one-project-out, 7 positive pairs)

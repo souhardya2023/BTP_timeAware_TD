@@ -1,0 +1,53 @@
+pairs 1321, types {'complexity': 272, 'security': 270, 'coupling_cohesion': 265, 'concurrency': 265, 'dependency_structure': 249}, majority 0.206
+
+## accuracy by split and input (balanced accuracy in the csv)
+                 input  random  project  template  tier
+delta (child - parent)   0.942    0.960     0.828 0.945
+  child only (no twin)   0.760    0.766     0.709 0.700
+parent + child + delta   0.937    0.953     0.860 0.942
+
+## delta, held-out template: accuracy per template (a template is the code pattern of the injection)
+                                         mean  size
+ptype                template                      
+complexity           ladder              0.94    71
+                     long                0.82    66
+                     nested              0.99    67
+                     params              0.56    68
+concurrency          check_then_act      0.96    47
+                     lock_not_released   0.98    53
+                     lock_order          0.98    40
+                     shared_list         0.98    54
+                     unlocked_counter    0.93    71
+coupling_cohesion    feature_envy        0.25    73
+                     god_class           0.99    76
+                     message_chain       0.78    60
+                     private_access      0.77    56
+dependency_structure import_cycle        0.93    57
+                     layer_violation     0.82   136
+                     wildcard_import     0.93    56
+security             eval_input          0.95    40
+                     insecure_random     0.83    36
+                     path_traversal      0.05    41
+                     shell_injection     0.95    40
+                     sql_injection       1.00    23
+                     unsafe_deserialize  0.95    43
+                     weak_hash_secret    0.91    47
+
+## delta, held-out project: mixed commits (other edits in the same commit) against pure
+  mixed=False: n=475 accuracy 0.983
+  mixed=True: n=846 accuracy 0.947
+  by tier (held-out project): {'S': 0.923, 'M': 0.964, 'L': 0.983, 'X': 1.0}
+  by regime (held-out project): {'sticky': 0.97, 'baseline': 0.965, 'ar_clock': 0.937, 'decay': 0.969, 'contagion': 0.929}
+
+## drift-scaled delta (each delta divided by the mean release-to-release change of the same feature in the same project)
+  raw delta                      random 0.942   held-out project 0.960   held-out template 0.828
+  delta / drift                  random 0.940   held-out project 0.955   held-out template 0.851
+  signed log of delta / drift    random 0.940   held-out project 0.955   held-out template 0.850
+
+## learning curve, delta, leave-one-template-out accuracy against the number of training pairs
+    60 pairs: 0.753
+   150 pairs: 0.822
+   300 pairs: 0.842
+   600 pairs: 0.857
+  1000 pairs: 0.840
+  1321 pairs: 0.828

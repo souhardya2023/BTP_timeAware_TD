@@ -1,0 +1,795 @@
+====================================================================================================
+NEW INSIGHTS ONLY: REAL DATA, SYNTHETIC DATA, AND BOTH TOGETHER
+Technical debt: which debt to repay first, and how to test that ranking
+====================================================================================================
+
+HOW TO READ THIS FILE
+---------------------
+Every insight has the same fields:
+    STATEMENT   what is true, in one or two sentences
+    EVIDENCE    the numbers
+    DATA        REAL | SYNTHETIC | BOTH | DISAGREE | COMBINED
+    STRENGTH    STRONG        large effect, interval clear of zero, or the same answer in several tests
+                MODERATE      clear direction, small sample or interval touches zero
+                LEAD          suggestive only (p near 0.05, one test among several)
+                BY DESIGN     a property built into the generator of the synthetic data; it confirms
+                              the generator, it is NOT evidence about developers
+    FIGURE      the picture(s) that show it (paths start from final_folder/new_presentation/figures/)
+    SOURCE      where the numbers are computed (paths start from final_folder/)
+
+Figure folders (final_folder/new_presentation/figures/):
+    01_new_dataset  02_real_data_insights  03_synthetic_analysis  04_new_experiments  05_combined
+
+The two datasets
+    REAL       61 clean/debt project pairs (10 open-source projects; 60 injected + 1 natural) with
+               183 injected bugs and 133 features per pair; and the git histories of 9 repositories,
+               20 releases each (1,540 debt instances, 20,582 instance-release rows, about 1,600
+               interest events, 10.52 person-months of interest in total).
+    SYNTHETIC  150 generated Python projects in 150 domains with simulated git histories
+               (148,706 lines, 2,038 releases, 22,384 commits), 1,321 injected debt instances,
+               11,927 instance-release rows, 1,806 interest events (4.14 person-months), 1,321
+               parent/child commit pairs. 90 baseline projects follow the patterns of the real data;
+               15 each are in four counter-regimes (sticky, ar_clock, decay, contagion).
+    The real data are the evidence. The synthetic data are a testbed with known truth.
+
+
+NOTE. This file lists only the insights that are NOT already in the current talk (TD-presentation.pptx).
+Left out because they are in the talk: R5 (the learned ranking ties persistence, amounts cannot be predicted),
+R8 (the time feature gain and its controls) and R12 (the real data set steps and facts). The numbering is
+that of the full file final_folder/INSIGHTS_ALL.txt, so the gaps are intended. Corrections to statements in
+the talk are in Part F.
+
+====================================================================================================
+0. THE TEN THINGS TO REMEMBER
+====================================================================================================
+ 1. Interest is a persistent hot-spot property: about half of the debt is never touched, a few
+    percent absorbs most of the work, and an instance that paid before pays again with the same
+    chance 1 to 6 releases later.                                                       [A1, A2]
+ 2. Developers avoid debt: debt regions are a third of the code but receive about an eighth of the
+    edits.                                                                                   [A3]
+ 3. Region SIZE predicts interest as well as the history does: "largest function first" ties the
+    "interest already paid" baseline; frozen debt is small debt.                        [R1, R2]
+ 4. The ranking is stuck at what size and history already say; the release clock is calibration,
+    not timing.                                                                   [A5, A6, R6, R9]
+ 5. A clean twin (the parent commit) is what makes a debt change visible; a single snapshot cannot
+    see it.                                                                                  [A7]
+ 6. Models learn the TEMPLATE of an injected change, not the debt: code-as-image CNNs, patch words
+    and features all fall when the template is new.                                          [A8]
+ 7. A file-level graph or image sees only structural debt.                                   [A9]
+ 8. "The classifier does not generalise to new projects" was one project (boltons) and depends on
+    the model.                                                                              [R7]
+ 9. The synthetic benchmark is NOT yet a proxy for the real pairs: its debt changes are 44 times
+    larger, it has no size effect, and nothing trained on it works on real data; pooling it into
+    training does not help.                                                     [D1, D2, C2, C3]
+10. Adding the time series of the git history (features or a CNN) adds nothing on the real data
+    beyond events, age and size.                                                        [A11, R10]
+
+Which of these are out of the box, and what to do next for each: see PART J at the end.
+
+
+====================================================================================================
+PART A.  INSIGHTS THAT HOLD IN BOTH DATA SETS  (same answer on the real and the synthetic data)
+====================================================================================================
+
+A1  Interest is extremely concentrated and about half of the debt is frozen
+    STATEMENT  A minority of the debt instances absorbs most of the interest; roughly half never
+               receives any.
+    EVIDENCE   REAL: Gini 0.833 over instances; 46.4 % of instances with >= 10 releases never pay;
+               top 10 % of instances hold 70 % of the interest, top 20 % hold 89 %.
+               SYNTHETIC baseline: Gini 0.779; 55.3 % never pay; top 10 % hold 57 %.
+    DATA       BOTH         STRENGTH  STRONG (real); BY DESIGN (synthetic)
+    FIGURE     02_real_data_insights/real_i1_concentration.png ; 01_new_dataset/S5_patterns_vs_real_by_regime.png (Gini and
+               "never pay" panels) ; 05_combined/C1_panel_real_vs_synthetic.png
+    SOURCE     insights/results/l2_temporal_structure.txt ; insights/new/results/n7_panel.csv
+
+A2  Memory does not fade: interest is a persistent trait of the instance
+    STATEMENT  An instance that paid interest is 3 to 4 times likelier to pay again, and the
+               increase is the same whether the earlier event was 1 or 6 releases ago. More past
+               events mean a higher chance (dose-response).
+    EVIDENCE   REAL: P(event | event at lag 1..6) = 0.23, 0.21, 0.20, 0.24, 0.25, 0.22 against
+               0.07 without an earlier event; by number of past events 5 % (0), 9.5 % (1),
+               12.6 % (2), 20.7 % (3-4), 43.7 % (5+). SYNTHETIC baseline: 0.33, 0.34, 0.29
+               (lags 1, 3, 5) against 0.09. A decaying (self-exciting) memory was tested and
+               rejected on the real data.
+    DATA       BOTH         STRENGTH  STRONG (real); BY DESIGN (synthetic)
+    FIGURE     02_real_data_insights/real_i2_memory.png ; 01_new_dataset/S5_patterns_vs_real_by_regime.png (P(ev|ev,lag1)) ; 06/C1
+    SOURCE     insights/results/l2_temporal_structure.txt ; insights/results/l2_memory_lags.csv
+
+A3  Debt is avoided, not attractive: it receives far fewer edits than its size predicts
+    STATEMENT  The share of all edits that falls into debt regions is much smaller than the share
+               of the code that debt regions occupy (enrichment below 1).
+    EVIDENCE   REAL: debt regions are 31.8 % of the code and receive 12.3 % of the added or
+               modified lines: enrichment 0.39, below 1 in all 9 repositories (0.26 to 0.85).
+               SYNTHETIC baseline: enrichment 0.29.
+    DATA       BOTH         STRENGTH  STRONG (real; line counts are approximate); BY DESIGN (synth.)
+    FIGURE     02_real_data_insights/real_i3_enrichment.png ; 01_new_dataset/S5_patterns_vs_real_by_regime.png (enrichment panel)
+    SOURCE     insights/results/l2_enrichment.txt ; synthetic_dataset/insight_check.md
+
+A4  No contagion inside a file
+    STATEMENT  Whether another debt instance in the same file paid interest last release does not
+               change the chance that this one does.
+    EVIDENCE   REAL: ratio 1.08 (7.1 % against 6.5 %); instances that paid themselves 22.7 %.
+               SYNTHETIC baseline: 0.79. (Only the synthetic "contagion" regime has a ratio of 1.8.)
+    DATA       BOTH         STRENGTH  MODERATE
+    FIGURE     01_new_dataset/S5_patterns_vs_real_by_regime.png (neighbour-ratio panel) ; 06/C1
+    SOURCE     insights/results/l2_temporal_structure.txt (section 4)
+
+A5  The release clock cannot be predicted from the past inside a project
+    STATEMENT  Which releases are busy is random from one release to the next; the total interest
+               of the next release cannot be predicted from the previous release.
+    EVIDENCE   REAL: within-project correlation of the release event rate with the previous
+               release -0.01, of the log total interest -0.06; R2 of the next total < 0.
+               SYNTHETIC baseline: autocorrelation 0.00; R2 0.03-0.06 (0.15 only in the "ar_clock"
+               regime, by design).
+    DATA       BOTH         STRENGTH  STRONG (real)
+    FIGURE     02_real_data_insights/real_i5_where_when.png ; 01_new_dataset/S5_patterns_vs_real_by_regime.png (ICC release)
+    SOURCE     insights/results/l2_release_clock.txt ; insights/synthetic/results/s3_timeseries.txt
+
+A6  Persistence is close to the ceiling of "where"; what is left is "when"
+    STATEMENT  Ranking by interest already paid reaches about the share that ranking by each
+               instance's true long-run rate would reach; the rest of the gap to a perfect order is
+               timing.
+    EVIDENCE   REAL, top 20 %: persistence 39.1 %, true long-run rate (uses the future) 37.8 %,
+               perfect order 95.8 %, random 20 %. SYNTHETIC baseline (random ties): persistence 57.6 %, the
+               generator's exact latent rate 63.5 % (a gap of 6 points that a better estimator can
+               close).
+    DATA       BOTH         STRENGTH  STRONG (real)
+    FIGURE     02_real_data_insights/real_i4_ceiling.png ; 03_synthetic_analysis/synthetic_sf1_ranking_regimes.png
+    SOURCE     insights/results/l2_ceiling_horizon.txt ; insights/synthetic/results/s2_ranking.txt
+
+A7  The clean twin makes a debt change visible; a single snapshot cannot
+    STATEMENT  The debt change is tiny against the natural change of a project; only the difference
+               to the twin (the parent commit) isolates it.
+    EVIDENCE   REAL: the median patch changes 9 lines in 1 file = 0.086 % of the project's lines;
+               the injected change is a median 0.01 of the natural change of the same feature
+               between versions, 1 of 133 features rises above natural drift; the same patch in an
+               older version of its host has cosine similarity 1.00 (signature identical).
+               SYNTHETIC: the delta (child - parent) gives 0.94 (random split), 0.96 (held-out
+               project), 0.92 (temporal); the child alone 0.76, 0.76 and 0.62: the snapshot loses
+               14 points on later pairs, the delta barely.
+    DATA       BOTH         STRENGTH  STRONG
+    FIGURE     02_real_data_insights/real_i8_drift.png ; 02_real_data_insights/real_i9_context_augmentation.png ;
+               03_synthetic_analysis/synthetic_sf5_pairs_level1.png ; 03_synthetic_analysis/synthetic_sf6_protocols.png ;
+               04_new_experiments/E2_sim_to_real_features.png (right panel: the size of the deltas)
+    SOURCE     insights/results/l1_drift.txt, l1_context_aug.txt ;
+               insights/synthetic/results/s1_pairs.txt, s1_protocols.txt
+
+A8  Models learn the template of an injected change, not the debt
+    STATEMENT  A model that sees the code of a change recognises the pattern of the script or
+               template that produced it. It works on templates it has seen and falls on new ones.
+    EVIDENCE   REAL: unseen-project accuracy 0.95 for scripted injections but 0.47 (about chance)
+               for LLM-written ones; a classifier tells the two origins apart with AUC 0.98.
+               SYNTHETIC: patch words 0.96 (random) and 0.98 (held-out project) but 0.58 for a
+               held-out template; a CNN on the code image 0.97, 0.98 and 0.56; the 133 features
+               0.94, 0.96 and 0.83. More pairs of the same templates stop helping at about 300
+               (held-out-template accuracy 0.75 at 60 pairs, 0.84 at 300, 0.86 at 600, 0.83 at 1,321).
+    DATA       BOTH         STRENGTH  STRONG
+    FIGURE     02_real_data_insights/real_i7_level1_generalisation.png ; 04_new_experiments/E1_code_image_cnn.png ;
+               03_synthetic_analysis/synthetic_sf5_pairs_level1.png ; 01_new_dataset/code_to_image_examples.png
+    SOURCE     insights/results/l1_local_signal.txt, l1_origin.txt ;
+               insights/synthetic/results/s1_pairs.txt, s1_words_invariance.txt ;
+               insights/new/results/n2_cnn_code.txt
+
+A9  A file-level graph or image sees only structural debt
+    STATEMENT  The dependency graph changes for dependency (and, in the real pairs, coupling)
+               debt only; concurrency, security and most complexity debt live inside functions.
+    EVIDENCE   REAL: the graph changes in 14 of 61 pairs (all 6 coupling, all 7 dependency, 1 of 6
+               complexity, none of the 26 concurrency or 16 security pairs); a CNN on the graph
+               image reaches 0.14 under leave-one-project-out (it learns the host project).
+               SYNTHETIC: a graph feature changes in 89 % of the dependency pairs and 1-2 % of the
+               others.
+    DATA       BOTH         STRENGTH  STRONG
+    FIGURE     05_combined/C3_graph_visibility_both.png ; 02_real_data_insights/real_i10_graph_visibility.png
+    SOURCE     insights/results/l1_graph_image.txt, l1_cnn.txt ;
+               insights/synthetic/results/s1_words_invariance.txt
+
+A10 Scaling the delta by the project's own drift does not help
+    EVIDENCE   REAL: 0.68 against 0.76 (non-boltons pairs, leave one project out).
+               SYNTHETIC: 0.955 against 0.960 (held-out project), 0.851 against 0.828 (held-out
+               template).
+    DATA       BOTH         STRENGTH  MODERATE
+    FIGURE     (no dedicated figure)
+    SOURCE     insights/results/l1_drift.txt ; insights/synthetic/results/s1_pairs.txt
+
+A11 The time series of an instance adds nothing beyond its events, age and size
+    STATEMENT  Per-instance features of the git history (gaps, runs, trend, recency, autocorrelation,
+               share of releases with a change) do not improve the prediction of the next release.
+    EVIDENCE   REAL (AUC for 'interest in this release pair', held-out repositories): base 0.632,
+               + instance time series 0.625; temporal 0.633 and 0.602. SYNTHETIC all regimes: base
+               0.800, + time series 0.803 (capture in the top 20 %: +3.4 against +1.8 points, a
+               small gain only where temporal structure was built in).
+    DATA       BOTH (weak on synthetic)    STRENGTH  MODERATE
+    FIGURE     04_new_experiments/E3_time_series_features.png ; 01_new_dataset/history_as_time_series.png
+    SOURCE     insights/new/results/n4b_ts_models.txt, n4c_regimes.txt
+
+A12 Heterogeneity between instances is the same
+    EVIDENCE   Dispersion of event counts per instance (1 = binomial): real 2.32, synthetic 2.17.
+    DATA       BOTH         STRENGTH  MODERATE
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png
+    SOURCE     insights/new/results/n7_panel.csv
+
+
+====================================================================================================
+PART B.  INSIGHTS THAT ARE IN THE REAL DATA ONLY
+====================================================================================================
+
+R1  Region size predicts interest; size alone ties "interest already paid"
+    STATEMENT  Larger debt regions are edited more often (exposure). A rule with no history,
+               "largest region first", is as good as the persistence baseline.
+    EVIDENCE   AUC of size alone for 'interest in this release pair' 0.664; Spearman of size with
+               the event rate per instance 0.31-0.40. Capture in the top 20 / 30 / 50 % (123
+               groups): persistence with random ties 38.3 / 47.6 / 67.0; persistence with size ties
+               40.1 / 49.6 / 72.3; size only 40.1 / 51.4 / 73.4; shrunk event rate + size ties
+               40.1 / 52.7 / 72.0; random 19.8 / 30.8 / 51.3. No difference between size alone and
+               persistence is significant.
+    DATA       REAL         STRENGTH  STRONG (it also explains why nothing beat persistence)
+    FIGURE     02_real_data_insights/R5_size_vs_persistence.png ; 03_synthetic_analysis/synthetic_sf3_size_real_vs_synthetic.png
+    SOURCE     insights/synthetic/results/s2_size.txt, s2_tiebreak_real.txt
+
+R2  Frozen debt is small debt
+    EVIDENCE   Real instances that never get an event have a median size of 17 lines, live ones 51
+               (Mann-Whitney p = 1e-29); ratio frozen/live 0.33. (Caveat: one function can appear as
+               several instances, one per smell; the size difference survives that.)
+    DATA       REAL         STRENGTH  STRONG
+    FIGURE     04_new_experiments/E4_patterns_real_vs_synthetic.png (middle panel)
+    SOURCE     insights/new/results/n5_patterns.txt, n7_panel.csv
+
+R3  Size is the cold-start signal; history takes over slowly
+    EVIDENCE   AUC by the age of the instance (held-out repositories): age 0-1: persistence 0.694,
+               size 0.694; age 2-4: 0.647 / 0.634; age 5+: 0.706 / 0.665.
+    DATA       REAL         STRENGTH  MODERATE
+    FIGURE     (the numbers are in the text of insights/new/INSIGHTS_NEW.md, section 6; the synthetic
+               counterpart, the time needed to recognise a hot spot, is 03_synthetic_analysis/synthetic_sf4_time_policy.png)
+    SOURCE     insights/new/results/n6_size_prior.txt
+
+R4  The one combination that is above persistence under both protocols: size x history
+    EVIDENCE   Capture in the top 30 %, difference to persistence with size ties: size x shrunk event
+               rate +4.8 points (95 % interval -0.0 to +9.7) held-out repositories, +10.6 (+1.4 to
+               +20.1) temporal. A Bayesian "size prior + history" score +3.0 and +6.9 (n.s.). Top 20 %:
+               nothing clear. 123 and 48 groups, 9 repositories.
+    DATA       REAL         STRENGTH  MODERATE (borderline intervals)
+    FIGURE     04_new_experiments/E6_size_and_history.png
+    SOURCE     insights/new/results/n6_size_prior.txt ; insights/synthetic/results/s2_protocols.txt
+
+R6  The project clock is calibration of a project, not timing
+    STATEMENT  Features that say how busy a project has been raise the pooled AUC but do not change
+               the order of the instances inside a release.
+    EVIDENCE   AUC 0.632 -> 0.716 with the project-clock features (held-out repositories), capture
+               inside a release -0.6 points (n.s.); under the temporal protocol AUC 0.669, below
+               persistence (0.696).
+    DATA       REAL         STRENGTH  STRONG
+    FIGURE     04_new_experiments/E3_time_series_features.png
+    SOURCE     insights/new/results/n4b_ts_models.txt
+
+R7  "The classifier does not generalise to new projects" was one project, and depends on the model
+    STATEMENT  The pooled leave-one-project-out accuracy (0.43-0.46) is dominated by boltons (24 of
+               61 pairs, accuracy 0.00 for the random forest, because only 2 concurrency pairs stay
+               in training). A linear model on the DIRECTION of the delta solves boltons but is
+               weaker elsewhere.
+    EVIDENCE   Random forest, raw delta: overall 0.459, boltons 0.000, other 37 pairs 0.757.
+               Logistic regression on the unit-length delta: overall 0.639-0.672 (three values of the
+               regularisation), boltons 0.917, other 37 pairs 0.459-0.514. Majority 0.426 (0.432 on
+               the other 37). Caveat: the direction-only transform was found while exploring these
+               same 61 pairs, so 0.66 is optimistic.
+    DATA       REAL         STRENGTH  MODERATE
+    FIGURE     05_combined/C4_level1_model_dependence_and_pooling.png (left) ;
+               02_real_data_insights/real_i7_level1_generalisation.png
+    SOURCE     insights/results/l1_local_signal.txt ; insights/new/results/n8_logistic_check.txt,
+               n8_per_project.csv
+
+R9  Real events are more clumped in time, and real debt may get busier late in its life
+    EVIDENCE   Events of an instance are clumped (Wald-Wolfowitz z < -1.64) for 17 % of the real
+               instances against 6 % of the synthetic ones. Event rate in the first half of life
+               0.126, second half 0.153 (p = 0.044, 579 instances; synthetic 0.259 / 0.248).
+    DATA       REAL         STRENGTH  LEAD (p = 0.04, instances not independent)
+    FIGURE     04_new_experiments/E4_patterns_real_vs_synthetic.png (right panel)
+    SOURCE     insights/new/results/n5_patterns.txt
+
+R10 A CNN on the history as a time-series image and a CNN on the code image both fail on real data
+    EVIDENCE   History CNN (12 releases x 7 channels): AUC 0.675 against persistence 0.686 (held-out
+               repositories; capture -8.3 points, interval -15.4 to -1.2), 0.663 against 0.696
+               (temporal). Code-image CNN trained on synthetic images: 0.164 on the 61 real pairs
+               (majority 0.426; it never predicts concurrency or security, the two commonest types).
+    DATA       REAL         STRENGTH  STRONG
+    FIGURE     04_new_experiments/E5_sequence_cnn.png ; 04_new_experiments/E1_code_image_cnn.png (right panel)
+    SOURCE     insights/new/results/n4d_seq_cnn.txt, n2_cnn_code.txt
+
+R11 One function is edited in every release
+    EVIDENCE   zlib inflate_table (171 lines) has an event in all 19 release pairs; it is counted
+               three times in the data because three smells flag it (complex method, long method,
+               many parameters). The real data have no other always-on instance.
+    DATA       REAL         STRENGTH  MODERATE (a single function)
+    FIGURE     (the time series of a different, intermittent instance is in
+               01_new_dataset/history_as_time_series.png)
+    SOURCE     insights/new/results/n5_patterns.txt, n5_archetypes_real.csv
+
+====================================================================================================
+PART C.  INSIGHTS THAT ARE IN THE SYNTHETIC DATA ONLY  (a testbed: known truth)
+====================================================================================================
+
+S1  The benchmark meets its specification
+    EVIDENCE   150 projects in 150 domains (88 from the public app-ideas list, 62 classic tasks);
+               tiers small / medium / large / xlarge = 5 / 8 / 15 / 29-34 python files, 5-6 / 10-15 /
+               21-30 / 25-30 releases; every project has 5-10 instances of one major type and one
+               each of two other types (0 violations); each type is the major type of exactly 30
+               projects; 1,321 instances over 23 templates; all 2,038 releases compile and run;
+               a rebuild from the seed gives the same commit hash; git agrees with the simulator on
+               99.6 % of instance-releases. Detection audit: complexity 272 of 272 flagged by
+               lizard, security 229 of 270 flagged by bandit (path-traversal 0 of 41); concurrency,
+               coupling and dependency instances not audited.
+    DATA       SYNTHETIC    STRENGTH  FACT
+    FIGURE     01_new_dataset/synthetic_dataset_creation.png ; 01_new_dataset/S1_tiers.png ; 01_new_dataset/S2_types_templates.png ;
+               01_new_dataset/S3_balance.png ; 01_new_dataset/S4_pairs.png ; 01_new_dataset/S6_interest_by_type.png
+    SOURCE     synthetic_dataset/VALIDATION.md, detection_audit.txt, projects.csv, instances.csv
+
+S2  The regimes behave as built
+    EVIDENCE   sticky: enrichment 0.75 (baseline 0.29), never-pay 16 %; ar_clock: clock
+               autocorrelation 0.44 (baseline -0.17); decay: P(event | last event 5+ releases ago)
+               0.01 (baseline 0.20); contagion: neighbour ratio 1.8 (baseline 0.8).
+    DATA       SYNTHETIC    STRENGTH  BY DESIGN
+    FIGURE     01_new_dataset/S5_patterns_vs_real_by_regime.png
+    SOURCE     synthetic_dataset/insight_check.md
+
+S3  Shrinking the event rate beats persistence under held-out projects, not under the temporal
+    protocol, and the whole gain is the shrinkage
+    EVIDENCE   Baseline projects, top 20 % (391 groups): persistence 55.5, shrunk rate 61.2 (+5.6,
+               interval +2.8 to +8.6), exact oracle 72.2. Counts instead of lines: +0.8 (n.s.);
+               shrunk counts +5.6; shrunk lines +4.6. Temporal protocol: +2.4 (-1.3 to +6.4), n.s.;
+               in the synthetic temporal test persistence equals the oracle (66.4 = 66.4): after 60 %
+               of the history the hot spots are known.
+    DATA       SYNTHETIC    STRENGTH  MODERATE (gain partly by design)
+    FIGURE     03_synthetic_analysis/synthetic_sf1_ranking_regimes.png ; 03_synthetic_analysis/synthetic_sf2_decomposition.png ;
+               03_synthetic_analysis/synthetic_sf6_protocols.png
+    SOURCE     insights/synthetic/results/s2_ranking.txt, s2_ablation.txt, s2_protocols.txt
+
+S4  Normalising by the activity of each release does not help, even with the exact clock
+    EVIDENCE   events / true release activity +5.5 against +5.6 for the plain shrunk rate.
+    DATA       SYNTHETIC    STRENGTH  STRONG (an upper bound)
+    FIGURE     03_synthetic_analysis/synthetic_sf2_decomposition.png
+    SOURCE     insights/synthetic/results/s2_ablation.txt
+
+S5  A hot spot needs about 5 releases of history to be recognised; repayment policy
+    EVIDENCE   AUC of the history for "live, not frozen": 0.49 at age 0, 0.63 (1 release), 0.74 (2),
+               0.80 (3-4), 0.87 (5-8), 0.91 (9+). Repaying the top 20 % at every release avoids
+               60.5 % of the future interest with the shrunk rate, 55.3 % with persistence, 30.4 %
+               at random, 67.8 % with the oracle.
+    DATA       SYNTHETIC    STRENGTH  BY DESIGN (quantifies the generator)
+    FIGURE     03_synthetic_analysis/synthetic_sf4_time_policy.png
+    SOURCE     insights/synthetic/results/s3_timeseries.txt
+
+S6  In the regimes that contain a temporal or spatial signal, the matching feature barely helps
+    EVIDENCE   Recency in "decay" +0.6 (n.s.); neighbours in "contagion" -0.3; clock features in
+               "ar_clock" +0.1 (AUC 0.801 -> 0.787). A signal that exists is not automatically
+               useful once persistence is in the model.
+    DATA       SYNTHETIC    STRENGTH  MODERATE
+    FIGURE     03_synthetic_analysis/synthetic_sf1_ranking_regimes.png (right panel) ; 04_new_experiments/E3_time_series_features.png
+    SOURCE     insights/new/results/n4c_regimes.txt ; insights/synthetic/results/s2_ranking.txt
+
+S7  The type of a debt change under the protocols of the talk
+    EVIDENCE   Delta, random forest: random split 0.942, leave one project out 0.959, temporal 0.915
+               (the talk's 10-best + RF: 0.924, 0.932, 0.892); child only: 0.758, 0.762, 0.615.
+               Held-out template 0.828, held-out tier 0.945. Three templates are not recognised from
+               the others: path_traversal 0.05, feature_envy 0.25, many-parameters 0.56. Mixed
+               commits cost 3.6 points (0.947 against 0.983).
+    DATA       SYNTHETIC    STRENGTH  BY DESIGN (clean templates)
+    FIGURE     03_synthetic_analysis/synthetic_sf5_pairs_level1.png ; 03_synthetic_analysis/synthetic_sf6_protocols.png
+    SOURCE     insights/synthetic/results/s1_pairs.txt, s1_protocols.txt
+
+S8  History features and a history CNN work a little on the synthetic data
+    EVIDENCE   Sequence CNN AUC 0.815 against persistence 0.735 (held-out projects), 0.870 against
+               0.822 (temporal); capture +2.4 (+0.1 to +4.7) held-out, -0.8 (n.s.) temporal.
+    DATA       SYNTHETIC    STRENGTH  BY DESIGN
+    FIGURE     04_new_experiments/E5_sequence_cnn.png
+    SOURCE     insights/new/results/n4d_seq_cnn.txt
+
+S9  A template leaves a partly host-independent signature
+    EVIDENCE   Cosine similarity of the standardised deltas of pure commits in different projects:
+               same template 0.49, same type but another template 0.31, different type -0.03.
+    DATA       SYNTHETIC    STRENGTH  BY DESIGN
+    FIGURE     (no dedicated figure)
+    SOURCE     insights/synthetic/results/s1_words_invariance.txt
+
+
+====================================================================================================
+PART D.  WHERE THE REAL AND THE SYNTHETIC DATA DISAGREE  (what the generator gets wrong)
+====================================================================================================
+Of the 20 metrics compared in the panel, 7 agree within 25 %, 9 are similar (within 50 %) and 4 differ.
+
+D1  Size / exposure: real debt is edited in proportion to its size; the generator has no such effect
+    EVIDENCE   AUC of size alone 0.664 (real) against 0.463 (synthetic baseline); Spearman 0.395
+               against -0.03; frozen/live size ratio 0.33 against 0.96.
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png ; 04_new_experiments/E4_patterns_real_vs_synthetic.png (middle) ;
+               03_synthetic_analysis/synthetic_sf3_size_real_vs_synthetic.png
+
+D2  Dilution: the synthetic debt change is 44 times larger relative to the project
+    EVIDENCE   Median length of the delta vector 0.17 (real) against 7.5 (synthetic); the same
+               number of features move (35 against 34). The median debt introduction adds 14 lines =
+               1.8 % of a synthetic project, against 0.086 % in the real pairs; 13 features rise
+               above natural drift against 1.
+    FIGURE     04_new_experiments/E2_sim_to_real_features.png (right panel) ; 02_real_data_insights/real_i8_drift.png
+
+D3  Release clock strength: the real clock is stronger than the instance, the synthetic one weaker
+    EVIDENCE   ICC of the event indicator by release 0.280 (real) against 0.122 (synthetic baseline);
+               by instance 0.134 against 0.221.
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png ; 02_real_data_insights/real_i5_where_when.png
+
+D4  Shrinkage: it beats persistence on the synthetic data and not on the real data
+    EVIDENCE   +5.6 points (+2.8 to +8.6) on the synthetic baseline; +0.0 (-4.7 to +4.8) on the
+               real histories with the same fixed shrinkage strength; +0.0 and -0.2 under the
+               temporal protocol.
+    FIGURE     03_synthetic_analysis/synthetic_sf1_ranking_regimes.png ; 02_real_data_insights/R5_size_vs_persistence.png
+
+D5  Shape of the histories: hot tail, clumping, late-life activity
+    EVIDENCE   Share of instances with an event in more than 30 % of the releases 0.048 (real)
+               against 0.125 (synthetic baseline); real events are more clumped; the real event rate
+               rises in the second half of life (ratio 1.21) while the synthetic one is flat (0.96).
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png ; 04_new_experiments/E4_patterns_real_vs_synthetic.png
+
+D6  Level 1 difficulty: the synthetic templates are far more separable
+    EVIDENCE   Synthetic random-split accuracy 0.94-0.96 against 0.79-0.89 for the real pairs; a
+               model trained on synthetic pairs gets 0.148 on the real pairs, the reverse 0.484.
+    FIGURE     04_new_experiments/E2_sim_to_real_features.png ; 04_new_experiments/E1_code_image_cnn.png
+
+D7  Temporal structure that a CNN can use exists in the synthetic histories, not in the real ones
+    EVIDENCE   Sequence CNN AUC 0.815 (synthetic) against 0.675 (real), persistence 0.735 / 0.686.
+    FIGURE     04_new_experiments/E5_sequence_cnn.png
+
+D8  Share of the code that is debt, and event rate
+    EVIDENCE   Debt regions 31.8 % of the code (real) against about 11 % (synthetic); event rate
+               7.8 % against 12.2 %.
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png
+
+
+====================================================================================================
+PART E.  COMBINED ANALYSIS  (real and synthetic pooled, and used together)
+====================================================================================================
+
+C1  The panel: the same 20 metrics on real, synthetic baseline, all synthetic, and pooled rows
+    STATEMENT  The two data sets agree on the shape of interest (concentration, frozen share,
+               memory, avoided debt, dispersion) and disagree on everything that involves size, the
+               clock and the hot tail. Pooling them gives numbers between the two, closer to the
+               real ones where the real data are the larger part (20,582 of 32,509 rows), so pooled metrics are
+               NOT a description of either.
+    EVIDENCE   Same within 25 %: Gini, never-pay share, P(event | no earlier event), lift of a past
+               event, dispersion, second/first half ratio, random capture. Different: Spearman of
+               size, frozen/live size, share of hot instances, ICC by release. Note: the 25 % rule is
+               crude; it calls the second/first-half ratio (1.21 real, 0.96 synthetic) 'same', but the
+               real ratio is significant (p = 0.044) and the synthetic one is not (see R9, D5).
+    DATA       COMBINED     STRENGTH  FACT
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png ; 01_new_dataset/S5_patterns_vs_real_by_regime.png
+    SOURCE     insights/new/results/n7_panel.csv
+
+C2  Adding the synthetic histories to the training data barely helps on the real data (Level 2)
+    EVIDENCE   Gradient boosting on base features; held-out real repositories: AUC real only 0.626,
+               real + synthetic 0.631, synthetic only 0.675, persistence 0.686. Capture in the top
+               30 %, difference to persistence: real only +3.4 (-3.4 to +9.9), real + synthetic +6.4
+               (+0.6 to +12.6), synthetic only +0.3. Temporal: AUC 0.622 -> 0.696 (equal to
+               persistence 0.696); capture n.s. The synthetic data help the AUC (the event-count and
+               age features mean the same thing in both), not the order inside a release.
+    DATA       COMBINED     STRENGTH  MODERATE
+    FIGURE     05_combined/C2_pooled_training_level2.png
+    SOURCE     insights/new/results/n7_combined.txt
+
+C3  Adding the synthetic pairs to the training data hurts the real classifier (Level 1)
+    EVIDENCE   Leave one project out on the 61 real pairs, direction-only deltas: random forest 0.443
+               -> 0.393 with the 1,321 synthetic pairs added; logistic regression 0.656 -> 0.295;
+               synthetic only 0.31 / 0.34 (majority 0.426).
+    DATA       COMBINED     STRENGTH  STRONG
+    FIGURE     05_combined/C4_level1_model_dependence_and_pooling.png (right panel)
+    SOURCE     insights/new/results/n7_combined.txt
+
+C4  Sim-to-real transfer fails because of scale, and direction alone does not rescue it
+    EVIDENCE   Random forest trained on synthetic deltas: 0.148 on the real pairs (nearly all
+               predicted dependency_structure). Scale-free versions: sign 0.361, unit length 0.311,
+               signed rank within the pair 0.410, all at or below the majority (0.426; per
+               language: Python 0.585, C/C++ 0.700). Real -> synthetic: 0.484 (0.625 with a logistic
+               regression on unit-length deltas; majority 0.206).
+    DATA       COMBINED     STRENGTH  STRONG
+    FIGURE     04_new_experiments/E2_sim_to_real_features.png ; 04_new_experiments/E1_code_image_cnn.png
+    SOURCE     insights/new/results/n3_sim2real_features.txt, n3b_scale_free.txt
+
+C5  What the two data sets are good for, together
+    STATEMENT  Real = evidence about developers (9 repositories, 61 pairs: small, wide intervals).
+               Synthetic = a controlled testbed: it tells which method CAN work (exact ceilings,
+               regimes, template-held-out splits) and has shown which ideas fail even under favourable
+               conditions (clock normalisation, recency, code images). A method should be developed on
+               the synthetic data and confirmed on the real data; only confirmed results count.
+    DATA       COMBINED     STRENGTH  CONCLUSION
+    FIGURE     05_combined/C1_panel_real_vs_synthetic.png ; 01_new_dataset/synthetic_dataset_creation.png
+
+
+C6  Frozen CodeBERT embeddings of the changed lines do not generalise to new templates or to real code
+    STATEMENT  A pretrained code model gives the same near-perfect numbers as every other
+               representation on templates it has seen, and falls on a new template; it is
+               complementary to the hand-made features template by template, but a simple average
+               does not beat the features. The success criterion fixed before the experiment (held-out
+               template above 0.83; real pairs above the 0.426 majority) was NOT met.
+    EVIDENCE   Logistic regression on the mean-pooled CodeBERT embedding of the added / removed lines
+               (C = 0.1), synthetic pairs: random split 0.969, held-out project 0.977, temporal 0.949
+               (features 0.942 / 0.960 / 0.915), held-out template 0.618 (features 0.828; code-image
+               CNN 0.561; patch words 0.584). Per template CodeBERT recognises path_traversal 0.88
+               (features 0.05) and fails on eval_input 0.08, ladder 0.14, long 0.09, message_chain
+               0.20 (features 0.95, 0.94, 0.82, 0.78). Average of both: 0.822 (no gain). Real pairs:
+               trained on synthetic 0.295 (mean-pooled) and 0.344 ([CLS]) against 0.426 majority; real
+               leave one project out 0.328 / 0.443; pooled real + synthetic 0.443 / 0.508 ([CLS]).
+               Four configurations (pooling x C) were run; the 0.508 is the best of them, so it is
+               optimistic and is not claimed.
+    DATA       COMBINED     STRENGTH  STRONG for "criterion not met"
+    FIGURE     04_new_experiments/E7_codebert_embeddings.png ; 04_new_experiments/E1_code_image_cnn.png
+    SOURCE     insights/new/results/n9_codebert_eval.txt, n9c_fusion.txt, n9_codebert_per_template.csv,
+               n9c_fusion_per_template.csv ; code: insights/new/code/n9_codebert_embed.py, n9b, n9c
+
+====================================================================================================
+PART F.  CLAIMS WITHDRAWN OR CORRECTED
+====================================================================================================
+X1  "The classifier does not generalise to unseen projects" -> it fails on boltons (a missing class)
+    and on LLM-written changes; the random forest gets 0.73-0.76 on the other 37 pairs; a linear
+    model on the direction of the delta gets 0.64-0.67 overall. See R7.
+X2  "Hotness scores beat persistence by 8 points at larger budgets" -> most of it was a size
+    tie-break given to my scores and not to persistence. With the same tie-break: +5.4 (-0.6 to +11.7)
+    in the top 30 %, +2.9 (-0.8 to +6.9) in the top 50 %, not significant. See R1.
+X3  "Persistence is the strongest baseline" -> a rule with no history (largest region first) ties it.
+X4  "Every release of the synthetic projects compiles" -> was checked only at three releases; the full
+    check of all 2,038 releases now passes.
+X5  "The synthetic code is realistic debt" -> 23 templates; the debt is 20-44 times too visible.
+X6  Failed hypotheses (all tested): touched-file features and patch words as better inputs; scaling
+    the delta by the project's drift; Hawkes-like decay of memory; same-file contagion; normalising
+    by the release clock; code-as-image CNN; history-as-image CNN; a Bayesian size prior; frozen CodeBERT embeddings of the diff (C6).
+
+
+====================================================================================================
+PART G.  INDEX: WHICH FIGURE SUPPORTS WHICH INSIGHT
+====================================================================================================
+01_dataset_creation   ->   01_new_dataset
+    synthetic_dataset_creation.png .............. S1, C5
+    history_as_time_series.png .................. A11, R11
+    code_to_image_examples.png .................. A8
+02_real_results   ->   02_real_data_insights
+    R5_size_vs_persistence.png .................. R1, D4
+03_synthetic_dataset   ->   01_new_dataset (S-figures)
+    S1_tiers.png, S2_types_templates.png, S3_balance.png, S4_pairs.png, S6_interest_by_type.png .. S1
+    S5_patterns_vs_real_by_regime.png ........... A1, A2, A3, A4, A5, S2, C1
+04_insights   ->   02_real_data_insights / 03_synthetic_analysis
+    real_i1_concentration.png ................... A1
+    real_i2_memory.png .......................... A2
+    real_i3_enrichment.png ...................... A3
+    real_i4_ceiling.png ......................... A6
+    real_i5_where_when.png ...................... A5, D3
+    real_i7_level1_generalisation.png ........... A8, R7
+    real_i8_drift.png ........................... A7, D2
+    real_i9_context_augmentation.png ............ A7
+    real_i10_graph_visibility.png ............... A9
+    synthetic_sf1_ranking_regimes.png ........... A6, S3, S6, D4
+    synthetic_sf2_decomposition.png ............. S3, S4
+    synthetic_sf3_size_real_vs_synthetic.png .... R1, D1
+    synthetic_sf4_time_policy.png ............... S5, R3
+    synthetic_sf5_pairs_level1.png .............. A7, A8, S7
+    synthetic_sf6_protocols.png ................. A7, S3, S7
+05_new_experiments   ->   04_new_experiments
+    E1_code_image_cnn.png ....................... A8, R10, D6, C4
+    E2_sim_to_real_features.png ................. A7, D2, D6, C4
+    E3_time_series_features.png ................. A11, R6, S6
+    E4_patterns_real_vs_synthetic.png ........... R2, R9, D1, D5
+    E5_sequence_cnn.png ......................... R10, S8, D7
+    E6_size_and_history.png ..................... R3, R4
+    E7_codebert_embeddings.png .................. C6, J8
+06_combined   ->   05_combined
+    C1_panel_real_vs_synthetic.png .............. A1, A2, A4, A12, D1, D3, D5, D8, C1
+    C2_pooled_training_level2.png ............... C2
+    C3_graph_visibility_both.png ................ A9
+    C4_level1_model_dependence_and_pooling.png .. R7, C3
+
+
+====================================================================================================
+PART H.  WHAT CAN AND CANNOT BE CLAIMED
+====================================================================================================
+CAN BE CLAIMED (real evidence): A1-A3, A5-A9, R1, R2, R6, R7, R10.
+CAN BE CLAIMED WITH CARE (moderate / lead): A4, A10, A11, R3, R4, R7 (optimistic), R9, R11, C2.
+CANNOT BE CLAIMED: anything from the synthetic data as a fact about developers; that the benchmark
+    is a proxy for the real pairs; that the ranking beats persistence or size; that a CNN on code
+    images or on history images helps; that the time feature helps for real developers.
+CAVEATS THAT APPLY TO EVERYTHING
+    - 9 real repositories and 61 real pairs (60 injected): intervals are wide (+-5 to +-10 points).
+    - The real fix times are a model; the real bugs were checked by parsing only.
+    - A real instance is a (function, smell) pair, so instances of one function are not independent.
+    - Interest is the effort implied by changed lines (COCOMO II nominal constants), not measured time.
+    - The synthetic code is assembled from 11 archetypes and 23 templates; its histories are simulated.
+    - Many looks were taken (protocols, budgets, feature sets); single p-values are not corrected.
+
+
+====================================================================================================
+PART I.  NEXT STEPS (ordered)
+====================================================================================================
+ 1. Make the synthetic generator agree with the real data where it disagrees (D1, D2, D3, D5): an
+    edit rate that grows with size, debt changes about 40 times smaller relative to the project,
+    a stronger release clock and event clustering, a thinner hot tail; rebuild; repeat Parts C-E.
+ 2. Build the real Level 1 data at scale by mining natural pairs (a commit and its parent) and report
+    by template, project and origin, not only by random split.
+ 3. For ranking, use size and the event rate; test size x shrunk event rate on more repositories.
+ 4. Do not spend effort on code-image or history-image CNNs; keep the project clock only as a
+    project-level calibration.
+ 5. Use the strongest model-dependence finding (R7) in the talk: say "0.46 for a random forest, 0.66
+    for a linear model on the direction of the change, 0.43 for guessing", and name boltons.
+
+
+====================================================================================================
+PART J.  THE OUT-OF-THE-BOX INSIGHTS, AND WHAT TO DO NEXT FOR EACH
+====================================================================================================
+SELECTION RULE. An insight is listed here as out of the box only if (1) it contradicts or reframes
+the usual assumption in the debt literature or one of my own earlier claims, (2) it is backed by the
+REAL data (not only by the synthetic generator), and (3) it changes what should be built or measured
+next. Confirmatory results are listed at the end of this part as "not out of the box".
+Effort scale: S = hours, M = days, L = weeks.  Each next step has a success criterion that is fixed
+BEFORE the experiment, so that the result cannot be argued afterwards.
+
+J1  "Interest already paid" is mostly a size proxy                    [R1, R2, R3, X3]
+    USUAL VIEW   Past interest shows a hot spot; use it as the baseline and as the prior.
+    THE DATA     A rule with no history ("largest region first") ties it (40.1 % against 40.1 % in the
+                 top 20 %); region size alone has AUC 0.66; frozen debt is small (17 against 51
+                 lines); history overtakes size only slowly.
+    CONFIDENCE   Strong on 9 repositories; intervals on the differences are wide.
+    NEXT STEP    (1) Estimate the exposure law: a negative-binomial regression of events per release
+                 on log size with the repository as a random effect, on the instance-release rows;
+                 report the exponent beta (events ~ size^beta; beta = 1 is pure exposure).
+                 (2) Add 15-30 more repositories with interest_exp/code (clone_repos.sh, run_all.py;
+                 use the structural-smell definition for C/C++ and lizard-based smells for Python to
+                 avoid SonarQube). FREEZE the scores first (size x shrunk event rate, alpha = 2,
+                 persistence with size ties) and run them on the new repositories untouched.
+                 (3) Report an exposure-adjusted interest ("interest per 100 lines per release") so
+                 that debt of different sizes can be compared.
+    SUCCESS      size x shrunk rate beats persistence with size ties by >= 3 points in the top 30 %
+                 with a 95 % interval above 0, on repositories not used so far.   EFFORT  M
+
+J2  Debt costs only where the team works: the "path of work" view      [A3, R2]
+    USUAL VIEW   Repay the worst-smelling code first.
+    THE DATA     Debt regions are 32 % of the code and receive 12 % of the edits; about half of the
+                 instances never receive any; most debt costs nothing now.
+    CONFIDENCE   Strong for the enrichment (line counts are approximate); the consequence is untested.
+    NEXT STEP    Build features that have not been tried: the structural PROXIMITY of an instance to
+                 code that changed recently: the share of the changed lines of the last 1 and 3
+                 releases that lie in files importing, or imported by, the instance's file (the
+                 dependency graph of pipeline/f_structure.py), in the same directory, or that
+                 co-changed with it in earlier commits (git log). Test them against size x history
+                 (held-out repositories and temporal). Also test whether debt is repaid where work
+                 happens (repayment rate by recency of nearby work).
+    SUCCESS      capture in the top 30 % improves by >= 3 points over size x shrunk rate, interval
+                 above 0, under both protocols.                                      EFFORT  M
+
+J3  The release clock is calibration of a project, not timing         [R6, A5, D3]
+    USUAL VIEW   A busy last release predicts a busy next one; use project activity to predict when
+                 debt will cost.
+    THE DATA     No autocorrelation inside a project (-0.01); but "how busy has this project been"
+                 lifts the pooled AUC from 0.63 to 0.72 (a between-project effect, no ranking gain).
+    CONFIDENCE   Strong.
+    NEXT STEP    (1) Use the clock where it works: judge the pooled probability by CALIBRATION (Brier
+                 score, expected calibration error) with and without the project's recent base rate;
+                 this is the budgeting use. (2) Test an exogenous clock proxy that is known BEFORE the
+                 release and has not been tried: the release type from the version number (major,
+                 minor, patch: 8.1.3 -> 8.1.4 is a patch) and the days between tags; hypothesis: patch
+                 releases carry fewer events. (3) Fit a two-state (active / quiet) hidden Markov model
+                 per project on the release totals to look for regimes.
+    SUCCESS      a clock proxy that raises the within-project R2 of the log release total above 0.10
+                 under leave-one-repository-out.                                    EFFORT  S-M
+
+J4  The clean twin (a commit and its parent) is the scalable data path   [A7, A8]
+    USUAL VIEW   Labelled debt data come from manual annotation or from injection.
+    THE DATA     The delta to the twin isolates the change (a single snapshot cannot see it; the
+                 change is 0.086 % of the project); injection leaves a template fingerprint.
+    CONFIDENCE   Strong for the twin; the mining itself is untested.
+    NEXT STEP    Mine NATURAL pairs: in the 10 repositories (then others) take commits that remove a
+                 smell (a refactoring), remove a self-admitted-debt comment, or fix a security or
+                 concurrency problem (SZZ fix commits are in project_dataset/project_details).
+                 Compute the features of the TOUCHED functions in parent and child; label by detector
+                 and commit message and check 100 by hand. Report accuracy per repository, per origin
+                 (natural against injected) and per template; train on injected + natural, test on
+                 natural pairs of a held-out repository.
+    SUCCESS      accuracy above the majority class of the natural test set, with a held-out
+                 repository and a held-out template.                                   EFFORT  L
+
+J5  A linear model on the DIRECTION of the change solves the missing-class problem   [R7, C3]
+    USUAL VIEW   Tree ensembles are best on small tabular data.
+    THE DATA     Under leave-one-project-out the random forest scores 0.00 on boltons (only 2
+                 concurrency pairs left in training); a logistic regression on the unit-length delta
+                 scores 0.92 there and 0.64-0.67 overall, but 0.46-0.51 on the other 37 pairs, where
+                 the forest scores 0.73-0.76.
+    CONFIDENCE   Moderate and OPTIMISTIC: the transform was chosen while exploring these 61 pairs.
+    NEXT STEP    (1) Validate it properly: nested leave-one-project-out, with the transform (raw /
+                 sign / unit length / rank) and the regularisation chosen INSIDE the training folds.
+                 (2) Build the hybrid: forest for classes with enough examples, linear model for rare
+                 classes (or a stack), and report recall per class. (3) Test on the natural pairs of
+                 J4 as an untouched set. (4) Scale the synthetic deltas down 44 times and repeat, to
+                 see whether the effect is scale invariance.
+    SUCCESS      >= 0.60 overall and >= 0.70 on the non-boltons pairs under nested validation.
+                                                                                       EFFORT  S
+
+J6  The synthetic benchmark is 44 times too visible, which is why nothing transfers   [D2, C4]
+    USUAL VIEW   Synthetic data approximate real data.
+    THE DATA     The same number of features move (35 against 34) but the real change is 44 times
+                 smaller; a model trained on the benchmark scores 0.148 on the real pairs; pooling
+                 the benchmark into training hurts (0.443 -> 0.393).
+    CONFIDENCE   Strong.
+    NEXT STEP    Rebuild the benchmark with realistic dilution: debt changes of 1-5 lines inside 10-100
+                 times more code (embed each project in a larger host, or add heavy unrelated
+                 commits), the size-exposure law of J1, event clustering and a stronger release
+                 clock (J3) in the baseline regime, a thinner hot tail. Then repeat the sim-to-real
+                 test and the panel (06/C1).
+    SUCCESS      a model trained on the rebuilt pairs beats the real majority (0.426) on the 61 real
+                 pairs, and the panel shows at most 2 "different" metrics (now 4).    EFFORT  M
+
+J7  Evaluation insight: every ranking claim needs a size baseline and the same tie handling   [X2, X3]
+    USUAL VIEW   Compare a model with "interest already paid".
+    THE DATA     The apparent +8 points were a tie-break artefact; size alone ties persistence.
+    CONFIDENCE   Strong (it is a correction of my own result).
+    NEXT STEP    Write the evaluation protocol as a checklist and apply it to the talk and to any
+                 paper: report (a) random, (b) size only, (c) persistence with the SAME tie-break as
+                 the model, (d) held-out repository and temporal protocols, (e) a paired bootstrap
+                 over groups, (f) the number of looks. Publish prioritization_eval.py and s2_size.py.
+    SUCCESS      every ranking number in the talk comes with items (a)-(e).             EFFORT  S
+
+J8  Template diversity, not the number of pairs, limits the type classifier   [A8, S7]
+    USUAL VIEW   More labelled data help.
+    THE DATA     Held-out-template accuracy saturates at 0.84-0.86 from about 300 pairs; three
+                 templates are not recognised from the others (path_traversal 0.05, feature_envy
+                 0.25, many-parameters 0.56); a CNN on the code image falls to 0.56 on a new template.
+    CONFIDENCE   Strong on the synthetic data; the real counterpart is the origin effect (0.95 against
+                 0.47).
+    NEXT STEP    (1) Add new kinds of edits instead of more pairs: LLM-written variants of each type
+                 (several prompts and models), the natural pairs of J4, and analogues of the rare
+                 patterns (file-API misuse, zip-slip for path traversal). (2) Always report accuracy
+                 per template and per origin. (3) Test a pretrained code encoder on the diff
+                 (embedding + a linear head) with the held-out template as the main protocol: does a
+                 pretrained model generalise where hand features and CNNs do not?
+    SUCCESS      held-out-template accuracy above 0.83 (the 133 features) on the same split.
+                                                                                      EFFORT  M-L
+    RESULT (step 3, frozen CodeBERT, done): NOT MET. Held-out template 0.618 (features 0.828), real
+                 pairs 0.295-0.344 (majority 0.426); averaging with the features 0.822. See C6 and
+                 04_new_experiments/E7_codebert_embeddings.png. Not tried: fine-tuning (too few real pairs), a code model
+                 that covers C/C++ (UniXcoder, CodeT5+), a learned fusion instead of an average. The
+                 remaining route of J8 is steps (1) and (2): new kinds of edits and per-template reporting.
+
+J9  Real debt may get busier later in its life, and its events clump   [R9]   (a LEAD, not a finding)
+    THE DATA     Event rate 0.126 in the first half of life, 0.153 in the second (p = 0.044); 17 % of
+                 the real instances are significantly clumped against 6 % of the synthetic ones.
+    CONFIDENCE   Weak: one test among several; instances are (function, smell) pairs, so not
+                 independent.
+    NEXT STEP    After the extra repositories of J1: one observation per FUNCTION; a mixed-effects
+                 logistic regression of the event on age since introduction with project and function
+                 random effects, controlling for project growth (lines added per release) and release
+                 type; pre-specify the test. If it holds, add "phase of life" to the model and to the
+                 generator.
+    SUCCESS      a significant positive age effect (p < 0.01) on the new repositories.   EFFORT  S-M
+
+J10 The git history as a time series adds nothing beyond events, age and size   [A11, R10]
+    USUAL VIEW   Richer temporal features and sequence networks should help.
+    THE DATA     On the real data per-instance time-series features (AUC 0.625 against 0.632) and a
+                 CNN on a 12-release history image (0.675 against 0.686) do not help.
+    CONFIDENCE   Strong for release-level series on 9 repositories.
+    NEXT STEP    Do not build more release-level history features. Use it as a reported NEGATIVE
+                 result (ablation E3, E5). Try one thing only: a COMMIT-level series of the
+                 instance's file (days since the last change, number of authors, size of recent
+                 changes), because release counts may be too coarse.
+    SUCCESS      AUC above 0.65 with held-out repositories, otherwise stop.             EFFORT  S
+
+RECOMMENDED ORDER
+    J7 (S) -> J5 (S) -> J1 extra repositories + exposure law (M) -> J6 generator rebuild (M)
+    -> J3 release type (S-M) -> J2 path of work (M) -> J4 natural pairs (L) -> J8 -> J9 -> J10.
+WHAT TO PRESENT AS THE CONTRIBUTIONS
+    Main:       J1 + J2 (interest is exposure and path of work, not a property of the smell),
+                J4 (clean-twin mining), J7 (an evaluation checklist for debt ranking).
+    Secondary:  J5 (direction-only deltas), J6 (a benchmark that states where it is wrong).
+    Negative results to report honestly: J10, the code-image and history-image CNNs, frozen CodeBERT.
+
+NOT OUT OF THE BOX (confirmatory, still worth stating)
+    A1 concentration of interest (a Pareto pattern is expected); A2 persistence (expected from the
+    change-proneness literature); A4 no same-file contagion; A9 a file graph misses function-level
+    debt; A10 drift scaling; every Part C item (properties or checks of the generator); small-sample CNNs
+    failing (expected with 61 pairs).
+
+WHAT WOULD TURN THESE INTO A PAPER CLAIM
+    Real evidence beyond 9 repositories (J1), a natural-pair dataset (J4), a pre-registered test of
+    size x history and path of work (J1, J2), and the evaluation checklist (J7). Without them the
+    results above are a careful negative-and-reframing study on small data.
+
+====================================================================================================
+END
+====================================================================================================

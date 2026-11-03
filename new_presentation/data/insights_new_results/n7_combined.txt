@@ -1,0 +1,43 @@
+## (A) the same metrics on real, synthetic and pooled rows
+                                                        real (9 repositories)  synthetic baseline (90)  synthetic, all regimes (150)  pooled real + synthetic
+event rate                                                              0.078                    0.122                         0.151                    0.105
+Gini of interest over instances                                         0.833                    0.779                         0.773                    0.825
+share of instances that never pay (>= 10 releases)                      0.464                    0.553                         0.551                    0.491
+P(event | event 1 releases ago)                                         0.227                    0.326                         0.435                    0.342
+P(event | no event 1 release ago)                                       0.067                    0.089                         0.096                    0.076
+P(event | event 3 releases ago)                                         0.195                    0.336                         0.405                    0.297
+lift of a past event (lag 1)                                            3.416                    3.675                         4.550                    4.484
+same-file neighbour ratio                                               1.080                    0.806                         1.245                    1.132
+AUC of region size alone for an event                                   0.664                    0.463                         0.505                    0.535
+Spearman(size, event rate per instance)                                 0.395                   -0.030                         0.030                    0.246
+median size, frozen / live instances                                    0.333                    0.955                         0.875                    0.314
+dispersion of event counts (1 = binomial)                               2.322                    2.166                         3.232                    2.893
+share of instances with an event in > 30 % of releases                  0.048                    0.125                         0.175                    0.088
+ICC of events by instance                                               0.134                    0.221                         0.287                    0.201
+ICC of events by release (the clock)                                    0.280                    0.122                         0.174                    0.257
+event rate, second half / first half of life                            1.210                    0.959                         1.080                    1.149
+capture top 20 %: persistence + size ties                               0.401                    0.575                         0.583                    0.531
+capture top 20 %: size only                                             0.402                    0.282                         0.309                    0.335
+capture top 20 %: shrunk events + size ties                             0.401                    0.618                         0.595                    0.548
+capture top 20 %: random                                                0.197                    0.224                         0.214                    0.247
+
+## (B) Level 2, pooled training, tested on the real data (capture: difference to persistence + size ties, points, 95 % interval)
+
+### held-out repositories (9 folds): AUC real only 0.626; real + synthetic (all, weight 1) 0.631; real + synthetic (all, weight 0.3) 0.626; synthetic only 0.675; persistence 0.686
+ top 20% (123 groups): persistence 40.1; real only -1.4 (-7.0, +4.2); real + synthetic (all, weight 1) -0.7 (-5.8, +4.8); real + synthetic (all, weight 0.3) +0.5 (-4.0, +5.1); synthetic only -2.4 (-6.1, +1.2)
+ top 30% (123 groups): persistence 49.6; real only +3.4 (-3.4, +9.9); real + synthetic (all, weight 1) +6.4 (+0.6, +12.6); real + synthetic (all, weight 0.3) +3.4 (-2.6, +9.6); synthetic only +0.3 (-3.1, +3.6)
+
+### temporal: AUC real only 0.622; real + synthetic (all, weight 1) 0.696; real + synthetic (all, weight 0.3) 0.699; synthetic only 0.688; persistence 0.696
+ top 20% (48 groups): persistence 38.2; real only -3.5 (-15.6, +8.7); real + synthetic (all, weight 1) +2.1 (-7.3, +12.5); real + synthetic (all, weight 0.3) -0.2 (-10.5, +10.9); synthetic only -4.2 (-10.5, +0.7)
+ top 30% (48 groups): persistence 48.7; real only -4.7 (-17.2, +7.9); real + synthetic (all, weight 1) +2.0 (-7.7, +12.6); real + synthetic (all, weight 0.3) -1.6 (-12.9, +10.2); synthetic only +2.0 (-5.0, +9.3)
+
+## (C) Level 1: leave-one-project-out on the 61 real pairs; training = other real projects (+ the 1,321 synthetic deltas, direction only)
+  random forest  real only                      accuracy 0.443   non-boltons 0.730   Python 0.244   C/C++ 0.850
+  random forest  real + synthetic, weight 1     accuracy 0.393   non-boltons 0.649   Python 0.171   C/C++ 0.850
+  random forest  real + synthetic, weight 0.1   accuracy 0.393   non-boltons 0.649   Python 0.195   C/C++ 0.800
+  random forest  synthetic only                 accuracy 0.311   non-boltons 0.514   Python 0.244   C/C++ 0.450
+  logistic       real only                      accuracy 0.656   non-boltons 0.486   Python 0.683   C/C++ 0.600
+  logistic       real + synthetic, weight 1     accuracy 0.295   non-boltons 0.486   Python 0.146   C/C++ 0.600
+  logistic       real + synthetic, weight 0.1   accuracy 0.295   non-boltons 0.486   Python 0.146   C/C++ 0.600
+  logistic       synthetic only                 accuracy 0.344   non-boltons 0.568   Python 0.171   C/C++ 0.700
+  majority: 0.426 overall, 0.432 non-boltons, 0.585 Python, 0.700 C/C++

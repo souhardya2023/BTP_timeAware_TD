@@ -1,0 +1,8 @@
+Level 1 (summary.csv): 124 rows compared; max |difference| of the accuracy 0.0000; rows that differ by more than 0.001: 0
+Level 2 (pm_predictions.csv): 116468 rows fresh, 116468 stored, 116468 matched
+  hurdle_rf    max |difference| of the prediction 0.000000
+  persistence  max |difference| of the prediction 0.000000
+  rf_pm        max |difference| of the prediction 0.000000
+  zero         max |difference| of the prediction 0.000000
+Level 2 (next_release_model_results.csv): 40 rows matched; max |difference| of the AUC 0.000000
+Level 2 (snapshot_model_results.csv): 40 rows matched; max |difference| of the AUC 0.000000

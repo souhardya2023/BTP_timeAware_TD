@@ -1,0 +1,4 @@
+real      held-out projects  AUC cnn 0.675 persistence 0.686 | top 20%: persistence 40.1, cnn -8.3 (-15.4, -1.2) [123 groups] | top 30%: persistence 49.6, cnn -3.6 (-11.0, +3.6) [123 groups]
+real      temporal           AUC cnn 0.663 persistence 0.696 | top 20%: persistence 38.2, cnn -1.7 (-12.1, +8.9) [48 groups] | top 30%: persistence 48.7, cnn +4.6 (-7.0, +16.2) [48 groups]
+synthetic held-out projects  AUC cnn 0.815 persistence 0.735 | top 20%: persistence 57.9, cnn +2.4 (+0.1, +4.7) [691 groups] | top 30%: persistence 67.8, cnn +3.2 (+0.8, +5.7) [691 groups]
+synthetic temporal           AUC cnn 0.870 persistence 0.822 | top 20%: persistence 66.4, cnn -0.8 (-4.2, +2.4) [249 groups] | top 30%: persistence 75.9, cnn +0.3 (-2.9, +3.3) [249 groups]
