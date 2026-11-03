@@ -1,0 +1,63 @@
+rule,rule_name,instance_transitions,distinct_instances,events,interest_lines,interest_PM,share_of_interest_PM,events_per_100_instance_transitions
+python:S3776,Cognitive Complexity of functions should not be too high,2430,209,272,1378.4333333333334,2.6222807098322787,0.5414659991334446,11.193415637860083
+python:S107,"Functions, methods and lambdas should not have too many parameters",183,15,20,182.33333333333334,0.3554616025379163,0.07339808093393581,10.92896174863388
+python:S5806,Builtins should not be shadowed by local variables,530,54,48,176.91666666666666,0.32549682076948877,0.06721075307150609,9.056603773584905
+python:S1192,String literals should not be duplicated,509,51,28,125.75,0.2416221458980375,0.04989175115802751,5.50098231827112
+python:S1172,Unused function parameters should be removed,1542,162,69,118.0,0.19866438462907599,0.04102154628681754,4.474708171206226
+python:S1135,"Track uses of ""TODO"" tags",1649,92,57,109.1,0.1895413086211627,0.039137752745083756,3.4566403881140086
+python:S8513,"""startswith"" and ""endswith"" calls should use tuples instead of multiple ""or"" operators",42,6,7,80.66666666666667,0.1693956634730788,0.03497794565906329,16.666666666666668
+python:S5720,"""self"" should be the first argument to instance methods",51,10,10,54.0,0.1005375060082991,0.020759654348618612,19.607843137254903
+python:S3626,Jump statements should not be redundant,1086,60,33,56.233333333333334,0.0936692858160756,0.019341458464895447,3.0386740331491713
+python:S7498,Literal syntax should be preferred when creating empty collections or dictionaries with keyword arguments,127,9,13,40.83333333333333,0.0764221621449024,0.01578015741280969,10.236220472440944
+python:S6659,'startswith' or 'endswith' methods should be used instead of string slicing in condition expressions,177,19,16,39.5,0.0716552179476836,0.014795847002073557,9.03954802259887
+python:S1481,Unused local variables should be removed,331,30,11,38.5,0.0688781450763511,0.014222418485704453,3.323262839879154
+python:S8786,Regular expressions should not cause non-linear backtracking,103,8,6,26.5,0.056632620136251796,0.011693880876537329,5.825242718446602
+python:S1066,"Mergeable ""if"" statements should be combined",166,14,13,25.0,0.041919366126787996,0.008655790121086502,7.831325301204819
+python:S125,Sections of code should not be commented out,229,13,10,21.333333333333336,0.0393077578063456,0.008116527828048468,4.366812227074236
+python:S108,Nested blocks of code should not be left empty,95,7,11,21.166666666666668,0.0364595499630972,0.007528410888545508,11.578947368421053
+python:S3516,Functions returns should not be invariant,19,1,6,18.0,0.0328539452704458,0.006783901599335354,31.57894736842105
+python:S5655,Arguments given to functions should be of an expected type,16,4,2,11.0,0.0192597712336659,0.0039768859355966855,12.5
+python:S8510,Loop variables should not be reused in nested loops,31,3,5,10.333333333333332,0.0176819037098514,0.003651077332391471,16.129032258064516
+python:S7494,Comprehensions should be used instead of constructors around generator expressions,114,13,4,7.0,0.0112112498781267,0.0023149736006649164,3.508771929824561
+python:S117,Local variable and function parameter names should comply with a naming convention,224,16,6,6.333333333333333,0.011165662621061001,0.0023055604399753386,2.6785714285714284
+python:S3358,Conditional expressions should not be nested,19,1,3,6.0,0.0097347026916305,0.0020100862960349794,15.789473684210526
+python:S1186,Functions and methods should not be empty,228,17,3,5.0,0.0078954907685123,0.001630313559334706,1.3157894736842106
+python:S2836,"Loops without ""break"" should not have ""else"" clauses",38,2,2,4.0,0.0065551942558154,0.0013535602019762118,5.2631578947368425
+python:S5886,Function return types should be consistent with their type hint,94,6,3,4.0,0.0061174844694888,0.0012631789678485435,3.1914893617021276
+python:S5890,Values assigned to variables should match their type annotations,19,1,2,3.0,0.004640937282992599,0.0009582916632186062,10.526315789473685
+python:S8500,Comparison methods should be defined completely,12,2,3,3.0,0.004429641559488599,0.000914661913889811,25.0
+python:S1854,Unused assignments should be removed,43,3,3,2.5,0.0039026636897445,0.0008058480109036379,6.976744186046512
+python:S1700,A field should not duplicate the name of its containing class,19,1,1,2.0,0.0031643900964964,0.0006534043585886693,5.2631578947368425
+python:S2638,Method overrides should not change contracts,48,3,2,2.0,0.0029530943729924,0.0006097746092598741,4.166666666666667
+python:S1871,Two branches in a conditional structure should not have exactly the same implementation,19,1,2,1.0,0.0016047358955039,0.0003313565636761664,10.526315789473685
+python:S6903,"Using timezone-aware ""datetime"" objects should be preferred over using ""datetime.datetime.utcnow"" and ""datetime.datetime.utcfromtimestamp""",48,4,1,1.0,0.0015821950482482,0.00032670217929433465,2.0833333333333335
+python:S112,"""Exception"" and ""BaseException"" should not be raised",11,1,1,1.0,0.0014765471864962,0.00030488730462993705,9.090909090909092
+python:S4144,Functions and methods should not have identical implementations,142,9,1,1.0,0.0014765471864962,0.00030488730462993705,0.704225352112676
+python:S6353,Regular expression quantifiers and character classes should be used concisely,53,7,1,1.0,0.0014765471864962,0.00030488730462993705,1.8867924528301887
+python:S7504,"When iterating over an iterable object, using ""list()"" should be avoided",57,4,1,1.0,0.0014765471864962,0.00030488730462993705,1.7543859649122806
+python:S7492,"List comprehensions should not be used with ""any()"" or ""all()""",57,3,3,1.0,0.0014765471864960997,0.0003048873046299164,5.2631578947368425
+python:S7496,Creation of collections with literals or comprehensions should not be wrapped in type constructors,347,32,2,0.9,0.0013711516125473,0.00028312452403268584,0.5763688760806917
+python:S6019,Reluctant quantifiers in regular expressions should be followed by an expression that can't match the empty string,72,4,1,0.5,0.0007382735932481,0.00015244365231496852,1.3888888888888888
+python:S6395,Non-capturing groups without quantifier should not be used,56,5,1,0.5,0.0007382735932481,0.00015244365231496852,1.7857142857142858
+python:S2208,Wildcard imports should not be used,5,1,0,0.0,0.0,0.0,0.0
+python:S2737,"""except"" clauses should do more than raise the same issue",38,2,0,0.0,0.0,0.0,0.0
+python:S1940,Boolean checks should not be inverted,303,21,0,0.0,0.0,0.0,0.0
+python:S101,Class names should comply with a naming convention,19,1,0,0.0,0.0,0.0,0.0
+python:PrintStatementUsage,"The ""print"" statement should not be used",21,13,0,0.0,0.0,0.0,0.0
+python:S1313,IP addresses should not be hardcoded,38,2,0,0.0,0.0,0.0,0.0
+python:S5717,Function parameters' default values should not be modified or assigned,5,1,0,0.0,0.0,0.0,0.0
+python:S5713,"A subclass should not be in the same ""except"" statement as a parent class",19,1,0,0.0,0.0,0.0,0.0
+python:S5864,Type checks shouldn't be confusing,10,1,0,0.0,0.0,0.0,0.0
+python:S5727,Comparison to None should not be constant,5,1,0,0.0,0.0,0.0,0.0
+python:S5754,"""SystemExit"" should be re-raised",27,3,0,0.0,0.0,0.0,0.0
+python:S5795,Identity comparisons should not be used with cached types,5,1,0,0.0,0.0,0.0,0.0
+python:S5797,Constants should not be used as conditions,21,3,0,0.0,0.0,0.0,0.0
+python:S5799,Implicit string and byte concatenations should not be confusing,5,1,0,0.0,0.0,0.0,0.0
+python:S5747,"Bare ""raise"" statements should only be used in ""except"" blocks",19,1,0,0.0,0.0,0.0,0.0
+python:S5843,Regular expressions should not be too complicated,100,7,0,0.0,0.0,0.0,0.0
+python:S5869,Character classes in regular expressions should not contain the same character twice,19,1,0,0.0,0.0,0.0,0.0
+python:S6396,Superfluous curly brace quantifiers should be avoided,19,1,0,0.0,0.0,0.0,0.0
+python:S6537,Octal escape sequences should not be used in regular expressions,20,2,0,0.0,0.0,0.0,0.0
+python:S7503,Async functions should use async features,5,1,0,0.0,0.0,0.0,0.0
+python:S7500,Comprehensions only used to copy should be replaced with the respective constructor calls,76,4,0,0.0,0.0,0.0,0.0
+python:S8518,"""enumerate()"" values should be unpacked instead of using index lookups",19,1,0,0.0,0.0,0.0,0.0
