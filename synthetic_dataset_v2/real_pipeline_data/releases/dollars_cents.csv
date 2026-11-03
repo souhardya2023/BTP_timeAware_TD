@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+dollars_cents,0,v0.1,v0.2,2019-01-08,2019-03-17,minor,2,277,60,361,144,5,84,84,0,2
+dollars_cents,1,v0.2,v0.3,2019-03-17,2019-05-03,minor,1,361,144,372,155,5,11,11,0,1
+dollars_cents,2,v0.3,v0.4,2019-05-03,2019-08-20,minor,6,372,155,372,155,5,20,13,13,9
+dollars_cents,3,v0.4,v0.5,2019-08-20,2019-09-16,minor,2,372,155,376,155,5,6,0,0,3

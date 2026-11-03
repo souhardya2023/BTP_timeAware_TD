@@ -1,0 +1,2 @@
+projects 150, releases 2060, compile failures 0, projects whose smoke script reports failures 0
+{}

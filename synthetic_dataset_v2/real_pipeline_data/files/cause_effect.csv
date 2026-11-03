@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+cause_effect,0,cause_effect/core.py,9,148,30,0
+cause_effect,0,cause_effect/models.py,1,26,0,0
+cause_effect,0,cause_effect/services.py,1,138,110,0
+cause_effect,1,cause_effect/services.py,28,164,110,0
+cause_effect,2,cause_effect/services.py,1,164,110,0
+cause_effect,3,cause_effect/core.py,2,129,30,0
+cause_effect,3,cause_effect/services.py,1,164,110,0

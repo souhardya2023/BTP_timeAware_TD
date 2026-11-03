@@ -1,0 +1,4 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+palindrome,v0.2,v0.3,1,palindrome/core.py::build_phrase_7::many_params,palindrome/core.py,build_phrase_7,many_params,MAJOR,0,0,0,0,0,0,0.0,introduced,1,11,11,0,0.0
+palindrome,v0.3,v0.4,2,palindrome/core.py::build_phrase_7::many_params,palindrome/core.py,build_phrase_7,many_params,MAJOR,0,11,4,0,0,0,0.02062846280146194,interest,1,13,4,2.0,0.003164390096496418
+palindrome,v0.4,v0.5,3,palindrome/core.py::build_phrase_7::many_params,palindrome/core.py,build_phrase_7,many_params,MAJOR,0,13,4,1,2,1,0.0247885335262108,none,1,13,0,0,0.0

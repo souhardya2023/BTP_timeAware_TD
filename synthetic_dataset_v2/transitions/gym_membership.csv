@@ -1,0 +1,83 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+gym_membership,v0.1,v0.2,0,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,0,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.1,v0.2,0,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.1,v0.2,0,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.1,v0.2,0,gym_membership-D04,gym_membership/services.py,update_visit_total_4,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.1,v0.2,0,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.2,v0.3,1,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,1,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.2,v0.3,1,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.2,v0.3,1,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.2,v0.3,1,gym_membership-D04,gym_membership/services.py,update_visit_total_4,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,repayment,0,6,3,0.0,0.0
+gym_membership,v0.2,v0.3,1,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.2,v0.3,1,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.3,v0.4,2,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,2,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.3,v0.4,2,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,2,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.3,v0.4,2,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,2,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.3,v0.4,2,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.3,v0.4,2,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.4,v0.5,3,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,3,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.4,v0.5,3,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,3,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.4,v0.5,3,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,3,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.4,v0.5,3,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.4,v0.5,3,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,2,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.5,v0.6,4,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,4,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.5,v0.6,4,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,4,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.5,v0.6,4,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,4,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.5,v0.6,4,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.5,v0.6,4,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,3,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.5,v0.6,4,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,0,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,5,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,5,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,5,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,4,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,1,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.6,v0.7,5,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,6,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,6,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,6,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,5,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,2,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D09,gym_membership/services.py,get_or_build_member_9,synth:check_then_act,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.7,v0.8,6,gym_membership-D10,gym_membership/services.py,update_member_total_10,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,7,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,7,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,7,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,6,0,0,0.02269984787238689,interest,1,12,1,1.0,0.001476547186496228
+gym_membership,v0.8,v0.9,7,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,3,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D09,gym_membership/services.py,get_or_build_member_9,synth:check_then_act,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.8,v0.9,7,gym_membership-D10,gym_membership/services.py,update_member_total_10,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,8,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,8,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,8,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D06,gym_membership/services.py,bump_member_counter_6,synth:unlocked_counter,MAJOR,15,12,4,7,1,1,0.02269984787238689,repayment,0,13,5,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,4,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D09,gym_membership/services.py,get_or_build_member_9,synth:check_then_act,MAJOR,15,12,4,2,0,0,0.02269984787238689,repayment,0,12,4,0.0,0.0
+gym_membership,v0.9,v0.10,8,gym_membership-D10,gym_membership/services.py,update_member_total_10,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,9,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,9,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,9,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,5,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.10,v0.11,9,gym_membership-D10,gym_membership/services.py,update_member_total_10,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,10,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,10,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,10,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,6,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.11,v0.12,10,gym_membership-D10,gym_membership/services.py,update_member_total_10,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D01,gym_membership/rules.py,build_visit_1,synth:params,MAJOR,15,11,4,11,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D02,gym_membership/services.py,get_or_build_visit_2,synth:check_then_act,MAJOR,15,12,4,11,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D03,gym_membership/services.py,bump_member_counter_3,synth:unlocked_counter,MAJOR,15,12,4,11,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D05,gym_membership/utils.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D07,gym_membership/services.py,record_plan_7,synth:shared_list,MAJOR,15,8,2,7,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D08,gym_membership/services.py,update_plan_total_8,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+gym_membership,v0.12,v0.13,11,gym_membership-D10,gym_membership/services.py,update_member_total_10,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0

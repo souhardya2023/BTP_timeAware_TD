@@ -1,0 +1,7 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+lorem_ipsum,0,lorem_ipsum/core.py,40,168,78,40
+lorem_ipsum,1,lorem_ipsum/core.py,120,287,173,95
+lorem_ipsum,2,lorem_ipsum/core.py,22,302,173,5
+lorem_ipsum,2,lorem_ipsum/services.py,1,39,0,0
+lorem_ipsum,3,lorem_ipsum/core.py,3,303,174,2
+lorem_ipsum,4,lorem_ipsum/core.py,50,342,174,2

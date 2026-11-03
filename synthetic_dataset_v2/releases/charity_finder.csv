@@ -1,0 +1,13 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+charity_finder,v0.1,v0.2,0,0.41,0,368,12,0,3
+charity_finder,v0.2,v0.3,1,2.7292,17,344,12,0,3
+charity_finder,v0.3,v0.4,2,2.3462,29,348,12,0,3
+charity_finder,v0.4,v0.5,3,0.204,2,374,29,0,6
+charity_finder,v0.5,v0.6,4,1.5456,26,374,29,1,6
+charity_finder,v0.6,v0.7,5,0.3648,39,376,29,4,6
+charity_finder,v0.7,v0.8,6,0.2216,12,411,53,12,7
+charity_finder,v0.8,v0.9,7,0.2833,4,411,53,4,7
+charity_finder,v0.9,v0.10,8,0.2645,5,411,53,5,7
+charity_finder,v0.10,v0.11,9,1.8353,9,381,14,0,5
+charity_finder,v0.11,v0.12,10,0.1767,13,344,13,0,4
+charity_finder,v0.12,v0.13,11,2.0208,33,357,13,0,4

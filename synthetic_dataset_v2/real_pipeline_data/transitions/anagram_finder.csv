@@ -1,0 +1,11 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+anagram_finder,v0.1,v0.2,0,anagram_finder/core.py::validate_word::complex_method,anagram_finder/core.py,validate_word,complex_method,MAJOR,0,45,17,0,0,0,0.09711473553216902,none,1,45,0,0,0.0
+anagram_finder,v0.1,v0.2,0,anagram_finder/core.py::classify_word_6::complex_method,anagram_finder/core.py,classify_word_6,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,40,40,0,0.0
+anagram_finder,v0.2,v0.3,1,anagram_finder/core.py::validate_word::complex_method,anagram_finder/core.py,validate_word,complex_method,MAJOR,0,45,17,1,0,0,0.09711473553216902,none,1,45,0,0,0.0
+anagram_finder,v0.2,v0.3,1,anagram_finder/core.py::classify_word_6::complex_method,anagram_finder/core.py,classify_word_6,complex_method,MAJOR,0,40,19,0,0,0,0.08531643558590787,interest,1,40,1,1.0,0.001476547186496228
+anagram_finder,v0.3,v0.4,2,anagram_finder/core.py::validate_word::complex_method,anagram_finder/core.py,validate_word,complex_method,MAJOR,0,45,17,2,0,0,0.09711473553216902,none,1,45,0,0,0.0
+anagram_finder,v0.3,v0.4,2,anagram_finder/core.py::classify_word_6::complex_method,anagram_finder/core.py,classify_word_6,complex_method,MAJOR,0,40,19,1,1,1,0.08531643558590787,none,1,40,0,0,0.0
+anagram_finder,v0.4,v0.5,3,anagram_finder/core.py::validate_word::complex_method,anagram_finder/core.py,validate_word,complex_method,MAJOR,0,45,17,3,0,0,0.09711473553216902,increase,1,46,1,0,0.0
+anagram_finder,v0.4,v0.5,3,anagram_finder/core.py::classify_word_6::complex_method,anagram_finder/core.py,classify_word_6,complex_method,MAJOR,0,40,19,2,1,1,0.08531643558590787,none,1,40,0,0,0.0
+anagram_finder,v0.5,v0.6,4,anagram_finder/core.py::validate_word::complex_method,anagram_finder/core.py,validate_word,complex_method,MAJOR,0,46,17,4,0,0,0.09949061556184191,repayment,0,0,1,0,0.0
+anagram_finder,v0.5,v0.6,4,anagram_finder/core.py::classify_word_6::complex_method,anagram_finder/core.py,classify_word_6,complex_method,MAJOR,0,40,19,3,1,1,0.08531643558590787,increase,1,47,7,0,0.0

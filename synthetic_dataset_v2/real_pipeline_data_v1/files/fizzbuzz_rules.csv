@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+fizzbuzz_rules,0,fizzbuzz_rules/core.py,30,242,148,30
+fizzbuzz_rules,1,fizzbuzz_rules/core.py,32,272,178,31
+fizzbuzz_rules,2,fizzbuzz_rules/core.py,46,314,178,2
+fizzbuzz_rules,3,fizzbuzz_rules/core.py,63,360,180,8
+fizzbuzz_rules,3,fizzbuzz_rules/models.py,14,26,0,0
+fizzbuzz_rules,3,fizzbuzz_rules/services.py,11,31,0,0
+fizzbuzz_rules,4,fizzbuzz_rules/core.py,2,360,180,0

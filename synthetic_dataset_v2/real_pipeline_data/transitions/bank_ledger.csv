@@ -1,0 +1,14 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+bank_ledger,v0.1,v0.2,0,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,0,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.1,v0.2,0,bank_ledger/storage.py::scan_accounts::complex_method,bank_ledger/storage.py,scan_accounts,complex_method,MAJOR,0,31,11,0,0,0,0.06446111081143474,none,1,31,0,0,0.0
+bank_ledger,v0.2,v0.3,1,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,1,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.2,v0.3,1,bank_ledger/storage.py::scan_accounts::complex_method,bank_ledger/storage.py,scan_accounts,complex_method,MAJOR,0,31,11,1,0,0,0.06446111081143474,none,1,31,0,0,0.0
+bank_ledger,v0.3,v0.4,2,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,2,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.3,v0.4,2,bank_ledger/storage.py::scan_accounts::complex_method,bank_ledger/storage.py,scan_accounts,complex_method,MAJOR,0,31,11,2,0,0,0.06446111081143474,increase,1,32,1,0,0.0
+bank_ledger,v0.4,v0.5,3,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,3,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.4,v0.5,3,bank_ledger/storage.py::scan_accounts::complex_method,bank_ledger/storage.py,scan_accounts,complex_method,MAJOR,0,32,11,3,0,0,0.06675145884150166,repayment,0,0,0,0,0.0
+bank_ledger,v0.5,v0.6,4,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,4,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.6,v0.7,5,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,5,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.7,v0.8,6,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,6,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.8,v0.9,7,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,7,0,0,0.08063718374266897,none,1,38,0,0,0.0
+bank_ledger,v0.9,v0.10,8,bank_ledger/rules.py::next_entry_job::complex_method,bank_ledger/rules.py,next_entry_job,complex_method,MAJOR,0,38,14,8,0,0,0.08063718374266897,none,1,38,0,0,0.0

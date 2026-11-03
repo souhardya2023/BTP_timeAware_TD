@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+help_desk,v0.1,v0.2,0,1.325,17,660,22,0,4
+help_desk,v0.2,v0.3,1,0.9941,28,667,28,0,5
+help_desk,v0.3,v0.4,2,0.3514,6,674,45,0,8
+help_desk,v0.4,v0.5,3,0.1727,0,675,45,0,8
+help_desk,v0.5,v0.6,4,0.2886,0,675,45,0,8
+help_desk,v0.6,v0.7,5,1.6229,24,675,45,1,8
+help_desk,v0.7,v0.8,6,1.0888,17,626,43,0,8
+help_desk,v0.8,v0.9,7,1.1906,6,633,43,1,8
+help_desk,v0.9,v0.10,8,1.6275,17,633,39,0,7
+help_desk,v0.10,v0.11,9,4.3889,46,394,39,6,7
+help_desk,v0.11,v0.12,10,1.4355,5,395,45,1,7

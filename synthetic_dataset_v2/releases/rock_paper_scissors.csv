@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+rock_paper_scissors,v0.1,v0.2,0,2.9947,96,463,89,19,3
+rock_paper_scissors,v0.2,v0.3,1,2.6566,59,550,164,2,5
+rock_paper_scissors,v0.3,v0.4,2,1.6302,6,591,205,0,7
+rock_paper_scissors,v0.4,v0.5,3,0.2206,0,555,205,0,7
+rock_paper_scissors,v0.5,v0.6,4,1.0828,2,555,205,1,7

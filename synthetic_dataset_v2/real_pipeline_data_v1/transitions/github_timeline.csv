@@ -1,0 +1,8 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+github_timeline,v0.2,v0.3,0,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,40,19,0,0,0,0.08531643558590787,none,1,40,0,0,0.0
+github_timeline,v0.3,v0.4,1,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,40,19,1,0,0,0.08531643558590787,none,1,40,0,0,0.0
+github_timeline,v0.4,v0.5,2,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,40,19,2,0,0,0.08531643558590787,none,1,40,0,0,0.0
+github_timeline,v0.5,v0.6,3,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,40,19,3,0,0,0.08531643558590787,none,1,40,0,0,0.0
+github_timeline,v0.6,v0.7,4,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,40,19,4,0,0,0.08531643558590787,interest,1,41,5,4.0,0.006781608318638173
+github_timeline,v0.7,v0.8,5,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,41,19,5,4,1,0.0876648991737982,none,1,41,0,0,0.0
+github_timeline,v0.8,v0.9,6,github_timeline/rules.py::classify_commit_1::complex_method,github_timeline/rules.py,classify_commit_1,complex_method,MAJOR,0,41,19,6,4,1,0.0876648991737982,repayment,0,0,4,0,0.0

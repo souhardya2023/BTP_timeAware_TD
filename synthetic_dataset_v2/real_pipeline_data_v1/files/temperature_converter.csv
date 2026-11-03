@@ -1,0 +1,9 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+temperature_converter,0,temperature_converter/cli.py,1,4,0,0
+temperature_converter,0,temperature_converter/core.py,57,246,108,15
+temperature_converter,0,temperature_converter/services.py,1,21,0,0
+temperature_converter,1,temperature_converter/core.py,94,335,185,81
+temperature_converter,2,temperature_converter/core.py,13,346,185,2
+temperature_converter,3,temperature_converter/core.py,8,347,186,7
+temperature_converter,3,temperature_converter/models.py,15,26,0,0
+temperature_converter,3,temperature_converter/services.py,7,28,0,0

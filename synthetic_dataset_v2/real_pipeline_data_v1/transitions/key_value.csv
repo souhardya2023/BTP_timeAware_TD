@@ -1,0 +1,6 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+key_value,v0.1,v0.2,0,key_value/core.py::handle_entry_1::complex_method,key_value/core.py,handle_entry_1,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,30,30,0,0.0
+key_value,v0.2,v0.3,1,key_value/core.py::handle_entry_1::complex_method,key_value/core.py,handle_entry_1,complex_method,MAJOR,0,30,17,0,0,0,0.06217811821415762,none,1,30,0,0,0.0
+key_value,v0.3,v0.4,2,key_value/core.py::handle_entry_1::complex_method,key_value/core.py,handle_entry_1,complex_method,MAJOR,0,30,17,1,0,0,0.06217811821415762,none,1,30,0,0,0.0
+key_value,v0.4,v0.5,3,key_value/core.py::handle_entry_1::complex_method,key_value/core.py,handle_entry_1,complex_method,MAJOR,0,30,17,2,0,0,0.06217811821415762,none,1,30,0,0,0.0
+key_value,v0.5,v0.6,4,key_value/core.py::handle_entry_1::complex_method,key_value/core.py,handle_entry_1,complex_method,MAJOR,0,30,17,3,0,0,0.06217811821415762,none,1,30,0,0,0.0

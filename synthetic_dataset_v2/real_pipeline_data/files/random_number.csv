@@ -1,0 +1,11 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+random_number,0,random_number/core.py,37,300,212,37
+random_number,0,random_number/services.py,23,62,0,0
+random_number,1,random_number/core.py,158,378,284,157
+random_number,1,random_number/services.py,1,62,0,0
+random_number,2,random_number/core.py,9,378,284,8
+random_number,2,random_number/services.py,1,62,0,0
+random_number,3,random_number/core.py,50,392,284,35
+random_number,3,random_number/services.py,14,69,0,0
+random_number,4,random_number/core.py,25,395,287,20
+random_number,4,random_number/services.py,3,69,0,0

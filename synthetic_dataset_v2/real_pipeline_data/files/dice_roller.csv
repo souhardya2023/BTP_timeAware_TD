@@ -1,0 +1,11 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+dice_roller,0,dice_roller/services.py,24,74,0,0
+dice_roller,1,dice_roller/core.py,5,202,40,0
+dice_roller,1,dice_roller/models.py,1,0,0,0
+dice_roller,1,dice_roller/services.py,13,77,0,0
+dice_roller,2,dice_roller/core.py,11,202,40,0
+dice_roller,2,dice_roller/services.py,1,77,0,0
+dice_roller,3,dice_roller/core.py,9,202,40,0
+dice_roller,3,dice_roller/services.py,6,76,0,0
+dice_roller,4,dice_roller/core.py,18,205,40,0
+dice_roller,4,dice_roller/services.py,1,76,0,0

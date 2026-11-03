@@ -1,0 +1,12 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+time_tracker,v0.1,v0.2,0,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,32,32,0,0.0
+time_tracker,v0.2,v0.3,1,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,0,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.3,v0.4,2,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,1,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.4,v0.5,3,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,2,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.5,v0.6,4,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,3,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.6,v0.7,5,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,4,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.7,v0.8,6,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,5,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.8,v0.9,7,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,6,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.9,v0.10,8,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,7,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.10,v0.11,9,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,8,0,0,0.06675145884150166,none,1,32,0,0,0.0
+time_tracker,v0.11,v0.12,10,time_tracker/rules.py::classify_project_5::complex_method,time_tracker/rules.py,classify_project_5,complex_method,MAJOR,0,32,15,9,0,0,0.06675145884150166,none,1,32,0,0,0.0

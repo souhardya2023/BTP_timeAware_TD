@@ -1,0 +1,208 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+shopping_cart,v0.1,v0.2,0,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.1,v0.2,0,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.1,v0.2,0,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,0,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.1,v0.2,0,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.2,v0.3,1,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.2,v0.3,1,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.2,v0.3,1,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,1,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.2,v0.3,1,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.2,v0.3,1,shopping_cart-D05,shopping_cart/services.py,sign_product_5,synth:weak_hash_secret,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.2,v0.3,1,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,2,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D05,shopping_cart/services.py,sign_product_5,synth:weak_hash_secret,MAJOR,15,3,1,1,0,0,0.004942396395519926,repayment,0,3,1,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.3,v0.4,2,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,3,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.4,v0.5,3,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,4,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,4,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.5,v0.6,4,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,5,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,5,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,4,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.6,v0.7,5,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,3,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,6,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,6,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,5,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,4,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.7,v0.8,6,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,4,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,7,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,7,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,6,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,5,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,5,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+shopping_cart,v0.8,v0.9,7,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,8,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,8,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,7,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,6,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D08,shopping_cart/storage.py,load_order_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,6,0,0,0.008667715422666181,repayment,0,5,1,0.0,0.0
+shopping_cart,v0.9,v0.10,8,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.10,v0.11,9,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.10,v0.11,9,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,9,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.10,v0.11,9,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,9,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.10,v0.11,9,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,9,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.10,v0.11,9,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,8,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.10,v0.11,9,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,7,0,0,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+shopping_cart,v0.10,v0.11,9,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,10,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,10,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,10,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,9,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,8,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.11,v0.12,10,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,11,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,11,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,11,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,10,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,9,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.12,v0.13,11,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,12,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,12,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,12,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,11,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,10,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.13,v0.14,12,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,13,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,13,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,13,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,12,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,11,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.14,v0.15,13,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,14,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,14,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,14,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,14,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,13,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,12,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.15,v0.16,14,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,15,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,15,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,15,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,15,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,14,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,13,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.16,v0.17,15,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,16,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,16,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,16,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,16,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,15,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,14,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,9,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.17,v0.18,16,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,17,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,17,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,17,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,17,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,16,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,15,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,10,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.18,v0.19,17,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,18,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,18,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,18,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,18,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,17,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,16,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,11,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.19,v0.20,18,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,19,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,19,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,19,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,19,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,18,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,17,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,12,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.20,v0.21,19,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,20,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,20,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,20,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,20,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,19,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,18,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,13,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.21,v0.22,20,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,4,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,21,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,21,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,21,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,21,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,20,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,19,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,14,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D10,shopping_cart/svc_coupon.py,archive_product_10,synth:shell_injection,MAJOR,15,4,1,7,0,0,0.006781608318638173,repayment,0,3,1,0.0,0.0
+shopping_cart,v0.22,v0.23,21,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,5,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,22,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,22,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,22,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,22,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,21,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,20,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,15,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.23,v0.24,22,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,6,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,23,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,23,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,23,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,23,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,22,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,21,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,16,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.24,v0.25,23,shopping_cart-D11,shopping_cart/storage.py,read_coupon_file_11,synth:path_traversal,MAJOR,15,6,2,7,0,0,0.010592055810999847,repayment,0,6,1,0.0,0.0
+shopping_cart,v0.25,v0.26,24,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,24,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.25,v0.26,24,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,24,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.25,v0.26,24,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,24,0,0,0.014533673151847611,interest,1,8,1,1.0,0.001476547186496228
+shopping_cart,v0.25,v0.26,24,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,24,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.25,v0.26,24,shopping_cart-D06,shopping_cart/svc_order.py,sign_coupon_6,synth:weak_hash_secret,MAJOR,15,3,1,23,0,0,0.004942396395519926,repayment,0,3,1,0.0,0.0
+shopping_cart,v0.25,v0.26,24,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,22,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.25,v0.26,24,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,17,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.26,v0.27,25,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,25,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+shopping_cart,v0.26,v0.27,25,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,25,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.26,v0.27,25,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,25,1,1,0.014533673151847611,none,1,8,0,0.0,0.0
+shopping_cart,v0.26,v0.27,25,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,25,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.26,v0.27,25,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,23,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.26,v0.27,25,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,18,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.27,v0.28,26,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,26,1,1,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+shopping_cart,v0.27,v0.28,26,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,26,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.27,v0.28,26,shopping_cart-D03,shopping_cart/storage.py,find_coupon_by_code_3,synth:sql_injection,MAJOR,15,8,1,26,1,1,0.014533673151847611,repayment,0,7,2,0.0,0.0
+shopping_cart,v0.27,v0.28,26,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,26,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.27,v0.28,26,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,24,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.27,v0.28,26,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,19,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.28,v0.29,27,shopping_cart-D01,shopping_cart/reports.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,27,2,2,0.001476547186496228,none,1,1,0,0.0,0.0
+shopping_cart,v0.28,v0.29,27,shopping_cart-D02,shopping_cart/svc_product.py,compute_order_expr_2,synth:eval_input,MAJOR,15,6,2,27,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.28,v0.29,27,shopping_cart-D04,shopping_cart/svc_product.py,archive_cart_4,synth:shell_injection,MAJOR,15,4,1,27,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+shopping_cart,v0.28,v0.29,27,shopping_cart-D07,shopping_cart/storage.py,read_cart_file_7,synth:path_traversal,MAJOR,15,6,2,25,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+shopping_cart,v0.28,v0.29,27,shopping_cart-D09,shopping_cart/svc_product.py,reset_order_store_9,synth:private_access,MAJOR,15,4,1,20,0,0,0.006781608318638173,none,1,4,0,0.0,0.0

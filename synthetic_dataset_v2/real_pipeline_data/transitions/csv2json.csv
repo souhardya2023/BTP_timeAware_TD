@@ -1,0 +1,13 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+csv2json,v0.1,v0.2,0,csv2json/core.py::parse_doc::complex_method,csv2json/core.py,parse_doc,complex_method,MAJOR,0,29,11,0,0,0,0.05990270150004975,none,1,29,0,0,0.0
+csv2json,v0.1,v0.2,0,csv2json/core.py::summarize_docs::complex_method,csv2json/core.py,summarize_docs,complex_method,MAJOR,0,34,11,0,0,0,0.0713534038353381,none,1,34,0,0,0.0
+csv2json,v0.1,v0.2,0,csv2json/core.py::build_row_1::many_params,csv2json/core.py,build_row_1,many_params,MAJOR,0,0,0,0,0,0,0.0,introduced,1,11,11,0,0.0
+csv2json,v0.2,v0.3,1,csv2json/core.py::parse_doc::complex_method,csv2json/core.py,parse_doc,complex_method,MAJOR,0,29,11,1,0,0,0.05990270150004975,none,1,29,0,0,0.0
+csv2json,v0.2,v0.3,1,csv2json/core.py::summarize_docs::complex_method,csv2json/core.py,summarize_docs,complex_method,MAJOR,0,34,11,1,0,0,0.0713534038353381,none,1,34,0,0,0.0
+csv2json,v0.2,v0.3,1,csv2json/core.py::build_row_1::many_params,csv2json/core.py,build_row_1,many_params,MAJOR,0,11,4,0,0,0,0.02062846280146194,none,1,11,0,0,0.0
+csv2json,v0.3,v0.4,2,csv2json/core.py::parse_doc::complex_method,csv2json/core.py,parse_doc,complex_method,MAJOR,0,29,11,2,0,0,0.05990270150004975,none,1,29,0,0,0.0
+csv2json,v0.3,v0.4,2,csv2json/core.py::summarize_docs::complex_method,csv2json/core.py,summarize_docs,complex_method,MAJOR,0,34,11,2,0,0,0.0713534038353381,none,1,34,0,0,0.0
+csv2json,v0.3,v0.4,2,csv2json/core.py::build_row_1::many_params,csv2json/core.py,build_row_1,many_params,MAJOR,0,11,4,1,0,0,0.02062846280146194,interest,1,2,1,1.0,0.001476547186496228
+csv2json,v0.4,v0.5,3,csv2json/core.py::parse_doc::complex_method,csv2json/core.py,parse_doc,complex_method,MAJOR,0,29,11,3,0,0,0.05990270150004975,none,1,29,0,0,0.0
+csv2json,v0.4,v0.5,3,csv2json/core.py::summarize_docs::complex_method,csv2json/core.py,summarize_docs,complex_method,MAJOR,0,34,11,3,0,0,0.0713534038353381,none,1,34,0,0,0.0
+csv2json,v0.4,v0.5,3,csv2json/core.py::build_row_1::many_params,csv2json/core.py,build_row_1,many_params,MAJOR,0,2,1,2,1,1,0.003164390096496418,none,1,2,0,0,0.0

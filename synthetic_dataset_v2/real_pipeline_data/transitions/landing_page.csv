@@ -1,0 +1,9 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+landing_page,v0.1,v0.2,0,landing_page/core.py::pick_product_job::complex_method,landing_page/core.py,pick_product_job,complex_method,MAJOR,0,42,15,0,0,0,0.09001908102629413,none,1,42,0,0,0.0
+landing_page,v0.1,v0.2,0,landing_page/core.py::score_product::complex_method,landing_page/core.py,score_product,complex_method,MAJOR,0,40,13,0,0,0,0.08531643558590787,none,1,40,0,0,0.0
+landing_page,v0.2,v0.3,1,landing_page/core.py::pick_product_job::complex_method,landing_page/core.py,pick_product_job,complex_method,MAJOR,0,42,15,1,0,0,0.09001908102629413,none,1,42,0,0,0.0
+landing_page,v0.2,v0.3,1,landing_page/core.py::score_product::complex_method,landing_page/core.py,score_product,complex_method,MAJOR,0,40,13,1,0,0,0.08531643558590787,none,1,40,0,0,0.0
+landing_page,v0.3,v0.4,2,landing_page/core.py::pick_product_job::complex_method,landing_page/core.py,pick_product_job,complex_method,MAJOR,0,42,15,2,0,0,0.09001908102629413,interest,1,42,14,14.0,0.026893314534794217
+landing_page,v0.3,v0.4,2,landing_page/core.py::score_product::complex_method,landing_page/core.py,score_product,complex_method,MAJOR,0,40,13,2,0,0,0.08531643558590787,none,1,40,0,0,0.0
+landing_page,v0.4,v0.5,3,landing_page/core.py::pick_product_job::complex_method,landing_page/core.py,pick_product_job,complex_method,MAJOR,0,42,15,3,14,1,0.09001908102629413,interest,1,42,1,1.0,0.001476547186496228
+landing_page,v0.4,v0.5,3,landing_page/core.py::score_product::complex_method,landing_page/core.py,score_product,complex_method,MAJOR,0,40,13,3,0,0,0.08531643558590787,none,1,40,0,0,0.0

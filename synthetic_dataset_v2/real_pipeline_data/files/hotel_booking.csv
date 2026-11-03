@@ -1,0 +1,12 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+hotel_booking,1,hotel_booking/services.py,17,60,0,0
+hotel_booking,1,hotel_booking/storage.py,1,26,0,0
+hotel_booking,2,hotel_booking/cli.py,1,4,0,0
+hotel_booking,2,hotel_booking/models.py,5,43,0,0
+hotel_booking,2,hotel_booking/rules.py,16,115,0,0
+hotel_booking,2,hotel_booking/services.py,4,64,0,0
+hotel_booking,2,hotel_booking/storage.py,10,34,0,0
+hotel_booking,4,hotel_booking/rules.py,4,119,0,0
+hotel_booking,6,hotel_booking/validators.py,1,33,0,0
+hotel_booking,8,hotel_booking/models.py,1,41,0,0
+hotel_booking,8,hotel_booking/storage.py,1,34,0,0

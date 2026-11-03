@@ -1,0 +1,6 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+stock_portfolio,v0.6,v0.7,0,stock_portfolio/rules.py::handle_quote_1::complex_method,stock_portfolio/rules.py,handle_quote_1,complex_method,MAJOR,0,30,17,0,0,0,0.06217811821415762,none,1,30,0,0,0.0
+stock_portfolio,v0.7,v0.8,1,stock_portfolio/rules.py::handle_quote_1::complex_method,stock_portfolio/rules.py,handle_quote_1,complex_method,MAJOR,0,30,17,1,0,0,0.06217811821415762,none,1,30,0,0,0.0
+stock_portfolio,v0.8,v0.9,2,stock_portfolio/rules.py::handle_quote_1::complex_method,stock_portfolio/rules.py,handle_quote_1,complex_method,MAJOR,0,30,17,2,0,0,0.06217811821415762,none,1,30,0,0,0.0
+stock_portfolio,v0.9,v0.10,3,stock_portfolio/rules.py::handle_quote_1::complex_method,stock_portfolio/rules.py,handle_quote_1,complex_method,MAJOR,0,30,17,3,0,0,0.06217811821415762,none,1,30,0,0,0.0
+stock_portfolio,v0.10,v0.11,4,stock_portfolio/rules.py::handle_quote_1::complex_method,stock_portfolio/rules.py,handle_quote_1,complex_method,MAJOR,0,30,17,4,0,0,0.06217811821415762,repayment,0,0,1,0,0.0

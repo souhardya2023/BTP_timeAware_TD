@@ -1,0 +1,11 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+name_generator,1,name_generator/services.py,15,112,0,0
+name_generator,2,name_generator/services.py,22,131,0,0
+name_generator,3,name_generator/services.py,1,131,0,0
+name_generator,3,name_generator/utils.py,1,28,0,0
+name_generator,3,name_generator/validators.py,1,13,0,0
+name_generator,4,name_generator/services.py,1,126,0,0
+name_generator,5,name_generator/rules.py,3,148,40,3
+name_generator,5,name_generator/services.py,1,126,0,0
+name_generator,5,name_generator/storage.py,1,35,0,0
+name_generator,7,name_generator/services.py,4,126,0,0

@@ -1,0 +1,14 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+online_store,v0.1,v0.2,0,0.2386,0,593,77,0,3
+online_store,v0.2,v0.3,1,0.4107,18,565,77,0,3
+online_store,v0.3,v0.4,2,0.3525,8,565,77,0,3
+online_store,v0.4,v0.5,3,0.3551,53,570,81,1,4
+online_store,v0.5,v0.6,4,1.2925,17,613,115,14,5
+online_store,v0.6,v0.7,5,0.28,9,513,115,2,5
+online_store,v0.7,v0.8,6,1.1085,17,464,115,0,5
+online_store,v0.8,v0.9,7,0.3417,3,480,116,0,6
+online_store,v0.9,v0.10,8,0.137,10,481,116,8,6
+online_store,v0.10,v0.11,9,1.0678,11,399,50,0,4
+online_store,v0.11,v0.12,10,0.1856,0,409,50,0,4
+online_store,v0.12,v0.13,11,0.7383,20,408,49,0,3
+online_store,v0.13,v0.14,12,1.7639,27,424,49,9,3

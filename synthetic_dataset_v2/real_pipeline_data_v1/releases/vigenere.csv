@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+vigenere,0,v0.1,v0.2,2019-01-12,2019-01-15,minor,4,175,0,275,66,5,103,66,0,12
+vigenere,1,v0.2,v0.3,2019-01-15,2019-01-22,minor,9,275,66,294,66,5,34,5,5,12
+vigenere,2,v0.3,v0.4,2019-01-22,2019-01-23,minor,1,294,66,294,66,5,1,0,0,1
+vigenere,3,v0.4,v0.5,2019-01-23,2019-01-23,minor,1,294,66,230,0,5,1,0,1,1

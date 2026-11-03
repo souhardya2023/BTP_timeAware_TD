@@ -1,0 +1,133 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+battleship_engine,v0.1,v0.2,0,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.1,v0.2,0,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,0,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.1,v0.2,0,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.2,v0.3,1,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.2,v0.3,1,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,1,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.2,v0.3,1,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.3,v0.4,2,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.3,v0.4,2,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,2,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.3,v0.4,2,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.4,v0.5,3,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.4,v0.5,3,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,3,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.4,v0.5,3,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.4,v0.5,3,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,0,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.5,v0.6,4,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.5,v0.6,4,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,4,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.5,v0.6,4,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.5,v0.6,4,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,1,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.5,v0.6,4,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,0,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.6,v0.7,5,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.6,v0.7,5,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,5,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.6,v0.7,5,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.6,v0.7,5,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,2,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.6,v0.7,5,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,1,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.6,v0.7,5,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.7,v0.8,6,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,6,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.7,v0.8,6,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,6,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.7,v0.8,6,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,6,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.7,v0.8,6,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,3,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.7,v0.8,6,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,2,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.7,v0.8,6,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,7,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,7,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,7,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,4,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,3,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.8,v0.9,7,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,0,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,8,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,8,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,8,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,5,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,4,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.9,v0.10,8,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,1,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,9,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,9,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,9,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,6,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,5,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,2,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.10,v0.11,9,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,10,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,10,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,10,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,7,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,6,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,3,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.11,v0.12,10,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,11,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,11,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,11,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,8,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,7,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D06,battleship_engine/rules.py,handle_fleet_6,synth:nested,MAJOR,15,30,17,6,0,0,0.06217811821415762,repayment,0,2,1,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,4,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.12,v0.13,11,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,12,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,12,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,12,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,9,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,8,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,5,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.13,v0.14,12,battleship_engine-D09,battleship_engine/rules.py,classify_grid_9,synth:ladder,MAJOR,15,38,18,0,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,13,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,13,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,13,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,10,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,9,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,6,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.14,v0.15,13,battleship_engine-D09,battleship_engine/rules.py,classify_grid_9,synth:ladder,MAJOR,15,38,18,1,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,14,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,14,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,14,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,11,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,10,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,7,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.15,v0.16,14,battleship_engine-D09,battleship_engine/rules.py,classify_grid_9,synth:ladder,MAJOR,15,38,18,2,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,15,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,15,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,15,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,12,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,11,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,8,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.16,v0.17,15,battleship_engine-D09,battleship_engine/rules.py,classify_grid_9,synth:ladder,MAJOR,15,38,18,3,0,0,0.08063718374266897,repayment,0,6,4,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,16,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,16,0,0,0.11867541199348862,none,1,54,0,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,16,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,13,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,12,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,9,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.17,v0.18,16,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,17,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D02,battleship_engine/reports.py,report_fleet_2,synth:long,MAJOR,15,54,17,17,0,0,0.11867541199348862,repayment,0,2,1,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,17,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,14,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,13,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,10,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.18,v0.19,17,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.19,v0.20,18,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,18,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.19,v0.20,18,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,18,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.19,v0.20,18,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,15,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.19,v0.20,18,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,14,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.19,v0.20,18,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,11,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.19,v0.20,18,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.20,v0.21,19,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,19,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.20,v0.21,19,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,19,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.20,v0.21,19,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,16,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.20,v0.21,19,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,15,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+battleship_engine,v0.20,v0.21,19,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,12,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.20,v0.21,19,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+battleship_engine,v0.21,v0.22,20,battleship_engine-D01,battleship_engine/rules.py,handle_result_1,synth:nested,MAJOR,15,30,17,20,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+battleship_engine,v0.21,v0.22,20,battleship_engine-D03,battleship_engine/rules.py,handle_turn_3,synth:nested,MAJOR,15,30,17,20,0,0,0.06217811821415762,repayment,0,2,1,0.0,0.0
+battleship_engine,v0.21,v0.22,20,battleship_engine-D04,battleship_engine/svc_fleet.py,new_fleet_token_4,synth:insecure_random,MAJOR,15,2,2,17,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+battleship_engine,v0.21,v0.22,20,battleship_engine-D05,battleship_engine/rules.py,classify_turn_5,synth:ladder,MAJOR,15,38,18,16,0,0,0.08063718374266897,interest,1,38,2,2.0,0.003164390096496418
+battleship_engine,v0.21,v0.22,20,battleship_engine-D07,battleship_engine/reports.py,report_fleet_7,synth:long,MAJOR,15,72,23,13,0,0,0.16283804389352122,none,1,72,0,0.0,0.0
+battleship_engine,v0.21,v0.22,20,battleship_engine-D08,battleship_engine/config.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0

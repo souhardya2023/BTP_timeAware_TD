@@ -1,0 +1,9 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+vigenere,v0.1,v0.2,0,vigenere/core.py::report_message_6::long_method,vigenere/core.py,report_message_6,long_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,66,66,0,0.0
+vigenere,v0.1,v0.2,0,vigenere/core.py::report_message_6::complex_method,vigenere/core.py,report_message_6,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,66,66,0,0.0
+vigenere,v0.2,v0.3,1,vigenere/core.py::report_message_6::long_method,vigenere/core.py,report_message_6,long_method,MAJOR,0,66,21,0,0,0,0.1479789005637561,interest,1,66,5,2.5,0.0043338577113330905
+vigenere,v0.2,v0.3,1,vigenere/core.py::report_message_6::complex_method,vigenere/core.py,report_message_6,complex_method,MAJOR,0,66,21,0,0,0,0.1479789005637561,interest,1,66,5,2.5,0.0043338577113330905
+vigenere,v0.3,v0.4,2,vigenere/core.py::report_message_6::long_method,vigenere/core.py,report_message_6,long_method,MAJOR,0,66,21,1,5,1,0.1479789005637561,none,1,66,0,0,0.0
+vigenere,v0.3,v0.4,2,vigenere/core.py::report_message_6::complex_method,vigenere/core.py,report_message_6,complex_method,MAJOR,0,66,21,1,5,1,0.1479789005637561,none,1,66,0,0,0.0
+vigenere,v0.4,v0.5,3,vigenere/core.py::report_message_6::long_method,vigenere/core.py,report_message_6,long_method,MAJOR,0,66,21,2,5,1,0.1479789005637561,repayment,0,0,1,0,0.0
+vigenere,v0.4,v0.5,3,vigenere/core.py::report_message_6::complex_method,vigenere/core.py,report_message_6,complex_method,MAJOR,0,66,21,2,5,1,0.1479789005637561,repayment,0,0,1,0,0.0

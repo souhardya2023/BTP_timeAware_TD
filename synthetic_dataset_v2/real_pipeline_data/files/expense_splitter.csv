@@ -1,0 +1,16 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+expense_splitter,1,expense_splitter/services.py,28,128,0,0
+expense_splitter,2,expense_splitter/rules.py,11,139,55,0
+expense_splitter,3,expense_splitter/services.py,24,150,0,0
+expense_splitter,3,expense_splitter/validators.py,1,24,0,0
+expense_splitter,6,expense_splitter/rules.py,2,139,55,0
+expense_splitter,6,expense_splitter/services.py,1,150,0,0
+expense_splitter,6,expense_splitter/storage.py,8,43,0,0
+expense_splitter,7,expense_splitter/services.py,2,149,0,0
+expense_splitter,7,expense_splitter/storage.py,3,46,0,0
+expense_splitter,8,expense_splitter/services.py,3,128,0,0
+expense_splitter,8,expense_splitter/storage.py,7,46,0,0
+expense_splitter,9,expense_splitter/storage.py,1,46,0,0
+expense_splitter,12,expense_splitter/rules.py,2,139,55,0
+expense_splitter,12,expense_splitter/storage.py,2,47,0,0
+expense_splitter,12,expense_splitter/utils.py,1,31,0,0

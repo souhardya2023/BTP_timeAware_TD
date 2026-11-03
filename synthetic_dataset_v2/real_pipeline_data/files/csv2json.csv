@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+csv2json,0,csv2json/core.py,12,150,74,11
+csv2json,0,csv2json/services.py,37,60,0,0
+csv2json,1,csv2json/core.py,1,150,74,0
+csv2json,1,csv2json/services.py,11,68,0,0
+csv2json,2,csv2json/core.py,1,141,65,1
+csv2json,3,csv2json/core.py,4,144,65,0
+csv2json,3,csv2json/services.py,2,68,0,0

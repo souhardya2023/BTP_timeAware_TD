@@ -1,0 +1,17 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+card_memory,0,card_memory/rules.py,7,137,52,0
+card_memory,0,card_memory/storage.py,8,61,0,0
+card_memory,1,card_memory/rules.py,2,137,52,2
+card_memory,1,card_memory/services.py,3,67,0,0
+card_memory,2,card_memory/rules.py,1,135,52,0
+card_memory,2,card_memory/services.py,14,77,0,0
+card_memory,2,card_memory/storage.py,7,66,0,0
+card_memory,3,card_memory/rules.py,1,135,52,0
+card_memory,3,card_memory/services.py,2,76,0,0
+card_memory,3,card_memory/storage.py,17,79,0,0
+card_memory,4,card_memory/rules.py,11,136,52,0
+card_memory,4,card_memory/validators.py,12,36,0,0
+card_memory,5,card_memory/models.py,1,39,0,0
+card_memory,5,card_memory/rules.py,6,142,52,0
+card_memory,5,card_memory/validators.py,1,36,0,0
+card_memory,6,card_memory/storage.py,1,79,0,0

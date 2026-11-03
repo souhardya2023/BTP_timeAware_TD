@@ -1,0 +1,12 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+podcast_directory,0,v0.1,v0.2,2019-01-08,2019-02-17,minor,3,649,446,384,159,8,15,1,1,2
+podcast_directory,1,v0.2,v0.3,2019-02-17,2019-05-29,minor,5,384,159,417,159,8,45,8,8,15
+podcast_directory,2,v0.3,v0.4,2019-05-29,2019-09-04,minor,2,417,159,417,159,8,3,0,0,1
+podcast_directory,3,v0.4,v0.5,2019-09-04,2019-11-11,minor,5,417,159,395,127,8,15,0,1,7
+podcast_directory,4,v0.5,v0.6,2019-11-11,2020-02-02,minor,2,395,127,397,127,8,16,0,0,3
+podcast_directory,5,v0.6,v0.7,2020-02-02,2020-04-05,minor,4,397,127,401,127,8,8,0,0,3
+podcast_directory,6,v0.7,v0.8,2020-04-05,2020-08-05,minor,4,401,127,413,127,8,23,0,0,5
+podcast_directory,7,v0.8,v0.9,2020-08-05,2020-12-25,minor,5,413,127,421,127,8,11,0,0,4
+podcast_directory,8,v0.9,v0.10,2020-12-25,2021-01-23,minor,1,421,127,421,127,8,0,0,0,0
+podcast_directory,9,v0.10,v0.11,2021-01-23,2021-02-20,minor,2,421,127,426,127,8,6,0,0,1
+podcast_directory,10,v0.11,v0.12,2021-02-20,2021-03-24,minor,1,426,127,426,127,8,1,0,0,1

@@ -1,0 +1,10 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+regex_helper,v0.3,v0.4,2,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,0,0,0,0,0,0.0,introduced,1,11,11,0,0.0
+regex_helper,v0.4,v0.5,3,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,0,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.5,v0.6,4,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,1,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.6,v0.7,5,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,2,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.7,v0.8,6,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,3,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.8,v0.9,7,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,4,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.9,v0.10,8,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,5,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.10,v0.11,9,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,6,0,0,0.02062846280146194,none,1,11,0,0,0.0
+regex_helper,v0.11,v0.12,10,regex_helper/rules.py::build_sample_7::many_params,regex_helper/rules.py,build_sample_7,many_params,MAJOR,0,11,4,7,0,0,0.02062846280146194,none,1,11,0,0,0.0

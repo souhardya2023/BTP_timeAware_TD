@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+temperature_converter,0,v0.1,v0.2,2019-01-11,2019-01-18,minor,10,237,96,284,108,5,59,15,4,12
+temperature_converter,1,v0.2,v0.3,2019-01-18,2019-01-21,minor,4,284,108,373,185,5,94,81,14,5
+temperature_converter,2,v0.3,v0.4,2019-01-21,2019-01-23,minor,3,373,185,384,185,5,13,2,2,2
+temperature_converter,3,v0.4,v0.5,2019-01-23,2019-01-27,minor,5,384,185,405,186,5,30,7,7,9

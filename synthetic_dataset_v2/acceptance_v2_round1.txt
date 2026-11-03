@@ -1,0 +1,29 @@
+                               test   real  accept_low  accept_high  value  passed                           note
+               H1_func_median_lines  8.000        4.00        12.00  7.000    True functions: real Python 5, C 11
+                  H1_func_p90_lines 34.000       18.00        50.00 17.000   False           real Python 22, C 46
+                   H1_corr_size_ccn  0.880        0.70         1.00  0.973    True                               
+             H2_debt_function_share  0.120        0.05         0.20  0.051    True        real C 17 %, Python 8 %
+          H2_debt_line_share_median  0.410        0.20         0.60  0.283    True                               
+                     H3_logit_slope  0.607        0.45         0.75  0.946   False                               
+                    H4_debt_flag_OR  1.070        0.85         1.25  1.042    True                   no avoidance
+              H4_enrichment_matched  1.110        0.90         1.30  1.290    True                               
+                           H5_ratio  4.000        3.00         5.00  3.547    True   lag-1 ratio (real 0.46/0.11)
+                     H5_adjusted_OR  4.630        3.00         8.00  2.905   False                               
+            H6_gini_per_repo_median  0.720        0.60         0.85  0.600    True                               
+H6_never_pay_10plus_per_repo_median  0.220        0.15         0.40  0.333    True                               
+              H7_event_lines_median  2.500        2.00         4.00  2.250    True                               
+                 H7_event_lines_p90 16.000       12.00        25.00 12.000    True                               
+                      H9_rate_patch  0.089        0.05         0.13  0.084    True                               
+                      H9_rate_minor  0.282        0.20         0.36  0.267    True                               
+                      H9_rate_major  0.315        0.20         0.42  0.268    True                               
+                    H9_R2_step_days  0.265        0.15         0.40  0.153    True                               
+                    H9_corr_commits  0.730        0.60         0.85  0.566   False                               
+                       H10_autocorr -0.070       -0.20         0.10  0.034    True                               
+           H11_born_in_new_function  0.760        0.60         0.95  0.870    True                               
+                    H11_survival_12  0.570        0.45         0.70  0.653    True                               
+                 H11_repayment_rate  0.069        0.03         0.09  0.039    True                               
+                         H11_age_OR  0.929        0.85         1.00  0.996    True                               
+              H12_multi_smell_share  0.470        0.35         0.60  0.513    True                               
+               H13_churn_median_pct  1.400        1.00         2.00  2.282   False                               
+                    mean_event_rate  0.172        0.12         0.23  0.170    True                               
+passed 22 of 27

@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+random_number,0,v0.1,v0.2,2019-01-08,2019-02-03,minor,3,333,175,392,212,5,60,37,3,11
+random_number,1,v0.2,v0.3,2019-02-03,2019-04-30,minor,7,392,212,470,284,5,159,157,37,8
+random_number,2,v0.3,v0.4,2019-04-30,2019-07-04,minor,2,470,284,470,284,5,10,8,8,4
+random_number,3,v0.4,v0.5,2019-07-04,2019-11-23,minor,6,470,284,491,284,5,64,35,35,9
+random_number,4,v0.5,v0.6,2019-11-23,2020-01-07,minor,3,491,284,494,287,5,28,20,20,3

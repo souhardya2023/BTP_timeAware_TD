@@ -1,0 +1,10 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+iot_mailbox,0,iot_mailbox/core.py,29,132,11,11
+iot_mailbox,0,iot_mailbox/services.py,7,33,0,0
+iot_mailbox,1,iot_mailbox/core.py,17,146,11,0
+iot_mailbox,1,iot_mailbox/models.py,4,17,0,0
+iot_mailbox,2,iot_mailbox/core.py,23,166,11,0
+iot_mailbox,2,iot_mailbox/models.py,17,31,0,0
+iot_mailbox,3,iot_mailbox/core.py,35,189,11,0
+iot_mailbox,3,iot_mailbox/models.py,3,34,0,0
+iot_mailbox,4,iot_mailbox/core.py,13,199,11,0

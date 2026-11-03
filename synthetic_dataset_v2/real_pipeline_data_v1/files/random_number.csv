@@ -1,0 +1,9 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+random_number,0,random_number/core.py,10,288,206,0
+random_number,1,random_number/core.py,39,326,240,34
+random_number,2,random_number/core.py,24,350,240,0
+random_number,3,random_number/core.py,36,375,243,10
+random_number,3,random_number/models.py,1,26,0,0
+random_number,3,random_number/services.py,1,23,0,0
+random_number,4,random_number/core.py,21,352,207,2
+random_number,4,random_number/models.py,1,26,0,0

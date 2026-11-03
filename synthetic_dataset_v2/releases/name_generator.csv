@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+name_generator,v0.1,v0.2,0,0.0382,0,379,62,0,6
+name_generator,v0.2,v0.3,1,0.0423,15,379,62,0,6
+name_generator,v0.3,v0.4,2,0.1334,22,393,74,0,7
+name_generator,v0.4,v0.5,3,0.1457,3,415,93,1,9
+name_generator,v0.5,v0.6,4,0.1599,1,417,94,1,10
+name_generator,v0.6,v0.7,5,0.7606,5,412,87,0,9
+name_generator,v0.7,v0.8,6,0.121,0,412,87,0,9
+name_generator,v0.8,v0.9,7,0.0901,4,412,87,4,9
+name_generator,v0.9,v0.10,8,0.0891,0,397,75,0,8

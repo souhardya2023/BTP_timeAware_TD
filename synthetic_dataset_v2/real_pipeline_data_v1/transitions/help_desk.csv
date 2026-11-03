@@ -1,0 +1,17 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+help_desk,v0.4,v0.5,3,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,60,60,0,0.0
+help_desk,v0.4,v0.5,3,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,60,60,0,0.0
+help_desk,v0.5,v0.6,4,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,0,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.5,v0.6,4,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,0,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.6,v0.7,5,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,1,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.6,v0.7,5,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,1,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.7,v0.8,6,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,2,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.7,v0.8,6,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,2,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.8,v0.9,7,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,3,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.8,v0.9,7,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,3,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.9,v0.10,8,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,4,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.9,v0.10,8,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,4,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.10,v0.11,9,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,5,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.10,v0.11,9,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,5,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.11,v0.12,10,help_desk/rules.py::report_ticket_6::long_method,help_desk/rules.py,report_ticket_6,long_method,MAJOR,0,60,19,6,0,0,0.1332540018328541,none,1,60,0,0,0.0
+help_desk,v0.11,v0.12,10,help_desk/rules.py::report_ticket_6::complex_method,help_desk/rules.py,report_ticket_6,complex_method,MAJOR,0,60,19,6,0,0,0.1332540018328541,none,1,60,0,0,0.0

@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+roman_numerals,0,v0.1,v0.2,2019-01-13,2019-01-21,minor,10,166,0,234,30,5,79,30,0,14
+roman_numerals,1,v0.2,v0.3,2019-01-21,2019-01-26,minor,7,234,30,270,30,5,41,2,2,9
+roman_numerals,2,v0.3,v0.4,2019-01-26,2019-02-02,minor,10,270,30,300,30,5,43,0,0,14
+roman_numerals,3,v0.4,v0.5,2019-02-02,2019-02-04,minor,2,300,30,300,30,5,3,0,0,1
+roman_numerals,4,v0.5,v0.6,2019-02-04,2019-02-08,minor,6,300,30,311,30,5,18,0,0,8

@@ -1,0 +1,6 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+roman_numerals,v0.1,v0.2,0,roman_numerals/services.py::announce_batch::complex_method,roman_numerals/services.py,announce_batch,complex_method,MAJOR,0,37,12,0,0,0,0.078306671880694,none,1,37,0,0,0.0
+roman_numerals,v0.2,v0.3,1,roman_numerals/services.py::announce_batch::complex_method,roman_numerals/services.py,announce_batch,complex_method,MAJOR,0,37,12,1,0,0,0.078306671880694,interest,1,37,8,8.0,0.014533673151847611
+roman_numerals,v0.3,v0.4,2,roman_numerals/services.py::announce_batch::complex_method,roman_numerals/services.py,announce_batch,complex_method,MAJOR,0,37,12,2,8,1,0.078306671880694,none,1,37,0,0,0.0
+roman_numerals,v0.4,v0.5,3,roman_numerals/services.py::announce_batch::complex_method,roman_numerals/services.py,announce_batch,complex_method,MAJOR,0,37,12,3,8,1,0.078306671880694,none,1,37,0,0,0.0
+roman_numerals,v0.5,v0.6,4,roman_numerals/services.py::announce_batch::complex_method,roman_numerals/services.py,announce_batch,complex_method,MAJOR,0,37,12,4,8,1,0.078306671880694,none,1,37,0,0,0.0

@@ -1,0 +1,14 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+qr_badge,1,qr_badge/rules.py,67,202,131,67
+qr_badge,2,qr_badge/rules.py,6,202,131,0
+qr_badge,2,qr_badge/storage.py,8,80,45,0
+qr_badge,3,qr_badge/storage.py,9,88,45,0
+qr_badge,4,qr_badge/rules.py,34,223,152,31
+qr_badge,5,qr_badge/rules.py,21,244,163,11
+qr_badge,5,qr_badge/storage.py,10,95,45,0
+qr_badge,6,qr_badge/rules.py,2,244,163,2
+qr_badge,6,qr_badge/validators.py,12,34,0,0
+qr_badge,8,qr_badge/storage.py,7,62,0,0
+qr_badge,8,qr_badge/validators.py,1,34,0,0
+qr_badge,9,qr_badge/storage.py,3,62,0,0
+qr_badge,10,qr_badge/validators.py,8,34,0,0

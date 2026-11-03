@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+mortgage_calculator,0,mortgage_calculator/core.py,8,221,121,0
+mortgage_calculator,0,mortgage_calculator/services.py,11,42,0,0
+mortgage_calculator,1,mortgage_calculator/core.py,43,260,159,38
+mortgage_calculator,1,mortgage_calculator/models.py,28,39,0,0
+mortgage_calculator,1,mortgage_calculator/services.py,10,52,0,0
+mortgage_calculator,3,mortgage_calculator/core.py,2,260,159,0
+mortgage_calculator,4,mortgage_calculator/core.py,2,260,159,0

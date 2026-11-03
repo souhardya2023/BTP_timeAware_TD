@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+christmas_lights,0,christmas_lights/models.py,4,17,0,0
+christmas_lights,0,christmas_lights/services.py,20,63,0,0
+christmas_lights,1,christmas_lights/core.py,7,183,68,6
+christmas_lights,1,christmas_lights/services.py,28,87,0,0
+christmas_lights,2,christmas_lights/services.py,5,88,0,0
+christmas_lights,3,christmas_lights/core.py,5,150,32,0
+christmas_lights,4,christmas_lights/services.py,5,89,0,0

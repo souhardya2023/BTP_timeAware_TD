@@ -1,0 +1,12 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+vigenere,v0.1,v0.2,0,vigenere/core.py::tally_keyrings::long_method,vigenere/core.py,tally_keyrings,long_method,MAJOR,0,76,25,0,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.1,v0.2,0,vigenere/core.py::tally_keyrings::complex_method,vigenere/core.py,tally_keyrings,complex_method,MAJOR,0,76,25,0,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.1,v0.2,0,vigenere/core.py::classify_keyring_7::complex_method,vigenere/core.py,classify_keyring_7,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,32,32,0,0.0
+vigenere,v0.2,v0.3,1,vigenere/core.py::tally_keyrings::long_method,vigenere/core.py,tally_keyrings,long_method,MAJOR,0,76,25,1,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.2,v0.3,1,vigenere/core.py::tally_keyrings::complex_method,vigenere/core.py,tally_keyrings,complex_method,MAJOR,0,76,25,1,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.2,v0.3,1,vigenere/core.py::classify_keyring_7::complex_method,vigenere/core.py,classify_keyring_7,complex_method,MAJOR,0,32,15,0,0,0,0.06675145884150166,none,1,32,0,0,0.0
+vigenere,v0.3,v0.4,2,vigenere/core.py::tally_keyrings::long_method,vigenere/core.py,tally_keyrings,long_method,MAJOR,0,76,25,2,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.3,v0.4,2,vigenere/core.py::tally_keyrings::complex_method,vigenere/core.py,tally_keyrings,complex_method,MAJOR,0,76,25,2,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.3,v0.4,2,vigenere/core.py::classify_keyring_7::complex_method,vigenere/core.py,classify_keyring_7,complex_method,MAJOR,0,32,15,1,0,0,0.06675145884150166,repayment,0,0,4,0,0.0
+vigenere,v0.4,v0.5,3,vigenere/core.py::tally_keyrings::long_method,vigenere/core.py,tally_keyrings,long_method,MAJOR,0,76,25,3,0,0,0.17281364793370627,none,1,76,0,0,0.0
+vigenere,v0.4,v0.5,3,vigenere/core.py::tally_keyrings::complex_method,vigenere/core.py,tally_keyrings,complex_method,MAJOR,0,76,25,3,0,0,0.17281364793370627,none,1,76,0,0,0.0

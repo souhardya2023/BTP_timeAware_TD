@@ -1,0 +1,6 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+number_guess,0,number_guess/core.py,39,183,30,0
+number_guess,0,number_guess/models.py,33,36,0,0
+number_guess,0,number_guess/services.py,13,41,0,0
+number_guess,1,number_guess/core.py,5,187,30,0
+number_guess,1,number_guess/services.py,1,41,0,0

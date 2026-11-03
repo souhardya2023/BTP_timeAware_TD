@@ -1,0 +1,13 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+string_art,0,string_art/rules.py,8,287,189,4
+string_art,1,string_art/rules.py,159,408,304,155
+string_art,2,string_art/rules.py,1,408,304,0
+string_art,3,string_art/rules.py,34,438,334,34
+string_art,3,string_art/storage.py,1,30,0,0
+string_art,3,string_art/validators.py,1,12,0,0
+string_art,4,string_art/rules.py,37,474,364,31
+string_art,4,string_art/validators.py,1,12,0,0
+string_art,5,string_art/rules.py,18,474,364,13
+string_art,5,string_art/services.py,13,57,0,0
+string_art,6,string_art/rules.py,3,446,334,2
+string_art,7,string_art/rules.py,31,450,338,11

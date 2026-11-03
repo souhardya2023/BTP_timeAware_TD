@@ -1,0 +1,10 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+word_frequency,0,word_frequency/core.py,4,281,143,0
+word_frequency,0,word_frequency/models.py,15,26,0,0
+word_frequency,0,word_frequency/services.py,9,198,148,8
+word_frequency,1,word_frequency/core.py,2,281,143,0
+word_frequency,1,word_frequency/services.py,30,222,152,5
+word_frequency,2,word_frequency/core.py,9,281,143,0
+word_frequency,2,word_frequency/services.py,5,222,152,4
+word_frequency,3,word_frequency/core.py,6,281,143,2
+word_frequency,3,word_frequency/services.py,25,222,152,24

@@ -1,0 +1,102 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+payroll,v0.1,v0.2,0,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+payroll,v0.1,v0.2,0,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.1,v0.2,0,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,0,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.1,v0.2,0,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.2,v0.3,1,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+payroll,v0.2,v0.3,1,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.2,v0.3,1,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,1,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.2,v0.3,1,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.3,v0.4,2,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,2,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+payroll,v0.3,v0.4,2,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.3,v0.4,2,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,2,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.3,v0.4,2,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.3,v0.4,2,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.4,v0.5,3,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,3,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+payroll,v0.4,v0.5,3,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,3,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.4,v0.5,3,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,3,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.4,v0.5,3,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.4,v0.5,3,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.4,v0.5,3,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,4,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,4,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,4,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,4,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.5,v0.6,4,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,5,1,1,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+payroll,v0.6,v0.7,5,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,5,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,5,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,5,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,3,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.6,v0.7,5,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+payroll,v0.6,v0.7,5,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,6,2,2,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+payroll,v0.7,v0.8,6,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,6,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,6,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,6,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,4,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.7,v0.8,6,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,1,1,1,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+payroll,v0.7,v0.8,6,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,interest,1,7,2,1.0,0.001476547186496228
+payroll,v0.8,v0.9,7,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,7,3,3,0.001476547186496228,none,1,1,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,7,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,7,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,7,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,5,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.8,v0.9,7,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,2,2,2,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+payroll,v0.8,v0.9,7,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,2,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D01,payroll/validators.py,<imports>:from . import storage,synth:import_cycle,MAJOR,15,1,1,8,3,3,0.001476547186496228,repayment,0,0,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,8,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,8,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,8,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,6,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,3,3,3,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+payroll,v0.9,v0.10,8,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,3,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.9,v0.10,8,payroll-D10,payroll/storage.py,find_payslip_by_employee_10,synth:sql_injection,MAJOR,15,8,1,0,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,9,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,9,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,9,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,7,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,4,4,4,0.010592055810999847,none,1,6,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,4,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.10,v0.11,9,payroll-D10,payroll/storage.py,find_payslip_by_employee_10,synth:sql_injection,MAJOR,15,8,1,1,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D02,payroll/storage.py,load_payslip_blob_2,synth:unsafe_deserialize,MAJOR,15,5,3,10,0,0,0.008667715422666181,repayment,0,5,1,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,10,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,10,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,8,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,5,4,4,0.010592055810999847,none,1,6,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,5,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.11,v0.12,10,payroll-D10,payroll/storage.py,find_payslip_by_employee_10,synth:sql_injection,MAJOR,15,8,1,2,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,11,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,11,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D05,payroll/storage.py,load_payslip_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,9,0,0,0.008667715422666181,repayment,0,5,1,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,6,4,4,0.010592055810999847,none,1,6,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,6,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.12,v0.13,11,payroll-D10,payroll/storage.py,find_payslip_by_employee_10,synth:sql_injection,MAJOR,15,8,1,3,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,12,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D04,payroll/services.py,sign_deduction_4,synth:weak_hash_secret,MAJOR,15,3,1,12,0,0,0.004942396395519926,repayment,0,3,1,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,9,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D07,payroll/services.py,update_deduction_total_7,synth:lock_not_released,MAJOR,15,7,2,8,0,0,0.012548784031360172,repayment,0,6,3,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,7,4,4,0.010592055810999847,none,1,6,0,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,7,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.13,v0.14,12,payroll-D10,payroll/storage.py,find_payslip_by_employee_10,synth:sql_injection,MAJOR,15,8,1,4,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+payroll,v0.14,v0.15,13,payroll-D03,payroll/services.py,new_payslip_token_3,synth:insecure_random,MAJOR,15,2,2,13,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+payroll,v0.14,v0.15,13,payroll-D06,payroll/services.py,archive_employee_6,synth:shell_injection,MAJOR,15,4,1,10,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+payroll,v0.14,v0.15,13,payroll-D08,payroll/storage.py,read_employee_file_8,synth:path_traversal,MAJOR,15,6,2,8,4,4,0.010592055810999847,none,1,6,0,0.0,0.0
+payroll,v0.14,v0.15,13,payroll-D09,payroll/storage.py,read_deduction_file_9,synth:path_traversal,MAJOR,15,7,2,8,1,1,0.012548784031360172,none,1,7,0,0.0,0.0
+payroll,v0.14,v0.15,13,payroll-D10,payroll/storage.py,find_payslip_by_employee_10,synth:sql_injection,MAJOR,15,8,1,5,0,0,0.014533673151847611,repayment,0,7,1,0.0,0.0

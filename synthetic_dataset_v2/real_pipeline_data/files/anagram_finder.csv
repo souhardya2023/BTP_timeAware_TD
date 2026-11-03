@@ -1,0 +1,11 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+anagram_finder,0,anagram_finder/core.py,44,189,85,40
+anagram_finder,0,anagram_finder/models.py,1,13,0,0
+anagram_finder,0,anagram_finder/services.py,19,73,0,0
+anagram_finder,1,anagram_finder/core.py,9,195,85,1
+anagram_finder,1,anagram_finder/models.py,1,13,0,0
+anagram_finder,1,anagram_finder/services.py,3,74,0,0
+anagram_finder,2,anagram_finder/services.py,3,68,0,0
+anagram_finder,3,anagram_finder/core.py,1,196,86,1
+anagram_finder,4,anagram_finder/core.py,11,169,47,7
+anagram_finder,4,anagram_finder/models.py,1,13,0,0

@@ -1,0 +1,6 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+palindrome,0,palindrome/core.py,28,251,119,24
+palindrome,1,palindrome/core.py,32,281,149,30
+palindrome,1,palindrome/services.py,12,47,0,0
+palindrome,2,palindrome/core.py,13,290,186,9
+palindrome,2,palindrome/models.py,1,26,0,0

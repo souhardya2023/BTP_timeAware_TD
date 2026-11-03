@@ -1,0 +1,684 @@
+{
+ "repos": 148,
+ "repos_python": 148,
+ "instances": 1206,
+ "obs": 11024,
+ "events": 1906,
+ "pm_total": 17.45,
+ "conc": {
+  "all": {
+   "instances": 1206,
+   "gini": 0.819,
+   "never_pay_10plus": 0.382,
+   "top10": 0.651,
+   "top20": 0.872
+  },
+  "python": {
+   "instances": 1206,
+   "gini": 0.819,
+   "never_pay_10plus": 0.382,
+   "top10": 0.651,
+   "top20": 0.872
+  },
+  "c": {
+   "instances": 0,
+   "gini": 0.0,
+   "never_pay_10plus": NaN,
+   "top10": NaN,
+   "top20": NaN
+  },
+  "original 9": {
+   "instances": 0,
+   "gini": 0.0,
+   "never_pay_10plus": NaN,
+   "top10": NaN,
+   "top20": NaN
+  },
+  "new 24": {
+   "instances": 1206,
+   "gini": 0.819,
+   "never_pay_10plus": 0.382,
+   "top10": 0.651,
+   "top20": 0.872
+  }
+ },
+ "gini_repo": [
+  0.0,
+  0.63,
+  0.92
+ ],
+ "event_lines": {
+  "median": 2.5,
+  "p90": 13.0
+ },
+ "memory": {
+  "lags": [
+   0.419,
+   0.395,
+   0.377,
+   0.386,
+   0.375,
+   0.393
+  ],
+  "no_event": 0.118,
+  "dose": {
+   "0": 0.09,
+   "1": 0.198,
+   "2": 0.256,
+   "3-4": 0.347,
+   "5+": 0.523
+  }
+ },
+ "memory_macro": {
+  "n": 60,
+  "after_event": 0.39,
+  "after_none": 0.148,
+  "higher_in": 47
+ },
+ "contagion_ratio": 2.05,
+ "contagion_or_adj": [
+  0.63,
+  0.39,
+  1.02
+ ],
+ "size_logit_slope": [
+  0.71,
+  0.152
+ ],
+ "beta_lines": [
+  0.637,
+  0.144
+ ],
+ "size_logit_slope_python": [
+  0.71,
+  0.152
+ ],
+ "spearman_size_rate": [
+  0.07,
+  -0.22,
+  0.47
+ ],
+ "frozen_live_size": [
+  55.0,
+  59.0
+ ],
+ "smell_or_same_size": [
+  0.97,
+  0.76,
+  1.24
+ ],
+ "enrichment": {
+  "pooled": 0.59,
+  "debt_share_code": 0.385,
+  "debt_share_edits": 0.226,
+  "median": 0.38,
+  "below1": 129,
+  "n": 148,
+  "python": 0.38,
+  "c": NaN
+ },
+ "step": {
+  "minor": {
+   "pairs": 1630,
+   "rate": 0.158,
+   "churn_pct": 2.22,
+   "days": 51.5,
+   "commits": 2.0
+  }
+ },
+ "patch_vs_minor_p": NaN,
+ "clock_autocorr": 0.02,
+ "clock_ldays_c": 0.34,
+ "clock_lcommits_c": 0.55,
+ "clock_lchurn_prev": 0.05,
+ "icc": {
+  "instance": 0.279,
+  "release": 0.166
+ },
+ "age_or": [
+  0.945,
+  0.905,
+  0.987
+ ],
+ "age_bins": {
+  "0": 0.214,
+  "1": 0.258,
+  "2-3": 0.192,
+  "4-6": 0.147,
+  "7+": 0.162
+ },
+ "survival": [
+  0.974,
+  0.902,
+  0.834,
+  0.699
+ ],
+ "intro_existing_share": 0.15,
+ "rule": {
+  "complex_method": {
+   "obs": 7004,
+   "rep": 0.041,
+   "ev": 0.163,
+   "size": 49.0
+  },
+  "long_method": {
+   "obs": 3402,
+   "rep": 0.039,
+   "ev": 0.208,
+   "size": 74.0
+  },
+  "many_params": {
+   "obs": 618,
+   "rep": 0.0,
+   "ev": 0.092,
+   "size": 11.0
+  }
+ },
+ "repay_rate": 0.038,
+ "multi_smell_share": 0.49,
+ "pow": {
+  "models": [
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "size",
+    "auc": 0.622,
+    "cap20": 30.1,
+    "cap30": 43.6,
+    "cap50": 57.7,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "persist",
+    "auc": 0.73,
+    "cap20": 48.5,
+    "cap30": 62.5,
+    "cap50": 76.3,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "persist_size",
+    "auc": 0.732,
+    "cap20": 48.5,
+    "cap30": 62.3,
+    "cap50": 75.3,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "logit_base",
+    "auc": 0.786,
+    "cap20": 48.9,
+    "cap30": 63.3,
+    "cap50": 79.3,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "logit_prox",
+    "auc": 0.785,
+    "cap20": 49.1,
+    "cap30": 63.7,
+    "cap50": 79.3,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "logit_prox_clock",
+    "auc": 0.785,
+    "cap20": 49.1,
+    "cap30": 63.7,
+    "cap50": 79.3,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "gb_base",
+    "auc": 0.778,
+    "cap20": 47.5,
+    "cap30": 63.6,
+    "cap50": 79.3,
+    "groups": 511
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "gb_prox_clock",
+    "auc": 0.777,
+    "cap20": 46.7,
+    "cap30": 62.2,
+    "cap50": 79.0,
+    "groups": 511
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "size",
+    "auc": 0.646,
+    "cap20": 28.0,
+    "cap30": 42.1,
+    "cap50": 61.6,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "persist",
+    "auc": 0.773,
+    "cap20": 50.8,
+    "cap30": 65.1,
+    "cap50": 79.6,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "persist_size",
+    "auc": 0.774,
+    "cap20": 50.4,
+    "cap30": 64.8,
+    "cap50": 79.2,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "logit_base",
+    "auc": 0.812,
+    "cap20": 49.2,
+    "cap30": 66.8,
+    "cap50": 82.0,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "logit_prox",
+    "auc": 0.812,
+    "cap20": 49.4,
+    "cap30": 66.2,
+    "cap50": 81.8,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "logit_prox_clock",
+    "auc": 0.807,
+    "cap20": 49.1,
+    "cap30": 65.6,
+    "cap50": 81.4,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "gb_base",
+    "auc": 0.809,
+    "cap20": 49.0,
+    "cap30": 65.7,
+    "cap50": 82.2,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "gb_prox_clock",
+    "auc": 0.804,
+    "cap20": 50.0,
+    "cap30": 65.6,
+    "cap50": 80.9,
+    "groups": 203
+   }
+  ],
+  "paired": [
+   {
+    "protocol": "LORO",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -0.0,
+    "lo": -1.2,
+    "hi": 1.3,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -0.2,
+    "lo": -1.8,
+    "hi": 1.5,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -18.4,
+    "lo": -22.2,
+    "hi": -14.5,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -18.9,
+    "lo": -23.0,
+    "hi": -14.7,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": 0.4,
+    "lo": -2.0,
+    "hi": 2.7,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 0.9,
+    "lo": -1.3,
+    "hi": 3.2,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 20,
+    "diff_pts": 0.1,
+    "lo": -0.4,
+    "hi": 0.6,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 30,
+    "diff_pts": 0.5,
+    "lo": 0.1,
+    "hi": 1.0,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 20,
+    "diff_pts": 0.0,
+    "lo": -0.1,
+    "hi": 0.1,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 30,
+    "diff_pts": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": 0.5,
+    "lo": -1.9,
+    "hi": 3.0,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 1.4,
+    "lo": -0.8,
+    "hi": 3.6,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 20,
+    "diff_pts": -0.7,
+    "lo": -2.3,
+    "hi": 0.8,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 30,
+    "diff_pts": -1.3,
+    "lo": -2.9,
+    "hi": 0.2,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": -1.0,
+    "lo": -3.6,
+    "hi": 1.4,
+    "groups": 511
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 1.3,
+    "lo": -1.4,
+    "hi": 4.0,
+    "groups": 511
+   },
+   {
+    "protocol": "temporal",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -0.5,
+    "lo": -1.8,
+    "hi": 0.6,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -0.4,
+    "lo": -2.2,
+    "hi": 1.4,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -22.9,
+    "lo": -28.9,
+    "hi": -17.2,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -23.1,
+    "lo": -29.7,
+    "hi": -16.5,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": -1.2,
+    "lo": -5.5,
+    "hi": 2.9,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 2.0,
+    "lo": -1.8,
+    "hi": 5.5,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 20,
+    "diff_pts": 0.2,
+    "lo": -0.2,
+    "hi": 0.8,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 30,
+    "diff_pts": -0.5,
+    "lo": -1.8,
+    "hi": 0.4,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 20,
+    "diff_pts": -0.4,
+    "lo": -1.5,
+    "hi": 0.4,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 30,
+    "diff_pts": -0.6,
+    "lo": -1.6,
+    "hi": 0.4,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": -1.3,
+    "lo": -5.7,
+    "hi": 2.8,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 0.9,
+    "lo": -3.1,
+    "hi": 4.6,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 20,
+    "diff_pts": 1.0,
+    "lo": -1.0,
+    "hi": 3.2,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 30,
+    "diff_pts": -0.0,
+    "lo": -2.6,
+    "hi": 2.6,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": -1.4,
+    "lo": -6.0,
+    "hi": 2.9,
+    "groups": 203
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 0.9,
+    "lo": -3.1,
+    "hi": 5.0,
+    "groups": 203
+   }
+  ]
+ },
+ "pow_coef": {
+  "lsize": 0.936,
+  "lccn": -0.654,
+  "lpast_il": 0.214,
+  "lpast_n": 0.951,
+  "lage": -0.721,
+  "is_py": 0.0,
+  "r_long_method": -0.189,
+  "r_complex_method": -0.2,
+  "f_file": 0.068,
+  "f_dir": 0.058,
+  "f_file_rel": -0.057,
+  "f_repo": -0.017
+ },
+ "auc_f_file": 0.6,
+ "auc_f_dir": 0.547,
+ "auc_f_file_rel": 0.602,
+ "auc_f_repo": 0.557,
+ "auc_size": 0.622,
+ "auc_past": 0.73,
+ "funcs_python": {
+  "n": 8587,
+  "med": 7.0,
+  "p90": 18.0,
+  "mu": 1.86,
+  "sigma": 0.88,
+  "smell_share": 0.065
+ },
+ "debt_code_share": [
+  0.34,
+  0.0,
+  0.74
+ ],
+ "growth": 1.09,
+ "churn_median_pct": 2.3
+}

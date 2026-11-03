@@ -1,0 +1,9 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+tip_calculator,0,tip_calculator/core.py,108,199,30,30
+tip_calculator,0,tip_calculator/models.py,3,27,0,0
+tip_calculator,0,tip_calculator/services.py,21,94,0,0
+tip_calculator,1,tip_calculator/core.py,9,200,30,0
+tip_calculator,1,tip_calculator/models.py,1,27,0,0
+tip_calculator,3,tip_calculator/services.py,3,94,0,0
+tip_calculator,4,tip_calculator/core.py,35,230,30,0
+tip_calculator,4,tip_calculator/services.py,4,71,0,0

@@ -1,0 +1,6 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+hangman,0,hangman/core.py,18,211,92,11
+hangman,0,hangman/services.py,6,112,76,0
+hangman,1,hangman/services.py,6,118,76,0
+hangman,2,hangman/core.py,8,211,92,7
+hangman,2,hangman/services.py,7,118,76,6

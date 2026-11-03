@@ -1,0 +1,15 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+cinema_booking,v0.1,v0.2,0,2.2009,18,393,6,0,3
+cinema_booking,v0.2,v0.3,1,1.6404,12,404,6,0,3
+cinema_booking,v0.3,v0.4,2,0.2685,20,408,10,0,4
+cinema_booking,v0.4,v0.5,3,0.1117,4,420,20,0,6
+cinema_booking,v0.5,v0.6,4,0.2254,14,405,24,0,7
+cinema_booking,v0.6,v0.7,5,1.7031,3,417,36,1,9
+cinema_booking,v0.7,v0.8,6,0.507,2,417,36,0,9
+cinema_booking,v0.8,v0.9,7,1.98,7,417,36,1,9
+cinema_booking,v0.9,v0.10,8,2.3806,25,373,35,3,8
+cinema_booking,v0.10,v0.11,9,0.1786,1,383,30,1,7
+cinema_booking,v0.11,v0.12,10,0.8577,0,347,26,0,6
+cinema_booking,v0.12,v0.13,11,0.2639,1,347,26,1,6
+cinema_booking,v0.13,v0.14,12,0.2891,0,345,22,0,5
+cinema_booking,v0.14,v0.15,13,0.1224,0,345,22,0,5

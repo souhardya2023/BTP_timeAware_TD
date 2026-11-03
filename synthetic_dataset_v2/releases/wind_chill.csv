@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+wind_chill,v0.1,v0.2,0,1.0719,12,319,58,0,2
+wind_chill,v0.2,v0.3,1,0.8767,153,330,69,7,3
+wind_chill,v0.3,v0.4,2,0.9609,6,477,216,6,7
+wind_chill,v0.4,v0.5,3,1.8008,27,468,205,12,6
+wind_chill,v0.5,v0.6,4,1.6016,6,469,205,5,6

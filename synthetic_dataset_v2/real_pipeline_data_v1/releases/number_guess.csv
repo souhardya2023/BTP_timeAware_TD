@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+number_guess,0,v0.1,v0.2,2019-01-12,2019-02-01,minor,25,199,30,264,30,5,85,0,0,26
+number_guess,1,v0.2,v0.3,2019-02-01,2019-02-03,minor,4,264,30,268,30,5,6,0,0,3
+number_guess,2,v0.3,v0.4,2019-02-03,2019-02-03,minor,1,268,30,268,30,5,0,0,0,0
+number_guess,3,v0.4,v0.5,2019-02-03,2019-02-04,minor,1,268,30,268,30,5,0,0,0,0

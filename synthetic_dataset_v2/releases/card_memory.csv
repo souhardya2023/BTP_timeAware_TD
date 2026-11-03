@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+card_memory,v0.1,v0.2,0,0.0977,15,346,20,0,3
+card_memory,v0.2,v0.3,1,0.1412,5,358,32,0,5
+card_memory,v0.3,v0.4,2,0.2539,22,358,32,1,5
+card_memory,v0.4,v0.5,3,1.0743,20,377,43,15,6
+card_memory,v0.5,v0.6,4,1.4374,23,389,50,0,5
+card_memory,v0.6,v0.7,5,0.3864,8,402,50,0,5
+card_memory,v0.7,v0.8,6,0.0953,1,408,50,1,5
+card_memory,v0.8,v0.9,7,0.1193,0,408,44,0,4
+card_memory,v0.9,v0.10,8,0.2407,0,408,44,0,4
+card_memory,v0.10,v0.11,9,0.1982,0,408,44,0,4

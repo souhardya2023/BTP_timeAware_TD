@@ -1,0 +1,17 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+bank_ledger,0,bank_ledger/rules.py,13,142,38,0
+bank_ledger,0,bank_ledger/services.py,3,61,0,0
+bank_ledger,0,bank_ledger/storage.py,11,67,31,0
+bank_ledger,0,bank_ledger/utils.py,2,38,0,0
+bank_ledger,1,bank_ledger/rules.py,2,142,38,0
+bank_ledger,2,bank_ledger/services.py,4,65,0,0
+bank_ledger,2,bank_ledger/storage.py,12,68,32,1
+bank_ledger,3,bank_ledger/rules.py,5,146,38,0
+bank_ledger,3,bank_ledger/services.py,29,91,0,0
+bank_ledger,4,bank_ledger/rules.py,2,146,38,0
+bank_ledger,4,bank_ledger/services.py,2,92,0,0
+bank_ledger,4,bank_ledger/storage.py,2,31,0,0
+bank_ledger,6,bank_ledger/services.py,2,92,0,0
+bank_ledger,6,bank_ledger/storage.py,6,36,0,0
+bank_ledger,7,bank_ledger/services.py,2,93,0,0
+bank_ledger,8,bank_ledger/storage.py,1,36,0,0

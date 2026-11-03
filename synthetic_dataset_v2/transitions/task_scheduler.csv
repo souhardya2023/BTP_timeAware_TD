@@ -1,0 +1,55 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+task_scheduler,v0.1,v0.2,0,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.1,v0.2,0,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.1,v0.2,0,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.1,v0.2,0,task_scheduler-D04,task_scheduler/services.py,archive_run_4,synth:shell_injection,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.2,v0.3,1,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.2,v0.3,1,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.2,v0.3,1,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.2,v0.3,1,task_scheduler-D04,task_scheduler/services.py,archive_run_4,synth:shell_injection,MAJOR,15,4,1,1,0,0,0.006781608318638173,increase,1,5,1,0.0,0.0
+task_scheduler,v0.2,v0.3,1,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,0,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.3,v0.4,2,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.3,v0.4,2,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.3,v0.4,2,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.3,v0.4,2,task_scheduler-D04,task_scheduler/services.py,archive_run_4,synth:shell_injection,MAJOR,15,5,1,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+task_scheduler,v0.3,v0.4,2,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,1,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.4,v0.5,3,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.4,v0.5,3,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.4,v0.5,3,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.4,v0.5,3,task_scheduler-D04,task_scheduler/services.py,archive_run_4,synth:shell_injection,MAJOR,15,5,1,3,0,0,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+task_scheduler,v0.4,v0.5,3,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,2,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.4,v0.5,3,task_scheduler-D06,task_scheduler/utils.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+task_scheduler,v0.4,v0.5,3,task_scheduler-D07,task_scheduler/rules.py,locate_run_7,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,interest,1,3,1,1.0,0.001476547186496228
+task_scheduler,v0.5,v0.6,4,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.5,v0.6,4,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.5,v0.6,4,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,4,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.5,v0.6,4,task_scheduler-D04,task_scheduler/services.py,archive_run_4,synth:shell_injection,MAJOR,15,5,1,4,1,1,0.008667715422666181,repayment,0,3,1,0.0,0.0
+task_scheduler,v0.5,v0.6,4,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,3,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.5,v0.6,4,task_scheduler-D06,task_scheduler/utils.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+task_scheduler,v0.5,v0.6,4,task_scheduler-D07,task_scheduler/rules.py,locate_run_7,synth:message_chain,MAJOR,15,3,1,1,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,5,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,4,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D06,task_scheduler/utils.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D07,task_scheduler/rules.py,locate_run_7,synth:message_chain,MAJOR,15,3,1,2,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.6,v0.7,5,task_scheduler-D08,task_scheduler/rules.py,locate_worker_8,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.7,v0.8,6,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.7,v0.8,6,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.7,v0.8,6,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,6,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.7,v0.8,6,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,5,0,0,0.048648071972429215,interest,1,24,1,1.0,0.001476547186496228
+task_scheduler,v0.7,v0.8,6,task_scheduler-D06,task_scheduler/utils.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+task_scheduler,v0.7,v0.8,6,task_scheduler-D07,task_scheduler/rules.py,locate_run_7,synth:message_chain,MAJOR,15,3,1,3,1,1,0.004942396395519926,repayment,0,3,2,0.0,0.0
+task_scheduler,v0.7,v0.8,6,task_scheduler-D08,task_scheduler/rules.py,locate_worker_8,synth:message_chain,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.8,v0.9,7,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.8,v0.9,7,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.8,v0.9,7,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,7,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.8,v0.9,7,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,6,1,1,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.8,v0.9,7,task_scheduler-D06,task_scheduler/utils.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+task_scheduler,v0.8,v0.9,7,task_scheduler-D08,task_scheduler/rules.py,locate_worker_8,synth:message_chain,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.9,v0.10,8,task_scheduler-D01,task_scheduler/services.py,reset_job_store_1,synth:private_access,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.9,v0.10,8,task_scheduler-D02,task_scheduler/services.py,reset_run_store_2,synth:private_access,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+task_scheduler,v0.9,v0.10,8,task_scheduler-D03,task_scheduler/rules.py,locate_job_3,synth:message_chain,MAJOR,15,3,1,8,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+task_scheduler,v0.9,v0.10,8,task_scheduler-D05,task_scheduler/services.py,WorkerManager5,synth:god_class,MAJOR,15,24,2,7,1,1,0.048648071972429215,none,1,24,0,0.0,0.0
+task_scheduler,v0.9,v0.10,8,task_scheduler-D06,task_scheduler/utils.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+task_scheduler,v0.9,v0.10,8,task_scheduler-D08,task_scheduler/rules.py,locate_worker_8,synth:message_chain,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0

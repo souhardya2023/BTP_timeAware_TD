@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+fizzbuzz_rules,0,v0.1,v0.2,2019-01-14,2019-01-14,minor,1,252,118,282,148,5,30,30,0,1
+fizzbuzz_rules,1,v0.2,v0.3,2019-01-14,2019-01-15,minor,3,282,148,312,178,5,32,31,1,3
+fizzbuzz_rules,2,v0.3,v0.4,2019-01-15,2019-01-18,minor,5,312,178,354,178,5,46,2,2,9
+fizzbuzz_rules,3,v0.4,v0.5,2019-01-18,2019-01-29,minor,16,354,178,421,180,5,88,8,8,26
+fizzbuzz_rules,4,v0.5,v0.6,2019-01-29,2019-01-30,minor,1,421,180,421,180,5,2,0,0,1

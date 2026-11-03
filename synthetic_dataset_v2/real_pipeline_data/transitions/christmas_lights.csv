@@ -1,0 +1,12 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+christmas_lights,v0.1,v0.2,0,christmas_lights/core.py::render_light::complex_method,christmas_lights/core.py,render_light,complex_method,MAJOR,0,36,12,0,0,0,0.07598243207490085,none,1,36,0,0,0.0
+christmas_lights,v0.1,v0.2,0,christmas_lights/core.py::lookup_light::complex_method,christmas_lights/core.py,lookup_light,complex_method,MAJOR,0,37,12,0,0,0,0.078306671880694,none,1,37,0,0,0.0
+christmas_lights,v0.1,v0.2,0,christmas_lights/core.py::search_lights::complex_method,christmas_lights/core.py,search_lights,complex_method,MAJOR,0,31,11,0,0,0,0.06446111081143474,none,1,31,0,0,0.0
+christmas_lights,v0.2,v0.3,1,christmas_lights/core.py::render_light::complex_method,christmas_lights/core.py,render_light,complex_method,MAJOR,0,36,12,1,0,0,0.07598243207490085,interest,1,36,5,5.0,0.008667715422666181
+christmas_lights,v0.2,v0.3,1,christmas_lights/core.py::lookup_light::complex_method,christmas_lights/core.py,lookup_light,complex_method,MAJOR,0,37,12,1,0,0,0.078306671880694,repayment,0,0,1,0,0.0
+christmas_lights,v0.2,v0.3,1,christmas_lights/core.py::search_lights::complex_method,christmas_lights/core.py,search_lights,complex_method,MAJOR,0,31,11,1,0,0,0.06446111081143474,increase,1,32,1,0,0.0
+christmas_lights,v0.3,v0.4,2,christmas_lights/core.py::render_light::complex_method,christmas_lights/core.py,render_light,complex_method,MAJOR,0,36,12,2,5,1,0.07598243207490085,none,1,36,0,0,0.0
+christmas_lights,v0.3,v0.4,2,christmas_lights/core.py::search_lights::complex_method,christmas_lights/core.py,search_lights,complex_method,MAJOR,0,32,11,2,0,0,0.06675145884150166,none,1,32,0,0,0.0
+christmas_lights,v0.4,v0.5,3,christmas_lights/core.py::render_light::complex_method,christmas_lights/core.py,render_light,complex_method,MAJOR,0,36,12,3,5,1,0.07598243207490085,repayment,0,0,1,0,0.0
+christmas_lights,v0.4,v0.5,3,christmas_lights/core.py::search_lights::complex_method,christmas_lights/core.py,search_lights,complex_method,MAJOR,0,32,11,3,0,0,0.06675145884150166,none,1,32,0,0,0.0
+christmas_lights,v0.5,v0.6,4,christmas_lights/core.py::search_lights::complex_method,christmas_lights/core.py,search_lights,complex_method,MAJOR,0,32,11,4,0,0,0.06675145884150166,none,1,32,0,0,0.0

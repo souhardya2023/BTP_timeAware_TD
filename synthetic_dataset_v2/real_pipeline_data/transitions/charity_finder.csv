@@ -1,0 +1,15 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+charity_finder,v0.1,v0.2,0,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,0,0,0,0.092378858399201,none,1,43,0,0,0.0
+charity_finder,v0.2,v0.3,1,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,1,0,0,0.092378858399201,interest,1,43,7,7.0,0.012548784031360172
+charity_finder,v0.3,v0.4,2,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,2,7,1,0.092378858399201,interest,1,43,2,2.0,0.003164390096496418
+charity_finder,v0.4,v0.5,3,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,3,9,2,0.092378858399201,none,1,43,0,0,0.0
+charity_finder,v0.5,v0.6,4,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,4,9,2,0.092378858399201,interest,1,43,18,18.0,0.03545442972645917
+charity_finder,v0.6,v0.7,5,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,5,27,3,0.092378858399201,none,1,43,0,0,0.0
+charity_finder,v0.6,v0.7,5,charity_finder/rules.py::classify_region_8::complex_method,charity_finder/rules.py,classify_region_8,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,34,34,0,0.0
+charity_finder,v0.7,v0.8,6,charity_finder/rules.py::classify_region_8::complex_method,charity_finder/rules.py,classify_region_8,complex_method,MAJOR,0,34,16,0,0,0,0.0713534038353381,interest,1,34,12,12.0,0.02269984787238689
+charity_finder,v0.7,v0.8,6,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,6,27,3,0.092378858399201,none,1,43,0,0,0.0
+charity_finder,v0.8,v0.9,7,charity_finder/rules.py::classify_region_8::complex_method,charity_finder/rules.py,classify_region_8,complex_method,MAJOR,0,34,16,1,12,1,0.0713534038353381,interest,1,34,3,3.0,0.004942396395519926
+charity_finder,v0.8,v0.9,7,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,7,27,3,0.092378858399201,none,1,43,0,0,0.0
+charity_finder,v0.9,v0.10,8,charity_finder/rules.py::classify_region_8::complex_method,charity_finder/rules.py,classify_region_8,complex_method,MAJOR,0,34,16,2,15,2,0.0713534038353381,repayment,0,0,4,0,0.0
+charity_finder,v0.9,v0.10,8,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,8,27,3,0.092378858399201,none,1,43,0,0,0.0
+charity_finder,v0.10,v0.11,9,charity_finder/services.py::alert_charity::complex_method,charity_finder/services.py,alert_charity,complex_method,MAJOR,0,43,14,9,27,3,0.092378858399201,repayment,0,0,1,0,0.0

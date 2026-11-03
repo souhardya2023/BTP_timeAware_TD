@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+bin2dec,0,bin2dec/core.py,1,290,185,0
+bin2dec,0,bin2dec/services.py,35,99,0,0
+bin2dec,1,bin2dec/services.py,24,121,0,0
+bin2dec,2,bin2dec/core.py,24,290,185,19
+bin2dec,2,bin2dec/services.py,5,123,0,0
+bin2dec,3,bin2dec/core.py,10,290,185,1
+bin2dec,4,bin2dec/services.py,4,105,0,0

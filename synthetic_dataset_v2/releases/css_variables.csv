@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+css_variables,v0.1,v0.2,0,0.2452,7,240,44,0,4
+css_variables,v0.2,v0.3,1,0.1773,2,243,46,1,6
+css_variables,v0.3,v0.4,2,0.5511,5,243,46,0,6
+css_variables,v0.4,v0.5,3,1.2014,56,242,45,0,5
+css_variables,v0.5,v0.6,4,0.2848,0,298,45,0,5

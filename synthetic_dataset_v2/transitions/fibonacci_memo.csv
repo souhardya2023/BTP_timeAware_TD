@@ -1,0 +1,28 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+fibonacci_memo,v0.1,v0.2,0,fibonacci_memo-D01,fibonacci_memo/models.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.1,v0.2,0,fibonacci_memo-D02,fibonacci_memo/core.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.1,v0.2,0,fibonacci_memo-D03,fibonacci_memo/core.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.1,v0.2,0,fibonacci_memo-D04,fibonacci_memo/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+fibonacci_memo,v0.1,v0.2,0,fibonacci_memo-D05,fibonacci_memo/core.py,read_cache_file_5,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+fibonacci_memo,v0.2,v0.3,1,fibonacci_memo-D01,fibonacci_memo/models.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.2,v0.3,1,fibonacci_memo-D02,fibonacci_memo/core.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.2,v0.3,1,fibonacci_memo-D03,fibonacci_memo/core.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.2,v0.3,1,fibonacci_memo-D04,fibonacci_memo/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.2,v0.3,1,fibonacci_memo-D05,fibonacci_memo/core.py,read_cache_file_5,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+fibonacci_memo,v0.2,v0.3,1,fibonacci_memo-D06,fibonacci_memo/core.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D01,fibonacci_memo/models.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D02,fibonacci_memo/core.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D03,fibonacci_memo/core.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D04,fibonacci_memo/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D05,fibonacci_memo/core.py,read_cache_file_5,synth:path_traversal,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D06,fibonacci_memo/core.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D07,fibonacci_memo/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.3,v0.4,2,fibonacci_memo-D08,fibonacci_memo/services.py,record_term_8,synth:shared_list,MAJOR,15,8,2,0,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D01,fibonacci_memo/models.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D02,fibonacci_memo/core.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D03,fibonacci_memo/core.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D04,fibonacci_memo/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D05,fibonacci_memo/core.py,read_cache_file_5,synth:path_traversal,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D06,fibonacci_memo/core.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D07,fibonacci_memo/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+fibonacci_memo,v0.4,v0.5,3,fibonacci_memo-D08,fibonacci_memo/services.py,record_term_8,synth:shared_list,MAJOR,15,8,2,1,0,0,0.014533673151847611,none,1,8,0,0.0,0.0

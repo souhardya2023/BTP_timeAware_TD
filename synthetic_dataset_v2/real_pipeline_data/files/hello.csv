@@ -1,0 +1,9 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+hello,0,hello/core.py,78,385,265,74
+hello,0,hello/services.py,22,123,80,0
+hello,1,hello/services.py,6,129,80,0
+hello,2,hello/core.py,17,390,269,14
+hello,2,hello/services.py,2,130,80,0
+hello,3,hello/core.py,12,245,113,6
+hello,3,hello/services.py,1,130,80,0
+hello,4,hello/services.py,4,134,80,0
