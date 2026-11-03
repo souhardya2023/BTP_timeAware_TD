@@ -1,0 +1,6 @@
+true,complexity,concurrency,dependency_structure,security
+complexity,6,0,0,0
+concurrency,12,0,14,0
+coupling_cohesion,3,2,0,1
+dependency_structure,4,0,3,0
+security,1,0,14,1

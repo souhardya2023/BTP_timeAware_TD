@@ -1,0 +1,2 @@
+CNN stratified: accuracy 0.574 +- 0.031 over 5 seeds; majority 0.426
+CNN leave_one_project_out: accuracy 0.144 +- 0.032 over 5 seeds; majority 0.426

@@ -1,0 +1,12 @@
+train synthetic -> test real (61 pairs, majority 0.426); and the reverse
+  raw                          RF       sim->real 0.148 (Python 0.146, C/C++ 0.150)   real->sim 0.484
+  raw                          logistic sim->real 0.131 (Python 0.122, C/C++ 0.150)   real->sim 0.478
+  sign                         RF       sim->real 0.361 (Python 0.220, C/C++ 0.650)   real->sim 0.413
+  sign                         logistic sim->real 0.131 (Python 0.122, C/C++ 0.150)   real->sim 0.472
+  unit length                  RF       sim->real 0.311 (Python 0.244, C/C++ 0.450)   real->sim 0.506
+  unit length                  logistic sim->real 0.344 (Python 0.171, C/C++ 0.700)   real->sim 0.625
+  signed rank within the pair  RF       sim->real 0.410 (Python 0.244, C/C++ 0.750)   real->sim 0.407
+  signed rank within the pair  logistic sim->real 0.164 (Python 0.171, C/C++ 0.150)   real->sim 0.474
+
+median length of the delta vector: real 0.169, synthetic 7.471 (ratio 44.3)
+features changed per pair (median): real 35, synthetic 34

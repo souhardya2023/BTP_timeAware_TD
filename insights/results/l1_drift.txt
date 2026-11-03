@@ -1,0 +1,21 @@
+## 1. Size of the injected debt change against the natural drift of the same feature
+pair-feature cells where the debt injection changes the feature at all: 30.6%
+median over those cells of |injected change| / mean |natural change between two versions|: 0.01
+share of those cells where the injected change is larger than the natural drift: 4.9%
+features that change per pair at all (median): 35 of 133; features whose change exceeds the natural drift (median): 1
+by type (median per pair):
+                      n_changed  n_above_drift
+td_type                                       
+complexity                 49.5            1.5
+concurrency                33.0            1.0
+coupling_cohesion          64.5            3.5
+dependency_structure       72.0            2.0
+security                   37.5            0.0
+
+## 2. Debt type (no time feature): raw delta against drift-scaled delta (accuracy / balanced accuracy)
+  raw delta                                RF          stratified: 0.885/0.807   lopo: 0.459/0.539   non-boltons pairs: 0.757
+  raw delta                                10-best+RF  stratified: 0.787/0.663   lopo: 0.426/0.473   non-boltons pairs: 0.703
+  delta / drift of its own project         RF          stratified: 0.803/0.696   lopo: 0.410/0.507   non-boltons pairs: 0.676
+  delta / drift of its own project         10-best+RF  stratified: 0.803/0.640   lopo: 0.410/0.455   non-boltons pairs: 0.676
+  signed log of the drift-scaled delta     RF          stratified: 0.820/0.724   lopo: 0.410/0.507   non-boltons pairs: 0.676
+  signed log of the drift-scaled delta     10-best+RF  stratified: 0.836/0.686   lopo: 0.377/0.393   non-boltons pairs: 0.622

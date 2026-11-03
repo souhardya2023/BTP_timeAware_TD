@@ -1,0 +1,12 @@
+## patch words only (logistic regression on added / removed identifiers)
+  random split           accuracy 0.964
+  held-out project       accuracy 0.979
+  held-out template      accuracy 0.584
+
+## host invariance: cosine similarity of the (standardised) delta vectors of PURE commits
+  same template, different project:                    0.49 (n=145)
+  same type, different template, different project:    0.31 (n=363)
+  different type:                                      -0.03 (n=2081)
+
+## graph features that exist: ['s_graph_nodes', 's_graph_edges', 's_graph_density', 's_graph_edges_per_node', 's_cyc_nodes_share', 's_fan_in_mean', 's_fan_in_p50', 's_fan_in_p90', 's_fan_in_p100', 's_fan_out_mean', 's_fan_out_p50', 's_fan_out_p90', 's_fan_out_p100', 's_fan_in_gini']
+share of pairs in which a graph feature changes, by type: {'complexity': 0.02, 'concurrency': 0.01, 'coupling_cohesion': 0.02, 'dependency_structure': 0.89, 'security': 0.01}

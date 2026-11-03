@@ -1,0 +1,59 @@
+## 1. Dilution of the debt change inside the project
+files touched per pair: median 1; changed lines (added + deleted): median 9, mean 48
+share of the project's files that the patch touches: median 5.26%, max 52.9%
+share of the project's lines that the patch changes: median 0.086%, max 3.05%
+mean |delta| / std of the delta column over pairs: see results/04; here: mean |delta| in units of the BETWEEN-project std of the clean vector is computed in l1_drift.py
+
+## 2. Debt type from the whole project, from the touched files, and from the patch words (no time feature)
+                                     method  stratified_acc  stratified_bal  by_project_acc  by_project_bal  leave_one_project_out_acc  leave_one_project_out_bal
+   whole-project delta, 10-best + RF (talk)           0.787           0.663           0.311           0.411                      0.426                      0.473
+                    whole-project delta, RF           0.885           0.807           0.459           0.539                      0.459                      0.539
+            LOCAL delta (touched files), RF           0.852           0.777           0.393           0.494                      0.426                      0.540
+  LOCAL delta (touched files), 10-best + RF           0.852           0.740           0.393           0.510                      0.443                      0.573
+PATCH WORDS (added/removed identifiers), LR           0.885           0.813           0.344           0.364                      0.361                      0.376
+majority baseline 0.426
+
+Patch-word model, leave-one-project-out, accuracy by origin of the change:
+  SmellBench   n=15  acc=0.200
+  natural      n= 1  acc=1.000
+  scripted     n=35  acc=0.314
+  scripted/hand-authored n=10  acc=0.700
+Patch-word model, per type (leave-one-project-out):
+  complexity           n= 6  recall=0.500
+  concurrency          n=26  recall=0.077
+  coupling_cohesion    n= 6  recall=0.000
+  dependency_structure n= 7  recall=0.429
+  security             n=16  recall=0.875
+
+Train on scripted injections (n=45), test on LLM-written SmellBench + natural pair (n=16): accuracy 0.062
+  test types: {'coupling_cohesion': 6, 'complexity': 5, 'dependency_structure': 4, 'security': 1}
+  per-type: {'complexity': '0.00 (n=5)', 'coupling_cohesion': '0.00 (n=6)', 'dependency_structure': '0.00 (n=4)', 'security': '1.00 (n=1)'}
+
+Most indicative patch words per type (logistic-regression weights):
+  complexity           a_new, a_inlined, a_size, a_length, r_name, a_main, r_size, r_value
+  concurrency          r_self, r_lock, a_self, r_with, r_mutex, r_pthread, r_send, a_rbuf
+  coupling_cohesion    a_bucket, r_bucket, a_whitespace, a_bytecode, a_checksum, a_value, a_trailing, r_environment
+  dependency_structure a_include, a_private, a_resolution, a_utils, a_strategies, a_command, a_ctx, a_standard
+  security             r_token, r_null, r_digits, r_int, r_if, a_salt, r_salt, a_sprintf
+
+## 3. Leave-one-project-out accuracy per held-out project (no time feature)
+                                             C-Thread-Pool  boltons  cJSON  click  jansson  jinja  libpng  libyaml  werkzeug  zlib
+whole-project delta, 10-best + RF (talk)               1.0      0.0    0.0    0.3     0.83    0.6     1.0      1.0       1.0  1.00
+whole-project delta, RF                                1.0      0.0    1.0    0.5     1.00    0.4     1.0      1.0       1.0  0.67
+LOCAL delta (touched files), RF                        0.5      0.0    1.0    0.4     1.00    0.6     1.0      1.0       0.5  1.00
+LOCAL delta (touched files), 10-best + RF              0.5      0.0    1.0    0.5     1.00    0.6     1.0      1.0       0.5  1.00
+PATCH WORDS (added/removed identifiers), LR            1.0      0.0    1.0    0.3     0.50    0.0     1.0      1.0       1.0  1.00
+pairs per project: {'boltons': 24, 'click': 10, 'jansson': 6, 'jinja': 5, 'libyaml': 5, 'C-Thread-Pool': 4, 'zlib': 3, 'werkzeug': 2, 'cJSON': 1, 'libpng': 1}
+
+Accuracy on the 37 pairs of the 9 projects other than boltons (boltons stays in the training data):
+  whole-project delta, 10-best + RF (talk)         0.703   (majority among these pairs: 0.432)
+  whole-project delta, RF                          0.757   (majority among these pairs: 0.432)
+  LOCAL delta (touched files), RF                  0.703   (majority among these pairs: 0.432)
+  LOCAL delta (touched files), 10-best + RF        0.730   (majority among these pairs: 0.432)
+  PATCH WORDS (added/removed identifiers), LR      0.595   (majority among these pairs: 0.432)
+Concurrency training examples when each project is held out: {'boltons': 2, 'zlib': 26}
+
+## 4. Leave-one-project-out accuracy by how the debt change was made (boltons excluded from the count)
+  whole-project delta, RF                          SmellBench n=15 acc=0.47; natural fix pair, rege n=1 acc=1.00; scripted injection n=21 acc=0.95
+  LOCAL delta (touched files), 10-best + RF        SmellBench n=15 acc=0.53; natural fix pair, rege n=1 acc=1.00; scripted injection n=21 acc=0.86
+  PATCH WORDS (added/removed identifiers), LR      SmellBench n=15 acc=0.20; natural fix pair, rege n=1 acc=1.00; scripted injection n=21 acc=0.86
