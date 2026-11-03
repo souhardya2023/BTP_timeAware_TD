@@ -1,0 +1,26 @@
+leave-one-project-out accuracy on the 61 real pairs (majority 0.426; non-boltons majority 0.432)
+  raw          RF               overall 0.459   non-boltons 0.757   boltons (24 concurrency) 0.000
+  raw          logistic C=0.005 overall 0.295   non-boltons 0.486   boltons (24 concurrency) 0.000
+  raw          logistic C=0.05  overall 0.328   non-boltons 0.541   boltons (24 concurrency) 0.000
+  raw          logistic C=0.5   overall 0.311   non-boltons 0.514   boltons (24 concurrency) 0.000
+  unit length  RF               overall 0.443   non-boltons 0.730   boltons (24 concurrency) 0.000
+  unit length  logistic C=0.005 overall 0.639   non-boltons 0.459   boltons (24 concurrency) 0.917
+  unit length  logistic C=0.05  overall 0.656   non-boltons 0.486   boltons (24 concurrency) 0.917
+  unit length  logistic C=0.5   overall 0.672   non-boltons 0.514   boltons (24 concurrency) 0.917
+  sign         RF               overall 0.410   non-boltons 0.676   boltons (24 concurrency) 0.000
+  sign         logistic C=0.005 overall 0.410   non-boltons 0.676   boltons (24 concurrency) 0.000
+  sign         logistic C=0.05  overall 0.393   non-boltons 0.649   boltons (24 concurrency) 0.000
+  sign         logistic C=0.5   overall 0.377   non-boltons 0.622   boltons (24 concurrency) 0.000
+
+logistic, unit length, C=0.05: per project accuracy
+  C-Thread-Pool  n= 4  0.50
+  boltons        n=24  0.92
+  cJSON          n= 1  1.00
+  click          n=10  0.30
+  jansson        n= 6  0.67
+  jinja          n= 5  0.40
+  libpng         n= 1  1.00
+  libyaml        n= 5  0.20
+  werkzeug       n= 2  0.50
+  zlib           n= 3  1.00
+per type recall: {'complexity': 0.5, 'concurrency': 0.85, 'coupling_cohesion': 0.33, 'dependency_structure': 0.29, 'security': 0.69}

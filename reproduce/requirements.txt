@@ -1,0 +1,11 @@
+# Python 3.13 was used. One environment is enough: plots (matplotlib, pillow) and analysis (the rest).
+matplotlib>=3.10
+pillow>=12
+numpy>=2.5
+pandas>=3.0
+scipy>=1.18
+scikit-learn>=1.9
+statsmodels>=0.15
+lizard>=1.24          # only for the steps that parse the repositories (not run by regenerate.sh)
+# only for the CodeBERT / embedding steps (not run by regenerate.sh): torch, transformers
+# only for rebuilding the talk deck (presentation/insight_slides/build_deck.py): python-pptx

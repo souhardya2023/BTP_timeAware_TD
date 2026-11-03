@@ -1,0 +1,48 @@
+===== HOT: tmux window-copy.c window_copy_search_lr  (2.5 -> 2.6) nloc 22 ccn 6 interest_lines 1  traits {'n_distinct_calls': 2.0, 'dup_line_ratio': 0.0, 'n_goto': 0.0, 'n_unsafe': 0.0, 'n_alloc': 0.0, 'n_arrow': 4.0, 'clone_ratio': 0.1428571428571428}
+  window_copy_search_lr(struct grid *gd,
+      struct grid *sgd, u_int *ppx, u_int py, u_int first, u_int last, int cis)
+  {
+  	u_int	ax, bx, px;
+  	int	matched;
+  
+  	for (ax = first; ax < last; ax++) {
+> 		if (ax + sgd->sx >= gd->sx)
+  			break;
+  		for (bx = 0; bx < sgd->sx; bx++) {
+  			px = ax + bx;
+  			matched = window_copy_search_compare(gd, px, py, sgd,
+  			    bx, cis);
+  			if (!matched)
+  				break;
+  		}
+  		if (bx == sgd->sx) {
+  			*ppx = ax;
+  			return (1);
+  		}
+  	}
+  	return (0);
+  }
+
+===== COLD: tmux osdep-dragonfly.c cmp_procs  (2.5 -> 2.6) nloc 18 ccn 12 interest_lines 0  traits {'n_distinct_calls': 4.0, 'dup_line_ratio': 0.5, 'n_goto': 0.0, 'n_unsafe': 0.0, 'n_alloc': 0.0, 'n_arrow': 6.0, 'clone_ratio': 0.4615384615384615}
+  cmp_procs(struct kinfo_proc *p1, struct kinfo_proc *p2)
+  {
+  	if (is_runnable(p1) && !is_runnable(p2))
+  		return (p1);
+  	if (!is_runnable(p1) && is_runnable(p2))
+  		return (p2);
+  
+  	if (is_stopped(p1) && !is_stopped(p2))
+  		return (p1);
+  	if (!is_stopped(p1) && is_stopped(p2))
+  		return (p2);
+  
+  	if (strcmp(p1->kp_comm, p2->kp_comm) < 0)
+  		return (p1);
+  	if (strcmp(p1->kp_comm, p2->kp_comm) > 0)
+  		return (p2);
+  
+  	if (p1->kp_pid > p2->kp_pid)
+  		return (p1);
+  	return (p2);
+  }
+

@@ -1,0 +1,61 @@
+label,repo,sha,subject,lines
+complexity,redis,20f163eb3d,"XADD, update keyModified and dirty counter when increasing iids_duplicates (#14858)",2
+complexity,more-itertools,258791eb40,"Simple tests pass but duplicated incomparables, out of sequence fail",10
+complexity,hiredis,62c8054dbe,Clean up when there is an I/O error,35
+complexity,jinja,8c97ae57d1,refactor compiler environment.is_async checks,46
+complexity,libuv,cfdce92fa5,unix: fix uv__signal_loop_cleanup call in init (#4876),5
+complexity,httpx,df9dc6d516,Cleanup comments on handling MultiError (#607),9
+complexity,click,c040135a74,Deduplicate deprecated label translation,58
+complexity,cmark,f1a1393881,"render:  Simplified code, avoiding some allocations.",51
+complexity,lz4,22729ecb8b,minor refactor,60
+complexity,hiredis,3c023ee157,Cleanup memory during test,3
+complexity,cJSON,44d313212b,refactor cJSONUtils_strcasecmp,19
+complexity,requests,9a20afd6b5,Refactor default params,8
+concurrency,tqdm,42789743a0,monitor deletion thread safety,8
+concurrency,jinja,746bb95780,Fix race conditions in FileSystemBytecodeCache,54
+concurrency,flask,282d8621dd,document session lifetime and possible concurrency issues,28
+concurrency,jinja,d4e54382cb,Pessimistic locking for LRU cache.  This fixes #8,44
+concurrency,tmux,5e5e15f6c7,Use mode screen for cursor not base which may be wrong during synchronized updates. GitHub issue 564,4
+concurrency,libxml2,ac5fcb0e34,relaxng: ensure thread safe global initialization,47
+concurrency,requests,845e8f943f,Issue #2334 - HTTPAuthDigest - Making it thread-safe,13
+concurrency,jemalloc,639e70fcfb,Make TSD state non-atomic,37
+concurrency,httpx,56afde1f9f,Lock around stream.write and stream.close operations (#699),16
+concurrency,requests,9a40d12778,Avoid reloading root certificates to improve concurrent performance (#6667),46
+concurrency,httpx,3674058ff7,Parametrize tests with concurrency backend (#273),17
+concurrency,jemalloc,4d0ffa075b,Fix background thread initialization race,8
+coupling,jinja,6089d142c1,move closure out of loop for bugbear B023,34
+coupling,attrs,1f627dd3d5,Fixed slots inheritance (#718),25
+coupling,jsonschema,c503080fd5,Private.,5
+coupling,boltons,ba6941ec19,"split out text fileobj checking, add support for legacy StringIO, test as much",21
+coupling,rich,d8ff3597ae,Theme used for Traceback should not inherit defaults,15
+coupling,boltons,f3a173af54,Extract body of wraps to new update_wrapper and add possibility to choose which func to build from,77
+coupling,flask,d7b6c1f670,Fix subdomain inheritance for nested blueprints.,9
+coupling,httpx,50b17fdd65,Keep Proxy._build_auth_header as a private method (#1087),4
+coupling,cmark,bc902b8826,Removed obsolete TODO comment.,2
+coupling,boltons,8fa1d781ab,"add the ability to convert parsed exceptions back into strings, as well as split out testing for the",16
+coupling,requests,c267415882,Remove call to set default value for allow_redirects,2
+coupling,redis,710f70f963,Make allocators func pointers private to HNSW.,6
+dependency,bottle,d1e31686b7,Removed json import fallback for python 2.5/2.6,17
+dependency,rich,7ce9bcabcd,Remove unused json import in highlighter.py,2
+dependency,rich,b4f6f9eb66,Remove future annotations import,12
+dependency,flask,22987b6817,include samesite and secure when removing session cookie (#3726),8
+dependency,jinja,aafe94d97a,Markup and escape should be imported from markupsafe,43
+dependency,libpng,364450bf8d,[libpng16] Imported from libpng-1.6.29beta02.tar,6
+dependency,libpng,bd5a826d37,[libpng16] Imported from libpng-1.6.31beta02.tar,16
+dependency,more-itertools,f7476246b4,Fix up operator imports,13
+dependency,mbedtls,c19b8e80e7,Update include paths in C files,2
+dependency,libuv,f6dfbcec76,unix: remove redundant include in unix.h (#3319),6
+dependency,werkzeug,2b4ab69864,update dev dependencies,14
+dependency,libpng,e0acad59cb,[libpng16] Imported from libpng-1.6.22beta04.tar,20
+security,libuv,88201044ed,win: plug uv_fs_event_start memory leak (#4647),2
+security,cJSON,22a7d04fa0,add_item_to_object: Fix use-after-free when string is aliased,27
+security,jemalloc,c2d57040f0,Fix out-of-bounds write in malloc_vsnprintf when size is 0,2
+security,jansson,5eb2c442a9,Fix a potential memory leak,4
+security,cJSON,9585c38d5a,handle null pointers: cJSON_CreateStringArray,2
+security,cmark,fd23ae0822,test: Fix memory leaks in api_test,3
+security,boltons,a2de02a947,funcutils.wraps: enable injection spillover into varkw (**kw) (used by lithoxyl for logger wrappers),20
+security,redis,2a189709e0,avoid possible use-after-free with module KSN changes (#13875),2
+security,cmark,f103546402,Straightforward fix for memory leak #32.,5
+security,libpng,a22696be0a,fix: Prevent double-freeing `png_struct` members on allocation failure,4
+security,jemalloc,fd60645260,Add one more check to double free validation.,3
+security,cJSON,766dd9d590,Fix a null pointer crash in cJSON_ReplaceItemViaPointer (#726),2

@@ -1,0 +1,11 @@
+mode,split,rules,repeat,noise,share_repeat,hot_repeat,cold_repeat
+"all features, lift vs repository rate",c -> python,6,4,2,0.667,0.333,1.0
+"all features, lift vs repository rate",python -> c,11,9,2,0.818,0.833,0.8
+"all features, lift vs repository rate",random repo halves,178,130,48,0.73,0.694,0.791
+"all features, lift vs repository rate",random repo halves (labels shuffled),173,141,32,0.815,0.856,0.742
+"all features, lift vs repository rate",real -> synthetic,4,4,0,1.0,1.0,1.0
+"instance features only, lift vs the same release",c -> python,5,1,4,0.2,0.0,1.0
+"instance features only, lift vs the same release",python -> c,5,5,0,1.0,1.0,1.0
+"instance features only, lift vs the same release",random repo halves,161,143,18,0.888,0.875,0.939
+"instance features only, lift vs the same release",random repo halves (labels shuffled),119,96,23,0.807,0.796,0.857
+"instance features only, lift vs the same release",real -> synthetic,4,3,1,0.75,0.667,1.0

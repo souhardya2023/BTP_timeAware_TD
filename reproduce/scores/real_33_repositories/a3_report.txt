@@ -1,0 +1,204 @@
+==================================================================================================== 
+P1  THE CORPUS
+====================================================================================================
+          repo   lang  original  releases      first       last  code_lines  debt_share  instances   obs  events  event_rate  pm_total  never_pay
+         arrow python     False        20 2019-11-02 2025-10-18        1838       0.410         27   355      85      0.2394     0.585      0.037
+         attrs python     False        20 2019-10-15 2026-03-19        2721       0.444         42   583     238      0.4082     3.513      0.119
+       boltons python      True        20 2018-08-29 2026-09-07        7377       0.207         60   957      73      0.0763     0.250      0.317
+        bottle python     False        20 2016-12-17 2025-06-15        2675       0.263         33   421      17      0.0404     0.237      0.545
+         cJSON      c      True        20 2017-12-31 2025-09-09        3710       0.565         49   797      27      0.0339     0.094      0.531
+    cachetools python     False        20 2026-03-09 2026-10-31        1262       0.111         10   140      11      0.0786     0.027      0.200
+         click python      True        20 2022-03-28 2026-08-21        5733       0.343         87  1187     207      0.1744     1.403      0.138
+         cmark      c     False        20 2016-01-17 2026-02-14       16160       0.788        119  1844     418      0.2267    91.313      0.176
+         flask python     False        20 2022-04-28 2026-02-18        3173       0.258         45   553     133      0.2405     0.810      0.222
+       hiredis      c     False        20 2015-01-22 2026-10-15        9294       0.409         85   965     146      0.1513     0.703      0.447
+         httpx python     False        20 2021-11-15 2024-12-06        4711       0.374         72  1092     245      0.2244     1.526      0.167
+       jansson      c      True        20 2011-06-10 2026-07-01        7172       0.662         56   604     170      0.2815     1.597      0.339
+      jemalloc      c     False        20 2015-09-15 2026-09-16       29120       0.349        591  3733    1147      0.3073    14.143      0.277
+         jinja python      True        20 2017-04-03 2025-03-05        7084       0.257        129  1064     119      0.1118     2.160      0.310
+    jsonschema python     False        20 2023-07-04 2026-01-07        2301       0.230         16   245      21      0.0857     0.137      0.375
+        libpng      c      True        20 2023-06-21 2026-09-28       21317       0.676        303  5362     233      0.0435     1.332      0.518
+     libsodium      c     False        20 2014-08-20 2026-04-09       23324       0.441        269  2051     357      0.1741     9.942      0.383
+         libuv      c     False        20 2021-02-13 2026-09-24       30941       0.450        466  6259     582      0.0930     3.460      0.399
+       libxml2      c     False        20 2024-07-24 2026-09-01      112939       0.677       2361 34487    5419      0.1571    66.363      0.478
+       libyaml      c      True        13 2006-08-01 2020-06-01        5732       0.559         74   841     114      0.1356     0.341      0.284
+           lua      c     False        20 2013-11-21 2026-08-07       16839       0.244        125  1601     478      0.2986     8.861      0.256
+           lz4      c     False        15 2016-11-16 2024-07-21       10161       0.534        145  1180     438      0.3712     5.996      0.200
+       mbedtls      c     False        20 2023-11-08 2026-07-01       36928       0.652       1567 19637    5485      0.2793   137.442      0.547
+more-itertools python     False        20 2022-08-09 2026-10-14        2397       0.104          9   124      11      0.0887     0.105      0.333
+        pyyaml python     False        20 2008-12-30 2025-09-25        4024       0.347        122  2013      90      0.0447     0.542      0.541
+         redis      c     False        20 2026-08-17 2026-10-26      183263       0.489       2178 31102    5142      0.1653    45.739      0.546
+      requests python     False        20 2021-07-13 2026-05-14        2584       0.312         51   462      79      0.1710     0.779      0.039
+          rich python     False        20 2023-09-17 2026-04-12       11430       0.464        171  3147     102      0.0324     0.363      0.620
+          tmux      c     False        20 2014-02-20 2026-10-08       70707       0.542        982  8439    3074      0.3643    28.515      0.226
+          tqdm python     False        20 2023-08-09 2026-09-11        1874       0.408         27   482      42      0.0871     0.094      0.333
+      werkzeug python      True        20 2023-06-08 2026-09-27        9372       0.287        114  1720     156      0.0907     0.628      0.412
+          zlib      c      True        20 2011-09-09 2026-02-17        5603       0.702         92  1298     380      0.2928     2.314      0.109
+          zstd      c     False        20 2018-10-05 2025-02-18       47534       0.588       1026 13779    2344      0.1701    17.417      0.393
+
+33 repositories (16 Python), 11503 instances, 148524 instance-releases, 27583 events, 448.73 person-months
+
+==================================================================================================== 
+P2  CONCENTRATION AND FROZEN DEBT
+====================================================================================================
+     group  instances  gini  never_pay_10plus  top10  top20
+       all      11503 0.883             0.351  0.801  0.914
+    python       1015 0.765             0.299  0.583  0.784
+         c      10488 0.885             0.357  0.803  0.917
+original 9        964 0.760             0.309  0.572  0.787
+    new 24      10539 0.884             0.355  0.802  0.915
+
+per repository: Gini min / median / max = 0.44 / 0.72 / 0.88 ; never-pay (10+ releases) = 0.00 / 0.22 / 0.61
+interest lines per event: median 2.5, mean 7.5, p90 16.0, max 1203; share of all interest in the largest 10% of events 0.67
+
+==================================================================================================== 
+P3  MEMORY: DOES AN INSTANCE THAT PAID PAY AGAIN?
+====================================================================================================
+ lag  p_after_event  n_after  p_after_no_event
+   1          0.457    25891             0.114
+   2          0.377    24270             0.131
+   3          0.407    22458             0.126
+   4          0.436    21175             0.108
+   5          0.419    18999             0.103
+   6          0.321    17270             0.123
+
+P(event) by number of past events: {'0': 0.084, '1': 0.18, '2': 0.342, '3-4': 0.299, '5+': 0.43}
+per repository (33 repos), lag 1: P(event | event before) median 0.24 vs P(event | no event before) median 0.13; ratio > 1 in 24 repos
+
+same-file contagion: P(event) 0.252 when ANOTHER instance of the file paid in the previous release pair vs 0.111 when none did: ratio 2.27 (n = 132837); size and own history not controlled
+   adjusted for the instance's own previous event, its size and the repository: odds ratio of another instance having paid 1.09 (95% CI 0.60 to 1.96)
+
+==================================================================================================== 
+P4  EXPOSURE LAW (SIZE) AND DEBT AVOIDANCE
+====================================================================================================
+instance level, logit of 'event in this release pair' on log(size of the debt region) with repository fixed effects: slope 0.607 (se 0.084); odds ratio per doubling 1.52
+interest lines per release pair, Poisson with log link: exponent beta (lines ~ size^beta) = 0.931 (se 0.050); beta = 1 would be pure exposure
+   python: logit slope 0.606 (se 0.091)
+   c: logit slope 0.607 (se 0.089)
+Spearman of size and event rate per instance, per repository: median 0.31, range -0.27 to 0.74 (30 repos)
+frozen (no event in 10+ releases) median size 53 lines vs live 63 lines (Mann-Whitney p = 4.9e-64)
+
+function level (569677 function-releases): same size, same repository, a function that is a smell is edited with odds ratio 1.07 (95%% CI 0.92 to 1.25) against a non-smell function
+edit probability by size bin (non-smell | smell):
+         mean             size         
+smell       0      1         0        1
+bin                                    
+3-5     0.040  0.041  138362.0    868.0
+6-10    0.067  0.089  135185.0   3491.0
+11-20   0.105  0.122  122115.0   9178.0
+21-40   0.153  0.174   73708.0  22987.0
+41-80   0.200  0.214    7494.0  37359.0
+81-160    NaN  0.291       NaN  13571.0
+>160      NaN  0.374       NaN   5359.0
+
+enrichment (share of edits in debt / share of code in debt): pooled 0.33 (debt = 51.5% of code, receives 17.2% of edits); per repository median 0.40, range 0.07 to 1.33; below 1 in 31 of 33 repositories
+   Python median 0.48, C median 0.36
+
+==================================================================================================== 
+P5  THE RELEASE CLOCK
+====================================================================================================
+release pairs: 615 ; mean event rate per instance-release 0.172
+by release step:
+       pairs   rate  churn_pct   days  commits
+step                                          
+major     52  0.315     13.567   98.5     97.0
+minor    205  0.282      7.233  104.0     72.0
+patch    358  0.089      0.569   37.0     10.0
+patch vs minor/major event rate: 0.089 vs 0.288 (Mann-Whitney p = 3.2e-30)
+within-repository correlation of the log release interest with the previous release: -0.07
+   within-repo correlation of log release interest with ldays_c: 0.41  (n=582)
+   within-repo correlation of log release interest with lcommits_c: 0.73  (n=582)
+   within-repo correlation of log release interest with lchurn_prev: -0.05  (n=582)
+ICC of the event indicator: by instance 0.262, by release 0.199
+
+==================================================================================================== 
+P6  LIFE CYCLE OF A DEBT INSTANCE
+====================================================================================================
+instances introduced inside the window (5678): event odds ratio per release of age 0.929 (95% CI 0.874 to 0.987), size controlled
+P(event) by age since introduction: {'0': np.float64(0.204), '1': np.float64(0.18), '2-3': np.float64(0.162), '4-6': np.float64(0.166), '7+': np.float64(0.16)}  n: {'0': np.int64(6061), '1': np.int64(4727), '2-3': np.int64(8074), '4-6': np.int64(11506), '7+': np.int64(22281)}
+share of debt introduced inside the window still alive after 1, 3, 6, 12 releases (Kaplan-Meier): 0.93, 0.80, 0.68, 0.57
+
+debt introduced during a release pair (11647 instances): in a function that already existed (grew past a threshold) 24%, in a new function 76%
+   complex_method: 4925 introduced, 29% in an existing function, median size 52
+   long_method: 3781 introduced, 28% in an existing function, median size 64
+   many_params: 2941 introduced, 11% in an existing function, median size 29
+by smell kind:
+                  obs    rep     ev  size
+rule                                     
+complex_method  68857  0.063  0.185  57.0
+long_method     47052  0.073  0.209  74.0
+many_params     32615  0.075  0.152  26.0
+repayment rate per instance-release: 0.069 overall; python 0.016, c 0.075
+share of debt functions that carry 2 or 3 smells (first release pair): 47%
+
+==================================================================================================== 
+P7  PATH OF WORK: DOES NEARBY RECENT ACTIVITY ADD TO SIZE AND HISTORY? (LEAVE ONE REPOSITORY OUT)
+====================================================================================================
+rows for the test: 141545 instance-releases, 33 repositories, 25269 events
+                              protocol            model   auc  cap20  cap30  cap50  groups
+              leave-one-repository-out             size 0.617   34.4   45.2   62.6     427
+              leave-one-repository-out          persist 0.749   39.8   51.0   66.8     427
+              leave-one-repository-out     persist_size 0.753   39.2   50.1   67.7     427
+              leave-one-repository-out       logit_base 0.789   41.5   53.2   71.7     427
+              leave-one-repository-out       logit_prox 0.788   41.3   53.2   71.2     427
+              leave-one-repository-out logit_prox_clock 0.784   41.2   53.1   71.3     427
+              leave-one-repository-out          gb_base 0.779   38.8   51.7   70.5     427
+              leave-one-repository-out    gb_prox_clock 0.764   39.2   51.8   71.0     427
+temporal (last 40% of each repository)             size 0.621   34.6   47.0   64.1     204
+temporal (last 40% of each repository)          persist 0.722   38.5   51.2   68.4     204
+temporal (last 40% of each repository)     persist_size 0.724   38.9   50.7   68.9     204
+temporal (last 40% of each repository)       logit_base 0.774   40.3   52.9   72.6     204
+temporal (last 40% of each repository)       logit_prox 0.774   40.5   53.1   72.1     204
+temporal (last 40% of each repository) logit_prox_clock 0.773   40.8   53.2   71.9     204
+temporal (last 40% of each repository)          gb_base 0.771   35.7   48.9   70.4     204
+temporal (last 40% of each repository)    gb_prox_clock 0.722   40.4   53.8   72.6     204
+
+paired differences of capture (percentage points, 95% bootstrap interval over groups):
+protocol                a            b  top  diff_pts   lo   hi  groups
+    LORO     persist_size      persist   20      -0.6 -1.7  0.4     427
+    LORO     persist_size      persist   30      -0.8 -2.4  0.9     427
+    LORO             size      persist   20      -5.4 -8.7 -2.1     427
+    LORO             size      persist   30      -5.8 -9.1 -2.3     427
+    LORO       logit_base persist_size   20       2.3 -0.1  4.6     427
+    LORO       logit_base persist_size   30       3.0  0.8  5.2     427
+    LORO       logit_prox   logit_base   20      -0.2 -1.3  0.8     427
+    LORO       logit_prox   logit_base   30       0.0 -1.0  0.9     427
+    LORO logit_prox_clock   logit_prox   20      -0.1 -0.2  0.0     427
+    LORO logit_prox_clock   logit_prox   30      -0.1 -0.2 -0.0     427
+    LORO logit_prox_clock persist_size   20       2.0 -0.3  4.3     427
+    LORO logit_prox_clock persist_size   30       3.0  0.8  5.3     427
+    LORO    gb_prox_clock      gb_base   20       0.4 -1.2  2.0     427
+    LORO    gb_prox_clock      gb_base   30       0.1 -1.4  1.7     427
+    LORO          gb_base persist_size   20      -0.4 -2.7  2.0     427
+    LORO          gb_base persist_size   30       1.6 -0.7  3.7     427
+temporal     persist_size      persist   20       0.4 -0.3  1.2     204
+temporal     persist_size      persist   30      -0.5 -2.2  0.9     204
+temporal             size      persist   20      -3.9 -8.4  0.6     204
+temporal             size      persist   30      -4.2 -8.8  0.4     204
+temporal       logit_base persist_size   20       1.4 -2.2  5.1     204
+temporal       logit_base persist_size   30       2.2 -1.0  5.5     204
+temporal       logit_prox   logit_base   20       0.2 -0.6  0.9     204
+temporal       logit_prox   logit_base   30       0.2 -0.4  0.9     204
+temporal logit_prox_clock   logit_prox   20       0.3 -0.0  0.8     204
+temporal logit_prox_clock   logit_prox   30       0.0 -0.5  0.5     204
+temporal logit_prox_clock persist_size   20       1.9 -1.6  5.5     204
+temporal logit_prox_clock persist_size   30       2.4 -0.8  5.8     204
+temporal    gb_prox_clock      gb_base   20       4.7  1.3  8.0     204
+temporal    gb_prox_clock      gb_base   30       4.9  2.1  7.8     204
+temporal          gb_base persist_size   20      -3.2 -7.4  1.2     204
+temporal          gb_base persist_size   30      -1.8 -6.2  2.6     204
+
+standardised logit coefficients (all repositories): {'lsize': np.float64(0.208), 'lccn': np.float64(-0.021), 'lpast_il': np.float64(0.229), 'lpast_n': np.float64(0.958), 'lage': np.float64(-0.72), 'is_py': np.float64(0.047), 'r_long_method': np.float64(-0.087), 'r_complex_method': np.float64(-0.088), 'f_file': np.float64(0.093), 'f_dir': np.float64(0.149), 'f_file_rel': np.float64(-0.149), 'f_repo': np.float64(0.014)}
+   univariate AUC of f_file: 0.628
+   univariate AUC of f_dir: 0.618
+   univariate AUC of f_file_rel: 0.645
+   univariate AUC of f_repo: 0.591
+   univariate AUC of size 0.617 ; of interest paid so far 0.749
+
+==================================================================================================== 
+P8  SIZE AND COMPLEXITY OF REAL FUNCTIONS (GENERATOR PARAMETERS)
+====================================================================================================
+c: 26959 functions in the last release; nloc median 11, p90 46, p99 171; lognormal mu 2.47 sigma 1.01; smell share 17.2%; long 8.6% complex 12.5% params 5.3%; corr(nloc, ccn) 0.91
+python: 7195 functions in the last release; nloc median 5, p90 22, p99 65; lognormal mu 1.78 sigma 0.94; smell share 7.9%; long 1.8% complex 4.2% params 4.4%; corr(nloc, ccn) 0.84
+share of code lines inside debt functions per repository: median 0.41, range 0.10 to 0.79
+code growth over the window: median x1.15; median churn per release pair (changed lines / code) 1.4%
