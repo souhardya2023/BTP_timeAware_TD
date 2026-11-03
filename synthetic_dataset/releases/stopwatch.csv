@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+stopwatch,v0.1,v0.2,0,1.074,27,188,24,0,4
+stopwatch,v0.2,v0.3,1,1.3002,36,209,28,3,5
+stopwatch,v0.3,v0.4,2,1.0079,28,239,35,3,7
+stopwatch,v0.4,v0.5,3,1.1709,17,259,36,6,7
+stopwatch,v0.5,v0.6,4,0.9446,18,263,39,1,7

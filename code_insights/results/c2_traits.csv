@@ -1,0 +1,26 @@
+trait,meaning,n_high,python_rr,python_lo,python_hi,python_n_repos,python_agree,c_rr,c_lo,c_hi,c_n_repos,c_agree,verdict
+dup_line_ratio,same line repeated inside the function,13421,1.086,0.88,1.334,11.0,0.727,0.737,0.682,0.817,17.0,0.706,LANGUAGE-SPECIFIC
+shape_run_ratio,runs of look-alike lines (table-like code),11635,1.039,0.661,1.458,10.0,0.5,1.094,0.81,1.266,17.0,0.294,NOISE
+clone_ratio,code copied in another function,13736,1.036,0.738,1.343,11.0,0.636,1.04,0.794,1.19,17.0,0.765,NOISE
+max_nest,deep nesting,24217,1.22,0.931,1.741,11.0,0.636,1.037,0.948,1.12,17.0,0.588,NOISE
+n_calls,many calls,15745,0.962,0.726,1.26,12.0,0.5,1.158,1.052,1.241,17.0,0.765,LANGUAGE-SPECIFIC
+n_distinct_calls,many different functions called,16268,1.039,0.869,1.272,12.0,0.5,1.468,1.306,1.614,17.0,0.882,LANGUAGE-SPECIFIC
+calls_per_line,dense in calls,14353,0.984,0.842,1.148,11.0,0.364,1.128,1.054,1.192,17.0,0.647,LANGUAGE-SPECIFIC
+n_return,many return points,16995,1.142,0.845,1.473,11.0,0.455,0.964,0.779,1.142,17.0,0.412,NOISE
+n_locals,many local variables,16776,1.099,0.82,1.454,11.0,0.545,1.188,0.988,1.378,17.0,0.706,NOISE
+magic_numbers,many bare numbers,13066,0.888,0.471,1.238,9.0,0.778,0.972,0.867,1.026,17.0,0.529,NOISE
+comment_ratio,heavily commented,13401,1.114,0.831,1.426,12.0,0.417,1.088,0.904,1.351,17.0,0.471,NOISE
+n_branch_words,many branches / conditions,15624,0.985,0.785,1.189,11.0,0.455,1.096,0.955,1.229,16.0,0.625,NOISE
+n_arrow,many pointer field accesses (->),12939,,,,,,1.342,1.229,1.406,17.0,0.706,only in c: raises interest
+n_deref,many pointer dereferences,13737,,,,,,0.963,0.916,1.0,17.0,0.588,only in c: lowers interest
+n_alloc,manual memory (malloc / free),5604,,,,,,1.004,0.713,1.172,15.0,0.667,only in c: no clear effect
+n_null_check,many NULL checks,15451,,,,,,1.186,1.017,1.301,17.0,0.824,only in c: raises interest
+n_cast_ptr,pointer casts,11535,,,,,,1.136,0.964,1.328,15.0,0.667,only in c: no clear effect
+n_unsafe,unsafe string / memory calls,6983,,,,,,0.965,0.81,1.132,17.0,0.412,only in c: no clear effect
+n_goto,goto (cleanup jumps),8496,,,,,,1.039,0.938,1.164,16.0,0.5,only in c: no clear effect
+n_try,try / except blocks,1212,0.774,0.543,1.112,9.0,0.556,,,,,,only in python: no clear effect
+n_bare_except,broad except,296,0.852,0.419,1.091,4.0,0.75,,,,,,only in python: no clear effect
+n_isinstance,isinstance checks (type switching),1402,1.009,0.881,1.163,11.0,0.364,,,,,,only in python: no clear effect
+n_self_attr,touches many self attributes,1781,0.739,0.537,0.987,12.0,0.667,,,,,,only in python: lowers interest
+n_nested_def,nested functions,0,,,,,,,,,,,only in python: no data
+n_global,global state,21,,,,,,,,,,,only in python: no data

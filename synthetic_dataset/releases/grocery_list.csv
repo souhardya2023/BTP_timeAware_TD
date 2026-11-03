@@ -1,0 +1,14 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+grocery_list,v0.1,v0.2,0,0.2476,34,246,22,0,2
+grocery_list,v0.2,v0.3,1,0.0422,1,279,50,0,5
+grocery_list,v0.3,v0.4,2,0.7069,65,279,50,1,5
+grocery_list,v0.4,v0.5,3,3.0951,179,339,73,3,6
+grocery_list,v0.5,v0.6,4,0.1467,2,503,96,0,8
+grocery_list,v0.6,v0.7,5,0.1176,29,505,96,0,8
+grocery_list,v0.7,v0.8,6,7.7947,76,534,120,7,10
+grocery_list,v0.8,v0.9,7,0.1689,14,575,122,0,10
+grocery_list,v0.9,v0.10,8,0.1332,11,585,122,2,10
+grocery_list,v0.10,v0.11,9,0.3299,3,593,112,0,9
+grocery_list,v0.11,v0.12,10,0.4751,11,593,112,1,9
+grocery_list,v0.12,v0.13,11,0.4733,37,598,112,3,9
+grocery_list,v0.13,v0.14,12,0.0852,11,630,114,4,9

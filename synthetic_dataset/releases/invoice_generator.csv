@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+invoice_generator,v0.1,v0.2,0,0.443,28,264,38,2,6
+invoice_generator,v0.2,v0.3,1,0.7611,39,285,38,3,6
+invoice_generator,v0.3,v0.4,2,1.5876,105,313,41,6,7
+invoice_generator,v0.4,v0.5,3,0.5211,15,403,43,3,7
+invoice_generator,v0.5,v0.6,4,0.1702,17,409,44,0,7
+invoice_generator,v0.6,v0.7,5,2.0514,92,423,47,5,8
+invoice_generator,v0.7,v0.8,6,1.623,62,494,52,4,10
+invoice_generator,v0.8,v0.9,7,0.3067,8,534,54,1,10
+invoice_generator,v0.9,v0.10,8,0.2008,5,535,54,1,10
+invoice_generator,v0.10,v0.11,9,0.1726,6,535,54,1,10
+invoice_generator,v0.11,v0.12,10,0.2795,4,535,54,2,10

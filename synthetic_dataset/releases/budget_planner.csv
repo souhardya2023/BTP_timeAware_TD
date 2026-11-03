@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+budget_planner,v0.1,v0.2,0,0.2065,33,266,28,2,5
+budget_planner,v0.2,v0.3,1,0.2214,41,294,28,1,5
+budget_planner,v0.3,v0.4,2,0.384,29,332,37,6,7
+budget_planner,v0.4,v0.5,3,0.6363,33,354,37,8,7
+budget_planner,v0.5,v0.6,4,0.4439,20,377,40,5,7
+budget_planner,v0.6,v0.7,5,0.2408,12,389,46,2,8
+budget_planner,v0.7,v0.8,6,0.4383,19,399,47,6,8
+budget_planner,v0.8,v0.9,7,0.5211,11,408,49,7,8
+budget_planner,v0.9,v0.10,8,6.2926,175,410,51,14,8
+budget_planner,v0.10,v0.11,9,1.3967,64,553,50,8,7
+budget_planner,v0.11,v0.12,10,0.5246,38,596,53,4,7

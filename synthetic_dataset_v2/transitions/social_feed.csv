@@ -1,0 +1,105 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+social_feed,v0.1,v0.2,0,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.1,v0.2,0,social_feed-D02,social_feed/svc_setting.py,SettingManager2,synth:god_class,MAJOR,15,24,2,0,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+social_feed,v0.1,v0.2,0,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.2,v0.3,1,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.2,v0.3,1,social_feed-D02,social_feed/svc_setting.py,SettingManager2,synth:god_class,MAJOR,15,24,2,1,0,0,0.048648071972429215,repayment,0,0,0,0.0,0.0
+social_feed,v0.2,v0.3,1,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.3,v0.4,2,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.3,v0.4,2,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.4,v0.5,3,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.4,v0.5,3,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.5,v0.6,4,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.5,v0.6,4,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.5,v0.6,4,social_feed-D04,social_feed/feat_20.py,locate_user_4,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.6,v0.7,5,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.6,v0.7,5,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.6,v0.7,5,social_feed-D04,social_feed/feat_20.py,locate_user_4,synth:message_chain,MAJOR,15,3,1,1,0,0,0.004942396395519926,repayment,0,3,1,0.0,0.0
+social_feed,v0.6,v0.7,5,social_feed-D05,social_feed/svc_audit_entry.py,ProfileManager5,synth:god_class,MAJOR,15,24,2,0,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+social_feed,v0.7,v0.8,6,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.7,v0.8,6,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.7,v0.8,6,social_feed-D05,social_feed/svc_audit_entry.py,ProfileManager5,synth:god_class,MAJOR,15,24,2,1,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+social_feed,v0.8,v0.9,7,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.8,v0.9,7,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.8,v0.9,7,social_feed-D05,social_feed/svc_audit_entry.py,ProfileManager5,synth:god_class,MAJOR,15,24,2,2,0,0,0.048648071972429215,repayment,0,0,0,0.0,0.0
+social_feed,v0.9,v0.10,8,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.9,v0.10,8,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.9,v0.10,8,social_feed-D06,social_feed/svc_ad.py,summary_notification_6,synth:feature_envy,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.10,v0.11,9,social_feed-D01,social_feed/svc_follow.py,summary_post_1,synth:feature_envy,MAJOR,15,7,2,9,0,0,0.012548784031360172,repayment,0,2,1,0.0,0.0
+social_feed,v0.10,v0.11,9,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.10,v0.11,9,social_feed-D06,social_feed/svc_ad.py,summary_notification_6,synth:feature_envy,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.10,v0.11,9,social_feed-D07,social_feed/rules.py,locate_audit_entry_7,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.11,v0.12,10,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.11,v0.12,10,social_feed-D06,social_feed/svc_ad.py,summary_notification_6,synth:feature_envy,MAJOR,15,7,2,2,0,0,0.012548784031360172,repayment,0,2,1,0.0,0.0
+social_feed,v0.11,v0.12,10,social_feed-D07,social_feed/rules.py,locate_audit_entry_7,synth:message_chain,MAJOR,15,3,1,1,0,0,0.004942396395519926,repayment,0,3,1,0.0,0.0
+social_feed,v0.11,v0.12,10,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.12,v0.13,11,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.12,v0.13,11,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.12,v0.13,11,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.13,v0.14,12,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.13,v0.14,12,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.13,v0.14,12,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.13,v0.14,12,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.14,v0.15,13,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.14,v0.15,13,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.14,v0.15,13,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.14,v0.15,13,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.14,v0.15,13,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.15,v0.16,14,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,14,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.15,v0.16,14,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,4,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.15,v0.16,14,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.15,v0.16,14,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,2,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+social_feed,v0.15,v0.16,14,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,1,0,0,0.004942396395519926,interest,1,3,1,1.0,0.001476547186496228
+social_feed,v0.15,v0.16,14,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.16,v0.17,15,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,15,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.16,v0.17,15,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,5,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.16,v0.17,15,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.16,v0.17,15,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,3,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.16,v0.17,15,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,2,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.16,v0.17,15,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.17,v0.18,16,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,16,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.17,v0.18,16,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,6,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.17,v0.18,16,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.17,v0.18,16,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,4,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.17,v0.18,16,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,3,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.17,v0.18,16,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.18,v0.19,17,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,17,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.18,v0.19,17,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,7,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.18,v0.19,17,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.18,v0.19,17,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,5,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.18,v0.19,17,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,4,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.18,v0.19,17,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.19,v0.20,18,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,18,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+social_feed,v0.19,v0.20,18,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,8,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.19,v0.20,18,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.19,v0.20,18,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,6,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.19,v0.20,18,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,5,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.19,v0.20,18,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.20,v0.21,19,social_feed-D03,social_feed/services.py,<imports>:from .feat_14 import *,synth:wildcard_import,MAJOR,15,1,1,19,0,0,0.001476547186496228,repayment,0,0,0,0.0,0.0
+social_feed,v0.20,v0.21,19,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,9,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.20,v0.21,19,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.20,v0.21,19,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,7,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.20,v0.21,19,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,6,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.20,v0.21,19,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.21,v0.22,20,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,10,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.21,v0.22,20,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,9,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.21,v0.22,20,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,8,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.21,v0.22,20,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,7,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.21,v0.22,20,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.22,v0.23,21,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,11,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.22,v0.23,21,social_feed-D09,social_feed/svc_follow.py,update_audit_entry_total_9,synth:lock_not_released,MAJOR,15,7,2,10,0,0,0.012548784031360172,repayment,0,6,3,0.0,0.0
+social_feed,v0.22,v0.23,21,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,9,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.22,v0.23,21,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,8,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.22,v0.23,21,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.23,v0.24,22,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,12,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.23,v0.24,22,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,10,1,1,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+social_feed,v0.23,v0.24,22,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,9,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.23,v0.24,22,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.24,v0.25,23,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,13,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.24,v0.25,23,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,11,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.24,v0.25,23,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,10,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.24,v0.25,23,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,9,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+social_feed,v0.25,v0.26,24,social_feed-D08,social_feed/feat_07.py,locate_ad_8,synth:message_chain,MAJOR,15,3,1,14,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.25,v0.26,24,social_feed-D10,social_feed/svc_post.py,reset_post_store_10,synth:private_access,MAJOR,15,4,1,12,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+social_feed,v0.25,v0.26,24,social_feed-D11,social_feed/feat_02.py,locate_follow_11,synth:message_chain,MAJOR,15,3,1,11,1,1,0.004942396395519926,none,1,3,0,0.0,0.0
+social_feed,v0.25,v0.26,24,social_feed-D12,social_feed/svc_setting.py,summary_ad_12,synth:feature_envy,MAJOR,15,7,2,10,0,0,0.012548784031360172,none,1,7,0,0.0,0.0

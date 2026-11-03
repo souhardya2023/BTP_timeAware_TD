@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+time_tracker,v0.1,v0.2,0,0.7756,70,240,14,2,4
+time_tracker,v0.2,v0.3,1,2.0072,68,307,46,3,5
+time_tracker,v0.3,v0.4,2,0.4025,21,364,46,2,5
+time_tracker,v0.4,v0.5,3,0.1664,13,381,47,2,5
+time_tracker,v0.5,v0.6,4,1.0786,61,392,48,5,5
+time_tracker,v0.6,v0.7,5,0.6942,59,441,57,2,6
+time_tracker,v0.7,v0.8,6,0.6504,18,491,81,1,7
+time_tracker,v0.8,v0.9,7,1.8154,61,502,81,2,7
+time_tracker,v0.9,v0.10,8,0.5443,34,547,81,2,7
+time_tracker,v0.10,v0.11,9,1.2932,19,573,81,3,7
+time_tracker,v0.11,v0.12,10,0.5705,21,579,79,1,6

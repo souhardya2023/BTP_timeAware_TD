@@ -1,0 +1,24 @@
+v2: 1313 pairs, 150 projects, 23 templates, majority 0.209
+data                     input               model  random  held-out project  held-out template  temporal
+  v2                     delta 10-best + RF (talk)   0.897             0.922              0.854     0.926
+  v2                     delta       random forest   0.919             0.938              0.842     0.941
+  v2 child only (parent+delta) 10-best + RF (talk)   0.897             0.922              0.854     0.926
+  v2 child only (parent+delta)       random forest   0.922             0.938              0.848     0.941
+v1: 1321 pairs, 150 projects, 23 templates, majority 0.206
+data                     input               model  random  held-out project  held-out template  temporal
+  v1                     delta 10-best + RF (talk)   0.923             0.929              0.798     0.924
+  v1                     delta       random forest   0.942             0.960              0.833     0.949
+  v1 child only (parent+delta) 10-best + RF (talk)   0.923             0.929              0.798     0.924
+  v1 child only (parent+delta)       random forest   0.943             0.961              0.862     0.960
+
+real pairs: 61, majority 0.426 (Python 0.585, C/C++ 0.700)
+train v2 -> real 61 [raw, 10-best + RF (talk)]: accuracy 0.115  Python 0.098  C/C++ 0.150  predicted classes {'dependency_structure': np.int64(42), 'coupling_cohesion': np.int64(19)}
+train v2 -> real 61 [raw, random forest]: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted classes {'dependency_structure': np.int64(59), 'complexity': np.int64(2)}
+train v2 -> real 61 [signed log, 10-best + RF (talk)]: accuracy 0.115  Python 0.098  C/C++ 0.150  predicted classes {'dependency_structure': np.int64(42), 'coupling_cohesion': np.int64(19)}
+train v2 -> real 61 [signed log, random forest]: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted classes {'dependency_structure': np.int64(59), 'complexity': np.int64(2)}
+train real 61 -> v2: accuracy 0.455 (majority 0.209)
+train v1 -> real 61 [raw, 10-best + RF (talk)]: accuracy 0.148  Python 0.098  C/C++ 0.250  predicted classes {'dependency_structure': np.int64(49), 'coupling_cohesion': np.int64(10), 'security': np.int64(2)}
+train v1 -> real 61 [raw, random forest]: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted classes {'dependency_structure': np.int64(55), 'coupling_cohesion': np.int64(3), 'complexity': np.int64(2), 'concurrency': np.int64(1)}
+train v1 -> real 61 [signed log, 10-best + RF (talk)]: accuracy 0.148  Python 0.098  C/C++ 0.250  predicted classes {'dependency_structure': np.int64(49), 'coupling_cohesion': np.int64(10), 'security': np.int64(2)}
+train v1 -> real 61 [signed log, random forest]: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted classes {'dependency_structure': np.int64(55), 'coupling_cohesion': np.int64(3), 'complexity': np.int64(2), 'concurrency': np.int64(1)}
+train real 61 -> v1: accuracy 0.484 (majority 0.206)

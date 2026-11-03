@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+pomodoro,0,v0.1,v0.2,2019-01-08,2019-02-12,minor,4,214,60,323,169,5,111,111,2,4
+pomodoro,1,v0.2,v0.3,2019-02-12,2019-03-13,minor,2,323,169,423,253,5,105,84,0,5
+pomodoro,2,v0.3,v0.4,2019-03-13,2019-04-19,minor,1,423,253,423,253,5,0,0,0,0
+pomodoro,3,v0.4,v0.5,2019-04-19,2019-05-19,minor,1,423,253,423,253,5,0,0,0,0
+pomodoro,4,v0.5,v0.6,2019-05-19,2019-06-28,minor,1,423,253,423,253,5,1,0,0,1

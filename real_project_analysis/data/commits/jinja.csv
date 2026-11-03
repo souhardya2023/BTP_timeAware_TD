@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+jinja,574565b1ef,2025-05-28,cbbf6e73,update identifier pattern for Python 3.10,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,9c11dd65ff,2025-05-28,cbbf6e73,fix typo,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+jinja,b7ce542db1,2025-05-28,cbbf6e73,deprecate `__version__`,4,1,24,2,20,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,0,0,0,0,0
+jinja,ece7c271f3,2025-05-28,cbbf6e73,fix ruff pyupgrade findings,21,21,372,412,372,412,1,0,0,215,1,0,0,2,1,1,0,126,37,103,372,0,0,0,0,0
+jinja,0cc6ff9051,2025-05-28,cbbf6e73,drop end of life python versions,6,1,40,215,5,7,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+jinja,a3dce7bb64,2025-05-28,97a2c44f,fix type/lint/format findings,23,17,262,283,254,269,0,0,0,140,1,0,0,0,0,0,0,126,22,52,253,0,0,0,0,0
+jinja,15206881c0,2025-03-05,cbbf6e73,release version 3.1.6,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,065334d1ee,2025-03-05,cbbf6e73,attr filter uses env.getattr,3,1,30,21,16,21,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+jinja,033c20015c,2025-03-05,cbbf6e73,start version 3.1.6,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,877f6e51be,2024-12-21,cbbf6e73,release version 3.1.5,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,eda8fe86fd,2024-12-21,cbbf6e73,update dev dependencies,9,1,31,31,3,3,0,0,0,2,0,0,0,0,0,0,0,126,1,2,3,0,0,1,0,0
+jinja,66587ce989,2024-12-21,09c127aa,Fix bug where set would sometimes fail within if,3,1,20,10,7,10,1,0,0,1,0,0,0,0,0,0,0,18,0,0,5,0,0,0,0,0
+jinja,b8f4831d41,2024-12-20,cbbf6e73,more comments about nsref assignment,2,2,27,15,27,15,0,0,0,3,0,0,0,1,0,0,0,37,2,9,13,0,0,0,0,0
+jinja,ee832194cd,2024-12-20,09c127aa,Add support for namespaces in tuple assignment,5,2,46,20,33,20,0,0,0,6,2,0,0,0,1,0,0,38,2,10,24,0,0,0,0,0
+jinja,d05bd3858c,2024-12-19,ef5e659c,Pass context when using select,3,1,15,1,1,1,0,0,0,2,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+jinja,0cd6948192,2024-12-19,97f9e08c,don't apply `urlize` to `@a@b`,3,1,11,0,2,0,0,0,0,1,0,0,1,0,0,0,0,59,1,1,1,0,0,0,0,0
+jinja,ded9915fc5,2024-12-19,0ddaef46,improve annotations for methods returning copies,6,5,11,7,10,7,0,0,0,7,0,0,0,0,0,0,0,46,1,1,9,0,0,0,0,0
+jinja,aaa083d265,2024-12-19,cbbf6e73,"separate messages, add test",3,1,18,7,11,7,0,0,0,1,0,0,0,0,0,0,0,47,0,0,10,0,0,0,0,0
+jinja,f54fa113d3,2024-12-19,23578c80,Improve the PackageLoader error message,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,43,0,0,2,0,0,0,0,0
+jinja,227edfd372,2024-12-19,cbbf6e73,"clean up message, add test",3,1,24,4,4,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,1
+jinja,ed5f76206a,2024-12-19,29938b13,FileSystemLoader includes search paths in error,2,1,6,1,4,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,1,0,0
+jinja,e45bc745a7,2024-12-19,aa31b375,Bugfix: wrong default argument for `Environment.overlay(enable_async)` parameter,3,1,14,2,5,2,1,0,0,1,0,0,0,0,0,0,0,46,1,4,4,0,1,0,0,0
+jinja,56a724644b,2024-12-19,272fcad7,fix f-string syntax error in code generation,3,1,28,1,6,1,1,0,0,1,0,0,0,0,0,0,0,48,0,0,2,0,0,0,0,0
+jinja,91a972f580,2024-12-19,cb079ef7,sandbox indirect calls to str.format,3,1,63,38,43,38,0,0,0,3,0,0,0,0,2,2,0,24,0,0,36,0,0,0,0,0
+jinja,b512058270,2024-12-19,6cddaca6,sandbox disallows `clear` and `pop` on mutable sequence,3,1,7,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jinja,7232b82462,2024-12-19,17429d5d,Fix pickle/copy support for the `missing` singleton,3,1,25,2,11,2,1,0,0,1,0,0,0,0,2,0,0,2,0,0,7,0,0,0,0,0
+jinja,d4fb0e8c40,2024-12-19,f293d227,preserve `__slots__` on Undefined classes,4,1,69,21,17,13,0,0,0,2,0,0,0,0,1,0,0,4,0,0,6,0,0,0,0,0
+jinja,4936e4d482,2024-12-19,a4ab3988,make tuple unpacking deterministic in compiler,3,1,65,2,2,2,0,0,0,1,0,0,0,0,0,0,0,39,1,2,2,0,0,0,0,0
+jinja,2eb4542cba,2024-12-19,c2d5d559,int filter handles OverflowError to handle scientific notation,3,1,4,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,1,0,0,0,0
+jinja,76af7110ea,2024-12-19,56b132ec,make unique filter async-aware,3,1,22,1,13,1,0,0,0,1,0,0,0,0,1,0,0,9,0,0,11,0,1,0,0,0
+jinja,d3a0b1a4ab,2024-12-19,409aa796,use env.concat when calling block reference,3,1,16,2,4,2,0,0,0,2,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+jinja,955d7daf3d,2024-12-18,fdb31ff5,Simplify example for ModuleLoader,1,1,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1
+jinja,c667d56de3,2024-12-18,cbbf6e73,"change ""per default"" to ""by default""",4,1,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,75f0fbf6cb,2024-12-18,b0b4d2cd,fix list comprehension example,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+jinja,4e7850ce1b,2024-12-18,400d3684,Clarify what operations the default Undefined supports,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,3adf44dde2,2024-08-23,cbbf6e73,apply ruff fixes,11,10,12,13,12,12,1,0,0,10,0,0,0,0,0,0,0,24,2,2,12,0,0,0,0,0
+jinja,4b6dac1b6b,2024-06-03,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,9,9,10,10,10,10,1,0,0,9,0,0,0,0,0,0,0,24,2,2,10,0,0,0,0,0
+jinja,679af7f816,2024-05-13,d83bf34c,fix test_package_zip_list on 3.13,2,1,27,7,26,6,1,0,0,1,0,0,0,0,2,0,0,22,0,0,22,0,0,0,0,0
+jinja,004476c22b,2024-05-13,cbbf6e73,test on python 3.13,13,1,236,106,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jinja,1655128cfc,2024-05-11,d83bf34c,"test on trio, fix all missing aclose related warnings (#1960)",9,3,238,62,59,22,1,0,0,5,0,1,1,0,4,0,0,94,2,21,51,0,0,0,0,0
+jinja,5bc613ec45,2024-05-11,d83bf34c,use asyncio.run,3,1,6,19,1,13,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,1,0,0,0
+jinja,2fcabb529f,2024-05-11,cbbf6e73,start version 3.1.5,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,dd4a8b5466,2024-05-05,cbbf6e73,release version 3.1.4,2,1,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,d655030770,2024-05-02,cbbf6e73,disallow invalid characters in keys to xmlattr filter,3,1,29,10,17,5,0,0,0,1,0,0,0,0,0,0,0,16,0,0,13,0,0,0,0,0
+jinja,b5c98e78c2,2024-05-02,cbbf6e73,start version 3.1.4,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,6fcf463011,2024-05-01,cbbf6e73,fix mypy findings,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jinja,fcd3d3bbf3,2024-04-23,cbbf6e73,drop support for Python 3.7,7,2,7,42,3,38,0,0,0,2,0,0,0,0,0,2,0,28,0,0,3,0,0,0,0,0
+jinja,0ee5eb41d1,2024-04-23,cbbf6e73,"satisfy formatter, linter, and strict mypy",21,18,151,113,139,97,0,0,0,48,1,4,3,0,1,18,0,91,7,16,112,0,0,0,0,0
+jinja,20477c6357,2024-04-23,cbbf6e73,update project files (#5457),26,1,280,379,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,d9de4bb215,2024-01-10,cbbf6e73,release version 3.1.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,7277d8068b,2024-01-10,cbbf6e73,update pre-commit hooks,3,2,8,8,3,3,0,0,0,4,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+jinja,19a55db3b4,2024-01-10,1fcafd44,Make nested-trans-block exceptions nicer,3,1,28,3,13,3,0,0,0,1,1,0,0,0,0,0,0,43,1,13,13,0,0,0,0,0
+jinja,7dd3680e6e,2024-01-10,b9c8c2a9,xmlattr filter disallows keys with spaces,3,1,28,7,21,7,0,0,0,1,0,0,0,0,0,0,0,16,0,0,13,0,0,0,0,0
+jinja,8d0ea74289,2023-06-27,cbbf6e73,update dependencies,11,3,20,24,3,5,0,0,0,6,0,0,0,0,0,0,0,58,1,1,3,0,0,1,0,0
+jinja,ae312b3065,2023-06-01,cbbf6e73,update dependencies,12,3,52,54,3,3,0,0,0,3,0,0,0,0,0,0,0,8,0,0,3,0,0,1,0,0
+jinja,051df10c7b,2023-06-01,cbbf6e73,fix check for empty required block (#1858),3,1,33,20,8,6,1,0,0,1,0,0,0,0,0,0,0,21,0,0,8,0,0,0,0,0
+jinja,37f5b058ee,2023-06-01,cbbf6e73,start version 3.1.3,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,291dfe27d5,2023-02-07,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,8ed8e1d0ed,2023-01-19,cbbf6e73,fix mypy strict findings,11,11,61,38,61,38,1,0,0,29,0,1,0,0,1,1,0,42,4,10,61,0,0,0,0,0
+jinja,a9c8111d24,2023-01-19,cbbf6e73,switch to pyproject.toml,6,1,97,120,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,3fadee01b7,2022-12-29,cbbf6e73,update dependencies,10,4,46,42,6,6,0,0,0,4,0,0,0,0,0,0,0,30,0,0,6,0,0,1,0,0
+jinja,0a10079f33,2022-10-13,cbbf6e73,update dev dependencies,7,1,31,36,4,4,0,0,0,4,0,0,0,0,0,0,0,19,0,0,4,0,0,1,0,0
+jinja,997f7f5243,2022-08-01,954fce95,Replacing os.path.sep with os.sep in loader (#1698),1,1,11,14,11,14,0,0,0,4,0,0,0,0,0,0,0,43,0,0,11,0,0,0,0,0
+jinja,6089d142c1,2022-07-04,cbbf6e73,move closure out of loop for bugbear B023,1,1,17,17,17,17,1,0,0,2,0,0,0,0,0,0,0,15,0,0,13,0,0,0,1,0
+jinja,1e68ba8617,2022-04-28,cbbf6e73,release version 3.1.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,a24df26d54,2022-04-28,cbbf6e73,ignore new mypy finding,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+jinja,746bb95780,2022-04-25,a6b8b6f6,Fix race conditions in FileSystemBytecodeCache,2,1,49,6,48,6,1,0,0,3,0,0,0,0,1,0,0,23,0,0,33,0,1,0,0,0
+jinja,5d3d241471,2022-04-04,cbbf6e73,fix flake8-bugbear finding,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+jinja,21da8f5298,2022-04-04,6327f07c,add missing options to overlay from __init__,2,1,14,1,11,1,0,0,0,1,0,0,1,0,0,0,0,46,1,9,9,0,0,0,0,0
+jinja,ea69e41db3,2022-04-04,cbbf6e73,start version 3.1.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,d80ffb47e6,2022-03-25,cbbf6e73,release version 3.1.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,1b02fccaf4,2022-03-25,cbbf6e73,normpath on final template filename,3,1,22,7,7,3,0,0,0,2,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+jinja,155e51d90b,2022-03-25,cbbf6e73,start version 3.1.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,e542e10002,2022-03-24,cbbf6e73,start version 3.2.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,7b0c47fe1c,2022-03-24,cbbf6e73,release version 3.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,040088a395,2022-03-15,cbbf6e73,use `posixpath.join` when loading template names,3,1,15,6,8,3,0,0,0,3,0,0,0,0,0,0,0,43,0,0,4,0,0,0,0,0
+jinja,5182b64d1c,2022-03-08,ff6ab1fb,Re-use existing regex for whitespace detection,1,1,3,6,3,6,0,0,0,2,0,0,0,2,0,0,0,126,2,3,3,0,0,0,0,0
+jinja,e690f7c596,2022-03-08,cbbf6e73,add case_sensitive parameter groupby filter,4,1,86,6,44,6,0,0,0,2,0,0,0,0,0,0,0,21,0,0,36,0,0,0,0,0
+jinja,a150ff749a,2022-03-07,cbbf6e73,add parens around auto_await for filters and calls,3,1,22,4,4,4,0,0,0,2,0,0,0,0,0,0,0,28,0,0,4,0,0,0,0,0
+jinja,1c036cac2f,2022-03-07,c7ba33ae,add items filter,3,1,43,0,31,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,22,0,0,0,0,0
+jinja,ac3ac6c965,2022-03-07,9284f77b,async_variant filters are pickleable,3,1,18,1,10,1,0,0,0,2,0,0,0,0,0,0,0,16,0,0,5,0,1,0,0,0
+jinja,e8da6267f8,2022-02-18,63829641,get_template() uses / separators even on Windows,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+jinja,d5edb25f55,2022-02-17,cbbf6e73,update pre-commit hooks,4,3,29,36,26,34,0,0,0,5,0,0,0,0,0,0,0,90,1,12,26,0,0,0,0,0
+jinja,4a33989236,2022-01-13,cbbf6e73,update identifier pattern for Python 3.7,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,b6f50df85b,2021-12-26,cbbf6e73,specify context for translation block,4,1,63,19,20,15,0,0,0,2,0,0,2,0,0,0,0,97,2,16,16,0,0,0,0,0
+jinja,cdc4f1d0d3,2021-12-26,cbbf6e73,fix new mypy findings,12,10,15,17,14,16,1,0,0,14,0,0,0,0,0,0,0,127,1,1,14,0,0,0,0,0
+jinja,e04df6ed8c,2021-11-28,99eb5c71,Fix little typo in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jinja,2903565262,2021-11-10,409aa796,support native types in macros,6,4,25,6,16,6,0,0,0,6,0,0,0,0,0,0,0,19,0,0,15,0,0,0,0,0
+jinja,04126f9e49,2021-11-10,cbbf6e73,remove deprecated unicode_urlencode,2,1,1,12,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jinja,6faf093f9d,2021-11-10,cbbf6e73,remove deprecated legacy resolve mode for context subclass,3,1,3,55,0,38,0,0,0,2,0,0,0,0,0,1,0,6,0,0,0,0,0,0,1,0
+jinja,88745a2b9e,2021-11-10,cbbf6e73,remove deprecated unicode_join runtime alias,2,1,2,12,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jinja,824b4d3e5b,2021-11-10,cbbf6e73,remove deprecated Markup and escape aliases,3,2,1,24,0,24,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,1,0
+jinja,c6caa4c5b0,2021-11-10,cbbf6e73,remove deprecated template function decorators,5,3,5,136,0,124,0,0,0,1,0,0,0,0,0,6,0,4,0,0,0,0,0,0,1,0
+jinja,ac9dbfcf50,2021-11-09,cbbf6e73,remove deprecated extensions,2,1,5,25,0,25,0,0,0,1,0,0,0,0,0,2,0,7,0,0,0,0,0,0,1,0
+jinja,ce1a539a69,2021-11-09,cbbf6e73,release version 3.0.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,eec0db8642,2021-11-09,cbbf6e73,PackageLoader works with single module file,3,1,36,4,12,4,0,0,0,1,0,0,0,0,0,0,0,43,0,0,7,0,0,1,0,0
+jinja,3f1e3fccc2,2021-11-09,cbbf6e73,rewrite Template class doc,1,1,14,27,14,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+jinja,9b96b4817a,2021-11-09,6ea4c8a6,Use object.__hash__ for Node.__hash__,3,1,6,2,1,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+jinja,b756b1924a,2021-11-09,6d018531,Reduce async overhead due to auto_await,2,1,9,0,7,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,1,0,0,1
+jinja,bb0db82b91,2021-11-09,409aa796,native: keep same behavior on Python 3.10,3,1,15,1,7,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+jinja,99435a4e69,2021-11-09,cbbf6e73,simplify CodeType rewriting,2,1,42,53,33,53,0,0,0,1,0,1,0,0,0,0,0,47,1,30,30,0,0,0,0,1
+jinja,5308c9588d,2021-11-08,cbbf6e73,drop Python 3.6,11,3,27,157,8,87,0,0,0,4,0,0,0,1,0,5,0,90,1,0,8,0,0,0,0,0
+jinja,8cc3a64fa6,2021-10-12,21e38ada,Fix typos,3,1,4,4,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,76c9cf832a,2021-10-04,cbbf6e73,release version 3.0.2,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,8931077058,2021-10-04,cbbf6e73,omit curdir from PackageLoader root path,3,1,17,1,3,1,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+jinja,baff54fe1d,2021-10-04,a4765b7f,imported macros can access template globals in async mode,4,1,39,34,1,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,1,1,0,0
+jinja,ad1ebe30f2,2021-10-04,cbbf6e73,apply pyupgrade,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jinja,a99f8c150b,2021-10-04,cbbf6e73,use exception chaining,5,5,32,32,32,32,0,0,0,17,0,0,0,0,0,0,0,43,2,3,32,0,0,0,0,0
+jinja,d5f49f5cc1,2021-08-09,81612545,Fixes #1448: Revert Undefined.__contains__ to 2.x behaviour,3,1,6,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,4c703ec44d,2021-08-09,0c86d0c5,make compile_templates deterministic,4,2,32,2,2,2,0,0,0,2,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+jinja,1b4c25991b,2021-08-02,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jinja,f3bc9c6a91,2021-05-21,4a6d3371,clear assignments in loops at end of iteration,3,1,15,0,5,0,0,0,0,1,0,0,1,0,0,0,0,108,1,2,2,0,0,0,0,0
+jinja,738644d816,2021-05-18,cbbf6e73,start version 3.0.2.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,4d23bfb317,2021-05-18,cbbf6e73,release version 3.0.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,7d0b7accff,2021-05-18,cbbf6e73,use asyncio.run,4,1,45,15,27,9,0,0,0,2,0,0,0,0,1,0,0,22,0,0,24,0,1,0,0,0
+jinja,f562a4fdea,2021-05-17,cbbf6e73,fix deprecated `Markup` subclass,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+jinja,b4d31e7b8d,2021-05-13,cbbf6e73,show context for deprecated extensions,2,1,4,2,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+jinja,9f34d2ac87,2021-05-13,cbbf6e73,fix typing that wasn't available in Python 3.6.0,9,8,24,13,23,13,1,0,0,15,0,0,0,0,0,0,0,35,1,1,22,0,0,0,0,0
+jinja,db5fb7971f,2021-05-13,cbbf6e73,mark top-level names as exported,2,1,34,32,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0
+jinja,3a9c8f25ba,2021-05-12,c7c80f9f,Remove type annotation breaking sphinx builds,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,48,1,1,1,0,0,0,1,0
+jinja,e2f673e604,2021-05-11,cbbf6e73,update markupsafe minimum version,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,c2d8b9551f,2021-05-11,cbbf6e73,start version 3.1.0.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,058c06f24d,2021-05-11,cbbf6e73,start version 3.0.1.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,b15fd1c94c,2021-05-11,cbbf6e73,release version 3.0.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,be15556dba,2021-05-08,cbbf6e73,add type annotations,27,21,2469,1517,2456,1512,0,0,0,662,5,5,21,1,29,18,0,127,43,395,2221,0,0,0,0,0
+jinja,8d1d9e16bc,2021-04-25,cbbf6e73,release version 3.0.0rc2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,e802be7520,2021-04-17,cbbf6e73,fix Markup subclass,1,1,2,2,2,2,1,0,0,0,0,0,0,0,1,1,0,0,0,0,2,0,0,0,0,0
+jinja,8179a3c2da,2021-04-16,cbbf6e73,release version 3.0.0rc1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,8169a9db2a,2021-04-16,cbbf6e73,update minimum install requirements,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,b98182fc37,2021-04-15,cbbf6e73,mention jinja in deprecation message,4,4,23,17,23,17,0,0,0,10,0,0,0,0,0,0,0,9,0,0,23,0,0,0,0,0
+jinja,912e59d51f,2021-04-11,cbbf6e73,deprecate legacy resolve mode,4,1,75,57,65,51,0,0,1,6,0,0,0,1,0,2,0,17,1,0,43,0,0,0,0,0
+jinja,1932ce3dc4,2021-04-10,cbbf6e73,async support doesn't require patching,14,9,462,605,453,593,0,0,0,27,1,1,0,2,35,56,0,89,2,7,342,0,1,0,0,0
+jinja,aafe94d97a,2021-04-10,cbbf6e73,Markup and escape should be imported from markupsafe,8,2,37,34,32,11,0,0,0,3,0,0,1,0,2,0,0,58,2,6,28,1,0,1,0,0
+jinja,788d8bc172,2021-04-10,cbbf6e73,unify/rename filter and function decorators,17,10,373,222,286,157,0,0,0,19,0,0,0,2,10,5,0,37,4,22,252,0,0,0,0,0
+jinja,c8db6c6313,2021-04-10,cbbf6e73,extract common code for import/from nodes,1,1,13,20,13,20,0,0,0,2,0,1,0,0,1,0,0,47,1,2,9,0,0,1,1,0
+jinja,8c97ae57d1,2021-04-09,c477a207,refactor compiler environment.is_async checks,1,1,21,25,21,25,0,0,0,7,0,0,0,4,1,0,0,106,4,10,19,0,1,0,0,1
+jinja,34fbec9a72,2021-04-05,a08f6db2,add default parameter to groupby,4,2,36,3,19,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,15,0,0,0,0,0
+jinja,da48bb0d20,2021-04-05,e71449c4,Fix map documentation,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+jinja,0fa20045b0,2021-04-05,70df7e32,update wording on dictionary default ordering,2,1,13,6,2,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jinja,9dae67bcc8,2021-04-05,ff6ab1fb,"Split lines in lexer only by \r\n, \r and \n",3,1,19,5,10,5,0,0,0,1,0,0,0,1,0,0,0,121,1,7,7,0,0,0,1,0
+jinja,3642ae7fef,2021-04-05,736e5775,NativeEnvironment supports async mode,3,1,39,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,1,0,0,0
+jinja,3242428c52,2021-04-05,d73d9f68,add Undefined.__aiter__,3,1,19,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+jinja,609bcb0831,2021-04-05,26bfc054,Undefined.__contains__ raises UndefinedError,3,1,4,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,2e0a3da2bc,2021-04-05,b02a869e,"parse hex, octal, and binary integer literals",3,1,26,2,17,2,0,0,0,1,0,0,0,0,0,0,0,37,1,1,17,0,0,0,0,0
+jinja,8016b5f139,2021-04-05,98d09ef9,filters.py: do_indent: ident filter can indent with arbitrary characters,3,1,18,3,12,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,10,0,0,0,0,0
+jinja,f0a9f319b7,2021-04-05,cbbf6e73,add type annotations to filters and tests,6,6,509,206,509,206,0,0,0,101,2,0,2,0,9,0,0,58,9,58,423,0,0,0,0,0
+jinja,3fba898098,2021-04-05,93277026,add pgettext and npgettext,4,1,168,24,57,6,0,0,0,4,2,0,0,0,4,0,0,15,1,10,41,0,0,0,0,0
+jinja,6c733602ac,2021-04-04,cbbf6e73,add 'is filter' and 'is test' tests,8,4,342,175,211,97,0,0,0,7,2,1,1,1,4,1,0,28,4,53,163,0,0,0,0,0
+jinja,ebf0e2dfda,2021-04-04,4a6d3371,allow optional use of filter based on existence,4,2,77,2,27,2,0,0,0,5,1,0,0,0,0,0,0,28,1,1,20,0,0,0,0,0
+jinja,38e45fead3,2021-03-31,cbbf6e73,more detailed docs about globals,4,1,139,78,80,41,0,0,0,6,0,0,0,0,0,0,0,17,0,0,64,0,0,0,0,0
+jinja,49d5f9788c,2021-03-30,4a6d3371,fix bug with cached templates not using new globals,3,1,46,0,10,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+jinja,f524bcce0c,2021-03-26,4a6d3371,track local loop/block vars for contextfunctions,4,2,148,4,46,4,0,0,0,7,2,0,2,0,0,0,0,109,4,29,40,0,0,0,0,0
+jinja,fed1b24d5f,2021-03-26,4a6d3371,allow scoped blocks to access loop vars,1,1,6,3,6,3,0,0,0,1,0,0,1,0,0,0,0,107,1,5,5,0,0,0,0,0
+jinja,73a94e00d4,2021-02-24,c206bc69,map filter can use False as default,3,1,11,1,1,1,0,0,0,2,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+jinja,e381730a73,2021-02-24,cbbf6e73,move version to setup.cfg,2,1,2,8,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jinja,d2cef39355,2021-02-24,cbbf6e73,consistent typing config,8,6,29,27,16,11,0,0,0,1,0,0,0,0,0,0,0,2,0,0,15,0,0,0,0,0
+jinja,f2fdf18610,2021-02-01,cbbf6e73,update tojson docs,2,2,46,46,46,46,0,0,0,2,0,0,0,0,0,0,0,10,0,0,37,0,0,0,0,0
+jinja,cf215390d4,2021-01-31,cbbf6e73,release version 2.11.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,ef658dc3b6,2021-01-31,cbbf6e73,speed up urlize matching,2,1,66,51,56,51,0,0,0,1,0,0,1,0,0,0,0,54,1,43,45,0,0,0,0,0
+jinja,a30f92d246,2021-01-30,cbbf6e73,fix new formatting issues,7,4,28,21,24,17,1,0,0,6,0,0,0,0,0,0,0,41,0,0,24,0,0,0,0,0
+jinja,1aa979c545,2021-01-30,cbbf6e73,refactor urlize function,2,1,76,67,71,63,0,0,0,2,0,0,1,0,1,0,0,52,1,50,51,0,0,0,0,1
+jinja,be83e7e06c,2021-01-30,cbbf6e73,"update urlize docs, clean up code",6,3,131,76,120,71,0,0,0,2,0,0,0,1,0,0,0,50,2,66,103,0,0,0,0,1
+jinja,d504e1d1e2,2021-01-30,ec2bd32a,Improve and extend urlize,6,3,129,27,93,27,0,0,0,2,0,0,2,0,0,0,0,50,2,67,77,0,0,0,0,0
+jinja,1843d6d411,2021-01-29,ad6ca84f,deprecate 'with' and 'autoescape' extensions,4,1,29,16,17,2,0,0,0,1,0,0,0,0,2,0,0,8,0,0,17,1,0,0,0,0
+jinja,8da77f9753,2021-01-29,4a6d3371,add required attribute to blocks,7,3,183,4,27,3,0,0,0,2,0,0,0,0,0,0,0,34,0,0,20,0,0,0,0,0
+jinja,bd8bad37d1,2021-01-28,409aa796,native_concat: pass only strings to literal_eval,2,1,5,0,2,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jinja,5f79ba633d,2021-01-19,2bc7436a,add 'linetable' to the preserved CodeType attributes (#1334),1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,54,1,1,1,0,0,0,0,0
+jinja,e1d0131a7f,2020-10-31,5965a6d8,detect custom async filters in as_const,3,1,39,4,7,4,0,0,0,1,1,0,0,0,0,0,0,22,1,3,4,0,1,0,0,0
+jinja,50ae5b6ac7,2020-07-28,a66fb66a,"Setup mypy * Add missing type hints (these are intended as an initial set of type hints, to be added",15,8,72,32,39,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0
+jinja,cd41cacc5f,2020-07-01,cbbf6e73,move metadata to setup.cfg,2,1,41,30,1,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jinja,6b0122768f,2020-06-22,4a6d3371,ignore trim_blocks using '+%}',4,1,136,5,8,4,0,0,0,1,0,0,1,0,0,0,0,90,1,8,8,0,0,0,0,0
+jinja,cc792d8c91,2020-06-22,4a6d3371,imported templates can see the current globals,6,4,48,9,27,7,0,0,0,7,1,0,1,0,0,0,0,58,3,6,26,0,0,1,0,0
+jinja,6de60977ac,2020-06-15,4a6d3371,remove sandbox._MagicFormatMapping,2,1,7,32,0,32,0,0,0,5,0,0,0,0,0,4,0,15,0,0,0,0,0,0,1,0
+jinja,2408a55bbe,2020-05-23,cbbf6e73,update package and filesystem loader docs,2,1,42,27,17,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+jinja,48929401db,2020-05-16,610d026a,do_dictsort: update example ready to copy/paste,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+jinja,737a4cd41d,2020-04-13,cbbf6e73,release version 2.11.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,f75cb42e4f,2020-04-13,cbbf6e73,native only evals at end of render,3,1,20,24,7,24,0,0,0,3,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+jinja,dbbd082bce,2020-04-13,4a4e6d9f,Fix unintended lstrip_blocks behavior. Fixes #1138,1,1,8,5,8,5,1,0,0,1,0,0,1,0,0,0,0,131,1,5,5,0,0,0,0,0
+jinja,35aa1948c0,2020-04-08,ed6f7da1,Update oudated CutomLoader code example (#1185),1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,c0675781a5,2020-03-30,cbbf6e73,add changelog and cleanup for pep 451 support,3,1,15,20,6,6,0,0,0,1,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,1
+jinja,a524e77eec,2020-03-30,1266f590,Use importlib machinery to fix PEP 451 import hooks,2,1,54,14,13,14,1,0,0,1,0,0,0,0,0,0,0,29,0,0,11,0,0,1,0,0
+jinja,0fd45a4dc7,2020-03-30,0e0b7b96,namespace object works in async templates,3,1,15,1,2,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,1,0,0,0
+jinja,77a212bf93,2020-03-30,5f2053de,Fix tokens line number calculation when whitespace stripping is used,3,1,26,2,6,2,1,0,0,1,0,0,1,0,0,0,0,128,1,6,6,0,0,0,0,0
+jinja,e2357fad71,2020-03-30,cbbf6e73,"Revert ""PackageLoader doesn't depend on setuptools""",3,1,47,134,47,84,0,0,0,3,0,0,0,0,2,1,0,12,0,0,47,0,0,0,0,0
+jinja,cf53e2254d,2020-03-30,cbbf6e73,"Revert ""PackageLoader understands namespace packages""",1,1,8,39,8,39,0,0,0,1,0,0,0,0,0,0,0,14,0,0,7,0,0,0,0,0
+jinja,f15452f130,2020-03-27,cbbf6e73,AttributeError in undefined message doesn't cause RuntimeError,3,1,25,3,7,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+jinja,40e70b820c,2020-02-28,cbbf6e73,better PyObject_HEAD size calculation,2,1,3,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,ba080f51e0,2020-02-27,f447f815,"use soft_str in do_wordcount, to trigger undefined",3,1,10,2,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jinja,27a5c4e0e3,2020-02-05,cbbf6e73,add note about ugettext,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,8468d3a98f,2020-02-05,cbbf6e73,bump bytecode cache version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,2a8515d2e5,2020-02-05,cbbf6e73,apply pyupgrade and f-strings,55,24,642,833,398,538,0,0,0,136,0,0,0,9,1,0,0,115,19,142,389,0,0,0,0,0
+jinja,42edc13290,2020-02-05,cbbf6e73,stop building universal wheel,2,1,2,9,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,60293416db,2020-02-05,cbbf6e73,remove more compat code,13,10,56,117,32,81,0,0,0,10,0,0,1,1,1,2,0,94,5,9,29,0,0,0,1,0
+jinja,148a19138c,2020-02-05,cbbf6e73,remove _compat module,29,20,266,768,226,606,0,0,0,101,0,1,0,4,3,15,0,123,15,28,210,0,0,1,1,0
+jinja,b0015c72d5,2020-02-05,cbbf6e73,remove deprecated code,10,6,9,134,5,122,0,0,0,2,0,0,0,1,0,6,0,40,1,2,3,0,0,0,1,0
+jinja,f28b25ea62,2020-02-05,cbbf6e73,remove Python 2 from docs,15,8,115,245,23,22,0,0,0,9,0,0,0,0,0,0,0,29,1,2,23,0,0,0,1,0
+jinja,9933324688,2020-02-04,fc496dac,Use stricter getattr() checks for decorator functions,5,5,19,20,19,20,0,0,0,6,0,0,0,0,0,0,0,28,1,3,19,0,0,0,0,0
+jinja,b85283e846,2020-01-30,cbbf6e73,release version 2.11.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,05dee9b870,2020-01-30,c7ba33ae,Fix attribute access in async code. Fixes #1141,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,16,0,0,4,0,1,0,0,0
+jinja,4b8d839e1e,2020-01-27,cbbf6e73,start version 3.0.0,3,2,14,16,4,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jinja,bbdafe33ce,2020-01-27,cbbf6e73,release version 2.11.0,2,1,7,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,9ff27f64a9,2020-01-26,cbbf6e73,"add python 3.8 classifier, clean up changelog",2,1,8,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+jinja,984997913c,2020-01-26,cbbf6e73,"import Markup from markupsafe, fix flake8 import warnings",9,9,23,20,23,20,1,0,0,1,0,0,0,0,0,0,0,94,1,1,17,0,0,1,0,0
+jinja,c6d864cf89,2020-01-26,cbbf6e73,increment bytecode cache version,1,1,6,9,6,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jinja,86f1432cf8,2020-01-26,cbbf6e73,"Revert ""rename directory to jinja""",27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,4a59ac9514,2020-01-26,cbbf6e73,"Revert ""rename imports to jinja""",57,14,393,367,60,65,0,0,0,18,0,0,0,0,0,0,0,94,6,7,51,0,0,1,0,0
+jinja,4ec93a454b,2020-01-26,cbbf6e73,"Revert ""add warning and alias for jinja2""",7,5,15,12,12,8,0,0,0,1,0,0,0,0,0,0,0,94,1,1,10,0,0,0,0,0
+jinja,8d85f9cb6b,2020-01-10,cbbf6e73,extract jinja2-compat to separate repo,32,28,0,195,0,152,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jinja,fc9c60ba45,2020-01-10,cbbf6e73,add warning and alias for jinja2,39,33,207,15,160,12,0,0,0,1,0,0,0,0,1,0,0,94,1,1,126,0,0,0,0,0
+jinja,1167525b73,2020-01-10,cbbf6e73,rename imports to jinja,57,14,367,393,65,60,0,0,0,18,0,0,0,0,0,0,0,94,6,7,57,0,0,1,0,0
+jinja,eac9acb7ae,2020-01-10,cbbf6e73,rename directory to jinja,27,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,51c1c8efa6,2020-01-10,cbbf6e73,simplify module docstrings,38,22,41,387,41,242,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,1,0,1
+jinja,e492255f27,2020-01-10,cbbf6e73,remove old scripts and examples,31,4,34,2599,0,914,0,0,0,0,0,2,0,0,0,65,0,0,0,0,0,0,0,0,1,0
+jinja,126fce8b04,2020-01-10,cbbf6e73,more relative imports,8,7,32,33,25,29,0,0,0,12,0,0,0,1,0,0,0,94,4,4,21,0,0,1,0,0
+jinja,963b5d3c3f,2020-01-10,cbbf6e73,ensure deprecation warnings mention version,6,3,19,13,15,8,0,0,0,2,0,0,1,0,0,0,0,62,1,7,14,0,0,0,0,0
+jinja,bb6216ea30,2020-01-10,cbbf6e73,apply flake8,43,20,426,433,255,195,0,0,0,53,0,0,1,1,17,3,0,113,11,20,223,0,0,0,0,0
+jinja,04c8787155,2020-01-10,cbbf6e73,apply black,67,29,6198,4883,2720,2108,0,0,0,369,0,0,28,2,4,4,0,124,40,809,2572,0,0,0,0,0
+jinja,d177eeb295,2020-01-10,cbbf6e73,apply reorder-python-imports,59,29,460,283,299,194,0,0,0,0,0,0,0,0,0,0,0,0,0,0,287,0,0,1,0,0
+jinja,e1e1e7d18b,2020-01-09,cbbf6e73,move to src directory,28,28,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+jinja,b23a0dec2d,2020-01-08,a6651afa,TemplateSyntaxError can be pickled,3,1,16,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+jinja,390556c1a2,2020-01-06,ed8f13b3,minor: fix typo in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jinja,2ec62dc414,2019-12-05,cbbf6e73,handle Undefined in get/select_template,5,3,95,25,65,24,0,0,0,5,0,0,0,0,1,0,0,17,0,0,50,0,0,0,0,0
+jinja,d2e0e78afe,2019-12-05,cbbf6e73,PackageLoader understands namespace packages,2,1,43,10,39,8,0,0,0,1,0,0,0,0,0,0,0,28,0,0,28,0,0,0,0,0
+jinja,2b0d1ed921,2019-12-03,cbbf6e73,TemplateSyntaxError from included template has source,3,1,25,10,4,6,0,0,0,1,0,0,0,0,0,0,0,31,0,0,3,0,0,1,0,0
+jinja,d4aff1fc0b,2019-12-03,cbbf6e73,apply optimizer to all Expr nodes,2,1,18,16,16,16,0,0,0,0,0,0,0,0,1,1,0,0,0,0,12,0,0,0,0,0
+jinja,1539dd418a,2019-12-02,c91ac178,add a node for derived context references,4,2,36,4,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+jinja,cfb789adc8,2019-12-02,cbbf6e73,rewrite traceback rewriting support,6,4,234,379,228,377,0,0,1,11,1,0,0,1,7,20,0,18,1,1,164,0,1,0,0,0
+jinja,3487c8e087,2019-11-20,cbbf6e73,refactor visit_Output,5,3,188,297,167,275,0,0,0,1,0,1,0,1,12,5,0,51,1,32,120,0,0,0,0,1
+jinja,1f37d5f0d4,2019-11-20,cbbf6e73,add test and changelog for constant comparison folding,3,1,39,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,48036fb4cb,2019-11-20,389f7c25,return on first false when folding Compare node,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jinja,70ea1d3e22,2019-11-20,dec422bc,use 'callable' instead of typechecking to inject context,3,2,4,6,2,6,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+jinja,4d0949b308,2019-11-07,cbbf6e73,async templates await attribute access,4,1,49,25,12,0,0,0,0,2,0,0,0,0,0,0,0,16,0,0,8,0,1,0,0,0
+jinja,24d86a9615,2019-11-07,cbbf6e73,don't prefetch next item in loop context,3,3,224,151,224,151,0,0,0,17,2,3,0,0,14,8,0,102,4,13,197,0,0,0,0,0
+jinja,d988c13ffa,2019-11-04,cbbf6e73,clarify quoting behavior of urlencode filter,3,2,61,38,44,26,0,0,0,2,0,0,0,0,0,0,0,12,0,0,33,0,0,0,0,0
+jinja,2edcf7db4b,2019-11-01,86da18f2,add break_on_hyphens parameter to wordwrap filter,2,1,17,1,15,1,0,0,0,1,1,0,0,0,0,0,0,26,1,13,13,0,0,0,0,0
+jinja,f6e539831f,2019-11-01,cbbf6e73,"reformat, doc, and test for wordwrap",3,1,44,28,35,28,0,0,0,1,0,0,0,0,0,0,0,18,0,0,27,0,0,0,0,0
+jinja,4e7e45ab35,2019-11-01,c3c164d0,let wordwrap filter respect existing newlines,1,1,17,3,17,3,0,0,0,1,0,0,0,0,0,0,0,18,0,0,13,0,0,0,0,0
+jinja,1db7d51366,2019-10-28,cbbf6e73,compile writes utf8,2,1,9,7,7,7,0,0,0,2,0,0,0,0,0,0,0,52,1,6,6,0,0,0,0,0
+jinja,32027ea0e6,2019-10-28,cbbf6e73,creating a NativeTemplate creates a NativeEnvironment,4,2,153,135,27,16,0,0,0,1,0,0,0,0,0,0,0,8,0,0,18,0,0,0,0,0
+jinja,82a8ea4f3b,2019-10-27,42e236d6,Use print() function in both Python2 and Python 3,12,2,22,11,4,3,0,0,0,3,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+jinja,7ca03082c5,2019-10-24,cbbf6e73,don't create a third queue,3,1,5,5,1,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+jinja,39d2e2254a,2019-10-24,70106b12,LRUCache.copy initializes queue methods,3,1,15,1,1,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jinja,81825095d2,2019-10-23,cbbf6e73,"use ""Jinja"" instead of ""Jinja2""",3,1,6,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,57626a000a,2019-10-23,cbbf6e73,"use ""Jinja"" instead of ""Jinja2""",30,12,158,160,23,23,0,0,0,8,0,0,0,0,0,0,0,21,1,1,21,0,0,0,0,0
+jinja,e5c042bb7f,2019-10-22,cbbf6e73,preserve quotes between nodes in native env,3,1,52,18,32,17,0,0,0,2,0,0,0,0,0,0,0,17,0,0,25,0,0,0,0,0
+jinja,b43531f8d8,2019-10-21,cbbf6e73,use fspath instead of str,3,2,40,21,37,18,0,0,0,2,0,0,0,0,1,0,0,13,0,0,27,0,0,0,0,0
+jinja,12307960dc,2019-10-21,d012d19d,support pathlib in FileSystemLoader and ModuleLoader,6,2,114,14,16,6,0,0,0,2,0,0,0,0,0,0,0,12,0,0,9,0,0,1,0,0
+jinja,cde8a42fd6,2019-10-20,cbbf6e73,clarify cycler.next() behavior,2,1,54,25,32,6,0,0,0,4,0,0,0,0,0,0,0,5,0,0,27,0,0,1,0,0
+jinja,50f181080a,2019-10-19,cbbf6e73,clean up i18n documentation,3,1,153,115,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+jinja,f9f1e3d8b2,2019-10-18,cbbf6e73,document equivalent generator expressions for filters closes #1068,1,1,35,0,35,0,0,0,0,5,0,0,0,0,0,0,0,5,0,0,20,0,0,0,0,0
+jinja,f91db0b56f,2019-10-18,cbbf6e73,document how ContextReference relates to contextfunction closes #762,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jinja,edc0aa2264,2019-10-18,cbbf6e73,document formatting methods in format filter closes #566,1,1,15,4,15,4,0,0,0,1,0,0,0,0,0,0,0,5,0,0,10,0,0,0,0,0
+jinja,4b6077a8c0,2019-10-17,cbbf6e73,PackageLoader doesn't depend on setuptools,4,1,152,54,92,47,0,0,0,3,0,0,0,0,1,2,0,26,0,0,68,0,0,0,0,0
+jinja,ef1a4c698c,2019-10-14,eef8ace8,"fixing LoopContext, loops indexing and iterator length property",3,1,62,12,11,12,1,0,0,3,0,0,0,0,0,0,0,7,0,0,11,0,0,0,0,0
+jinja,4d331a0ae3,2019-10-13,c7c80f9f,Don't make cond_expr_undefined configurable,6,3,16,34,8,19,0,0,0,5,0,0,0,2,0,0,0,28,3,3,6,0,0,0,0,0
+jinja,c4d39969e2,2019-10-13,c7c80f9f,Use separate undefined object for CondExpr,5,2,34,6,19,5,0,0,0,7,0,0,2,0,0,0,0,28,3,5,18,0,0,0,0,0
+jinja,aaf13a231c,2019-10-13,cbbf6e73,skip template with same name as directory,4,1,23,9,6,7,0,0,0,1,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+jinja,719537aeec,2019-10-12,cbbf6e73,don't finalize TemplateData nodes,4,1,88,40,37,30,0,0,0,1,0,0,0,1,2,0,0,118,1,26,26,0,0,0,0,0
+jinja,636c7122d9,2019-10-10,cbbf6e73,consistent use of token constants,1,1,31,25,31,25,0,0,0,6,0,0,1,0,1,0,0,117,3,20,31,0,0,0,0,0
+jinja,9bd3cb22c1,2019-10-09,8c3e0921,Add more strict type tests,3,1,146,39,47,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,30,0,0,0,0,0
+jinja,b26eabe52d,2019-10-08,cbbf6e73,explain what autoescaping does,19,11,130,123,79,55,0,0,0,1,0,0,0,0,1,1,0,10,0,0,55,0,0,0,0,0
+jinja,6b9eb6df5a,2019-10-07,cbbf6e73,use slots for lexer lstrip marker,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,37249c0810,2019-10-06,cbbf6e73,add comments about lstrip code,1,1,37,20,37,20,0,0,0,2,0,0,1,0,0,0,0,114,2,14,17,0,0,0,0,0
+jinja,5e645ab25c,2019-10-04,cbbf6e73,document debug extension,4,1,88,57,20,27,0,0,0,3,0,0,0,0,0,1,0,10,0,0,20,0,0,0,0,0
+jinja,93565e6cd8,2019-10-04,cbbf6e73,don't bypass autoescape,2,1,17,29,12,16,0,0,1,2,0,0,0,0,0,0,0,10,0,0,9,1,0,0,0,0
+jinja,017c8d3509,2019-10-04,5d1e4597,"Add support for a {% debug %} extension tag. This dumps the available variables, filters and tests.",2,1,80,2,64,2,0,1,0,1,0,0,0,0,3,0,0,2,0,0,50,0,0,0,0,0
+jinja,8afc7e57c9,2019-10-04,97c240e4,Fix bug with when using Markup on ChainableUndefined,2,1,12,4,7,4,1,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+jinja,c6a71f9545,2019-10-04,cbbf6e73,release version 2.10.3,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,218e77d77d,2019-10-04,c7c80f9f,Fix typo in setup.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,9a5d522cb5,2019-10-04,f5bf0a6e,add chars option to trim,3,1,13,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+jinja,0fee409131,2019-10-04,cbbf6e73,release version 2.10.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,65da441ee7,2019-10-04,cbbf6e73,update project metadata,8,2,123,184,45,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0
+jinja,065b58fc74,2019-10-04,9fe98328,Prevent deadlock in LRUCache.setdefault,2,1,6,10,5,10,1,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,1,0,0,0
+jinja,beb1fc6dbc,2019-09-22,d012d19d,"Add docs, code and issue tracker links to setup.py",1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+jinja,91a404073a,2019-09-04,a05e94a0,Fix simple typo: problemtic -> problematic (#1059),1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,3a86ef3d72,2019-09-04,d2dc0e3a,Fix TracebackFrameProxy.set_next() on Python 3.7,2,1,13,5,11,5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,1,0,0,0
+jinja,06696563d7,2019-07-26,cbbf6e73,fix linkcheck issues,7,1,24,25,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,f77b09d998,2019-07-26,cbbf6e73,"modernize docs config, use pallets-sphinx-themes",30,1,142,1149,4,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+jinja,0209b0fc62,2019-07-25,60c53dc9,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,1,1,1,0,0,0,0,0
+jinja,486a2f4afa,2019-07-24,60c53dc9,Simplify splitting import_name in import_string(),1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,1,1,1
+jinja,8a4a13d456,2019-07-23,cbbf6e73,clean up sort filter docs,1,1,22,21,22,21,0,0,0,1,0,0,0,0,0,0,0,6,0,0,20,0,0,0,0,1
+jinja,996bcadc3e,2019-07-23,eeb75d63,document that sort is stable,1,1,13,2,13,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,10,0,0,0,0,0
+jinja,d8f1eb1cf6,2019-07-23,cbbf6e73,clean up groupby filter docs,1,1,23,26,23,26,0,0,0,1,0,0,0,0,0,0,0,4,0,0,22,0,0,0,0,1
+jinja,523be83aec,2019-07-23,58a550e3,clarify groupby behavior in docs,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+jinja,733851eda0,2019-07-23,cbbf6e73,clean up numeric underscore support,4,1,70,42,15,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,1
+jinja,1fea4b65f9,2019-07-23,cbf84ea9,support underscore in int and float,3,1,24,11,7,4,0,0,0,1,0,0,0,0,0,0,0,35,1,2,5,0,0,0,0,0
+jinja,483b62eec2,2019-07-23,cbbf6e73,clean up scientific notation support,4,1,41,22,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1
+jinja,fd00805ca7,2019-07-22,cbf84ea9,support scientific notation,3,1,21,6,8,2,0,0,0,1,0,0,0,0,0,0,0,35,1,1,3,0,0,0,0,0
+jinja,f7b110cbd0,2019-07-22,a1a5f3af,exclude globals from find_undeclared_variables,3,1,7,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+jinja,8b09b03aa0,2019-07-22,a1a5f3af,Adding a default parameter to builtin map filter,3,1,32,2,14,2,0,0,0,4,0,0,0,0,0,0,0,19,0,0,10,0,0,0,0,0
+jinja,35fcd9fef2,2019-07-22,e8e7a1df,sandbox uses xrange on Python 2,3,1,23,7,8,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+jinja,2319cd5409,2019-07-22,f9ccb3c9,add default to map filter,3,1,47,6,21,4,0,0,0,5,0,0,0,0,0,0,0,21,0,0,16,0,0,0,0,0
+jinja,1e71e31512,2019-07-20,7007f9e2,Allow '{%+' to be valid syntax (but NOP) when lstrip_blocks == False. Fixes #748.,3,1,39,17,27,17,1,0,0,1,0,0,1,0,0,0,0,105,1,21,21,0,0,0,0,0
+jinja,ac6131d9b7,2019-07-17,cbbf6e73,standardize license,3,1,29,32,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,911df8e792,2019-07-08,60c53dc9,Fix line length,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,55e4a13075,2019-07-07,60c53dc9,Apply suggestions,2,2,3,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,99f2a6c6e5,2019-07-07,60c53dc9,Fix typo,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,aae91f42d1,2019-06-21,0b125a63,"Fix typo ""the the""",2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jinja,593ee1e481,2019-06-18,2fe7b03a,Import abstract base classes from collections.abc,6,5,19,26,17,24,0,0,0,1,0,0,0,0,0,0,0,2,0,0,15,0,0,1,1,0
+jinja,5dea3f7d9b,2019-06-09,936f7a48,Refactor _prepare_attribute_parts() to use in both make_attrgetter() and make_multi_attrgetter(),1,1,10,14,10,14,0,0,0,2,0,0,0,0,1,1,0,5,0,0,8,0,0,0,0,1
+jinja,8a39ecae15,2019-05-31,936f7a48,"Add ability to specify multiple attributes in sort, e.g. foo|sort(attribute='name,id').",2,1,74,1,41,1,0,0,0,1,0,0,0,0,3,0,0,8,0,0,32,0,0,0,0,0
+jinja,90595070ae,2019-05-31,8ca9cfc0,Added new method itervalues() to LRUCache and deprecated itervalue(),2,1,30,0,9,0,0,0,0,1,0,0,0,0,1,0,0,6,0,0,8,0,0,0,0,0
+jinja,62ca10664f,2019-05-20,413c2716,docs(filters): fix typo `columwrapper` => `columnwrapper`,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+jinja,9b38bb434a,2019-05-13,ee1de7f1,BUGFIX #930 - Template parse if with when referencing with dictionary subproperty,2,1,7,1,3,1,1,0,0,1,0,0,0,0,0,0,0,32,0,0,3,0,0,0,0,0
+jinja,19133d4059,2019-05-08,7472f691,Add ChainableUndefined allowing getattr & getitem (#997),7,3,69,9,38,5,0,0,0,2,0,0,0,0,1,0,0,17,0,0,28,0,0,0,0,0
+jinja,888dc8d81a,2019-05-06,4aded4c5,Fix use of 'is' operator for comparison,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,43,1,1,1,0,0,0,0,0
+jinja,7d00a40465,2019-05-06,2885694b,Fix lexer being extremely slow on large amounts of whitespace. Fixes #857,1,1,30,43,30,43,1,0,0,2,0,0,1,1,1,0,0,113,2,19,22,0,0,0,0,0
+jinja,98dc54dff4,2019-04-29,7c92355d,add list filter to make example match output,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jinja,c4c4088945,2019-04-06,cbbf6e73,release 2.10.1,3,2,12,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,a2a6c930bc,2019-04-06,c7ba33ae,sandbox str.format_map,2,1,33,3,14,3,0,0,0,3,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+jinja,a7493f4c92,2019-03-18,e213600c,Better repr for TemplateNotFound.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jinja,2b23cca8cf,2019-02-18,e4b301f3,Await in async version of the map filter (#913),3,1,11,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,1,0,0,0
+jinja,eca6fbfd6f,2019-01-12,015d9cfb,Fixing compiler handling of parens around boolean comparisons.,2,1,8,0,2,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+jinja,1b55cb7a45,2018-12-08,0b125a63,Add testing and document support for Python 3.7 & pypy3,3,1,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,7b6dd16d71,2018-11-17,fb9f4cbe,Clarify that last filter doesn't work with generators,1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+jinja,f98266115d,2018-10-29,249293ca,parser: Fix typo `self.lineno` -> `token.lineno`,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+jinja,33d6401e59,2018-08-29,0b125a63,Add trove classifier for PyPy support,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,148b6fb3c5,2018-08-29,0b125a63,Trim trailing white space throughout the project,6,1,55,55,14,14,0,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0
+jinja,ccac9402fc,2018-08-29,0b125a63,Pass python_requires argument to setuptools,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,31bf9b7e71,2018-08-07,2fe7b03a,Import abstract base classes from collections.abc,6,5,19,26,17,24,0,0,0,1,0,0,0,0,0,0,0,2,0,0,15,0,0,1,1,0
+jinja,5425921899,2018-06-27,2fe7b03a,Also drop Python 2.6,6,1,9,13,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,d1fb22fd45,2018-06-27,2fe7b03a,Drop Python 3.3 support,6,1,11,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,a2f5e2c797,2018-03-19,001cd473,Remove unescape method for fixing concatenation issue,1,1,8,14,8,14,1,0,0,1,0,0,0,0,0,1,0,26,0,0,7,1,0,0,1,0
+jinja,5db859c5c3,2018-03-19,001cd473,Apply unesacpe fix when blank is True,1,1,13,7,13,7,1,0,0,1,0,0,0,0,1,0,0,24,0,0,11,0,0,0,0,0
+jinja,e937c8a0de,2018-03-19,001cd473,Fix cases where filter input is not a Markup type,1,1,6,2,6,2,1,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+jinja,bfdc8467d4,2018-03-19,001cd473,Fix escaped characters in indent filter,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,23,0,0,1,1,0,0,0,0
+jinja,34b1ab9f6e,2018-03-19,106a6b8d,Correct documentation for min method (#825),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jinja,a922a5f331,2018-03-04,0b125a63,Fix typo: apparenlty -> apparently.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,f2e9280f5e,2018-02-18,22991ffa,Fix typos (#815),6,5,9,9,6,6,1,0,0,2,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+jinja,2c49d14cec,2018-02-06,97c1a0d3,Lazy asyncsupport.patch_all(),3,3,5,11,5,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,1,0,0,0
+jinja,d6c016ba77,2018-01-29,1d31adf6,More closely match python splatting for calls,2,1,11,4,4,2,0,0,0,1,0,0,1,0,0,0,0,38,1,2,2,0,0,0,0,0
+jinja,08a6faef2e,2018-01-17,409aa796,Don't check for generator if not needed,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jinja,9ef99dcd82,2018-01-17,409aa796,Allow to pass a list to native_concat,2,1,11,1,5,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+jinja,78928bffab,2017-12-02,a95110ac,Fix typo instanciable > instantiable,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+jinja,778ccb22e9,2017-11-08,bef4ce5a,Trivial typos,6,3,11,11,3,3,0,0,0,2,0,0,0,0,0,0,0,43,2,2,3,0,0,0,0,0
+jinja,b2dd36b60f,2017-11-08,cbbf6e73,Bump version number to 2.11.dev,3,2,8,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,78d2f67214,2017-11-08,cbbf6e73,Bump version number to 2.10,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,072cdf97fa,2017-10-31,c7c80f9f,Support filters in set block,6,3,49,3,9,3,0,0,0,2,0,0,0,0,0,0,0,19,0,0,9,0,0,0,0,0
+jinja,31f92b5947,2017-10-16,b3959303,Fix typo in docstring (#779),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jinja,4750cf7c69,2017-09-18,1527de5d,Minor docstring grammar fix (#772),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jinja,cde2a54b87,2017-08-22,c7c80f9f,Compile `elif` tag to `elif` instead of `else: if`,7,4,32,13,16,9,0,0,0,3,0,0,0,0,0,0,0,20,0,0,16,0,0,0,0,0
+jinja,60a7e775d4,2017-08-09,9d8f6a4e,Fix regression in 2.9 involving unsafe Context.get_all() usage,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+jinja,2ffeb693e3,2017-07-25,01e27667,Add requested patch for safe_repr and nodes.Impossible,2,1,19,1,3,1,0,0,0,1,0,0,1,0,0,0,0,109,1,2,3,0,0,0,0,0
+jinja,34ca7f17c2,2017-07-08,cbbf6e73,add test and changelog use ignore_case function,3,1,20,14,8,4,0,0,0,2,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+jinja,10fc8afc15,2017-07-08,c1d0e0fd,'reverse' option for dictsort,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+jinja,baa18e09a0,2017-07-07,cbbf6e73,shorten arguments add test for single line update changelog,3,1,48,23,27,15,0,0,0,1,0,0,0,0,0,0,0,22,0,0,21,0,0,0,0,0
+jinja,bb8ef40957,2017-07-07,cd1f507a,Ignore empty lines in indent filter,2,1,24,8,15,3,0,0,0,1,0,0,0,0,0,0,0,17,0,0,15,0,0,0,0,0
+jinja,d26947c7f6,2017-07-07,5e1c678d,Don't skip an erroneous comma when parsing from,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0
+jinja,5d79372640,2017-07-07,5e1c678d,"Add stricter checking to ""from ... import ...""",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,1,0,0
+jinja,c581d0ebe7,2017-07-07,0050ab10,Inline template tests during optimization,1,1,47,15,47,15,0,0,0,8,0,1,0,0,2,0,0,22,1,6,31,0,0,0,0,0
+jinja,40bc44c994,2017-07-06,01e27667,Add support for the Environment to optionally return native types.,5,1,380,0,218,0,0,0,0,0,1,0,0,0,5,0,0,0,0,0,160,0,0,0,0,0
+jinja,d62f0500a7,2017-07-06,cbbf6e73,allow using comparison operator symbols as tests add tests and aliases for all comparison operators ,4,1,64,48,17,36,0,0,0,0,0,0,0,0,0,3,0,0,0,0,17,0,0,0,0,0
+jinja,5ffbf8e571,2017-07-06,cbbf6e73,fix docs warnings,3,1,14,9,4,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+jinja,52dcb4753a,2017-07-06,cbbf6e73,parametrize tests argument order consistent with existing filters add changelog,3,1,42,62,20,38,0,0,0,4,0,0,0,0,0,0,0,11,0,0,19,0,0,0,0,0
+jinja,5435d35f97,2017-07-06,0050ab10,Added min and max filters,2,1,76,1,52,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,35,0,0,0,0,0
+jinja,bda4e6b8df,2017-07-05,cbbf6e73,make attrgetter take generic postprocess function add changelog,3,1,39,24,28,15,0,0,0,4,0,0,0,0,1,0,0,11,0,0,22,0,0,0,0,0
+jinja,fb1e45315d,2017-07-04,cbbf6e73,"go back to generating regex, simplified new version uses ~2KB vs 200KB memory, is ~100x faster to lo",4,2,100,12,14,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,1
+jinja,1f1f031c2e,2017-07-03,cbbf6e73,remove unnecessary \b from name regex,2,1,9,11,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+jinja,e605ff1a0b,2017-07-03,c7c80f9f,Add support for `{% trans trimmed ... %}`,7,2,123,1,20,1,0,0,0,2,1,0,1,0,1,0,0,82,2,13,17,0,0,0,0,0
+jinja,c5d78bed5a,2017-07-02,cbbf6e73,test for new identifier lexer currently fails on special case unicode,2,1,22,1,1,1,0,0,0,1,0,0,0,0,0,0,0,35,1,1,1,0,0,0,0,0
+jinja,2177fc4aae,2017-07-02,c7ba33ae,Added missing identifiers to the name re,1,1,7,1,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,d6a4a34f69,2017-07-01,c7ba33ae,Inversed invalid logic,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jinja,f823bdb777,2017-07-01,c7ba33ae,Use str.isidentifier to match idents on python 3,2,2,12,91,12,91,0,0,0,1,0,0,1,0,0,1,0,35,1,4,12,0,0,0,0,0
+jinja,e0475f94fc,2017-06-24,c7c80f9f,Don't allow setting real attributes on ns objects,2,2,14,3,14,3,0,0,0,3,0,0,0,0,2,0,0,8,0,0,12,0,0,0,0,0
+jinja,e2a186998f,2017-06-24,c7c80f9f,Add unit tests for namespace functionality,2,1,57,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,c2ee56db0e,2017-06-24,c7c80f9f,Add support for namespace attribute assignment,8,7,57,8,54,8,0,0,0,4,0,0,0,0,5,0,0,21,0,0,38,0,0,0,0,0
+jinja,bc076b3e25,2017-06-24,c7c80f9f,Add changed() to loop context,5,1,38,0,8,0,0,0,0,1,0,0,0,0,1,0,0,6,0,0,7,0,0,0,0,0
+jinja,9bdb547b0e,2017-06-24,c7c80f9f,Add previtem/nextitem to loop context,7,3,95,13,32,13,0,0,0,7,0,0,0,0,2,0,0,102,2,4,30,0,0,0,0,0
+jinja,9f30bc8c4d,2017-05-23,357f07d4,Make tojson always safe (fix #709),2,1,4,3,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+jinja,3b1ddea8ac,2017-04-09,0b125a63,"In documentation, prefer https over http when available",9,3,17,17,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jinja,27fffd4dcb,2017-04-09,0b125a63,Add trove classifier for Python 3.6,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,ad2d90e78d,2017-04-05,5998adb7,Fixed incorrect merge in setup.py,1,1,0,4,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,5b335b7a9e,2017-04-03,c7ba33ae,2.9.7-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,d78a1b079c,2017-04-03,c7ba33ae,Bump version number to 2.9.6,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,f80a3b1f21,2017-03-17,2c1cac75,add examples showing > 1 argument in filter,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+jinja,a8a9ec2f29,2017-03-15,c7c80f9f,Fix custom contexts in fast resolve mode,3,1,23,1,3,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+jinja,432daeac23,2017-01-29,b7256d8e,Return empty list when debug_info is empty string,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+jinja,b5d4599a74,2017-01-28,c7ba33ae,2.9.6-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,09f8b2b2d1,2017-01-28,c7ba33ae,Bump version number to 2.9.5,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,add79164c4,2017-01-28,c7ba33ae,Fixed async macro autoescape. Fixes #671,4,2,38,1,22,1,1,0,0,2,0,0,0,1,4,0,0,41,1,1,18,1,1,0,0,0
+jinja,6295976154,2017-01-24,c7ba33ae,Reduce unused unicodedata dump. Fixes #666,3,2,55,101,53,101,1,0,0,0,0,0,0,0,1,2,0,0,0,0,38,0,0,0,0,1
+jinja,8df94bd344,2017-01-24,c7ba33ae,Resolved extends errors in async mode (Fixes #668),3,1,10,3,4,3,1,0,0,1,0,0,1,0,0,0,0,87,1,4,4,0,1,0,0,0
+jinja,ca124c5cfe,2017-01-24,c7ba33ae,Correctly use buffer for else frame in loops. Fixes #669,3,1,12,0,3,0,1,0,0,1,0,0,1,0,0,0,0,102,1,1,1,0,0,0,0,0
+jinja,c74de7282b,2017-01-24,097e7413,fix failing tests: removed some broken code (#661),1,1,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,c8e7d98c63,2017-01-12,c7ba33ae,Added changelog entry for #658,2,1,6,1,4,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+jinja,7ab79c62ef,2017-01-12,a52bcc6a,"Add ""is in"" containment test (#658)",2,1,20,1,7,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+jinja,c6ddeb7d5f,2017-01-12,c7ba33ae,Add support back for custom resolves on old resolve method,3,1,76,10,58,10,0,1,0,3,0,0,0,0,3,0,0,10,0,0,41,0,0,0,0,0
+jinja,414c1d1e62,2017-01-12,097e7413,fix failing tests: removed some broken code (#661),1,1,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,f30f5d8b4d,2017-01-12,c7ba33ae,Also restore original str method,2,1,5,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jinja,785485114f,2017-01-12,c7ba33ae,Restore original tuple repr for grouper.  Fixes #654,3,1,20,0,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,256ad51137,2017-01-10,c7ba33ae,2.9.5-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,df8296af7e,2017-01-10,c7ba33ae,Bump version number to 2.9.4,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,fb47dfac60,2017-01-10,c7ba33ae,Allow to reconfigure the default for truncate leeway,4,2,15,1,7,1,0,0,0,1,1,0,0,0,0,0,0,11,1,5,7,0,0,0,0,0
+jinja,e73c574c21,2017-01-09,c7ba33ae,Resolved bad code generation on toplevel ifs,3,1,8,2,1,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jinja,ef718011e5,2017-01-09,c7ba33ae,Correctly scope loop filters.  Fixes #649,5,2,110,33,33,33,1,0,0,2,0,0,1,0,0,0,0,101,1,27,32,0,0,0,0,0
+jinja,a9b9258203,2017-01-09,c7ba33ae,Increment bytecode cache version.  Fixes #650,2,1,3,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,04b30cdd5c,2017-01-09,c7c80f9f,Remove unused/duplicate imports,7,3,3,13,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,1,1
+jinja,462b7868a2,2017-01-09,c7c80f9f,Fix another invalid \s escale sequence,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jinja,be16786d2d,2017-01-08,c7ba33ae,Fixed some string literal warnings. Fixes #646,4,3,12,6,6,6,1,0,0,1,0,0,0,0,0,0,0,96,1,3,6,0,0,0,0,0
+jinja,b8bd94afda,2017-01-08,c7ba33ae,2.9.4-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,c1b076e8e5,2017-01-08,c7ba33ae,Bump version number to 2.9.3,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,90ac7644d0,2017-01-08,c7ba33ae,Implement with-tag with a custom node,7,4,56,11,43,9,0,0,0,1,0,0,0,0,3,0,0,18,0,0,37,0,0,0,0,0
+jinja,6173cf6fc2,2017-01-08,c7ba33ae,Added support for unoptimized scopes,6,4,56,12,25,12,0,0,0,4,0,0,0,0,0,0,0,12,0,0,22,0,0,0,0,0
+jinja,75176bdbb5,2017-01-08,c7ba33ae,WIP for overlay scopes,4,4,61,5,61,5,0,0,0,3,0,1,1,0,8,0,0,30,2,5,47,0,0,0,0,0
+jinja,b1a56de18a,2017-01-08,c7ba33ae,Support new scoping rules in scoped blocks,3,1,13,3,5,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+jinja,6f7fa5cdcd,2017-01-08,c7ba33ae,Do not use yield from for blocks with buffers.  Fixes #645,3,1,10,1,2,1,1,0,0,1,1,0,0,0,0,0,0,23,1,2,2,0,0,0,0,0
+jinja,8172db059d,2017-01-08,c7ba33ae,Implement consistent scoping for sets in loops,2,1,23,2,14,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+jinja,b557eca315,2017-01-08,c7ba33ae,2.9.3-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,3a0f01df84,2017-01-08,c7ba33ae,Bump version number to 2.9.2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,6235644d33,2017-01-08,c7ba33ae,Add support for explicit callers,4,2,68,7,40,5,0,0,0,3,1,0,2,0,0,0,0,60,3,29,29,0,0,0,0,0
+jinja,e3022523a5,2017-01-07,c7ba33ae,Correct bad scoping for for loops.  This fixes #640,3,1,19,2,2,2,1,0,0,1,0,0,0,0,0,0,0,100,1,2,2,0,0,0,0,0
+jinja,8ce8fd39de,2017-01-07,c7ba33ae,2.9.2-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,8a6f084852,2017-01-07,c7ba33ae,Bump version number to 2.9.1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,2c74f2468b,2017-01-07,c7ba33ae,Resolved a regression in 2.9 with macro call scoping,2,1,26,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jinja,352334c566,2017-01-07,c7ba33ae,2.10-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,3e4ebc80f8,2017-01-07,c7ba33ae,Bump version number to 2.9,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,bbe0a4174c,2017-01-07,c7ba33ae,Bump up the copyright to 2017,36,21,36,36,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+jinja,b81a8a3e37,2017-01-07,c7ba33ae,Updated docs on autoescaping and made select_autoescape case insensitive,3,1,42,18,7,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,1,0,0,0,0
+jinja,0020a477db,2017-01-07,c7ba33ae,Added a more convenient autoescaping function,4,2,69,2,51,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,43,0,0,0,0,0
+jinja,a27a503cea,2017-01-07,c7ba33ae,Move the autoescape extension and with statement to be built-in,6,2,57,54,28,30,0,0,0,0,0,0,0,0,2,2,0,0,0,0,26,1,0,0,1,0
+jinja,d67f0fd4cc,2017-01-07,c7ba33ae,Generalize scoping.  This fixes #603,4,2,50,5,10,5,1,0,0,4,0,0,0,0,0,0,0,55,2,2,10,0,0,0,0,0
+jinja,147bd571ad,2017-01-07,c7ba33ae,Change grouping behavior of tests.  This fixes #401,3,1,20,1,1,1,1,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+jinja,028f058370,2017-01-07,c7ba33ae,Add a policy for the ascii literal behavior.  Fixes #392,7,4,48,13,11,12,1,0,0,3,0,0,0,1,0,0,0,31,1,0,11,0,0,0,0,0
+jinja,fa80a0df1f,2017-01-07,c7ba33ae,Optimize parameter lookup by default,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jinja,01d9e7e906,2017-01-07,c7ba33ae,Smaller fixes to stuff that broke on 3.x,3,2,10,1,9,0,1,0,0,2,0,0,1,0,0,0,0,31,1,3,4,0,0,0,0,0
+jinja,e8ef8aacee,2017-01-06,c7ba33ae,Kill const folding for call which does not work anyways,1,1,0,32,0,32,0,0,0,7,0,1,0,0,0,1,0,11,1,0,0,0,0,0,0,0
+jinja,fa2d955542,2017-01-06,c7ba33ae,Fix various optimizer bugs. This fixes #548,5,5,43,37,43,37,1,0,0,11,0,0,2,2,2,1,0,29,5,12,40,0,0,0,0,0
+jinja,6a754cb83a,2017-01-06,c7ba33ae,Block sets are now safe.  This fixes #490,3,1,9,1,2,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jinja,e273b3af24,2017-01-06,c7ba33ae,Add note on HTML usage of tojson filter,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+jinja,e71a130607,2017-01-06,c7ba33ae,Ported tojson filter.  Fixes #458,6,3,97,3,70,3,1,0,0,0,0,0,0,0,2,0,0,0,0,0,57,0,0,0,0,0
+jinja,ffe0caa1f0,2017-01-06,c7ba33ae,Expect format,2,1,39,45,38,43,0,0,0,6,0,0,0,0,0,0,0,9,0,0,31,0,0,0,0,0
+jinja,cb4b551e12,2017-01-06,c7ba33ae,Fixed self references in macros,4,3,100,36,87,33,1,0,0,7,0,0,2,0,5,0,0,46,2,4,78,0,0,0,0,0
+jinja,3cb7d8a452,2017-01-06,c7ba33ae,Turns out order tracking for loads is not useful,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+jinja,960228892b,2017-01-06,c7ba33ae,Write loads in order they were defined,2,2,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+jinja,341635252a,2017-01-06,c7ba33ae,Killed some whitespace,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,124,1,2,2,0,0,0,0,0
+jinja,85b4e3d550,2017-01-06,c7ba33ae,Optimize the case where we know about defined variables,2,2,17,4,17,4,0,0,0,1,0,0,0,0,1,0,0,12,0,0,11,0,0,0,0,0
+jinja,b9655a457d,2017-01-06,c7ba33ae,Set macro autoescape behavior at call instead of compile time. Fixes #565,5,2,69,20,54,19,1,0,0,5,1,0,1,0,0,0,0,42,2,14,35,1,0,0,0,0
+jinja,5453db1711,2017-01-06,c7ba33ae,Ensure we depend on recent markupsafe. Fixes #638,2,1,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,d1a32e7502,2017-01-06,c7ba33ae,Better error messages for some undefines. This fixes #575,2,1,14,2,12,2,1,0,0,2,0,0,0,0,1,0,0,21,1,1,10,0,0,0,0,0
+jinja,a4dde4b065,2017-01-06,c7ba33ae,Optimize emitting of forced yields,1,1,3,4,3,4,0,0,0,2,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+jinja,e5e3e61242,2017-01-05,c7ba33ae,Support yield from if we can use it,1,1,42,16,42,16,0,0,0,3,0,0,2,0,0,0,0,86,2,22,39,0,0,0,0,0
+jinja,46025fb3c7,2017-01-05,c7ba33ae,Do not emit make_logging_undefined to runtime,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,65fbf324ab,2017-01-04,6cedaeda,Add test for greater/less than (#624),2,1,23,1,13,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,9,0,0,0,0,0
+jinja,9b2a4f49c6,2017-01-03,c7ba33ae,Changed behavior of macro defaults to be frame bound,4,2,27,24,22,17,0,0,0,4,0,1,0,1,0,0,0,42,2,2,19,0,0,0,0,0
+jinja,96ed5c0dda,2017-01-03,c7ba33ae,Alias resolve and undefined,1,1,10,4,10,4,0,0,0,6,0,0,1,0,1,0,0,81,2,3,9,0,0,0,0,0
+jinja,5700025858,2017-01-03,c7ba33ae,Kill stray print,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,100,1,0,0,0,0,0,0,0
+jinja,bb0dc86a9e,2017-01-03,c7ba33ae,Small optimizations for escape branches,1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,124,1,4,5,1,0,0,0,0
+jinja,05ad245d5e,2017-01-03,c7ba33ae,Small optimization for recursive loops,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,101,1,2,2,0,0,0,0,0
+jinja,258eae66c5,2017-01-03,c7ba33ae,Use a separate scope for the loop else branch,3,2,31,16,25,15,0,0,1,6,0,0,1,0,0,0,0,100,1,7,24,0,0,0,0,0
+jinja,3f4eb21234,2017-01-03,c7ba33ae,Clarified for else todo,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,8d06cfb64e,2017-01-03,c7ba33ae,Small optimization for python scopes,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,79,1,1,1,0,0,0,0,0
+jinja,3d7f099688,2017-01-03,c7ba33ae,Fixed a typo,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,06895a3eb0,2017-01-03,c7ba33ae,Cleaned up some code that no longer needs to exist,1,1,3,6,3,6,0,0,1,2,0,0,0,1,0,1,0,96,1,1,2,0,0,0,0,0
+jinja,e6aea1bf33,2017-01-03,c7ba33ae,Stop assigning stuff to the frame that does not belong there,1,1,19,13,19,13,0,0,0,5,0,0,1,0,2,1,0,25,1,1,16,0,0,0,0,0
+jinja,c109906c08,2017-01-03,c7ba33ae,Kill now unused assigned_names,1,1,0,5,0,5,0,0,0,5,0,0,0,1,0,0,0,55,1,0,0,0,0,0,0,0
+jinja,22bb00b275,2017-01-03,c7ba33ae,Kill some dead code,1,1,0,11,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+jinja,05fea281d8,2017-01-03,c7ba33ae,Force missing to be a local,1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,79,1,4,4,0,0,0,0,0
+jinja,76edefaf35,2017-01-03,c7ba33ae,Fixed from imports with context,2,1,11,2,3,2,1,0,0,1,0,0,1,0,0,0,0,56,1,3,3,0,0,1,0,0
+jinja,f81af92c2f,2017-01-03,c7ba33ae,Make tests pass on 3.x again,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+jinja,ff8e2e55e2,2017-01-03,c7ba33ae,Made all tests pass again,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,77,1,4,4,0,0,0,0,0
+jinja,058bc8a98d,2017-01-03,c7ba33ae,Fixed various breakage from the new id tracking,5,4,50,56,49,55,1,1,0,12,0,0,1,1,1,1,0,97,2,15,47,0,0,0,0,0
+jinja,bd32b37dd3,2017-01-03,c7ba33ae,Changed behavior of local extraction,2,1,4,3,1,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,1,0
+jinja,4a72be8aff,2017-01-03,c7ba33ae,Reset variables for scoping,2,2,75,27,75,27,0,0,0,14,1,1,2,0,3,0,0,103,3,4,65,0,0,0,0,0
+jinja,9cd8d8e3b0,2017-01-03,c7ba33ae,Fixed debug support locals for new behavior,2,1,41,10,28,9,1,0,0,1,0,1,0,0,1,0,0,46,1,1,22,0,0,0,0,0
+jinja,1205e641ed,2017-01-03,c7ba33ae,First pass on integrating id tracking,3,3,130,370,130,370,0,1,2,26,3,3,0,3,5,26,0,102,6,28,118,0,0,0,0,0
+jinja,b5d99210f1,2017-01-03,c7ba33ae,Added new-style id tracking code,2,1,434,0,216,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,166,0,0,0,0,0
+jinja,ebed13eb2b,2017-01-03,c7ba33ae,Changelog and __rsub__ handling,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,45b59b522a,2016-12-31,c7ba33ae,Support block-set in toplevel situations when extends is used,3,1,12,0,4,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+jinja,0ea221f53b,2016-12-31,c7ba33ae,Support old-style classes for attribute lookups.  Fixes #631,3,1,10,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+jinja,47b55f8843,2016-12-31,c7ba33ae,Make noopener the default for urlize,7,4,45,20,27,11,0,0,0,2,1,0,0,1,0,0,0,33,2,15,21,0,0,0,0,0
+jinja,74bd64e563,2016-12-29,c7ba33ae,Fixed a name error for an uncommon attribute access in the sandbox,2,1,9,1,1,1,1,0,0,1,0,0,0,0,0,0,0,23,1,1,1,0,0,0,0,0
+jinja,d3b456fea3,2016-12-29,c7ba33ae,2.8.2.dev0 just in case,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,209fd39b27,2016-12-29,c7ba33ae,Bump version number to 2.8.1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,9b53045c34,2016-12-29,c7ba33ae,SECURITY: support sandboxing in format expressions,3,2,143,5,117,4,0,0,0,4,0,0,2,0,11,0,0,28,2,7,93,1,0,0,0,0
+jinja,a6e48b4263,2016-12-29,c7ba33ae,Make slice work with async generators,2,1,15,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,1,0,0,0
+jinja,8e08a21d1d,2016-12-29,c7ba33ae,ported list and sum,2,1,69,1,20,1,0,0,0,1,0,0,0,0,2,0,0,5,0,0,16,0,0,0,0,0
+jinja,f7bb60af00,2016-12-29,c7ba33ae,Ported map and select,3,2,75,20,46,20,0,0,0,1,0,0,0,0,4,0,0,5,0,0,36,0,0,0,0,0
+jinja,043c954c26,2016-12-29,c7ba33ae,Added reject/rejectattr with basic async support,3,2,48,7,36,7,0,0,0,5,0,0,0,0,5,1,0,15,0,0,26,0,1,0,0,0
+jinja,1df67cf172,2016-12-28,c7ba33ae,Made join filter work with async,2,1,37,2,8,2,0,0,0,1,0,0,0,0,1,0,0,14,0,0,6,0,1,0,0,0
+jinja,7c62100321,2016-12-28,c7ba33ae,Made groupby work with async,2,1,80,10,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,1,0,0,0
+jinja,f071dff252,2016-12-28,c7ba33ae,Improved internal async filter framework,1,1,34,10,34,10,0,0,0,1,0,0,0,0,4,1,0,5,0,0,27,0,1,0,0,0
+jinja,a25669db88,2016-12-28,c7ba33ae,Added note for async from filter calls,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,21,1,4,4,0,1,0,0,0
+jinja,6445ec0861,2016-12-28,c7ba33ae,First pass on async support for filters,6,3,71,3,47,1,0,0,0,3,0,0,0,0,4,0,0,27,0,0,37,0,1,0,0,0
+jinja,2fd008a796,2016-12-28,c7ba33ae,Made the env._async property public for filters,3,3,30,30,30,30,0,0,0,18,0,0,0,0,0,0,0,111,4,16,30,0,1,0,0,0
+jinja,acab87a436,2016-12-28,c7ba33ae,Support the same set of loop functions for async mode,5,4,258,38,82,37,0,0,0,11,0,0,2,0,2,1,0,111,3,14,60,0,1,0,0,0
+jinja,efa5d3161d,2016-12-28,c7ba33ae,Improved wrapper code so that the API is more consistent on failure,2,2,36,6,36,6,0,0,0,4,0,0,0,0,3,0,0,13,0,0,27,0,0,0,0,0
+jinja,48baa10f1e,2016-12-28,c7ba33ae,Fixed error message,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,109,1,1,1,0,0,0,0,0
+jinja,d4e14fc4d2,2016-12-28,c7ba33ae,Added support for async loop context,4,3,87,17,75,16,0,0,0,8,2,1,2,0,7,0,0,109,4,11,58,0,1,0,0,0
+jinja,aa188fd860,2016-12-28,c7ba33ae,Added basic support for async iter,3,2,34,2,23,2,0,0,0,2,0,0,1,0,1,0,0,103,2,14,21,0,1,0,0,0
+jinja,3e6992f271,2016-12-28,c7ba33ae,Wrap generate to support async mode,2,1,37,0,29,0,0,0,0,1,0,0,0,0,4,0,0,10,0,0,25,0,1,0,0,0
+jinja,63d732440b,2016-12-28,c7ba33ae,Added tests for async functionality with imports and includes,4,3,156,25,14,18,0,0,0,5,0,0,2,0,0,1,0,53,2,10,14,0,1,1,0,0
+jinja,f61ffbfb80,2016-12-28,c7ba33ae,Added untested support for imports and includes in async mode,3,3,24,7,24,7,0,0,0,4,0,0,1,0,1,0,0,51,2,7,19,0,1,1,0,0
+jinja,1259162c99,2016-12-28,c7ba33ae,Use more _get_default_module calls,2,2,8,5,8,5,0,0,0,4,1,0,0,0,0,0,0,49,2,4,8,0,0,1,0,0
+jinja,95d495aee5,2016-12-28,c7ba33ae,First pass on implementing async default module,2,2,39,2,39,2,0,0,0,2,0,0,0,0,4,0,0,9,0,0,33,0,1,1,0,0
+jinja,42079ad35a,2016-12-28,c7ba33ae,Rewrap,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,37,0,0,2,0,0,0,0,0
+jinja,5be172a5e0,2016-12-28,c7ba33ae,Stop use of .module in generated code,2,2,8,5,8,5,0,0,0,2,0,0,0,0,1,0,0,36,0,0,7,0,0,1,0,0
+jinja,7c90534875,2016-12-28,c7ba33ae,Restore original render func for non async usage,2,1,20,1,1,1,0,0,0,2,0,0,0,0,0,0,0,5,0,0,1,0,1,0,0,0
+jinja,2b4d44b9b5,2016-12-28,c7ba33ae,Basic async support for blocks,3,2,49,9,38,9,0,0,0,3,0,0,0,0,6,1,0,16,0,0,29,0,1,0,0,0
+jinja,d1b8f08470,2016-12-28,c7ba33ae,Automatically await on function calls if necessary,3,2,35,0,14,0,0,0,0,2,0,0,1,0,1,0,0,76,1,2,11,0,0,0,0,0
+jinja,b11056d780,2016-12-28,c7ba33ae,Initial support for async rendering,6,5,95,12,74,12,0,0,0,3,0,0,1,0,8,0,0,91,2,4,55,0,1,0,0,0
+jinja,e908a584fa,2016-12-28,c7ba33ae,Add async flags,2,2,19,3,19,3,0,0,0,2,0,0,2,0,0,0,0,23,2,4,15,0,1,0,0,0
+jinja,4fa37123b9,2016-12-28,c7ba33ae,Fixed long standing wrong operator precedence,3,1,29,52,23,52,1,0,0,2,0,0,0,0,2,6,0,21,0,0,22,0,0,0,0,0
+jinja,e7e14cf349,2016-12-27,c7ba33ae,Added support for generator_stop,2,1,16,1,10,1,0,0,0,1,0,0,0,0,0,0,0,74,1,1,7,0,0,0,0,0
+jinja,b42f535404,2016-12-25,67cd5bb5,"Uses re.compile flags argument, not inline flags (#628)",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,9f9606bc93,2016-09-24,6e4eada6,Fix and improve do_truncate,2,1,18,14,14,10,1,0,0,1,0,0,0,0,0,0,0,9,0,0,14,0,0,0,0,0
+jinja,390c3cec2b,2016-09-09,8532f57c,Fix typo in clear_caches docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+jinja,312cf9a1a1,2016-09-02,8532f57c,Fixed typo in jinja2/loaders.py (#606),1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,8a49e066af,2016-05-30,b2db4bfa,Clarified and extended the docs for the `{select|reject}[attr]` filters. (#231),1,1,20,8,20,8,0,0,0,4,0,0,0,0,0,0,0,2,0,0,16,0,0,0,0,0
+jinja,1a61008d61,2016-05-21,99b63ffc,Change environment cache key construction,2,1,7,4,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jinja,7d8ec0f3e8,2016-05-19,99b63ffc,Change cache key definitiion in environment,2,1,21,17,1,9,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+jinja,d9b879d1f9,2016-05-02,cbbf6e73,use double ticks for code in rst,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+jinja,f9601c91bb,2016-05-01,6d95e60f,Use constant name in doc (fixes #544),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,d4f0dd9032,2016-04-12,0050ab10,Fixed int() filter for non-string objects #466,2,1,12,4,4,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+jinja,75685ec5e5,2016-04-10,84dbb428,Escape target attribute in the urlize function in utils.py. (#507),2,1,13,2,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,1,0,0,0,0
+jinja,dd85761ced,2016-01-07,fb1ec096,Setting __sub__ equal to _fail_with_undefined_error so subtractions with undefined variables will fa,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,77781b93a5,2015-12-29,d1c7418b,Give Cycler a next() method so that it works in python2 and 3,2,1,14,1,3,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,2,0,0,1,0,0
+jinja,c51e3ab6aa,2015-12-28,f2404ef3,Fix typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jinja,8189d2164d,2015-11-20,c7ba33ae,Fixed for_qs for urlencode. This fixes #515,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jinja,f51862d6ca,2015-11-20,c7ba33ae,This is 2.8.1-dev,3,2,7,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,217e453a68,2015-11-14,ec993303,Fixed a few spelling mistakes in a docstring,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,91255f86f6,2015-10-13,9ca83ea8,runtime: avoid assumption that all objects provide __call__,1,1,8,7,8,7,0,0,0,1,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,0
+jinja,6c54ccddd0,2015-10-06,0050ab10,Added Python 3.4 and 3.5 to the classifiers in setup.py,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,c00226160e,2015-08-10,0050ab10,"Use partial(next, ...) instead get_next()",2,2,23,26,23,26,0,0,0,2,0,0,0,0,1,1,0,5,0,0,21,0,0,0,0,0
+jinja,4975ca0362,2015-08-10,0050ab10,Added unique filter,2,1,77,26,56,19,0,0,0,3,0,0,0,0,1,2,0,9,0,0,42,0,0,0,0,0
+jinja,9c7a2400a8,2015-08-10,0050ab10,Prevent random filter from being inlined,2,1,13,6,5,5,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,0,0,0,0,0
+jinja,6d356f1bc3,2015-08-07,0050ab10,Got rid of redundant sorting in groupby filter,1,1,4,12,4,12,0,0,0,1,0,0,0,0,0,1,0,3,0,0,3,0,0,0,0,0
+jinja,743598d788,2015-08-05,0050ab10,Improve with_metaclass(),1,1,5,14,5,14,0,0,0,2,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+jinja,56e187c3bb,2015-07-26,c7ba33ae,This is 2.9.dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,966e1a409f,2015-07-26,c7ba33ae,Bump version number to 2.8,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,75a9ddd193,2015-07-26,c7ba33ae,Hardcode version in setup.py again.,1,1,1,10,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,ea07af81bf,2015-07-11,d44cc4f7,"Fix typo: ""the iterates"" > ""that iterates""",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+jinja,fd7970ca83,2015-06-01,34434033,Fix syntax error,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,62f57f4c18,2015-06-01,34434033,Add Python classifiers for all supported versions,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jinja,676fd8c6b2,2015-06-01,34434033,"Sort filters, remove dupes",1,1,34,36,34,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,1,0
+jinja,f6b654de61,2015-06-01,f0c26e22,Fix typo,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,46acbf02ed,2015-05-25,c7ba33ae,Escape slashes in query strings.  This fixes #445,3,2,10,3,8,3,1,0,0,2,0,0,0,0,0,0,0,14,0,0,8,1,0,0,0,0
+jinja,0c1f192670,2015-05-25,c7ba33ae,Added decorator support for finalize.  This fixes #431,2,1,26,2,24,2,1,0,0,1,0,0,1,0,0,0,0,124,1,24,24,0,0,0,0,0
+jinja,f4ddad8b44,2015-05-10,d91d5b3c,fix the fancy tracebacks on Python 3,1,1,24,11,24,11,1,0,0,2,0,0,1,0,0,0,0,54,1,14,21,0,1,0,0,0
+jinja,97a8aafb8d,2015-04-29,26456085,Add 'base' parameter to 'int' filter,2,1,9,5,6,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+jinja,62e7e70834,2015-04-08,737e23d9,"Make title filter capitalize words in (),{},[],<>",2,1,13,6,5,6,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,0,0,0,0,0
+jinja,f22fdd5ffe,2015-04-06,c7c80f9f,Let the Environment override the Context,4,2,27,2,7,2,0,0,0,1,0,0,1,0,0,0,0,16,1,2,4,0,0,0,0,0
+jinja,14936312c0,2015-04-06,c7c80f9f,Let the Environment override the CodeGenerator,4,2,35,2,7,2,0,0,0,1,0,0,1,0,0,0,0,9,1,2,4,0,0,0,0,0
+jinja,e1184d251a,2015-04-02,34434033,Fix syntax error,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,1ae49941f8,2015-04-02,34434033,Fix #433,1,1,9,6,9,6,1,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+jinja,599c1360bc,2015-03-22,34434033,Fix doctests,6,5,31,32,29,31,1,0,0,4,0,0,0,0,0,0,0,17,1,1,24,0,0,0,0,0
+jinja,ee2cb97449,2015-03-22,410970c7,Rename testsuite to tests and suggestions,23,2,16,15,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,e33a018d7a,2015-03-22,410970c7,Moving testsuite directory to root folder,25,2,4,22,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,4d16c36170,2015-03-22,410970c7,fixing errors due to removal of init.py from test suite,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jinja,01b047c416,2015-03-22,410970c7,Adding pytest references and dependencies in setup.py and Makefile,2,1,5,2,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+jinja,9d4afa1160,2015-03-22,410970c7,Pytest migration initial commit,22,5,936,993,75,224,0,0,0,0,0,0,0,0,7,15,0,0,0,0,57,0,0,0,0,0
+jinja,cdeaa33d0f,2015-03-11,e7514d92,decimal is a number,2,1,3,2,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+jinja,8a2f69a25e,2015-03-07,90a9b5db,Typo Fixed.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,c251d8a577,2015-02-26,238f364e,fix copy-pasted typo in filter docstrings,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+jinja,e41e76cd33,2015-02-06,c7c80f9f,"Disallow f(x, y=1, z) and similar nonsense",3,2,15,0,11,0,0,0,0,1,0,0,0,0,2,0,0,15,0,0,9,0,0,0,0,0
+jinja,d09edda04a,2015-02-06,34434033,deduplicate version info,1,1,10,1,10,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1
+jinja,0c7c3823fe,2015-02-06,c7c80f9f,Use PEP440-compatible dev version,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,1e73c09137,2015-02-06,c7c80f9f,Add float/complex testcases for `is number`,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,29,0,0,4,0,0,0,0,1
+jinja,9bf5fcbb3b,2015-02-06,c7c80f9f,Fix number test failing for long in Python 2,4,3,8,3,7,3,1,0,0,2,0,0,0,0,0,0,0,27,0,0,7,0,0,0,0,0
+jinja,9443b3cd70,2015-02-05,39cd56f9,Change attr filter example to match description,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jinja,6179c02c91,2015-01-23,9a6efc36,Replace lambda for 'dict' in with dict itself,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,c0734709b3,2015-01-18,b10f0ef7,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,38,1,1,1,0,0,0,0,0
+jinja,4e7f44ad07,2014-12-10,d4f0a1e5,Fix incorrect truncate filter docs,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+jinja,960138bd15,2014-11-21,155b231c,fix trivial typo (side -> size),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,0b74a4f07d,2014-09-28,0a83ffec,Windows returns EINVAL on bogus filenames,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jinja,074132908f,2014-08-28,99fc7682,Update djangojinja2.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jinja,85820fceb8,2014-08-28,c7ba33ae,Increased cache size to 400.,2,1,7,3,6,3,0,0,0,1,0,0,0,0,0,0,0,22,1,1,5,0,0,0,0,0
+jinja,5f748c34d6,2014-06-19,85d1385a,"Added "".. versionadded:: 2.8"" to test_equalto.__doc__",1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jinja,9bf94b533d,2014-06-07,c7ba33ae,Implemented a block set tag.,5,4,78,31,77,31,0,0,0,3,0,0,0,0,6,0,0,9,0,0,66,0,0,0,0,0
+jinja,f0c987bef4,2014-06-06,c7ba33ae,Flake 8 fixes,1,1,8,9,8,9,1,0,0,3,0,0,0,0,0,0,0,38,1,1,8,0,0,0,0,0
+jinja,76402dccca,2014-06-06,c7ba33ae,Removed unused variable,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0
+jinja,8fc231a119,2014-06-06,c7ba33ae,Ready for 2.7.4,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,762c612e72,2014-06-06,c7ba33ae,Bump version number to 2.7.3,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,964c61ce79,2014-06-06,51956be0,Fix CVE-2014-0012,1,1,10,3,10,3,1,0,0,1,0,0,0,0,0,0,0,21,0,0,9,1,0,0,0,0
+jinja,377b9b55f3,2014-06-06,c7ba33ae,Applied changes from #296 for better checking.,1,1,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,24,0,0,7,0,0,0,0,0
+jinja,73f27f5b32,2014-06-06,c7ba33ae,Make sure filtering returns a list for template listing.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jinja,cb6fab73c6,2014-06-06,c7ba33ae,Fixed #320,2,2,10,1,10,1,1,0,0,1,0,0,0,0,1,0,0,9,0,0,8,0,0,0,0,0
+jinja,7b32f8f8d1,2014-06-06,c7ba33ae,Fixed a Python 3 regression.,1,1,16,10,16,10,1,0,0,3,0,0,0,0,1,0,0,18,0,0,15,0,0,0,0,0
+jinja,6e9dfbf2de,2014-06-06,c7ba33ae,Added tests for logging undefined and added it to the docs.,5,3,97,21,90,21,0,0,0,2,0,0,0,0,8,0,0,16,0,0,78,0,0,0,0,0
+jinja,d2641be848,2014-06-06,c7ba33ae,Added support for logging of undefined objects.,1,1,41,6,41,6,0,0,0,1,0,0,0,0,2,0,0,23,0,0,36,0,0,0,0,0
+jinja,06badebe3b,2014-06-06,c7ba33ae,Fix for #304,1,1,6,5,6,5,1,0,0,1,0,0,1,0,0,0,0,36,1,5,6,0,0,0,0,0
+jinja,641c04126c,2014-06-06,c7ba33ae,Style cleanups in environment and a tiny bugfix.,1,1,9,8,9,8,0,0,0,4,0,0,1,0,0,0,0,52,2,3,9,0,0,0,0,1
+jinja,e7086dbdb8,2014-06-06,c7ba33ae,Fixed issue #309,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+jinja,888e6755d4,2014-06-06,c7ba33ae,More resilient template directory handling for bytecode cache.,1,1,13,4,13,4,0,0,0,1,0,0,0,0,1,0,0,21,0,0,10,0,0,0,0,0
+jinja,fb470a2cd8,2014-05-19,ee9cfd9e,Delete the ignore --with-speedups message.,1,1,0,15,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,090680f3d5,2014-05-17,ab0ded8f,better assignment,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jinja,1abbe4dd84,2014-05-17,ab0ded8f,check for if loader does not implement get_source(),1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+jinja,6b990c117a,2014-05-17,0b69e0ce,close temp file,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jinja,15c02ae4d7,2014-05-17,ab0ded8f,"if template is not file, use name for cache key",1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+jinja,9fe850dfd3,2014-05-17,0b69e0ce,Update environment.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,115aa96261,2014-05-17,0b69e0ce,Update environment.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,6671b973e6,2014-05-17,0b69e0ce,use abs path for cache key,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+jinja,25d83a4102,2014-05-17,0b69e0ce,fix os.name of Windows,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+jinja,c268e74ef3,2014-04-05,c7196d4f,Edit code comments for readability,1,1,7,7,7,7,0,0,0,2,0,0,0,0,0,0,0,51,2,3,7,0,0,0,0,0
+jinja,10a10adc03,2014-04-03,d4e64ecf,Improved performance of filters.do_truncate(),1,1,5,10,5,10,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+jinja,4eb30f1dec,2014-03-30,cf597aa0,Fix loop context length calculation for iterators. Fixes #244,2,2,22,19,22,19,1,0,0,2,0,0,0,0,0,0,0,19,0,0,20,0,0,0,0,0
+jinja,48196fb4f8,2014-03-30,4d473743,Fixed typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+jinja,7c83462a61,2014-03-18,4d473743,Removed duplication from ignored_tokens in lexer,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,d546358cf5,2014-01-18,33be992a,fixed some typos and clarifying,5,2,12,14,2,3,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+jinja,5662125f79,2014-01-10,c7ba33ae,This is 0.7.3-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,91fa138077,2014-01-10,c7ba33ae,Bump version number to 2.7.2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,f25707c420,2014-01-10,c7ba33ae,Fixed a syntax error on Python 3,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+jinja,acb672b6a1,2014-01-10,c7ba33ae,Fixed a security issue with temporary files on the filesystem cache on UNIX.,2,1,32,2,27,2,1,0,0,1,0,0,0,0,1,0,0,5,0,0,21,1,0,0,0,0
+jinja,f6c6fe4382,2013-12-12,c7ba33ae,Added a note on why equalto exists.,1,1,10,0,10,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,0,0,0,0
+jinja,23551a53cd,2013-11-22,6e4b8271,explicitly catch marshal errors rather than genertic exception #281,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+jinja,40367c48bb,2013-11-22,8adb73f0,Define tests for equalto.,1,1,11,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+jinja,9c89bbbec7,2013-11-22,8adb73f0,Add equalto test as value-level analogue of reference-level sameas test.,1,1,11,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+jinja,f00ded9d66,2013-11-21,6e4b8271,force a reload of the template if bytecode fails to unmarshall.  issue #281,1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+jinja,e351f674e6,2013-11-01,e9c99d32,Fixed typos on docstrings of template filters.,1,1,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+jinja,3c75c961b4,2013-09-14,ee9cfd9e,Issue #121: The truncate filter now counts the length of the *end* parameter when truncating a strin,2,2,14,7,14,7,0,0,0,2,0,0,0,0,1,0,0,15,0,0,12,0,0,0,0,0
+jinja,1eeaccc94b,2013-09-13,ee9cfd9e,Issue #71: Add `followlinks` parameter to FileSystemLoader.,1,1,13,3,13,3,0,0,0,2,0,0,0,0,0,0,0,14,0,0,9,0,0,0,0,0
+jinja,d55e1e59c1,2013-08-21,ee9cfd9e,Issue #126: Add `target` keyword argument to urlize.,3,3,32,7,32,7,0,0,0,2,0,0,1,0,1,0,0,36,1,10,26,0,0,0,0,0
+jinja,701e9ada2b,2013-08-07,c7ba33ae,Fixed prefix loader now properly forward globals.,2,1,4,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jinja,8b0c37c3cd,2013-08-07,c7ba33ae,Ready for another release,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,770f929cff,2013-08-07,c7ba33ae,Bump version number to 2.7.1,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,2ea663b17f,2013-08-07,c7ba33ae,Corrected title filter behavior.,3,2,5,1,3,1,0,0,0,2,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+jinja,563fd2e74a,2013-08-07,c7ba33ae,Fixed warnings if Python is run with -3.,3,2,17,1,14,1,1,0,0,0,0,0,0,0,3,0,0,0,0,0,9,0,0,0,0,0
+jinja,59713a3acf,2013-08-07,c7ba33ae,"Revert ""Support included blocks override""",2,2,2,25,2,25,0,0,0,1,0,0,0,0,0,2,0,36,0,0,2,0,0,1,0,0
+jinja,dc3b431829,2013-08-07,0046265f,"Fix Python 3 compatibility of BytecodeCache by checking for `if isinstance(filename, text_type)` ins",1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+jinja,10707853c4,2013-08-07,0046265f,Add test (jinja2.testsuite.bytecode_cache.ByteCodeCacheTestCase) for BytecodeCache that fails on Pyt,2,2,39,1,39,1,0,0,0,1,0,0,0,0,2,0,0,22,0,0,28,0,0,0,0,0
+jinja,342e88a6c4,2013-07-04,c7ba33ae,Fixed a bug with call_filter not working properly,3,2,8,2,6,2,1,0,0,1,0,0,0,0,1,0,0,21,1,2,5,0,0,0,0,0
+jinja,5ca25297d0,2013-07-04,c7ba33ae,Started 2.7 maintenance branch,3,2,7,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,8261473c68,2013-06-05,c7ba33ae,Fixed some incorrect docs,1,1,9,8,9,8,0,0,0,4,0,0,0,0,0,0,0,2,0,0,9,0,0,0,0,0
+jinja,2fff653c09,2013-05-28,f8d93484, filter should accept objects.,2,2,9,1,9,1,0,0,0,2,0,0,0,0,1,0,0,18,0,0,7,0,0,0,0,0
+jinja,3fc008b629,2013-05-25,abc56159,fix a bunch of typos in the documentation,6,1,8,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,70a2bc0e58,2013-05-22,6a287c1b,Fix MarkupSafe case in setup.py,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,f15b814dcb,2013-05-20,c7ba33ae,Removed some no longer needed code from compat,3,3,6,20,6,20,0,0,0,2,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+jinja,1c5315a0b3,2013-05-20,c7ba33ae,Removed duplication from types that was only necessary for IronPython,4,4,16,35,16,35,0,0,0,2,0,0,0,0,0,1,0,46,2,9,16,0,0,0,0,0
+jinja,b89d1a8fe3,2013-05-20,c7ba33ae,Since we no longer support 2.5 we can use the builtin next() function,12,11,9,17,9,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,9,0,0,0,0,0
+jinja,d25577b43f,2013-05-20,c7ba33ae,This is now 2.8-dev,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,6e17e7dcd0,2013-05-20,c7ba33ae,Bump version number to 2.7,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,dec91944ee,2013-05-20,c7ba33ae,Disable py_compile for Python 3 and pypy,4,3,30,23,29,23,0,0,0,5,0,0,1,0,0,0,0,51,1,13,27,0,0,0,0,0
+jinja,54c9f93e1f,2013-05-20,c7ba33ae,Added nicer test finder from Flask,5,2,67,3,64,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,52,0,0,0,0,0
+jinja,542e3c8738,2013-05-20,c7ba33ae,Actually remove argument in setup.py for speedups,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+jinja,568352e07d,2013-05-20,c7ba33ae,Documented loop.depth and added loop.depth0.,5,3,34,4,26,4,0,0,0,3,0,0,0,0,2,0,0,90,1,2,24,0,0,0,0,0
+jinja,dcd0cb7312,2013-05-20,c7ba33ae,Changed lookup logic for make_attrgetter to support integers like the regular syntax,2,2,14,2,14,2,0,0,0,2,0,0,0,0,1,0,0,7,0,0,13,0,0,0,0,0
+jinja,03bea567c7,2013-05-20,c7ba33ae,Renamed helper classes in with_metaclass,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+jinja,994404a692,2013-05-20,c7ba33ae,Added missing method for template errors,1,1,2,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+jinja,a4a245c56b,2013-05-20,c7ba33ae,Removed some dead imports,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jinja,daa36a6f32,2013-05-20,c7ba33ae,Unified constructor for template errors between 2.x and 3.x,1,1,3,0,3,0,0,0,0,3,0,0,0,0,1,0,0,7,0,0,2,0,0,0,0,0
+jinja,ff0b5f5836,2013-05-20,c7ba33ae,feature to version check for context dict methods,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,146c9ba170,2013-05-20,c7ba33ae,Corrected a newline,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,eb12114219,2013-05-20,c7ba33ae,Removed an unnecessary check,1,1,7,8,7,8,0,0,0,1,0,0,0,0,0,0,0,23,0,0,7,0,0,0,0,0
+jinja,ce779a585f,2013-05-20,c7ba33ae,More cleanup in the utils module,3,3,31,37,31,37,0,0,0,3,0,0,0,0,1,2,0,46,2,2,26,0,0,1,0,1
+jinja,41746b9246,2013-05-20,c7ba33ae,Some more small cleanup for metaclasses,4,4,2,5,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1
+jinja,fb4352de50,2013-05-20,c7ba33ae,Disable module loader test case on pypy because they are not supported,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,1,0,0
+jinja,285c955921,2013-05-20,c7ba33ae,Added an explanation for how with_metaclass works,1,1,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,28c7488224,2013-05-20,c7ba33ae,Make the runtime leak less of the version hacks,9,9,92,89,92,89,1,0,0,5,0,0,0,0,9,13,0,17,1,1,84,0,0,0,0,0
+jinja,6b2eba516f,2013-05-19,c7ba33ae,Removed unnecessary del,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jinja,7e239b4d16,2013-05-19,c7ba33ae,Added unicode mixin for unified string logic,5,5,21,51,21,51,0,0,0,1,0,0,0,0,2,5,0,6,0,0,19,0,0,0,0,0
+jinja,7e245e2678,2013-05-19,c7ba33ae,PY3 -> PY2 macro,10,10,95,58,95,58,0,0,0,3,0,0,0,0,7,0,0,21,0,0,80,0,0,0,0,0
+jinja,630804f67d,2013-05-19,c7ba33ae,Rewrapped import,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+jinja,444fec358c,2013-05-19,c7ba33ae,Unified version checks where appropriate,10,10,30,28,30,28,0,0,0,11,0,0,0,0,1,0,0,21,0,0,30,0,0,0,0,0
+jinja,e909867721,2013-05-19,c7ba33ae,Moved all six usages (ignoring testsuite) into jinja2._compat,16,16,199,183,199,183,0,0,0,70,0,0,0,0,1,2,0,102,16,32,182,0,0,0,0,0
+jinja,294f2ebff9,2013-05-19,c7ba33ae,Removed bundled markupsafe,7,7,4,676,4,676,0,0,0,0,0,0,0,0,0,31,0,0,0,0,3,0,0,0,0,0
+jinja,4a41dd6753,2013-05-19,c7ba33ae,Fixed a docstring and a syntax error on 3.3,2,2,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+jinja,c87d4cf11f,2013-05-19,c7ba33ae,six.advance_iterator -> next,11,11,113,103,113,103,0,0,0,60,0,0,0,0,0,0,0,72,3,10,109,0,0,0,0,0
+jinja,400f973c8d,2013-05-19,c7ba33ae,Fixed #79,2,2,27,3,27,3,1,0,0,1,0,0,0,0,1,0,0,26,0,0,24,0,0,0,0,0
+jinja,15e9eef380,2013-05-19,c7ba33ae,Fixed a loop bug.  This fixes #100,2,2,11,0,11,0,1,0,0,1,0,0,1,0,1,0,0,90,1,1,10,0,0,0,0,0
+jinja,8eed53c958,2013-05-19,c7ba33ae,"Added support for map, select, reject, selectattr and rejectattr filters.",4,3,286,1,284,1,0,0,0,0,1,0,0,0,24,0,0,0,0,0,231,0,0,0,0,0
+jinja,840e7e060e,2013-05-19,c7ba33ae,Added a way to disable memcache error ignoring and documented the change.  Also changed a bare excep,2,1,14,4,13,4,0,0,0,3,0,0,0,0,0,0,0,9,0,0,12,0,0,0,0,0
+jinja,e29c84ccc0,2013-05-18,e296afcf,Python 3 exceptions can handle unicode messages,1,1,20,10,20,10,0,0,0,2,0,0,0,0,1,0,0,5,0,0,18,0,0,0,0,0
+jinja,a1f2ee7112,2013-05-18,c7ba33ae,xrange -> range_type for consistency,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,5447aa736a,2013-05-18,c7ba33ae,Fixed MethodType being wrong on 3.x,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,ab8991e5d9,2013-05-18,c7ba33ae,Fixed a type in a module name.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jinja,e9b4af6da6,2013-05-18,e296afcf,unit test for dumping as utf-8 to a file,1,1,14,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+jinja,05ace8b83e,2013-05-18,fa1dc7df,"stuff missing from previous commit, thanks git",2,2,4,6,4,6,0,0,0,1,0,0,0,1,0,0,0,18,1,1,4,0,0,0,0,0
+jinja,a2cf1d31ea,2013-05-18,fa1dc7df,new jinja2._compat module for stuff not yet in six 1.3.0,3,3,21,4,21,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,0,0
+jinja,728d69abad,2013-05-18,c7ba33ae,Added missing versionadded and changelog entry,2,1,5,0,3,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+jinja,2b5b35a9f4,2013-05-18,c7ba33ae,Whitespace cleanup,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+jinja,e8acd5b6b0,2013-05-18,c9bda9d8,Python 2.6+ supports conditional expressions.,1,1,7,24,7,24,0,0,0,1,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+jinja,0d3b38911a,2013-05-18,c9bda9d8,BytesIO from six.,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,9962c10b25,2013-05-18,c7ba33ae,Cleanup and changelog entry for new contextfunction behavior,2,1,6,5,5,5,0,0,0,1,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,1
+jinja,d0708db4bf,2013-05-18,a47f543b,Remove unused imports,10,10,8,13,8,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,1,1,0
+jinja,58d458dd62,2013-05-18,c7ba33ae,Make dump() work Python 3.3,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jinja,e6c0630249,2013-05-18,c7ba33ae,file -> open for 3.x support.  This fixes #152,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jinja,d5a0edfdaa,2013-05-18,c9bda9d8,Don't assign the range type each time.,1,1,6,4,6,4,0,1,0,1,0,0,0,1,0,0,0,18,1,0,4,0,0,0,0,0
+jinja,b36039f0ca,2013-05-18,c9bda9d8,Correctly compare version type.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,d7d663f612,2013-05-18,c7ba33ae,Cleanup up some imports,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1
+jinja,9dd7fadce7,2013-05-18,c7ba33ae,Fixed a check that broke pypy,1,1,5,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jinja,02a4654fb3,2013-05-18,c9bda9d8,No need for tuple comparisons.,4,4,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+jinja,86e5f97fc2,2013-05-18,c9bda9d8,We don't support 2.4 anymore.,1,1,5,6,5,6,0,0,0,2,0,0,0,0,0,0,0,3,0,0,5,0,0,0,0,0
+jinja,28579a6bff,2013-05-18,c7ba33ae,A bit of cleanup in the environment,1,1,6,2,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1
+jinja,447d3d2799,2013-05-18,c9bda9d8,Trash debugsupport.,4,3,7,122,7,98,0,0,0,0,0,0,0,0,0,3,0,0,0,0,7,0,0,0,0,0
+jinja,460251c9ed,2013-05-18,fa1dc7df,"setup.py: add ""six"" library to install_requires",1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jinja,07a7d551b5,2013-05-18,fa1dc7df,utils: remove some old py compat code,1,1,3,44,3,44,0,0,0,1,0,0,0,0,0,5,0,6,0,0,3,0,0,0,1,0
+jinja,d2dbe1031b,2013-05-18,fa1dc7df,_markupsafe: remove some py2.4/2.5 compat code,1,1,1,9,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+jinja,7d29562ff9,2013-05-18,fa1dc7df,"python 3 port: manual fixes, remove 2to3 from setup.py, remove fixers",28,28,235,269,235,269,1,0,0,105,0,0,1,0,9,10,0,102,8,21,229,0,0,0,1,0
+jinja,e0003555f8,2013-05-17,fa1dc7df,python 3 port: automated changes by a slightly modified python-modernize,29,29,171,131,171,131,0,0,0,101,0,0,0,0,0,0,0,102,13,20,171,0,0,0,0,0
+jinja,012d0170c4,2013-05-07,990e549b,Allow choice of wrap string in wordwrap filter.,1,1,8,3,8,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+jinja,08f38a872c,2013-05-01,f181ce5e,Prevent line statements eating newlines (fixes #52),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jinja,71fc228879,2013-04-15,bc4d0bd2,- Allow callable classes to have contextfunction and the like,1,1,11,0,11,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,0
+jinja,ea2890d01b,2013-04-15,bc4d0bd2,- Testcase,1,1,13,1,13,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,10,0,0,0,0,0
+jinja,d4e54382cb,2013-04-13,c7ba33ae,Pessimistic locking for LRU cache.  This fixes #8,1,1,24,20,24,20,1,0,0,3,0,0,0,0,0,0,0,13,0,0,21,0,1,0,0,0
+jinja,0a06d880f9,2013-03-28,5b4e8789,Correct typo in dictsort filter documentation,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jinja,6644893ecb,2013-03-18,94225926,Fixed an issue about urlize function,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,32,1,1,1,0,0,0,0,0
+jinja,bdd09dd305,2013-02-23,41217fee,Fixed typos: overriden to overridden,4,3,6,6,5,5,1,0,0,3,0,0,0,0,0,0,0,41,1,1,5,0,0,0,0,0
+jinja,5871ba85dc,2013-02-18,5838cf8b,Fixes #181: Handle memcached errors gracefully.,1,1,8,2,8,2,1,0,0,2,0,0,0,0,0,0,0,8,0,0,8,0,1,0,0,0
+jinja,e257b295b8,2013-01-15,6a138f19,Update jinja2/filters.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jinja,7e912c6dfa,2013-01-11,cfd324c6,Add `keep_trailing_newline` to configure final endline stripping,7,5,45,6,40,5,0,0,0,6,0,0,4,0,1,0,0,101,4,11,38,0,0,0,0,0
+jinja,8e01f54765,2012-11-26,6a733cd6,"update the Docstring of do_truncate, add useful examples",1,1,6,5,6,5,0,0,0,1,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0

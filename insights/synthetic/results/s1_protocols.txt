@@ -1,0 +1,15 @@
+majority class: 0.206 (all pairs), 0.207 (temporal test part)
+
+protocol                                  leave-one-project-out  random  temporal
+input                model                                                       
+child only (no twin) 10-best + RF (talk)                  0.694   0.657     0.590
+                     random forest                        0.762   0.758     0.615
+delta                10-best + RF (talk)                  0.932   0.924     0.892
+                     random forest                        0.959   0.942     0.915
+
+difference leave-one-project-out minus temporal, minus random (accuracy points):
+input                 model              
+child only (no twin)  10-best + RF (talk)    10.4
+                      random forest          14.6
+delta                 10-best + RF (talk)     4.0
+                      random forest           4.4

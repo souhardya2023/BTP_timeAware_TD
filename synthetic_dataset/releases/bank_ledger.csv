@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+bank_ledger,v0.1,v0.2,0,2.0782,84,263,24,0,1
+bank_ledger,v0.2,v0.3,1,0.8957,59,339,31,1,2
+bank_ledger,v0.3,v0.4,2,2.2797,97,393,35,1,3
+bank_ledger,v0.4,v0.5,3,0.5125,73,455,23,0,3
+bank_ledger,v0.5,v0.6,4,0.7797,31,525,57,3,6
+bank_ledger,v0.6,v0.7,5,0.5023,17,554,59,1,6
+bank_ledger,v0.7,v0.8,6,0.3747,19,561,59,1,6
+bank_ledger,v0.8,v0.9,7,0.6419,31,574,59,1,6
+bank_ledger,v0.9,v0.10,8,1.6354,85,595,59,2,6

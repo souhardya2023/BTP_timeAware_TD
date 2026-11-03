@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+csv2json,v0.1,v0.2,0,0.971,43,168,8,0,1
+csv2json,v0.2,v0.3,1,0.4091,20,203,24,1,4
+csv2json,v0.3,v0.4,2,1.419,29,219,36,1,8
+csv2json,v0.4,v0.5,3,1.7842,62,240,36,1,8

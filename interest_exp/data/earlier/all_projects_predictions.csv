@@ -1,0 +1,62 @@
+Pair,Project,Ground_Truth_TD_Type,Ground_Truth_TD_Subtype,Lines_Added,BLOCKER,CRITICAL,INFO,MAJOR,MINOR,BUG,CODE_SMELL,VULNERABILITY,project,td_type,files_analyzed,commits_analyzed,historical_td_interest_pm,Target_PM,Predicted_PM
+P1,werkzeug,security,predictable_salt,3,12.0,60.0,5.0,166.0,29.0,72.0,197.0,3.0,werkzeug,security,src/werkzeug/security.py,36,2.2948513325488022,0.01335931741290177,0.018019193302073588
+P1,werkzeug,security,predictable_salt,3,12.0,60.0,5.0,166.0,29.0,72.0,197.0,3.0,jansson,security,src/dump.c,86,4.2596656443953895,0.01335931741290177,0.05726914379370511
+P10,boltons,concurrency,lock_removed,4,0.0,49.0,77.0,80.0,103.0,9.0,297.0,3.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.017357154090002488,0.031323644927815086
+P10,boltons,concurrency,lock_removed,4,0.0,49.0,77.0,80.0,103.0,9.0,297.0,3.0,jansson,complexity,src/strbuffer.c,23,0.6862557472071986,0.017357154090002488,0.01644832556782662
+P11,click,coupling_cohesion,shotgun_surgery,71,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,click,coupling_cohesion,"src/click/core.py, src/click/types.py, src/click/utils.py",293,29.351401986583145,0.23782035562791817,0.5825699385912846
+P11,click,coupling_cohesion,shotgun_surgery,71,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,C-Thread-Pool,concurrency,thpool.c,81,6.39088972686015,0.23782035562791817,0.3233974133418236
+P12,click,coupling_cohesion,shotgun_surgery,73,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,click,coupling_cohesion,"src/click/_utils.py, src/click/core.py, src/click/globals.py, src/click/shell_completion.py, src/click/types.py",298,29.49551345051662,0.2439089460477197,0.5825699385912846
+P12,click,coupling_cohesion,shotgun_surgery,73,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,C-Thread-Pool,concurrency,thpool.c,81,6.39088972686015,0.2439089460477197,0.3046408211483286
+P13,click,coupling_cohesion,shotgun_surgery,129,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,click,coupling_cohesion,"src/click/_compat.py, src/click/core.py, src/click/decorators.py, src/click/exceptions.py, src/click/globals.py, src/click/termui.py, src/click/testing.py, src/click/types.py, src/click/utils.py",499,46.57697810947272,0.40948741910126357,0.6112169116812388
+P13,click,coupling_cohesion,shotgun_surgery,129,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,C-Thread-Pool,security,thpool.c,81,6.39088972686015,0.40948741910126357,0.2355703871923603
+P14,jinja,coupling_cohesion,feature_envy,8,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,jinja,coupling_cohesion,src/jinja2/loaders.py,32,4.641160798250082,0.03261488225834073,0.09675372367942073
+P14,jinja,coupling_cohesion,feature_envy,8,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,C-Thread-Pool,security,thpool.c,81,6.39088972686015,0.03261488225834073,0.18521546327032823
+P15,jinja,coupling_cohesion,feature_envy,50,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,jinja,coupling_cohesion,"src/jinja2/bccache.py, src/jinja2/loaders.py",48,7.451043506332199,0.1728489042794244,0.12078021187365723
+P15,jinja,coupling_cohesion,feature_envy,50,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,libyaml,security,src/loader.c,8,1.9625630123804183,0.1728489042794244,0.06409072633276844
+P16,jinja,coupling_cohesion,shotgun_surgery,47,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,jinja,coupling_cohesion,"src/jinja2/defaults.py, src/jinja2/environment.py, src/jinja2/lexer.py, src/jinja2/utils.py",112,23.97318066668067,0.16338529913799554,0.2938634836317232
+P16,jinja,coupling_cohesion,shotgun_surgery,47,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,libyaml,security,src/parser.c,21,6.221366236803532,0.16338529913799554,0.19061770970468955
+P17,click,dependency_structure,data_clumps,112,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,click,dependency_structure,"src/click/core.py, src/click/globals.py, src/click/termui.py, src/click/testing.py, src/click/types.py",347,33.70429760449196,0.3600744678311619,0.502475818354221
+P17,click,dependency_structure,data_clumps,112,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,libyaml,security,src/api.c,28,6.436572019691996,0.3600744678311619,0.246369728637841
+P18,click,dependency_structure,dead_code_elimination,148,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,click,dependency_structure,"src/click/_utils.py, src/click/core.py, src/click/decorators.py, src/click/globals.py, src/click/utils.py",290,26.918980896670156,0.4640257569677551,0.4665846120256928
+P18,click,dependency_structure,dead_code_elimination,148,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,libyaml,security,src/parser.c,21,6.221366236803532,0.4640257569677551,0.3016513064553453
+P19,click,dependency_structure,dead_code_elimination,135,1.0,28.0,1.0,43.0,6.0,1.0,76.0,2.0,click,dependency_structure,"src/click/_utils.py, src/click/core.py, src/click/shell_completion.py",221,22.402607229066536,0.4267835348934419,0.3960520876729657
+P19,click,dependency_structure,dead_code_elimination,135,1.0,28.0,1.0,43.0,6.0,1.0,76.0,2.0,libyaml,security,src/loader.c,8,1.9625630123804183,0.4267835348934419,0.1548510055631583
+P2,werkzeug,security,weak_hash,1,12.0,60.0,5.0,165.0,29.0,72.0,197.0,2.0,werkzeug,security,src/werkzeug/debug/__init__.py,51,3.4472240923507407,0.004915910040789969,0.035700410796290945
+P2,werkzeug,security,weak_hash,1,12.0,60.0,5.0,165.0,29.0,72.0,197.0,2.0,jansson,security,src/strconv.c,12,1.0607967496600317,0.004915910040789969,0.06644122459132445
+P20,click,dependency_structure,interface_segregation,338,1.0,28.0,1.0,48.0,6.0,1.0,81.0,2.0,click,dependency_structure,"src/click/__init__.py, src/click/core.py, src/click/decorators.py, src/click/testing.py, src/click/types.py",375,34.10662420499936,0.9838256113970137,0.6127503390242715
+P20,click,dependency_structure,interface_segregation,338,1.0,28.0,1.0,48.0,6.0,1.0,81.0,2.0,libpng,security,"contrib/libtests/pnggetset.c, pngset.c",538,24.26422625578915,0.9838256113970137,0.47354484981171224
+P21,click,complexity,deeply_inlined_method,47,1.0,28.0,1.0,42.0,6.0,1.0,75.0,2.0,click,complexity,"src/click/core.py, src/click/utils.py",226,22.61706506145269,0.16338529913799554,0.3331584383807289
+P22,click,complexity,deeply_inlined_method,303,1.0,29.0,1.0,42.0,6.0,1.0,76.0,2.0,click,complexity,"src/click/_compat.py, src/click/core.py, src/click/formatting.py, src/click/globals.py, src/click/testing.py",274,28.28440154118055,0.8906697833746086,0.3176953305448148
+P23,click,complexity,deeply_inlined_method,126,1.0,29.0,1.0,42.0,6.0,1.0,76.0,2.0,click,complexity,"src/click/core.py, src/click/utils.py",226,22.61706506145269,0.40081237602205155,0.3216391133513969
+P24,jinja,complexity,deeply_inlined_method,84,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,jinja,complexity,"src/jinja2/compiler.py, src/jinja2/environment.py",85,23.88639311671212,0.27713927543046263,0.36321039499174795
+P25,jinja,complexity,deeply_inlined_method,196,1.0,43.0,1.0,122.0,16.0,57.0,116.0,10.0,jinja,complexity,"src/jinja2/environment.py, src/jinja2/nodes.py, src/jinja2/runtime.py, src/jinja2/utils.py",134,32.36159931845438,0.599179507688477,0.24375570163155624
+P26,boltons,concurrency,lock_removed,3,0.0,49.0,77.0,80.0,103.0,9.0,297.0,3.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.01335931741290177,0.02460108449998303
+P27,boltons,concurrency,lock_removed,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.009237218632823514,0.0330664278568793
+P28,boltons,concurrency,lock_removed,6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.025102765246784182,0.028901359200853634
+P29,boltons,concurrency,lock_removed,11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.04357839894364525,0.028901359200853634
+P3,boltons,concurrency,lock_removed,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.03995801695871589,0.02945607794681171
+P3,boltons,concurrency,lock_removed,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,jansson,security,src/strconv.c,12,1.0607967496600317,0.03995801695871589,0.06505348918301702
+P30,boltons,concurrency,lock_removed,7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.028883056066605878,0.02945607794681171
+P31,boltons,concurrency,lock_removed,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.03995801695871589,0.03209907092909379
+P32,boltons,concurrency,lock_removed,13,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.05073321415058154,0.0433853952968185
+P33,boltons,concurrency,lock_removed,47,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.16338529913799554,0.03638661463257375
+P34,boltons,concurrency,lock_removed,36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.12818558879362507,0.03814279638744179
+P35,boltons,concurrency,lock_removed,22,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.08188579436375715,0.041805073823361696
+P36,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.004915910040789969,0.04814150778715482
+P37,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.004915910040789969,0.03814279638744179
+P38,boltons,concurrency,lock_removed,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.021265060900411442,0.0433853952968185
+P39,boltons,concurrency,lock_removed,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.017357154090002488,0.03638661463257375
+P4,boltons,concurrency,lock_removed,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.03995801695871589,0.027983786476284037
+P4,boltons,concurrency,lock_removed,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,jansson,security,src/load.c,100,8.111020574182845,0.03995801695871589,0.2998533419598677
+P40,boltons,concurrency,lock_removed,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.009237218632823514,0.03638661463257375
+P41,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.004915910040789969,0.041805073823361696
+P5,boltons,concurrency,lock_removed,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.009237218632823514,0.03209907092909379
+P5,boltons,concurrency,lock_removed,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,zlib,security,gzlib.c,63,3.1350667554733733,0.009237218632823514,0.03720967460858057
+P6,boltons,concurrency,lock_removed,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/cacheutils.py,61,5.335000386825566,0.03630484696786289,0.027983786476284037
+P6,boltons,concurrency,lock_removed,9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,zlib,security,gzlib.c,63,3.1350667554733733,0.03630484696786289,0.019509123510145148
+P7,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.004915910040789969,0.03638661463257375
+P7,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cJSON,dependency_structure,cJSON.h,137,2.5784634798569708,0.004915910040789969,0.09246479228422394
+P8,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.004915910040789969,0.04814150778715482
+P8,boltons,concurrency,lock_removed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,jansson,dependency_structure,src/hashtable.h,25,1.0456682642437989,0.004915910040789969,0.039513692256151825
+P9,boltons,concurrency,lock_removed,17,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,boltons,concurrency,boltons/socketutils.py,43,4.2887075576026135,0.06476083583346431,0.03638661463257375
+P9,boltons,concurrency,lock_removed,17,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,zlib,dependency_structure,zutil.h,77,2.830734088682946,0.06476083583346431,0.016337485087953796

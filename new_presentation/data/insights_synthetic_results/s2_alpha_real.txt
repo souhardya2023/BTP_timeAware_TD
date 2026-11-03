@@ -1,0 +1,14 @@
+## synthetic baseline projects (391 groups): difference to persistence, top 20 %
+  alpha 0.25   +5.3 (+2.6, +8.1)
+  alpha 0.5    +5.5 (+2.7, +8.5)
+  alpha 1      +5.7 (+2.9, +8.6)
+  alpha 2      +5.9 (+3.0, +8.8)
+  alpha 4      +5.6 (+2.7, +8.6)
+  alpha 8      +5.6 (+2.7, +8.6)
+  alpha 16     +5.6 (+2.7, +8.6)
+chosen on the synthetic baseline: alpha = 2
+
+## real histories, 9 repositories (123 groups), alpha = 2 fixed in advance
+  top 20%: persistence 40.1, shrunk 40.1, difference  +0.0 (-4.7, +4.8)
+  top 30%: persistence 49.6, shrunk 52.7, difference  +3.1 (-1.1, +7.3)
+  top 50%: persistence 72.3, shrunk 72.0, difference  -0.2 (-3.3, +3.1)

@@ -1,0 +1,5 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+flip_image,v0.2,v0.3,1,flip_image/core.py::classify_operation_4::complex_method,flip_image/core.py,classify_operation_4,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,30,30,0,0.0
+flip_image,v0.3,v0.4,2,flip_image/core.py::classify_operation_4::complex_method,flip_image/core.py,classify_operation_4,complex_method,MAJOR,0,30,14,0,0,0,0.06217811821415762,none,1,30,0,0,0.0
+flip_image,v0.4,v0.5,3,flip_image/core.py::classify_operation_4::complex_method,flip_image/core.py,classify_operation_4,complex_method,MAJOR,0,30,14,1,0,0,0.06217811821415762,none,1,30,0,0,0.0
+flip_image,v0.5,v0.6,4,flip_image/core.py::classify_operation_4::complex_method,flip_image/core.py,classify_operation_4,complex_method,MAJOR,0,30,14,2,0,0,0.06217811821415762,none,1,30,0,0,0.0

@@ -1,0 +1,24 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+palindrome,v0.1,v0.2,0,palindrome-D01,palindrome/services.py,ReportManager1,synth:god_class,MAJOR,15,23,2,0,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+palindrome,v0.1,v0.2,0,palindrome-D02,palindrome/services.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.1,v0.2,0,palindrome-D03,palindrome/core.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.1,v0.2,0,palindrome-D04,palindrome/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.2,v0.3,1,palindrome-D01,palindrome/services.py,ReportManager1,synth:god_class,MAJOR,15,23,2,1,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+palindrome,v0.2,v0.3,1,palindrome-D02,palindrome/services.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.2,v0.3,1,palindrome-D03,palindrome/core.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.2,v0.3,1,palindrome-D04,palindrome/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+palindrome,v0.2,v0.3,1,palindrome-D05,palindrome/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+palindrome,v0.3,v0.4,2,palindrome-D01,palindrome/services.py,ReportManager1,synth:god_class,MAJOR,15,23,2,2,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+palindrome,v0.3,v0.4,2,palindrome-D02,palindrome/services.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.3,v0.4,2,palindrome-D03,palindrome/core.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.3,v0.4,2,palindrome-D04,palindrome/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,2,1,1,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+palindrome,v0.3,v0.4,2,palindrome-D05,palindrome/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+palindrome,v0.3,v0.4,2,palindrome-D06,palindrome/services.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.3,v0.4,2,palindrome-D07,palindrome/core.py,build_phrase_7,synth:params,MAJOR,15,11,4,0,0,0,0.02062846280146194,interest,1,13,4,2.0,0.003164390096496418
+palindrome,v0.4,v0.5,3,palindrome-D01,palindrome/services.py,ReportManager1,synth:god_class,MAJOR,15,23,2,3,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+palindrome,v0.4,v0.5,3,palindrome-D02,palindrome/services.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.4,v0.5,3,palindrome-D03,palindrome/core.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.4,v0.5,3,palindrome-D04,palindrome/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,3,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.4,v0.5,3,palindrome-D05,palindrome/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+palindrome,v0.4,v0.5,3,palindrome-D06,palindrome/services.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+palindrome,v0.4,v0.5,3,palindrome-D07,palindrome/core.py,build_phrase_7,synth:params,MAJOR,15,13,4,1,2,1,0.0247885335262108,none,1,13,0,0.0,0.0

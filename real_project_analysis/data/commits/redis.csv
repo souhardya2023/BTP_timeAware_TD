@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+redis,4188839608,2026-10-29,bdfdc9a6,Make CONFIG REWRITE source-aware and compare file values (#16009),8,5,1712,68,780,68,0,0,0,29,4,0,5,0,12,0,0,258,8,75,632,0,0,0,0,0
+redis,a76a3689a0,2026-10-28,67209944,Set member expiration (#15938),43,26,7780,1102,3904,977,0,0,0,87,30,3,20,0,150,40,0,1361,47,446,2712,0,0,0,0,0
+redis,da925a2ca0,2026-10-28,31e3708b,Restore historical listpack backlen width and convert data from 8.8–8.10 on load (#16099),7,6,229,22,177,22,0,0,0,9,1,0,4,0,2,0,0,1297,6,56,122,0,0,0,0,0
+redis,9a5c6e9788,2026-10-28,09023400,fixed: out-of-bounds read in cluster bus PING/PONG/MEET packet parsing (#16104),2,1,87,1,17,1,1,0,0,1,0,0,1,0,0,0,0,477,1,13,13,1,0,0,0,0
+redis,c2aa3993f4,2026-10-28,b4d99fc9,Fix slot memory accounting after IDMP expiry (#15887),2,1,70,1,6,1,1,0,0,1,0,0,1,0,0,0,0,65,1,3,3,0,0,0,0,0
+redis,157e3f3bb7,2026-10-28,4c4150bc,Add BITRANGEINTARRAY for native bitmap enumeration (#15986),8,5,1415,13,629,5,0,0,0,1,6,0,1,0,23,0,0,31,1,4,507,0,0,0,0,0
+redis,c01d00bed7,2026-10-28,2565d60d,Log replication EOF as a closed connection (#16036),3,2,61,2,11,2,0,0,0,2,0,0,0,0,0,0,0,12,0,0,9,0,0,0,0,0
+redis,8b5384ae97,2026-10-28,2b7e3fa1,Prefetch dict entries ahead of the iteration in RDB save (#16022),9,9,65,3,65,3,0,0,0,8,0,0,4,0,4,0,0,89,4,4,47,0,0,0,0,0
+redis,33c2a2a145,2026-10-27,2cd09e3c,Fix page cache reclaim test when /tmp is tmpfs (#16067),2,1,13,11,3,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+redis,7716edb651,2026-10-26,6f2f4eb8,"Verify the TLS server identity by default in redis-cli, redis-benchmark and Sentinel (#16033)",18,8,1406,62,650,45,0,0,0,19,3,0,14,0,8,0,0,462,16,214,383,0,0,0,0,0
+redis,7028976793,2026-10-26,df19d5e2,Remove redundant per-step range assert in lpFindCbInternal() (#16039),1,1,8,1,8,1,0,0,0,1,1,0,0,0,0,0,0,32,1,2,2,0,0,0,1,0
+redis,ad49ff0d92,2026-10-24,2cd09e3c,Fix GCC maybe-uninitialized warning in zset B+ tree (#16058),1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+redis,c039dd784c,2026-10-24,3aa67a12,Fix double free of reply in redis-cli --cluster add-node (#16053),1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,141,1,4,4,1,0,0,0,0
+redis,81d653f5dc,2026-10-23,ea7f6d8a,Reduce large sorted set memory with a packed B+ tree (#15635),31,18,8924,209,7682,171,0,0,0,59,36,0,32,2,217,1,0,1288,40,800,5781,0,0,0,0,1
+redis,9e19096803,2026-10-23,3aa67a12,Fix ebuckets defrag assert when resuming after the remaining buckets were removed (#15950),1,1,34,1,34,1,1,0,0,2,0,0,1,0,0,0,0,367,1,26,30,0,0,0,0,0
+redis,9a95a8913a,2026-10-22,6f2f4eb8,Redis cli cmddocs hardening (#16034),2,1,284,11,30,10,0,0,0,5,0,0,1,0,0,0,0,60,2,5,10,0,0,0,0,0
+redis,788eb04400,2026-10-22,09023400,Keep XTRIM cursor valid after listpack flags re-encode (#16044),2,1,24,3,6,3,0,0,0,1,0,0,0,0,0,0,0,140,1,2,2,0,0,0,0,0
+redis,e4eb89782d,2026-10-22,09023400,Fix lua shebang/function metadata RESP injection (#16032),4,2,81,0,20,0,1,0,0,2,0,0,2,0,0,0,0,71,2,14,14,1,0,0,0,0
+redis,b3c4bbaa46,2026-10-22,09023400,Fix lua tostring exposing heap addresses space (#16031),2,1,61,1,2,1,1,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+redis,a013fd9207,2026-10-22,47ba3750,Fix use-after-free in cluster bus FORGOTTEN_NODE handling (#15685),2,1,69,13,21,13,1,0,0,2,0,0,1,0,0,0,0,465,2,18,18,1,0,0,0,0
+redis,847ff3503a,2026-10-22,361ad992,CLUSTER RESET on a replica: propagate the flush to the AOF and sub-replicas (#16038),2,1,21,0,7,0,0,0,0,1,0,0,0,0,0,0,0,46,0,0,3,0,0,0,0,0
+redis,2ac3f66dd5,2026-10-21,b49d1049,Add config filtering which clients can be processed by IO threads (#15913),9,5,523,19,84,8,0,0,0,6,0,0,5,0,1,0,0,290,6,43,70,0,1,0,0,0
+redis,6ea763ceb8,2026-10-21,3aa67a12,Allow HOTKEYS START DURATION 0 as documented by HOTKEYS HELP (#16026),2,1,15,2,2,2,0,0,0,1,0,0,0,0,0,0,0,324,1,2,2,0,0,0,0,0
+redis,913be9cdba,2026-10-21,31e3708b,Make client unshared reply memory accounting incremental in cron (#15761),5,4,50,39,48,34,0,0,0,8,0,0,4,1,1,1,0,206,5,11,41,0,0,0,0,0
+redis,da47cd5bf4,2026-10-21,25eb081c,Fix MSETEX writes lost during atomic slot migration (#15937),6,2,45,1,7,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,1,0,0,0
+redis,c38dcdabf4,2026-10-21,2b7e3fa1,Set TCP_NODELAY and keepalive on the master connection after PSYNC (#16020),1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,34,0,0,3,0,0,0,0,0
+redis,f2a17a8dca,2026-10-21,3aa67a12,Fix XADD/XTRIM MAXLEN with ACKED stopping early at a node with referenced entries (#16006),2,1,27,5,5,5,1,0,0,1,0,0,0,0,0,0,0,140,1,2,2,0,0,0,0,0
+redis,89791b3677,2026-10-20,1aac6f92,MOD-19657: Vector Sets: salt the deserialization ID table hash (#15999),1,1,16,6,16,6,0,0,0,2,0,0,1,0,1,0,0,67,1,4,8,0,0,0,0,0
+redis,9d6e098a1b,2026-10-20,b49d1049,Fix Lua DoS because of long running string find (#1561) (#16017),2,1,69,0,35,0,1,0,0,4,0,0,3,0,1,0,0,80,3,6,15,1,0,0,0,0
+redis,559d143b4e,2026-10-20,8e61db8e,RED-220725: Preserve BLESS across module value replacement (#15995),3,1,37,0,3,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,1,0,0
+redis,2138dd66df,2026-10-19,1aac6f92,MOD-19660: Vector Sets: bound serialized node params count on RDB load (#15998),4,3,97,4,38,4,0,0,0,1,0,0,1,0,0,0,0,144,1,12,15,0,0,0,0,0
+redis,c4706ba71a,2026-10-19,02a2c209,Update HdrHistogram to 0.12.1 and optimize INFO statistics (#15367),10,5,986,370,869,289,0,0,0,31,2,0,0,0,24,14,0,83,1,68,662,0,0,0,0,0
+redis,d1a17fad78,2026-10-19,02a2c209,"ZSCAN: format skiplist scores with d2string(), consistent with ZSCORE (#15821)",2,1,49,2,2,2,0,0,0,1,0,0,0,0,0,0,0,261,1,2,2,0,0,0,0,0
+redis,5e332cabd5,2026-10-17,df19d5e2,deps/fpconv: remove every integer division from Grisu digit generation (#15787),2,1,27,23,26,22,0,0,0,1,0,0,0,0,0,0,0,43,0,0,22,0,0,0,1,0
+redis,e0bb931684,2026-10-16,209a5b30,Fix BITOP performance regression by looking up each source key only once (#15970),3,1,8,139,6,22,1,0,0,1,0,0,0,1,0,0,0,325,1,2,2,0,0,0,0,0
+redis,528f02d8fd,2026-10-16,828804b7,Fix stream MINID ~ trim propagation with DELREF and ACKED (#15936),2,1,124,15,46,15,1,0,0,6,0,0,2,0,0,0,0,140,2,13,31,0,0,0,0,0
+redis,f6fd2877a9,2026-10-15,2cd09e3c,Fix CRC64 test build on ARM (#15974),1,1,2,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,f57612b12f,2026-10-15,2cd09e3c,Fix MSan false positive in crash watchdog (#15972),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+redis,b8dfc63b3b,2026-10-15,2b7e3fa1,Optimize LZF decompression to speed up RDB load (#15765),7,6,435,3,434,2,0,0,0,2,3,0,0,0,5,0,0,42,1,1,274,0,0,0,0,0
+redis,5019bc9af1,2026-10-15,cece842f,Accelerate CRC64 checksumming for RDB load with PCLMULQDQ (#15732),6,6,346,4,346,4,0,0,0,2,0,0,1,0,4,0,0,36,1,7,215,0,0,0,0,0
+redis,b261feaf22,2026-10-14,6f2f4eb8,Add an `INFO stream` section with per-consumer-group PEL histograms (#15682),16,9,1724,58,616,58,0,0,0,31,3,0,9,0,18,0,0,772,15,109,409,0,0,0,0,0
+redis,d003e19b00,2026-10-14,1aac6f92,RED-216257 - Add module reply buffers for deferred serialization (#15775),6,4,767,19,180,17,0,0,0,10,0,0,3,0,5,0,0,408,3,10,92,0,0,1,0,0
+redis,81ebeccccd,2026-10-14,1aac6f92,Fix blocked module auth cleanup on disconnect (#15818),5,3,96,6,22,5,1,0,0,3,0,0,0,1,2,0,0,112,2,2,16,0,0,1,0,1
+redis,0b1a456dfa,2026-10-14,8b6bc094,Bound a stuck crash report so the process still exits. (#15891),7,4,187,1,140,1,1,0,0,6,0,0,3,0,4,0,0,759,3,24,92,0,0,0,0,0
+redis,3228d82f49,2026-10-14,5e3dc20a,Fix bracketed IPv6 cluster CLI address parsing (#15890),2,1,27,6,15,6,1,0,0,1,0,0,0,0,0,0,0,24,0,0,9,0,0,0,0,0
+redis,f3b9b68ec6,2026-10-14,4c4150bc,Redis native compressed bitmaps (redis-roaring) (#15331),106,73,45103,343,35661,317,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+redis,fcc9b536dd,2026-10-13,8e61db8e,MOD-18223: Reject DEBUG RELOAD from loading a stale background snapshot (#15949),2,1,31,0,7,0,0,0,0,1,0,0,1,0,0,0,0,738,1,4,4,0,0,0,0,0
+redis,38087a9f7f,2026-10-11,67209944,Refactor t_set.c: dispatch per-encoding logic via setTypeOps (#15766),8,7,612,333,611,332,0,0,1,13,3,3,0,0,39,0,0,22,3,23,409,0,0,0,0,1
+redis,7939a8b204,2026-10-11,25eb081c,Fix crashes when a module thread pauses IO threads (#15869),7,5,122,16,26,16,1,0,0,7,0,0,2,0,1,0,0,102,2,2,15,0,1,1,0,0
+redis,558ef8fafb,2026-10-10,951110ca,Fix null pointer dereference in hnsw_reconnect_nodes() (#15911),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,165,1,1,1,0,0,0,0,0
+redis,3c7e951c3d,2026-10-10,2cd09e3c,Fix Linux TCP connect error queue in hiredis (#15917),2,2,253,25,253,25,1,0,0,3,3,0,1,0,5,0,0,139,3,53,224,0,0,0,0,0
+redis,12b9b9e116,2026-10-09,951110ca,Add NULL key checks to RM_ListInsert() and RM_ListSet() (#15914),1,1,5,5,5,5,0,0,0,2,0,0,0,1,0,0,0,36,1,4,5,0,0,0,0,0
+redis,8cdea4994b,2026-10-09,bdfdc9a6,Expose snapshot and incremental progress in CLUSTER MIGRATION STATUS (#15829),6,4,371,6,153,5,0,0,0,13,2,0,4,0,2,0,0,275,6,74,105,0,0,0,0,0
+redis,940a4d72fc,2026-10-08,bdfdc9a6,Fix legacy AOF preload data loss caused by premature upgrade (#15916),2,1,25,6,1,6,1,0,0,1,0,0,0,1,0,0,0,99,1,1,1,0,0,0,0,0
+redis,38efc6b3ed,2026-10-08,b49d1049,Reject register of functions with same names (modulo case) in lua scripts (#15884),3,1,88,28,10,10,0,0,0,2,0,0,0,1,0,0,0,19,1,3,8,0,0,0,0,0
+redis,e1d873123a,2026-10-07,b49d1049,Fix replica node using compression close because of full input buffer (#15912),2,1,51,2,4,2,1,0,0,1,0,0,1,0,0,0,0,46,1,1,1,0,0,0,0,0
+redis,7f44037236,2026-10-06,2175c479,Vector Sets: bound serialized max links by the index M (#15906),3,1,132,3,6,3,0,0,0,1,0,0,1,0,0,0,0,84,1,2,2,0,0,0,0,0
+redis,b540ca49cb,2026-09-30,758e692f,Add USE_PROCESSOR_CLOCK for LoongArch64 (#15769),1,1,61,0,61,0,0,0,0,1,1,0,0,0,5,0,0,9,1,3,48,0,0,0,0,0
+redis,8bc1c4e147,2026-09-30,08d03b6e,tls: replace deprecated X509_NAME_get_text_by_NID API (#15227),1,1,24,8,24,8,0,0,0,1,0,0,0,0,0,0,0,22,0,0,13,0,0,0,0,0
+redis,7f0b7bfa01,2026-09-30,b6335101,Wake BLMOVEM EXACTLY when a module grows an existing list (#15876),2,1,37,1,8,1,0,0,0,2,0,0,2,0,0,0,0,36,2,5,5,0,0,1,0,0
+redis,790d459f09,2026-09-29,5c9da62a,Fix ARLASTITEMS dropping elements past a hole (#15875),2,1,45,6,18,6,1,0,0,2,0,0,1,0,0,0,0,62,2,9,10,0,0,0,0,0
+redis,62f115f295,2026-09-29,02a2c209,ZSCAN: avoid temporary member and score allocations (#15822),2,1,48,13,21,13,0,0,0,2,0,0,1,1,0,0,0,261,2,18,18,0,0,0,0,0
+redis,e336bde4af,2026-09-29,cece842f,Fix RM_CreateKeyMetaClass() API documentation (#15853),1,1,33,24,33,24,0,0,0,1,0,0,0,0,0,0,0,50,0,0,1,0,0,0,0,0
+redis,0d17e7b453,2026-09-28,2cd09e3c,Use monotonic time for blocking timeouts and module timers (#15743),9,9,69,55,69,55,0,0,0,20,0,0,1,0,2,0,0,327,6,17,58,0,0,1,0,0
+redis,a19458ddec,2026-09-28,8b6bc094,Preserve RESP3 protocol across reconnects/redirection (#15806),2,1,44,0,6,0,0,0,0,1,0,0,1,0,0,0,0,43,1,4,4,0,0,0,0,0
+redis,8623fade20,2026-09-28,828804b7,Fix spurious error log on graceful TLS client shutdown (#15758),2,1,45,1,16,1,1,0,0,2,0,0,0,0,0,0,0,26,0,0,6,0,1,0,0,0
+redis,09577d6bd7,2026-09-24,8e61db8e,Restore unstable version and release notes placeholder (#15833),2,1,13,186,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,41e6a37ac7,2026-09-24,2cd09e3c,Fix close an unopened AOF file during shutdown (#15827),3,1,45,8,10,6,1,0,0,1,0,0,0,0,0,0,0,27,0,0,8,0,0,0,0,0
+redis,5418bb1e00,2026-09-24,583fb28f,Fix protocol error not reported when a command is split across reads (#15795),2,1,69,6,15,6,1,0,0,1,0,0,1,0,0,0,0,127,1,10,10,0,0,0,1,0
+redis,7a72677e62,2026-09-23,2b7e3fa1,Hint sequential access when loading RDB and AOF files (#15782),2,2,10,0,10,0,0,0,0,2,0,0,2,0,0,0,0,215,2,6,6,0,0,0,0,0
+redis,f12f2a1e0f,2026-09-23,2cd09e3c,Fix Sentinel 100% CPU busy-loop on async socket error (EPOLLERR) (#15107),1,1,24,2,24,2,1,0,0,1,0,0,0,0,0,0,0,32,0,0,14,0,1,0,0,0
+redis,0d6266f2de,2026-09-21,0c6c1df7,Fix XTRIM leaving a 0-live stream node that RDB cannot load (#15815),2,1,16,5,3,5,1,0,0,1,0,0,0,1,0,0,0,133,1,2,2,0,0,0,0,0
+redis,c00f920b2a,2026-09-20,8850a897,redis-cli: use CLIENT NO-TOUCH for key size analysis (#15817),2,1,59,0,13,0,0,0,0,2,0,0,2,0,1,0,0,130,2,2,10,0,0,0,0,0
+redis,07a33b9195,2026-09-16,cece842f,Remove unused EB_BUCKET_KEY_PRECISION machinery from ebuckets (#15725),4,4,173,279,173,279,0,0,0,17,0,2,2,4,0,0,0,341,11,83,99,0,0,0,1,0
+redis,b78a80bd1f,2026-09-15,6f2f4eb8,Make an unauthenticated cluster bus port an explicit choice (#15722),11,2,538,6,105,0,0,0,0,2,0,0,1,0,3,0,0,176,1,14,46,0,0,0,0,0
+redis,51913f6923,2026-09-15,7072a3db,Add aof_cmd_duration estimate for AOF reload RTO visibility,11,5,968,29,165,29,0,0,0,22,2,0,8,0,5,0,0,648,11,29,110,0,0,0,1,0
+redis,b9800e06b2,2026-09-15,cea5d408,RED-211767 - Add BLESS — protect keys from eviction (#15649),29,17,1696,213,628,170,0,0,0,41,2,0,19,1,23,4,0,647,23,136,449,0,0,0,0,0
+redis,669b2a1316,2026-09-10,31e3708b,Fix --bigkeys/--keystats not reporting the biggest key when its size is 0 (#15762),2,1,15,3,3,3,1,0,0,2,0,0,1,0,0,0,0,127,1,2,3,0,0,0,0,0
+redis,e81bc873dc,2026-09-09,cece842f,Repurpose the kvobj key-header byte into kvBits: 2 bits of sds type + 6 free bits (#15772),2,2,65,43,65,43,0,0,0,5,0,0,0,1,2,0,0,35,1,1,29,0,0,1,0,0
+redis,dce0c76d4f,2026-09-09,2cd09e3c,Fix SETBIT and BITFIELD string growth accounting (#15699),5,1,88,16,9,15,1,0,0,3,0,0,0,1,0,0,0,179,1,2,4,0,0,0,0,0
+redis,48cc562064,2026-09-08,1a46bbc4,Fix overflowing relative TTL in RESTORE (#15756),2,1,22,1,4,1,1,0,0,1,0,0,1,0,0,0,0,127,1,4,4,1,0,0,0,0
+redis,3d15ede58a,2026-09-08,2b7e3fa1,Align lzf_compress to a cache line to stabilize BGSAVE performance on x86-64 (#15741),1,1,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+redis,d340f9c68c,2026-09-07,31e3708b,Honor selective propagation for effect commands queued via alsoPropagate() (#15695),10,7,364,48,126,48,0,0,0,13,0,1,1,2,2,0,0,257,5,15,55,0,0,0,0,0
+redis,60b4364fef,2026-09-07,2b7e3fa1,Fix invalid slot range merging into a valid one (#15733),3,1,7,3,5,3,1,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+redis,de9f40ad48,2026-09-04,cbcf32ae,Make LMOVEM notifications consistent with LMOVE (#15587),2,1,39,4,5,4,0,0,0,1,0,0,0,0,0,0,0,63,1,2,2,0,0,0,1,0
+redis,e1d7d50f9c,2026-08-28,6f2f4eb8,Document and warn about leading dots in `tls-expected-peer-name` (#15684),4,1,182,11,63,7,0,0,0,1,0,0,1,0,2,0,0,162,1,9,34,0,0,0,0,0
+redis,c12a522e47,2026-08-27,bdfdc9a6,Refactor ASM slot trimming (#15678),6,6,199,232,199,232,0,0,0,17,1,0,0,3,6,8,0,66,5,20,138,0,0,0,0,1
+redis,ef412c201b,2026-08-27,19759e5e,Enforce the ASM write-pause timeout before handing off slot ownership (#15629),2,1,51,0,7,0,0,0,0,1,0,0,0,0,0,0,0,28,0,0,5,0,0,0,0,0
+redis,b1b5c85167,2026-08-26,02a2c209,Route monotonic clock fallback diagnostics through serverLog instead of stderr (#15710),4,4,37,13,37,13,0,0,0,7,0,0,0,0,1,0,0,257,3,7,25,0,0,0,0,0
+redis,d0d857885a,2026-08-25,67209944,Fix ACL key permissions not being rechecked at EXEC time (#15673),9,7,140,33,68,33,1,0,0,11,0,0,2,1,0,0,0,254,4,10,32,0,0,0,0,0
+redis,80920a7d3c,2026-08-25,bdfdc9a6,Prevent data loss after cross-shard replica migration (#15680),5,3,401,1,16,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,6,0,0,0,0,0
+redis,6331fbeaf0,2026-08-24,02a2c209,Enable x86 TSC monotonic clock by default with runtime calibration (#15018),1,1,177,22,177,22,0,0,0,2,1,0,0,0,2,0,0,85,1,52,78,0,0,0,0,0
+redis,78432ed8e4,2026-08-20,2814c380,Add tls-groups to control TLS named groups (#15556),12,7,180,0,73,0,0,0,0,5,0,0,5,0,0,0,0,433,5,35,63,0,0,0,0,0
+redis,065d397030,2026-08-19,1716f4b8,Fix integer overflow on out-of-range numkeys (#15408),2,1,10,0,3,0,1,0,0,1,0,0,1,0,0,0,0,90,1,2,2,1,0,0,0,0
+redis,7f90b83e35,2026-08-19,bdfdc9a6,Use the common ASM API to complete tasks after legacy cluster slot updates (#15671),3,3,25,30,25,30,0,0,0,3,0,0,1,0,0,1,0,89,1,9,19,0,0,0,0,0
+redis,d3abc02fed,2026-08-19,2175c479,Drain post-notification jobs after active hash-field expiration (#15623),2,1,26,0,8,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+redis,d22066d098,2026-08-18,0c6c1df7,Fix TLS client-cert CN auth bypass via embedded NUL byte (#1476),2,1,121,12,15,12,1,0,0,2,0,0,0,0,0,0,0,20,0,0,10,0,0,0,0,0
+redis,162b6be968,2026-08-18,e3ae6879,Vector Sets: harden VSIM_execute against negative hnsw_search return,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,63,1,2,2,0,0,0,0,0
+redis,e5b079d0ee,2026-08-18,e3ae6879,MOD-16035: Fix VSIM/VREM race in Vector Sets,2,1,75,3,7,3,1,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,1,0,0,0
+redis,b599b1cc2e,2026-08-18,b49d1049,VDP-4971 Vector Sets RDB load — missing `level` cap in `hnsw_insert_serialized` (illegal `max-level`,1,1,14,1,14,1,0,0,0,3,0,0,2,0,0,0,0,83,2,2,3,0,0,0,0,0
+redis,5b9b1660e0,2026-08-18,b49d1049,Check slotinfo range when loading RDB (#1541),1,1,10,0,10,0,0,0,0,1,0,0,1,0,0,0,0,313,1,5,5,0,0,0,0,0
+redis,d711b06a56,2026-08-18,0c6c1df7,Fix use-after-free in tlsProcessPendingData() pending-list iteration (#1391),1,1,4,5,4,5,1,0,0,1,0,0,0,0,0,0,0,13,0,0,4,1,0,0,0,0
+redis,ead4b4e4b7,2026-08-18,aeb08ec4,Fix replica left as a sub-replica after a failover (#15530),2,1,100,0,30,0,1,0,0,1,0,0,1,0,0,0,0,465,1,15,15,0,0,0,0,0
+redis,9ab2ab6960,2026-08-18,31e3708b,Derive keysizes histogram row count from an enum (#15637),2,2,15,10,15,10,0,0,0,1,0,0,0,0,0,0,0,11,0,0,15,0,0,0,0,0
+redis,357ed10455,2026-08-18,c7e0a5c4,Mark listpack entry boundary check as unlikely (#15584),1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+redis,303c28270e,2026-08-17,2b7e3fa1,Improve batch mutation performance of hash template keys (#15618),4,1,719,198,447,195,0,0,0,11,4,0,4,5,10,2,0,138,9,63,343,0,0,0,0,0
+redis,524129a717,2026-08-16,1aac6f92,Add REDISMODULE_NODE_PORT_TLS flag to RM_GetClusterNodeInfo() (#15517),7,5,53,12,20,12,0,0,0,11,0,0,1,1,1,0,0,265,3,4,17,0,0,1,0,0
+redis,5e55298a58,2026-08-16,2b7e3fa1,Fix potential defrag issues in the hash template registry (#15628),5,3,247,64,72,51,1,0,0,10,0,0,1,1,0,1,0,58,2,25,57,0,0,0,0,0
+redis,cbdad795d8,2026-08-13,6f2f4eb8,Add stream support to INFO keysizes histograms (#15374),9,6,265,55,110,48,0,0,0,17,0,0,6,0,1,0,0,646,7,26,81,0,0,0,0,0
+redis,1b8c472274,2026-08-13,2cd09e3c,Fix overflowing relative expiration times in SET (#15626),2,1,11,6,1,6,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,1,0,0,0,0
+redis,c3f78e4b85,2026-08-12,bdfdc9a6,Avoid resizing slot dict during atomic slot import (#15605),5,5,24,19,24,19,0,0,0,4,0,0,0,0,1,0,0,38,1,2,15,0,1,1,0,0
+redis,4f20cb4893,2026-08-10,f8768eab,Fix unloadable RDB when XSETID lowers entries_added (#15489),2,1,66,1,26,1,1,0,0,1,0,0,1,0,0,0,0,75,1,17,17,0,0,0,0,0
+redis,8f365337d4,2026-08-08,2b7e3fa1,Fix hashTypeAllocSize() for TMPL_ARRAY (#15604),2,2,34,19,34,19,1,0,0,7,0,0,2,1,1,0,0,169,3,9,32,0,0,0,0,0
+redis,5412afd55c,2026-08-07,02a2c209,networking: assemble bulk reply frame in one pass in addReplyBulkCBuffer (#15313),1,1,71,12,71,12,0,0,0,2,1,0,0,0,1,0,0,24,0,0,41,0,0,0,0,0
+redis,5d67a63a0a,2026-08-07,bdfdc9a6,Move common topology change handling into the cluster layer (#15197),11,10,239,114,166,114,0,0,1,21,1,0,1,1,8,5,0,450,7,7,103,0,0,1,1,0
+redis,a8edcfc98c,2026-08-06,bdfdc9a6,Fix use-after-free in handleClientsBlockedOnKey (#15594),2,1,57,5,16,5,1,0,0,1,0,0,1,0,0,0,0,31,1,7,7,1,0,0,0,0
+redis,ca54198dd5,2026-08-05,4c4150bc,Fix signed overflow in BITFIELD i64 checks (#15545),2,1,7,2,2,2,1,0,0,1,0,0,0,0,0,0,0,43,1,1,1,1,0,0,0,0
+redis,0ef7e2b93c,2026-08-05,2cd09e3c,Fix x86-64 detection in CRC optimizations (#15532),2,2,11,6,11,6,1,0,0,1,0,0,0,0,0,0,0,15,0,0,10,0,0,0,0,0
+redis,ddd3c97e62,2026-08-05,31e3708b,Fix typos and replace 'codespell' with 'typos' (#15230),54,26,249,217,68,68,1,0,0,23,0,0,0,0,1,1,0,157,9,11,46,0,0,0,0,0
+redis,43c88eb451,2026-08-05,6f2f4eb8,Track Pub/Sub subscription provenance across AUTH changes (#15468),9,6,1145,106,436,100,0,0,0,18,0,0,3,1,12,0,0,259,5,23,226,0,0,0,0,0
+redis,3659edefcf,2026-08-04,2d9efef0,rax: fix random walk from inlined leaves (#15508),1,1,40,7,40,7,1,0,0,2,0,0,2,0,0,0,0,337,2,24,24,0,0,0,0,0
+redis,4a7dd65379,2026-08-04,fe039753,Add graceful shutdown for TLS in redis-cli (#14721),3,3,19,5,19,5,0,0,0,4,0,0,2,0,0,0,0,210,2,8,13,0,1,0,0,0
+redis,ade0601c22,2026-08-04,08617360,rax: use memchr() for child-edge lookup in non-compressed nodes (#15022),1,1,9,7,9,7,0,0,0,1,0,0,0,1,0,0,0,56,1,3,3,0,0,0,0,0
+redis,6db484b48b,2026-08-04,bdfdc9a6,Fix meaningless assertions (#15510),1,1,3,2,3,2,1,0,0,1,0,0,1,0,0,0,0,52,1,3,3,0,0,0,0,0
+redis,d886ae924f,2026-08-04,cbcf32ae,Fix XDELEX DELREF propagation for deleted entries (#15569),2,1,61,10,18,10,1,0,0,2,0,0,1,0,0,0,0,73,1,9,14,0,0,0,0,0
+redis,e60e6f0b33,2026-08-03,b49d1049,Fix quadratic search of slot duplicates in hotkeys command (#15561),1,1,9,9,9,9,1,0,0,1,0,0,0,0,0,0,0,324,1,7,7,0,0,0,0,1
+redis,ebcea0c817,2026-07-31,bdfdc9a6,Prevent duplicate redis instances from replacing active Unix sockets (#15537),6,5,83,10,43,10,0,0,0,4,0,0,1,0,1,0,0,72,1,15,33,0,0,0,0,1
+redis,58d0fb9c62,2026-07-29,6f2f4eb8,Add TLS peer certificate name (SAN) verification for server-to-server connections (#15492),10,5,550,0,183,0,0,0,0,3,1,0,0,0,5,0,0,48,1,8,92,0,0,0,0,0
+redis,23fcda0ad3,2026-07-29,0c6c1df7,Speed up XAUTOCLAIM by replacing per-entry lookups with a single forward scan (#15505),1,1,88,6,88,6,0,0,0,1,1,0,1,0,1,0,0,166,1,23,50,0,0,0,0,0
+redis,fe86cf070c,2026-07-29,2b7e3fa1,Disable defrag during AOF RDB preamble loading to fix template defrag (#15539),6,5,74,32,64,32,1,0,0,9,0,0,1,1,1,0,0,386,3,6,41,0,0,0,0,0
+redis,557a7f3bd8,2026-07-29,5364d1ed,Update RediSearch to version 8.10.0 (#15544),3,1,187,14,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,b355887a4d,2026-07-28,4e815f9c,Cluster: notify modules when node's own ip/port changes (#15518),5,4,177,8,34,8,0,0,0,5,1,0,1,0,1,0,0,28,2,6,21,0,0,1,0,0
+redis,d6f09b8ee2,2026-07-27,dd5c2b08,Improve time complexity of streamMoveIdmpKeys() in asmTriggerBackgroundTrim() (#15000),4,3,130,9,13,9,0,0,0,2,0,0,0,0,0,0,0,35,0,0,9,0,0,0,0,1
+redis,7ddf71de02,2026-07-27,2b7e3fa1,Improve hash template test coverage and refactor RDB save/load (#15519),7,6,279,131,93,94,0,0,0,22,0,0,5,2,3,2,0,1273,10,24,75,0,0,0,0,1
+redis,a8b19917f2,2026-07-27,2cd09e3c,Handle active-defrag thresholds where upper <= lower (#15513),3,1,48,6,14,5,0,0,0,1,0,0,0,0,0,0,0,39,0,0,10,0,0,0,0,0
+redis,b53f65d9b4,2026-07-24,2cd09e3c,Close socket when blocking connect wait fails (#15529),1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+redis,53f7e0a414,2026-07-24,bdfdc9a6,Install preload-file data as the local AOF without a rewrite (#15509),7,6,424,52,308,20,0,0,0,3,2,0,0,0,9,1,0,257,1,1,224,0,0,0,0,0
+redis,a62b264162,2026-07-23,be6e7b06,Account replication compression state in client memory usage (#15499),5,4,135,6,58,5,0,0,0,5,0,0,1,0,2,0,0,115,1,9,34,0,0,0,0,0
+redis,255968553d,2026-07-22,2a5ef3ab,Wake blocked list clients when SORT STORE overwrites a key (#15453),3,1,38,0,10,0,0,0,0,1,0,0,1,0,0,0,0,32,1,6,6,0,0,0,0,0
+redis,e1cc3dc268,2026-07-20,133a0647,Strip CRLF from error and simple string replies (#15496),9,5,73,9,25,9,0,0,0,5,0,0,0,1,2,0,0,148,3,3,17,0,0,0,0,0
+redis,82d0e3f85b,2026-07-20,b49d1049,Client compression for replication (#15366),21,9,1478,70,1304,44,0,1,0,24,9,1,11,0,41,0,0,646,14,127,854,0,0,0,0,0
+redis,f5b2cba567,2026-07-20,8101574c,Fix AOF rewrite crash on module types with a NULL aof_rewrite callback (#15436),2,1,61,0,11,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,8,0,0,1,0,0
+redis,30379f3101,2026-07-18,bdfdc9a6,Backup & Restore (#15441),19,7,1862,41,844,39,0,0,0,13,2,1,7,1,34,0,0,734,10,105,624,0,0,0,0,0
+redis,d3315247fa,2026-07-18,0c6c1df7,"Fix ACL key checks for SORT, GEORADIUS/GEORADIUSBYMEMBER, and XREAD/XREADGROUP (#15478)",7,1,90,20,19,10,1,0,0,3,0,0,1,0,0,0,0,41,1,7,11,0,0,0,0,0
+redis,ba99faa230,2026-07-18,2b7e3fa1,Introduce hinted hash templates (#15364),48,28,7188,207,3690,205,0,0,0,78,16,1,39,1,120,0,0,1265,54,698,2581,0,0,0,0,0
+redis,af293cf75b,2026-07-17,b49d1049,Fix write handler removal in iothread when sending client to main (#15467),1,1,7,1,7,1,1,0,0,2,0,0,0,0,0,0,0,43,0,0,4,0,1,0,0,0
+redis,534377d66e,2026-07-17,4c4150bc,Avoid duplicate KeyMeta restoration in RESTORE-based AOF rewrites (#15466),6,4,65,10,24,8,0,0,0,3,0,0,1,0,0,0,0,732,2,12,18,0,0,0,0,1
+redis,ad642d95a8,2026-07-17,02a2c209,Fix dictMemUsage() over-counting no_value entries (#15462),1,1,49,1,49,1,1,0,0,2,0,0,1,0,0,0,0,284,1,16,23,0,0,0,0,0
+redis,f76dff71ec,2026-07-15,cece842f,Remove single-use dictForEach macro (#15437),2,2,14,17,14,17,0,0,0,2,0,0,0,0,0,0,0,13,0,0,14,0,0,0,1,0
+redis,aa301bfd38,2026-07-14,b49d1049,Fix IO thread busy looping for repl clients (#15329),2,1,150,0,1,0,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,1,0,0,0
+redis,9e5614d837,2026-07-13,2b7e3fa1,Feed replicas mid command-stream under heavy write load (#15447),4,4,38,0,38,0,0,0,0,5,0,0,4,0,1,0,0,304,4,5,15,0,0,0,0,0
+redis,8897348030,2026-07-13,4e815f9c,Add RedisModuleEvent_ClusterTopologyChange server event (#15350),7,4,391,2,134,1,0,1,0,13,0,0,5,0,2,0,0,450,5,8,55,0,0,1,0,0
+redis,3071bf6d7d,2026-07-13,f8768eab,Fix unit mismatch that disabled the FAST expire cycle stale trigger (#15412),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,110,1,1,1,0,0,1,0,0
+redis,117681f6a6,2026-07-13,814a3526,Add total command argument count to SLOWLOG GET reply (#15347),5,2,27,5,4,1,0,0,0,2,0,0,1,0,0,0,0,59,1,2,4,0,0,0,0,0
+redis,7662d3ff5d,2026-07-13,5cbac04b,Fix server crash on VRANDMEMBER with LLONG_MIN count (#15392),2,1,41,0,6,0,1,0,0,1,0,0,1,0,0,0,0,91,1,4,5,0,0,0,0,0
+redis,c5ac971438,2026-07-10,f8ff6f8f,Fix signed overflow in BITFIELD #offset parsing (#15433),2,1,18,3,9,3,1,0,0,1,0,0,0,0,0,0,0,26,0,0,9,1,0,0,0,0
+redis,c0c886a8cf,2026-07-10,2cd09e3c,Skip unready fds in select event backend (#15446),1,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,26,1,1,1,0,0,0,0,0
+redis,81ac97cbed,2026-07-10,02a2c209,redis-cli: add configurable latency percentiles to --latency modes (#15352),2,1,162,17,120,17,0,0,0,5,1,0,4,0,0,0,0,431,5,93,98,0,0,0,0,0
+redis,b48e4abe40,2026-07-09,b49d1049,Add LMOVEM/BLMOVEM commands (#15405),10,5,1101,24,369,23,0,0,0,13,6,0,3,0,7,0,0,155,6,26,209,0,0,0,0,0
+redis,42bd63b3c1,2026-07-09,02a2c209,Optimize wide HSET/HMSET on a fresh hash with a single batched listpack append (#15345),2,1,180,3,67,3,0,0,0,1,1,0,0,0,1,0,0,40,1,7,36,0,0,0,0,0
+redis,3869512c92,2026-07-08,6f2f4eb8,Fix ACL key-name leak in BCAST client-side caching invalidations (#15371),7,6,371,74,218,74,1,0,0,12,0,0,2,0,5,0,0,138,4,5,127,0,0,0,0,0
+redis,6bf6224c3d,2026-07-07,4e815f9c,"Revert ""Add FORK_CHILD_PRE/CANCELLED subevents for pre-fork module coordination (#15327)"" (#15432)",7,5,10,125,9,53,0,0,0,3,0,1,0,2,0,0,0,721,3,7,8,0,0,1,0,0
+redis,57a00274b3,2026-07-07,1716f4b8,Fix crash on CONFIG SET of TLS options in non-TLS builds (#15409),2,1,29,7,19,7,1,0,0,2,0,0,0,0,0,0,0,23,0,0,13,0,0,0,0,0
+redis,8fa70c9877,2026-07-06,2b7e3fa1,Optimize lpSeek() by validating entries only when necessary (#15376),2,2,110,24,110,24,0,0,0,3,0,1,1,0,3,0,0,1029,2,38,79,0,0,0,0,0
+redis,5037e19c61,2026-07-06,2b7e3fa1,Improve RESTORE REPLACE performance for new keys (#15397),2,2,19,9,19,9,0,0,0,1,0,0,1,0,0,0,0,123,1,8,8,0,0,0,0,0
+redis,95f42acde0,2026-07-03,1716f4b8,Fix LSET out-of-range 64-bit index truncation (#15407),2,1,11,1,1,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+redis,5b22a09918,2026-07-02,2cd09e3c,Reject duplicate CONFIG SET aliases (#15322),2,1,12,1,11,1,0,0,0,1,0,0,0,0,2,0,0,109,1,1,9,0,0,0,0,1
+redis,2c9c04c1f8,2026-07-02,33656a70,Fix SET mutually exclusive NX/XX and IF* options (#15291),2,1,32,2,2,2,1,0,0,1,0,0,0,0,0,0,0,117,1,2,2,0,0,0,0,0
+redis,ec26d01fba,2026-07-01,2cd09e3c,Fix overflowing memory unit conversions (#15390),2,1,6,0,2,0,1,0,0,1,0,0,1,0,0,0,0,48,1,1,1,1,0,0,0,0
+redis,47b39347b5,2026-07-01,bdfdc9a6,Support atomic slot migration in redis-cli (#15338),2,1,357,30,314,30,0,0,0,6,2,0,4,0,6,0,0,404,4,77,244,0,1,0,0,0
+redis,0e618fafdf,2026-06-30,5cbac04b,Fix NULL deref in usUntilEarliestTimer when all time events are deleted (#15391),1,1,5,0,5,0,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+redis,f5e8137e1e,2026-06-29,2b7e3fa1,Cancel ASM tasks on RM_ResetDataset and RM_RdbLoad (#15377),3,1,72,4,12,4,0,0,0,2,0,0,0,0,0,0,0,28,0,0,3,0,0,0,0,0
+redis,d28dd44c49,2026-06-29,e3fd6f22,Switch from the archived `redis-docs` to the new `doc` repo (#15383),3,1,5,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,fe5d218646,2026-06-29,2b7e3fa1,Fix TSAN warning in hashTypeLength (#15382),1,1,5,2,5,2,1,0,0,1,1,0,0,0,0,0,0,27,1,1,1,0,0,0,0,0
+redis,477aaf79c5,2026-06-29,31e3708b,Add MIGRATE_MODULE_PROPAGATE_END event to propagate commands at the end of ASM (#15373),6,4,184,41,98,27,0,0,0,4,1,1,0,0,2,1,0,32,0,0,47,0,0,1,0,0
+redis,08b465e4f4,2026-06-26,0c6c1df7,Add MAXCOUNT and MAXSIZE options to XREAD and XREADGROUP (#15282),7,2,385,24,160,18,0,0,0,7,0,0,7,0,1,0,0,325,7,98,121,0,0,0,0,0
+redis,e4b81f6df2,2026-06-24,6f2f4eb8,Implement sdiffcard command (#15278),7,3,297,2,72,2,0,0,0,1,0,0,1,0,2,0,0,205,1,24,56,0,0,0,0,0
+redis,62d787a033,2026-06-24,2cd09e3c,Fix module numeric config crash on missing config (#15357),2,1,3,0,1,0,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,1,0,0
+redis,1d226e24e2,2026-06-24,6f2f4eb8,Fix NULL deref in ACL LOAD with internal (user-less) connections (#15356),2,1,36,2,5,2,1,0,0,1,0,0,0,0,0,0,0,137,1,1,1,0,0,0,0,0
+redis,4e59b8c00e,2026-06-23,2cd09e3c,Use the path argument instead of server.configfile in rewriteConfig() (#15362),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+redis,d397d25179,2026-06-23,cece842f,rax: leaf-inlining for fixed-length-key rax trees (#15256),10,10,909,136,909,136,1,0,0,35,0,0,8,0,11,1,0,320,16,404,588,0,0,0,0,0
+redis,d2d3390d0c,2026-06-22,1716f4b8,Trim excess SDS allocation in inline command parsing (#15259),1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,53,1,1,1,0,0,0,0,0
+redis,7fb02029f5,2026-06-22,31e3708b,Fix mem_clients_normal accounting drift when discarding a cached master (#15309),2,1,39,3,6,3,1,0,0,1,0,0,1,0,0,0,0,113,1,1,1,0,0,0,0,0
+redis,44a6a9f5ef,2026-06-17,a21de45c,[RED-197766] - allow modules to register PostNotificationJobsPerKey (#15242),11,7,1039,17,274,17,0,0,0,13,0,0,9,0,5,0,0,405,9,32,145,0,0,1,0,0
+redis,750f6e762c,2026-06-17,4e815f9c,Add FORK_CHILD_PRE/CANCELLED subevents for pre-fork module coordination (#15327),7,5,125,10,53,9,0,0,0,3,1,0,2,0,0,0,0,725,3,29,33,0,0,1,0,0
+redis,884d6c6895,2026-06-16,133a0647,Add SCRIPT_RUNNER command flag (#15337),9,2,14,6,2,0,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+redis,dcc8b118a8,2026-06-16,ca9827e2,RED-200844: avoid recomputing allocator fragmentation twice per cron tick (#15330),5,4,107,1,86,1,0,0,0,4,0,0,2,0,4,0,0,721,2,8,48,0,0,0,0,0
+redis,f6ffa0003a,2026-06-12,6f2f4eb8,Implement sunioncard command (#14893),9,5,416,17,162,17,0,0,0,6,0,0,1,0,2,0,0,182,2,56,111,0,0,0,0,0
+redis,df63a65d4d,2026-06-09,0c6c1df7,Validate stream entries_added/entries_read on RDB/RESTORE load (#15308),3,2,45,1,17,1,0,0,0,2,0,0,2,0,0,0,0,1205,2,15,15,0,0,0,0,0
+redis,23b90e906f,2026-06-08,796e721a,Fix VADD CAS SETATTR attribute accounting (#15270),2,1,76,0,1,0,1,0,0,1,0,0,1,0,0,0,0,49,1,1,1,0,0,0,0,0
+redis,091ec01de3,2026-06-08,30adfaa1,Fix CROSSSLOT error in rebalance when --user is used without -a (#15262),2,1,72,2,2,2,1,0,0,1,0,0,0,0,0,0,0,81,1,2,2,0,0,0,0,0
+redis,4625b8942a,2026-06-05,09023400,Avoid zmalloc_size() in kvobjAllocSize() and approximate instead (#14704),1,1,16,2,16,2,0,0,0,1,0,0,1,0,0,0,0,30,1,7,7,0,0,0,0,0
+redis,37894faeea,2026-06-05,0c6c1df7,Reject cluster bus PING extensions with missing null terminator (#15263),3,1,142,23,38,2,0,0,0,2,0,0,1,0,0,0,0,448,1,37,38,0,0,0,0,0
+redis,bff152c7ac,2026-06-05,c4114b3f,Add LoongArch64 backtrace support (#15247),1,1,46,0,46,0,0,0,0,2,0,0,2,0,0,0,0,506,2,46,46,0,1,0,0,0
+redis,894a225ffa,2026-06-05,2cd09e3c,Fix GCC warnings by using const pointers for strchr/memchr results (#15108),4,4,16,16,16,16,1,0,0,16,0,0,0,0,0,0,0,66,1,1,16,0,0,0,0,0
+redis,1d6888b20d,2026-06-03,0c6c1df7,Validate stream listpack first entry on RDB/RESTORE load (#15295),2,1,22,6,8,6,0,0,0,1,0,0,1,0,0,0,0,1192,1,4,4,0,0,0,0,0
+redis,c0a83262a3,2026-06-03,4d0cbd36,Fix integer overflow in cluster bus PUBLISH and MODULE message length validation (#15187),3,1,144,6,17,6,1,0,0,1,0,0,1,0,0,0,0,412,1,17,17,1,0,1,0,0
+redis,2df35f9fb0,2026-06-02,cece842f,Avoid double-walk on find-then-insert via raxFindLink + raxInsertAt (#15252),5,5,232,54,232,54,0,0,0,11,2,1,1,0,3,1,0,113,2,51,134,0,0,0,0,0
+redis,1b3721eb22,2026-06-02,1aac6f92,Clarify RedisModule_GetClusterNodeInfo buffer sizes (#15268),1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+redis,09b5c95b98,2026-06-02,1f54b9a7,Fix AUTH failure on URIs with empty username in redis-cli (#15255),3,2,105,3,12,3,1,0,0,2,0,0,2,0,0,0,0,402,2,6,6,0,0,0,0,0
+redis,7f532eacdf,2026-06-01,1f54b9a7,"Fix garbled ""source node not found"" error in atomic slot migration (#15284)",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,123,1,1,1,0,1,0,0,0
+redis,8fcf3dc866,2026-06-01,2cd09e3c,Fix vector set tests to use RESP2 for default clients (#15287),1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+redis,65401042dc,2026-05-29,31e3708b,Offload length formatting in tryAvoidBulkStrCopyToReply() to IO thread (#14844),3,3,20,12,20,12,0,0,0,5,0,0,0,0,1,0,0,41,0,0,17,0,1,0,0,0
+redis,138263a1b4,2026-05-26,1716f4b8,Fix cache line false sharing on per-IO-thread stat counters (#14907),5,5,14,12,14,12,1,0,0,6,0,0,0,0,0,0,0,633,4,8,13,0,1,0,0,0
+redis,f023cf026b,2026-05-26,2cd09e3c,Adjust fastfloat tests for libc-dependent nan payload parsing (#15110),1,1,36,4,36,4,0,0,0,2,0,1,1,0,2,0,0,190,2,6,28,0,0,0,0,0
+redis,1587755a22,2026-05-25,15fe16c7,Add RM_GetClusterNodeSlotRanges module API (#14953),6,4,108,5,40,5,0,0,0,3,0,0,2,0,2,0,0,404,2,2,22,0,0,1,0,0
+redis,95040d61d5,2026-05-20,31e3708b,Replace INCREX out-of-bounds policy to a single SATURATE option (#15237),4,1,119,199,30,61,0,0,0,2,0,0,0,2,0,0,0,125,2,5,12,1,0,0,0,0
+redis,0d06e515af,2026-05-18,2b7e3fa1,Fix compile on some linux distros (#15225),3,2,5,5,4,4,1,0,0,2,0,0,1,0,0,0,0,51,1,1,4,0,0,0,0,0
+redis,b1a53ea21f,2026-05-15,b49d1049,Add error on enabling memory tracking in non-clustered mode (#15005),2,1,21,13,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+redis,2e46d2e735,2026-05-14,b49d1049,Hold GCRA out of the release (#15191),25,17,117,219,101,15,0,0,0,17,2,0,13,0,0,0,0,1191,15,30,91,0,0,0,0,0
+redis,54ea50c029,2026-05-14,db939c76,Fix cluster-announce-ip rejecting hostnames (#15188),2,1,37,18,21,11,1,0,0,2,0,1,0,0,1,0,0,15,1,7,14,0,0,0,0,0
+redis,c8f1ec959a,2026-05-14,0d1552e6,Limit VADD REDUCE dim to not exceed original dim,2,1,36,0,6,0,0,0,0,1,0,0,1,0,0,0,0,62,1,4,4,0,0,0,0,1
+redis,bc904dab04,2026-05-14,5a4ab899,Vector Sets: Limit sane max dim,2,1,155,19,26,19,0,0,0,2,0,0,2,0,0,0,0,134,2,19,20,0,0,0,0,0
+redis,22f1ab6e27,2026-05-14,8b6bc094,Fix cluster AUX-field newline/control-character injection bricks a node on restart,3,2,109,2,25,2,1,0,0,1,0,0,0,0,1,0,0,6,0,0,17,1,0,0,0,0
+redis,5c355b68ec,2026-05-14,31e3708b,Fix use-after-free when evicting blocked client during unblock (CVE-2026-23479),2,1,36,1,7,1,1,0,0,1,0,0,0,0,0,0,0,32,0,0,5,1,0,0,0,0
+redis,837ca7f8f4,2026-05-14,2b7e3fa1,Fix use-after-free when fullsync happens while replica is running a timed out script (CVE-2026-23631,2,1,82,0,5,0,1,0,0,1,0,0,1,0,0,0,0,303,1,1,1,1,0,0,0,0
+redis,8cdf9391da,2026-05-14,8b6bc094,Fix crash in Lua debugger when error object is not a string,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+redis,c4e3405704,2026-05-14,0c6c1df7,Invalid Memory Access in Redis RESTORE Command (CVE-2026-25243),6,4,155,9,59,9,1,0,0,4,0,0,2,1,0,0,0,1191,3,40,46,1,0,0,0,0
+redis,fab099cdcf,2026-05-14,f27ea1db,Fix double free when loading streams with duplicate consumer PEL entries (#15095),1,1,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,1191,1,0,0,1,0,0,0,1
+redis,0d9576435f,2026-05-14,ea7f6d8a,Implement the new Redis Array type (#15162),86,48,22258,39,14205,33,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+redis,3ab7fe0812,2026-05-13,02a2c209,fast_float_strtod: fix ±1 ULP rounding mismatch in widened fast path (#15111),1,1,478,50,478,50,1,0,0,2,1,0,1,1,6,0,0,187,2,60,342,0,0,0,0,0
+redis,5e155593d9,2026-05-13,0c6c1df7,Reject corrupt stream payloads with mismatched entry counts (#15124),3,2,75,2,20,2,1,0,0,2,0,0,2,0,0,0,0,1105,2,18,18,0,0,0,0,0
+redis,a38493a70e,2026-05-12,02a2c209,hyperloglog: 4-way histogram accumulators for hllRawRegHisto (#15049),1,1,64,35,64,35,0,0,0,2,1,0,0,0,0,0,0,53,1,20,35,0,0,0,0,0
+redis,b7d6ef6b5a,2026-05-12,b49d1049,Add slowlog entry truncation limits configs (#15182),6,4,139,8,9,8,0,0,0,1,0,0,0,0,0,0,0,35,0,0,8,0,0,0,0,0
+redis,cf27a1abe4,2026-05-12,cece842f,Fix vecClear() to invoke free method on elements (#15190),2,2,39,6,39,6,1,0,0,3,0,0,1,0,1,0,0,91,1,21,30,0,0,0,0,0
+redis,9c1ecd044e,2026-05-11,ab3d242d,Add INCREX command for atomic increment with TTL and bounds (#15045),6,3,1431,8,440,8,0,0,0,4,2,0,3,0,4,0,0,106,3,6,316,1,1,0,0,0
+redis,9302d27889,2026-05-11,1716f4b8,Fix MULTI queue memory accounting in multiStateMemOverhead (#15163),1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+redis,62551a7b12,2026-05-11,02a2c209,Batched MGET/MSET dict prefetch with dictType-driven payload hints (#15133),7,6,486,228,445,228,0,0,0,7,2,0,2,0,15,10,0,46,4,59,250,0,0,0,0,0
+redis,74cfe81543,2026-05-11,f27ea1db,Fix off-by-one in listpack backlen encoding (#15151),1,1,32,6,32,6,1,0,0,3,0,0,1,0,0,0,0,999,1,22,28,0,0,0,0,0
+redis,bf432c98fd,2026-05-10,75814e65,Fix incorrect memmove size in LDB breakpoint deletion (#15115),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,1,0
+redis,7bdab45ff1,2026-05-09,2b7e3fa1,Reduce memory allocation overhead (#15096),11,8,144,26,128,21,0,0,0,10,0,0,2,0,3,0,0,256,3,7,74,0,0,0,0,1
+redis,7cf63635f0,2026-05-08,2b7e3fa1,Pass size hint to jemalloc for faster deallocation (#15071),7,5,39,10,35,8,0,0,0,1,0,0,0,0,1,1,0,8,0,0,18,0,0,0,0,0
+redis,7ecc04f59d,2026-05-06,f75c26a6,Fix memory leak on malformed legacy help entry in redis-cli (#15150),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+redis,05859cdd7e,2026-05-06,31e3708b,Fix client output buffer memory tracking not accounting for copy-avoided bulk string references (#14,18,10,282,70,180,36,1,0,0,24,0,0,6,0,6,1,0,633,9,29,120,0,0,0,0,0
+redis,3e1afec688,2026-05-05,6f2f4eb8,Fix Sentinel config injection via SENTINEL SET (#14970),2,1,393,27,81,27,1,0,0,4,0,0,4,0,2,0,0,302,4,53,65,1,0,0,0,0
+redis,0bbb196c46,2026-04-29,f27ea1db,Fix sharded pubsub unsubscribe lookup using cached command slot (#15094),2,1,31,1,4,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+redis,48eaa75257,2026-04-29,02a2c209,Add batched prefetch for HGETALL on hashtable encoding (#14988),1,1,69,0,69,0,0,0,0,1,0,0,1,0,0,0,0,87,1,51,51,0,0,0,0,0
+redis,247307de96,2026-04-28,f27ea1db,Pass context to RM_GetUserUsername() to support auto memory management (#15042),3,2,5,5,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+redis,5a05863e97,2026-04-28,cece842f,t_string: rewrite SET GET propagation in place (#15114),3,1,20,11,5,10,0,0,0,1,0,0,0,1,0,0,0,105,1,5,5,0,0,0,0,0
+redis,625b6f58f6,2026-04-28,891fd807,tracking: fix self-overlap returning non-zero loop index (#15073),2,1,13,1,1,1,1,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+redis,77628f370a,2026-04-27,02a2c209,perf+security: drop SCAN vector pre-allocation; rely on grow-by-doubling (#15118),1,1,0,4,0,4,0,0,0,1,0,0,0,1,0,0,0,213,1,0,0,1,0,0,0,0
+redis,7a80aade96,2026-04-27,02a2c209,perf: replace list with vec in scanGenericCommand key collection (#15065),3,3,70,31,70,31,0,0,0,5,0,0,2,0,4,0,0,215,3,34,53,0,0,0,0,0
+redis,c61099eaa0,2026-04-27,0c6c1df7,Replace recursive rax tree freeing with iterative traversal (#15103),1,1,36,36,36,36,0,0,0,2,0,0,0,0,1,2,0,9,0,0,31,1,0,0,0,0
+redis,47c51369ee,2026-04-23,0c6c1df7,Reject corrupt stream RDB with shared NACK across consumers (#15081),2,1,24,0,8,0,1,0,0,1,0,0,1,0,0,0,0,1093,1,5,5,0,0,0,0,0
+redis,fafc47251a,2026-04-23,2cd09e3c,Fix signed integer overflow in scan count parameter (#14982),2,1,16,1,1,1,1,0,0,1,0,0,1,0,0,0,0,214,1,1,1,1,0,0,0,0
+redis,303667a40c,2026-04-23,b7cfc2df,Fix use-after-free in RM_RegisterClusterMessageReceiver() (#15059),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,29,0,0,1,1,0,0,0,0
+redis,63f02e7876,2026-04-22,0c6c1df7,Fix double ERR prefix in XNACK error replies (#15091),2,1,30,30,5,5,1,0,0,1,0,0,0,0,0,0,0,112,1,5,5,0,0,0,0,0
+redis,0fa78fd8fd,2026-04-20,02a2c209,perf: widen fast_float_strtod fast path to 17-19 digit mantissas (#15061),2,1,120,12,88,12,0,0,0,2,0,0,2,0,0,0,0,137,2,46,46,0,0,0,0,0
+redis,8677971360,2026-04-17,08617360,Remove unnecessary `-ERR` and `\r\n` for addReplyErrorFormat in extractLongLatOrReply() (#14995),2,1,9,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,1,0
+redis,15cb40dac2,2026-04-17,2cd09e3c,Fix command-docs and corrupt-dump-fuzzer of OBJ_GCRA type (#15055),5,1,23,2,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,4757561861,2026-04-17,bdfdc9a6,Subkey notification for hash fields (#14958),15,11,1256,127,596,126,0,0,0,29,5,0,12,0,10,2,0,403,17,193,414,0,0,0,0,0
+redis,ca6e471a3f,2026-04-16,31e3708b,Fix decrRefCount on NULL robj on corrupt KEY_META payload (#15034),5,4,35,9,26,9,1,0,0,5,0,0,1,0,0,0,0,1088,4,19,21,0,0,0,0,0
+redis,fa6d4c3d63,2026-04-16,cece842f,Fix SIGABRT in HSETEX when a field appears twice in the FIELDS list (#14956),2,1,18,4,0,4,1,0,0,2,0,0,0,1,0,0,0,99,1,0,0,0,0,0,0,0
+redis,eb74450fca,2026-04-16,2b7e3fa1,Log node address when ASM starts (#15056),1,1,17,3,17,3,0,0,0,1,0,0,0,0,1,0,0,36,0,0,14,0,0,0,0,0
+redis,3bcfbbe92a,2026-04-15,b49d1049,Add new OBJ_GCRA type (#14905),22,17,450,80,222,29,0,0,0,17,2,0,11,1,10,0,0,1088,14,43,163,0,0,0,0,0
+redis,b89bc044a3,2026-04-15,2b7e3fa1,Reduce overhead in command propagation (#15003),2,2,173,131,173,131,0,0,0,2,0,1,1,0,6,1,0,48,2,18,125,0,0,0,0,1
+redis,2f1a8b2bad,2026-04-15,bdfdc9a6,Dismiss dict bucket arrays in fork child to reduce CoW (#14979),6,5,110,22,56,15,0,0,0,7,0,0,3,0,2,0,0,74,3,20,40,0,0,0,0,1
+redis,670993a89d,2026-04-15,ea7f6d8a,Replace fast_float C++ library with pure C implementation (#14661),19,11,600,3995,573,3913,0,0,0,6,4,1,1,1,13,88,0,714,4,9,401,0,0,0,0,0
+redis,3f810d35bf,2026-04-14,cece842f,Introduce internal append-only pointer vector DS (#15039),4,3,268,1,267,0,0,0,0,0,1,0,0,0,9,0,0,0,0,0,140,0,0,0,0,0
+redis,2049c7fe32,2026-04-14,31e3708b,Fix wrong argv index in xinfoReplyWithStreamInfo for slot alloc size tracking (#15037),2,1,4,4,3,3,1,0,0,2,0,0,0,0,0,0,0,178,2,3,3,0,0,0,0,0
+redis,80f1ebda88,2026-04-14,0c6c1df7,"Add AGGREGATE COUNT option to ZUNION, ZINTER, ZUNIONSTORE, and ZINTERSTORE (#14892)",7,1,145,16,20,4,0,0,0,2,0,0,1,0,1,0,0,242,1,6,12,0,0,0,0,0
+redis,e1d35aca01,2026-04-13,cece842f,Fix HEXPIRE numfields overflow (#15021),2,1,8,2,3,2,1,0,0,1,0,0,0,0,0,0,0,61,1,2,2,1,0,0,0,0
+redis,0d85627bf0,2026-04-10,f27ea1db,Use no_value dict type for stream_idmp_keys to explicitly mark it as a key-only set (#14987),6,6,20,6,20,6,0,0,0,5,0,0,0,0,0,0,0,197,1,1,17,0,0,0,0,0
+redis,0be39e5032,2026-04-08,0c6c1df7,Fix missing consumer propagation on empty XREADGROUP (#14963),2,1,91,9,18,9,1,0,0,1,0,0,1,0,0,0,0,287,1,6,6,0,0,0,0,0
+redis,c77d60d6b8,2026-04-08,50907870,fix trivial double-free issue in rdbLoadObject (#15011),1,1,5,3,5,3,1,0,0,1,0,0,1,0,0,0,0,1081,1,3,3,1,0,0,0,0
+redis,747dfe578e,2026-04-07,0c6c1df7,Add XNACK command for releasing stream messages back to the group (#14797),14,9,2083,135,532,132,0,0,0,23,2,0,13,0,8,0,0,1081,14,154,396,0,0,0,0,0
+redis,153b79a290,2026-04-07,cece842f,keymeta: add DEBUG flag for runtime keymeta class registration (#14968),6,4,27,9,18,5,0,0,0,3,0,0,2,0,0,0,0,714,2,8,13,0,0,0,0,0
+redis,d22c68f904,2026-04-07,cece842f,Partial support set keymeta on ksn (#15004),8,6,235,67,79,49,0,0,0,15,0,0,8,3,0,0,0,120,11,39,49,0,0,0,0,0
+redis,fe3ae0ccac,2026-04-03,f9ba3986,Fix memory leak in `clusterManagerFixSlotsCoverage()` in `src/redis-cli.c` (#14863),1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,176,1,2,2,0,0,0,0,0
+redis,5aa6440cbc,2026-04-03,bdfdc9a6,Disable memory tracking in child processes (#14928),1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,48,0,0,1,0,0,0,0,0
+redis,8d2b548f84,2026-04-03,0c6c1df7,Fix IDMP tracking not cleared when resetting stream IDMP config (#14955),1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,70,1,1,1,0,0,0,0,0
+redis,c5287c0b0d,2026-04-03,f81807e4,Fix memory leak in helloacl module test (#14974),1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,1,0,0
+redis,8f3b6990dd,2026-03-31,cece842f,keymeta: rename void *value to void *reserved in rdb_save/aof_rewrite callbacks (#14964),4,3,28,28,8,8,0,0,0,2,0,0,0,0,0,0,0,57,1,1,8,0,0,0,0,0
+redis,ef536f48fd,2026-03-31,b49d1049,GCRA param renaming (#14950),4,1,31,31,16,16,0,0,0,1,0,0,0,0,0,0,0,114,1,12,12,0,0,0,0,0
+redis,b22ce4abb5,2026-03-31,31e3708b,Fix sds unit test and improve unittest output formatting (#14927),3,3,50,23,50,23,1,0,0,2,0,0,2,0,0,0,0,255,2,36,45,0,0,0,0,0
+redis,5f5ddfd1a1,2026-03-30,3cc923db,Fix COMMAND GETKEYS for PFMERGE with no source keys (#14942),5,2,37,1,24,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+redis,f2adcdedbc,2026-03-30,65fc9c4f,Fix memory leak in lpBatchInsert() (#14866),1,1,8,2,8,2,1,0,0,1,0,0,1,0,0,0,0,77,1,8,8,0,0,0,0,0
+redis,3dc246cd53,2026-03-29,361ad992,fixes around recent keyModified changes (#14925),3,3,6,6,6,6,1,0,0,5,0,0,0,0,0,0,0,707,4,4,5,0,0,0,0,0
+redis,2ba0194fbe,2026-03-27,d54897a0,Fix memory leak in ZDIFF algorithm 2 on early exit (#14932),2,1,16,1,4,1,1,0,0,1,0,0,0,0,0,0,0,36,0,0,4,0,0,0,0,0
+redis,8e89e0b89f,2026-03-27,10259c5d,Fix VSIM FILTER memory leaks on duplicate option and error paths (#14898),3,1,57,0,6,0,1,0,0,1,0,0,1,0,0,0,0,188,1,6,6,0,0,0,0,1
+redis,ef741a95a2,2026-03-26,361ad992,fix handleExpiredIdmpEntries to mark keys as modified (#14933),5,5,41,32,41,32,1,0,0,8,0,0,1,5,2,0,0,299,7,16,36,0,0,0,0,0
+redis,40c140bf16,2026-03-26,2cd09e3c,Fix heap-use-after-free in restoreCommand when module sets key metadata during notification (#14929),2,2,10,4,10,4,1,0,0,1,0,0,1,0,0,0,0,124,1,4,4,1,0,1,0,0
+redis,78e21daafe,2026-03-25,a21de45c,HSETNX notify after accessing KV (#14918),4,1,372,1,1,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+redis,1f062ee4a9,2026-03-25,2cd09e3c,Test fix ASM test failures under DEBUG_ASSERT_KEYSPACE builds (#14913),1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+redis,1abd489d07,2026-03-24,2373ac17,Skip memory prefetch during loading to avoid crash in dictEmpty callback (#14848),2,1,46,1,6,1,1,0,0,2,0,0,1,0,0,0,0,32,1,1,2,0,0,0,0,0
+redis,63d841c3ae,2026-03-23,0c6c1df7,Optimize rax insert and lookup for sequential key patterns (#14885),1,1,33,14,33,14,0,0,0,2,1,0,1,0,0,0,0,50,2,23,23,0,0,0,0,0
+redis,0f5190f103,2026-03-22,b49d1049,Add global and per-command stats for slowlog metrics (#14896),6,4,168,18,54,16,0,0,0,6,0,0,2,0,0,0,0,631,2,7,51,0,0,0,0,0
+redis,f4d176b3b7,2026-03-22,cece842f,"KEYSIZES/ASM: simplify histograms, fix background trim, and refactor debug assertions (#14877)",20,16,433,205,384,190,1,0,0,67,0,0,3,8,12,3,0,707,41,68,239,0,0,0,0,1
+redis,9accf8bd24,2026-03-20,efe15b46,Refine error message for HSETEX command with PERSIST (#14880),2,1,14,11,4,11,0,0,0,1,0,0,0,1,0,0,0,115,1,4,4,0,0,0,0,0
+redis,462e603a1f,2026-03-19,0c6c1df7,Fix stream_idmp_keys missing from database lifecycle ops (#14897),7,6,569,10,118,10,1,0,0,17,0,0,6,1,1,0,0,127,7,57,93,0,0,1,0,0
+redis,1b615c774d,2026-03-19,efe15b46,Fix FIELDS argument validation in HSETEX/HGETEX (#14883),2,1,24,0,18,0,1,0,0,2,0,0,2,0,0,0,0,120,2,12,12,0,0,0,0,0
+redis,8a6ae0e4dd,2026-03-19,a29708ec,"Refactor asmTask: remove source_node, use clusterLookupNode (#14766)",1,1,13,14,13,14,0,0,0,6,0,0,1,1,0,0,0,123,2,12,13,0,0,0,1,1
+redis,c4d74587b5,2026-03-19,10259c5d,Fix ACL OOB for wrong-arity KEYNUM commands (#14847),5,3,33,2,16,2,1,0,0,4,0,0,2,0,0,0,0,88,2,7,14,0,0,0,0,0
+redis,4ecc07fcff,2026-03-18,1716f4b8,Fix divide-by-zero in redis-benchmark and redis-cli (#14371),4,2,47,4,24,4,1,0,0,3,1,0,1,0,0,0,0,100,2,19,23,0,0,0,0,0
+redis,31a4356ac0,2026-03-18,b49d1049,GCRA Rate Limiter (#14826),6,2,630,1,242,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,117,0,0,0,0,0
+redis,44157ee35e,2026-03-17,cea5d408,Add RM_GetContextUser and RM_GetUserUserName module APIs (#14890),4,2,83,0,24,0,0,0,0,2,0,0,2,0,2,0,0,400,2,4,14,0,0,1,0,0
+redis,220a577d3c,2026-03-17,bdfdc9a6,Use flush db if sflush all owned slots (#14887),4,3,67,17,26,10,0,0,0,4,0,0,1,0,0,0,0,69,1,9,15,0,0,0,0,0
+redis,7e866b47e3,2026-03-16,f6616424,Fix safety check in lpSafeToAdd size_t Addition Overflow Bypass (#14888),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,1,0,0,0,0
+redis,8b9fd4b752,2026-03-16,0c6c1df7,Filter expired IDMP entries during RDB save and load (#14862),1,1,52,8,52,8,0,0,0,2,0,0,2,0,0,0,0,80,2,32,32,0,0,0,0,0
+redis,4f0d3118e1,2026-03-16,10259c5d,Fix listpack memory leak in zipmap-to-hash conversion on error path (#14878),2,1,25,0,1,0,1,0,0,1,0,0,1,0,0,0,0,1049,1,1,1,0,0,0,0,0
+redis,a441d3db44,2026-03-15,223e1609,Fix rss_extra_bytes type from size_t to ssize_t in redisMemOverhead (#14793),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,ee376cdc3c,2026-03-13,0c6c1df7,Fix IDMP cron expiration not working after RDB load (#14869),2,1,46,0,10,0,1,0,0,1,0,0,1,0,0,0,0,305,1,8,8,0,0,0,0,0
+redis,708bfd5de5,2026-03-12,bdfdc9a6,No checksum performed on diskless replication (#14851),3,3,45,18,45,18,0,0,0,7,0,0,5,0,0,0,0,302,5,25,30,0,0,0,0,0
+redis,3f588a31af,2026-03-11,1ca50829,Optimize BITOP operations with AVX512 (#14770),3,2,218,32,193,32,0,0,0,3,1,0,1,1,1,0,0,289,2,19,153,0,0,0,0,0
+redis,fb5230dd3c,2026-03-11,fc850a80,RED-188967: Port active clients stats to OSS (#14841),6,4,349,6,148,2,0,0,0,9,0,0,9,0,2,0,0,628,9,47,95,0,0,0,0,0
+redis,753c9f616f,2026-03-10,1716f4b8,Fix X509 memory leak in connTLSGetPeerCert (#14855),1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+redis,20f163eb3d,2026-03-09,361ad992,"XADD, update keyModified and dirty counter when increasing iids_duplicates (#14858)",1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,100,1,2,2,0,0,0,0,1
+redis,fe16003e66,2026-03-05,1716f4b8,Fix potential sds buffer leak in RM_SaveDataTypeToString (#14831),1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+redis,8a65b65d63,2026-03-03,cece842f,Fix setModuleEnumConfig() to pass unprefixed name to callbacks (#14816),2,1,55,27,2,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,1,0,0
+redis,3de7fa257f,2026-02-28,31e3708b,Don't use reply copy avoidance for module to prevent potential UAF (#14824),3,3,14,4,14,4,0,0,0,2,0,0,0,0,1,0,0,6,0,0,7,0,0,1,0,0
+redis,33319b80a7,2026-02-27,2cd09e3c,Fix compilation warning: Use macro for seq_buffer_max_length (#14815),1,1,4,4,4,4,1,0,0,1,0,0,0,1,0,0,0,207,1,2,3,0,0,0,0,0
+redis,50f1469961,2026-02-26,2cd09e3c,Fix memory leak in trackingRememberKeys() for PUBSUB commands (#14817),1,1,7,6,7,6,1,0,0,1,0,0,0,0,0,0,0,33,0,0,3,0,0,0,0,0
+redis,dd81afa2c8,2026-02-25,bdfdc9a6,Do not add a key into db if it has a past expiration time (#14784),4,2,82,1,26,0,0,0,0,2,0,0,2,0,0,0,0,116,2,16,16,0,0,0,0,0
+redis,c6f190a7ab,2026-02-25,2b7e3fa1,Improve error log for ASM slot handoff failure (#14791),3,2,87,36,81,32,0,0,0,4,0,1,1,0,0,0,0,55,2,7,11,0,0,0,0,0
+redis,280dab0b8a,2026-02-25,2cd09e3c,Fix implicit conversion warning in timeout.c for newer Clang versions (#14811),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+redis,1f7bcecc94,2026-02-24,0c6c1df7,Add XIDMPRECORD command and AOFRW emission to restore stream IDMP state (#14794),7,4,366,10,129,10,0,0,0,1,1,0,1,0,3,0,0,142,1,36,100,0,0,0,0,0
+redis,53e4631e79,2026-02-24,223e1609,Initialize strOldSize in bitfieldGeneric to avoid undefined behavior (#14790),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,182,1,1,1,0,0,0,0,0
+redis,c7c278c6c1,2026-02-24,c07a24e5,Allow comments in ACL files (#14461),2,1,28,8,8,8,0,0,0,1,0,0,1,0,0,0,0,137,1,1,1,0,0,0,0,0
+redis,6ec7b16cc1,2026-02-23,b49d1049,Add HOTKEYS HELP subcommand and fix hotkeys INFO section (#14785),6,2,88,8,36,8,1,0,0,2,0,0,2,0,0,0,0,616,2,36,36,0,0,0,0,0
+redis,6ef4b00925,2026-02-18,cece842f,Add DEBUG_ASSERT_KEYSPACE build flag and daily CI test (#14795),4,3,63,3,21,2,0,0,0,4,0,0,2,0,0,0,0,112,2,9,13,0,0,0,0,0
+redis,ee64353a7b,2026-02-15,8850a897,redis-cli --keystats percentile update and all key names between double quotes (#14703),1,1,3,9,3,9,0,0,0,2,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+redis,07c5e5640b,2026-02-14,0093959f,"redis-cli: Add word-jump navigation (Alt/Option + ←/→, Ctrl + ←/→) (#14331)",1,1,81,8,81,8,0,0,0,1,0,0,1,0,3,0,0,208,1,30,46,0,0,0,0,0
+redis,7842df622f,2026-02-14,1716f4b8,Clarify RM_BlockClientOnKeys thread safety in documentation (#14693),1,1,5,4,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+redis,099203cb2a,2026-02-14,bdfdc9a6,Fix DB hash tables not expanding during RDB load (#14789),3,2,23,3,6,3,1,0,0,2,0,0,1,0,0,0,0,297,1,2,5,0,0,0,0,0
+redis,95314a93e5,2026-02-14,1716f4b8,Fix missing getKeysFreeResult() in cross-slot error path (#14774),1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,157,1,1,1,0,0,0,0,0
+redis,98328ae2ec,2026-02-14,1ca50829,Pause dict auto-resize during multi-field deletion (#14783),4,3,29,1,21,0,0,0,0,3,0,0,3,0,0,0,0,46,3,18,18,0,0,0,0,0
+redis,a9838e6a4b,2026-02-13,2cd09e3c,Fix minor inconsistency in connFormatAddr size argument (#14731),1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,50,0,0,2,0,0,0,0,0
+redis,3cc7e9956f,2026-02-12,09023400,Don't call kvobjAllocSize() in t_stream.c if memory tracking is not enabled (#14786),3,3,32,24,32,24,0,0,0,17,1,0,12,0,0,0,0,286,13,28,32,0,0,0,0,0
+redis,8e8483aac4,2026-02-12,09023400,Use rax memory accounting for RedisModuleDict (#14779),1,1,8,7,8,7,0,0,0,3,0,0,1,0,0,0,0,44,1,1,7,0,0,1,0,0
+redis,e8887dc44c,2026-02-12,bdfdc9a6,Support SFLUSH to flush slots partially (#14750),9,8,334,105,218,95,0,0,0,23,0,0,6,0,4,2,0,256,8,41,141,0,0,0,0,0
+redis,9601c31125,2026-02-12,209a5b30,Fix integer underflow in `used_memory_dataset` calculation (#14771),1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,103,1,1,1,0,0,0,0,0
+redis,ded623d8ea,2026-02-12,62627ae9,Use kqueue as the backend of AE on DragonFlyBSD (#14555),1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,21b0f4ed4e,2026-02-12,62627ae9,Enable pipe2() on *BSD (#14556),2,2,10,1,10,1,0,0,0,1,0,0,0,0,0,0,0,35,1,1,8,0,0,0,0,0
+redis,23e58f5107,2026-02-11,bdfdc9a6,Optimize prefetching commands (#14754),2,2,41,20,41,20,0,0,0,6,0,0,2,0,0,0,0,32,2,25,32,0,0,0,0,0
+redis,8387f9e164,2026-02-11,0c6c1df7,Refactor idmp defrag (#14730),3,3,13,31,13,31,0,0,0,3,0,0,0,0,1,1,0,62,1,1,12,0,0,0,0,1
+redis,bf6a5688ad,2026-02-10,b49d1049,Fix hotkeys result key name (#14780),3,1,6,6,2,2,1,0,0,1,0,0,0,0,0,0,0,298,1,1,1,0,0,0,0,0
+redis,b5a37c0e42,2026-02-03,b49d1049,Add cmd tips for HOTKEYS. Return err when hotkeys START specifies invalid slots (#14761),8,2,374,164,94,43,0,0,0,5,0,1,1,0,3,0,0,298,2,30,61,0,0,0,0,0
+redis,02700f11cd,2026-02-02,7a3c37d7,RDB Channel connections mistakenly discovered by Sentinel (#14728) (#14729),1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,41,0,0,4,0,0,0,0,0
+redis,bafaec5b6a,2026-02-02,09023400,Fix HOTKEYS to track each command in a MULTI/EXEC block (#14756),3,2,65,6,9,6,1,0,0,2,0,0,2,0,0,0,0,138,2,3,3,0,0,0,0,0
+redis,bf6287d087,2026-01-29,19759e5e,Redact user input in selected logs. (#14748),5,5,12,8,12,8,0,0,0,9,0,0,2,0,0,0,0,701,6,9,12,0,0,0,0,0
+redis,0024d5dfde,2026-01-29,1ca50829,Vectorize binary quantization path for vectorsets distance calculation (#14492),3,1,168,16,113,15,0,0,0,1,0,0,0,0,2,0,0,9,0,0,76,0,0,0,0,0
+redis,591fc90263,2026-01-29,b49d1049,Change reply schema for hotkeys get to use map instead of flat array (#14749),3,1,141,33,10,10,0,0,0,1,0,0,0,0,0,0,0,291,1,10,10,0,0,0,0,0
+redis,319153fe46,2026-01-28,02a2c209,[Vector sets] Replace manual popcount with __builtin_popcountll for binary vector distance (#13962),1,1,72,17,72,17,0,0,0,1,0,0,0,0,4,1,0,3,0,0,57,0,0,0,0,0
+redis,cecdc99873,2026-01-27,0c6c1df7,Optimize Redis XREADGROUP CLAIM (#14726),4,4,240,199,240,199,0,0,0,18,0,0,0,5,4,5,0,1048,9,60,161,0,0,0,0,0
+redis,37f685908e,2026-01-27,1ca50829,Vectorized the quantized 8-bit vector distance calculation (#14474),3,1,305,2,149,2,0,0,0,1,1,0,0,0,2,0,0,31,1,10,91,0,0,0,0,0
+redis,48aa1ce524,2026-01-26,bdfdc9a6,Avoid allocating and releasing list node in reply copy avoidance (#14739),2,2,15,8,15,8,0,0,0,3,0,0,0,0,1,0,0,128,1,1,11,0,0,0,0,0
+redis,b209e8afde,2026-01-26,b49d1049,Fix hotkey info metric names. Disable HOTKEY SLOTS param for non-cluster (#14742),4,2,222,144,17,13,1,0,0,1,0,0,1,0,0,0,0,291,1,11,11,0,0,0,0,0
+redis,a765ee8238,2026-01-26,8b6bc094,Add security configuration warnings at startup (#14708),2,1,60,0,33,0,0,0,0,1,1,0,1,0,1,0,0,246,1,1,28,1,0,0,0,0
+redis,6e2cbd51c3,2026-01-25,bdfdc9a6,Fix deferring free object that refcount is more than 1 (#14738),1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,92,1,1,1,0,0,0,0,0
+redis,18538461d1,2026-01-22,31e3708b,Add separate statistics for active expiration of keys and hash fields (#14727),6,4,100,8,18,8,0,0,0,7,1,0,2,0,1,1,0,614,3,6,18,0,0,0,0,0
+redis,3ff37ea815,2026-01-22,02a2c209,Reduce per command syscalls by reusing cached time when HW monotic clock is available (#14713),2,2,30,6,30,6,0,0,0,2,0,0,2,0,0,0,0,197,2,20,22,0,0,0,0,1
+redis,5dec7d3675,2026-01-22,09023400,Add key allocation sizes histogram (#14695),21,19,1000,539,616,539,0,0,0,109,1,1,11,9,3,1,0,612,71,366,579,0,0,0,0,0
+redis,262ed50201,2026-01-22,e1fdf92e,fix: two typos (#14655),1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,c4baa64ea8,2026-01-21,209a5b30,Optimize peak memory stats by switching from per-command checks to threshold-based (#14692),7,6,89,18,88,17,0,0,0,9,0,0,0,1,2,0,0,627,3,2,62,0,0,0,0,0
+redis,e3c38aab66,2026-01-21,b49d1049,Handle primary/replica clients in IO threads (#14335),19,6,886,86,440,64,0,0,0,27,5,0,10,2,6,0,0,627,16,109,263,0,1,0,0,0
+redis,b9c00b27f8,2026-01-21,09023400,Make cluster-slot-stats-enabled config multivalued (#14719),7,5,138,34,60,26,0,0,0,9,1,0,1,0,1,0,0,195,4,19,48,0,0,0,0,0
+redis,5656e99c7c,2026-01-21,3b67c7a8,Modify the condition for adding CLIENT_IO_CLOSE_ASAP flag (#14709),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+redis,25f780b662,2026-01-21,8b6bc094,Fix crash when calling internal container command without arguments (#14690),6,1,31,12,17,9,1,0,0,1,0,0,0,0,0,0,0,30,0,0,10,0,0,0,0,0
+redis,5c5c7c5a2c,2026-01-21,bdfdc9a6,Quick user ACL permission verification (#14714),1,1,9,0,9,0,0,0,0,1,0,0,1,0,0,0,0,38,1,7,7,0,0,0,0,0
+redis,818046d031,2026-01-21,09023400,Avoid memory allocation on quicklist iteration (#14720),4,4,228,234,228,234,0,0,0,13,1,1,1,1,5,5,0,1281,3,169,217,0,0,0,0,0
+redis,e8240017fd,2026-01-20,bdfdc9a6,Fix prefetch size (#14715),2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+redis,1ab0cd228f,2026-01-20,b49d1049,Add hotkeys memory to memory-overhead and fix hotkeys info keys (#14711),4,4,25,18,25,18,1,0,0,2,0,0,1,1,1,0,0,626,2,4,19,0,0,0,0,0
+redis,cfa6129040,2026-01-19,bdfdc9a6,Minor fixes for ASM (#14707),2,1,4,4,4,0,1,0,0,1,0,0,1,0,0,0,0,42,1,2,2,0,0,0,0,0
+redis,c118f91b25,2026-01-19,02a2c209,Optimize `lpDecodeBacklen()` fast paths by removing loop-based decoding (#14662),1,1,42,11,42,11,0,0,0,1,0,0,0,0,0,0,0,23,0,0,21,0,0,0,0,0
+redis,39881fa6f2,2026-01-19,31e3708b,Reply Copy Avoidance (#14608),13,7,728,92,707,89,0,0,0,18,5,1,8,0,19,1,0,697,11,128,499,0,0,0,0,0
+redis,609acaad02,2026-01-18,cece842f,Optimize zset to use dict with no_value=1 (#14701),12,12,416,330,416,330,0,0,0,48,0,3,13,0,10,7,0,1048,25,100,268,0,0,0,0,0
+redis,7f541b9607,2026-01-18,02a2c209,Prefetch client fields before prefetching command-related data (#14700),5,4,60,14,26,14,0,0,0,2,0,0,0,1,0,0,0,29,1,0,14,0,0,0,0,0
+redis,c93e4a62c6,2026-01-16,b49d1049,Add hotkeys detection (#14680),14,6,2401,7,1656,6,0,0,0,5,6,0,4,0,35,0,0,638,5,48,1088,0,0,0,0,0
+redis,9bbeaa312d,2026-01-16,02a2c209,Avoid unnecessary command rewriting for SET command with expiration (#14699),1,1,9,1,9,1,0,0,0,1,0,0,1,0,0,0,0,95,1,6,6,0,0,0,0,0
+redis,11e73c66a8,2026-01-15,cece842f,Modules KeyMeta (Keys Metadata) (#14445),19,15,3582,350,2085,349,0,0,0,47,4,0,13,1,35,0,0,1046,18,106,1162,0,0,1,0,0
+redis,221409788a,2026-01-15,0c6c1df7,Add idempotency support to XADD via IDMPAUTO and IDMP parameters (#14615),17,9,3289,10,979,6,0,0,0,11,4,0,7,0,21,0,0,1046,8,152,666,0,0,0,0,0
+redis,8da9c04bb8,2026-01-15,cece842f,Eliminate zslGetRank calls from ZCOUNT/ZLEXCOUNT + simplify zslGetRankByNode() (#14684),5,5,277,43,277,43,0,0,0,12,1,0,2,3,2,0,0,80,9,18,155,0,0,0,0,1
+redis,b23122d002,2026-01-14,e1fdf92e,Remove unused comment in ebuckets.c (#14694),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+redis,3c96680cfb,2026-01-13,02a2c209,Enable hardware clock by default on ARM AArch64. (#14676),2,1,19,7,16,6,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+redis,cc1660abdd,2026-01-12,cece842f,Refactor dict key encoding and fix defrag tag bit bug (#14682),1,1,27,27,27,27,1,0,0,4,0,0,1,0,1,0,0,32,1,10,21,0,0,0,0,1
+redis,391530cd15,2026-01-12,ea7f6d8a,[Vector sets]: redis-cli recall testing abilities (#14408),1,1,265,5,265,5,0,0,0,4,1,0,3,0,1,0,0,400,3,32,196,0,0,0,0,0
+redis,858a8800e2,2026-01-08,bdfdc9a6,Propagate migrate task info to replicas (#14672),2,1,137,44,66,39,0,0,0,7,2,0,1,1,1,0,0,54,4,29,39,0,0,0,0,0
+redis,29f733484a,2026-01-08,cece842f,Optimize ZRANK by avoiding string comparisons during skiplist traversal (#14636),2,2,113,49,113,49,0,0,0,29,0,0,1,1,8,0,0,53,5,15,84,1,0,0,0,0
+redis,73249497d4,2026-01-08,8b6bc094,Fix ACL key-pattern bypass in MSETEX command (#14659),3,1,10,2,1,1,1,0,0,1,0,0,0,0,0,0,0,87,1,1,1,0,0,0,0,0
+redis,85ab4cab58,2026-01-07,31e3708b,Fix UBSan error in stream trim when processing last entry (#14669),1,1,2,2,2,2,1,0,0,1,0,0,1,0,0,0,0,133,1,2,2,0,0,0,0,0
+redis,da4c5eec82,2026-01-06,cece842f,Replace fragile dict stored-key API with getKeyId callback (#14646),10,10,80,130,80,130,0,0,0,34,0,0,0,2,2,3,0,1002,12,14,58,0,0,0,0,0
+redis,0cb1ee0dc1,2026-01-06,31e3708b,New eviction policies - least recently modified (#14624),24,20,295,104,151,100,0,0,0,76,0,0,17,2,2,1,0,692,55,80,129,0,0,0,0,0
+redis,9ca860be9e,2026-01-05,31e3708b,Fix XTRIM/XADD with approx not deletes entries for DELREF/ACKED strategies (#14623),2,1,63,3,8,3,1,0,0,1,0,0,1,0,0,0,0,133,1,1,1,0,0,0,0,0
+redis,4eda670de9,2026-01-05,31e3708b,Fix infinite loop during reverse iteration due to invalid numfields of corrupted stream (#14472),3,2,20,9,8,9,1,0,0,2,0,0,2,0,0,0,0,96,2,4,5,0,0,0,0,0
+redis,7511a1919b,2026-01-05,62627ae9,Sanitize TCP_KEEPINTVL and simplify TCP_KEEPALIVE_ABORT_THRESHOLD on Solaris (#13142),1,1,2,3,2,3,0,0,0,1,0,0,1,0,0,0,0,67,1,2,2,1,0,0,0,1
+redis,16068d6b63,2026-01-04,cece842f,Fix: Use dictSetKeyAtLink in activeDefragHfieldDictCallback (#14654),1,1,17,10,17,10,1,0,0,2,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+redis,eb2661a46d,2026-01-04,62627ae9,Detect accept4() on specific versions of various platforms (#14558),1,1,7,4,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+redis,0ef4a4e7e3,2026-01-04,ab1c21d4,Fix some comment spelling typos (#14648),4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,29346eb7dd,2026-01-04,19759e5e,Hide PII from ACL log (#14645),3,3,21,12,21,12,0,0,0,4,0,0,0,0,1,0,0,156,1,1,18,0,0,0,0,0
+redis,174307530b,2025-12-26,4aa720cc,Expand hash dicts using original length when rdb loading (#14635),1,1,10,7,10,7,0,0,1,1,0,0,1,0,0,0,0,1008,1,10,10,0,0,0,0,0
+redis,e4b69f9a13,2025-12-25,cece842f,Remove dead code leftover (#14640),1,1,1,4,1,4,0,0,0,1,0,0,0,1,0,0,0,56,1,1,1,0,0,0,1,0
+redis,860b8c772a,2025-12-25,8b6bc094,Add TLS certificate-based automatic client authentication (#14610),9,7,193,8,115,8,0,0,0,5,1,0,2,0,3,0,0,289,3,16,85,0,0,0,0,0
+redis,877c09f662,2025-12-25,5b1e99bb,incrRefCount off-by-one error (#14647),1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+redis,238a626859,2025-12-23,cece842f,Hash - Unify Field-Value into a single struct along with dict no_value=1 (#14595),17,16,941,414,940,413,0,0,0,36,0,1,8,4,30,18,0,1005,17,159,567,0,0,0,0,0
+redis,fde3576f88,2025-12-23,2b7e3fa1,Fix adjacent slot range behavior in ASM operations (#14637),4,3,124,31,88,31,1,0,0,9,0,0,1,0,3,1,0,43,2,18,67,0,0,0,0,0
+redis,c5f3d3e11c,2025-12-22,1716f4b8,Fix use-after-free in hnsw_cursor_free (#14627),1,1,5,4,5,4,1,0,0,1,0,0,0,0,0,0,0,21,0,0,5,1,0,0,0,0
+redis,1e974e6311,2025-12-19,31e3708b,Fix kvstoreGetFirstNonEmptyDictIndex() and kvstoreIteratorReset() for empty kvstore (#14625),1,1,14,3,14,3,1,0,0,3,0,0,1,0,0,0,0,134,1,7,12,0,0,0,0,0
+redis,a9f0f07b7c,2025-12-18,62627ae9,Merge kqueue events to reduce system calls (#14557),1,1,12,19,12,19,0,0,0,2,0,0,0,0,0,0,0,8,0,0,10,0,0,0,0,1
+redis,dd67275033,2025-12-18,bdfdc9a6,Unify slot migration logs across cluster implementations (#14628),2,2,46,23,46,23,0,0,0,5,0,1,1,1,1,0,0,251,3,4,41,0,0,0,0,0
+redis,2e69130ea3,2025-12-18,cece842f,Improve dict pointer tagging doc (#14616),1,1,25,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,081693f32e,2025-12-18,ef102112,Fix incorrect comment about STATS_METRIC_* Macro in server.h (#14620),2,2,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,e6e0cf5764,2025-12-16,117c39ba,Fix incorrect stream ID comparison in streamReplyWithRangeFromConsumerPEL() (#14619),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+redis,33391a7b61,2025-12-16,bdfdc9a6,Support delay trimming slots after finishing migrating slots (#14567),9,7,276,59,115,38,0,0,0,13,0,0,9,0,3,1,0,394,9,33,73,0,0,0,0,0
+redis,ddbd96d8ae,2025-12-15,ca842a3f,Add `--name` flag to redis-cli for setting client name (#14588),1,1,24,0,24,0,0,0,0,3,0,0,3,0,1,0,0,385,3,5,21,0,0,0,0,0
+redis,f3316c3a1a,2025-12-15,bdfdc9a6,Introduce flushdb option for repl-diskless-load (#14596),6,3,9,4,4,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+redis,23aca15c8c,2025-12-14,8b6bc094,Fix the flexibility of argument positions in the Redis API's (#14416),2,1,604,178,228,162,1,0,0,5,2,1,0,2,2,1,0,108,4,71,169,0,0,0,0,0
+redis,679e009b73,2025-12-10,31e3708b,Add daily CI for vectorset (#14302),3,1,80,2,3,1,0,0,0,2,0,0,1,0,0,0,0,54,1,1,3,0,0,0,0,0
+redis,4499d68748,2025-12-09,2cd09e3c,Cleanup redundant declaration of getSlotOrReply() (#14576),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+redis,5299ccf2a9,2025-12-08,09023400,Add kvstore type and decouple kvstore from its metadata (#14543),16,15,249,175,238,175,0,0,0,33,0,0,3,0,9,5,0,616,4,17,192,0,0,0,1,0
+redis,dd57b141b9,2025-12-08,31e3708b,Clean up lookahead-related code (#14562),8,8,27,44,27,44,0,0,1,10,0,0,1,0,0,0,0,42,3,7,18,0,0,0,0,1
+redis,cb71dec0c3,2025-12-04,bdfdc9a6,Disable RDB compression when diskless replication is used (#14575),4,3,48,1,47,1,0,0,0,3,0,0,3,0,0,0,0,254,3,34,36,0,0,0,0,0
+redis,3c57a8fc92,2025-12-02,2b7e3fa1,Retry an ASM import step when the source node is temporarily not ready (#14599),2,1,57,15,35,15,0,0,0,6,0,0,3,0,0,0,0,244,4,21,26,0,0,1,0,0
+redis,86c63588b0,2025-11-29,2b7e3fa1,Refactor some of ASM and slot-stats functions (#14587),4,4,124,90,124,90,0,0,0,8,0,1,3,3,4,1,0,363,7,13,63,0,0,0,0,1
+redis,f56e0115fb,2025-11-27,361ad992,Fix rare server hang at shutdown (#14581),1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,101,1,1,1,0,0,0,0,0
+redis,8d542434bd,2025-11-26,2b7e3fa1,Fix delayed config broadcast after ASM operations (#14573),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,53,1,1,1,0,0,0,0,0
+redis,c8e1e833cd,2025-11-25,ca842a3f,Validate existence of backup directory for cluster backup in redis-cli (#14448),1,1,24,3,24,3,0,0,1,1,0,0,1,0,0,0,0,80,1,20,20,0,0,0,0,0
+redis,39200596f4,2025-11-25,19759e5e,SCAN: restore original filter order (#14537),2,1,30,25,15,13,0,0,0,1,0,0,1,0,0,0,0,52,1,12,12,0,0,0,0,0
+redis,0288d70820,2025-11-22,57eae55d,Fixes an issue where EXEC checks ACL during AOF loading (#14545),2,1,36,1,7,1,1,0,0,1,0,0,1,0,0,0,0,90,1,5,5,0,0,0,0,0
+redis,5ee05d8de4,2025-11-22,2b7e3fa1,Broadcast config change immediately to the other nodes in cluster (#14504),2,2,31,9,31,9,0,0,0,8,0,0,3,0,0,0,0,367,4,14,21,0,0,0,0,0
+redis,bb6389e823,2025-11-21,31e3708b,Fix min_cgroup_last_id cache not updated when destroying consumer group (#14552),2,1,34,0,7,0,1,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+redis,1102415f46,2025-11-21,09023400,"Avoid allocation when iterating over hashes, lists, sets and kvstores (#14473)",17,17,320,323,320,323,0,0,0,46,0,0,11,1,8,9,0,358,26,200,314,0,0,0,0,0
+redis,0a6eacff1f,2025-11-12,361ad992,Add variable key-spec flags to SET IF* and DELEX (#14529),6,2,62,22,51,17,0,0,0,2,1,0,0,0,1,0,0,65,2,21,37,0,0,0,0,0
+redis,a760d1769a,2025-11-12,09023400,Fix FreeBSD daily runs (#14532),2,1,2,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,90ba7ba4dc,2025-11-11,0c6c1df7,Fix XREADGROUP CLAIM to return delivery metadata as integers (#14524),3,1,55,7,4,4,1,0,0,1,0,0,0,0,0,0,0,193,1,4,4,0,0,0,0,0
+redis,a64e725034,2025-11-07,02a2c209,Introduce copy-free version streamPropagateXCLAIM to reduce allocation overhead in stream propagatio,1,1,70,30,70,30,0,0,0,2,1,0,1,1,1,0,0,193,2,53,60,0,0,0,0,1
+redis,dc94d36295,2025-11-07,bdfdc9a6,Add CLUSTER MIGRATION subcommand in CLUSTER HELP (#14517),1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,42,0,0,3,0,0,0,0,0
+redis,b9ad4f6782,2025-11-07,02a2c209,Optimize stream ID comparison and endian conversion hot paths (#14480),3,3,33,8,33,8,0,0,0,2,0,0,2,0,0,0,0,98,2,12,23,0,0,0,0,0
+redis,4f9bab773c,2025-11-06,09023400,Revert getKeySlot() changes from #14039 (#14510),1,1,1,12,1,12,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+redis,7f1bafc922,2025-11-05,31e3708b,Fix XACKDEL stack overflow when IDs exceed STREAMID_STATIC_VECTOR_LEN (CVE-2025-62507),2,1,17,0,2,0,1,0,0,1,0,0,1,0,0,0,0,74,1,2,2,1,0,0,0,0
+redis,3e2003ee0f,2025-11-05,0c6c1df7,Fix HGETEX out-of-bounds read when FIELDS option missing numfields argument,2,1,11,3,6,0,1,0,0,1,0,0,1,0,0,0,0,110,1,4,4,1,0,0,0,0
+redis,32497c0a5f,2025-11-05,31e3708b,Fix MurmurHash64A overflow in HyperLogLog with 2GB+ entries,3,1,10,2,1,1,1,0,0,1,0,0,0,0,0,0,0,40,1,1,1,1,0,0,0,0
+redis,e436a0e548,2025-11-03,31e3708b,Enforce 16-char hex digest length and case-insensitive comparison for IFDEQ/IFDNE (#14502),4,3,91,5,31,5,0,0,0,3,0,0,2,0,1,0,0,90,2,10,21,0,0,0,0,0
+redis,82a296893f,2025-11-02,09023400,Fix cluster_asm.c use of cluster_legacy API (#14497),1,1,3,4,3,4,1,0,0,2,0,0,0,0,0,0,0,62,1,2,3,0,0,0,0,0
+redis,bf0ba1dcc4,2025-11-01,bdfdc9a6,Fix loading old version node.conf without shard_id (#14495),1,1,6,2,6,2,1,0,0,1,0,0,1,0,0,0,0,265,1,4,4,0,0,0,0,0
+redis,b5f106110a,2025-10-31,3e97d164,Add rdb_consecutive_write_failures metric (#14493),4,3,40,1,8,1,0,0,0,3,0,0,2,0,0,0,0,615,2,2,8,0,0,0,0,0
+redis,88cbd3e088,2025-10-30,09023400,Fix outdated raxNewWithMetadata() comment (#14483),1,1,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,3bb9fc7308,2025-10-30,2b7e3fa1,Lua script may lead to integer overflow and potential RCE (CVE-2025-46817),3,2,44,5,5,5,1,0,0,2,0,0,0,0,0,0,0,15,0,0,5,1,0,0,0,0
+redis,671953d021,2025-10-30,2b7e3fa1,LUA out-of-bound read (CVE-2025-46819),2,1,67,20,21,13,1,0,0,4,0,0,1,0,0,0,0,110,2,10,16,1,0,0,0,0
+redis,a3ae6cb0d6,2025-10-30,2b7e3fa1,Lua script can be executed in the context of another user (CVE-2025-46818),7,6,129,7,59,7,1,0,0,3,0,0,3,0,1,0,0,66,3,16,49,1,0,0,0,0
+redis,e304356f59,2025-10-30,b49d1049,Lua script may lead to remote code execution (CVE-2025-49844),1,1,5,1,5,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,5,1,0,0,0,0
+redis,060c6901a3,2025-10-29,09023400,Refine condition when CLUSTER SLOT-STATS reports memory-bytes field (#14481),2,1,84,7,8,7,0,0,0,1,0,0,0,0,0,0,0,21,0,0,7,0,0,0,0,0
+redis,3b74c5ce02,2025-10-28,09023400,Fix list commands per slot memory accounting condition (#14479),2,2,23,19,23,19,1,0,0,11,0,0,0,0,0,0,0,48,6,9,19,0,0,0,0,0
+redis,6ea4e2c949,2025-10-28,31e3708b,Fix race condition for lookupCommand (#14466),1,1,6,4,6,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0
+redis,91b5808fd6,2025-10-28,b49d1049,Fix numeric config boundry check (#14286),4,2,21,7,2,4,1,0,0,1,0,0,0,1,0,0,0,43,1,0,0,0,0,0,0,0
+redis,379fec1426,2025-10-27,31e3708b,Use fixed position keys parameter for MSETEX command (#14470),4,1,58,90,17,34,1,0,0,2,0,0,1,1,0,0,0,117,2,14,14,0,0,0,0,0
+redis,f2e2dff563,2025-10-25,bdfdc9a6,Fix estoreEmpty not clearing buckets sizes (#14465),2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+redis,414758dd98,2025-10-25,b49d1049,Guard calls to vectorDistanceFloat SIMD calls behind ifdefs (#14458),1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,4,0,0,0,0,0
+redis,6a145b2bc9,2025-10-25,09023400,Add per slot memory accounting (#14451),27,24,890,135,878,134,0,1,0,110,12,1,55,1,13,0,0,692,69,480,833,0,0,0,0,0
+redis,078019cd84,2025-10-24,b49d1049,Fix flags of DELEX command (#14452),3,1,6,5,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,4b6935b5f8,2025-10-24,94ac8ae2,Fix re-entrant deadlock in bugReportStart() when called from signal handlers (#14457),1,1,10,2,10,2,1,0,0,2,0,0,0,0,0,0,0,22,0,0,6,0,1,0,0,0
+redis,d43bf1d6e2,2025-10-24,bdfdc9a6,Skip CRC check for slot importing (#14456),4,4,35,14,35,14,0,0,0,7,0,0,1,0,0,0,0,242,3,10,25,0,0,1,0,0
+redis,976041cbeb,2025-10-24,1ca50829,Vectorize vectors_distance_float in vector-sets (#14222),1,1,112,5,112,5,0,0,0,1,0,0,0,0,2,0,0,22,0,0,75,0,0,0,0,0
+redis,52ea47b792,2025-10-23,8b6bc094,Add MSETEX command  (#14434),5,2,451,71,179,71,0,0,0,3,1,0,1,1,1,0,0,132,2,76,144,0,0,0,0,0
+redis,b043ac5666,2025-10-23,1aac6f92,Fix RedisModule_GetClusterNodeInfo API (#14443),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,26,1,1,1,0,0,1,0,0
+redis,04f738fb5e,2025-10-23,09023400,Add per key memory accounting (#14363),30,29,949,550,948,549,0,0,0,130,3,1,23,1,18,3,0,1275,37,258,805,0,0,0,0,0
+redis,6431de3c38,2025-10-23,8b6bc094,Refactor and change config for broken AOF tail on startup (#14349),5,3,121,87,42,55,0,0,0,1,0,0,0,1,1,0,0,206,1,17,36,0,0,0,0,1
+redis,235e688b01,2025-10-23,31e3708b,RED-135816: Lookahead pre-fetching (#14440),22,17,1047,271,993,269,0,1,0,54,6,0,14,2,19,1,0,288,28,277,718,0,0,0,0,0
+redis,340615255b,2025-10-22,1aac6f92,Add API RedisModule_ClusterKeySlotC (#14442),4,3,15,2,11,1,0,0,0,3,0,0,2,0,1,0,0,392,2,2,7,0,0,1,0,0
+redis,2bc4e0299d,2025-10-22,2b7e3fa1,Add Atomic Slot Migration (ASM) support (#14414),45,32,9315,370,5351,366,0,1,0,103,27,2,42,2,148,4,0,686,53,281,3634,0,1,0,0,0
+redis,090ca801ea,2025-10-21,0c6c1df7,Add CLAIM parameter to XREADGROUP for automatic pending entry claiming (#14402),10,7,2040,43,437,28,0,0,0,17,0,0,10,0,7,0,0,996,12,170,274,0,0,0,0,0
+redis,aed879ad0a,2025-10-21,b49d1049,Optimistic locking for string objects - compare-and-set and compare-and-delete (#14435),18,5,9775,32,7763,14,0,10,0,7,13,0,2,0,175,0,0,111,3,59,3648,0,1,0,0,0
+redis,a01c061866,2025-10-18,209a5b30,Optimize HyperLogLog Operations with Branchless Comparisons and ARM NEON SIMD Vectorization (#14428),1,1,181,23,181,23,0,0,0,4,0,0,1,0,2,0,0,102,1,3,111,0,0,0,0,0
+redis,166ae60734,2025-10-15,31e3708b,Fix infinite loop during reverse iteration due to corrupted stream (#14423),2,1,21,0,9,0,1,0,0,1,0,0,1,0,0,0,0,96,1,5,5,0,0,0,0,0
+redis,6d89370cd6,2025-10-15,31e3708b,Fix shutdown blocked client not being properly reset after shutdown cancellation (#14420),3,2,19,12,13,12,1,0,0,4,0,0,1,1,0,0,0,63,2,1,7,0,0,0,0,0
+redis,0f39801756,2025-10-14,02a2c209,Fix nested function on bitopsTest (#14430),1,1,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+redis,119c83d776,2025-10-14,02a2c209,Optimize `BITCOUNT` with AVX2 and AVX512 popcount implementations.  (#14309),2,2,182,27,182,27,0,0,0,3,0,0,0,3,3,1,0,76,3,2,134,0,0,0,0,0
+redis,5b49119236,2025-10-13,cece842f,Fix crash in lookupKey() when `executing_client` is NULL (#14415),2,1,36,2,3,2,1,0,0,1,0,0,1,0,0,0,0,38,1,3,3,0,0,0,0,0
+redis,083f38ef5a,2025-10-12,fe5565cb,Fix issues with server.allow_access_expired (#14262),5,3,96,5,24,5,1,0,0,8,0,0,2,1,0,0,0,667,4,14,19,0,0,0,0,0
+redis,791a5a7597,2025-10-11,cc12f2ab,enable unaligned access optimizations for RISC-V with Zicclsm​ (#14342),1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+redis,df28ad35e8,2025-10-10,31e3708b,Add VRANGE to ignored commands for schemas validator (#14426),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,48d0aa9d0a,2025-10-09,cece842f,Fix heap-buffer-overflow in CLUSTER FORGET with invalid node ID length (#14417),2,1,8,4,4,4,1,0,0,3,0,0,0,0,0,0,0,347,2,2,4,1,0,0,0,0
+redis,1f2c28501c,2025-10-09,02a2c209,Optimize arm `BITCOUNT` popcount loop using 4-lane NEON accumulation (#14277),3,3,195,1,195,1,0,0,0,1,1,0,1,0,2,0,0,73,1,10,136,0,0,0,0,0
+redis,3de2fdad58,2025-10-09,ea7f6d8a,[vector sets] VRANGE implementation (#14235),4,1,434,16,219,16,0,0,0,1,1,0,1,0,3,0,0,300,1,36,142,0,0,0,0,0
+redis,3c1a759954,2025-10-08,09023400,Move cluster stats state out of cluster_legacy.c (#14409),6,6,26,26,26,26,0,0,0,10,0,0,1,0,0,0,0,244,1,1,24,0,0,0,1,0
+redis,97df5b5411,2025-10-05,a21de45c,[RED-170693] Limit efSearch parameter to avoid heap overflow (#14373),2,1,36,2,4,2,1,0,0,2,0,0,2,0,0,0,0,182,2,3,3,1,0,0,0,0
+redis,acbcaae530,2025-09-19,ca842a3f,Fix potential division by zero in LRU test mode in redis-cli (#14369),1,1,3,2,3,2,1,0,0,1,0,0,1,0,0,0,0,52,1,3,3,0,0,0,0,0
+redis,9b63e99d05,2025-09-11,cece842f,Refactor HFE: Introduce Per-Slot Expiration Store (estore) (#14294),18,16,1199,355,1190,352,0,0,0,42,3,0,3,0,31,8,0,993,16,42,720,0,0,0,0,1
+redis,64f63bfcb0,2025-09-11,1716f4b8,Fix help docs of vector-set commands (#14192),2,1,296,13,256,0,0,0,0,1,0,0,1,0,0,0,0,280,1,220,220,0,0,0,0,0
+redis,60adba48aa,2025-09-10,31e3708b,Introduce DEBUG_DEFRAG compilation option to allow run test with activedefrag when allocator is not ,20,3,135,22,46,3,0,0,0,4,1,0,0,0,6,0,0,41,1,3,41,0,0,0,0,0
+redis,d649637ebd,2025-09-08,31e3708b,Fix defrag issues for stream defrag and HFE (#14323),2,2,36,15,36,15,1,0,0,7,1,0,0,0,2,0,0,52,1,3,26,0,0,0,0,0
+redis,dee0d11a74,2025-09-07,361ad992,Avoid OOM error on very big args due to allocation of very big query buffer (#14327),2,1,20,3,7,3,0,0,0,1,0,0,1,0,0,0,0,117,1,5,5,0,0,0,0,0
+redis,d339fe70ad,2025-09-07,31e3708b,Fix defrag issues for pubsub and lua (#14330),4,4,36,6,36,6,1,0,0,2,0,0,0,0,1,0,0,56,1,4,24,0,0,0,0,0
+redis,8ad5421502,2025-09-02,31e3708b,Fix crash during lua script defrag (#14319),3,3,16,11,16,11,1,0,0,3,0,0,0,0,1,0,0,21,0,0,11,0,0,0,0,0
+redis,5f8e7852f4,2025-09-01,e355a47a,Fix: Validate ENTRIESREAD in XGROUP command (#14259),2,1,37,0,9,0,1,0,0,1,0,0,1,0,0,0,0,151,1,6,6,0,0,0,0,0
+redis,38d16a82eb,2025-08-28,2cd09e3c,Fix missing prev update in hnsw_cursor_free causing unlink failure (#14050),1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+redis,c333dbd9a3,2025-08-25,cece842f,dictEntry and dictEntryNoValue common layout (#14264),1,1,30,41,30,41,0,0,0,10,0,0,0,0,0,1,0,39,1,3,24,0,0,0,0,0
+redis,823de3f191,2025-08-25,31e3708b,Add support to decode json empty array as lua array (#14296),2,1,101,0,42,0,0,0,0,4,1,0,1,0,1,0,0,56,2,14,31,0,0,0,0,0
+redis,67fa237410,2025-08-25,31e3708b,Reduce the overhead for calculating jemalloc small bins frag (#14299),1,1,22,9,22,9,0,0,0,1,0,0,0,0,0,0,0,32,0,0,16,0,0,0,0,1
+redis,027d98e9bd,2025-08-21,9220f778,Fix assumptions that pthread functions set errno (#14284),1,1,6,5,6,5,1,0,0,2,0,0,1,0,0,0,0,85,1,3,6,0,1,0,0,0
+redis,e6c261f3fb,2025-08-20,cece842f,Fix MEMORY USAGE command (#14288),4,1,51,21,22,19,1,0,0,1,1,1,0,0,1,1,0,142,1,1,17,0,0,0,0,0
+redis,ca9ede6968,2025-08-20,2fbde5d6,"Expose ""touches-arbitrary-keys"" flag to Redis modules (#14290)",3,1,142,2,4,1,0,0,0,1,0,0,1,0,0,0,0,34,1,2,2,0,0,1,0,0
+redis,b9d9d4000b,2025-08-15,31e3708b,Prevent crash when cgroups_ref is null in streamEntryIsReferenced() after reload (#14276),2,1,28,0,1,0,1,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+redis,46a3efa750,2025-08-15,31e3708b,Prevent active defrag from triggering during replicaof db flush (#14274),2,1,88,31,10,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+redis,51f364f700,2025-08-14,863ac897,Fix typo in thread status file path comment (#14273),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+redis,2bf275f948,2025-08-14,dc88b618,Add USE_PROCESSOR_CLOCK for RISC-V to improve monotonic clock support (#14251),1,1,63,3,63,3,0,0,0,3,0,0,0,0,4,0,0,44,0,0,49,0,0,0,0,0
+redis,eac48279ad,2025-08-12,8b6bc094,Add auto-repair options for broken AOF tail on startup (#14058),5,3,200,7,45,7,0,0,0,2,0,0,2,0,0,0,0,228,2,36,41,0,0,0,0,0
+redis,674b829981,2025-08-12,ea7f6d8a,VSIM EPSILON fixes (#14223),3,1,81,2,1,1,1,0,0,1,0,0,0,0,0,0,0,62,1,1,1,0,0,0,0,0
+redis,3fa7a656f1,2025-08-06,1716f4b8,Fix memory leak in RM_GetCommandKeysWithFlags (#14243),2,1,10,0,1,0,1,0,0,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+redis,0ac04bbd14,2025-08-06,e327db52,"Add ""Redis ver. $REDIS_VERSION"" to LOLWUT 8 output (#14195)",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,87,1,3,3,0,0,0,0,0
+redis,ecc3cbfde8,2025-08-04,09023400,Move getSlotOrReply() to cluster.c (#14253),2,2,12,12,12,12,0,0,0,0,0,0,0,0,1,1,0,0,0,0,10,0,0,0,1,0
+redis,ff2f0b092c,2025-08-01,2175c479,Avoid Accessing Arguments Out Of Bounds In handleDebugClusterCommand (#14242),1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,28,1,3,3,1,0,0,0,0
+redis,c55e33a99f,2025-07-31,cece842f,KEYSIZES - Fix resolving key slot on modules (#14240),2,1,34,3,3,3,1,0,0,3,0,0,0,0,0,0,0,23,0,0,3,0,0,1,0,0
+redis,4604407fdd,2025-07-31,133a0647,Use safe Iterator for modules (#14239),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,1,0,0
+redis,bec644aab1,2025-07-30,31e3708b,Fix missing kvobj reassignment after reallocation in MOVE command (#14233),2,1,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,53,1,1,1,0,0,0,1,0
+redis,db4fc2a833,2025-07-28,bdfdc9a6,Fix HINCRBYFLOAT removes field expiration on replica (#14224),4,3,55,6,9,6,1,0,0,2,0,0,1,0,0,0,0,150,2,4,4,0,0,0,0,0
+redis,3ed9460aa6,2025-07-28,8b6bc094,handle SET KEEPTTL in the optimization path,2,1,19,0,4,0,0,0,0,1,0,0,1,0,0,0,0,70,1,2,2,0,0,0,0,0
+redis,82396716d0,2025-07-28,8b6bc094,Add API to allow Redis modules to unsubscribe from keyspace notifications,4,2,115,3,35,0,0,0,0,2,0,0,2,0,1,0,0,387,2,2,19,0,0,1,0,0
+redis,ecd5e639ed,2025-07-24,31e3708b,CLIENT UNBLOCK should't be able to unpause paused clients (#14164),5,3,89,2,22,2,0,0,0,1,0,0,0,0,1,0,0,491,1,1,16,0,0,0,0,0
+redis,7df34143c2,2025-07-24,09023400,Prefer storing iterators on stack instead of the heap (#14200),24,24,620,547,620,547,0,0,0,125,0,0,13,5,0,0,0,658,39,229,600,0,0,0,0,0
+redis,7ee748eda6,2025-07-24,2b7e3fa1,Retry accept() even if accepted connection reports an error (CVE-2025-48367),6,6,33,0,33,0,1,0,0,4,1,0,0,0,1,0,0,40,0,0,22,1,0,0,0,0
+redis,d7992b7f78,2025-07-24,31e3708b,Fix out of bounds write in hyperloglog commands (CVE-2025-32023),2,1,93,5,42,5,1,0,0,3,2,0,0,0,0,0,0,52,2,28,42,1,0,0,0,0
+redis,45c8fcc992,2025-07-21,31e3708b,Only mark the client reprocessing flag when unblocked on keys (#14165),4,3,43,14,7,14,0,0,0,4,0,0,0,2,0,0,0,240,3,2,6,0,0,0,0,0
+redis,a4ff8d6ab6,2025-07-21,8b6bc094,Fix KSN for HSETEX command when FXX/FNX is used (#14150),2,1,97,8,21,8,1,0,0,1,0,0,1,0,0,0,0,102,1,19,19,0,0,0,0,0
+redis,b528788f65,2025-07-18,ea7f6d8a,Fix vrand ping pong (#14183),3,1,44,2,7,0,1,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+redis,ebf19e4c92,2025-07-11,c522e955,Fix memleak issues in redis-cli (#14186),1,1,9,2,9,2,1,0,0,2,0,0,1,0,0,0,0,50,1,5,9,0,0,0,0,0
+redis,b8382f0540,2025-07-11,57eae55d,Fix misleading io_flags assertion comment (#14187),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,b5d54866ac,2025-07-10,ea7f6d8a,[Vector sets] Endianess fix and speedup of data loading (#14144),1,1,80,16,80,16,1,0,1,2,0,0,1,0,0,0,0,82,1,29,47,0,0,0,0,0
+redis,86c8be6368,2025-07-07,b49d1049,Add new KSN types - overwritten and type_changed (#14141),8,6,341,11,67,9,0,0,0,6,1,0,5,0,0,0,0,104,6,45,51,0,0,0,0,0
+redis,4322cebc17,2025-07-07,31e3708b,Ensure empty error tables in scripts don't crash (#14163),2,1,39,0,8,0,1,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0
+redis,ffd41540f0,2025-07-04,57eae55d,Add boundary assert to connTypeRegister (#14153),1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+redis,eb9337abf8,2025-07-04,b49d1049,Fix uninitializeed RMConfigIterator::is_glob causing MSan warnings (#14171),1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+redis,15706f2e82,2025-07-03,b49d1049,Module set/get config API (#14051),8,4,1248,74,681,73,0,0,1,10,3,1,3,1,33,0,0,386,5,48,409,0,0,1,0,0
+redis,5b7eec4c81,2025-07-03,31e3708b,Fix crash due to incorrect event deletion of evport (#14162),1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+redis,ad8c7de3fe,2025-07-02,b49d1049,Fix assertion in updateClientMemUsageAndBucket (#14152),2,1,28,1,10,1,1,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+redis,0d8e750883,2025-07-01,09023400,Add CLUSTER SLOT-STATS command (#14039),21,15,1728,8,552,6,0,0,0,21,2,0,9,0,24,0,0,114,10,19,312,0,0,0,0,0
+redis,fa040a72c0,2025-07-01,31e3708b,Add XDELEX and XACKDEL commands for stream (#14130),13,4,1242,39,529,35,0,0,0,17,3,0,6,0,10,0,0,993,9,57,369,0,0,0,0,0
+redis,64ae81d37c,2025-07-01,5b1e99bb,New config: lazyexpire-nested-arbitrary-keys (#14149),4,3,75,0,19,0,0,0,0,1,0,0,1,0,1,0,0,25,1,2,10,0,0,0,0,0
+redis,ca6145b18c,2025-06-30,7933d918,Reduce the main thread blocking in clients cron (#13900),7,4,183,76,97,56,0,0,0,6,1,1,2,0,3,0,0,105,4,17,61,0,1,0,0,1
+redis,531b82df22,2025-06-27,d456bc90,Fix replication lseek check (#14135),1,1,6,1,6,1,1,0,0,1,1,0,0,0,0,0,0,55,1,6,6,0,0,0,0,0
+redis,8948a5d2b2,2025-06-26,ea7f6d8a,[Vector Sets] IN operator for string/string operands (#14122),3,1,120,26,21,4,0,0,0,2,0,0,2,0,1,0,0,106,2,6,15,0,0,0,0,0
+redis,a25f0a715e,2025-06-26,1716f4b8,Fix generate-commands-json.py script (#14098) (#14111),1,1,18,6,18,6,1,0,0,1,0,0,0,0,0,0,0,41,0,0,15,0,0,0,0,0
+redis,a744411f27,2025-06-25,02a2c209,Optimize Expiry Check in `scanCallback()` Using `kvobj` (#14140),1,1,15,11,15,11,0,0,0,2,1,0,0,1,0,0,0,49,2,11,12,0,0,0,0,0
+redis,03816c15f7,2025-06-23,2b7e3fa1,Fix short read of hfe key that causes exit() on replica (#14143),2,1,4,2,2,2,1,0,0,1,0,0,0,0,0,0,0,992,1,2,2,0,0,0,0,0
+redis,51239f75d0,2025-06-22,8b6bc094,Record the time a replica attempts to connect with master (#13990),4,3,214,6,46,6,0,0,0,10,0,0,4,0,0,0,0,609,4,19,43,0,0,0,0,0
+redis,2e1a17c26c,2025-06-21,02a2c209,Optimize quicklistCompare with optional string2ll caching. (#14131),7,7,288,34,288,34,0,0,0,11,0,0,5,0,0,0,0,1269,5,160,202,0,0,0,0,0
+redis,117424f85c,2025-06-20,ac7aa331,Fix negative offset issue for ZRANGEBY[SCORE|LEX] command (#14043),2,1,16,2,7,1,1,0,0,2,0,0,2,0,0,0,0,80,2,5,5,0,0,0,0,0
+redis,61fa8bb06f,2025-06-20,ac7aa331,Record peak memory time (#14067),4,3,33,15,18,15,0,0,0,7,0,0,1,3,1,0,0,599,4,5,16,0,0,0,0,0
+redis,ce6edd289a,2025-06-19,133a0647,Check length of AOF file name in redis-check-aof (CVE-2025-27151) (#14139),1,1,6,0,6,0,1,0,0,1,0,0,1,0,0,0,0,62,1,4,4,1,0,0,0,0
+redis,a95b94b3dd,2025-06-18,bdfdc9a6,Fix command arity check in IO threads (#14134),4,4,11,8,11,8,1,0,0,4,0,0,1,0,0,0,0,242,3,5,8,0,1,0,0,0
+redis,35dbfc4ba8,2025-06-18,02a2c209,Improve SCAN performance by only performing expiration checks on DBs with volatile keys  (#14121),1,1,23,29,23,29,0,0,2,2,0,0,1,1,0,0,0,218,2,13,15,0,0,0,0,0
+redis,f6d1fd08f9,2025-06-18,ea7f6d8a,Vset tests improvements (#14089),2,1,28,17,25,17,0,0,0,7,1,0,0,0,0,0,0,53,1,12,24,0,0,0,0,0
+redis,a8cde7d19c,2025-06-17,671f13db,Fix alpine missing __STRING #define (#14133),1,1,5,0,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+redis,90178712f6,2025-06-16,cece842f,"Optimize COPY, RENAME and RESTORE commands with TTL (#14088)",4,4,71,55,71,55,0,0,0,12,0,1,2,1,1,0,0,96,4,6,51,0,0,0,0,0
+redis,94aebb7324,2025-06-16,671f13db,Add config base to vector-sets and hnsw thread config (#14082),7,3,357,6,104,3,0,0,0,3,0,0,3,0,4,0,0,182,3,9,66,0,1,0,0,0
+redis,66b3d2d98e,2025-06-13,02a2c209,Add 2K software prefetch to improve BITCOUNT performance (#14103),1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,65,1,1,1,0,0,0,0,0
+redis,abaed0d54c,2025-06-12,31e3708b,Reduce the overhead from malloc usable (#14074),7,6,157,52,154,52,0,0,0,22,1,0,4,0,8,0,0,68,5,26,140,0,0,0,0,1
+redis,27dd3b71ce,2025-06-10,ea7f6d8a,Vector Sets fixes against corrupted data in absence of checksum verification (#14102),4,4,210,7,210,7,1,1,0,3,1,0,3,0,3,0,0,106,3,33,97,0,0,0,0,0
+redis,2467eff59a,2025-06-05,31e3708b,Fix db->expires can't be defragged due to incorrect comparison in the expires stage (#14092),2,1,4,4,1,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+redis,f646d2324b,2025-06-05,136c9fbd,[sentinel] add tilt total count in sentinel info (#13907),1,1,5,0,5,0,0,0,0,3,0,0,1,0,0,0,0,68,1,2,5,0,0,0,0,0
+redis,70a079db5e,2025-06-05,bdfdc9a6,Improve multithreaded performance with memory prefetching (#14017),17,15,706,14,551,13,0,0,0,7,1,0,4,0,21,0,0,599,4,9,364,0,1,0,0,0
+redis,b7c6755b1b,2025-06-02,09023400,Add thread sanitizer run to daily CI (#13964),20,5,145,46,51,29,0,0,0,13,0,0,1,0,2,0,0,172,2,6,46,1,1,0,0,0
+redis,7f60945bc6,2025-05-28,2b7e3fa1,Fix short read issue that causes exit() on replica (#14085),2,1,11,5,6,5,1,0,0,4,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+redis,161326d332,2025-05-28,2175c479,Avoid performing IO on coverage when child exits due to signal handler (#14072),7,7,23,12,23,12,0,0,0,8,0,0,0,0,0,0,0,109,1,1,16,0,0,0,0,0
+redis,79b37ff535,2025-05-28,cece842f,Fix RESTORE with TTL (#14071),6,5,24,7,10,7,1,0,0,6,0,0,0,0,0,0,0,97,5,5,6,0,0,0,0,0
+redis,0ac822e154,2025-05-27,ea7f6d8a,Implement WITHATTRIBS for VSIM. (#14065),5,2,279,21,52,20,0,0,0,5,0,0,2,0,0,0,0,182,2,31,39,0,0,0,0,0
+redis,bb23eb0b01,2025-05-27,31e3708b,Fix incorrect server.cronloops update in defragWhileBlocked() causing timer to run twice as fast (#1,2,2,6,6,6,6,1,0,0,2,0,0,0,0,0,0,0,40,0,0,4,0,0,0,0,0
+redis,e93b44560c,2025-05-26,31e3708b,Resolve bounds checks on cluster_legacy.c (#13970),2,2,18,14,18,14,0,0,0,9,0,0,0,0,1,0,0,66,1,1,16,1,0,0,0,0
+redis,22ebb06eb3,2025-05-26,ea7f6d8a,LOLWUT for Redis 8. (#14048),3,2,182,1,181,0,0,0,0,1,1,0,1,0,2,0,0,27,1,3,106,0,0,0,0,0
+redis,35e15962b5,2025-05-24,2cd09e3c,Add length check before content comparison in equalStringObjects (#14062),1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+redis,7998a2a05f,2025-05-23,bdfdc9a6,To reduce memory churn during client list transfer (#14068),1,1,10,7,10,7,0,0,0,2,0,0,0,0,0,0,0,39,0,0,8,0,0,0,0,1
+redis,99d30654e8,2025-05-23,bdfdc9a6,Let IO threads free argv and rewrite objects (#13968),4,4,64,3,64,3,0,0,0,8,0,0,3,0,2,0,0,106,3,6,43,0,1,0,0,0
+redis,d592cb7409,2025-05-22,2cd09e3c,Cleanup redundant declaration of kvstoreDictFetchValue() (#14066),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+redis,ba88a7fbb6,2025-05-21,31e3708b,Fix crash when freeing newly created node when nodeIp2String fail (#14055),1,1,11,1,11,1,1,0,0,1,0,0,1,0,0,0,0,400,1,8,8,0,0,0,0,0
+redis,8bd50a3b35,2025-05-20,cece842f,Refine and optimize dbSetValue() (#14040),2,2,17,11,17,11,0,0,0,4,0,0,1,1,0,0,0,64,2,12,14,0,0,0,0,0
+redis,8dfb823c51,2025-05-20,b49d1049,"Implement DIFF, DIFF1, ANDOR and ONE for BITOP (#13898)",4,1,485,46,396,25,0,0,0,1,1,0,1,0,1,0,0,284,1,151,295,0,0,0,0,0
+redis,391e3452ca,2025-05-20,b49d1049,Optimize hash and zset with lpBatchAppend (#13981),2,2,21,17,21,17,0,0,0,2,0,0,1,0,0,0,0,87,1,5,18,0,0,0,0,0
+redis,9a9aa921bc,2025-05-20,c05440d0,extract duplicated AOF list formatting logic into helper function (#14012),1,1,15,12,15,12,0,0,0,1,0,0,0,0,1,0,0,10,0,0,12,0,0,0,1,1
+redis,51ad2f8d00,2025-05-19,cece842f,Fix keysizes -  SPOP with count (case 3) and SETRANGE (#14028),8,7,97,20,83,19,1,0,0,10,1,0,5,0,1,0,0,657,6,22,67,0,0,0,0,0
+redis,5d0d64b062,2025-05-18,31e3708b,Add support to defrag ebuckets incrementally (#13842),7,6,396,109,371,91,0,0,0,14,1,1,1,1,9,1,0,327,5,16,262,0,0,0,0,0
+redis,090f6252c4,2025-05-17,f92678ba,Fix typo in object.c (#13589),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,d5f7672b77,2025-05-13,bdfdc9a6,Make IO thread and main thread process in parallel and reduce notifications (#13969),3,3,155,48,155,48,0,0,0,12,0,0,2,1,4,0,0,178,3,20,79,0,1,0,0,1
+redis,65e164caff,2025-05-12,ea7f6d8a,[Vector sets] More rdb loading fixes (#14032),2,1,26,3,15,3,1,0,0,1,0,0,1,0,0,0,0,104,1,12,12,0,0,0,0,0
+redis,e1789e4368,2025-05-12,cece842f,keyspace - Unify key and value & use dict no_value=1 (#13806),44,37,2340,1754,2234,1701,0,1,3,316,5,6,16,31,35,29,0,992,115,592,1645,0,0,0,0,0
+redis,4d9b4d6e51,2025-05-09,b49d1049,Input output traffic stats and command process count for each client. (#13944),5,4,141,6,25,2,0,0,0,6,0,0,5,0,0,0,0,115,5,14,18,0,0,0,0,0
+redis,fdbf88032c,2025-05-09,b49d1049,Add MSan and integrate it with CI (#13916),13,7,147,47,41,36,0,0,0,13,0,0,0,0,0,0,0,145,6,13,39,0,0,0,0,0
+redis,8148e4116e,2025-05-09,2cd09e3c,Remove redundant HASH_SET_COPY macro and hfieldGetExpireTime declaration (#13991),2,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+redis,538713e622,2025-05-09,e747a751,Fix minor grammatical error (#14022),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,191afb8903,2025-05-09,bdfdc9a6,Reclaim page cache memory used by the AOF file after loading (#13811),1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,199,1,2,2,0,0,0,0,0
+redis,30d5f05637,2025-05-08,cece842f,Fix various KEYSIZES enumeration issues (#13923),15,11,364,137,175,79,1,0,0,31,0,0,11,1,1,0,0,597,14,45,132,0,0,0,0,0
+redis,6a436b6f72,2025-05-08,bdfdc9a6,Redis-cli gets RDB by RDB channel (#13809),5,3,22,7,13,7,0,0,0,3,0,0,2,0,0,0,0,116,2,9,11,0,0,0,0,0
+redis,a46624e10e,2025-05-07,ea7f6d8a,[Vector sets] RDB IO errors handling (#13978),4,1,80,13,42,11,0,0,1,1,0,0,1,0,0,0,0,95,1,34,34,0,0,0,0,0
+redis,ac0bef15b5,2025-05-07,31e3708b,Correctly update kvstore overhead after emptying or releasing dict (#13984),4,3,52,11,28,11,0,0,0,10,0,0,1,0,1,0,0,44,1,4,17,0,0,0,0,0
+redis,97d7d2f865,2025-05-07,4ad72224,Fix typo in replication state log message (#13805),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,234,1,1,1,0,0,0,0,0
+redis,57a5f51f26,2025-05-07,bdfdc9a6,Reduce the call of ERR_clear_error (#13903),1,1,3,2,3,2,0,0,0,2,0,0,1,0,0,0,0,81,1,2,3,0,0,0,0,1
+redis,11954d925e,2025-05-06,f92678ba,Fix sds leak in slaveTryPartialResynchronization (#13996),1,1,2,3,2,3,1,0,0,1,0,0,1,0,0,0,0,122,1,1,1,0,1,0,0,0
+redis,11947d8892,2025-05-05,ea7f6d8a,[Vector sets] fast JSON filter (#13959),7,4,903,3581,492,3579,0,0,3,8,5,21,0,1,15,118,0,102,2,8,291,0,0,0,0,0
+redis,d65102861f,2025-05-01,692f8c46,Adding AGPLv3 as a license option to Redis! (#13997),179,139,1856,762,418,279,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+redis,de16bee70a,2025-04-30,133a0647,Limiting output buffer for unauthenticated client (CVE-2025-21605) (#13993),2,1,23,0,5,0,1,0,0,1,0,0,1,0,0,0,0,33,1,2,2,1,0,0,0,0
+redis,14dd59ab12,2025-04-28,bdfdc9a6,Remove io-threads-do-reads from normal config list (#13987),3,1,2,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+redis,bd3c1e1bd7,2025-04-24,2cd09e3c,Delete redundant declaration of handleDebugClusterCommand() (#13974),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,9f99dd5f6d,2025-04-24,2cd09e3c,Fix tls port update not reflected in CLUSTER SLOTS (#13966),2,1,13,3,1,0,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+redis,8468ded667,2025-04-22,05505239,Fix incorrect lag due to trimming stream via XTRIM or XADD command (#13958),2,1,17,1,4,1,1,0,0,1,0,0,1,0,0,0,0,80,1,4,4,0,0,0,0,0
+redis,a51918209c,2025-04-22,d352836b,Fix grammar and typos (#13803),2,2,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,a257b6b4ba,2025-04-21,8b6bc094,Fix port update not reflected in CLUSTER SLOTS (#13932),2,1,17,0,1,0,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+redis,41ecf7323e,2025-04-15,ea7f6d8a,Vector Sets: VISMEMBER and other fixes (#13941),5,3,167,20,110,20,1,0,0,8,0,0,2,0,3,0,0,169,2,7,82,0,0,0,0,0
+redis,c9be4fbd72,2025-04-14,2b7e3fa1,Fix order of KSN for hgetex command (#13931),2,1,71,11,11,11,1,0,0,1,0,0,0,0,0,0,0,103,1,8,8,0,0,0,0,0
+redis,90fa80f372,2025-04-13,7a799da9,Delete redundant declaration of clusterNodeIsMaster() (#13937),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,96a0cfdea2,2025-04-09,ea7f6d8a,Vectror Sets: build fixes for the w2v test (#13919),3,2,33,12,31,12,1,0,0,3,1,1,1,0,1,1,0,86,1,12,29,0,0,0,0,0
+redis,ec31156b58,2025-04-07,2b7e3fa1,Fix a couple of compiler warnings (#13911),2,2,3,0,3,0,1,0,0,2,0,0,1,0,0,0,0,45,1,1,3,0,0,0,1,0
+redis,fd4b5cb3fa,2025-04-03,3c957528,Improve refcount check in 'decrRefCount' (#13888),1,1,9,4,9,4,0,0,0,1,0,0,1,0,0,0,0,21,1,7,7,0,0,0,0,0
+redis,3cdb8c6046,2025-04-03,2b7e3fa1,Improve replication buffering on replica and fix a related bug (#13904),7,4,312,114,175,99,1,0,0,10,2,0,2,1,2,2,0,295,5,77,114,0,0,0,0,0
+redis,41b1b5df18,2025-04-02,a763bff8,Add vector-sets module,23,12,539,1756,110,1744,0,2,0,8,1,2,3,0,3,1,0,243,7,11,40,0,0,1,0,0
+redis,c6db0a7c20,2025-04-02,ea7f6d8a,Don't use cross-thread unlocking.,2,1,76,30,73,27,0,0,0,9,0,0,0,0,0,0,0,177,3,5,19,0,1,0,0,0
+redis,366c6aff81,2025-03-31,2b7e3fa1,Put replica online when bgsave is done (#13895),3,2,13,9,13,2,0,0,0,2,1,0,0,0,0,0,0,597,2,7,7,0,0,0,0,0
+redis,aa8e2d1712,2025-03-30,22180c9b,Ignore shardId updates from replica nodes (#13877),1,1,11,17,11,17,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+redis,4dca45ad24,2025-03-27,ea7f6d8a,Remove sprintf() from cJSON.,1,1,7,7,7,7,0,0,0,3,0,0,0,0,0,0,0,101,2,5,6,0,0,0,1,0
+redis,b17499f907,2025-03-27,ea7f6d8a,Fix projection output len.,1,1,4,2,4,2,1,0,0,2,0,0,2,0,0,0,0,177,2,4,4,0,0,0,0,0
+redis,29c27bc13e,2025-03-27,ea7f6d8a,Make HNSW CAS commit atomic.,4,4,17,19,17,19,0,0,0,10,0,0,0,2,0,0,0,57,5,7,17,0,1,0,0,0
+redis,c61c535c32,2025-03-27,ea7f6d8a,Make Redis module merging simpler.,2,1,8,3,6,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,6,0,0,1,0,0
+redis,2f17e4fb04,2025-03-27,ea7f6d8a,Prettify parseVector().,1,1,21,10,21,10,0,0,0,1,0,0,1,0,0,0,0,57,1,13,13,0,0,0,0,0
+redis,63057253d8,2025-03-27,ea7f6d8a,Document threading model in a top comment.,1,1,68,11,68,11,0,1,1,1,0,0,1,0,0,0,0,53,1,9,9,0,1,0,0,0
+redis,3d31fc3bee,2025-03-27,ea7f6d8a,VSIM thread: manipulate results while still locked.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,50,1,2,2,0,1,0,0,0
+redis,87d8e71708,2025-03-27,31e3708b,Fix defrag when type/encoding changes during scan (#13883),1,1,11,18,11,18,1,0,0,6,1,1,0,0,0,0,0,44,2,6,10,0,0,0,0,0
+redis,f70dc8acb2,2025-03-26,ea7f6d8a,Clarify VRANDMEMBER tradeoff.,1,1,8,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,9180659f8b,2025-03-26,ea7f6d8a,Clarify failure behaior of VectorSetRdbLoad().,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,68,1,1,1,0,0,0,0,0
+redis,c2d80e8ced,2025-03-26,ea7f6d8a,Clarify that if CAS fails we insert blocking.,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,e3243819ef,2025-03-26,ea7f6d8a,Don't mess with node attributes without protection.,1,1,21,10,21,10,0,0,0,3,0,0,1,0,1,0,0,43,1,1,7,0,0,0,0,0
+redis,a6c8a15cad,2025-03-26,ea7f6d8a,VADD: fix leak on thread creation failure.,1,1,5,2,5,2,1,0,0,2,0,0,1,0,0,0,0,165,2,3,3,0,1,0,0,0
+redis,3e2649f1f1,2025-03-26,ea7f6d8a,hnsw_insert() should never fail in practice.,1,1,2,0,2,0,0,0,0,2,0,0,2,0,0,0,0,50,2,2,2,0,0,0,0,0
+redis,a0da8390a2,2025-03-26,2b7e3fa1,Fix use-after-free when diskless load config is not swapdb (#13887),2,1,50,24,21,24,1,0,0,1,0,0,1,0,0,0,0,299,1,18,18,1,0,0,0,0
+redis,8dfc501fb8,2025-03-26,ea7f6d8a,VSIM: fix double free if thread creation fails.,1,1,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,176,1,0,0,1,1,0,0,0
+redis,9d4325ee25,2025-03-26,ea7f6d8a,"VSIM NOTHREAD, mainly for testing goals.",2,1,12,5,9,4,0,0,0,1,0,0,1,0,0,0,0,177,1,7,7,0,1,0,0,0
+redis,707c132392,2025-03-26,ea7f6d8a,Count threaded exec time in stats.,1,1,4,0,4,0,0,0,0,4,0,0,2,0,0,0,0,173,2,2,4,0,1,0,0,0
+redis,16e3c5a8f9,2025-03-24,ea7f6d8a,Locks error checking improved.,3,3,25,13,25,13,0,0,0,8,1,0,0,0,0,0,0,172,3,5,15,0,1,0,0,0
+redis,adfd2dc7c0,2025-03-24,ea7f6d8a,"Remove useless OOM checks, but handle mutex creation failure.",1,1,13,13,13,13,0,0,0,4,0,0,1,1,0,0,0,162,2,6,7,0,1,0,1,0
+redis,8bf9b8abc1,2025-03-24,ea7f6d8a,Use Hadamard-based projection.,1,1,42,10,42,10,0,0,0,1,0,0,0,0,1,0,0,12,0,0,14,0,0,0,0,0
+redis,2a189709e0,2025-03-24,361ad992,avoid possible use-after-free with module KSN changes (#13875),2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,33,1,1,1,1,0,1,0,0
+redis,319bbcc1a7,2025-03-24,bdfdc9a6,Fix sdscatprintf error of the in output of `info stats` (#13871),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,597,1,1,1,0,0,0,0,0
+redis,87b7c3ac1a,2025-03-24,31e3708b,Fix rax node defragmentaion being skipped (#13847),1,1,15,5,15,5,1,0,0,1,0,0,0,0,0,0,0,47,0,0,8,0,0,0,0,0
+redis,8007ccd51b,2025-03-23,ea7f6d8a,Use RESP3-friendly bool replies.,1,1,8,8,8,8,0,0,0,4,0,0,0,0,0,0,0,157,1,1,8,0,0,0,0,0
+redis,aa92b37589,2025-03-23,ea7f6d8a,VINFO: use a single field for random projection info.,1,1,7,17,7,17,0,0,0,1,0,0,0,0,0,0,0,31,0,0,3,0,0,0,0,0
+redis,8f479b22b9,2025-03-23,ea7f6d8a,Tests: replication test.,2,1,128,0,36,0,0,0,0,2,0,0,0,0,1,0,0,34,0,0,21,0,0,0,0,0
+redis,31bc07955c,2025-03-22,96273194,Fix possible crash with random projection,2,1,103,2,34,2,1,0,0,3,0,0,2,0,0,0,0,172,2,14,23,0,0,0,0,0
+redis,f330d6175a,2025-03-20,ea7f6d8a,Clarify HNSW_MAX_THREADS vs one thread per request.,1,1,8,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+redis,427c36888e,2025-03-20,2ccba01d,Fix potential infinite loop of RANDOMKEY during client pause (#13863),2,1,21,1,1,1,1,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+redis,951ec79654,2025-03-20,bdfdc9a6,Cluster compatibility check (#13846),13,9,411,0,156,0,0,0,0,15,1,0,11,0,2,0,0,597,11,43,104,0,0,0,0,0
+redis,3e012c9260,2025-03-19,02a2c209,Fix string2d usage in case of hexadecimal strings parsing and overflow (#13845),2,1,89,4,71,4,1,0,0,2,1,0,0,0,1,0,0,19,1,9,45,1,0,0,0,0
+redis,26dcec4812,2025-03-19,31e3708b,Fix messed-up unblocked clients in flush command (#13865),1,1,11,2,11,2,1,0,0,2,0,0,0,0,0,0,0,24,0,0,5,0,0,0,0,0
+redis,70ffa8ce5c,2025-03-18,ea7f6d8a,Fix VADD_CASReply() NULL reference on ID mismatch.,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,47,0,0,2,0,0,0,0,0
+redis,22ce9f3fad,2025-03-17,ea7f6d8a,VRANDMEMBER command implemented.,1,1,144,0,144,0,0,0,0,1,1,0,1,0,1,0,0,53,1,3,90,0,0,0,0,0
+redis,a5a3afd923,2025-03-17,31e3708b,Fix crash during SLAVEOF when clients are blocked on lazyfree (#13853),3,2,17,2,3,2,1,0,0,2,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+redis,706721f8c8,2025-03-16,ea7f6d8a,HSNW: random node.,2,2,46,0,46,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,22,0,0,0,0,0
+redis,8a5cf17cb2,2025-03-15,ea7f6d8a,HNSW: cursor fixes and thread safety.,2,2,36,9,36,9,1,0,0,3,0,0,0,0,2,0,0,17,0,0,26,0,1,0,0,0
+redis,6e434bcaaf,2025-03-15,ea7f6d8a,HNSW: use node max link property.,1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,112,1,1,1,0,0,0,0,0
+redis,68d3067125,2025-03-15,ea7f6d8a,w2v test: fix recall EF usage.,1,1,9,6,9,6,1,0,0,1,0,0,1,0,0,0,0,127,1,9,9,0,0,0,0,0
+redis,d94058fad9,2025-03-15,ea7f6d8a,w2v test: recall histograms + configurable M.,1,1,44,10,44,10,0,0,0,4,0,0,2,0,0,0,0,124,3,27,29,0,0,0,0,0
+redis,542736ce25,2025-03-15,ea7f6d8a,w2v test: proper recall test added.,1,1,168,11,168,11,0,0,0,2,1,0,2,0,1,0,0,77,2,16,123,0,0,0,0,0
+redis,13a0a63bef,2025-03-14,ea7f6d8a,Copyright Sanfilipo -> Redis Ltd.,5,5,9,6,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+redis,d996eb82ef,2025-03-13,ea7f6d8a,VADD: make M configurable at creation time.,3,3,40,11,40,11,0,0,0,5,0,0,2,0,0,0,0,150,2,22,33,0,0,0,0,0
+redis,9500539c55,2025-03-13,ea7f6d8a,HNSW: implement last resort node reallocation.,1,1,27,4,27,4,0,0,1,1,0,0,1,0,0,0,0,113,1,20,20,0,0,0,0,0
+redis,cc3874ab87,2025-03-12,ea7f6d8a,VADD CAS: fallback when thread creation fails.,1,1,16,16,16,16,0,0,0,1,0,0,0,1,0,0,0,135,1,8,8,0,1,0,0,0
+redis,f05912dea2,2025-03-12,ea7f6d8a,cJSON updated to latest version.,2,2,84,17,84,17,0,0,0,17,4,1,3,1,1,0,0,104,9,32,65,0,0,0,0,0
+redis,f829d46535,2025-03-08,ea7f6d8a,HNSW: creation time M parameter VS hardcoded.,4,4,35,28,35,28,0,0,0,8,0,0,2,0,0,0,0,165,4,12,29,0,0,0,0,0
+redis,0258e85186,2025-03-07,ea7f6d8a,VSIM TRUTH option for ground truth results.,4,3,100,9,97,8,0,0,0,3,1,0,2,0,1,0,0,166,2,23,67,0,0,0,0,0
+redis,f364dcca2d,2025-03-04,31e3708b,Make RM_DefragRedisModuleDict API support incremental defragmentation for dict leaf (#13840),4,2,99,22,17,6,0,0,0,1,0,0,1,0,0,0,0,43,1,7,8,0,0,1,0,0
+redis,2114c65012,2025-03-04,ea7f6d8a,VINFO: add attributes count.,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+redis,ed7c539303,2025-03-04,ea7f6d8a,Improve Vector Sets MEMORY USAGE implementation.,1,1,30,4,30,4,0,0,0,1,0,0,0,0,0,0,0,45,0,0,21,0,0,0,0,0
+redis,1f92040fcf,2025-03-04,ea7f6d8a,Fix MEMORY USAGE and DEBUG DIGEST crash.,1,1,8,2,8,2,1,0,0,2,0,0,0,0,0,0,0,26,0,0,8,0,0,0,0,0
+redis,abe33257d9,2025-03-02,ea7f6d8a,Expr: improve selectors / operators parsing.,1,1,51,38,51,38,0,0,0,2,0,1,1,0,3,1,0,121,2,7,41,0,0,0,0,0
+redis,b417685430,2025-02-28,ea7f6d8a,Expr: Allow _ in selectors.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,89ef4c0702,2025-02-28,ea7f6d8a,Expr: convert Json bool to 1/0 numerical type.,2,1,5,1,4,0,0,0,0,1,0,0,1,0,0,0,0,47,1,4,4,0,0,0,0,0
+redis,2d311dbb01,2025-02-28,ea7f6d8a,Fix VLINKS after adding attributes.,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,41,1,2,2,0,0,0,0,0
+redis,68dccc55ad,2025-02-28,ea7f6d8a,Fix CAS insertion broken when adding attributes.,1,1,5,3,5,3,1,0,0,3,0,0,0,0,0,0,0,46,0,0,5,0,0,0,0,0
+redis,68683e181c,2025-02-28,ea7f6d8a,Add FILTER-EF option.,1,1,8,0,8,0,0,0,0,1,0,0,1,0,0,0,0,161,1,8,8,0,0,0,0,0
+redis,ef74527d92,2025-02-27,ea7f6d8a,HNSW: binary distance: fix type for the xor var.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+redis,f20684e7b5,2025-02-27,ea7f6d8a,"HNSW: don't free layers, now is part of the node itself.",1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,68,1,0,0,0,0,1,0,0
+redis,1a2da02db6,2025-02-27,ea7f6d8a,HNSW: calloc() -> hmalloc().,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,163,1,2,2,0,0,0,0,0
+redis,7939ba031d,2025-02-26,31e3708b,Enable the callback to be NULL for RM_DefragRedisModuleDict() and reduce the system calls of RM_Defr,5,3,47,21,40,20,0,0,0,9,0,0,1,0,0,0,0,48,1,5,36,0,0,1,0,1
+redis,3abc801d7a,2025-02-25,ea7f6d8a,Fix leak on VSIM FILTER syntax error.,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,153,1,1,1,0,0,0,0,0
+redis,774c05ab55,2025-02-25,ea7f6d8a,Add cJSON library.,2,2,3403,0,3403,0,0,3,0,0,17,0,0,0,115,0,0,0,0,0,2596,0,0,0,0,0
+redis,44c064c0b4,2025-02-25,ea7f6d8a,Expr: handle JSON arrays as expr tuples.,1,1,63,15,63,15,0,0,1,1,1,0,0,1,1,0,0,121,1,4,47,0,0,0,0,0
+redis,764fb8cc74,2025-02-25,ea7f6d8a,Expr: use attribute in test expression.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+redis,ab06a5a058,2025-02-25,ea7f6d8a,Expr: conver to refcounting.,1,1,141,144,141,144,0,1,0,11,0,0,2,4,3,4,0,131,6,68,114,0,0,0,0,0
+redis,3627bbe12c,2025-02-25,ea7f6d8a,Fixed a few memory handling/corruption bugs.,1,1,4,3,4,3,1,0,0,4,0,0,2,0,0,0,0,135,3,3,4,0,0,0,0,0
+redis,33f03f6fc8,2025-02-25,2fc12d73,Fix wrong behavior of XREAD + after last entry of stream have been removed (#13632),2,1,33,7,6,7,1,0,0,1,0,0,0,1,0,0,0,224,1,3,3,0,0,0,0,0
+redis,985bf68f34,2025-02-25,02a2c209,Reduce redundant key slot calculations on expiration checks (#13796),1,1,48,13,48,13,0,0,0,4,0,0,1,0,7,0,0,40,1,3,34,0,0,0,0,1
+redis,0200e8ada6,2025-02-25,cece842f,"Fix multiple issues with ""INFO KEYSIZES""  (#13825)",8,7,330,63,65,29,1,0,0,13,0,0,5,0,0,0,0,594,6,15,49,0,0,0,0,0
+redis,de32f40b98,2025-02-24,ea7f6d8a,Expr: fix pow associativeness and alloc size.,1,1,6,1,6,1,1,0,0,2,0,0,1,0,0,0,0,52,2,2,2,0,0,0,0,0
+redis,3b60921c53,2025-02-24,ea7f6d8a,"Expr: implement tuple, fix many stuff.",1,1,130,22,130,22,1,0,0,6,1,0,3,1,4,0,0,135,4,11,98,0,0,0,0,0
+redis,a9e02dfd29,2025-02-24,ea7f6d8a,Expr: add strdup alias for stand-alone build.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,e66a50ec3c,2025-02-24,ea7f6d8a,Expr: remove useless allocation checks + fix leak.,1,1,11,43,11,43,1,0,0,5,0,0,0,4,0,0,0,140,4,10,11,0,0,0,1,0
+redis,ef24ab7821,2025-02-24,ea7f6d8a,"Allow decimals, exponent numbers in expressions.",1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+redis,d3ada8090f,2025-02-24,ea7f6d8a,Fix expression op && entry trailing space.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+redis,2f1d917cf1,2025-02-24,ea7f6d8a,Fix exprParseNumber() overflow check.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,1,0,0,0,0
+redis,7ad3cea7fa,2025-02-24,ea7f6d8a,Expr filtering: fix selector name copying.,2,2,4,7,4,7,1,0,0,2,0,0,1,0,0,0,0,140,1,3,3,0,0,0,0,0
+redis,5304318335,2025-02-24,ea7f6d8a,Expr filtering: VSIM FILTER first draft.,5,4,112,28,111,27,0,0,0,12,1,0,2,1,2,0,0,152,6,47,90,0,0,0,0,0
+redis,025790fc50,2025-02-24,ea7f6d8a,Expr filtering: implement HNSW filter in search_layer().,1,1,59,17,59,17,0,0,0,1,1,0,0,1,1,0,0,6,1,6,36,0,0,1,0,0
+redis,438adc917b,2025-02-24,ea7f6d8a,Expr filtering: fix initialization of attrib.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,138,1,1,1,0,0,0,0,0
+redis,e3a8921ab5,2025-02-24,ea7f6d8a,VSETATTR / VGETATTR.,1,1,94,0,94,0,0,0,0,1,0,0,1,0,2,0,0,50,1,6,61,0,0,0,0,0
+redis,2d1642504d,2025-02-24,ea7f6d8a,Expr filtering: fixed a few bugs.,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,43,1,1,2,0,0,0,0,0
+redis,097f310797,2025-02-24,ea7f6d8a,Expr filtering: save/load attribs.,1,1,26,3,26,3,0,0,0,2,1,0,0,0,0,0,0,65,1,18,26,0,0,0,0,0
+redis,832090d821,2025-02-24,ea7f6d8a,Expr filtering: draft of the dual ported object.,2,2,116,14,116,14,0,1,0,9,0,0,3,0,0,0,0,139,3,65,90,0,0,0,0,0
+redis,af6fa6f732,2025-02-24,ea7f6d8a,Expr filtering: conversions and other fixes.,1,1,48,28,48,28,1,0,0,3,0,0,1,0,2,0,0,112,1,17,42,0,0,0,0,0
+redis,a90d2ea290,2025-02-24,ea7f6d8a,Expr filtering: first draft of exprRun().,1,1,178,1,178,1,0,0,0,2,1,0,0,0,3,0,0,17,0,0,141,0,0,0,0,0
+redis,9e4413d1e3,2025-02-24,ea7f6d8a,Expr filtering: function to free tokens.,1,1,20,15,20,15,0,0,0,6,0,0,0,0,1,0,0,90,4,11,16,0,0,0,0,0
+redis,c6bd5d3542,2025-02-24,ea7f6d8a,Expr filtering: int error offset + selector fix.,1,1,30,31,30,31,1,0,0,5,0,0,1,0,0,0,0,90,4,22,27,0,0,0,0,0
+redis,f9d4a5c435,2025-02-24,ea7f6d8a,Expr filtering: first compilation draft.,1,1,180,8,180,8,0,0,0,2,2,0,0,0,3,0,0,90,1,72,129,0,0,0,0,0
+redis,56bc353717,2025-02-24,ea7f6d8a,Expr filtering: separate tokenization from compiling.,1,1,69,52,69,52,0,0,0,3,1,1,0,0,1,0,0,18,1,16,53,0,0,0,0,0
+redis,6ad37b6550,2025-02-24,ea7f6d8a,Expression filtering: parsing WIP.,1,1,416,0,416,0,0,0,0,0,2,0,0,0,14,0,0,0,0,0,315,0,0,0,0,0
+redis,710f70f963,2025-02-24,ea7f6d8a,Make allocators func pointers private to HNSW.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0

@@ -1,0 +1,202 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+pyyaml,34a9bf8235,2026-06-17,f96651b6,Dos in merge key (#937),9,1,240,48,9,6,0,0,0,1,1,0,0,0,0,0,0,37,1,9,9,1,0,0,0,0
+pyyaml,69c141adcf,2024-08-06,45a69ff1,"Refresh CHANGES from release/6.0, bump to 7.0.0.dev0 (#821)",2,1,9,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,f74f3350b5,2024-08-06,45a69ff1,fix `setup.py test` and issue deprecation warning (#820),1,1,7,4,7,4,1,0,0,1,0,0,0,0,0,0,0,22,0,0,6,0,0,0,0,0
+pyyaml,a2d19c0234,2024-06-10,45a69ff1,"Conditional support for Cython3.x, CI updates (#808)",10,2,577,674,93,1,0,1,0,2,0,0,0,0,8,0,0,20,0,0,65,0,0,0,0,0
+pyyaml,a98fd6088e,2023-11-10,f293d227,Move tests to pytest,606,1,184,117,2,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,1,0
+pyyaml,a15d90a74a,2023-08-28,3d85a5dc,6.0.1 release,4,2,14,25,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,957ae4d495,2022-09-13,31ba5908,Add python 3.11 support (#663),4,1,70,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,8cdff2c805,2021-10-13,3d85a5dc,6.0 release,4,2,9,9,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,4808fba18e,2021-10-04,3d85a5dc,6.0b1 release,5,2,45,17,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,a6d384c52e,2021-09-23,3d85a5dc,Various setup fixes,2,1,29,32,29,7,1,0,0,1,0,0,0,0,0,0,0,17,0,0,18,0,0,0,0,0
+pyyaml,c2743653bc,2021-09-23,f96651b6,"The yaml.load{,_all} functions require Loader= now",2,1,5,43,5,42,0,1,0,3,0,0,0,0,0,1,0,7,0,0,3,0,0,0,0,0
+pyyaml,8f27932796,2021-09-23,d033138a,Fix float resolver for '.' and '._',2,1,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,a31a4fb189,2021-09-23,295c9ef3,Remove Python 2 support and simplify,3,1,109,255,1,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+pyyaml,fecae105d7,2021-09-23,295c9ef3,Define PyString_GetExact as Bytes,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,82db283558,2021-09-23,295c9ef3,Fix warning errors of the libyaml binding,3,1,75,63,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,961ce9dcf5,2021-09-23,53f5c3fa,Fix issue with representing Enum types,4,1,6,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,141afddd45,2021-09-22,53f5c3fa,Correct spelling of “hexadecimal”,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,41,1,1,2,0,0,0,0,0
+pyyaml,00be495c78,2021-09-22,53f5c3fa,Simplify python_requires,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+pyyaml,f20947ae25,2021-09-22,53f5c3fa,Move code from lib3 to lib,42,19,2,6,2,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,1,0
+pyyaml,dc0c4c1441,2021-09-22,53f5c3fa,Remove 2.7 support,41,19,4,8265,3,6114,0,0,2,1,0,51,0,0,0,358,0,8,0,0,3,0,0,0,1,0
+pyyaml,ee37f4653c,2021-01-20,f96651b6,5.4.1 release,5,3,16,21,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,2b37f155d4,2021-01-20,3d85a5dc,Fix stub compat with older pyyaml versions that may unwittingly load it,2,2,6,2,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,58d0cb7ee0,2021-01-19,f96651b6,5.4 release,6,3,39,21,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,a60f7a19c0,2021-01-13,57fbff60,Fix compatibility with Jython,1,1,7,2,7,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+pyyaml,ddf20330be,2021-01-13,022e5b07,constructor.timezone: __copy_ & __deepcopy__,2,1,18,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,fc914d52c4,2021-01-13,dcaccd91,Avoid repeatedly appending to yaml_implicit_resolvers,2,2,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,23,2,4,4,0,0,0,0,0
+pyyaml,a001f27825,2021-01-13,f96651b6,Fix for CVE-2020-14343,4,2,26,26,24,24,1,0,0,0,0,0,0,0,0,0,0,0,0,0,18,1,0,0,0,0
+pyyaml,89f608599d,2021-01-13,a1290ef1,"Build modernization (GHA, wheels, setuptools) (#407)",24,9,522,121,114,49,0,0,0,1,0,0,0,0,1,1,0,13,0,0,80,0,0,0,0,0
+pyyaml,91bca4b856,2020-03-17,d033138a,Update version to 5.3.1,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,5080ba5133,2020-03-17,a88c5a27,Prevents arbitrary code execution during python/object/new constructor (#386),6,2,100,4,56,2,0,0,0,2,2,0,0,0,8,0,0,18,2,12,44,0,0,0,0,0
+pyyaml,377092fb2e,2020-01-06,d033138a,Changes for 5.3,4,3,4,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,69b025a9f3,2019-12-21,d033138a,Changes for 5.3b1,4,3,21,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,4fcdcdbf60,2019-12-20,d033138a,Add tests for timezone (#363),5,1,41,13,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+pyyaml,96d65f3de1,2019-12-20,205f4bcd,Create timezone-aware datetimes when parsed as such (#163),2,2,36,11,36,11,0,0,0,4,0,0,0,0,4,0,0,30,0,0,29,0,0,0,0,0
+pyyaml,36fdf0c486,2019-12-20,0cba5cad,remove some unused imports (#260),3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+pyyaml,252b4fe54e,2019-12-20,0b125a63,Document that PyYAML is implemented with Cython (#244),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,0716ae21a1,2019-12-20,57fbff60,Fix reader for Unicode code points over 0xFFFF (#351),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,03b378d039,2019-12-07,d033138a,Allow add_multi_constructor with None (#358),8,2,137,2,2,2,0,0,0,2,0,0,2,0,0,0,0,49,2,2,2,0,0,0,0,0
+pyyaml,5a0cfab86f,2019-12-07,4b3000d3,Fix handling of __slots__ (#161),6,2,30,4,2,2,1,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+pyyaml,eb459f842f,2019-12-04,a05e94a0,Fix up small typo,2,2,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pyyaml,e21af4a092,2019-12-04,82b85576,Use `is` instead of equality for comparing with None,2,2,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+pyyaml,de11e43d52,2019-12-03,4ea6d12f,fix typos and stylistic nit,4,4,6,6,6,6,1,0,0,4,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+pyyaml,a7a97871fc,2019-12-03,42e236d6,"fixup! setup.py: python_requires='!=3.4.*',",1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,039c9eb308,2019-12-03,42e236d6,setup.py: Remove support for EOL Python 3.4,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+pyyaml,a5c2a043a2,2019-12-02,d033138a,Version 5.2,5,3,21,12,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,3f3c373f50,2019-11-25,3d85a5dc,bump version to 5.2b1,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,8c5e47fe62,2019-11-20,d033138a,Move constructor for object/apply to Unsafe,2,2,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0
+pyyaml,4a31b16b04,2019-11-18,d033138a,"Change default loader for add_implicit_resolver, add_path_resolver",2,2,28,8,28,8,0,0,0,4,0,0,0,0,0,0,0,9,0,0,28,0,0,0,0,0
+pyyaml,a5394c04a2,2019-11-18,f96651b6,Add custom constructors to multiple loaders,2,2,14,4,14,4,0,0,0,2,0,0,0,0,0,0,0,9,0,0,12,0,0,0,0,0
+pyyaml,8d7a78003a,2019-11-18,d033138a,Change default loader for yaml.add_constructor (#287),2,2,28,8,28,8,0,0,0,4,0,0,0,0,0,0,0,7,0,0,28,0,0,0,0,0
+pyyaml,31f2279252,2019-11-18,d033138a,Fix logic for quoting special characters (#276),1,1,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,112,1,1,1,0,0,0,0,0
+pyyaml,0f64cbfa54,2019-07-30,3d85a5dc,changes for 5.1.2 release,8,3,29,21,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,5986257f9f,2019-06-06,3d85a5dc,changes for 5.1.1 release,5,3,15,46,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,e471e86bf6,2019-03-13,f96651b6,Updates for 5.1 release,6,3,54,37,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,9141e900d1,2019-03-12,3d85a5dc,Windows Appveyor build,5,1,270,9,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+pyyaml,91c9435bb6,2019-03-08,fd59a62e,Squash/merge pull request #105 from nnadeau/patch-1,4,1,4,13,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,507a464ce6,2019-03-08,d033138a,Make default_flow_style=False,8,8,16,16,16,16,0,0,0,16,0,0,0,0,0,0,0,29,14,14,16,0,0,0,0,0
+pyyaml,07c88c6c1b,2019-03-08,d033138a,Allow to turn off sorting keys in Dumper,14,8,110,35,39,35,0,0,0,18,1,0,1,0,0,0,0,29,16,35,39,0,0,0,0,0
+pyyaml,857dff153d,2019-03-08,d033138a,Apply FullLoader/UnsafeLoader changes to lib3,7,4,229,66,219,56,0,0,0,11,3,2,1,0,13,0,0,24,3,9,174,0,0,0,0,0
+pyyaml,0cedb2a069,2019-03-08,f96651b6,Deprecate/warn usage of yaml.load(input),8,5,228,64,219,55,0,0,0,11,3,2,1,0,13,0,0,24,3,9,173,0,0,0,0,0
+pyyaml,d13a3d0f96,2019-02-27,9daa71f7,Fix for bug https://github.com/yaml/pyyaml/issues/118,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,35,1,1,1,0,0,0,0,0
+pyyaml,9959328b41,2019-02-27,2fe7b03a,Import Hashable from collections.abc,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,1,0,0
+pyyaml,ccc40f3e2b,2018-06-30,f96651b6,Reverting https://github.com/yaml/pyyaml/pull/74,12,8,75,92,61,82,0,0,0,2,0,0,0,0,8,8,0,2,0,0,54,0,0,0,0,0
+pyyaml,d76d037119,2018-06-30,d033138a,Force cython when building sdist,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,d3eb7daf88,2018-06-26,16155861,Changes for 4.1 release,7,3,42,22,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,4c2e993321,2018-06-24,f96651b6,Changes for 4.01 release,7,3,93,36,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+pyyaml,f6049c8cd6,2018-06-24,d033138a,"Support escaped slash in double quotes ""\/""",2,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+pyyaml,b6cbfeec35,2018-04-11,22a34c54,Test on Python 3.7-dev,3,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,801288d796,2018-04-11,0b125a63,Remove commented out Psyco code,4,4,0,26,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+pyyaml,0f2afdea77,2018-04-10,f96651b6,Revert PR #150 per @asomov,2,2,10,2,10,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,8,0,0,0,0,0
+pyyaml,a02d17a027,2018-03-28,609ebd3a,Remove redundant code in Scanner.peek_token(),2,2,2,4,2,4,0,0,0,2,0,0,0,0,0,0,0,4,0,0,2,0,0,0,1,0
+pyyaml,298e07907a,2017-09-11,9170cc8a,Fallback to Pure Python if Compilation fails,1,1,7,55,7,55,0,0,0,1,0,0,0,0,0,1,0,14,0,0,7,0,0,0,0,0
+pyyaml,bbcf95fa05,2017-08-26,16155861,"Now, for py3k!",6,4,46,37,41,30,0,0,0,3,0,0,0,0,4,4,0,7,0,0,39,0,0,0,0,0
+pyyaml,517e83e805,2017-08-26,16155861,"wtf, how did this typo happen",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,7b68405c81,2017-08-26,16155861,Make pyyaml safe by default.,6,4,46,38,41,31,0,0,0,3,0,0,0,0,4,4,0,7,0,0,39,0,0,0,0,0
+pyyaml,d856c206fd,2017-08-08,8c6e82de,Fix typos,12,7,31,31,19,19,1,0,0,4,0,0,0,0,0,0,0,112,2,6,11,0,0,0,0,0
+pyyaml,ef744d8609,2017-08-08,304e5d74,Improve RepresenterError creation,2,2,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,45,2,2,4,0,0,0,0,0
+pyyaml,8bca3eb44d,2017-08-07,0b125a63,Document and test Python 3.6 support,3,1,7,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,cf1c86cb86,2017-05-08,febad61a,First attack at pyyaml does not support literals in unicode over codepoint 0xffff #25,4,4,18,11,18,11,0,0,0,2,0,0,2,0,0,0,0,112,2,6,15,0,0,0,0,0
+pyyaml,c5b135fe39,2017-02-08,f58d91f1,Allow colon in a plain scalar in a flow context (#45),3,2,10,23,10,22,0,0,0,2,0,0,0,2,0,0,0,31,2,8,8,0,0,0,0,0
+pyyaml,16bd7d06c2,2016-08-25,69476d47,Improved check for CPython (fixes issue #58).,1,1,5,7,5,7,1,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+pyyaml,153a194e86,2016-08-25,69476d47,Adding an implicit resolver to a derived loader should not affect the base loader (fixes issue #57).,2,2,8,2,8,2,1,0,0,2,0,0,0,0,0,0,0,10,0,0,8,0,0,0,0,0
+pyyaml,c95586cfb6,2016-08-25,69476d47,Uniform representation for OrderedDict (fixes issue #61).,1,1,12,1,12,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+pyyaml,f10d92f87b,2016-08-25,69476d47,Fixed comparison to () (closes #64).,2,2,6,2,6,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,0
+pyyaml,d737907354,2016-08-25,69476d47,Fixed comparison to None warning (closes issue #64).,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+pyyaml,7bd6e032f3,2016-06-16,69476d47,Support for wheel packages.,1,1,15,6,15,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+pyyaml,491508b042,2016-06-15,69476d47,Raise an error when test suite failed.,5,1,9,6,3,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+pyyaml,a57fe5ca52,2016-06-15,69476d47,Dropped pyrex build support; Cython now supports Python 3.,1,1,10,22,10,22,0,0,0,3,0,0,0,0,0,0,0,15,1,1,10,0,0,0,0,0
+pyyaml,53b4c075f6,2016-06-15,69476d47,Bumped the version number.,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,a0c99023a5,2014-11-28,69476d47,Removed invalid simple key assertion.,2,2,0,8,0,8,0,0,0,2,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0
+pyyaml,96ee4cbfcc,2014-03-26,69476d47,Bumped the version number.,4,3,11,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,9453e0afc0,2011-05-30,69476d47,Removed build options for 2.3 and 2.4.,2,1,1,9,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pyyaml,644385bed3,2011-05-30,69476d47,Dropped support for Python 2.3 and 2.4.,5,3,7,53,4,53,0,0,0,2,0,0,0,0,0,3,0,20,0,0,4,0,0,0,0,0
+pyyaml,b1c7014863,2011-05-30,69476d47,Updated the changelog and bumped the version number.,6,3,36,35,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+pyyaml,7e1b5fae0b,2011-05-30,69476d47,Clear cyclic references in the parser and the emitter to avoid extra GC calls.,11,8,130,44,118,44,0,0,0,20,0,0,6,0,4,0,0,49,8,42,110,0,0,0,0,0
+pyyaml,23c952fe08,2011-05-29,69476d47,Do not attempt to build extensions on platforms other than CPython.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+pyyaml,03b28d0fc7,2009-08-30,69476d47,Minor formatting cleanup.,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1
+pyyaml,50bc6388bf,2009-08-30,69476d47,Fixed Python 3.1 incompatibility issues.,4,3,18,8,13,4,1,0,0,4,0,0,0,0,0,0,0,30,0,0,13,0,0,0,0,0
+pyyaml,b3c9435637,2009-08-30,69476d47,Preparing the next release.,5,3,41,22,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,b8b826f1ca,2009-08-30,69476d47,Fixed sorting of dict.keys() generator.,1,1,1,2,1,2,1,0,0,1,0,0,0,1,0,0,0,35,1,1,1,0,0,0,0,0
+pyyaml,583ea8ad32,2009-08-29,69476d47,Added a note that Python 3.1 is supported.,2,1,9,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,ed9cd1bbad,2009-08-29,69476d47,Merged some bug fixes from lib to lib3.,1,1,4,1,4,1,1,0,0,2,0,0,2,0,0,0,0,53,2,4,4,0,0,0,0,0
+pyyaml,335c34455d,2009-08-29,69476d47,Fixed a problem with a scanner error not detected when no line break at the end of the stream.,3,2,6,2,4,2,1,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+pyyaml,51fd5cbfdb,2009-08-29,69476d47,Fixed a typo in docstring.,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+pyyaml,fa14e18b38,2009-08-29,69476d47,Fixed emitting of invalid BOM for UTF-16.,12,2,62,54,2,2,1,0,0,2,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+pyyaml,59bb2dff6a,2009-08-29,69476d47,Removed obsolete 'package_dir' line.,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pyyaml,6483cb73c7,2009-03-28,69476d47,Fixed a bug where folded scalar emitter did not respect the preffered line width (Thanks ingy for th,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,53,1,1,1,0,0,0,0,0
+pyyaml,08a55b972b,2009-02-23,69476d47,Added a workaround against #116 (Thanks Andrey Somov).,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,36,1,3,3,0,0,0,0,0
+pyyaml,6f51a53a6b,2008-12-30,69476d47,Fixed a typo in the attribute name (Thanks ingy).,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+pyyaml,466bc3865c,2008-12-30,69476d47,Added a MS VC 6.0 compatibility hack against Cython-generated C sources.,2,1,9,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+pyyaml,6a62e8e7e0,2008-12-30,69476d47,Final touches before the release.,7,3,50,33,14,6,0,0,0,2,0,0,2,0,0,0,0,25,2,10,12,0,0,0,0,0
+pyyaml,e2bf4f3a03,2008-12-30,69476d47,Minor compatibility fixes.,3,1,13,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,bf272b0339,2008-12-30,69476d47,Fixed str/bytes issues with Python 3 in _yaml.pyx.,10,1,394,163,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,5f5e9a9494,2008-12-30,69476d47,Handle the encoding of input and output streams in a uniform way.,12,3,703,77,11,14,0,0,0,7,0,0,0,1,0,0,0,26,6,10,11,0,0,0,0,0
+pyyaml,7d5f9450cf,2008-12-29,69476d47,Use Cython if available; added Python 3 support to _yaml.pyx.,7,4,187,82,152,64,0,0,0,2,3,0,0,0,6,0,0,16,0,0,127,0,0,0,0,0
+pyyaml,ab8d940469,2008-12-29,69476d47,Share data files between Py2 and Py3 test suites.,598,2,29,3034,2,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+pyyaml,ca836ef04d,2008-12-29,69476d47,Fixed the remaining Python 3 compatibility issues.,16,2,18,40,2,3,1,0,0,2,0,0,0,1,0,0,0,35,1,1,2,0,0,0,0,0
+pyyaml,235ab98c2c,2008-12-29,69476d47,Added basic support for Python 3 (Thanks idadesub(at)users(dot)sourceforge(dot)net).,574,22,10516,45,6002,45,0,2,0,11,47,0,0,0,351,0,0,34,2,2,4550,0,0,0,0,0
+pyyaml,1310c51249,2008-12-28,69476d47,Added CHANGES; updated the announcement; wording fixes in setup.py.,5,1,148,30,11,8,1,0,0,1,0,0,0,0,0,0,0,49,0,0,11,0,0,0,0,0
+pyyaml,8e88d11b41,2008-12-28,69476d47,Minor 2.3 and win32 compatibility fixes; clarify the 'feature not found' message in setup.py.,5,1,22,11,2,1,1,0,0,1,0,0,0,0,0,0,0,46,0,0,2,0,0,0,0,0
+pyyaml,1e842301f4,2008-12-28,69476d47,Fixed an issue with ReaderError generated by the LibYAML wrapper.,2,1,19,19,2,2,1,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+pyyaml,aff84ff195,2008-12-28,69476d47,Refactored the test suite; updated include and library paths in setup.cfg.,34,1,1698,1649,20,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,14,0,0,1,0,1
+pyyaml,a667b61247,2008-12-27,69476d47,Bumped the version number.,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,5413848f2b,2008-12-27,69476d47,Emit an explicit document end indicator when there is a possibility of ambiguous parsing.,1,1,18,2,18,2,0,0,0,6,0,0,5,0,0,0,0,58,5,15,16,0,0,0,0,0
+pyyaml,59f1f45465,2008-12-27,69476d47,Refactored whitespace combination detector in the scalar analyzer: support dumping '^ <break> <space,2,2,49,93,49,93,0,0,0,1,0,0,0,1,0,0,0,111,1,42,42,0,0,0,0,1
+pyyaml,3acc330efa,2008-12-08,69476d47,Fixed typos in attribute names (Thanks to ingy).,2,2,3,5,3,5,1,0,0,2,0,0,0,0,0,0,0,56,2,3,3,0,0,0,0,0
+pyyaml,9027393a4f,2008-12-05,69476d47,Added a comment on Python 3 support.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,5d2ae6b34f,2008-12-05,69476d47,Added trove classifiers for supported Python versions.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+pyyaml,6282bda857,2008-12-04,69476d47,Fixed a problem with emitting block scalars (thanks to Andrey Somov): no longer emit indentation spa,1,1,11,14,11,14,1,0,0,3,0,0,0,0,0,0,0,50,2,5,11,0,0,0,0,0
+pyyaml,b78e4948ab,2008-12-04,69476d47,Removed unused variable.,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,49,1,0,0,0,0,0,0,0
+pyyaml,d41df6ae3b,2008-11-30,69476d47,Removed a stale comment; fixes #102.,1,1,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pyyaml,3ea3d11ffc,2008-11-30,69476d47,Pretend that PyYAML is a pure Python library when the LibYAML extension is explicitly disabled.,1,1,58,33,58,33,0,0,0,3,0,0,0,0,4,3,0,45,0,0,55,0,0,0,0,0
+pyyaml,0415f86e9d,2008-11-30,69476d47,determine_chomp -> determine_block_hints,1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,32,1,1,2,0,0,0,0,0
+pyyaml,ec77e1356d,2008-11-30,69476d47,Permit emitting block scalars with leading spaces or breaks.,1,1,16,15,16,15,0,0,0,3,0,0,1,0,0,0,0,141,2,6,12,0,0,0,0,0
+pyyaml,9768babfd8,2008-10-09,69476d47,Fixed the distutils script to run when installed using easy_install and Pyrex is available.,1,1,8,1,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+pyyaml,5d943d1a15,2008-10-03,69476d47,Dropped tests from the source distribution since LibYAML bindings do not pass them; updated README a,6,2,26,18,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,f13e492919,2008-10-02,69476d47,Python 2.3 and win32 compatibility fixes in setup.py.,2,2,33,280,33,280,1,0,0,3,0,0,1,0,1,6,0,25,1,3,32,0,0,0,0,0
+pyyaml,c0d61333ac,2008-10-02,69476d47,Check if libyaml is installed before attempting to compile the libyaml bindings.,1,1,78,5,78,5,0,0,0,3,0,0,1,0,1,0,0,17,1,3,70,0,0,0,0,0
+pyyaml,be82996bc4,2008-10-01,69476d47,Dropped setuptools-based setup.py in favor of custom distribution and build_ext command.,4,1,111,1435,106,10,0,0,0,0,1,0,0,0,7,0,0,0,0,0,87,0,0,0,0,0
+pyyaml,f20210c327,2008-09-30,69476d47,Added attributes ``yaml.__version__`` and ``yaml.__libyaml__`` (fixes #85).,1,1,4,2,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+pyyaml,61e06c4b7f,2008-09-30,69476d47,Added a setuptools installer 'ez_setup.py'.,2,2,278,0,278,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,208,0,0,0,0,0
+pyyaml,a69b98b63f,2008-09-30,69476d47,"Use setuptools for setup.py.  Dropped setup_with_libyaml.py; to build libyaml bindings, use --with-l",3,3,14,35,14,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+pyyaml,487ac91791,2008-07-29,69476d47,Fixed Python 2.3 compatibility (thanks to Julian Scheid for suggestion).,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,29,0,0,4,0,0,0,0,0
+pyyaml,073f08e9d9,2007-11-18,69476d47,A single dot is not a float value (fixes #62).,2,1,3,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+pyyaml,046f114050,2007-08-21,69476d47,Make compose() and load() ensure that the input stream contains a single document.  Fixes #54.,8,3,85,14,40,14,1,0,0,3,0,0,0,0,2,0,0,3,0,0,28,0,0,0,0,0
+pyyaml,e1d133ae33,2007-05-12,69476d47,Update the package version.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,dafd164387,2007-05-08,69476d47,Allow for immutable subclasses of YAMLObject. Fixes #53.,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,69379ea21b,2007-05-05,69476d47,Make the encoding of the unicode->str conversion explicit; fix [52].,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+pyyaml,9eb838b97b,2007-04-17,69476d47,Fixed a problem when the DOCUMENT-END event is not emitted until the beginning of the next document ,1,1,5,1,5,1,1,0,0,2,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+pyyaml,96fcba3d7f,2007-03-22,69476d47,Improve output of float values. Fix #49.,1,1,10,1,10,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+pyyaml,04ff8e6fa1,2007-02-23,69476d47,Fix the bug when the `path` in `add_path_resolver` contains boolean values.  Fix #43 (thanks to jstr,1,1,15,2,15,2,1,0,0,1,0,0,1,0,0,0,0,22,1,3,3,0,0,0,0,0
+pyyaml,21483f22d7,2006-12-08,69476d47,Use the types module instead of constructing type objects by hand. Fix #41. Thanks to v.haisman@sh.c,3,3,10,26,10,26,1,0,0,3,0,0,0,1,0,0,0,94,2,2,10,0,0,1,0,0
+pyyaml,ed79023a71,2006-10-04,69476d47,Fix loss of microsecond precision in datetime.datetime constructor (fix #30). Thanks to edemaine@mit,5,1,12,2,2,2,1,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+pyyaml,cc9c738342,2006-09-12,69476d47,Fix loading an empty YAML stream.,4,1,8,8,4,5,1,0,0,2,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+pyyaml,1710a8d1b6,2006-08-19,69476d47,Preparing the next release.,4,3,52,32,50,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,0,0,0,0,0
+pyyaml,8f9b8bed40,2006-08-16,69476d47,The 'N' plain scalar was still recognized as ``!!bool``. Fix it (close #26).,3,1,7,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,29413ea88e,2006-08-16,69476d47,Fix timestamp constructing and representing (close #25).,7,2,77,51,36,44,1,0,0,3,0,0,0,0,0,0,0,26,0,0,36,0,0,0,0,0
+pyyaml,17fa129ada,2006-08-13,69476d47,Completely rewrite the libyaml bindings.,8,4,1438,333,101,6,0,0,0,4,3,0,1,0,6,0,0,23,1,6,82,0,0,0,0,0
+pyyaml,8b083c6a96,2006-08-03,69476d47,Subclass all base classes from `object`.,32,13,295,208,226,191,0,0,0,29,0,3,1,1,3,0,0,50,5,65,199,0,0,0,0,0
+pyyaml,2e6c774c92,2006-07-30,69476d47,Fix a bug when a block scalar is incorrectly emitted in the simple key context.,3,1,13,2,3,2,1,0,0,2,0,0,1,0,0,0,0,140,2,3,3,0,0,0,0,0
+pyyaml,056fe5c72e,2006-07-11,69476d47,Fix a bug in Representer.represent_object: copy_reg.dispatch_table was not correctly handled.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,47,1,1,1,0,0,0,0,0
+pyyaml,6743cf6181,2006-07-07,69476d47,Update PyRex based bindings to libyaml to include Parser functions.,4,1,315,16,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+pyyaml,95c8976b37,2006-07-07,69476d47,Fix some minor issues with the new Parser.,1,1,7,7,7,7,1,0,0,6,0,0,0,1,0,0,0,94,1,1,7,0,0,0,0,0
+pyyaml,63fa1bd6fe,2006-07-03,69476d47,"To make porting easier, rewrite Parser not using generators.",5,4,312,231,309,231,0,0,1,5,0,3,0,1,20,10,0,95,1,10,199,0,0,0,0,0
+pyyaml,27de2ba1fc,2006-06-30,69476d47,Fix invalid output of single-quoted scalars in cases when a single quote is not escaped when preceed,3,1,10,7,7,7,1,0,0,1,0,0,0,0,0,0,0,53,1,7,7,1,0,0,0,0
+pyyaml,4b48dcfb5f,2006-06-19,69476d47,Add pyrex-based bindings for the libyaml scanner.,8,3,393,5,17,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+pyyaml,47b72d2be7,2006-06-19,69476d47,Preparing the release: PyYAML-3.03,2,1,10,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,72992fe01c,2006-06-18,69476d47,Fix a typo in a plain scalar scanner.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,36,1,2,2,0,0,0,0,0
+pyyaml,bcfc0b6dda,2006-06-16,69476d47,Fix several problems caused by ill-formed documents.,4,2,21,8,16,8,1,0,0,4,0,0,0,0,0,0,0,48,1,2,11,0,0,0,0,0
+pyyaml,e51f97dc02,2006-05-22,69476d47,Optimize slightly the float constructor.,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+pyyaml,500659ddd6,2006-05-22,69476d47,Revamp the inf/nan handling again.,5,3,27,17,13,16,0,0,0,3,0,0,0,0,0,0,0,14,0,0,13,0,0,0,0,0
+pyyaml,149a437eda,2006-05-21,69476d47,Fixed #15 (pyyaml discards '-' sign on negative floats). Thanks to alex_(a)_alexmole_(o)_co_(o)_uk f,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+pyyaml,810977b416,2006-05-15,69476d47,Dynamically determine the inf and nan values. Should fix #14. Thanks to Scott Daniels for the report,2,2,11,4,11,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+pyyaml,da8f3caa44,2006-05-15,69476d47,Preparing the next release.,3,1,44,37,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,9bd0b4e531,2006-05-11,69476d47,Fix a bug in add_path_resolver: map -> dict.,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,40,1,2,2,0,0,0,0,0
+pyyaml,8f22ae6de3,2006-05-07,69476d47,Final touches before the initial release.,3,1,15,11,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+pyyaml,43ffedd470,2006-05-07,69476d47,Allow first=None for add_implicit_resolver.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+pyyaml,74f8caa6fb,2006-05-06,69476d47,Fix #11 (Thanks to edemaine(at)mit.edu).,6,3,29,19,21,17,1,0,0,3,0,0,2,0,1,1,0,140,2,7,9,0,0,0,0,0
+pyyaml,80ba450695,2006-05-04,69476d47,Add a way to override default style chosen by Representer: fix #9,3,3,22,5,22,5,0,0,0,8,0,0,5,0,0,0,0,28,5,15,22,0,0,0,0,0
+pyyaml,cd21dc64a9,2006-04-23,69476d47,1e30000 => 1e300000,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+pyyaml,410d822bd5,2006-04-23,69476d47,Prepare setup.py for release. Fix #7.,7,2,58,14,41,9,1,0,0,1,0,0,0,0,0,0,0,11,0,0,38,0,0,0,0,0
+pyyaml,fc01755908,2006-04-23,69476d47,Raise an error for colons in the flow context.,3,1,15,3,7,0,0,0,0,1,0,0,1,0,0,0,0,36,1,6,6,0,0,0,0,0
+pyyaml,e8eed6301b,2006-04-22,69476d47,Sort object attributes.,1,1,7,0,7,0,0,0,0,3,0,0,1,0,0,0,0,47,1,2,7,0,0,0,0,0
+pyyaml,c87ce16706,2006-04-22,69476d47,Add support for pickling/unpickling python objects.,7,3,436,17,257,16,0,0,0,4,4,0,0,0,9,0,0,45,2,62,194,0,0,0,0,0
+pyyaml,cce15169da,2006-04-21,69476d47,Fix !!python/name for Python 2.3. Clear the yaml module namespace.,8,2,27,24,5,13,1,0,0,1,0,0,0,0,0,0,0,22,0,0,3,0,0,1,0,0
+pyyaml,80ed3f1f57,2006-04-18,69476d47,Fix bugs in emitter and representer.,2,2,10,7,10,7,1,0,0,3,0,0,0,1,0,0,0,51,1,3,10,0,0,0,0,0
+pyyaml,c9aec90fde,2006-04-18,69476d47,Add support for recursive nodes to Composer. Constructor does not support recursive objects though.,4,2,49,23,26,23,0,0,0,9,1,0,0,0,0,0,0,36,1,5,26,0,0,0,0,0
+pyyaml,95b3cef7eb,2006-04-18,69476d47,Add more unit tests for error messages.,25,1,132,3,3,3,0,0,0,2,0,0,0,0,0,0,0,24,1,2,3,0,0,0,0,0
+pyyaml,19e134b5e9,2006-04-18,69476d47,Add constructors for some simple python types.,3,3,256,43,256,43,0,0,0,9,0,0,0,0,17,0,0,31,0,0,213,0,0,0,0,0
+pyyaml,ea23091a5b,2006-04-17,69476d47,Fix #4 (Thanks to murphy(at)rubychan.de),3,1,6,1,0,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0
+pyyaml,b12e7fea10,2006-04-16,69476d47,Refactor resolver.,24,12,517,335,314,249,0,0,1,22,4,2,2,0,10,11,0,95,10,55,287,0,0,0,0,1
+pyyaml,6a97abb4c7,2006-04-15,69476d47,Major refactoring.,31,17,1622,1226,1353,995,0,1,0,133,13,9,5,1,45,30,0,139,33,382,1196,0,0,0,0,1
+pyyaml,fcf5d614a9,2006-04-12,69476d47,Fix allow_unicode (ticket:3).,3,3,14,9,14,9,1,0,0,4,0,0,0,0,0,0,0,23,3,3,14,0,0,0,0,0
+pyyaml,cc316a4699,2006-04-11,69476d47,Implement yaml.dump().,15,11,710,150,601,149,0,0,1,11,8,1,4,0,45,6,0,126,5,16,500,0,0,0,0,0
+pyyaml,2d457ba718,2006-04-09,69476d47,Emitter is done!!!,15,8,768,81,698,60,0,1,0,22,12,0,1,1,24,0,0,89,7,38,659,0,0,0,0,0
+pyyaml,01b5e1925b,2006-04-03,69476d47,Working on emitter: implement the state machine.,2,2,424,1,424,1,0,0,0,1,2,0,1,0,35,0,0,10,1,3,329,0,0,0,0,0
+pyyaml,268bb76831,2006-04-03,69476d47,Add style information to events generated by Parser.,19,6,415,87,153,70,0,0,0,30,5,0,4,0,4,0,0,92,7,60,141,0,0,0,0,0
+pyyaml,d2e8000f09,2006-03-19,69476d47,Add an example: yaml highlight script.,5,2,166,3,5,3,0,0,0,2,0,0,1,0,0,0,0,7,1,2,5,0,0,0,0,0
+pyyaml,8973bb473b,2006-03-19,69476d47," * Add the token STREAM-START.  * Add parsing events: STREAM-START, DOCUMENT-START, DOCUMENT-END.",8,5,79,10,66,6,0,0,0,4,0,0,0,0,1,0,0,43,0,0,35,0,0,0,0,0
+pyyaml,6548cd6b67,2006-03-19,69476d47,Loose indentation rules for the following cases:,5,1,97,39,51,37,0,0,0,7,1,0,0,1,0,0,0,41,3,13,25,0,0,0,0,0
+pyyaml,14ed697df4,2006-03-18,69476d47,Back to work :). Rename markers to marks.,12,9,332,332,324,324,0,0,0,73,0,0,0,0,1,1,0,81,10,79,316,0,0,0,0,0

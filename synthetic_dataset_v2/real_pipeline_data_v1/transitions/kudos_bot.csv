@@ -1,0 +1,7 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+kudos_bot,v0.8,v0.9,6,kudos_bot/rules.py::classify_member_10::complex_method,kudos_bot/rules.py,classify_member_10,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,38,38,0,0.0
+kudos_bot,v0.9,v0.10,7,kudos_bot/rules.py::classify_member_10::complex_method,kudos_bot/rules.py,classify_member_10,complex_method,MAJOR,0,38,18,0,0,0,0.08063718374266897,none,1,38,0,0,0.0
+kudos_bot,v0.10,v0.11,8,kudos_bot/rules.py::classify_member_10::complex_method,kudos_bot/rules.py,classify_member_10,complex_method,MAJOR,0,38,18,1,0,0,0.08063718374266897,none,1,38,0,0,0.0
+kudos_bot,v0.11,v0.12,9,kudos_bot/rules.py::classify_member_10::complex_method,kudos_bot/rules.py,classify_member_10,complex_method,MAJOR,0,38,18,2,0,0,0.08063718374266897,increase,1,39,1,0,0.0
+kudos_bot,v0.12,v0.13,10,kudos_bot/rules.py::classify_member_10::complex_method,kudos_bot/rules.py,classify_member_10,complex_method,MAJOR,0,39,18,3,0,0,0.08297381883263105,none,1,39,0,0,0.0
+kudos_bot,v0.13,v0.14,11,kudos_bot/rules.py::classify_member_10::complex_method,kudos_bot/rules.py,classify_member_10,complex_method,MAJOR,0,39,18,4,0,0,0.08297381883263105,repayment,0,0,4,0,0.0

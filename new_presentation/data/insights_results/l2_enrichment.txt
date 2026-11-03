@@ -1,0 +1,13 @@
+          share_of_code_in_debt_regions  share_of_changes_in_debt_regions  enrichment
+repo                                                                                 
+boltons                           0.209                             0.101       0.485
+cJSON                             0.475                             0.193       0.407
+click                             0.181                             0.154       0.849
+jansson                           0.352                             0.103       0.294
+jinja                             0.192                             0.160       0.832
+libpng                            0.511                             0.144       0.283
+libyaml                           0.437                             0.114       0.261
+werkzeug                          0.159                             0.090       0.568
+zlib                              0.290                             0.104       0.360
+
+all projects: debt regions are 31.8% of the code and receive 12.3% of the added/modified lines -> enrichment 0.39

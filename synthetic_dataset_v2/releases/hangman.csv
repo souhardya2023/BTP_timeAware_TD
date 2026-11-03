@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+hangman,v0.1,v0.2,0,0.127,24,348,20,0,4
+hangman,v0.2,v0.3,1,0.2207,6,372,43,0,7
+hangman,v0.3,v0.4,2,0.8479,15,378,49,1,8
+hangman,v0.4,v0.5,3,0.2372,0,378,47,0,7

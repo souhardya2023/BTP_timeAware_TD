@@ -1,0 +1,11 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+currency_converter,0,v0.1,v0.2,2019-01-08,2019-02-20,minor,2,588,352,635,352,8,57,2,2,20
+currency_converter,1,v0.2,v0.3,2019-02-20,2019-06-30,minor,13,635,352,654,353,8,85,46,46,11
+currency_converter,2,v0.3,v0.4,2019-06-30,2019-09-22,minor,8,654,353,668,356,8,27,7,7,10
+currency_converter,3,v0.4,v0.5,2019-09-22,2020-02-01,minor,9,668,356,736,417,8,87,63,2,18
+currency_converter,4,v0.5,v0.6,2020-02-01,2020-07-04,minor,8,736,417,777,427,8,75,14,14,12
+currency_converter,5,v0.6,v0.7,2020-07-04,2020-09-17,minor,5,777,427,795,428,8,44,8,8,9
+currency_converter,6,v0.7,v0.8,2020-09-17,2020-12-15,minor,5,795,428,802,465,8,26,24,0,3
+currency_converter,7,v0.8,v0.9,2020-12-15,2021-01-16,minor,3,802,465,801,465,8,4,0,0,3
+currency_converter,8,v0.9,v0.10,2021-01-16,2021-05-23,minor,8,801,465,752,379,8,56,17,17,13
+currency_converter,9,v0.10,v0.11,2021-05-23,2021-06-16,minor,1,752,379,715,379,8,5,0,0,1

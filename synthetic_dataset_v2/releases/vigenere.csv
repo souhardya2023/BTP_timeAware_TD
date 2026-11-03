@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+vigenere,v0.1,v0.2,0,0.8808,43,290,39,0,4
+vigenere,v0.2,v0.3,1,0.5443,3,330,78,3,7
+vigenere,v0.3,v0.4,2,0.2264,4,329,74,4,6
+vigenere,v0.4,v0.5,3,2.9617,8,303,42,2,5

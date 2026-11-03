@@ -1,0 +1,16 @@
+== CodeBERT mean embedding, logistic regression C=0.1
+v2 synthetic (1313 pairs): random 0.955  held-out project 0.967  held-out template 0.741   majority 0.209
+train v2 -> real 61 pairs: 0.197 (majority 0.426); predicted {'dependency_structure': np.int64(40), 'security': np.int64(7), 'concurrency': np.int64(7), 'coupling_cohesion': np.int64(5), 'complexity': np.int64(2)}
+train v2 -> natural pairs, all weak labels (4 types) (n=1123): 0.260 (majority 0.426)
+train v2 -> natural pairs, dual evidence (n=379): 0.259 (majority 0.359)
+train natural (dual, 379 pairs) -> real 61 pairs of the same 4 types (n=55): 0.545 (majority 0.473)
+train natural (dual) -> v2 synthetic of the same 4 types (n=1056): 0.616 (majority 0.260)
+train v2 + natural -> real 61: 0.443
+== CodeBERT cls embedding, logistic regression C=0.1
+v2 synthetic (1313 pairs): random 0.952  held-out project 0.967  held-out template 0.684   majority 0.209
+train v2 -> real 61 pairs: 0.344 (majority 0.426); predicted {'dependency_structure': np.int64(22), 'security': np.int64(21), 'concurrency': np.int64(11), 'complexity': np.int64(6), 'coupling_cohesion': np.int64(1)}
+train v2 -> natural pairs, all weak labels (4 types) (n=1123): 0.220 (majority 0.426)
+train v2 -> natural pairs, dual evidence (n=379): 0.277 (majority 0.359)
+train natural (dual, 379 pairs) -> real 61 pairs of the same 4 types (n=55): 0.564 (majority 0.473)
+train natural (dual) -> v2 synthetic of the same 4 types (n=1056): 0.563 (majority 0.260)
+train v2 + natural -> real 61: 0.623

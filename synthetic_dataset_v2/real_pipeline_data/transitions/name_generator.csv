@@ -1,0 +1,10 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+name_generator,v0.1,v0.2,0,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,0,0,0,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.2,v0.3,1,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,1,0,0,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.3,v0.4,2,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,2,0,0,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.4,v0.5,3,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,3,0,0,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.5,v0.6,4,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,4,0,0,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.6,v0.7,5,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,5,0,0,0.08531643558590787,interest,1,40,3,3.0,0.004942396395519926
+name_generator,v0.7,v0.8,6,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,6,3,1,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.8,v0.9,7,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,7,3,1,0.08531643558590787,none,1,40,0,0,0.0
+name_generator,v0.9,v0.10,8,name_generator/rules.py::describe_sample::complex_method,name_generator/rules.py,describe_sample,complex_method,MAJOR,0,40,13,8,3,1,0.08531643558590787,none,1,40,0,0,0.0

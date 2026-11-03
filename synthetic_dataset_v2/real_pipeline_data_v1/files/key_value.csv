@@ -1,0 +1,11 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+key_value,0,key_value/core.py,51,149,30,30
+key_value,0,key_value/services.py,47,68,0,0
+key_value,1,key_value/core.py,10,155,30,0
+key_value,1,key_value/services.py,14,78,0,0
+key_value,2,key_value/core.py,3,155,30,0
+key_value,2,key_value/services.py,1,78,0,0
+key_value,3,key_value/core.py,1,155,30,0
+key_value,3,key_value/services.py,1,79,0,0
+key_value,4,key_value/core.py,1,156,30,0
+key_value,4,key_value/services.py,1,79,0,0

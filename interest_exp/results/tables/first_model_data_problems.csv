@@ -1,0 +1,6 @@
+check,result
+target Target_PM is an exact function of Lines_Added (2.64 x KSLOC^0.91),yes
+rows whose project differs between the SonarQube side and the git-history side (pair-name join across Python/ and C_C++/),20 of 61
+rows whose TD type differs between the two sides,18 of 61
+distinct projects actually present in the model data,"boltons, click, jinja, werkzeug"
+"distinct rows by (project, history-interest value): rows sharing identical history features",26 duplicated feature rows

@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+typing_practice,v0.1,v0.2,0,0.9323,109,288,59,3,3
+typing_practice,v0.2,v0.3,1,5.2943,105,388,136,25,6
+typing_practice,v0.3,v0.4,2,0.1029,38,457,138,7,6
+typing_practice,v0.4,v0.5,3,0.5704,65,488,169,9,7
+typing_practice,v0.5,v0.6,4,0.4034,155,540,186,9,7
+typing_practice,v0.6,v0.7,5,0.5072,41,622,249,10,7
+typing_practice,v0.7,v0.8,6,0.6235,20,650,250,15,7
+typing_practice,v0.8,v0.9,7,0.3809,25,654,252,20,7
+typing_practice,v0.9,v0.10,8,0.8283,75,648,243,22,6

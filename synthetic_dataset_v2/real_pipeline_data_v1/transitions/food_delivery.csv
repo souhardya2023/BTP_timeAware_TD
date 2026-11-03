@@ -1,0 +1,15 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+food_delivery,v0.15,v0.16,5,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,0,0,0,0,0,0.0,introduced,1,30,30,0,0.0
+food_delivery,v0.16,v0.17,6,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,0,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.17,v0.18,7,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,1,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.18,v0.19,8,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,2,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.19,v0.20,9,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,3,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.20,v0.21,10,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,4,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.21,v0.22,11,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,5,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.22,v0.23,12,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,6,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.23,v0.24,13,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,7,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.24,v0.25,14,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,8,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.25,v0.26,15,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,9,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.26,v0.27,16,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,10,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.27,v0.28,17,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,11,0,0,0.06217811821415762,none,1,30,0,0,0.0
+food_delivery,v0.28,v0.29,18,food_delivery/rules.py::handle_dish_9::complex_method,food_delivery/rules.py,handle_dish_9,complex_method,MAJOR,0,30,17,12,0,0,0.06217811821415762,none,1,30,0,0,0.0

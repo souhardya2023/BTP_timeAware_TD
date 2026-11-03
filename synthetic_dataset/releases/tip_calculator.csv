@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+tip_calculator,v0.1,v0.2,0,3.6289,132,240,55,2,4
+tip_calculator,v0.2,v0.3,1,0.5183,10,359,96,0,7
+tip_calculator,v0.3,v0.4,2,0.2917,0,360,96,0,7
+tip_calculator,v0.4,v0.5,3,0.0928,3,360,96,3,7
+tip_calculator,v0.5,v0.6,4,1.1446,39,360,93,2,6

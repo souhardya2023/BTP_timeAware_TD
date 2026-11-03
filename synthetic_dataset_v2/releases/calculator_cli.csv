@@ -1,0 +1,14 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+calculator_cli,v0.1,v0.2,0,6.6196,99,613,32,2,4
+calculator_cli,v0.2,v0.3,1,0.3693,22,479,44,0,5
+calculator_cli,v0.3,v0.4,2,0.2564,0,481,56,0,6
+calculator_cli,v0.4,v0.5,3,0.2769,58,465,56,0,6
+calculator_cli,v0.5,v0.6,4,0.3932,6,523,56,0,6
+calculator_cli,v0.6,v0.7,5,0.3993,14,499,56,0,6
+calculator_cli,v0.7,v0.8,6,0.2156,0,489,66,0,7
+calculator_cli,v0.8,v0.9,7,1.5787,19,489,66,7,7
+calculator_cli,v0.9,v0.10,8,0.1634,5,500,73,0,7
+calculator_cli,v0.10,v0.11,9,1.9205,28,467,73,6,7
+calculator_cli,v0.11,v0.12,10,1.6639,15,481,61,0,6
+calculator_cli,v0.12,v0.13,11,0.2914,1,481,61,0,6
+calculator_cli,v0.13,v0.14,12,0.3153,0,481,61,0,6

@@ -1,0 +1,16 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+tip_calculator,v0.1,v0.2,0,tip_calculator/core.py::top_splits::long_method,tip_calculator/core.py,top_splits,long_method,MAJOR,0,260,87,0,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.1,v0.2,0,tip_calculator/core.py::top_splits::complex_method,tip_calculator/core.py,top_splits,complex_method,MAJOR,0,260,87,0,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.1,v0.2,0,tip_calculator/core.py::build_bill_1::many_params,tip_calculator/core.py,build_bill_1,many_params,MAJOR,0,11,4,0,0,0,0.02062846280146194,none,1,11,0,0,0.0
+tip_calculator,v0.2,v0.3,1,tip_calculator/core.py::top_splits::long_method,tip_calculator/core.py,top_splits,long_method,MAJOR,0,260,87,1,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.2,v0.3,1,tip_calculator/core.py::top_splits::complex_method,tip_calculator/core.py,top_splits,complex_method,MAJOR,0,260,87,1,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.2,v0.3,1,tip_calculator/core.py::build_bill_1::many_params,tip_calculator/core.py,build_bill_1,many_params,MAJOR,0,11,4,1,0,0,0.02062846280146194,none,1,11,0,0,0.0
+tip_calculator,v0.3,v0.4,2,tip_calculator/core.py::top_splits::long_method,tip_calculator/core.py,top_splits,long_method,MAJOR,0,260,87,2,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.3,v0.4,2,tip_calculator/core.py::top_splits::complex_method,tip_calculator/core.py,top_splits,complex_method,MAJOR,0,260,87,2,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.3,v0.4,2,tip_calculator/core.py::build_bill_1::many_params,tip_calculator/core.py,build_bill_1,many_params,MAJOR,0,11,4,2,0,0,0.02062846280146194,none,1,11,0,0,0.0
+tip_calculator,v0.4,v0.5,3,tip_calculator/core.py::top_splits::long_method,tip_calculator/core.py,top_splits,long_method,MAJOR,0,260,87,3,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.4,v0.5,3,tip_calculator/core.py::top_splits::complex_method,tip_calculator/core.py,top_splits,complex_method,MAJOR,0,260,87,3,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.4,v0.5,3,tip_calculator/core.py::build_bill_1::many_params,tip_calculator/core.py,build_bill_1,many_params,MAJOR,0,11,4,3,0,0,0.02062846280146194,interest,1,2,1,1.0,0.001476547186496228
+tip_calculator,v0.5,v0.6,4,tip_calculator/core.py::top_splits::long_method,tip_calculator/core.py,top_splits,long_method,MAJOR,0,260,87,4,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.5,v0.6,4,tip_calculator/core.py::top_splits::complex_method,tip_calculator/core.py,top_splits,complex_method,MAJOR,0,260,87,4,0,0,0.6683339472587922,none,1,260,0,0,0.0
+tip_calculator,v0.5,v0.6,4,tip_calculator/core.py::build_bill_1::many_params,tip_calculator/core.py,build_bill_1,many_params,MAJOR,0,2,1,4,1,1,0.003164390096496418,none,1,2,0,0,0.0

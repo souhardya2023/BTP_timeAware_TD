@@ -1,0 +1,5 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+warehouse_picking,v0.3,v0.4,0,warehouse_picking/reports.py::report_picker_2::long_method,warehouse_picking/reports.py,report_picker_2,long_method,MAJOR,0,54,17,0,0,0,0.11867541199348862,none,1,54,0,0,0.0
+warehouse_picking,v0.3,v0.4,0,warehouse_picking/reports.py::report_picker_2::complex_method,warehouse_picking/reports.py,report_picker_2,complex_method,MAJOR,0,54,17,0,0,0,0.11867541199348862,none,1,54,0,0,0.0
+warehouse_picking,v0.4,v0.5,1,warehouse_picking/reports.py::report_picker_2::long_method,warehouse_picking/reports.py,report_picker_2,long_method,MAJOR,0,54,17,1,0,0,0.11867541199348862,repayment,0,0,5,0,0.0
+warehouse_picking,v0.4,v0.5,1,warehouse_picking/reports.py::report_picker_2::complex_method,warehouse_picking/reports.py,report_picker_2,complex_method,MAJOR,0,54,17,1,0,0,0.11867541199348862,repayment,0,0,5,0,0.0

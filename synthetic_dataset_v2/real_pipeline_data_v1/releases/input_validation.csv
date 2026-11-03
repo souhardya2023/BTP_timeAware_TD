@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+input_validation,0,v0.1,v0.2,2019-01-11,2019-01-13,minor,2,232,54,252,54,5,28,2,2,7
+input_validation,1,v0.2,v0.3,2019-01-13,2019-01-14,minor,1,252,54,269,54,5,20,0,0,3
+input_validation,2,v0.3,v0.4,2019-01-14,2019-01-19,minor,6,269,54,270,54,5,9,2,2,7
+input_validation,3,v0.4,v0.5,2019-01-19,2019-01-20,minor,1,270,54,270,54,5,1,0,0,1
+input_validation,4,v0.5,v0.6,2019-01-20,2019-02-02,minor,21,270,54,301,54,5,55,4,4,25

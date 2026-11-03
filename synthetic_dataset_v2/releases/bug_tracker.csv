@@ -1,0 +1,15 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+bug_tracker,v0.1,v0.2,0,0.3464,7,679,17,0,4
+bug_tracker,v0.2,v0.3,1,1.0189,32,679,17,2,4
+bug_tracker,v0.3,v0.4,2,0.3108,32,696,13,0,3
+bug_tracker,v0.4,v0.5,3,0.5976,28,671,13,0,3
+bug_tracker,v0.5,v0.6,4,4.4118,73,680,13,0,3
+bug_tracker,v0.6,v0.7,5,0.3907,40,716,20,0,4
+bug_tracker,v0.7,v0.8,6,2.065,35,750,50,0,5
+bug_tracker,v0.8,v0.9,7,0.2721,5,778,73,0,6
+bug_tracker,v0.9,v0.10,8,2.5213,65,783,73,1,6
+bug_tracker,v0.10,v0.11,9,0.2331,40,825,66,0,5
+bug_tracker,v0.11,v0.12,10,0.1454,0,843,66,0,5
+bug_tracker,v0.12,v0.13,11,0.4096,11,820,43,0,4
+bug_tracker,v0.13,v0.14,12,0.1582,3,820,43,0,4
+bug_tracker,v0.14,v0.15,13,0.1965,14,821,43,0,4

@@ -1,0 +1,710 @@
+{
+ "repos": 33,
+ "repos_python": 16,
+ "instances": 11503,
+ "obs": 148524,
+ "events": 27583,
+ "pm_total": 448.73,
+ "conc": {
+  "all": {
+   "instances": 11503,
+   "gini": 0.883,
+   "never_pay_10plus": 0.351,
+   "top10": 0.801,
+   "top20": 0.914
+  },
+  "python": {
+   "instances": 1015,
+   "gini": 0.765,
+   "never_pay_10plus": 0.299,
+   "top10": 0.583,
+   "top20": 0.784
+  },
+  "c": {
+   "instances": 10488,
+   "gini": 0.885,
+   "never_pay_10plus": 0.357,
+   "top10": 0.803,
+   "top20": 0.917
+  },
+  "original 9": {
+   "instances": 964,
+   "gini": 0.76,
+   "never_pay_10plus": 0.309,
+   "top10": 0.572,
+   "top20": 0.787
+  },
+  "new 24": {
+   "instances": 10539,
+   "gini": 0.884,
+   "never_pay_10plus": 0.355,
+   "top10": 0.802,
+   "top20": 0.915
+  }
+ },
+ "gini_repo": [
+  0.44,
+  0.72,
+  0.88
+ ],
+ "event_lines": {
+  "median": 2.5,
+  "p90": 16.0
+ },
+ "memory": {
+  "lags": [
+   0.457,
+   0.377,
+   0.407,
+   0.436,
+   0.419,
+   0.321
+  ],
+  "no_event": 0.117,
+  "dose": {
+   "0": 0.084,
+   "1": 0.18,
+   "2": 0.342,
+   "3-4": 0.299,
+   "5+": 0.43
+  }
+ },
+ "memory_macro": {
+  "n": 33,
+  "after_event": 0.238,
+  "after_none": 0.126,
+  "higher_in": 24
+ },
+ "contagion_ratio": 2.27,
+ "contagion_or_adj": [
+  1.09,
+  0.6,
+  1.96
+ ],
+ "size_logit_slope": [
+  0.607,
+  0.084
+ ],
+ "beta_lines": [
+  0.931,
+  0.05
+ ],
+ "size_logit_slope_python": [
+  0.606,
+  0.091
+ ],
+ "size_logit_slope_c": [
+  0.607,
+  0.089
+ ],
+ "spearman_size_rate": [
+  0.31,
+  -0.27,
+  0.74
+ ],
+ "frozen_live_size": [
+  53.0,
+  63.0
+ ],
+ "smell_or_same_size": [
+  1.07,
+  0.92,
+  1.25
+ ],
+ "enrichment": {
+  "pooled": 0.33,
+  "debt_share_code": 0.515,
+  "debt_share_edits": 0.172,
+  "median": 0.4,
+  "below1": 31,
+  "n": 33,
+  "python": 0.48,
+  "c": 0.36
+ },
+ "step": {
+  "major": {
+   "pairs": 52,
+   "rate": 0.315,
+   "churn_pct": 13.567,
+   "days": 98.5,
+   "commits": 97.0
+  },
+  "minor": {
+   "pairs": 205,
+   "rate": 0.282,
+   "churn_pct": 7.233,
+   "days": 104.0,
+   "commits": 72.0
+  },
+  "patch": {
+   "pairs": 358,
+   "rate": 0.089,
+   "churn_pct": 0.569,
+   "days": 37.0,
+   "commits": 10.0
+  }
+ },
+ "patch_vs_minor_p": 3.181098985561671e-30,
+ "clock_autocorr": -0.07,
+ "clock_ldays_c": 0.41,
+ "clock_lcommits_c": 0.73,
+ "clock_lchurn_prev": -0.05,
+ "icc": {
+  "instance": 0.262,
+  "release": 0.199
+ },
+ "age_or": [
+  0.929,
+  0.874,
+  0.987
+ ],
+ "age_bins": {
+  "0": 0.204,
+  "1": 0.18,
+  "2-3": 0.162,
+  "4-6": 0.166,
+  "7+": 0.16
+ },
+ "survival": [
+  0.933,
+  0.803,
+  0.675,
+  0.566
+ ],
+ "intro_existing_share": 0.24,
+ "rule": {
+  "complex_method": {
+   "obs": 68857,
+   "rep": 0.063,
+   "ev": 0.185,
+   "size": 57.0
+  },
+  "long_method": {
+   "obs": 47052,
+   "rep": 0.073,
+   "ev": 0.209,
+   "size": 74.0
+  },
+  "many_params": {
+   "obs": 32615,
+   "rep": 0.075,
+   "ev": 0.152,
+   "size": 26.0
+  }
+ },
+ "repay_rate": 0.069,
+ "multi_smell_share": 0.47,
+ "pow": {
+  "models": [
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "size",
+    "auc": 0.617,
+    "cap20": 34.4,
+    "cap30": 45.2,
+    "cap50": 62.6,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "persist",
+    "auc": 0.749,
+    "cap20": 39.8,
+    "cap30": 51.0,
+    "cap50": 66.8,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "persist_size",
+    "auc": 0.753,
+    "cap20": 39.2,
+    "cap30": 50.1,
+    "cap50": 67.7,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "logit_base",
+    "auc": 0.789,
+    "cap20": 41.5,
+    "cap30": 53.2,
+    "cap50": 71.7,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "logit_prox",
+    "auc": 0.788,
+    "cap20": 41.3,
+    "cap30": 53.2,
+    "cap50": 71.2,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "logit_prox_clock",
+    "auc": 0.784,
+    "cap20": 41.2,
+    "cap30": 53.1,
+    "cap50": 71.3,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "gb_base",
+    "auc": 0.779,
+    "cap20": 38.8,
+    "cap30": 51.7,
+    "cap50": 70.5,
+    "groups": 427
+   },
+   {
+    "protocol": "leave-one-repository-out",
+    "model": "gb_prox_clock",
+    "auc": 0.764,
+    "cap20": 39.2,
+    "cap30": 51.8,
+    "cap50": 71.0,
+    "groups": 427
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "size",
+    "auc": 0.621,
+    "cap20": 34.6,
+    "cap30": 47.0,
+    "cap50": 64.1,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "persist",
+    "auc": 0.722,
+    "cap20": 38.5,
+    "cap30": 51.2,
+    "cap50": 68.4,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "persist_size",
+    "auc": 0.724,
+    "cap20": 38.9,
+    "cap30": 50.7,
+    "cap50": 68.9,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "logit_base",
+    "auc": 0.774,
+    "cap20": 40.3,
+    "cap30": 52.9,
+    "cap50": 72.6,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "logit_prox",
+    "auc": 0.774,
+    "cap20": 40.5,
+    "cap30": 53.1,
+    "cap50": 72.1,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "logit_prox_clock",
+    "auc": 0.773,
+    "cap20": 40.8,
+    "cap30": 53.2,
+    "cap50": 71.9,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "gb_base",
+    "auc": 0.771,
+    "cap20": 35.7,
+    "cap30": 48.9,
+    "cap50": 70.4,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal (last 40% of each repository)",
+    "model": "gb_prox_clock",
+    "auc": 0.722,
+    "cap20": 40.4,
+    "cap30": 53.8,
+    "cap50": 72.6,
+    "groups": 204
+   }
+  ],
+  "paired": [
+   {
+    "protocol": "LORO",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -0.6,
+    "lo": -1.7,
+    "hi": 0.4,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -0.8,
+    "lo": -2.4,
+    "hi": 0.9,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -5.4,
+    "lo": -8.7,
+    "hi": -2.1,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -5.8,
+    "lo": -9.1,
+    "hi": -2.3,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": 2.3,
+    "lo": -0.1,
+    "hi": 4.6,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 3.0,
+    "lo": 0.8,
+    "hi": 5.2,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 20,
+    "diff_pts": -0.2,
+    "lo": -1.3,
+    "hi": 0.8,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 30,
+    "diff_pts": 0.0,
+    "lo": -1.0,
+    "hi": 0.9,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 20,
+    "diff_pts": -0.1,
+    "lo": -0.2,
+    "hi": 0.0,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 30,
+    "diff_pts": -0.1,
+    "lo": -0.2,
+    "hi": -0.0,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": 2.0,
+    "lo": -0.3,
+    "hi": 4.3,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 3.0,
+    "lo": 0.8,
+    "hi": 5.3,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 20,
+    "diff_pts": 0.4,
+    "lo": -1.2,
+    "hi": 2.0,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 30,
+    "diff_pts": 0.1,
+    "lo": -1.4,
+    "hi": 1.7,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": -0.4,
+    "lo": -2.7,
+    "hi": 2.0,
+    "groups": 427
+   },
+   {
+    "protocol": "LORO",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 1.6,
+    "lo": -0.7,
+    "hi": 3.7,
+    "groups": 427
+   },
+   {
+    "protocol": "temporal",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": 0.4,
+    "lo": -0.3,
+    "hi": 1.2,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "persist_size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -0.5,
+    "lo": -2.2,
+    "hi": 0.9,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "size",
+    "b": "persist",
+    "top": 20,
+    "diff_pts": -3.9,
+    "lo": -8.4,
+    "hi": 0.6,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "size",
+    "b": "persist",
+    "top": 30,
+    "diff_pts": -4.2,
+    "lo": -8.8,
+    "hi": 0.4,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": 1.4,
+    "lo": -2.2,
+    "hi": 5.1,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 2.2,
+    "lo": -1.0,
+    "hi": 5.5,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 20,
+    "diff_pts": 0.2,
+    "lo": -0.6,
+    "hi": 0.9,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox",
+    "b": "logit_base",
+    "top": 30,
+    "diff_pts": 0.2,
+    "lo": -0.4,
+    "hi": 0.9,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 20,
+    "diff_pts": 0.3,
+    "lo": -0.0,
+    "hi": 0.8,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "logit_prox",
+    "top": 30,
+    "diff_pts": 0.0,
+    "lo": -0.5,
+    "hi": 0.5,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": 1.9,
+    "lo": -1.6,
+    "hi": 5.5,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "logit_prox_clock",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": 2.4,
+    "lo": -0.8,
+    "hi": 5.8,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 20,
+    "diff_pts": 4.7,
+    "lo": 1.3,
+    "hi": 8.0,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_prox_clock",
+    "b": "gb_base",
+    "top": 30,
+    "diff_pts": 4.9,
+    "lo": 2.1,
+    "hi": 7.8,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 20,
+    "diff_pts": -3.2,
+    "lo": -7.4,
+    "hi": 1.2,
+    "groups": 204
+   },
+   {
+    "protocol": "temporal",
+    "a": "gb_base",
+    "b": "persist_size",
+    "top": 30,
+    "diff_pts": -1.8,
+    "lo": -6.2,
+    "hi": 2.6,
+    "groups": 204
+   }
+  ]
+ },
+ "pow_coef": {
+  "lsize": 0.208,
+  "lccn": -0.021,
+  "lpast_il": 0.229,
+  "lpast_n": 0.958,
+  "lage": -0.72,
+  "is_py": 0.047,
+  "r_long_method": -0.087,
+  "r_complex_method": -0.088,
+  "f_file": 0.093,
+  "f_dir": 0.149,
+  "f_file_rel": -0.149,
+  "f_repo": 0.014
+ },
+ "auc_f_file": 0.628,
+ "auc_f_dir": 0.618,
+ "auc_f_file_rel": 0.645,
+ "auc_f_repo": 0.591,
+ "auc_size": 0.617,
+ "auc_past": 0.749,
+ "funcs_c": {
+  "n": 26959,
+  "med": 11.0,
+  "p90": 46.0,
+  "mu": 2.47,
+  "sigma": 1.01,
+  "smell_share": 0.172
+ },
+ "funcs_python": {
+  "n": 7195,
+  "med": 5.0,
+  "p90": 22.0,
+  "mu": 1.78,
+  "sigma": 0.94,
+  "smell_share": 0.079
+ },
+ "debt_code_share": [
+  0.41,
+  0.1,
+  0.79
+ ],
+ "growth": 1.15,
+ "churn_median_pct": 1.4
+}

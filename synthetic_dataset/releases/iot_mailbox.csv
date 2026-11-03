@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+iot_mailbox,v0.1,v0.2,0,0.7037,36,177,8,0,2
+iot_mailbox,v0.2,v0.3,1,0.459,21,211,31,1,5
+iot_mailbox,v0.3,v0.4,2,0.8234,40,230,40,2,7
+iot_mailbox,v0.4,v0.5,3,2.4505,38,267,41,3,7
+iot_mailbox,v0.5,v0.6,4,0.2384,13,295,44,1,7

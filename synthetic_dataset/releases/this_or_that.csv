@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+this_or_that,v0.1,v0.2,0,0.737,46,274,34,2,3
+this_or_that,v0.2,v0.3,1,0.1606,19,312,34,0,3
+this_or_that,v0.3,v0.4,2,0.1685,26,329,34,2,3
+this_or_that,v0.4,v0.5,3,0.0671,40,350,32,5,3
+this_or_that,v0.5,v0.6,4,0.5728,42,385,36,0,4
+this_or_that,v0.6,v0.7,5,0.0762,36,421,44,0,5
+this_or_that,v0.7,v0.8,6,0.6433,35,456,71,2,8
+this_or_that,v0.8,v0.9,7,0.0241,1,484,71,0,8
+this_or_that,v0.9,v0.10,8,0.5993,25,484,71,1,8
+this_or_that,v0.10,v0.11,9,0.0557,0,502,71,0,8
+this_or_that,v0.11,v0.12,10,0.0142,1,502,71,0,8

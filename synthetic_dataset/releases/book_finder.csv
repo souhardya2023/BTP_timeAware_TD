@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+book_finder,v0.1,v0.2,0,0.2096,36,319,99,0,3
+book_finder,v0.2,v0.3,1,0.5223,19,354,130,0,5
+book_finder,v0.3,v0.4,2,0.6702,17,371,137,1,6
+book_finder,v0.4,v0.5,3,2.7099,77,386,145,2,7
+book_finder,v0.5,v0.6,4,0.1101,11,448,149,0,8
+book_finder,v0.6,v0.7,5,0.7528,33,457,149,1,8
+book_finder,v0.7,v0.8,6,0.0837,0,485,149,0,8
+book_finder,v0.8,v0.9,7,0.4927,30,485,149,0,8
+book_finder,v0.9,v0.10,8,4.5079,148,510,149,6,8
+book_finder,v0.10,v0.11,9,0.6124,27,627,141,2,7

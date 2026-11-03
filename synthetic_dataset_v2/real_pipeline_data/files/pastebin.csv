@@ -1,0 +1,17 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+pastebin,0,pastebin/rules.py,1,164,75,0
+pastebin,0,pastebin/utils.py,1,75,67,0
+pastebin,1,pastebin/rules.py,7,164,75,0
+pastebin,1,pastebin/validators.py,1,0,0,0
+pastebin,2,pastebin/services.py,6,70,38,0
+pastebin,3,pastebin/cli.py,1,4,0,0
+pastebin,3,pastebin/rules.py,2,164,75,1
+pastebin,3,pastebin/services.py,9,77,38,0
+pastebin,3,pastebin/validators.py,5,4,0,0
+pastebin,4,pastebin/rules.py,1,164,75,1
+pastebin,4,pastebin/services.py,7,84,38,0
+pastebin,5,pastebin/utils.py,10,85,67,0
+pastebin,6,pastebin/rules.py,2,164,75,2
+pastebin,6,pastebin/services.py,4,83,38,0
+pastebin,7,pastebin/services.py,27,87,38,22
+pastebin,8,pastebin/rules.py,139,302,213,139

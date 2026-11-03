@@ -1,0 +1,16 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+first_db,v0.1,v0.2,0,first_db/core.py::next_record_job::complex_method,first_db/core.py,next_record_job,complex_method,MAJOR,0,44,16,0,0,0,0.09474411398058613,none,1,44,0,0,0.0
+first_db,v0.1,v0.2,0,first_db/services.py::announce_record::long_method,first_db/services.py,announce_record,long_method,MAJOR,0,83,27,0,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.1,v0.2,0,first_db/services.py::announce_record::complex_method,first_db/services.py,announce_record,complex_method,MAJOR,0,83,27,0,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.2,v0.3,1,first_db/core.py::next_record_job::complex_method,first_db/core.py,next_record_job,complex_method,MAJOR,0,44,16,1,0,0,0.09474411398058613,none,1,44,0,0,0.0
+first_db,v0.2,v0.3,1,first_db/services.py::announce_record::long_method,first_db/services.py,announce_record,long_method,MAJOR,0,83,27,1,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.2,v0.3,1,first_db/services.py::announce_record::complex_method,first_db/services.py,announce_record,complex_method,MAJOR,0,83,27,1,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.3,v0.4,2,first_db/core.py::next_record_job::complex_method,first_db/core.py,next_record_job,complex_method,MAJOR,0,44,16,2,0,0,0.09474411398058613,none,1,44,0,0,0.0
+first_db,v0.3,v0.4,2,first_db/services.py::announce_record::long_method,first_db/services.py,announce_record,long_method,MAJOR,0,83,27,2,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.3,v0.4,2,first_db/services.py::announce_record::complex_method,first_db/services.py,announce_record,complex_method,MAJOR,0,83,27,2,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.4,v0.5,3,first_db/core.py::next_record_job::complex_method,first_db/core.py,next_record_job,complex_method,MAJOR,0,44,16,3,0,0,0.09474411398058613,none,1,44,0,0,0.0
+first_db,v0.4,v0.5,3,first_db/services.py::announce_record::long_method,first_db/services.py,announce_record,long_method,MAJOR,0,83,27,3,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.4,v0.5,3,first_db/services.py::announce_record::complex_method,first_db/services.py,announce_record,complex_method,MAJOR,0,83,27,3,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.5,v0.6,4,first_db/core.py::next_record_job::complex_method,first_db/core.py,next_record_job,complex_method,MAJOR,0,44,16,4,0,0,0.09474411398058613,none,1,44,0,0,0.0
+first_db,v0.5,v0.6,4,first_db/services.py::announce_record::long_method,first_db/services.py,announce_record,long_method,MAJOR,0,83,27,4,0,0,0.1903958634283825,none,1,83,0,0,0.0
+first_db,v0.5,v0.6,4,first_db/services.py::announce_record::complex_method,first_db/services.py,announce_record,complex_method,MAJOR,0,83,27,4,0,0,0.1903958634283825,none,1,83,0,0,0.0

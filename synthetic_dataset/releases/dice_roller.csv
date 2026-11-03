@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+dice_roller,v0.1,v0.2,0,1.5264,59,170,10,1,1
+dice_roller,v0.2,v0.3,1,0.0622,24,224,54,1,6
+dice_roller,v0.3,v0.4,2,0.7773,28,247,75,2,8
+dice_roller,v0.4,v0.5,3,1.3525,66,271,75,5,8
+dice_roller,v0.5,v0.6,4,0.9229,20,326,77,4,8

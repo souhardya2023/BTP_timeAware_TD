@@ -1,0 +1,9 @@
+statistic,value
+instances,1557.0
+instances_that_paid_interest,768.0
+share_that_paid,0.4932562620423892
+median_interest_over_principal_if_paid,0.08478566695590375
+mean_interest_over_principal_if_paid,0.19560392803579085
+instances_with_interest_above_principal,14.0
+median_transitions_present,17.0
+max_transitions_present,19.0

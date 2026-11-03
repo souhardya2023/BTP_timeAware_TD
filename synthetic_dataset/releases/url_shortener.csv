@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+url_shortener,v0.1,v0.2,0,0.0697,12,228,8,0,3
+url_shortener,v0.2,v0.3,1,0.5966,24,239,16,0,4
+url_shortener,v0.3,v0.4,2,1.3578,79,260,19,0,5
+url_shortener,v0.4,v0.5,3,1.6761,76,334,32,6,7
+url_shortener,v0.5,v0.6,4,0.379,65,395,25,0,6
+url_shortener,v0.6,v0.7,5,5.6634,94,458,87,1,8
+url_shortener,v0.7,v0.8,6,0.3683,11,529,87,2,8
+url_shortener,v0.8,v0.9,7,0.0271,1,530,87,1,8
+url_shortener,v0.9,v0.10,8,0.4064,12,530,87,0,8
+url_shortener,v0.10,v0.11,9,0.3955,22,537,87,0,8

@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+sales_receipts,2,sales_receipts/rules.py,41,263,182,41
+sales_receipts,3,sales_receipts/rules.py,47,310,229,47
+sales_receipts,4,sales_receipts/rules.py,55,355,274,55
+sales_receipts,4,sales_receipts/services.py,4,43,0,0
+sales_receipts,5,sales_receipts/rules.py,1,346,265,1
+sales_receipts,6,sales_receipts/services.py,1,43,0,0
+sales_receipts,8,sales_receipts/rules.py,6,346,265,6

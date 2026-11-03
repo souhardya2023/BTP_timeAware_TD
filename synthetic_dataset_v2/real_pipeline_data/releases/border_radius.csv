@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+border_radius,0,v0.1,v0.2,2019-01-08,2019-03-22,minor,2,283,61,252,0,5,28,0,1,5
+border_radius,1,v0.2,v0.3,2019-03-22,2019-04-24,minor,1,252,0,253,0,5,2,0,0,2
+border_radius,2,v0.3,v0.4,2019-04-24,2019-07-19,minor,2,253,0,259,0,5,7,0,0,2
+border_radius,3,v0.4,v0.5,2019-07-19,2019-09-17,minor,2,259,0,259,0,5,1,0,0,1
+border_radius,4,v0.5,v0.6,2019-09-17,2019-10-13,minor,2,259,0,320,49,5,62,49,0,2

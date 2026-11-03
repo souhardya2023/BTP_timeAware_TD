@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+landing_page,0,v0.1,v0.2,2019-01-10,2019-01-13,minor,7,151,0,223,54,5,80,54,0,9
+landing_page,1,v0.2,v0.3,2019-01-13,2019-01-15,minor,3,223,54,227,54,5,7,0,0,4
+landing_page,2,v0.3,v0.4,2019-01-15,2019-01-21,minor,9,227,54,272,54,5,55,0,0,13
+landing_page,3,v0.4,v0.5,2019-01-21,2019-01-24,minor,4,272,54,298,54,5,36,0,0,11

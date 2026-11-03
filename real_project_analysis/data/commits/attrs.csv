@@ -1,0 +1,643 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+attrs,8f76a5262b,2026-10-13,7b7c16b7,Improve astuple performance for nested atomic sequences (#1636),2,1,2,1,1,1,0,0,0,1,0,0,1,0,0,0,0,82,1,1,1,0,1,0,0,0
+attrs,a602f78ff6,2026-10-01,a938bf67,docs/fix: remove duplicated words in docs and source comment (#1625),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+attrs,c1dc5dcba1,2026-08-07,71f7adeb,oops,2,2,1,6,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,3bb6382a7c,2026-08-07,71f7adeb,Document/test copy.replace,4,2,20,1,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+attrs,58c8e9ade6,2026-08-03,71f7adeb,Make typing tests importable to have a namespace,8,4,14,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+attrs,f53fc5440d,2026-08-02,71f7adeb,Stop evolve dunders from being modified (#1606),3,1,19,1,5,1,0,0,0,1,0,0,0,0,1,0,0,4,0,0,3,0,0,0,0,0
+attrs,f38b8a3f16,2026-08-02,71f7adeb,docs: format notice,1,1,6,6,6,6,0,0,0,2,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+attrs,3e01de41b0,2026-08-02,71f7adeb,docs: fix markup,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+attrs,29b6081376,2026-08-02,71f7adeb,docs: remove stale 3.9 references,2,2,3,6,3,6,0,0,0,2,0,0,0,0,0,0,0,30,1,1,3,0,0,0,1,0
+attrs,9b98a730bf,2026-08-02,71f7adeb,Drop Python 3.9 (#1603),16,3,177,905,8,18,0,0,0,8,0,0,0,1,0,0,0,115,2,2,8,0,0,0,0,0
+attrs,116681b67e,2026-08-02,71f7adeb,update,11,1,218,104,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,5aa76a4450,2026-08-01,7927898d,Add `ne` validator (#1571),5,1,52,13,24,8,0,0,0,6,0,0,0,0,1,0,0,23,0,0,19,0,0,0,0,0
+attrs,f616f732c6,2026-08-01,71f7adeb,docs: be more general,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+attrs,4b5b295bb8,2026-08-01,825f66a3,Make on_setattr hooks accept generators (#1592),11,5,331,10,81,8,0,0,0,6,0,0,0,0,3,0,0,59,3,16,63,0,0,0,0,0
+attrs,d3a98cf05a,2026-08-01,71f7adeb,Fix docstring,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+attrs,c5baf90dbc,2026-08-01,71f7adeb,Add typing examples for Pyrefly's new attrs support (#1588),4,1,427,122,394,0,0,1,0,0,0,0,0,0,4,0,0,0,0,0,269,0,0,0,0,0
+attrs,97f8d17565,2026-07-31,fd088cc6,Fix ClassVar forward reference detection (#1593),3,1,20,0,1,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+attrs,6851ab593c,2026-07-31,428fdb38,Defer imports on the cold import path (#1600),7,5,63,11,39,11,0,0,0,10,0,0,2,0,2,0,0,90,2,2,22,0,0,1,0,0
+attrs,d544dd2dac,2026-07-11,71f7adeb,update dev (#1589),6,1,785,746,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,45de9beb09,2026-07-05,71f7adeb,docs: move collect_by_mro to attr.s docstring,2,2,9,9,9,9,0,0,0,1,0,0,0,0,0,0,0,44,1,7,7,0,0,0,1,0
+attrs,0f758fe54a,2026-04-16,5e27565d,Expose converter as a decorator (#1541),5,1,105,3,23,3,0,0,0,2,0,0,0,0,1,0,0,36,1,1,19,0,0,0,0,0
+attrs,48b8611c27,2026-03-14,71f7adeb,Add instance support to attrs.fields() (#1529),6,1,37,11,10,5,0,0,0,1,0,0,0,0,0,0,0,18,0,0,9,0,0,0,0,0
+attrs,a572c3a4c5,2026-03-14,71f7adeb,Allow field(on_setattr=NO_OP) on frozen classes,3,1,12,1,1,1,0,0,0,1,0,0,1,0,0,0,0,55,1,1,1,0,0,0,0,0
+attrs,af9c510912,2026-03-14,feb25805,Fix validators.disabled() to save/restore state on nesting (#1513),3,1,20,1,3,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+attrs,ce89f5d11f,2026-03-14,71f7adeb,Fix message passing in frozen errors,2,1,14,7,4,4,1,0,0,1,0,0,0,0,1,0,0,4,0,0,4,0,0,0,0,0
+attrs,eccd966d80,2026-03-14,38d37d48,Fix `optional` validator to accept tuples of len > 1 (#1496),3,1,11,1,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+attrs,862696afb5,2026-03-07,223e1609,Resolve field aliases before calling field_transformer (#1509),7,1,301,9,48,5,0,0,0,5,0,0,2,0,0,0,0,89,2,10,34,0,0,0,0,0
+attrs,c44b8b0052,2026-02-04,71f7adeb,update dev (#1507),11,1,214,223,3,7,0,0,0,3,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+attrs,112dd1d498,2025-09-30,71f7adeb,Expose effective class construction properties (#1454),11,4,665,139,347,93,0,0,0,7,1,0,2,1,4,0,0,119,5,225,293,0,0,0,0,0
+attrs,4737f0e6c7,2025-09-28,71f7adeb,Run Pyright in strict mode,2,1,12,4,8,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,7,0,0,0,0,0
+attrs,f8f7a2e9aa,2025-09-28,db25fa27,Improve type hinting of or_ (#1471),3,1,62,1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+attrs,b1dc8f6735,2025-09-28,71f7adeb,"Split out Mypy-dependent typing examples, add more type checkers (#1474)",7,1,292,106,177,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,111,0,0,0,1,0
+attrs,1315e42fe5,2025-09-08,bb978d70,Improve performance of attr.astuple (#1469),3,1,25,4,7,4,0,0,0,1,0,0,1,0,0,0,0,82,1,7,7,0,0,0,0,0
+attrs,7369ad9f4b,2025-09-08,bb978d70,Improve performance of asdict in the common case (#1463),3,1,49,7,32,7,0,0,0,2,0,0,2,0,0,0,0,76,2,15,30,0,0,0,0,0
+attrs,19175d91df,2025-08-15,09d367fd,Use sys._clear_type_descriptors() on 3.14 to break slot reference cycle (#1459),1,1,3,25,3,25,0,0,0,1,0,0,0,1,0,1,0,89,1,2,2,0,0,1,0,0
+attrs,6e3786c599,2025-08-04,d7e758c7,Make `kw_only=True` behavior consistent with dataclasses (#1457),6,2,281,34,58,11,0,0,0,9,0,0,5,0,0,0,0,91,7,50,53,0,0,0,0,0
+attrs,61e8179545,2025-07-30,c15eb83e,Allow forward-references on 3.14 (#1451),6,1,37,6,8,2,0,0,0,1,0,0,0,0,1,0,0,4,0,0,5,0,0,0,0,0
+attrs,5bab46deb9,2025-07-29,71f7adeb,Allow deep_iterable and deep_mapping take lists/tuples (#1449),4,1,77,13,22,5,0,0,0,2,0,0,0,0,0,0,0,15,0,0,19,0,0,0,0,0
+attrs,000c563473,2025-07-28,71f7adeb,Fix slotted reference cycles on 3.14 (#1446),3,1,29,2,26,0,1,0,0,1,0,0,1,0,1,0,0,97,1,10,15,0,0,1,0,0
+attrs,cbaef3f8f5,2025-07-28,71f7adeb,Make validators optional in deep_mapping (#1448),5,1,82,9,29,8,0,0,0,2,0,0,0,0,0,0,0,9,0,0,25,0,0,0,0,0
+attrs,937b1e2328,2025-07-27,f4b33897,Fixes issue #1427 (#1428),3,1,52,4,8,4,1,0,0,1,0,0,1,0,0,0,0,209,1,7,7,0,0,0,0,0
+attrs,577c782c32,2025-06-18,71f7adeb,update ruff,5,1,18,4,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+attrs,269b9f5c6c,2025-05-21,f5530063,Use proper formatting for docstring (#1432),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,1,1,1,0,0,0,0,0
+attrs,00f6ac4821,2025-05-19,71f7adeb,Use a fully locked test environment (#1349),6,2,1844,67,6,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,6,0,1,0,0,0
+attrs,3d42a6978a,2025-04-08,3bb1288b,doc: fix typo in attrs.validators.gt's docstring: ge -> gt (#1423),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,3b0378dd66,2025-03-13,e0a94dc3,Cope with `field_transformer` being a generator (#1417),2,1,17,1,1,1,0,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,0,0
+attrs,1c962d15a7,2025-03-08,71f7adeb,Mention what argument has both annotation and type argument (#1410),3,1,3,2,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+attrs,74007f67d2,2025-02-15,c15eb83e,ClassBuilder: eval only once (#1407),6,2,279,204,241,185,0,0,0,24,1,1,2,1,16,9,0,89,6,31,212,0,0,0,0,0
+attrs,e048efcb39,2025-02-09,fd3d670c,Perform attr order checks after field transformer. (#1401),3,1,80,15,4,3,0,0,0,1,0,0,0,0,0,0,0,75,1,2,2,0,0,0,0,0
+attrs,75723b7720,2025-02-09,cbd78a4d,Accept valid unicode identifiers as class parameter to make_class (#1406),3,1,49,0,5,0,0,0,0,1,0,0,0,0,0,0,0,43,0,0,3,0,0,0,0,0
+attrs,5820ce717e,2025-02-06,71f7adeb,docs: stress that make_class doesn't validate names,1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,42,0,0,4,0,0,0,0,0
+attrs,c17b1f3ec5,2025-01-24,71f7adeb,Update Ruff,5,1,9,9,1,1,0,0,0,1,0,0,0,0,0,0,0,205,1,1,1,0,0,0,0,0
+attrs,119e043b9f,2024-12-15,71f7adeb,docs: fix markup,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,42,0,0,2,0,0,0,0,0
+attrs,e82cde4c25,2024-12-15,71f7adeb,docs: add note to make_class about non-NG-ness,1,1,10,1,10,1,0,0,0,1,0,0,0,0,0,0,0,42,0,0,7,0,0,0,0,0
+attrs,62bdbf234f,2024-12-14,71f7adeb,Implement __replace__ on 3.13 (#1383),10,4,130,59,74,56,0,0,0,4,0,0,1,0,2,1,0,88,3,7,59,0,0,0,0,0
+attrs,d18763cac8,2024-12-10,c15eb83e,Introduce NothingType (#1358),7,3,28,4,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+attrs,1e07f46897,2024-12-10,98987c73,Make attrs.converters.pipe only return a Converter instance if one is passed (#1380),5,1,52,31,21,5,0,0,0,2,0,0,0,0,1,0,0,22,0,0,16,0,0,0,0,0
+attrs,45b6b6b6c3,2024-11-30,71f7adeb,Update Ruff,7,5,30,28,28,26,0,0,0,1,0,0,0,0,0,0,0,23,0,0,26,0,0,0,0,0
+attrs,13105a64f2,2024-11-25,98987c73,Use an explicit comparison to None for the converter of a field (#1374),2,1,20,1,1,1,0,0,0,1,0,0,0,0,0,0,0,205,1,1,1,0,0,0,0,0
+attrs,e21793e90a,2024-11-17,58ce3fea,Allow converter.optional to take a Converter such as converter.pipe as its argument (#1372),3,1,68,5,17,5,0,0,0,2,0,0,0,0,1,0,0,15,0,0,13,0,0,0,0,0
+attrs,cf6af79d9b,2024-11-16,71f7adeb,Remove stale comment,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+attrs,1921da6eac,2024-10-26,d83bf34c,allow __suppress_context__ and __notes__ to be mutated on frozen exceptions (#1365),3,1,20,1,6,0,0,0,0,2,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+attrs,0e8e82a7a0,2024-10-04,0ade74ad,Remove mention of cmp= from next gen docs (#1355),1,1,1,11,1,11,0,0,0,1,0,0,0,0,0,0,0,29,1,1,1,0,0,0,1,0
+attrs,2f1014aa60,2024-09-05,71f7adeb,Black dropped us 5 years ago,15,3,12,25,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,a8e24b0186,2024-08-29,71f7adeb,Drop Python 3.7 (#1340),14,3,37,92,8,27,0,0,0,3,0,0,0,1,0,0,0,87,1,5,7,0,0,0,0,0
+attrs,ae7340966c,2024-08-16,71f7adeb,Cull Ruff ignores,4,2,19,26,5,5,0,0,0,5,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+attrs,5d6d21aa5e,2024-08-06,71f7adeb,Make Converter (including pipe) correctly infer the return type (#1331),3,2,70,21,26,21,0,0,0,2,0,0,0,0,0,4,0,23,0,0,25,0,0,0,0,0
+attrs,6fda0a4e08,2024-08-06,71f7adeb,"Make Converter a kind of adapter, fix converters.pipe (#1328)",5,2,97,16,28,15,1,0,0,4,0,0,0,0,4,0,0,13,0,0,20,0,0,0,0,0
+attrs,7373d88f9b,2024-08-06,71f7adeb,Restore basic functionality on 3.14[sic] (#1329),7,2,35,10,15,7,0,0,0,0,0,0,0,0,1,1,0,0,0,0,11,0,0,0,0,0
+attrs,f520d9a89f,2024-08-06,71f7adeb,Only soft-deprecate hash (#1330),3,1,3,44,1,23,0,0,0,2,0,1,0,1,0,0,0,43,2,0,0,0,0,0,0,0
+attrs,bde3f58cfe,2024-08-03,71f7adeb,Deprecate hash for unsafe_hash (#1323),9,3,119,61,37,13,0,0,0,3,1,0,1,0,0,0,0,52,3,22,32,0,0,0,0,0
+attrs,dbb25ce347,2024-08-03,71f7adeb,Add support for __attrs_init_subclass__ (#1321),8,2,105,30,32,27,0,0,0,3,0,0,0,0,0,1,0,43,2,11,29,0,0,0,0,0
+attrs,fd7538f0e2,2024-08-03,71f7adeb,validators.in_ now transforms certain unhashable options to tuples (#1320),3,1,38,6,19,6,0,0,0,3,0,0,0,0,0,0,0,13,0,0,16,0,0,0,0,0
+attrs,09161fc918,2024-08-03,71f7adeb,"Fix crash when __pre_init__, kw_only, and defaults come together (#1319)",3,1,27,5,7,5,1,0,0,1,0,0,1,0,0,0,0,205,1,5,5,0,0,0,0,0
+attrs,689a0e6401,2024-08-03,71f7adeb,Simplify & optimize own attribute detection (#1322),1,1,2,14,2,14,0,0,0,2,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,1
+attrs,f7e4e91073,2024-08-02,71f7adeb,docs: fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+attrs,42c954869d,2024-08-02,71f7adeb,Invert API docs to point from NG to OG (#1316),7,2,459,434,436,420,0,0,0,4,0,0,0,0,0,0,0,59,4,338,338,0,0,0,0,0
+attrs,b78abadbbf,2024-08-01,71f7adeb,docs: add glossary entries for field & attribute,3,2,24,6,6,6,0,0,0,2,0,0,0,0,0,0,0,14,0,0,6,0,0,0,0,0
+attrs,a365cdc5fe,2024-07-31,71f7adeb,More f-strings (#1317),2,1,9,11,8,10,0,0,0,1,0,0,0,1,0,0,0,204,1,6,6,0,0,0,0,0
+attrs,f5683b852b,2024-07-28,71f7adeb,converters: allow wrapping and passing self and fields (#1267),12,3,497,143,230,103,0,0,0,12,0,0,2,0,5,0,0,214,3,69,198,0,0,0,0,0
+attrs,8a8cd91bdf,2024-07-21,71f7adeb,Switch docstrings to Napoleon style (#1308),9,7,776,572,761,568,0,0,0,40,0,0,0,0,0,0,0,79,6,378,624,0,0,0,0,0
+attrs,a8808a2b3e,2024-07-21,c15eb83e,Speed up __eq__ (#1310),4,1,15,9,7,7,0,0,0,1,0,0,0,0,0,0,0,27,0,0,7,0,0,0,0,0
+attrs,7c9b31ea7b,2024-07-17,4613126d,Add `attrs.validators.or_` validator (#1303),5,1,105,0,44,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,32,0,0,0,0,0
+attrs,edcaf04a4d,2024-07-13,d304b645,"make_class(): Add ""__annotations_"" to generated class (#1285)",3,1,35,1,6,1,0,0,0,1,0,0,0,0,0,0,0,42,0,0,5,0,0,0,0,0
+attrs,e1b2c9491b,2024-06-26,8f1e2146,"refactor: Only loop once on ""cached_properties"" when building slotted classes (#1290)",1,1,5,11,5,11,0,0,0,1,0,0,0,1,0,0,0,90,1,3,3,0,0,0,0,1
+attrs,88e2896ca9,2024-04-02,8f1e2146,Preserve AttributeError in slotted classes with cached_property (#1253),3,1,46,2,6,2,0,0,0,1,0,0,0,0,0,0,0,50,0,0,6,0,0,0,0,0
+attrs,2446e640ca,2024-03-18,71f7adeb,Remove non-version metadata hack (#1268),3,1,9,124,6,39,0,0,0,2,0,0,0,0,0,0,0,12,0,0,5,0,0,0,1,0
+attrs,1b3898a4b8,2024-03-17,71f7adeb,Avoid unnecessary assignment/append,1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,210,1,1,1,0,0,0,0,0
+attrs,028797bd24,2024-03-17,71f7adeb,Switching to tuples removed this case,1,1,5,8,5,8,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+attrs,189ab7f806,2024-03-17,71f7adeb,Improve docstring,1,1,5,7,5,7,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,0,0,0,0
+attrs,d812e920cc,2024-03-17,71f7adeb,Explain what autodata,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,9e803dd683,2024-03-17,71f7adeb,to_bool: avoid creating sets on each call,2,1,8,8,4,5,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+attrs,9cf3d338f4,2024-03-17,71f7adeb,Improve/harmonize docstrings,7,6,147,150,145,149,0,0,0,16,0,0,0,0,0,0,0,79,6,83,143,0,0,0,0,0
+attrs,447f8a4e21,2024-03-17,71f7adeb,Tuples are cheaper than lists,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+attrs,4b1d869e9a,2024-03-17,71f7adeb,Simplify slot field detection,2,1,3,7,2,5,0,0,0,1,0,0,0,0,0,1,0,3,0,0,2,0,0,0,0,1
+attrs,deb97638a7,2024-03-17,71f7adeb,Refactor setters determination into function,1,1,52,39,52,39,0,0,0,1,0,0,0,1,3,2,0,212,1,10,38,0,0,0,0,1
+attrs,9b9a69140d,2024-03-17,71f7adeb,Upper-case private constants for better readability,3,3,46,46,46,46,0,0,0,22,0,0,0,0,0,0,0,217,6,17,46,0,0,0,1,0
+attrs,8460190b29,2024-03-16,71f7adeb,Remove attrs.validators.provides (#1265),6,1,3,142,0,49,0,0,0,10,0,0,0,0,0,3,0,16,0,0,0,0,0,0,1,0
+attrs,278d3a5bc6,2024-03-16,71f7adeb,evolve: remove support for passing instances per kw (#1264),3,1,15,39,10,23,0,0,0,1,0,0,0,0,0,0,0,18,0,0,10,0,0,0,1,0
+attrs,d9ed5937fe,2024-03-16,71f7adeb,Deprecate attr.s's repr_ns (#1263),3,1,22,6,13,1,0,0,0,1,0,0,1,0,0,0,0,43,1,11,11,0,0,0,0,0
+attrs,f590f44cfd,2024-03-16,71f7adeb,docs: style improvements,15,5,101,101,76,80,0,0,0,9,0,0,0,0,0,0,0,86,5,55,76,0,0,0,0,0
+attrs,d4e98b1b8a,2024-03-16,71f7adeb,Simplify name,2,2,5,5,5,5,0,0,0,3,0,0,0,0,0,0,0,79,2,3,5,0,0,0,0,1
+attrs,d129b1f756,2024-03-16,71f7adeb,pre-commit autoupdate,3,1,15,31,5,21,0,0,0,5,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+attrs,f9ff9135b4,2024-03-07,16ec8872,Fix test_ne in test_cmp.py for Python 3.13 (#1255),2,1,8,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,75d54c2197,2024-01-26,71f7adeb,Black 24,5,2,49,40,42,34,0,0,0,3,0,0,1,0,0,0,0,217,2,37,42,0,0,0,0,0
+attrs,26d8dd7957,2024-01-04,da06f3ab,Slotted cached property reference (#1221),4,1,54,8,11,5,0,0,0,3,0,0,1,0,0,0,0,93,1,3,10,0,0,0,0,0
+attrs,597c3a8adb,2023-12-08,da06f3ab,Add support for cached_properties to slotted attrs classes. (#1200),7,2,512,7,101,2,0,0,0,1,0,0,1,0,1,0,0,90,1,27,79,0,0,0,0,0
+attrs,01413df3db,2023-11-30,851e2950,Fix for a tiny typo in `_MinLengthValidator` (#1209),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+attrs,1fcd29f864,2023-11-28,7ac24776,Add optional namespace arguments for `make_class` (#1203),4,1,23,1,8,1,0,0,0,1,0,0,0,0,0,0,0,38,0,0,7,0,0,0,0,0
+attrs,079954ef40,2023-11-11,7c12f06f,Remove work-arounds for setting cell_contents (#1201),3,2,2,142,1,109,0,0,0,1,0,0,0,0,0,9,0,64,1,1,1,0,0,0,1,0
+attrs,c849440ac9,2023-10-18,71f7adeb,Add more cross-references,3,1,134,111,131,109,0,0,0,2,0,0,0,0,0,0,0,59,2,117,117,0,0,0,0,0
+attrs,5f1d588a66,2023-10-09,71f7adeb,doc: invert sentence on setattr logic in NG,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,29,1,2,2,0,0,0,0,0
+attrs,67e4ff273a,2023-10-03,c0e376ee,[pre-commit.ci] pre-commit autoupdate (#1189),2,1,3,3,1,1,0,0,0,1,0,0,0,1,0,0,0,75,1,1,1,0,0,0,0,0
+attrs,c2824ac30f,2023-09-29,f35c2d8a,Pass args from `__init__` to `__attrs_pre_init__` if requested (#1187),5,1,108,5,26,0,0,0,0,5,0,0,3,0,0,0,0,217,3,18,22,0,0,0,0,0
+attrs,46a03dcef6,2023-09-19,723d5e7a,Fix typo in src/attr/_next_gen.py::define's docstring (#1184),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,1,1,1,0,0,0,0,0
+attrs,a5cbd51fd9,2023-08-20,71f7adeb,Tighten linting (#1175),33,15,416,438,207,273,0,0,0,53,0,0,1,6,0,0,0,206,9,63,197,0,0,0,0,0
+attrs,c824bbe103,2023-08-06,71f7adeb,Allow subclassing of AttrsInstance and Protocol at once (#1172),7,2,30,2,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+attrs,0bf0678a22,2023-07-29,ef82eca6,"Fix TypeError for `asdict(<class with namedtuple>, retain_collection_types=True)` (#1165)",3,1,133,29,38,28,1,0,0,2,0,0,2,0,0,0,0,73,2,34,34,0,0,0,0,0
+attrs,a08bfb90ef,2023-06-13,71f7adeb,Un-deprecate __version__ for now,2,1,5,9,1,1,0,0,0,2,0,0,0,0,0,0,0,43,0,0,1,0,0,0,0,0
+attrs,8dbd2dbc04,2023-05-19,71f7adeb,Fix docstring markup,1,1,2,3,2,3,1,0,0,1,0,0,0,0,0,0,0,33,1,2,2,0,0,0,0,0
+attrs,3786d5ab74,2023-04-16,71f7adeb,Fix next version,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+attrs,c4c6fdd658,2023-04-14,9b6a3c77,Add literal string support to include and exclude filters (#1068),7,1,75,12,21,6,0,0,0,5,0,0,0,0,0,0,0,6,0,0,19,0,0,1,0,0
+attrs,c8b342d34f,2023-04-10,71f7adeb,Deprecate zope-interface support (#1120),3,1,25,3,10,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,8,0,0,0,1,0
+attrs,7d55876ed3,2023-04-10,71f7adeb,Accept tuples in attrs.validators.optional (#1122),5,1,29,6,5,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+attrs,a14e1859b8,2023-04-05,71f7adeb,Raise a deprecation warning when evolve receives insta as a kw arg (#1117),3,1,83,3,36,3,0,0,0,1,0,0,0,0,0,0,0,33,0,0,31,0,0,0,0,0
+attrs,22ae8473fb,2023-04-04,71f7adeb,Stop raising a deprecation warning on assoc (#1119),2,1,12,29,8,7,0,0,0,1,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+attrs,65ee286d6a,2023-04-03,40bbaeb6,Added `type` parameter to `attrs.field()` function (#1107),5,1,28,3,6,0,0,0,0,1,0,0,1,0,0,0,0,33,1,6,6,0,0,0,0,0
+attrs,c7308a66ef,2023-03-18,c15eb83e,Flesh out resolve_types (#1099),5,2,49,5,16,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,14,0,0,0,0,0
+attrs,b950cb8d83,2023-02-27,e5d8c312,compat: move check for closure cellvar update wrapper function (#1092),2,1,20,19,19,19,0,0,0,3,0,0,0,0,0,0,0,42,0,0,8,0,0,0,1,0
+attrs,4fcd15bddb,2023-02-05,c15eb83e,First pass over generics (#1079),5,3,110,3,43,3,0,0,0,2,0,0,0,0,1,0,0,13,0,0,31,0,0,0,0,0
+attrs,c9150d278c,2023-01-25,cc984e8a,Fix backward compatibility with pickles before v22.2.0 (#1085),3,1,31,9,9,3,1,0,0,2,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,0
+attrs,d4934b14f1,2023-01-11,71f7adeb,Drop 3.6 & switch to 100% static packaging configuration (#993),10,4,336,279,69,205,0,0,0,0,0,0,0,0,2,2,0,0,0,0,57,0,0,0,0,0
+attrs,c02d993f9d,2023-01-10,71f7adeb,Fix object index in API docs by splitting API docs in two (#1080),10,6,456,371,87,82,0,0,0,15,0,0,0,0,0,0,0,71,6,51,80,0,0,0,1,0
+attrs,a71fbbad89,2023-01-08,77226299,Fix @frozen exceptions to allow __traceback__ to be set. (#1081),3,1,47,22,13,22,1,0,0,1,0,0,0,0,0,1,0,9,0,0,13,0,1,0,0,0
+attrs,98aa688501,2023-01-02,71f7adeb,Clarify make_class argument type (#1075),2,1,8,5,2,2,0,0,0,1,0,0,0,0,0,0,0,35,0,0,2,0,0,0,0,0
+attrs,f116bfc6cc,2022-12-21,71f7adeb,Start new development cycle,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,a9960de98d,2022-12-21,71f7adeb,Prepare 22.2.0,16,1,49,29,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,9fd0f82ff0,2022-12-20,71f7adeb,Convert extending.rst to md,4,1,343,337,1,1,0,0,0,1,0,0,0,0,0,0,0,59,1,1,1,0,0,0,0,0
+attrs,a760574795,2022-12-20,71f7adeb,Convert init.rst to md,5,1,511,512,1,1,0,0,0,1,0,0,0,0,0,0,0,59,1,1,1,0,0,0,0,0
+attrs,d4090f4706,2022-12-19,71f7adeb,"Revert ""Increment dev version so we can upload again""",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,a633a7b13b,2022-12-19,71f7adeb,Increment dev version so we can upload again,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,9fbfe52def,2022-12-19,71f7adeb,Replace the logo in the PyPI README,2,1,13,1,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+attrs,90f7590abf,2022-12-18,49bc8b6c,Add unstable Python 3.12 to CI allowing failures (#1033),4,1,16,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,59a445e584,2022-12-18,71f7adeb,Purge stale Python 2/3 mentions,5,1,15,24,5,11,0,0,0,2,0,0,0,0,0,0,0,59,2,3,3,0,0,0,0,0
+attrs,afe211143d,2022-12-07,71f7adeb,Switch changelog to markdown (#1067),36,1,1110,1166,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+attrs,0f6a9b4753,2022-12-02,71f7adeb,Add unsafe_hash alias for class-wide hash (#1065),11,2,136,93,18,6,0,0,0,4,0,0,2,1,0,0,0,94,3,17,15,0,0,0,0,0
+attrs,ee3ecb112f,2022-11-30,01650c52,Add Attribute.alias (#950),14,3,254,12,47,2,0,0,0,7,0,0,5,0,1,0,0,210,6,17,36,0,0,0,0,0
+attrs,95841fc93e,2022-11-16,71f7adeb,Start moving docs to MyST / Markdown (#1053),12,1,244,273,3,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+attrs,a04ac9fdfb,2022-11-08,71f7adeb,Pin mypy until we fix our pytest-mypy tests,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,2f447ca3e5,2022-09-28,71f7adeb,Fix version syntax,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,300d3ee32c,2022-09-28,71f7adeb,Looks like pytest-mypy is broken on 3.11,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,6b73e8e015,2022-09-28,71f7adeb,Fix type docstring,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,c3078e33d0,2022-09-12,71f7adeb,Unpin towncrier,2,1,1,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,f870beb84a,2022-09-04,f86bafa2,Add a not_ validator (#1010),6,1,453,0,120,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,102,0,0,0,0,0
+attrs,f7fa5a810c,2022-08-30,f0afa9b2,Fix type errors in Pyright (#999),7,2,58,5,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+attrs,7f18d92d73,2022-08-30,71f7adeb,Pin towncrier for docs,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,c860e9dd25,2022-08-27,3c833253,Use enum for typing NOTHING (#983),5,1,21,18,8,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,8,0,0,0,0,0
+attrs,fab5a9289d,2022-08-22,71f7adeb,Deprecate Python 3.6 (#1017),3,1,13,3,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+attrs,9169c49966,2022-08-22,49bc8b6c,"Add a preview for the ""next release"" change notes (#1016)",3,1,28,1,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+attrs,70b3cf16e1,2022-08-21,71f7adeb,Use pytest-xdist in tox / CI (#1011),4,1,22,12,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+attrs,89a890a326,2022-08-18,3868fc45,Change __getstate__ and __setstate__ to use a dict (#1004) (#1009),2,1,61,3,4,3,0,0,0,3,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+attrs,f7d64c0190,2022-08-15,670193c9,"Remove universal wheel, python 2 is unsupported (#1005)",1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+attrs,c58ffd4e4c,2022-08-11,71f7adeb,Call abc.update_abstractmethods on 3.10+ (#1001),3,1,85,8,26,8,0,0,0,1,0,0,0,0,1,0,0,6,0,0,20,0,0,0,1,0
+attrs,536ddc57e2,2022-08-11,71f7adeb,Why not,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,0c19e1600e,2022-08-11,71f7adeb,Stop installing pre-commit in dev,3,1,7,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+attrs,fbcae2a8b0,2022-08-10,71f7adeb,Switch to 1% static packaging configuration (#998),4,1,60,52,14,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+attrs,6151683244,2022-08-10,71f7adeb,Eliminate most str.format() and %-formatting (#995),6,3,53,73,48,69,0,0,0,14,0,0,0,1,0,0,0,210,2,19,47,0,0,0,0,0
+attrs,a8191556c0,2022-08-07,135d7785,Speedup `_setattr` usage and fix slight performance regressions (#991),4,1,23,11,17,7,1,0,0,8,0,0,2,0,0,0,0,214,3,9,13,0,0,0,0,0
+attrs,08f8319efe,2022-08-05,71f7adeb,Drop Python 3.5 (#988),24,7,110,250,84,195,0,0,0,16,0,1,0,1,0,3,0,76,4,51,80,0,0,0,0,0
+attrs,06ce354594,2022-08-01,71f7adeb,"pre-commit autoupdate, add yesqa",3,1,8,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,c428229aca,2022-07-29,71f7adeb,Refer to glossary explicitly so it's not in fixed font,1,1,5,6,5,6,1,0,0,1,0,0,0,0,0,0,0,34,1,5,5,0,0,0,0,0
+attrs,a683bdb656,2022-07-28,71f7adeb,Start new development cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,b3dfebe2e1,2022-07-28,71f7adeb,Prepare 22.1.0,12,1,40,23,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,5d84d9a568,2022-07-28,71f7adeb,Move mypy config to pyproject.toml,3,1,6,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+attrs,a67c84f51e,2022-07-28,71f7adeb,Add more prominent callout about slots to API docs,1,1,9,4,9,4,0,0,0,1,0,0,0,0,0,0,0,29,1,7,7,0,0,0,0,0
+attrs,a18b3957d5,2022-06-24,71f7adeb,Add support for Python 3.11 (#969),7,2,44,31,14,15,0,0,0,2,0,0,0,0,1,0,0,42,0,0,8,0,0,0,0,0
+attrs,a7e82b5c41,2022-06-13,71f7adeb,Polish docs around #951,4,1,25,21,4,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+attrs,2257a0c60c,2022-06-13,556cfe0c,Complete error signature of _InValidator (#951),3,1,19,3,4,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+attrs,d785c656e5,2022-03-21,4214d626,Clean up some more Python 2-isms (#942),5,2,15,12,4,9,0,0,0,1,0,0,0,0,0,0,0,28,0,0,4,0,0,0,0,1
+attrs,e18b5f340a,2022-03-21,4214d626,Remove various obsolete _compat helpers (#941),9,5,44,84,19,41,0,0,0,13,0,0,1,0,0,3,0,78,7,10,19,0,0,0,1,0
+attrs,c422bf8041,2022-03-21,71f7adeb,Drop the deprecated Attribute.cmp (#939),3,1,12,54,0,17,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+attrs,980c8b04f5,2022-03-21,71f7adeb,Drop Python 2.7 (#936),44,13,453,880,100,351,0,0,0,24,0,1,0,4,0,21,0,209,6,9,98,0,0,0,0,0
+attrs,d0c73d8faa,2022-03-20,e7f88d71,Allow `deep_iterable` member validator to accept a list of validators (#925),4,1,71,13,3,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+attrs,656ce11bc2,2022-03-14,71f7adeb,Deduplicate annotation extraction (#912),4,3,93,61,85,61,0,0,0,3,0,0,0,1,6,0,0,213,1,4,66,0,0,0,1,1
+attrs,9f09614678,2022-03-14,71f7adeb,Block mypy 0.940,2,1,4,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+attrs,112e50fcfa,2022-03-10,71f7adeb,Use :pep:`#` in Sphinx files & move the rest to new URL,7,1,14,16,5,7,0,0,0,2,0,0,0,0,0,0,0,57,2,5,5,0,0,0,1,0
+attrs,7804a68ee3,2022-02-02,23480224,Added attrs.validators.min_len() (#916),5,1,122,0,32,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,24,0,0,0,0,0
+attrs,a080e54e02,2022-02-02,1e86b8b6,Improve docs of `attr.s(match_args=True)` (#919),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,38,1,1,1,0,0,0,0,0
+attrs,95bed4ee15,2022-02-02,71f7adeb,2022 is here,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,d6f9b5a967,2022-02-02,71f7adeb,Inline NO_OP API docs,2,1,9,8,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,fe9432ddf7,2022-02-02,71f7adeb,docs: Add missing on_setattr type to attr.s,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,38,1,2,2,0,0,0,0,0
+attrs,947bfb5421,2022-01-31,b21d9d3d,Fix hashing for custom `eq` objects (#909),3,1,34,5,12,5,1,0,0,3,0,0,0,0,0,0,0,40,0,0,11,0,0,0,0,0
+attrs,69a77910e4,2022-01-29,361d9508,Remove incorrect statement in documentation (#915),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+attrs,3df7bbe089,2022-01-03,135d7785,Speedup uses of `object.__setattr__` (#898),4,1,15,25,7,17,0,0,0,6,0,0,0,2,0,0,0,223,3,3,6,0,0,0,0,0
+attrs,7cfa3b68c5,2021-12-31,bbcacb74,Fix typos (#899),6,1,7,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,0c462938e1,2021-12-29,71f7adeb,Start new development cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,2de9014310,2021-12-29,71f7adeb,Prepare 21.4.0,5,1,14,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,0575d51ffd,2021-12-29,71f7adeb,Make virtual repr file names unique (#896),3,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,55,1,1,1,0,0,0,0,0
+attrs,03dd7136cf,2021-12-29,b1b16e08,Do not require cloudpickle for PyPy (#892),4,1,7,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,421a9d37fc,2021-12-28,71f7adeb,Start new development cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,dd26edd68e,2021-12-28,71f7adeb,Prepare 21.3.0,18,1,67,49,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,e09873485e,2021-12-28,71f7adeb,Add logo to PyPI description,1,1,7,3,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+attrs,046beaaaaa,2021-12-27,71f7adeb,Apply SPDX IDs,49,20,98,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,4278b2df39,2021-12-27,71f7adeb,Final light polish on docs,3,1,6,6,2,2,0,0,0,1,0,0,0,0,0,0,0,29,1,2,2,0,0,0,0,0
+attrs,e7345584ff,2021-12-25,71f7adeb,Add attrs namespace (#887),33,13,820,368,154,34,0,0,0,18,0,0,0,0,2,0,0,71,5,26,143,0,0,0,0,0
+attrs,7b02220bd3,2021-12-16,71f7adeb,Serialize keys as tuples in asdict (#888),6,1,91,30,52,29,0,0,0,2,1,0,1,0,0,0,0,69,2,51,51,0,0,0,0,0
+attrs,679e4b443d,2021-12-14,71f7adeb,NG: convert on setattr by default (#886),7,2,133,17,41,13,0,0,0,4,0,0,1,1,0,0,0,74,3,26,34,0,0,0,0,0
+attrs,868c67e225,2021-12-06,c0e376ee,[pre-commit.ci] pre-commit autoupdate (#882),3,2,1,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,1759260aa0,2021-11-30,4214d626,Add support for re.Pattern to validators.matches_re() (#877),5,1,63,23,34,19,0,0,0,3,0,0,0,0,0,0,0,34,0,0,31,0,0,0,0,0
+attrs,fe19f4b341,2021-11-29,4214d626,Avoid whitelist/blacklist terminology (#878),2,1,8,8,4,4,0,0,0,2,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+attrs,6e04e869e6,2021-11-23,71f7adeb,Fix links,2,1,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,c6143d518b,2021-11-17,d304b645,"Add ""no_run_validators()"" context manager (#859)",8,2,167,3,62,0,0,0,0,2,0,0,0,0,3,0,0,5,0,0,43,0,0,0,0,0
+attrs,554d6f293d,2021-11-04,c11dae74,Pull thread-local into _compat module to fix cloudpickling. (#857),6,3,89,29,44,29,1,0,0,3,0,0,0,1,0,0,0,55,1,18,28,0,1,1,0,0
+attrs,5a368d8299,2021-11-02,f725a040,Enable use of f-strings in Python 3.6. (#858),1,1,3,6,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+attrs,124c20cde0,2021-10-06,71f7adeb,Document Attribute.eq_key & .order_key (#847),3,1,19,8,15,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+attrs,44ea327ab7,2021-10-04,ff63c9d7,Make `from attr import *` work again on recent python versions. (#848),3,1,18,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+attrs,52fcad29bb,2021-09-24,d304b645,Add additonal validators (#845),5,1,354,1,111,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,83,0,0,0,0,0
+attrs,f57b6a6759,2021-09-22,d304b645,Convert transformed attrs to AttrsClass (#824),3,1,25,6,8,6,0,0,0,1,0,0,0,0,0,0,0,78,1,4,4,0,0,0,0,0
+attrs,f31bb2850a,2021-09-19,f7b13575,Fix bug in resolve_types with subclasses (#843),3,1,42,6,6,6,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+attrs,e84b57ea68,2021-08-10,bd82fc15,Inline distutils.util.strtobool in tests (closes #813) (#830),5,1,108,7,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32,0,0,0,0,0
+attrs,38580632ce,2021-06-30,c15eb83e,Rework linecache handling (#828),3,1,49,36,23,33,0,0,0,2,0,0,0,0,0,0,0,21,0,0,22,0,0,0,0,0
+attrs,9709dd82e1,2021-05-26,c15eb83e,Initial implementation of a faster repr (#819),3,2,130,51,129,51,0,0,0,4,1,0,0,0,1,0,0,56,1,56,109,0,0,0,0,0
+attrs,8c9a79680f,2021-05-18,71f7adeb,Minor polish to #815,4,1,92,69,11,5,0,0,0,2,0,0,1,0,0,0,0,97,2,15,11,0,0,0,0,0
+attrs,6731eea0ed,2021-05-18,71f7adeb,Run Python 3.10 under coverage (#818),4,1,21,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,8613af97bb,2021-05-18,89f3c0e3,Add __match_args__ to support match case destructuring in Python 3.10 (#815),12,2,265,6,20,0,0,0,0,4,0,0,3,0,1,0,0,93,3,13,17,0,0,0,0,0
+attrs,20c2d4fc0c,2021-05-17,71f7adeb,Optimize the case of on_setattr=validate & no validators (#817),4,1,74,17,26,16,0,0,0,8,0,0,2,0,0,0,0,228,4,18,23,0,0,0,0,0
+attrs,8ae2d6f1c3,2021-05-09,71f7adeb,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+attrs,932902c29f,2021-05-07,71f7adeb,Start new cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,83d3cd70f9,2021-05-07,71f7adeb,Prepare 21.2.0,4,1,15,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,966c220e55,2021-05-06,4af4fc9f,Declare Python 3.4 as incompatible (#807),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,f10d050864,2021-05-06,71f7adeb,Revert recursive evolve (#806),4,1,34,53,2,8,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+attrs,24a2c1e7a5,2021-05-06,71f7adeb,Start new cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,b22195ee65,2021-05-06,71f7adeb,Prepare 21.1.0,21,1,78,58,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,fbed0320a6,2021-05-06,71f7adeb,"Revert last change, the string is consistent w/ total_ordering",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+attrs,2f395f1a27,2021-05-05,71f7adeb,Make docstring consistent with the rest,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+attrs,01aa333005,2021-05-05,71f7adeb,Remove warning if eq is customized & order is not (#800),2,1,0,29,0,8,0,0,0,1,0,0,0,0,0,0,0,18,0,0,0,0,0,0,1,0
+attrs,743f973889,2021-05-04,71f7adeb,Add narrative docs for #787 (#801),4,1,23,5,4,2,0,0,0,1,0,0,0,0,0,0,0,44,1,3,3,0,0,0,0,0
+attrs,71b4638b32,2021-05-01,7c1552fd,New attr.cmp_using helper function (#787),4,2,674,0,152,0,0,0,0,0,1,0,0,0,7,0,0,0,0,0,110,0,0,0,0,0
+attrs,0102cb6516,2021-04-28,a72751a9,fix typo (#797),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,a8bf109b63,2021-04-21,71f7adeb,Add Ko-fi,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,d0cff8face,2021-04-14,ddb4bcc4,docs: more explicit about Factory caveats (#791),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+attrs,685f865d50,2021-04-12,71f7adeb,Stress that attr.ib is always needed for decorators,1,1,9,0,9,0,0,0,0,1,0,0,0,0,0,0,0,37,1,7,7,0,0,0,0,0
+attrs,f47e568c9e,2021-04-09,71f7adeb,Make NG APIs official (#786),5,1,25,18,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,e01ddbe307,2021-03-20,71f7adeb,Detect ClassVars coming from typing_extensions (#782),3,1,19,1,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+attrs,0a6f8075eb,2021-03-10,d83bf34c,add sphinx-notfound-page (#777),2,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,3147e84603,2021-03-09,ddb4bcc4,docs: fix double negative (#776),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+attrs,ce8bb4ffa9,2021-03-05,eabf91f0,Add attribs to resolve_types and fix test_hooks (#774),5,1,14,4,8,3,1,0,0,1,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,0
+attrs,ad59a62cae,2021-03-04,71f7adeb,Add changelog to project URLs,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,ded92256e2,2021-02-28,71f7adeb,Small addendums to #773,2,1,7,5,6,5,0,0,0,2,0,0,0,0,0,0,0,57,2,6,6,0,0,0,0,0
+attrs,f580185cc4,2021-02-28,7c1552fd,Undeprecate cmp (#773),5,1,7,80,5,11,0,0,1,5,0,0,0,0,0,0,0,57,3,5,5,0,0,0,0,0
+attrs,fc26dcace1,2021-02-26,71f7adeb,Fix make_class for dynamic generic classes (#770),3,2,30,1,14,1,1,0,0,1,0,0,0,0,1,0,0,35,0,0,10,0,0,0,0,0
+attrs,03d3fc7a71,2021-02-22,71f7adeb,Add Python 3.10 support (#763),8,2,101,73,8,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,0,0,0,0,0
+attrs,44ac461146,2021-02-22,71f7adeb,Polish up #627,3,1,4,5,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,aefdb117fa,2021-02-22,7c1552fd,Allow user to customize how an attribute is compared (#435) (#627),7,1,417,70,133,22,0,0,0,8,0,0,3,0,3,2,0,57,4,33,109,0,0,0,0,0
+attrs,fe6eb31200,2021-02-19,d304b645,Recursively evolve nested attrs classes (#759),4,1,55,2,8,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,6,0,0,0,0,0
+attrs,1499c77e79,2021-02-19,eabf91f0,Fix issue with get_type_hints(cls.__init__) and refactor (#760),2,1,70,43,41,43,1,0,0,4,0,0,1,0,2,0,0,58,1,6,30,0,0,0,0,1
+attrs,78335e9b49,2021-02-18,b534649f,doc: fix typo in default_if_none doc (#762),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+attrs,efcbae51cd,2021-01-25,86304751,__attrs_pre_init__ (#750),5,1,67,3,20,3,0,0,0,7,0,0,3,0,0,0,0,228,4,12,18,0,0,0,0,0
+attrs,654aa92475,2021-01-23,86304751,__attrs_init__() (#731),6,1,118,14,80,13,0,0,0,6,0,0,3,0,3,0,0,225,4,18,70,0,0,0,0,0
+attrs,9de675f4b4,2021-01-11,ef82eca6,"Fix: TypeError when using properties, super(), and slots=True (#652) (#747)",3,1,52,0,4,0,1,0,0,1,0,0,1,0,0,0,0,66,1,2,2,0,0,0,0,0
+attrs,2fdf92997c,2020-12-30,01650c52,Clarify next-gen auto_attribs inference rules (#742),2,1,41,2,2,2,0,0,0,1,0,0,0,0,0,0,0,28,1,2,2,0,0,0,0,0
+attrs,345fb0bcac,2020-12-30,71f7adeb,Add versionchanged for #732,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,4ce3778fbe,2020-12-30,71f7adeb,There won't be a 20.4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,f132c07e55,2020-12-21,71f7adeb,Make NOTHING falsey (#732),3,1,14,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+attrs,3d274d0bfa,2020-12-21,f7b13575,WIP: Add mypy tests (#737),3,1,32,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+attrs,1f627dd3d5,2020-12-13,a6797a1d,Fixed slots inheritance (#718),3,1,87,3,22,3,1,0,0,1,0,0,1,0,0,0,0,64,1,15,15,0,0,0,1,0
+attrs,e09b1d6423,2020-12-13,792f8e43,Infer type annotations from converters (#710),5,2,280,5,84,2,0,0,0,3,0,0,1,0,0,0,0,222,1,17,72,0,0,0,0,0
+attrs,108c792ec8,2020-11-20,71f7adeb,Fix long description,1,1,4,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+attrs,3119e96931,2020-11-05,71f7adeb,Start new cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,f3762ba07b,2020-11-05,71f7adeb,Prepare 20.3.0,9,1,37,24,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,06d0f8eda6,2020-11-05,71f7adeb,Add funding URLs to metadata,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+attrs,f2dabeae82,2020-11-04,71f7adeb,Fix exception chaining on PyPy (#712),6,2,64,7,26,7,1,0,0,3,0,0,0,0,1,0,0,51,1,1,21,0,0,0,0,0
+attrs,bc527b9f29,2020-10-19,a6797a1d,[RFC] kw_only python 2 backport (#700),4,1,98,38,65,7,0,0,0,2,0,0,1,0,2,0,0,207,2,8,59,0,0,0,0,0
+attrs,0e6c74ac17,2020-10-19,71f7adeb,Treat frozensets like sets in asdict/astuple (#704),3,1,35,3,7,3,0,0,0,3,0,0,0,0,0,0,0,71,2,2,3,0,0,0,0,0
+attrs,ae51f34681,2020-10-17,71f7adeb,Attribute.assoc → evolve,4,1,15,15,10,6,0,0,0,3,0,0,0,0,1,1,0,78,1,2,7,0,0,0,0,0
+attrs,0eae613ce1,2020-10-15,d304b645,Add hooks for field transformation and for asdict serialization (#653),11,3,432,29,95,16,0,0,0,10,0,0,6,0,1,1,0,90,6,54,91,0,0,0,0,0
+attrs,0343927ecd,2020-10-05,71f7adeb,Fix theme dependency,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,ffe49c8241,2020-10-05,71f7adeb,Switch to furo,3,1,5,7,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+attrs,d684e86857,2020-10-05,5a676f77,Fix to plural arguments in attr.s on_setattr docs (#699),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+attrs,6aca10f2a7,2020-09-28,71f7adeb,Beef up glossary and urge people more to read it,3,1,8,6,3,1,0,0,0,1,0,0,0,0,0,0,0,36,1,3,3,0,0,0,0,0
+attrs,28d75dbf89,2020-09-05,71f7adeb,Start 20.3.0 cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,4f74fbaca3,2020-09-05,71f7adeb,Prepare 20.2.0,9,1,41,27,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,504eefe91f,2020-09-05,71f7adeb,NG: make frozen classes comfortably subclassable (#687),3,1,100,7,33,7,0,0,0,2,0,0,0,1,0,0,0,27,1,22,23,0,0,0,0,0
+attrs,48755905ee,2020-09-05,71f7adeb,Don't reset custom __setattr__ in slotted classes (#681),4,1,120,25,30,25,0,4,0,5,0,0,1,1,0,0,0,51,2,11,16,0,0,0,0,0
+attrs,bfd7bb49b4,2020-09-03,71f7adeb,Ignore inherited field when comparing Attributes (#684),3,1,28,2,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0
+attrs,dfb2ee284d,2020-09-03,67ff9e02,Make `zope` a semi-optional test dependency (#685),4,1,39,20,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+attrs,f680c5b83e,2020-09-01,71f7adeb,pre-commit autoupdate,5,2,12,12,8,7,0,0,0,5,0,0,0,0,0,0,0,207,2,4,7,0,0,0,0,0
+attrs,2cf05a9368,2020-08-24,71f7adeb,Add 3.9,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,4cfd52db51,2020-08-23,eabf91f0,Fix auto_attrib=None behavior when maybe_cls=None (#675),2,1,42,8,17,8,1,0,0,2,0,0,1,0,1,0,0,29,1,12,12,0,0,0,0,0
+attrs,358c85e74c,2020-08-21,71f7adeb,Fix auto-detection of eq/ne in NG APIs (#671),2,1,16,1,1,1,1,0,0,1,0,0,0,0,0,0,0,28,1,1,1,0,0,0,0,0
+attrs,1a29941d5c,2020-08-20,71f7adeb,Start 20.2.0 cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,90386b669e,2020-08-20,71f7adeb,Prepare 20.1.0,20,1,107,105,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,fda437c91f,2020-08-20,71f7adeb,Add attr.field (#669),7,2,128,9,41,4,0,0,0,1,1,0,0,0,1,0,0,28,1,1,38,0,0,0,0,0
+attrs,b02335f59d,2020-08-17,71f7adeb,Add attr.define/mutable/frozen (#666),10,2,372,2,93,1,0,0,0,0,1,0,0,0,2,0,0,0,0,0,75,0,0,0,0,0
+attrs,131d1477c6,2020-08-14,71f7adeb,Fix doc,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,36,1,2,2,0,0,0,0,0
+attrs,d59b154e42,2020-08-14,71f7adeb,Clean up api docs a bit,1,1,22,30,22,30,0,0,0,5,0,0,0,0,0,0,0,53,2,19,22,0,0,0,0,1
+attrs,106c33c205,2020-08-13,71f7adeb,Clear __setattr__ if it was inherited && written by us (#663),4,1,414,192,57,7,0,0,0,7,0,0,3,0,0,0,0,89,4,36,42,0,0,0,1,0
+attrs,3aa497d02b,2020-07-22,71f7adeb,Move resolve_types to _funcs and tweak docs,6,3,86,70,49,41,0,0,0,0,0,0,0,0,1,1,0,0,0,0,34,0,0,0,1,0
+attrs,c42bf9ebb9,2020-07-22,eabf91f0,Add attr.resolve_types (#302),7,2,206,0,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,29,0,0,0,0,0
+attrs,05e930c36f,2020-07-21,71f7adeb,Rename converters.chain to converters.pipe,6,2,20,18,9,7,0,0,0,1,0,0,0,0,2,2,0,53,1,1,8,0,0,0,0,0
+attrs,2f6fd8516c,2020-07-20,71f7adeb,Add on_setattr hooks to attr.s and attr.ib (#660),19,6,728,181,407,165,0,0,0,12,0,0,7,1,11,4,0,207,8,174,316,0,0,0,0,0
+attrs,cf0adc5d12,2020-06-27,aa7328ae,Fix typo in `setup.py` (#656),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+attrs,277a5c1d45,2020-05-11,71f7adeb,Add control to generate __[sg]etstate__ (#642),10,1,194,47,76,38,0,0,0,5,0,0,3,1,3,2,0,78,4,35,60,0,0,0,0,0
+attrs,33b61316f8,2020-04-06,71f7adeb,Fix attribute collection (#635),8,1,221,41,96,21,1,0,0,6,0,0,4,1,2,0,0,74,5,25,74,0,0,0,0,0
+attrs,2a1e8cf4da,2020-03-29,71f7adeb,Remove intersphinx mapping to zope.interface,2,1,2,2,2,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,1,0
+attrs,d3ca25550d,2020-03-29,71f7adeb,Save an indentation level and make code more clear,1,1,11,9,11,9,0,0,0,1,0,0,1,0,0,0,0,79,1,8,8,0,0,0,0,0
+attrs,196d948613,2020-03-16,71f7adeb,Add auto-detection of self-implemented methods (#607),7,2,487,33,119,27,0,0,0,7,0,0,2,0,2,0,0,70,4,75,96,0,0,0,0,0
+attrs,07810aec7b,2020-03-13,f2c46a7b,Fix issue 589 (#590),3,1,33,2,7,2,1,0,0,1,0,0,1,0,0,0,0,52,1,7,7,0,0,0,0,0
+attrs,4bd6827091,2020-03-09,0012940f,Wrapped __ne__ in a _make_ne function #626 (#632),2,1,37,16,26,12,0,0,0,4,0,0,0,0,2,1,0,29,0,0,24,0,0,0,0,0
+attrs,609b10e84f,2020-03-08,71f7adeb,Refactor docs and switch to RTD theme,7,2,36,63,10,9,0,0,0,2,0,0,0,0,0,0,0,45,2,9,10,0,0,0,0,1
+attrs,4dea97e633,2020-03-06,004cb077,added first doc stub (#506),3,1,40,0,7,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,6,0,0,0,0,0
+attrs,9fcfe3479f,2020-03-06,90ccf0bc,Add and_ converter (#618),6,2,88,5,33,3,0,0,0,1,0,0,1,0,2,0,0,34,1,4,23,0,0,0,0,0
+attrs,d6a65fb89f,2020-02-10,67ff9e02,Use a wrapper class for cache hash to prevent cache serialization (#620),5,1,209,107,52,36,0,0,0,3,0,0,0,0,2,2,0,49,0,0,35,0,0,0,0,0
+attrs,9b5e988ccc,2020-01-13,d1e20278,Fixed frozen and cache_hash incompatibility (#612),3,1,23,3,11,3,1,0,0,2,0,0,0,0,1,0,0,29,0,0,6,0,0,0,0,0
+attrs,ac541fbe55,2020-01-09,71f7adeb,Add version constraints for coverage,2,1,3,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,495968281c,2020-01-06,71f7adeb,Officially drop Python 3.4 (#608),4,1,7,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,6fcb759862,2020-01-06,71f7adeb,Put coverage config into pyproject.toml,4,1,14,14,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,e67cc51930,2020-01-06,71f7adeb,Unpin coverage,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,aa55c68efd,2020-01-03,71f7adeb,Pin coverage to <5.0 for now,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,fff74ec6d2,2019-12-30,71f7adeb,There won't be a 19.4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,43177cc99c,2019-12-30,71f7adeb,pre-commit autoupdate,5,1,12,11,4,3,0,0,0,1,0,0,0,0,0,0,0,27,0,0,4,0,0,0,0,0
+attrs,b78720245a,2019-12-05,71f7adeb,Simplify expression,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,1
+attrs,179b1c4bf0,2019-11-05,03138020,minor typo in attr.s docstring (#597),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,1,1,1,0,0,0,0,0
+attrs,5e028e9858,2019-10-23,e270c7fc,Fix minor docstring typo (#592),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,45,1,1,1,0,0,0,0,0
+attrs,b7814c6b1f,2019-10-16,71f7adeb,Get rid of packaging sections in setup.cfg,2,1,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,bb7b1f4650,2019-10-15,71f7adeb,Start 19.4.0 cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,823c1c332c,2019-10-15,71f7adeb,Prepare 19.3.0,3,1,11,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,e2b02ec39e,2019-10-15,79ba1226,Fix default values that are not comparable with '==' (#586),3,1,17,1,1,1,1,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+attrs,8cd3054020,2019-10-09,ddb4bcc4,fix grammar in frozen docs (#583),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,1,1,1,0,0,0,0,0
+attrs,686ee940fd,2019-10-02,71f7adeb,We totally support 3.8,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,7b49d375c7,2019-10-02,71f7adeb,Rename _version.py into _version_info.py,6,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,c0eda39363,2019-10-01,71f7adeb,Start 19.3 cycle,3,1,10,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,528323040f,2019-10-01,71f7adeb,Prepare 19.2.0,19,1,67,41,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,955d622493,2019-10-01,71f7adeb,Add attr.__version_info__ (#580),8,2,188,1,88,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,66,0,0,0,0,0
+attrs,754fae0699,2019-10-01,71f7adeb,Clarify that unannotated attributes are ignored too,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,25,1,2,2,0,0,0,0,0
+attrs,25735e7a3c,2019-09-26,71f7adeb,Stay ASCII,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,bd135d43f1,2019-09-26,71f7adeb,Add attr.__version_info__,4,2,161,0,88,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,66,0,0,0,0,0
+attrs,08fcfe91d4,2019-09-22,71f7adeb,Split cmp into eq and order (#574),17,1,478,163,166,52,0,2,0,8,0,0,5,0,12,8,0,53,5,68,142,0,0,0,1,0
+attrs,6e7b9f2cfa,2019-09-16,71f7adeb,Better explanation of the slots arg,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,22,1,2,2,0,0,0,0,0
+attrs,df32b75886,2019-09-16,71f7adeb,Link our docs when explaining the hash argument,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,22,1,4,4,0,0,0,0,0
+attrs,8824dc26c2,2019-09-09,77226299,Add default_role for Sphinx. (#571),22,6,148,139,63,63,0,0,0,17,0,0,0,0,0,0,0,71,4,27,63,0,0,0,0,0
+attrs,b8671adf98,2019-09-09,71f7adeb,re_matches: test for error messages,2,1,14,7,3,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+attrs,424e14382c,2019-09-09,71f7adeb,Explain re_matches' default better,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+attrs,d153daa4ef,2019-09-09,71f7adeb,Split up re_matches tests,2,1,27,14,10,5,0,0,0,1,0,0,0,0,0,0,0,25,0,0,10,0,0,0,1,0
+attrs,78cb7d4903,2019-09-09,71f7adeb,Refactor matches_re a bit,2,1,28,22,12,18,0,0,0,1,0,0,0,0,0,0,0,21,0,0,10,0,0,0,0,1
+attrs,2a2e0f2ebb,2019-09-09,71f7adeb,Polish matches_re docstring,1,1,9,8,9,8,0,0,0,1,0,0,0,0,0,0,0,24,0,0,7,0,0,0,0,0
+attrs,08b15877c7,2019-09-09,7bcb1450,Add matches_re validator (#552),5,1,159,0,73,0,0,0,0,10,0,0,0,0,3,0,0,13,0,0,60,0,0,0,0,0
+attrs,f84f451557,2019-09-07,71f7adeb,Stop comparing/ordering subclasses (#570),3,1,46,52,15,35,0,0,0,6,0,0,0,0,0,0,0,36,1,3,11,0,0,0,0,0
+attrs,0b913645c5,2019-09-06,4214d626,support custom repr() callable for attributes (#568),6,1,68,12,23,6,0,0,0,3,0,0,0,0,0,0,0,40,1,9,20,0,0,0,0,0
+attrs,22b8cb1c4c,2019-08-21,71f7adeb,"Add newsfragment for #559, some polish",4,1,12,14,2,6,0,0,0,1,0,0,0,1,0,0,0,78,1,1,1,0,0,0,0,0
+attrs,94ee269438,2019-08-21,5ac4d87a,"Ability to have `kw_only` attributes defined anywhere, as an optional feature (#559)",2,1,37,43,12,26,0,0,0,1,0,0,0,1,0,0,0,81,1,6,6,0,0,0,0,0
+attrs,55f71b9ec3,2019-08-19,71f7adeb,Ensure Windows users can install dev versions (#564),2,1,25,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,bde0801987,2019-08-19,71f7adeb,Make auto_exc=True classes hashable by ID (#563),4,1,26,18,6,6,0,0,0,2,0,0,0,1,0,0,0,51,2,4,2,0,0,0,0,0
+attrs,cf9de77409,2019-08-08,f6ccfa0c,Update closure cell rewriting to use CodeType.replace() on 3.8 (#562),2,1,34,23,29,23,0,0,0,1,1,0,0,0,0,0,0,51,1,25,25,0,0,0,0,0
+attrs,eda9f2de6f,2019-08-01,eabf91f0,Make unique_filename not depend on repr. (#560),3,1,94,20,46,20,0,0,0,8,0,0,0,1,1,0,0,37,1,2,38,0,0,0,0,0
+attrs,dc1b5a01e9,2019-07-23,71f7adeb,Ensure that bare attributes with default None are removed too (#556),4,1,23,1,4,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+attrs,68af33ec05,2019-07-20,e4f31786,Improve the error message informing the value that it got it (#536),6,2,78,9,34,5,0,0,0,2,0,0,0,0,2,0,0,12,0,0,29,0,0,0,0,0
+attrs,06999cda0a,2019-06-22,71f7adeb,Clarify why there's no factory on Attribute,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,a686f74d94,2019-06-04,f6ccfa0c,Fix closure cell rewriting on 3.8 (#539),2,1,5,4,2,0,1,0,0,1,0,0,0,0,0,0,0,48,0,0,2,0,0,0,0,0
+attrs,de8caa841f,2019-05-14,1266f590,Remove some extraneous # noqa comments (#530),3,1,9,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+attrs,729681b5a8,2019-05-08,71f7adeb,[WIP] Set up CI with Azure Pipelines (#510),5,1,69,82,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+attrs,0acfba66f4,2019-05-08,f6ccfa0c,Pure-Python approach to closure cell rewriting (#522),3,1,97,28,86,23,0,0,0,2,0,0,0,0,5,1,0,46,0,0,58,0,0,0,0,0
+attrs,6fa28b3b07,2019-04-13,71f7adeb,Fix rtype for has,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,957b1982d0,2019-03-13,bcd51999,Fix validators __all__ (#517),3,1,59,1,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+attrs,4fe28966e8,2019-03-07,71f7adeb,Fix pytest dependency pytest,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,c2a9dd8e11,2019-03-07,78b6b07b,Remove code and tests related to deprecated 'convert' kwarg (#504),6,1,9,164,1,42,0,0,1,3,0,0,0,2,0,1,0,40,2,1,1,0,0,0,1,0
+attrs,34efa98e92,2019-03-04,71f7adeb,add long_description_content_type,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,f3f386b314,2019-03-03,71f7adeb,Start 19.2 cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,0356f0603e,2019-03-03,71f7adeb,Prepare 19.1.0,8,1,41,28,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,4b88f924d6,2019-02-27,71f7adeb,Remove _add_init,2,1,21,17,0,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+attrs,25a98cbfe5,2019-02-25,71f7adeb,Implement first class exception support (#500),7,1,154,8,45,5,0,0,0,7,0,0,5,0,0,0,0,191,5,40,35,0,0,0,0,0
+attrs,1fada3d374,2019-02-25,71f7adeb,Be consistent in calling slotted classes slotted,8,1,17,17,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+attrs,659aa48f53,2019-02-14,15b2bddf,Improve documentation of safety constraints on hashable objects (#505),3,1,8,5,4,4,0,0,0,1,0,0,0,0,0,0,0,21,1,4,4,0,0,0,0,0
+attrs,d2be76c964,2019-02-02,15b2bddf,Clear cache hash on de-serialization (#489),3,1,111,0,29,0,0,0,0,3,0,0,1,0,1,0,0,47,1,3,14,0,0,0,0,0
+attrs,0c8797da86,2019-01-15,71f7adeb,There won't be a 18.3.0,3,2,5,5,4,4,0,0,0,3,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+attrs,e114561a06,2018-11-24,15b2bddf,450 kwonly before init false (#459),3,1,62,5,3,4,0,0,0,1,0,0,1,0,0,0,0,99,1,3,3,0,0,0,0,0
+attrs,336d052ec9,2018-11-07,bcd51999,Some new validators (#425),5,1,447,1,112,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,85,0,0,0,0,0
+attrs,1a095d1620,2018-10-25,e4f31786,Add python_requires in setup.py (#454),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,4202dcbce0,2018-10-24,71f7adeb,"Unpin pytest, pacify new flake8",2,2,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+attrs,290cf2a3f0,2018-10-19,71f7adeb,Quench a bunch of warnings,5,2,28,31,22,26,0,0,0,2,0,0,0,0,0,0,0,7,0,0,20,0,0,0,0,0
+attrs,c2bc831957,2018-09-01,71f7adeb,Start new cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,aaeba93b06,2018-09-01,71f7adeb,Prepare 18.2.0,17,1,49,32,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,15643ae8e2,2018-09-01,71f7adeb,Link types docs from attr.ib's type argument docs,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,54,1,3,3,0,0,0,0,0
+attrs,ad16cd36bf,2018-09-01,71f7adeb,Get rid of slangy anymore,3,1,8,8,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+attrs,73ae718ec5,2018-08-29,71f7adeb,"Consistently use ""base class"" and ""subclass"" (#436)",8,1,72,72,41,41,0,0,0,13,0,0,0,0,2,2,0,188,6,25,39,0,0,0,0,0
+attrs,4a83c93c05,2018-08-27,85c570f7,Make _Nothing a singleton (#433),1,1,6,14,6,14,0,0,0,1,0,0,0,0,1,5,0,5,0,0,6,0,0,0,0,0
+attrs,746f047a27,2018-08-27,71f7adeb,Allow to override class vars of super classes w/ annotations (#431),5,1,26,4,7,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+attrs,7fe111cbe2,2018-08-25,5a676f77,T325 weakref with slots (#420),9,1,184,33,41,5,0,0,0,4,0,0,4,0,0,0,0,49,4,44,37,0,0,0,0,0
+attrs,068cd0ba4c,2018-08-21,71f7adeb,Allow attributes to be called property and itemgetter (#430),3,1,21,2,5,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+attrs,0121f3b23c,2018-08-20,71f7adeb,RTD supports https for external domains now!,7,2,17,17,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,3e0ecbd891,2018-08-20,15b2bddf,Cache hash codes (#426),9,1,248,31,107,21,0,0,0,11,1,0,5,0,1,0,0,188,6,69,89,0,0,0,0,0
+attrs,123df67041,2018-08-11,6dbb0b1e,Added support for keyword-only arguments on Python 3+ [rebase] (#411),11,2,450,46,105,23,0,0,0,9,0,0,7,0,2,0,0,177,8,74,92,0,0,0,0,0
+attrs,afd2584470,2018-07-28,71f7adeb,Implement attr.converters.default_if_none (#414),7,1,161,3,55,1,0,0,0,1,0,0,0,0,3,0,0,3,0,0,40,0,0,0,0,0
+attrs,4c41099fb8,2018-07-28,26e250a6,Do not copy __weakref__ from original _cls_dict (#410),3,1,22,1,1,1,0,0,0,1,0,0,0,0,0,0,0,32,1,1,1,0,0,0,0,0
+attrs,de104e016b,2018-07-12,e2dfda8f,Add PEP484 stubs (#238),13,1,371,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,8707eee437,2018-06-23,71f7adeb,Janitor packaging,3,2,15,4,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+attrs,908cb018f2,2018-06-17,c15eb83e,Feature/recursive asdict (#395),3,1,59,14,40,14,0,0,0,1,0,0,0,1,1,0,0,46,1,9,37,0,0,0,0,0
+attrs,2834ee4a0c,2018-06-16,71f7adeb,Raise DeprecationWarning when comparing subclasses (#394),3,1,71,1,28,1,0,0,0,6,0,0,0,0,0,0,0,38,1,6,26,0,0,0,0,0
+attrs,a372d51b7b,2018-06-10,71f7adeb,Fade to Black (#392),29,7,1192,696,486,293,0,0,0,41,0,0,7,2,0,0,0,158,9,245,457,0,0,0,0,0
+attrs,a3dbdfc687,2018-05-25,0d8d3440,Improve error for in_(a_string) with a non-string value (#383),3,1,21,1,6,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+attrs,6717d0933f,2018-05-03,71f7adeb,Start 18.2.0 cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,9c3e07bab9,2018-05-03,71f7adeb,Prepare 18.1.0,2,1,59,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,29cc2abac8,2018-04-28,a073cce5,Use `\\` instead of a single `\` in docstrings (#375),3,2,9,4,4,4,0,0,0,4,0,0,0,0,0,0,0,44,1,1,4,0,0,0,0,0
+attrs,7cb8c82762,2018-04-23,a073cce5,Support `from typing import ClassVar` (#367),2,1,10,5,6,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,0,1,0,0
+attrs,fc033b41a1,2018-04-06,eabf91f0,Annotate __init__ with type hints (#363),4,1,82,3,9,3,0,0,0,2,0,0,1,0,0,0,0,139,1,4,8,0,0,0,0,0
+attrs,5e46afda49,2018-03-17,13a0f889,"return ""..."" rather than raising RecursionError for repr() on a cyclic object",3,1,44,7,29,7,0,0,0,2,0,0,0,0,0,0,0,30,0,0,22,0,0,0,0,0
+attrs,780e1e5e1e,2018-03-14,71f7adeb,Add syntactic sugar for attr.ib(default=attr.Factory) (#356),5,1,60,1,19,1,0,0,0,1,0,0,1,0,0,0,0,44,1,17,17,0,0,0,0,0
+attrs,bf65b96a91,2018-03-03,7790f04f,Add attr.fields_dict() (#349),6,2,90,3,32,2,0,0,0,1,0,0,0,0,1,0,0,9,0,0,26,0,0,0,0,0
+attrs,538d75f60c,2018-02-17,71f7adeb,Retain order if these or make_class are passed an ordered dict (#343),7,2,79,11,35,4,0,0,0,3,0,0,1,0,1,0,0,94,2,9,28,0,0,0,0,0
+attrs,93eb1e4d21,2018-02-05,71f7adeb,Our CI pases on 3.7,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,f80cabadf9,2018-01-29,71f7adeb,Bit of style fudging,1,1,14,11,14,11,0,0,0,4,0,0,2,0,1,1,0,136,2,7,14,0,0,0,0,0
+attrs,b47c6ce8b1,2018-01-29,c15eb83e,Eliminate __init__ overhead for frozen dict classes. (#336),4,1,125,27,87,23,0,0,0,10,0,0,3,0,4,0,0,134,3,57,73,0,0,0,0,0
+attrs,dc6040f9d5,2018-01-27,71f7adeb,Make cell setting completely best effort (#334),3,1,17,9,9,9,0,0,0,2,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+attrs,825de4f008,2018-01-26,71f7adeb,Make NOTHING's hash vegan (#332),3,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,8278088a70,2018-01-17,71f7adeb,Ignore __weakref__ in __setstate__ & __getstate__ (#326),4,1,25,3,9,3,0,0,0,3,0,0,1,0,0,0,0,38,1,8,8,0,0,0,0,0
+attrs,fc2062ea0c,2018-01-16,71f7adeb,Do not delete attributes from class body if these is passed (#323),4,1,36,19,23,19,0,0,0,4,0,0,1,0,0,0,0,32,3,17,23,0,0,0,0,0
+attrs,caf286edd0,2017-12-30,71f7adeb,Start new release cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,ca06613b75,2017-12-30,71f7adeb,Prepare 17.4.0,2,1,91,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,c601faf994,2017-12-29,71f7adeb,Use extras_require instead of dev-requirements.txt (#318),6,1,36,29,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0
+attrs,9e1f1360a8,2017-12-27,71f7adeb,"Add __module__ and __qualname__ to methods, fix __name__ (#316)",3,1,99,21,52,21,1,0,0,8,0,0,0,0,8,6,0,40,0,0,46,0,0,1,0,0
+attrs,bc0b437e58,2017-12-23,71f7adeb,Rename convert to converter (#315),7,1,233,60,97,36,0,1,0,7,0,0,3,0,1,0,0,121,4,64,89,0,0,0,0,0
+attrs,1addd3534d,2017-12-19,5a676f77,Make _CountingAttr empty metadata unique (#280),4,1,38,4,3,1,0,0,0,1,0,0,1,0,0,0,0,20,1,3,3,0,0,0,0,0
+attrs,5ed8c4a015,2017-12-13,71f7adeb,Fix MRO traversal with multiple inheritance (#304),6,1,22,22,8,20,1,0,0,1,0,0,0,1,0,0,0,90,1,4,4,1,0,0,1,0
+attrs,9d441d70ab,2017-12-06,eac9a891,Fix __repr__ crashing when a member is uninitialized or deleted (#308),3,1,31,1,1,1,1,0,0,2,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+attrs,cd8890c744,2017-12-04,71f7adeb,Speed up __eq__ by generating code (#306),2,1,55,20,54,20,0,0,0,1,0,0,0,0,1,2,0,40,0,0,41,0,0,0,0,0
+attrs,defa6b6f40,2017-11-30,71f7adeb,Fix and accelerate generated __hash__ methods (#296),4,1,46,11,34,11,1,0,0,2,1,1,0,0,5,6,0,33,0,0,28,0,0,0,0,0
+attrs,ef9a062022,2017-11-26,71f7adeb,Use isort so we can stop thinking about imports (#297),16,5,84,100,10,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,0
+attrs,f5b59a01f8,2017-11-14,71f7adeb,Handle inherited __annotations__ (#292),4,1,51,10,26,10,0,0,0,1,0,0,0,1,1,0,0,94,1,10,21,0,0,0,1,0
+attrs,a84a36d45f,2017-11-11,71f7adeb,Handle attrib redefs thru multiple inheritance (#287),4,1,50,3,10,3,0,0,0,1,0,0,1,0,0,0,0,94,1,7,7,0,0,0,1,0
+attrs,1e6627c9ad,2017-11-10,71f7adeb,Make ctypes optional (#286),4,1,151,81,51,7,0,0,0,0,0,0,0,0,5,1,0,0,0,0,44,0,0,0,0,0
+attrs,8b268136ec,2017-11-08,71f7adeb,Start new release cycle,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,19bb29555f,2017-11-08,71f7adeb,Prepare 17.3.0,2,1,39,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,69dd0ea319,2017-11-08,71f7adeb,Make typing.ClassVar linkable,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,1,1,1,0,0,0,0,0
+attrs,88aa1c897d,2017-11-08,71f7adeb,Add auto_attribs (#277),9,3,232,26,93,18,0,0,0,4,1,0,1,0,1,0,0,90,4,65,80,0,0,0,0,0
+attrs,2a50c4b930,2017-11-08,71f7adeb,Get rid of serif pretentiosness,3,1,7,6,1,1,0,0,0,1,0,0,0,0,0,0,0,18,1,1,1,0,0,0,0,0
+attrs,3dffdffd6c,2017-11-04,71f7adeb,Minor polish here and there,3,1,12,6,5,4,0,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+attrs,c1adf5cfc6,2017-11-04,e93491ee,Fix pickling for instances of classes created using make_class() (#282),5,1,33,8,14,4,1,0,0,1,0,0,0,0,0,0,0,19,0,0,9,0,0,0,0,0
+attrs,3040bdabbc,2017-10-26,71f7adeb,Refactor class creation (#272),15,1,568,195,294,129,0,0,0,10,2,1,1,2,26,12,0,57,6,63,224,0,0,0,0,1
+attrs,03c10ad0ef,2017-10-02,71f7adeb,Use new serious biz names in internal code (#257),10,3,216,176,35,28,0,0,0,1,3,3,0,0,3,3,0,15,0,0,31,0,0,0,0,0
+attrs,8b490b8586,2017-10-02,71f7adeb,Stop setting attributes on class bodies (#253),11,2,67,50,23,26,0,0,0,4,0,0,1,1,0,2,0,50,3,17,21,0,0,0,0,0
+attrs,566ada9848,2017-09-17,e2dfda8f,Basic type support (#239),8,1,123,23,31,10,0,0,0,5,0,0,4,0,0,0,0,48,4,18,29,0,0,0,0,0
+attrs,4faf5f9c26,2017-08-21,71f7adeb,Allow subclasses to overwrite attributes (#229),3,1,24,5,11,5,0,0,0,1,0,0,1,0,0,0,0,45,1,9,9,0,0,0,0,0
+attrs,47583a9459,2017-08-03,c15eb83e,Bugfix/slot super (#226),6,2,109,4,34,1,1,0,0,2,0,0,1,0,1,0,0,57,2,16,26,0,0,0,0,0
+attrs,74c39b6b46,2017-07-29,feb63921,Pass appropriate stacklevel in assoc deprecation warning. (#209),2,1,14,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+attrs,93c5d2a99d,2017-07-20,370fb74b,Fix some typos in doc strings (#218),3,3,7,7,7,7,0,0,0,5,0,0,0,0,0,0,0,31,3,4,6,0,0,0,0,0
+attrs,24815d7a78,2017-06-06,71f7adeb,Make Factory hashable (#204),3,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,303b2f627f,2017-06-01,71f7adeb,Activate warnings (#201),3,1,16,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,a6cf2d5637,2017-06-01,7790f04f,Fix unbound __str__ on Python 2 when slots=True (#199),3,1,10,9,5,5,1,0,0,3,0,0,0,1,0,0,0,49,2,2,5,0,0,0,0,0
+attrs,dc5253a061,2017-05-24,71f7adeb,Start new release cycle,2,1,26,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,c324a7d547,2017-05-24,71f7adeb,Prepare 17.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,0c8057cc90,2017-05-23,71f7adeb,Also mention __init__ in frozen caveat,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,8,1,3,3,0,0,0,0,0
+attrs,0dea63c4db,2017-05-22,71f7adeb,Document how to circumvent frozeness,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,8,1,3,3,0,0,0,0,0
+attrs,04e171aa4c,2017-05-22,71f7adeb,Document validator syntax more prominently,2,1,25,1,5,0,0,0,0,1,0,0,0,0,0,0,0,17,1,2,2,0,0,0,0,0
+attrs,82ea73cb47,2017-05-19,c15eb83e,Compatibility fixes. (#193),6,2,40,22,17,15,1,0,0,2,0,0,0,0,0,0,0,13,1,3,17,0,0,0,0,0
+attrs,edf75f2e77,2017-05-16,71f7adeb,Start new release cycle,2,1,26,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,f094aec6a9,2017-05-16,71f7adeb,Prepare 17.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,461e1b2aab,2017-05-16,d2bd7cd8,[RFC] Enhancement/one of validator (#181),4,1,107,9,42,6,0,0,0,2,0,0,0,0,3,0,0,2,0,0,33,0,0,0,0,0
+attrs,a328e67169,2017-05-16,71f7adeb,Add takes_self to Factory and @_CountingAttr.default (#189),8,2,191,49,94,38,0,0,0,6,0,0,1,0,2,0,0,114,3,29,80,0,0,0,0,0
+attrs,fbe0bd5967,2017-05-12,71f7adeb,Make optional support lists of validators (#186),7,2,170,52,64,30,0,0,0,6,0,0,0,0,1,1,0,15,1,1,47,0,0,0,0,0
+attrs,fdfd51e249,2017-05-10,120c89ef,Allow optional conversion (#173),5,2,83,0,26,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,19,0,0,0,0,0
+attrs,d02b1d8b5a,2017-05-10,71f7adeb,Decouple `these` docs from properties,2,1,3,21,3,3,0,0,0,1,0,0,0,0,0,0,0,8,1,3,3,0,0,0,1,0
+attrs,b79a49e9a4,2017-05-04,c15eb83e,Fix evolve (cont) (#182),3,1,67,26,10,19,1,0,0,1,0,0,0,0,0,0,0,11,0,0,10,0,0,0,0,0
+attrs,beca344034,2017-04-27,71f7adeb,Use our domain,5,1,10,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,a48124b904,2017-03-27,71f7adeb,Add a bit of explanation to _CountingAttr,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,d8f333f6f2,2017-03-24,71f7adeb,Fix a bunch of links,3,1,7,5,1,1,1,0,0,1,0,0,0,0,0,0,0,8,1,1,1,0,0,0,0,0
+attrs,6509da85e1,2017-03-24,71f7adeb,Add docstring to _CountingAttr.validator,2,1,6,1,5,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+attrs,c70a910537,2017-03-07,c52b2685,Preserve metaclass when slots=True (#155),3,1,23,1,1,1,0,0,0,2,0,0,0,0,0,0,0,51,2,2,1,0,0,0,0,0
+attrs,a61409d71e,2017-03-04,71f7adeb,Simplify,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,1
+attrs,d86e28bdde,2017-03-04,cdda7444,Add bases argument to make_class (#152),4,1,34,2,6,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+attrs,5e594ca580,2017-02-20,71f7adeb,We want to simplify writing classes; not attributes,3,1,7,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+attrs,f560500886,2017-02-19,71f7adeb,Fix hashing behavior (#142),12,2,176,58,52,10,1,0,0,4,0,0,2,0,0,0,0,51,3,52,47,0,0,0,0,0
+attrs,97a02470e8,2017-02-12,71f7adeb,Fix inheritence of frozen-ness,3,1,47,4,30,4,1,0,0,3,0,0,1,0,2,0,0,43,3,7,24,0,0,0,1,0
+attrs,37d38c4dc3,2017-02-11,71f7adeb,Allow inline definitions of validators using a decorator,7,1,166,75,54,33,0,0,0,5,0,0,1,1,3,0,0,109,3,12,48,0,0,0,0,0
+attrs,72363a2a09,2017-02-04,71f7adeb,Allow validator to be a list of validators,4,1,101,19,34,14,0,0,0,3,0,0,1,0,0,0,0,118,2,25,32,0,0,0,0,0
+attrs,f6fbc0d0f3,2017-02-03,71f7adeb,Fix in-dev version,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,0d3cf3f624,2017-01-21,c15eb83e,Evolve and docs. (#135),8,2,147,12,45,0,0,0,0,1,0,0,0,0,1,0,0,15,0,0,37,0,0,0,0,0
+attrs,1481227583,2017-01-06,95135aaf,Fix post init hook not being called if validators are disabled (#129) (#130),3,1,14,10,8,9,1,0,0,1,0,0,0,1,0,0,0,109,1,8,8,0,0,0,0,0
+attrs,72743d2b32,2016-12-14,853aee4f,ENH: forbid delete attr from frozen class (#118),3,1,13,2,8,0,0,0,0,2,0,0,1,0,1,0,0,42,2,2,6,0,0,0,0,0
+attrs,df0800d771,2016-11-24,71f7adeb,Start new release cycle,2,1,26,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,5516d5452c,2016-11-24,71f7adeb,Prepare 16.3.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,b0942e1b2e,2016-11-20,71f7adeb,Add str argument to @attr.s,5,1,58,12,17,4,0,0,0,2,0,0,1,0,0,0,0,41,2,21,15,0,0,0,0,0
+attrs,3964f9d37b,2016-11-20,71f7adeb,Rename __post_init__ to __attrs_post_init__,5,1,8,8,2,2,0,0,0,2,0,0,0,0,0,0,0,110,1,1,2,0,0,0,0,0
+attrs,7e4cecdac2,2016-11-20,71f7adeb,Minor tweaks,4,1,13,14,1,1,0,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0
+attrs,3dc5fb0a5a,2016-11-20,8e9d8264,Add ability for ``__post_init__`` method to be defined.,5,1,54,3,8,2,0,0,0,2,0,0,1,0,0,0,0,110,1,3,8,0,0,0,0,0
+attrs,0fac9215b8,2016-11-19,c15eb83e,Introduce attribute metadata. (#96),11,2,286,52,110,35,0,0,0,9,0,0,3,0,10,0,0,35,5,22,87,0,0,0,0,0
+attrs,4849dc12de,2016-09-30,6ac82a2f,don't overwrite __name__ with __qualname__ (#100),3,1,21,7,4,6,0,0,0,2,0,0,0,1,0,0,0,35,2,8,4,0,0,0,0,0
+attrs,33607a7895,2016-09-17,71f7adeb,Start new release cycle,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,cc980c1f53,2016-09-17,71f7adeb,Prepare 16.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,b20e1cf1ea,2016-09-17,71f7adeb,Fix zope.interface links,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,1,0
+attrs,1b419e304b,2016-09-11,434390bb,Add attr.astuple,9,3,291,16,78,2,0,0,0,1,1,0,0,0,1,0,0,31,1,1,70,0,0,0,0,0
+attrs,ca2a1e10f0,2016-09-10,c15eb83e,The ClassAttributes tuple is now slotted. (#90),1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+attrs,62cb2e7347,2016-09-10,71f7adeb,Document new method of accessing attributes,4,1,16,2,7,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+attrs,adfdbf9560,2016-09-10,71f7adeb,Stop using deprecated APIs (#86),11,4,63,32,36,12,0,0,0,5,0,0,0,0,0,0,0,31,1,2,28,0,0,0,0,0
+attrs,024a16c434,2016-09-10,c15eb83e,Feature/fields properties (#88),2,1,48,3,38,2,0,0,0,1,0,0,1,0,1,0,0,41,1,9,31,0,0,0,0,0
+attrs,dcfbb7b955,2016-09-10,13a0f889,remove unnecessary and ugly `exec_` compat hack (#87),2,2,2,8,2,8,0,0,0,1,0,0,0,0,0,2,0,28,0,0,2,0,0,0,1,0
+attrs,1897dfdf19,2016-09-10,c15eb83e,"Improve tests, bandage assoc",4,1,54,21,4,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+attrs,5428710ead,2016-09-10,c15eb83e,Generate __init__ with converters inline,3,1,113,56,82,55,0,0,0,3,0,0,1,0,2,1,0,108,1,77,78,0,0,0,0,0
+attrs,e59c360ee2,2016-09-10,ac0f7904,Fix pickle support for __slots__ classes,4,1,82,0,40,0,1,0,0,2,0,0,1,0,5,0,0,36,2,4,33,0,0,0,0,0
+attrs,a624035cec,2016-09-05,71f7adeb,Fix converters on frozen classes,3,1,18,4,9,3,1,0,0,2,0,0,1,0,0,0,0,78,1,4,8,0,0,0,0,0
+attrs,60017ee06f,2016-09-01,6ac82a2f,add attr docstring (#74),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,f09cc7f74b,2016-08-30,71f7adeb,Start new release cycle,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,dae4e40446,2016-08-30,71f7adeb,Prepare 16.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,ce0f82aa8b,2016-08-27,71f7adeb,Document immutability better,3,1,71,29,6,6,0,0,0,1,0,0,0,0,0,0,0,8,1,5,5,0,0,0,0,0
+attrs,eaa8c0d834,2016-08-26,71f7adeb,Make assoc work on frozen classes,3,1,15,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+attrs,a7ba5122f6,2016-08-24,c15eb83e,Speed up Attribute instantiation. (#70),4,1,31,45,17,12,0,0,0,2,1,0,0,0,0,0,0,30,1,11,13,0,0,0,0,0
+attrs,c6fbec9637,2016-08-23,8b8fc310,Optionally retain collection types (fixes #69),3,1,30,12,15,12,1,0,0,1,0,0,1,0,0,0,0,31,1,15,15,0,0,0,0,0
+attrs,dd4140ebcd,2016-08-22,c15eb83e,Optimize init validators. (#64),3,1,35,12,26,10,0,0,0,2,0,0,1,0,0,0,0,75,1,18,21,0,0,0,0,0
+attrs,50152a624f,2016-08-22,71f7adeb,Add forgotten comment,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,cfa6d2e99f,2016-08-20,71f7adeb,Implement immutability (#60),8,3,175,71,115,54,0,0,0,5,0,0,3,0,3,0,0,65,3,73,102,0,0,0,0,0
+attrs,5fdf908a70,2016-08-17,636e9f08,Fix little sphinx doc typo (#62),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,1,1,1,0,0,0,0,0
+attrs,ab9cbc84df,2016-08-17,71f7adeb,slots-ify internal classes,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+attrs,111a627e70,2016-08-16,71f7adeb,Get rid of PY3 constant and codecov badge,3,1,3,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,24e60944ec,2016-08-16,71f7adeb,Add better serious business aliases,6,1,60,22,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+attrs,07366e18c1,2016-08-15,71f7adeb,Rename cl to cls,7,3,90,84,77,79,0,0,0,13,0,0,0,0,0,0,0,34,3,41,77,0,0,0,0,0
+attrs,76a21a5a9a,2016-08-15,71f7adeb,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,1,1,1,0,0,0,0,0
+attrs,395aa07820,2016-08-15,71f7adeb,Documentation overhaul,7,2,111,25,17,14,0,0,0,2,0,0,0,0,0,0,0,29,2,14,14,0,0,0,0,0
+attrs,46ac6b6046,2016-08-13,c15eb83e,Make Attribute instances immutable and slotted. (#51),4,2,30,37,16,25,0,0,0,6,0,0,0,0,1,1,0,29,1,1,15,0,0,0,0,0
+attrs,588fe48019,2016-08-08,c15eb83e,Simplify asdict and has (#48),3,1,6,9,3,8,0,0,0,2,0,0,0,0,0,0,0,29,1,1,3,0,0,0,0,1
+attrs,d10e5c41d6,2016-06-02,c15eb83e,asdict - propagate dict_factory properly (#45),6,1,101,15,9,5,0,0,0,1,0,0,1,0,0,0,0,29,1,9,9,0,0,0,0,0
+attrs,e83f0e51ac,2016-05-23,71f7adeb,Start new release cycle,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,c37f4423be,2016-05-23,71f7adeb,Prepare 16.0.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,d7cdc97a2a,2016-05-23,71f7adeb,Move version into a global variable,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+attrs,5edf483173,2016-05-22,71f7adeb,Add changelog entry,2,1,3,1,2,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+attrs,9cb53a3122,2016-05-21,567d8355,ENH: speed up convert.,1,1,10,2,10,2,0,0,0,2,0,0,0,0,1,0,0,6,0,0,7,0,0,0,0,0
+attrs,6ce0a0d80d,2016-05-15,c15eb83e,Fix flake8. Tweak changelog.,3,1,4,3,2,1,0,0,0,1,0,0,0,0,0,0,0,25,1,2,2,0,0,0,0,0
+attrs,88f33a9375,2016-05-15,c15eb83e,Review feedback.,3,1,42,28,8,8,0,0,0,1,0,0,0,0,0,0,0,25,1,7,7,0,0,0,0,0
+attrs,17a48c3bc3,2016-05-08,c15eb83e,Fix comments.,3,1,12,3,3,1,1,0,0,1,0,0,0,0,0,0,0,25,1,3,3,0,0,0,0,0
+attrs,cd80208187,2016-05-07,c15eb83e,Initial dict_factory support for asdict.,3,1,64,11,5,2,0,0,0,1,0,0,0,0,0,0,0,25,1,4,4,0,0,0,0,0
+attrs,4b94e0314c,2016-04-28,71f7adeb,Fix _Nothing class' __eq__,2,1,3,2,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,2da44740ce,2016-04-28,71f7adeb,Fix RTD links,5,1,6,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,402b825539,2016-04-05,71f7adeb,Clarify instance_of validator also takes tuples,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+attrs,7decc0cdf6,2016-04-02,567d8355,DOC: add a note on why we don't use inspect.,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,dbaba50e68,2016-04-01,567d8355,ENH: bundle inspect.isclass to avoid paying the cost of inspect import.,3,3,12,6,12,6,0,0,0,2,0,0,0,0,2,0,0,9,0,0,9,0,0,1,0,0
+attrs,c7842b8cb6,2016-03-31,71f7adeb,CHANGELOG & small nits,4,1,25,14,4,1,0,0,0,1,0,0,0,0,0,0,0,7,1,3,3,0,0,0,0,0
+attrs,cfc42ef222,2016-03-28,c15eb83e,Add slots docs.,3,1,74,1,3,0,0,0,0,1,0,0,0,0,0,0,0,7,1,2,2,0,0,0,0,0
+attrs,fd627355fd,2016-03-21,c15eb83e,Consistency changes in _make.py.,1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,32,2,8,4,0,0,0,0,0
+attrs,7d0ce60e95,2016-03-16,c15eb83e,Simplify slots class name handling.,1,1,1,5,1,5,0,0,0,2,0,0,0,1,0,0,0,32,2,2,1,0,0,0,0,1
+attrs,1d21609c14,2016-03-16,c15eb83e,Fix reprs.,3,1,24,7,11,1,1,0,0,2,0,0,1,0,0,0,0,36,2,18,9,0,0,0,0,0
+attrs,bef877320d,2016-03-16,c15eb83e,Flake8 fix.,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,28,2,2,1,0,0,0,0,0
+attrs,26b7bff084,2016-03-16,c15eb83e,Handle some edge cases for slots. Many more slot tests.,3,2,271,10,20,8,0,0,0,2,0,0,1,0,2,0,0,28,2,22,16,0,0,0,0,0
+attrs,7b201eb199,2016-03-14,c15eb83e,Initial slots implementation.,6,1,194,64,13,1,0,0,0,2,1,0,0,0,0,0,0,24,2,23,12,0,0,0,0,0
+attrs,dfea064fa1,2016-02-20,71f7adeb,Meta,2,1,19,6,15,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+attrs,89b542331d,2016-02-17,71f7adeb,Drop support for legacy Python versions,8,1,25,20,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,174d37f941,2016-02-06,71f7adeb,Allow mandatory attributes after init=False attrs,2,1,13,3,1,1,0,0,0,1,0,0,1,0,0,0,0,34,1,1,1,0,0,0,0,0
+attrs,071c3ffa4e,2015-12-19,71f7adeb,Add docs,2,1,21,5,7,5,0,0,0,1,0,0,0,0,0,0,0,12,1,7,7,0,0,0,0,0
+attrs,1af3eaa877,2015-12-19,71f7adeb,Allow the case of initializing attributes that are set to `init=False`,3,1,37,4,17,3,0,0,0,3,0,0,2,0,0,0,0,61,2,15,17,0,0,0,0,0
+attrs,1f66134c0e,2015-12-19,71f7adeb,Janitoring,8,1,41,26,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+attrs,8b172c5988,2015-12-08,71f7adeb,Start new release cycle,2,1,23,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,81ff5309d9,2015-12-08,71f7adeb,Prepare 15.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,5d66e482d8,2015-12-08,71f7adeb,Repo janitoring,8,1,125,98,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,716e8acace,2015-11-19,dfbb24b2,"whoops, line length.",1,1,10,7,10,7,0,0,0,1,0,0,0,0,0,0,0,12,1,10,10,0,0,0,0,0
+attrs,e99a9d1348,2015-11-19,dfbb24b2,use fancy :param <type> <name>: syntax in the rest of the attr.ib docstring,1,1,5,10,5,10,0,0,0,1,0,0,0,0,0,0,0,12,1,5,5,0,0,0,0,0
+attrs,2e7b750696,2015-11-19,dfbb24b2,"convert before validate, also fix two-space thing",2,1,10,11,7,8,1,0,0,2,0,0,0,0,0,0,0,50,2,7,7,0,0,0,0,0
+attrs,20357d4368,2015-11-19,dfbb24b2,fix doctests and lint,4,1,12,10,5,4,0,0,0,1,0,0,0,0,0,0,0,12,1,3,5,0,0,0,0,0
+attrs,365cd89921,2015-11-19,dfbb24b2,add a `convert` keyword to attr.ib() that allows specifying a function to convert the passed-in valu,2,1,70,10,42,8,0,0,0,5,1,0,2,0,1,0,0,50,3,15,35,0,0,0,0,0
+attrs,e6f9e9fac3,2015-10-18,71f7adeb,Simplify setup.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+attrs,7d765233b7,2015-10-16,71f7adeb,Combined coverage FTW,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+attrs,4c39a185ad,2015-10-16,71f7adeb,Move package into src directory,12,8,26,9,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+attrs,9a3ae1beea,2015-10-06,567d8355,REF: assume we get a decorated class in validate.,1,1,3,9,3,9,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+attrs,18062f6fef,2015-10-06,567d8355,ENH: query attributes through private API to speed up validate.,1,1,9,3,9,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,9,0,0,0,1,0
+attrs,c855b08e5d,2015-09-22,71f7adeb,Factor out more meta data,1,1,28,26,28,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0
+attrs,f0b142382b,2015-09-22,71f7adeb,Add Python 3.5,4,1,29,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,104487f803,2015-08-20,71f7adeb,Start new release cycle,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+attrs,5158b66af9,2015-08-20,71f7adeb,Prepare 15.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,e245f3d3df,2015-08-20,71f7adeb,Fix multi-level inheritance,3,1,22,9,1,1,1,0,0,1,0,0,1,0,0,0,0,32,1,1,1,0,0,0,1,0
+attrs,4855ad3651,2015-08-11,71f7adeb,Clean up setup.py,2,1,1,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+attrs,fcd6e19932,2015-07-26,71f7adeb,Don't use setup.py test & pytest-cov,5,1,12,32,0,27,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+attrs,3051fbfcd3,2015-07-26,71f7adeb,Minor fixes,2,1,3,10,3,3,1,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+attrs,708533239d,2015-07-26,5929531d,Recommended documentation changes,2,1,4,9,3,6,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+attrs,765a97466d,2015-07-26,5929531d,Review feedback,3,1,29,25,6,6,0,0,0,3,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+attrs,0abd302cb2,2015-07-26,5929531d,Support optional values through a new validator.,4,1,104,2,30,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,23,0,0,0,0,0
+attrs,9a76f0503f,2015-07-23,4214d626,Fix typo in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+attrs,b3ef2844c5,2015-07-21,af7afea6,"If you subclass an attr class, the repr should include the name of the subclass, not the superclass,",2,1,26,11,10,9,0,0,0,2,0,0,0,0,0,0,0,15,0,0,9,0,0,1,0,0
+attrs,e205f64500,2015-07-13,8a0132d0,"An interface is provided by a value, not vice-versa.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,1,0
+attrs,788ade3bcf,2015-07-03,71f7adeb,Fix flake8,2,1,0,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,0149b538ab,2015-07-03,71f7adeb,Fix tests on Python 2.6,2,1,5,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,abb9c95232,2015-06-05,71f7adeb,Check type of set_run_validators' arg,2,1,12,0,2,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+attrs,3952cd6f38,2015-04-30,71f7adeb,Add docstring to _CountingAttr,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+attrs,fda6eddada,2015-04-16,71f7adeb,Move keywords out of __init__,2,2,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+attrs,5ce4997653,2015-04-15,71f7adeb,Make keywords a list,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,2bd4f9d056,2015-04-15,71f7adeb,Start 15.1.0 cycle,3,2,12,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+attrs,21d5dd792a,2015-04-15,71f7adeb,Release 15.0.0 final,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,af39643ad7,2015-04-15,71f7adeb,Don't add a docstring to generated __init__s,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+attrs,a7adfed9bf,2015-03-23,71f7adeb,Use inspect.isclass to detect classes,3,3,8,5,8,5,0,0,0,3,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+attrs,4a9eb18598,2015-03-23,71f7adeb,Rename type_ to type in instance_of validator,1,1,11,11,11,11,0,0,0,4,0,0,0,0,0,0,0,9,0,0,11,0,0,0,0,0
+attrs,d964845899,2015-03-23,71f7adeb,Make __attrs_attrs__ a tuple,4,1,16,16,5,5,0,0,0,2,0,0,0,0,0,0,0,32,1,3,5,0,0,0,0,0
+attrs,46cbd75411,2015-02-21,71f7adeb,Consistency,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+attrs,3fee5ea5c6,2015-02-21,71f7adeb,"Dedup setup.py, add more meta data",2,2,46,22,46,22,0,0,0,1,0,0,0,0,1,1,0,3,0,0,35,0,0,0,0,0
+attrs,8e3fbc3921,2015-02-21,71f7adeb,Push alpha 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,1f5513e098,2015-02-21,71f7adeb,Shorten creed,3,1,5,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,2a91800150,2015-02-20,71f7adeb,Add include and exclude filter helpers,7,4,178,0,60,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,42,0,0,1,0,0
+attrs,595ffae512,2015-02-20,71f7adeb,"Internal release, nothing to see here",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,fba942270b,2015-02-20,71f7adeb,Stay happy and positive,8,2,100,103,46,49,0,0,0,8,0,0,0,0,0,0,0,23,3,34,46,0,0,0,0,0
+attrs,a185bbfdfb,2015-02-20,71f7adeb,Add option to disable validators globally,7,3,104,0,34,0,0,0,0,2,0,0,0,0,2,0,0,10,1,2,25,0,0,0,0,0
+attrs,980067d8f1,2015-02-20,71f7adeb,We're ASCII-clean,11,5,0,22,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+attrs,043f4d55d7,2015-02-20,71f7adeb,Take class namespaces into account in repr,4,1,80,5,26,4,0,0,0,6,0,0,0,0,0,0,0,17,1,5,24,0,0,0,0,0
+attrs,49e24538ce,2015-02-19,71f7adeb,Set only own attributes,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,32,1,1,1,0,0,0,0,0
+attrs,b88b85779e,2015-02-18,71f7adeb,Add smart support for sub-classing,4,1,76,1,6,1,0,0,0,1,0,0,1,0,0,0,0,32,1,6,6,0,0,0,0,0
+attrs,a44357ad83,2015-02-18,71f7adeb,Fail with a meaningful error msg on old-style classes,2,1,18,5,6,5,0,0,0,2,0,0,0,0,0,0,0,13,1,5,5,0,0,0,0,0
+attrs,319ef68d19,2015-02-12,71f7adeb,Create internal snapshot,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+attrs,d134ce45fc,2015-02-10,71f7adeb,Be more strict on __eq__,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+attrs,fa88c0915e,2015-02-09,71f7adeb,Fix API docs for validator,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,10,1,3,3,0,0,0,0,0
+attrs,08ff764de7,2015-02-09,71f7adeb,Pass instances into validators,10,4,164,140,50,45,0,0,0,4,0,0,0,0,2,2,0,48,0,0,40,0,0,0,0,0
+attrs,15d568a2cc,2015-02-09,71f7adeb,Validate only if there's a validator,2,1,5,3,2,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+attrs,445b6b2e00,2015-02-08,71f7adeb,Add these argument to attr.s,6,1,119,39,37,25,0,0,0,3,2,0,0,0,0,0,0,27,2,31,32,0,0,0,0,0
+attrs,ab6b3e9b4b,2015-02-07,08eab726,Fix typo,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+attrs,4e81b7b5e2,2015-02-07,71f7adeb,Rename add_XXX to no_XXX,6,2,35,35,19,18,0,0,0,2,0,0,0,0,0,0,0,11,0,0,19,0,0,0,0,0
+attrs,ddf0256527,2015-02-06,71f7adeb,Rename skip to filter and reverse logic,3,1,13,12,9,8,0,0,0,1,0,0,0,0,0,0,0,25,1,9,9,0,0,0,0,0
+attrs,1bcecf3970,2015-02-04,71f7adeb,Only recurse into list items if they are ours,2,1,7,3,5,1,0,0,0,1,0,0,1,0,0,0,0,25,1,5,5,0,0,0,0,0
+attrs,2321fc202a,2015-02-04,71f7adeb,"Recurse into containers too, add skip in asdict",2,1,52,3,19,3,0,0,0,1,1,0,0,0,0,0,0,21,1,18,18,0,0,0,0,0
+attrs,c8c7a60389,2015-02-02,71f7adeb,Rename valid to validate,5,2,12,12,3,3,0,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,0,0,0,0
+attrs,2cab907370,2015-02-02,71f7adeb,Add attr.valid,5,2,71,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+attrs,f7597c795f,2015-02-01,71f7adeb,Clarify backward compatibility + polish API docs,4,1,32,9,8,4,0,0,0,1,0,0,0,0,0,0,0,10,1,6,7,0,0,0,0,0
+attrs,82892487fb,2015-01-31,71f7adeb,Remove assignment validation again,3,1,8,61,8,32,0,0,0,4,0,0,0,0,0,2,0,47,1,3,8,0,0,0,1,0
+attrs,e7ebf4bf81,2015-01-30,71f7adeb,Allow single attributes to be excluded,8,2,141,66,36,10,0,0,0,6,2,0,0,0,0,0,0,21,2,20,32,0,0,0,0,0
+attrs,943d686509,2015-01-30,71f7adeb,Validate assignments,5,1,89,35,32,7,0,0,0,4,0,0,0,0,2,0,0,43,0,0,24,0,0,0,0,0
+attrs,7c85d68de2,2015-01-30,71f7adeb,Verify amount of arguments passed to Attribute,2,1,14,3,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+attrs,564fade925,2015-01-30,71f7adeb,Simplify attributes decorator,1,1,12,14,12,14,0,0,0,2,0,0,0,0,0,0,0,11,0,0,12,0,0,0,0,1
+attrs,5753281838,2015-01-30,71f7adeb,Add attrs.make_class,7,2,147,4,28,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,21,0,0,0,0,0
+attrs,f61fb5d185,2015-01-29,71f7adeb,Eliminate factory field,10,4,317,345,286,306,0,0,0,5,0,0,0,0,20,20,0,20,0,0,240,0,0,0,0,0
+attrs,717dcdadca,2015-01-29,71f7adeb,Short default_value to default,9,2,41,42,17,17,0,0,0,4,0,0,0,0,0,0,0,47,0,0,17,0,0,0,0,0
+attrs,9cb48a5814,2015-01-29,71f7adeb,Shorten default_factory to factory,9,2,40,40,17,17,0,0,0,4,0,0,0,0,0,0,0,47,0,0,17,0,0,0,0,0
+attrs,16d9c464e3,2015-01-29,71f7adeb,Rename ls to fields,6,2,21,21,5,5,0,0,0,2,0,0,0,0,1,1,0,10,0,0,5,0,0,0,0,0
+attrs,b79c3afec3,2015-01-29,71f7adeb,Rename to_dict to asdict,6,2,17,17,4,4,0,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,0,0,0,0
+attrs,7aaab84091,2015-01-29,71f7adeb,Add assoc,8,4,175,9,53,4,0,0,0,1,0,0,0,0,3,0,0,22,0,0,41,0,0,0,0,0
+attrs,4f62d47d08,2015-01-29,71f7adeb,We don't need three names for the same thing,5,3,40,40,15,15,0,0,0,0,0,0,0,0,3,3,0,0,0,0,13,0,0,0,0,0
+attrs,8bb430cf18,2015-01-29,71f7adeb,Add basic support for zope.interface,7,2,115,4,43,2,0,0,0,1,0,0,0,0,3,0,0,5,0,0,35,0,0,0,1,0
+attrs,8f98b38136,2015-01-29,71f7adeb,Increase branch coverage,14,6,255,85,87,55,0,0,0,8,0,0,0,0,7,4,0,47,0,0,70,0,0,0,0,0
+attrs,3e45f0559e,2015-01-29,71f7adeb,Strip underscore for __init__,5,2,81,15,34,14,0,0,0,2,0,0,0,0,0,0,0,47,0,0,32,0,0,0,0,0
+attrs,692e4613a0,2015-01-29,71f7adeb,Add instance_of validator,12,4,220,24,61,10,0,0,0,3,0,0,0,0,4,0,0,37,0,0,48,0,0,0,0,0
+attrs,69a460d336,2015-01-29,71f7adeb,Add no-nonsense aliases for attr.s and attr.ib,4,1,39,3,13,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+attrs,774cf0142a,2015-01-29,71f7adeb,Pass the Attribute object into validators,2,1,13,11,2,1,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+attrs,3f2fd8317d,2015-01-28,71f7adeb,More doc polishing,7,1,53,22,3,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+attrs,211bd02b97,2015-01-28,71f7adeb,Officially start the 15.0.0 cycle,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+attrs,d5d3dfcdb5,2015-01-28,71f7adeb,Some minor doc polish,2,1,9,9,4,8,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+attrs,372c55318c,2015-01-28,71f7adeb,Add validators,6,2,110,29,35,8,0,0,0,5,0,0,0,0,0,0,0,33,0,0,31,0,0,0,0,0
+attrs,d291e8c4dc,2015-01-28,71f7adeb,Add some API docs,5,3,157,20,70,15,0,0,0,5,0,0,0,0,0,0,0,12,0,0,56,0,0,0,0,0
+attrs,fdd41b0466,2015-01-28,71f7adeb,Rename s to _add_methods,4,2,16,17,6,6,0,0,0,0,0,0,0,0,2,2,0,0,0,0,3,0,0,0,0,0
+attrs,14c5485cf5,2015-01-28,71f7adeb,Use proper Attributes in all dunders,2,2,8,6,8,6,0,0,0,5,0,0,0,0,0,0,0,17,0,0,8,0,0,0,0,0
+attrs,104e663551,2015-01-28,71f7adeb,Add `has`,3,2,48,2,14,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+attrs,58d5c0a767,2015-01-27,71f7adeb,Get rid of <> in repr,5,1,10,10,1,1,0,0,0,2,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+attrs,5ce5e48074,2015-01-27,71f7adeb,Change attr.a to attr.ib,4,1,18,23,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0

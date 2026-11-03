@@ -1,0 +1,14 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+emoji_translator,v0.1,v0.2,0,1.2612,57,239,0,0,0
+emoji_translator,v0.2,v0.3,1,0.7427,17,290,0,0,0
+emoji_translator,v0.3,v0.4,2,0.5359,13,303,6,2,1
+emoji_translator,v0.4,v0.5,3,0.1183,7,314,9,1,2
+emoji_translator,v0.5,v0.6,4,1.4238,65,316,5,0,2
+emoji_translator,v0.6,v0.7,5,1.0316,74,371,10,0,3
+emoji_translator,v0.7,v0.8,6,1.5049,58,440,17,1,4
+emoji_translator,v0.8,v0.9,7,0.9485,26,488,27,2,6
+emoji_translator,v0.9,v0.10,8,0.5854,40,500,22,0,5
+emoji_translator,v0.10,v0.11,9,2.4906,127,537,22,1,5
+emoji_translator,v0.11,v0.12,10,0.5287,24,642,22,0,5
+emoji_translator,v0.12,v0.13,11,0.052,0,655,22,0,5
+emoji_translator,v0.13,v0.14,12,2.1706,95,655,22,1,5

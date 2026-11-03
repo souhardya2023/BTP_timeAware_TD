@@ -1,0 +1,180 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+movie_app,v0.1,v0.2,0,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.1,v0.2,0,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,0,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.1,v0.2,0,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.1,v0.2,0,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.2,v0.3,1,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.2,v0.3,1,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,1,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.2,v0.3,1,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.2,v0.3,1,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.2,v0.3,1,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.3,v0.4,2,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.3,v0.4,2,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,2,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.3,v0.4,2,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.3,v0.4,2,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.3,v0.4,2,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.4,v0.5,3,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.4,v0.5,3,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,3,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.4,v0.5,3,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,3,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.4,v0.5,3,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.4,v0.5,3,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.5,v0.6,4,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.5,v0.6,4,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,4,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.5,v0.6,4,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,4,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.5,v0.6,4,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,4,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.5,v0.6,4,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.6,v0.7,5,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.6,v0.7,5,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,5,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.6,v0.7,5,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,5,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.6,v0.7,5,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,5,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.6,v0.7,5,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,4,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.6,v0.7,5,movie_app-D06,movie_app/feat_15.py,read_user_file_6,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,6,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,6,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,6,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,5,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D06,movie_app/feat_15.py,read_user_file_6,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,repayment,0,6,1,0.0,0.0
+movie_app,v0.7,v0.8,6,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.8,v0.9,7,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.8,v0.9,7,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,7,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.8,v0.9,7,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,7,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.8,v0.9,7,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,7,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.8,v0.9,7,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,6,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.8,v0.9,7,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,8,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,8,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,8,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,7,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.9,v0.10,8,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,9,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,9,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,9,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,8,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.10,v0.11,9,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,10,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,10,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,10,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,9,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,4,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.11,v0.12,10,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,3,1,0,0,0,0.004942396395519926,increase,1,4,1,0.0,0.0
+movie_app,v0.11,v0.12,10,movie_app-D10,movie_app/feat_04.py,read_watchlist_file_10,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,11,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,11,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,11,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,10,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,5,1,1,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.12,v0.13,11,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,3,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.12,v0.13,11,movie_app-D10,movie_app/feat_04.py,read_watchlist_file_10,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,repayment,0,6,1,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,12,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,12,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,12,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,11,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,6,2,2,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.13,v0.14,12,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,4,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.13,v0.14,12,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,13,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,13,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,13,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,12,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,7,3,3,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.14,v0.15,13,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,5,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.14,v0.15,13,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,3,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.14,v0.15,13,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,0,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,14,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,14,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,14,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,14,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,13,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,8,4,4,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,6,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.15,v0.16,14,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,4,1,1,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.15,v0.16,14,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,1,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,15,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,15,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,15,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D04,movie_app/svc_watchlist.py,compute_user_expr_4,synth:eval_input,MAJOR,15,6,2,15,0,0,0.010592055810999847,repayment,0,5,1,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,14,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,9,4,4,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.16,v0.17,15,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,7,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,5,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.16,v0.17,15,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,2,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,16,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,16,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,16,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,15,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,10,5,5,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,8,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,6,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.17,v0.18,16,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,3,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.18,v0.19,17,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,17,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.18,v0.19,17,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,17,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.18,v0.19,17,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,17,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.18,v0.19,17,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,16,0,0,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+movie_app,v0.18,v0.19,17,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,11,5,5,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.18,v0.19,17,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,9,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.18,v0.19,17,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,7,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.18,v0.19,17,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,4,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.19,v0.20,18,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,18,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.19,v0.20,18,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,18,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.19,v0.20,18,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,18,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.19,v0.20,18,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,17,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.19,v0.20,18,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,12,6,6,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.19,v0.20,18,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,10,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.19,v0.20,18,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,8,2,2,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.19,v0.20,18,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,5,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,19,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,19,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,19,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,18,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,13,7,7,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,11,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,9,3,3,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.20,v0.21,19,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,6,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,20,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,20,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,20,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,19,1,1,0.010592055810999847,none,1,6,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,14,7,7,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.21,v0.22,20,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,12,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,10,3,3,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.21,v0.22,20,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,7,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.22,v0.23,21,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,21,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.22,v0.23,21,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,21,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.22,v0.23,21,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,21,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.22,v0.23,21,movie_app-D05,movie_app/feat_14.py,read_actor_file_5,synth:path_traversal,MAJOR,15,6,2,20,1,1,0.010592055810999847,repayment,0,6,2,0.0,0.0
+movie_app,v0.22,v0.23,21,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,15,8,8,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.22,v0.23,21,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,13,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.22,v0.23,21,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,11,3,3,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+movie_app,v0.22,v0.23,21,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,8,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,22,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,22,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,22,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,16,9,9,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,14,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,12,4,4,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.23,v0.24,22,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,9,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,23,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,23,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,23,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,17,9,9,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,15,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,13,4,4,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.24,v0.25,23,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,10,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D01,movie_app/cli.py,<imports>:from .feat_15 import *,synth:wildcard_import,MAJOR,15,1,1,24,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D02,movie_app/feat_02.py,find_movie_by_title_2,synth:sql_injection,MAJOR,15,8,1,24,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D03,movie_app/feat_11.py,load_user_blob_3,synth:unsafe_deserialize,MAJOR,15,5,3,24,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D07,movie_app/svc_actor.py,archive_watchlist_7,synth:shell_injection,MAJOR,15,4,1,18,9,9,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D08,movie_app/feat_06.py,load_watchlist_blob_8,synth:unsafe_deserialize,MAJOR,15,5,3,16,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D09,movie_app/svc_user.py,sign_actor_9,synth:weak_hash_secret,MAJOR,15,4,1,14,4,4,0.006781608318638173,none,1,4,0,0.0,0.0
+movie_app,v0.25,v0.26,24,movie_app-D11,movie_app/svc_review.py,transfer_watchlist_in_11,synth:lock_order,MAJOR,15,10,1,11,0,0,0.018575791612741793,none,1,10,0,0.0,0.0

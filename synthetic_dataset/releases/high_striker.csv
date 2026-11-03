@@ -1,0 +1,13 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+high_striker,v0.1,v0.2,0,0.2669,12,280,43,3,5
+high_striker,v0.2,v0.3,1,0.3972,83,289,47,1,6
+high_striker,v0.3,v0.4,2,1.4283,66,365,119,4,7
+high_striker,v0.4,v0.5,3,0.3037,15,417,126,0,8
+high_striker,v0.5,v0.6,4,0.5348,75,427,130,3,9
+high_striker,v0.6,v0.7,5,0.1959,6,493,126,0,8
+high_striker,v0.7,v0.8,6,0.2293,3,497,130,0,9
+high_striker,v0.8,v0.9,7,5.6419,148,497,130,10,9
+high_striker,v0.9,v0.10,8,0.7405,41,611,133,2,9
+high_striker,v0.10,v0.11,9,0.4669,6,642,134,0,9
+high_striker,v0.11,v0.12,10,1.6705,103,643,134,5,9
+high_striker,v0.12,v0.13,11,0.5739,11,699,111,1,8

@@ -1,0 +1,104 @@
+========================================================================================== 
+Q1  WHAT A REAL COMMIT LOOKS LIKE
+==========================================================================================
+20988 commits that touch source files, 34 repositories (20960 analysed at function level, 28 bulk commits with more than 40 source files)
+source lines changed (added + deleted) per commit, quantiles: {0.25: 4.0, 0.5: 12.0, 0.75: 38.0, 0.9: 110.0, 0.99: 997.0} ; source files per commit median 1, p90 4
+functions changed per commit: median 1, p90 6; single-function commits 39%
+bug-fix commits (subject keyword): 19% of commits; their median size 8 lines vs 13 for the others
+dilution: a commit changes a median 0.149% of the project's code lines (p90 1.76%); bug-fix commits 0.092%
+                commits  lines_med  files_med    fix  touch_smell  created  removed  sad_add  sad_rm
+repo                                                                                                
+C-Thread-Pool       105        8.0        1.0  0.267        0.019        1        1        0       0
+arrow               700        9.0        1.0  0.163        0.310       15        9       89      83
+attrs               642       10.0        1.0  0.112        0.391       26        9        8       2
+boltons             700       10.0        1.0  0.184        0.206       48       19      116     104
+bottle              700        6.5        1.0  0.327        0.286       70       61       22      27
+cJSON               635       10.0        1.0  0.211        0.431       47       17        3       0
+cachetools          261        8.0        1.0  0.333        0.123       20       13       17      19
+click               700       12.0        1.0  0.169        0.460       56       40        5       3
+cmark               700       13.0        1.0  0.209        0.644       63       36       41      44
+flask               700        9.0        1.0  0.117        0.276       30       16       11      11
+hiredis             680       12.0        1.0  0.201        0.404       75       26        5       2
+httpx               700       12.0        1.0  0.086        0.364      116      107        4       3
+jansson             408       12.0        1.0  0.157        0.346       44       12        1       2
+jemalloc            697       34.0        2.0  0.175        0.501      162       97        4       5
+jinja               700       10.0        1.0  0.181        0.250       42       32        6       8
+jsonschema          700        9.0        1.0  0.127        0.173       26       47       22      31
+libpng              700       22.0        2.0  0.219        0.397       63       24       41      18
+libsodium           699       12.0        1.0  0.033        0.275      201      118        0       0
+libuv               700       12.0        1.0  0.267        0.539      115       91       45      45
+libxml2             694       20.5        1.0  0.278        0.622       86      202       42      43
+libyaml             116       12.0        1.0  0.319        0.534       57       10        2       1
+lua                 699       23.0        2.0  0.144        0.426       23       14        0       0
+lz4                 700       16.0        1.0  0.281        0.576       93       42        1       1
+mbedtls             663        9.0        1.0  0.113        0.439       14       58        5       3
+more-itertools      700        8.0        1.0  0.120        0.086       12        5        4       4
+pyyaml              201        8.0        2.0  0.323        0.318      114       73        6       5
+redis               697       24.0        1.0  0.402        0.723      374       76       25      19
+requests            698        5.0        1.0  0.159        0.258      102       10       13       6
+rich                700        7.0        1.0  0.220        0.464       51       33       11      15
+tmux                698       19.5        1.0  0.150        0.758      307       92        1       1
+tqdm                700       10.0        1.0  0.256        0.439       30       20       36      27
+werkzeug            697       16.0        1.0  0.095        0.400       92       87        7       7
+zlib                474       11.0        1.0  0.143        0.532       72       41        0       0
+zstd                696       14.0        1.0  0.251        0.579       81       58       11       9
+
+========================================================================================== 
+Q2  HOW DEBT IS CREATED AND REMOVED
+==========================================================================================
+                     n  nloc1  nloc0  changed  bugfix
+event                                                
+created_smell     1847   40.0    0.0     26.0    0.04
+deleted_smell      970    0.0   46.0      0.0    0.02
+grew_smell        7651   67.0   62.0      5.0    0.18
+introduced_smell   881   35.0   25.0      8.0    0.15
+removed_smell      626   19.0   38.0      3.0    0.09
+shrank_smell      3104   62.0   68.0      2.0    0.11
+over 20960 commits: 2728 smell functions created or introduced, 1596 removed or deleted; net 1132; per 100 commits 13.0 created, 7.6 removed
+share of commits that create debt: 6.5%; that remove debt: 3.7%; that touch an existing debt function: 41.2%
+size of the commit that creates debt: median 122 lines (all commits 12); that removes debt: median 141 lines
+authors: the top 10% of authors make 79% of the commits and create 100% of the new debt functions (medians over repositories)
+authors with 5+ commits (334): spearman of experience (commits) with debt created per commit 0.38
+a commit that changes a debt function is a bug fix with odds ratio 1.35 (95% CI 1.17 to 1.55), commit size, functions touched and repository controlled
+a commit that creates a debt function is a bug fix with odds ratio 0.76 (95% CI 0.60 to 0.96)
+
+self-admitted debt comments (TODO/FIXME/HACK/XXX) in 20960 commits: 604 added, 548 removed (net 56); added / removed per repository median 1.00
+P(commit creates a debt function) = 0.214 when it adds a TODO/FIXME comment, 0.062 when not (ratio 3.43); commits adding SAD are 1.7% of all
+
+========================================================================================== 
+Q3  WHICH DEBT TYPES APPEAR IN REAL COMMITS (SUBJECT KEYWORDS; AN APPROXIMATION)
+==========================================================================================
+          group     n  security  concurrency  dependency  coupling  complexity  any_kw  two_or_more
+bug-fix commits  3991     0.068        0.035       0.035     0.024       0.012   0.165        0.009
+  other commits 16969     0.009        0.030       0.053     0.086       0.044   0.202        0.019
+   python repos 10199     0.010        0.026       0.058     0.070       0.039   0.185        0.017
+        c repos 10761     0.029        0.036       0.042     0.078       0.037   0.204        0.016
+share of keyword hits by type: security 0.09, concurrency 0.14, dependency 0.23, coupling 0.35, complexity 0.18
+median commit size (source lines) by type keyword: security 11, concurrency 17, dependency 12, coupling 18, complexity 27
+median share of the project changed (%), by type: {'security': 0.067, 'concurrency': 0.195, 'dependency': 0.141, 'coupling': 0.188, 'complexity': 0.338}
+
+========================================================================================== 
+Q4  NATURAL PAIRS AVAILABLE FOR A LEVEL-1 DATASET (a commit and its parent)
+==========================================================================================
+candidate natural pairs (commit changes <= 60 source lines in <= 3 files):
+           event  commits  repos
+   created_smell      118     25
+   deleted_smell       50     20
+      grew_smell     2709     33
+introduced_smell      309     33
+   removed_smell      142     29
+    shrank_smell      901     32
+   of the smell-removing commits, 143 change at most 3 functions (a clean 'refactoring' pair); they come from 30 repositories; with a refactoring/complexity keyword in the subject: 14
+   debt-introducing commits that are small and focused: 419 (33 repositories); of those that are bug fixes: 94
+   small security fixes by keyword: 244 commits in 28 repos; small concurrency fixes: 121 commits in 21 repos (fix-commit pairs for the security and concurrency types; no smell detector sees them)
+
+examples of smell-removing commits:
+    repo        sha                        func  nloc0  nloc1  ccn0  ccn1                                                                                              subject
+jemalloc b82333fdec stats_arena_hpa_shard_print    196      7     8     1                                                         Split `stats_arena_hpa_shard_print` function
+ hiredis 634314f386                        main    129     12    28     2                                                                Rearrange tests to isolated functions
+    tqdm c032868a8e                  __init__#4    109      6    35     1                                                                   add `CallbackIOWrapper`, add tests
+    rich 9383774fd9          __rich_console__#9     85      9    26     5                                                                                  Switching off links
+  bottle b9229eef97                      run#22     82      6    32     3                                                                  Add ServerAdapter for CherryPy >= 9
+    tqdm 2c440b63d0                    __init__     81      5    24     2                                                                  rework warnings and error framework
+   cJSON 9d1b229086             cJSON_Duplicate     71      4    15     1 Added max recusrion depth for cJSONDuplicate to prevent stack exhaustion in case of circular referen
+  bottle 884ef30e1b                      run#22     70      6    31     3                                                                                  add aiohttp support

@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+christmas_lights,v0.1,v0.2,0,0.648,24,292,22,0,2
+christmas_lights,v0.2,v0.3,1,1.0685,35,315,39,0,5
+christmas_lights,v0.3,v0.4,2,0.382,5,316,63,5,7
+christmas_lights,v0.4,v0.5,3,0.3796,5,317,51,0,6
+christmas_lights,v0.5,v0.6,4,0.2529,5,284,51,5,6

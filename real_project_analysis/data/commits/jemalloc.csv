@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+jemalloc,9d72b616b8,2026-10-29,c26a3880,Compute extent bucket indices directly,2,1,54,5,9,4,0,0,0,2,0,0,0,0,1,0,0,30,0,0,7,0,0,0,0,0
+jemalloc,dc1ed73c41,2026-10-29,6ac4d688,Use internal alignment logarithm in free_aligned_sized,2,1,21,5,2,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+jemalloc,21b78f13b7,2026-10-28,06c726f8,Fix remaining MSBuild warnings,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+jemalloc,24251e4e0e,2026-10-28,e0b2e3f1,Fix MSVC flush stack lifetime,1,1,5,0,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,f46b69bc72,2026-10-28,e0b2e3f1,Fix MSVC diagnostics and pointer atomic initialization,4,3,24,2,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0
+jemalloc,0697b617fb,2026-10-24,6ac4d688,Use internal alignment logarithm in aligned sized delete,2,1,34,2,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jemalloc,db84d5c8bd,2026-10-23,d1fbfe05,hpdata field reorder,2,1,65,34,34,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+jemalloc,9aa5b13719,2026-10-22,e1f81aec,Do not fetch the system thread name on a reentrant prof_recent free (#3049),2,1,44,4,9,3,0,0,0,1,0,0,0,0,0,0,0,38,0,0,4,0,1,0,0,0
+jemalloc,5245f037d2,2026-10-22,6ac4d688,Add experimental HPA SEC trimming,14,7,610,22,72,2,0,0,0,7,1,0,2,0,1,0,0,559,3,15,64,0,0,0,0,0
+jemalloc,20639833b9,2026-10-21,e1f81aec,Fix heap dump truncation when a thread renames itself during the dump (#3038),8,6,220,39,52,36,1,0,0,8,0,0,1,0,1,2,0,79,1,4,42,0,1,0,0,0
+jemalloc,d8e3aca7a8,2026-10-21,6ac4d688,RFC: Separate rtree key width from packed pointer width,2,1,89,20,39,18,0,0,0,3,0,0,0,0,0,0,0,15,0,0,14,0,0,0,0,0
+jemalloc,8440131121,2026-10-21,6ac4d688,Remove HPA minimum purge delay,18,9,62,333,19,99,0,0,0,8,0,1,0,2,0,2,0,557,3,1,16,0,0,0,1,0
+jemalloc,975f3b0b93,2026-10-19,cd275703,HPA: Apply purge threshold only to hugified pageslabs (#3036),3,2,184,20,24,20,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+jemalloc,db33db7665,2026-10-13,1138342b,Explicitly specify pointer type arithmetics to avoid UB in clang build,2,2,3,8,3,8,0,0,0,1,0,0,0,0,0,1,0,40,1,3,3,0,0,0,0,0
+jemalloc,cba0a928d2,2026-10-13,c26a3880,Avoid moving clipped single-batch tcache fills,1,1,5,0,5,0,0,0,0,1,0,0,1,0,0,0,0,79,1,4,4,0,0,0,0,0
+jemalloc,0d9d5d553e,2026-10-09,c26a3880,Preserve forward scans in non-tree bitmap batches,4,2,124,7,14,6,0,0,0,2,0,0,0,0,0,0,0,35,0,0,8,0,0,0,0,0
+jemalloc,e0eda9659b,2026-10-09,6ac4d688,Add timer_scale to uniformly scale time-based thresholds,18,13,403,39,126,35,0,0,0,12,1,0,3,0,8,0,0,560,4,6,98,0,0,0,0,0
+jemalloc,fde6a21aef,2026-10-08,6ac4d688,Remove SEC USDT probes,1,1,0,8,0,8,0,0,0,3,0,0,0,0,0,0,0,41,0,0,0,0,0,0,1,0
+jemalloc,ae0ab01910,2026-10-07,6ac4d688,Test nfree range endpoints with one comparison,1,1,14,7,14,7,0,0,0,1,0,0,1,0,0,0,0,27,1,10,10,0,0,0,0,0
+jemalloc,8487209a9c,2026-10-07,6ac4d688,Fill tcache batches one bitmap group at a time,2,1,91,28,27,28,0,0,0,1,0,0,0,0,0,0,0,32,0,0,21,0,0,0,0,0
+jemalloc,29a4539e52,2026-10-07,6ac4d688,Factor bitmap group operations,1,1,48,8,48,8,0,0,0,1,0,0,0,0,2,0,0,12,0,0,34,0,0,0,0,0
+jemalloc,e5b2ff0717,2026-10-07,6ac4d688,Clear the lowest set bit with x & (x - 1) in cfs_lu,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,3d07f2b597,2026-10-05,6ac4d688,Move dallocx() flags != 0 path out of line,1,1,17,14,17,14,0,0,0,1,0,0,0,0,1,0,0,11,0,0,14,0,0,0,1,0
+jemalloc,3983999883,2026-10-02,c26a3880,Fix allocated bytes reported for large size classes,4,3,33,7,21,2,1,0,0,3,0,0,1,0,1,0,0,160,1,2,19,0,0,0,0,0
+jemalloc,2fee33d292,2026-10-02,928375f0,Optimize jemalloc fastpaths: emap_alloc_ctx_lookup and sdallocx,4,4,47,10,47,10,0,0,0,3,0,0,0,0,2,0,0,28,0,0,42,0,0,0,0,0
+jemalloc,250120f25f,2026-10-02,c26a3880,Fix thread.tcache.max when tcache is disabled at startup,6,2,86,10,12,9,1,0,0,2,0,0,0,1,0,0,0,24,1,1,2,0,1,0,0,0
+jemalloc,d4c9f03e8b,2026-10-02,2d4bb437,Allow compilation without RTLD_NEXT,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+jemalloc,1bec72bf76,2026-10-02,6962a1cb,Fix __has_include guard for compilers without the operator.,1,1,5,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0
+jemalloc,362be269b9,2026-10-01,c26a3880,Clear zeroed state before caching PAC extents,2,1,34,2,2,0,0,0,0,1,0,0,0,0,0,0,0,43,0,0,1,0,0,0,0,0
+jemalloc,adfe588fb2,2026-10-01,6ac4d688,Allow prof_bt_max:0 to skip in-process backtraces,3,2,16,4,10,3,0,0,0,2,0,0,0,0,1,0,0,557,1,2,7,0,1,0,0,0
+jemalloc,e0131540fa,2026-10-01,6ac4d688,Add sampled allocation USDT probes for OpenTelemetry,5,4,93,2,69,1,0,0,0,4,0,0,2,0,3,0,0,44,2,6,32,0,0,0,0,0
+jemalloc,3b5b96690b,2026-10-01,6ac4d688,Support explicit USDT probe providers,6,6,26,24,26,24,0,0,0,11,0,0,0,0,0,0,0,42,1,5,25,0,0,0,0,0
+jemalloc,a0863b3adb,2026-09-29,d1fbfe05,Add lg_page conf option to let the user set the page size explicitly.,5,4,62,1,46,1,0,0,0,2,0,0,2,0,0,0,0,557,2,18,29,0,0,0,0,0
+jemalloc,421b351779,2026-09-29,d1fbfe05,Reduce excessive edata footprint overhead when dynamic page size is enabled.,7,7,74,5,74,5,0,0,0,3,0,0,1,0,3,0,0,103,1,1,40,0,0,0,0,1
+jemalloc,8a2aa363aa,2026-09-29,d1fbfe05,Tighten TCACHE_NBINS_MAX as it's currently unnecessarily large.,2,2,10,7,10,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,d99e935675,2026-09-27,d1fbfe05,final step to set lg_page from os_page,17,12,77,68,68,62,0,0,0,8,0,0,2,0,1,1,0,554,4,20,54,0,0,0,0,0
+jemalloc,c493e5f7cd,2026-09-27,d1fbfe05,slab / edata changes,4,4,35,10,35,10,0,0,0,1,0,0,0,0,0,0,0,17,0,0,17,0,0,0,0,0
+jemalloc,be7b922bd4,2026-09-27,d1fbfe05,hpa / pac static initializer changes,5,4,26,12,25,11,0,0,0,2,0,0,0,0,1,0,0,554,1,3,22,0,0,0,0,0
+jemalloc,dce0b0ec75,2026-09-27,d1fbfe05,rtree changes,2,2,137,23,137,23,0,0,0,4,0,0,0,0,6,0,0,18,0,0,109,0,0,0,0,0
+jemalloc,64f1acdf2a,2026-09-27,d1fbfe05,"sc / SC_NBINS / SC_LG_LARGE_MINCLASS, tcache / TCACHE_NBINS changes",21,17,99,74,85,60,0,0,0,17,0,0,1,0,0,0,0,554,6,9,77,0,0,0,0,0
+jemalloc,1b51cc17e4,2026-09-27,d1fbfe05,sc / SC_NPSIZES changes,5,5,11,8,11,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+jemalloc,aabec95493,2026-09-27,d1fbfe05,hpdata / HUGEPAGE_PAGES changes,8,4,141,80,39,8,0,0,0,5,0,0,2,0,1,0,0,62,2,3,33,0,0,0,0,0
+jemalloc,aed3ee65ad,2026-09-27,d1fbfe05,add configure flags,7,5,251,21,173,19,0,0,0,4,1,0,2,0,4,0,0,553,2,12,119,0,0,0,0,0
+jemalloc,6361a50b49,2026-09-25,928375f0,"Optimize fastpath for free, rtree metadata decoding, mallocx and dallocx",3,3,94,44,94,44,0,0,0,7,0,0,1,0,4,0,0,53,1,4,81,0,0,0,0,0
+jemalloc,f1927df998,2026-09-24,58074427,Set LG_QUANTUM to 4 for SuperH-3,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jemalloc,c42af462cd,2026-09-23,6ac4d688,Remove last-thread shortcut from per-CPU arena selection,4,3,70,13,1,11,0,0,0,2,0,0,0,2,0,0,0,90,2,1,1,0,1,0,1,0
+jemalloc,bf553efadc,2026-09-22,0664a8b3,Keep alignment when retrying aligned operator new after new_handler,1,1,7,4,7,4,0,0,0,3,0,0,1,0,0,0,0,34,1,4,7,0,0,0,0,0
+jemalloc,f0386eb307,2026-09-17,12701401,Fix background thread state after creation failure,1,1,23,6,23,6,1,0,0,1,1,0,0,0,0,0,0,58,1,23,23,0,1,0,0,0
+jemalloc,62b1a27903,2026-09-17,6ac4d688,Map per-CPU arenas through a boot-time table,13,9,434,55,283,53,0,0,0,11,1,0,1,0,8,0,0,64,3,10,182,0,0,0,0,0
+jemalloc,fad15aaf64,2026-09-17,6ac4d688,Refactor per-CPU arena helpers,16,7,125,76,108,76,0,0,0,0,0,0,0,0,3,3,0,0,0,0,61,0,0,0,0,1
+jemalloc,ff80bf2d0c,2026-09-10,d1fbfe05,Cleanup LG_HUGEPAGE == 0 conditions,3,2,5,18,3,16,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,1
+jemalloc,a3ac9c6e34,2026-09-09,6ac4d688,Remove total_elapsed_ns_per_ps stat,5,4,7,49,6,45,0,0,0,4,0,0,0,3,0,0,0,63,3,5,6,0,0,0,1,0
+jemalloc,fe33667230,2026-09-02,6ac4d688,Expose JEMALLOC_INFALLIBLE_NEW in the public header,9,1,42,10,1,1,0,0,0,1,0,0,0,0,0,0,0,32,1,1,1,0,0,1,0,0
+jemalloc,e46e021986,2026-09-02,06c726f8,Silently tolerate invalid experimental_ and deprecated options without sending stderr.,4,3,61,16,17,5,0,0,0,1,0,0,0,0,1,0,0,23,0,0,13,0,0,0,0,0
+jemalloc,61dc1da395,2026-09-01,e1f81aec,Fix possible tcache corruption on fiber migration (under --enable-experimental-fiber-safe-tls),12,5,348,12,66,12,1,0,0,6,0,0,0,0,0,0,0,13,0,0,46,0,0,0,0,0
+jemalloc,278d90a502,2026-09-01,06c726f8,Parse pid namespace parsing without using glibc dependencies.,7,6,120,38,51,36,0,0,0,4,0,0,0,0,1,0,0,29,0,0,43,0,0,1,0,0
+jemalloc,29e3db6767,2026-09-01,06c726f8,Move /etc/malloc.conf symlink reading to OS layer,6,6,29,26,29,26,0,0,0,3,0,0,0,1,2,0,0,60,1,4,25,0,0,1,1,0
+jemalloc,c86489bf4f,2026-09-01,06c726f8,Move spin.h's thread-yield to OS layer,5,5,32,16,32,16,0,0,0,1,0,0,0,0,3,0,0,11,0,0,15,0,1,1,1,0
+jemalloc,f99cb055c7,2026-09-01,06c726f8,Move background thread's CPU-affinity setting to OS layer,5,5,58,40,58,40,0,0,0,1,0,0,0,0,3,1,0,13,0,0,48,0,1,1,1,0
+jemalloc,81020da62f,2026-09-01,06c726f8,Move profiling's proc-maps dumping and pid-namespace lookup to OS layer,7,7,332,169,332,169,0,0,0,3,0,0,0,0,17,7,0,29,0,0,248,0,0,1,1,0
+jemalloc,c303c02882,2026-09-01,06c726f8,Remove redundant _WIN32 check in mutex.c's pthread_create() intercept,2,2,9,7,9,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,1,0
+jemalloc,6a245e022a,2026-09-01,5c7203fe,Terminate the thread name copy in prof_tdata_reinit,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,1,0,0,0
+jemalloc,db20b610c0,2026-09-01,5c7203fe,Fix --enable-lazy-lock build: missing include in mutex.c,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0
+jemalloc,d13fe91afd,2026-09-01,6ac4d688,Adapt tcache fill and retention,14,10,346,415,206,346,0,0,0,13,1,2,0,4,8,7,0,551,7,31,172,0,0,0,0,0
+jemalloc,e36a0fa5bc,2026-08-10,d1fbfe05,Fix prof-sampling / guard-page interaction bug in the SAN,5,2,38,3,3,3,1,0,0,2,0,0,0,0,0,0,0,56,1,1,2,0,0,0,0,0
+jemalloc,1e92317014,2026-08-07,d1fbfe05,Fix thread-exit TSD cleanup on MinGW builds,1,1,12,0,12,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,1
+jemalloc,1ec505b751,2026-08-04,06c726f8,Move FMTd32-family printf macros to OS layer,5,5,78,30,78,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,0,0,1,1,0
+jemalloc,21ddfb1e8e,2026-08-04,06c726f8,Move error-code handling to OS layer,6,6,110,28,110,28,0,0,0,3,0,0,0,0,6,0,0,3,0,0,64,0,0,1,1,0
+jemalloc,2c87eff72c,2026-08-04,06c726f8,Move boot and overcommit setup to the OS layer.,11,9,326,197,326,183,0,0,0,1,0,1,0,0,9,4,0,34,1,3,195,0,0,1,1,0
+jemalloc,c8e2e0134c,2026-08-04,06c726f8,Move VM reserve/release/purge/commit/decommit/guards/trim to OS layer,5,5,472,306,472,306,0,0,0,8,2,2,0,0,21,5,0,51,2,3,360,0,0,1,1,0
+jemalloc,89b9aef8f7,2026-08-04,06c726f8,Move process write part (atfork) to OS layer,4,4,55,7,55,7,0,0,0,1,0,0,0,0,2,0,0,35,0,0,26,0,0,1,1,0
+jemalloc,85599c8b12,2026-07-31,06c726f8,Move CPU facility to OS layer,7,7,241,116,241,116,0,0,0,2,0,0,0,0,9,2,0,36,0,0,167,0,0,1,1,0
+jemalloc,192271fb82,2026-07-31,06c726f8,Move sync (mutex) + cond + sigmask to OS layer,14,14,431,144,431,144,0,0,0,11,0,1,0,0,23,1,0,59,2,3,255,0,1,1,1,0
+jemalloc,c5b082c470,2026-07-31,06c726f8,Move time facility to OS layer,5,5,132,75,132,75,0,0,0,3,0,0,0,0,8,7,0,9,0,0,94,0,0,1,1,0
+jemalloc,5421943db7,2026-07-31,06c726f8,Add comments to retain context for syscall usage in file read/write.,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,b62e7d2b06,2026-07-30,06c726f8,Move file I/O and process ID retrieval to OS layer,9,9,226,74,226,74,0,0,0,3,0,0,0,0,10,2,0,3,0,0,155,0,0,1,1,0
+jemalloc,c4158acac9,2026-07-30,06c726f8,OS layer scaffolding (dispatcher),3,2,54,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,0,0
+jemalloc,2b63cdbdc9,2026-07-27,43d3be8a,Fix SEC shard count integer overflow (#2892),2,2,5,4,5,4,1,0,0,2,0,0,0,0,0,0,0,574,1,4,5,1,0,0,0,0
+jemalloc,6957341f19,2026-07-27,06c726f8,Fix potential deadlokc during arena_reset.,2,2,10,8,10,8,1,0,0,3,0,0,0,0,0,0,0,14,0,0,9,0,0,0,0,0
+jemalloc,04aad97faa,2026-07-21,6ac4d688,Expose stats table columns in JSON output and simplify code,4,2,295,226,77,195,0,0,0,5,0,1,0,4,0,0,0,24,5,22,71,0,0,0,0,1
+jemalloc,80c8fcb4f9,2026-07-21,6ac4d688,Refactor stats tables around descriptor-driven row emission,3,2,807,358,699,357,0,0,0,4,6,4,0,1,21,2,0,83,4,53,642,0,0,0,0,1
+jemalloc,349740cbd2,2026-07-20,6ac4d688,"Fix col_ind to write unsigned_val, matching its column type",1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,79,2,2,2,0,0,0,0,0
+jemalloc,90567ced21,2026-07-20,6ac4d688,Deduplicate mutex stats reader: merge identical global/arena helpers,1,1,8,35,8,35,0,0,0,2,0,0,0,0,1,2,0,25,0,0,3,0,1,0,0,1
+jemalloc,dec5668b48,2026-07-20,6ac4d688,Format change: label size-class ranges in the per-class stats tables,1,1,39,3,39,3,0,0,0,3,0,0,3,0,1,0,0,84,3,11,23,0,0,0,0,0
+jemalloc,30b1a41042,2026-07-20,6ac4d688,Format change: fold full/empty pageslabs into the nonfull table,1,1,53,29,53,29,0,0,0,1,1,0,1,0,2,1,0,77,1,23,40,0,0,0,0,0
+jemalloc,68fe1be1ad,2026-07-20,6ac4d688,Format change: HPA shard counters from prose to structured rows,1,1,43,54,43,54,0,0,0,1,0,1,0,0,0,0,0,43,1,40,40,0,0,0,0,0
+jemalloc,184f304dd3,2026-07-20,6ac4d688,Refactor stats.c: separate gathering from emission; read top-down,4,3,1661,1005,1535,1001,0,0,0,12,7,2,0,6,48,1,0,184,7,157,1196,0,0,0,0,1
+jemalloc,dfe3a2ed5f,2026-07-20,6ac4d688,Fix duplicate opt.stats_print / opt.stats_print_opts in malloc_stats_print,1,1,0,2,0,2,1,0,0,1,0,0,0,1,0,0,0,224,1,0,0,0,0,0,0,1
+jemalloc,d0705543e0,2026-07-20,1c422573,Use O_CLOEXEC when opening THP sysfs file in init_thp_state.,1,1,8,0,8,0,0,0,0,1,0,0,1,0,0,0,0,53,1,8,8,0,0,0,0,0
+jemalloc,c597d73778,2026-07-18,d1fbfe05,Remove frameptr-based unwinder.,14,6,2,345,0,290,0,0,0,3,0,2,1,1,0,6,0,262,3,0,0,0,0,0,1,0
+jemalloc,d410f43e1f,2026-07-16,06c726f8,Remove thin arena_* deferral/decay wrappers; call pa directly.,8,8,35,85,35,85,0,0,0,14,0,0,1,0,0,5,0,34,3,5,28,0,0,0,1,0
+jemalloc,f1f0792370,2026-07-16,06c726f8,Move background thread state operations into background thread modules.,5,5,97,49,97,49,0,0,0,3,0,0,0,0,4,3,0,34,2,4,55,0,1,1,1,0
+jemalloc,01df5c96e0,2026-07-16,06c726f8,Move deferred-work orchestration from arena into pa/pac.,5,5,274,202,274,202,0,0,0,10,0,1,0,0,8,4,0,29,0,0,141,0,0,0,1,0
+jemalloc,e16ebfe27e,2026-07-16,06c726f8,Refactor deferral constants into corresponding headers.,11,10,65,31,62,29,0,0,0,6,0,0,0,0,0,0,0,40,1,1,24,0,0,1,0,1
+jemalloc,7f52ac7af3,2026-07-16,06c726f8,Symmetrize deferred-work execution by moving it from arena to PAC,5,5,168,76,168,76,0,0,0,4,1,1,0,0,4,4,0,30,0,0,90,0,0,0,0,0
+jemalloc,68c35f6557,2026-07-16,340621c3,Allow resuming per-CPU arena selection via thread.arena (#2957),5,1,104,6,11,3,0,0,0,1,0,0,1,0,0,0,0,36,1,2,2,0,1,0,0,0
+jemalloc,8361239b03,2026-07-14,8721e27e,Detect monotonic condvar support at configure time,3,1,87,46,47,46,0,0,0,3,0,1,0,0,2,0,0,39,1,1,39,0,0,0,0,0
+jemalloc,ebacec3a1a,2026-07-14,8721e27e,Use CLOCK_MONOTONIC for background thread sleep to prevent clock rollback stalls,1,1,41,6,41,6,0,0,0,3,1,0,0,0,0,0,0,53,1,19,37,0,1,0,0,0
+jemalloc,fb5499aa9c,2026-07-09,6ac4d688,Handle jemalloc calls after TSD teardown,11,7,432,8,103,3,0,0,0,6,0,0,0,0,6,0,0,26,0,0,57,0,0,0,0,0
+jemalloc,82e379b8f2,2026-07-08,340621c3,Address review: block-comment style and document the macOS 12+ requirement,1,1,10,2,10,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,5aabbc87bf,2026-07-08,340621c3,Fix `malloc_getcpu` on macOS to read the current CPU number correctly,1,1,16,5,16,5,1,0,0,1,0,0,0,0,0,0,0,18,0,0,13,0,0,0,0,0
+jemalloc,54f22c83d8,2026-07-06,e4d28e0c,Initialize TSD tcache before enabling it,3,2,39,8,10,8,0,0,0,2,0,0,0,0,0,0,0,39,0,0,8,0,0,0,0,0
+jemalloc,36f2017777,2026-07-06,e4d28e0c,Keep TSD bootstrap reentrant until data init completes,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,41,0,0,3,0,1,0,0,0
+jemalloc,7c34a482c1,2026-07-06,e4d28e0c,Add TSD reentrant stress test,5,1,149,1,3,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,1,0,0,0
+jemalloc,7ce8b9165d,2026-06-29,66169234,Accept NULL in free_sized() and free_aligned_sized(),4,2,67,10,29,10,0,0,0,4,0,0,0,0,0,0,0,12,0,0,15,0,0,0,0,0
+jemalloc,43a8adc187,2026-06-27,6962a1cb,Remove experimental_hpa_max_purge_nhp option,12,5,2,118,1,32,0,0,0,3,0,0,0,2,0,0,0,574,2,0,1,0,0,0,1,0
+jemalloc,db15a39d75,2026-06-27,6ac4d688,Keep pac last in pa_shard_s to fix SEC-in-PAC layout regression,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,9c1a484e1d,2026-06-24,36f71a0e,Use SEC in PAC to reduce lock contention on the ecaches,19,14,986,102,454,53,0,0,0,31,2,0,8,0,11,0,0,577,10,87,376,0,1,0,0,1
+jemalloc,2043c6ab58,2026-06-24,36f71a0e,Make SEC stats lockless,2,2,53,39,53,39,0,0,0,9,0,0,0,0,0,1,0,33,0,0,52,0,1,0,0,0
+jemalloc,9f37c70826,2026-06-18,6ac4d688,Replace JET_WRAP_ with JET_EXTERN_INLINE macro,3,2,33,80,9,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+jemalloc,dfb276f035,2026-06-16,6ac4d688,Speculative fix for Veracode integer overflow/underflow in sz.h,1,1,15,6,15,6,1,0,0,3,0,0,0,0,0,0,0,33,0,0,11,1,0,0,0,0
+jemalloc,2f4db8cf5d,2026-06-16,06c726f8,Cap the base-block growth heuristic,1,1,16,1,16,1,0,0,0,1,0,0,1,0,0,0,0,50,1,5,6,0,0,0,0,0
+jemalloc,4de3a4c3d1,2026-06-11,6ac4d688,"De-export test-only helpers via JET_EXTERN / #ifdef JEMALLOC_JET; declare in unit tests, not headers",46,26,123,59,40,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,1,0,0
+jemalloc,6db4d0c468,2026-06-11,6ac4d688,Make ehooks_default_merge static (export was vestigial after merge fast-path removal),2,2,1,8,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,aae199f40f,2026-06-11,6ac4d688,Make single-TU internal helpers static; remove dead hpa_expand/hpa_shrink/pac_reset,10,10,5,41,5,41,0,0,0,0,0,2,0,0,0,3,0,0,0,0,5,0,0,0,1,0
+jemalloc,5bc8d6e9e2,2026-06-11,6ac4d688,Add a table of contents and section banners to ctl.c,1,1,34,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,4e903a0a32,2026-06-06,6ac4d688,Replace ctl mallctl macros with helper functions,3,1,1767,846,751,839,0,0,0,52,0,0,46,5,9,0,0,60,51,587,699,0,0,0,0,0
+jemalloc,160ab9d7f6,2026-06-06,6ac4d688,Replace experimental_infallible_new with compile-time flag,19,6,103,44,17,24,0,0,0,3,1,0,0,1,0,0,0,566,3,14,17,0,0,0,0,0
+jemalloc,a6048680a8,2026-06-05,6ac4d688,"Fix -Wmissing-prototypes, -Wmissing-variable-declarations, and -Wstrict-prototypes warnings",7,7,12,9,12,9,1,0,0,1,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0
+jemalloc,6054b976ef,2026-06-04,d19c4f70,Collapse arena_inlines_a/b and jemalloc_internal_inlines_b into arena_inlines.h,23,21,146,190,13,161,0,0,0,0,0,1,0,0,0,10,0,0,0,0,13,0,0,0,0,0
+jemalloc,c88d5cf67f,2026-06-04,6ac4d688,Move te_prof_sample_event_lookahead into src/jemalloc.c and rename it to prof_sample_lookahead,2,2,21,30,21,30,0,0,0,3,0,0,0,0,1,1,0,109,3,4,13,0,0,0,1,0
+jemalloc,de9ad1450b,2026-06-04,6ac4d688,Drop the jemalloc_internal_includes.h umbrella,74,73,304,190,274,188,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+jemalloc,306ee67a15,2026-06-04,6ac4d688,Consolidate arena_* header split into arena.h,20,16,229,208,56,202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,1,1,0
+jemalloc,6396e44a3c,2026-06-04,6ac4d688,Consolidate prof_* and tcache_* header splits,16,16,666,664,666,664,0,0,0,0,0,0,0,0,1,1,0,0,0,0,336,0,0,1,1,0
+jemalloc,09d419ded5,2026-06-04,6ac4d688,"Consolidate simple component headers (large, background_thread, bin)",17,13,121,123,79,115,0,0,0,0,0,0,0,0,3,3,0,0,0,0,62,0,1,1,0,0
+jemalloc,c944cad7b1,2026-06-04,6ac4d688,Break two include cycles,3,2,4,4,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+jemalloc,9d75722344,2026-06-04,6ac4d688,Move malloc routing into new malloc_dispatch module,18,8,649,385,423,385,0,0,0,7,6,6,1,0,12,13,0,34,6,9,338,0,0,1,1,0
+jemalloc,c22d929ab4,2026-06-03,0a0ff7df,void function should not return anything,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,22,1,2,3,0,0,0,0,0
+jemalloc,0bce098955,2026-06-02,6ac4d688,Remove utilization query mallctl,4,3,3,306,1,166,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+jemalloc,bcdd23d44c,2026-06-02,6ac4d688,Remove pactivep mallctl,1,1,0,64,0,64,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+jemalloc,206e3cb1a2,2026-06-02,6ac4d688,Deduplicate arena create ctl,1,1,21,16,21,16,0,0,0,2,0,0,0,2,1,0,0,12,2,4,18,0,0,0,0,1
+jemalloc,cc7be7fbe2,2026-06-02,6ac4d688,Remove safety check abort mallctl,12,3,33,64,3,38,0,0,0,1,0,1,0,0,0,2,0,9,0,0,3,0,0,0,1,0
+jemalloc,901365d473,2026-06-02,6ac4d688,Internalize malloc_conf_2_conf_harder ctl,4,3,5,18,5,11,0,0,0,1,0,0,0,1,0,0,0,225,1,2,4,0,0,0,0,0
+jemalloc,9e143468a2,2026-06-02,6ac4d688,Refactor arena ctl helpers,1,1,81,60,81,60,0,0,0,14,0,0,1,1,3,0,0,50,5,9,57,0,0,0,0,1
+jemalloc,716bda4394,2026-06-01,6ac4d688,"Improve unit test coverage in tcache, pac, hpa_central",7,1,1305,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0
+jemalloc,1619dda8a4,2026-06-01,6ac4d688,Remove cache bin dead stores,2,2,5,7,5,7,0,0,0,3,0,0,0,0,0,0,0,20,0,0,5,0,0,0,1,0
+jemalloc,6b24522545,2026-05-27,6ac4d688,Fix numeric overflow checks in size classes,3,2,39,8,28,8,1,0,0,2,0,0,0,0,0,0,0,32,0,0,22,1,0,0,0,0
+jemalloc,136d342aa0,2026-05-22,6ac4d688,Remove prof lookahead surplus API,1,1,2,35,2,35,0,0,0,1,0,0,0,0,0,1,0,8,0,0,2,0,0,0,1,0
+jemalloc,44c2ffaff6,2026-05-22,6ac4d688,Remove fresh-slab batch fill,2,2,0,72,0,72,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jemalloc,c5a1822d69,2026-05-22,6ac4d688,Remove batch_alloc API,10,3,2,608,0,193,0,0,0,0,0,1,0,0,0,3,0,0,0,0,0,0,0,0,1,0
+jemalloc,78cbeaf8a4,2026-05-22,6ac4d688,Remove batch_alloc mallctl,3,1,5,69,1,31,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+jemalloc,a5db9feee5,2026-05-21,36f71a0e,Fix psset_enumerate_search pages-vs-bytes comparison,3,1,209,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jemalloc,00f53eb337,2026-05-20,6ac4d688,Add follow-up test for postfork multithread,2,1,300,1,21,0,0,0,0,2,0,0,1,0,0,0,0,64,1,3,10,0,1,0,0,0
+jemalloc,300b58b49b,2026-05-19,0a0ff7df,arena_s: Replace bin_t all_bins[0] by [] for C99 or newer,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,295e48944b,2026-05-18,d1fbfe05,Set SEC_MAX_NALLOCS to 8.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,f008ce9fe1,2026-05-14,d1fbfe05,Remove hpa_sec_batch_fill_extra and calculate nallocs automatically.,15,12,675,105,640,86,0,0,0,10,3,0,5,3,9,1,0,571,8,144,429,0,0,0,1,0
+jemalloc,639e70fcfb,2026-05-13,6ac4d688,Make TSD state non-atomic,2,2,8,29,8,29,0,0,0,3,0,0,0,0,0,0,0,11,0,0,6,0,1,0,0,0
+jemalloc,cec4e84c02,2026-05-13,6ac4d688,Remove obsolete TSD nominal list,3,3,10,111,10,111,0,0,0,6,0,0,0,1,0,6,0,63,1,0,6,0,0,0,1,0
+jemalloc,42e671433f,2026-05-13,6ac4d688,Remove obsolete TSD recompute state,4,4,19,96,19,96,0,0,0,4,0,0,0,0,0,0,0,39,0,0,10,0,0,0,1,0
+jemalloc,ff2c2548a3,2026-05-13,6ac4d688,Remove generic experimental hooks,20,13,25,1636,23,657,0,0,0,25,0,2,0,9,0,15,0,96,11,19,22,0,0,0,1,0
+jemalloc,88745978e9,2026-05-13,6ac4d688,Pass surviving descriptor through jemalloc_postfork_child orchestrator,5,5,28,23,28,23,0,0,0,2,0,0,0,0,1,1,0,25,0,0,25,0,0,0,0,0
+jemalloc,3cd9753e23,2026-05-13,6ac4d688,Move tcache_stats_merge into arena as arena_cache_bins_stats_merge,5,5,35,41,35,41,0,0,0,2,0,0,0,0,2,1,0,19,0,0,33,0,0,0,1,0
+jemalloc,35d102fa32,2026-05-13,6ac4d688,Encapsulate cache_bin_array_descriptor queue ops behind arena helpers,3,3,74,38,74,38,0,0,0,3,0,0,0,0,3,1,0,15,0,0,59,0,0,0,1,0
+jemalloc,36820f9b76,2026-05-13,6ac4d688,"Drop redundant tcache_t param from tcache_arena_{associate,dissociate,reassociate}",3,3,23,23,23,23,0,0,0,10,0,0,0,1,0,0,0,40,1,2,22,0,0,0,0,0
+jemalloc,b92420d309,2026-05-13,6ac4d688,Replace arena->tcache_ql with cache_bin_array_descriptor_ql walks,9,8,122,51,45,51,0,0,0,13,0,0,1,0,0,0,0,96,3,8,39,0,0,0,0,0
+jemalloc,f9c84860e0,2026-05-13,6ac4d688,Fold tcache reassociation into thread_migrate_arena helper,3,2,24,22,12,16,0,0,0,2,0,0,0,1,1,0,0,36,1,1,11,0,1,0,0,0
+jemalloc,54ef51121b,2026-05-13,6ac4d688,Extract postfork-child tcache list relink into tcache_arena_postfork_child,3,3,32,24,32,24,0,0,0,2,0,0,0,0,2,0,0,21,0,0,25,0,0,0,1,0
+jemalloc,b6cfaa4fe2,2026-05-13,6ac4d688,Extract large-cacheable tcache check into tcache_can_cache_large,3,3,10,9,10,9,0,0,0,3,0,0,0,2,1,0,0,20,2,2,9,0,0,0,1,0
+jemalloc,3c1c6ae419,2026-05-13,6ac4d688,Hide bin slab-locality query behind arena_locality_hint,6,5,71,23,28,23,0,0,0,1,0,0,0,0,2,1,0,58,1,2,23,0,0,0,0,0
+jemalloc,e286fba00a,2026-05-13,6ac4d688,Extract bin->stats.nrequests mutation into bin_stats_nrequests_add,3,2,46,3,9,3,0,0,0,1,0,0,0,0,1,0,0,18,0,0,8,0,0,0,1,0
+jemalloc,8edd101286,2026-05-12,06c726f8,Remove dead pai_t field and delete pai.h,7,6,10,86,9,84,0,0,0,0,0,3,0,0,0,5,0,0,0,0,4,0,0,0,1,0
+jemalloc,1dfa6f7aa4,2026-05-12,06c726f8,Replace PAI vtable dispatch with direct calls,14,7,183,224,104,125,0,0,0,29,3,3,2,2,4,6,0,67,9,19,91,0,0,0,0,0
+jemalloc,163c871d6c,2026-05-12,6ac4d688,Add DSS allocation path unit tests,4,2,211,0,14,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,12,0,0,0,0,0
+jemalloc,6e7c364e90,2026-05-11,6ac4d688,Hide methods from jemalloc_init.h that are not used in other units,3,2,4,18,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,a34a8c5e13,2026-05-08,0a0ff7df,Unify semicolon after ph_proto and ph_structs,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,548e233966,2026-05-08,0a0ff7df,Fix wrong semicolon,1,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,5acdcee600,2026-05-08,0a0ff7df,Remove extra semicolon after macros,1,1,40,40,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,1,0
+jemalloc,1ffd5e96d6,2026-05-05,da39a3ee,Avoid strncpy in malloc_strcpy,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jemalloc,be2de8ccd8,2026-05-05,36f71a0e,Introduce pinned extents to contain unpurgeable pages,22,17,977,86,371,74,0,0,0,39,1,0,24,0,6,0,0,256,25,163,294,0,0,0,0,0
+jemalloc,7638093c73,2026-05-04,6ac4d688,Improve const correctness in the repo,21,21,98,90,98,90,0,0,0,65,0,0,0,0,0,0,0,58,4,6,93,0,0,0,0,0
+jemalloc,86f058287f,2026-05-01,6ac4d688,Restore errno save/restore in pages_purge_process_madvise_impl,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+jemalloc,9ae0c1b6d3,2026-05-01,6ac4d688,Make huge_arena_ind static within the arena module (Follow up for PR #2904),3,3,8,4,8,4,0,0,0,1,0,0,0,1,1,0,0,106,1,1,7,0,0,1,0,0
+jemalloc,3a77966168,2026-04-30,6ac4d688,"Preserve errno across free, free_sized, and free_aligned_sized",2,2,4,6,4,6,0,0,1,3,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+jemalloc,ba1e2fe4db,2026-04-30,6ac4d688,Extract fork orchestration into jemalloc_fork module,15,6,211,180,194,180,0,0,0,0,1,1,0,0,4,4,0,0,0,0,150,0,0,1,1,0
+jemalloc,ec07fc3c5f,2026-04-30,6ac4d688,Extract initialization logic from jemalloc.c into jemalloc_init module,16,7,758,707,741,707,0,0,0,9,3,3,0,0,22,19,0,69,3,3,555,0,0,1,1,0
+jemalloc,e0a8401533,2026-04-30,6ac4d688,Extract arena state and management from jemalloc.c into arenas_management module,18,9,439,365,422,365,0,0,0,7,1,1,0,2,23,18,0,97,4,9,299,0,0,1,1,0
+jemalloc,ee4d7b7f9a,2026-04-29,06c726f8,Update a0's oversize threshold regardless whether huge arena is enabled or not.,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0
+jemalloc,70b228dece,2026-04-29,06c726f8,Fix assertion for cases where tiny classes do not exist,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,59,1,1,1,0,0,0,0,0
+jemalloc,1a15fe33a4,2026-04-27,ad5ffa3b,Replace std::__throw_bad_alloc call with standard C++ (#2900),4,1,43,14,13,12,0,0,0,1,0,0,0,0,0,0,0,32,0,0,13,0,0,0,0,0
+jemalloc,6cd31c0985,2026-04-22,6ac4d688,Fix several typos in the comments,5,5,7,7,7,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,f265645d02,2026-04-01,6ac4d688,Emit retained HPA slab stats in JSON,2,1,127,1,6,0,0,0,0,1,0,0,1,0,0,0,0,161,1,6,6,0,0,0,0,0
+jemalloc,db7d99703d,2026-04-01,6ac4d688,Add TODO to benchmark possibly better policy,1,1,6,2,6,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,6281482c39,2026-04-01,6ac4d688,Nest HPA SEC stats inside hpa_shard JSON,2,1,77,3,1,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jemalloc,3cc56d325c,2026-04-01,6ac4d688,Fix large alloc nrequests under-counting on cache misses,2,1,49,4,3,3,1,0,0,1,0,0,0,0,0,0,0,32,1,3,3,0,0,0,0,0
+jemalloc,b507644cb0,2026-04-01,6ac4d688,Fix conf_handle_char_p zero-sized dest and remove unused conf_handle_unsigned,3,2,27,93,14,43,1,0,0,3,0,1,0,1,0,1,0,574,2,4,12,0,0,0,1,0
+jemalloc,5904a42187,2026-04-01,6ac4d688,Fix memory leak of old curr_reg on san_bump_grow_locked failure,2,1,89,1,1,0,1,0,0,1,0,0,1,0,0,0,0,56,1,1,1,0,0,0,0,0
+jemalloc,2fceece256,2026-04-01,6ac4d688,Fix extra size argument in edata_init call in extent_alloc_dss,1,1,17,7,17,7,1,0,0,1,0,0,1,0,0,0,0,101,1,7,7,0,0,0,0,0
+jemalloc,234404d324,2026-04-01,6ac4d688,Fix wrong loop variable for array index in sz_boot_pind2sz_tab,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+jemalloc,675ab079e7,2026-04-01,6ac4d688,Fix missing release of acquired neighbor edata in extent_try_coalesce_impl,2,1,73,18,27,17,1,0,0,1,0,0,1,0,0,0,0,55,1,23,23,0,0,0,0,0
+jemalloc,3f6e63e86a,2026-04-01,6ac4d688,Fix wrong type for malloc_read_fd return value in prof_stack_range,1,1,10,4,10,4,1,0,0,1,0,0,1,0,0,0,0,76,1,10,10,0,0,0,0,0
+jemalloc,dd30c91eaa,2026-04-01,6ac4d688,Fix wrong fallback value in os_page_detect when sysconf fails,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jemalloc,3a8bee81f1,2026-04-01,6ac4d688,Fix pac_mapped stats inflation on allocation failure,1,1,3,1,3,1,1,0,0,1,0,0,1,0,0,0,0,47,1,3,3,0,0,0,0,0
+jemalloc,c2d57040f0,2026-04-01,6ac4d688,Fix out-of-bounds write in malloc_vsnprintf when size is 0,2,1,20,2,1,1,1,0,0,1,0,0,1,0,0,0,0,225,1,1,1,1,0,0,0,0
+jemalloc,eab2b29736,2026-04-01,6ac4d688,Fix off-by-one in stats_arenas_i_bins_j and stats_arenas_i_lextents_j bounds checks,2,1,56,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,1,0,0,0,0
+jemalloc,a0f2bdf91d,2026-04-01,6ac4d688,Fix missing negation in large_ralloc_no_move usize_min fallback,4,2,81,1,4,1,1,0,0,1,0,0,0,0,0,0,0,30,1,1,2,0,0,0,1,0
+jemalloc,87f9938de5,2026-04-01,6ac4d688,"Fix duplicate ""nactive_huge"" JSON key in HPA shard stats output",2,1,74,3,2,2,1,0,0,1,0,0,0,0,0,0,0,155,1,2,2,0,0,0,0,1
+jemalloc,513778bcb1,2026-04-01,6ac4d688,Fix off-by-one in arenas_bin_i_index and arenas_lextent_i_index bounds checks,2,1,49,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,1,0,0,0,0
+jemalloc,176ea0a801,2026-04-01,6ac4d688,Remove experimental.thread.activity_callback,5,4,3,148,2,76,0,0,0,1,0,1,0,0,0,2,0,3,0,0,1,0,1,0,1,0
+jemalloc,19bbefe136,2026-04-01,6ac4d688,"Remove dead code: extent_commit_wrapper, large_salloc, tcache_gc_dalloc event waits",5,5,0,25,0,25,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1,0
+jemalloc,a87c518bab,2026-03-26,e1fdf92e,Fix typo in prof_log_rep_check: use != instead of || for alloc_count,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,44,1,1,1,0,0,0,0,0
+jemalloc,d758349ca4,2026-03-26,6ac4d688,Fix psset_pick_purge when last candidate with index 0 dirtiness is ineligible,2,1,58,2,4,1,1,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+jemalloc,1d018d8fda,2026-03-26,d1fbfe05,improve hpdata_assert_consistent(),1,1,58,21,58,21,0,0,0,1,0,0,1,0,0,1,0,58,1,46,50,0,0,0,0,0
+jemalloc,ad726adf75,2026-03-10,ad5ffa3b,Separate out the configuration code from initialization,5,4,1261,1134,1260,1134,0,0,0,0,5,3,0,0,15,11,0,0,0,0,1096,0,0,0,0,0
+jemalloc,a056c20d67,2026-03-10,ad5ffa3b,Handle tcache init failures gracefully,4,2,162,21,45,21,0,0,0,6,0,0,0,0,1,0,0,31,0,0,37,0,1,0,0,0
+jemalloc,0ac9380cf1,2026-03-10,ad5ffa3b,Move bin inline functions from arena_inlines_b.h to bin_inlines.h,4,3,131,118,126,113,0,0,0,3,1,1,1,0,5,5,0,92,1,6,91,0,0,0,1,0
+jemalloc,1cc563f531,2026-03-10,ad5ffa3b,Move bin functions from arena.c to bin.c,7,7,326,305,326,305,0,0,0,8,0,0,1,0,17,17,0,91,4,14,250,0,0,0,1,0
+jemalloc,12b33ed8f1,2026-03-10,06c726f8,Fix wrong mutex stats in json-formatted malloc stats,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,1,0,0,0
+jemalloc,79cc7dcc82,2026-03-10,ad5ffa3b,Guard os_page_id against a NULL address,1,1,9,4,9,4,0,0,0,2,0,0,1,0,0,0,0,34,1,4,9,0,0,0,0,0
+jemalloc,34ace9169b,2026-03-10,6ac4d688,Remove prof_threshold built-in event. It is trivial to implement it as user event if needed,22,9,1,270,1,135,0,0,0,2,0,1,0,2,0,8,0,574,2,0,1,0,0,0,1,0
+jemalloc,4d0ffa075b,2026-03-10,fca4a068,Fix background thread initialization race,3,1,190,2,6,2,1,0,0,1,0,0,0,0,0,0,0,41,0,0,2,0,1,0,0,0
+jemalloc,d4908fe44a,2026-03-10,6ac4d688,"Revert ""Experimental configuration option for fast path prefetch from cache_bin""",3,1,0,41,0,6,0,0,0,1,0,0,0,1,0,0,0,45,1,0,0,0,0,0,0,0
+jemalloc,5f353dc283,2026-03-10,ad5ffa3b,Remove an incorrect use of the address operator,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,42,0,0,1,0,0,0,1,0
+jemalloc,6016d86c18,2026-03-10,6ac4d688,"[SEC] Make SEC owned by hpa_shard, simplify the code, add stats, lock per bin",35,18,1215,1208,532,556,0,0,0,43,0,7,2,5,15,13,0,579,11,59,438,0,1,0,0,1
+jemalloc,0988583d7c,2026-03-10,25c71e4d,Add a mallctl for users to get an approximate of active bytes.,2,1,150,1,45,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,27,0,0,0,0,0
+jemalloc,8a06b086f3,2026-03-10,6ac4d688,[EASY] Extract hpa_central component from hpa source file,13,4,184,145,163,141,0,0,0,0,1,1,0,0,3,3,0,0,0,0,110,0,0,0,1,0
+jemalloc,355774270d,2026-03-10,6ac4d688,"[EASY] Encapsulate better, do not pass hpa_shard when hooks are enough, move shard independent actio",14,3,198,175,94,100,0,0,0,5,0,0,0,0,5,6,0,46,0,0,66,0,0,0,1,0
+jemalloc,47aeff1d08,2026-03-10,6ac4d688,Add experimental_enforce_hugify,7,5,133,48,43,38,0,0,0,8,0,0,3,0,0,0,0,582,5,19,43,0,0,0,0,0
+jemalloc,6d4611197e,2026-03-10,9370f8ee,move fill/flush pointer array out of tcache.c,5,5,404,390,404,390,0,0,0,9,5,4,1,0,8,8,0,34,3,16,265,0,0,0,1,0
+jemalloc,3678a57c10,2026-03-10,6ac4d688,"When extracting from central, hugify_eager is different than start_as_huge",13,5,235,9,19,3,0,0,0,3,0,0,3,0,0,0,0,580,3,11,18,0,0,0,1,0
+jemalloc,2cfa41913e,2026-03-10,06c726f8,Refactor init_system_thp_mode and print it in malloc stats.,6,5,63,22,62,21,0,0,0,5,0,0,2,0,1,0,0,226,2,12,46,0,0,0,0,1
+jemalloc,87555dfbb2,2026-03-10,6ac4d688,Do not release the hpa_shard->mtx when inserting newly retrieved page from central before allocating,1,1,20,9,20,9,0,0,0,3,1,0,0,1,1,0,0,43,2,8,15,0,0,0,0,0
+jemalloc,5e49c28ef0,2026-03-10,6ac4d688,[EASY] Spelling in the comments,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,a199278f37,2026-03-10,6ac4d688,[HPA] Add ability to start page as huge and more flexibility for purging,20,14,1231,116,438,80,0,0,0,23,1,0,5,0,14,0,0,576,7,78,258,0,0,0,0,0
+jemalloc,ace437d26a,2026-03-10,6ac4d688,Running clang-format on two files,2,2,31,32,31,32,0,0,0,10,0,0,0,0,0,0,0,33,0,0,31,0,0,0,0,0
+jemalloc,2688047b56,2026-03-10,6ac4d688,"Revert ""Do not dehugify when purging""",6,3,54,3,19,3,0,0,0,1,0,0,0,0,1,0,0,26,0,0,16,0,0,0,0,0
+jemalloc,d70882a05d,2026-03-10,6ac4d688,[sdt] Add some tracepoints to sec and hpa modules,3,3,13,5,13,5,0,0,0,8,0,0,3,1,0,0,0,56,4,3,13,0,1,1,0,0
+jemalloc,5a634a8d0a,2026-03-10,ad5ffa3b,Always use pthread_equal to compare thread IDs,2,2,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,1,0,0,0
+jemalloc,5d5f76ee01,2026-03-10,6ac4d688,Remove pidfd_open call handling and rely on PIDFD_SELF,4,3,11,35,9,34,0,0,0,2,0,0,0,0,0,2,0,22,0,0,7,0,0,0,1,0
+jemalloc,2a66c0be5a,2026-03-10,6ac4d688,[EASY][BUGFIX] Spelling and format,2,2,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+jemalloc,38b12427b7,2026-03-10,c2441237,"Define malloc_{write,read}_fd as non-inline global functions",2,2,80,81,80,81,0,0,0,1,0,0,0,0,4,4,0,5,0,0,68,0,0,0,0,0
+jemalloc,9fdc1160c5,2026-03-10,c2441237,Handle interruptions and retries of read(2) and write(2),1,1,10,0,10,0,0,0,0,2,0,0,0,0,0,0,0,17,0,0,10,0,0,0,0,0
+jemalloc,48b4ad60a7,2026-03-10,c2441237,Remove an orphaned comment,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,2114349a4e,2026-03-10,9370f8ee,Revert PR #2608: Manually revert commits 70c94d..f9c0b5,30,15,125,1365,84,775,0,0,0,23,0,1,1,8,0,18,0,539,10,42,71,0,0,0,0,0
+jemalloc,5e98585b37,2026-03-10,6ac4d688,Save and restore errno when calling process_madvise,1,1,19,1,19,1,0,1,0,1,0,0,0,0,0,0,0,33,0,0,13,0,0,0,0,0
+jemalloc,d73de95f72,2026-03-10,6ac4d688,Experimental configuration option for fast path prefetch from cache_bin,3,1,41,0,6,0,0,0,0,1,0,0,1,0,0,0,0,49,1,6,6,0,0,0,0,0
+jemalloc,9528a2e2dd,2026-03-10,c2441237,Use relaxed atomics to access the process madvise pid fd,1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,22,0,0,5,0,1,0,0,0
+jemalloc,a156e997d7,2026-03-10,c2441237,Do not dehugify when purging,6,3,3,54,3,19,0,0,0,1,0,0,0,0,0,1,0,21,0,0,3,0,0,0,0,0
+jemalloc,395e63bf7e,2026-03-10,c2441237,Fix several spelling errors in comments,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,4246475b44,2026-03-10,6ac4d688,[process_madvise] Make init lazy so that python tests pass. Reset the pidfd on fork,4,4,34,7,34,7,0,0,0,3,0,0,0,0,2,0,0,23,0,0,29,0,0,0,0,0
+jemalloc,f87bbab22c,2026-03-10,6ac4d688,Add several USDT probes for hpa,2,2,16,2,16,2,0,0,0,8,0,0,1,0,0,0,0,58,1,2,16,0,0,0,0,0
+jemalloc,711fff750c,2026-03-10,6ac4d688,Add experimental support for usdt systemtap probes,5,3,266,0,208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,0,0,0,0,0
+jemalloc,6200e8987f,2026-03-10,06c726f8,Reformat the codebase with the clang-format 18.,346,181,18456,17940,9578,9284,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+jemalloc,a952a3b8b0,2026-03-10,9370f8ee,Update the default value for opt_experimental_tcache_gc and opt_calloc_madvise_threshold,2,2,5,2,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,015b017973,2026-03-10,6ac4d688,[thread_event] Add support for user events in thread events when stats are enabled,15,13,470,81,411,80,0,0,0,13,1,0,2,0,13,0,0,97,2,25,320,0,1,0,0,0
+jemalloc,e6864c6075,2026-03-10,6ac4d688,[thread_event] Remove macros from thread_event and replace with dynamic event objects,17,15,454,317,449,312,0,0,0,7,3,1,0,0,16,20,0,30,0,0,349,0,1,0,1,0
+jemalloc,27d7960cf9,2025-06-02,7750301f,"Revert ""Extend purging algorithm with peak demand tracking""",20,8,28,538,4,207,0,0,0,5,0,0,0,3,0,7,0,545,3,0,3,0,0,0,0,0
+jemalloc,edaab8b3ad,2025-05-28,06c726f8,Turn clang-format off for codes with multi-line commands in macros,11,9,26,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,fd60645260,2025-05-28,06c726f8,Add one more check to double free validation.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,1,0,0,0,0
+jemalloc,5e460bfea2,2025-05-22,c26a3880,Refactor: use the cache_bin_sz_t typedef instead of direct uint16_t,2,2,26,26,26,26,0,0,0,14,0,0,0,0,0,0,0,22,0,0,26,0,0,0,0,1
+jemalloc,9169e9272a,2025-05-22,c26a3880,Fix: Adjust CACHE_BIN_NFLUSH_BATCH_MAX size to prevent assert failures,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,3c14707b01,2025-05-12,c9de44a5,"To improve reuse efficiency, the maximum coalesced size for large extents in the dirty ecache has be",1,1,33,7,33,7,0,0,0,4,1,0,1,0,0,0,0,41,4,12,12,0,0,0,0,0
+jemalloc,37bf846cc3,2025-05-06,06c726f8,Fixes to prevent static analysis warnings.,7,7,8,8,8,8,1,0,0,4,0,0,0,0,0,0,0,18,0,0,8,0,0,0,0,0
+jemalloc,8347f1045a,2025-05-06,06c726f8,Renaming limit_usize_gap to disable_large_size_classes,18,13,78,68,71,59,0,0,0,12,0,0,0,0,1,1,0,549,4,6,23,0,0,0,0,0
+jemalloc,01e9ecbeb2,2025-05-06,25c71e4d,Remove build-time configuration 'config_limit_usize_gap',15,8,160,244,44,93,0,0,0,11,0,0,0,4,0,0,0,549,4,13,33,0,0,0,1,0
+jemalloc,852da1be15,2025-04-28,6ac4d688,Add experimental option force using SYS_process_madvise,3,1,23,1,7,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+jemalloc,1956a54a43,2025-04-25,6ac4d688,[process_madvise] Use process_madvise across multiple huge_pages,7,3,481,77,201,72,0,0,0,1,0,2,0,0,8,1,0,31,1,3,150,0,0,0,0,0
+jemalloc,0dfb4a5a1a,2025-04-25,6ac4d688,Add output argument to hpa_purge_begin to count dirty ranges,5,3,27,9,13,4,0,0,0,2,0,0,1,0,0,0,0,62,1,3,10,0,0,0,0,0
+jemalloc,cfa90dfd80,2025-04-25,6ac4d688,Refactor hpa purging to prepare for vectorized call across multiple pages,2,2,97,48,97,48,0,0,0,1,0,0,0,1,6,1,0,60,1,5,74,0,0,0,0,1
+jemalloc,a3910b9802,2025-04-25,5c31be69,Avoid forced purging during thread-arena migration when bg thd is on.,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,1,0,0,0
+jemalloc,c23a6bfdf6,2025-04-16,06c726f8,Add opt.limit_usize_gap to stats,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,219,1,1,1,0,0,0,0,0
+jemalloc,c20a63a765,2025-04-16,06c726f8,Silence the uninitialized warning from clang.,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,51,1,1,2,0,0,0,0,0
+jemalloc,f19f49ef3e,2025-04-04,6ac4d688,"if process_madvise is supported, call it when purging hpa",7,3,387,3,68,2,0,0,0,1,0,0,1,0,2,0,0,74,1,20,54,0,0,0,0,0
+jemalloc,3688dfb5c3,2025-03-20,9370f8ee,fix assertion error in huge_arena_auto_thp_switch() when b0 is deleted in unit test,4,4,32,15,32,15,1,0,0,4,0,0,0,0,0,0,0,62,2,3,14,0,0,0,0,0
+jemalloc,e1a77ec558,2025-03-17,9370f8ee,Support THP with Huge Arena in PAC,9,9,158,8,158,8,0,0,0,6,0,0,3,0,2,0,0,551,3,13,111,0,0,0,0,0
+jemalloc,86bbabac32,2025-03-17,5a90e2fb,background_thread: add fallback for pthread_create dlsym,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,1,0,0,0
+jemalloc,773b5809f9,2025-03-13,06c726f8,Fix frame pointer based unwinder to handle changing stack range,3,3,241,175,241,175,1,0,0,2,1,0,0,1,3,3,0,67,2,97,150,0,0,0,0,0
+jemalloc,ad108d50f1,2025-03-13,65b564e6,Extend purging algorithm with peak demand tracking,20,8,537,29,207,4,0,0,0,5,0,0,4,0,7,0,0,550,4,15,117,0,0,0,0,0
+jemalloc,22440a0207,2025-03-07,5c31be69,Implement process_madvise support.,13,9,204,6,182,6,0,0,0,5,0,0,4,0,8,0,0,546,4,27,149,0,0,0,0,0
+jemalloc,6035d4a8d3,2025-03-06,06c726f8,Cache extra extents in the dirty pool from ecache_alloc_grow,3,2,96,12,88,11,0,0,0,2,0,0,1,0,2,0,0,45,1,28,48,0,0,0,0,0
+jemalloc,c067a55c79,2025-03-06,06c726f8,Introducing a new usize calculation policy,33,20,713,74,601,64,0,0,0,36,1,0,7,0,12,0,0,541,13,60,404,0,0,0,0,0
+jemalloc,ac279d7e71,2025-03-04,06c726f8,Fix profiling sample metadata lookup during xallocx,2,1,37,2,9,1,1,0,0,1,0,0,1,0,0,0,0,38,1,5,5,0,0,0,0,0
+jemalloc,499f306859,2025-02-18,65b564e6,Fix arena 0 `deferral_allowed` flag init,3,2,47,9,16,9,1,0,0,2,0,0,1,1,0,0,0,96,2,9,9,0,0,0,0,0
+jemalloc,421b17a622,2025-02-13,65b564e6,Remove age_counter from hpa_central,2,2,5,7,5,7,0,0,0,3,0,0,1,0,0,0,0,60,2,5,5,0,0,0,1,0
+jemalloc,c17bf8b368,2025-02-05,a288e615,Disable config from file or envvar with build flag,3,1,48,14,24,14,0,0,0,1,0,0,1,0,0,0,0,59,1,24,24,0,0,0,0,0
+jemalloc,257e64b968,2025-01-29,ae4a091c,"Unlike `prof_sample` which is supported only with profiling mode active, `prof_threshold` is intende",22,9,246,0,120,0,0,0,0,1,1,0,1,0,8,0,0,537,1,4,90,0,0,0,0,0
+jemalloc,ef8e512e29,2025-01-28,65b564e6,Fix `bitmap_ffu` out of range read,1,1,5,2,5,2,1,0,0,1,0,0,0,0,0,0,0,48,0,0,5,0,0,0,0,0
+jemalloc,607b866035,2025-01-28,5c31be69,Check for 0 input when setting max_background_thread through mallctl.,2,1,7,1,2,1,0,0,0,1,0,0,1,0,0,0,0,53,1,2,2,0,1,0,0,0
+jemalloc,20cc983314,2025-01-22,5c31be69,Fix the gettid() detection caught by @mrluanma .,2,1,4,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,17881ebbfd,2024-12-17,3ab6c6fd,Add configure check for gettid() presence,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,4b88bddbca,2024-12-17,d17e41db,Conditionally remove unreachable for C23+,1,1,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0
+jemalloc,d8486b2653,2024-12-17,d17e41db,Remove unreachable() macro as c23 already defines it.,1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,587676fee8,2024-12-17,06c726f8,Disable psset test when hugepage size is too large.,3,2,19,1,7,1,0,0,0,1,0,0,0,0,1,0,0,16,0,0,6,0,0,0,0,0
+jemalloc,6786934280,2024-12-11,06c726f8,Fix ehooks assertion for arena creation,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,13,1,1,1,0,0,0,0,0
+jemalloc,6092c980a6,2024-11-21,65b564e6,Expose `psset` state stats,6,4,458,58,232,56,0,0,0,8,1,0,0,0,3,3,0,101,1,60,180,0,0,0,0,0
+jemalloc,3820e38dc1,2024-11-20,65b564e6,Remove validation for HPA ratios,5,1,1,102,0,41,0,0,0,1,0,0,0,0,0,1,0,18,0,0,0,0,0,0,1,0
+jemalloc,0ce13c6fb5,2024-11-20,65b564e6,Add opt `hpa_hugify_sync` to hugify synchronously,15,10,141,8,107,6,0,0,0,8,0,0,3,0,1,0,0,533,3,4,62,0,0,0,0,0
+jemalloc,b82333fdec,2024-11-08,65b564e6,Split `stats_arena_hpa_shard_print` function,1,1,37,23,37,23,0,0,0,1,1,1,0,0,3,0,0,7,1,7,31,0,0,0,1,0
+jemalloc,b9758afff0,2024-11-08,65b564e6,Add `nstime_ms_since` to get time since in ms,4,3,30,4,11,4,0,0,0,1,0,0,0,0,2,1,0,3,0,0,8,0,0,0,0,0
+jemalloc,2a693b83d2,2024-10-14,5c31be69,Fix the sized-dealloc safety check abort msg.,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,6d625d5e5e,2024-10-14,5c31be69,Add support for clock_gettime_nsec_np(),3,1,27,1,12,1,0,0,0,2,0,0,0,0,1,0,0,8,0,0,12,0,0,0,0,0
+jemalloc,edc1576f03,2024-10-01,65a0c561,Add safe frame-pointer backtrace unwinder,13,6,271,1,214,1,0,0,0,3,2,1,1,0,6,0,0,262,3,24,159,0,1,0,0,0
+jemalloc,3a0d9cdadb,2024-09-30,ebd2dc55,Use MSVC __declspec(thread) for TSD on Windows,2,2,78,2,78,2,0,0,0,0,0,0,0,0,8,0,0,0,0,0,59,0,1,0,0,0
+jemalloc,1c900088c3,2024-09-27,06c726f8,Do not support hpa if HUGEPAGE is too large.,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+jemalloc,4f4fd42447,2024-09-25,65b564e6,Remove `strict_min_purge_interval` option,7,5,21,41,3,28,0,0,0,3,0,0,0,2,0,0,0,531,2,0,3,0,0,0,1,0
+jemalloc,6cc42173cb,2024-09-23,5c31be69,Assert the mutex is locked within malloc_mutex_assert_owner().,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,1,0,0,0
+jemalloc,44db479fad,2024-09-23,5c31be69,Fix the lock owner sanity checking during background thread boot.,2,2,8,3,8,3,1,0,0,2,0,0,0,0,1,0,0,37,0,0,6,0,1,0,0,0
+jemalloc,0181aaa495,2024-09-23,06c726f8,Optimize edata_cmp_summary_compare when __uint128_t is available,3,1,34,0,16,0,0,0,0,1,0,0,0,0,2,0,0,7,0,0,15,0,0,0,0,0
+jemalloc,de5606d0d8,2024-09-20,5c31be69,Fix a missing init value warning caught by static analysis.,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,39,1,0,0,0,0,0,0,0
+jemalloc,1960536b61,2024-09-20,5c31be69,Add malloc_mutex_is_locked() sanity checks.,1,1,10,1,10,1,0,0,0,3,0,0,0,0,1,0,0,12,0,0,8,0,1,0,0,0
+jemalloc,3eb7a4b53d,2024-09-20,5c31be69,Fix mutex state tracking around pthread_cond_wait().,1,1,22,2,22,2,1,0,0,1,0,0,0,0,1,0,0,46,0,0,15,0,1,0,0,0
+jemalloc,661fb1e672,2024-09-20,5c31be69,Fix the locked flag for malloc_mutex_trylock().,1,1,8,2,8,2,1,0,0,2,0,0,0,0,0,0,0,10,0,0,5,0,1,0,0,0
+jemalloc,8c2e15d1a5,2024-09-12,65a0c561,Add malloc_open() / malloc_close() reentrancy safe helpers,2,2,32,50,32,50,0,0,0,2,0,1,0,1,2,0,0,37,2,11,29,0,1,0,0,0
+jemalloc,323ed2e3a8,2024-09-12,5c31be69,Optimize fast path to allow static size class computation.,3,3,40,8,40,8,0,0,0,4,0,0,1,0,2,0,0,51,1,3,28,0,0,0,0,0
+jemalloc,c1a3ca3755,2024-09-11,5c31be69,Adjust the value width in stats output.,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,248,1,4,4,0,0,0,0,0
+jemalloc,3383b98f1b,2024-09-04,5c31be69,Check if the huge page size is expected when enabling HPA.,2,2,29,7,29,7,0,0,0,1,0,0,0,0,1,0,0,14,0,0,20,0,0,0,0,0
+jemalloc,cd05b19f10,2024-09-04,5c31be69,Fix the VM over-reservation on aarch64 w/ larger pages.,3,3,36,10,36,10,1,0,0,3,0,0,0,0,1,0,0,44,1,3,19,0,0,0,0,0
+jemalloc,7c99686165,2024-08-29,9370f8ee,Better handle burst allocation on tcache_alloc_small_hard,3,3,104,15,104,15,0,0,0,4,0,0,1,1,6,0,0,56,2,4,56,0,0,0,0,0
+jemalloc,0c88be9e0a,2024-08-29,9370f8ee,Regulate GC frequency by requiring a time interval between two consecutive GCs,3,3,133,55,133,55,0,0,0,4,1,0,1,0,1,0,0,60,2,74,107,0,0,0,0,0
+jemalloc,e2c9f3a9ce,2024-08-29,9370f8ee,Take locality into consideration when doing GC flush,2,2,213,4,213,4,0,0,0,1,3,0,0,0,4,0,0,45,1,22,112,0,0,0,0,0
+jemalloc,14d5dc136a,2024-08-29,9370f8ee,Allow a range for the nfill passed to arena_cache_bin_fill_small,3,3,25,13,25,13,0,0,0,2,0,0,2,0,0,0,0,86,2,17,19,0,0,0,0,0
+jemalloc,f68effe4ac,2024-08-29,9370f8ee,Add a runtime option opt_experimental_tcache_gc to guard the new design,4,4,9,0,9,0,0,0,0,2,0,0,2,0,0,0,0,534,2,3,9,0,0,0,0,0
+jemalloc,9e123a833c,2024-08-28,ebd2dc55,Leverage new Windows API TlsGetValue2 for performance,3,3,32,4,32,4,0,0,0,2,0,0,0,0,0,0,0,25,0,0,32,0,0,0,0,0
+jemalloc,bd0a5b0f3b,2024-08-28,5c31be69,Fix static analysis warnings.,4,3,5,4,3,3,1,0,0,3,0,0,0,0,0,0,0,38,2,2,3,0,0,0,0,0
+jemalloc,c7ccb8d7e9,2024-08-20,65b564e6,Add `experimental` prefix to `hpa_strict_min_purge_interval`,8,5,21,19,11,11,0,0,0,3,0,0,0,0,0,0,0,532,2,3,10,0,0,0,0,0
+jemalloc,aaa29003ab,2024-08-20,65b564e6,Limit maximum number of purged slabs with option,7,5,109,6,36,3,0,0,0,3,1,0,2,0,0,0,0,532,3,11,21,0,0,0,0,0
+jemalloc,143f458188,2024-08-20,65b564e6,Fix `hpa_strict_min_purge_interval` option logic,2,1,209,42,31,23,1,0,0,2,0,0,0,1,1,0,0,55,1,0,19,0,0,0,0,0
+jemalloc,0a9f51d0d8,2024-08-20,65b564e6,Simplify `hpa_shard_maybe_do_deferred_work`,1,1,25,25,25,25,0,0,0,1,0,1,0,0,0,0,0,20,1,8,8,0,0,0,0,1
+jemalloc,a25b9b8ba9,2024-08-06,94f2e9b2,Simplify the logic when bumping lg_fill_div.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,1
+jemalloc,47c9bcd402,2024-08-06,9370f8ee,Use a for-loop to fulfill flush requests that are larger than CACHE_BIN_NFLUSH_BATCH_MAX items,2,2,39,16,39,16,0,0,0,1,0,0,1,0,0,0,0,25,1,22,23,0,0,0,0,0
+jemalloc,48f66cf4a2,2024-08-06,9370f8ee,add a size check when declare a stack array to be less than 2048 bytes,4,3,11,7,9,5,0,0,0,3,0,0,0,0,0,0,0,144,2,2,9,0,0,0,0,0
+jemalloc,8dc97b1108,2024-07-30,524081f4,Fix NSTIME_MONOTONIC for win32 implementation,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,bc32ddff2d,2024-07-30,65a0c561,Add usize to prof_sample_hook_t,3,2,10,5,3,3,0,0,0,1,0,0,0,0,0,0,0,41,0,0,2,0,0,0,0,0
+jemalloc,b66f689764,2024-07-29,65b564e6,Emit long string values without truncation,2,1,82,20,32,12,0,0,0,1,1,0,0,1,1,0,0,41,1,1,21,0,0,0,0,0
+jemalloc,c893fcd169,2024-06-26,adba4f95,Change macOS mmap tag to fix conflict with CoreMedia,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,8477ec9562,2024-06-24,06c726f8,Set dependent as false for all rtree reads without ownership,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,39,1,1,2,0,0,0,0,0
+jemalloc,867c6dd7dc,2024-06-07,65b564e6,Option to guard `hpa_min_purge_interval_ms` fix,6,5,27,6,26,5,1,0,0,3,0,0,3,0,0,0,0,529,3,10,17,0,0,0,0,0
+jemalloc,91a6d230db,2024-06-07,65b564e6,Respect `hpa_min_purge_interval_ms` option,2,1,48,14,10,0,0,0,0,1,0,0,1,0,0,0,0,60,1,5,5,0,0,0,0,0
+jemalloc,90c627edb7,2024-06-05,65b564e6,Export hugepage size with `arenas.hugepage`,3,2,8,0,7,0,0,0,0,1,0,0,1,0,0,0,0,211,1,3,6,0,0,0,0,0
+jemalloc,f9c0b5f7f8,2024-05-22,e91b0dac,Bin batching: add some stats.,8,8,114,0,114,0,0,0,0,7,0,0,4,0,1,0,0,248,4,57,95,0,0,0,0,0
+jemalloc,fc615739cb,2024-05-22,e91b0dac,Add batching to arena bins.,16,10,722,78,406,47,0,0,0,13,1,0,6,0,8,0,0,526,7,99,267,0,0,0,0,0
+jemalloc,44d91cf243,2024-05-22,e91b0dac,Tcache flush: Partition by bin before locking.,1,1,74,36,74,36,0,0,0,1,0,0,1,0,0,0,0,99,1,46,46,0,1,0,0,0
+jemalloc,6e56848850,2024-05-22,e91b0dac,Tcache: Split up small/large handling.,1,1,152,104,152,104,0,0,0,3,2,0,0,1,2,1,0,10,1,9,95,0,0,0,1,0
+jemalloc,c085530c71,2024-05-22,e91b0dac,Tcache batching: Plumbing,11,10,121,35,119,35,0,0,0,12,0,0,3,0,1,0,0,521,3,18,105,0,0,0,0,0
+jemalloc,70c94d7474,2024-05-22,e91b0dac,Add batcher module.,13,3,404,9,132,1,0,0,0,0,0,0,0,0,8,0,0,0,0,0,91,0,0,1,0,0
+jemalloc,86f4851f5d,2024-05-22,e91b0dac,Add clang static analyzer suppression macro.,1,1,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+jemalloc,5afff2e44e,2024-05-02,94f2e9b2,Simplify the logic in tcache_gc_small.,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,25,0,0,2,0,0,0,0,1
+jemalloc,8d8379da44,2024-05-02,5c31be69,Fix background_thread creation for the oversize_arena.,4,4,2,25,2,25,1,0,0,2,0,0,0,1,0,1,0,31,1,0,1,0,1,0,0,0
+jemalloc,47d69b4eab,2024-04-30,65b564e6,HPA: Fix infinite purging loop,2,1,57,4,9,2,1,0,0,1,0,0,1,0,0,0,0,27,1,3,3,0,0,0,0,0
+jemalloc,fa451de17f,2024-04-12,5c31be69,Fix the tcache flush sanity checking around ncached and nstashed.,1,1,16,3,16,3,1,0,0,1,0,0,1,0,0,0,0,21,1,10,10,0,0,0,0,0
+jemalloc,630434bb0a,2024-04-09,31e3708b,Fixed type error with allocated that caused incorrect printing on 32bit,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,210,1,1,1,0,0,0,0,0
+jemalloc,4b555c11a5,2024-04-09,9370f8ee,Enable heap profiling on MacOS,4,1,139,2,67,0,0,0,0,1,0,0,0,0,3,0,0,4,0,0,59,0,0,0,0,0
+jemalloc,11038ff762,2024-04-09,38ce26c4,Add support for namespace pids in heap profile names,7,5,93,10,75,10,0,0,0,3,0,0,1,0,1,0,0,512,1,1,62,0,0,0,0,0
+jemalloc,83b075789b,2024-04-05,5c31be69,rallocx path: only set errno on the realloc case.,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,69,1,3,3,0,0,0,0,0
+jemalloc,5081c16bb4,2024-04-04,9370f8ee,Experimental calloc implementation with using memset on larger sizes,3,3,33,6,33,6,0,0,0,2,0,0,1,0,0,0,0,511,1,3,18,0,0,0,0,0
+jemalloc,38056fea64,2024-04-04,8a3d5de2,Set errno to ENOMEM on rallocx() OOM failures,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,67,1,1,1,0,0,0,0,0
+jemalloc,268e8ee880,2024-04-04,65b564e6,Include HPA ndirty into page allocator ndirty stat,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,1,0,0
+jemalloc,b2e59a96e1,2024-04-04,65b564e6,Introduce getters for page allocator shard stats,3,3,25,6,25,6,0,0,0,2,0,0,0,0,3,0,0,61,1,2,18,0,0,0,0,0
+jemalloc,92aa52c062,2024-03-14,94f2e9b2,Reduce nesting in phn_merge_siblings using an early return.,1,1,54,51,54,51,0,0,0,1,0,0,1,0,0,0,0,61,1,49,49,0,0,0,0,1
+jemalloc,10d713151d,2024-03-14,94f2e9b2,Ensure that the root of a heap is always the best element.,1,1,3,14,3,14,0,0,0,2,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+jemalloc,ed9b00a96b,2024-03-05,d2bd1997,Replace unsigned induction variable with size_t in background_threads_enable,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,41,0,0,1,0,1,0,0,0
+jemalloc,373884ab48,2024-02-29,9370f8ee,print out all malloc_conf settings in stats,5,4,114,18,89,17,0,0,0,5,0,0,3,0,0,0,0,508,4,35,64,0,0,0,0,0
+jemalloc,1aba4f41a3,2024-02-16,5c31be69,Allow zero sized memalign to pass.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+jemalloc,a2c5267409,2024-01-18,5c31be69,"HPA: Allow frequent reused alloc to bypass the slab_max_alloc limit, as long as it's within the huge",6,4,51,19,34,15,0,0,0,7,1,0,4,0,0,0,0,38,7,18,23,0,0,0,0,0
+jemalloc,b1792c80d2,2024-01-11,06c726f8,Add LOGs when entrying and exiting free and sdallocx.,3,3,61,15,61,15,0,0,0,18,0,0,0,1,0,0,0,45,1,0,35,0,0,0,0,0
+jemalloc,05160258df,2024-01-11,5c31be69,"When safety_check_fail, also embed hint msg in the abort function name because there are cases only ",1,1,15,6,15,6,1,0,0,1,0,0,0,0,1,0,0,8,0,0,10,0,1,0,0,0
+jemalloc,eda05b3994,2024-01-03,06c726f8,Fix static analysis warnings.,9,9,33,15,33,15,1,0,0,13,0,0,4,0,0,0,0,75,6,14,29,0,0,0,0,0
+jemalloc,e4817c8d89,2023-10-25,9370f8ee,Cleanup cache_bin_info_t* info input args,8,6,177,209,79,99,0,0,0,27,0,0,0,4,1,1,0,92,4,11,75,0,0,0,0,1
+jemalloc,3025b021b9,2023-10-23,5c31be69,Optimize mutex and bin alignment / locality.,3,3,22,13,22,13,0,0,0,1,0,0,1,0,0,0,0,92,1,6,15,0,1,0,0,0
+jemalloc,e2cd27132a,2023-10-23,06c726f8,Change stack_size assertion back to the more compatabile one.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jemalloc,04d1a87b78,2023-10-18,5c31be69,Fix a zero-initializer warning on macOS.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,d88fa71bbd,2023-10-18,1332922d,Fix nfill = 0 bug when ncached_max is 1,2,2,4,0,4,0,1,0,0,2,0,0,2,0,0,0,0,77,2,4,4,0,0,0,0,0
+jemalloc,6fb3b6a8e4,2023-10-18,1332922d,Refactor the tcache initiailization,7,5,75,61,63,51,0,0,0,15,0,0,0,1,3,1,0,508,1,2,48,0,0,0,0,1
+jemalloc,8a22d10b83,2023-10-18,1332922d,Allow setting default ncached_max for each bin through malloc_conf,6,3,321,241,55,12,0,0,0,3,0,0,1,0,1,0,0,510,1,12,42,0,0,0,0,0
+jemalloc,867eedfc58,2023-10-17,1332922d,Fix the bug in dalloc promoted allocations.,1,1,15,14,15,14,1,0,0,1,0,0,0,0,0,0,0,22,0,0,14,0,0,0,0,0
+jemalloc,630f7de952,2023-10-17,1332922d,Add mallctl to set and get ncached_max of each cache_bin.,14,12,477,70,244,68,0,0,0,12,2,0,2,0,6,1,0,498,3,5,189,0,0,0,0,0
+jemalloc,6b197fdd46,2023-10-17,1332922d,Pre-generate ncached_max for all bins for better tcache_max tuning experience.,12,10,417,308,319,226,0,0,0,40,0,0,6,2,14,9,0,125,10,21,250,0,0,0,0,0
+jemalloc,36becb1302,2023-10-11,9370f8ee,metadata usage breakdowns: tracking edata and rtree usages,10,8,116,30,92,19,0,0,0,13,1,0,7,0,1,0,0,254,8,38,88,0,0,0,0,0
+jemalloc,005f20aa7f,2023-10-04,5c31be69,Fix comments about malloc_conf to enable logging.,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,72cfdce718,2023-09-18,5c31be69,Allocate tcache stack from base allocator,7,6,201,26,175,26,0,0,0,10,2,0,0,0,7,0,0,52,2,10,105,0,0,0,0,0
+jemalloc,a442d9b895,2023-09-06,1332922d,Enable per-tcache tcache_max,15,13,528,222,326,181,0,0,0,29,1,0,1,1,8,0,0,125,8,65,248,0,0,0,0,0
+jemalloc,fbca96c433,2023-09-06,1332922d,Remove unnecessary parameters for cache_bin_postincrement.,4,3,4,7,3,6,0,0,0,2,0,0,0,0,0,0,0,35,0,0,3,0,0,0,1,0
+jemalloc,7d563a8f81,2023-09-05,5c31be69,Update safety check message to remove --enable-debug when it's already on.,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,1,0
+jemalloc,b71da25b8a,2023-08-28,5c31be69,Fix reading CPU id using rdtscp.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+jemalloc,da66aa391f,2023-08-11,830b12b8,Enable a few additional warnings for CI and fix the issues they uncovered,11,8,15,40,4,38,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,0,0,0,0
+jemalloc,d2c9ed3d1e,2023-08-11,830b12b8,Ensure short `read(2)`s/`write(2)`s are properly handled by IO utilities,1,1,33,2,33,2,0,0,0,2,0,0,0,0,2,0,0,14,0,0,31,0,0,0,0,0
+jemalloc,4f50f782fa,2023-08-08,830b12b8,Use compiler-provided assume builtins when available,2,2,14,7,14,7,0,0,0,1,0,0,0,0,0,1,0,34,0,0,14,0,0,0,0,0
+jemalloc,3aae792b10,2023-08-08,830b12b8,Fix infinite purging loop in HPA,6,2,105,2,44,1,1,0,0,2,0,0,1,0,1,0,0,498,1,1,42,0,0,0,0,0
+jemalloc,424dd61d57,2023-08-04,830b12b8,Issue a warning upon directly accessing an arena's bins,2,2,18,6,18,6,0,0,0,5,0,0,1,0,0,0,0,87,1,3,18,0,0,0,0,0
+jemalloc,120abd703a,2023-08-04,830b12b8,Add support for the `deprecated` attribute,4,1,48,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+jemalloc,07a2eab3ed,2023-08-03,830b12b8,Stop over-reporting memory usage from sampled small allocations,1,1,30,24,30,24,0,0,0,6,0,0,0,0,0,0,0,19,0,0,28,0,0,0,0,0
+jemalloc,6816b23862,2023-08-02,5c31be69,Include the unrecognized malloc conf option in the error message.,1,1,16,5,16,5,0,0,0,1,0,0,1,0,1,0,0,68,1,6,12,0,0,1,0,0
+jemalloc,62648c88e5,2023-08-01,830b12b8,Ensured sampled allocations are properly deallocated during `arena_reset`,1,1,76,65,76,65,0,0,0,4,1,0,0,0,1,0,0,34,1,5,59,0,0,0,0,0
+jemalloc,b01d496646,2023-07-31,830b12b8,Add an override for the compile-time malloc_conf to `jemalloc_internal_overrides.h`,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,9ba1e1cb37,2023-07-31,830b12b8,Make `ctl_arena_clear` slightly more efficient,1,1,1,17,1,17,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+jemalloc,3e82f357bb,2023-07-24,830b12b8,Fix all optimization-inhibiting integer-to-pointer casts,27,26,116,66,114,65,1,0,0,32,0,0,0,0,0,0,0,98,11,20,56,0,0,0,0,0
+jemalloc,4827bb17bd,2023-07-24,830b12b8,Remove vestigial `TCACHE_STATE_*` macros,1,1,0,10,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,1431153695,2023-07-24,830b12b8,Define `SBRK_INVALID` instead of using a magic number,1,1,5,3,5,3,0,0,0,3,0,0,0,0,0,0,0,92,1,1,4,0,0,0,0,0
+jemalloc,7e54dd1ddb,2023-07-24,830b12b8,Define `PROF_TCTX_SENTINEL` instead of using magic numbers,7,6,39,24,37,22,0,0,0,14,0,0,0,0,1,0,0,110,5,10,27,0,0,0,0,0
+jemalloc,c49c17f128,2023-07-24,830b12b8,Suppress verbose frame address warnings,2,2,7,0,7,0,0,0,0,1,0,0,1,0,0,0,0,262,1,1,7,0,0,0,0,0
+jemalloc,cdb2c0e02f,2023-07-20,830b12b8,Implement C23's `free_sized` and `free_aligned_sized`,5,1,75,1,17,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,15,0,0,0,0,0
+jemalloc,41e0b857be,2023-07-14,830b12b8,Make headers self-contained by fixing `#include`s,116,110,277,38,270,13,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+jemalloc,856db56f6e,2023-07-14,830b12b8,Move tsd implementation details into `tsd_internals.h`,6,6,311,298,311,298,0,0,0,0,0,0,0,0,4,4,0,0,0,0,155,0,0,0,1,0
+jemalloc,36ca0c1b7d,2023-07-13,830b12b8,Stop concealing pointer provenance in `phn_link_get`,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jemalloc,1d9e9c2ed6,2023-07-13,830b12b8,Fix inconsistent parameter names between definition/declaration pairs,7,6,25,16,13,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+jemalloc,589c63b424,2023-07-06,830b12b8,Make eligible global variables `static` and/or `const`,21,20,30,33,29,32,0,0,0,1,0,0,0,0,0,0,0,11,0,0,29,0,0,0,0,0
+jemalloc,e249d1a2a1,2023-07-06,5c31be69,Remove unreachable code.,1,1,0,2,0,2,0,0,0,2,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0
+jemalloc,602edd7566,2023-07-06,5c31be69,Enabled -Wstrict-prototypes and fixed warnings.,42,21,82,80,37,37,1,0,0,23,0,0,0,0,0,0,0,93,1,1,37,0,0,0,0,0
+jemalloc,5a858c64d6,2023-07-03,830b12b8,Reduce the memory overhead of sampled small allocations,12,12,206,98,206,98,0,0,0,24,5,0,5,5,6,0,0,110,16,71,162,0,0,0,0,1
+jemalloc,d131331310,2023-06-27,5c31be69,Avoid eager purging on the dedicated oversize arena when using bg thds.,3,2,42,25,38,24,0,0,0,2,0,0,0,0,1,0,0,35,0,0,24,0,0,0,0,0
+jemalloc,f2e00d2fd3,2023-06-23,830b12b8,Remove trailing whitespace,12,1,70,53,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,bb0333e745,2023-06-23,830b12b8,Fix remaining static analysis warnings,12,12,56,16,56,16,1,0,0,9,0,0,4,0,0,0,0,64,4,11,28,0,0,0,0,0
+jemalloc,210f0d0b2b,2023-06-15,830b12b8,Fix read of uninitialized data in `prof_free`,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+jemalloc,90176f8a87,2023-06-07,830b12b8,Fix segfault in rb `*_tree_remove`,2,2,48,28,48,28,1,0,0,2,0,0,0,0,1,0,0,27,0,0,38,0,0,0,0,0
+jemalloc,86eb49b478,2023-06-06,5c31be69,Fix the arena selection for oversized allocations.,4,4,16,9,16,9,1,0,0,3,0,0,0,0,0,0,0,53,1,1,14,0,0,0,0,0
+jemalloc,5832ef6589,2023-05-31,e5c3530a,Use a local variable to set the alignment for this particular allocation instead of changing mmap_fl,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,33,1,3,3,0,0,0,0,0
+jemalloc,6d4aa33753,2023-05-31,830b12b8,Extract the calculation of psset heap assignment for an hpdata into a common function,2,2,21,30,21,30,0,0,0,8,0,0,0,0,1,0,0,11,0,0,20,0,0,0,1,0
+jemalloc,d59e30cbc9,2023-05-31,9779db53,Rename fallback_impl to fallbackNewImpl and prune in jeprof,2,1,4,2,2,2,0,0,0,1,0,0,0,0,1,1,0,3,0,0,2,0,0,0,0,0
+jemalloc,d577e9b588,2023-05-26,5c31be69,Explicitly cast to unsigned for MALLOCX_ARENA and _TCACHE defines.,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,9c32689e57,2023-05-18,830b12b8,Fix bug where hpa_shard was not being destroyed,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jemalloc,4e6f1e9208,2023-05-17,830b12b8,Allow overriding `LG_PAGE`,2,1,18,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+jemalloc,3e2ba7a651,2023-05-11,830b12b8,Remove dead stores detected by static analysis,6,6,7,13,7,13,0,0,0,6,0,0,0,1,0,0,0,189,3,4,7,0,0,0,1,0
+jemalloc,0288126d9c,2023-05-11,830b12b8,"Fix possible `NULL` pointer dereference from `mallctl(""prof.prefix"", ...)`",1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+jemalloc,94ace05832,2023-05-11,5c31be69,Fix the prof thread_name reference in prof_recent dump.,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,41,0,0,4,0,1,0,0,0
+jemalloc,6ea8a7e928,2023-05-11,5c31be69,Add config detection for JEMALLOC_HAVE_PTHREAD_SET_NAME_NP.,3,1,14,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,1,0,0,0
+jemalloc,5bac384970,2023-05-10,01f8cb12,If ptr present check if alloc_ctx.edata == NULL,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,29,1,1,1,0,0,0,0,0
+jemalloc,019cccc293,2023-05-10,01f8cb12,Make arenas_lookup_ctl triable,1,1,6,4,6,4,0,0,0,1,0,0,1,0,0,0,0,29,1,6,6,0,0,0,0,0
+jemalloc,dc0a184f8d,2023-05-09,830b12b8,Fix possible `NULL` pointer dereference in `VERIFY_READ`,1,1,3,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jemalloc,12311fe6c3,2023-05-09,830b12b8,Fix segfault in `extent_try_coalesce_impl`,1,1,3,1,3,1,1,0,0,2,0,0,1,0,0,0,0,38,1,1,3,0,0,0,0,0
+jemalloc,70344a2d38,2023-05-08,830b12b8,Make eligible functions `static`,9,4,16,14,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+jemalloc,6841110bd6,2023-05-04,830b12b8,Make `edata_cmp_summary_comp` 30% faster,1,1,19,16,19,16,0,0,0,2,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+jemalloc,f2b28906e6,2023-05-01,94f2e9b2,Some nits in cache_bin.h,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+jemalloc,fc680128e0,2023-05-01,830b12b8,Remove errant `assert` in `arena_extent_alloc_large`,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,0,0,0,0,1,0
+jemalloc,521970fb2e,2023-04-17,8f7b8311,Check for equality instead of assigning in asserts in hpa_from_pai.,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+jemalloc,5f64ad60cd,2023-04-06,1332922d,Remove locked flag set in malloc_mutex_trylock,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,0,0,1,0,1,0
+jemalloc,434a68e221,2023-04-05,5c31be69,Disallow decay during reentrancy.,3,2,76,21,25,11,0,0,0,7,0,0,0,0,0,0,0,12,0,0,23,0,1,0,0,0
+jemalloc,e62aa478c7,2023-04-05,5c31be69,Rearrange the bools in prof_tdata_t to save some bytes.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jemalloc,ce0b7ab6c8,2023-04-05,5c31be69,Inline the storage for thread name in prof_tdata_t.,11,10,120,103,85,76,0,0,0,11,0,0,1,1,4,1,0,56,2,4,69,0,1,0,0,0
+jemalloc,5266152d79,2023-03-31,94f2e9b2,Simplify the logic in ph_remove,1,1,20,44,20,44,0,0,0,1,0,1,0,0,0,0,0,32,1,15,15,0,0,0,0,1
+jemalloc,be6da4f663,2023-03-31,94f2e9b2,Do not maintain root->prev in ph_remove.,1,1,0,3,0,3,0,0,0,1,0,0,0,1,0,0,0,57,1,0,0,0,0,0,0,0
+jemalloc,543e2d61e6,2023-03-31,94f2e9b2,Simplify the logic in ph_insert,1,1,30,29,30,29,0,0,0,1,0,0,0,0,0,0,0,27,0,0,20,0,0,0,0,1
+jemalloc,31e01a98f1,2023-03-23,1332922d,Fix the rdtscp detection bug and add prefix for the macro.,3,1,9,3,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+jemalloc,f743690739,2023-03-10,94f2e9b2,Remove unused mutex from hpa_central,2,2,1,10,1,10,0,0,0,1,0,0,0,0,0,0,0,15,0,0,0,0,1,0,1,0
+jemalloc,c7805f1eb5,2023-02-17,5c31be69,Add a header in HPA stats for the nonfull slabs.,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,196,1,2,2,0,0,1,0,0
+jemalloc,b6125120ac,2023-02-17,5c31be69,Add an explicit name to the dedicated oversize arena.,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+jemalloc,5fd55837bb,2023-02-15,5c31be69,Fix thread_name updating for heap profiling.,1,1,10,11,10,11,1,0,0,2,0,0,0,0,0,0,0,31,0,0,5,0,1,0,0,0
+jemalloc,8580c65f81,2022-12-07,5c31be69,"Implement prof sample hooks ""experimental.hooks.prof_sample(_free)"".",7,6,307,19,128,4,0,0,0,5,2,0,1,0,6,0,0,41,1,2,105,0,0,0,0,0
+jemalloc,e8f9f13811,2022-11-21,1332922d,Inline free and sdallocx into operator delete,6,5,241,228,238,224,0,0,0,11,1,1,0,0,8,6,0,9,0,0,154,0,0,0,0,0
+jemalloc,481bbfc990,2022-11-04,5c31be69,Add a configure option --enable-force-getenv.,3,1,32,6,10,6,0,0,0,1,0,0,0,0,1,1,0,53,1,1,10,0,0,0,0,0
+jemalloc,143e9c4a2f,2022-10-25,5c31be69,Enable fast thread locals for dealloc-only threads.,3,2,77,1,21,1,0,0,0,1,0,0,0,0,0,0,0,41,0,0,6,0,1,0,0,0
+jemalloc,be65438f20,2022-10-14,0f713c24,jemalloc_internal_types.h: Use alloca if __STDC_NO_VLA__ is defined,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,1897f185d2,2022-10-03,667e5071,Fix safety_check segfault in double free test,1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,1,0,0,0,0
+jemalloc,4c95c953e2,2022-10-03,0664a8b3,fix build for non linux/BSD platforms.,3,1,15,3,3,3,1,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+jemalloc,ba19d2cb78,2022-09-16,1332922d,Add arena-level name.,8,6,146,9,101,7,0,0,0,2,1,0,2,0,3,0,0,251,2,9,76,0,0,0,0,0
+jemalloc,a0734fd6ee,2022-09-12,1332922d,Making jemalloc max stack depth a runtime option,12,9,171,11,168,9,0,0,0,7,0,0,3,0,0,0,0,497,3,132,153,0,0,0,0,0
+jemalloc,56ddbea270,2022-09-07,adab8e95,error: implicit declaration of function 'pthread_create_fptr_init' is invalid in C99,1,1,33,33,33,33,0,0,0,1,0,0,0,0,0,0,0,17,0,0,24,0,1,0,0,0
+jemalloc,ce29b4c3d9,2022-09-06,1332922d,Refactor the remote / cross thread cache bin stats reading,2,2,51,52,51,52,0,0,0,13,0,0,0,0,0,0,0,21,0,0,28,0,1,0,0,1
+jemalloc,42daa1ac44,2022-09-06,1332922d,Add double free detection using slab bitmap for debug build,2,1,96,25,55,16,0,0,0,3,0,0,1,0,2,0,0,39,1,3,41,1,0,0,0,0
+jemalloc,36366f3c4c,2022-08-04,4b32be35,Add double free detection in thread cache for debug build,8,6,97,9,55,1,0,0,0,4,0,0,2,0,1,0,0,494,2,4,43,1,1,0,0,0
+jemalloc,58478412be,2022-07-19,0664a8b3,OpenBSD build fix. still no cpu affinity.,3,2,6,2,5,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+jemalloc,a1c7d9c046,2022-07-14,5c31be69,Add the missing opt.cache_oblivious handling.,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,490,1,1,1,0,0,0,0,0
+jemalloc,cb578bbe01,2022-07-11,e1f81aec,"Fix possible ""nmalloc >= ndalloc"" assertion",1,1,9,6,9,6,1,0,0,1,0,0,0,0,0,0,0,86,1,5,5,0,0,0,0,0
+jemalloc,4fc5c4fbac,2022-06-09,0664a8b3,New configure option '--enable-pageid' for Linux,3,1,59,0,28,0,0,0,0,1,0,0,1,0,1,0,0,32,1,5,23,0,0,0,0,0
+jemalloc,df8f7d10af,2022-06-08,0664a8b3,Implement malloc_getcpu for amd64 and arm64 macOS,2,1,26,0,9,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+jemalloc,70e3735f3a,2022-05-26,cca3e9d8,jemalloc: fix PowerPC definitions in quantum.h,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,5b1f2cc5d7,2022-05-18,4c9abaa5,Implement pvalloc replacement,7,2,75,0,47,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,35,0,0,0,0,0
+jemalloc,cd5aaf308a,2022-05-17,5c31be69,Improve the failure message upon opt_experimental_infallible_new.,2,1,10,4,8,2,0,0,0,1,0,0,0,0,0,0,0,33,0,0,7,0,0,0,0,0
+jemalloc,70d4102f48,2022-05-09,0a753278,Fix compiling edata.h with MSVC,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+jemalloc,8cb814629a,2022-05-05,5c31be69,Make the default option of zero realloc match the system allocator.,4,1,26,8,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jemalloc,391bad4b95,2022-04-25,5c31be69,Avoid abort() in test/integration/cpp/infallible_new_true.,4,3,79,46,30,3,0,0,0,2,1,0,0,0,1,0,0,25,1,3,25,0,0,0,0,0
+jemalloc,9a242f16d9,2022-04-25,4da305b6,fix some typos,10,6,11,11,6,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,0e29ad4efa,2022-04-20,5c31be69,"Rename zero_realloc option ""strict"" to ""alloc"".",7,2,16,16,7,7,0,0,0,2,0,0,0,0,0,0,0,489,1,2,6,0,0,0,0,0
+jemalloc,a93931537e,2022-03-24,4c9abaa5,Do not disable SEC by default for 64k pages platforms,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,46,0,0,2,0,0,0,0,0
+jemalloc,eaaa368bab,2022-03-24,5a954696,Add comments and use meaningful vars in sz_psz2ind.,5,3,108,10,41,10,0,0,0,1,0,0,0,0,0,0,0,15,0,0,10,0,0,0,0,0
+jemalloc,5bf03f8ce5,2022-03-22,4c9abaa5,Implement PAGE_FLOOR macro,2,2,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,46,0,0,3,0,0,0,0,0
+jemalloc,52631c90f6,2022-03-22,4c9abaa5,Fix size class calculation for sec,2,1,9,5,8,5,1,0,0,3,0,0,1,0,0,0,0,46,1,1,5,0,0,0,0,0
+jemalloc,eb65d1b078,2022-03-02,e63050b2,Fix FreeBSD system jemalloc TSD cleanup,6,5,19,10,18,9,1,0,0,3,0,0,0,0,1,1,0,13,0,0,15,0,0,0,0,1
+jemalloc,78b58379c8,2022-03-01,e1f81aec,"Fix possible ""nmalloc >= ndalloc"" assertion.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+jemalloc,ca709c3139,2022-02-17,4c9abaa5,Fix failed assertion due to racy memory access,2,2,63,18,63,18,1,0,0,8,0,0,0,0,1,0,0,19,0,0,29,0,0,0,0,0
+jemalloc,8c59c44ffa,2022-01-26,5c31be69,Add a dependency checking step at the end of malloc_conf_init.,1,1,19,20,19,20,0,0,0,2,0,0,0,1,1,0,0,489,1,2,16,0,0,1,0,0
+jemalloc,efc539c040,2022-01-26,5c31be69,Initialize prof_leak during prof init.,2,2,4,1,4,1,0,0,0,2,0,0,0,0,0,0,0,507,1,1,4,0,0,0,0,0
+jemalloc,b798fabdf7,2022-01-21,12e79231,Add prof_leak_error option,8,6,56,0,36,0,0,0,0,3,0,0,2,0,0,0,0,507,2,21,32,0,0,0,0,0
+jemalloc,eb196815d6,2022-01-18,5a954696,Avoid calculating size of size class twice & delete sc_data_global.,1,1,2,5,2,5,0,0,0,1,0,0,0,1,0,0,0,26,1,2,2,0,0,0,0,0
+jemalloc,ddb170b1d9,2022-01-11,5c31be69,Simplify arena_migrate() to take arena_t* instead of indices.,4,4,6,7,6,7,0,0,0,3,0,0,0,0,0,0,0,41,1,1,6,0,0,0,0,1
+jemalloc,d66162e032,2022-01-11,5c31be69,Fix the extent state checking on the merge error path.,1,1,17,3,17,3,1,0,0,2,0,0,1,0,2,0,0,13,1,2,15,0,0,0,0,0
+jemalloc,61978bbe69,2022-01-06,5c31be69,Purge all if the last thread migrated away from an arena.,1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,1,0,0,0
+jemalloc,c91e62dd37,2022-01-05,8c9a72e1,#include <features.h> as requested,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jemalloc,18510020e7,2022-01-05,8c9a72e1,Fix symbol conflict with musl libc,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,f509703af5,2022-01-04,5c31be69,Fix two conversion warnings in tcache.,1,1,6,2,6,2,1,0,0,2,0,0,0,0,0,0,0,27,0,0,5,0,0,0,0,0
+jemalloc,067c2da074,2022-01-04,5c31be69,Fix unnecessary returns in san_(un)guard_pages_two_sided.,1,1,2,3,2,3,1,0,0,2,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+jemalloc,eabe889162,2021-12-29,5c31be69,Rename full_position to low_bound in cache_bin.h.,1,1,24,12,24,12,0,0,0,3,0,0,0,0,1,1,0,13,0,0,8,0,0,0,0,0
+jemalloc,dfdd7562f5,2021-12-29,5c31be69,Rename san_enabled() to san_guard_enabled().,3,1,4,4,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0
+jemalloc,01d61a3c6f,2021-12-29,5c31be69,Fix a conversion warning.,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+jemalloc,8b34a788b5,2021-12-29,5c31be69,Fix an used-uninitialized warning (false positive).,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,125,1,1,1,0,0,0,0,0
+jemalloc,e491cef9ab,2021-12-29,5c31be69,Add stats for stashed bytes in tcache.,9,6,112,36,61,27,0,0,0,6,0,0,3,0,3,2,0,245,3,11,46,0,0,0,0,0
+jemalloc,b75822bc6e,2021-12-29,5c31be69,Implement use-after-free detection using junk and stash.,22,11,793,42,384,21,0,0,0,10,0,0,7,0,16,0,0,487,7,31,240,1,0,0,0,0
+jemalloc,06aac61c4b,2021-12-29,5c31be69,Split the core logic of tcache flush into a separate function.,1,1,24,16,24,16,0,0,0,3,1,0,0,1,1,0,0,125,1,6,20,0,0,0,1,0
+jemalloc,d038160f3b,2021-12-23,5c31be69,Fix shadowed variable usage.,26,15,119,120,61,62,1,0,0,21,0,0,1,1,0,0,0,465,7,37,61,0,0,0,0,0
+jemalloc,60b9637cc0,2021-12-22,5c31be69,Only invoke malloc_cpu_count_is_deterministic() when necessary.,1,1,29,22,29,22,0,0,0,3,0,0,0,1,0,0,0,53,1,1,24,0,0,0,0,0
+jemalloc,837b37c4ce,2021-12-21,5c31be69,Fix the time-since computation in HPA.,4,3,22,15,15,15,1,0,0,2,0,0,0,0,1,0,0,41,0,0,14,0,0,0,0,0
+jemalloc,310af725b0,2021-12-21,5c31be69,Add nstime_ns_since which obtains the duration since the input time.,3,2,42,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+jemalloc,cafe9a3158,2021-12-21,e1f81aec,Disable percpu arena in case of non deterministic CPU count,1,1,55,1,55,1,0,0,0,2,0,0,1,0,1,0,0,68,1,16,46,0,0,0,0,0
+jemalloc,bb5052ce90,2021-12-20,334aebeb,Fix base_ehooks_get_for_metadata,3,2,41,10,11,9,1,0,0,2,0,0,0,0,0,0,0,49,0,0,9,0,0,0,0,0
+jemalloc,d90655390f,2021-12-15,4c9abaa5,San: Create a function for committing and zeroing,3,3,41,34,41,34,0,0,0,3,1,1,0,2,1,0,0,56,3,10,31,0,0,0,0,0
+jemalloc,800ce49c19,2021-12-15,4c9abaa5,San: Bump alloc frequently reused guarded allocations,10,9,106,56,94,46,0,0,0,18,0,0,12,1,2,1,0,65,14,36,59,0,0,0,0,0
+jemalloc,f56f5b9930,2021-12-15,4c9abaa5,Pass 'frequent_reuse' hint to PAI,8,6,60,48,23,15,0,0,0,6,0,0,4,0,0,0,0,37,6,13,20,0,0,0,0,0
+jemalloc,0f6da1257d,2021-12-15,4c9abaa5,San: Implement bump alloc,15,10,521,107,392,91,0,0,0,17,8,0,3,0,12,1,0,39,10,85,310,0,0,0,0,0
+jemalloc,62f9c54d2a,2021-12-15,4c9abaa5,San: Rename 'guard' to 'san',16,8,35,33,13,13,0,0,0,6,0,0,0,0,0,0,0,38,1,1,13,0,0,0,0,0
+jemalloc,7dcf77809c,2021-12-06,5c31be69,Mark slab as true on sized dealloc fast path.,2,2,17,4,17,4,0,0,0,1,0,0,1,0,0,0,0,47,1,3,9,0,0,0,0,0
+jemalloc,af6ee27c0d,2021-12-06,5c31be69,Enforce abort_conf:true when malloc_conf is not fully recognized.,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,65,1,3,3,0,0,0,0,0
+jemalloc,113e8e68e1,2021-12-06,0664a8b3,freebsd 14 build fix proposal.,2,1,5,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,cdabe908d0,2021-11-17,5c31be69,Track the initialized state of nstime_t on debug build.,3,3,72,2,72,2,0,0,0,17,0,0,1,0,4,0,0,40,1,1,54,0,0,0,0,0
+jemalloc,400c59895a,2021-11-16,5c31be69,Fix uninitialized nstime reading / updating on the stack in hpa.,4,3,15,9,14,8,1,0,0,5,0,0,1,0,0,0,0,55,1,1,11,0,0,0,0,0
+jemalloc,8b81d3f214,2021-11-16,5c31be69,Fix the initialization of last_event in thread event init.,1,1,19,2,19,2,1,0,0,2,0,0,0,0,0,0,0,8,0,0,4,0,1,0,0,0
+jemalloc,6bdb4f5ab0,2021-11-12,5c31be69,Check prof_active in addtion to opt_prof during batch_alloc().,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,106,1,1,1,0,0,0,0,0
+jemalloc,37342a4d32,2021-11-05,5c31be69,Add ctl interface for experimental_infallible_new.,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0
+jemalloc,6cb585b13a,2021-11-03,4c9abaa5,San: Unguard guarded slabs during arena destruction,3,3,42,10,42,10,0,0,0,2,0,0,0,0,2,0,0,16,0,0,31,0,0,0,0,0
+jemalloc,b6a7a535b3,2021-10-28,5c31be69,Optimize away a branch on the free fastpath.,1,1,24,19,24,19,0,0,0,2,0,0,0,0,0,0,0,14,0,0,11,0,0,0,0,0
+jemalloc,4d56aaeca5,2021-10-28,5c31be69,Optimize away the tsd_fast() check on free fastpath.,7,6,47,37,40,37,0,0,0,3,0,0,0,1,0,0,0,45,1,6,20,0,0,0,0,0
+jemalloc,26f5257b88,2021-10-18,a7d25431,Remove declaration of an undefined function,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,2159615419,2021-10-18,b2caa4ff,Add new architecture loongarch.,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jemalloc,8daac7958f,2021-10-15,4c9abaa5,Redefine functions with test hooks only for tests,3,1,16,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,c9ebff0fd6,2021-10-07,4c9abaa5,Initialize deferred_work_generated,9,6,23,40,9,20,0,0,0,17,0,0,0,7,0,0,0,35,7,0,9,0,0,0,0,0
+jemalloc,912324a1ac,2021-10-01,1e05a89f,Add debug check outside of the loop in hpa_alloc_batch.,1,1,19,11,19,11,0,0,0,1,0,0,1,0,0,0,0,31,1,14,14,0,0,0,0,0
+jemalloc,cf9724531a,2021-10-01,0664a8b3,Darwin malloc_size override support proposal.,13,1,53,19,26,9,0,0,0,1,0,0,0,0,2,0,0,6,0,0,19,0,0,0,0,0
+jemalloc,ab0f1604b4,2021-09-29,5c31be69,Delay the atexit call to prof_log_start().,1,1,22,17,22,17,0,0,0,3,0,0,0,0,0,0,0,39,0,0,19,0,0,0,0,0
+jemalloc,11b6db7448,2021-09-28,0664a8b3,CPU affinity on BSD platforms support.,1,1,23,3,23,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,22,0,0,0,0,0
+jemalloc,83f3294027,2021-09-27,5c31be69,Small refactors around 7bb05e0.,7,5,21,23,9,11,0,0,0,4,0,0,0,1,0,0,0,75,1,1,8,0,0,0,0,1
+jemalloc,3c4b717ffc,2021-09-27,5c31be69,Remove unused header base_structs.h.,1,1,0,62,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+jemalloc,deb8e62a83,2021-09-26,5c31be69,Implement guard pages.,41,23,920,251,461,73,0,0,0,35,3,0,12,1,18,0,0,465,16,69,335,0,0,0,0,0
+jemalloc,7bb05e04be,2021-09-24,6c04d63e,add experimental.arenas_create_ext mallctl,17,10,165,41,93,27,0,0,0,13,1,0,2,3,2,0,0,92,5,11,68,0,0,0,0,0
+jemalloc,a9031a0970,2021-09-22,4c9abaa5,Allow setting a dump hook,6,5,178,11,67,8,0,0,0,7,1,0,1,0,3,0,0,133,2,3,55,0,0,0,0,0
+jemalloc,f7d46b8119,2021-09-22,4c9abaa5,Allow setting custom backtrace hook,11,7,172,30,97,23,0,0,0,8,1,0,1,0,4,0,0,131,2,4,76,0,1,0,0,0
+jemalloc,523cfa55c5,2021-09-20,5c31be69,Guard prof related mallctl with opt_prof.,3,2,79,67,78,66,0,0,0,11,0,0,10,1,0,0,0,96,11,73,73,0,0,0,0,0
+jemalloc,6e848a005e,2021-09-17,4c9abaa5,Remove opt_background_thread_hpa_interval_max_ms,8,7,34,64,33,63,0,0,0,6,0,0,0,2,1,1,0,459,2,0,28,0,1,0,1,0
+jemalloc,8229cc77c5,2021-09-17,4c9abaa5,Wake up background threads on demand,21,15,445,214,315,154,0,0,0,43,13,1,8,1,4,2,0,54,22,63,247,0,1,0,0,0
+jemalloc,97da57c13a,2021-09-17,4c9abaa5,HPA: Add min_purge_interval_ms option,4,4,21,3,21,3,0,0,0,2,0,0,2,0,0,0,0,463,2,8,15,0,0,0,0,0
+jemalloc,b8b8027f19,2021-09-17,4c9abaa5,Allow PAI to calculate time until deferred work,14,13,298,169,266,169,0,0,0,8,1,1,2,2,14,4,0,49,5,5,212,0,0,0,0,0
+jemalloc,8b24cb8fdf,2021-08-25,5c31be69,Don't assume initialized arena in the default alloc hook.,2,1,23,17,8,17,0,0,0,2,0,0,1,1,0,0,0,13,2,7,7,0,0,0,0,0
+jemalloc,c01a885e94,2021-08-20,4c9abaa5,HPA: Correctly calculate retained pages,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jemalloc,5884a076fb,2021-08-12,5c31be69,Rename prof.dump_prefix to prof.prefix,5,3,37,44,26,27,0,0,0,6,1,1,0,0,4,4,0,15,0,0,26,0,0,0,0,0
+jemalloc,f58064b932,2021-08-05,4c9abaa5,Verify that HPA is used before calling its functions,2,2,31,3,31,3,0,0,0,12,0,0,1,0,1,0,0,38,1,1,21,0,0,0,0,0
+jemalloc,27f71242b7,2021-08-05,d15d2abb,Mutex: Tweak internal spin count.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+jemalloc,6f41ba55ee,2021-08-05,d15d2abb,Mutex: Make spin count configurable.,5,5,18,9,18,9,0,0,0,3,0,0,2,0,0,0,0,458,2,4,11,0,1,0,0,0
+jemalloc,dae24589bc,2021-08-02,d15d2abb,PH: Insert-below-min fast-path.,1,1,14,0,14,0,0,0,0,1,0,0,0,0,0,0,0,29,0,0,7,0,0,0,0,0
+jemalloc,40d53e007c,2021-08-02,d15d2abb,ph: Add aux-list counting and pre-merging.,1,1,92,35,92,35,0,0,0,3,0,0,0,0,1,1,0,22,0,0,50,0,0,0,0,0
+jemalloc,dcb7b83fac,2021-08-02,d15d2abb,Eset: Cache summary information for heap edatas.,2,2,59,9,59,9,0,0,0,3,1,0,0,0,0,0,0,38,1,10,26,0,0,0,0,0
+jemalloc,252e0942d0,2021-08-02,d15d2abb,Eset: Pull per-pszind data into structs.,2,2,56,27,56,27,0,0,0,9,0,0,0,0,2,0,0,31,0,0,48,0,0,0,0,0
+jemalloc,dc0a4b8b2f,2021-08-02,d15d2abb,Edata: Pull out comparison fields into a summary.,1,1,23,21,23,21,0,0,0,1,0,0,0,0,2,2,0,5,0,0,19,0,0,0,0,0
+jemalloc,0170dd198a,2021-08-02,d15d2abb,Edata: Fix a couple typos.,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,08a4cc0969,2021-08-02,d15d2abb,Pairing heap: inline functions instead of macros.,6,5,452,379,416,355,0,0,0,0,2,0,0,0,21,0,0,0,0,0,354,0,0,0,0,0
+jemalloc,92a1e38f52,2021-07-26,d15d2abb,edata_cache: Allow unbounded fast caching.,5,4,99,151,27,50,0,0,0,4,0,0,0,0,6,6,0,37,1,1,26,0,0,0,0,0
+jemalloc,d93eef2f40,2021-07-23,d15d2abb,HPA: Introduce a redesigned hpa_central_t.,10,8,257,128,243,123,0,0,0,12,1,0,4,1,3,1,0,93,5,31,170,0,0,0,0,0
+jemalloc,e09eac1d4e,2021-07-23,d15d2abb,Remove hpa_central.,8,2,0,699,0,239,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0
+jemalloc,aaea4fd1e6,2021-07-22,4c9abaa5,Add more documentation to decay.c,2,2,23,1,23,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,4b633b9a81,2021-07-22,4c9abaa5,Clean up background thread sleep computation,3,3,133,130,133,130,0,0,0,2,1,1,0,0,3,2,0,22,0,0,108,0,1,0,0,1
+jemalloc,6630c59896,2021-07-12,d15d2abb,HPA: Hugification hysteresis.,9,8,234,60,100,51,0,0,0,7,1,0,1,1,4,1,0,455,4,25,69,0,0,0,0,0
+jemalloc,113938b6f4,2021-07-12,d15d2abb,HPA: Pull out a hooks type.,14,8,100,29,90,28,0,0,0,8,0,0,1,0,5,0,0,81,4,8,71,0,0,0,0,0
+jemalloc,1d4a7666d5,2021-07-12,d15d2abb,HPA: Do deferred operations on background threads.,12,9,256,7,93,7,0,0,0,7,0,0,2,0,2,0,0,471,2,5,71,0,1,0,0,0
+jemalloc,583284f2d9,2021-07-12,d15d2abb,Add HPA deferral functionality.,7,7,76,12,76,12,0,0,0,5,0,0,2,0,4,1,0,81,3,8,46,0,0,0,0,0
+jemalloc,ace329d11b,2021-07-12,d15d2abb,HPA batch dalloc: Just do one deferred work check.,1,1,10,11,10,11,0,0,0,3,0,0,0,0,0,0,0,14,0,0,8,0,0,0,0,0
+jemalloc,47d8a7e6b0,2021-07-12,d15d2abb,psset: Purge empty slabs first.,3,2,143,7,33,5,0,0,0,2,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+jemalloc,41fd56605e,2021-07-12,d15d2abb,HPA: Purge across retained extents.,4,2,160,25,83,19,0,0,0,3,0,0,0,0,0,0,0,38,0,0,37,0,0,0,0,0
+jemalloc,347523517b,2021-07-12,d15d2abb,PAI: Fix a typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jemalloc,d202218e86,2021-06-24,d15d2abb,HPA: Fix typos with big performance implications.,2,2,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,467,2,3,3,0,0,0,0,0
+jemalloc,de033f56c0,2021-06-24,d15d2abb,mpsc_queue: Add module.,3,1,439,0,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,0,0,1,0,0
+jemalloc,4452a4812f,2021-06-24,d15d2abb,Add opt.experimental_infallible_new.,14,4,134,3,15,1,0,0,0,3,0,0,2,0,0,0,0,467,2,6,13,0,0,0,0,0
+jemalloc,0689448b1e,2021-06-24,d15d2abb,Travis: Unbreak the builds.,8,1,69,133,1,1,0,0,0,1,0,0,1,0,0,0,0,196,1,1,1,0,0,0,0,0
+jemalloc,4fb93a18ee,2021-06-19,0664a8b3,extent_can_acquire_neighbor typo fix,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+jemalloc,2381efab57,2021-06-03,68a26df7,ARC: add Minimum allocation alignment,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jemalloc,36c6bfb963,2021-05-22,d15d2abb,"SEC: Allow arbitrarily many shards, cached sizes.",7,6,59,41,48,39,0,0,0,6,0,0,0,0,0,0,0,79,2,2,41,0,0,0,0,0
+jemalloc,5417938215,2021-05-12,d15d2abb,Red-black tree: add summarize/filter.,2,1,1583,69,881,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,625,0,0,0,0,0
+jemalloc,aea91b8c33,2021-05-12,d15d2abb,Clean up some minor data structure inconsistencies,9,6,14,14,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,1
+jemalloc,1f688490e1,2021-05-05,d15d2abb,Stats: Fix a printing bug when hpa_dirty_mult = -1,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,190,1,2,2,0,0,0,0,0
+jemalloc,4f7cb3a413,2021-05-04,d15d2abb,Sized deallocation: fix a typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jemalloc,9b523c6c15,2021-03-31,5c31be69,Refactor the locking in extent_recycle().,1,1,35,30,35,30,0,0,0,7,0,0,3,2,0,1,0,99,6,25,27,0,1,1,0,1
+jemalloc,ce68f326b0,2021-03-31,5c31be69,Avoid the release & re-acquire of the ecache locks around the merge hook.,1,1,37,35,37,35,0,0,0,12,0,1,1,3,0,0,0,99,8,27,34,0,1,0,0,0
+jemalloc,7dc77527ba,2021-03-29,5c31be69,Delete the mutex_pool module.,10,5,1,135,1,126,0,0,0,1,0,0,0,0,0,8,0,3,0,0,1,0,1,1,0,0
+jemalloc,03d95cba88,2021-03-29,5c31be69,Remove the unnecessary arena_ind_set in base_alloc_edata().,2,2,0,2,0,2,0,0,0,2,0,0,0,0,0,0,0,37,0,0,0,0,0,0,1,0
+jemalloc,3093d9455e,2021-03-29,5c31be69,Move the edata mergeability related functions to extent.h.,4,4,75,80,75,80,0,0,0,2,1,1,0,0,2,2,0,38,1,1,58,0,0,0,1,0
+jemalloc,7c964b0352,2021-03-29,5c31be69,Add rtree_write_range(): writing the same content to multiple leaf elements.,4,3,182,32,117,31,0,0,0,6,2,0,1,0,6,0,0,30,1,1,90,0,0,0,0,0
+jemalloc,add636596a,2021-03-29,5c31be69,Stop checking head state in the merge hook.,5,5,42,56,42,56,0,0,0,4,0,0,0,2,1,1,0,28,3,6,32,0,0,0,0,0
+jemalloc,49b7d7f0a4,2021-03-29,5c31be69,Passing down the original edata on the expand path.,6,6,116,101,116,101,0,0,0,13,2,0,3,4,3,1,0,41,10,39,86,0,0,0,0,0
+jemalloc,1784939688,2021-03-29,5c31be69,Use rtree tracked states to protect edata outside of ecache locks.,7,7,357,268,357,268,0,0,0,27,1,0,1,3,11,10,0,41,6,26,263,0,1,0,0,0
+jemalloc,9ea235f8fe,2021-03-29,5c31be69,Add witness_assert_positive_depth_to_rank().,2,2,38,19,38,19,0,0,0,2,0,0,0,0,2,0,0,15,0,0,29,0,0,0,0,0
+jemalloc,4d8c22f9a5,2021-03-29,5c31be69,Store edata->state in rtree leaf and make edata_t 128B aligned.,8,7,138,60,100,37,0,0,0,23,0,0,1,0,2,0,0,41,5,8,79,0,0,0,0,0
+jemalloc,70d1541c5b,2021-03-29,5c31be69,Track extent is_head state in rtree leaf.,6,5,53,20,45,18,0,0,0,12,0,0,3,0,0,0,0,27,3,6,32,0,0,0,0,0
+jemalloc,862219e461,2021-03-29,5c31be69,Add quiescence sync before deleting base during arena_destroy.,1,1,87,1,87,1,0,0,0,1,0,0,0,0,3,0,0,9,0,0,54,0,0,0,0,0
+jemalloc,a137a68252,2021-03-29,e87e5728,"Remove redundant declaration, pac_retain_grow_limit_get_set was declared twice in pac.h",1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jemalloc,61afb6a405,2021-03-22,5c31be69,Fix locking on arena_i_destroy_ctl().,1,1,4,0,4,0,1,0,0,1,0,0,1,0,0,0,0,34,1,2,2,0,1,0,0,0
+jemalloc,3913077146,2021-03-12,5c31be69,Mark head state during dss alloc.,1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,92,1,4,4,0,0,0,0,0
+jemalloc,22be724af4,2021-03-12,5c31be69,Set is_head in extent_alloc_wrapper w/ retain.,2,2,4,4,4,4,0,0,0,1,0,0,1,0,0,0,0,25,1,1,4,0,0,0,0,0
+jemalloc,73ca4b8ef8,2021-02-19,d15d2abb,HPA: Use dirtiest-first purging.,6,5,179,137,94,136,0,0,0,11,0,1,0,1,5,4,0,52,3,4,61,0,0,0,0,0
+jemalloc,0f6c420f83,2021-02-19,d15d2abb,HPA: Make purging/hugifying more principled.,5,5,183,75,183,75,0,0,0,14,1,0,1,0,8,4,0,52,3,29,141,0,0,0,0,0
+jemalloc,6bddb92ad6,2021-02-19,d15d2abb,"psset: Rename ""bitmap"" to ""pageslab_bitmap"".",2,2,8,13,8,13,0,0,0,4,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+jemalloc,154aa5fcc1,2021-02-19,d15d2abb,Use the flat bitmap for eset and psset bitmaps.,4,4,21,27,21,27,0,0,0,9,0,0,0,0,0,0,0,31,0,0,20,0,0,0,0,0
+jemalloc,271a676dcd,2021-02-19,d15d2abb,hpdata: early bailout for longest free range.,1,1,22,16,22,16,0,0,1,1,1,0,0,0,0,0,0,56,1,19,19,0,0,0,0,0
+jemalloc,d21d5b46b6,2021-02-19,d15d2abb,Edata: Move sn into its own field.,4,3,19,31,18,30,0,0,0,6,0,0,0,0,0,0,0,38,1,1,11,0,0,0,1,0
+jemalloc,fb327368db,2021-02-19,d15d2abb,SEC: Expand option configurability.,12,10,185,122,142,100,0,0,0,19,0,0,2,2,0,0,0,462,4,21,95,0,0,0,0,0
+jemalloc,ce9386370a,2021-02-19,d15d2abb,HPA: Implement batch allocation.,2,1,164,93,91,92,0,0,1,1,1,1,0,0,4,2,0,15,0,0,64,0,0,0,0,0
+jemalloc,cdae6706a6,2021-02-19,d15d2abb,SEC: Use batch fills.,3,2,167,71,131,44,0,0,0,5,0,0,0,0,1,0,0,36,0,0,72,0,0,0,0,0
+jemalloc,480f3b11cd,2021-02-19,d15d2abb,Add a batch allocation interface to the PAI.,6,5,59,1,34,1,0,0,0,3,0,0,2,0,2,0,0,44,2,2,24,0,0,0,1,0
+jemalloc,bf448d7a5a,2021-02-19,d15d2abb,SEC: Reduce lock hold times.,3,2,110,24,105,22,0,0,0,5,0,0,0,0,4,2,0,34,0,0,60,0,1,0,0,1
+jemalloc,1944ebbe7f,2021-02-19,d15d2abb,HPA: Implement batch deallocation.,3,3,47,24,47,24,0,0,0,2,0,0,0,0,3,0,0,36,1,1,34,0,0,0,0,0
+jemalloc,f47b4c2cd8,2021-02-19,d15d2abb,PAI/SEC: Add a dalloc_batch function.,11,5,69,11,32,5,0,0,0,4,0,0,2,0,2,0,0,43,2,2,23,0,0,0,0,0
+jemalloc,4b8870c7db,2021-02-19,d15d2abb,SEC: Fix a comment typo.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,a11be50332,2021-02-11,5c31be69,Implement opt.cache_oblivious.,12,8,53,27,28,19,0,0,0,6,0,0,1,1,0,0,0,187,3,3,23,0,0,0,0,0
+jemalloc,8c5e5f50a2,2021-02-10,730c2345,"Fix stats for ""tcache_max"" (was ""lg_tcache_max"")",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,186,1,1,1,0,0,0,0,0
+jemalloc,041145c272,2021-02-08,5c31be69,Report the correct and wrong sizes on sized dealloc bug detection.,5,5,30,16,30,16,1,0,0,5,0,0,1,0,0,0,0,59,1,4,19,0,0,0,0,0
+jemalloc,f3b2668b32,2021-02-08,5c31be69,Report the offending pointer on sized dealloc bug detection.,5,5,31,14,31,14,1,0,0,7,0,0,2,0,1,0,0,134,2,4,29,0,0,0,0,0
+jemalloc,edbfe6912c,2021-02-08,d15d2abb,Inline malloc fastpath into operator new.,5,5,141,119,141,119,0,0,0,2,1,1,0,0,5,2,0,3,1,1,82,0,0,0,0,0
+jemalloc,79f81a3732,2021-02-04,d15d2abb,HPA: Make dirty_mult configurable.,5,5,61,3,61,3,0,0,0,3,0,0,2,0,0,0,0,453,2,32,46,0,0,0,0,0
+jemalloc,32dd153796,2021-02-04,d15d2abb,HPA: Make dehugification threshold configurable.,5,5,37,1,37,1,0,0,0,3,0,0,2,0,0,0,0,436,2,20,30,0,0,0,0,0
+jemalloc,4790db15ed,2021-02-04,d15d2abb,HPA: make the hugification threshold configurable.,5,5,42,4,42,4,0,0,0,3,0,0,2,0,0,0,0,417,2,19,29,0,0,0,0,0
+jemalloc,b3df80bc79,2021-02-04,d15d2abb,Pull HPA options into a containing struct.,10,9,52,28,48,27,0,0,0,7,0,0,0,0,0,0,0,399,5,8,30,0,0,0,0,0
+jemalloc,bdb7307ff2,2021-02-04,d15d2abb,fxp: Add FXP_INIT_PERCENT,2,1,27,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,caef4c2868,2021-02-04,d15d2abb,FXP: add fxp_mul_frac.,2,1,50,0,25,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+jemalloc,56e85c0e47,2021-02-04,d15d2abb,HPA: Use a whole-shard purging heuristic.,4,4,86,34,86,34,0,0,0,12,1,0,2,1,1,1,0,65,4,18,46,0,0,0,0,0
+jemalloc,dc886e5608,2021-02-04,d15d2abb,hpdata: Return the number of pages to be purged.,3,2,13,5,9,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+jemalloc,9fd9c876bb,2021-02-04,d15d2abb,psset: keep aggregate stats.,3,2,62,15,61,15,0,0,0,6,0,0,0,0,3,0,0,28,0,0,50,0,0,0,0,0
+jemalloc,da63f23e68,2021-02-04,d15d2abb,HPA: Track pending purges/hugifies in the psset.,6,5,429,233,428,218,0,1,0,16,1,1,1,0,24,5,0,67,2,8,289,0,0,0,0,0
+jemalloc,0ea3d6307c,2021-02-04,d15d2abb,"CTL, Stats: report HPA empty slab stats.",2,2,123,25,123,25,0,0,0,1,0,0,1,0,0,0,0,196,1,63,99,0,0,0,0,0
+jemalloc,bf64557ed6,2021-02-04,d15d2abb,Move empty slab tracking to the psset.,10,8,183,159,166,145,0,0,0,23,0,1,1,3,7,1,0,156,5,8,101,0,0,0,1,0
+jemalloc,99fc0717e6,2021-02-04,d15d2abb,psset: Reconceptualize insertion/removal.,7,5,100,65,73,53,0,0,0,12,0,0,1,0,5,5,0,67,2,10,48,0,0,0,0,0
+jemalloc,061cabb712,2021-02-04,d15d2abb,HPA stats: report retained instead of inactive.,1,1,11,17,11,17,0,0,0,1,0,0,0,1,0,0,0,163,1,11,11,0,0,0,0,0
+jemalloc,d3e5ea03c5,2021-02-04,d15d2abb,HPA: Track dirty stats.,4,4,70,18,70,18,0,0,0,3,0,0,1,0,0,0,0,169,1,28,66,0,0,0,0,0
+jemalloc,68a1666e91,2021-02-04,d15d2abb,"hpdata: Rename ""dirty"" to ""touched"".",4,3,34,29,28,23,0,0,0,8,0,0,0,0,1,0,0,47,0,0,24,0,0,0,0,0
+jemalloc,be0d7a53f3,2021-02-04,d15d2abb,HPA: Don't track inactive pages.,6,5,9,53,9,46,0,0,0,4,0,0,0,1,0,0,0,145,1,7,9,0,0,0,0,0
+jemalloc,55e0f60ca1,2021-02-04,d15d2abb,psset stats: Simplify handling.,5,4,76,82,65,71,0,0,0,11,0,0,0,0,0,0,0,18,0,0,55,0,0,0,0,1
+jemalloc,94cd9444c5,2021-02-04,d15d2abb,HPA: Some minor reformattings.,2,2,12,9,12,9,0,0,0,1,0,0,0,0,1,0,0,6,0,0,10,0,0,0,0,0
+jemalloc,b25ee5d88e,2021-02-04,d15d2abb,HPA: Add purge stats.,4,4,97,7,97,7,0,0,0,5,0,0,3,0,0,0,0,154,3,36,66,0,0,0,0,0
+jemalloc,746ea3de6f,2021-02-04,d15d2abb,HPA stats: Allow some derived stats.,3,3,29,14,29,14,0,0,0,5,0,0,0,0,1,0,0,64,2,3,19,0,0,0,0,0
+jemalloc,30b9e8162b,2021-02-04,d15d2abb,HPA: Generalize purging.,5,4,207,63,206,63,0,0,0,15,1,0,1,0,4,3,0,64,2,20,97,0,0,0,0,0
+jemalloc,70692cfb13,2021-02-04,d15d2abb,hpdata: Add state changing helpers.,4,3,329,11,203,10,0,0,0,3,0,0,0,0,9,1,0,48,0,0,104,0,0,0,0,0
+jemalloc,9b75808be1,2021-02-04,d15d2abb,flat bitmap: Add a bitwise and/or/not.,2,1,161,1,30,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,21,0,0,0,0,0
+jemalloc,2ae966222f,2021-02-04,d15d2abb,hpdata: track per-page dirty state.,3,3,85,9,85,9,0,0,0,5,0,0,0,0,3,1,0,46,0,0,49,0,0,0,0,0
+jemalloc,ff4086aa6b,2021-02-04,d15d2abb,hpdata: count active pages instead of free ones.,4,4,18,23,18,23,0,0,0,8,0,0,0,0,1,2,0,42,0,0,15,0,0,0,0,0
+jemalloc,3624dd42ff,2021-02-04,d15d2abb,hpdata: Add a comment for hpdata_consistent.,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,20140629b4,2021-02-04,d15d2abb,Bin: Move stats closer to the mutex.,2,2,13,3,13,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+jemalloc,c259323ab3,2021-02-04,d15d2abb,Use ticker_geom_t for arena tcache decay.,9,8,52,198,17,156,0,0,0,6,0,1,0,0,0,4,0,13,0,0,7,0,0,0,0,0
+jemalloc,8edfc5b170,2021-02-04,d15d2abb,Add ticker_geom_t.,9,3,174,6,135,4,0,0,0,0,0,0,0,0,5,0,0,0,0,0,71,0,0,0,0,0
+jemalloc,3967329813,2021-02-04,d15d2abb,Arena: share bin offsets in a global.,7,7,50,49,50,49,0,0,0,12,0,0,0,1,1,0,0,133,5,10,34,0,0,0,0,0
+jemalloc,2fcbd18115,2021-02-04,d15d2abb,Cache bin: Don't reverse flush order.,3,2,10,21,9,20,0,0,0,3,0,0,0,0,0,2,0,133,1,3,5,0,0,0,0,0
+jemalloc,4c46e11365,2021-02-04,d15d2abb,Cache an arena's index in the arena.,3,3,8,1,8,1,0,0,0,2,0,0,1,0,0,0,0,90,1,1,3,0,0,0,0,0
+jemalloc,229994a204,2021-02-04,d15d2abb,Tcache flush: keep common path state in registers.,5,4,130,79,126,78,0,0,0,2,1,2,1,0,6,4,0,133,1,9,92,0,0,0,0,0
+jemalloc,31a629c3de,2021-02-04,d15d2abb,Tcache flush: prefetch edata contents.,2,2,50,0,50,0,0,0,0,1,0,0,0,0,4,0,0,6,0,0,31,0,0,0,0,0
+jemalloc,9f9247a62e,2021-02-04,d15d2abb,Tcache fluhing: increase cache miss parallelism.,2,2,37,13,37,13,0,0,0,3,0,0,1,0,0,0,0,126,2,20,26,0,0,0,0,0
+jemalloc,181ba7fd4d,2021-02-04,d15d2abb,"Tcache flush: Add an emap ""batch lookup"" path.",2,2,50,11,50,11,0,0,0,1,1,0,0,0,3,0,0,11,0,0,31,0,0,0,0,0
+jemalloc,c007c537ff,2021-02-04,d15d2abb,Tcache flush: Unify edata lookup path.,1,1,7,18,7,18,0,0,0,1,0,0,0,1,1,1,0,126,1,1,3,0,0,0,0,0
+jemalloc,35a8552605,2021-02-03,0664a8b3,Mac OS: Tag mapped pages.,3,1,22,2,7,2,0,0,0,2,0,0,0,0,0,0,0,29,1,1,7,0,0,0,0,0
+jemalloc,f6699803e2,2021-01-25,979cff57,Fix duration in prof log,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jemalloc,a943172b73,2021-01-20,e1f81aec,Add runtime detection for MADV_DONTNEED zeroes pages (mostly for qemu),6,4,94,2,81,2,0,0,0,3,0,0,2,0,1,0,0,399,2,12,58,0,0,0,0,0
+jemalloc,a011c4c22d,2021-01-08,d15d2abb,cache_bin: Separate out local and remote accesses.,5,4,70,36,48,18,0,0,0,13,0,0,0,0,2,1,0,135,3,3,22,0,0,0,0,0
+jemalloc,14d689c0f9,2021-01-07,979cff57,Add prof stats mutex stats,2,2,5,1,5,1,0,0,0,2,0,0,2,0,0,0,0,62,2,3,5,0,1,0,0,0
+jemalloc,9f71b5779b,2021-01-07,979cff57,Output prof stats in stats print,1,1,98,2,98,2,0,0,0,2,0,0,2,0,0,0,0,210,2,91,92,0,0,0,0,0
+jemalloc,1f1a0231ed,2021-01-07,979cff57,Split macros for initializing stats headers,1,1,27,12,27,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,1,1,0
+jemalloc,54f3351f1f,2021-01-07,979cff57,Add mallctl for prof stats fetching,2,1,215,24,169,1,0,0,0,0,4,0,0,0,6,0,0,0,0,0,143,0,0,0,0,0
+jemalloc,40fa4d29d3,2021-01-07,979cff57,Track per size class internal fragmentation,15,7,203,6,107,6,0,0,0,7,0,0,2,0,6,0,0,398,2,10,90,0,0,0,0,0
+jemalloc,afa489c3c5,2021-01-07,979cff57,Record request size in prof info,7,7,24,7,24,7,0,0,0,5,0,0,0,0,2,0,0,31,0,0,20,0,0,0,0,0
+jemalloc,f9bb8dedef,2021-01-04,d15d2abb,Un-force-inline do_rallocx.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jemalloc,a9fa2defdb,2021-01-04,d15d2abb,"Add JEMALLOC_COLD, and mark some functions cold.",7,4,36,1,14,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,14,0,0,0,0,0
+jemalloc,5d8e70ab26,2021-01-04,d15d2abb,prof_recent: cassert(config_prof) more often.,1,1,11,0,11,0,0,0,0,11,0,0,1,0,0,0,0,74,1,1,11,0,0,0,0,0
+jemalloc,83cad746ae,2021-01-04,d15d2abb,prof_log: cassert(config_prof) in public functions,2,1,14,1,11,0,0,0,0,10,0,0,3,0,0,0,0,63,3,3,10,0,0,0,0,0
+jemalloc,526180b76d,2021-01-04,d15d2abb,Extent.c: Avoid an rtree NULL-check.,1,1,16,2,16,2,0,0,0,1,0,0,1,0,0,0,0,48,1,5,5,0,0,0,0,0
+jemalloc,b35ac00d58,2020-12-29,979cff57,Do not bump to large size for page aligned request,2,2,11,4,11,4,0,0,0,2,0,0,0,1,0,0,0,25,1,3,4,0,0,0,0,0
+jemalloc,8a56d6b636,2020-12-29,979cff57,Add last-N mutex stats,2,2,11,1,11,1,0,0,0,2,0,0,2,0,0,0,0,60,2,8,11,0,1,0,0,0
+jemalloc,22d62d8cbd,2020-12-18,979cff57,Handle ending gap properly for HPA stats,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,125,1,3,3,0,0,0,0,0
+jemalloc,6c5a3a24dd,2020-12-18,979cff57,Omit bin stats rows with no data,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,163,1,3,3,0,0,0,0,0
+jemalloc,ea013d8fa4,2020-12-18,979cff57,Enforce realloc sizing stability,1,1,10,24,10,24,0,0,0,2,0,0,0,1,0,0,0,66,2,10,10,0,0,0,0,0
+jemalloc,74bd63b203,2020-12-18,979cff57,Optimize stats print using partial name-to-mib,2,2,151,114,151,114,0,0,0,10,0,0,4,1,0,1,0,170,6,84,134,0,0,0,0,0
+jemalloc,4557c0a67d,2020-12-18,979cff57,Enable ctl on partial mib and partial name,3,2,98,0,47,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,35,0,0,0,0,0
+jemalloc,006dd0414e,2020-12-18,979cff57,Add partial name-to-mib functionality,3,2,89,1,32,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,26,0,0,0,0,0
+jemalloc,f2e1a5be77,2020-12-18,979cff57,Do not fail on partial ctl path for ctl_nametomib(),2,1,17,6,2,6,0,0,0,1,0,0,0,1,0,0,0,70,1,1,1,0,0,0,0,0
+jemalloc,6ab181d2b7,2020-12-18,979cff57,Extract node lookup given mib input,1,1,29,14,29,14,0,0,0,1,0,0,0,1,1,0,0,20,1,12,24,0,0,0,1,0
+jemalloc,3a627b9674,2020-12-18,979cff57,No need to record all nodes in ctl_lookup(),1,1,6,11,6,11,0,0,0,2,0,0,0,2,0,0,0,74,2,5,5,0,0,0,0,0
+jemalloc,91e006c4c2,2020-12-18,979cff57,Enable ctl_lookup() to start from arbitrary node,1,1,7,5,7,5,0,0,0,3,0,0,1,0,0,0,0,77,2,5,7,0,0,0,0,0
+jemalloc,4e3fe218e9,2020-12-18,6f718e4a,Use posix_madvise to purge pages when available,1,1,6,0,6,0,0,0,0,2,0,0,0,0,0,0,0,19,0,0,6,0,0,0,0,0
+jemalloc,96a59c3bb5,2020-12-18,6f718e4a,Fix recursive malloc during bootstrap on QNX,1,1,21,2,21,2,1,0,0,3,0,0,0,0,0,0,0,32,0,0,18,0,0,0,0,0
+jemalloc,1e3b8636ff,2020-12-08,d15d2abb,HPA: Remove unused malloc_conf options.,5,4,0,36,0,33,0,0,0,2,0,0,0,2,0,0,0,397,2,0,0,0,0,0,1,0
+jemalloc,9522ae41d6,2020-12-07,6581fe6d,Move n_search outside of assert as reported by static analyzer,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,73,1,2,2,0,0,0,1,0
+jemalloc,a559caf74a,2020-12-07,d15d2abb,hpdata: Strengthen assertions.,2,2,17,3,17,3,0,0,0,4,0,0,0,0,0,0,0,42,0,0,15,0,0,0,0,0
+jemalloc,54c94c1679,2020-12-07,d15d2abb,flat bitmap: add scount / ucount functions.,2,1,258,2,23,1,0,0,0,1,0,0,1,0,3,0,0,24,1,2,17,0,0,0,0,0
+jemalloc,e6c057ad35,2020-12-07,d15d2abb,fb: implement assign in terms of a visitor.,1,1,32,23,32,23,0,0,0,2,1,0,0,0,2,2,0,4,0,0,23,0,0,0,0,0
+jemalloc,734e72ce8f,2020-12-07,d15d2abb,bit_util: Guarantee popcount's presence.,3,1,166,3,87,2,0,0,0,1,0,0,0,0,5,0,0,4,0,0,47,0,0,0,0,0
+jemalloc,d9f7e6c668,2020-12-07,d15d2abb,hpdata: Add a test.,3,1,69,2,7,2,0,0,0,1,0,0,0,0,1,0,0,3,0,0,6,0,0,0,0,0
+jemalloc,3ed0b4e8a3,2020-12-07,d15d2abb,HPA: Add an nevictions counter.,4,4,39,10,39,10,0,0,0,7,1,0,2,0,0,0,0,244,4,14,26,0,0,0,0,0
+jemalloc,fffcefed33,2020-12-07,d15d2abb,malloc_conf: Clarify HPA options.,1,1,16,12,16,12,0,0,0,1,0,0,0,0,0,0,0,404,1,7,8,0,0,0,0,0
+jemalloc,f7cf23aa4d,2020-12-07,d15d2abb,psset: Relegate alloc/dalloc to test code.,3,2,94,114,1,67,0,0,0,1,0,0,0,0,0,3,0,16,0,0,1,0,0,0,0,0
+jemalloc,f9299ca572,2020-12-07,d15d2abb,HPA: Use psset fit/insert/remove.,1,1,42,44,42,44,0,0,0,4,0,0,0,0,0,0,0,49,0,0,31,0,0,0,0,0
+jemalloc,0971e1e4e3,2020-12-07,d15d2abb,hpdata: Use addr/size instead of begin/npages.,3,3,20,20,20,20,0,0,0,5,0,0,0,0,0,0,0,40,0,0,19,0,0,0,0,0
+jemalloc,5228d869ee,2020-12-07,d15d2abb,psset: Use fit/insert/remove as basis functions.,4,4,43,144,43,144,0,0,1,4,0,0,0,0,2,4,0,41,0,0,33,0,0,0,1,0
+jemalloc,089f8fa442,2020-12-07,d15d2abb,Move hpdata bitmap logic out of the psset.,3,3,127,97,127,97,0,1,1,7,0,0,0,0,5,2,0,43,0,0,86,0,0,0,1,0
+jemalloc,ca30b5db2b,2020-12-07,d15d2abb,Introduce hpdata_t.,17,10,416,407,323,292,0,0,0,29,1,0,0,2,15,9,0,52,3,30,241,0,0,0,0,0
+jemalloc,43af63fff4,2020-12-07,d15d2abb,HPA: Manage whole hugepages at a time.,16,14,691,541,661,474,0,0,0,24,1,4,1,5,17,9,0,136,11,104,458,0,0,0,0,0
+jemalloc,63677dde63,2020-12-07,d15d2abb,Pages: Statically detect if pages_huge may succeed,1,1,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+jemalloc,c1b2a77933,2020-12-07,d15d2abb,psset: Move in stats.,7,6,82,63,71,55,0,0,0,10,0,0,0,2,4,1,0,136,3,5,53,0,0,0,1,0
+jemalloc,d0a991d47b,2020-12-07,d15d2abb,psset: Add insert/remove functions.,3,2,144,42,49,16,0,0,0,2,0,0,0,0,1,0,0,49,0,0,35,0,0,0,1,0
+jemalloc,d438296b1f,2020-12-04,d15d2abb,narenas_ratio: Accept fractional values.,1,1,17,6,17,6,0,0,0,2,0,0,1,0,0,0,0,404,1,8,17,0,0,0,0,0
+jemalloc,ecd39418ac,2020-12-04,d15d2abb,Add fxp: A fixed-point math library.,8,2,578,0,224,0,1,0,0,0,1,0,0,0,9,0,0,0,0,0,117,0,0,0,0,0
+jemalloc,520b75fa2d,2020-11-30,0664a8b3,utrace support with label based signature.,4,1,30,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+jemalloc,92e189be8b,2020-11-16,979cff57,Add some comments to the batch allocation logic flow,1,1,30,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jemalloc,d96e4525ad,2020-11-16,979cff57,Route batch allocation of small batch size to tcache,2,1,91,91,68,38,0,0,0,1,0,0,1,0,0,0,0,105,1,65,65,0,0,0,0,0
+jemalloc,be5e49f4fa,2020-11-16,979cff57,Add a batch mode for cache_bin_alloc(),2,1,65,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+jemalloc,566c4a8594,2020-11-16,979cff57,Slight changes to cache bin internal functions,2,2,28,18,28,18,0,0,0,10,0,0,0,0,2,0,0,17,0,0,25,0,0,0,0,0
+jemalloc,9545c2cd36,2020-11-13,979cff57,Add sample interval to prof last-N dump,2,1,14,7,3,0,0,0,0,1,0,0,0,0,0,0,0,41,0,0,3,0,0,0,0,0
+jemalloc,cf2549a149,2020-11-13,d15d2abb,Add a per-arena oversize_threshold.,10,7,194,12,59,11,0,0,0,4,1,0,3,0,1,0,0,90,4,13,48,0,0,0,0,0
+jemalloc,4ca3d91e96,2020-11-13,d15d2abb,Rename geom_grow -> exp_grow.,14,7,46,38,22,22,0,0,0,5,0,0,0,0,1,1,0,99,3,7,20,0,0,0,0,0
+jemalloc,b4c37a6e81,2020-11-13,d15d2abb,Rename edata_tree_t -> edata_avail_t.,3,3,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jemalloc,95f0a77fde,2020-11-11,0664a8b3,Detect pthread_getname_np explicitly.,3,1,41,1,4,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,1,0,0,0
+jemalloc,589638182a,2020-11-05,d15d2abb,Use the edata_cache_small_t in the HPA.,5,5,36,13,36,13,0,0,0,9,0,0,1,0,1,0,0,42,1,2,25,0,0,0,0,0
+jemalloc,03a6047111,2020-11-05,d15d2abb,Edata cache small: rewrite.,3,2,301,76,116,55,0,0,0,5,0,0,0,0,3,2,0,24,0,0,84,0,0,0,0,0

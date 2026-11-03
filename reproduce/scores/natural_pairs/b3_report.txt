@@ -1,0 +1,13 @@
+                   subset    n  repos                  model   acc  bal_acc  macro_f1  majority  recall_complexity  recall_concurrency  recall_dependency  recall_security
+all weak labels (4 types) 1123     34            keywords_rf 0.597    0.550     0.540     0.426              0.628               0.291              0.558            0.722
+all weak labels (4 types) 1123     34               tfidf_lr 0.590    0.543     0.551     0.426              0.653               0.359              0.577            0.583
+all weak labels (4 types) 1123     34       codebert_mean_lr 0.617    0.604     0.594     0.426              0.609               0.515              0.631            0.661
+all weak labels (4 types) 1123     34        codebert_cls_lr 0.607    0.590     0.582     0.426              0.613               0.485              0.599            0.661
+all weak labels (4 types) 1123     34 codebert_mean+keywords 0.648    0.636     0.627     0.426              0.630               0.544              0.683            0.687
+all weak labels (4 types) 1123     34               majority 0.426    0.250       NaN     0.426                NaN                 NaN                NaN              NaN
+            dual evidence  379     33            keywords_rf 0.850    0.821     0.838     0.359              0.860               0.595              1.000            0.830
+            dual evidence  379     33               tfidf_lr 0.813    0.789     0.808     0.359              0.846               0.568              0.986            0.756
+            dual evidence  379     33       codebert_mean_lr 0.799    0.783     0.779     0.359              0.794               0.595              0.972            0.770
+            dual evidence  379     33        codebert_cls_lr 0.821    0.804     0.804     0.359              0.779               0.622              0.986            0.830
+            dual evidence  379     33 codebert_mean+keywords 0.839    0.835     0.841     0.359              0.838               0.730              0.972            0.800
+            dual evidence  379     33               majority 0.359    0.250       NaN     0.359                NaN                 NaN                NaN              NaN

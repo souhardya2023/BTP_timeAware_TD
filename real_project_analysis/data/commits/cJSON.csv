@@ -1,0 +1,636 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+cJSON,6d9f2443ab,2026-09-16,3e3dd21c,Fix: heap-use-after-free in merge_patch when patch is subtree of target (#1065),2,1,40,2,6,2,1,0,0,1,0,0,1,0,0,0,0,52,1,2,2,1,0,0,0,0
+cJSON,fb16e5cf35,2026-04-09,82a244c8,Fix: Type Confusion vulnerability in cJSON_Utils caused by missing type check (#1006),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,190,1,1,1,1,0,0,0,0
+cJSON,b2890c8d76,2026-03-12,4362f097,fix: prevent NULL pointer dereference in cJSON_SetNumberHelper (#991),2,1,8,2,5,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+cJSON,5cc0e39f42,2026-02-25,24981eab,Fix: add depth check to prevent stack overflow in cJSON_Print (#984),1,1,10,0,10,0,1,0,0,2,0,0,2,0,0,0,0,100,2,8,8,1,0,0,0,0
+cJSON,c859b25da0,2025-09-09,0f5c0a29,Release 1.7.19 (#958),6,2,19,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,74e1ff4994,2025-09-05,4362f097,fix the incorrect check in decode_array_index_from_pointer (#957),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+cJSON,a328d65ad4,2025-05-07,4362f097,allocate memory for the temporary buffer,3,1,69,5,32,5,0,0,0,1,0,0,1,0,0,0,0,83,1,26,26,0,0,0,0,0
+cJSON,12c4bf1986,2024-09-23,d405180d,Wrong counter increment,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,74,1,1,1,0,0,0,0,0
+cJSON,9d1b229086,2024-09-23,d405180d,Added max recusrion depth for cJSONDuplicate to prevent stack exhaustion in case of circular referen,3,2,35,1,17,1,0,0,0,1,1,1,0,0,1,0,0,4,1,3,12,0,0,1,0,1
+cJSON,d6d5449e1f,2024-08-30,d405180d,"fix #881, check overlap before calling strcpy in cJSON_SetValuestring",1,1,12,1,12,1,1,0,0,1,1,0,0,0,0,0,0,36,1,9,9,0,0,0,0,0
+cJSON,a78d975537,2024-08-30,d405180d,cJSON_DetachItemViaPointer: added test and fix for check for null in item->prev,2,1,17,1,1,1,1,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+cJSON,f28a468e3b,2024-08-30,d405180d,Check for NULL in cJSON_DetachItemViaPointer,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+cJSON,8a334b0140,2024-05-14,1501f85f,Fix indentation (should use spaces),1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,51,1,4,4,0,0,0,0,0
+cJSON,76be8fcf15,2024-05-13,0f5c0a29,Release 1.7.18,5,2,14,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,542fb0eadd,2024-05-13,1f1322bf,Set free'd pointers to NULL whenever they are not reassigned immediately after,1,1,8,0,8,0,0,0,0,5,1,0,1,0,0,0,0,104,2,4,8,0,0,0,0,0
+cJSON,3ef4e4e730,2024-05-06,04f55202,Fix heap buffer overflow,1,1,5,0,5,0,1,0,0,1,0,0,1,0,0,0,0,88,1,4,4,1,0,0,0,0
+cJSON,19396a49a6,2024-04-29,0f5c0a29,update comments and add tests for cJSON_SetValuestring,2,1,3,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,7e4d5dabe7,2024-04-26,44c4043b,Add NULL check to cJSON_SetValuestring(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+cJSON,87d8f0961a,2023-12-26,0f5c0a29,Release 1.7.17,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,f66cbab4bf,2023-12-20,4362f097,fix error in null checkings (#810),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+cJSON,60ff122ef5,2023-12-18,e30e423c,add NULL checkings (#809),2,1,33,2,12,2,0,0,0,2,0,0,0,0,0,0,0,28,0,0,9,0,0,0,0,0
+cJSON,cb8693b058,2023-07-05,0f5c0a29,Release 1.7.16 (#770),6,2,35,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,766dd9d590,2023-07-01,2f138548,Fix a null pointer crash in cJSON_ReplaceItemViaPointer (#726),1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,40,1,1,1,0,0,0,0,0
+cJSON,b45f48e600,2022-03-29,6dae29e4,fix: add allocate check for replace_item_in_object (#675),1,1,12,7,12,7,1,0,0,4,0,0,0,0,0,0,0,62,1,1,9,0,0,0,0,0
+cJSON,a6424b85dd,2022-01-26,da5531d5,feat: add cJSON_SetBoolValue and test (#639),2,1,85,17,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+cJSON,d321fa9e6e,2022-01-19,0eacad6b,fix: print int without decimal places (#630),1,1,4,0,4,0,1,0,0,1,0,0,1,0,0,0,0,51,1,4,4,0,0,0,0,0
+cJSON,f50dafc7d0,2021-08-26,57904a74,fix: potential memory leak in merge_patch() (#611),1,1,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+cJSON,d348621ca9,2021-08-25,57904a74,chore: update version and changelog (#610),5,2,14,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,744e47353a,2021-08-25,57904a74,fix: remove redundant condition (#605),1,1,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,99,1,1,1,0,0,0,1,0
+cJSON,7795249dd4,2021-08-25,c326dcd6,Typos found by codespell (#607),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,6ea4c01e4e,2020-12-31,0f5c0a29,Fix potential core dumped for strrchr (#546),1,1,3,1,3,1,1,0,0,1,0,0,1,0,0,0,0,190,1,3,3,0,0,0,0,0
+cJSON,9226e4ed8c,2020-12-17,d3ebb507,Remove always true condition in cJSON.c (#539),1,1,2,4,2,4,0,0,0,1,0,0,0,1,0,0,0,67,1,1,1,0,0,0,1,0
+cJSON,7b6645794d,2020-12-17,0f5c0a29,"Fix null pointer crash, closes #536 (#538)",1,1,20,24,20,24,1,0,0,4,0,0,0,0,0,0,0,34,0,0,16,0,0,0,0,0
+cJSON,2f6fc7f0f2,2020-11-12,b18e0ce2,fix several null pointer problems on allocation failure (#526),2,1,70,4,21,4,1,0,0,4,0,0,0,0,0,0,0,36,0,0,20,0,0,0,0,0
+cJSON,9bf4960cd5,2020-10-16,0f5c0a29,fix a possible dereference of null pointer,1,1,4,0,4,0,1,0,0,1,0,0,1,0,0,0,0,67,1,4,4,0,0,0,0,0
+cJSON,9931900768,2020-10-15,5b25d397,fix: windows build failure about defining nan,1,1,4,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+cJSON,8e357f825b,2020-09-03,0f5c0a29,Update version to 1.7.14,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,c8ca78a3cc,2020-09-02,0f5c0a29,optimize the way to find tail node,2,2,14,11,14,11,0,0,0,7,0,0,1,0,0,0,0,71,1,4,14,0,0,0,0,0
+cJSON,4578d3a9e1,2020-06-23,3a91b3dd,Problem: WError error on macosx because NAN is a float,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+cJSON,b95a4c56b0,2020-06-22,0f5c0a29,fix #376,2,2,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+cJSON,cb4661cd91,2020-04-03,a4179c4a,"fix: errors in replacing the first item when array_size is 1, and replacing the last item",1,1,8,0,8,0,1,0,0,1,0,0,0,0,0,0,0,40,0,0,8,0,0,0,0,0
+cJSON,a65abf2f4f,2020-04-03,a4179c4a,fix: error list head's prev when detach the last item,1,1,6,0,6,0,1,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+cJSON,3999b12848,2020-04-03,a4179c4a,feat: set list head's prev in parse_array and parse_object,1,1,8,0,8,0,0,0,0,2,0,0,2,0,0,0,0,84,2,6,6,0,0,0,0,0
+cJSON,ff0dabc72e,2020-04-02,0f5c0a29,Update version to 1.7.13,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,5d55c6c2ee,2020-04-02,0f5c0a29,fix error C2124 in visual studio,1,1,5,1,5,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+cJSON,97cf1d84e4,2020-04-02,a5c3197b,Add getNumberValue function,3,2,31,4,17,4,0,0,0,1,0,0,0,0,1,0,0,8,0,0,14,0,0,0,0,0
+cJSON,983bb2b4d6,2020-04-02,0dc47075,Added cJSON_ParseWithLength (#358),4,2,96,4,31,4,0,0,0,2,1,1,0,0,2,0,0,20,1,9,23,0,0,0,0,0
+cJSON,8943c73345,2020-04-02,0f5c0a29,comparing double value with DBL_EPSILON,4,3,17,9,16,8,0,0,0,3,1,0,0,0,0,0,0,47,1,1,14,0,0,0,0,0
+cJSON,131966f748,2020-04-02,0f5c0a29,add return value for cJSON_ReplaceItemxxx,2,2,16,18,16,18,0,0,0,5,0,0,0,0,0,0,0,25,0,0,16,0,0,0,0,0
+cJSON,bd7cbe9776,2020-04-01,0f5c0a29,false has been redefined to cJSON_False,2,1,4,4,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+cJSON,54d6b8016e,2020-03-26,0f5c0a29,add return value for  cJSON_AddItemTo...,3,2,39,20,19,19,0,0,0,7,0,0,0,0,0,0,0,33,0,0,19,0,0,0,0,0
+cJSON,31c7880fab,2020-03-25,0f5c0a29,update cJSON_SetValuestring and testcase,4,2,36,24,12,10,0,0,0,0,0,0,0,0,1,1,0,0,0,0,10,0,0,0,0,0
+cJSON,6b35f1c5bc,2020-03-24,0f5c0a29,add new function of setValuestringToObject,2,2,27,0,27,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,23,0,0,0,0,0
+cJSON,3ece4c893c,2020-03-24,0f5c0a29,Improve performance of adding item to array (#448),2,1,67,13,28,9,0,0,0,3,0,0,0,0,0,0,0,33,0,0,22,0,0,0,0,0
+cJSON,d92c0de7e8,2020-03-18,0f5c0a29,fix encode_string_as_pointer,2,1,22,1,2,1,1,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+cJSON,9034a9cd0b,2020-03-16,57904a74,"Revert ""use prev pointer when array do adding (#430)""",2,1,10,29,9,28,0,0,0,2,0,0,0,0,0,0,0,29,0,0,7,0,0,0,0,0
+cJSON,e8077d0150,2020-02-18,e9dc8796,use prev pointer when array do adding (#430),2,1,29,10,28,9,0,0,0,2,0,0,0,0,0,0,0,33,0,0,21,0,0,0,0,0
+cJSON,74b2f03837,2020-01-18,0f5c0a29,remove annoying float-equal option,2,1,1,2,1,1,0,0,0,1,0,0,0,0,0,0,0,47,0,0,1,0,0,0,1,0
+cJSON,fa8b454552,2020-01-16,0f5c0a29,correct mistake,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,110,1,1,1,0,0,0,0,0
+cJSON,4e3335618f,2019-12-09,0f5c0a29,improve compare_double,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+cJSON,ea3a6dcd69,2019-12-07,d6c4887c,Update cJSON_Utils.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+cJSON,c06d8264d0,2019-12-06,0f5c0a29,improve compare_double function,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+cJSON,500a9db81b,2019-12-05,0f5c0a29,fix memory leak mentioned in issue 414,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+cJSON,c64854b26e,2019-11-15,b8302873,Fixed different argument between declaration and definition,1,1,7,7,7,7,1,0,0,2,0,0,0,0,0,0,0,15,0,0,7,0,0,0,0,0
+cJSON,bcc91ecbc3,2019-10-19,a1d2fa78,initilize variables in print_number,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,47,0,0,2,0,0,0,0,0
+cJSON,26772a8ef7,2019-10-17,9e8b3033,Add const qualifier to cJSON_CreateStringArray,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0
+cJSON,ae49da2b61,2019-09-21,57904a74,"Revert ""Replace strcpy with strncpy, sprintf with snprintf""",1,1,18,25,18,25,0,0,0,4,0,0,0,2,0,0,0,101,2,10,14,0,0,0,0,0
+cJSON,189b51c5da,2019-09-11,0f5c0a29,format comment,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,c61573f1af,2019-09-11,0f5c0a29,format adjustment,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,b6da0d6565,2019-08-24,a5c3197b,Correct typo error,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,9d766f07a7,2019-06-28,0f5c0a29,fix const cast warnings in cJSON_GetStringValue,2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+cJSON,85ceadb4b4,2019-06-25,0f5c0a29,Add a comment to the parameter count of the cJSON_CreateIntArray function.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,110f184d18,2019-06-16,3d379731,Fix typos.,2,2,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,c9e8a68b00,2019-06-10,f32cd27e,Fix clang -Wfloat-equal warning,5,3,26,6,24,5,1,0,0,4,0,0,0,0,2,0,0,110,3,3,17,0,0,0,0,0
+cJSON,16f56300e4,2019-05-29,9ce86c25,"Replace strcpy with strncpy, sprintf with snprintf",1,1,25,18,25,18,0,0,0,4,0,0,2,0,0,0,0,102,2,20,24,0,0,0,0,0
+cJSON,5fe80a94b6,2019-05-22,0f5c0a29,add comment for cJSON_Minify function,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,687b1a2fe1,2019-05-16,64e14193,Update version to 1.7.12,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,08d2bc766a,2019-05-16,64e14193,Fix infinite loop in cJSON_Minify,2,1,9,0,2,0,1,0,0,1,0,0,1,0,0,0,0,40,1,2,2,0,0,0,0,0
+cJSON,359567fdde,2019-04-28,8c5ef128,Undef true and false first also for cJSON_Utils.c,1,1,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+cJSON,6b249213dd,2019-04-15,64e14193,Fix clang -Wcomma warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+cJSON,09ebae8149,2019-04-14,64e14193,Release cJSON 1.7.11,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,a43fa56a63,2019-04-14,64e14193,"Rewrite cJSON_Minify, fixing buffer overflows, fixes #338",3,1,246,50,78,50,1,0,0,1,0,0,0,1,3,0,0,38,1,30,55,1,0,0,0,0
+cJSON,5a52eaddfd,2019-04-13,64e14193,"Undef true and false first, fixes #339",1,1,7,0,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+cJSON,add86a6be8,2019-03-18,b216d3b7,Update cJSON.c,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,81,1,1,1,0,0,0,0,0
+cJSON,c69134d017,2018-12-20,64e14193,Release Version 1.7.10,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,563d861f92,2018-12-20,64e14193,cJSON_Utils: sort_lists: Properly split the lists,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,88,1,1,1,0,0,0,1,0
+cJSON,f110bd2e58,2018-12-16,64e14193,Release Version 1.7.9,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,be749d7efa,2018-12-16,64e14193,Fix crash of cJSON_GetObjectItemCaseSensitive when calling it on arrays,2,1,29,1,5,1,1,0,0,1,1,0,0,0,0,0,0,27,1,4,4,0,0,0,0,0
+cJSON,eaec82c3c5,2018-12-12,ac1347b7,fix bug: sort_list() returns strange results,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,87,1,1,1,0,0,0,0,0
+cJSON,8e742e4869,2018-10-12,975c45e9,Fix most of the issues reported by the Visual Studio code analysis tool.,1,1,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,96,2,2,4,0,0,0,0,0
+cJSON,08103f048e,2018-09-21,64e14193,Release version 1.7.8,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,f32703a7a1,2018-08-29,1a8c4c58,Support default __stdcall calling convention (/Gz) on Windows,3,3,60,52,60,52,0,0,0,4,0,0,0,0,0,0,0,6,0,0,44,0,0,0,0,0
+cJSON,86234db095,2018-05-21,64e14193,Release cJSON v1.7.7,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,af5b4911de,2018-05-21,64e14193,Fix memory leak if realloc returns NULL,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,50,0,0,1,0,0,0,0,0
+cJSON,0d5ecc11b6,2018-05-08,294ebf85,fix typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,3349978268,2018-04-26,64e14193,"cJSON.c: Remove unnecessary include of float.h, fix #259",1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+cJSON,cbc05de76f,2018-04-13,64e14193,Release version 1.7.6,5,2,15,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,e6869c2e03,2018-04-13,64e14193,cJSON_Utils.h: Add include guards and extern C for C++,1,1,14,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,0
+cJSON,0e0c463491,2018-03-22,64e14193,Release version 1.7.5,5,2,10,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,d26a42af8d,2018-03-22,22554f81,json patch: adding to a subfield of a non-object now fails as expected,2,1,14,1,6,0,0,0,0,1,0,0,1,0,0,0,0,188,1,5,5,0,0,0,0,0
+cJSON,5da9edc8b1,2018-03-02,64e14193,Release version 1.7.4,5,2,11,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,22a7d04fa0,2018-03-02,64e14193,add_item_to_object: Fix use-after-free when string is aliased,2,1,36,11,16,11,1,0,0,1,0,0,0,0,0,0,0,30,0,0,13,1,0,0,0,0
+cJSON,a559eac472,2018-02-07,64e14193,Release version 1.7.3,5,2,10,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,d514bb866e,2018-02-07,64e14193,"Fix #241, potential double free",1,1,0,4,0,4,1,0,0,1,0,0,0,1,0,0,0,61,1,0,0,1,0,0,0,0
+cJSON,27caa364b0,2018-02-06,64e14193,Release version 1.7.2,5,2,10,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,b60b5d3744,2018-01-09,64e14193,Update version to 1.7.1,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,4d84acf926,2018-01-09,64e14193,print_number: fix Off-By-One error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,47,0,0,1,0,0,0,0,0
+cJSON,28d4410f42,2018-01-09,64e14193,print: fix: realloc was allocating too much memory,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,50,0,0,1,0,0,0,0,0
+cJSON,f33fa95f3d,2018-01-09,64e14193,print: Fix default buffer size in printbuffer,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,50,0,0,3,0,0,0,0,0
+cJSON,13a2d337a8,2017-12-31,64e14193,Update version number to 1.7,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,1b21bcd150,2017-12-29,64e14193,cJSON_Add..ToObject: Add comment to header file,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+cJSON,5865faffa3,2017-12-28,64e14193,Convert cJSON_Add...ToObject macros into functions,3,2,144,7,117,7,0,0,0,0,0,0,0,0,9,0,0,0,0,0,99,0,0,0,0,0
+cJSON,de729a1635,2017-12-28,64e14193,Extract add_item_to_object function that returns a boolean,1,1,38,23,38,23,0,0,0,3,0,0,0,0,1,0,0,8,0,0,30,0,0,0,1,0
+cJSON,55c597c719,2017-12-28,64e14193,add_item_to_array with boolean return value,1,1,13,6,13,6,0,0,0,4,0,0,0,0,1,0,0,25,0,0,10,0,0,0,0,0
+cJSON,da8c48668d,2017-11-28,64e14193,Squashed 'tests/unity/' changes from 60b13f0..287e076,10,3,369,142,241,84,0,0,0,1,2,0,0,0,9,6,0,40,1,11,216,0,0,0,0,0
+cJSON,11844dd5a6,2017-11-28,64e14193,"Add cJSON_Create{Array,Object}Reference",3,2,62,0,25,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,19,0,0,0,0,0
+cJSON,1f543f0e28,2017-11-28,64e14193,cast_away_const: Generalize for void*,1,1,4,4,4,4,0,0,0,2,0,0,0,0,1,1,0,14,0,0,4,0,0,0,0,0
+cJSON,eaa90a6b74,2017-11-28,64e14193,Add cJSON_CreateStringReference,3,2,27,0,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+cJSON,440390a9a5,2017-11-28,64e14193,extract function cast_away_const_from_string,1,1,9,4,9,4,0,0,0,1,0,0,0,0,1,0,0,14,0,0,8,0,0,0,1,0
+cJSON,b2afbd3c9f,2017-11-15,64e14193,cJSON_GetStringValue,3,2,25,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,0,0,0,0
+cJSON,fa00278f66,2017-11-04,425838a5,Remove trailing space,12,1,45,45,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+cJSON,c083421f40,2017-10-08,64e14193,Release version 1.6.0,5,2,21,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+cJSON,96c33e5abb,2017-10-08,64e14193,ENABLE_LOCALES: Actually disable the include as well,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+cJSON,9b960fa870,2017-10-08,e46550ad,Small indentation fix in order to follow the contribution rules.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+cJSON,4f9e9dfc30,2017-10-08,e46550ad,"Fix for issue #202, regarding the lack of implementation of the localeconv method in some SDK's. A m",3,1,11,0,4,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+cJSON,b7bfe1e91a,2017-09-12,64e14193,Squashed 'tests/unity/' changes from 3b69bea..60b13f0,16,3,825,264,236,88,0,0,0,2,1,0,0,0,2,1,0,70,2,66,191,0,0,0,0,0
+cJSON,afd5d186b7,2017-09-08,64e14193,Release version 1.5.9,5,2,8,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,629c354390,2017-09-08,0175de2d,Rewrite test for cJSON_ParseWithOpts() to expect non-null error pointer in error case and change cod,3,2,5,7,3,5,0,0,0,1,0,0,0,1,0,0,0,62,1,1,1,0,0,0,0,0
+cJSON,1925d1bbe5,2017-08-21,64e14193,Release version 1.5.8,5,2,8,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,88d66c5da9,2017-07-12,64e14193,Release version 1.5.7,6,2,12,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,954d61e5e7,2017-07-12,64e14193,"Fix #189, ensure returns an invalid pointer",2,1,25,1,8,0,1,0,0,1,0,0,1,0,0,0,0,70,1,7,7,0,0,0,0,0
+cJSON,5baa77f86c,2017-07-03,64e14193,"cJSON_Parse{,WithOpts}: Skip UTF-8 (Byte Order Marks)",3,1,60,2,17,2,0,0,0,1,0,0,0,0,1,0,0,65,1,1,13,0,0,0,0,0
+cJSON,7a2615c231,2017-06-28,64e14193,Fix: Check if __GNUCC__ is defined,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,ac368e9dfb,2017-06-28,64e14193,MSVC: Fix warning about assignment in condition,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+cJSON,d1c2e2df4a,2017-06-28,64e14193,MSVC: workaround for C2322,1,1,21,1,21,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,19,0,0,0,0,0
+cJSON,0d675cb048,2017-06-28,64e14193,MSVC: Disable warning about single line comments in system headers,2,2,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,0,0
+cJSON,217ab02612,2017-06-28,64e14193,cJSON_Utils: Guard gcc pragmas with a check for __GCC__,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+cJSON,e872d40223,2017-06-28,64e14193,MSVC: Disable deprecation warnings for C89 functions,2,2,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+cJSON,38b2f40a9a,2017-06-28,64e14193,Add warning -Wunused-macro,2,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,d3bc571a38,2017-06-28,64e14193,Release Version 1.5.6,5,2,10,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,93227319f0,2017-06-28,64e14193,handle null pointers: cJSONUtils_GeneratePatchesCaseSensitive,1,1,8,1,8,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+cJSON,f0c1b896ba,2017-06-28,64e14193,handle null pointers: cJSONUtils_GeneratePatches,1,1,8,1,8,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+cJSON,2d252ae595,2017-06-28,64e14193,handle null pointer: compose_patch,1,1,8,1,8,1,0,0,0,1,0,0,0,0,0,0,0,33,0,0,6,0,0,0,0,0
+cJSON,c46c4d1559,2017-06-28,64e14193,handle null pointer: sort_object,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+cJSON,1af74c8cc1,2017-06-28,64e14193,handle null pointer: get_item_from_pointer,1,1,6,0,6,0,0,0,0,1,1,0,0,0,0,0,0,38,1,4,4,0,0,0,0,0
+cJSON,9bdf19fde1,2017-06-28,64e14193,handle null pointer: cJSONUtils_FindPointerFromObjectTo,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,44,0,0,4,0,0,0,0,0
+cJSON,24ea388dcf,2017-06-28,64e14193,handle null pointers: cJSON_Minify,1,1,6,0,6,0,0,0,0,1,0,0,1,0,0,0,0,60,1,4,4,0,0,0,0,0
+cJSON,39745c9c75,2017-06-28,64e14193,handle null pointers: cJSON_ReplaceItemViaPointer,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+cJSON,9585c38d5a,2017-06-28,64e14193,handle null pointers: cJSON_CreateStringArray,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+cJSON,c268e77b21,2017-06-28,64e14193,handle null pointers: cJSON_CreateDoubleArray,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+cJSON,9f745a2251,2017-06-28,64e14193,handle null pointers: cJSON_CreateFloatArray,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+cJSON,010e31f2f2,2017-06-28,64e14193,handle null pointers: cJSON_CreateIntArray,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+cJSON,8ea37fce01,2017-06-28,64e14193,handle null pointers: replace_item_in_object,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+cJSON,b2fe02712d,2017-06-28,64e14193,handle null pointers: cJSON_AddItemReferenceToObject,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+cJSON,c179509b31,2017-06-28,64e14193,handle null pointers: cJSON_AddItemReferenceToArray,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+cJSON,46c4f55c94,2017-06-28,64e14193,handle null pointers: cJSON_AddItemToObjectCS,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+cJSON,90ff72c8bb,2017-06-28,64e14193,handle null pointers: create_reference,1,1,14,7,14,7,0,0,0,1,0,0,0,0,0,0,0,18,0,0,12,0,0,0,0,0
+cJSON,e9d1de24cf,2017-06-28,64e14193,handle null pointers: cJSON_GetArraySize,1,1,14,6,14,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+cJSON,56f2bc6f3e,2017-06-28,64e14193,handle null pointers: cJSON_PrintPreallocated,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+cJSON,cdc35ebf88,2017-06-28,64e14193,handle null pointers: cJSON_AddItemToObject,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+cJSON,90a46eaccd,2017-06-27,64e14193,cJSON.h: Move cJSON_ParseWithOpts after cJSON_Parse,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+cJSON,2a3a313f83,2017-06-27,64e14193,cJSON_PrintBuffered: Fix potential memory leak,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+cJSON,a2a2411b12,2017-06-14,64e14193,Release version 1.5.5,5,2,12,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,03ba72faec,2017-06-14,64e14193,cJSON_Compare: Fix comparison of objects,2,1,27,1,18,1,1,1,0,1,0,0,1,0,0,0,0,99,1,14,14,0,0,0,0,0
+cJSON,569aa060c6,2017-06-14,64e14193,cJSON_Compare: Fix comparison of arrays,2,1,9,0,5,0,1,0,0,1,0,0,1,0,0,0,0,86,1,3,3,0,0,0,0,0
+cJSON,b9cc911831,2017-06-14,64e14193,cJSON_Utils: Fix case sensitivity handling when adding to object,1,1,8,1,8,1,1,0,0,1,0,0,1,0,0,0,0,183,1,8,8,0,0,0,0,0
+cJSON,9abe75e072,2017-06-14,64e14193,cJSON_Utils: Fix get_item_from_pointer,1,1,6,5,6,5,1,0,0,1,0,0,0,0,0,0,0,34,0,0,4,0,0,0,0,0
+cJSON,9189b3322a,2017-06-04,64e14193,Release v1.5.4,5,2,14,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,38b44a298d,2017-06-04,64e14193,Squashed 'tests/unity/' changes from f96c055..3b69bea,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+cJSON,00d5e225a6,2017-05-22,64e14193,Release version 1.5.3,5,2,10,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,9ecc96878f,2017-05-22,64e14193,fix #174: cJSON_ReplaceItemInObject doesn't copy name,2,1,43,2,22,2,1,0,0,2,0,0,0,0,1,0,0,4,0,0,17,0,0,0,0,0
+cJSON,ddf268b074,2017-05-10,64e14193,cJSON.h: Document cJSON_ArrayForEach for objects,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,de5df3e56f,2017-05-10,64e14193,Release version 1.5.2,5,2,12,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,a167d9e381,2017-05-10,64e14193,Fix reading buffer overflow in parse_string,1,1,2,2,2,2,1,0,0,1,0,0,1,0,0,0,0,103,1,2,2,1,0,0,0,0
+cJSON,186cce3ece,2017-05-10,64e14193,Fix -Wcomma,1,1,7,5,7,5,1,0,0,1,0,0,0,0,0,0,0,83,1,5,5,0,0,0,0,0
+cJSON,6c9f76c100,2017-05-06,64e14193,Release version 1.5.1,5,2,11,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,c0088e1ebe,2017-05-06,bb0310d5,free() to cJSON_free(),1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,110,1,4,5,0,0,0,0,0
+cJSON,1217ca9e9f,2017-05-02,64e14193,Release version 1.5.0,4,2,6,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+cJSON,66f75619d9,2017-05-02,64e14193,Add cJSONUtils_MergePatchCaseSensitive,2,2,39,4,39,4,0,0,0,1,0,0,0,0,2,0,0,4,0,0,34,0,0,0,0,0
+cJSON,7f22948eec,2017-05-02,64e14193,Add cJSONUtils_SortObjectCaseSensitive,2,2,127,116,127,116,0,0,0,5,0,0,0,0,2,0,0,110,4,93,102,0,0,0,0,0
+cJSON,b674519695,2017-05-02,64e14193,Add cJSONUtils_GenerateMergePatchCaseSensitive,2,2,12,2,12,2,0,0,0,1,1,1,0,0,2,0,0,4,1,4,10,0,0,0,0,0
+cJSON,94057fb069,2017-05-02,64e14193,Add cJSONUtils_ApplyPatchesCaseSensitive,2,2,30,0,30,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,24,0,0,0,0,0
+cJSON,3bf2913634,2017-05-02,64e14193,Add cJSONUtils_GeneratePatchesCaseSensitive,2,2,9,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,0,0,0,0
+cJSON,cd4d7b9b6e,2017-05-02,64e14193,Add cJSONUtils_GetPointerCaseSensitive,2,2,6,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+cJSON,73823c4b6d,2017-05-02,64e14193,Add get_object_item: configurable case_sensitivity,1,1,18,8,18,8,0,0,0,2,0,0,0,0,1,0,0,176,1,6,16,0,0,0,0,0
+cJSON,0aaef1a8fa,2017-05-02,64e14193,sort_list: configurable case sensitivity,1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,87,1,4,5,0,0,0,0,0
+cJSON,e88be8681d,2017-05-02,64e14193,create_patches: Configurable case sensitivity,1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,110,1,4,5,0,0,0,0,0
+cJSON,222686513e,2017-05-02,64e14193,apply_patch: configurable case sensitivity,1,1,2,3,2,3,0,0,0,2,0,0,0,1,0,0,0,176,1,1,2,0,0,0,0,0
+cJSON,62b08f1336,2017-05-02,64e14193,compare_json: configurable case sensitivity,1,1,7,6,7,6,0,0,0,3,0,0,1,0,0,0,0,177,3,7,7,0,0,0,0,0
+cJSON,7de847eeea,2017-05-02,64e14193,detach_path: Configurable case sensitivity,1,1,3,4,3,4,0,0,0,2,0,0,0,0,0,0,0,177,1,2,3,0,0,0,0,0
+cJSON,af9c76e37e,2017-05-02,64e14193,Add get_item_from_pointer: Configurable case sensitivity,1,1,13,6,13,6,0,0,0,3,0,0,1,0,1,0,0,177,1,4,12,0,0,0,0,0
+cJSON,2f33e8ec9b,2017-05-02,64e14193,Add compare_pointers: Configurable case sensitivity,1,1,3,3,3,3,0,0,0,1,1,1,0,0,1,1,0,34,0,0,3,0,0,0,0,0
+cJSON,30906a01c0,2017-05-02,64e14193,another compare_strings fix,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+cJSON,eb017abe72,2017-05-02,64e14193,fix update fix,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,110,1,1,1,0,0,0,0,0
+cJSON,487a8b76a1,2017-05-02,64e14193,fix another compare_strings,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,110,1,1,1,0,0,0,0,0
+cJSON,1d85450883,2017-05-02,64e14193,fix configurable compare_stirings,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,0,0
+cJSON,2616db9e92,2017-05-02,64e14193,Add compare_strings: configurable case_sensitivity,1,1,14,9,14,9,0,0,0,4,0,0,0,0,1,1,0,110,4,7,12,0,0,0,0,0
+cJSON,23cbb173d4,2017-05-02,64e14193,cJSONUtils_SortList -> sort_list,1,1,4,4,4,4,0,0,0,1,1,1,0,0,1,1,0,4,0,0,4,0,0,0,0,0
+cJSON,a29c468b68,2017-05-02,64e14193,cJSON_CompareToPatch -> create_patches,1,1,4,4,4,4,0,0,0,1,1,1,0,0,1,1,0,6,0,0,4,0,0,0,0,0
+cJSON,1d65f33d3d,2017-05-02,64e14193,cJSONUtils_GeneratePatch -> compose_patch,1,1,9,9,9,9,0,0,0,2,0,0,0,0,1,1,0,110,1,7,9,0,0,0,0,0
+cJSON,997ca129a2,2017-05-02,64e14193,cJSONUtils_ApplyPatch -> apply_patch,1,1,2,2,2,2,0,0,0,1,1,1,0,0,1,1,0,23,0,0,2,0,0,0,0,0
+cJSON,cf1770b0ea,2017-05-02,64e14193,cJSONUtils_Compare -> compare_json,1,1,21,21,21,21,0,0,0,2,1,1,0,0,1,1,0,176,2,2,21,0,0,0,0,0
+cJSON,aefe2f85ab,2017-05-02,64e14193,cJSONUtils_PatchDetach -> detach_path,1,1,4,3,4,3,0,0,0,1,0,0,0,0,1,1,0,176,1,2,3,0,0,0,0,0
+cJSON,7f645de322,2017-05-02,64e14193,cJSONUtils_InplaceDecodePointerString -> decode_pointer_inplace,1,1,3,3,3,3,0,0,0,2,0,0,0,0,1,1,0,176,1,1,3,0,0,0,0,0
+cJSON,e6c239db2b,2017-05-02,64e14193,cJSONUtils_PointerEncodedstrcpy -> encode_string_as_pointer,1,1,4,4,4,4,0,0,0,3,0,0,0,0,1,1,0,110,1,1,4,0,0,0,0,0
+cJSON,f4d9e2e1a1,2017-05-02,64e14193,cJSON_strcasecmp -> case_insensitive_strcmp,1,1,5,5,5,5,0,0,0,3,0,0,0,0,1,1,0,110,3,4,5,0,0,0,0,0
+cJSON,e3ed64d56e,2017-05-02,64e14193,cJSON_PointerEncodedstrlen -> pointer_encoded_length,1,1,4,4,4,4,0,0,0,3,0,0,0,0,1,1,0,110,1,1,4,0,0,0,0,0
+cJSON,6b01dee7ca,2017-05-02,64e14193,Rename cJSONUtils_Pstrcasecmp to case_insensitive_pointer_comparison,1,1,7,7,7,7,0,0,0,1,1,1,0,0,1,1,0,34,0,0,7,0,0,0,0,0
+cJSON,b73881a388,2017-05-02,64e14193,cJSON_Utils: Add true/false,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,bb2f868126,2017-05-02,64e14193,refactor cJSONUtils_GenerateMergePatch,2,2,41,18,41,18,0,0,0,1,0,0,1,0,0,0,0,63,1,34,35,0,0,0,0,1
+cJSON,11b8a8cd76,2017-05-02,64e14193,refactor cJSONUtils_MergePatch,2,2,11,9,11,9,0,0,0,1,0,0,0,0,0,0,0,29,0,0,10,0,0,0,0,1
+cJSON,01d656bebc,2017-05-02,64e14193,refactor cJSONUtils_SortObject,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,1
+cJSON,7bf62ff4dc,2017-05-02,64e14193,refactor cJSONUtils_SortList,1,1,54,50,54,50,0,0,0,1,0,0,1,0,0,0,0,87,1,46,46,0,0,0,0,1
+cJSON,f030058183,2017-05-02,64e14193,refactor cJSONUtils_GeneratePatches,2,2,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,1
+cJSON,a67c24c451,2017-05-02,64e14193,refactor cJSONUtils_CompareToPatch,1,1,62,37,62,37,0,0,0,1,0,0,1,0,0,0,0,110,1,53,53,0,0,0,0,1
+cJSON,512c313111,2017-05-02,64e14193,refactor cJSONUtils_AddPatchToArray,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,1
+cJSON,e591d4173a,2017-05-02,64e14193,refactor cJSONUtils_GeneratePatch,1,1,21,10,21,10,0,0,0,1,0,0,0,0,0,0,0,28,0,0,17,0,0,0,0,1
+cJSON,bde341edd8,2017-05-02,64e14193,refactor cJSONUtils_ApplyPatches,2,2,13,9,13,9,0,0,0,1,0,0,0,0,0,0,0,23,0,0,11,0,0,0,0,1
+cJSON,48c97985d6,2017-05-02,64e14193,refactor cJSONUtils_ApplyPatch,1,1,143,110,143,110,0,0,0,1,0,0,0,1,2,0,0,176,1,88,126,0,0,0,0,1
+cJSON,63db67bfeb,2017-05-02,64e14193,refactor cJSONUtils_Compare,1,1,47,17,47,17,0,0,0,1,0,0,1,0,0,0,0,72,1,41,41,0,0,0,0,1
+cJSON,2040ce9004,2017-05-02,64e14193,refactor cJSONUtils_PatchDetach,1,1,30,27,30,27,0,0,0,1,0,0,0,0,0,0,0,43,0,0,28,0,0,0,0,1
+cJSON,4ba6bafe34,2017-05-02,64e14193,refactor cJSONUtils_InplaceDecodePointerString,1,1,21,8,21,8,0,0,0,1,0,0,0,0,0,0,0,27,0,0,19,0,0,0,0,1
+cJSON,378a333ee2,2017-05-02,64e14193,refactor cJSONUtils_GetPointer,2,2,13,11,13,11,0,0,0,1,0,0,0,0,0,0,0,34,0,0,13,0,0,0,0,1
+cJSON,4642d6575f,2017-05-02,64e14193,refactor decode_array_index_from_pointer,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,1
+cJSON,4932c80f26,2017-05-02,64e14193,refactor cJSONUtils_FindPointerFromObjectTo,2,2,24,22,24,22,0,0,0,1,0,0,0,0,0,0,0,40,0,0,21,0,0,0,0,1
+cJSON,674a678819,2017-05-02,64e14193,refactor cJSONUtils_PointerEncodedstrcpy,1,1,12,10,12,10,0,0,0,1,0,0,0,0,0,0,0,22,0,0,11,0,0,0,0,1
+cJSON,b8e3673d0f,2017-05-02,64e14193,refactor cJSONUtils_PointerEncodedstrlen,1,1,8,6,8,6,0,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,1
+cJSON,b16bcc3c19,2017-05-02,64e14193,refactor cJSONUtils_Pstrcasecmp,1,1,12,11,12,11,0,0,0,1,0,0,0,1,0,0,0,30,1,9,9,0,0,0,0,1
+cJSON,44d313212b,2017-05-02,64e14193,refactor cJSONUtils_strcasecmp,1,1,11,8,11,8,0,0,0,1,0,0,0,0,0,0,0,19,0,0,8,0,0,0,0,1
+cJSON,055c7007e5,2017-05-02,64e14193,refactor cJSONUtils_strdup,1,1,6,5,6,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,1
+cJSON,dede4e3246,2017-05-02,64e14193,Add cJSON_ReplaceItemInObjectCaseSensitive,2,2,6,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+cJSON,8b953d1202,2017-05-02,64e14193,Add cJSON_ReplaceItemViaPointer,3,2,72,34,24,34,0,0,0,2,0,0,0,0,1,1,0,8,0,0,22,0,0,0,0,0
+cJSON,2d07bbc9b2,2017-05-02,64e14193,Add cJSON_DeleteItemFromObjectCaseSensitive,2,2,6,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+cJSON,8816a568ab,2017-05-02,64e14193,Add cJSON_DetachItemFromObjectCaseSensitive,2,2,10,6,10,6,0,0,0,1,0,0,0,0,1,0,0,5,0,0,8,0,0,0,0,0
+cJSON,33193ea557,2017-05-02,64e14193,Internal function get_array_item,2,2,49,40,49,40,0,0,0,4,0,0,0,0,1,1,0,25,0,0,38,0,0,0,0,0
+cJSON,acb0ca88df,2017-05-01,64e14193,Use cJSON_DetachItemViaPointer internally,1,1,2,28,2,28,0,0,0,2,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+cJSON,c24c3e0285,2017-05-01,64e14193,Add cJSON_DetachItemViaPointer,3,2,71,0,31,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,23,0,0,0,0,0
+cJSON,a69ad22639,2017-04-29,dacee07c,"Remove test for negative zero, as -0 is acceptable output",1,1,0,5,0,5,0,0,0,1,0,1,0,0,0,0,0,47,1,0,0,0,0,0,1,0
+cJSON,ee3c3bc80e,2017-04-27,64e14193,cJSONUtils_GeneratePatches: Fix multiple removes in arrays,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,93,1,1,1,0,0,0,0,0
+cJSON,ab77a80e9b,2017-04-27,64e14193,Squashed 'tests/unity/' changes from 1f52255..f96c055,38,4,4252,1279,255,60,0,0,0,7,2,0,3,0,3,0,0,68,7,64,225,0,0,0,0,0
+cJSON,949c083315,2017-04-27,64e14193,Move 'hooks' parameter into buffers (parse/print),11,1,122,98,69,63,0,0,0,15,0,0,1,0,0,0,0,103,11,51,69,0,0,0,1,0
+cJSON,c4c217f2ce,2017-04-27,64e14193,Move 'format' into printbuffer,6,1,47,38,31,26,0,0,0,6,0,0,0,0,0,0,0,96,3,18,30,0,0,0,1,0
+cJSON,79f30800ec,2017-04-27,64e14193,Move print depth into printbuffer,6,1,37,32,25,20,0,0,0,6,1,0,1,0,0,0,0,96,3,16,25,0,0,0,1,0
+cJSON,e0d3a8a265,2017-04-27,64e14193,Limit nesting depth to 1000 and make it configurable.,12,2,54,23,24,1,0,0,0,3,0,0,2,0,0,0,0,81,3,13,17,0,0,0,0,0
+cJSON,a400888c1f,2017-04-25,1c1c95be,Document cJSON_free API,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,3fc9bc0648,2017-04-20,dacee07c,cJSON: Fix print_number to print significant digits of doubles,2,1,21,59,14,42,1,0,0,1,0,0,0,1,0,1,0,51,1,9,9,0,0,0,0,0
+cJSON,05f75e360b,2017-04-18,64e14193,Release Version 1.4.7,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,51d3df6c9f,2017-04-18,64e14193,cJSON_GetObjectItemCaseSensitive: Fix inconsistent prototype,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,609bb75421,2017-04-12,64e14193,cJSON_Utils: Use cJSON_free and cJSON_malloc,1,1,13,13,13,13,0,0,0,5,0,0,0,0,0,0,0,93,1,2,13,0,0,0,0,0
+cJSON,134ebf5e89,2017-04-12,64e14193,cJSONUtils_ApplyPatches: Handle replacement of root,1,1,76,1,76,1,0,0,0,1,0,0,1,0,0,0,0,199,1,54,54,0,0,0,0,0
+cJSON,02a05eea4e,2017-04-12,64e14193,cJSON: Add cJSON_malloc and cJSON_free,2,2,14,0,14,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,10,0,0,0,0,0
+cJSON,d67b008d4b,2017-04-12,64e14193,decode_array_index_from_pointer: parse manually,1,1,29,23,29,23,0,0,0,2,0,1,0,0,0,0,0,32,1,1,19,0,0,0,0,0
+cJSON,c66342d871,2017-04-12,64e14193,cJSON_Utils: Use enum for opcode,1,1,14,15,14,15,0,0,0,1,0,0,0,0,0,0,0,146,1,12,13,0,0,0,0,0
+cJSON,c960b2b853,2017-04-12,64e14193,cJSON_Utils: Fix size_t support of cJSONUtils_GetPointer,1,1,16,7,16,7,1,0,0,1,0,0,0,1,1,0,0,36,1,3,13,0,0,0,0,0
+cJSON,3056d85f01,2017-04-12,64e14193,cJSON_Utils: Use new helper function,1,1,40,1,40,1,0,0,0,1,0,0,0,0,1,0,0,40,0,0,34,0,0,0,0,0
+cJSON,b470d918f3,2017-04-12,64e14193,cJSONUtils: add decode_array_index_from_pointer as common helper function,1,1,19,13,19,13,0,0,0,1,0,0,0,1,1,0,0,146,1,3,13,0,0,0,0,0
+cJSON,8efb287ae2,2017-04-12,64e14193,cJSONUtils_ApplyPatches: Fail if removal failed,1,1,7,2,7,2,0,0,0,1,0,0,1,0,0,0,0,153,1,6,6,0,0,0,0,0
+cJSON,a1602f484b,2017-04-12,64e14193,cJSONUtils_ApplyPatches: Don't accept invalid array indices,1,1,19,1,19,1,0,0,0,1,0,0,1,0,0,0,0,148,1,15,15,0,0,0,0,0
+cJSON,d058a9cd8f,2017-04-11,64e14193,cJSON_ApplyPatches: Don't allow adding to array out of bounds,1,1,44,1,44,1,0,0,0,1,0,0,1,0,1,0,0,134,1,6,36,1,0,0,0,0
+cJSON,075a06f40b,2017-04-11,64e14193,cJSONUtils_ApplyPatches: Fix not accepting arrays,1,1,1,6,1,6,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+cJSON,62ba68fc7d,2017-04-11,64e14193,cJSONUtils_ApplyPatches: Fix not accepting arrays,1,1,1,6,1,6,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+cJSON,6ac896d8d2,2017-04-08,64e14193,cJSON_Compare: New function to compare json,4,2,298,0,105,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,84,0,0,0,0,0
+cJSON,2a25abbf2a,2017-04-08,64e14193,Deduplicate code for cJSON_GetObjectItem,1,1,26,16,26,16,0,0,0,4,0,0,0,0,1,0,0,19,0,0,24,0,0,0,0,1
+cJSON,e9803341d5,2017-04-08,64e14193,simplify and rename cJSON_strcasecmp,1,1,9,15,9,15,0,0,0,3,0,0,0,0,1,1,0,19,0,0,8,0,0,0,0,1
+cJSON,6c3df7eb59,2017-04-08,64e14193,cJSON_ParseWithOpts: Fix -Wmissing-field-initializers,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,64,1,1,1,0,0,0,0,0
+cJSON,2148e3277a,2017-04-08,ee3f9aab,"Renaming ""min"" to ""cjson_min"".",1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,46,0,0,2,0,0,0,0,0
+cJSON,c786cd9714,2017-04-08,ee3f9aab,"Adding back ""const"".",2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+cJSON,238ceec175,2017-04-08,ee3f9aab,Fixing all W4-level warnings.,1,1,13,2,13,2,1,0,0,2,0,0,0,0,0,0,0,64,1,1,10,0,0,0,0,0
+cJSON,6702037b68,2017-04-08,64e14193,cJSON_Delete: Improve readability,1,1,11,11,11,11,0,0,0,1,0,0,0,0,0,0,0,22,0,0,11,0,0,0,0,0
+cJSON,eb5000ba61,2017-04-08,64e14193,cJSON_strdup: improve readability,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+cJSON,655c26ada1,2017-04-08,64e14193,cJSON_strcasecmp: Improve readability,1,1,15,7,15,7,0,0,0,1,0,0,0,0,0,0,0,23,0,0,11,0,0,0,0,0
+cJSON,218b0c8dcf,2017-04-08,64e14193,cJSON_Print: Use reallocate if available,1,1,19,8,19,8,0,0,0,1,0,0,0,0,0,0,0,46,0,0,17,0,0,0,0,0
+cJSON,281df6997c,2017-04-08,64e14193,Update copyright,7,5,72,4,47,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0
+cJSON,56a32f9ecc,2017-04-08,64e14193,Use error_position instead of error pointer internally,1,1,25,7,25,7,0,0,0,2,0,0,1,0,0,0,0,64,1,14,20,0,0,0,0,0
+cJSON,2683589d93,2017-04-08,64e14193,parser: Construct error pointer from buffer offset,8,1,49,72,39,52,0,0,0,6,1,0,1,4,0,0,0,103,6,31,34,0,0,0,0,0
+cJSON,c837177a56,2017-04-08,64e14193,utf16_literal_to_utf8: Support \u0000,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,90,1,1,1,0,0,0,0,0
+cJSON,80bc7652ae,2017-04-08,64e14193,cJSON_ParseWithOptions: Remove end pointer,1,1,4,17,4,17,0,0,0,1,0,0,0,0,0,1,0,43,0,0,2,0,0,0,1,0
+cJSON,87a204ed0b,2017-04-08,64e14193,parse_functions: Return booleans instead of pointers,9,1,41,48,30,37,0,0,0,6,0,0,0,1,0,0,0,101,5,24,29,0,0,0,0,0
+cJSON,c9739c59fd,2017-04-08,64e14193,Replace strchr with switch case,1,1,19,9,19,9,0,0,0,1,0,0,1,0,0,0,0,101,1,16,16,0,0,0,0,0
+cJSON,778a0c146f,2017-04-08,64e14193,parse_string: Use parsebuffer,2,1,36,26,20,22,0,0,0,3,0,0,1,2,0,0,0,101,3,17,17,0,0,0,0,0
+cJSON,f69b109c9f,2017-04-08,64e14193,parse_number: Use parse_buffer,2,1,16,16,10,15,0,0,0,2,0,0,1,1,0,0,0,68,2,8,8,0,0,0,0,0
+cJSON,fef1c45b92,2017-04-08,64e14193,parse_object: Use parse_buffer,3,1,54,29,35,26,0,0,0,2,0,0,1,0,0,0,0,82,2,28,29,0,0,0,0,0
+cJSON,033a542532,2017-04-08,64e14193,parse_array: Use parsebuffer,3,1,79,30,61,27,0,0,0,3,0,0,2,0,0,0,0,74,2,42,51,0,0,0,0,0
+cJSON,fd0320cf54,2017-04-08,64e14193,parse_value: Use parse_buffer,3,1,75,23,64,21,0,0,0,4,0,0,3,0,1,0,0,75,3,38,55,0,0,0,0,0
+cJSON,0f98214e71,2017-04-08,64e14193,parsebuffer: type and macros,1,1,16,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+cJSON,06a2326e3b,2017-04-08,64e14193,cJSON_ParseWithOpts: Use goto fail,1,1,20,6,20,6,0,0,0,1,0,0,0,0,0,0,0,41,0,0,15,0,0,0,0,0
+cJSON,11131b9ced,2017-04-08,64e14193,cJSON_ParseWithOptions: Improve variable names and intent,1,1,11,11,11,11,0,0,0,1,0,0,0,0,0,0,0,32,0,0,9,0,0,0,0,0
+cJSON,99db5db9a4,2017-04-08,64e14193,Release version 1.4.6,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,411c50f671,2017-04-08,64e14193,Don't redefine CJSON_EXPORT_SYMBOLS,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,ec2db50b6f,2017-04-08,64e14193,dllexport symbols by default and add CJSON_IMPORT_SYMBOLS,1,1,9,3,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,0,0
+cJSON,65541b900c,2017-04-08,64e14193,Update space requirements of cJSON_PrintPreallocated,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+cJSON,c08f7e1d29,2017-04-08,64e14193,print_number: Make locale independent,2,1,51,46,46,35,0,0,0,2,1,0,0,0,0,0,0,61,1,29,37,0,0,0,0,0
+cJSON,71b96afc27,2017-04-08,64e14193,print_number: Fix comment (missing word 'zeroes'),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,44,0,0,1,0,0,0,0,0
+cJSON,749fefc0c4,2017-04-08,64e14193,Make parse_number locale independent,1,1,48,3,48,3,0,0,0,1,1,0,0,0,1,0,0,61,1,35,41,0,0,0,0,0
+cJSON,c784f76c77,2017-04-08,64e14193,"cJSON_strdup: Use sizeof("""") instead of 1",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+cJSON,84237ff48e,2017-04-08,64e14193,"Replace sizeof('\0') with sizeof("""")",3,1,4,4,2,2,0,0,0,2,0,0,0,0,0,0,0,95,2,2,2,0,0,0,0,0
+cJSON,795c3acabe,2017-04-05,64e14193,cJSON_Utils: Fix potential null pointer dereference,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,129,1,1,1,0,0,0,0,0
+cJSON,2683d4d987,2017-04-05,64e14193,ensure: Fix overflow detection,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,63,1,1,1,1,0,0,0,0
+cJSON,3c1bfe125c,2017-04-02,64e14193,Clarify deprecation of valueint,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,5916f70640,2017-04-01,64e14193,cJSON.h: Deprecate valueint,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cJSON,3a20692c18,2017-03-28,64e14193,Release version 1.4.5,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,ef34500693,2017-03-28,64e14193,"cJSON_SetNumberHelper: Fix valueint, closes #138",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+cJSON,b0dfcde04c,2017-03-23,64e14193,Release Version 1.4.4,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,1934059554,2017-03-23,64e14193,ensure: Validate buffer offset,1,1,6,0,6,0,0,0,0,1,0,0,1,0,0,0,0,63,1,4,4,0,0,0,0,0
+cJSON,cc84a446be,2017-03-23,64e14193,ensure: Fix potential off by one error.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,59,1,1,1,0,0,0,0,0
+cJSON,e58f7ec027,2017-03-23,64e14193,ensure: Fix potential overflow of size_t,1,1,5,2,5,2,1,0,0,1,0,0,1,0,0,0,0,59,1,5,5,1,0,0,0,0
+cJSON,4bfb880093,2017-03-22,64e14193,cJSON.h: Note about buffer size for cJSON_PrintPreallocated,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,b7ce06224b,2017-03-19,64e14193,Release version 1.4.3,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,227d3398d6,2017-03-18,64e14193,Fix the pragmas for Wcast-qual with old gcc versions,1,1,7,3,7,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+cJSON,466eb8e3f8,2017-03-18,64e14193,Fix wconversion with old gcc (e.g. 4.3),2,2,6,6,6,6,1,0,0,3,0,0,0,0,0,0,0,94,1,3,5,0,0,0,0,0
+cJSON,a1b37d0abe,2017-03-16,64e14193,Release Version 1.4.2,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,e3d5798896,2017-03-15,64e14193,Release version 1.4.1,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,cf1842dc6f,2017-03-15,64e14193,fix: print_number didn't abort when out of memory,1,1,23,21,23,21,1,0,0,1,0,0,0,0,0,0,0,44,0,0,20,0,0,0,0,0
+cJSON,02cd3eec37,2017-03-03,64e14193,Update version number to 1.4.0,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,5f783fff11,2017-03-03,64e14193,cJSON_Utils: Add gcc pragma to use default visibility for system headers,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+cJSON,0bb1843925,2017-03-03,64e14193,print_value: return as soon as possible,1,1,26,19,26,19,0,0,0,1,0,0,0,0,0,0,0,65,1,18,18,0,0,0,0,0
+cJSON,5ea4fad263,2017-03-03,64e14193,print_string: return boolean instead of pointer,2,1,11,11,10,10,0,0,0,4,0,0,0,0,0,0,0,94,3,9,10,0,0,0,0,0
+cJSON,1749de02f8,2017-03-03,64e14193,print_number: return boolean instead of pointer,2,1,11,13,8,9,0,0,0,3,0,0,0,1,0,0,0,65,1,1,8,0,0,0,0,0
+cJSON,748f4bfd4f,2017-03-03,64e14193,print_object: return boolean instead of pointer,2,1,14,19,12,17,0,0,0,2,0,0,0,2,0,0,0,94,2,11,12,0,0,0,0,0
+cJSON,bea1d102fd,2017-03-03,64e14193,print_array: return boolean instead of pointer,2,1,11,16,9,14,0,0,0,2,0,1,0,1,0,0,0,67,2,8,9,0,0,0,0,0
+cJSON,d441fa05b3,2017-03-03,64e14193,print_value: return boolean instead of pointer,2,1,14,9,13,8,0,0,0,5,0,0,0,0,0,0,0,68,2,4,12,0,0,0,0,0
+cJSON,d8d0ae66d3,2017-03-02,64e14193,print_number: Fix incorrect output pointer,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,43,0,0,1,0,0,0,0,0
+cJSON,9d07917feb,2017-03-02,64e14193,utf16_literal_to_utf8: Eliminate Duff's Device,1,1,20,31,20,31,0,0,0,1,0,0,0,1,0,0,0,90,1,17,17,0,0,0,0,0
+cJSON,2c45ad7816,2017-03-01,64e14193,Squashed 'tests/unity/' changes from 2988e98..1f52255,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,49,1,1,4,0,0,0,0,0
+cJSON,6405fd15e3,2017-03-01,64e14193,CMake: Set default visibility to hidden and dllexport on windows,3,1,18,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+cJSON,2d3520e0b9,2017-03-01,64e14193,Use own cJSON_bool boolean type in the header,2,2,45,44,45,44,0,0,0,21,0,0,0,0,0,0,0,98,4,4,44,0,0,1,0,0
+cJSON,412f4f7d62,2017-03-01,64e14193,Use CJSON_PUBLIC for typecheck functions,2,2,23,23,23,23,0,0,0,10,0,0,0,0,0,0,0,8,0,0,21,0,0,0,0,0
+cJSON,dd4cb5400f,2017-03-01,64e14193,print_number: Remove unnecessary integer handling,1,1,19,34,19,34,0,0,0,1,0,1,0,0,0,0,0,43,1,16,16,0,0,0,1,0
+cJSON,1ea72f8260,2017-03-01,64e14193,print_number: Remove trailing zeroes (for doubles),4,1,47,6,41,0,0,0,0,1,0,0,1,0,1,0,0,55,1,8,31,0,0,0,1,0
+cJSON,e78bc42362,2017-03-01,64e14193,print_number: Return buffer + offset instead of beginning of the number,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,47,1,1,1,0,0,0,0,0
+cJSON,6f271e511f,2017-03-01,64e14193,print_number: Use sprintf's return value,1,1,14,5,14,5,0,0,0,1,0,0,1,0,0,0,0,47,1,11,11,0,0,0,0,0
+cJSON,3f349a4258,2017-03-01,64e14193,Add -Wdouble-promotion compiler flag,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+cJSON,b056d7cb74,2017-03-01,64e14193,Add -Wcomma compiler flag,5,2,14,13,11,11,0,0,0,9,0,0,0,0,0,0,0,93,4,6,11,0,0,0,0,0
+cJSON,c66d95d116,2017-02-28,64e14193,Release bugfix release 1.3.2,4,2,4,4,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,039b1cc653,2017-02-27,1606343d,add CJSON_PUBLIC macro to public functions to support visibility and dllimport/dllexport,4,4,138,101,138,101,0,0,0,51,0,0,0,0,0,0,0,67,4,4,128,0,0,1,1,0
+cJSON,c0ff1fef9b,2017-02-26,64e14193,Release 1.3.1,4,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cJSON,ed8dc53699,2017-02-26,64e14193,cJSON_Utils: Use new typecheck functions,1,1,13,14,13,14,0,0,0,7,0,0,0,1,0,0,0,129,3,5,13,0,0,0,0,0
+cJSON,c26d53f0d7,2017-02-26,64e14193,Helper function to check the type of an item,2,2,112,0,112,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,90,0,0,0,0,0
+cJSON,72e6e23523,2017-02-23,1606343d,prevent read beyond end of buffer when string ends with malformed utf,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,98,1,1,1,0,0,0,0,0
+cJSON,501046247d,2017-02-21,64e14193,fix clang-sanitizer warnings,1,1,0,2,0,2,1,0,0,2,0,0,0,2,0,0,0,98,2,0,0,1,0,0,0,0
+cJSON,68cd0d4a11,2017-02-21,64e14193,cJSON.c: Pass allocation functions through internal functions,11,1,138,133,118,113,0,0,0,37,0,0,0,0,0,0,0,99,11,52,117,0,0,0,0,0
+cJSON,605422c60a,2017-02-21,64e14193,cJSON: New function cJSON_GetObjectItemCaseSensitive,2,2,19,0,19,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,0,0,0,0,0
+cJSON,b47d0e34ca,2017-02-21,64e14193,cJSON_ArrayForEach: Fix handling of NULL pointers,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,1d42c9bc60,2017-02-20,64e14193,print_object: simplify code,1,1,15,47,15,47,0,0,0,1,0,0,0,1,0,0,0,99,1,14,15,0,0,0,0,1
+cJSON,b71db93e03,2017-02-20,64e14193,print_object: rename variables,1,1,67,67,67,67,0,0,0,1,0,0,0,0,0,0,0,126,1,49,50,0,0,0,0,0
+cJSON,6d5a7c8c40,2017-02-20,64e14193,print_array: simplify code,1,1,8,27,8,27,0,0,0,1,0,0,0,1,0,0,0,55,1,6,6,0,0,0,0,1
+cJSON,8c1ed3ab82,2017-02-20,64e14193,update: rename to update_offset and change offset directly,1,1,11,11,11,11,0,0,0,3,0,0,0,0,1,1,0,126,2,3,10,0,0,0,0,0
+cJSON,f16dd7e028,2017-02-20,64e14193,print_array: rename variables,1,1,42,42,42,42,0,0,0,1,0,0,0,0,0,0,0,71,1,34,35,0,0,0,0,0
+cJSON,08770fc246,2017-02-20,64e14193,print_value: rename variables,1,1,25,30,25,30,0,0,0,1,0,0,0,1,0,0,0,68,1,24,25,0,0,0,0,0
+cJSON,0ca8587acc,2017-02-20,64e14193,print_string_ptr: simplify code,1,1,39,58,39,58,0,0,0,1,0,0,0,1,0,0,0,91,1,25,25,0,0,0,0,1
+cJSON,6a746a230a,2017-02-20,64e14193,print_string: Add more const,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+cJSON,1e999352d3,2017-02-20,64e14193,print_string_ptr: rename variables,1,1,55,55,55,55,0,0,0,2,0,0,0,0,0,0,0,110,2,42,42,0,0,0,0,0
+cJSON,6815d96617,2017-02-20,64e14193,print_number: rename variables,1,1,14,14,14,14,0,0,0,1,0,0,0,0,0,0,0,41,1,13,13,0,0,0,0,0
+cJSON,61921498d0,2017-02-20,64e14193,print_number: remove special case for 0,1,1,2,10,2,10,0,0,0,1,0,0,0,1,0,0,0,41,1,1,1,0,0,0,1,0
+cJSON,87691a86e5,2017-02-20,64e14193,cJSON_SetNumberValue: Fix compiler warning with -Waddress,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,3c4d309f62,2017-02-19,64e14193,ensure: Don't accept empty printbuffers anymore,1,1,2,6,2,6,0,0,0,1,0,0,0,1,0,0,0,56,1,2,2,0,0,0,0,0
+cJSON,9bf531ca05,2017-02-19,64e14193,Remove printing without buffer,1,1,169,391,169,391,0,0,0,5,0,0,2,3,0,0,0,126,5,137,137,0,0,0,1,0
+cJSON,80354bdb06,2017-02-19,64e14193,cJSON_Print: Use printbuffer,1,1,53,2,53,2,0,0,0,2,0,0,0,0,1,0,0,4,0,0,38,0,0,0,0,0
+cJSON,331c18d09a,2017-02-18,64e14193,ensure: only memcopy what's necessary,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+cJSON,4fff92140e,2017-02-18,64e14193,ensure: use realloc if possible,1,1,40,13,40,13,0,0,0,2,0,0,1,0,0,0,0,60,1,16,34,0,0,0,0,0
+cJSON,fc1d4b07df,2017-02-18,64e14193,ensure: if printbuffer is null: cJSON_malloc,1,1,36,87,36,87,0,0,0,6,1,0,0,4,0,0,0,241,6,33,33,0,0,0,0,0
+cJSON,bd073343fa,2017-02-17,64e14193,rename skip -> skip_whitespace,1,1,11,11,11,11,0,0,0,3,0,0,0,0,1,1,0,71,2,8,11,0,0,0,0,0
+cJSON,4fce9cce86,2017-02-17,64e14193,Release version 1.3.0,4,2,6,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+cJSON,b41264d164,2017-02-16,64e14193,Remove uint8_t because it's not part of C89,1,1,4,5,4,5,0,0,0,2,0,0,0,0,0,0,0,98,2,4,4,0,0,0,1,0
+cJSON,0f271dcf63,2017-02-16,64e14193,parse_hex4: make input pointer const,1,1,7,8,7,8,0,0,0,1,0,0,0,0,0,0,0,29,0,0,7,0,0,0,0,0
+cJSON,ead389aba2,2017-02-16,64e14193,parse_value: improve variable names + const correctness,1,1,26,20,26,20,0,0,0,1,0,0,0,0,0,0,0,41,1,17,18,0,0,0,0,0
+cJSON,698dc528f4,2017-02-16,64e14193,parse_object: improve variable names + const correctness,1,1,24,29,24,29,0,0,0,1,0,0,0,1,0,0,0,71,1,20,21,0,0,0,0,0
+cJSON,3dc6339025,2017-02-16,64e14193,parse_array: improve variable names + const correctness,1,1,16,19,16,19,0,0,0,1,0,0,0,1,0,0,0,57,1,13,14,0,0,0,0,0
+cJSON,15592c50f6,2017-02-16,64e14193,parse_number: improve variable names + const correctness,1,1,8,8,8,8,0,0,0,1,0,0,0,0,0,0,0,29,0,0,7,0,0,0,0,0
+cJSON,efb5e1bc93,2017-02-16,64e14193,parse_string: Improve const correctnes of pointers,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,95,1,1,1,0,0,0,0,0
+cJSON,ace5047782,2017-02-16,64e14193,parse_string: reduce mental burden when reading the code,1,1,198,141,198,141,0,0,0,1,1,0,0,1,1,0,0,95,1,49,130,0,0,0,0,1
+cJSON,03f23738bb,2017-02-16,64e14193,parse_object: simplify to one do-while loop,1,1,53,61,53,61,0,0,0,1,0,0,0,1,0,0,0,72,1,35,35,0,0,0,0,1
+cJSON,24dbf29360,2017-02-16,64e14193,parse_array: simplify to one do-while loop,1,1,40,39,40,39,0,0,0,1,0,0,1,0,0,0,0,58,1,27,27,0,0,0,0,1
+cJSON,12b2daccf3,2017-02-16,64e14193,"parse_{object,array}: set child only after parsing",1,1,11,10,11,10,0,0,0,2,0,0,1,0,0,0,0,81,2,11,11,0,0,0,0,0
+cJSON,f8d0c47bdb,2017-02-16,64e14193,Remove unnecessary assignment and silence clang analyzer,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,152,1,0,0,0,0,0,1,0
+cJSON,9f6fa94c91,2017-02-16,64e14193,ensure: replace pow2gt with multiplication by two,1,1,15,36,15,36,0,0,0,1,0,0,0,0,0,1,0,49,0,0,12,0,0,0,0,0
+cJSON,123bb1af7b,2017-02-15,64e14193,cJSON: prevent incompatible C and header versions,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+cJSON,cf862d0fed,2017-02-15,64e14193,implement AddItemToObject using AddItemToObjectCS,1,1,4,13,4,13,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+cJSON,3facca4792,2017-02-15,64e14193,parse functions: Only set type after successful,1,1,17,7,17,7,0,0,0,3,0,0,2,0,0,0,0,153,3,13,13,0,0,0,0,0
+cJSON,cf48ea8175,2017-02-15,64e14193,New Type: cJSON_Invalid,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,702fd95af3,2017-02-15,64e14193,fix #106: potentially invalid free in cJSON_AddItemToObject,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+cJSON,94117a5d23,2017-02-15,64e14193,"Fix #105, double free when parse_string fails",1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,153,1,1,1,1,0,0,0,0
+cJSON,c3bd4463be,2017-02-15,64e14193,cJSON_Utils: Guard use of %lu format string for size_t,1,1,24,0,24,0,0,0,0,2,0,0,1,0,0,0,0,93,1,10,15,0,0,0,0,0
+cJSON,9d7e8f1175,2017-02-09,64e14193,"cJSON_Utils: Add casts to unsigned long, fix #103",1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,83,1,2,3,0,0,0,0,0
+cJSON,4047de4f6e,2017-02-08,64e14193,fix potential NULL dereferences found by coverity,2,2,6,1,6,1,1,0,0,2,0,0,1,0,0,0,0,48,1,1,5,0,0,0,0,0
+cJSON,be0951dfa4,2017-02-07,64e14193,Move parse tests from test.c -> parse_example.c,12,1,123,101,0,101,0,0,0,1,0,1,0,0,0,1,0,6,1,0,0,0,0,0,1,0
+cJSON,86be961bb5,2017-02-07,64e14193,test.c: remove file related code,1,1,0,39,0,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+cJSON,87f77274de,2017-02-07,64e14193,cJSON_SetNumberValue: Fix undefined double to int conversion,2,2,23,2,23,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,19,0,0,0,0,0
+cJSON,dded751757,2017-02-07,64e14193,parse_string: remove useless first byte marks for utf8,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+cJSON,d7b5545748,2017-02-07,64e14193,parse_hex4: deduplicate into a for loop,1,1,25,75,25,75,0,0,0,1,0,1,0,0,0,0,0,30,1,23,23,0,0,0,0,1
+cJSON,0747669972,2017-02-07,64e14193,parse_number: Switch to C library's strtod,1,1,11,60,11,60,0,0,0,1,0,1,0,0,0,0,0,25,1,10,10,0,0,0,0,0
+cJSON,f09bdef15e,2017-02-07,64e14193,"Revert ""test.c: Fix buffer overrun found by coverity""",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+cJSON,cc514583cc,2017-02-07,64e14193,cJSON_Duplicate: goto fail error handling,1,1,25,19,25,19,0,0,0,1,0,0,1,0,0,0,0,67,1,23,23,0,0,0,0,1
+cJSON,021b174ee1,2017-02-07,64e14193,parse_object: goto fail error handling,1,1,17,9,17,9,0,0,0,1,0,0,1,0,0,0,0,78,1,15,15,0,0,0,0,0
+cJSON,99cd9af7d5,2017-02-07,64e14193,parse_array: goto fail error handling,1,1,12,5,12,5,0,0,0,1,1,0,0,0,0,0,0,53,1,11,11,0,0,0,0,0
+cJSON,8656386c4f,2017-02-07,64e14193,parse_string: goto fail error handling,1,1,18,10,18,10,0,0,0,1,0,0,1,0,0,0,0,153,1,16,16,0,0,0,0,0
+cJSON,c866abd842,2017-02-07,64e14193,test.c: Fix buffer overrun found by coverity,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+cJSON,9ed906758e,2017-02-07,64e14193,fix null pointer dereferences found by coverity,2,2,22,7,22,7,1,0,0,3,0,0,1,0,0,0,0,83,1,4,16,0,0,0,0,0
+cJSON,ee0c920dff,2017-02-04,64e14193,fix: add break in UTF-16 handling,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,147,1,1,1,0,0,0,0,0
+cJSON,af6d5d3d7c,2017-02-03,64e14193,Add more consts to unsigned chars,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,146,1,1,3,0,0,0,0,0
+cJSON,cf9d57d56c,2017-02-03,64e14193,Fix incorrect return,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+cJSON,3d3bfc6a4d,2017-02-03,64e14193,Compiler flag -Wconversion,5,3,81,43,79,41,0,0,0,13,0,0,1,0,2,0,0,248,4,21,61,0,0,0,0,0
+cJSON,41e2837df1,2017-02-03,64e14193,Fix potentially undefined behavior when filling valueint,1,1,27,2,27,2,1,0,0,2,0,0,1,0,0,0,0,67,1,12,24,0,0,0,0,0
+cJSON,ecd5678527,2017-02-03,64e14193,Change all internal sizes to size_t,2,2,84,43,84,43,0,1,0,18,0,0,0,0,0,0,0,248,7,16,67,0,0,0,0,0
+cJSON,28b9ba4334,2017-02-03,64e14193,Change all internal strings to unsigned char*,2,2,188,188,188,188,0,0,0,48,0,0,0,0,0,0,0,248,18,110,187,0,0,0,0,0
+cJSON,b182ced1d6,2017-02-03,64e14193,Compiler flag -Wswitch-default + add defaults,3,1,11,2,9,0,0,0,0,2,0,0,2,0,0,0,0,146,2,8,8,0,0,0,0,0
+cJSON,fe18403935,2017-02-03,64e14193,Compiler flag -Wundef + fix incorrect macro,3,1,3,3,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+cJSON,981f59b163,2017-01-30,64e14193,Release Version 1.2.1,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,ff0681e4fd,2017-01-30,64e14193,Utils: PatchDetach: Check for invalid patch string,1,1,10,3,10,3,0,0,0,1,0,0,0,0,0,0,0,34,0,0,6,0,0,0,0,0
+cJSON,a2309a509d,2017-01-30,64e14193,Utils: InplaceDecodePointerString: Check for NULL,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+cJSON,c49ffbfba8,2017-01-12,64e14193,cJSON_Version: returns a version string,3,3,15,0,15,0,0,0,0,1,0,0,1,0,1,0,0,82,1,1,8,0,0,0,0,0
+cJSON,e7533aa6f0,2017-01-12,64e14193,Put version information in the header,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+cJSON,e3e0b5150b,2017-01-05,64e14193,cJSON_CreateRaw: Format fixes,1,1,13,13,13,13,0,0,0,1,0,0,0,0,0,0,0,15,0,0,12,0,0,0,0,0
+cJSON,1df987a170,2017-01-05,64e14193,cJSON_strdup: Check for NULL string,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+cJSON,ddadb44a67,2017-01-05,64e14193,cJSON_Raw: Additional checks in print_value,1,1,16,2,16,2,0,0,0,1,0,0,1,0,0,0,0,98,1,15,15,0,0,0,0,0
+cJSON,9ef44fc0b6,2017-01-05,64e14193,Remove C++ comment in header,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+cJSON,3d6ae11340,2016-12-28,64e14193,Make cJSON C++ compatible,3,1,4,4,2,2,0,0,0,1,0,0,0,0,0,0,0,49,0,0,2,0,0,0,0,0
+cJSON,fcc89c4bb2,2016-12-15,64e14193,Move increment out of loop condition fixes #85,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,143,1,2,2,0,0,0,1,0
+cJSON,e69db83de5,2016-12-08,f4caff3f,Temporarily disable warning when const is cast away.,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+cJSON,d992cd46e6,2016-12-06,64e14193,test: Handle cJSON_PrintPreallocated return values correctly,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,49,0,0,2,0,0,0,0,0
+cJSON,84b48121bb,2016-12-06,64e14193,header: explain PrintPreallocated return value,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+cJSON,f10e2f884a,2016-12-06,64e14193,test: exit on malloc failure,1,1,15,0,15,0,0,0,0,2,0,0,0,0,0,0,0,49,0,0,15,0,0,0,0,0
+cJSON,5b4420298f,2016-12-05,07bd237f,fix memory leak in cJSON_Duplicate,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,63,1,1,1,0,0,0,0,1
+cJSON,e1eb06fae0,2016-11-30,64e14193,cJSON.h warn about write access to constants (#80),1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,345d57e9e5,2016-11-28,f4caff3f,Make print_preallocated static.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0
+cJSON,6622c54f18,2016-11-28,64e14193,Handle out of memory when printing string,1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,248,1,4,4,0,0,0,0,0
+cJSON,8df4cd46eb,2016-11-28,9324dca0,more concise return,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+cJSON,3917fb5255,2016-11-28,9324dca0,use print_preallocated function to test printout of JSON,1,1,23,66,23,66,0,0,0,1,0,0,1,0,0,0,0,119,1,23,23,0,0,0,0,0
+cJSON,99896d879c,2016-11-28,9324dca0,function to print and compare to preallocated buffer,1,1,57,0,57,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,39,0,0,0,0,0
+cJSON,4d1dcaa160,2016-11-28,9324dca0,check print_value return,1,1,5,3,5,3,0,0,0,2,0,0,1,1,0,0,0,245,2,5,5,0,0,0,0,0
+cJSON,de93d76d0b,2016-11-28,9324dca0,"changed to cJSON_PrintPreallocated, added flag in printbuffer",3,3,61,5,61,5,0,0,0,4,0,0,2,0,1,1,0,147,2,36,45,0,0,0,0,0
+cJSON,23dafa4739,2016-11-28,9324dca0,added Print function call for pre-allocated buffer,2,2,12,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+cJSON,038b04d80a,2016-11-28,f4caff3f,Take out len from condition check.,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,127,1,2,2,0,0,0,0,0
+cJSON,a8e1368697,2016-11-27,f4caff3f,Make function static when possible.,1,1,5,3,5,3,0,0,0,3,0,0,0,0,0,0,0,114,1,1,5,0,0,0,0,0
+cJSON,23b269d5f9,2016-11-25,64e14193,"Rename bool -> cjbool, fix #71",1,1,17,17,17,17,1,0,0,9,0,0,0,0,0,0,0,242,5,7,17,0,0,0,0,0
+cJSON,679004914f,2016-11-19,64e14193,Define a boolean type,1,1,23,18,23,18,0,0,0,9,0,0,0,0,0,0,0,242,5,11,21,0,0,0,0,0
+cJSON,b88da9b0de,2016-11-19,64e14193,Initialize all variables,4,3,55,55,51,51,0,0,0,22,0,0,0,0,0,0,0,242,9,30,51,0,0,0,0,0
+cJSON,a5ff796c20,2016-11-19,64e14193,Replace 0 with more expressive NULL or '\0',2,2,120,120,120,120,0,0,0,34,0,0,0,0,0,0,0,242,13,68,115,0,0,0,0,0
+cJSON,d47339e274,2016-11-18,64e14193,cJSON_Utils: Fix comparing of cJSON_ types,1,1,17,17,17,17,1,0,0,9,0,0,0,0,0,0,0,129,5,9,17,0,0,0,0,0
+cJSON,46ff20c8b0,2016-11-14,64e14193,cJSON.h: add stddef.h because of size_t,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,dc4b62915a,2016-11-14,64e14193,"fix #10, now failing on incorrect escape sequences",1,1,7,2,7,2,1,0,0,1,0,0,1,0,0,0,0,142,1,5,5,1,0,0,0,0
+cJSON,afd690d1c9,2016-11-14,64e14193,format fix,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,41,1,1,1,0,0,0,0,0
+cJSON,06008b0444,2016-11-14,c63d6163,add support to insert raw json,2,2,32,1,32,1,0,0,0,1,0,0,1,0,1,0,0,85,1,10,28,0,0,0,0,0
+cJSON,0d10e279c8,2016-11-11,64e14193,fix #55 memory leak in cJSON_ReplaceItemInObject,1,1,6,0,6,0,1,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+cJSON,9e31049159,2016-11-08,64e14193,test and test_utils: Make compliant with ANSI C,2,1,14,8,2,2,0,0,0,2,0,0,0,0,0,0,0,114,2,2,2,0,0,0,0,0
+cJSON,8ac1ba416e,2016-11-08,64e14193,test: Fix unescaped quote,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,81,1,1,1,1,0,0,0,0
+cJSON,1dff6f160f,2016-11-08,64e14193,cJSON_Utils: own strdup for C89 compatibility,1,1,18,3,18,3,0,0,0,3,0,0,0,0,1,0,0,129,1,1,15,0,0,0,0,0
+cJSON,a148520ffb,2016-11-08,64e14193,"Revert ""Fix #26: Use long double literal for 1e60""",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,66,1,1,1,0,0,0,0,0
+cJSON,b4d728d018,2016-11-07,64e14193,pow2gt: Detect integer size fix #27,1,1,21,0,21,0,1,0,0,1,0,0,0,0,0,0,0,11,0,0,16,0,0,0,0,0
+cJSON,3ea491c0a6,2016-11-05,64e14193,Fix #26: Use long double literal for 1e60,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,66,1,1,1,0,0,0,0,0
+cJSON,5323f558cd,2016-10-31,36b245df,don't ignore malloc failure in cJSON_PrintBuffered,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+cJSON,ddeca82718,2016-10-29,64e14193,reformatting: cJSON.c: fix indentation,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+cJSON,c0b17dc651,2016-10-29,64e14193,reformatting: cJSONUtils_GenerateMergePatch,1,1,53,29,53,29,0,0,0,1,0,0,1,0,0,0,0,46,1,44,44,0,0,0,0,0
+cJSON,01a813f642,2016-10-29,64e14193,reformatting: cJSONUtils_MergePatch,1,1,28,14,28,14,0,0,0,1,0,0,0,0,0,0,0,28,0,0,25,0,0,0,0,0
+cJSON,c65514fcb4,2016-10-29,64e14193,reformatting: cJSONUtils_SortObject,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,8964287ec4,2016-10-29,64e14193,reformatting: cJSONUtils_SortList,1,1,99,29,99,29,0,0,0,1,0,0,1,0,0,0,0,85,1,82,82,0,0,0,0,0
+cJSON,ec9d1cfedb,2016-10-29,64e14193,reformatting: cJSONUtils_GeneratePatches,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+cJSON,8879ed5dbc,2016-10-29,64e14193,reformatting: cJSONUtils_CompareToPatch,1,1,89,53,89,53,0,0,0,1,0,0,1,0,0,0,0,79,1,78,78,0,0,0,0,0
+cJSON,52e53acfc3,2016-10-29,64e14193,reformatting: cJSON_AddPatchToArray,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,d6a6abeca0,2016-10-29,64e14193,reformatting: cJSONUtils_GeneratePatch,1,1,19,13,19,13,0,0,0,1,0,0,0,0,0,0,0,21,0,0,19,0,0,0,0,0
+cJSON,e8a67f0e4b,2016-10-29,64e14193,reformatting: cJSONUtils_ApplyPatches,1,1,21,10,21,10,0,0,0,1,0,0,0,0,0,0,0,21,0,0,19,0,0,0,0,0
+cJSON,d883f9b9b0,2016-10-29,64e14193,reformatting: cJSONUtils_ApplyPatch,1,1,148,57,148,57,0,0,0,1,0,0,1,0,0,0,0,129,1,127,127,0,0,0,0,0
+cJSON,284a8017b7,2016-10-29,64e14193,reformatting: cJSONUtils_Compare,1,1,54,23,54,23,0,0,0,1,0,0,1,0,0,0,0,48,1,46,46,0,0,0,0,0
+cJSON,1235c62235,2016-10-29,64e14193,reformatting: cJSONUtils_PatchDetach,1,1,32,10,32,10,0,0,0,1,0,0,0,0,0,0,0,29,0,0,26,0,0,0,0,0
+cJSON,a21a124d40,2016-10-29,64e14193,reformatting: cJSONUtils_InplaceDecodePointerString,1,1,11,3,11,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+cJSON,5713edb710,2016-10-29,64e14193,reformatting: cJSON_Utils_GetPointer,1,1,40,17,40,17,0,0,0,1,0,0,1,0,0,0,0,36,1,34,34,0,0,0,0,0
+cJSON,9f00ff9a91,2016-10-27,48cfac55,Remove redundant test from cJSON_AddItemToArray,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,1,0
+cJSON,d4836effc9,2016-10-17,cb1e157e,"Fix compiler warning ""array subscript has type char"" when using arm-none-eabi-gcc",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+cJSON,158ddceab3,2016-10-14,64e14193,reformatting: cJSONUtils_FindPointerFromObjectTo,1,1,43,28,43,28,0,0,0,1,0,0,0,0,0,0,0,36,0,0,33,0,0,0,0,0
+cJSON,c6cb991e3f,2016-10-13,64e14193,reformatting: cJSON.h: remove trailing spaces,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+cJSON,7771225e35,2016-10-13,64e14193,reformatting: cJSONUtils_PointerEncodedstrcpy,1,1,20,8,20,8,0,0,0,1,0,0,0,0,0,0,0,21,0,0,13,0,0,0,0,0
+cJSON,3f6716e63a,2016-10-13,64e14193,reformatting: cJSONUtils_PointerEncodedstrlen,1,1,13,1,13,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,12,0,0,0,0,0
+cJSON,2f002879c0,2016-10-13,64e14193,reformatting: cJSONUtils_Pstrcasecmp,1,1,32,8,32,8,0,0,0,1,0,0,1,0,0,0,0,30,1,28,28,0,0,0,0,0
+cJSON,cb6445f47b,2016-10-13,64e14193,reformatting: cJSON_strcasecmp,1,1,19,5,19,5,0,0,0,2,0,0,0,0,0,0,0,31,1,1,18,0,0,0,0,0
+cJSON,526d6b1312,2016-10-13,64e14193,reformatting: cJSON_Utils.h,1,1,29,15,29,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+cJSON,fcbeb1c36b,2016-10-11,64e14193,reformatting: test.c,1,1,264,120,264,120,0,0,0,4,1,0,1,0,0,0,0,114,2,175,213,0,0,0,0,0
+cJSON,b393b3beeb,2016-10-07,cb1e157e,Add const qualifier for non-destructive functions,2,2,26,26,26,26,0,0,0,15,0,0,0,0,0,0,0,242,5,5,26,0,0,0,0,0
+cJSON,ad3d5130b5,2016-10-02,64e14193,reformatting: cJSON.h,1,1,51,41,51,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0
+cJSON,34388c2d4c,2016-10-02,64e14193,reformatting: cJSON_Minify,1,1,60,13,60,13,0,0,0,1,0,0,1,0,0,0,0,56,1,47,47,0,0,0,0,0
+cJSON,9adc6e7fe1,2016-10-02,64e14193,reformatting: cJSON_Duplicate,1,1,70,24,70,24,0,0,0,1,0,0,1,0,0,0,0,63,1,61,61,0,0,0,0,1
+cJSON,e6fd236f00,2016-10-02,64e14193,reformatting: cJSON_CreateStringArray,1,1,27,1,27,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,26,0,0,0,0,0
+cJSON,e272f7285e,2016-10-02,64e14193,reformatting: cJSON_CreateDoubleArray,1,1,28,1,28,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,26,0,0,0,0,0
+cJSON,890b999e59,2016-10-02,64e14193,reformatting cJSON_CreateFloatArray,1,1,28,1,28,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,26,0,0,0,0,0
+cJSON,f831aef5c1,2016-10-02,64e14193,reformatting: cJSON_CreateIntArray,1,1,28,1,28,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,26,0,0,0,0,0
+cJSON,21a0a88f19,2016-10-02,64e14193,reformatting: cJSON_CreateObject,1,1,10,1,10,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,e241081020,2016-10-02,64e14193,reformatting: cJSON_CreateArray,1,1,11,1,11,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,034003ce2b,2016-10-02,64e14193,reformatting: cJSON_CreateString,1,1,17,1,17,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,15,0,0,0,0,0
+cJSON,3f9f4970b4,2016-10-02,64e14193,reformatting: cJSON_CreateNumber,1,1,13,1,13,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,11,0,0,0,0,0
+cJSON,99f61f2b35,2016-10-02,64e14193,reformatting: cJSON_CreateBool,1,1,11,1,11,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,a0b5d6b13a,2016-10-02,64e14193,reformatting: cJSON_CreateFalse,1,1,11,1,11,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,fdfb9fff86,2016-10-02,64e14193,reformatting: cJSON_CreateTrue,1,1,11,1,11,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,cf7835b67d,2016-10-02,64e14193,reformatting: cJSON_CreateNull,1,1,11,1,11,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,3a8043273e,2016-10-02,64e14193,reformatting: cJSON_ReplaceItemInObject,1,1,15,1,15,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,15,0,0,0,0,0
+cJSON,dc8eb30467,2016-10-02,64e14193,reformatting: cJSON_ReplaceItemInArray,1,1,30,3,30,3,0,0,0,1,0,0,0,0,0,0,0,29,0,0,29,0,0,0,0,0
+cJSON,69dcfcf238,2016-10-02,64e14193,reformatting: cJSON_InsertItemInArray,1,1,26,2,26,2,0,0,0,1,0,0,0,0,0,0,0,25,0,0,25,0,0,0,0,0
+cJSON,207bb05e8c,2016-10-02,64e14193,reformatting: cJSON_DeleteItemFromObject,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,96ec74c9d5,2016-10-02,64e14193,reformatting: cJSON_DetachItemFromObject,1,1,17,1,17,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,15,0,0,0,0,0
+cJSON,6e5063f9cc,2016-10-02,64e14193,reformatting: cJSON_DeleteItemFromArray,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,c636621779,2016-10-02,64e14193,reformatting: cJSON_DetachItemFromArray,1,1,31,2,31,2,0,0,0,1,0,0,0,0,0,0,0,27,0,0,27,0,0,0,0,0
+cJSON,b602ef1cd5,2016-10-02,64e14193,reformatting: cJSON_AddItemReferenceToObject,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,55e33d7100,2016-10-02,64e14193,reformatting: cJSON_AddItemReferenceToArray,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,b55120eeb2,2016-10-02,64e14193,reformatting: cJSON_AddItemToObjectCS,1,1,16,1,16,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,14,0,0,0,0,0
+cJSON,196885ad93,2016-10-02,64e14193,reformatting: cJSON_AddItemToObject,1,1,17,1,17,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,13,0,0,0,0,0
+cJSON,c26f9b918d,2016-10-02,64e14193,reformatting: cJSON_AddItemToArray,1,1,23,1,23,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,20,0,0,0,0,0
+cJSON,09545c0eb2,2016-10-02,64e14193,reformatting: create_reference,1,1,19,2,19,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,18,0,0,0,0,0
+cJSON,17e13946fe,2016-10-02,64e14193,reformatting: cJSON_HasObjectItem,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,af44d57007,2016-10-02,64e14193,reformatting: cJSON_GetObjectItem,1,1,10,1,10,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+cJSON,05c2dc3c2f,2016-10-02,64e14193,reformatting: cJSON_GetArrayItem,1,1,12,1,12,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0
+cJSON,4fdb6499f0,2016-10-02,64e14193,reformatting: cJSON_GetArraySize,1,1,12,1,12,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,11,0,0,0,0,0
+cJSON,31e53a1297,2016-10-02,64e14193,reformatting: print_object,1,1,271,107,271,107,0,0,0,1,0,0,1,0,0,0,0,242,1,211,211,0,0,0,0,0
+cJSON,25632fad13,2016-10-02,64e14193,reformatting: parse_object,1,1,91,32,91,32,0,0,0,1,0,0,1,0,0,0,0,72,1,66,66,0,0,0,0,0
+cJSON,782770c6ba,2016-10-02,64e14193,reformatting: print_array,1,1,160,74,160,74,0,0,0,1,0,0,1,0,0,0,0,143,1,128,128,0,0,0,0,0
+cJSON,ad711e6fab,2016-10-02,64e14193,reformatting: parse_array,1,1,58,19,58,19,0,0,0,1,0,0,0,0,0,0,0,47,0,0,42,0,0,0,0,0
+cJSON,a9f752e034,2016-10-02,64e14193,reformatting: print_value: 255 -> 0xFF,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,75,1,2,2,0,0,0,0,0
+cJSON,de4dc19e72,2016-10-02,64e14193,reformatting: print_value,1,1,75,30,75,30,0,0,0,1,0,0,1,0,0,0,0,75,1,73,73,0,0,0,0,0
+cJSON,c5f635d24a,2016-10-02,64e14193,reformatting: parse_value,1,1,42,11,42,11,0,0,0,1,0,0,1,0,0,0,0,40,1,37,37,0,0,0,0,0
+cJSON,9b7eb6a46d,2016-10-02,64e14193,reformatting: cJSON_PrintBuffered,1,1,7,6,7,6,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+cJSON,ec46581b68,2016-10-02,64e14193,reformatting: cJSON_PrintUnformatted,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,1748902d3c,2016-10-02,64e14193,reformatting: cJSON_Print,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,f36d9c9ef2,2016-10-02,64e14193,reformatting: cJSON_Parse,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,e809022349,2016-10-02,64e14193,reformatting: cJSON_ParseWithOpts,1,1,37,13,37,13,0,0,0,1,0,0,0,0,0,0,0,32,0,0,27,0,0,0,0,0
+cJSON,f1dd51bfb5,2016-10-02,64e14193,reformatting: skip,1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+cJSON,d42febea50,2016-10-02,64e14193,reformatting: Predeclared print prototypes,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+cJSON,7423692586,2016-10-02,64e14193,reformatting: print_string,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,c71cd6cc1c,2016-10-02,64e14193,reformatting: print_string_ptr,1,1,140,53,140,53,0,0,0,1,0,0,1,0,0,0,0,126,1,111,111,0,0,0,0,0
+cJSON,c88d045888,2016-10-02,64e14193,reformatting: parse_string,1,1,166,67,166,67,0,0,0,1,0,0,1,0,0,0,0,137,1,117,117,0,0,0,0,0
+cJSON,2e2dc873b2,2016-10-02,64e14193,reformatting: firstByteMark,1,1,12,1,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+cJSON,e10f2bf08d,2016-10-02,64e14193,reformatting: parse_hex4,1,1,82,9,82,9,0,0,0,1,0,0,1,0,0,0,0,75,1,72,72,0,0,0,0,0
+cJSON,67845e3dc6,2016-10-02,64e14193,reformatting: print_number,1,1,71,28,71,28,0,0,0,1,0,0,1,0,0,0,0,66,1,64,64,0,0,0,0,0
+cJSON,282006d918,2016-10-02,64e14193,reformatting: update,1,1,9,4,9,4,0,0,0,1,0,0,0,0,0,0,0,10,0,0,7,0,0,0,0,0
+cJSON,7f9a2691bf,2016-10-02,64e14193,reformatting: ensure,1,1,33,14,33,14,0,0,0,1,0,0,0,0,0,0,0,31,0,0,29,0,0,0,0,0
+cJSON,b53ce73709,2016-10-02,64e14193,reformatting: printbuffer,1,1,6,1,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+cJSON,d5bd497636,2016-10-02,64e14193,reformatting: pow2gt,1,1,13,1,13,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0
+cJSON,88cbe57ba4,2016-10-02,64e14193,reformatting: parse_number,1,1,65,17,65,17,0,0,0,1,0,0,1,0,0,0,0,56,1,54,54,0,0,0,0,0
+cJSON,46cfa68a2b,2016-10-02,64e14193,reformatting: cJSON_Delete,1,1,19,10,19,10,0,0,0,1,0,0,0,0,0,0,0,22,0,0,19,0,0,0,0,0
+cJSON,55488f66f6,2016-10-02,64e14193,reformatting: cJSON_New_Item,1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+cJSON,8db7e6d320,2016-10-02,64e14193,reformatting: cJSON_InitHooks,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+cJSON,18081c03c4,2016-10-02,64e14193,reformatting: cJSON_strdup,1,1,10,6,10,6,0,0,0,1,0,0,0,0,0,0,0,12,0,0,9,0,0,0,0,0
+cJSON,542ed727d7,2016-10-02,64e14193,reformatting: cJSON_strcasecmp,1,1,19,4,19,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,17,0,0,0,0,0
+cJSON,c42b774f9f,2016-10-02,64e14193,reformatting: cJSON_GetErrorPtr,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+cJSON,94df772485,2016-10-02,64e14193,fix buffer overflow (#30),1,1,14,3,14,3,1,0,0,1,0,0,1,0,0,0,0,63,1,11,11,1,0,0,0,0
+cJSON,3a7bd6924a,2016-05-29,08b02244,Utility function to generate the patch between two objects.,3,2,48,1,35,1,0,0,0,1,1,0,0,0,1,0,0,17,0,0,34,0,0,0,0,0
+cJSON,e79fa9472b,2016-05-29,08b02244,cJSONUtils_MergePatch with tests from the RFC.,3,2,55,0,19,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+cJSON,2fe50bd557,2016-05-29,08b02244,get rid of isnormal test!!,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,1,1,1,0,0,0,0,0
+cJSON,87f55416c1,2016-05-29,08b02244,"we can safely remove this, since the initial d==0 case catches this.",1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,30,1,1,1,0,0,0,1,0
+cJSON,224c2a8485,2016-04-22,fc33c783,Fix compiler error when it encountered 1.0/0.0. It does not want to deal with division by 0. Tricked,1,1,16,15,16,15,1,0,0,2,0,0,1,0,0,0,0,53,1,3,5,0,0,0,0,0
+cJSON,e6b352d126,2016-03-20,08b02244,tidy up some code that was added a while back.,1,1,3,13,3,13,0,0,0,3,0,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0
+cJSON,b4151361de,2016-03-19,08b02244,"Allow for global/local error pointers. If you supply a return_parse_end to cJSON_ParseWithOpts, then",2,2,36,35,36,35,0,0,0,6,0,0,0,0,0,0,0,53,3,19,31,0,0,0,0,0
+cJSON,fe967cd1ff,2016-03-19,08b02244,extra checking for memory allocation failure.,1,1,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0
+cJSON,ee579ecbd6,2016-03-19,08b02244,"Integrate patch for handling broken unicode surrogate pairs, with thanks to kolman and Irwan Djajadi",1,1,12,10,12,10,0,0,0,1,0,0,1,0,0,0,0,53,1,10,10,0,0,0,0,0
+cJSON,52d7d14f6c,2016-03-06,8c811049,fixed segfault when the lib tries to parse HTML with embedded CSS; provided test case,3,2,37,2,21,2,1,0,0,3,0,0,0,0,0,0,0,31,0,0,19,0,0,0,0,0
+cJSON,ce546b54d8,2016-02-10,313d727f,Changed the #define values of cJSON* data types,1,1,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+cJSON,51371c899e,2016-02-09,313d727f,Changed the #define values of cJSON* data types,1,1,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+cJSON,8222e9b8c4,2015-10-26,64e14193,Fix printing of empty string pointers,1,1,9,8,9,8,1,0,0,1,0,0,0,0,0,0,0,52,1,8,8,0,0,0,0,0
+cJSON,9cc37a2844,2015-10-26,64e14193,Fix format problem with empty objects,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,93,1,1,1,0,0,0,0,0
+cJSON,7c25dc9135,2015-10-16,64e14193,Remove line that will never be executed,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1,0
+cJSON,58bc383b28,2015-10-14,64e14193,fix memory leaks,2,1,15,4,5,1,1,0,0,1,0,0,1,0,0,0,0,55,1,5,5,0,0,0,0,0
+cJSON,ec71726ef8,2015-10-13,64e14193,fix boolean expression,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+cJSON,8865d869db,2015-10-01,7ca122f1,cJSON_HasObjectItem didn’t compile,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+cJSON,e4b96fa820,2015-10-01,9a265ddc,Handle invalid numbers,2,2,7,3,7,3,0,0,0,2,1,0,1,0,0,0,0,52,2,7,7,0,0,0,0,0
+cJSON,0da343068e,2015-09-16,1558262c,add new macro for iterating over an array,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,b175877d8b,2015-09-15,2a650ae2,+usefull function,2,2,12,1,12,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+cJSON,10b888be54,2015-06-15,f57b885a,Update cJSON.c,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,54,1,1,1,0,0,0,0,0
+cJSON,4132e9301d,2015-06-12,f57b885a,Update test.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+cJSON,8004ed3115,2015-02-13,08b02244,Fix bug with the sort.,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,31,1,1,1,0,0,0,0,0
+cJSON,174c62902c,2015-02-13,08b02244,"Since we anticipate repeated comparisons, add in a test for sorted lists, which can reduce cost for ",1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,30,1,2,2,0,0,0,0,1
+cJSON,491cf029b2,2015-02-13,08b02244,Rework cJSON_Utils object compare functions to use an O(N) algorithm on sorted lists. It's a bit of ,2,1,32,23,30,21,0,0,0,3,0,0,2,0,0,0,0,50,2,21,27,0,0,0,0,0
+cJSON,c4ddd7aaa3,2015-02-13,08b02244,Correct comment and variable declaration style to be more compatible. Added cJSONUtils_SortObject fo,3,2,136,66,89,41,0,0,0,7,1,0,1,1,3,0,0,51,4,27,71,0,0,0,0,0
+cJSON,1d9b70e706,2015-02-13,08b02244,Fix comment style for proper ansi c compliance.,3,3,21,15,21,15,0,0,0,3,0,0,0,0,0,0,0,49,1,5,15,0,0,0,0,0
+cJSON,9d0a4cbf2a,2015-02-11,08b02244,adjust the test very slightly,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,52,1,1,1,0,0,0,0,0
+cJSON,b44a338c6d,2015-02-11,08b02244,Optimise out escapable array.,1,1,1,11,1,11,0,0,0,1,0,0,1,0,0,0,0,52,1,1,1,0,0,0,0,0
+cJSON,060e6563c0,2015-02-11,08b02244,Add more patch functionality and some more utils. Also add a new #define to cJSON.h for SetNumberVal,4,3,201,32,158,13,0,0,0,3,2,0,0,2,8,0,0,52,2,5,138,0,0,0,0,0
+cJSON,3c6b3cc617,2015-02-10,08b02244,start of JSON Patch implementation. cJSON gained a cJSON_InsertItemToArray which pushes elements up ,5,4,157,2,123,1,0,0,0,0,1,0,0,0,5,0,0,0,0,0,89,0,0,0,0,0
+cJSON,858671cc7f,2015-02-10,08b02244,rework cJSONUtils_GetPointer to avoid malloc/free by using strcmp with pointer-encoding awareness.,1,1,17,21,17,21,0,0,0,1,1,0,0,1,1,0,0,21,1,4,15,0,0,0,0,0
+cJSON,c0f5e2056b,2015-02-09,08b02244,add cJSON_Utils which includes JSON Pointer implementation,3,2,78,0,48,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,39,0,0,1,0,0
+cJSON,2abfb716d1,2015-02-09,08b02244,fix formatting.,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,93,2,2,2,0,0,0,0,0
+cJSON,d9fc81e6c8,2015-02-09,08b02244,Added buffered printing methods for faster printing.,2,2,246,114,246,114,0,0,0,10,1,0,4,0,5,0,0,93,6,162,204,0,0,0,0,0
+cJSON,70984d47e9,2015-02-09,08b02244,patch to optimise array/object printing.,1,1,4,2,4,2,0,0,0,2,0,0,2,0,0,0,0,55,2,4,4,0,0,0,0,0
+cJSON,575724a15f,2015-02-09,08b02244,optimises for number/string print,1,1,34,2,34,2,0,0,0,2,1,0,1,0,0,0,0,43,2,22,30,0,0,0,0,0
+cJSON,a3eafd540d,2015-01-30,fc4541e1,Fixed issue withh ansi (single-line comments) and updated Makefile for compiling dynamic and static ,2,1,66,8,6,6,1,0,0,1,0,0,0,0,0,0,0,16,1,5,5,0,0,0,0,0
+cJSON,28691956a6,2013-08-19,08b02244,fix \u parser,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,12,1,3,3,0,0,0,0,0
+cJSON,c537515c17,2013-08-14,08b02244,"inbuilt hex parser for unicode, which ought to be a lot faster.",1,1,15,3,15,3,0,0,0,1,1,0,0,0,1,0,0,51,1,2,14,0,0,0,0,0
+cJSON,73cc8dd1c4,2013-08-14,08b02244,"cJSON_Minify (which strips comments), fixed buffer overflow const * for array creates",2,2,26,7,26,7,1,0,0,4,1,0,0,0,1,0,0,54,1,1,23,1,0,0,0,0
+cJSON,46e3724aa8,2013-02-09,08b02244,clean up test.c,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,49,0,0,2,0,0,0,0,1
+cJSON,15adf71272,2013-02-09,08b02244,Tidy comments. Add cJSON_SetIntValue.,1,1,5,2,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cJSON,2c9474e9e3,2013-02-09,08b02244,fix non-explicit cast,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,54,1,1,1,0,0,0,0,0
+cJSON,02a1e544f7,2013-02-06,08b02244,add cJSON_AddBoolToObject().,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+cJSON,96c59f3e49,2013-02-06,08b02244,Wire in ParseWithOpts to allow detection of JSON with following garbage.,2,2,14,2,14,2,0,0,0,1,0,0,0,0,1,0,0,1,0,0,8,0,0,0,0,0
+cJSON,d755436ba7,2013-02-05,08b02244,"tests for cJSON_Duplicate, so it will fail by returning 0 if anything fails to allocate",1,1,3,2,3,2,0,0,0,1,1,0,0,0,0,0,0,21,1,3,3,0,0,0,0,1
+cJSON,927aa631b8,2013-02-05,08b02244,Added cJSON_Duplicate. With commentary,2,2,33,0,33,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,23,0,0,0,0,1
+cJSON,a7fe08778f,2013-02-05,08b02244,bracket logic (to quiet a warning). Fix for potential buffer overflow printing extremely large integ,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,51,1,1,4,1,0,0,0,0
+cJSON,8c60f99c72,2013-02-05,08b02244,fix handling of utf16 surrogate pairs!,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+cJSON,8aa084918f,2013-02-05,08b02244,Revert last patch. Simpler fix for empty arrays/objects is to handle them explicitly and then bail. ,1,1,31,17,31,17,1,0,0,2,0,0,2,0,0,0,0,54,2,26,26,0,0,0,0,0
+cJSON,3ddf3a5911,2013-02-05,08b02244,stable solution for printing arrays - based on patch donated by Jerome Lang. Resolves issue in case ,1,1,17,14,17,14,0,0,0,1,0,0,1,0,0,0,0,41,1,15,15,0,0,0,0,0
+cJSON,4678f33b5c,2013-02-05,08b02244,Fix up ANSI issues.,2,2,17,17,17,17,1,0,0,8,0,0,0,0,0,0,0,51,1,4,17,0,0,0,0,0
+cJSON,fd1ac4f179,2011-10-10,08b02244,make parse_number more robust!,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,17,1,1,1,0,0,0,0,0
+cJSON,0d268cfef7,2011-10-10,08b02244,Update to cJSON! We now support UTF-16 surrogate pairs :),1,1,17,5,17,5,0,0,0,1,0,0,1,0,0,0,0,51,1,14,14,0,0,0,0,0
+cJSON,ebba183f1e,2011-08-22,7ca122f1,"updated README markdown, gitignore, added the Makefile and fixed weird comments in test.c",4,1,105,98,2,2,0,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+cJSON,9061b7a7e7,2011-03-14,08b02244,Fix c99 violation!,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+cJSON,15dada46b5,2011-03-07,08b02244,Fix missing cast for compilation as c++!!,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,38,1,1,1,0,0,0,0,0
+cJSON,6a58ba5285,2011-03-02,08b02244,Include some analysis so that you can debug a failed parse. You really oughtn't go too far with this,3,3,24,12,24,12,0,0,0,6,0,0,0,0,1,0,0,42,3,6,20,0,0,1,0,0
+cJSON,b5d57642c2,2011-03-02,08b02244,"Handle control-chars. In a certain sense, we shouldn't be seeing them, but this way we at least hand",1,1,6,6,6,6,0,0,0,2,0,0,0,1,0,0,0,42,2,6,6,0,0,0,0,0
+cJSON,b5d2db4d9a,2011-03-02,08b02244,print_object was calling free() rather than cJSON_free() under failure conditions!,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,45,1,2,2,0,0,0,0,0
+cJSON,6f51f007a9,2011-03-02,08b02244,"cJSON_Parse("""") should return 0.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+cJSON,02d86ef778,2011-03-02,08b02244,Update to permit compilation with gcc -ansi flag (changed all C++ // comments to C /* */ comments).,3,3,123,123,123,123,0,0,0,9,0,0,0,0,0,0,0,49,5,25,46,0,0,0,0,0
+cJSON,de7afcc458,2010-02-18,08b02244,change firstByteMark to unsigned to prevent constant overflow warning,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+cJSON,149d013543,2010-02-13,08b02244,Wrong order for variable declaration.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+cJSON,6711153d41,2010-02-12,08b02244,"CreateBool, because it's useful ;)",2,2,2,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+cJSON,3fb3989bb1,2010-01-27,08b02244,"All memory allocations are now checked, and should fail gracefully in a low memory environment.",1,1,24,18,24,18,0,0,0,17,0,0,2,0,0,0,0,31,2,2,23,0,1,0,0,0
+cJSON,7dd9280267,2010-01-23,08b02244,Fix handling of non-ascii characters! Many thanks to an anonymous submitter for this fix!!,1,1,5,5,5,5,1,0,0,3,0,0,0,0,0,0,0,42,2,4,5,0,0,0,0,0
+cJSON,d9840479f5,2010-01-07,08b02244,Include ctype.h for tolower(),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+cJSON,ee4ce32ea8,2010-01-01,08b02244,make strcasecmp STABLE if passed a null string,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+cJSON,6420cfe7c4,2009-12-09,08b02244,"solve the stricmp/strcasecmp in a dumb way for good. I might make cJSON_strcasecmp hookable, dependi",1,1,8,7,8,7,0,0,0,3,0,0,0,0,1,0,0,1,0,0,8,0,0,0,0,0
+cJSON,efe33fabbb,2009-12-09,08b02244,"ID: 2907153 declare variable first, so we're proper c ;)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+cJSON,37963a72b9,2009-11-26,08b02244,Don't crash if someone calls cJSON_Print(0);,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+cJSON,091c0676c1,2009-11-25,08b02244,return 0!,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+cJSON,341bb3c640,2009-11-25,08b02244,oops! remember to kill dead pointers on Detach!!,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+cJSON,79a796aed2,2009-11-25,08b02244,Detatch and Remove objects from Arrays/Objects.,2,2,11,1,11,1,0,0,0,0,0,0,0,0,4,0,0,0,0,0,9,0,0,0,1,0
+cJSON,29b085bc5d,2009-11-25,08b02244,"Feature Request: 2903802. If you need to add an existing cJSON to a new object, but the existing obj",2,2,15,4,15,4,0,0,0,2,0,0,0,0,3,0,0,15,0,0,9,0,0,0,0,0
+cJSON,c4e8954eb2,2009-11-25,08b02244,Feature request: 2903779. Unformatted output. :),2,2,23,20,23,20,0,0,0,4,0,0,2,0,1,0,0,45,2,11,20,0,0,0,0,0
+cJSON,501ff3b3d0,2009-11-25,08b02244,"if it's a big number, but still an integer, print it exactly!",1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+cJSON,0dbe29ffe8,2009-11-11,08b02244,fix bug 2895595 from jshvrsn whereby values outside of INT_MIN/INT_MAX range are printed incorrectly,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+cJSON,69dca155a9,2009-11-11,08b02244,comment these out for clarity...,1,1,2,2,2,2,0,0,0,1,0,1,0,0,0,0,0,49,1,0,0,0,0,0,0,0
+cJSON,6b51f927e9,2009-11-10,08b02244,two bizarre tweaks to demonstrate the replace functionality.,1,1,4,0,4,0,0,0,0,1,1,0,0,0,0,0,0,51,1,2,2,0,0,0,0,0
+cJSON,991b577247,2009-11-10,08b02244,"fix the ReplaceObject functions; tighten them up, add some more checks for stability.",1,1,4,3,4,3,1,0,0,4,0,0,1,0,0,0,0,30,1,1,4,0,0,0,0,0
+cJSON,b3bd706f8f,2009-11-10,08b02244,prototype versions of ReplaceObject. Based on an idea from Daniel Harcek; these are designed to allo,2,2,13,3,13,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,8,0,0,0,0,0
+cJSON,5cca4e2c57,2009-11-10,08b02244,simplify the rendering code so there's no 'realloc' going on. That seemed horribly inefficient to me,2,2,82,32,82,32,0,0,0,3,2,0,0,0,0,0,0,45,2,59,59,0,0,0,0,1
+cJSON,37da1d2493,2009-11-06,08b02244,Fix for printing values that contain % literals. Thanks to Jimmy Tam!,1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,28,0,0,3,0,0,0,0,0
+cJSON,7ca2c994a7,2009-10-29,08b02244,incorporate hooks feature from bug 2883206 also new errorhandling for memory failure cases. +I HAVE ,2,2,86,25,86,25,1,0,0,13,1,0,1,0,2,0,0,42,3,7,75,0,0,0,0,0
+cJSON,c052999a71,2009-10-29,08b02244,"fix bug: 2885206, whereby memory would leak in print_object if print_value failed.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+cJSON,75e1702659,2009-10-28,08b02244,fix bug: 2859459 (crash when printing JSON) handling of string length was incorrect.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+cJSON,e5fe65f58a,2009-09-09,08b02244,...try that again... better WINDOWS/WIN32/__WIN32__ (for Borland C) sentinelling also missed the cas,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,28,0,0,3,0,0,0,0,0
+cJSON,6d50358e26,2009-09-09,08b02244,Windows/c++ support (with thanks to Ron Hall): added strcasecmp->stricmp added (char*) casts to all ,1,1,12,8,12,8,0,0,0,5,0,0,0,0,0,0,0,28,0,0,9,0,0,0,0,0
+cJSON,5bd220c8dc,2009-08-26,08b02244,add macros. tighten code.,2,2,26,20,26,20,0,0,0,1,0,0,0,0,0,0,0,49,0,0,24,0,0,0,0,0
+cJSON,a4a4e7cbff,2009-08-26,08b02244,make these PROPERLY ansi-c compliant ;),2,2,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,49,0,0,5,0,0,0,0,0

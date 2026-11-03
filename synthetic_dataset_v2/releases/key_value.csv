@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+key_value,v0.1,v0.2,0,2.672,58,354,64,0,2
+key_value,v0.2,v0.3,1,3.1478,51,402,94,1,5
+key_value,v0.3,v0.4,2,8.0428,43,435,116,9,7
+key_value,v0.4,v0.5,3,6.837,46,453,122,1,7
+key_value,v0.5,v0.6,4,1.0854,16,481,122,5,7

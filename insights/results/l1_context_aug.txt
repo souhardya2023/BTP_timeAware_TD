@@ -1,0 +1,13 @@
+## 1. Can the debt change be moved to an older version of its project?
+attempts: 305; patch applied and vectorised: 188 (62%); patch failed: 117; other errors: 0
+applied per project: {'C-Thread-Pool': '13/20', 'boltons': '95/120', 'cJSON': '5/5', 'click': '13/50', 'jansson': '12/30', 'jinja': '15/25', 'libpng': '0/5', 'libyaml': '24/25', 'werkzeug': '0/10', 'zlib': '11/15'}
+pairs with at least one older-context copy: 56 of 61; contexts per such pair: median 3
+signature stability (features the original injection changes): cosine similarity original vs older host: median 1.00; sign agreement: median 1.00  (n=188 copies)
+median relative change of the signature between hosts: 0.03
+
+## 2. Augmentation by time windows (no time feature)   accuracy [balanced]   non-boltons accuracy under leave-one-project-out
+training rows: original 61; with older-context copies +188 (all copies of a held-out pair/project are removed from training)
+  RF          original 61 only     stratified 0.885 [0.807]   lopo 0.459 [0.539]   non-boltons 0.757
+  RF          with older contexts  stratified 0.852 [0.761]   lopo 0.443 [0.552]   non-boltons 0.730
+  10-best+RF  original 61 only     stratified 0.787 [0.663]   lopo 0.426 [0.473]   non-boltons 0.703
+  10-best+RF  with older contexts  stratified 0.770 [0.676]   lopo 0.328 [0.335]   non-boltons 0.541

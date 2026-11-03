@@ -1,0 +1,29 @@
+instances with >= 10 releases: real 1080, synthetic baseline 329
+(1) real      events per instance (instances with an event): mean 2.36, variance 4.71, binomial variance at the pooled rate 2.03 -> dispersion 2.32
+(1) synthetic events per instance (instances with an event): mean 3.56, variance 5.84, binomial variance at the pooled rate 2.70 -> dispersion 2.17
+(2) real      Wald-Wolfowitz z of the number of event runs (negative = events clumped): mean -0.65, share with z < -1.64: 0.17 (n=176)
+(2) synthetic Wald-Wolfowitz z of the number of event runs (negative = events clumped): mean -0.33, share with z < -1.64: 0.06 (n=89)
+    real      median max run of consecutive events 2; mean gap between events 3.38 releases; implied mean gap if memoryless 4.29
+    synthetic median max run of consecutive events 2; mean gap between events 2.79 releases; implied mean gap if memoryless 3.52
+(4) real      events span 0.63 of the life (instances with >= 3 events, n=179); uniformly placed events would span about 0.61
+(4) synthetic events span 0.64 of the life (instances with >= 3 events, n=90); uniformly placed events would span about 0.62
+    real      event rate in the first half of the life 0.126, in the second half 0.153 (Wilcoxon p=0.0439, n=579)
+    synthetic event rate in the first half of the life 0.259, in the second half 0.248 (Wilcoxon p=0.544, n=147)
+
+(3) lifecycle archetypes (k-means, k=4, on rate, early, late, first-event position, span, longest run), instances with >= 10 releases
+  real
+     n   rate  early   late  first  maxrun     size  share        archetype
+c                                                                          
+0  683  0.018  0.000  0.035  0.933   0.272   23.000  0.632   late awakening
+2  242  0.101  0.142  0.062  0.231   1.132   48.071  0.224       occasional
+1  152  0.273  0.235  0.307  0.120   1.974   61.096  0.141       occasional
+3    3  1.000  1.000  1.000  0.000  19.000  170.947  0.003  hot, persistent
+  synthetic
+     n   rate  early   late  first  maxrun   size  share        archetype
+c                                                                        
+1  186  0.001  0.000  0.003  0.997   0.022  7.000  0.565       occasional
+3   55  0.123  0.111  0.133  0.424   1.145  7.333  0.167       occasional
+0   58  0.259  0.280  0.240  0.109   1.500  7.745  0.176       occasional
+2   30  0.508  0.524  0.495  0.061   3.467  7.450  0.091  hot, persistent
+(5) real      size of frozen instances (median) 17, of live instances 51; Mann-Whitney p=1.23e-29
+(5) synthetic size of frozen instances (median) 7, of live instances 7; Mann-Whitney p=0.759

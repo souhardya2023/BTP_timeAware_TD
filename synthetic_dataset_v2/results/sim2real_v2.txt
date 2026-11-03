@@ -1,0 +1,13 @@
+shared features 133; real majority 0.426; v2 pairs 1313 (tier H 88, median relative change of sloc: all 0.345 %, H 0.063 %)
+train all v2 pairs                             [raw       ] -> real 61: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted {'dependency_structure': np.int64(59), 'complexity': np.int64(2)}
+train all v2 pairs                             [signed log] -> real 61: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted {'dependency_structure': np.int64(59), 'complexity': np.int64(2)}
+train all v2 pairs                             [relative  ] -> real 61: accuracy 0.148  Python 0.146  C/C++ 0.150  predicted {'dependency_structure': np.int64(59), 'complexity': np.int64(2)}
+train all v2 pairs                             [sign      ] -> real 61: accuracy 0.344  Python 0.220  C/C++ 0.600  predicted {'security': np.int64(38), 'dependency_structure': np.int64(18), 'complexity': np.int64(3), 'concurrency': np.int64(2)}
+train tier H hosts only (realistic dilution)   [raw       ] -> real 61: accuracy 0.180  Python 0.195  C/C++ 0.150  predicted {'dependency_structure': np.int64(53), 'complexity': np.int64(4), 'coupling_cohesion': np.int64(4)}
+train tier H hosts only (realistic dilution)   [signed log] -> real 61: accuracy 0.180  Python 0.195  C/C++ 0.150  predicted {'dependency_structure': np.int64(53), 'complexity': np.int64(4), 'coupling_cohesion': np.int64(4)}
+train tier H hosts only (realistic dilution)   [relative  ] -> real 61: accuracy 0.180  Python 0.195  C/C++ 0.150  predicted {'dependency_structure': np.int64(51), 'coupling_cohesion': np.int64(6), 'complexity': np.int64(4)}
+train tier H hosts only (realistic dilution)   [sign      ] -> real 61: accuracy 0.344  Python 0.220  C/C++ 0.600  predicted {'security': np.int64(36), 'dependency_structure': np.int64(18), 'complexity': np.int64(5), 'concurrency': np.int64(2)}
+v2 held-out project, raw delta: 0.938
+v2 held-out project, relative delta: 0.939
+v2 tier H only (88 pairs, 8 projects), held-out project, relative delta: 0.920 (majority 0.443)
+train real 61 (relative) -> v2 all: 0.462 (majority 0.209)

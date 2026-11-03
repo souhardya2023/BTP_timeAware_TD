@@ -1,0 +1,900 @@
+[
+ {
+  "id": "s2_1",
+  "head": [
+   "Evidence",
+   "Number",
+   "Source"
+  ],
+  "rows": [
+   [
+    "AI incidents reported in 2024",
+    "233 (+56% on 2023)",
+    "Stanford AI Index 2025 [15]"
+   ],
+   [
+    "AI-generated code samples with a security flaw",
+    "45%",
+    "Veracode 2025 [16]"
+   ],
+   [
+    "AI-introduced issues still in the latest revision",
+    "22.7% of 484,366 issues, 6,299 repos",
+    "Liu et al. 2026 [9]"
+   ],
+   [
+    "Orgs with an AI-model breach that lacked AI access controls",
+    "97%",
+    "IBM 2025 [17]"
+   ],
+   [
+    "Poor software quality, US cost per year",
+    "US$2.41 trillion",
+    "CISQ 2022 [19]"
+   ]
+  ],
+  "w": 6,
+  "colW": [
+   2.7,
+   1.9,
+   1.4
+  ],
+  "fs": 10,
+  "rowH": 0.5,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s3_2",
+  "head": [
+   "Case",
+   "What was reported",
+   "Debt angle"
+  ],
+  "rows": [
+   [
+    "Amazon / AWS, Dec 2025",
+    "~13 h outage after an AI coding-agent change (FT). Amazon: access misconfiguration, not AI",
+    "Review gap"
+   ],
+   [
+    "Amazon retail, Mar 2026",
+    "Outages and stricter sign-off for AI-assisted changes (wording to be re-checked)",
+    "Review gap"
+   ],
+   [
+    "Replit agent, Jul 2025",
+    "Agent deleted a production database during a code freeze (AI Incident Database)",
+    "No guardrails"
+   ],
+   [
+    "GitClear, 2025",
+    "More duplicated code, less refactoring (moved code) in the AI period [18]",
+    "Design debt"
+   ],
+   [
+    "Poor quality, US, 2022",
+    "US$2.41 trillion per year [19]",
+    "Cost of debt"
+   ]
+  ],
+  "w": 6.2,
+  "colW": [
+   1.6,
+   3.5,
+   1.1
+  ],
+  "fs": 10,
+  "rowH": 0.55,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s4_3",
+  "head": [
+   "Paper",
+   "Venue",
+   "What they studied",
+   "What they found",
+   "What I take from it"
+  ],
+  "rows": [
+   [
+    "[1] Lenarduzzi, Besker, Taibi, Martini, Arcelli Fontana",
+    "JSS 2021",
+    "Systematic review of 557 papers, 44 primary studies",
+    "Approaches optimise different criteria; no consensus on factors; no validated tools",
+    "Ranking needs measurable criteria and a test"
+   ],
+   [
+    "[2] Alfayez, Winn, Alwehaibi, Venson, Boehm",
+    "IST 2023",
+    "How teams prioritise SonarQube-found debt (case study)",
+    "Value is subjective and context-dependent; no silver bullet",
+    "Use cost and interest, not opinion of value"
+   ],
+   [
+    "[3] Baldassarre, Lenarduzzi, Romano, Saarimaki",
+    "IST 2020",
+    "Accuracy of SonarQube remediation time",
+    "Estimates are inaccurate; debt items are spread out",
+    "Build my own time and effort model"
+   ],
+   [
+    "[4] Biazotto, Feitosa, Avgeriou, Nakagawa",
+    "IST 2024",
+    "Automation of debt management, 178 studies",
+    "121 automation artefacts; integration across them lacking",
+    "End-to-end ranked pipeline"
+   ]
+  ],
+  "w": 9.2,
+  "colW": [
+   1.75,
+   0.85,
+   1.9,
+   2.5,
+   2.2
+  ],
+  "fs": 10,
+  "rowH": 0.78,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s5_4",
+  "head": [
+   "Paper",
+   "Venue",
+   "What they studied",
+   "What they found",
+   "What I take from it"
+  ],
+  "rows": [
+   [
+    "[5] Ampatzoglou, Ampatzoglou, Chatzigeorgiou, Avgeriou",
+    "IST 2015",
+    "Financial aspects of debt, systematic review",
+    "Interest is the central idea but hard to measure",
+    "Quantify interest explicitly"
+   ],
+   [
+    "[6] Digkas, Ampatzoglou, Chatzigeorgiou, Avgeriou, Matei, Heb",
+    "SN CS 2021",
+    "Risk of generating interest (case study)",
+    "A risk metric can prioritise repayment; new code is less risky than legacy",
+    "Rank by an interest-based score"
+   ],
+   [
+    "[7] Lenarduzzi, Saarimaki, Taibi",
+    "JSS 2020",
+    "SonarQube issues against faults and changes",
+    "Effect is significant but small",
+    "Violation count alone is a weak ranking"
+   ],
+   [
+    "[12] Wiriyakul, Senivongse",
+    "2025",
+    "Interest of code-smell debt from release history",
+    "Interest is rework inside a persisting smell, converted with COCOMO II",
+    "My interest method (person-months)"
+   ]
+  ],
+  "w": 9.2,
+  "colW": [
+   1.75,
+   0.85,
+   1.9,
+   2.5,
+   2.2
+  ],
+  "fs": 10,
+  "rowH": 0.78,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s6_5",
+  "head": [
+   "Paper",
+   "Venue",
+   "What they studied",
+   "What they found",
+   "What I take from it"
+  ],
+  "rows": [
+   [
+    "[9] Liu, Widyasari, Zhao, Irsan, Chen, Lo",
+    "arXiv 2026",
+    "302.6k AI-authored commits, 6,299 repositories",
+    "484,366 issues, 89.3% code smells; 22.7% still present",
+    "AI debt persists, so ranking is needed"
+   ],
+   [
+    "[10] Ehsani, Rawal, Cai, Chatterjee",
+    "arXiv 2026",
+    "Multivocal review, 104 sources, LLM-assisted development",
+    "New LLM-specific debt kinds; no standard benchmark or metric",
+    "A benchmark with known answers is missing"
+   ],
+   [
+    "[11] Lin et al. (SmellBench)",
+    "arXiv 2026",
+    "Smells injected into clean real code",
+    "294 cases, 7 smell types, human-written ground truth",
+    "Injection idea, at whole-project level"
+   ],
+   [
+    "[8] Li, Soliman, Avgeriou",
+    "EMSE 2023",
+    "Self-admitted debt from four sources",
+    "F1 0.611 over 4 SATD types; 103 projects",
+    "SATD comments as features"
+   ]
+  ],
+  "w": 9.2,
+  "colW": [
+   1.75,
+   0.85,
+   1.9,
+   2.5,
+   2.2
+  ],
+  "fs": 10,
+  "rowH": 0.78,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s8_6",
+  "head": [
+   "Step",
+   "What I did",
+   "Why"
+  ],
+  "rows": [
+   [
+    "Projects",
+    "10 open-source projects with test suites; 4 Python, 6 C/C++",
+    "whole projects hold structure that snippets cannot show (cycles, fan-in/out)"
+   ],
+   [
+    "Inject",
+    "one small change per pair, 5 types; 60 injected (45 scripted, 15 SmellBench-style [11]) and 1 natural fix (libpng)",
+    "known type and place, and a clean twin to compare against"
+   ],
+   [
+    "Keep working",
+    "debt copy must pass the project's own tests",
+    "real debt does not break behaviour"
+   ],
+   [
+    "Audit",
+    "keep a pair only if a metric of its own type moved: 52 of 102 kept",
+    "a 1-2 line change must be visible as debt, not just assumed"
+   ],
+   [
+    "Add",
+    "C-Thread-Pool (4) and libyaml (5): total 61",
+    "more concurrency and security cases in C"
+   ],
+   [
+    "Bugs",
+    "3 mutations per pair, same patch on both copies: 183",
+    "gives a fix-time difference that comes from the debt"
+   ]
+  ],
+  "w": 6.3,
+  "colW": [
+   0.95,
+   3,
+   2.35
+  ],
+  "fs": 9.5,
+  "rowH": 0.52,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s9_7",
+  "head": [
+   "Block",
+   "n",
+   "Feature families (what is measured)"
+  ],
+  "rows": [
+   [
+    "Structure",
+    "46",
+    "layout: files, dirs, depth, file-size spread, Gini, header/init share (13). Dependency graph: nodes, edges, density, cycles, fan-in/out, instability, dependency depth, clustering, modularity, PageRank, 6 spectral values (33)"
+   ],
+   [
+    "Code",
+    "50",
+    "size and comments (11); function length, CCN, parameters, tokens (20); Python idioms: classes, docstrings, try/except, lambda (11); C idioms: malloc/free, goto, casts, asserts (8)"
+   ],
+   [
+    "Debt",
+    "37",
+    "long / complex / many-parameter methods and COCOMO principal (15); class cohesion LCOM4 (4); concurrency: locks, threads, atomics, shared globals (6); security findings, guards (3); self-admitted debt (7); duplication (2)"
+   ],
+   [
+    "Time",
+    "1",
+    "time_diff_min (minutes), only in the with-time file"
+   ],
+   [
+    "Target",
+    "1",
+    "td_type (5 classes: complexity, concurrency, coupling, dependency, security)"
+   ]
+  ],
+  "w": 5.9,
+  "colW": [
+   0.8,
+   0.4,
+   4.7
+  ],
+  "fs": 8.5,
+  "rowH": 0.55,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s10_8",
+  "head": [
+   "Debt type",
+   "Slowdown factor",
+   "Mean extra minutes per pair"
+  ],
+  "rows": [
+   [
+    "concurrency",
+    "3.4",
+    "161.6"
+   ],
+   [
+    "security",
+    "2.4",
+    "92.0"
+   ],
+   [
+    "complexity",
+    "1.8",
+    "53.5"
+   ],
+   [
+    "coupling_cohesion",
+    "1.4",
+    "22.7"
+   ],
+   [
+    "dependency_structure",
+    "1.05",
+    "3.2"
+   ]
+  ],
+  "w": 5.2,
+  "colW": [
+   2,
+   1.4,
+   1.8
+  ],
+  "fs": 10,
+  "rowH": 0.3,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s11_9",
+  "head": [
+   "Classifier",
+   "Setting (fixed, not tuned)",
+   "Why it is in the comparison"
+  ],
+  "rows": [
+   [
+    "Random forest [24]",
+    "300 trees, balanced",
+    "strong default for small tables"
+   ],
+   [
+    "Gradient boosting [25]",
+    "100 trees, depth 2",
+    "boosted alternative"
+   ],
+   [
+    "Logistic regression",
+    "standardised, C=1, balanced",
+    "linear check"
+   ],
+   [
+    "SVM (RBF)",
+    "standardised, C=3, balanced",
+    "margin-based check"
+   ],
+   [
+    "kNN",
+    "k=3, standardised",
+    "distance-based, no training"
+   ],
+   [
+    "10-best + RF / LR",
+    "SelectKBest k=10 in folds",
+    "61 rows for 133 features: cut noise"
+   ],
+   [
+    "Majority; time only",
+    "baselines",
+    "floor; is time a label?"
+   ]
+  ],
+  "w": 6.1,
+  "colW": [
+   1.6,
+   2.1,
+   2.4
+  ],
+  "fs": 9.5,
+  "rowH": 0.33,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s12_10",
+  "head": [
+   "Protocol",
+   "How the data is split",
+   "Why I use it",
+   "What it guards against"
+  ],
+  "rows": [
+   [
+    "Given stratified",
+    "5 folds, each keeps the type proportions",
+    "same splits for every model, so differences are comparable",
+    "a fold missing a rare type"
+   ],
+   [
+    "20 random stratified",
+    "20 repeats of a 5-fold stratified split",
+    "average and spread over many splits",
+    "one lucky split"
+   ],
+   [
+    "Given by project",
+    "5 folds; a project sits in one fold only",
+    "tests projects the model never saw",
+    "project fingerprint leak"
+   ],
+   [
+    "Leave one project out",
+    "10 folds; each project held out once",
+    "strictest test of generalisation",
+    "project fingerprint leak, fully"
+   ]
+  ],
+  "w": 6.4,
+  "colW": [
+   1.35,
+   1.8,
+   1.9,
+   1.35
+  ],
+  "fs": 9,
+  "rowH": 0.6,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s13_11",
+  "head": [
+   "Between two releases",
+   "Counted as",
+   "How"
+  ],
+  "rows": [
+   [
+    "Instance disappears",
+    "Repayment",
+    "principal removed"
+   ],
+   [
+    "Instance is new",
+    "Principal increase",
+    "size of its function"
+   ],
+   [
+    "Persists, function grows",
+    "Principal increase",
+    "added lines of the growth"
+   ],
+   [
+    "Persists, other changed lines",
+    "Interest",
+    "git diff -U0, inside the function"
+   ]
+  ],
+  "w": 6,
+  "colW": [
+   2.1,
+   1.5,
+   2.4
+  ],
+  "fs": 10,
+  "rowH": 0.36,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s14_12",
+  "head": [
+   "Target",
+   "Model",
+   "Question"
+  ],
+  "rows": [
+   [
+    "Any interest next release",
+    "random forest classifier",
+    "will it absorb work?"
+   ],
+   [
+    "Amount (person-months)",
+    "random forest regressor",
+    "how much?"
+   ],
+   [
+    "Both",
+    "two-part (hurdle) model [27]",
+    "will it, and then how much"
+   ]
+  ],
+  "w": 5.8,
+  "colW": [
+   1.9,
+   2,
+   1.9
+  ],
+  "fs": 9.5,
+  "rowH": 0.28,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s14_13",
+  "head": [
+   "Measure",
+   "What it tells"
+  ],
+  "rows": [
+   [
+    "Capture@k",
+    "share of the real next-release interest inside my top k%"
+   ],
+   [
+    "Precision@k, lift",
+    "do the top k% really pay interest, relative to the base rate"
+   ],
+   [
+    "NDCG@20 [26]",
+    "is the order right, weighted by amount"
+   ],
+   [
+    "Bootstrap CI",
+    "95% interval over repo-release groups (2,000 draws)"
+   ]
+  ],
+  "w": 5.8,
+  "colW": [
+   1.5,
+   4.3
+  ],
+  "fs": 9.5,
+  "rowH": 0.28,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s14_14",
+  "head": [
+   "Baseline",
+   "Role"
+  ],
+  "rows": [
+   [
+    "Random / zero model",
+    "lower bound (zero model = random order)"
+   ],
+   [
+    "Persistence",
+    "rank by interest already paid"
+   ],
+   [
+    "Oracle",
+    "upper bound: sort by the true value"
+   ]
+  ],
+  "w": 5.8,
+  "colW": [
+   1.8,
+   4
+  ],
+  "fs": 9.5,
+  "rowH": 0.26,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s16_15",
+  "head": [
+   "Model, top 20%",
+   "Capture (95% CI)",
+   "Lift",
+   "NDCG@20"
+  ],
+  "rows": [
+   [
+    "Zero model (= random)",
+    "18.6%",
+    "0.91",
+    "0.12"
+   ],
+   [
+    "Persistence",
+    "38.8% (32-45)",
+    "1.93",
+    "0.23"
+   ],
+   [
+    "RF regression",
+    "35.0% (29-41)",
+    "1.66",
+    "0.21"
+   ],
+   [
+    "Two-part model",
+    "38.5% (32-44)",
+    "1.86",
+    "0.21"
+   ]
+  ],
+  "w": 5.5,
+  "colW": [
+   1.8,
+   1.8,
+   0.8,
+   1.1
+  ],
+  "fs": 9.5,
+  "rowH": 0.27,
+  "hl": [
+   "3,1"
+  ],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s17_16",
+  "head": [
+   "k",
+   "Rand.",
+   "Pers.",
+   "RF",
+   "Two-part",
+   "Oracle"
+  ],
+  "rows": [
+   [
+    "10%",
+    "10.0",
+    "21.7",
+    "17.3",
+    "20.0",
+    "89.8"
+   ],
+   [
+    "20%",
+    "20.0",
+    "38.8",
+    "35.0",
+    "38.5",
+    "95.8"
+   ],
+   [
+    "30%",
+    "30.0",
+    "46.9",
+    "48.9",
+    "51.5",
+    "98.1"
+   ],
+   [
+    "50%",
+    "50.0",
+    "67.0",
+    "70.5",
+    "73.5",
+    "99.4"
+   ]
+  ],
+  "w": 3.2,
+  "colW": [
+   0.4,
+   0.5,
+   0.5,
+   0.45,
+   0.7,
+   0.65
+  ],
+  "fs": 9,
+  "rowH": 0.27,
+  "hl": [
+   "3,4",
+   "3,2"
+  ],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s17_17",
+  "head": [
+   "k",
+   "Two-part - persistence",
+   "95% CI"
+  ],
+  "rows": [
+   [
+    "10%",
+    "-2.0 pts",
+    "-7.0 to +2.8"
+   ],
+   [
+    "20%",
+    "-2.2 pts",
+    "-7.4 to +3.0"
+   ],
+   [
+    "30%",
+    "+3.3 pts",
+    "-2.2 to +8.9"
+   ],
+   [
+    "50%",
+    "+5.6 pts",
+    "+0.4 to +10.7"
+   ]
+  ],
+  "w": 3.2,
+  "colW": [
+   0.5,
+   1.5,
+   1.2
+  ],
+  "fs": 9,
+  "rowH": 0.27,
+  "hl": [
+   "3,0",
+   "3,1",
+   "3,2"
+  ],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s18_18",
+  "head": [
+   "Task",
+   "Result",
+   "Verdict"
+  ],
+  "rows": [
+   [
+    "Any interest next release (AUC)",
+    "0.59 / 0.71",
+    "weak, real"
+   ],
+   [
+    "Amount per instance (PM)",
+    "R2 <= 0; no gain over zero model",
+    "no"
+   ],
+   [
+    "Project total interest",
+    "predicted / actual = 1.14",
+    "portfolio only"
+   ],
+   [
+    "Total of a project, next release",
+    "best R2 = -0.14",
+    "no"
+   ],
+   [
+    "Function, next 100 commits (AUC)",
+    "0.57 / 0.62",
+    "weak"
+   ]
+  ],
+  "w": 4.4,
+  "colW": [
+   1.9,
+   1.7,
+   0.8
+  ],
+  "fs": 9.5,
+  "rowH": 0.45,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ },
+ {
+  "id": "s19_19",
+  "head": [
+   "Limit",
+   "Detail",
+   "Next step"
+  ],
+  "rows": [
+   [
+    "Injected debt",
+    "60 of 61 pairs injected; 1 natural (libpng)",
+    "more natural pairs"
+   ],
+   [
+    "Small data",
+    "61 pairs, classes 26/16/7/6/6; CIs about +-0.10",
+    "more pairs and projects"
+   ],
+   [
+    "No generalisation yet",
+    "unseen projects 0.43-0.51 accuracy",
+    "richer features; more projects"
+   ],
+   [
+    "Persistence not beaten",
+    "38.5% vs 38.8% at top 20%",
+    "change-proneness, ownership, tests"
+   ],
+   [
+    "Effort is relative",
+    "COCOMO multipliers = 1; constants of [12] unchecked",
+    "calibrate; cost-aware metric"
+   ],
+   [
+    "Bugs not test-validated",
+    "parse / compile checks only",
+    "run the project tests on bugged copies"
+   ],
+   [
+    "AI-generated code",
+    "motivation, not yet tested",
+    "apply the ranking to AI-written changes"
+   ]
+  ],
+  "w": 9.2,
+  "colW": [
+   1.7,
+   4.4,
+   3.1
+  ],
+  "fs": 10,
+  "rowH": 0.45,
+  "hl": [],
+  "colors": {},
+  "noBold": false
+ }
+]

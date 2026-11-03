@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+random_number,v0.1,v0.2,0,0.1237,60,346,112,3,3
+random_number,v0.2,v0.3,1,1.6248,159,406,172,38,5
+random_number,v0.3,v0.4,2,0.5214,10,484,315,9,8
+random_number,v0.4,v0.5,3,3.2329,64,484,315,36,8
+random_number,v0.5,v0.6,4,1.4835,28,505,315,20,8

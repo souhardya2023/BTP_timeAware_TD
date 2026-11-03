@@ -1,0 +1,17 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+roman_numerals,0,roman_numerals/cli.py,2,4,0,0
+roman_numerals,0,roman_numerals/core.py,62,166,30,30
+roman_numerals,0,roman_numerals/models.py,1,26,0,0
+roman_numerals,0,roman_numerals/services.py,14,38,0,0
+roman_numerals,1,roman_numerals/cli.py,1,4,0,0
+roman_numerals,1,roman_numerals/core.py,27,190,30,2
+roman_numerals,1,roman_numerals/services.py,13,50,0,0
+roman_numerals,2,roman_numerals/cli.py,2,4,0,0
+roman_numerals,2,roman_numerals/core.py,38,220,30,0
+roman_numerals,2,roman_numerals/models.py,1,26,0,0
+roman_numerals,2,roman_numerals/services.py,2,50,0,0
+roman_numerals,3,roman_numerals/cli.py,2,4,0,0
+roman_numerals,3,roman_numerals/core.py,1,220,30,0
+roman_numerals,4,roman_numerals/cli.py,2,4,0,0
+roman_numerals,4,roman_numerals/core.py,15,230,30,0
+roman_numerals,4,roman_numerals/services.py,1,51,0,0

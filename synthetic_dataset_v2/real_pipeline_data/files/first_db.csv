@@ -1,0 +1,10 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+first_db,0,first_db/core.py,12,144,44,0
+first_db,0,first_db/models.py,14,26,0,0
+first_db,0,first_db/services.py,14,129,83,0
+first_db,1,first_db/core.py,12,155,44,0
+first_db,1,first_db/services.py,7,132,83,0
+first_db,3,first_db/core.py,2,155,44,0
+first_db,3,first_db/services.py,1,131,83,0
+first_db,4,first_db/core.py,3,155,44,0
+first_db,4,first_db/services.py,22,144,83,0

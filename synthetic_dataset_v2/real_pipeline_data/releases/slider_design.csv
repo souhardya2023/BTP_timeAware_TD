@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+slider_design,0,v0.1,v0.2,2019-01-07,2019-07-23,minor,5,277,144,283,149,5,18,13,13,5
+slider_design,1,v0.2,v0.3,2019-07-23,2019-09-07,minor,2,283,149,294,149,5,16,0,0,3
+slider_design,2,v0.3,v0.4,2019-09-07,2019-09-24,minor,1,294,149,294,149,5,6,6,6,1
+slider_design,3,v0.4,v0.5,2019-09-24,2020-01-02,minor,4,294,149,300,149,5,20,10,10,5

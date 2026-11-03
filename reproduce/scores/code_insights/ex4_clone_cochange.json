@@ -1,0 +1,47 @@
+{
+ "a": {
+  "repo": "jinja",
+  "file": "src/jinja2/parser.py",
+  "func": "parse_math1",
+  "tag": "2.11.3",
+  "next": "3.0.0",
+  "text": [
+   "    def parse_math1(self):",
+   "        lineno = self.stream.current.lineno",
+   "        left = self.parse_concat()",
+   "        while self.stream.current.type in (\"add\", \"sub\"):",
+   "            cls = _math_nodes[self.stream.current.type]",
+   "            next(self.stream)",
+   "            right = self.parse_concat()",
+   "            left = cls(left, right, lineno=lineno)",
+   "            lineno = self.stream.current.lineno",
+   "        return left"
+  ],
+  "changed": [
+   0
+  ]
+ },
+ "b": {
+  "repo": "jinja",
+  "file": "src/jinja2/parser.py",
+  "func": "parse_math2",
+  "tag": "2.11.3",
+  "next": "3.0.0",
+  "text": [
+   "    def parse_math2(self):",
+   "        lineno = self.stream.current.lineno",
+   "        left = self.parse_pow()",
+   "        while self.stream.current.type in (\"mul\", \"div\", \"floordiv\", \"mod\"):",
+   "            cls = _math_nodes[self.stream.current.type]",
+   "            next(self.stream)",
+   "            right = self.parse_pow()",
+   "            left = cls(left, right, lineno=lineno)",
+   "            lineno = self.stream.current.lineno",
+   "        return left"
+  ],
+  "changed": [
+   0
+  ]
+ },
+ "jaccard": 0.814
+}

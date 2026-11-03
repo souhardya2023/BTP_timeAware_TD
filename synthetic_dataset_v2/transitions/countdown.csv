@@ -1,0 +1,26 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+countdown,v0.1,v0.2,0,countdown-D01,countdown/services.py,summary_alarm_1,synth:feature_envy,MAJOR,15,7,2,0,0,0,0.012548784031360172,increase,1,16,9,0.0,0.0
+countdown,v0.2,v0.3,1,countdown-D01,countdown/services.py,summary_alarm_1,synth:feature_envy,MAJOR,15,16,5,1,0,0,0.03114713285699654,none,1,16,0,0.0,0.0
+countdown,v0.2,v0.3,1,countdown-D02,countdown/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+countdown,v0.2,v0.3,1,countdown-D03,countdown/models.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.3,v0.4,2,countdown-D01,countdown/services.py,summary_alarm_1,synth:feature_envy,MAJOR,15,16,5,2,0,0,0.03114713285699654,none,1,16,0,0.0,0.0
+countdown,v0.3,v0.4,2,countdown-D02,countdown/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+countdown,v0.3,v0.4,2,countdown-D03,countdown/models.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.3,v0.4,2,countdown-D04,countdown/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.3,v0.4,2,countdown-D05,countdown/core.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.3,v0.4,2,countdown-D06,countdown/models.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+countdown,v0.3,v0.4,2,countdown-D07,countdown/core.py,load_alarm_blob_7,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+countdown,v0.4,v0.5,3,countdown-D01,countdown/services.py,summary_alarm_1,synth:feature_envy,MAJOR,15,16,5,3,0,0,0.03114713285699654,interest,1,16,3,3.0,0.004942396395519926
+countdown,v0.4,v0.5,3,countdown-D02,countdown/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+countdown,v0.4,v0.5,3,countdown-D03,countdown/models.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.4,v0.5,3,countdown-D04,countdown/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.4,v0.5,3,countdown-D05,countdown/core.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.4,v0.5,3,countdown-D06,countdown/models.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,1,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.4,v0.5,3,countdown-D07,countdown/core.py,load_alarm_blob_7,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D01,countdown/services.py,summary_alarm_1,synth:feature_envy,MAJOR,15,16,5,4,3,1,0.03114713285699654,none,1,16,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D02,countdown/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D03,countdown/models.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D04,countdown/core.py,notify_upstream_4,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D05,countdown/core.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D06,countdown/models.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,2,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+countdown,v0.5,v0.6,4,countdown-D07,countdown/core.py,load_alarm_blob_7,synth:unsafe_deserialize,MAJOR,15,5,3,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0

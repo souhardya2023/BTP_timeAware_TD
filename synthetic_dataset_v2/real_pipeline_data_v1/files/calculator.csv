@@ -1,0 +1,10 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+calculator,0,calculator/core.py,25,154,34,0
+calculator,0,calculator/models.py,4,30,0,0
+calculator,0,calculator/services.py,4,18,0,0
+calculator,1,calculator/core.py,5,158,34,0
+calculator,1,calculator/models.py,1,30,0,0
+calculator,1,calculator/services.py,2,18,0,0
+calculator,3,calculator/core.py,23,179,34,0
+calculator,3,calculator/models.py,1,30,0,0
+calculator,3,calculator/services.py,8,25,0,0

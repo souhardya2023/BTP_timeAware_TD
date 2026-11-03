@@ -1,0 +1,18 @@
+
+### baseline: 391 groups, capture in the top 20 %
+  lines/(age+1)  [persistence]                      55.5    +0.0 (+0.0, +0.0)
+  events/(age+1)                                    56.3    +0.8 (-0.6, +2.2)
+  shrunk events                                     61.2    +5.6 (+2.8, +8.6)
+  shrunk lines                                      60.1    +4.6 (+2.2, +7.1)
+  events / TRUE release activity (oracle clock)     61.1    +5.5 (+2.5, +8.7)
+  events / commits per release (observable)         61.1    +5.6 (+2.5, +8.8)
+  oracle (latent rate)                              72.2   +16.6 (+12.2, +20.9)
+
+### ALL: 691 groups, capture in the top 20 %
+  lines/(age+1)  [persistence]                      58.1    +0.0 (+0.0, +0.0)
+  events/(age+1)                                    58.0    -0.1 (-1.2, +1.0)
+  shrunk events                                     61.1    +3.0 (+1.0, +5.1)
+  shrunk lines                                      60.6    +2.5 (+0.7, +4.2)
+  events / TRUE release activity (oracle clock)     61.3    +3.2 (+1.0, +5.4)
+  events / commits per release (observable)         61.4    +3.3 (+1.2, +5.5)
+  oracle (latent rate)                              69.6   +11.5 (+8.4, +14.7)

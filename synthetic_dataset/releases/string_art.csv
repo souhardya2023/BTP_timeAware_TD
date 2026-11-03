@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+string_art,v0.1,v0.2,0,1.4472,49,279,57,4,2
+string_art,v0.2,v0.3,1,1.7538,103,316,58,4,2
+string_art,v0.3,v0.4,2,0.7464,39,407,103,1,5
+string_art,v0.4,v0.5,3,0.9465,71,441,103,2,5
+string_art,v0.5,v0.6,4,1.3171,114,504,133,1,6
+string_art,v0.6,v0.7,5,1.6381,70,606,164,4,7
+string_art,v0.7,v0.8,6,0.8552,36,657,164,4,7
+string_art,v0.8,v0.9,7,0.7101,21,626,107,4,6
+string_art,v0.9,v0.10,8,0.4883,31,639,107,0,6
+string_art,v0.10,v0.11,9,0.3869,6,665,107,0,6

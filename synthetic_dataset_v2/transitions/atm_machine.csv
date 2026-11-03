@@ -1,0 +1,43 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+atm_machine,v0.1,v0.2,0,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.1,v0.2,0,atm_machine-D02,atm_machine/services.py,sign_cassette_2,synth:weak_hash_secret,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+atm_machine,v0.2,v0.3,1,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.2,v0.3,1,atm_machine-D02,atm_machine/services.py,sign_cassette_2,synth:weak_hash_secret,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+atm_machine,v0.2,v0.3,1,atm_machine-D03,atm_machine/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.3,v0.4,2,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.3,v0.4,2,atm_machine-D02,atm_machine/services.py,sign_cassette_2,synth:weak_hash_secret,MAJOR,15,3,1,2,0,0,0.004942396395519926,repayment,0,3,1,0.0,0.0
+atm_machine,v0.3,v0.4,2,atm_machine-D03,atm_machine/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.3,v0.4,2,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.3,v0.4,2,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.4,v0.5,3,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+atm_machine,v0.4,v0.5,3,atm_machine-D03,atm_machine/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.4,v0.5,3,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.4,v0.5,3,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.5,v0.6,4,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,4,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.5,v0.6,4,atm_machine-D03,atm_machine/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.5,v0.6,4,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.5,v0.6,4,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,5,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D03,atm_machine/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,repayment,0,0,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D06,atm_machine/utils.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D07,atm_machine/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+atm_machine,v0.6,v0.7,5,atm_machine-D08,atm_machine/rules.py,classify_card_8,synth:ladder,MAJOR,15,40,19,0,0,0,0.08531643558590787,none,1,40,0,0.0,0.0
+atm_machine,v0.7,v0.8,6,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,6,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.7,v0.8,6,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.7,v0.8,6,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.7,v0.8,6,atm_machine-D06,atm_machine/utils.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.7,v0.8,6,atm_machine-D07,atm_machine/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+atm_machine,v0.7,v0.8,6,atm_machine-D08,atm_machine/rules.py,classify_card_8,synth:ladder,MAJOR,15,40,19,1,0,0,0.08531643558590787,none,1,40,0,0.0,0.0
+atm_machine,v0.8,v0.9,7,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,7,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.8,v0.9,7,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.8,v0.9,7,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.8,v0.9,7,atm_machine-D06,atm_machine/utils.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.8,v0.9,7,atm_machine-D07,atm_machine/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+atm_machine,v0.8,v0.9,7,atm_machine-D08,atm_machine/rules.py,classify_card_8,synth:ladder,MAJOR,15,40,19,2,0,0,0.08531643558590787,repayment,0,6,4,0.0,0.0
+atm_machine,v0.9,v0.10,8,atm_machine-D01,atm_machine/utils.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,8,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.9,v0.10,8,atm_machine-D04,atm_machine/cli.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.9,v0.10,8,atm_machine-D05,atm_machine/validators.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+atm_machine,v0.9,v0.10,8,atm_machine-D06,atm_machine/utils.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+atm_machine,v0.9,v0.10,8,atm_machine-D07,atm_machine/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0

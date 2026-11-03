@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+bin2dec,v0.1,v0.2,0,1.3931,71,177,8,0,1
+bin2dec,v0.2,v0.3,1,0.903,32,240,42,3,5
+bin2dec,v0.3,v0.4,2,0.8256,26,267,56,6,7
+bin2dec,v0.4,v0.5,3,0.7748,18,283,56,2,7
+bin2dec,v0.5,v0.6,4,0.9914,27,293,56,2,7

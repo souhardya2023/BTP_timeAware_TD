@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+color_cycle,0,v0.1,v0.2,2019-01-08,2019-02-17,minor,1,383,179,383,179,5,0,0,0,0
+color_cycle,1,v0.2,v0.3,2019-02-17,2019-03-27,minor,2,383,179,455,245,5,74,66,0,3
+color_cycle,2,v0.3,v0.4,2019-03-27,2019-05-08,minor,1,455,245,455,245,5,0,0,0,0
+color_cycle,3,v0.4,v0.5,2019-05-08,2019-09-07,minor,3,455,245,454,252,5,25,7,7,3
+color_cycle,4,v0.5,v0.6,2019-09-07,2020-01-19,minor,2,454,252,467,253,5,15,2,2,2

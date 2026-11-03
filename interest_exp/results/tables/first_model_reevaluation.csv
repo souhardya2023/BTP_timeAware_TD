@@ -1,0 +1,7 @@
+evaluation,R2,MSE
+"reported with the model (single 80/20 split, from the earlier summary)",0.8986,0.002075
+5-fold cross-validation (rows of one project in several folds),0.5331644028867819,0.025867542456655592
+leave one project out (4 projects),-0.4278186363284906,0.07911598734976921
+"column Pred_PM_Hist_Only of model_comparison_predictions.csv, as stored",0.47126083321179335,0.029297643388735875
+"column Pred_PM_Sonar_Only of model_comparison_predictions.csv, as stored",0.7481558247469253,0.013954783945578994
+"column Pred_PM_Combined of model_comparison_predictions.csv, as stored",0.5406962170822793,0.025450201695405926

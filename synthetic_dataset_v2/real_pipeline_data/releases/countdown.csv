@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+countdown,0,v0.1,v0.2,2019-01-07,2019-04-20,minor,6,339,192,352,192,5,21,2,2,7
+countdown,1,v0.2,v0.3,2019-04-20,2019-07-04,minor,4,352,192,369,192,5,31,12,12,6
+countdown,2,v0.3,v0.4,2019-07-04,2019-10-15,minor,4,369,192,369,192,5,28,11,11,5
+countdown,3,v0.4,v0.5,2019-10-15,2019-11-27,minor,2,369,192,330,144,5,4,0,0,2
+countdown,4,v0.5,v0.6,2019-11-27,2020-01-02,minor,1,330,144,330,144,5,0,0,0,0

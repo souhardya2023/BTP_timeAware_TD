@@ -1,0 +1,13 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+github_status,0,github_status/core.py,44,145,0,0
+github_status,0,github_status/models.py,1,26,0,0
+github_status,0,github_status/services.py,2,21,0,0
+github_status,1,github_status/cli.py,1,4,0,0
+github_status,1,github_status/core.py,49,190,11,11
+github_status,1,github_status/models.py,2,27,0,0
+github_status,1,github_status/services.py,20,39,0,0
+github_status,2,github_status/core.py,13,197,11,0
+github_status,2,github_status/models.py,1,27,0,0
+github_status,2,github_status/services.py,2,40,0,0
+github_status,3,github_status/core.py,2,197,11,0
+github_status,3,github_status/services.py,1,40,0,0

@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+rock_paper_scissors,0,v0.1,v0.2,2019-01-11,2019-01-14,minor,3,178,11,314,143,5,140,132,0,8
+rock_paper_scissors,1,v0.2,v0.3,2019-01-14,2019-01-17,minor,3,314,143,381,203,5,71,61,1,7
+rock_paper_scissors,2,v0.3,v0.4,2019-01-17,2019-01-24,minor,12,381,203,421,204,5,58,7,7,17
+rock_paper_scissors,3,v0.4,v0.5,2019-01-24,2019-01-28,minor,7,421,204,422,204,5,12,6,6,7
+rock_paper_scissors,4,v0.5,v0.6,2019-01-28,2019-01-30,minor,4,422,204,401,174,5,13,1,2,7

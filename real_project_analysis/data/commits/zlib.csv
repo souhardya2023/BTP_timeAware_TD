@@ -1,0 +1,475 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+zlib,767c4c9478,2026-09-20,40dfeb5e,Honor deflateReset promise to reset the header.,1,1,2,1,2,1,0,0,0,2,0,0,0,1,0,0,0,76,1,0,1,0,0,1,0,0
+zlib,ec63cd60eb,2026-09-20,d90e056e,Fix one more truncated stream detection bug.,1,1,8,2,8,2,1,0,0,2,0,0,1,0,0,0,0,51,1,4,8,0,0,0,0,0
+zlib,930cdf0770,2026-09-20,d90e056e,Restore the proper detection of truncated gzip streams.,1,1,10,5,10,5,0,0,0,5,0,0,3,0,0,0,0,43,3,6,10,0,0,0,0,0
+zlib,a82e0db392,2026-09-20,d90e056e,Move BLOCKED definition after errno.h include.,1,1,14,14,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,0
+zlib,a05eacf0bd,2026-09-20,86e63197,Fix bug where a complete gzip stream can be reported as truncated.,1,1,7,0,7,0,1,0,0,1,0,0,1,0,0,0,0,58,1,6,6,0,0,0,0,0
+zlib,6ed77c4885,2026-09-20,d90e056e,Leave the stream position unchanged when gzseek() fails.,2,2,2,3,2,3,0,0,0,1,0,0,0,1,0,0,0,52,1,0,2,0,0,0,0,0
+zlib,6995c67bd4,2026-09-20,d90e056e,Avoid signed-overflow undefined behaviors in gzseek.,3,3,29,20,29,20,1,0,0,1,0,0,1,0,0,0,0,54,1,18,25,1,0,0,0,0
+zlib,b31d984470,2026-09-20,234f15ad,Fix bug in successive gzwrite SEEK_CURs losing zero fill.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+zlib,d81c2d7eb7,2026-09-16,d90e056e,Honor gzprintf's all-or-nothing-written contract when blocked.,2,2,17,1,17,1,0,0,0,2,0,0,2,0,0,0,0,68,2,14,15,0,0,0,0,0
+zlib,813dac5dcb,2026-09-16,d90e056e,Avoid use of EAGAIN or EWOULDBLOCK if not defined.,3,3,17,3,17,3,0,0,0,2,0,0,0,1,0,0,0,66,1,2,16,0,0,0,0,0
+zlib,7235b0a581,2026-09-16,d90e056e,Remedy another missing return statement in gzwrite.c.,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,61,1,1,1,0,0,0,0,0
+zlib,df84af25dc,2026-09-16,d90e056e,Fix buffer overflow bug in non-blocking gzwrite.,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,52,1,4,4,1,0,0,0,0
+zlib,bbc2ccf3d0,2026-06-19,d90e056e,Remedy missing return statement in gzwrite.c.,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,47,1,1,1,0,0,0,0,0
+zlib,e3dc0a85b7,2026-06-01,d90e056e,Avoid undefined behavior in gzwrite.c.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+zlib,51b2667cb4,2026-03-27,3a136a69,Correct errno symbol in zlib.h comment.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,63a623cb69,2026-03-09,d90e056e,Correct ENOUGH_LENS and ENOUGH_DIST for PKZIP_BUG_WORKAROUND.,1,1,8,2,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zlib,09a1572aa6,2026-02-21,d90e056e,Fix inflateBack() bug that would fail to detect a too far back.,1,1,0,2,0,2,1,0,0,1,0,0,0,1,0,0,0,327,1,0,0,0,0,0,0,0
+zlib,846a66a280,2026-02-17,d90e056e,Remove redundant check in zmemzero().,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,1,0
+zlib,dd625a9dfb,2026-02-17,d90e056e,Change version number on develop branch to 1.3.2.1.,21,3,43,40,7,7,0,0,0,1,0,0,0,0,0,0,0,162,1,1,7,0,0,0,0,0
+zlib,9e35567064,2026-02-17,d90e056e,Version 1.3.2,60,19,182,103,27,27,0,0,0,1,0,0,0,0,0,0,0,162,1,1,9,0,0,0,0,0
+zlib,591ef31613,2026-02-17,d90e056e,Avoid using the value of an undefined macro in crc32.c.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,33e71060aa,2026-02-16,d90e056e,Align the backup zmem* functions with their library counterparts.,4,4,30,25,30,25,0,0,0,5,0,0,0,0,0,0,0,44,1,4,27,0,0,0,0,0
+zlib,d7bc8cafee,2026-02-16,d90e056e,Define NULL in inftrees.c if needed.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,f4f34491ea,2026-02-13,d90e056e,Clean up debug sign conversions in deflate.c and trees.c.,2,2,7,7,7,7,0,0,0,6,0,0,0,0,0,0,0,73,3,3,7,0,0,0,0,1
+zlib,3c173d5851,2026-02-13,ec45d69f,Match signedness in format specifiers.,2,1,7,7,6,6,0,0,0,2,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+zlib,5c47755331,2026-02-11,a4caaade,Check for invalid NULL pointer inputs to zlib operations.,3,3,9,1,9,1,0,0,0,3,1,0,2,0,0,0,0,142,3,7,7,0,0,0,0,0
+zlib,fb8dd62f77,2026-02-10,d90e056e,Clean up the use of switch cases.,4,4,10,8,10,8,0,0,0,4,0,0,2,2,0,0,0,623,4,10,10,0,0,0,0,1
+zlib,fc7593c0e5,2026-02-10,d90e056e,Avoid missing-extern warnings.,3,1,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,81c41dd5c5,2026-02-09,d90e056e,Fix the usage of types in deflate.c for when an int is 16 bits.,2,2,33,18,33,18,1,0,0,5,0,0,1,0,0,0,0,253,3,18,31,0,0,0,0,0
+zlib,8ad678edb4,2026-02-09,d90e056e,Make sign change in compress.c explicit.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,7eab3fd12b,2026-02-09,d90e056e,Clean up type usage in crc32.c.,1,1,26,32,26,32,0,0,0,12,0,0,0,2,0,0,0,131,3,5,26,0,0,0,0,1
+zlib,eb4022ee8f,2026-02-07,d90e056e,Make some down conversions explicit in the gz routines.,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,66,1,2,3,0,0,0,0,0
+zlib,060c9e7c45,2026-02-03,cd709309,"Remove all uses of the obsolete keyword ""register"".",3,2,15,15,14,14,0,0,0,3,0,0,0,0,0,0,0,71,2,13,14,0,0,0,1,0
+zlib,07f2d4237e,2026-01-27,41db4079,Vectorize the CRC-32 calculation on the s390x.,10,1,439,2,7,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+zlib,2209f63bda,2026-01-18,d90e056e,Make z_once() local to avoid conditional external symbols.,5,4,74,77,74,76,0,0,0,0,0,0,0,0,3,3,0,0,0,0,54,0,0,0,0,0
+zlib,4edb00de5a,2026-01-12,d90e056e,Add _z versions of the compress and uncompress functions.,15,4,148,43,83,43,0,0,0,3,1,1,0,0,4,0,0,9,1,7,73,0,0,0,0,0
+zlib,ecbaf031f8,2026-01-11,d90e056e,Zero inflate state on allocation.,1,1,2,0,2,0,0,0,0,2,0,0,1,0,0,0,0,35,1,1,2,0,0,0,0,0
+zlib,84045903ee,2026-01-10,d90e056e,Copy only the initialized deflate state in deflateCopy.,2,2,17,5,17,5,0,0,0,3,1,0,1,0,0,0,0,77,2,10,14,0,0,0,0,0
+zlib,edebc8c488,2026-01-10,d90e056e,Correct #endif comment in trees.c.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,fee7c52428,2026-01-05,d90e056e,Avoid Visual C warning in gzread.c.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,1,1,1,0,0,0,0,0
+zlib,c267ef7306,2026-01-05,d90e056e,Use atomics to build inflate fixed tables once.,13,9,309,345,300,343,1,0,0,7,0,0,0,0,6,6,0,623,4,4,255,0,1,0,0,0
+zlib,916dc1ac35,2026-01-05,d90e056e,Add compressBound_z and deflateBound_z functions for large values.,15,4,89,15,40,13,0,0,0,2,1,1,0,0,2,0,0,4,1,3,38,0,0,0,0,0
+zlib,fd366384cf,2026-01-05,d90e056e,Prevent the use of insecure functions without an explicit request.,5,3,95,42,72,30,0,0,0,3,0,0,3,0,0,0,0,60,3,48,69,1,0,0,0,0
+zlib,3509ab515f,2026-01-05,d90e056e,Copy only the initialized window contents in inflateCopy.,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+zlib,ba829a4585,2026-01-05,d90e056e,Check for negative lengths in crc32_combine functions.,2,2,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+zlib,570720b0c2,2025-12-08,d90e056e,zlib 1.3.1.2,40,7,103,80,14,14,0,0,0,1,0,0,0,0,0,0,0,164,1,1,8,0,0,0,0,0
+zlib,9aa11a7ed2,2025-12-08,d90e056e,Avoid mixed signedness compare in gzwrite.c.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+zlib,81cc0bebed,2025-12-08,d90e056e,Support non-blocking devices in the gz* routines.,5,5,276,116,276,116,0,0,0,23,2,0,10,0,1,0,0,142,12,109,230,0,0,0,0,0
+zlib,598130fd07,2025-12-06,d90e056e,Update gz*.c copyright dates.,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,370ef1b41f,2025-12-06,d90e056e,Return all available uncompressed data on error in gzread.c.,3,3,49,32,49,32,0,0,0,4,0,0,3,0,0,0,0,136,4,26,43,0,0,0,0,0
+zlib,562b823635,2025-12-06,d90e056e,Fix indentation in gzread.c.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+zlib,9702c9d64e,2025-12-06,29328b21,Update links to the RFCs.,5,2,11,11,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,3e8e4bb5b2,2025-12-06,29328b21,Clarify the use of inflateGetHeader().,1,1,16,14,16,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,1,0,0
+zlib,a2b61271a3,2025-12-06,29328b21,Allow gzflush() to write empty gzip members.,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,58,1,2,2,0,0,0,0,0
+zlib,95278e4ef9,2025-12-06,29328b21,Improve the discrimination between trailing garbage and bad gzip.,3,3,37,30,37,30,0,0,0,3,0,0,2,0,0,0,0,52,2,28,30,0,0,0,0,0
+zlib,1ab1026a20,2025-12-06,29328b21,"Add a ""G"" option to force gzip, disabling transparency in gzread().",3,3,31,5,31,5,0,0,0,3,0,0,2,0,0,0,0,135,2,18,24,0,0,0,0,0
+zlib,473f78532a,2025-05-13,29328b21,Fix bug in inflatePrime() for 16-bit ints.,2,2,21,10,21,10,1,0,0,2,0,0,0,0,0,0,0,23,0,0,21,0,0,0,0,0
+zlib,68320827df,2025-05-13,29328b21,Constrain line lengths in inflate code.,3,3,22,12,22,12,0,0,0,3,0,0,3,0,0,0,0,623,3,22,22,0,0,0,0,0
+zlib,a9bb8c48d7,2025-05-13,29328b21,Note the use of gzungetc() to run a deferred seek while reading.,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,aaf94f387d,2025-05-13,29328b21,Note that gzseek() requests are deferred until the next operation.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,aeab3f6cc7,2025-02-25,29328b21,Clarify the use of errnum in gzerror().,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,a4e4521ee1,2025-02-25,29328b21,Have gz_skip() update how far it got for later continuation.,4,4,46,76,46,76,0,0,0,15,0,0,0,8,0,0,0,53,8,20,43,0,0,0,0,0
+zlib,aa27ba4677,2025-02-23,29328b21,Avoid a fruitless memory copy in gzread.c.,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,24,0,0,5,0,0,0,0,0
+zlib,4d1c7207ff,2025-02-21,29328b21,Remove some unsightly spaces in zlib.h.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+zlib,5a82f71ed1,2025-02-18,79cf0063,Use generated zconf.h in cmake build.,3,1,14,7,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,7108497fda,2025-02-13,29328b21,Check that HAVE_UNISTD_H and HAVE_STDARG_H are not defined as 0.,3,1,6,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,00161eff1d,2025-02-13,e2265b44,Do not look for zconf.h in the source directory.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,c715ad71fe,2025-02-05,29328b21,Restore zconf.h to distribution.,3,1,551,5,544,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,447,0,0,0,0,0
+zlib,ed1610791c,2025-02-02,29328b21,"Revert previous commit, restoring the memcpy() call.",1,1,3,3,3,3,0,0,0,1,0,0,0,1,0,0,0,618,1,3,3,0,0,0,0,0
+zlib,ab0266a362,2025-02-01,29328b21,Avoid use of memcpy() in inflate when areas can overlap.,1,1,3,3,3,3,0,0,0,1,0,0,1,0,0,0,0,618,1,2,2,0,0,0,0,0
+zlib,b5c01971c2,2025-01-31,79cf0063,CMake: Remove zconf.h.,2,1,3,547,0,544,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zlib,71045aef60,2024-12-30,29328b21,Fix indent in infback.c.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+zlib,ef24c4c750,2024-11-08,29328b21,Reject invalid MAX_WBITS values at compile time.,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,6d3a66a11a,2024-10-13,d5aaf83c,Avoid attempting to redefine z_const in zconf.h.,3,1,18,12,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,f7d01aae6e,2024-09-01,29328b21,Avoid out-of-bounds pointer arithmetic in inflateCopy().,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,618,1,1,1,1,0,0,0,0
+zlib,545f194963,2024-07-31,29328b21,Add old gcc ULONG_LONG_MAX macro to find a 64-bit type in zutil.h.,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,3adaa095a7,2024-07-05,29328b21,One more correction for deflateUsed() bits in stored case.,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,116,1,2,2,0,0,0,0,0
+zlib,884e0c0809,2024-07-05,29328b21,Correct used bits from deflateUsed() for deflate_stored() case.,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,114,1,3,3,0,0,0,0,0
+zlib,e011d8c164,2024-07-01,29328b21,Add deflateUsed() function to get the used bits in the last byte.,17,5,239,178,26,0,0,0,0,2,0,0,0,0,1,0,0,15,0,0,17,0,0,0,0,0
+zlib,0f3b7b9595,2024-05-16,29328b21,Correct typo in zlib.h comment.,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,2ba25b2dda,2024-04-01,da99fca6,Use z_const for setting msg to literal strings.,5,3,58,58,37,37,0,0,0,3,0,0,0,0,0,0,0,618,3,37,37,0,0,0,0,0
+zlib,c5e87dcdef,2024-03-31,29328b21,Make z_off_t 64 bits by default.,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,90c677bc25,2024-03-22,29328b21,Use long long offsets for MinGW.,3,1,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,9f418e1028,2024-03-15,29328b21,Update old comment in inflate.h.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,a8c321be84,2024-03-09,29328b21,Make deflateBound() more conservative and handle Z_STREAM_END.,1,1,4,4,4,4,0,0,0,1,0,0,1,0,0,0,0,46,1,3,3,0,0,0,0,0
+zlib,72d6aa2672,2024-02-28,29328b21,Reduce Windows header inclusion to speed up compilation.,1,1,10,5,10,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,1
+zlib,6544c3ecb7,2024-02-13,29328b21,Use lseek under WinCE.,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,5c42a230b7,2024-02-11,29328b21,Correct argument types for 64-bit combine functions.,2,2,7,8,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zlib,04134633fa,2024-02-11,29328b21,Use 64-bit offsets in DJGPP.,3,1,15,15,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,c983609168,2024-02-10,29328b21,Include unistd.h on DJGPP.,3,1,6,18,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+zlib,fd5fe8b17e,2024-02-09,29328b21,Further address Microsoft deprecation warnings.,7,2,45,29,18,21,0,0,0,2,0,0,1,0,0,0,0,127,1,8,18,0,0,0,0,0
+zlib,ceac32f156,2024-02-09,29328b21,Keep lines short in gzread.c.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+zlib,7a7202de35,2024-02-09,29328b21,Correct a variable type in deflate.c.,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,112,1,2,2,0,0,0,0,0
+zlib,25740f4ad5,2024-02-09,29328b21,Include share.h on Windows for _SH_DENYNO.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+zlib,985a62d118,2024-02-08,29328b21,Address Microsoft deprecation warnings.,6,2,25,13,17,9,0,0,0,2,0,0,1,0,0,0,0,126,1,8,16,0,0,0,0,0
+zlib,96d3e9e3dd,2024-02-07,29328b21,Expand on the deflate strategy parameter in zlib.h.,1,1,15,12,15,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+zlib,e342bb3dae,2024-02-06,29328b21,Assume no snprintf() or vsnprintf() if C89/90 in gzguts.h.,1,1,14,19,14,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+zlib,1382e66114,2024-02-06,29328b21,"Use _POSIX_C_SOURCE in gzguts.h, instead of _POSIX_SOURCE.",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,8a76f02e0e,2024-01-23,7f6357de,Avoid implicit conversion warnings in deflate.c and trees.c.,2,2,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,111,2,5,5,0,0,0,0,0
+zlib,4de0b054a5,2024-01-23,f681ac1c,Improve portability to RISC OS.,5,1,11,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,9f0f2d4f9f,2024-01-22,29328b21,Change version number on develop branch to 1.3.1.1.,26,3,55,52,7,7,0,0,0,1,0,0,0,0,0,0,0,164,1,1,7,0,0,0,0,0
+zlib,51b7f2abda,2024-01-22,29328b21,zlib 1.3.1,41,9,91,84,17,17,0,0,0,1,0,0,0,0,0,0,0,164,1,1,9,0,0,0,0,0
+zlib,7af6320ad7,2024-01-19,29328b21,Fix a bug in ZLIB_DEBUG compiles in check_match().,1,1,14,6,14,6,1,0,0,1,0,0,0,0,0,0,0,21,0,0,13,0,0,0,0,0
+zlib,3f635df97e,2024-01-17,29328b21,Remove unused Z_ARG macro.,3,1,0,24,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zlib,01253ecd7e,2024-01-17,bd9c1e91,Make the existence of gz_intmax() unconditional.,2,2,6,10,6,10,0,0,0,1,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+zlib,36e369e1a5,2024-01-13,29328b21,Note that the len2 argument of crc_combine*() must be non-negative.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,60c31985ec,2024-01-13,968a1522,Fix the copy of pending_buf in deflateCopy() for the LIT_MEM case.,2,2,5,7,5,7,1,0,0,2,0,0,0,1,0,0,0,76,1,1,5,0,0,0,0,0
+zlib,ee474ff2d1,2024-01-13,968a1522,Fix pending buffer overflow assert with LIT_MEM allocation.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,39,0,0,1,1,0,0,0,0
+zlib,4bd9a71f35,2024-01-13,29328b21,Remove fdopen #defines in zutil.h.,1,1,1,22,1,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+zlib,431a9b65ea,2024-01-13,29328b21,"Add bounds checking to ERR_MSG() macro, used by zError().",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+zlib,643e17b749,2023-11-14,791b99ec,Correct repeated words in source file comments and a readme.,7,2,15,15,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,ac8f12c97d,2023-09-21,29328b21,Add LIT_MEM define to use more memory for a small deflate speedup.,3,3,67,3,67,3,0,0,0,4,1,0,1,0,0,0,0,77,2,16,63,0,0,0,0,0
+zlib,5af7cef45e,2023-08-24,29328b21,Fix bug in inflateSync() for data held in bit buffer.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0
+zlib,3a98b57e55,2023-08-18,29328b21,Change version number on develop branch to 1.3.0.1.,22,3,49,46,7,7,0,0,0,1,0,0,0,0,0,0,0,164,1,1,7,0,0,0,0,0
+zlib,09155eaa2f,2023-08-18,29328b21,zlib 1.3,31,3,87,74,12,12,0,0,0,1,0,0,0,0,0,0,0,164,1,1,10,0,0,0,0,0
+zlib,22fc20898b,2023-08-17,29328b21,Clarify requirement in zlib.h to avoid multiple flush markers.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,d982514782,2023-08-14,29328b21,Fix bug when using gzflush() with a very small buffer.,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+zlib,981ee7570a,2023-08-12,969d9bb9,Suppress MSAN detections in deflate's slide_hash().,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,7dd6aa7245,2023-08-11,29328b21,Fix bug when gzungetc() is used immediately after gzopen().,1,1,4,0,4,0,1,0,0,1,0,0,1,0,0,0,0,43,1,2,2,0,0,0,0,0
+zlib,c7ddcc2e0e,2023-08-03,c326dcd6,Fix some spelling errors.,13,1,17,17,2,2,0,0,0,1,0,0,0,0,0,0,0,132,1,2,2,0,0,0,0,0
+zlib,a566e156b3,2023-07-29,29328b21,Avoid compiler complaints if _TIME_BITS defined when building zlib.,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,a88f727dbe,2023-07-10,29328b21,Document in zlib.h the initialization of stream fields by the Init and Reset functions.,1,1,5,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,263a982866,2023-05-16,29328b21,Correct comment in zlib.h on os setting in gzip header.,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+zlib,48c3741002,2023-05-01,82eca203,"Remove duplicate ""the"" in zlib.h.",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+zlib,9b962a45dd,2023-04-17,29328b21,No include file is needed for __int64 type on Windows.,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+zlib,e9d5486e66,2023-04-15,29328b21,Remove K&R function definitions from zlib.,24,21,931,1644,861,1445,0,0,0,169,0,0,0,44,7,2,0,618,44,127,681,0,0,0,1,0
+zlib,12b345c430,2023-02-17,29328b21,Assure that inflatePrime() can't shift a 32-bit integer by 32 bits.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+zlib,fa8cd50ada,2023-01-25,29328b21,Make z_size_t 64 bits when compiling on Windows with Z_SOLO.,3,1,15,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,02a6049eb3,2022-12-26,29328b21,Fix crash when gzsetparams() attempted for transparent write.,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,29,1,1,1,0,0,0,0,0
+zlib,e554695638,2022-12-15,29328b21,Fix bug in deflateBound() for level 0 and memLevel 9.,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,49,1,2,2,0,0,0,0,0
+zlib,41fda48fc2,2022-10-15,29328b21,Change version number on develop branch to 1.2.13.1.,24,3,51,48,7,7,0,0,0,1,0,0,0,0,0,0,0,169,1,1,7,0,0,0,0,0
+zlib,04f42ceca4,2022-10-12,88c61a55,zlib 1.2.13,25,3,61,52,8,8,0,0,0,1,0,0,0,0,0,0,0,169,1,1,8,0,0,0,0,0
+zlib,19f8551627,2022-10-09,88c61a55,Don't try to include unistd.h on Windows with LLVM.,3,1,30,9,10,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,0
+zlib,888b3da8de,2022-10-06,88c61a55,Provide missing function prototypes in CRC-32 code. [fredgan],2,2,13,3,13,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+zlib,a9e14e8541,2022-10-06,88c61a55,Avoid undefined negation behavior if windowBits is INT_MIN.,2,2,4,0,4,0,0,0,0,2,1,0,1,0,0,0,0,81,2,4,4,0,0,0,0,0
+zlib,9331fecc10,2022-10-06,88c61a55,Remove redundant check in gz_look().,1,1,3,5,3,5,0,0,0,1,0,0,0,1,0,0,0,54,1,3,3,0,0,0,1,0
+zlib,d0704a8201,2022-10-06,88c61a55,Remove deleted assembler code references.,30,2,192,615,2,16,0,0,0,2,0,0,0,1,0,0,0,45,1,0,0,0,0,0,1,0
+zlib,84c6716a48,2022-10-05,88c61a55,Minor formatting improvements.,8,8,138,133,138,133,0,0,0,45,0,0,3,0,0,0,0,256,16,57,113,0,0,0,0,0
+zlib,3e4aa45834,2022-10-05,88c61a55,Add new crc32 functions to z_ prefix defines.,3,1,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,456775aec8,2022-10-05,88c61a55,Add WIN32_LEAN_AND_MEAN for windows.h include.,3,1,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+zlib,4078713e3b,2022-10-05,88c61a55,Tighten deflateBound bounds.,1,1,37,22,37,22,0,0,0,1,0,0,1,0,0,0,0,48,1,11,11,1,0,0,0,0
+zlib,7fabcb5357,2022-10-03,88c61a55,Fix bug in block type selection when Z_FIXED used.,1,1,5,6,5,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,5752b171fd,2022-08-23,88c61a55,Fix some typos.,19,5,35,35,10,10,1,0,0,1,0,0,0,0,0,0,0,70,1,2,8,0,0,0,0,0
+zlib,1eb7682f84,2022-08-08,88c61a55,Fix extra field processing bug that dereferences NULL state->head.,1,1,2,2,2,2,1,0,0,1,0,0,0,1,0,0,0,621,1,2,2,0,0,0,0,0
+zlib,eff308af42,2022-07-30,88c61a55,Fix a bug when getting a gzip header extra field with inflate().,1,1,3,2,3,2,1,0,0,1,0,0,1,0,0,0,0,621,1,3,3,0,0,1,0,0
+zlib,b8bd09801f,2022-07-24,88c61a55,Have infback() deliver all of the available output up to any error.,1,1,9,7,9,7,0,0,0,1,0,0,1,0,0,0,0,330,1,6,6,0,0,0,0,0
+zlib,2333419cd7,2022-06-27,88c61a55,Fix inflateBack to detect invalid input with distances too far.,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,37,1,1,1,0,0,0,0,0
+zlib,7ecf7c7458,2022-06-04,88c61a55,Fix odd error in Visual C compiler preventing automatic promotion.,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+zlib,6c532a8e8a,2022-06-04,88c61a55,Fix missing ZEXPORT for crc32_combine_op().,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+zlib,ec3df00224,2022-03-30,29328b21,Correct incorrect inputs provided to the CRC functions.,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,135,2,2,4,0,0,0,0,0
+zlib,3df842426b,2022-03-28,29328b21,Silence some warnings from Visual Studio C.,2,2,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,a4c17581d8,2022-03-27,29328b21,Change version number on develop branch to 1.2.12.1.,24,3,51,48,7,7,0,0,0,1,0,0,0,0,0,0,0,169,1,1,7,0,0,0,0,0
+zlib,21767c654d,2022-03-27,29328b21,zlib 1.2.12,43,14,218,124,23,23,0,0,0,1,0,0,0,0,0,0,0,169,1,1,10,0,0,0,0,0
+zlib,296967c7b7,2022-03-27,29328b21,Fix crc32.c to compile local functions only if used.,1,1,64,62,64,62,1,0,0,3,0,0,0,0,0,0,0,18,0,0,53,0,0,0,0,0
+zlib,735eaa1ebd,2022-03-27,29328b21,Eliminate use of ULL constants.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,76f70abbc7,2022-03-27,29328b21,Add fallthrough comments for gcc.,2,2,24,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,8678871f18,2021-12-31,29328b21,Replace black/white with allow/block. (theresa-m),2,1,15,15,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,53ce271311,2020-09-17,29328b21,Change macro name in inflate.c to avoid collision in VxWorks.,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,620,1,2,4,0,0,0,0,0
+zlib,e54494e6bc,2020-08-31,29328b21,"Clarify gz* function interfaces, referring to parameter names.",1,1,76,77,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76,0,0,0,1,0
+zlib,d71dc66fa8,2019-07-09,29328b21,Fix error in comment on the polynomial representation of a byte.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,79baebe50e,2019-04-13,29328b21,Avoid adding empty gzip member after gzflush with Z_FINISH.,3,3,13,1,13,1,0,0,0,2,0,0,1,0,0,0,0,61,1,7,10,0,0,0,0,0
+zlib,0e96d8e7c7,2019-04-05,29328b21,Explicitly note that the 32-bit check values are 32 bits.,1,1,7,5,7,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zlib,deb44b5742,2019-02-17,29328b21,Use ARM crc32 instructions if the ARM architecture has them.,1,1,7,3,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,52fc78baf2,2019-02-17,29328b21,Add use of the ARMv8 crc32 instructions when requested.,1,1,114,0,114,0,0,0,0,1,1,0,0,1,1,0,0,70,1,75,83,0,0,0,0,0
+zlib,aec89faa2e,2019-02-03,29328b21,Correct comment in crc32.c.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,0d36ec47f3,2019-01-02,29328b21,Don't bother computing check value after successful inflateSync().,3,2,14,8,12,5,0,0,0,3,0,0,1,0,0,0,0,620,1,2,12,0,0,0,0,0
+zlib,7c0c75e990,2018-12-26,29328b21,"Use atomic test and set, if available, for dynamic CRC tables.",1,1,112,42,112,42,0,0,0,5,0,0,0,2,3,0,0,135,2,14,80,0,1,0,0,0
+zlib,f8719f5ae5,2018-12-26,29328b21,Speed up software CRC-32 computation by a factor of 1.5 to 3.,6,4,10209,1096,10195,1077,0,0,0,9,1,1,1,0,8,6,0,136,2,380,10016,0,0,0,0,0
+zlib,41d86c73b2,2018-11-04,29328b21,Add crc32_combine_gen() and crc32_combine_op() for fast combines.,2,2,97,0,97,0,0,0,0,0,1,0,0,0,4,0,0,0,0,0,76,0,0,0,0,0
+zlib,47cb412957,2018-11-03,29328b21,"Add tables for crc32_combine(), to speed it up by a factor of 200.",2,2,396,92,396,92,0,0,0,5,0,0,1,0,1,0,0,72,1,29,369,0,0,0,0,0
+zlib,4346a16853,2018-04-19,29328b21,Assure that the number of bits for deflatePrime() is valid.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+zlib,5c44459c3b,2018-04-19,29328b21,Fix a bug that can crash deflate on some input when using Z_FIXED.,3,3,79,70,79,70,1,0,0,8,0,0,0,1,0,0,0,79,4,7,35,0,0,0,0,0
+zlib,e99813dbfe,2018-01-31,29328b21,Correct the initialization requirements for deflateInit2().,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,bf88202e31,2018-01-08,29328b21,Emphasize the need to continue decompressing gzip members.,1,1,5,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,c376a417a7,2017-10-12,f5561d56,Fix deflateEnd() to not report an error at start of raw deflate.,1,1,3,1,3,1,1,0,0,2,0,0,1,0,0,0,0,256,1,2,3,0,0,0,0,0
+zlib,a577351394,2017-10-12,f5561d56,Make the names in functions declarations identical to definitions.,3,3,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,19,0,0,6,0,0,0,0,0
+zlib,723e928b84,2017-10-12,f5561d56,Avoid an undefined behavior of memcpy() in _tr_stored_block().,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+zlib,b25d5fcdcf,2017-10-12,f5561d56,Avoid undefined behaviors of memcpy() in gz*printf().,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,57,2,2,2,0,0,0,0,0
+zlib,3c46f5ddb5,2017-06-03,29328b21,Avoid the use of ptrdiff_t.,2,2,3,11,3,11,0,0,0,3,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,0
+zlib,44e8ac810d,2017-04-16,29328b21,Handle case where inflateSync used when header never processed.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,36,0,0,2,0,0,1,0,0
+zlib,89245c0a84,2017-03-30,29328b21,Don't compute check value for raw inflate if asked to validate.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+zlib,90287635ef,2017-02-15,29328b21,Return an error if the gzputs string length can't fit in an int.,1,1,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+zlib,60a5ecc62b,2017-02-15,29328b21,Small speedup to inflate [psumbera].,1,1,14,14,14,14,0,0,0,1,0,0,0,0,0,0,0,240,1,13,13,0,0,0,0,0
+zlib,e1f1a3a146,2017-02-15,29328b21,Update use of errno for newer Windows CE versions.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,793ad7f559,2017-02-15,29328b21,Avoid some conversion warnings in gzread.c and gzwrite.c.,2,2,6,8,6,8,0,0,0,4,0,0,0,0,0,0,0,54,2,4,6,0,0,0,0,0
+zlib,a362293745,2017-02-15,29328b21,Avoid a conversion error in gzseek when off_t type too small.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,59,1,1,2,0,0,0,0,0
+zlib,38e8ce32af,2017-02-15,29328b21,Fix CLEAR_HASH macro to be usable as a single statement.,1,1,5,2,5,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,8ba393e70d,2017-02-15,29328b21,Fix bug when window full in deflate_stored().,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,114,1,1,1,0,0,0,0,0
+zlib,2d80d3f6b5,2017-02-15,29328b21,Limit hash table inserts after switch from stored deflate.,1,1,9,1,9,1,0,0,0,2,0,0,2,0,0,0,0,114,2,9,9,0,0,0,0,0
+zlib,f9694097dd,2017-02-15,29328b21,Permit a deflateParams() parameter change as soon as possible.,2,2,9,8,9,8,0,0,0,2,0,0,1,0,0,0,0,40,1,2,9,0,0,0,0,0
+zlib,5ff989033e,2017-01-16,29328b21,"Cygwin does not have _wopen(), so do not create gzopen_w() there.",2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,7d60b86782,2017-01-15,29328b21,Change version number to 1.2.11.1.,25,3,51,48,7,7,0,0,0,1,0,0,0,0,0,0,0,169,1,1,7,0,0,0,0,0
+zlib,cacf7f1d4e,2017-01-15,29328b21,zlib 1.2.11,29,7,58,54,12,12,0,0,0,1,0,0,0,0,0,0,0,169,1,1,8,0,0,0,0,0
+zlib,cbbd20302c,2017-01-15,29328b21,Permit immediate deflateParams changes before any deflate input.,2,2,7,5,7,5,0,0,0,1,0,0,1,0,0,0,0,40,1,2,7,0,0,0,0,0
+zlib,7d9c9d410a,2017-01-15,29328b21,Update high water mark in deflate_stored.,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,108,1,4,4,0,0,0,0,0
+zlib,37ed2112a1,2017-01-15,29328b21,Update vestigial comment from very old Info-ZIP deflate.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,4c7c907683,2017-01-15,29328b21,Fix deflate stored bug when pulling last block from window.,1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,104,1,4,4,0,0,0,0,0
+zlib,11ceaed751,2017-01-15,29328b21,Change version number to 1.2.10.1.,27,3,53,53,7,7,0,0,0,1,0,0,0,0,0,0,0,169,1,1,7,0,0,0,0,0
+zlib,4a090adef8,2017-01-02,29328b21,zlib 1.2.10,25,3,58,54,8,8,0,0,0,1,0,0,0,0,0,0,0,169,1,1,8,0,0,0,0,0
+zlib,e13def040e,2017-01-02,29328b21,Fix compilation with --solo and --debug combined.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,1e3bccd496,2017-01-02,29328b21,Add warnings when compiling with assembler code.,2,2,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,0b5c158cc7,2017-01-02,29328b21,Fix bug in gzwrite.c that produced corrupt gzip files.,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,55,1,1,1,0,0,0,0,0
+zlib,bc5503b224,2017-01-02,29328b21,Fix bug in deflate_stored() for zero-length input.,1,1,19,18,19,18,1,0,0,2,0,0,1,1,0,0,0,254,2,16,16,0,0,0,0,0
+zlib,52aa5501ec,2017-01-01,29328b21,Minor edits and clarifications of comments.,1,1,8,7,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+zlib,7358ef23c2,2017-01-01,29328b21,Avoid warnings on snprintf() return value.,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,128,1,1,4,0,0,0,0,0
+zlib,20e472546e,2017-01-01,29328b21,Change version number to zlib 1.2.9.1.,25,3,65,62,10,10,0,0,0,1,0,0,0,0,0,0,0,169,1,1,8,0,0,0,0,0
+zlib,2fa463bacf,2016-12-31,29328b21,zlib 1.2.9,55,19,777,580,37,29,0,0,0,1,0,0,0,0,0,0,0,169,1,1,20,0,0,0,0,0
+zlib,b9ae6f0079,2016-12-31,29328b21,Add crc32_z() and adler32_z() functions with size_t lengths.,3,3,38,8,38,8,0,0,0,4,1,1,0,0,2,0,0,29,1,7,28,0,0,0,0,0
+zlib,61b91f27f8,2016-12-31,29328b21,Make z_size_t unsigned long for non-standard C.,3,1,21,9,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zlib,cca27e95cf,2016-12-31,29328b21,Avoid the need for ssize_t.,6,3,19,67,18,24,0,0,0,2,0,0,1,0,0,0,0,54,1,12,18,0,0,0,0,0
+zlib,b7fbee2156,2016-12-31,29328b21,Use a uniform approach for the largest value of an unsigned type.,3,3,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,51,1,1,3,0,0,0,0,0
+zlib,f3fcb92cf6,2016-12-30,29328b21,Use intptr_t for z_ssize_t on MSVC.,3,1,18,3,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,8f147c3d12,2016-12-30,29328b21,Avoid some random compiler warnings on various platforms.,6,4,14,12,8,7,0,0,0,5,0,0,0,1,0,0,0,169,3,5,8,0,0,0,0,0
+zlib,50dca6d127,2016-12-30,29328b21,Fix init macros to use z_ prefix when requested.,4,2,47,16,35,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0
+zlib,79b5c5acf0,2016-12-30,29328b21,Use snprintf() for later versions of Microsoft C.,2,1,4,5,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,ee7d7b5dda,2016-12-30,29328b21,Add deflateGetDictionary() function.,2,2,43,0,43,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,34,0,0,0,0,0
+zlib,feafcfaa05,2016-12-30,29328b21,No need to check for NULL argument to free().,1,1,2,4,2,4,0,0,0,1,0,0,0,1,0,0,0,56,1,2,2,0,0,0,0,0
+zlib,77bc4f8944,2016-12-04,29328b21,"Add gzfwrite(), duplicating the interface of fwrite().",2,2,112,40,112,40,0,0,0,3,1,1,0,0,2,0,0,35,1,18,82,0,0,0,1,0
+zlib,44dfd831d2,2016-12-04,29328b21,"Add gzfread(), duplicating the interface of fread().",2,2,126,40,126,40,0,0,0,2,1,1,0,0,2,0,0,21,1,22,92,0,0,0,1,0
+zlib,3f8c768745,2016-12-04,29328b21,Fix compile option for when z_size_t needs to be a long long.,4,1,7,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,ca50ebd4df,2016-12-04,29328b21,Create z_size_t and z_ssize_t types.,8,4,144,17,19,4,0,0,0,3,0,0,0,0,0,0,0,128,2,3,18,0,0,0,0,0
+zlib,c5ee34c28a,2016-12-04,29328b21,Don't need to emit an empty fixed block when changing parameters.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,29,1,1,1,0,0,0,0,0
+zlib,123f9cfaf7,2016-12-04,29328b21,Clean up gz* function return values.,3,3,37,34,37,34,0,0,0,5,0,0,0,0,0,0,0,57,3,12,36,0,0,0,0,1
+zlib,9dc5a8585f,2016-12-04,29328b21,Speed up deflation for level 0 (storing).,1,1,215,78,215,78,0,0,0,3,0,0,2,1,1,0,0,101,3,102,125,0,0,0,0,0
+zlib,7161ad76e2,2016-12-04,29328b21,Assure that deflateParams() will not switch functions mid-block.,2,2,24,22,24,22,0,0,0,1,0,0,1,0,0,0,0,32,1,6,22,0,0,0,0,0
+zlib,1101ea79c6,2016-12-04,29328b21,Explicitly ignore a return value in gzwrite.c.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+zlib,21c66cd5ac,2016-12-04,29328b21,Increase verbosity required to warn about bit length overflow.,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,55,1,2,2,1,0,0,0,0
+zlib,37281ac222,2016-12-04,29328b21,"Add uncompress2() function, which returns the input size used.",2,2,39,18,39,18,0,0,0,1,1,1,0,0,1,0,0,8,1,8,32,0,0,0,0,0
+zlib,001300d0d9,2016-12-04,29328b21,Minor edits to the documentation in source file contents.,4,2,109,93,107,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,104,0,0,0,0,0
+zlib,9674807c82,2016-12-04,29328b21,Fix bugs in creating a very large gzip header.,2,2,191,169,191,169,1,0,0,5,0,0,2,1,0,0,0,255,3,138,163,0,0,1,0,0
+zlib,a456d898bb,2016-12-04,29328b21,Use memcpy for stored blocks.,1,1,7,30,7,30,0,0,0,1,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,0
+zlib,03614c56ad,2016-10-30,29328b21,Fix some typos.,10,2,29,29,8,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,94575859cf,2016-10-27,29328b21,Fix bug when level 0 used with Z_HUFFMAN or Z_RLE.,1,1,4,3,4,3,1,0,0,1,0,0,1,0,0,0,0,258,1,4,4,0,0,0,0,0
+zlib,bedea2483b,2016-10-26,29328b21,Clean up and comment the use of local for static.,4,4,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1
+zlib,ce12c5cd00,2016-10-25,29328b21,Make a noble effort at setting OS_CODE correctly.,1,1,30,14,30,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+zlib,b516b4bdd7,2016-10-24,29328b21,Do a more thorough check of the state for every stream call.,3,3,72,41,72,41,0,0,0,29,1,3,2,5,2,0,0,620,10,12,67,0,0,0,0,0
+zlib,77fd7e56bf,2016-10-24,29328b21,Document the rejection of 256-byte window requests in zlib.h.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,049578f0a1,2016-10-24,29328b21,Reject a window size of 256 bytes if not using the zlib wrapper.,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,80,1,1,1,0,0,0,0,0
+zlib,a0bf0f31d3,2016-10-14,29328b21,Avoid obfuscating use of default case in inftrees.c.,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,169,1,1,1,0,0,0,0,0
+zlib,da64f1730c,2016-10-14,29328b21,Move macro definition in deflate.c to where it is used.,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+zlib,ebbc57393d,2016-10-14,29328b21,Avoid recursive gzgetc() macro call.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,7096424f23,2016-10-11,29328b21,Clean up type conversions.,9,9,62,57,62,57,0,0,0,19,0,0,2,1,0,0,0,620,10,25,61,0,0,0,0,1
+zlib,2edb94a302,2016-10-11,29328b21,Avoid casting an out-of-range value to long.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+zlib,e08118c401,2016-10-03,29328b21,Note the violation of the strict aliasing rule in crc32.c.,1,1,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+zlib,d1d577490c,2016-09-28,29328b21,Avoid pre-decrement of pointer in big-endian CRC calculation.,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+zlib,6a043145ca,2016-09-21,29328b21,Remove offset pointer optimization in inftrees.c.,1,1,8,10,8,10,0,0,0,1,0,0,0,1,0,0,0,169,1,8,8,0,0,0,1,0
+zlib,9aaec95e82,2016-09-21,29328b21,Use post-increment only in inffast.c.,1,1,31,50,31,50,0,0,0,1,0,0,0,0,0,0,0,240,1,13,13,0,0,0,0,0
+zlib,3fb251b363,2016-09-21,29328b21,Remove dummy structure declarations for old buggy compilers.,6,4,0,28,0,18,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zlib,33a7aff45d,2016-09-21,29328b21,Fix typo.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,9852c209ac,2016-09-20,29328b21,Add option to not compute or check check values.,3,3,34,13,34,13,0,0,0,2,0,0,1,0,1,0,0,620,2,16,32,0,0,0,0,0
+zlib,93b0af4aa7,2016-09-20,29328b21,Correct the size of the inflate state in the comments.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,4f1df003ed,2016-04-05,29328b21,Loop on write() calls in gzwrite.c in case of non-blocking I/O.,1,1,16,11,16,11,0,0,0,1,0,0,1,0,0,0,0,52,1,16,16,0,0,0,0,0
+zlib,4423fef8dc,2016-01-29,29328b21,Fix gzseek() problem on MinGW due to buggy _lseeki64 there.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,6cef1de740,2015-11-26,29328b21,Fix bug that accepted invalid zlib header when windowBits is zero.,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,616,1,1,1,0,0,1,0,0
+zlib,8f1b3744e5,2015-10-04,29328b21,Use a consistent and more modern approach to not use a parameter.,1,1,10,6,10,6,0,0,0,6,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+zlib,44ae761dc2,2015-09-05,29328b21,Clean up portability for shifts and integer sizes.,3,3,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,1
+zlib,e54e129940,2015-09-05,29328b21,Avoid shifts of negative values inflateMark().,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+zlib,82e9dc6093,2015-08-15,29328b21,Use const for static tree descriptions in deflate.,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,bfcace04f9,2015-08-02,29328b21,Do not initialize unsigned with -1 in compress.c uncompr.c.,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,49,1,1,2,0,0,0,0,0
+zlib,43bfaba3d7,2015-08-02,29328b21,Align deflateParams() and its documentation in zlib.h.,2,2,27,14,27,14,0,0,0,1,0,0,0,1,0,0,0,31,1,1,25,0,0,0,0,0
+zlib,b4ce6caf09,2015-08-01,29328b21,Compile the gzopen_w() function when __CYGWIN__ defined.,3,3,9,5,9,5,0,0,0,1,0,0,0,0,0,0,0,128,1,3,8,0,0,0,0,0
+zlib,2fc6d66797,2015-07-28,29328b21,Define _POSIX_SOURCE to enable POSIX extensions on some systems.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,5701f48cf5,2015-07-28,29328b21,Clarify deflateReset() documentation.,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,c901a34c92,2015-07-28,29328b21,Avoid uninitialized access by gzclose_w().,2,2,2,1,2,1,0,0,0,2,0,0,0,0,0,0,0,258,1,1,2,0,0,0,0,0
+zlib,51a223def4,2015-07-28,29328b21,Avoid use of DEBUG macro -- change to ZLIB_DEBUG.,14,6,33,33,25,25,0,0,0,4,0,0,0,0,0,0,0,46,1,1,25,0,0,0,0,0
+zlib,0db8fd3714,2015-07-28,29328b21,Fix inflateInit2() bug when windowBits is 16 or 32.,1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,616,1,2,2,0,0,0,0,0
+zlib,b56d1c62ee,2015-07-28,29328b21,Add comment about not using windowBits of 8 for deflate().,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zlib,95698093f0,2015-07-05,29328b21,Improve speed of gzprintf() in transparent mode.,4,4,70,51,70,51,0,0,0,4,0,0,2,0,0,0,0,57,2,58,65,0,0,0,0,0
+zlib,8a979f6c79,2015-07-05,29328b21,Avoid left shift of a negative value in flush rank calculation.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,9859a94c10,2015-01-26,29328b21,Remedy Coverity warning. [Randers-Pehrson],1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+zlib,5370d99a2a,2014-12-29,29328b21,Add inflateCodesUsed() function for internal use.,1,1,9,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+zlib,9cbda797c1,2014-04-26,29328b21,Note in zlib.h that compress() uses Z_DEFAULT_COMPRESSION.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,7d54c69413,2014-04-26,29328b21,Fix uncompress() to work on lengths more than a maximum unsigned.,1,1,41,20,41,20,1,0,0,1,1,0,0,0,0,0,0,49,1,34,36,0,0,0,0,0
+zlib,f898bbed89,2014-04-26,29328b21,Fix compress() to work on lengths more than a maximum unsigned.,1,1,24,18,24,18,1,0,0,1,0,0,0,0,0,0,0,37,0,0,20,0,0,0,0,0
+zlib,72c70060d8,2014-04-24,29328b21,Assure that gzoffset() is correct when appending.,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,128,1,3,3,0,0,0,0,0
+zlib,303d92cfee,2013-05-23,29328b21,Spacing cleanup.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,71,1,1,1,0,0,0,0,1
+zlib,ceeb615f46,2013-05-02,29328b21,Change version number to 1.2.8.1.,27,3,51,48,7,7,0,0,0,1,0,0,0,0,0,0,0,171,1,1,7,0,0,0,0,0
+zlib,5089329162,2013-04-28,29328b21,zlib 1.2.8,4,1,9,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,2dad5389af,2013-04-28,29328b21,Correct spelling error in zlib.h.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,bddc968b14,2013-04-28,29328b21,Do not force Z_CONST for C++.,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,e8fee0ea7b,2013-04-28,29328b21,Change version number to 1.2.8.,29,3,57,54,8,8,0,0,0,1,0,0,0,0,0,0,0,171,1,1,8,0,0,0,0,0
+zlib,b7bc388454,2013-04-13,29328b21,zlib 1.2.7.3,4,1,5,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,388a285cb8,2013-04-13,29328b21,Change version number to 1.2.7.3.,24,3,46,43,7,7,0,0,0,1,0,0,0,0,0,0,0,171,1,1,7,0,0,0,0,0
+zlib,139c67fc87,2013-04-13,29328b21,zlib 1.2.7.2,4,1,6,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,70252daf89,2013-04-13,29328b21,Add casts in gzwrite.c for pointer differences.,2,2,4,3,4,3,0,0,0,2,0,0,0,0,0,0,0,56,1,1,3,0,0,0,0,0
+zlib,5d33c62c7d,2013-04-13,29328b21,Change check for a four-byte type back to hexadecimal.,3,1,9,9,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,8a93f49c86,2013-04-13,29328b21,Change version number to 1.2.7.2.,24,3,51,48,7,7,0,0,0,1,0,0,0,0,0,0,0,171,1,1,7,0,0,0,0,0
+zlib,0b16609409,2013-03-24,29328b21,zlib 1.2.7.1,16,10,67,20,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,f81b79c559,2013-03-24,29328b21,Line length cleanup.,2,2,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,240,1,1,3,0,0,0,0,1
+zlib,c661c374e8,2013-03-24,29328b21,Do not return Z_BUF_ERROR if deflateParam() has nothing to write.,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,32,1,2,2,0,0,0,0,0
+zlib,d3b613e320,2013-03-24,29328b21,Minor spacing cleanup in a comment in gzguts.h.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+zlib,e9f0b78443,2013-03-24,29328b21,Add casts and consts to ease user conversion to C++.,6,4,17,16,15,14,0,0,0,7,0,0,0,0,0,0,0,126,4,9,15,0,0,0,0,0
+zlib,0aac8cf7c4,2013-03-23,29328b21,Clean up the addition of gzvprintf.,10,2,13,3,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1
+zlib,f0546c8e34,2013-03-23,29328b21,Clean up the addition of inflateGetDictionary.,5,1,18,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+zlib,03ff48cc67,2013-03-23,29328b21,Remove runtime check in configure for four-byte integer type.,4,1,15,59,5,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0
+zlib,b06dee4369,2013-03-22,29328b21,Add gzvprintf() as an undocumented function in zlib.,5,3,36,7,24,7,0,0,0,1,1,1,0,0,1,0,0,9,1,9,21,0,0,0,0,0
+zlib,a2d71e8e66,2013-02-24,29328b21,Fix typos in the use of _LARGEFILE64_SOURCE in zconf.h.,3,1,6,6,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,5afbdabacd,2013-02-23,29328b21,Add _tr_flush_bits to the external symbols prefixed by --zprefix.,3,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,d211ecdf02,2013-02-23,29328b21,Use underscored I/O function names for WINAPI_FAMILY.,1,1,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,931aa25aea,2013-02-23,29328b21,"Update inflateBack() comments, since inflate() can be faster.",1,1,6,5,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,51370f3656,2013-02-18,29328b21,Fix serious but very rare decompression bug in inftrees.c.,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,171,1,4,4,0,0,0,0,0
+zlib,c4888637ea,2012-10-01,29328b21,Fix bug in gzclose() when gzwrite() runs out of memory.,1,1,6,5,6,5,1,0,0,1,0,0,0,0,0,0,0,31,0,0,6,0,0,0,0,0
+zlib,0cf495a1ca,2012-09-29,29328b21,"Fix bug where gzopen(), gzclose() would write an empty file.",1,1,7,8,7,8,1,0,0,1,0,0,0,0,0,0,0,30,0,0,7,0,0,0,0,0
+zlib,aa566e86c4,2012-08-24,29328b21,Fix unintialized value bug in gzputc() introduced by const patches.,1,1,10,8,10,8,1,0,0,1,0,0,0,0,0,0,0,35,0,0,10,0,0,0,0,0
+zlib,62d6112a79,2012-08-13,29328b21,Clean up the usage of z_const and respect const usage within zlib.,16,13,76,70,63,63,0,0,0,15,0,0,1,0,0,0,0,614,6,22,61,0,0,0,0,1
+zlib,25e4a3da55,2012-06-03,29328b21,Use _snprintf for snprinf in Microsoft C.,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,ee026accde,2012-06-02,29328b21,Correct comment in deflate.h.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,dca9e1d6f3,2012-05-26,29328b21,Add inflateGetDictionary() function.,11,3,59,0,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,29,0,0,0,0,0
+zlib,eb90f6a568,2012-05-22,29328b21,Fix bug in 'F' mode for gzopen().,1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,126,1,2,2,0,0,0,0,0
+zlib,6a181356bd,2012-05-17,29328b21,Fix gzgetc undefine when Z_PREFIX set [Turk].,1,1,5,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,3a8e3bd9e5,2012-05-03,29328b21,Avoid including stddef.h on Windows for Z_SOLO compile [Niessink].,3,1,9,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,c58f7ab28d,2012-05-02,29328b21,Replace use of unsafe string functions with snprintf if available.,2,1,29,0,13,0,0,0,0,3,0,0,1,0,0,0,0,124,1,4,13,0,0,0,0,0
+zlib,2689b3cceb,2012-05-02,29328b21,Change version number to 1.2.7.1.,24,3,47,44,7,7,0,0,0,1,0,0,0,0,0,0,0,171,1,1,7,0,0,0,0,0
+zlib,30a1c7065d,2012-05-02,29328b21,zlib 1.2.7,4,1,50,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,6c9bd474aa,2012-04-29,29328b21,Fix type mismatch between get_crc_table() and crc_table.,7,4,120,47,47,47,1,0,0,6,0,0,0,0,0,0,0,52,1,5,43,0,0,0,0,0
+zlib,a5d803b7ef,2012-03-18,29328b21,Attempt to convert the wchar_t path in gzopen_w() for errors.,1,1,20,3,20,3,0,0,0,1,0,0,1,0,0,0,0,123,1,19,19,0,0,0,0,0
+zlib,04afd39fcc,2012-03-18,29328b21,Fix syntax error in gzlib.c.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,109,1,1,1,0,0,0,0,0
+zlib,8e16df2c3f,2012-03-18,29328b21,More fixes for gzopen_w().,4,2,15,2,7,2,1,0,0,1,0,0,1,0,0,0,0,109,1,3,6,0,0,0,0,0
+zlib,a1af6e96e3,2012-03-17,29328b21,Fix gzopen_w() type and add #include for the type.,3,3,6,2,6,2,1,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,1,0,0
+zlib,dbe0bed739,2012-03-16,29328b21,Add gzopen_w() in Windows for wide character path names.,9,4,55,19,40,17,0,0,0,1,0,0,1,0,1,0,0,109,1,18,35,0,0,0,0,0
+zlib,da32fd2892,2012-03-14,29328b21,Improve inflate() documentation on the use of Z_FINISH.,1,1,11,8,11,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+zlib,50a1738fcb,2012-03-14,29328b21,Make sure that unistd.h is included before using _LFS64_LARGEFILE.,3,1,48,42,16,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,0,0
+zlib,b18595d4c6,2012-03-14,29328b21,Repair some damage caused by -Wundef allowance.,3,1,15,15,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,8dc21b17a6,2012-03-13,29328b21,Allow the use of -Wundef when compiling or using zlib.,4,2,45,21,17,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+zlib,5d5befa4c3,2012-03-10,29328b21,Update copyright years in gzlib.c.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,e2abd78a98,2012-03-10,29328b21,Avoid warnings when O_CLOEXEC or O_EXCL are not defined.,1,1,10,1,10,1,0,0,0,1,0,0,1,0,0,0,0,107,1,10,10,0,0,0,0,0
+zlib,2e04ce0915,2012-03-04,29328b21,Make sure that O_EXCL is used portably.,1,1,7,4,7,4,0,0,0,1,0,0,1,0,0,0,0,106,1,7,7,0,0,0,0,0
+zlib,755c41dc4b,2012-03-03,29328b21,"Add ""x"" (O_EXCL) and ""e"" (O_CLOEXEC) modes support to gzopen().",2,2,15,2,15,2,0,0,0,1,0,0,1,0,0,0,0,105,1,11,15,0,0,0,0,0
+zlib,53bfe01cea,2012-03-03,29328b21,Fix bug in gzclose_w() when gzwrite() fails to allocate memory.,1,1,8,6,8,6,1,0,0,1,0,0,0,0,0,0,0,31,0,0,8,0,0,0,0,0
+zlib,dab7531ecc,2012-03-03,29328b21,Simplify test and use of gcc hidden attribute.,3,2,5,9,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1
+zlib,2547c6c81f,2012-03-03,29328b21,Don't use library or built-in byte swaps.,1,1,2,13,2,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,05de38d11e,2012-03-02,29328b21,Cast to char * in gzprintf to avoid warnings [Zinser].,1,1,12,11,12,11,0,0,0,2,0,0,1,0,0,0,0,48,2,12,12,0,0,0,0,0
+zlib,80f3e39eb8,2012-02-20,29328b21,Avoid using __int64 for gcc or solo compilation.,3,1,9,9,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,3f4339b61b,2012-02-19,29328b21,Improve the detection of no hidden visibility attribute.,3,2,16,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+zlib,e6d2a8471b,2012-02-19,29328b21,Do not use the visibility attribute if NO_VIZ defined.,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+zlib,d63c888039,2012-02-18,29328b21,Use __WATCOMC__ instead of __WATCOM__.,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,10fca844b1,2012-02-18,29328b21,Include unistd.h for Watcom C.,3,1,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+zlib,a75d6ea070,2012-02-18,29328b21,Require gcc 4.0 or later on Mac OS X to use the hidden attribute.,2,2,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,d81e7213b7,2012-02-18,29328b21,Restore gzgetc_ for backward compatibility with 1.2.6.,11,3,23,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,0,0,0,0
+zlib,6838df9246,2012-02-18,29328b21,Test for existence of strerror.,2,1,16,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,d1714a57c5,2012-02-18,29328b21,Replace use of memmove() with a simple copy for portability.,1,1,8,3,8,3,0,0,0,2,0,0,0,0,0,0,0,62,1,1,7,0,0,0,0,0
+zlib,455adc3029,2012-02-13,29328b21,Expunge gzgetc_ from configuration files.,9,1,0,16,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,eee7b9e576,2012-02-13,29328b21,Remove unnecessary include for byte swap built-in [Bosmans].,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+zlib,5bbdc122ad,2012-02-12,29328b21,Don't use built-in byte swaps if compiled solo.,1,1,12,9,12,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+zlib,72e2c8f088,2012-02-12,29328b21,Change version number to 1.2.7.,20,3,43,40,8,8,0,0,0,1,0,0,0,0,0,0,0,171,1,1,8,0,0,0,0,0
+zlib,94acb3c1a0,2012-02-12,29328b21,zlib 1.2.6.1,12,7,25,14,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,75143f819f,2012-02-11,29328b21,Fix minor typo in zlib.h comments [Rześniowiecki].,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,7d45cf5a1d,2012-02-11,29328b21,Use optimized byte swap operations for Microsoft and GNU [Snyder].,3,3,19,13,19,13,0,0,0,3,0,0,0,0,0,0,0,614,2,4,17,0,0,0,0,0
+zlib,1a4ba8cd91,2012-02-10,29328b21,Remove unnecessary gzgetc_ function.,2,2,4,11,4,11,0,0,0,1,0,0,0,0,0,1,0,20,0,0,4,0,0,0,1,0
+zlib,f9e4edc996,2012-02-01,29328b21,Avoid library header include in crc32.c for Z_SOLO.,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+zlib,55b8b5fec1,2012-02-01,29328b21,Put gzflags() functionality back in zutil.c.,12,4,26,47,26,38,0,0,0,1,0,0,1,0,0,1,0,46,1,23,26,0,0,0,0,0
+zlib,a8d23bb675,2012-02-01,29328b21,Include gz_header definition when compiling zlib solo.,3,1,9,15,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+zlib,98e5787e1b,2012-01-30,29328b21,Fix problem with ./configure --prefix and gzgetc macro.,1,1,8,2,8,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+zlib,3fb727c34d,2012-01-29,29328b21,Include io.h in gzguts.h for Microsoft compilers.,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+zlib,5dac2aa007,2012-01-29,29328b21,"Avoid the use of the Objective-C reserved name ""id"".",1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,35,0,0,4,0,0,0,0,0
+zlib,7b3f71ba5f,2012-01-29,29328b21,Change version number to 1.2.6.1.,20,3,41,38,7,7,0,0,0,1,0,0,0,0,0,0,0,171,1,1,7,0,0,0,0,0
+zlib,e75de023b6,2012-01-29,29328b21,zlib 1.2.6,6,3,31,7,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,22eb01184f,2012-01-29,29328b21,Have gzputc return the character written instead of the argument.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0
+zlib,b9a778a2b8,2012-01-18,29328b21,Include io.h for Turbo C / Borland C on all platforms [Truta].,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+zlib,0ddfbd2346,2012-01-16,29328b21,Change version number to 1.2.6.,19,3,46,43,9,9,0,0,0,1,0,0,0,0,0,0,0,171,1,1,8,0,0,0,0,0
+zlib,defd366a41,2012-01-15,29328b21,zlib 1.2.5.3,4,1,19,7,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,68f64498c2,2012-01-14,29328b21,Make sure that no extra inserting is done if the strategy changes.,1,1,3,0,3,0,0,0,0,3,0,0,2,0,0,0,0,56,2,2,3,0,0,0,0,0
+zlib,4f5779a8e7,2012-01-13,29328b21,Insert the first two strings in the hash table after a flush.,2,2,22,3,22,3,0,0,0,6,0,0,5,0,0,0,0,258,5,20,22,0,0,0,0,0
+zlib,0b828b4aa6,2012-01-07,29328b21,Write out all of the available bits when using Z_BLOCK.,3,3,19,6,19,6,0,0,0,1,0,0,0,0,1,0,0,19,0,0,15,0,0,0,0,0
+zlib,8f5eceefe8,2012-01-07,29328b21,Remove second empty static block for Z_PARTIAL_FLUSH.,2,2,0,25,0,25,0,0,0,2,0,0,0,0,0,0,0,16,0,0,0,0,0,0,1,0
+zlib,263b1a05b0,2012-01-07,29328b21,Allow deflatePrime() to insert bits in the middle of a stream.,4,4,26,13,26,13,0,0,0,1,0,0,0,0,0,0,0,23,0,0,20,0,0,0,0,0
+zlib,19761b8506,2011-12-29,29328b21,Permit Z_NULL arguments to deflatePending.,2,2,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+zlib,9d55abc969,2011-12-29,29328b21,Avoid extraneous empty blocks when doing empty flushes.,1,1,35,10,35,10,0,0,0,5,0,0,4,0,0,0,0,75,4,28,35,0,0,0,0,0
+zlib,f1ebdd6a9c,2011-12-28,29328b21,Permit stronger flushes after Z_BLOCK flushes.,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,257,1,1,2,0,0,0,0,0
+zlib,e7289ed5f7,2011-12-18,29328b21,Do not use _lseeki64 under Borland C++ [Truta].,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,3d85f02a09,2011-12-18,29328b21,Restore gzgetc function for binary compatibility.,7,2,16,5,9,5,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+zlib,df60b50769,2011-12-18,29328b21,Change version numbers to 1.2.5.3.,19,3,38,35,7,7,0,0,0,1,0,0,0,0,0,0,0,171,1,1,7,0,0,0,0,0
+zlib,fe61dfb8a2,2011-12-18,29328b21,zlib 1.2.5.2,7,4,57,8,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zlib,2556706d67,2011-12-14,29328b21,Document gzread() capability to read concurrently written files.,2,2,17,3,17,3,0,0,0,1,0,0,0,0,0,0,0,22,0,0,16,0,1,0,0,0
+zlib,850a198ff1,2011-12-13,29328b21,Avoid use of Z_BUF_ERROR in gz* functions except for premature EOF.,2,2,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,62,3,3,3,0,0,0,0,0
+zlib,377173b57e,2011-12-11,29328b21,Fix bug in gzread.c when end-of-file is reached.,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,27,1,1,1,0,0,0,0,0
+zlib,98f5779f42,2011-12-11,29328b21,Fix gzeof() to behave just like feof() when read is not past end of file.,3,3,19,10,19,10,1,0,0,7,0,0,4,0,0,0,0,62,4,10,18,0,0,0,0,0
+zlib,70e3b1ca56,2011-12-10,29328b21,Do not set strm->adler when doing raw inflate.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+zlib,421c7a61f0,2011-12-10,29328b21,Have inflate() with Z_FINISH avoid the allocation of a window.,2,2,16,10,16,10,0,0,0,1,0,0,1,0,0,0,0,614,1,2,16,0,0,0,0,0
+zlib,fb00fda903,2011-12-10,29328b21,Fix gzwrite.c to accommodate reduced memory zlib compilation.,2,2,8,1,8,1,1,0,0,1,0,0,0,0,0,0,0,37,0,0,6,0,0,0,0,1
+zlib,afe7cf78d5,2011-12-08,29328b21,"Enable dictionary setting in middle of stream, and keeping the dictionary.",12,4,109,50,95,50,0,0,0,4,0,0,1,0,1,0,0,613,2,47,87,0,0,0,0,0
+zlib,de32a2d749,2011-11-27,29328b21,Remove code from inflate.c and infback.c that is impossible to execute.,2,2,0,2,0,2,0,0,0,2,0,0,0,2,0,0,0,613,2,0,0,0,0,0,1,0
+zlib,383d2cdab7,2011-11-27,29328b21,Simplify incomplete code table filling in inflate_table().,1,1,8,32,8,32,0,0,0,1,0,0,0,1,0,0,0,171,1,7,7,0,0,0,0,1
+zlib,1b57de3aef,2011-11-27,29328b21,Move example.c and minigzip.c to test/.,19,2,45,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zlib,0cbad869b0,2011-11-21,29328b21,Include io.h for Turbo C / Borland C++.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+zlib,15b5671b78,2011-11-19,29328b21,Facilitate compilation with Borland C++ for pragmas and vsnprintf.,2,2,7,1,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,6715208bdb,2011-11-13,29328b21,Change ON macro to Z_ARG to avoid application conflicts.,4,2,10,10,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zlib,e8576790be,2011-10-23,29328b21,Note behavior of uncompress() to provide as much data as it can.,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zlib,6dbf1d1026,2011-10-20,29328b21,Add comment to gzdopen() in zlib.h to use dup() when using fileno().,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,5ab9f47745,2011-10-18,29328b21,Add #define ZLIB_CONST option to use const in the z_stream interface.,4,2,20,2,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0
+zlib,5b48d061c8,2011-10-09,29328b21,Fix indentation of code in inflate.c.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,34,1,1,1,0,0,0,0,0
+zlib,1bd2fa1b24,2011-10-09,29328b21,Move example.c and minigzip.c to examples/ directory.,5,2,22,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zlib,77b47d55f1,2011-10-07,29328b21,Add undocumented inflateResetKeep() function for CAB file decoding.,11,3,35,12,16,4,0,0,0,1,0,0,0,0,1,0,0,11,0,0,14,0,0,0,0,0
+zlib,f442c1e89e,2011-10-07,29328b21,Add a ./config --solo option to make zlib subset with no libary use,13,9,537,195,395,99,0,0,0,15,1,0,3,0,11,0,0,80,5,36,351,0,0,0,0,0
+zlib,518ad0177a,2011-10-05,29328b21,Get inffixed.h and MAKEFIXED result to match.,2,2,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,37,0,0,4,0,0,0,0,0
+zlib,26a99cd895,2011-10-02,29328b21,Add a transparent write mode to gzopen() when 'T' is in the mode.,5,5,82,39,82,39,0,0,0,6,0,0,2,0,0,0,0,97,2,19,67,0,0,0,0,0
+zlib,3c9d261809,2011-10-02,29328b21,Correct documentation of gzdirect() since junk at end now ignored.,1,1,1,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,be959acf80,2011-10-02,29328b21,Clarify how gzopen() appends in zlib.h comments.,1,1,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zlib,00c836e325,2011-10-02,29328b21,Merge vestigial vsnprintf determination from zutil.h to gzguts.h.,14,6,111,91,77,71,0,0,0,1,0,0,0,1,1,0,0,39,1,1,71,0,0,0,0,0
+zlib,64eccafa78,2011-10-01,29328b21,Include zconf.h for windows large file support.,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0
+zlib,7142fcfeed,2011-10-01,5b72b5af,Always add large file support for windows,4,2,17,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+zlib,a4f7c65374,2011-09-30,29328b21,Update copyright dates on gz* source files.,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zlib,8768ba98af,2011-09-30,29328b21,Fix gzclose() to return the actual error last encountered.,2,2,9,6,9,6,1,0,0,1,0,0,0,0,0,0,0,27,0,0,9,0,0,0,0,0
+zlib,acfc85772a,2011-09-26,29328b21,Change gzgetc() to a macro for speed (~40% speedup in testing).,5,5,119,91,119,91,0,0,0,20,0,0,0,0,1,1,0,60,10,56,102,0,0,0,0,0
+zlib,8e0d212910,2011-09-26,29328b21,Simplify gzseek() now that raw after gzip is ignored.,3,3,4,6,4,6,0,0,0,2,0,0,0,1,0,0,0,58,2,3,3,0,0,0,0,1
+zlib,50e440f081,2011-09-26,29328b21,Allow gzrewind() and gzseek() after a premature end-of-file.,1,1,3,2,3,2,0,0,0,2,0,0,1,0,0,0,0,58,1,1,3,0,0,0,0,0
+zlib,5ad116abda,2011-09-26,29328b21,Allow gzread() and related to continue after gzclearerr().,2,2,93,179,93,179,0,0,0,9,1,1,2,2,2,3,0,60,4,16,84,0,0,0,0,0
+zlib,a9ae24b653,2011-09-24,29328b21,Change gzread() and related to ignore junk after gzip streams.,2,2,15,6,15,6,0,0,0,1,0,0,1,0,0,0,0,105,1,7,13,0,0,0,0,0
+zlib,8824da8f01,2011-09-24,29328b21,Correct error in comment for gz_make().,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,0a81dc026c,2011-09-24,29328b21,Fix bug in gzgets() for a concatenated empty gzip stream.,1,1,6,6,6,6,1,0,0,1,0,0,1,0,0,0,0,45,1,6,6,0,0,0,0,0
+zlib,f32370e542,2011-09-24,29328b21,Correct spelling error in gzread.c,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zlib,1250ac745d,2011-09-22,29328b21,Add assertions to fill_window() in deflate.c to match comments.,1,1,5,0,5,0,0,0,0,1,0,0,1,0,0,0,0,67,1,3,3,0,0,0,0,0
+zlib,5cf0930ba5,2011-09-22,29328b21,Assure that high-water mark initialization is always applied in deflate.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,64,1,1,1,0,0,0,0,0
+zlib,faa03d5141,2011-09-22,29328b21,Avoid searching past window for Z_RLE strategy.,1,1,4,3,4,3,0,0,0,1,0,0,1,0,0,0,0,50,1,3,3,0,0,0,0,0
+zlib,d6cbbd5c64,2011-09-11,29328b21,Change version numbers to 1.2.5.2 and release dates,19,3,42,39,8,8,0,0,0,1,0,0,0,0,0,0,0,186,1,1,7,0,0,0,0,0
+zlib,10daf0d4d7,2011-09-11,29328b21,zlib 1.2.5.1,55,12,1004,522,188,99,0,0,0,11,0,0,2,0,1,0,0,186,6,14,157,0,0,0,0,0
+zlib,9712272c78,2011-09-09,29328b21,zlib 1.2.5,25,10,55,42,18,17,0,0,0,2,0,0,0,0,0,0,0,186,1,1,11,0,0,0,0,0
+zlib,7301420248,2011-09-09,29328b21,zlib 1.2.4.5,31,14,119,106,65,59,0,0,0,18,0,0,0,0,0,0,0,240,2,3,64,0,0,0,0,0
+zlib,a7d70663cf,2011-09-09,29328b21,zlib 1.2.4.4,22,4,138,81,18,8,0,0,0,1,0,0,0,0,0,0,0,186,1,1,11,0,0,0,0,0
+zlib,f4498bea28,2011-09-09,29328b21,zlib 1.2.4.3,24,8,122,73,44,42,0,0,0,1,0,0,0,0,0,0,0,186,1,1,35,0,0,0,0,0
+zlib,7147f24cd7,2011-09-09,29328b21,zlib 1.2.4.2,37,8,176,148,36,22,0,0,0,3,0,0,1,0,0,0,0,186,2,2,33,0,0,0,0,0
+zlib,05d47d2627,2011-09-09,29328b21,zlib 1.2.4.1,30,11,248,130,39,56,0,0,0,6,0,0,0,0,0,0,0,186,2,2,36,0,0,0,0,0
+zlib,a1141160bc,2011-09-09,29328b21,zlib 1.2.4,14,4,27,168,4,4,0,0,0,1,0,0,0,0,0,0,0,186,1,1,4,0,0,0,0,0
+zlib,59ca2179ff,2011-09-09,29328b21,zlib 1.2.4-pre2,14,3,22,19,3,3,0,0,0,2,0,0,0,0,0,0,0,186,2,2,3,0,0,0,0,0
+zlib,67cc20d004,2011-09-09,29328b21,zlib 1.2.4-pre1,67,10,2822,3019,509,40,0,0,0,9,0,0,1,0,0,0,0,186,3,45,415,0,0,0,0,0
+zlib,7751bd4c71,2011-09-09,29328b21,zlib 1.2.3.9,102,9,3820,7399,33,1653,0,0,0,6,0,7,2,0,0,38,0,186,4,8,31,0,0,0,0,0
+zlib,e0ff940e1a,2011-09-09,29328b21,zlib 1.2.3.8,87,11,4936,1455,76,39,0,0,0,9,0,0,2,0,1,0,0,186,3,6,70,0,0,0,0,0
+zlib,7df877eccd,2011-09-09,29328b21,zlib 1.2.3.7,28,12,745,553,610,132,0,0,0,18,0,0,1,0,0,0,0,186,8,26,510,0,0,0,0,0
+zlib,dc5a43ebfa,2011-09-09,29328b21,zlib 1.2.3.6,31,13,1061,2110,583,533,0,0,0,16,0,0,4,2,1,1,0,186,10,40,538,0,0,0,0,0
+zlib,d004b04783,2011-09-09,29328b21,zlib 1.2.3.5,74,16,7120,1855,2210,141,0,0,0,20,14,1,6,2,53,1,0,614,15,65,1657,0,0,0,0,0
+zlib,f6194ef39a,2011-09-09,29328b21,zlib 1.2.3.4,45,15,3642,852,423,246,0,0,0,22,0,1,9,0,2,3,0,612,13,97,348,0,0,0,0,0
+zlib,639be99788,2011-09-09,29328b21,zlib 1.2.3.3,22,11,583,240,409,153,0,0,0,12,1,1,3,0,12,0,0,585,6,165,366,0,0,0,0,0
+zlib,d6231142d2,2011-09-09,29328b21,zlib 1.2.3.2,23,7,344,722,16,412,0,0,0,1,0,0,0,0,0,0,0,184,1,1,12,0,0,0,0,0
+zlib,b1c19ca6d8,2011-09-09,29328b21,zlib 1.2.3.1,50,13,3641,495,332,131,0,0,0,7,1,0,4,0,0,0,0,184,6,45,271,0,0,0,0,0
+zlib,abf180a067,2011-09-09,29328b21,zlib 1.2.3,65,3,11095,6683,6,6,0,0,0,1,0,0,0,0,0,0,0,184,1,1,6,0,0,0,0,0
+zlib,9c3a583021,2011-09-09,29328b21,zlib 1.2.2.4,29,12,1035,137,162,57,0,0,0,9,1,0,3,0,2,0,0,251,8,37,133,0,0,0,0,0
+zlib,6b8233bfe0,2011-09-09,29328b21,zlib 1.2.2.3,63,10,11616,8906,108,41,0,0,0,9,1,0,1,1,2,0,0,183,5,16,85,0,0,0,0,0
+zlib,0484693e17,2011-09-09,29328b21,zlib 1.2.2.2,39,14,2178,177,164,86,0,0,0,16,1,0,5,0,0,0,0,572,10,76,134,0,0,0,0,0
+zlib,9811b53dd9,2011-09-09,29328b21,zlib 1.2.2.1,36,18,1338,433,545,90,0,0,0,11,1,0,3,0,6,0,0,565,7,190,458,0,0,0,0,0
+zlib,79fbcdc939,2011-09-09,29328b21,zlib 1.2.2,55,7,2167,194,71,70,0,0,0,7,0,0,0,0,0,0,0,526,5,38,60,0,0,0,0,0
+zlib,7a6955760b,2011-09-09,29328b21,zlib 1.2.1.2,63,13,2463,506,164,123,0,0,0,6,0,0,4,1,0,0,0,526,5,38,147,0,0,0,0,0
+zlib,f0e76a6634,2011-09-09,29328b21,zlib 1.2.1.1,14,3,107,66,17,9,0,0,0,1,0,0,1,0,0,0,0,184,1,7,13,0,0,0,0,0
+zlib,7a33a861d1,2011-09-09,29328b21,zlib 1.2.1,23,5,72,65,27,23,0,0,0,1,0,0,0,0,0,0,0,176,1,1,27,0,0,0,0,0
+zlib,a2506218cd,2011-09-09,29328b21,zlib 1.2.0.8,31,9,1530,119,105,25,0,0,0,4,0,0,0,0,1,0,0,525,2,4,89,0,0,0,0,0
+zlib,b97ec631c6,2011-09-09,29328b21,zlib 1.2.0.7,22,5,321,548,11,7,0,0,0,1,0,0,0,0,0,0,0,176,1,1,11,0,0,0,0,0
+zlib,f81ba93d4a,2011-09-09,29328b21,zlib 1.2.0.6,37,8,1235,551,31,7,0,0,0,2,0,0,1,0,0,0,0,176,2,5,28,0,0,0,0,0
+zlib,4b5a43a219,2011-09-09,29328b21,zlib 1.2.0.5,152,20,14538,12586,371,296,0,0,0,30,0,0,5,1,0,0,0,525,14,62,310,0,0,0,0,0
+zlib,086e982175,2011-09-09,29328b21,zlib 1.2.0.4,20,12,335,92,165,83,0,0,0,17,0,0,6,1,0,0,0,520,10,92,149,0,0,0,0,0
+zlib,85e7d7d9ba,2011-09-09,29328b21,zlib 1.2.0.3,21,7,123,393,16,13,0,0,0,4,0,0,0,0,0,0,0,176,2,2,16,0,0,0,0,0
+zlib,8e34b3a802,2011-09-09,29328b21,zlib 1.2.0.2,58,18,7305,5376,450,211,0,0,0,22,1,0,10,1,3,0,0,520,14,84,391,0,0,0,0,0
+zlib,13a294f044,2011-09-09,29328b21,zlib 1.2.0.1,71,15,10334,4007,494,409,0,0,0,41,1,1,6,0,1,1,0,211,19,222,416,0,0,0,0,0
+zlib,7c2a874e50,2011-09-09,29328b21,zlib 1.2.0,77,29,7228,2470,4063,2346,0,0,0,25,6,5,6,1,15,16,0,518,10,871,3464,0,0,0,0,0
+zlib,a383133c4e,2011-09-09,29328b21,zlib 1.1.4,33,26,1164,143,71,60,0,0,0,5,0,0,2,1,0,0,0,241,5,33,38,0,0,0,0,0
+zlib,14763ac7c6,2011-09-09,29328b21,zlib 1.1.3,58,15,3773,588,342,304,0,0,0,15,0,0,3,1,0,1,0,236,6,17,325,0,0,0,0,0
+zlib,c34c1fcbb1,2011-09-09,29328b21,zlib 1.1.2,39,11,4752,109,313,49,0,0,0,12,0,0,2,1,3,0,0,243,6,17,272,0,0,0,0,0
+zlib,02b6cf579f,2011-09-09,29328b21,zlib 1.1.1,14,5,135,28,12,10,0,0,0,1,0,0,0,0,0,0,0,70,1,3,12,0,0,0,0,0
+zlib,965fe72aed,2011-09-09,29328b21,zlib 1.1.0,17,9,262,68,210,43,0,0,0,11,1,1,4,0,2,0,0,122,8,24,149,0,0,0,0,0
+zlib,b8c9ecb076,2011-09-09,29328b21,zlib 1.0.9,33,19,1460,1465,326,301,0,0,0,53,1,0,6,2,2,4,0,243,14,69,295,0,0,0,0,0
+zlib,6759211ad8,2011-09-09,29328b21,zlib 1.0.8,27,17,482,144,345,68,0,0,0,28,1,1,1,0,4,0,0,254,9,37,295,0,0,0,0,0
+zlib,7850e4e406,2011-09-09,29328b21,zlib 1.0.7,58,25,4613,524,955,370,0,0,0,46,5,1,7,0,13,0,0,150,16,108,714,0,0,0,0,0
+zlib,ebd3c2c0e7,2011-09-09,29328b21,zlib 1.0.5,10,4,61,49,39,31,0,0,0,4,0,0,3,0,0,0,0,254,3,21,35,0,0,0,0,0
+zlib,ff11b0a61f,2011-09-09,29328b21,zlib 1.0.4,31,20,302,192,203,155,0,0,0,36,1,0,3,0,1,0,0,253,15,50,166,0,0,0,0,0
+zlib,e26a448e96,2011-09-09,29328b21,zlib 1.0.2,22,13,379,119,113,80,0,0,0,3,0,0,1,0,1,0,0,40,1,2,86,0,0,0,0,0
+zlib,423eb40306,2011-09-09,29328b21,zlib 1.0.1,37,25,1814,681,1009,519,0,0,0,51,3,2,7,3,15,9,0,253,17,172,824,0,0,0,0,0
+zlib,8a2acbffc8,2011-09-09,29328b21,zlib 1.0-pre,32,25,590,1276,444,898,0,0,0,46,2,3,3,5,9,15,0,251,15,150,364,0,0,0,0,0
+zlib,56bcb184fa,2011-09-09,29328b21,zlib 0.99,33,25,1836,778,1406,637,0,0,0,51,5,3,5,3,20,9,0,251,14,168,1095,0,0,0,0,0
+zlib,25e5325501,2011-09-09,29328b21,zlib 0.95,15,10,225,140,190,119,0,0,0,16,0,0,0,0,1,0,0,68,2,6,139,0,0,0,0,0
+zlib,23c69f1069,2011-09-09,29328b21,zlib 0.94,34,25,800,431,492,386,0,0,0,44,0,0,7,1,0,0,0,251,18,113,445,0,0,0,0,0
+zlib,6b834a58bd,2011-09-09,29328b21,zlib 0.93,16,14,253,203,238,199,0,0,0,13,0,0,5,0,1,0,0,251,7,141,211,0,0,0,0,0
+zlib,bdde4e09d2,2011-09-09,29328b21,zlib 0.92,25,22,892,918,873,908,0,0,0,50,0,1,3,0,0,1,0,245,17,528,812,0,0,0,0,0
+zlib,1c71d8b13b,2011-09-09,29328b21,zlib 0.91,16,9,125,101,70,27,0,0,0,7,0,0,2,0,0,0,0,96,4,13,51,0,0,0,0,0
+zlib,64b2e89203,2011-09-09,29328b21,zlib 0.9,23,16,774,191,403,178,0,0,0,23,1,0,7,0,4,0,0,239,10,132,337,0,0,0,0,0
+zlib,4ca984fb44,2011-09-09,29328b21,zlib 0.8,21,19,186,353,165,342,0,0,0,23,1,1,3,1,0,6,0,223,8,44,141,0,0,0,0,0
+zlib,913afb9174,2011-09-09,29328b21,zlib 0.79,23,20,559,140,546,127,0,0,0,16,2,0,5,0,7,0,0,150,6,37,441,0,0,0,0,0

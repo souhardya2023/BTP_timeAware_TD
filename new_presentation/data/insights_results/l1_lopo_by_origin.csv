@@ -1,0 +1,4 @@
+method,SmellBench,"natural fix pair, rege",scripted injection
+"whole-project delta, RF",0.4666666666666667,1.0,0.9523809523809523
+"LOCAL delta (touched files), 10-best + RF",0.5333333333333333,1.0,0.8571428571428571
+"PATCH WORDS (added/removed identifiers), LR",0.2,1.0,0.8571428571428571

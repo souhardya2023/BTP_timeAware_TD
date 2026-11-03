@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+math_editor,v0.1,v0.2,0,3.6538,82,519,66,12,4
+math_editor,v0.2,v0.3,1,1.5778,26,551,79,11,6
+math_editor,v0.3,v0.4,2,1.2034,131,556,79,7,6
+math_editor,v0.4,v0.5,3,1.783,112,592,103,1,8
+math_editor,v0.5,v0.6,4,1.3833,37,654,123,0,10
+math_editor,v0.6,v0.7,5,1.2133,30,633,123,0,10
+math_editor,v0.7,v0.8,6,0.9156,13,618,123,6,10
+math_editor,v0.8,v0.9,7,0.2998,7,620,112,5,9
+math_editor,v0.9,v0.10,8,0.2051,7,621,100,5,8

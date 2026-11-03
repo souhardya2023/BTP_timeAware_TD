@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+recipe,0,v0.1,v0.2,2019-01-07,2019-02-02,minor,2,198,40,202,40,5,7,0,0,2
+recipe,1,v0.2,v0.3,2019-02-02,2019-03-07,minor,2,202,40,206,40,5,5,0,0,2
+recipe,2,v0.3,v0.4,2019-03-07,2019-04-02,minor,1,206,40,207,40,5,3,0,0,3
+recipe,3,v0.4,v0.5,2019-04-02,2019-05-13,minor,1,207,40,207,40,5,0,0,0,0

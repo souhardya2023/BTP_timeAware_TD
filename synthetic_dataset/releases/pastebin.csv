@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+pastebin,v0.1,v0.2,0,0.3626,20,247,19,1,5
+pastebin,v0.2,v0.3,1,0.4669,6,266,19,1,5
+pastebin,v0.3,v0.4,2,0.8232,32,267,20,1,6
+pastebin,v0.4,v0.5,3,0.7821,41,296,20,2,6
+pastebin,v0.5,v0.6,4,5.7942,110,330,20,5,6
+pastebin,v0.6,v0.7,5,0.6055,21,422,39,5,9
+pastebin,v0.7,v0.8,6,0.5006,22,434,41,4,9
+pastebin,v0.8,v0.9,7,0.3273,13,446,33,7,8
+pastebin,v0.9,v0.10,8,0.1559,2,447,19,0,7

@@ -1,0 +1,46 @@
+===== HOT: jemalloc src/ctl.c prof_log_start_ctl  (5.2.0 -> 5.2.1) nloc 17 ccn 3 interest_lines 1  traits {'n_distinct_calls': 5.0, 'dup_line_ratio': 0.0, 'n_goto': 1.0, 'n_unsafe': 0.0, 'n_alloc': 0.0, 'n_arrow': 0.0, 'clone_ratio': 0.4545454545454545}
+  prof_log_start_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,
+      size_t *oldlenp, void *newp, size_t newlen) {
+  	int ret;
+> 	
+  	const char *filename = NULL;
+  
+  	if (!config_prof) {
+  		return ENOENT;
+  	}
+  
+  	WRITEONLY();
+  	WRITE(filename, const char *);
+  
+  	if (prof_log_start(tsd_tsdn(tsd), filename)) {
+  		ret = EFAULT;
+> 		goto label_return; 
+  	}
+  
+  	ret = 0;
+  label_return:
+  	return ret;
+  }
+
+===== COLD: jemalloc src/ctl.c thread_tcache_enabled_ctl  (5.2.0 -> 5.2.1) nloc 18 ccn 3 interest_lines 0  traits {'n_distinct_calls': 4.0, 'dup_line_ratio': 0.0, 'n_goto': 1.0, 'n_unsafe': 0.0, 'n_alloc': 0.0, 'n_arrow': 0.0, 'clone_ratio': 0.25}
+  thread_tcache_enabled_ctl(tsd_t *tsd, const size_t *mib,
+      size_t miblen, void *oldp, size_t *oldlenp, void *newp,
+      size_t newlen) {
+  	int ret;
+  	bool oldval;
+  
+  	oldval = tcache_enabled_get(tsd);
+  	if (newp != NULL) {
+  		if (newlen != sizeof(bool)) {
+  			ret = EINVAL;
+  			goto label_return;
+  		}
+  		tcache_enabled_set(tsd, *(bool *)newp);
+  	}
+  	READ(oldval, bool);
+  
+  	ret = 0;
+  label_return:
+  	return ret;
+  }
+

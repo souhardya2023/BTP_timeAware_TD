@@ -1,0 +1,5 @@
+nested leave-one-project-out, 61 real pairs, 10 projects; majority 0.426 (non-boltons 0.432)
+random forest (raw delta)                                      overall 0.459   boltons 0.000   other 37 pairs 0.757
+linear model, transform + C chosen inside the training projects overall 0.311   boltons 0.000   other 37 pairs 0.514
+hybrid: forest, linear model for rare classes                  overall 0.459   boltons 0.000   other 37 pairs 0.757
+transforms chosen per held-out project: {'unit length': 8, 'sign': 2}; C: {0.01: 5, 0.1: 2, 1.0: 2, 10.0: 1}

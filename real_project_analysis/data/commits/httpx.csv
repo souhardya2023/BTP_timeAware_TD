@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+httpx,ae1b9f6623,2025-12-10,96a04664,Expose `FunctionAuth` in `__all__` (#3699),3,2,6,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,364697efca,2025-09-03,42e236d6,Upgrade Python formatter ruff (#3651),4,2,9,11,2,4,0,0,0,2,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+httpx,336204f012,2025-06-02,adb77046,Display proxy protocol scheme on error (#3571),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,77,1,1,1,0,0,0,0,0
+httpx,4189b7f051,2025-02-27,e50ff529,fix typo (#3519),2,2,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,0
+httpx,26d48e0634,2024-12-06,3a782a57,Version 0.28.1 (#3445),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,89599a9541,2024-12-04,3a782a57,"Fix `verify=False`, `cert=...` case. (#3442)",2,1,7,4,3,4,1,0,0,1,0,0,0,1,0,0,0,42,1,3,3,0,0,0,0,0
+httpx,15e21e9ea3,2024-11-29,9ab4cf4a,Updating deprecated docstring Client() class (#3426),1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,80960fa319,2024-11-28,3a782a57,Version 0.28.0. (#3419),6,5,98,41,89,30,0,0,0,18,1,0,8,0,0,0,0,77,18,82,87,0,0,0,0,0
+httpx,a33c87852b,2024-11-28,3a782a57,Fix `extensions` type annotation. (#3380),2,2,4,5,4,5,1,0,0,2,0,0,0,0,0,0,0,40,2,2,4,0,0,0,0,0
+httpx,ce7e14da27,2024-11-28,3a782a57,Error on verify as str. (#3418),1,1,8,0,8,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,7,0,0,0,0,0
+httpx,47f4a96ffa,2024-11-22,3a782a57,Handle empty zstd responses (#3412),5,2,26,5,5,1,0,0,0,3,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+httpx,7b19cd5f4b,2024-11-15,2cacb2d4,Move utility functions from _utils.py to _client.py (#3389),4,2,92,100,35,40,0,0,0,1,0,0,0,0,3,3,0,11,0,0,28,0,0,0,1,0
+httpx,2ea2286db4,2024-11-15,3a782a57,Import ssl on demand (#3401),1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+httpx,1805ee0d22,2024-11-12,3a782a57,Graceful upgrade path for 0.28. (#3394),11,7,155,434,82,251,0,0,0,25,1,1,0,18,1,3,0,75,20,40,77,0,1,0,0,0
+httpx,41597adffa,2024-11-01,2cacb2d4,Move remaining utility functions from _utils.py to _models.py  (#3387),5,2,118,124,74,80,0,0,0,4,0,0,0,0,4,4,0,11,0,0,63,0,0,0,1,0
+httpx,6212e8fa3b,2024-11-01,2cacb2d4,Move utility functions from _utils.py to _multipart.py (#3388),2,2,37,34,37,34,0,0,0,3,0,0,0,0,3,3,0,31,0,0,29,0,0,0,1,0
+httpx,83a85189c7,2024-10-30,9b8275b4,Move normalize header functions from _utils.py to _models.py (#3382),2,2,30,49,30,49,0,0,0,1,0,0,0,0,2,2,0,19,0,0,25,0,0,1,1,0
+httpx,6622553979,2024-10-29,3a782a57,Cleanup `Request` method parameter. (#3378),2,1,3,6,2,6,0,0,0,1,0,0,0,1,0,0,0,40,1,2,2,0,0,0,0,1
+httpx,12be5c44ca,2024-10-29,9c267bd9,add socks5h proxy support (#3178),4,2,15,13,5,5,0,0,0,3,0,0,0,0,0,0,0,80,2,4,5,0,0,0,0,0
+httpx,e9cabc8e1d,2024-10-29,123c49f3,made dependencies on certifi and httpcore only load when required (#3377),7,4,75,26,42,24,0,0,0,6,0,0,2,0,1,0,0,80,2,2,33,0,0,1,0,0
+httpx,5dda2aa306,2024-10-28,3a782a57,Just use default `safe=...` characters for `urlescape` (#3376),2,1,3,17,1,15,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0
+httpx,ba2e51215e,2024-10-28,3a782a57,"Review urlescape percent-safe set, and use + behavior for form spaces. (#3373)",3,2,28,47,20,35,0,0,0,3,0,0,0,0,0,1,0,15,0,0,12,1,0,0,0,0
+httpx,d293374b66,2024-10-28,3a782a57,"Review URL percent escaping sets, from whatwg. (#3371)",2,1,71,27,68,24,0,0,0,1,0,0,0,1,0,0,0,82,1,8,51,0,0,0,0,0
+httpx,9fd6f0ca66,2024-10-28,5a3057fb,Ensure JSON representation is compact. #3363 (#3367),7,1,53,14,3,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+httpx,8e36f2bc68,2024-10-28,3a782a57,Introduce new `SSLContext` API & escalate deprecations. (#3319),29,14,533,947,307,542,0,0,0,36,0,1,3,5,3,14,0,79,20,120,252,0,0,0,0,0
+httpx,3f76571d34,2024-10-25,3a782a57,Concise URL instantiation. (#3364),1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,44,1,1,1,0,0,0,0,0
+httpx,49d74a2e7f,2024-09-26,4d396492,Clarified error when header value is None (#3312),2,1,10,0,2,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,1,0,0
+httpx,609df7ecc0,2024-08-27,3a782a57,Reintroduce `URLTypes`. (#3288),3,2,10,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,1bf1ba5124,2024-08-22,aae7b121,Version 0.27.1 (#3275),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,7c0cda153d,2024-07-26,3a782a57,Improve InvalidURL error message. (#3250),3,1,21,7,14,3,0,0,0,1,0,0,1,0,0,0,0,91,1,14,14,0,0,0,0,0
+httpx,359f77d4f6,2024-07-23,3a782a57,Clean up URL signature. (#3245),5,5,40,43,40,43,0,0,0,35,0,0,0,0,0,0,0,91,31,31,40,0,0,0,0,1
+httpx,db9072f998,2024-06-13,3a782a57,Add URL parsing tests from WHATWG (#3188),4,1,9819,23,17,13,0,0,0,3,0,0,1,0,0,0,0,80,1,9,15,0,0,0,0,0
+httpx,92e9dfb399,2024-06-06,b01a86d5,Update asgi.py docstring (#3210),1,1,1,10,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,37593c1952,2024-05-17,3a782a57,Fast path returns for normalize_path cases (#3189),1,1,10,1,10,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+httpx,88a81c5d31,2024-05-10,4fd3456c,[fix] Use proxy ssl context consistently (#3175),1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,76,1,1,1,0,0,0,0,0
+httpx,a7092af2fd,2024-05-03,3a782a57,Resolve queryparam quoting (#3187),2,1,55,32,7,29,0,0,0,1,0,0,0,0,1,2,0,7,0,0,5,0,0,0,0,0
+httpx,392dbe45f0,2024-03-21,aae7b121,Add support for zstd decoding (#3139),15,3,148,26,65,3,0,0,0,13,0,0,0,0,3,0,0,21,0,0,50,0,0,0,0,0
+httpx,0006ed0547,2024-03-01,d7c8fce3,format (#3131),9,5,11,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,f3eb3c90fd,2024-02-29,e50ff529,Keep clients in sync (#3120),1,1,4,5,4,5,0,0,0,3,0,0,1,0,0,0,0,91,3,4,4,0,0,0,0,0
+httpx,6045186f7d,2024-02-28,52996ee5,Update /advanced/#<anchor> links -> /advanced/clients/#<anchor> (#3123),1,1,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,39,3,3,5,0,0,0,0,0
+httpx,6d852d319a,2024-02-26,b00174d0,Fix client.send() timeout new Request instance (#3116),2,1,24,0,13,0,1,0,0,2,0,0,0,0,1,0,0,31,0,0,10,0,0,0,0,0
+httpx,4de13707ee,2024-02-23,591b844e,Use more permissible types in ASGIApp  (#3109),2,1,8,4,4,4,0,0,0,2,0,0,0,0,0,0,0,43,0,0,4,0,0,0,0,0
+httpx,87713d2172,2024-02-23,e50ff529,Define and expose the API from the same place (#3106),18,17,101,44,98,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,0,0,0,0,0
+httpx,326b9431c7,2024-02-21,3a782a57,Version 0.27.0 (#3095),2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,cabd1c095e,2024-02-02,3a782a57,Deprecate `app=...` in favor of explicit `WSGITransport`/`ASGITransport`. (#3050),6,1,145,72,15,1,0,0,0,2,0,0,2,0,0,0,0,92,2,13,13,0,0,0,0,0
+httpx,371b6e946c,2024-01-24,e50ff529,Use `__future__.annotations` (#3068),25,19,623,624,597,610,0,0,0,197,0,0,0,5,0,0,0,86,47,356,578,0,0,0,0,0
+httpx,4f6edf36e9,2024-01-16,d7c8fce3,test `parse_header_links` via public api (#3061),2,1,14,9,7,7,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,1,0,0
+httpx,99cba6ac64,2024-01-10,d516bf51,Fix RFC 2069 mode digest authentication (#3045),3,1,170,3,4,3,1,0,0,1,0,0,0,0,0,0,0,35,0,0,2,0,0,0,0,0
+httpx,ca51b4532a,2024-01-08,e50ff529,Keep clients in sync (#3042),1,1,14,1,14,1,0,0,0,2,0,0,1,0,0,0,0,38,1,7,11,0,0,0,0,0
+httpx,c6907c2203,2024-01-04,e50ff529,Remove unused type: ignore (#3038),3,2,4,4,3,3,0,0,0,2,0,0,0,0,0,0,0,31,0,0,3,0,0,0,1,0
+httpx,1a660147ed,2023-12-28,e50ff529,Add missing argument (#3023),2,1,7,0,1,0,0,0,0,1,0,0,1,0,0,0,0,19,1,1,1,0,0,0,0,0
+httpx,08eff926a6,2023-12-20,e50ff529,Version 0.26.0 (#3009),2,1,9,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,b4b27ff677,2023-12-19,e50ff529,Remove unused curio check (#3010),1,1,3,7,3,7,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,1,0
+httpx,a11fc3849b,2023-12-15,3a782a57,Cleanup URL percent-encoding behavior. (#2990),2,1,113,42,43,8,0,0,0,4,0,0,0,0,1,0,0,75,1,1,33,0,0,0,0,1
+httpx,3b9060ee11,2023-12-14,e50ff529,Fix environment proxies (#2741),3,1,5,1,3,1,1,0,0,1,0,0,1,0,0,0,0,25,1,3,3,0,0,0,0,0
+httpx,2318fd822c,2023-12-13,f0205457,Enabling `ruff` C416 (#3001),6,2,41,41,2,2,0,0,0,2,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+httpx,1e11096473,2023-12-11,f0205457,Fixed `iter_text` adding an empty string (#2998),3,2,17,4,6,4,1,0,0,4,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+httpx,90538a3b46,2023-12-11,3a782a57,Ensure that ASGI 'raw_path' does not include query component of URL. (#2999),3,1,15,1,1,1,0,0,0,1,0,0,0,0,0,0,0,43,0,0,1,0,0,1,0,0
+httpx,f8981f3d12,2023-12-11,e50ff529,Add the 'proxy' parameter and deprecate 'proxies'. (#2879),11,5,281,170,64,13,0,0,0,15,0,0,13,0,0,0,0,89,15,52,62,0,0,0,0,0
+httpx,b471f01d66,2023-12-07,3a782a57,Allow URLs where username or password contains unescaped '@'. (#2986),3,1,56,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+httpx,fd60b1815c,2023-11-29,d7c8fce3,Ruff linter: Use the default line-length (#2922),15,9,89,58,74,47,0,0,0,13,0,0,4,0,0,0,0,75,4,12,55,0,0,0,0,0
+httpx,cc206cf2da,2023-11-24,e50ff529,Version 0.25.2 (#2957),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,87f39f12c9,2023-11-17,8f5b1ed4,add missing type hints to __init__(...) (#2938),11,7,24,20,17,17,0,0,0,17,0,0,0,0,0,0,0,78,6,6,17,0,0,0,0,0
+httpx,b07d4e8ce4,2023-11-03,3a782a57,Version 0.25.1 (#2923),2,1,6,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,1b7f39eb44,2023-11-02,e50ff529,Use ruff format (#2901),5,1,8,6,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+httpx,1d73150c1f,2023-10-31,3a782a57,Cleanup response.json() method (#2911),3,2,12,47,1,41,0,0,0,1,0,1,0,0,0,1,0,2,0,0,1,0,0,0,0,1
+httpx,ad06741d1e,2023-10-30,3a782a57,Lazily import 'netrc' module (#2910),1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,1,0,0
+httpx,9751f76186,2023-10-30,3a782a57,Drop unneccessary `binascii` import (#2909),1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,1,0,0
+httpx,e63b6594f2,2023-10-10,3efd8592,Fix encode host (#2886),2,1,7,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,7c9db49f0c,2023-09-21,22a34c54,Add support for Python 3.12 (#2854),6,2,17,16,8,13,0,0,0,2,0,0,0,1,0,0,0,39,1,4,8,0,0,0,0,0
+httpx,59df8190a4,2023-09-19,01150af0,Raise ValueError on `Response.encoding` being set after `Response.text` has been accessed (#2852),3,1,33,0,10,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,9,0,0,0,0,0
+httpx,88e8431437,2023-09-15,7b421813,Add cookies to the retried request when performing digest authentication. (#2846),2,1,44,3,3,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+httpx,c3585a5ccf,2023-09-11,84319899,Version 0.25.0 (#2801),2,1,5,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,a54ecccd5b,2023-09-11,d1fce126,HTTPS proxies support (#2845),3,2,4,0,3,0,0,0,0,2,0,0,1,0,0,0,0,74,1,1,3,0,0,0,0,0
+httpx,adbcd0e0e7,2023-09-11,d1fce126,Change extensions type (#2803),3,1,5,3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+httpx,e874351f04,2023-09-07,2b5a77cd,Update _models.py (#2840),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+httpx,b40c04dfa6,2023-08-09,4378bb39,Drop support for Python 3.7 (#2813),9,1,22,22,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,9415af643f,2023-08-01,84319899,Make `raise_for_status` chainable (#2776),6,1,14,6,2,2,0,0,0,1,0,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0
+httpx,18d7721c38,2023-07-13,a7097302,Use Mozilla documentation instead of `httpstatuses.com` for HTTP error reference (#2768),3,1,7,7,2,2,0,0,0,1,0,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0
+httpx,920333ea98,2023-06-09,a7097302,Always encode forward slashes as `%2F` in query parameters (#2723),3,1,15,13,10,8,0,0,0,2,0,0,0,0,0,0,0,75,1,1,2,0,0,0,0,0
+httpx,301b8fb03a,2023-06-08,d1fce126,Fix URLPattern examples (#2740),1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,733595037a,2023-05-24,d1fce126,Add `socket_options` argument to `httpx.HTTPTransport` class (#2716),3,1,17,1,12,0,0,0,0,2,0,0,2,0,0,0,0,73,2,6,11,0,0,0,0,0
+httpx,a682f6f1c7,2023-05-21,dd01f463,Fix exception suppression in asgi transport (#2669),3,1,18,1,7,1,1,0,0,1,0,0,0,0,0,0,0,43,0,0,6,0,0,0,0,0
+httpx,abb994c0c2,2023-05-19,ecad7b1d,Ensure all WSGITransport environs have a SERVER_PROTOCOL (#2708),2,1,18,0,1,0,0,0,0,1,0,0,0,0,0,0,0,42,0,0,1,0,0,0,0,0
+httpx,fcf1bc73db,2023-05-18,59a78c4a,Version 0.24.1 (#2702),2,1,16,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,ee432c0d30,2023-05-09,3a782a57,Fix for gen-delims escaping behaviour in path/query/fragment (#2701),2,1,40,3,10,3,1,0,0,1,0,0,0,0,0,0,0,75,1,3,3,0,0,0,0,0
+httpx,32e25497a3,2023-04-26,e290a1f4,Fix ruff error and script (#2680),2,1,3,3,2,2,1,0,0,2,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+httpx,472597fb6b,2023-04-20,156eddd7,More robust check for upload files in binary mode (#2630),1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,31,0,0,4,0,0,0,0,0
+httpx,26dc39213a,2023-04-20,3a782a57,Additional context in InvalidURL exceptions (#2675),2,1,8,8,4,4,0,0,0,2,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+httpx,9ae170a936,2023-04-19,3a782a57,Fix optional percent encoding behaviour. (#2671),2,1,40,6,22,6,1,0,0,2,0,0,0,0,1,0,0,7,0,0,16,0,0,0,0,0
+httpx,15d09a3bbc,2023-04-19,462b3674,"fix: NO_PROXY should support IPv4, IPv6 and localhost (#2659)",2,1,33,1,27,1,1,0,0,1,1,0,0,0,2,0,0,23,1,8,21,0,0,0,0,0
+httpx,c1cc6b2462,2023-04-18,1da0f9f4,Fixes #2666: None is the default value of file for httpx.NetRCAuth (#2667),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+httpx,4b5a92e88e,2023-04-12,4d612ce8,set logging request lines to INFO level for async method also (#2656),1,1,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,26,0,0,7,0,1,0,0,0
+httpx,579a3f2fb8,2023-04-11,3a782a57,Version 0.24.0 (#2652),2,1,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,daec2bdcdb,2023-04-05,9e3c5bc9,"Use ruff instead of flake8, autoflake and isort (#2648)",11,1,22,30,1,2,0,0,0,1,0,0,0,1,0,0,0,25,1,0,1,0,0,0,0,0
+httpx,f1157dbc41,2023-03-20,3a782a57,Use standard logging style (#2547),8,3,163,186,24,64,0,0,0,3,0,0,1,0,0,3,0,40,1,6,24,0,0,0,0,0
+httpx,85c5898d8e,2023-03-16,fcf20ae6,"Change LineDecoder to match stdlib splitlines, resulting in significant speed up (#2423)",3,1,57,67,41,51,0,0,0,3,0,1,0,0,0,0,0,21,1,19,27,0,0,0,1,0
+httpx,e486fbceea,2023-03-15,3a782a57,Update _client.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,1,1,1,0,0,0,0,0
+httpx,0fc9009b90,2023-03-15,3a782a57,Update _client.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,1,1,1,0,0,0,0,0
+httpx,c5e9c82c90,2023-03-13,9d9fd9c5,Add sslcontext to the asynclient docstring (#2609),1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0
+httpx,6779fae5ee,2023-03-01,63636382,Bump mypy from 0.982 to 1.0.1 (#2611),3,2,7,8,6,7,0,0,0,4,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+httpx,a934c36a85,2023-02-15,e29f4380,Drop private imports from test_urlparse.py (#2572),2,1,45,58,0,12,0,0,0,1,0,0,0,1,0,0,0,75,1,0,0,0,0,1,1,0
+httpx,f0fd91925b,2023-02-09,cce33459,fix type annotation for MockTransport (#2581),4,1,12,8,9,5,1,0,0,3,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+httpx,59914c7690,2023-01-12,3a782a57,Add `NetRCAuth()` class. (#2535),10,4,126,126,31,40,0,0,0,6,0,0,0,1,3,3,0,33,1,0,24,0,0,0,0,0
+httpx,a6af45edac,2023-01-10,3a782a57,Use '%20' for encoding spaces in query parameters. (#2543),3,2,41,2,25,2,0,0,0,1,0,0,0,0,1,0,0,2,0,0,10,0,0,0,0,0
+httpx,57daabf673,2023-01-10,3a782a57,Drop `rfc3986` requirement. (#2252),8,2,762,257,514,211,0,0,0,14,2,1,0,0,11,0,0,40,2,32,347,0,0,0,0,0
+httpx,08a557e3e2,2023-01-04,3a782a57,Version 0.23.3 (#2540),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,bddd774ce0,2023-01-04,0d267110,"Revert ""Raise `TypeError` on invalid query params. (#2523)"" (#2539)",2,1,1,12,1,5,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+httpx,2ab735849a,2023-01-02,3a782a57,Version 0.23.2 (#2510),2,1,15,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,4cbf13ece2,2022-12-30,3a782a57,Raise `TypeError` on invalid query params. (#2523),2,1,12,1,5,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+httpx,10a3b68a71,2022-12-29,9e3c5bc9,Delete setup.py (#2516),1,1,0,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,b82fbe2c13,2022-12-12,3a782a57,Drop private import of 'format_form_param' from tests (#2500),2,1,21,12,1,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,1,1,0
+httpx,b97c0594a5,2022-12-12,3a782a57,Streaming multipart support (#2382),2,1,33,25,29,22,0,0,0,4,0,0,0,0,0,1,0,13,0,0,24,0,0,0,0,0
+httpx,a8dd079be7,2022-12-11,3a782a57,Raise TypeError if content is passed a 'dict' instance. (#2495),2,1,8,1,5,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+httpx,40a0da093b,2022-12-02,557c0cb3,Add back in URL.raw with NamedTuple (#2481),3,2,37,1,27,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,24,0,0,0,0,0
+httpx,57aa5b08a4,2022-11-30,9be5125c,Enable no_implicit_reexport (#2475),5,3,9,4,7,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,5,0,0,0,0,0
+httpx,2d37321842,2022-11-30,9be5125c,Typing: enable warn_return_any (#2477),8,5,17,7,14,5,0,0,0,6,0,0,0,0,0,0,0,14,0,0,13,0,0,0,0,0
+httpx,0eb97fc988,2022-11-30,fce4c6f9,Use wsgi types from typeshed (#2478),1,1,6,17,6,17,0,0,0,3,0,0,0,0,0,0,0,41,1,1,6,0,0,0,0,0
+httpx,1ff67ea47c,2022-11-29,cce33459,Typing: use wsgiref.types to validate types and fix issues uncovered (#2467),1,1,24,6,24,6,1,0,0,4,0,0,0,0,0,0,0,41,1,1,18,0,0,0,0,0
+httpx,8327e13454,2022-11-29,cc599ff2,reuse the digest auth state to avoid unnecessary requests (#2463),3,1,139,31,16,5,0,0,1,3,0,0,0,0,0,0,0,36,0,0,14,0,0,0,0,0
+httpx,69e13cbc39,2022-11-29,cce33459,Remove and dissallow unused type ignores (#2470),7,4,28,24,13,11,0,0,0,5,0,0,1,0,0,0,0,38,1,6,13,0,0,0,1,0
+httpx,1b4e7fbb48,2022-11-29,cce33459,Typing: always fill in generic type parameters (#2468),10,8,39,18,36,16,0,0,0,15,0,0,0,0,0,0,0,41,2,2,31,0,0,0,0,0
+httpx,16e2830624,2022-11-29,cce33459,use # pragma: no cover instead of # pragma: nocover (#2471),25,13,70,70,45,45,0,0,0,29,0,0,0,0,0,0,0,78,6,11,45,0,0,0,0,0
+httpx,75a13a15aa,2022-11-29,cce33459,Remove typeshed iscoroutine workaround (#2466),2,2,2,12,2,12,0,0,0,1,0,0,0,0,0,1,0,9,0,0,2,0,0,0,1,0
+httpx,1ba3e2ad4c,2022-11-28,3a782a57,Switch `extensions` from `Dict` to `Mapping`. (#2465),2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,39,1,1,3,0,0,0,0,0
+httpx,f11eff45b7,2022-11-18,3a782a57,Version 0.23.1 (#2442),4,2,22,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,8752e2672c,2022-11-07,3a782a57,Drop .read/.aread from SyncByteStream/AsyncByteStream (#2407),3,2,4,40,2,38,0,0,0,2,0,0,0,0,0,2,0,12,0,0,2,0,1,0,0,0
+httpx,71ee50b277,2022-10-12,9cd60bf8,Add parameters to generics in `_client.py` (#2266),1,1,12,9,12,9,0,0,0,7,0,0,0,0,0,0,0,78,5,7,10,0,0,0,0,0
+httpx,0ebe9259ac,2022-10-06,3a782a57,Allow str content for multipart upload files (#2400),3,2,33,8,9,3,0,0,0,1,0,0,0,0,0,0,0,31,0,0,9,0,0,0,0,0
+httpx,cdde07f2aa,2022-09-29,9e3c5bc9,Add thread-safety note on the `Client` docstring (#2380),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+httpx,8152c4facd,2022-09-13,cce33459,add basic type annotation for RequestExtensions and RequestData (#2367),6,6,42,28,42,28,0,0,0,27,0,0,1,0,0,0,0,46,22,24,41,0,0,0,0,0
+httpx,d5900cd40e,2022-09-02,3a782a57,Fix empty query params (#2354),2,1,12,1,1,1,1,0,0,1,0,0,0,0,0,0,0,26,1,1,1,0,0,0,0,0
+httpx,9f79b5c090,2022-09-01,9e3c5bc9,Add fake setup.py (#2351),1,1,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+httpx,965b8adec3,2022-08-30,3a782a57,Allow tuple or list for multipart values (#2355),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+httpx,ccd98b1a6d,2022-08-30,53612ffe,Relax `HeaderTypes` type alias definition (#2317),2,2,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,28,0,0,4,0,0,1,0,0
+httpx,f13ab4d288,2022-08-25,e29f4380,Replace cgi which will be deprecated in Python 3.11 (#2309),2,2,11,6,11,6,0,0,0,1,0,0,0,0,1,0,0,5,0,0,7,0,0,0,0,0
+httpx,45b7cfaad3,2022-08-22,7bb87b1a,Update package metadata (#2334),5,1,82,102,0,96,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+httpx,1526048c94,2022-08-15,cce33459,allow setting an explicit multipart boundary via headers (#2278),4,3,80,2,28,2,0,0,0,2,0,0,1,0,1,0,0,46,1,12,24,0,0,1,0,0
+httpx,344e01e98a,2022-06-19,63636382,Bump mypy from 0.910 to 0.961 (#2269),3,2,13,3,12,2,0,0,0,1,0,0,0,0,1,0,0,9,0,0,8,0,0,0,0,0
+httpx,dd8a1d6cda,2022-06-16,29947426,Remove 3.6 from the package classifiers (#2267),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+httpx,9baf3a6cd2,2022-05-30,3a782a57,Drop RawURL (#2241),5,3,8,40,4,35,0,0,0,2,0,1,0,0,0,1,0,35,2,3,4,0,0,0,0,0
+httpx,5b06aea1d6,2022-05-26,3084a464,Update _client.py (#2247),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,78,1,1,1,0,0,0,0,0
+httpx,89cdd903b2,2022-05-23,3a782a57,Version 0.23.0 (#2214),2,1,21,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,1c33a2854e,2022-05-23,3a782a57,Make charset auto-detection optional. (#2165),11,3,245,54,25,20,0,0,0,7,0,0,4,0,0,1,0,78,4,8,24,0,0,0,0,0
+httpx,14a1704be5,2022-05-20,036fa012,Switch to explicit `typing.Optional` throughout (#2096),15,14,365,323,363,323,0,0,0,82,0,0,4,0,0,0,0,76,40,265,363,0,0,0,0,0
+httpx,9673a3555c,2022-05-16,3a782a57,Drop async_generator requirement (#2228),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+httpx,5eba32a61f,2022-05-16,036fa012,Remove `RequestBodyUnavailable` from module docstring (#2226),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+httpx,850b4801d6,2022-05-09,3a782a57,Case insensitive algorithm detection for digest authentication. (#2204),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+httpx,e9b0c85dd4,2022-05-03,456df1eb,Patch `copy_with` (#2185),2,1,54,1,5,1,0,0,0,1,0,0,1,0,0,0,0,64,1,5,5,0,0,0,0,0
+httpx,550fff933f,2022-04-01,036fa012,Add `request` getter/setter to `HTTPError` (#2158),1,1,11,10,11,10,0,0,0,3,0,0,0,0,0,0,0,4,0,0,9,0,0,0,0,0
+httpx,3350d7e683,2022-03-31,3a782a57,Close responses when on cancellations occur during reading. (#2156),2,1,46,6,6,6,0,0,0,6,0,0,0,0,0,0,0,30,0,0,6,0,0,0,0,0
+httpx,67c297069f,2022-03-30,7bb87b1a,Drop EOL Python 3.6 (#2097),7,3,5,16,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,3f9da8e0f5,2022-03-30,9e3c5bc9,Bump `black` to 22.3.0 (#2153),2,1,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,476127697f,2022-03-28,e7e3dac5,Allow rich 12 (#2122),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,c82885ac04,2022-03-14,75e96556,Fix cli docs --proxies #2124 (#2125),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,67,1,1,1,0,0,0,0,0
+httpx,2a08edc471,2022-02-22,be78f5b5,adding keepalive_expiry param to docs and docstring (#2090),2,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,d07c4b4407,2022-02-16,3a782a57,Move URL and QueryParams to new '_urls.py' module (#2084),5,5,780,774,780,774,0,0,0,28,4,4,1,0,50,50,0,35,5,0,557,0,0,1,1,0
+httpx,4c307488cd,2022-02-09,cc31a259,Suppress binary output on the command line (#2049) (#2076),3,1,40,2,3,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+httpx,a416106250,2022-02-09,3696d86a,Refactor `httpx/_utils.py` (#1943),1,1,11,12,11,12,0,0,0,1,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,1
+httpx,4401d55ecf,2022-02-09,cc31a259,Preserve Authorization header on HTTPS redirect (#1850) (#2074),4,2,57,3,20,3,0,0,0,1,0,0,0,0,1,0,0,11,0,0,15,0,0,1,0,0
+httpx,4f8068a7ad,2022-02-08,cec99d82,update docstring/docs for transport using request/response models (#2070),2,1,21,55,17,48,0,0,0,1,0,0,0,0,0,0,0,4,0,0,14,0,0,0,0,0
+httpx,420911bc69,2022-02-07,3a782a57,Ensure that iter_bytes does not ever yield any zero-length chunks (#2068),3,2,29,3,3,3,0,0,0,3,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+httpx,0088253b32,2022-02-04,3a782a57,Always rewind files on multipart uploads. (#2065),2,1,21,3,1,3,0,0,0,2,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+httpx,2814fd379c,2022-02-04,a04ffaf6,Fix console markup escaping issue (#1866),1,1,10,7,10,7,1,0,0,2,0,0,0,0,0,0,0,20,0,0,10,0,0,0,0,0
+httpx,2146c75f4e,2022-02-01,b1b16e08,Allow rich-11 (#2057),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,7b6af4d123,2022-01-27,1326618b,make docs accurate that `content=` is also excluded in some requests (#1922),1,1,8,8,8,8,0,0,0,4,0,0,0,0,0,0,0,28,4,8,8,0,0,0,0,0
+httpx,15c51b9dd5,2022-01-26,3a782a57,Version 0.22.0 (#2048),3,2,14,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,321d4aa509,2022-01-21,cce33459,Fix Headers.update to correctly handle repeated headers (#2038),2,1,43,2,4,2,1,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,1,0,0
+httpx,8dc9b6bd59,2022-01-19,3a782a57,SOCKS proxy support (#2034),9,3,157,91,104,45,0,0,0,4,0,0,2,0,1,1,0,70,2,74,97,0,0,0,0,0
+httpx,7f0d43daad,2022-01-13,3a782a57,Dont perform implicit close/warning on `__del__` (#2026),2,1,0,46,0,38,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+httpx,0f1ff50a1e,2022-01-13,cce33459,Allow custom headers in multipart/form-data requests (#1936),3,2,80,8,28,8,0,0,0,2,0,0,0,0,0,0,0,26,0,0,16,0,0,1,0,0
+httpx,07f786c2f8,2022-01-06,3a782a57,Version 0.21.3 (#2017),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,b7dc0c3df6,2022-01-06,3a782a57,Fix for stream uploads that subclass SyncByteStream/AsyncByteStream (#2016),2,1,18,2,6,2,1,0,0,2,0,0,0,0,0,0,0,14,0,0,6,0,1,0,0,0
+httpx,f6b76571fa,2022-01-05,3a782a57,Version 0.21.2 (#2011),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,406700317b,2022-01-05,3a782a57,HTTP/2 support for tunnelled proxy cases. (#2009),1,1,30,13,30,13,0,0,0,1,0,0,1,0,0,0,0,57,1,30,30,0,0,0,0,0
+httpx,83c81aa9b8,2021-12-21,1f2f78ac,Tiny refactor on _multipart.py & _main.py (#1971),2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,53,1,1,2,0,0,0,0,1
+httpx,82ba15b521,2021-12-14,bbcacb74,Fix typos (#1968),12,7,24,24,15,15,1,0,0,8,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+httpx,efc841a9e8,2021-11-23,b1734758,Fix typo on _merge_url (#1949),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,6f5865f860,2021-11-22,3a782a57,Read upload files using `read(CHUNK_SIZE)` rather than `iter()`. (#1948),3,2,54,5,29,5,0,0,0,3,0,0,0,0,0,0,0,14,0,0,22,0,0,0,0,0
+httpx,716749e3fd,2021-11-16,3a782a57,Version 0.21.1 (#1941),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,4882e98049,2021-11-16,3a782a57,Fix response.url annotation (#1940),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+httpx,61188feeae,2021-11-15,3a782a57,Version 0.21 (#1935),9,5,218,117,197,87,0,0,0,33,1,0,21,1,2,2,0,53,22,62,193,0,0,0,0,0
+httpx,62b1666dc6,2021-10-18,cce33459,doc: Update comments about file types in _types.py (#1898),1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,fa03b489f0,2021-10-15,63636382,Bump flake8-pie from 0.5.0 to 0.15.0 (#1879),6,4,13,15,11,13,0,0,0,6,0,0,0,1,0,0,0,38,1,1,11,0,0,0,0,0
+httpx,623b0ddeea,2021-10-13,3a782a57,Don't pickle request/response extensions (#1892),1,1,4,2,4,2,0,0,0,4,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+httpx,35164b7a64,2021-10-13,3a782a57,Version 0.20 (#1890),5,1,15,15,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,e1abaf146f,2021-09-14,3a782a57,Tidy up the formatting of HTTP/2 requests (#1860),3,1,13,9,11,7,0,0,0,3,0,0,0,0,0,0,0,60,1,1,11,0,0,0,0,0
+httpx,d41840e18d,2021-09-14,3a782a57,Fix typo. (#1859),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,67,1,1,2,0,0,0,0,0
+httpx,ee9250d60b,2021-09-14,3a782a57,Add cli support (#1855),14,4,796,67,463,1,0,0,0,0,2,0,0,0,15,0,0,0,0,0,413,0,0,0,0,0
+httpx,a761e17abc,2021-09-13,3a782a57,is_informational / is_success / is_redirect / is_client_error / is_server_error (#1854),4,3,157,32,121,30,0,0,0,9,0,0,0,0,7,0,0,30,0,0,105,0,0,0,0,0
+httpx,ff9813e84d,2021-09-13,3a782a57,Transport API as plain `request -> response` method. (#1840),14,11,213,311,186,282,0,0,0,23,0,12,3,1,9,9,0,41,18,73,168,0,0,0,0,0
+httpx,47266d763b,2021-09-13,3a782a57,Switch follow redirects default (#1808),8,3,218,160,82,78,0,0,0,36,0,0,2,0,0,0,0,74,34,77,81,0,0,0,0,0
+httpx,0b4a83257b,2021-09-07,cce33459,"BUG: wsgi.error should be TextIO, not BytesIO in WSGI transport (#1828)",2,1,21,1,4,1,1,0,0,1,1,0,0,0,0,0,0,13,1,2,4,0,0,0,0,0
+httpx,c24bbb85a6,2021-09-03,d420cef0,Fix conditional imports for pyright (#1839),1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+httpx,0d3fcc74a5,2021-09-01,e93491ee,Close WSGI iterable when WSGIByteStream is closed (#1830),2,1,7,1,5,0,0,0,0,1,0,0,0,0,1,0,0,3,0,0,4,0,0,0,0,0
+httpx,10b60d47c7,2021-08-31,3a782a57,Fix iter_bytes with empty content (#1827),2,1,8,2,2,2,1,0,0,2,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+httpx,317653585c,2021-08-26,81caf8eb,Fix typo in RemoteProtocolError description (#1817),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,0d7c4caada,2021-08-19,3a782a57,Version 0.19.0 (#1809),4,1,17,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,2d9c3580e0,2021-08-18,3a782a57,Switch event hooks to also run on redirects. (#1806),3,1,52,16,12,13,0,0,0,6,0,0,0,4,0,0,0,35,4,1,9,0,0,0,0,0
+httpx,927c88d34f,2021-08-13,3a782a57,Stricter enforcement of either 'with httpx.Client() as client' or 'client = httpx.Client()' lifespan,3,1,27,0,14,0,0,0,0,2,0,0,0,0,0,0,0,13,0,0,12,0,0,0,0,0
+httpx,d5143120d1,2021-08-13,3a782a57,Use either brotli or brotlicffi. (#1618),7,3,42,25,33,16,0,0,0,3,0,0,0,0,0,0,0,13,0,0,22,0,0,0,0,0
+httpx,acb5e6ac50,2021-08-13,3a782a57,Add `charset_normalizer` detection. (#1791),7,3,82,91,30,53,0,0,0,8,0,0,0,0,1,0,0,13,0,0,26,0,0,0,0,0
+httpx,77246617ca,2021-08-13,3a782a57,"Drop mode argument, 'httpx.Proxy(..., mode=...)' (#1795)",3,2,7,25,2,13,0,0,0,4,0,0,0,2,0,0,0,39,2,0,2,0,0,0,0,0
+httpx,20e66d2048,2021-08-13,e290a1f4,enforce-upload-files-binary-type (#1736),3,2,27,13,5,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+httpx,50790af69b,2021-08-13,3a782a57,Update HTTP/2 support in `extras_require` (#1799),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,541a0afe56,2021-08-10,3a782a57,Add Client(allow_redirect=<...>) (#1790),1,1,32,20,32,20,0,0,0,21,0,0,3,0,0,0,0,38,21,32,32,0,0,0,0,0
+httpx,b839478661,2021-07-21,f119fe17,Replace for loops with comprehensions (#1759),3,1,27,26,22,18,0,0,0,4,0,0,0,0,0,0,0,16,0,0,22,0,0,0,0,0
+httpx,b169013115,2021-07-14,cce33459,Fix typo in wsgi.py (#1749),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,ab64f7c41f,2021-06-28,d83bf34c,check sys.version_info and ssl.OPENSSL_VERSION_INFO once (#1720),1,1,9,5,9,5,0,0,0,1,0,0,0,0,1,0,0,2,0,0,6,0,0,0,0,0
+httpx,1737fc6229,2021-06-28,d83bf34c,use context.minimum_version in py3.7+ where available (#1714),1,1,11,3,11,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+httpx,6b93787514,2021-06-22,523213d1,Test under Python 3.10b3 (#1707),2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,f312e629bf,2021-06-17,3a782a57,Version 0.18.2 (#1690),2,1,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,b43af721cd,2021-06-16,3a782a57,Treat warnings as errors (#1687),5,3,113,80,80,51,0,0,0,6,0,0,2,0,1,0,0,34,2,48,69,0,0,0,0,0
+httpx,47d712c01c,2021-06-16,c79e1668,Fix typo (#1688),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+httpx,9b17671f15,2021-05-11,c9b0293a,"Support HTTP/2 prior-knowledge, using `httpx.Client(http1=False, http2=True)`. (#1624)",3,3,28,3,28,3,0,0,0,8,0,0,8,0,0,0,0,72,8,27,28,0,0,0,0,0
+httpx,69409bb8b9,2021-05-11,3a782a57,Switch to `USE_CLIENT_DEFAULT` instead of `UNSET`. (#1634),2,2,79,47,79,47,0,0,0,21,0,0,2,0,0,0,0,38,20,46,71,0,0,0,0,0
+httpx,2129a9789a,2021-04-30,3a782a57,Prefer `Content-Length` over `Transfer-Encoding: chunked` for `content=<file-like>` cases. (#1619),4,3,31,16,19,16,0,0,0,3,0,0,0,0,0,0,0,19,0,0,16,0,0,0,0,0
+httpx,54f4194c38,2021-04-29,3a782a57,Version 0.18.1 (#1617),2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,589c5a0bc3,2021-04-29,3a782a57,Map `httpcore` transport close exceptions to `httpx` exceptions. (#1606),1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+httpx,81f385c484,2021-04-29,3a782a57,Add missing timeout=... to top-level httpx.stream() function. (#1613),1,1,6,1,6,1,0,0,0,1,0,0,1,0,0,0,0,40,1,6,6,0,0,0,0,0
+httpx,4fbf2751ec,2021-04-28,3a782a57,Stream tweak (#1607),2,2,21,23,21,23,0,0,0,3,0,0,0,1,0,0,0,32,2,14,15,0,0,0,0,0
+httpx,760af43b4f,2021-04-28,3a782a57,Update brotli support to use the brotlicffi package (#1605),7,2,20,23,10,10,0,0,0,3,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+httpx,0c2cb240df,2021-04-27,3a782a57,Version 0.18.0 (#1576),4,1,37,12,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,0a8b44e67d,2021-04-27,3a782a57,"Perform port normalization for http, https, ws, wss, and ftp schemes (#1603)",3,1,41,17,36,11,0,0,0,4,0,0,1,0,0,0,0,38,1,11,24,0,0,0,0,0
+httpx,c927f3e965,2021-04-27,3a782a57,Code comments for URL model (#1602),1,1,63,10,63,10,0,0,0,4,0,0,1,0,0,0,0,60,1,2,10,0,0,0,0,0
+httpx,e67b0dd15b,2021-04-27,3a782a57,Expand URL interface (#1601),2,1,83,18,48,17,0,0,0,9,0,0,2,1,6,0,0,58,3,10,37,0,0,0,1,0
+httpx,2abb2f214a,2021-04-26,3a782a57,Immutable QueryParams (#1600),4,3,188,67,145,55,0,0,0,13,1,0,0,1,5,1,0,32,2,15,107,0,0,0,0,0
+httpx,8fe32c52de,2021-04-26,3a782a57,Tweak QueryParams implementation (#1598),2,1,26,37,21,32,0,0,0,11,0,0,0,0,0,0,0,21,0,0,21,0,0,0,0,0
+httpx,6e55ca1af9,2021-04-26,3a782a57,Escalate 0.17 deprecation warnings to becoming fully deprecated. (#1597),7,4,14,80,2,47,0,0,0,3,0,0,0,2,0,4,0,69,2,0,2,0,0,0,0,0
+httpx,39d8ee619e,2021-04-23,3a782a57,Differentiate between 'url.host' and 'url.raw_host' (#1590),2,1,114,40,89,28,0,0,0,6,0,1,1,0,2,0,0,54,2,11,74,0,0,0,0,0
+httpx,d98e9e7ae7,2021-04-21,3a782a57,Support HTTPCore 0.13 (#1588),3,2,15,23,10,20,0,0,0,0,0,0,0,0,0,1,0,0,0,0,10,0,0,0,0,0
+httpx,2d571046e1,2021-04-21,d8285227,Make Request and Response picklable (#1579),4,2,133,2,42,2,0,0,0,0,0,0,0,0,6,0,0,0,0,0,34,0,0,0,0,0
+httpx,9b8f5af759,2021-04-21,3a782a57,`httpx.ResponseClosed` -> `httpx.StreamClosed` (#1584),5,3,24,25,19,20,0,0,0,5,0,0,0,0,0,0,0,18,0,0,19,0,0,0,0,0
+httpx,6a99f6f2b3,2021-04-19,3a782a57,Deprecate per-request cookies (#1574),4,2,64,10,15,4,0,0,0,3,0,0,2,1,0,0,0,39,3,14,14,0,0,0,0,0
+httpx,966550b342,2021-04-19,3a782a57,"For non-streaming cases, populate `request.content` automatically. (#1583)",3,2,24,22,18,17,0,0,0,6,0,0,1,1,0,0,0,31,2,3,11,0,0,0,0,0
+httpx,8fd5b71016,2021-04-19,3a782a57,Drop StreamContextManager in favour of `contextlib.contextmanager`/`asynccontextmanager` (#1577),6,4,133,129,131,129,0,0,0,2,1,1,1,1,1,5,0,38,2,63,121,0,1,0,0,0
+httpx,ed19995747,2021-04-16,d8285227,Drop Response.call_next leftover attribute (#1578),1,1,0,2,0,2,0,0,0,1,0,0,0,1,0,0,0,31,1,0,0,0,0,0,0,0
+httpx,397aad98fd,2021-04-16,3a782a57,Escalate the distinction between data=... and content=... to be stricter (#1573),5,1,16,10,3,0,0,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+httpx,073a3284ab,2021-04-16,3a782a57,Drop 'Response(on_close=...)' from API (#1572),5,2,113,21,70,20,0,0,0,11,2,2,1,2,6,2,0,76,5,12,56,0,0,0,0,0
+httpx,4870cb5adf,2021-04-16,06b31c80,Update `verify` parameter description (#1575),2,2,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,35,1,2,4,0,0,0,0,0
+httpx,110ce85652,2021-04-13,3a782a57,Stream interface (#1550),13,11,221,155,210,144,0,0,0,41,2,2,0,0,14,3,0,34,12,22,180,0,0,0,1,0
+httpx,52dd95fb5c,2021-04-01,68d82c38,Fix extenstions typo in AsyncHTTPTransport (#1549),3,1,18,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+httpx,e65a33d3cf,2021-03-26,3a782a57,Neater close logic (#1541),1,1,30,1,30,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+httpx,c26425aa58,2021-03-26,3a782a57,"Handle `data={""key"": [None|int|float|bool]}` cases. (#1539)",6,4,78,11,22,10,0,0,0,3,0,0,0,0,1,1,0,16,0,0,22,0,0,0,0,0
+httpx,c75ddc26c7,2021-03-25,3a782a57,Fix Content-Length for unicode file contents with multipart (#1537),2,1,25,6,2,6,1,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+httpx,1a6e254f72,2021-03-24,3a782a57,Transport API (#1522),20,10,625,335,481,246,0,0,0,44,8,6,0,4,26,10,0,76,12,42,417,0,0,0,0,0
+httpx,6cb1672459,2021-03-24,3a782a57,Fix some cases of merging with base_url (#1532),4,2,35,5,21,5,1,0,0,2,0,0,0,0,0,0,0,10,0,0,7,0,0,0,0,0
+httpx,2e6930fd77,2021-03-12,3a782a57,Version 0.17.1 (#1505),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,24a55d73c3,2021-03-10,7184db5d,Fix CertTypes (#1503),1,1,8,1,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+httpx,c09e61d50c,2021-03-03,d736f4bd,Incompatible with httpcore 0.12.0 (#1495),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,59f65e2b98,2021-02-28,3a782a57,Version 0.17.0 (#1403),4,1,24,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,0f280af8b1,2021-02-17,cf9df102,map_exceptions in request.aclose() (#1465),2,1,21,1,2,1,0,0,0,2,0,0,0,0,0,0,0,28,0,0,2,0,0,0,0,0
+httpx,bd4caa873c,2021-02-17,3a782a57,Tweak `create_ssl_context` defaults. (#1447),1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+httpx,084f35648b,2021-02-17,3a782a57,Allow handler to optionally be async when MockTransport is used with AsyncClient (#1449),2,1,24,0,11,0,0,0,0,1,0,0,1,0,0,0,0,24,1,2,3,0,1,0,0,0
+httpx,02a692aba5,2021-02-16,8192bcb1,Handle default ports in WSGITransport (#1469),2,1,30,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,d964343fa1,2021-02-09,92e5a194,Add Changelog link to PyPI page (#1462),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,9542a17831,2021-02-07,cecb4f64,Fix doc capitalization (#1460),2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+httpx,89fb0cbc69,2021-01-08,3a782a57,Add `HTTPTransport` and `AsyncHTTPTransport` (#1399),6,3,242,70,194,37,0,0,0,4,4,0,0,4,10,0,0,17,4,16,168,0,1,0,0,0
+httpx,9c7c2ace99,2021-01-06,3a782a57,Add `httpx.MockTransport()` (#1401),13,2,198,158,58,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,52,0,0,0,0,0
+httpx,86964054d6,2020-12-12,fe3fc48b,Allow tuple as input of query parameters. (#1426),5,4,7,4,5,4,0,0,0,2,0,0,0,0,0,0,0,35,1,1,5,0,0,0,0,0
+httpx,28cbe77676,2020-12-03,1c4eae5b,Add repr to Cookies for displaying available cookies (#1411),2,1,21,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+httpx,9005bd5df6,2020-12-02,a245a26f,Properly encoded slashes when using `base_url` (#1407),2,1,13,3,3,3,0,0,0,2,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+httpx,d0835da230,2020-11-25,3a782a57,Add keepalive_expiry to Limits config (#1398),3,2,11,7,9,6,0,0,0,7,0,0,0,0,0,0,0,22,4,4,9,0,0,0,0,0
+httpx,27df5e49c7,2020-11-25,3a782a57,Support for `chunk_size` (#1277),4,2,295,32,155,28,0,0,0,12,1,1,0,0,6,0,0,21,1,21,135,0,0,0,0,0
+httpx,c4d2e6fa28,2020-11-24,3a782a57,Add support for Mount API (#1362),5,1,233,43,33,22,0,0,0,12,0,0,2,0,0,0,0,78,3,17,32,0,0,0,0,0
+httpx,2961f267fd,2020-11-16,3a782a57,WSGI 'PATH_INFO' should be URL unquoted (#1391),1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,16f41a2baa,2020-11-13,3a782a57,Drop NBSP characters (#1389),2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,589c6e0f2f,2020-11-05,281c4a7c,Include invalid name/value when raising TypeError in DataField (#1368),4,3,9,4,8,4,0,0,0,3,0,0,0,0,0,0,0,33,1,1,8,0,0,1,0,0
+httpx,ca5f524943,2020-10-09,63829641,Add raw_path to scope in ASGITransport (#1357),2,1,20,0,1,0,0,0,0,1,0,0,1,0,0,0,0,46,1,1,1,0,0,0,0,0
+httpx,92ca4d0cc6,2020-10-08,3a782a57,Version 0.16.1 (#1354),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,0123bca335,2020-10-08,3a782a57,Force lowercase ASGI headers (#1351),2,1,29,1,1,1,0,0,0,1,0,0,1,0,0,0,0,45,1,1,1,0,0,1,0,0
+httpx,7fda99fcef,2020-10-08,eec784f3,Correctly handle ipv6 addresses as a part of URL (#1349),2,1,54,1,20,1,0,0,0,3,1,0,1,0,0,0,0,50,2,4,10,0,0,0,0,0
+httpx,dbbcf438cd,2020-10-06,3a782a57,Version 0.16 (#1347),5,2,17,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,c725387b2d,2020-10-06,3a782a57,Preserve header casing (#1338),3,2,97,48,68,48,0,0,0,16,0,0,0,0,0,0,0,24,1,5,65,0,0,1,0,0
+httpx,0eed6a3734,2020-10-06,3a782a57,Drop `.next()`/`.anext()` in favour of `response.next_request` (#1339),8,4,12,109,0,56,0,0,0,6,0,0,0,0,0,3,0,23,0,0,0,0,0,0,0,0
+httpx,2a2bbe58a6,2020-10-06,3a782a57,Tighten client closed-state behaviour (#1346),3,1,70,58,35,23,0,0,0,11,0,0,2,0,0,0,0,33,3,7,30,0,0,0,0,0
+httpx,a3eb0f99dc,2020-10-06,38d9760f,Run tests against Python 3.9 and add trove classifier (#1342),2,1,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,4b8774041d,2020-10-02,2d575977,"Allow covariants of __enter__, __aenter__, and @classmethod (#1336)",1,1,8,2,8,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+httpx,c9354282ba,2020-10-01,3a782a57,Version 0.15.5 (#1335),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,3f51392bea,2020-10-01,3a782a57,Add `response.next_request` (#1334),5,2,36,1,6,0,0,0,0,3,0,0,1,0,0,0,0,34,1,1,3,0,0,0,0,0
+httpx,32d37cfdf1,2020-09-27,fe8d0b94,Small namedtuple refactor (#1329),1,1,9,17,9,17,0,0,0,1,0,1,0,0,0,1,0,21,0,0,9,0,0,0,0,1
+httpx,a7a76fbb12,2020-09-25,3a782a57,Version 0.15.4 (#1327),2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,815ef94ed9,2020-09-25,cc9cf062,Support header comparisons with dict or list. (#1326),4,1,31,45,4,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,1,0,0
+httpx,666cbbdfe8,2020-09-25,3a782a57,Fix automatic .read() when Response instances are created with content=<str> (#1324),2,1,14,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+httpx,24da8d40ff,2020-09-24,a245a26f,Release 0.15.3 (#1318),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,78afd08e0f,2020-09-24,8b4bcab0,Properly close stream on async response close (#1316),1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,28,0,0,1,0,1,0,0,0
+httpx,8ceb34f486,2020-09-23,3a782a57,Version 0.15.2 (#1314),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,befa57c6f9,2020-09-23,3a782a57,Fix response.elapsed (#1313),1,1,2,2,2,2,1,0,0,4,0,0,0,0,0,0,0,28,0,0,2,0,0,0,0,0
+httpx,d25f2bfeff,2020-09-23,3a782a57,Fix stream unsetting auth (#1312),2,1,19,2,2,2,1,0,0,2,0,0,0,0,0,0,0,34,2,2,2,0,0,0,0,0
+httpx,27e67b32e9,2020-09-23,3a782a57,Version 0.15.1 (#1308),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,e53f995994,2020-09-23,3a782a57,Fix ASGITransport path escaping (#1307),2,1,23,1,2,1,1,0,0,1,0,0,0,0,0,0,0,45,1,1,2,0,0,0,0,0
+httpx,f932af9172,2020-09-22,3a782a57,Version 0.15.0 (#1301),18,8,117,208,29,118,0,0,0,8,1,1,1,2,4,7,0,43,3,6,28,0,0,0,0,0
+httpx,8e4a8a1c73,2020-09-21,3a782a57,Finesse URL properties (#1285),5,2,302,52,215,42,0,0,0,16,2,0,0,0,2,2,0,48,2,58,182,0,0,0,0,0
+httpx,f3c29416f1,2020-09-21,3a782a57,"Support Response(text=...), Response(html=...), Response(json=...) (#1297)",8,2,115,42,56,19,0,0,0,13,0,0,1,0,2,0,0,33,1,6,52,0,0,0,0,0
+httpx,8ee08afe96,2020-09-18,3a782a57,Update _client.py (#1300),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,d8050ed753,2020-09-18,3a782a57,Neater Host header logic on redirects (#1299),1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,1,0,0
+httpx,ed27682686,2020-09-18,3a782a57,"NetRC lookups should use host, not host+port (#1298)",2,2,3,5,3,5,0,0,0,2,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+httpx,354c4cac1f,2020-09-18,3a782a57,Refactor content streams (#1296),7,5,398,415,369,398,0,0,0,0,0,1,0,0,31,36,0,0,0,0,278,0,0,0,0,1
+httpx,fbb21fb1ae,2020-09-18,3a782a57,Drop ContentStream (#1295),15,7,416,311,172,164,0,0,0,31,0,0,3,0,4,15,0,47,3,42,140,0,0,0,0,0
+httpx,e1f7791e97,2020-09-17,3a782a57,Requests from transport API (#1293),3,2,25,17,22,6,0,0,0,3,0,0,1,0,0,0,0,31,1,6,20,0,0,0,0,0
+httpx,09f94edd93,2020-09-17,3a782a57,encode -> encode_request (#1292),4,2,24,24,3,3,0,0,0,1,1,1,0,0,1,1,0,24,1,1,3,0,0,0,0,0
+httpx,feb404f86b,2020-09-15,3a782a57,Seperate `content=...` and `data=...` parameters (#1266),17,5,170,56,83,22,0,0,0,17,1,0,16,0,0,0,0,39,17,58,71,0,0,0,0,0
+httpx,54f7708e2b,2020-09-15,3a782a57,Event hooks (#1246),4,1,294,0,44,0,0,0,0,7,0,0,7,0,2,0,0,73,7,26,37,0,0,0,0,0
+httpx,d0fe113945,2020-09-15,3a782a57,Drop chardet (#1269),7,3,128,112,57,82,0,0,0,8,0,0,0,0,0,2,0,10,0,0,48,0,0,0,0,0
+httpx,62c6c1c8ad,2020-09-14,eec784f3,Refactoring of models api (#1284),2,2,5,3,5,3,0,0,0,2,0,0,0,0,1,1,0,23,1,1,5,0,0,0,0,1
+httpx,8a5050ea41,2020-09-11,3a782a57,"Refactor to use isinstance(..., typing.Iterator) (#1282)",1,1,4,8,4,8,0,0,0,2,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,1
+httpx,5ee6135256,2020-09-11,3a782a57,Support `Response(content=<bytes iterator>)` (#1265),6,3,112,83,27,21,0,0,0,3,0,0,1,0,1,2,0,28,1,4,22,0,0,0,0,0
+httpx,6006721c6d,2020-09-10,3a782a57,Minor decoder refactoring. (#1276),2,2,16,15,16,15,0,0,0,3,0,0,0,0,1,1,0,9,0,0,16,0,0,0,0,1
+httpx,930f3773e2,2020-09-10,3a782a57,Switch auth/redirect methods to follow flow of execution better (#1273),1,1,62,62,62,62,0,0,0,2,0,0,0,0,0,0,0,29,2,58,58,0,0,0,0,0
+httpx,ed16eb3a3d,2020-09-10,eec784f3,Add progress to streaming download (#1268),3,1,67,0,10,0,0,0,0,3,0,0,1,0,1,0,0,27,1,1,8,0,0,0,0,0
+httpx,4d950e5780,2020-09-10,3a782a57,Swap auth/redirects ordering (#1267),2,1,43,31,34,30,0,0,0,6,2,2,2,0,0,0,0,29,6,34,34,0,0,0,0,0
+httpx,016e4ee210,2020-09-09,a245a26f,Add support for sync-specific or async-specific auth flows (#1217),5,2,238,14,63,14,0,0,0,2,0,0,0,0,2,0,0,23,0,0,49,0,1,0,0,0
+httpx,a783fe5758,2020-09-07,3a782a57,Drop `request.timer` attribute. (#1249),5,3,43,44,43,29,0,0,0,8,0,0,1,1,5,4,0,33,2,2,37,0,0,0,0,0
+httpx,42c66863d0,2020-09-04,d194b946,Raise a proper type error on invalid URL type (#1259),2,1,13,1,5,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,5,0,0,0,0,0
+httpx,8fa87650b2,2020-09-04,a245a26f,Drop urllib3 in favor of public gist (#1182),8,2,25,160,0,152,0,0,0,0,0,3,0,0,0,5,0,0,0,0,0,0,0,0,0,0
+httpx,642aabdac0,2020-09-04,3acb4e73,Fix HTTPError doc (#1255),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,19b863af40,2020-09-02,3a782a57,Header refinements (#1248),4,2,60,36,26,36,0,0,0,6,0,1,0,0,0,0,0,22,2,4,25,0,0,1,0,0
+httpx,def9f1c320,2020-09-02,eec784f3,Issue warning on unclosed `AsyncClient`. (#1197),4,1,125,18,53,16,0,0,0,9,0,0,3,0,3,0,0,22,3,3,45,0,1,0,0,0
+httpx,ec06ba244e,2020-09-02,3a782a57,Version 0.14.3 (#1247),2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,46b9282c6e,2020-09-02,c26b44f0,"Add ""Early Hints"" and ""Too Early"" to Status Codes (#1244)",1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+httpx,e0b4528b17,2020-09-01,5895f1a2,Make the response's request parameter optional (#1238),4,2,171,66,89,58,0,0,0,28,0,0,0,0,3,1,0,24,1,2,82,0,0,0,0,0
+httpx,33d339a262,2020-09-01,3a782a57,Handle multiple auth headers correctly (#1240),2,1,29,14,14,8,0,0,0,2,0,0,0,0,0,0,0,21,0,0,9,0,0,1,0,0
+httpx,f5c27ec7f4,2020-08-27,a245a26f,Use and pin black 20 (#1229),7,3,23,23,8,8,0,0,0,8,0,0,0,0,0,0,0,33,5,5,8,0,0,0,0,0
+httpx,534400ee42,2020-08-26,3a782a57,Context managed transports (#1218),3,1,95,2,16,2,0,0,0,4,0,0,0,0,0,0,0,10,0,0,16,0,0,0,0,0
+httpx,4161d7ace9,2020-08-24,3a782a57,Version 0.14.2 (#1207),2,1,20,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,6e6ece66c6,2020-08-24,eec784f3,Made cookies construct-able from a list of tuples (#1211),3,2,15,1,5,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+httpx,15c1e42c20,2020-08-21,45f3583f,Packaging dependancy tweaks (#1206),4,2,18,8,9,5,0,0,0,1,0,0,0,0,0,0,0,14,0,0,8,0,0,0,0,0
+httpx,19515e8a8b,2020-08-21,3a782a57,Fix request auto headers (#1205),2,1,8,5,2,4,1,0,0,2,0,0,0,1,0,0,0,30,1,1,2,0,0,1,0,0
+httpx,924fa8c9dc,2020-08-20,45f3583f,Add stream docstring (#1200),3,2,25,2,20,0,0,0,0,2,0,0,0,0,0,0,0,37,2,14,14,0,0,0,0,0
+httpx,bd8165a1b1,2020-08-20,45f3583f,Cleanup docstring leftover for #1183 (#1201),1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,28,1,1,1,0,0,0,0,1
+httpx,84ca2010e1,2020-08-20,45f3583f,Add `proxies` parameter to top-level API functions (#1198),4,2,24,4,21,3,0,0,0,9,0,0,9,0,0,0,0,37,9,19,21,0,0,0,0,0
+httpx,25507acdc9,2020-08-19,3a782a57,Include underlying httpcore exception tracebacks (#1199),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,1,1,0,0
+httpx,03cd88c336,2020-08-19,45f3583f,Map httpcore exceptions for `Response` read methods (#1190),3,1,31,5,8,4,0,0,0,2,0,0,0,0,0,0,0,10,0,0,8,0,0,0,0,0
+httpx,9fa95cce6a,2020-08-18,3a782a57,Drop redundant hasattr check (#1193),1,1,2,4,2,4,0,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+httpx,cb620e67c7,2020-08-17,a245a26f,Add `Client.auth` setter (#1185),3,1,62,20,33,12,0,0,0,4,0,1,0,0,3,0,0,21,4,14,28,0,0,0,0,0
+httpx,a226c60861,2020-08-16,8dcfb8b5,Fix #1146 Set default allow_redirects to true (#1183),2,2,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,26,3,3,3,0,0,0,0,0
+httpx,891d865044,2020-08-16,63829641,Corrected docstring on async def request() (#1181),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,1,1,1,0,1,0,0,0
+httpx,842ccfafe6,2020-08-15,a60be470,Add exported members test (#1179),2,1,47,35,33,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,0,0
+httpx,1729e45031,2020-08-15,45f3583f,Make `name` in httpx.__init__ private (#1177),1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+httpx,655773e1c1,2020-08-11,3a782a57,Handle URL quoting username and password components. (#1159),2,1,18,6,6,6,0,0,0,4,0,0,0,0,0,0,0,21,0,0,6,0,0,0,0,0
+httpx,5b6d33e29c,2020-08-11,45f3583f,Ignore transfer-encoding if content-length presents (#1170),2,1,20,0,3,0,0,0,0,1,0,0,1,0,0,0,0,31,1,2,2,0,0,0,0,0
+httpx,c277fb816a,2020-08-11,3a782a57,Set `__module__ = 'httpx'` on everything we expose via the public API. (#1155),1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+httpx,a4463d044f,2020-08-11,a245a26f,Allow disabling auth per-request using `auth=None` (#1115),3,2,35,20,23,20,0,0,0,19,0,0,1,0,0,0,0,29,19,22,23,0,0,0,0,0
+httpx,db4e417a13,2020-08-11,3a782a57,Version 0.14.1 (#1164),2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,f540bd0bcf,2020-08-11,f991e0b7,Expand client docstrings (#1152),2,1,143,1,142,0,0,0,0,21,0,0,0,0,0,0,0,29,19,103,109,0,0,0,0,0
+httpx,45de714592,2020-08-11,45f3583f,Map rfc3986 exceptions (#1163),6,3,46,13,26,11,0,0,0,7,0,0,0,0,1,0,0,21,0,0,22,0,0,0,0,0
+httpx,7edfe64da6,2020-08-10,3a782a57,Minor rfc3986 refactoring (#1157),1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,1
+httpx,4cf74bc405,2020-08-10,3a782a57,Fix behaviour with multiple Set-Cookie headers (#1156),2,1,38,8,4,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,1,0,0
+httpx,8c7729e42c,2020-08-07,3a782a57,Version 0.14.0 (#1083),6,2,105,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,8d9dfb54fc,2020-08-07,3a782a57,HTTP/2 becomes fully optional (#1140),8,2,47,8,22,1,0,0,0,2,0,0,2,0,0,0,0,71,2,16,20,0,0,0,0,0
+httpx,360b63d4f4,2020-08-07,3a782a57,Document exceptions (#1138),3,1,186,5,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+httpx,876e722b24,2020-08-07,3a782a57,Update to httpcore 0.10 (#1126),19,9,108,115,89,97,0,0,0,17,0,0,0,2,0,2,0,67,8,9,71,0,0,0,0,0
+httpx,0a38695063,2020-08-06,eec784f3,"Fixed warnings in unit tests suite, caused by #1127 PR (#1137)",3,2,9,8,5,2,1,0,0,2,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+httpx,7123b0f7ba,2020-08-06,eec784f3,#1066 make BaseClient's timeout accessible using getters and setters (#1135),2,1,23,2,9,1,0,0,0,1,0,0,0,0,2,0,0,21,1,1,7,0,0,0,0,0
+httpx,0e73be83a8,2020-08-05,3a782a57,Deprecate URL.is_ssl (#1128),2,1,4,1,2,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+httpx,a3392c6ea7,2020-08-05,3a782a57,Base URL improvements (#1130),4,2,71,13,28,9,0,0,0,5,0,0,0,1,3,0,0,63,3,4,23,0,0,0,0,0
+httpx,7279ed4658,2020-08-05,eec784f3,"Raise warning if proxy key is eg. ""all"" instead of ""all://"". (#1127)",3,1,53,28,5,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,5,0,0,0,0,0
+httpx,1da46f3de0,2020-08-05,3a782a57,"Clean up keyword argument name, using URL.join(url=...), not URL.join(relative_url=...). (#1129)",2,2,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,1
+httpx,78cf16ace9,2020-08-05,a245a26f,Drop HSTS Preloading (#1110),6,2,6,33,1,11,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+httpx,d7aa6e0189,2020-08-03,3a782a57,Keep HTTPError as a base class for .request() and .raise_for_status() (#1125),1,1,48,33,48,33,0,0,0,5,0,0,0,0,1,0,0,6,0,0,42,0,0,0,0,0
+httpx,0e7730bccc,2020-08-02,3a782a57,Setting `app=...` or `transport=...` should bypass environment proxies. (#1122),1,1,6,4,6,4,0,0,0,3,0,0,2,0,0,0,0,63,2,4,6,0,0,0,0,0
+httpx,e5f87434a5,2020-08-02,3a782a57,Use get_list consistently (#1119),3,1,12,4,4,4,0,0,0,4,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+httpx,d76b2c2fb7,2020-08-02,45f3583f,Handle bare env proxy hostname gracefully (#1120),2,1,4,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,1,0,0,0
+httpx,682cad39eb,2020-08-02,3a782a57,Cleaner no proxy support (#1103),4,2,152,120,59,43,0,0,0,7,0,0,0,0,0,1,0,21,0,0,39,0,0,0,0,0
+httpx,f67e925f72,2020-08-01,a245a26f,Rename PoolLimits to Limits (#1113),7,3,80,38,55,28,0,0,0,7,0,0,2,0,1,0,0,62,6,32,51,0,0,0,0,0
+httpx,26cd4f54e8,2020-08-01,a245a26f,Switch to more concise Timeout parameters (#1111),4,1,114,89,80,64,0,0,0,4,0,0,1,0,0,0,0,78,1,56,74,0,0,0,0,0
+httpx,a9284214e2,2020-08-01,a245a26f,"Make Headers.keys(), Headers.values() and Headers.items() return set-like views (#1114)",2,1,16,14,13,11,0,0,0,5,0,0,0,0,0,0,0,5,0,0,13,0,0,1,0,0
+httpx,a110072bba,2020-08-01,a245a26f,Client.trust_env becomes read-only (#1112),1,1,5,1,5,1,0,0,0,1,0,0,0,0,1,0,0,24,1,1,4,0,0,0,0,0
+httpx,71d5234305,2020-08-01,a245a26f,Rename URLMatcher -> URLPattern (#1109),4,2,34,34,18,18,0,0,0,7,0,0,0,0,0,0,0,55,2,4,18,0,0,0,0,0
+httpx,9409900898,2020-07-31,3a782a57,Exception hierarchy (#1095),11,7,218,108,204,99,0,0,0,34,0,0,1,0,8,1,0,36,1,2,178,0,0,0,0,0
+httpx,2ba9c1ed90,2020-07-31,3a782a57,Consistent multidict methods (#1089),3,1,80,24,70,15,0,0,0,14,0,0,0,0,3,0,0,22,0,0,62,0,0,0,0,0
+httpx,dba83d45a5,2020-07-31,3a782a57,httpx.Timeout must include a default (#1085),3,1,45,13,22,3,0,0,0,1,0,0,1,0,0,0,0,56,1,19,22,0,0,1,0,0
+httpx,e1a7d5a4ae,2020-07-31,3a782a57,Use public API only from transports (#1096),2,2,28,9,28,9,0,0,0,1,0,0,1,0,1,0,0,49,1,7,25,0,0,0,0,0
+httpx,16893e414f,2020-07-31,3a782a57,Add support for no-proxy configurations (#1099),3,2,25,14,24,14,0,0,0,7,0,0,2,0,0,0,0,55,2,12,24,0,0,0,0,0
+httpx,df54890c15,2020-07-31,3a782a57,URL matching (#1098),4,2,145,40,95,34,0,0,0,4,0,0,2,0,6,0,0,51,2,6,75,0,0,0,0,0
+httpx,9728d8960f,2020-07-30,3a782a57,Ignore PermissionError in netrc_info() (#1104),1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+httpx,926a55a84f,2020-07-27,7db84458,Included create_ssl_context function to create the same context with SSLConfig and serve as API (#99,6,4,72,83,25,36,0,0,0,10,0,0,0,6,1,2,0,25,6,10,23,0,0,1,0,0
+httpx,35f09d1394,2020-07-27,3a782a57,Single consistent name for status codes (#1088),4,3,57,17,36,17,0,0,0,7,0,0,0,0,3,0,0,11,0,0,30,0,0,0,0,0
+httpx,2e60e145d7,2020-07-26,3a782a57,Drop extraneous `proxy` argument on `URLLib3Transport`. (#1090),1,1,1,2,1,2,0,0,0,1,0,0,0,1,0,0,0,22,1,0,1,0,0,0,0,0
+httpx,6421575f5f,2020-07-26,3a782a57,Tighten public API on auth classes (#1084),1,1,46,51,46,51,0,0,0,8,0,0,0,1,2,3,0,14,1,2,42,0,0,0,0,0
+httpx,50b17fdd65,2020-07-26,3a782a57,Keep Proxy._build_auth_header as a private method (#1087),1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,18,0,0,2,0,0,1,1,0
+httpx,c089480260,2020-07-24,3a782a57,URL.port becomes Optional[int] (#1080),8,3,42,24,21,15,0,0,0,6,0,2,0,0,1,0,0,21,2,8,19,0,0,0,0,0
+httpx,7e6e35160f,2020-07-23,3a782a57,Drop `URL(allow_relative=bool)` (#1073),7,3,38,38,23,26,0,0,0,8,0,0,2,1,1,0,0,24,4,3,19,0,0,0,0,0
+httpx,083d2e9aa0,2020-07-23,3a782a57,Include 'request' on TooManyRedirect and RequestBodyUnavailable (#1077),2,2,14,4,14,4,0,0,0,4,0,0,2,0,0,0,0,35,2,6,13,0,0,1,0,0
+httpx,01287bac99,2020-07-23,3a782a57,Refactor map_exceptions (#1076),2,2,32,47,32,47,0,0,0,3,0,0,0,0,0,0,0,30,0,0,32,0,0,0,0,1
+httpx,247ee0dc49,2020-07-23,3a782a57,Drop private Origin model (#1070),6,3,27,73,14,34,0,0,0,14,1,1,1,0,1,4,0,24,3,0,12,0,0,0,1,0
+httpx,20f4911e80,2020-07-23,3a782a57,Fixes for LineDecoding (#1075),2,1,14,9,12,6,1,0,0,1,0,0,1,0,0,0,0,35,1,8,8,0,0,0,0,0
+httpx,bd339212de,2020-07-23,3a782a57,client.netrc should be private (#1071),1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,24,2,2,2,0,0,0,1,0
+httpx,8ed7e52a37,2020-07-23,3a782a57,Drop fullpath setter (#1069),2,1,0,17,0,10,0,0,0,2,0,0,0,0,0,1,0,25,0,0,0,0,0,0,0,0
+httpx,0641606619,2020-07-21,08214f46,Skip HSTS preloading on single-label domains (#1074),2,1,20,1,5,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+httpx,ad5e6eb8b0,2020-07-21,4d101eb4,Fixes #1033 - Ensure that text that spans 3 invocations before newline is handled - don't clobber th,3,1,30,2,1,1,1,0,0,1,0,0,0,0,0,0,0,31,1,1,1,0,0,0,0,0
+httpx,27b0dbc22d,2020-07-20,08214f46,Raise HTTPStatusError in raise_from_status (#1072),6,3,23,9,17,4,0,0,0,1,0,0,0,0,1,0,0,11,0,0,14,0,0,0,0,0
+httpx,a89d4ad625,2020-07-17,3a782a57,More public API tightening (#1065),2,1,36,36,29,29,0,0,0,6,6,6,0,0,7,7,0,50,2,8,29,0,0,0,0,0
+httpx,e107e0f842,2020-07-17,3a782a57,Tighten public client methods (#997),2,1,39,40,36,36,0,0,0,3,3,3,0,0,16,16,0,26,3,8,36,0,0,0,0,0
+httpx,ff93a011a4,2020-07-16,3a782a57,Support QueryParams(None) (#1060),4,3,5,4,2,4,0,0,0,2,0,0,0,1,0,0,0,24,1,0,2,0,0,0,0,0
+httpx,ccd4711a0a,2020-07-16,3a782a57,Drop deprecated proxies API (#1058),1,1,2,13,2,13,0,0,0,1,0,1,0,0,0,0,0,19,1,2,2,0,0,0,0,0
+httpx,3f96e74961,2020-07-15,3a782a57,Drop deprecated API (#1057),11,8,16,172,14,110,0,0,0,6,0,1,1,2,0,5,0,67,3,8,14,0,0,0,0,0
+httpx,0296c2bbb9,2020-07-07,a245a26f,Type check tests (#1054),17,1,76,51,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,3230cb3133,2020-07-07,a245a26f,Add missing `Response.next()` (#1055),2,1,10,1,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+httpx,2f0e0480da,2020-07-05,50827083,Remove needless whitespace strips (#1048),2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,6,0,0,2,0,0,0,1,0
+httpx,8dea2c23d7,2020-07-04,50827083,Make isort configuration compatible with isort v5 (#1050),4,1,4,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,bacc2d1835,2020-07-03,a245a26f,Map HTTPCore exceptions (#1044),4,3,192,38,152,38,0,0,0,2,0,0,0,0,1,0,0,35,0,0,119,0,0,0,0,0
+httpx,fab427972b,2020-07-03,a245a26f,Add exceptions missing from top-level package (#1045),2,1,33,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+httpx,6cf9039593,2020-07-02,50827083,Improve list/dict comprehensions (#1036),5,3,15,18,6,9,0,0,0,3,0,0,0,1,0,0,0,61,1,3,6,0,0,0,0,0
+httpx,c53172d716,2020-07-02,50827083,Remove unused type checker ignores (#1038),2,2,5,5,5,5,0,0,0,4,0,0,0,0,0,0,0,37,1,1,5,0,0,0,1,0
+httpx,cfd07cc290,2020-06-29,50827083,"Remove .encode(""ascii"") call from null byte (#1037)",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+httpx,4d287956fd,2020-06-24,20108e95,Add support for multiple files per POST field (#1032),4,2,60,2,3,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+httpx,b481166481,2020-06-13,a245a26f,Refactor ASGITransport.request() (#1021),1,1,17,13,17,13,0,0,0,3,0,0,0,0,0,0,0,44,1,7,10,0,0,0,0,1
+httpx,620b0670db,2020-06-02,a60be470,Increase test coverage - take 2 (#1012),13,2,254,108,1,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+httpx,89a8100b6c,2020-05-30,a60be470,Replace remaining occurrences of dispatch with transport (#1010),10,3,79,80,6,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+httpx,56d880030e,2020-05-29,3a782a57,Version 0.13.3 (#1006),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,1e1a56f99b,2020-05-29,3a782a57,Include missing keepalive_expiry configuration (#1005),1,1,6,0,6,0,0,0,0,4,0,0,4,0,0,0,0,24,4,4,5,0,0,1,0,0
+httpx,093cb42500,2020-05-28,a60be470,Improve error when redirecting with custom schemes (#1002),2,1,24,0,4,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+httpx,f5e1aa5517,2020-05-27,3a782a57,Version 0.13.2 (#1001),2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,3721a7869e,2020-05-27,3a782a57,Use AnyStr where appropriate (#999),2,2,15,8,15,8,0,0,0,4,0,0,0,0,0,0,0,7,0,0,15,0,0,0,0,0
+httpx,7c8158a852,2020-05-26,3a782a57,"Add ""Content-Length: 0"" on POST, PUT, PATCH if required. (#995)",2,1,21,0,5,0,0,0,0,1,1,0,0,0,0,0,0,29,1,5,5,0,0,0,0,0
+httpx,c14350336e,2020-05-25,a245a26f,Tweak handling of None values in timeout type hints (#992),1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+httpx,a4145ce2fb,2020-05-22,3a782a57,Add 'http2' for Client (#982),1,1,7,0,7,0,0,0,0,3,0,0,3,0,0,0,0,58,3,7,7,0,0,0,0,0
+httpx,ebc9c29365,2020-05-22,3a782a57,Version 0.13.1 (#981),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,e724abdcd1,2020-05-22,878b09bf,Fix pool option warnings for default connection pool (#980),2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+httpx,c30acf09fb,2020-05-22,3a782a57,Add urllib3proxy transport to init (#979),1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,2c2c6a71a9,2020-05-22,3a782a57,Version 0.13 (#971),4,1,47,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,b57482d7fe,2020-05-22,3a782a57,Add URLLib3ProxyTransport,1,1,37,33,37,33,0,0,0,1,1,1,0,1,1,1,0,23,1,5,33,0,0,0,0,0
+httpx,9f58afd8f9,2020-05-21,a245a26f,Tighten multipart implementation types (#975),2,1,21,18,20,17,0,0,0,3,0,0,0,0,0,0,0,16,0,0,17,0,0,0,0,0
+httpx,f1b3d74abb,2020-05-21,a245a26f,Tweak `files` type hints (#976),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,ab9ace2749,2020-05-21,a245a26f,Fix bytes support in multipart uploads (#974),2,1,13,7,3,3,1,0,0,3,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+httpx,3686f2d454,2020-05-21,3a782a57,Drop URLLib3Dispatch compat shim (#972),1,1,1,25,1,25,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+httpx,225f1e259a,2020-05-21,3a782a57,Use URLLib3 configuration options for URLLib3 transport (#970),1,1,22,34,22,34,0,0,0,3,0,0,1,1,0,0,0,24,3,21,22,0,0,0,0,0
+httpx,991915a935,2020-05-21,3a782a57,Rename pool limit options (#968),5,3,46,40,39,33,0,0,0,8,0,0,0,4,0,0,0,36,5,16,39,0,0,0,0,0
+httpx,9b6605c3d5,2020-05-21,3a782a57,Updates for httpcore 0.9 interface. (#967),5,5,8,8,8,8,0,0,0,5,0,0,1,0,0,0,0,64,5,7,8,0,0,0,1,0
+httpx,d2816c9c48,2020-05-21,5f521c14,Transport API (#963),12,8,215,70,148,56,0,0,0,9,6,6,2,0,7,6,0,58,3,24,69,0,0,0,0,0
+httpx,790a3ead5d,2020-05-13,5f521c14,Document pool_limits and SSL context on verify (#942),2,1,29,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,97d488a95c,2020-05-12,3a782a57,Version 0.13.0.dev2 (#941),3,2,17,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+httpx,d568ecda53,2020-05-12,326cffca,ASGI: Wait for response to complete before sending disconnect message (#919),4,2,31,8,29,6,0,0,0,3,0,0,1,0,1,0,0,44,1,9,23,0,0,0,0,0
+httpx,560b119d32,2020-05-06,5f521c14,Version 0.13.0.dev1 (#935),3,2,12,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,4af3dd7abc,2020-05-06,5f521c14,Pass http2 flag to proxy dispatch (#934),1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,23,1,1,1,0,0,0,0,0
+httpx,8c182e271f,2020-05-02,a245a26f,Mark `Response.json()` as returning `Any` (#923),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+httpx,8710079d5d,2020-05-01,326cffca,asgi: Send http.disconnect message on receive() after response complete (#909),2,1,38,0,5,0,0,0,0,2,0,0,0,0,0,0,0,43,1,3,3,0,0,0,0,0
+httpx,bed3d8bd38,2020-04-30,3a782a57,Version 0.13.0.dev0 (#915),6,1,46,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,97cf9dadd2,2020-04-25,0bf60517,Proper warning level of deprecation notice (#908),1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+httpx,9085582211,2020-04-19,c5d3180a,Avoid `hasattr` in hot loop in Brotli decoder (#906),1,1,5,3,5,3,0,0,0,2,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+httpx,4c01117dd2,2020-04-15,a245a26f,Move types definitions to a dedicated module (#902),9,9,94,98,94,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,0,0,1,1,0
+httpx,5829ecb648,2020-04-10,a245a26f,Implement streaming multipart uploads (#857),3,2,225,68,161,58,0,0,0,9,0,0,0,0,13,2,0,16,0,0,128,0,0,0,0,0
+httpx,af75908b7a,2020-04-10,a245a26f,Drop concurrency backends (#901),6,5,0,711,0,616,0,0,0,0,0,1,0,0,0,67,0,0,0,0,0,0,1,0,0,0
+httpx,3046e920ea,2020-04-08,3a782a57,Httpcore interface (#804),35,17,569,2465,277,1335,0,0,0,16,3,4,4,1,9,85,0,50,11,61,259,0,0,0,1,0
+httpx,631ba97635,2020-04-08,3a782a57,"Revert ""Add content-length header for empty bytestream (#866)"" (#898)",5,1,7,16,2,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,1,0,0
+httpx,94323f98ac,2020-03-29,649a32c6,Fix support for generator-based WSGI apps (#887),2,1,40,12,12,0,1,0,0,1,0,0,0,0,1,0,0,39,0,0,8,0,0,0,0,0
+httpx,1c9b852783,2020-03-29,a245a26f,Improve type hinting for `HTTPError.request` (#886),2,2,13,6,13,6,0,0,0,3,0,0,0,0,1,0,0,15,0,0,10,0,0,0,0,0
+httpx,d63108d613,2020-03-29,a245a26f,Fix casing nits (#889),2,1,3,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,8f400c269e,2020-03-29,a245a26f,Drop usage of `AnyStr` (#882),4,4,24,11,24,11,0,0,0,5,0,0,0,0,0,0,0,18,0,0,22,0,0,0,0,0
+httpx,fc980e7792,2020-03-28,649a32c6,Fix Client Docstring and add AsyncClient to API docs (#883),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+httpx,939f3ce7ce,2020-03-28,28071e0c,Add content-length header for empty bytestream (#866),5,1,16,7,0,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0
+httpx,23486b5438,2020-03-19,3a782a57,Version 0.12.1 (#868),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,430285f55b,2020-03-16,28071e0c,Fix multipart edge cases with `data={}` and/or `files={}` (#861),2,1,14,2,2,2,1,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+httpx,43ec09c3cb,2020-03-15,a245a26f,Fix type checking breakage (#865),1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+httpx,6e40c1b26a,2020-03-09,3a782a57,Version 0.12 (#852),3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,707e54c484,2020-03-02,de722f8d,Enable NO_PROXY environment variable support  (#835),2,1,37,3,8,3,0,0,0,2,2,0,0,0,0,0,0,19,2,2,8,0,0,0,0,0
+httpx,3333152b54,2020-03-02,3a782a57,Don't support broken dict-of-dicts case for data argument (#811),2,1,3,6,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+httpx,112fb9c07d,2020-03-01,5f521c14,Remove proxies from Request docstring (#839),1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+httpx,53804173bb,2020-02-27,a245a26f,Drop backend parameter on AsyncClient (#791),5,1,19,39,0,11,0,0,0,3,0,0,0,3,0,0,0,52,3,0,0,0,1,0,0,0
+httpx,2714f32238,2020-02-27,3a782a57,Close proxy dispatch classes on Client.close() (#826),1,1,4,0,4,0,0,0,0,2,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+httpx,19555f6103,2020-02-27,921361ab,Forward `cert` param to SSLConf if `verify=False` (#796),1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+httpx,50d337e807,2020-02-24,4d612ce8,"When setting headers, fallback to `utf-8` if no encoding is specified yet. (#820)",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,1,0,0
+httpx,efe9f61bc2,2020-02-24,811ef553,Drop RedirectLoop exception (#819),6,3,4,33,1,21,0,0,0,2,0,0,0,2,0,0,0,33,2,0,1,0,0,0,0,0
+httpx,3e12fd0656,2020-02-12,326f0d6a,Adding NetworkError to __init__ (#814),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,b3db9ff0b6,2020-02-10,7c2fdf4f,Add Auth.requires_response_body attribute (#803),4,2,77,0,5,0,0,0,0,2,0,0,0,0,0,0,0,27,0,0,5,0,0,0,0,0
+httpx,82dc6f32f8,2020-01-28,a245a26f,Switch to private module names (#785),45,16,164,164,55,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,1,0
+httpx,b1e99a5cf9,2020-01-22,81ae00f9,Fix ProxyMode for code in dispatch/proxy_http (#788),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+httpx,b23420392e,2020-01-20,5f521c14,Detect credentials in proxy URLs and create Proxy-authorization header (#780),3,1,42,4,15,0,0,0,0,1,0,0,0,0,1,0,0,18,0,0,11,0,0,1,0,0
+httpx,b128bfaf21,2020-01-17,3a782a57,Version 0.11.1 (#773),2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,1f8fb28d93,2020-01-17,3a782a57,Handle redirect with malformed Location headers missing host. (#774),3,2,24,2,10,2,0,0,0,2,0,0,0,0,0,0,0,24,0,0,7,0,0,1,0,0
+httpx,5a63540e8a,2020-01-17,3a782a57,Fix for streaming a redirect response body with allow_redirects=False (#766),2,1,23,3,4,2,1,0,0,2,0,0,2,0,0,0,0,36,2,4,4,0,0,0,0,0
+httpx,be82404168,2020-01-14,3a782a57,Fix urllib3 proxy instantiation (#763),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,1,1,1,0,0,0,0,0
+httpx,780d1843ca,2020-01-14,3a782a57,Support both zlib and deflate encodings (#758),2,1,28,1,7,1,0,0,0,2,0,0,0,0,0,0,0,10,0,0,7,0,0,0,0,0
+httpx,956129fbf7,2020-01-13,22a34c54,Add docs and repo to project_urls metadata (#753),1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+httpx,918c55de90,2020-01-09,041402dd,Update api.py (#745),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,32,1,1,1,0,0,0,0,0
+httpx,2c5fdc51f4,2020-01-09,3a782a57,Version 0.11.0 (#737),4,2,32,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,eac4b9ba74,2020-01-08,3a782a57,Improve docstring for PoolLimits (#712),1,1,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+httpx,ee37a762ef,2020-01-08,3a782a57,Reintroduce sync API. (#735),18,11,1215,370,1029,250,0,0,0,35,16,0,1,4,33,0,0,47,23,346,913,0,0,0,0,0
+httpx,387f04732b,2020-01-07,b68d7d2b,Fixed redirect loop (#734),1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,35,1,2,2,0,0,0,0,0
+httpx,c842c8ff20,2020-01-07,3a782a57,proxies_to_dispatchers -> get_proxy_map (#733),1,1,32,58,32,58,0,0,0,1,1,1,1,0,1,1,0,61,1,13,31,0,0,0,0,0
+httpx,12dd157fea,2020-01-07,3a782a57,Public Auth API (#732),8,5,131,14,39,8,0,0,0,3,0,0,0,0,6,4,0,25,0,0,30,0,0,0,0,0
+httpx,c5037f06e4,2020-01-07,3a782a57,"Drop per-request 'cert'/'verify'/'trust_env', and 'stream=bool' arguments (#730)",2,2,1,109,1,109,0,0,0,16,0,0,0,16,0,0,0,32,16,1,1,0,0,0,0,0
+httpx,2b92a78c41,2020-01-07,583ebcf1,Drop `Origin` from public API (#688),6,5,9,12,7,11,0,0,0,5,0,0,0,0,0,1,0,34,0,0,7,0,0,0,0,0
+httpx,f17ab37b2f,2020-01-07,3a782a57,Prep for introducing SyncClient (#713),7,5,339,234,322,232,0,0,0,5,4,2,0,0,6,3,0,60,4,130,276,0,0,0,0,0
+httpx,e1afbfa7b4,2020-01-07,a245a26f,Wrap network errors in HTTPX-specific exceptions (#707),4,4,72,31,72,31,0,0,0,10,0,0,0,0,1,0,0,19,0,0,58,0,0,0,0,0
+httpx,e19bd9bc4b,2020-01-06,3a782a57,Dispatcher -> AsyncDispatcher (#725),12,6,38,37,24,23,0,0,0,5,0,0,0,0,0,0,0,59,2,5,24,0,1,0,0,0
+httpx,6ac49dacdd,2020-01-06,3a782a57,Drop `run` and `run_in_threadpool` (#710),8,4,47,145,0,59,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1,0,0,0
+httpx,bd57b650a8,2020-01-06,a245a26f,Release max_connections for keepalive connections when closing the connection pool (#721),2,1,26,0,1,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+httpx,0ed0314569,2020-01-04,f0ccac47,Raise an exception in DigestAuth if non-replayable request is passed (#685),2,1,25,2,3,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+httpx,bc6163c55a,2020-01-03,a245a26f,Record history of requests made during authentication (#718),2,1,71,4,9,3,0,0,0,2,0,0,0,0,0,0,0,34,1,1,9,0,0,0,0,0
+httpx,910aa9094c,2020-01-03,a245a26f,Repurpose RedirectBodyUnavailable as RequestBodyUnavailable (#690),4,3,18,13,16,11,0,0,0,1,0,0,0,0,0,0,0,11,0,0,12,0,0,0,0,0
+httpx,79a9748ae6,2020-01-02,3a782a57,Load SSL Context on init (#709),3,2,23,51,13,30,0,0,0,5,1,0,0,0,0,1,0,37,1,5,12,0,0,0,0,0
+httpx,f5eaec7ab3,2020-01-02,3a782a57,More coverage improvements (#711),5,2,2,37,1,10,0,0,0,1,0,0,0,0,0,1,0,7,0,0,1,0,0,0,0,0
+httpx,11e7604d1a,2020-01-02,3a782a57,Sync streaming interface on responses (#695),4,2,353,81,159,38,0,0,0,15,0,0,0,1,19,0,0,27,1,6,134,0,0,0,1,0
+httpx,b0bf2a7513,2020-01-02,3a782a57,SSLConfig refactor (#706),6,4,45,59,42,37,0,0,0,13,0,0,2,1,0,0,0,43,3,6,41,0,0,0,0,1
+httpx,a9f4d018e1,2020-01-01,3a782a57,Version 0.10.1 (#701),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,b8394f1e00,2020-01-01,3a782a57,Bump coverage (#705),9,4,30,15,10,10,0,0,0,5,0,0,0,0,0,0,0,60,2,5,10,0,0,0,0,0
+httpx,f5d4bb8074,2020-01-01,58c78d67,Make timeout parameter None-able & cleanup __all__. (#704),3,3,3,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1
+httpx,c050480387,2020-01-01,3a782a57,Drop unused Request.cookies (#703),1,1,1,8,1,8,0,0,0,2,0,0,0,1,0,1,0,24,1,1,1,0,0,0,0,0
+httpx,fe86c0c4b4,2019-12-31,3a782a57,Drop unused SSLConfig.with_overrides (#702),1,1,0,9,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+httpx,2c4a1dd519,2019-12-31,3a782a57,Drop OpenConnection (#700),4,4,26,62,26,62,0,0,0,8,0,0,0,0,0,6,0,33,1,1,26,0,0,0,0,0
+httpx,56afde1f9f,2019-12-31,3a782a57,Lock around stream.write and stream.close operations (#699),2,2,10,6,10,6,0,0,0,4,0,0,0,0,0,0,0,11,0,0,10,0,1,0,0,0
+httpx,de8b95533d,2019-12-31,b14f11e9,Adds check to enforce single consumption of AsyncIteratorStream. (#697),2,1,21,0,5,0,0,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,1,0,0,0
+httpx,35b7516674,2019-12-29,3a782a57,Version 0.10.0 (#691),4,1,29,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,6a1ee0eb97,2019-12-29,3a782a57,response.elapsed now reflects entire request/response time. (#692),4,2,24,11,19,7,0,0,0,4,0,0,1,1,1,0,0,26,2,2,18,0,0,0,0,0
+httpx,1f9d0154df,2019-12-29,3a782a57,Switch from an Event primitive to a Lock primitive (#693),5,5,49,41,49,41,0,0,0,8,0,0,0,0,13,11,0,13,0,0,46,0,1,0,0,0
+httpx,e284b84bf9,2019-12-29,a245a26f,Rename Client to AsyncClient (with compat synonym) (#680),24,5,189,174,19,13,0,0,0,4,0,0,0,0,0,0,0,36,3,3,16,0,1,0,0,0
+httpx,3462999366,2019-12-29,a245a26f,Rename 'next' to 'anext' on Response (#676),3,1,6,6,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0
+httpx,d5da7430a2,2019-12-29,a245a26f,Rename 'close' to 'aclose' on Client (#675),3,1,6,6,3,3,0,0,0,2,0,0,0,0,1,1,0,9,0,0,3,0,0,0,0,0
+httpx,f9d18a8758,2019-12-29,a245a26f,Rename 'read/close' to 'aread/aclose' on Response (#674),14,3,53,53,10,10,0,0,0,6,0,0,0,0,2,2,0,37,2,3,10,0,0,0,0,0
+httpx,25b40db757,2019-12-29,3a782a57,Drop Request.read() (#679),1,1,0,6,0,6,0,0,0,1,0,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0
+httpx,e9ebd1df98,2019-12-29,a245a26f,"Drop per-request `cert`, `verify`, and `trust_env` (#617)",7,6,36,126,34,112,0,0,0,15,0,2,0,5,0,0,0,60,7,16,31,0,0,0,0,0
+httpx,f3b799912e,2019-12-23,3a782a57,Gracefully end_stream early on no-body requests. (#682),1,1,20,6,20,6,0,0,0,3,0,0,0,0,0,0,0,22,0,0,19,0,1,0,0,0
+httpx,56c8edaf66,2019-12-21,a245a26f,Make 'request' non-optional on responses (#666),5,1,64,44,2,6,0,0,0,4,0,0,0,0,0,0,0,27,1,1,2,0,0,0,0,0
+httpx,9e88f2e2fb,2019-12-21,a245a26f,Remove httpxprof (#663),12,6,2,186,0,128,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0
+httpx,e34df7a7a1,2019-12-20,583ebcf1,Rename `concurrency` directory to `backends` (#662),15,11,15,15,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0
+httpx,cee1fccaca,2019-12-20,3a782a57,Use Streams API for both requests and responses. (#648),17,10,431,394,353,336,0,0,0,14,0,0,1,1,33,36,0,44,2,9,286,0,0,0,0,0
+httpx,36af9d9597,2019-12-20,3a782a57,Rationalize backend Semaphore interface slightly (#660),5,5,74,68,74,68,0,0,0,11,0,0,0,0,4,4,0,10,0,0,59,0,1,0,1,0
+httpx,bb6ab205fe,2019-12-20,3a782a57,Upgrade h11 to support both 0.8 and 0.9 (#658),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,9904684d35,2019-12-20,3a782a57,Version 0.9.5 (#657),2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,74e5115b86,2019-12-20,3a782a57,"params argument on URL should merge, not replace. (#653)",2,1,8,3,7,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,6,0,0,0,0,0
+httpx,5ee512d803,2019-12-20,3a782a57,Fix Host header and HSTS when the default port is explicitly included in URL (#649),4,2,41,7,8,3,1,0,0,3,0,0,0,0,0,0,0,21,0,0,8,0,0,1,0,0
+httpx,6c69e0936b,2019-12-18,3a782a57,No I/O auth (#644),6,5,125,68,121,64,0,0,0,7,3,1,1,1,5,2,0,38,3,13,99,0,0,0,0,0
+httpx,8d4f182500,2019-12-18,3a782a57,Added RequestContent (#636),9,4,319,101,190,78,0,0,0,7,0,1,0,1,21,1,0,24,2,3,148,0,0,0,0,0
+httpx,0783baea3e,2019-12-16,3a782a57,Disable HTTP/2 strict header validation (#637),1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,1,0,0
+httpx,c337938af5,2019-12-16,a245a26f,asyncio: Don't wait for the stream to close (#640),1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0
+httpx,4bb69e3e3e,2019-12-13,25f458e0,Allow explicit Content-Type to take precedence (#633),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+httpx,b847ab07a3,2019-12-13,3a782a57,Version 0.9.4 (#631),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,52c2c9762f,2019-12-12,3a782a57,Bump up flow control defaults (#629),2,1,2,11,2,0,0,0,0,2,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+httpx,499de51f2b,2019-12-12,3a782a57,Keep-alive timeouts. (#627),7,6,66,0,35,0,0,0,0,4,0,0,2,0,5,0,0,22,2,2,26,0,0,0,0,0
+httpx,1d25bd58a8,2019-12-12,3a782a57,"Ensure H2 state is only accessed by the connection, not per-stream. (#628)",1,1,33,20,33,20,0,0,0,5,0,0,0,0,4,1,0,14,0,0,30,0,0,0,0,0
+httpx,869714fbf5,2019-12-11,3a782a57,Drop unused methods from BaseEvent (#626),3,3,12,15,12,15,0,0,0,1,0,0,0,0,3,4,0,2,0,0,8,0,0,0,0,0
+httpx,00a875db93,2019-12-11,3a782a57,Refactor get_semaphore (#625),5,5,32,42,32,42,0,0,0,13,0,0,0,0,2,0,0,8,0,0,29,0,1,0,0,1
+httpx,66e0f4b6f8,2019-12-09,3a782a57,"Tweak backport_start_tls implementation, and add 'nocover'. (#622)",1,1,40,37,40,37,0,0,0,1,1,1,0,0,1,1,0,24,0,0,33,0,0,0,0,0
+httpx,3124a38123,2019-12-09,3a782a57,Minor config cleanup (#621),2,1,6,5,3,3,0,0,0,1,0,0,0,0,0,0,0,33,0,0,2,0,0,0,0,1
+httpx,e95111ac07,2019-12-09,a245a26f,Add OpenConnection base class (#616),4,4,62,37,62,37,0,0,0,8,0,0,0,2,8,0,0,34,2,4,52,0,0,0,0,0
+httpx,eba29da632,2019-12-08,3a782a57,Drop 'fork' (#619),5,4,1,113,0,65,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0
+httpx,83fc0921c1,2019-12-08,3a782a57,Drop TimeoutFlag (#618),4,4,52,150,52,150,0,0,0,14,0,0,0,0,1,4,0,27,0,0,48,0,0,0,0,0
+httpx,f57bb2f142,2019-12-07,3a782a57,HTTP/2 refactoring (#612),1,1,144,153,144,153,0,0,0,9,0,0,0,0,9,6,0,16,0,0,119,0,0,0,0,1
+httpx,bc54dd0399,2019-12-07,3a782a57,"Backend operations like .read(), .write() now have a manadatory timeout argument. (#611)",3,2,18,42,12,37,0,0,0,12,0,0,0,0,0,0,0,27,0,0,12,0,0,0,0,0
+httpx,f55db15a01,2019-12-07,3a782a57,Add 'fork' to auto backend (#614),3,2,16,1,10,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+httpx,3a0df657b3,2019-12-07,3a782a57,Version 0.9.2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,76f3ff9dd9,2019-12-06,3a782a57,Release 0.9.1 due to build artifacts issue,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,8d1bc9e60f,2019-12-06,3a782a57,Version 0.9 (#606),2,1,19,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,ec40d04382,2019-12-06,3a782a57,Add aiter methods on response (#610),5,1,31,31,12,12,0,0,0,3,0,0,0,0,4,4,0,6,0,0,12,0,0,0,0,0
+httpx,d15dc0b1f8,2019-12-06,3a782a57,Tighten up top-level API to only expose public API (#608),21,2,130,209,28,56,0,0,0,2,0,0,1,0,0,0,0,40,1,9,23,0,0,0,0,0
+httpx,e1f5b8ba57,2019-12-06,a245a26f,Move tunnel_start_tls() to HTTPConnection (#609),2,2,69,63,69,63,0,0,0,1,1,0,0,0,1,1,0,19,0,0,52,0,0,0,1,0
+httpx,df9dc6d516,2019-12-06,a245a26f,Cleanup comments on handling MultiError (#607),2,2,3,6,3,6,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,1
+httpx,1e23855709,2019-12-06,3a782a57,Warn if cert / verify / trust_env are passed to client.request() (#597),4,1,91,22,18,0,0,0,0,1,0,0,1,0,0,0,0,63,1,18,18,0,0,0,0,0
+httpx,c38fd68ed7,2019-12-06,a245a26f,"Drop BackgroundManager in favor of fork(func1, func2) (#603)",7,6,119,95,72,94,0,0,0,1,0,0,0,0,4,13,0,33,0,0,59,0,0,0,0,0
+httpx,bb6e52f356,2019-12-05,3a782a57,Rename BaseSocketStream cases from connection.stream to connection.socket (#601),3,3,22,22,22,22,0,0,0,14,0,0,0,0,0,0,0,36,0,0,22,0,0,0,0,0
+httpx,8d8ea8bbba,2019-12-05,3a782a57,Add Client.stream() method. (#600),9,3,213,34,121,2,0,0,0,1,3,0,1,0,5,0,0,45,1,5,113,0,0,0,0,0
+httpx,e56e120175,2019-12-05,3a782a57,Drop write_no_block from backends. (#594),4,4,20,32,20,32,0,0,0,5,0,0,0,0,2,4,0,25,0,0,14,0,0,0,0,0
+httpx,fc95c7e71e,2019-12-05,3a782a57,"stream -> stream_bytes, raw -> stream_raw (#599)",4,1,33,14,23,6,0,0,0,5,0,0,0,0,2,0,0,6,0,0,21,0,0,0,0,0
+httpx,a738327678,2019-12-05,3a782a57,Tweak docstring,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,2f54b200de,2019-12-05,3a782a57,Allow default+override timeout style (#593),7,4,123,96,60,44,0,0,0,1,0,0,1,0,0,0,0,38,1,32,51,0,0,0,0,0
+httpx,eb7c6b0342,2019-12-04,3a782a57,Differentiate between `timeout=None` and `timeout=UNSET`. (#592),9,8,66,98,66,97,0,0,0,45,0,0,1,5,0,0,0,59,16,14,61,0,0,0,0,0
+httpx,c033ed1b65,2019-12-04,3a782a57,TimeoutConfig -> Timeout (#591),17,11,96,99,62,65,0,0,0,39,0,0,0,0,0,0,0,38,3,3,60,0,0,0,0,0
+httpx,d223de8ff3,2019-12-04,99374982,Fixed version requirement for rfc3986. Issue reference #504 (#589),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,5076952202,2019-12-02,3a782a57,Rename http2 switch (#586),7,5,36,36,26,26,0,0,0,13,0,0,0,0,0,0,0,60,5,12,26,0,0,0,0,0
+httpx,3cbe7315e8,2019-12-02,3a782a57,Concurrency autodetection (#585),13,10,113,38,111,36,0,0,0,10,0,0,0,4,9,0,0,60,6,8,91,0,1,0,0,0
+httpx,30229f1652,2019-12-02,3a782a57,Better HTTP/2 defaults. (#584),16,7,104,175,29,104,0,0,0,16,0,0,0,1,0,3,0,63,6,13,29,0,0,0,0,0
+httpx,3f68601222,2019-12-01,a245a26f,Don't use background task in HTTP/1.1 dispatcher (#569),1,1,5,7,5,7,0,0,0,1,0,0,0,0,1,1,0,14,0,0,5,0,0,0,0,0
+httpx,ed949508a6,2019-11-30,40150eb0,Files without a filename should not set a Content-Type in multipart data. (#520),3,2,41,11,17,8,0,0,0,2,0,0,0,0,0,0,0,10,0,0,14,0,0,0,0,0
+httpx,248aa580a1,2019-11-30,3a782a57,Add Response.stream_lines (#575),4,2,125,0,70,0,0,0,0,0,1,0,0,0,4,0,0,0,0,0,56,0,0,0,0,0
+httpx,fdaa01275a,2019-11-30,3a782a57,Add Response.is_error (#574),4,2,11,3,9,3,0,0,0,1,0,0,0,0,2,0,0,11,0,0,7,0,0,0,0,0
+httpx,9df76ccfe9,2019-11-30,90da0002,Preserve list type query paramaters when merging QueryParams objects (#546) (#547),2,1,16,1,6,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+httpx,095b69184a,2019-11-30,3a782a57,Drop MessageLoggerASGIMiddleware. (#573),2,2,1,66,1,66,0,0,0,1,0,0,0,0,0,5,0,43,0,0,1,0,0,0,0,0
+httpx,43331cfb3d,2019-11-30,3a782a57,Ensure Authorization header has priority over .netrc,2,1,13,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,1,0,0
+httpx,8d55d78574,2019-11-30,a245a26f,Drop nox in favor of vanilla scripts (#566),12,1,126,130,0,55,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0
+httpx,364378a814,2019-11-29,3a782a57,"Pool timeouts should be on the TimeoutConfig, not PoolLimits (#563)",8,6,60,34,49,25,0,0,0,13,1,0,0,0,0,0,0,34,2,8,48,0,0,0,0,0
+httpx,b1393ec2f1,2019-11-29,3a782a57,Drop `iterate_in_threadpool` and `iterate` (#564),1,1,0,23,0,23,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0
+httpx,5fccc04da4,2019-11-29,3a782a57,"Drop Queue from concurrency backends, since it's no longer required (#562)",3,3,0,35,0,35,0,0,0,2,0,0,0,0,0,8,0,5,0,0,0,0,1,0,0,0
+httpx,e045b86d7f,2019-11-29,3a782a57,Clean up '_dispatcher_for_request' into 'dispatcher_for_url' (#561),2,1,10,11,9,9,0,0,0,1,0,0,0,0,1,1,0,24,0,0,9,0,0,0,0,1
+httpx,44ad295572,2019-11-29,3a782a57,Simplify ASGI dispatch (#560),1,1,20,81,20,81,0,0,0,2,0,0,0,0,0,7,0,44,0,0,19,0,0,0,0,1
+httpx,abe0799d70,2019-11-28,3a782a57,Refactor netrc handling (#558),3,2,39,46,33,29,0,0,0,5,0,0,1,0,3,2,0,63,1,1,31,0,0,0,0,1
+httpx,99ee84e20d,2019-11-27,3a782a57,Update client.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+httpx,831e79f50a,2019-11-27,3a782a57,Version 0.8.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,00e150f6a5,2019-11-27,3a782a57,Client handles redirect + auth (#552),10,7,351,368,317,350,0,0,1,9,1,1,1,1,9,16,0,62,5,98,273,0,0,0,0,0
+httpx,206c5372a6,2019-11-27,3a782a57,Drop sync (#544),52,20,847,2407,239,1262,0,0,0,63,0,14,2,2,0,50,0,62,27,104,232,0,0,0,0,0
+httpx,1c326d53c6,2019-11-26,e91ab4f6,Stringify the given file name (#545),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+httpx,a05ba2e914,2019-11-22,a245a26f,Fix race condition on stream.read (#535),4,2,51,12,10,3,1,0,0,4,0,0,0,0,0,0,0,20,0,0,10,0,1,0,0,0
+httpx,f06ca87f97,2019-11-22,cec99d82,Handle h11.Connection.next_event() RemoteProtocolError (#524),4,2,42,2,18,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,16,0,0,0,0,0
+httpx,7a96a2c896,2019-11-19,68d82c38,Add support for unix domain sockets (#511),10,6,135,6,75,2,0,0,0,6,0,0,3,0,3,0,0,72,3,6,66,0,0,0,0,0
+httpx,a5f9983037,2019-11-19,a245a26f,Release 0.7.8 (#536),2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,331be99cbf,2019-11-17,d437ba8e,Add support for proxy tunnels for Python 3.6 + asyncio. (#521),2,1,38,10,38,5,0,0,0,1,1,0,0,0,1,0,0,27,0,0,33,0,1,0,0,0
+httpx,6045ee242f,2019-11-15,3a782a57,Version 0.7.7 (#532),2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,5aca0c0172,2019-11-15,3a782a57,Fix redirect cookie behavior (#529),4,2,74,10,6,9,1,0,0,3,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+httpx,1a32cf036a,2019-11-08,68d82c38,Rename BaseTCPStream/TCPStream to BaseSocketStream/SocketStream (#517),8,7,37,32,30,25,0,0,0,9,0,0,0,0,0,0,0,28,0,0,28,0,0,0,0,0
+httpx,95b2b24302,2019-11-07,a245a26f,Add docs on SSL certificates (#510),3,2,52,8,17,8,0,0,0,2,0,0,0,0,0,0,0,39,2,12,17,0,0,0,0,0
+httpx,08069e9368,2019-11-06,a245a26f,Add DEBUG logs of HTTP requests (#502),5,2,90,21,12,3,0,0,0,3,0,0,0,0,0,0,0,29,1,5,10,0,0,0,0,0
+httpx,07586f97e8,2019-11-02,a245a26f,Convert debug logs to trace logs (#500),9,7,63,49,53,37,0,0,0,22,0,0,0,0,2,0,0,38,0,0,46,0,1,0,0,0
+httpx,a62947826f,2019-11-02,a245a26f,Release 0.7.6 (#499),2,1,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,1ce3cc3269,2019-10-30,3a782a57,First pass at autodoc support (#464),6,3,290,33,251,2,0,0,0,23,0,0,0,0,0,0,0,46,18,160,215,0,0,0,0,0
+httpx,88d73de752,2019-10-22,326cffca,asyncio: Wait for the stream to close when closing (#494),2,1,18,1,3,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,1,0,0,0
+httpx,9ec2cfc5dc,2019-10-20,6b4e669b,Multipart files tweaks (#482),3,1,113,30,14,15,0,0,0,3,0,0,0,0,0,0,0,8,0,0,14,0,0,0,0,0
+httpx,644e8fc5b6,2019-10-20,326cffca,Make start_tls a method on streams & return a new stream (#484),6,4,72,87,65,76,0,0,0,5,0,0,0,0,0,0,0,38,0,0,48,0,0,0,0,0
+httpx,09db6ec935,2019-10-19,6b4e669b,Drop proxies parameter from the high level API (#485),3,1,6,10,0,9,0,0,0,8,0,0,0,8,0,0,0,36,8,0,0,0,0,0,0,0
+httpx,7200717e82,2019-10-17,a373d3d7,Add logic for determining if a URL should be proxied (#472),2,1,100,0,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,21,0,0,0,0,0
+httpx,84731c8be5,2019-10-16,5758c271,Cache netrc authentication per-client (#400),4,2,29,18,15,9,0,0,0,1,0,0,0,0,2,1,0,28,0,0,14,0,0,0,0,0
+httpx,49ed77a706,2019-10-12,56f3afb2,Rely on getproxies for all proxy environment variables (#470),2,1,4,28,3,20,0,0,0,1,0,0,0,0,0,1,0,7,0,0,3,0,0,0,0,0
+httpx,c1f51277d3,2019-10-10,d437ba8e,Release 0.7.5 (#468),2,1,21,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,65b8593c7c,2019-10-10,a245a26f,Allow serving docs via nox (#450),2,1,11,8,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+httpx,38a136833f,2019-10-10,a245a26f,Add start_tls to Trio backend (#467),2,1,53,11,24,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,18,0,0,0,0,0
+httpx,7361d60943,2019-10-09,a245a26f,Make nox always reuse virtualenvs by default (#460),2,1,11,6,10,6,0,0,0,4,0,0,0,0,0,0,0,17,0,0,10,0,0,0,0,0
+httpx,57ae7ea22b,2019-10-08,a245a26f,Allow lists in query params (#386),3,2,47,6,35,4,0,0,0,2,0,0,0,0,1,0,0,15,0,0,29,0,0,0,0,0
+httpx,dd3fbcc8d7,2019-10-04,5758c271,Don't include username/password components in `Host` header (#417),2,1,27,1,8,1,0,0,0,1,0,0,1,0,1,0,0,33,1,4,7,0,0,1,0,0
+httpx,e6da325e8b,2019-10-04,5758c271,added authority copy feature in URL.copy_with (#436),2,1,36,0,22,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,19,0,0,0,0,0
+httpx,86a0eb0268,2019-10-03,a60be470,"Revert ""Use Python 3.8 asyncio.Stream where possible (#369)"" (#423)",4,2,50,163,0,140,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,1,0,0,0
+httpx,a0282569d5,2019-10-01,a60be470,Make HTTPError importable from the top-level (#421),3,1,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+httpx,db3e3a0231,2019-10-01,c26b44f0,Add flake8-pie plugin (#419),4,2,15,10,9,5,0,0,0,3,0,0,0,2,0,0,0,39,2,2,9,0,0,0,0,0
+httpx,7f76a642a8,2019-10-01,ee50ae7f,Add AsyncIO and Trio trove classifiers (#416),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0
+httpx,05f5dc26de,2019-09-29,d437ba8e,Get test suite back to ~100% line coverage (#406),10,4,107,16,3,10,0,0,0,4,0,0,0,0,0,0,0,28,0,0,3,0,0,0,0,0
+httpx,5ced56b5b5,2019-09-28,9ece7a8d,Expose ASGIDispatch & WSGIDispatch in the 'dispatch' namespace. (#407),2,1,5,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+httpx,ea137a96d9,2019-09-28,9cdd9add,Fix wrongly deleted params introduced #408 (#410),1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,29,1,2,2,0,0,0,0,0
+httpx,71cbde8ba4,2019-09-28,326cffca,Use Python 3.8 asyncio.Stream where possible (#369),4,2,163,50,140,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,99,0,1,0,0,0
+httpx,6752f7d6f6,2019-09-28,9cdd9add,"Remove data, json and files parameters in delete() function (#408)",3,2,2,20,0,18,0,0,0,3,0,0,0,3,0,0,0,29,3,0,0,0,0,0,1,0
+httpx,640667d81d,2019-09-26,a245a26f,Release 0.7.4 (#388),2,1,16,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,f0e56c8f2d,2019-09-26,a245a26f,Remove trio redundant extra (#390),2,1,2,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+httpx,336d22d73a,2019-09-25,d437ba8e,Propogate HTTPProxy config from Client(#377),3,2,63,57,44,57,0,0,0,22,1,0,2,19,1,1,0,70,22,40,41,0,0,0,0,0
+httpx,cadb9a4d4c,2019-09-25,a245a26f,Fix bug when using client without timeouts in Python 3.6 (#383),2,1,17,0,6,0,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+httpx,276ee737ba,2019-09-24,326cffca,Run isort in the nox check session (#379),1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+httpx,0fa55bb6d4,2019-09-24,d437ba8e,Add debug logging to SSLConfig (#378),1,1,14,1,14,1,0,0,0,2,0,0,0,0,0,0,0,35,0,0,11,0,0,0,0,0
+httpx,e62e5c3758,2019-09-23,a245a26f,Add debug logs to ASGIDispatch (#371),5,3,130,14,102,14,0,0,0,6,0,0,0,0,8,0,0,46,0,0,75,0,0,0,0,0
+httpx,c9810a79d9,2019-09-23,5758c271,Add support for SSL_CERT_FILE and SSL_CERT_DIR (#307),5,2,118,0,18,0,0,0,0,1,0,0,0,0,1,0,0,33,0,0,15,0,0,0,0,0
+httpx,1b82a2a716,2019-09-23,feb6a56c,Fix invalid f-string (#375),1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,22,0,0,3,0,0,0,0,0
+httpx,5dc646fb9f,2019-09-23,55e67cb0,Adding params to Client (#372),4,2,102,1,49,0,0,0,0,5,0,0,2,0,5,0,0,63,2,5,39,0,0,0,0,0
+httpx,b574230f90,2019-09-22,d437ba8e,Remove ENABLE_CONNECT_PROTOCOL from HTTP/2 Settings (#373),3,1,65,1,23,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,12,0,0,0,1,0
+httpx,e1da6b9194,2019-09-21,a245a26f,Add tool for profiling (#364),13,7,187,3,129,1,0,0,0,0,0,0,0,0,6,0,0,0,0,0,96,0,0,0,0,0
+httpx,08355c62f5,2019-09-21,a245a26f,Add trio concurrency backend (#276),13,7,315,7,285,2,0,0,0,4,0,0,0,0,31,0,0,59,1,1,196,0,1,0,0,0
+httpx,7a08aaa536,2019-09-20,a245a26f,Release 0.7.3 (#362),2,1,28,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,b0fa0859a8,2019-09-20,d437ba8e,Configure Proxy from Client (#353),13,5,337,34,164,9,0,0,0,31,0,0,28,0,5,0,0,59,28,60,139,0,0,0,0,0
+httpx,061d943b78,2019-09-19,a245a26f,Add zip_safe=False to setup() (#361),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,05ac117679,2019-09-18,a3b68a04,Add `.elapsed` onto Response objects tracking how long a request took. (#351),9,3,94,7,41,4,0,0,0,6,0,0,4,0,4,0,0,46,5,12,36,0,0,0,0,0
+httpx,315a18b4cf,2019-09-15,a245a26f,Stream -> TCPStream (#339),8,6,27,37,21,31,0,0,0,5,0,0,0,0,2,2,0,32,0,0,21,0,0,0,0,0
+httpx,57c27cac36,2019-09-15,d437ba8e,Implement HTTPProxy dispatcher (#259),13,9,549,19,292,13,0,0,0,6,1,0,0,0,11,0,0,29,2,2,234,0,0,0,0,0
+httpx,fd3b69d2aa,2019-09-10,5f521c14,Add DigestAuth middleware (#332),6,5,409,2,200,2,0,2,0,1,1,0,0,0,12,0,0,25,0,0,164,0,0,0,0,0
+httpx,08edfac37d,2019-09-08,e8f273f6,Add `build_request` to `Client` (#319),6,1,144,14,82,14,0,0,0,3,3,0,0,3,6,3,0,40,3,39,79,0,0,0,0,0
+httpx,71648ece09,2019-09-07,a245a26f,Refactor middleware (#325),7,6,65,51,60,6,0,0,0,0,0,0,0,0,7,0,0,0,0,0,45,0,0,0,0,1
+httpx,0f34f3b60f,2019-09-07,555bedfb,Raise KeyError if header isn't found in Headers (#324),4,3,15,6,6,6,0,0,0,2,0,0,0,0,0,0,0,10,0,0,6,0,0,1,0,0
+httpx,ab9cd0ea11,2019-09-06,89869e5a,Fix bug in calculating maximum frame size (#153),4,2,118,15,45,14,1,0,0,7,0,0,0,0,1,0,0,26,0,0,31,0,0,0,0,0
+httpx,3065dd6b6c,2019-09-05,555bedfb,Set Host header when redirecting cross-origin (#321),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,1,0,0
+httpx,69982ed46c,2019-09-04,3a782a57,Strip Transfer-Encoding when a switch-to-GET redirect is made,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+httpx,d0953d1d86,2019-09-04,e8f273f6,Remove NPN support,2,2,2,3,2,3,0,0,0,2,0,0,0,0,0,0,0,17,0,0,1,0,0,0,1,0
+httpx,c2eeb662df,2019-09-03,a245a26f,Remove example script,1,1,0,17,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+httpx,e5964b31f1,2019-09-03,3a782a57,White whitespacing,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+httpx,0a2d58b8f1,2019-09-03,3a782a57,Apply black formatting (Tho it looks like a broken case to me?),2,2,18,1,18,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+httpx,0276ff9880,2019-09-03,3a782a57,Drop Content-Length headers on GET redirects,1,1,12,5,12,5,0,1,1,2,0,0,0,0,0,0,0,12,0,0,6,0,0,1,0,0
+httpx,40e6e8c99d,2019-09-01,a245a26f,Refactor client functionality into middleware (#268),5,3,232,213,222,212,0,1,0,2,0,1,0,1,15,11,0,52,2,31,180,0,0,0,0,1
+httpx,db7f2d0df3,2019-09-01,c2e80e3e,Add support for SSLKEYLOGFILE (#301),7,4,89,3,22,3,0,0,0,6,0,0,3,0,0,0,0,52,3,6,20,0,0,0,0,0
+httpx,a46462764e,2019-08-31,a245a26f,Tighten up response.next() (#297),5,4,35,4,21,3,0,0,0,2,0,0,0,0,2,1,0,38,2,3,18,0,0,0,0,0
+httpx,994403bec9,2019-08-29,a245a26f,Serve test server in thread (#292),7,1,120,130,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+httpx,e9b20995f7,2019-08-29,60c53dc9,Fix typos in comments (#294),4,2,5,5,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,8c456e48e9,2019-08-29,d437ba8e,Release 0.7.2 (#291),3,2,13,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,9e420a5c34,2019-08-27,cec99d82,Automatically convert Client.cookies and Client.headers on set (#274),4,1,73,2,18,2,0,0,0,1,0,0,0,0,4,0,0,51,1,2,14,0,0,1,0,0
+httpx,1f4b8dd054,2019-08-27,9cdd9add,Allow per file running of tests (#287),1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+httpx,6f4f186522,2019-08-27,d437ba8e,Add easier debug logging for users (#277),9,6,172,1,101,1,0,0,0,17,0,0,0,0,3,0,0,28,0,0,79,0,0,0,0,0
+httpx,33032df0b0,2019-08-27,9cdd9add,Stop running nox on first error (#286),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,e7aa6d6710,2019-08-27,d437ba8e,Force HTTP/1.1 on short-lived connections (#284),5,1,13,6,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+httpx,3674058ff7,2019-08-25,a245a26f,Parametrize tests with concurrency backend (#273),12,1,207,201,11,6,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,1,0,0,0
+httpx,1872ae873b,2019-08-24,d437ba8e,Add ConcurrencyBackend.start_tls() (#263),8,7,85,7,54,7,0,0,0,1,0,0,0,0,2,0,0,8,0,0,47,0,1,0,0,0
+httpx,31748a3025,2019-08-22,a245a26f,Add backend param to ASGIDispatcher (#270),1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,13,1,2,2,0,0,0,0,0
+httpx,80eafe89c2,2019-08-21,a245a26f,Remove usage of loop.create_task in ASGIDispatch (#261),5,5,12,14,12,14,0,0,0,6,0,0,0,0,0,0,0,45,0,0,7,0,0,0,1,0
+httpx,fdb13592c9,2019-08-21,a245a26f,Encapsulate http_version into BaseStream,4,3,27,20,22,18,0,0,0,3,0,0,0,0,2,0,0,26,0,0,15,0,0,0,1,0
+httpx,14eb81f72d,2019-08-21,a245a26f,Unify BaseReader and BaseWriter as BaseStream,7,6,55,77,50,66,0,0,0,22,0,0,0,0,0,1,0,27,0,0,48,0,0,0,0,0
+httpx,2e91d8ccdd,2019-08-21,a245a26f,Add BaseEvent interface (#260),3,3,23,1,23,1,0,0,0,1,0,0,0,0,5,0,0,46,0,0,16,0,0,0,1,0
+httpx,c0554e96d9,2019-08-21,3a782a57,Refactor interfaces (#252),12,11,162,155,136,54,0,0,0,5,2,0,0,0,10,3,0,5,0,0,119,0,0,0,1,1
+httpx,4ea4af661d,2019-08-20,5758c271,Raise TypeError if invalid parameter for HTTPVersionConfig (#253),2,1,19,1,9,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,9,0,0,0,0,0
+httpx,fc261e8149,2019-08-21,a245a26f,Add BaseQueue interface (#257),3,3,26,6,26,6,0,0,0,3,0,0,1,0,4,0,0,46,1,1,19,0,0,0,1,0
+httpx,c1ec1c33cd,2019-08-20,3a782a57,Response.protocol -> Response.http_version (#250),11,7,16,16,12,12,0,0,0,9,0,0,0,0,0,0,0,65,4,7,12,0,0,0,0,0
+httpx,7408c443f5,2019-08-20,3a782a57,Drop unused import,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+httpx,180050020e,2019-08-20,3a782a57,Address review comments,1,1,8,5,8,5,0,0,0,1,0,0,0,0,1,1,0,15,0,0,7,0,0,0,0,0
+httpx,dfbfa7c7ec,2019-08-20,3a782a57,Drop Protocol str enum class in favor of plain old strings,5,4,11,25,8,15,0,0,0,3,0,0,0,0,0,0,0,31,0,0,8,0,0,0,0,0
+httpx,b343ee4a70,2019-08-20,3a782a57,Add Client(http_versions=...) support,18,11,25,74,24,62,0,0,0,13,0,7,1,2,0,0,0,51,10,6,24,0,0,0,0,0
+httpx,4bfe54d610,2019-08-20,3a782a57,Drop unneccessary 'sorted',1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+httpx,a770102fd2,2019-08-20,3a782a57,Added http_versions to dispatch interface,14,7,91,22,77,20,0,0,0,20,6,0,4,0,0,0,0,47,11,34,77,0,0,0,1,0
+httpx,fc27fd2530,2019-08-20,3a782a57,Test coverage for HTTPVersionConfig,2,1,37,4,7,4,0,0,0,2,0,0,0,0,0,0,0,14,0,0,6,0,0,0,0,0
+httpx,b2397ff39d,2019-08-20,a245a26f,Turn concurrency.py into its own sub-package (#244),8,7,9,9,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0
+httpx,f72fa68802,2019-08-20,3a782a57,'Protocols' -> 'HTTPVersions',6,5,49,52,47,49,0,0,0,12,0,2,0,0,1,1,0,28,4,5,47,0,0,0,0,0
+httpx,a0aff8d169,2019-08-20,5758c271,fixed __repr__ function of Headers and Url classes (#222),2,1,31,3,13,3,1,0,0,2,0,0,0,0,0,0,0,13,0,0,12,0,0,1,0,0
+httpx,2ed70ebc2a,2019-08-20,3a782a57,Simplify ASGI concurrency (#248),1,1,10,12,10,12,0,0,0,3,0,0,0,0,1,1,0,46,0,0,10,0,1,0,0,1
+httpx,7fea0723e2,2019-08-19,3a782a57,Use correct protocol idents when loading ssl context,1,1,9,6,9,6,0,0,0,1,0,0,0,0,1,0,0,28,0,0,6,0,0,0,0,0
+httpx,0e49f23b75,2019-08-19,3a782a57,Initial pass at configuring supported protocol versions,6,5,64,14,62,14,0,0,0,11,3,0,1,0,3,0,0,32,4,6,54,0,0,0,0,0
+httpx,79425b28d0,2019-08-19,5758c271,added control to calling decode for empty contents (#237),2,1,29,1,6,0,0,0,0,3,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+httpx,ef9fc0f3a7,2019-08-19,3a782a57,Drop `raise_app_exceptions` Client argument. (#238),4,3,36,7,21,7,0,0,0,1,0,0,0,1,0,0,0,49,1,2,16,0,0,0,0,0
+httpx,a960a2a8fd,2019-08-18,288b11f1,Release semaphore if connection is dropped (#230),2,1,19,0,1,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,1,0,0,0
+httpx,9c7d23ce29,2019-08-18,a245a26f,Enforce that sync client uses asyncio-based backend (#232),2,1,34,0,18,0,0,0,0,1,0,0,1,0,2,0,0,54,1,1,8,0,1,0,0,0
+httpx,caba78568e,2019-08-18,d437ba8e,Release 0.7.1 (#234),4,2,9,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+httpx,c35dbce543,2019-08-17,d437ba8e,Release 0.7.0 (#228),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+httpx,345a46d6aa,2019-08-17,d437ba8e,Add CHANGELOG.md for tracking releases (#227),2,1,71,1,6,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+httpx,43f66d5756,2019-08-17,d437ba8e,Skip coverage on breaks right before returns for Python 3.8 (#226),3,2,5,7,5,4,0,0,0,4,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+httpx,04d5ffb01b,2019-08-17,5758c271,Add trust_env property to BaseClient (#187),3,2,36,28,28,28,0,0,0,26,0,0,2,0,0,0,0,65,26,28,28,0,0,0,0,0
+httpx,23f11aaa8d,2019-08-17,96db639e,Use chained comparison in status codes for error and success,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+httpx,3451028251,2019-08-17,96db639e,Fix typos in docstrings,4,2,4,4,2,2,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+httpx,e64fcad3b4,2019-08-16,20108e95,Add --diff flag to Black for easier debugging (#219),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+httpx,cad9c03500,2019-08-16,20108e95,Added links property to BaseResponse (#211),4,2,98,1,53,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,50,0,0,0,0,0
+httpx,df8874b733,2019-08-14,d437ba8e,Accept SSLContext into SSLConfig(verify=...) (#215),2,1,37,14,28,14,0,0,0,2,0,1,0,0,1,0,0,27,1,1,24,0,0,0,0,0
+httpx,af907e85e1,2019-08-14,d437ba8e,Implement Response.stream_text() (#183),4,2,157,0,90,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,67,0,0,0,0,0
+httpx,45177d2cd8,2019-08-14,5758c271,Rely on IRIReference.encode() for IDNA encoding (#210),1,1,0,10,0,10,0,0,0,1,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0

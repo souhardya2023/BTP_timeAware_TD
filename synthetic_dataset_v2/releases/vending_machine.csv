@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+vending_machine,v0.1,v0.2,0,1.2933,27,429,75,13,3
+vending_machine,v0.2,v0.3,1,1.3734,24,447,93,8,5
+vending_machine,v0.3,v0.4,2,3.0031,54,447,93,16,5
+vending_machine,v0.4,v0.5,3,0.2933,4,452,97,0,6
+vending_machine,v0.5,v0.6,4,2.0396,52,452,97,9,6
+vending_machine,v0.6,v0.7,5,1.3027,11,491,121,10,7
+vending_machine,v0.7,v0.8,6,0.7624,22,491,121,16,7
+vending_machine,v0.8,v0.9,7,0.0922,1,489,134,1,7
+vending_machine,v0.9,v0.10,8,0.1444,0,441,127,0,6
+vending_machine,v0.10,v0.11,9,0.7337,2,441,127,2,6

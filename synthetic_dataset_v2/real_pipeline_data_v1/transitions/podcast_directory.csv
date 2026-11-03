@@ -1,0 +1,7 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+podcast_directory,v0.6,v0.7,5,podcast_directory/rules.py::build_episode_8::many_params,podcast_directory/rules.py,build_episode_8,many_params,MAJOR,0,0,0,0,0,0,0.0,introduced,1,11,11,0,0.0
+podcast_directory,v0.7,v0.8,6,podcast_directory/rules.py::build_episode_8::many_params,podcast_directory/rules.py,build_episode_8,many_params,MAJOR,0,11,4,0,0,0,0.02062846280146194,none,1,11,0,0,0.0
+podcast_directory,v0.8,v0.9,7,podcast_directory/rules.py::build_episode_8::many_params,podcast_directory/rules.py,build_episode_8,many_params,MAJOR,0,11,4,1,0,0,0.02062846280146194,none,1,11,0,0,0.0
+podcast_directory,v0.9,v0.10,8,podcast_directory/rules.py::build_episode_8::many_params,podcast_directory/rules.py,build_episode_8,many_params,MAJOR,0,11,4,2,0,0,0.02062846280146194,none,1,11,0,0,0.0
+podcast_directory,v0.10,v0.11,9,podcast_directory/rules.py::build_episode_8::many_params,podcast_directory/rules.py,build_episode_8,many_params,MAJOR,0,11,4,3,0,0,0.02062846280146194,none,1,11,0,0,0.0
+podcast_directory,v0.11,v0.12,10,podcast_directory/rules.py::build_episode_8::many_params,podcast_directory/rules.py,build_episode_8,many_params,MAJOR,0,11,4,4,0,0,0.02062846280146194,none,1,11,0,0,0.0

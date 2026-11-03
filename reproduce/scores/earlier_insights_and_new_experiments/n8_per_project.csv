@@ -1,0 +1,11 @@
+project,n,random forest (raw delta),logistic (direction of the delta)
+C-Thread-Pool,4,1.0,0.5
+boltons,24,0.0,0.9166666666666666
+cJSON,1,1.0,1.0
+click,10,0.5,0.3
+jansson,6,1.0,0.6666666666666666
+jinja,5,0.4,0.4
+libpng,1,1.0,1.0
+libyaml,5,1.0,0.2
+werkzeug,2,1.0,0.5
+zlib,3,0.6666666666666666,1.0

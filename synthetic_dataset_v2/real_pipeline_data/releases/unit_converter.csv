@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+unit_converter,0,v0.1,v0.2,2019-01-07,2019-03-30,minor,2,422,281,486,292,5,70,11,0,15
+unit_converter,1,v0.2,v0.3,2019-03-30,2019-05-21,minor,1,486,292,510,292,5,28,0,0,4
+unit_converter,2,v0.3,v0.4,2019-05-21,2019-06-27,minor,1,510,292,510,292,5,0,0,0,0
+unit_converter,3,v0.4,v0.5,2019-06-27,2019-08-24,minor,2,510,292,523,305,5,13,13,13,1

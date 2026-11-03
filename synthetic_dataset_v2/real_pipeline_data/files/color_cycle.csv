@@ -1,0 +1,6 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+color_cycle,1,color_cycle/core.py,66,405,245,66
+color_cycle,1,color_cycle/services.py,8,20,0,0
+color_cycle,3,color_cycle/core.py,23,405,252,7
+color_cycle,3,color_cycle/services.py,2,19,0,0
+color_cycle,4,color_cycle/core.py,15,418,253,2

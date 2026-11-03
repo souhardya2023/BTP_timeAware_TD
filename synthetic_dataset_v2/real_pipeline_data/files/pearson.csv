@@ -1,0 +1,6 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+pearson,0,pearson/core.py,4,483,375,0
+pearson,0,pearson/services.py,28,49,0,0
+pearson,1,pearson/core.py,50,531,411,36
+pearson,1,pearson/services.py,6,55,0,0
+pearson,2,pearson/core.py,2,531,411,1

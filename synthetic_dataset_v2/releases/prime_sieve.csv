@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+prime_sieve,v0.1,v0.2,0,1.8073,29,518,48,6,2
+prime_sieve,v0.2,v0.3,1,1.4706,62,545,70,7,5
+prime_sieve,v0.3,v0.4,2,0.3068,2,600,125,2,7
+prime_sieve,v0.4,v0.5,3,0.2788,5,570,125,5,7

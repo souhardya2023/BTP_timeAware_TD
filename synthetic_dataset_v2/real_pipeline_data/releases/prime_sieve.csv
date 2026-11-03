@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+prime_sieve,0,v0.1,v0.2,2019-01-08,2019-05-22,minor,3,493,295,516,296,5,29,1,1,7
+prime_sieve,1,v0.2,v0.3,2019-05-22,2019-10-14,minor,4,516,296,569,326,5,62,30,0,15
+prime_sieve,2,v0.3,v0.4,2019-10-14,2019-11-04,minor,2,569,326,539,293,5,2,0,0,1
+prime_sieve,3,v0.4,v0.5,2019-11-04,2019-12-15,minor,3,539,293,539,293,5,5,3,3,3

@@ -1,0 +1,36 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+json2csv,v0.1,v0.2,0,json2csv-D01,json2csv/services.py,bump_output_counter_1,synth:unlocked_counter,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+json2csv,v0.1,v0.2,0,json2csv-D02,json2csv/services.py,update_output_total_2,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+json2csv,v0.1,v0.2,0,json2csv-D03,json2csv/services.py,transfer_output_in_3,synth:lock_order,MAJOR,15,10,1,0,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+json2csv,v0.1,v0.2,0,json2csv-D04,json2csv/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+json2csv,v0.1,v0.2,0,json2csv-D05,json2csv/core.py,load_output_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,0,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+json2csv,v0.2,v0.3,1,json2csv-D01,json2csv/services.py,bump_output_counter_1,synth:unlocked_counter,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+json2csv,v0.2,v0.3,1,json2csv-D02,json2csv/services.py,update_output_total_2,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+json2csv,v0.2,v0.3,1,json2csv-D03,json2csv/services.py,transfer_output_in_3,synth:lock_order,MAJOR,15,10,1,1,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+json2csv,v0.2,v0.3,1,json2csv-D04,json2csv/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+json2csv,v0.2,v0.3,1,json2csv-D05,json2csv/core.py,load_output_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,1,0,0,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+json2csv,v0.2,v0.3,1,json2csv-D06,json2csv/services.py,get_or_build_record_6,synth:check_then_act,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+json2csv,v0.3,v0.4,2,json2csv-D01,json2csv/services.py,bump_output_counter_1,synth:unlocked_counter,MAJOR,15,12,4,2,0,0,0.02269984787238689,interest,1,14,3,1.0,0.001476547186496228
+json2csv,v0.3,v0.4,2,json2csv-D02,json2csv/services.py,update_output_total_2,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+json2csv,v0.3,v0.4,2,json2csv-D03,json2csv/services.py,transfer_output_in_3,synth:lock_order,MAJOR,15,10,1,2,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+json2csv,v0.3,v0.4,2,json2csv-D04,json2csv/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+json2csv,v0.3,v0.4,2,json2csv-D05,json2csv/core.py,load_output_blob_5,synth:unsafe_deserialize,MAJOR,15,5,3,2,1,1,0.008667715422666181,interest,1,6,2,1.0,0.001476547186496228
+json2csv,v0.3,v0.4,2,json2csv-D06,json2csv/services.py,get_or_build_record_6,synth:check_then_act,MAJOR,15,12,4,1,0,0,0.02269984787238689,interest,1,13,3,2.0,0.003164390096496418
+json2csv,v0.3,v0.4,2,json2csv-D07,json2csv/services.py,bump_output_counter_7,synth:unlocked_counter,MAJOR,15,12,4,0,0,0,0.02269984787238689,interest,1,13,2,1.0,0.001476547186496228
+json2csv,v0.3,v0.4,2,json2csv-D08,json2csv/services.py,get_or_build_record_8,synth:check_then_act,MAJOR,15,12,4,0,0,0,0.02269984787238689,interest,1,13,2,1.0,0.001476547186496228
+json2csv,v0.4,v0.5,3,json2csv-D01,json2csv/services.py,bump_output_counter_1,synth:unlocked_counter,MAJOR,15,14,4,3,1,1,0.026893314534794217,interest,1,14,1,1.0,0.001476547186496228
+json2csv,v0.4,v0.5,3,json2csv-D02,json2csv/services.py,update_output_total_2,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,increase,1,9,2,0.0,0.0
+json2csv,v0.4,v0.5,3,json2csv-D03,json2csv/services.py,transfer_output_in_3,synth:lock_order,MAJOR,15,10,1,3,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+json2csv,v0.4,v0.5,3,json2csv-D04,json2csv/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+json2csv,v0.4,v0.5,3,json2csv-D05,json2csv/core.py,load_output_blob_5,synth:unsafe_deserialize,MAJOR,15,6,3,3,2,2,0.010592055810999847,interest,1,7,2,1.0,0.001476547186496228
+json2csv,v0.4,v0.5,3,json2csv-D06,json2csv/services.py,get_or_build_record_6,synth:check_then_act,MAJOR,15,13,4,2,2,1,0.0247885335262108,none,1,13,0,0.0,0.0
+json2csv,v0.4,v0.5,3,json2csv-D07,json2csv/services.py,bump_output_counter_7,synth:unlocked_counter,MAJOR,15,13,4,1,1,1,0.0247885335262108,interest,1,13,2,2.0,0.003164390096496418
+json2csv,v0.4,v0.5,3,json2csv-D08,json2csv/services.py,get_or_build_record_8,synth:check_then_act,MAJOR,15,13,4,1,1,1,0.0247885335262108,interest,1,14,2,1.0,0.001476547186496228
+json2csv,v0.5,v0.6,4,json2csv-D01,json2csv/services.py,bump_output_counter_1,synth:unlocked_counter,MAJOR,15,14,4,4,2,2,0.026893314534794217,none,1,14,0,0.0,0.0
+json2csv,v0.5,v0.6,4,json2csv-D02,json2csv/services.py,update_output_total_2,synth:lock_not_released,MAJOR,15,9,2,4,0,0,0.016543516085261768,none,1,9,0,0.0,0.0
+json2csv,v0.5,v0.6,4,json2csv-D03,json2csv/services.py,transfer_output_in_3,synth:lock_order,MAJOR,15,10,1,4,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+json2csv,v0.5,v0.6,4,json2csv-D04,json2csv/services.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+json2csv,v0.5,v0.6,4,json2csv-D05,json2csv/core.py,load_output_blob_5,synth:unsafe_deserialize,MAJOR,15,7,3,4,3,3,0.012548784031360172,none,1,7,0,0.0,0.0
+json2csv,v0.5,v0.6,4,json2csv-D06,json2csv/services.py,get_or_build_record_6,synth:check_then_act,MAJOR,15,13,4,3,2,1,0.0247885335262108,none,1,13,0,0.0,0.0
+json2csv,v0.5,v0.6,4,json2csv-D07,json2csv/services.py,bump_output_counter_7,synth:unlocked_counter,MAJOR,15,13,4,2,3,2,0.0247885335262108,interest,1,14,3,2.0,0.003164390096496418
+json2csv,v0.5,v0.6,4,json2csv-D08,json2csv/services.py,get_or_build_record_8,synth:check_then_act,MAJOR,15,14,4,2,2,2,0.026893314534794217,none,1,14,0,0.0,0.0

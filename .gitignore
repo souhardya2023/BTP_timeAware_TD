@@ -4,3 +4,21 @@ __pycache__/
 venv/
 .DS_Store
 *.log.tmp
+
+# --- added with the 33-repository analysis (not pushed: report, local assembly folder, clones, bulky raw text, caches)
+btp_report/
+final_report/
+repos/
+manifests/
+c1_texts.jsonl
+c1_parts/
+k1_parts/
+embeddings/
+node_modules/
+*.pdf
+*.pptx
+*.zip
+*.log
+*.done
+*.out
+logs/

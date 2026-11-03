@@ -1,0 +1,8 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+prime_sieve,0,prime_sieve/core.py,6,316,191,0
+prime_sieve,0,prime_sieve/services.py,23,183,105,1
+prime_sieve,1,prime_sieve/core.py,32,346,221,30
+prime_sieve,1,prime_sieve/services.py,30,206,105,0
+prime_sieve,2,prime_sieve/services.py,2,206,105,0
+prime_sieve,3,prime_sieve/core.py,3,316,188,3
+prime_sieve,3,prime_sieve/services.py,2,206,105,0

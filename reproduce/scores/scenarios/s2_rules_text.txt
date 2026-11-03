@@ -1,0 +1,62 @@
+== all features, lift vs repository rate | python -> c
+REPEATS              hot  disc lift 5.26 (n=336)  val lift 1.41  :: commits_rel > 1.15 AND prev_event <= 0.5 AND past_events <= 2.5 AND commits_rel > 8.78
+REPEATS              hot  disc lift 3.76 (n=190)  val lift 3.62  :: commits_rel > 1.15 AND prev_event > 0.5 AND commits_rel > 2.68
+REPEATS              hot  disc lift 2.42 (n=183)  val lift 2.09  :: commits_rel > 1.15 AND prev_event > 0.5 AND commits_rel <= 2.68 AND file_n > 8.5
+REPEATS              hot  disc lift 2.28 (n=160)  val lift 1.76  :: commits_rel > 1.15 AND prev_event <= 0.5 AND past_events > 2.5 AND ldays > 5.12
+NOISE                hot  disc lift 1.90 (n=281)  val lift 1.72  :: commits_rel > 1.15 AND prev_event <= 0.5 AND past_events > 2.5 AND ldays <= 5.12
+REPEATS              hot  disc lift 1.55 (n=192)  val lift 1.77  :: commits_rel > 1.15 AND prev_event > 0.5 AND commits_rel <= 2.68 AND file_n <= 8.5
+NOISE                cold disc lift 0.46 (n=432)  val lift 1.25  :: commits_rel <= 1.15 AND minor_major > 0.5 AND past_events > 0.5 AND pos > 0.528
+REPEATS              cold disc lift 0.40 (n=1213)  val lift 0.40  :: commits_rel <= 1.15 AND minor_major <= 0.5 AND commits_rel > 0.739 AND commits_rel > 0.982
+REPEATS              cold disc lift 0.27 (n=845)  val lift 0.15  :: commits_rel <= 1.15 AND minor_major > 0.5 AND past_events <= 0.5 AND commits_rel <= 0.775
+REPEATS              cold disc lift 0.25 (n=2291)  val lift 0.33  :: commits_rel <= 1.15 AND minor_major <= 0.5 AND commits_rel <= 0.739 AND commits_rel > 0.36
+REPEATS              cold disc lift 0.02 (n=2539)  val lift 0.09  :: commits_rel <= 1.15 AND minor_major <= 0.5 AND commits_rel <= 0.739 AND commits_rel <= 0.36
+== all features, lift vs repository rate | c -> python
+too few repositories hot  disc lift 4.95 (n=990)  val lift nan  :: prev_event <= 0.5 AND commits_rel > 1.22 AND past_events > 3.5 AND ldays <= 4.29
+too few repositories hot  disc lift 4.54 (n=3105)  val lift nan  :: prev_event > 0.5 AND commits_rel > 0.615 AND commits_rel > 3.58 AND commits_rel > 7.34
+too few repositories hot  disc lift 3.44 (n=2508)  val lift nan  :: prev_event > 0.5 AND commits_rel > 0.615 AND commits_rel > 3.58 AND commits_rel <= 7.34
+too few repositories hot  disc lift 3.31 (n=1499)  val lift nan  :: prev_event > 0.5 AND commits_rel > 0.615 AND commits_rel <= 3.58 AND past_events > 8.5
+NOISE                hot  disc lift 2.20 (n=6041)  val lift 1.07  :: prev_event <= 0.5 AND commits_rel > 1.22 AND past_events <= 3.5 AND age <= 0.5
+NOISE                hot  disc lift 2.14 (n=10769)  val lift 1.57  :: prev_event > 0.5 AND commits_rel > 0.615 AND commits_rel <= 3.58 AND past_events <= 8.5
+REPEATS              hot  disc lift 1.72 (n=1187)  val lift 1.96  :: prev_event <= 0.5 AND commits_rel > 1.22 AND past_events > 3.5 AND ldays > 4.29
+too few repositories hot  disc lift 1.59 (n=812)  val lift nan  :: prev_event > 0.5 AND commits_rel <= 0.615 AND minor_major > 0.5 AND pos <= 0.806
+too few repositories cold disc lift 0.27 (n=340)  val lift nan  :: prev_event > 0.5 AND commits_rel <= 0.615 AND minor_major > 0.5 AND pos > 0.806
+REPEATS              cold disc lift 0.22 (n=8057)  val lift 0.33  :: prev_event <= 0.5 AND commits_rel <= 1.22 AND past_events > 1.5 AND minor_major <= 0.5
+REPEATS              cold disc lift 0.19 (n=51407)  val lift 0.32  :: prev_event <= 0.5 AND commits_rel <= 1.22 AND past_events <= 1.5 AND ldays <= 5.13
+REPEATS              cold disc lift 0.09 (n=4614)  val lift 0.03  :: prev_event > 0.5 AND commits_rel <= 0.615 AND minor_major <= 0.5 AND commits_rel <= 0.308
+== all features, lift vs repository rate | real -> synthetic
+too few repositories hot  disc lift 4.55 (n=3118)  val lift nan  :: prev_event > 0.5 AND commits_rel > 0.729 AND commits_rel > 3.58 AND commits_rel > 7.34
+too few repositories hot  disc lift 3.87 (n=1453)  val lift nan  :: prev_event <= 0.5 AND commits_rel > 1.15 AND past_events > 0.5 AND pos <= 0.194
+too few repositories hot  disc lift 3.48 (n=2604)  val lift nan  :: prev_event > 0.5 AND commits_rel > 0.729 AND commits_rel > 3.58 AND commits_rel <= 7.34
+REPEATS              hot  disc lift 2.70 (n=4142)  val lift 3.47  :: prev_event > 0.5 AND commits_rel > 0.729 AND commits_rel <= 3.58 AND past_events > 4.5
+too few repositories hot  disc lift 2.16 (n=6513)  val lift nan  :: prev_event <= 0.5 AND commits_rel > 1.15 AND past_events <= 0.5 AND age <= 0.5
+REPEATS              hot  disc lift 2.03 (n=8030)  val lift 1.43  :: prev_event > 0.5 AND commits_rel > 0.729 AND commits_rel <= 3.58 AND past_events <= 4.5
+too few repositories hot  disc lift 1.61 (n=1218)  val lift nan  :: prev_event > 0.5 AND commits_rel <= 0.729 AND minor_major > 0.5 AND ldays > 3.43
+REPEATS              hot  disc lift 1.56 (n=14127)  val lift 1.84  :: prev_event <= 0.5 AND commits_rel > 1.15 AND past_events > 0.5 AND pos > 0.194
+too few repositories cold disc lift 0.22 (n=8846)  val lift nan  :: prev_event <= 0.5 AND commits_rel <= 1.15 AND past_events > 1.5 AND minor_major <= 0.5
+REPEATS              cold disc lift 0.18 (n=55503)  val lift 0.33  :: prev_event <= 0.5 AND commits_rel <= 1.15 AND past_events <= 1.5 AND ldays <= 5.09
+too few repositories cold disc lift 0.09 (n=4915)  val lift nan  :: prev_event > 0.5 AND commits_rel <= 0.729 AND minor_major <= 0.5 AND commits_rel <= 0.315
+== instance features only, lift vs the same release | python -> c
+REPEATS              hot  disc lift 1.87 (n=164)  val lift 2.54  :: past_events > 1.5 AND sibling_prev > 0.5 AND rel_size > 0.957
+REPEATS              hot  disc lift 1.69 (n=182)  val lift 1.52  :: past_events > 1.5 AND sibling_prev <= 0.5 AND age <= 7.5
+REPEATS              hot  disc lift 1.50 (n=350)  val lift 1.58  :: past_events <= 1.5 AND nloc0 > 22.5 AND prev_event > 0.5 AND age <= 8.5
+REPEATS              cold disc lift 0.47 (n=722)  val lift 0.24  :: past_events <= 1.5 AND nloc0 <= 22.5 AND ccn0 <= 2.5 AND rel_size <= 0.0931
+REPEATS              cold disc lift 0.40 (n=1152)  val lift 0.50  :: past_events <= 1.5 AND nloc0 <= 22.5 AND ccn0 <= 2.5 AND rel_size > 0.0931
+== instance features only, lift vs the same release | c -> python
+NOISE                hot  disc lift 2.44 (n=8749)  val lift 1.25  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before > 4.5 AND past_events > 4.5
+too few repositories hot  disc lift 2.26 (n=715)  val lift nan  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before <= 4.5 AND file_n > 68.5
+NOISE                hot  disc lift 2.25 (n=6036)  val lift 1.05  :: prev_event <= 0.5 AND past_events > 1.5 AND age <= 14.5 AND past_events > 3.5
+too few repositories hot  disc lift 2.02 (n=3435)  val lift nan  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before <= 4.5 AND file_n <= 68.5
+NOISE                hot  disc lift 1.77 (n=6144)  val lift 1.09  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before > 4.5 AND past_events <= 4.5
+NOISE                hot  disc lift 1.62 (n=3385)  val lift 1.42  :: prev_event > 0.5 AND past_events <= 1.5 AND n_obs_before <= 2.5 AND file_n <= 98
+too few repositories hot  disc lift 1.42 (n=382)  val lift nan  :: prev_event > 0.5 AND past_events <= 1.5 AND n_obs_before <= 2.5 AND file_n > 98
+REPEATS              cold disc lift 0.27 (n=58144)  val lift 0.86  :: prev_event <= 0.5 AND past_events <= 1.5 AND n_obs_before > 0.5 AND past_events <= 0.5
+== instance features only, lift vs the same release | real -> synthetic
+too few repositories hot  disc lift 2.87 (n=150)  val lift nan  :: prev_event <= 0.5 AND past_events > 1.5 AND age > 14.5 AND past_events > 10.5
+REPEATS              hot  disc lift 2.41 (n=8953)  val lift 2.75  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before > 4.5 AND past_events > 4.5
+too few repositories hot  disc lift 2.26 (n=715)  val lift nan  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before <= 4.5 AND file_n > 68.5
+REPEATS              hot  disc lift 2.20 (n=6267)  val lift 1.71  :: prev_event <= 0.5 AND past_events > 1.5 AND age <= 14.5 AND past_events > 3.5
+too few repositories hot  disc lift 2.02 (n=3535)  val lift nan  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before <= 4.5 AND file_n <= 68.5
+NOISE                hot  disc lift 1.71 (n=6739)  val lift 1.31  :: prev_event > 0.5 AND past_events > 1.5 AND n_obs_before > 4.5 AND past_events <= 4.5
+too few repositories hot  disc lift 1.62 (n=3538)  val lift nan  :: prev_event > 0.5 AND past_events <= 1.5 AND n_obs_before <= 2.5 AND file_n <= 98
+too few repositories hot  disc lift 1.42 (n=382)  val lift nan  :: prev_event > 0.5 AND past_events <= 1.5 AND n_obs_before <= 2.5 AND file_n > 98
+REPEATS              cold disc lift 0.31 (n=65674)  val lift 0.46  :: prev_event <= 0.5 AND past_events <= 1.5 AND n_obs_before > 0.5 AND past_events <= 0.5

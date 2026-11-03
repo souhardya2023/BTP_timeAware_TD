@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+hotel_booking,v0.1,v0.2,0,0.3612,76,256,15,0,4
+hotel_booking,v0.2,v0.3,1,0.4445,16,331,79,0,6
+hotel_booking,v0.3,v0.4,2,0.6152,23,342,79,2,6
+hotel_booking,v0.4,v0.5,3,0.5268,45,359,80,1,6
+hotel_booking,v0.5,v0.6,4,0.5338,40,396,84,1,7
+hotel_booking,v0.6,v0.7,5,0.5598,18,424,85,1,8
+hotel_booking,v0.7,v0.8,6,1.1281,78,433,85,0,8
+hotel_booking,v0.8,v0.9,7,2.0708,69,501,85,4,8
+hotel_booking,v0.9,v0.10,8,1.035,46,546,85,2,8
+hotel_booking,v0.10,v0.11,9,2.9668,141,579,81,7,7

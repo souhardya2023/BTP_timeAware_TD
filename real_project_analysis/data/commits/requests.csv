@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+requests,6f66281a1d,2026-06-09,392c7dd4,Add hasattr checks for remaining protocol isinstance checks (#7505),3,2,24,7,9,7,0,0,0,3,0,0,0,1,1,0,0,51,3,3,7,0,0,0,0,0
+requests,6f205ff422,2026-06-08,c99f6b11,Fix `_encode_files` detection for `__getattr__`-based file wrappers (#7502),2,1,14,1,3,1,1,0,0,1,0,0,1,0,0,0,0,51,1,1,1,0,0,0,0,0
+requests,661970d171,2026-06-08,1de625e3,Disable commonly ignored Pyright linting rules (#7497),10,9,36,29,31,29,0,0,0,10,0,0,0,0,0,0,0,81,3,4,31,0,0,0,0,0
+requests,1190afd14f,2026-06-04,1de625e3,Add type annotation for `Request.hooks` (#7498),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,e50e594529,2026-06-04,1de625e3,Improve static typing of 3rd party imports  (#7496),5,4,19,14,16,14,0,0,0,3,0,0,0,0,0,0,0,51,1,1,16,0,0,1,0,0
+requests,cd90742ed9,2026-05-18,f3591d53,docs: indent continuation line in Session.get :param params: (#7460),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+requests,6e83187b8f,2026-05-14,392c7dd4,v2.34.2,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,84d10f0be8,2026-05-14,392c7dd4,Move Request.headers back to Mapping (#7441),2,2,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+requests,b7b549b545,2026-05-13,392c7dd4,v2.34.1,2,1,16,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,e511bc7277,2026-05-13,392c7dd4,Fix mutability issues with headers input types (#7431),3,3,6,6,6,6,1,0,0,2,0,0,0,0,0,0,0,46,2,2,6,0,0,1,0,0
+requests,5691f59613,2026-05-13,392c7dd4,Update JsonType containers to read-based collections (#7436),1,1,8,2,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+requests,2144213c30,2026-05-13,392c7dd4,Constrain Response.reason to str (#7437),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+requests,6404f345e5,2026-05-12,6a14734d,Fix `prepare_body` stream detection for `__getattr__`-based file wrappers (#7433),2,1,18,3,3,3,1,0,0,1,0,0,1,0,0,0,0,48,1,2,2,0,0,0,0,0
+requests,0b401c76b6,2026-05-11,392c7dd4,v2.34.0,2,1,22,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,86b378d3f6,2026-05-11,392c7dd4,Align Session.get parameters with requests.get (#7429),1,1,9,2,9,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,9,0,0,0,0,0
+requests,a4f9a5999b,2026-05-11,392c7dd4,Port bpo-39057 to Requests (#7427),2,1,27,2,4,2,0,0,0,1,0,0,1,0,0,0,0,37,1,4,4,0,0,0,0,0
+requests,3816cfa1ab,2026-05-11,392c7dd4,Parameterize SupportsItems to handle Mapping key invariance (#7426),2,2,9,7,9,7,0,0,0,2,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+requests,b684dcb9bb,2026-05-11,5b3ee8c3,sessions: fix hooks type (#7425),2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,46,1,1,2,0,0,0,0,0
+requests,fd628095d7,2026-05-10,12be5a71,Preserve leading slashes in request path_url (#7315),2,1,2,4,0,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0
+requests,f7822f7c41,2026-05-03,392c7dd4,v2.34.0.dev1,2,1,17,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,561e4b6889,2026-05-03,392c7dd4,Add inline types to Requests (#7272),20,16,1308,525,1266,525,0,4,0,239,0,0,14,0,4,0,0,81,19,171,1129,0,0,0,0,0
+requests,27e0981962,2026-04-30,c326dcd6,Fix remaining typos (#7395),2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+requests,b294b08fe3,2026-04-20,f360098a,Consider urllib3 version has 3 numbers at most (#7375) (#7376),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+requests,d2f6bdecc8,2026-04-15,46c5f880,"Clarify decode_unicode behaviour in iter_{content,lines} docstrings (#7365)",1,1,7,2,7,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+requests,a044b020de,2026-04-15,392c7dd4,Move DigestAuth hash algorithms to use usedforsecurity=False (#7310),1,1,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,68,1,5,5,1,0,0,1,0
+requests,ef439eb779,2026-04-05,392c7dd4,Prevent Response self-reference in redirect history (#7328),2,1,9,2,1,2,0,0,0,1,0,0,0,0,0,0,0,80,1,1,1,0,0,0,0,0
+requests,111d2b7779,2026-03-30,392c7dd4,v2.33.1,2,1,12,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,f0198e6dfc,2026-03-30,392c7dd4,Fix malformed value parsing for Content-Type (#7309),2,1,10,13,6,9,1,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+requests,bc7dd0fc4d,2026-03-30,392c7dd4,Fix cosmetic header validity parsing regex (#7308),2,1,9,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+requests,bc04dfd6da,2026-03-25,392c7dd4,v2.33.0,2,1,30,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,66d21cb07b,2026-03-25,392c7dd4,Merge commit from fork,1,1,7,6,7,6,0,0,0,1,0,0,0,0,0,0,0,21,0,0,6,0,0,0,0,0
+requests,e331a288f3,2026-03-24,392c7dd4,Remove unused extraction call (#7292),2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,1,0
+requests,b2a1d33f57,2026-03-03,e1105794,Increase chardet upper limit to 8,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+requests,4bd79e3973,2026-02-22,bd017011,Increase chardet upper limit to 7,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+requests,5e7cb71cd7,2026-02-13,392c7dd4,Bump version to dev for test publish,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,5f338446f9,2026-02-12,67af023a,Update docstring for Session.verify to include string support (#6859) (#6865),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+requests,47914226c2,2026-02-12,392c7dd4,Fix empty netrc entry usage (#7205),2,1,11,1,1,1,1,0,0,1,0,0,1,0,0,0,0,28,1,1,1,0,0,0,0,0
+requests,0c2bbe7398,2026-02-06,392c7dd4,Drop support for Python 3.9 (#7196),5,1,11,13,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,cb2c800518,2026-01-30,392c7dd4,Migrate build system to PEP 517 (#7012),3,1,79,111,4,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,f8bec2f7ca,2026-01-30,392c7dd4,Fix CI and build failures (#7190),19,12,73,72,31,30,1,0,0,4,0,0,0,0,0,0,0,32,0,0,26,0,0,0,0,0
+requests,b25c87d7cb,2025-08-18,392c7dd4,v2.32.5,2,1,12,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,2edca11103,2025-07-25,392c7dd4,Add support for Python 3.14 and drop support for Python 3.8 (#6993),7,1,19,14,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,d58d8aa2f4,2025-07-18,15d77beb,docs: clarify timeout parameter uses seconds in Session.request (#6994),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,43,1,1,1,0,0,0,0,0
+requests,90fee0876a,2025-06-13,392c7dd4,Revert caching a default SSLContext (#6767),1,1,16,39,16,39,0,0,0,2,0,0,1,0,0,0,0,37,1,13,13,0,0,0,0,0
+requests,3f07f990ac,2025-06-09,39c1f805,Fix typo in documentation for verify,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+requests,821770e822,2025-06-09,ca076f41,Bump version and add release notes for v2.32.4,2,1,13,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,5b4b64c346,2025-06-05,dd63d4a5,Add more tests to prevent regression of CVE 2024 47081,2,1,20,8,1,8,1,0,0,1,0,0,0,1,0,0,0,28,1,1,1,1,0,0,0,0
+requests,96ba401c12,2025-06-04,392c7dd4,Only use hostname to do netrc lookup instead of netloc,1,1,1,7,1,7,0,0,0,1,0,0,0,1,0,0,0,31,1,1,1,0,0,0,0,0
+requests,5d31ddbf7b,2025-02-12,16ee6ba0,Update src/requests/models.py,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,a2fd25ff34,2025-02-11,16ee6ba0,Update models.py,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+requests,d96f9982a2,2025-02-11,16ee6ba0,Update src/requests/models.py,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+requests,f519bbae33,2024-09-18,d83bf34c,add trove classifier for 3.13,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,314e7c9c70,2024-09-18,d83bf34c,upgrade to pytest-httpbin 2.1.0 final,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,92f10cec5b,2024-09-18,d83bf34c,upgrade to pytest-httpbin 2.1.0rc1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,15e1f17bb6,2024-07-29,eb9b140b,remove setuptools test command,1,1,0,26,0,26,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1,0
+requests,01353d3b4a,2024-07-23,392c7dd4,Invert major version check,3,2,7,7,5,5,0,0,0,1,0,0,0,0,0,0,0,45,1,1,4,0,0,0,0,0
+requests,4e383642a9,2024-07-18,392c7dd4,Add conditional string encoding based on urllib3 major version,3,2,40,18,16,1,0,0,0,1,0,0,1,0,0,0,0,45,1,1,7,0,0,0,0,0
+requests,0e322af877,2024-05-29,392c7dd4,v2.32.3,2,1,6,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,e188799322,2024-05-29,392c7dd4,Don't create default SSLContext if ssl module isn't present (#6724),1,1,19,5,19,5,0,0,0,1,0,0,0,0,0,0,0,39,0,0,12,0,0,1,0,0
+requests,b1d73ddb50,2024-05-24,392c7dd4,Don't use default SSLContext with custom poolmanager kwargs,1,1,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,36,0,0,5,0,0,0,0,0
+requests,a62a2d35d9,2024-05-22,ca076f41,Allow for overriding of specific pool key params,2,1,76,9,69,9,0,0,0,1,0,0,0,0,1,0,0,27,0,0,63,0,0,0,0,0
+requests,88dce9d854,2024-05-21,392c7dd4,v2.32.2,2,1,16,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,92075b330a,2024-05-21,392c7dd4,Add deprecation warning,1,1,10,0,10,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,10,0,0,0,0,0
+requests,aa1461b68a,2024-05-21,392c7dd4,Move _get_connection to get_connection_with_tls_context,1,1,21,6,21,6,0,0,0,2,0,0,1,0,1,1,0,74,1,3,19,0,0,0,1,0
+requests,970e8cec98,2024-05-20,392c7dd4,v2.32.1,3,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,d6ebc4a2f1,2024-05-20,392c7dd4,v2.32.0,2,1,48,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,9a40d12778,2024-05-15,45bef2d6,Avoid reloading root certificates to improve concurrent performance (#6667),1,1,28,18,28,18,0,0,0,2,0,0,0,1,0,0,0,34,1,10,22,0,1,0,0,0
+requests,555b870eb1,2024-05-14,392c7dd4,Allow character detection dependencies to be optional in post-packaging steps,5,4,60,23,40,23,0,0,0,2,0,0,0,0,1,0,0,24,0,0,30,0,0,1,0,0
+requests,e45b428960,2024-04-08,aae7b121,Add rfc9110 HTTP status code names,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,13d892bdbe,2024-03-18,f27b3f3e,Additional should_bypass_proxies function test cases,2,1,33,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,1604e20fc8,2024-03-18,f27b3f3e,Fix the proxy_bypass_registry function all returning true in some cases.,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+requests,a94e9b5308,2024-03-14,ca076f41,Add local TLS server,30,1,716,9,14,4,0,0,0,3,0,0,0,0,0,0,0,72,1,1,12,0,0,0,0,0
+requests,c0813a2d91,2024-03-06,ca076f41,Use TLS settings in selecting connection pool,3,1,65,2,57,1,0,0,0,1,0,0,0,0,2,0,0,72,1,1,47,0,0,0,0,0
+requests,60389df6d6,2024-02-22,ca076f41,Trim excess leading path separators,2,1,11,0,3,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+requests,58cea7a728,2024-02-20,392c7dd4,Drop support for CPython 3.7,7,1,8,10,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,3ff3ff21dd,2024-01-31,140d69f4,Fix #6628 - JSONDecodeError are not deserializable,2,1,20,0,10,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+requests,3fd309a5c1,2023-11-29,e918e5d5,Enhance `super_len` to count encoded bytes for str,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,45,1,2,2,0,0,0,0,0
+requests,b37878d340,2023-11-28,5335d77e,Too early definition added to 425 status code type,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,15849947ec,2023-11-22,052bdb8d,fix docstring typo: a -> as,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,c32b046243,2023-11-15,472f0292,Fix missing space in error message,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+requests,89cde235be,2023-11-04,a40a16f0,checkstyle,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,d7490c9d2d,2023-10-31,2a863168,Update src/requests/packages.py,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,e9b1217cff,2023-10-31,a40a16f0,added handling for chardet and charset_normalizer imports,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+requests,ad761abcdd,2023-10-31,a40a16f0,every chardet package maps to requests.packages.chardet.* package respectively,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,12862617df,2023-09-14,16ee6ba0,Update models.Response.json docstring clearer,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+requests,d63e94f552,2023-08-13,392c7dd4,Move to src directory (#6506),22,19,11,14,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+requests,e9fa2e2da3,2023-08-13,392c7dd4,Add 3.12 classifier and tox configuration (#6503),2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,8112fcc7be,2023-08-12,392c7dd4,Pre commit update (#6498),7,5,9,29,5,12,0,0,0,4,0,0,0,0,0,0,0,49,3,3,4,0,0,0,0,0
+requests,dfe46c1b7f,2023-07-29,03d63f53,refactor: prefer dictionary comphrension to loop (#6187),1,1,1,5,1,5,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,1
+requests,2ecdb68561,2023-07-29,0c97c029,"Update reference to ""cookielib"" to ""cookiejar"" in documentation (#6214)",1,1,8,8,8,8,0,0,0,4,0,0,0,0,0,0,0,6,0,0,8,0,0,0,0,0
+requests,fecf3dc472,2023-07-29,4287ab11,add docstring parameter `hooks` (#6456),1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,43,1,2,2,0,0,0,0,0
+requests,22db55a889,2023-06-26,8263efe7,Fix doc typo (#6467),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,6e5b15d542,2023-05-22,392c7dd4,Fix linting issues,2,1,10,9,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+requests,147c8511dd,2023-05-22,392c7dd4,v2.31.0,2,1,29,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,74ea7cf7a6,2023-05-22,392c7dd4,Merge pull request from GHSA-j8r2-6x86-q33q,2,1,23,1,3,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+requests,b639e66c81,2023-05-13,d83bf34c,test on py3.12 (#6448),3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,2ad18e0e10,2023-05-03,392c7dd4,v2.30.0,4,3,19,7,7,7,0,0,0,1,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+requests,f2629e9e3c,2023-04-28,ee50ae7f,Remove strict parameter (#6434),1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,0,0,0,0,1,0
+requests,87d63de873,2023-04-26,392c7dd4,v2.29.0,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,26bea1e498,2023-04-22,f4cb269d,Use urllib3 native chunking ability (#6226),1,1,13,58,13,58,0,0,0,1,0,0,0,1,0,0,0,72,1,13,13,0,0,0,0,0
+requests,7f694b79e1,2023-03-03,d437ba8e,Allow str/bytes subclasses to be used as header parts,3,2,48,13,23,13,0,0,0,2,0,0,0,0,0,0,0,16,0,0,23,0,0,1,0,0
+requests,e90852d20c,2023-03-02,a9139f8a,Make json doc strings consistent (#6368),1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+requests,16a17a3ca7,2023-01-18,5a8acb27,fix: Remove '<4' from python_requires (#6333),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,61c324da43,2023-01-12,392c7dd4,v2.28.2,2,1,14,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,53a0562331,2022-10-23,17255f60,change to SPDX conform license string,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,c57f1f0ca1,2022-10-20,334a0fda,Allow charset normalizer >=2 and <4 (#6261),3,2,4,4,3,3,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+requests,bda7f0171f,2022-06-29,21a725e5,Fixed warnings message to suggest using secure protocol. (#6188),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,45,1,1,1,1,0,0,0,0
+requests,4d394574f5,2022-06-29,392c7dd4,v2.28.1,2,1,14,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,16b418b44a,2022-06-28,03d63f53,Use yield from instead of looping yield (#6170),1,1,1,2,1,2,0,0,0,2,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+requests,0e28c8f1dc,2022-06-28,16ec8872,Allow charset normalizer >=2 and <3 (#6169),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,73793ce43e,2022-06-27,fbc4b4c5,"Update Dependency with `chardet>=3.0.2,<6` (#6179)",2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,1,0,0
+requests,da9996fe4d,2022-06-09,392c7dd4,v2.28.0,2,1,26,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,e36f34597c,2022-06-08,392c7dd4,Add valdation for header name (#6154),3,2,72,62,27,19,0,0,0,1,0,0,0,0,1,0,0,10,0,0,22,0,0,1,0,0
+requests,210095fd08,2022-06-01,392c7dd4,Tolerate bad registry entries in Windows proxy settings (#6149),2,1,34,1,1,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+requests,79f2ec3acc,2022-05-13,b6fd0233,Grammar fix (#6133),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,2a6f290bc0,2022-04-29,392c7dd4,Add automatic code formatting to Requests (#6095),39,19,2830,2399,1166,898,0,0,0,147,0,0,12,3,1,0,0,104,19,300,1129,0,0,0,0,0
+requests,2d5517682b,2022-03-28,392c7dd4,Fix inconsistent exception for JSONDecode error (#6097),2,1,26,0,2,0,1,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+requests,8bce583b95,2022-03-25,392c7dd4,"Farewell, sweet Concorde!",19,8,141,180,71,108,0,0,0,8,0,0,0,2,0,0,0,93,2,2,62,0,0,0,0,0
+requests,79c4a017fe,2022-02-25,392c7dd4,Fix environment CA Bundle resolution,2,1,49,6,13,6,1,0,0,1,0,0,1,0,0,0,0,22,1,11,11,0,0,0,0,0
+requests,95f4567336,2022-02-05,392c7dd4,Wrap urllib3's SSLError as requests' SSLError (#6057),3,1,55,5,9,1,0,0,0,2,0,0,0,0,0,0,0,20,0,0,9,0,0,0,0,0
+requests,fa1b0a367a,2022-01-13,452ee204,Initialize JsonDecodeError before initializing IOError (#6036),2,1,23,3,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+requests,31a89d9c84,2022-01-05,392c7dd4,v2.27.1,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,38f3f8ecb9,2022-01-04,392c7dd4,Fix auth parsing for proxies,2,1,12,0,4,0,1,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+requests,0192aac241,2022-01-03,392c7dd4,v2.27.0,2,1,48,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,17e6e27a93,2021-12-29,392c7dd4,General cleanup for 2.27.0,3,1,14,10,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1
+requests,0d5347e628,2021-12-28,392c7dd4,Only compute should_bypass_proxies if needed,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,ef59aa0227,2021-12-28,345f33cc,Move from urlparse to parse_url for prepending schemes,2,1,16,6,15,6,0,0,0,1,0,0,0,0,0,0,0,11,0,0,9,0,0,0,1,0
+requests,4246792b81,2021-12-28,392c7dd4,Fix erroneous use of 'schema' instead of 'scheme',2,2,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,55,1,1,3,0,0,0,0,0
+requests,658c10e84a,2021-12-28,ea00e776,Raise InvalidURL if hosts starts with '.' as was reported at #5367.,2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,55,1,1,1,0,0,0,0,0
+requests,2d2447e210,2021-11-28,a3c1fb78,Catch AttributeError in utils.super_len (#5239),3,1,22,3,4,1,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+requests,99b3b49241,2021-11-24,392c7dd4,Refactor rebuild_proxies to allow proxy resolution (#5924),3,2,45,18,35,17,0,0,0,2,1,0,0,0,1,0,0,40,1,4,28,0,0,0,0,1
+requests,fc106ab586,2021-09-15,03d63f53,fix minor typos (#5934),3,1,5,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,248122a697,2021-09-03,392c7dd4,Add support for 3.10 (#5928),3,1,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,4ab2550d66,2021-09-02,345f33cc,Add test for default chunked Host header,2,1,36,14,2,1,0,0,0,1,0,0,1,0,0,0,0,96,1,2,2,0,0,1,0,0
+requests,6fbfca90b6,2021-09-02,71a2a92c,Send only one Host header in chunked request,3,1,30,1,2,1,0,0,0,1,0,0,1,0,0,0,0,95,1,2,2,0,0,1,0,0
+requests,10968357a1,2021-08-26,392c7dd4,Appropriately handle urllib3's InvalidHeader exception (#5914),2,1,30,1,4,1,0,0,0,1,0,0,1,0,0,0,0,94,1,2,4,0,0,1,0,0
+requests,d8829f9f24,2021-08-02,4b4c08b7,Fix extract_zipped_paths infinite loop when provided invalid unc path (#5851),2,1,8,0,4,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,1,0
+requests,db575eeedc,2021-07-26,b213b845,Fix inconsistent exception type in response.json() method (#5856),7,4,47,18,32,13,1,0,0,2,0,0,0,0,0,0,0,46,1,2,26,0,0,0,0,0
+requests,a1a6a549a0,2021-07-13,345f33cc,v2.26.0,2,1,24,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,f6c0619d89,2021-07-09,345f33cc,Disable requests[security] and remove 3.5 support references,7,1,14,8,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,1,0
+requests,33cf965f72,2021-07-07,d84bd8d3,Allow idna 3.x to be installed on Python 3.x,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,5351469472,2021-07-07,ac7e8136,Add support for brotli decoding (#5783),4,1,15,1,7,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+requests,24630743ce,2021-07-06,36e2329a,Avoid zip extract racing condition by using read+write instead extract (#5707),1,1,18,3,18,3,0,0,0,1,0,0,0,0,1,0,0,18,0,0,15,0,0,0,1,0
+requests,2ed84f55b2,2021-07-06,e0a94dc3,Switch LGPL'd chardet for MIT licensed charset_normalizer (#5797),10,6,119,27,67,19,0,0,0,4,1,0,0,0,0,0,0,54,1,8,58,0,0,0,0,0
+requests,05a1a21593,2021-05-06,e8122ae2,Throw value error when serializing JSON object with NaN value (#5810),3,2,17,3,11,2,0,0,0,1,0,0,1,0,0,0,0,46,1,4,7,0,0,0,0,0
+requests,2c2138e811,2021-03-19,1d0ab85a,Update setup.py (#5780),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,c267415882,2021-03-19,c79e1668,Remove call to set default value for allow_redirects,1,1,0,2,0,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0
+requests,f79d1ef42f,2021-03-18,42e236d6,Also update requests.models.Response,1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+requests,c2b307dbef,2020-12-16,345f33cc,v2.25.1,2,1,13,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,6de4f104cd,2020-12-14,90e3f5d5,Change docs title to requests.sessions,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,516f84f490,2020-12-11,e1105794,Upgrade to chardet 4.x,2,2,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+requests,60ea7f0c2d,2020-12-08,3952465e,#5677: Rebuild proxies on Session#send,2,1,40,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,0,0,1,0,0,0,0,0
+requests,5855dd711f,2020-11-29,a2fa4fbb,"updated `get_encoding_from_headers` to return utf-8 if the content type is set to application/json, ",1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,1,0,0
+requests,d1ca591c0f,2020-11-27,b6f8abe8,"Revert ""New helper method `set_http_proxy` in `Session` to set proxies in a more user friendly way""",2,1,0,120,0,85,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+requests,4b66260cb7,2020-11-27,b6f8abe8,New helper method `set_http_proxy` in `Session` to set proxies in a more user friendly way,2,1,120,0,85,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,70,0,0,0,0,0
+requests,03957eb1c2,2020-11-11,345f33cc,v2.25.0,4,3,25,6,7,6,0,0,0,1,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+requests,ba543713d3,2020-10-31,11f4762d,Respect the NETRC environment variable,2,1,10,3,8,2,0,0,0,1,0,0,1,0,0,0,0,34,1,7,7,0,0,0,0,0
+requests,333fa8d3f2,2020-09-29,4b9784a8,Remove reading HISTORY.md in setup.py,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+requests,02eb5a2cd3,2020-08-16,95ee7477,Document the dangers of using verify=False,2,1,19,1,13,1,0,0,0,1,0,0,0,0,0,0,0,28,1,6,6,0,0,0,0,0
+requests,9cae7be94f,2020-06-18,f8dde4b8,Clarify that PreparedRequests should not be manually created,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,1ca1c52e69,2020-06-17,c90d00cb,Google App Engine (#5475),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,0797c61fd5,2020-06-17,345f33cc,v2.24.0,2,1,12,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,71a05cf289,2020-06-16,25ec5e56,Avoid an unnecessary computation of the length of data for non-stream requests (which determines con,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,43,1,4,4,0,0,0,0,0
+requests,fa2dbe9a91,2020-06-15,25ec5e56,Remove what appears to be an un-needed call to self.resolve_redirects when not following redirects a,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,37,0,0,5,0,0,0,1,0
+requests,9ed5db8ed2,2020-05-08,d83bf34c,fix raise_for_status docstring (#5293),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+requests,db47b9b4a0,2020-05-01,14b55fe3,Don't use pyOpenSSL unless no SNI is detected,1,1,14,6,14,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+requests,ca6f9af5db,2020-02-23,08e128cb,Normalize exception docstrings (#5338),1,1,3,6,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,b7c6aba848,2020-02-19,345f33cc,v2.23.0,2,1,19,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,fd13816d01,2020-02-18,345f33cc,"Revert ""Fix for response with UTF-8 BOM #4976""",3,1,0,34,0,3,1,0,0,1,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0
+requests,24bcb9eab6,2020-02-18,345f33cc,"Revert ""Use urllib for chunked requests""",1,1,58,13,58,13,0,0,0,1,0,0,1,0,0,0,0,92,1,44,44,0,0,0,0,0
+requests,b15056d1d3,2020-02-18,345f33cc,"Revert ""#4965 fix: Accessing response.content twice removes forgets read error.""",3,1,3,62,3,20,1,0,0,4,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+requests,80011a7917,2020-02-18,58845eea,Remove an obsolete attribute from __attrs__,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,c46f55bd48,2020-02-18,0ec9d925,Limit dependencies to major instead of minor (#5342),1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+requests,d2590ee46c,2019-10-24,f44fecd0,Change documentation website to requests.readthedocs.io (#5236),11,3,16,16,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,e08981ee46,2019-09-19,345f33cc,updating project url,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,09fd857eb1,2019-09-19,345f33cc,"Revert ""Add trusted domains""",1,1,1,8,1,8,0,0,0,2,0,1,0,0,0,1,0,15,1,1,1,0,0,0,0,0
+requests,39b3dcf7d9,2019-09-17,c7032aa4,Fix formatting of status code example,1,1,10,7,10,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+requests,bc81ee3af4,2019-08-20,96ed14d8,Update setup.py,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,9cdf294107,2019-08-19,218ebcc1,Updated references to previous requests/requests GitHub path,17,4,44,44,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,a4c18cd733,2019-07-29,a5fcbcc5,Add missing backtick (#5145),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,c79d61b953,2019-07-20,a5fcbcc5,List valid methods for request(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,2da7fe0858,2019-07-02,6fb1be08,Use urllib for chunked requests,1,1,13,58,13,58,0,0,0,1,0,0,0,1,0,0,0,61,1,13,13,0,0,0,0,0
+requests,c8d8b4b513,2019-07-01,0d0c6c2a,Document that `request.head` defaults `allow_redirects` to `False`,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+requests,45c2e679e0,2019-06-24,4d060858,Update sessions.py,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,69,1,2,3,0,0,0,0,0
+requests,47cb8bae1a,2019-05-29,4d060858,Update sessions.py,1,1,1,5,1,5,0,0,0,2,0,0,0,1,0,0,0,66,1,1,1,0,0,0,0,0
+requests,dc75b3ca0b,2019-05-24,7a2c5c6b,Support pytest 4,2,1,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,d88240ba44,2019-05-20,a46ad25e,Print the type of the password instead of the password itself,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+requests,6d2a5072ca,2019-05-19,c186851b,[add] add NORMALIZE_WHITESPACE and ELLIPSIS to pytest.ini and remove them from requests/__init__.py,2,1,2,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+requests,67a0e90b6b,2019-05-19,c186851b,[change] change doctest based on LuckyDenis suggestion,1,1,11,2,11,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+requests,aeda65bbe5,2019-05-15,345f33cc,v2.22.0,4,3,13,13,6,6,0,0,0,1,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+requests,68e581f1b5,2019-05-15,345f33cc,drop 3.4 support,3,1,14,8,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,bd10047244,2019-05-14,8f5e0973,#4965 fix: Accessing response.content twice removes forgets read error.,2,1,57,7,16,7,1,0,0,3,0,0,0,0,0,0,0,21,0,0,7,0,0,0,0,0
+requests,d91fe00983,2019-05-13,8f5e0973,#4965 fix-draw: Accessing response.content twice removes forgets read error.,2,1,9,0,8,0,1,0,0,4,0,0,0,0,0,0,0,21,0,0,6,0,0,0,0,0
+requests,a310b5ab34,2019-04-30,48889f15,Possible fix for #4945?,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,8b773a4fed,2019-04-07,c186851b,[remove] remove invalid field in docete,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,7d7d9ebacf,2019-02-23,eb842ad1,Add project URLs with links to source code and docs,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,fd926e74c3,2019-02-17,c186851b,[change] change description in __init__ module. Now it is the same as master,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+requests,177f4dd2a4,2019-02-17,c186851b,[fix] fix failing doctests in requests/* [add] add --doctest-modules in pytest.ini file as addopts [,8,6,17,17,15,16,1,0,0,3,0,0,0,0,0,0,0,8,0,0,15,0,0,1,0,0
+requests,fbe48fbb7c,2019-02-15,61bd221e,Add trusted domains,1,1,8,1,8,1,0,0,0,2,1,0,0,0,1,0,0,16,1,2,5,0,0,0,0,0
+requests,19cff44ec1,2019-02-09,e1bdf934,fix response with utf8 bom,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+requests,2aab9a9a39,2018-12-29,0b125a63,Remove internal use of unnecessary compat shim for OrderedDict,5,4,13,7,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0
+requests,c4d76800e8,2018-12-13,306d7f04,"get(), request(): fix documentation of 'params'",1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+requests,5a1e738ea9,2018-12-09,345f33cc,v2.21.0,2,1,9,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,8761e9736f,2018-12-09,16155861,Bumped maximum version of idna,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,6cfbe1aedd,2018-11-08,345f33cc,v2.20.1,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,a7aa86a933,2018-11-06,5a676f77,Set iter_lines() decode_unicode default to False,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+requests,ccbffe5a53,2018-10-29,46be53ef,Incorrect ValueError Message,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+requests,ea9436a5d6,2018-10-28,345f33cc,proper handling for default ports in auth stripping,3,2,24,2,13,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,9,0,0,0,0,0
+requests,bd840450c0,2018-10-17,345f33cc,v2.20.0,4,3,23,6,5,5,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+requests,7fd9267b3b,2018-10-17,345f33cc,remove final remnants from 2.6,12,7,42,70,19,38,0,0,0,7,0,0,0,0,0,1,0,92,4,6,16,0,0,0,1,0
+requests,89ab030cdb,2018-10-16,5ed4e48e,Use comprehensions whenever possible,7,5,22,25,20,23,0,0,0,6,0,0,0,0,0,0,0,26,0,0,20,0,0,0,0,0
+requests,bbdbcc8f05,2018-09-30,345f33cc,wrap url parsing exceptions from urllib3's PoolManager,3,1,23,4,7,2,0,0,0,1,0,0,1,0,0,0,0,92,1,4,7,0,0,0,0,0
+requests,b0ad2499c8,2018-09-30,0b125a63,Prefer https:// for URLs throughout project,20,5,90,90,8,8,0,0,0,1,0,0,0,0,0,0,0,3,0,0,6,0,0,0,0,0
+requests,eea96f94d9,2018-09-17,96ed14d8,Update setup.py,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,b9dfc95cf2,2018-09-15,0a6e9a66,"Tuple test_requirements was too long, PEP8",1,1,8,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+requests,857e9b7ac2,2018-09-14,870810e6,Rework authorization stripping logic as discussed,2,1,40,19,18,8,0,0,0,1,0,0,0,0,1,0,0,9,0,0,12,0,0,0,0,0
+requests,3331e2aecd,2018-09-14,870810e6,Strip Authorization header whenever root URL changes,2,1,14,2,3,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,1,0,0
+requests,8023a01dba,2018-08-13,e654f881,Fix assumed hostname when using a 'file' URI scheme adapter,2,1,5,0,4,0,1,0,0,1,0,0,1,0,0,0,0,34,1,2,2,0,0,0,0,0
+requests,489f58ced5,2018-08-06,345f33cc,represent classifiers as list instead of tuple,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,72d96a67ef,2018-08-01,f3d66fc0,Add return type on cookies.py,1,1,2,0,2,0,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+requests,907c927d60,2018-07-24,b1848f31,make content-type's charset information case-insensitive,2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+requests,6686ac1730,2018-07-24,642d83a0,Add official Python 3.7 support (#4717),3,1,30,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,c008bf3883,2018-07-17,306d7f04,Document that 'params' can also be a list of tuples,2,2,7,3,7,3,0,0,0,2,0,0,0,0,0,0,0,3,0,0,7,0,0,0,0,0
+requests,2d1b4482c5,2018-07-17,306d7f04,Document that 'data' can be a list of tuples everywhere,3,3,19,10,19,10,0,0,0,8,0,0,0,0,0,0,0,28,1,2,19,0,0,0,0,0
+requests,b1a360c2f1,2018-07-09,abb851c8,Fix an invalid escape sequence,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+requests,5d90638281,2018-06-26,6fddc504,Misspelled 'proxy' parameter in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+requests,1c13c5e6f3,2018-06-21,6fddc504,Document that `requests.session()` is depreciated,1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+requests,883caaf145,2018-06-14,345f33cc,v2.19.1,2,1,11,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,8031ec76b8,2018-06-12,132eb5e7,Do not alter status_codes docstring if it is None,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+requests,991e8b76b7,2018-06-12,345f33cc,v2.19.0,5,3,23,11,6,7,0,0,0,1,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+requests,7e297ed95b,2018-06-11,edbf9b64,Separate collections from collections.abc,7,6,17,19,15,18,0,0,0,4,0,0,0,0,0,0,0,43,1,1,15,0,0,0,0,0
+requests,10915e3b0d,2018-06-11,07233786,Add a public method to get the cookie policy,2,1,6,2,5,1,0,0,0,1,0,0,0,0,1,0,0,5,0,0,4,0,0,0,0,0
+requests,3ef49272f2,2018-06-11,07233786,Copy cookie policy when copying a CookieJar,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+requests,de64f0f23f,2018-06-10,345f33cc,port pyopenssl fix from urllib3,1,1,7,1,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+requests,ac944b7439,2018-06-05,38d9760f,Allow urllib3 1.23,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,c1b828bc95,2018-05-26,7bb87b1a,Response.content minor perf improvement,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+requests,8546a15587,2018-05-17,ec514d67,The library raises NoneType error when file-pointer (fp) resolves to None.,3,1,14,1,5,1,0,0,0,1,0,0,1,0,0,0,0,44,1,5,5,0,0,0,0,0
+requests,60a5a393d8,2018-05-13,58b1d562,Add a comment about lowercase env. variables precedence over uppercase,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,048c926b46,2018-05-07,f55018e4,README is in ReST,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,5f306dbe99,2018-05-04,f55018e4,Add long_description_content_type to setup.py,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,75c57985b0,2018-04-30,cc071c3e,update json param's description to avoid confusion,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,265ef609d5,2018-02-17,0b125a63,"Remove remaining references to removed, vendored packages (#4499)",5,1,12,13,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,22120d423e,2018-02-07,f4503d05,Fix typos,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+requests,8e040523a4,2018-02-02,9d9efbb8,"pass kwargs from send call to add_headers, per documentation",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,89,1,1,1,0,0,1,0,0
+requests,f60324a3de,2018-01-21,345f33cc,append previous url fragment on redirect,3,1,86,1,6,1,0,0,0,1,0,0,1,0,0,0,0,69,1,5,5,0,0,0,0,0
+requests,2255c34a65,2018-01-16,98915770,Fix DNS resolution by using hostname instead of netloc and strip username and password when comparin,4,1,37,11,11,8,1,0,0,1,0,0,1,0,0,0,0,32,1,9,9,0,0,0,0,0
+requests,7cefa939f5,2018-01-12,0b125a63,Pass python_requires argument to setuptools,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,7deee699ad,2018-01-04,2e5011ef,slice function removed,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+requests,cb0914407b,2018-01-04,2e5011ef,"Continue to refactor, remove list comprehension, add double quotes test case.",3,1,19,10,10,6,0,0,0,1,0,0,0,0,0,0,0,17,0,0,10,0,0,0,1,1
+requests,80a790443e,2018-01-03,2e5011ef,implement changes after code review,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+requests,071796d83f,2018-01-03,2e5011ef,implement changes after code review,2,1,7,22,7,14,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+requests,1988d9cf72,2018-01-01,2e5011ef,Move nested function up to module level and rename.  Add more tests for function.,2,1,67,16,31,15,0,0,0,1,0,0,0,0,1,1,0,9,0,0,25,0,0,1,1,0
+requests,cef0830419,2017-12-31,2e5011ef,clean,1,1,1,2,1,2,0,0,0,2,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+requests,d8666e1906,2017-12-31,2e5011ef,Reduce overall memory usage of Requests module by removing cgi module dependency in utils.py.  Inste,1,1,16,2,16,2,0,0,0,1,0,0,0,0,1,0,0,10,0,0,11,0,0,1,0,1
+requests,714c9dc967,2017-11-25,8defc77f,utils: winreg module may not exist like on windows universal platform.,1,1,8,4,8,4,0,0,0,1,0,0,0,0,0,0,0,30,0,0,7,0,0,1,0,0
+requests,19919b44c4,2017-11-21,e9652e16,Add documentation for available status codes,2,1,34,16,33,5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,27,0,0,0,0,0
+requests,acd2645444,2017-11-20,7e2ba590,"#4373, fix possible winreg value type difference (#4377)",2,1,10,3,4,2,1,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+requests,775cde0914,2017-11-20,d012d19d,Clarify that Response.ok will *only* return True/False,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+requests,9a8a826f22,2017-11-15,44b69eb6,Check if host is invalid for proxy,5,2,26,2,10,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,8,0,0,0,0,0
+requests,1dbaddd75e,2017-11-08,a40085fe,for RFC-7616 add SHA-256 and SHA-512,1,1,12,0,12,0,0,0,0,1,0,0,1,0,2,0,0,68,1,12,12,0,0,0,0,0
+requests,c86b09b3c6,2017-11-05,7f0500d9,support extraction of certificate bundle from a zip archive,5,2,71,5,38,4,0,0,0,1,0,0,0,0,1,0,0,32,1,1,27,0,0,0,1,0
+requests,a05aac7007,2017-10-20,97c1a0d3,avoid import platform,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+requests,d3f14af44d,2017-10-18,51dae57d,Fix case-insensitive comparison in get_adapter(),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+requests,c14bd018ad,2017-10-15,0b125a63,Add missing trove classifier to document Python2 support,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,ec5804c706,2017-10-15,22a34c54,Python 3.3 has already been dropped (#4231),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,15054aa390,2017-10-14,691b4fcb,Warn user about possible slowdown when using cryptography version < 1.3.4,3,1,18,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+requests,96b9a3f0fc,2017-08-28,96ed14d8,Update setup.py,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,965ada6f66,2017-08-16,6817e272,Fix parse_header_links on empty header,1,1,5,1,5,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,1,0,0
+requests,a3d7cf3f27,2017-08-15,c9bda9d8,v2.18.4,2,1,5,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,e36083b89c,2017-08-11,6357b070,Adding space after colon,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,308343508b,2017-08-11,6357b070,Removing trailing whitespace,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,ba21d14976,2017-08-11,6357b070,Improving message formatting,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+requests,cee8fae65e,2017-08-11,6357b070,Adding header name to exception,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,1,0,0
+requests,0a2dc74ecb,2017-08-09,c9bda9d8,Drop Python 3.3 support,3,1,0,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,f4ddf00c36,2017-08-08,c9bda9d8,Allow IDNA 2.6,2,1,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,7c67c4adf9,2017-08-02,c9bda9d8,v2.18.3,2,1,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,4f49f6b3ed,2017-07-29,c9bda9d8,Correctly raise SSLError from urllib3.,1,1,5,0,5,0,0,0,0,1,0,0,1,0,0,0,0,89,1,2,2,0,0,0,0,0
+requests,39b121d791,2017-07-27,d012d19d,Add idna version info to requests.help,2,1,24,0,5,0,0,0,0,1,0,0,0,0,0,0,0,47,0,0,5,0,0,0,0,0
+requests,e2f5a135c3,2017-07-26,cdd54c1b,remove legacy super() call,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,0,0,0,0,1,0
+requests,667896c557,2017-07-26,10d625b4,some docs on request redirect detection,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,b77c1a3deb,2017-07-26,354122ef,Correct urllib3 compatibility comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,6cc891fd32,2017-07-25,c9bda9d8,v2.18.2,2,1,11,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,8d1228cd19,2017-07-20,c9bda9d8,Allow urllib3 1.22,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,d8c2fdf92f,2017-07-20,9aef7ae8,Use 'prefix' instead of 'key' in session docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+requests,f6e07bb27f,2017-07-03,345f33cc,fix OPENSSL_VERSION_NUMBER check on Python2.6's ssl module,1,1,7,3,7,3,1,0,0,1,0,0,0,0,0,0,0,43,0,0,5,0,0,1,0,0
+requests,c054a722bb,2017-06-25,16155861,Removed legacy fallback for python3.2,1,1,1,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,51de61f914,2017-06-14,c9bda9d8,v2.18.1,2,1,7,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,d93b37cee7,2017-06-14,c9bda9d8,Prepare v2.18.0,2,1,5,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,c6a6347156,2017-06-10,5e64c65e,Remove exec permission from files that shouldn't have it,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+requests,1d7fd6c8b3,2017-06-09,1f2c0574,Fixes error swallowing in set_environ,3,1,36,9,7,7,1,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+requests,22d12b0501,2017-06-09,ed0e3e18,typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,d8e2367809,2017-06-08,345f33cc,convert version compatibility checks to warning,2,2,35,22,35,22,0,0,0,0,0,0,0,0,1,0,0,0,0,0,21,0,0,0,0,0
+requests,4847f5b8cd,2017-06-06,590e283c,Allow Requests.Response to be used as a context manager,5,1,20,6,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+requests,0abb69b1cb,2017-06-06,4db65e36,Fix a typo: verison -> version,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+requests,98bbf8d170,2017-05-30,76ed73cd,Catch error if multiprocessing is not available or is unable to determine the number of CPUs,2,1,9,2,5,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+requests,d78ec90e7b,2017-05-29,96ed14d8,cleanup utils.py,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+requests,04ed1e5122,2017-05-29,96ed14d8,cleanup sessions.py,1,1,15,26,15,26,0,0,0,3,0,0,0,1,0,0,0,64,2,14,15,0,0,0,0,1
+requests,33619268f9,2017-05-29,96ed14d8,cleanup models.py,1,1,6,4,6,4,0,0,0,2,0,0,2,0,0,0,0,20,2,6,6,0,0,0,0,1
+requests,e5894e99b7,2017-05-29,96ed14d8,improve flake8 help.py,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,6495190b00,2017-05-29,96ed14d8,cleanup help.py (flake8),1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,1
+requests,5b363d1a57,2017-05-29,96ed14d8,improve line continuations for flake8,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+requests,f6a4ab02da,2017-05-29,96ed14d8,fix empty lines for flake8,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,5fa4e74d61,2017-05-29,96ed14d8,fix flake8 indent error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,62,1,1,1,0,0,0,0,0
+requests,e55d3d0658,2017-05-29,96ed14d8,fix spaces in api.py,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+requests,7c3861a322,2017-05-29,96ed14d8,fix flake8 for EOF in __init__.py,1,1,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,7c2618eb82,2017-05-29,96ed14d8,flake8: import statement improvements,2,1,5,5,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+requests,5091c15bd7,2017-05-29,96ed14d8,v2.17.3,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,dcb8277975,2017-05-29,96ed14d8,v2.17.2,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,1278ecdf71,2017-05-29,c9fbaf5a,Fix requests.packages not having package attributes,3,1,15,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,2d763c90ae,2017-05-29,96ed14d8,v2.17.1,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,588e8f7f64,2017-05-29,34434033,Preserve identity of unbundled deps,1,1,9,10,9,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+requests,3857431159,2017-05-29,96ed14d8,v2.17.0,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,86f8cb8a35,2017-05-29,884722cb,Remove session redirect cache,1,1,0,26,0,26,0,0,0,5,0,1,0,1,0,0,0,64,2,0,0,0,0,0,1,0
+requests,7f14db17c8,2017-05-29,96ed14d8,new requests namespace,17,4,49,49,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,e6e3589c36,2017-05-28,96ed14d8,number of cores for travis,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+requests,16c8241a81,2017-05-28,96ed14d8,v2.16.5,2,1,7,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,8b5fa606ec,2017-05-27,96ed14d8,improvements to help utility,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,41,0,0,2,0,0,0,0,0
+requests,679d368e3e,2017-05-27,96ed14d8,setup.py improvements,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,68fda6bcf2,2017-05-27,96ed14d8,see if that fixes things,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,cd4c701186,2017-05-27,96ed14d8,xdist,3,1,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,03e5f5daf3,2017-05-27,96ed14d8,socks needed for tests,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,0ae8524e3b,2017-05-27,96ed14d8,v2.16.4,2,1,7,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,bf4a813304,2017-05-27,96ed14d8,rename information/info,1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,2,0,0,2,0,0,0,0,0
+requests,a44284c045,2017-05-27,96ed14d8,cleanup version.py,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1
+requests,c1f32f68f6,2017-05-27,96ed14d8,v2.16.3,3,2,8,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,03dd91093b,2017-05-27,96ed14d8,pep8 fix,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,d42556a936,2017-05-27,96ed14d8,2.16.2,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,28666e5d3a,2017-05-27,96ed14d8,vastly simpify making packages available for backwards compatibility,29,20,15,42,15,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+requests,ecaa10543f,2017-05-27,96ed14d8,fix setup.py,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,908c3b01ee,2017-05-27,96ed14d8,restore packages to setup.py,1,1,14,1,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+requests,c952e9e4e0,2017-05-27,96ed14d8,addded import stubs for urllib3,27,18,26,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,1,0,0
+requests,267ec2f9c3,2017-05-27,96ed14d8,restore package namespace,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,18c8924f14,2017-05-27,96ed14d8,better checking for urllib3,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,d2713412e5,2017-05-26,96ed14d8,v2.16.0,2,1,8,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,2b34880e2f,2017-05-26,96ed14d8,sanity checks upon boot,1,1,25,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0
+requests,1f6de03baf,2017-05-26,96ed14d8,cleanup certs.py,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+requests,0d7de6430e,2017-05-26,96ed14d8,update certs,1,1,3,8,3,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0
+requests,c49ce5ae0b,2017-05-26,96ed14d8,fix,1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,0
+requests,6d3d5e59c9,2017-05-26,96ed14d8,fix models.py,1,1,1,7,1,7,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+requests,47f170bb35,2017-05-26,96ed14d8,fix __init__.py,2,1,3,3,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,168109f13c,2017-05-26,96ed14d8,fix adapters.py,1,1,15,14,15,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+requests,8a2014e265,2017-05-26,96ed14d8,fix compat.py,1,1,3,2,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,1d31b36148,2017-05-26,96ed14d8,fix exceptions.py,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,6c41633cfd,2017-05-26,96ed14d8,fix models.py,1,1,6,5,6,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+requests,6ef7298466,2017-05-26,96ed14d8,fix sessions.py,1,1,3,2,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,628633143d,2017-05-26,96ed14d8,require certifi,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,1ea27b3564,2017-05-26,96ed14d8,add install_requires,1,1,7,15,7,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+requests,8e17600ef6,2017-05-26,96ed14d8,delete packages,86,76,0,26324,0,23523,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+requests,282b01a7c9,2017-05-26,96ed14d8,new release,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,8c2a36140b,2017-05-26,96ed14d8,fix for python 3,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,42,1,1,1,0,0,0,0,0
+requests,60b9fb17af,2017-05-26,96ed14d8,too much,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,0aee483497,2017-05-26,96ed14d8,fix setup.py,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,bf53ace6f8,2017-05-26,96ed14d8,v2.15.0,2,1,15,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,c3367d1854,2017-05-26,96ed14d8,remove Request.send(session),1,1,2,6,2,6,0,0,0,1,0,0,0,0,0,1,0,2,0,0,2,0,0,0,1,0
+requests,a7239aab84,2017-05-26,96ed14d8,feedback from @sigmavirus42,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,66,2,3,3,0,0,0,0,0
+requests,dfd667df96,2017-05-26,96ed14d8,who wrote this shit,2,2,5,4,5,4,0,0,0,4,0,0,0,0,0,0,0,42,1,1,4,0,0,0,0,0
+requests,f41560c5d4,2017-05-26,96ed14d8,fix the tests,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,42,1,4,4,0,0,0,0,0
+requests,ce64cce14e,2017-05-26,96ed14d8,API improvements,2,2,32,16,32,16,0,0,0,3,0,0,2,0,2,0,0,66,2,20,27,0,0,0,0,0
+requests,14d6fa1472,2017-05-25,96ed14d8,__version__.py,4,4,5,21,5,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+requests,64efd9cfe0,2017-05-25,96ed14d8,yay i knew i wasn't crazy,1,1,16,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+requests,1001bc671a,2017-05-25,96ed14d8,fix imports,2,2,4,2,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+requests,e038aad3cc,2017-05-25,ca076f41,Avoid breaking people using requests.__version__,4,2,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,7abfd92aea,2017-05-25,96ed14d8,take a page out of @sigmavirus42's book,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+requests,9fbfd22f6b,2017-05-25,96ed14d8,take a page out of @sigmavirus42's book,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,e634ab73b2,2017-05-25,96ed14d8,better '',1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,3e32356716,2017-05-25,96ed14d8,__version__.py,3,3,20,15,20,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+requests,f3d310b299,2017-05-24,c9bda9d8,Turns out @kennethreitz suprise-broke the CI,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,dbb67a1310,2017-05-24,96ed14d8,Update __init__.py,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,a9470fe31f,2017-05-24,15dd9aa9,Fix regression in API caused by commit 85400d8d6751071ef78f042d1efa72bdcf76cc0e   - The added option,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+requests,00c6ad58b7,2017-05-18,496c5131,Simplify fix for #4025,1,1,33,32,33,32,1,0,0,1,0,0,0,0,0,0,0,32,1,30,30,0,0,0,0,1
+requests,af66521381,2017-05-18,496c5131,Fix #4025,2,1,36,32,32,32,1,0,0,1,0,0,1,0,0,0,0,32,1,30,30,0,0,0,0,0
+requests,e4693eba4f,2017-05-10,c9bda9d8,v2.14.2,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,f3f4c3e20a,2017-05-10,c9bda9d8,Remove range operators from markers,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,3618f3f68e,2017-05-09,c9bda9d8,v2.14.1,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,800a074b5d,2017-05-09,c9bda9d8,Use sys_platform instead of platform_system,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,508d47dc6e,2017-05-09,c9bda9d8,v2.14.0,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,debc5de6d4,2017-05-09,c9bda9d8,Update idna to v2.5,4,3,1583,1575,1582,1575,0,0,0,6,0,0,0,0,2,0,0,32,2,7,1579,0,0,0,0,0
+requests,4bad52caa2,2017-05-09,c9bda9d8,Update chardet to v3.0.2,44,43,2028,2871,2025,2870,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+requests,d49f3e258c,2017-05-09,c9bda9d8,Update urllib3 to v1.21.1,18,12,2037,139,291,139,0,0,0,21,2,1,3,0,4,1,0,50,5,14,230,0,0,0,0,0
+requests,3d813c9a7a,2017-05-06,83fa4332,Specify that the timeout parameter is in seconds.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,1c38e1f5f6,2017-05-04,a1137ada,proxy bypass on Windows without DNS lookups,3,2,71,14,55,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,44,0,0,0,0,0
+requests,724fd44b97,2017-05-04,a1137ada,revert 8e6e47af and c121b98c,3,2,3,174,2,101,0,0,0,1,0,0,0,0,0,11,0,30,1,1,2,0,0,0,0,0
+requests,d89f8c0d70,2017-05-03,c9bda9d8,Fix up Appveyor testing,5,2,27,11,16,3,1,0,0,1,0,0,1,0,0,0,0,37,1,3,14,0,0,0,0,0
+requests,19ba9f1097,2017-04-25,399fa244,Remove some unused imports.,4,4,5,6,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,1,0
+requests,fcb272cc36,2017-04-20,f3821e48,remove seemingly redundant pyflakes references,3,2,0,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+requests,722b1dae96,2017-04-18,10d76f90,fix handle of non-ascii location on redirects,2,1,14,11,11,2,1,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+requests,a3e597c171,2017-04-14,10d76f90,fix unicode decode error on py2 when handling redirect without scheme,3,1,40,3,1,1,1,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+requests,1cd173a82c,2017-04-08,493d6c97,Fix a typo in utils,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+requests,ead8fba84b,2017-04-05,81be9d03,Fixes DeprecationWarnings in Python 3.6 due to invalid escape sequences. Fixes #3954,3,3,15,15,15,15,1,0,0,15,0,0,0,0,0,0,0,11,0,0,15,1,0,0,0,0
+requests,a63ae02e34,2017-04-02,e4d792d1,Update sessions.py,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,4c13678587,2017-03-30,38cb8ead,remove change for timeout=None,1,1,2,5,2,5,0,0,0,1,0,0,0,1,0,0,0,87,1,2,2,0,0,0,1,0
+requests,1e7ae063ce,2017-03-29,38cb8ead,whitespace,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,fe58c6fdd6,2017-03-29,38cb8ead,small rearrangement,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,90,1,3,3,0,0,0,0,0
+requests,a180db963f,2017-03-29,38cb8ead,allow urllib3 Timeout objects as timeout parameter for HTTPAdapter.send() omit timeout argument when,1,1,10,4,10,4,0,0,0,1,0,0,1,0,0,0,0,90,1,9,9,0,0,0,0,0
+requests,567e12bfb8,2017-03-23,ca076f41,Add debugging submodule for bug reporters,1,1,99,0,99,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,84,0,0,1,0,0
+requests,4207867aaf,2017-03-22,5f84165f,"PR review fixes: - used httpbin_secure for tests - updated docstring related to `verify` param"" - us",4,3,26,18,18,10,1,0,0,5,0,0,0,0,0,0,0,85,4,15,18,1,0,0,0,0
+requests,42ec8b08f2,2017-03-22,5f84165f,#3927 fixes based on review,1,1,5,4,5,4,1,0,0,1,0,0,1,0,0,0,0,31,1,5,5,0,0,0,0,0
+requests,7d8b87c37f,2017-03-22,5f84165f,#3926 raise IOError when providing an invalid path to a CA bundle or certificate files,2,1,31,8,15,8,0,0,0,1,1,0,0,0,0,0,0,30,1,15,15,0,0,0,0,0
+requests,2e9e944bc1,2017-03-07,673e885b,Removed sentence as suggested.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,16f6e25176,2017-03-07,673e885b,Add mention to list od tuples as data param.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,8e6e47af43,2017-03-04,ca076f41,Update implementation of TimedCache object,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+requests,3d22f9f5ab,2017-03-01,e5e7ca4d,fixed #3894 by mentioning form-encoding of dict,1,1,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,3,0,0,4,0,0,0,0,0
+requests,2aaf6ac038,2017-02-27,ffb04f08,Fixed some typos (#3892),2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+requests,c121b98c4e,2017-02-23,9b8d9891,wrapped proxy_bypass() with cache lookup,4,2,175,3,101,2,0,0,0,1,0,0,0,0,11,0,0,30,1,1,80,0,0,0,0,0
+requests,8e049bd9eb,2017-02-16,ca076f41,"Update docstrings for Response.__{bool,nonzero}__",1,1,14,2,14,2,0,0,0,2,0,0,0,0,0,0,0,2,0,0,12,0,0,0,0,0
+requests,7a281e74ec,2017-02-16,ca076f41,Correct docstring for Response.ok,1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+requests,3664682539,2017-02-16,775acb4d,added docstring for response.ok property,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+requests,f47aff68f1,2017-02-14,345f33cc,properly handled failed seek,2,1,11,9,10,8,0,0,0,1,0,0,1,0,0,0,0,41,1,6,6,0,0,0,0,0
+requests,70f31a3166,2017-02-10,10d625b4,* initial attempt at `get_redirect_target` * removing the `i` from the redirect detection while-loop,4,1,70,11,16,11,0,0,0,1,0,0,0,1,1,0,0,63,1,6,11,0,0,0,0,0
+requests,85400d8d67,2017-02-10,7b6aca6f,Allow use of 'no_proxy' in the proxies argument,3,2,91,15,42,12,0,0,0,4,0,0,2,0,1,0,0,30,2,11,38,0,0,0,0,0
+requests,571d2c2cd7,2017-02-07,673e885b,Fix syntax error,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,b00d8bf474,2017-02-06,673e885b,"Proper version, no bugs, shorter.",1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,593734b770,2017-02-06,673e885b,do not convert /o\ into /O\,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,8a58427d8a,2017-01-27,75b5cb09,Only send HTTPDigestAuth on 4xx challenges,2,1,43,0,6,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,0
+requests,b2289cd2d5,2017-01-24,ca076f41,Bump version for 2.13.0,2,1,15,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,af1b542e20,2017-01-24,ca076f41,Update idna to v2.2.0,1,1,367,1,367,1,0,0,0,0,73,0,0,0,73,0,0,0,0,0,293,0,0,0,0,0
+requests,b5704a63ca,2017-01-24,ca076f41,Update urllib3 to 1.20.0,15,12,742,66,702,55,0,0,0,10,1,0,2,0,51,1,0,110,2,15,534,0,0,0,0,0
+requests,5dcc039457,2017-01-18,c9bda9d8,v2.12.5,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,fae3f92c34,2017-01-17,9775238d,lazily load idna library,3,2,28,17,27,17,0,0,0,1,0,0,1,0,1,0,0,55,1,6,19,0,0,0,0,0
+requests,2432dd6208,2017-01-12,1674c072,Add default value of allow_redirects to docs,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,2bcaff99ea,2017-01-09,51ffc638,Added python 3.6.0,6,1,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,33b29be8cf,2016-12-30,8d62a366,Require pytest-mock for the tests,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,1c34ac3ae6,2016-12-29,4b13e29b,Fixed detection of utf-32-be by BOM.,2,1,12,1,1,1,1,0,0,1,0,0,0,0,0,0,0,22,1,1,1,0,0,0,0,0
+requests,789f21807d,2016-12-20,96ed14d8,python 2.6 compatibiliby,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+requests,1285f576ae,2016-12-14,c9bda9d8,v2.12.4,2,1,11,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,fae6701478,2016-12-09,ca076f41,Add deprecation warnings for 3.0,2,1,17,1,15,0,0,0,0,1,0,0,0,0,0,0,0,27,0,0,15,0,0,0,0,0
+requests,576b447a37,2016-12-08,345f33cc,adding string casting for non-bytes values,2,1,27,2,16,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+requests,c398ab0e7d,2016-12-01,c9bda9d8,v2.12.3,2,1,14,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,402a55b647,2016-11-30,c9bda9d8,"Revert ""Restrict URL preparation to HTTP/HTTPS""",2,1,3,20,3,3,0,0,0,1,0,0,0,0,0,0,0,53,1,1,1,0,0,0,0,0
+requests,ca15d48087,2016-11-30,c9bda9d8,v2.12.2,2,1,22,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,f897be58bf,2016-11-24,31ef7b1d,Make Response.content return None if raw is None,2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+requests,4f428228d7,2016-11-23,4998bc2f,Make Response.content() return None if status_code is None,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+requests,34af72c87d,2016-11-21,5423f07c,Restrict URL preparation to HTTP/HTTPS,2,1,20,3,3,3,0,0,0,1,0,0,0,0,0,0,0,52,1,1,1,0,0,0,0,0
+requests,a83685ce00,2016-11-21,345f33cc,modifying IDNA encoding check to allow fallback,1,1,9,3,9,3,0,0,0,1,0,0,1,0,0,0,0,52,1,2,3,0,0,0,0,0
+requests,264f5bd5e1,2016-11-21,345f33cc,adding unicode_is_ascii utility function,1,1,16,1,16,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+requests,2185fac626,2016-11-17,d5a95051,remove extra import,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+requests,329a5cfdd4,2016-11-17,d5a95051,Order of type check,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+requests,0d7de50dbd,2016-11-16,6adcebbc,Just lstrip instead of strip because trailing whitespace already works.,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,52,1,1,1,0,0,0,0,0
+requests,248d3e9f0f,2016-11-16,6adcebbc,Fixed issue #3696. Added a test for it as well.,2,1,8,0,3,0,1,0,0,1,0,0,1,0,0,0,0,52,1,1,1,0,0,0,0,0
+requests,eb39a557bd,2016-11-16,c9bda9d8,v2.12.1,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,e1b5e19c78,2016-11-16,c9bda9d8,Update bundled urllib3 to 1.19.1,3,2,4,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,9ec3478469,2016-11-16,c9bda9d8,Change setuptools extra for new secure extra.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+requests,eaf9a688c5,2016-11-15,21f2049a,Clarify allow_redirects,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+requests,362da46e9a,2016-11-15,c9bda9d8,v2.12.0,2,1,34,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,99fa7becf2,2016-11-15,c9bda9d8,Update urllib3 to 1.19,21,16,723,260,432,109,0,0,1,34,2,0,12,0,11,1,0,106,13,76,327,0,0,0,0,0
+requests,e514920e19,2016-11-12,d5a95051,Unable unicode in basic http auth,1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+requests,a49c387b7a,2016-11-10,678ae5fe,Document that Response.json() may raise ValueError,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+requests,623d9e7878,2016-11-03,f626d983,documentation line added for consistency with the post method,1,1,2,0,2,0,0,0,0,2,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+requests,40402cd0dd,2016-11-02,345f33cc,adding rewind for re-POST bodies,6,5,51,5,50,4,0,0,0,4,0,0,2,0,1,0,0,66,2,11,36,0,0,0,0,0
+requests,c97a530638,2016-10-31,6c64b88a,[httpAdapter] allow empty password in proxy credentials,2,1,11,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+requests,dfd85f2099,2016-10-27,345f33cc,make add_dict_to_cookiejar cookielib.CookieJar compatible,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+requests,548a03acef,2016-10-27,8404c347,requests.post checked data parameters for type like dict. Changed the type check to Mapping.,3,1,28,2,1,1,0,0,0,1,0,0,0,0,0,0,0,38,1,1,1,0,0,0,0,0
+requests,e7f5bd634d,2016-10-19,c9bda9d8,Check in updated idna.,2,2,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,f5b5c293b9,2016-10-18,5c286643,fix issue when the file-like object raises an IOError with tell,2,1,21,9,9,9,1,0,0,1,0,0,1,0,0,0,0,38,1,5,5,0,0,0,0,0
+requests,8dd51d22fc,2016-10-14,c9bda9d8,Enable UTS46 mode.,2,1,13,2,1,1,0,0,0,1,0,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+requests,f19d30a670,2016-10-14,c9bda9d8,Seems like we're missing a backport here.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,49b69b57db,2016-10-14,c9bda9d8,Various packaging requirements for idna,4,2,11,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+requests,27812eb902,2016-10-14,c9bda9d8,Use IDNA2008 to encode hosts.,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,51,1,2,3,0,0,0,0,0
+requests,3c680cc1c6,2016-10-14,c9bda9d8,Vendor idna v2.1,7,7,9415,0,9415,0,0,0,0,0,5,0,0,0,28,0,0,0,0,0,9274,0,0,0,0,0
+requests,327512f5ef,2016-09-29,f8fc3ad2,Remove error swallowing exception catching of AttributeError,1,1,6,10,6,10,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,1,0
+requests,087aeacee5,2016-09-27,6b805091,Change module of internal references to to_native_str(),3,3,6,4,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,0,0
+requests,3ac70defff,2016-09-27,6b805091,Update Comments & Magic Strings,2,2,11,1,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+requests,f002b73026,2016-09-26,6b805091,Move to_native_string to _internal_utils.py to avoid circular dependency,3,3,23,21,23,21,0,0,0,1,0,0,0,0,1,1,0,9,0,0,19,0,0,1,1,0
+requests,2af059797a,2016-09-26,6b805091,Adjust patch to utilize requests utility functions,1,1,3,7,3,7,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+requests,01e405c611,2016-09-25,6b805091,Add patch to avoid bytestring/str hodgepodge,1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+requests,31b35ab838,2016-09-21,345f33cc,removing redundant logic from prepare_content_length,2,1,20,12,10,12,0,0,0,2,0,0,0,1,0,0,0,38,1,0,6,0,0,0,0,0
+requests,08a158f486,2016-09-20,345f33cc,converting update call to merge_cookies call for cookielib compatibility,2,1,35,2,1,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+requests,d7227fbb7e,2016-09-17,d7b8130c,Add workaround to avoid implicit import of encodings.idna.,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+requests,2e1086f5b4,2016-09-05,345f33cc,adding comment,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,dedf9064c6,2016-09-05,85491a2c,"pysocks 1.5.7 blacklisting, due to IPv6 problems",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,cd056cd621,2016-09-02,345f33cc,adding ISO-8859-1 fallback for reason decoding,2,1,16,1,4,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+requests,80f304fd30,2016-08-26,cb469c35,Specify self.cert is used for SSL client certificates,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,99364b6b0b,2016-08-24,345f33cc,removing use of seek to set total_length,1,1,8,10,8,10,0,0,0,1,0,0,0,1,0,0,0,37,1,3,3,0,0,0,0,0
+requests,8873a09097,2016-08-24,41448019,Fall back to streaming,1,1,5,1,5,1,0,0,0,1,0,0,1,0,0,0,0,40,1,4,4,0,0,0,0,0
+requests,d4965a4ec6,2016-08-24,41448019,Python 2 compatibility,1,1,7,1,7,1,0,0,0,1,1,0,0,0,0,0,0,37,1,5,5,0,0,0,0,0
+requests,af7729f64a,2016-08-24,41448019,Use seek from end rather than getvalue,1,1,8,5,8,5,0,0,0,1,0,0,0,0,0,0,0,33,0,0,4,0,0,0,0,0
+requests,7c80222afa,2016-08-22,0cd58508,"Fixed another scheme proxy over ""all"" priority",3,2,3,3,2,2,1,0,0,2,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+requests,77b068bb9e,2016-08-21,0cd58508,"Fixed bug to give scheme proxy priority over ""all""",3,1,11,2,2,2,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+requests,532756803d,2016-08-17,96ed14d8,v2.11.1,2,1,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,59f12c9669,2016-08-12,345f33cc,adding passthrough in close() for non-urllib3-like Responses,2,1,12,1,3,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+requests,e50c61bc86,2016-08-11,345f33cc,removing Content-Type and Transfer-Encoding headers on redirect,2,1,39,3,4,3,0,0,0,1,0,0,1,0,0,0,0,60,1,3,3,0,0,1,0,0
+requests,d7f56ba938,2016-08-09,345f33cc,reverting 3362,2,1,5,19,5,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+requests,542fbbc67f,2016-08-09,62569764,Document bunch of return types,5,5,113,11,113,11,0,0,0,48,0,0,0,0,0,0,0,85,6,19,89,0,0,0,0,0
+requests,a2e41ba1f1,2016-08-08,96ed14d8,v2.11.0,2,1,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,7bf67b4101,2016-08-08,c9bda9d8,Update urllib3 to 1.16,11,8,739,102,736,100,0,0,0,21,1,1,2,0,39,1,0,102,5,24,529,0,0,0,0,0
+requests,c69e3eed31,2016-07-30,ca076f41,Close and then release the connection,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+requests,5453b88f8f,2016-07-26,62569764,Spelling fixes,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,b7809acb47,2016-07-20,345f33cc,making class and function docstrings consistent,9,6,101,92,90,72,0,0,0,30,0,0,0,0,0,0,0,27,1,1,79,0,0,0,0,0
+requests,2d4a89f5dc,2016-07-20,345f33cc,adding in pep8 fixes,12,8,39,29,20,11,1,0,0,2,0,0,0,0,0,0,0,12,0,0,9,0,0,0,0,0
+requests,15a3869006,2016-07-19,345f33cc,making module docstrings and coding comments consistent,20,10,29,16,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,1,0,0
+requests,5a3aeedd18,2016-07-14,f83ce3fe,Remove duplicate import warnings,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+requests,be31a90906,2016-07-05,345f33cc,Defining header value type requirements and tests,2,1,30,7,9,4,0,0,0,1,0,0,0,0,0,0,0,12,0,0,9,0,0,1,0,0
+requests,7700ecae14,2016-07-05,450340cc,Support responses like `HTTP/1.1 404 Unicode chars` (#3385),2,1,15,2,6,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+requests,71050e9ab9,2016-07-02,3312f2ca,adding in slice_length fix and test for chunk_size=None (#3370),2,1,10,2,2,0,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+requests,2669ab797c,2016-07-02,345f33cc,check and test for headers containing return characters or leading whitespace,5,3,75,7,32,6,0,0,0,1,0,0,0,0,1,0,0,7,0,0,25,0,0,1,0,0
+requests,0c08ca7154,2016-07-02,345f33cc,updating docstring to match functionality,1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+requests,0bcf634135,2016-06-30,d4e831b0,Allow None value for chunk_size again (#3368),2,1,8,3,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+requests,92fe51c0af,2016-06-28,3312f2ca,adding asserted_encoding check on None type encoding to match text() behavior (#3362),2,1,19,5,12,5,0,0,0,1,0,0,0,0,0,0,0,15,0,0,7,0,0,0,0,0
+requests,cf3c99890d,2016-06-27,345f33cc,added in type check for chunk_size,2,1,16,0,2,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+requests,de4c75bbad,2016-06-01,ca076f41,Update documentation of Session.max_redirects,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,9e9d2c6521,2016-05-24,24884333,Make BaseAdapter describe the mandatory adapter interface (#3216),1,1,15,1,15,1,0,0,0,2,1,0,0,0,0,0,0,3,1,13,14,0,0,0,1,0
+requests,17b6c5742c,2016-05-16,313f8211,consider plain ip notation of an ip in no_proxy if not in cidr notation,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,27,1,2,2,0,0,0,0,0
+requests,4bf8866172,2016-05-13,1d97e720,Add 'all' proxy selection to select_proxy,7,1,92,31,14,5,0,0,0,1,0,0,0,0,0,0,0,17,0,0,12,0,0,0,0,0
+requests,0838685dab,2016-05-12,c9bda9d8,Replace tab with appropriate spaces.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,39,1,1,1,0,0,0,0,0
+requests,1121f8b915,2016-05-11,1d97e720,Support ALL_PROXY environment variable,2,1,38,2,2,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+requests,cb4c2c0b65,2016-05-06,a9d986ce,Fix TypeError when get json-encoded content of a response,2,1,12,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+requests,52c0daff5f,2016-05-05,9717eb88,Cleaning up comment on JSON encoding to be more strictly relevant.,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,9ff2e43cd6,2016-05-05,9717eb88,Removing charset from JSON content type; tightening requirements on .encode(),1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,39,1,4,4,0,0,0,0,0
+requests,386382b18c,2016-05-04,9717eb88,Encoding JSON requests to bytes for urllib3 to handle; ensuring same with testing.,3,1,18,2,5,2,0,0,0,1,0,0,0,0,0,0,0,37,1,2,2,0,0,0,0,0
+requests,f69d8c16ed,2016-04-29,96ed14d8,updated urllib3 (v1.15.1),14,11,268,66,211,56,0,0,0,15,1,0,4,0,3,0,0,101,5,42,156,0,0,0,0,0
+requests,a5da4f399f,2016-04-29,96ed14d8,v2.10.0,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+requests,c9ef5653cc,2016-04-29,96ed14d8,v2.9.2,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,abe02ed89f,2016-04-29,1be8dbc2,"Initialize hash_utf8 to None, preventing NameError. Fixes #3138.",1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,62,1,1,1,0,0,0,0,0
+requests,70a344d8eb,2016-04-28,e841c07f,Update readthedocs links.,7,2,10,10,3,3,0,0,0,3,0,0,0,0,0,0,0,32,1,1,3,0,0,0,0,0
+requests,4e7beef860,2016-04-26,4ebdbc2e,utils: let select_proxy not raise an exception when url has no hostname,2,1,5,1,4,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+requests,ae1ac2d4e0,2016-04-21,aefbf629,Flip conditional in session.send(),2,1,9,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+requests,2029a8a931,2016-04-15,afa7600e,Clear any pooled proxy connections,3,1,16,2,4,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+requests,c8a0fc6aa2,2016-04-15,7fe24efe,Use OrderedDict from .compat module,2,1,5,3,3,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,1,0,0
+requests,4c04469cfb,2016-04-14,7fe24efe,Change _store of CaseInsensitiveDict to OrderedDict,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+requests,2981366f56,2016-04-11,ca62c64f,add rtype in session.request,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,39,1,2,2,0,0,0,0,0
+requests,fb230709a8,2016-04-08,dd35ec21,Fix for the test ?,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+requests,831d8e0a1e,2016-04-08,c9bda9d8,Add 421 Misdirected Request.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,b8a577050d,2016-03-29,8728171b,Update docstring and API doc to document ability to add per-file headers in multipart POST,2,2,8,2,8,2,0,0,0,2,0,0,0,0,0,0,0,40,1,3,8,0,0,1,0,0
+requests,f24d56a1ce,2016-03-17,8ad87808,Consolidate logic for changing method during redirects,2,1,66,17,23,17,0,0,0,1,0,0,0,1,1,0,0,59,1,1,13,0,0,0,0,0
+requests,6ca9d71bb5,2016-03-17,e0f33b5f,Raise a ProxyError for proxy related connection issues.,2,1,10,1,3,0,0,0,0,1,0,0,1,0,0,0,0,85,1,2,2,0,0,0,0,0
+requests,ee060ba7f3,2016-03-08,b38106e5,Fix api.rst References,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,6cc0b56d51,2016-03-07,c9bda9d8,Switch to treat files without tell() as zero-length,2,1,5,3,4,2,0,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0
+requests,e034dd1140,2016-03-07,c9bda9d8,Allow for exceptions from tell(),2,1,20,2,6,1,0,0,0,1,0,0,0,0,0,0,0,32,0,0,4,0,0,0,0,0
+requests,d8b36c1718,2016-03-04,b6b842f0,Override __contains__ method of RequestsCookieJar to catch CookieConflictError. Refs #3028,1,1,6,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+requests,75a9a981b5,2016-03-03,6351c272,Removed unnecessary files,3,2,0,107,0,107,0,0,0,0,0,1,0,0,0,10,0,0,0,0,0,0,0,0,0,0
+requests,9ac5a6e4ae,2016-03-03,6351c272,"Fixed encoding issues, added timeouts to event waits and refactored Server",1,1,14,11,14,11,1,0,0,6,0,0,0,0,1,1,0,12,0,0,9,0,0,0,0,1
+requests,fa91b0ab7c,2016-03-03,6351c272,Fixed style,2,1,9,18,7,9,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+requests,f123f89d32,2016-02-19,79f77697,Added unit tests for utils module,2,1,205,24,11,14,0,0,0,3,0,0,0,0,0,0,0,17,0,0,8,0,0,1,0,0
+requests,b0704b86de,2016-02-18,96ed14d8,years,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,fc512d8924,2016-02-05,96ed14d8,Don't use redirect_cache if allow_redirects=False,1,1,10,8,10,8,0,0,0,1,1,0,0,0,0,0,0,36,1,8,8,0,0,0,0,0
+requests,1c5c6eeb7a,2016-02-03,79f77697,Fixed test execution.,2,1,4,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,90688c68ad,2016-02-03,96ed14d8,cleanup setup.py from #2991,1,1,2,9,2,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1
+requests,6c2942b198,2016-02-02,79f77697,Initial work,7,1,172,161,34,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,25,0,0,0,0,0
+requests,2140c98fa4,2016-01-30,34434033,Fix syntax error,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+requests,6195edc075,2016-01-29,96ed14d8,cleanup of auth __eq__,1,1,8,12,8,12,0,0,0,2,0,0,0,0,0,0,0,5,0,0,8,0,0,0,0,1
+requests,a02069ec9e,2016-01-29,d7b8130c,Remove int type on max_retries argument.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,6a8a480d6c,2016-01-20,94bb53da,Review changes to TooManyRedirect exception with response,2,1,9,11,1,5,0,0,0,1,0,0,0,1,0,0,0,67,1,1,1,0,0,0,0,0
+requests,5f2fef5bb5,2016-01-20,ca076f41,Stop falling back to distutils in setup.py,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,e6f218f3f6,2016-01-19,94bb53da,Return request & response with TooManyRedirects,2,1,27,3,5,1,0,0,0,1,0,0,1,0,0,0,0,71,1,5,5,0,0,0,0,0
+requests,06df08e676,2016-01-04,e158253b,Add equality functions for authentication handlers,1,1,22,0,22,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,18,0,0,0,0,0
+requests,a3acd30bcc,2015-12-31,c9bda9d8,Socks extra,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,e4d15c4649,2015-12-30,c9bda9d8,Help @sigmavirus24 with code golf.,1,1,7,8,7,8,0,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+requests,11b9b24ac9,2015-12-30,c9bda9d8,Some code cleanups.,1,1,25,23,25,23,0,0,0,2,0,0,0,0,0,0,0,24,0,0,25,0,0,0,0,1
+requests,1c54014daf,2015-12-30,c9bda9d8,Don't parse nonexistent URLs.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+requests,39ee5d46dc,2015-12-30,c9bda9d8,Silence SOCKS dependency warning on import,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+requests,08364c6739,2015-12-30,c9bda9d8,Add support for SOCKS,1,1,33,10,33,10,0,0,0,2,0,0,0,0,1,0,0,23,0,0,30,0,0,0,0,0
+requests,396963ac7e,2015-12-30,c9bda9d8,Temporary urllib3 patch,2,1,7,8,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,cd84b3ff94,2015-12-30,c9bda9d8,Update to urllib3 1.14,10,7,228,37,36,25,0,0,0,14,0,0,0,1,0,0,0,91,3,6,31,0,0,0,0,0
+requests,1108058626,2015-12-21,c9bda9d8,v2.9.1,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,6e0649d9f8,2015-12-19,c9bda9d8,Push code review advice from @sigmavirus24,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,29,1,3,3,0,0,0,0,0
+requests,834a9601c3,2015-12-19,c9bda9d8,Update urllib3 to 1.13.1,2,2,11,2,11,2,0,0,0,1,0,0,0,0,0,0,0,42,0,0,4,0,0,0,0,0
+requests,589f13ca9d,2015-12-18,c9bda9d8,Handle bytes and unicode URLs for netloc,1,1,4,1,4,1,0,0,0,1,1,0,0,0,0,0,0,29,1,4,4,0,0,0,0,0
+requests,fc8fa1aa26,2015-12-16,c9bda9d8,Fix regression from #2844 regarding binary bodies.,2,1,9,1,4,1,1,0,0,2,0,0,1,0,0,0,0,51,2,3,3,0,0,0,0,0
+requests,5f7a3a74aa,2015-12-15,c9bda9d8,v2.9.0,2,1,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,3c0f0b9ab5,2015-12-15,c9bda9d8,Update urllib3 to 1.13,23,19,228,94,196,66,0,1,1,19,1,0,6,1,2,0,0,91,10,44,157,0,0,0,0,0
+requests,9aca57d4bf,2015-12-11,2d2a03a8,Revert changes to params,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,39,1,2,2,0,0,0,0,0
+requests,9a20afd6b5,2015-12-11,2d2a03a8,Refactor default params,3,2,5,4,4,4,0,0,0,2,0,0,0,0,0,0,0,39,1,3,4,0,0,0,0,1
+requests,3ad66349ea,2015-12-09,2d2a03a8,Add hint to :param verify.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,39,1,1,1,0,0,0,0,0
+requests,3eeea3771b,2015-12-08,6351c272,Added a way for TestServer request handlers to store data for later retrieval by the main thread (ac,2,1,49,6,28,5,0,0,0,4,0,0,1,0,1,1,0,10,1,1,18,0,1,0,0,0
+requests,3b2a489e13,2015-12-08,6351c272,Added text_response_server classmethod to TestServer and updated basic_response_server to use it,1,1,13,8,13,8,0,0,0,1,0,0,0,0,2,1,0,6,0,0,11,0,0,0,0,0
+requests,5c19d3e07b,2015-12-05,0b736f50,requests/auth: Handle an empty 'qop' attribute in a Authenticate challenge,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,61,1,1,1,0,0,0,0,0
+requests,5ecf789a6f,2015-12-02,6351c272,Avoid server from blocking if an exception is found in the main thread,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,1,0,0,0
+requests,6551c290fd,2015-12-02,6351c272,Allow main thread to block testserver before closing,1,1,24,8,24,8,0,0,0,4,1,0,0,0,2,0,0,10,1,3,18,0,1,0,0,0
+requests,23d9b077d8,2015-12-01,8c6e82de,Fix typos,5,3,9,9,5,5,1,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+requests,f7917c305a,2015-11-26,6351c272,Make server set stop_event right after closing its socket,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+requests,11ad502b80,2015-11-26,6351c272,Added basic_response_server classmethod and tested it,2,1,20,0,13,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,11,0,0,0,0,0
+requests,2ad3f07982,2015-11-25,6351c272,Make exceptions in the testserver.Server thread not block the main thread,1,1,14,7,14,7,0,0,0,1,0,0,0,0,1,0,0,10,0,0,11,0,1,0,0,0
+requests,ab0f063d85,2015-11-25,6351c272,Made TestServer.Server listen on an arbitrary open port by default,2,1,5,2,5,2,0,0,0,2,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+requests,47e96c4e57,2015-11-25,6351c272,Renamed dummyserver to testserver,4,2,3,6,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,9a2cc99b06,2015-11-25,6351c272,Put docstring inside Server class,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,68db4132e3,2015-11-25,3ca8fe1c,Update adapters.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,99825de025,2015-11-24,6351c272,Implemented dummy socket server interface and added one test,3,2,57,0,38,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,28,0,0,0,1,0
+requests,4c82dbab6f,2015-11-24,6351c272,Fix 'Transfer-Encoding: chunked' change,1,1,1,3,1,3,1,0,0,1,0,0,0,1,0,0,0,37,1,1,1,0,0,0,0,0
+requests,6f6b2fd1d5,2015-11-23,6351c272,Set 'Transfer-Encoding: chunked' if data file length equals 0,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,39,1,2,2,0,0,0,0,0
+requests,6597b53834,2015-11-19,63cb04c2,Specify minimum pyOpenSSL version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,5397ef71b3,2015-11-10,ca076f41,Fix super_len for partially read files,1,1,15,9,15,9,1,0,0,1,0,0,0,0,0,0,0,29,0,0,12,0,0,0,0,0
+requests,d849d6e907,2015-11-10,77fb76fa,Replace 'if x' with 'if x is not None' in cookie loop,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+requests,89178ebcdc,2015-11-10,77fb76fa,Complete unnesting of if statements in cookie loop,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+requests,a25a641fb4,2015-11-10,77fb76fa,unnest deep loop,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+requests,1ced0040bd,2015-11-06,b475d66f,Assure session is closed on exception.,1,1,5,7,5,7,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+requests,e67cd15bc8,2015-11-05,c9bda9d8,Fix breakage introduced by 8f591682,2,1,9,2,2,2,1,0,0,1,0,0,0,0,0,0,0,83,1,2,2,0,0,0,0,0
+requests,0352ec0bd3,2015-11-05,c9bda9d8,Add support for a directory of CAs,3,1,16,2,7,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,6,0,0,0,0,0
+requests,4dffe5efaa,2015-11-05,c9bda9d8,Update trove classifiers.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,7dd94941c8,2015-10-26,74e15a9a,Add 511 Network Authentication Required status code to dict of status codes,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,f1fd11e54f,2015-10-24,c9bda9d8,Emit warnings when using text mode files.,3,3,39,3,39,3,0,0,0,1,0,0,0,0,0,0,0,25,0,0,25,0,0,0,0,0
+requests,edc68a0ac8,2015-10-23,5f3a557f,fix issue #2844,2,1,6,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,1,1,1,0,0,0,0,0
+requests,8f591682e6,2015-10-15,7927cb64,Use buffering for HTTP responses on chunked requests,1,1,9,1,9,1,0,0,0,1,0,0,1,0,0,0,0,83,1,4,4,0,0,0,0,0
+requests,d8f28f4bca,2015-10-15,5f2e850b,Fixed usage example in sessions.py,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,18a6b60110,2015-10-13,c9bda9d8,v2.8.1,2,1,16,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,2df3c7c75d,2015-10-12,c9bda9d8,Move to_native_string for methods to prepare(),2,2,1,4,1,4,0,0,0,2,0,0,0,1,0,0,0,39,1,0,1,0,0,0,1,0
+requests,3948a9562d,2015-10-08,c9bda9d8,Use general null check for JSON,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+requests,f7be4e5f28,2015-10-08,c9bda9d8,NewConnectionErrors aren't timeouts.,1,1,4,1,4,1,0,1,0,1,0,0,1,0,0,0,0,80,1,2,3,0,0,0,0,0
+requests,397f10bac7,2015-10-05,c9bda9d8,Increment version numbers.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,09bd3232dd,2015-10-05,c9bda9d8,Update urllib3 to 1.12,10,9,84,65,81,62,0,0,0,20,0,0,3,0,2,0,0,89,4,18,69,0,0,0,0,0
+requests,2a635ba87d,2015-10-05,be53674a,Update default user-agent (#2785),2,1,2,27,1,27,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+requests,a89d5c003a,2015-10-03,c9bda9d8,"Revert ""Clarify the contract of Response#ok, and avoid exceptions in it""",1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+requests,086e19d8e1,2015-10-03,c9c2cf06,"Clarify the contract of Response#ok, and avoid exceptions in it",1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+requests,63b3b9be55,2015-10-02,d3f1ad77,"Clarified description for option ""trust_env""",1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,bf38d5bf52,2015-10-02,8c27daf7,Update models.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,649aeaa489,2015-09-13,8a166aec,Removed unused module from hooks.py,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,1,0,0
+requests,c5a41269d9,2015-09-12,8a166aec,Some pythonic suggestions for requests/hooks.py,1,1,5,13,5,13,0,0,0,2,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+requests,96e8e8b92f,2015-09-10,8a166aec,Remove redundant function call list when iterating over status codes,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+requests,7a0cd16c1a,2015-09-09,de2307a6,changed the null check for 'data' parameter to be more explicit. removed the superfluous encode from,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+requests,37037607b5,2015-09-08,de2307a6,Fixed issue #2756,2,1,9,2,2,2,1,0,0,1,0,0,0,0,0,0,0,37,1,2,2,0,0,0,0,0
+requests,4c6540898c,2015-08-28,f91ab5a3,don't lowercase a url before urlparsing it,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+requests,f3d4480a33,2015-08-28,f91ab5a3,Use url parsing to check the scheme,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+requests,c80121df91,2015-08-27,f91ab5a3,Fix documentation for the proxies dictionary,2,2,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+requests,500f15da1f,2015-08-27,f91ab5a3,Factor out the proxy selection code,2,2,13,13,13,13,0,0,0,2,0,0,0,0,1,0,0,11,0,0,13,0,0,0,0,0
+requests,2c8721540a,2015-08-27,f91ab5a3,Fix documentation for proxies in the Session class,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,40,1,2,2,0,0,0,0,0
+requests,d7a3aa6188,2015-08-27,f91ab5a3,Fix another place the proxy-selecting logic is used.,1,1,5,3,5,3,1,0,0,1,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+requests,22075f02d0,2015-08-25,f91ab5a3,Clarify the per-host proxy code,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+requests,8b03cd96cb,2015-08-24,6c9a94e3,Include file-like object in data arg description,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,40,1,2,2,0,0,1,0,0
+requests,48fe34447d,2015-08-24,f91ab5a3,Implement per-host proxies,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+requests,9d88810d52,2015-08-24,9bf0de4c,modify  proxy_headers docstrings,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+requests,4947cd01ae,2015-08-21,9be5125c,"Avoid altering dictionary size during iteration, by gathering keys that need to be deleted first.",1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+requests,f40bd0f707,2015-08-15,6a50fda4,Docs: Fix links to `timeouts` section by using :ref: instead of,3,3,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,77,2,4,6,0,0,0,0,0
+requests,b6127ca9ca,2015-08-13,c9bda9d8,Ignore empty fields in no_proxy,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,25,1,3,3,0,0,0,0,0
+requests,75c1776bde,2015-08-07,6a50fda4,Document use of sessions as context managers.,2,1,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+requests,276202f51e,2015-08-04,559e1ae0,Fix merge setting for not preserving original order of dict parameters,2,1,8,3,1,3,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+requests,d7026bfb2a,2015-07-18,ca076f41,Upgrade urllib3 to 7fcfcd08a6a2150f93144d111904d1e4fb65c909,13,11,479,114,236,109,0,4,3,11,2,1,4,1,6,0,0,89,7,38,162,0,0,0,0,0
+requests,5ec7576f23,2015-07-17,b81f1439,Catch and wrap ClosedPoolError,2,1,14,0,4,0,0,0,0,1,0,0,1,0,0,0,0,79,1,2,3,0,0,0,0,0
+requests,e9a1e35f89,2015-07-03,c9bda9d8,Only pass useful timeouts to _get_conn,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,77,1,1,2,0,0,0,0,0
+requests,884cb7a7fb,2015-06-29,8db77e3b,Change ignore_errors to raise_errors in get_netrc_auth,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+requests,a560e09427,2015-06-29,8db77e3b,Allow get_netrc_auth to raise parse/permission errors to caller,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+requests,e3bdec5934,2015-06-22,0046265f,Display URL as part of HTTP error messages,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+requests,2e62df456a,2015-06-13,c9bda9d8,Avoid double releasing chunked upload connections,1,1,0,3,0,3,0,0,0,1,0,0,0,1,0,0,0,77,1,0,0,0,0,0,0,0
+requests,1da62a65d9,2015-05-24,7195fd45,fix contextlib.closing bug for sessions where content is not consumed (issue #2593),3,1,14,0,3,0,1,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+requests,8d0889b91b,2015-05-24,7195fd45,fix contextlib.closing bug for sessions where content is not consumed (issue #2593),2,1,26,0,3,0,1,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+requests,dd0f164f8e,2015-05-15,f9007676,Update cookies.py,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+requests,059e105f8f,2015-05-15,c9bda9d8,Use complexjson everywhere,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,1
+requests,395a3e8885,2015-05-15,c9bda9d8,Partially revert ab84f9be5740d4649d734e73b84f17f85e52ffc9,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,37,1,1,3,0,0,0,0,0
+requests,d3bd3630ee,2015-05-15,f9007676,max-age may be not digits,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+requests,553907aa6b,2015-05-14,c9bda9d8,Use complexjson everywhere,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,1
+requests,fb6dade63d,2015-05-14,c9bda9d8,Partially revert ab84f9be5740d4649d734e73b84f17f85e52ffc9,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,37,1,1,3,0,0,0,0,0
+requests,cda95d3cde,2015-05-14,f9007676,morsel['max-age'] may be a str.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+requests,86aff09103,2015-05-14,ac7d2d7e,Auth handler calls close instead of raw.close_conn,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+requests,c6c8d649af,2015-05-12,0e521998,do not blindly catch all AttributeErrors,1,1,4,3,4,3,0,0,0,2,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+requests,74609c5c8f,2015-05-06,96ed14d8,cleanup styles a bit,1,1,11,28,11,28,0,0,0,4,0,0,0,3,0,0,0,49,4,7,9,0,0,0,0,1
+requests,ab84f9be57,2015-05-06,96ed14d8,removed poor code,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+requests,3475399a47,2015-05-06,96ed14d8,fix captilization,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,b7bd297340,2015-05-03,c9bda9d8,v2.7.0,2,1,13,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,ee7389da98,2015-05-03,c9bda9d8,Synchronize urllib3 to 1.10.4,3,3,78,53,78,53,0,2,1,5,0,1,2,0,2,0,0,31,3,27,66,0,1,0,0,0
+requests,6e9ebc06d1,2015-04-30,a6f4ed2d,Make docstring of api.get more clear,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+requests,93216afbaf,2015-04-24,34434033,Add information about the package stub,2,1,27,2,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0
+requests,b7fc3a1250,2015-04-24,34434033,Import aliases for Debian,1,1,12,1,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,1,0,0
+requests,ca66267d2c,2015-04-23,fe03a88a,Add release notes for 2.6.2,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,73b9b6906d,2015-04-23,fe03a88a,Update urllib3 to 7b82da0fa3a13514d11a863e379e7541d0ec46ef,1,1,34,18,34,18,0,0,0,2,0,0,0,1,2,0,0,34,1,2,28,0,0,0,0,0
+requests,3e3fc7683c,2015-04-22,e115b242,Remove VendorAlias meta_path hook,1,1,1,105,1,105,0,0,0,0,0,1,0,0,0,3,0,0,0,0,1,0,0,0,1,0
+requests,3d339ed7e6,2015-04-22,c9bda9d8,Update urllib3 to 0b744993,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,cfb9e66b04,2015-04-22,ca076f41,Update history and version number for v2.6.1,2,1,25,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,5fcd843eb2,2015-04-22,ca076f41,Update urllib3 to 10b7a0fefa6596f47a9a6afc80f1f4d1ae950b66,8,7,146,61,142,42,0,1,0,5,2,0,1,0,1,0,0,31,2,16,101,0,0,0,0,0
+requests,35045e851a,2015-04-20,ca076f41,Simplify PreparedRequest.prepare API,2,1,4,1,4,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,1
+requests,a0632d8df0,2015-04-10,ca076f41,Minor formatting change,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,49,1,2,2,0,0,0,0,0
+requests,599f834351,2015-04-11,36df1e73,fix bug 2540,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,49,1,2,2,0,0,0,0,0
+requests,f02d0f9e79,2015-04-11,36df1e73,Fix bug 2540,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,48,1,1,1,0,0,0,0,0
+requests,f89b5a5d90,2015-04-11,36df1e73,fix bug 2540,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,48,1,1,1,0,0,0,0,0
+requests,e3c7b43fc9,2015-04-06,52fa5032,"#2532: Documented strange behaviour in ""PreparedRequest.prepare_cookies"", caused by cookielib. Also ",1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+requests,36093e69c7,2015-04-05,ca076f41,Copy a PreparedRequest's CookieJar reliably,2,2,19,3,19,3,0,0,0,2,0,0,0,0,1,0,0,9,0,0,14,0,0,0,0,0
+requests,dacf69a16d,2015-04-05,ca076f41,Fix build version number in metadata,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,1b5bfe681b,2015-04-05,ca076f41,Place VendorAlias first in meta_path,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,5a69137ac8,2015-04-04,093f8f84,Issue #2334 - HTTPDigestAuth - Renamed thread local attribute,1,1,30,31,30,31,0,0,0,6,0,0,0,0,0,0,0,61,1,11,30,0,1,0,0,0
+requests,36dea43406,2015-04-03,093f8f84,Issue #2334 - HTTPDigestAuth - Improved per-thread state init,1,1,10,12,10,12,0,0,0,3,0,0,0,0,0,0,0,12,0,0,8,0,1,0,0,0
+requests,e8d9bc55bc,2015-04-03,093f8f84,Issue #2334 - HTTPDigestAuth - All state now in thread local storage,1,1,38,27,38,27,0,0,0,5,0,0,0,0,1,0,0,61,1,11,34,0,1,0,0,0
+requests,e65360dbaf,2015-04-02,093f8f84,Issue #2334 - HTTPDigestAuth - Replace getattr utilization,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+requests,845e8f943f,2015-04-02,093f8f84,Issue #2334 - HTTPAuthDigest - Making it thread-safe,1,1,8,5,8,5,0,0,0,4,0,0,0,0,0,0,0,22,0,0,7,0,1,0,0,0
+requests,587eb193dd,2015-03-26,abd24305,fix resolve redirect to pass all original arguments,2,1,5,12,3,11,1,0,0,2,0,0,1,0,0,0,0,67,1,2,3,0,0,0,0,0
+requests,1145fe64a5,2015-03-26,caa4bbc4,matching the version only at the begining of lines,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,ce234d53a5,2015-03-25,caa4bbc4,shorter and faster version extraction from __init__.py,1,1,2,6,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+requests,b2ce5be9d0,2015-03-23,e115b242,"Revert ""Minor Patch TypeError thrown""",2,1,3,10,2,8,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+requests,1b5317ea08,2015-03-23,5dd551b5,Minor Patch TypeError thrown,2,1,10,3,8,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+requests,54791d1970,2015-03-21,c9bda9d8,Expand on what 'elapsed' means.,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,80a3e87bf3,2015-03-14,ca076f41,Bump version and add release notes for 2.6.0,2,1,31,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+requests,f7c85685a8,2015-03-14,c9bda9d8,Add explanatory comment for cookie change,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+requests,573d460aa7,2015-03-14,c117418e,Add return type field to entry-point docstrings,2,1,24,8,23,8,0,0,0,8,0,0,0,0,0,0,0,5,0,0,23,0,0,0,0,0
+requests,3bd8afbff2,2015-03-14,c9bda9d8,Don't ascribe cookies to the target domain.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,66,1,1,1,0,0,0,0,0
+requests,1acc4992d4,2015-03-13,ca076f41,Parse version number out of requests/__init__.py,1,1,14,4,14,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+requests,c4bd6ea150,2015-03-11,ca076f41,Import urllib3's Retry location from the right place,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+requests,a0790f37b7,2015-03-10,ca076f41,Update urllib3 to 43b5b2b452e4344374de7d08ececcca495079b8d,4,4,30,15,30,15,0,0,0,4,0,0,0,0,1,0,0,20,0,0,26,0,0,0,0,0
+requests,4497a26c37,2015-03-07,caa9d9c2,Document Response.iter_lines() reentrancy issues,2,1,15,0,2,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,1,0,0,0
+requests,ec700a9a13,2015-03-04,b71f7886,Avoid duplicating files data when creating a Request with str/bytes/bytearray in the files argument.,1,1,6,5,6,5,0,0,0,1,0,0,0,1,0,0,0,41,1,5,5,0,0,0,0,0
+requests,11b12c3e07,2015-03-03,b71f7886,models.RequestEncodingMixin._encode_files now takes bytearray as fp in addition to the currently sup,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+requests,2669f0c0b1,2015-02-28,ca076f41,Fix when packages are unvendored,1,1,15,4,15,4,1,0,0,2,1,0,0,0,0,0,0,39,1,7,14,0,0,0,0,0
+requests,6ea3f2ada8,2015-02-28,ca076f41,Only alias the imports for vendored dependencies,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,1,0,0
+requests,628474d626,2015-02-24,fe03a88a,Update HISTORY and release version for 2.5.3,2,1,10,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,d8be2473d1,2015-02-23,ca076f41,Update HISTORY and version for v2.5.2,2,1,49,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,58e513579a,2015-02-23,ca076f41,Update urllib3 to 29aa09bde9c42cc9a8d79aac47ee3d362b438cca,6,6,197,83,197,83,0,0,0,14,0,0,1,1,9,3,0,91,2,6,159,0,0,0,0,0
+requests,62df872871,2015-02-11,d1e279de,Upgrade urllib3 to 490d3a227fadb626cd54a240b9d0922f849914b4,5,5,79,11,79,11,0,0,0,11,1,1,1,0,9,0,0,92,4,9,57,0,0,0,0,0
+requests,fb1971778f,2015-01-25,22be3219,Bug fix: field uri in digest authentication should not be empty when encounter http redirections,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,59,1,1,1,0,0,0,0,0
+requests,eec44dbbb1,2015-01-20,ca076f41,Check that a filename is a basestring instance,3,2,30,3,4,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+requests,677bbe30d7,2015-01-19,ca076f41,Move noncebit to the only place it is used,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,61,1,3,3,0,0,0,1,0
+requests,f37fe551bb,2015-01-18,ca076f41,Remove entirely unnecessary and unused bits from requests.compat,1,1,0,52,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+requests,751b35c346,2015-01-18,ca076f41,Attempt to quote anyway if unquoting fails,2,1,28,4,12,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,0
+requests,d2d576b6b1,2015-01-09,ca076f41,Update urllib3 to a27758625e4169330fcf965652b1093faf5aaaa2,4,3,35,17,30,17,0,0,0,3,0,0,1,0,2,0,0,87,1,6,24,0,0,0,0,0
+requests,892f2560c1,2015-01-01,ee6c936d,Changing year in all copyright information,3,1,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+requests,101425ebfc,2014-12-24,c9bda9d8,Enhance documentation for clarity.,1,1,9,8,9,8,0,0,0,2,0,0,0,0,0,0,0,12,0,0,8,0,0,0,0,0

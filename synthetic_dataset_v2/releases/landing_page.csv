@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+landing_page,v0.1,v0.2,0,0.1919,11,276,15,0,4
+landing_page,v0.2,v0.3,1,0.1213,2,287,26,1,8
+landing_page,v0.3,v0.4,2,1.5411,21,285,21,0,7
+landing_page,v0.4,v0.5,3,0.911,3,286,20,0,6

@@ -1,0 +1,17 @@
+instances with >=10 releases: 1080 (18337 instance-releases)
+ICC of the event indicator by instance: 0.134; by file: 0.125; by repository: 0.102
+distribution of per-instance event rate (share of releases with interest):
+ev
+(-0.001, 0.0]    501
+(0.0, 0.05]        0
+(0.05, 0.15]     372
+(0.15, 0.3]      155
+(0.3, 0.6]        47
+(0.6, 1.0]         5
+share of all events by rate class:
+ev
+(-0.001, 0.0]    0.000
+(0.05, 0.15]     0.341
+(0.15, 0.3]      0.378
+(0.3, 0.6]       0.221
+(0.6, 1.0]       0.059

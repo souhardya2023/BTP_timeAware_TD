@@ -1,0 +1,14 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+inventory,v0.1,v0.2,0,3.6316,53,550,1,0,1
+inventory,v0.2,v0.3,1,0.3017,1,531,1,0,1
+inventory,v0.3,v0.4,2,2.6311,103,532,2,0,2
+inventory,v0.4,v0.5,3,0.8762,8,589,56,5,3
+inventory,v0.5,v0.6,4,0.4194,27,592,58,5,4
+inventory,v0.6,v0.7,5,1.8769,29,611,73,2,5
+inventory,v0.7,v0.8,6,0.1303,12,595,74,0,5
+inventory,v0.8,v0.9,7,1.6705,25,607,86,11,8
+inventory,v0.9,v0.10,8,2.5653,46,614,86,7,8
+inventory,v0.10,v0.11,9,0.3052,4,628,86,1,8
+inventory,v0.11,v0.12,10,0.7517,4,629,82,0,7
+inventory,v0.12,v0.13,11,0.4003,6,630,82,6,7
+inventory,v0.13,v0.14,12,1.9053,20,629,81,1,6

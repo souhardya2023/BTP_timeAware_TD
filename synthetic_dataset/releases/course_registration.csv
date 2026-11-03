@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+course_registration,v0.1,v0.2,0,0.0517,9,252,18,0,3
+course_registration,v0.2,v0.3,1,0.0289,16,260,26,0,4
+course_registration,v0.3,v0.4,2,1.0089,52,276,32,1,5
+course_registration,v0.4,v0.5,3,0.1049,0,323,32,0,5
+course_registration,v0.5,v0.6,4,0.0331,17,323,32,0,5
+course_registration,v0.6,v0.7,5,0.438,25,340,48,2,8
+course_registration,v0.7,v0.8,6,2.414,115,359,48,2,8
+course_registration,v0.8,v0.9,7,0.0923,0,461,48,0,8
+course_registration,v0.9,v0.10,8,5.8169,172,461,48,6,8

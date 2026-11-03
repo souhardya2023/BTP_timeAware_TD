@@ -1,0 +1,7 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+vigenere,0,vigenere/core.py,78,188,66,66
+vigenere,0,vigenere/services.py,25,70,0,0
+vigenere,1,vigenere/core.py,19,195,66,5
+vigenere,1,vigenere/services.py,15,82,0,0
+vigenere,2,vigenere/core.py,1,195,66,0
+vigenere,3,vigenere/core.py,1,131,0,0

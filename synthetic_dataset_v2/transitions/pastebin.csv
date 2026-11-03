@@ -1,0 +1,48 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+pastebin,v0.1,v0.2,0,pastebin-D01,pastebin/utils.py,<imports>:from . import models,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.2,v0.3,1,pastebin-D01,pastebin/utils.py,<imports>:from . import models,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.2,v0.3,1,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.3,v0.4,2,pastebin-D01,pastebin/utils.py,<imports>:from . import models,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,repayment,0,0,0,0.0,0.0
+pastebin,v0.3,v0.4,2,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.3,v0.4,2,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.4,v0.5,3,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.4,v0.5,3,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.4,v0.5,3,pastebin-D04,pastebin/services.py,archive_report_4,synth:shell_injection,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.4,v0.5,3,pastebin-D05,pastebin/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D04,pastebin/services.py,archive_report_4,synth:shell_injection,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D05,pastebin/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D06,pastebin/validators.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D07,pastebin/services.py,update_paste_total_7,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D08,pastebin/validators.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.5,v0.6,4,pastebin-D09,pastebin/rules.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D04,pastebin/services.py,archive_report_4,synth:shell_injection,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D05,pastebin/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D06,pastebin/validators.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D07,pastebin/services.py,update_paste_total_7,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D08,pastebin/validators.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.6,v0.7,5,pastebin-D09,pastebin/rules.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D04,pastebin/services.py,archive_report_4,synth:shell_injection,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D05,pastebin/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D06,pastebin/validators.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D07,pastebin/services.py,update_paste_total_7,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,repayment,0,6,3,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D08,pastebin/validators.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.7,v0.8,6,pastebin-D09,pastebin/rules.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D04,pastebin/services.py,archive_report_4,synth:shell_injection,MAJOR,15,4,1,4,0,0,0.006781608318638173,increase,1,8,4,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D05,pastebin/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D06,pastebin/validators.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,repayment,0,0,0,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D08,pastebin/validators.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.8,v0.9,7,pastebin-D09,pastebin/rules.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.9,v0.10,8,pastebin-D02,pastebin/utils.py,<imports>:from . import rules,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.9,v0.10,8,pastebin-D03,pastebin/validators.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.9,v0.10,8,pastebin-D04,pastebin/services.py,archive_report_4,synth:shell_injection,MAJOR,15,8,2,5,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+pastebin,v0.9,v0.10,8,pastebin-D05,pastebin/services.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+pastebin,v0.9,v0.10,8,pastebin-D08,pastebin/validators.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+pastebin,v0.9,v0.10,8,pastebin-D09,pastebin/rules.py,<imports>:from . import services,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,repayment,0,0,0,0.0,0.0

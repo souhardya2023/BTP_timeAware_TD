@@ -1,0 +1,33 @@
+
+### REAL, held-out projects
+AUC for 'interest in this release pair': base (size, age, past events) 0.632; + instance time series 0.625; + project clock 0.716; + neighbours 0.626; all 0.709; persistence 0.686
+top 20% (123 groups): persistence 40.1; base (size, age, past events) +3.6 (-0.9, +8.1); + instance time series -3.1 (-9.0, +2.9); + project clock -0.6 (-6.2, +5.1); + neighbours -0.4 (-5.8, +4.9); all -3.8 (-8.4, +1.1)
+top 30% (123 groups): persistence 49.6; base (size, age, past events) +5.8 (-0.1, +12.2); + instance time series +4.9 (-0.9, +11.0); + project clock +2.6 (-3.0, +8.2); + neighbours +3.5 (-2.3, +9.5); all +2.7 (-2.5, +8.1)
+most used features (all data): clk_a3 0.23, clk_pshare3 0.12, clk_a1 0.11, clk_trend 0.09, ccn0 0.08, ts_shr 0.08, clk_pshare1 0.06, ts_chg_share 0.03
+
+### REAL, temporal
+AUC for 'interest in this release pair': base (size, age, past events) 0.633; + instance time series 0.602; + project clock 0.669; + neighbours 0.618; all 0.666; persistence 0.696
+top 20% (48 groups): persistence 38.2; base (size, age, past events) -0.5 (-10.4, +9.5); + instance time series -3.7 (-16.1, +8.8); + project clock -1.1 (-6.0, +4.3); + neighbours +2.8 (-8.1, +13.9); all -7.3 (-16.5, +1.8)
+top 30% (48 groups): persistence 48.7; base (size, age, past events) +2.7 (-8.2, +14.1); + instance time series -3.8 (-16.7, +9.1); + project clock -1.9 (-9.2, +5.1); + neighbours +4.3 (-6.1, +15.6); all +1.1 (-9.6, +11.8)
+
+### SYNTHETIC baseline, held-out projects
+AUC for 'interest in this release pair': base (size, age, past events) 0.771; + instance time series 0.771; + project clock 0.773; + neighbours 0.771; all 0.778; persistence 0.700
+top 20% (391 groups): persistence 55.3; base (size, age, past events) +4.7 (+1.2, +8.2); + instance time series +2.2 (-1.2, +5.8); + project clock +2.8 (-0.8, +6.4); + neighbours +4.6 (+1.3, +8.1); all +4.4 (+0.9, +8.0)
+top 30% (391 groups): persistence 65.8; base (size, age, past events) +6.0 (+2.4, +9.8); + instance time series +4.6 (+1.1, +8.2); + project clock +4.3 (+1.0, +7.8); + neighbours +5.2 (+1.6, +9.0); all +5.8 (+2.3, +9.5)
+most used features (all data): ts_shr 0.22, ts_ew 0.18, ts_chg_share 0.13, clk_a3 0.10, clk_pshare3 0.06, clk_a1 0.05, clk_trend 0.04, ts_ac1 0.03
+
+### SYNTHETIC baseline, temporal
+AUC for 'interest in this release pair': base (size, age, past events) 0.814; + instance time series 0.813; + project clock 0.791; + neighbours 0.812; all 0.788; persistence 0.780
+top 20% (132 groups): persistence 66.4; base (size, age, past events) -0.9 (-6.6, +4.5); + instance time series -3.3 (-9.3, +2.8); + project clock +1.8 (-1.1, +5.0); + neighbours +0.3 (-5.3, +5.6); all +0.8 (-5.0, +6.5)
+top 30% (132 groups): persistence 76.8; base (size, age, past events) +0.9 (-4.1, +5.6); + instance time series -1.3 (-6.3, +3.4); + project clock +3.0 (-0.8, +6.9); + neighbours +1.8 (-3.4, +6.8); all +2.4 (-2.4, +7.1)
+
+### SYNTHETIC all regimes, held-out projects
+AUC for 'interest in this release pair': base (size, age, past events) 0.800; + instance time series 0.803; + project clock 0.809; + neighbours 0.800; all 0.812; persistence 0.735
+top 20% (691 groups): persistence 57.9; base (size, age, past events) +1.8 (-0.5, +4.1); + instance time series +3.4 (+1.1, +5.9); + project clock +2.1 (-0.1, +4.4); + neighbours +1.5 (-0.8, +3.9); all +2.9 (+0.4, +5.2)
+top 30% (691 groups): persistence 67.8; base (size, age, past events) +3.2 (+0.9, +5.4); + instance time series +4.9 (+2.7, +7.3); + project clock +2.2 (-0.0, +4.5); + neighbours +3.3 (+0.9, +5.7); all +4.7 (+2.2, +7.1)
+most used features (all data): ts_ew 0.37, ts_chg_share 0.16, ts_shr 0.10, clk_a3 0.07, clk_pshare3 0.06, clk_trend 0.04, ts_gap 0.04, clk_pshare1 0.03
+
+### SYNTHETIC all regimes, temporal
+AUC for 'interest in this release pair': base (size, age, past events) 0.849; + instance time series 0.855; + project clock 0.850; + neighbours 0.849; all 0.857; persistence 0.822
+top 20% (249 groups): persistence 66.4; base (size, age, past events) -1.5 (-5.4, +2.2); + instance time series +0.1 (-3.3, +3.9); + project clock -1.9 (-5.5, +1.8); + neighbours -1.3 (-5.0, +2.3); all -0.4 (-4.2, +3.3)
+top 30% (249 groups): persistence 75.9; base (size, age, past events) +0.2 (-3.2, +3.6); + instance time series +1.1 (-2.5, +4.8); + project clock -0.3 (-3.3, +2.7); + neighbours -0.6 (-3.8, +2.6); all +1.7 (-1.9, +5.3)

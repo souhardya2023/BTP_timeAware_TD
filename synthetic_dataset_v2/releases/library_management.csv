@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+library_management,v0.1,v0.2,0,0.2249,11,458,9,0,3
+library_management,v0.2,v0.3,1,2.254,39,467,14,0,5
+library_management,v0.3,v0.4,2,1.3724,56,489,20,0,6
+library_management,v0.4,v0.5,3,1.248,32,514,22,2,8
+library_management,v0.5,v0.6,4,0.4508,19,496,18,2,7
+library_management,v0.6,v0.7,5,1.2197,24,495,14,0,6
+library_management,v0.7,v0.8,6,0.2758,3,495,14,1,6
+library_management,v0.8,v0.9,7,0.1296,2,494,9,2,4
+library_management,v0.9,v0.10,8,0.2962,2,493,3,0,3
+library_management,v0.10,v0.11,9,0.2814,0,447,3,0,3

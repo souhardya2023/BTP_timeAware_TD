@@ -1,0 +1,12 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+invoice_generator,v0.1,v0.2,0,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,0,0,0,0.02062846280146194,none,1,11,0,0,0.0
+invoice_generator,v0.2,v0.3,1,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,1,0,0,0.02062846280146194,interest,1,11,1,1.0,0.001476547186496228
+invoice_generator,v0.3,v0.4,2,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,2,1,1,0.02062846280146194,interest,1,11,1,1.0,0.001476547186496228
+invoice_generator,v0.4,v0.5,3,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,3,2,2,0.02062846280146194,interest,1,11,2,2.0,0.003164390096496418
+invoice_generator,v0.5,v0.6,4,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,4,4,3,0.02062846280146194,none,1,11,0,0,0.0
+invoice_generator,v0.6,v0.7,5,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,5,4,3,0.02062846280146194,interest,1,11,2,2.0,0.003164390096496418
+invoice_generator,v0.7,v0.8,6,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,11,4,6,6,4,0.02062846280146194,interest,1,12,2,1.0,0.001476547186496228
+invoice_generator,v0.8,v0.9,7,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,12,4,7,7,5,0.02269984787238689,none,1,12,0,0,0.0
+invoice_generator,v0.9,v0.10,8,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,12,4,8,7,5,0.02269984787238689,none,1,12,0,0,0.0
+invoice_generator,v0.10,v0.11,9,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,12,4,9,7,5,0.02269984787238689,none,1,12,0,0,0.0
+invoice_generator,v0.11,v0.12,10,invoice_generator/rules.py::build_line_1::many_params,invoice_generator/rules.py,build_line_1,many_params,MAJOR,0,12,4,10,7,5,0.02269984787238689,none,1,12,0,0,0.0

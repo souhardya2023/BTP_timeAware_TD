@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+jsonschema,84bae0ea47,2026-10-04,77226299,ruff format and zizmor in pre-commit,31,12,621,393,204,90,0,0,0,39,0,0,4,1,0,1,0,84,5,56,187,0,0,0,0,0
+jsonschema,96233ef5f9,2026-10-04,77226299,Use uv-native environments in CI and get rid of requirements files.,6,1,982,546,39,39,0,0,0,4,0,0,0,0,1,1,0,33,0,0,35,0,0,0,0,0
+jsonschema,7b8177923f,2026-10-04,77226299,"Drop support for 3.10 and 3.11, add it for pypy3.12.",9,4,36,44,30,27,0,0,0,10,0,0,0,0,0,0,0,22,2,4,30,0,0,0,0,0
+jsonschema,865c27fc3d,2026-09-07,77226299,Properly set path and schema_path on nested boolean schemas.,3,1,31,0,2,0,0,0,0,2,0,0,1,0,0,0,0,65,2,4,2,0,0,0,0,0
+jsonschema,0a845d0db3,2026-09-07,77226299,Also take into account the count of subschema errors for relevance.,3,1,164,56,56,46,0,0,0,1,0,0,0,0,1,1,0,21,0,0,45,0,0,0,0,0
+jsonschema,592f1c1b6e,2026-09-07,77226299,"Compute best_match relevance keys once, and settle sibling ties by position.",3,1,58,14,44,13,0,0,0,1,0,0,0,0,1,0,0,24,0,0,39,0,0,0,0,0
+jsonschema,7fa1acc948,2026-09-06,77226299,Don't mutate ErrorTrees when purely checking indices.,3,1,81,10,31,10,0,0,0,3,0,0,0,0,0,0,0,17,0,0,26,0,0,0,0,0
+jsonschema,23fd67905b,2026-07-12,77226299,Fix the relative JSON pointer format to properly reject '100' in the new test.,1,1,9,15,9,15,0,0,0,1,0,0,0,0,0,0,0,12,0,0,7,0,0,0,0,0
+jsonschema,4f7d9e7047,2026-07-12,77226299,"Fix non-format test cases, skipping email ones and tightening UUID ones.",2,1,22,7,1,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jsonschema,a4d2dc7581,2026-05-17,77226299,Switch to AmIGPL for our license check.,1,1,3,37,3,37,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+jsonschema,2271cec697,2026-05-12,0c5e72bd,Cover distinct NaN cases in uniq and tidy _utils imports.,2,1,8,6,4,5,0,0,0,3,0,0,0,0,0,0,0,74,2,2,4,0,0,1,0,0
+jsonschema,4f8361faf0,2026-05-11,0c5e72bd,Speed up uniqueItems validation with structural hashing.,2,1,162,21,77,20,0,0,0,3,1,0,0,0,1,0,0,74,1,1,57,0,0,0,0,0
+jsonschema,fc9fe6db75,2026-05-03,77226299,Fix unevaluatedProperties under draft 2019-09 with a non-bool adjacent additionalProperties.,1,1,12,12,12,12,1,0,0,1,0,0,0,1,0,0,0,74,1,11,11,0,0,0,0,0
+jsonschema,0e5655c388,2026-01-07,f0a4c24f,Shortend the comment,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+jsonschema,de9483f202,2026-01-07,f0a4c24f,docs: Fix misleading comment in relevance function,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+jsonschema,2818efb4fa,2025-12-20,77226299,Apache-2.0 -> nongpl,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,7710cd6cc5,2025-10-31,77226299,Allow the benchmark noxenv to run against any installable.,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+jsonschema,7a74932906,2025-10-24,77226299,"Drop support for 3.9, which is EOL, add 3.14 to CI.",7,4,427,185,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+jsonschema,cebe4c7a37,2025-10-24,77226299,Remove running pip-audit from CI.,1,1,0,17,0,17,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jsonschema,082a04eb2c,2025-10-13,77226299,idna moved to PEP 639 as well (and is MIT).,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+jsonschema,88c8ff2063,2025-10-06,77226299,Get CI passing again by ignoring the pip CVE.,1,1,8,1,8,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,7,1,0,0,0,0
+jsonschema,1cab18fef6,2025-10-05,03915752,validators: avoid urllib.request at import-time,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,1,0,0
+jsonschema,1e58409b71,2025-08-18,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jsonschema,64bc217162,2025-08-18,bbf08d79,Add a typing test for the Validator protocol,4,2,44,2,6,2,0,0,0,2,0,0,0,0,0,0,0,65,1,2,6,0,0,0,0,0
+jsonschema,a916d8f825,2025-08-12,bbf08d79,Fix `Validator` protocol init to match runtime,1,1,4,3,4,3,1,0,0,0,0,0,0,0,0,1,0,0,0,0,4,0,0,0,0,0
+jsonschema,7c808cbbf2,2025-08-12,77226299,Again ignore a license check until we rewrite checkgpl.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+jsonschema,785741e73b,2025-07-17,77226299,Add a dependency group for our new test dependency.,2,1,4,2,1,2,0,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,1,0,0
+jsonschema,4cf45b95de,2025-07-17,4d107b6b,Feedback: Use jsonpath-ng to re-parse the rendered JSON path,2,1,33,94,1,0,0,0,0,1,0,0,0,0,0,0,0,34,0,0,1,0,0,0,0,0
+jsonschema,2680f6ab44,2025-07-17,4d107b6b,Feedback: Make a compiled regex pattern private,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,1,0
+jsonschema,9a957d770d,2025-07-16,4d107b6b,Unambiguously quote and escape properties in JSON path rendering,2,1,126,1,7,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,1,0,0,0,0
+jsonschema,8dd4f567ca,2025-07-16,d8a0c8d1,feat: use non-GPL validator for rfc3987,3,1,29,4,25,0,0,0,0,2,0,0,0,0,2,0,0,4,0,0,22,0,0,0,0,0
+jsonschema,5e959e5868,2025-06-23,77226299,Quiet some style noise.,2,1,12,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,d38e3bc29c,2025-06-03,723ea5f7,"since `python-requires = >=3.9`, we can cut the <3.9 backports",2,1,40,47,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,57e5e034cb,2025-05-26,77226299,Test via PyPy 3.11.,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,8290667beb,2025-05-26,77226299,We still need to ditch pip-licenses...,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jsonschema,e68b54949f,2025-05-26,cf8ed89f,Move is_valid function to module scope,1,1,5,4,5,4,0,0,0,1,0,0,0,1,1,1,0,74,1,0,3,0,0,1,1,0
+jsonschema,fb57921bcc,2025-04-29,cf8ed89f,Fix calculation of evaluated properties,1,1,12,12,12,12,1,0,0,1,0,0,0,1,0,0,0,75,1,11,11,0,0,0,0,0
+jsonschema,20f025d740,2025-04-29,cf8ed89f,Add helper function,1,1,10,7,10,7,0,0,0,1,0,0,0,1,1,0,0,75,1,9,9,0,0,0,0,0
+jsonschema,87b2e340e3,2025-04-25,77226299,Fix the license check noxenv again until we rewrite it.,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+jsonschema,76bd5762d6,2025-03-26,77226299,Again twiddle with license checking.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,1bbd9c2a9e,2025-01-31,77226299,Don't scan the upstream test suite for secrets.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jsonschema,2f299b9cd0,2025-01-31,77226299,Use uv in CI.,2,1,43,43,20,13,0,0,0,2,0,0,0,0,0,0,0,14,0,0,18,0,0,0,0,0
+jsonschema,51506b9729,2025-01-16,bbf08d79,"Improve 'format:hostname' to handle """" and "".""",2,1,14,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,1835a08f61,2024-12-28,77226299,Run with 3.13 by default in noxenvs.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,0696c69225,2024-12-28,77226299,Ignore packages using PEP 639 in license-check until we reimplement it.,1,1,8,0,8,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+jsonschema,e3a3ab6189,2024-11-25,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,2,2,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,d71f96a652,2024-10-17,77226299,Fix the annotation for validator_for's default.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+jsonschema,88ec636d34,2024-09-15,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,1,1,1,1,1,0,0,2,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+jsonschema,5a9f2acbc4,2024-09-15,e8809598,Pick the deepest error among the most relevant ones in each separate subschema,4,2,209,9,14,4,0,0,0,4,0,0,0,0,0,0,0,65,1,1,12,0,0,0,0,0
+jsonschema,6b12cf8539,2024-09-11,77226299,Wrongly moved import.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+jsonschema,ee03ec4fc6,2024-09-11,77226299,"Drop support for 3.8, which is near EOL.",9,5,22,41,12,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+jsonschema,d2aa2ba124,2024-07-19,77226299,Don't peek at our iterator when computing best_match.,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jsonschema,40410c45e7,2024-07-08,7e75ce2f,Declare support for 3.13,4,1,10,3,3,3,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+jsonschema,7fd28c3936,2024-06-17,77226299,Update the (ancient draft3) color format for newer webcolors.,2,1,7,11,6,10,0,0,0,1,0,0,0,0,0,1,0,7,0,0,6,0,0,0,0,0
+jsonschema,9f7cae7f1f,2024-06-09,77226299,Don't reorder dicts (particularly schemas) when rendering errors.,3,1,36,6,11,4,0,0,0,2,0,0,0,0,1,0,0,11,0,0,9,0,0,0,0,0
+jsonschema,0024b584c6,2024-06-05,77226299,Remove references to Unset in the typing annotations.,1,1,3,6,3,6,0,0,0,2,0,0,0,0,0,0,0,39,0,0,3,0,0,0,1,0
+jsonschema,0151efd061,2024-06-05,77226299,Loosen the type for error paths.,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+jsonschema,70a994ceab,2024-04-26,77226299,Remove a now-unneeded noqa since apparently this is fixed in new ruff.,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,1,0
+jsonschema,b20234e86c,2024-04-24,77226299,Consider errors from earlier indices (in instances) to be better matches,3,1,71,6,7,6,0,0,0,2,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+jsonschema,20d84439ac,2024-02-16,e87692d3,"Add is check to equals check, enabling support for nan",2,1,16,0,2,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+jsonschema,1a4bd96955,2024-02-10,77226299,"Decide which keywords need processing once, rather than each validation.",2,1,49,6,17,6,0,0,0,3,0,0,1,0,0,0,0,65,1,16,16,0,0,0,0,0
+jsonschema,4eee04bd41,2024-02-08,77226299,"validator_for returns the type, not an instance of Validator",1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+jsonschema,636dbf8bf4,2024-02-07,77226299,Fix ruff deprecation noise and style changes.,7,6,31,3,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,00e21ebead,2024-01-29,77226299,Squashed 'json/' changes from 544f7c3d..b41167c7,603,13,1188,17299,0,4737,0,0,5,0,0,10,0,0,0,240,0,0,0,0,0,0,0,0,0,0
+jsonschema,aa53fd004b,2024-01-19,77226299,Slightly speed up the contains keyword.,3,1,36,1,3,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0
+jsonschema,c9e20291e2,2024-01-19,77226299,perf -> bench,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0
+jsonschema,8875c2ecb1,2024-01-16,77226299,"Also improve min{Length,Properties}'s error message.",2,1,61,32,14,4,0,0,0,4,0,0,0,0,0,0,0,9,0,0,14,0,0,0,0,0
+jsonschema,6b4441e382,2024-01-12,77226299,New ruff fixed some bugs.,2,1,3,3,2,2,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+jsonschema,9a3d4a7708,2024-01-08,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,a9bf13ca04,2024-01-08,a38b08f4,Use equal for enum validator,1,1,1,5,1,5,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jsonschema,0ce7200bd2,2024-01-06,77226299,Enable the rest of the rulesets we care about and fix minor things.,18,9,120,116,83,86,1,0,0,32,0,0,0,4,0,0,0,75,6,28,82,0,0,0,0,0
+jsonschema,a1d4cb3b94,2023-12-12,77226299,Special-case the error messages for min/maxItems' special values.,2,1,12,2,4,2,0,0,0,2,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+jsonschema,294ecd65bd,2023-12-11,77226299,Type annotation for validator_for.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+jsonschema,2317eb8670,2023-12-11,77226299,Squashed 'json/' changes from d38ddd54..217bf81b,599,13,464,17284,0,4571,0,0,4,0,0,9,0,0,0,238,0,0,0,0,0,0,0,0,0,0
+jsonschema,b307f310f8,2023-11-24,77226299,Enable SIM style rules which catch minor import micro-optimizations.,6,3,21,10,13,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,0,0
+jsonschema,5ff5999d50,2023-11-16,77226299,Consider properties evaluated when they're behind dynamic refs.,4,3,174,7,173,7,0,1,0,3,1,0,3,0,2,0,0,76,3,47,153,0,0,0,0,0
+jsonschema,11e230219d,2023-10-31,77226299,Minor typing tweaks in the exceptions module.,1,1,7,6,7,6,0,0,0,3,0,0,0,0,0,0,0,9,0,0,7,0,0,1,0,0
+jsonschema,9f3519f397,2023-10-30,77226299,Minor spelling.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+jsonschema,3b486f71cf,2023-10-30,77226299,Deprecate ErrorTree.__setitem__.,3,1,33,0,11,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,9,0,0,0,0,0
+jsonschema,486cf8360a,2023-10-30,77226299,Minor coverage hacking.,4,2,21,4,4,4,0,0,0,3,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+jsonschema,daa40b3eaf,2023-10-30,77226299,Don't leak the ``additionalItems`` keyword into JSON Schema draft 2020-12,4,3,24,24,23,24,1,0,0,0,0,0,0,0,1,1,0,0,0,0,20,0,0,0,0,0
+jsonschema,8cff13d0e8,2023-10-30,77226299,Fix items/prefixItems' message when used with heterogeneous arrays.,4,2,108,8,15,6,1,0,0,4,0,0,0,0,0,0,0,27,0,0,14,0,0,0,0,0
+jsonschema,6b126dbb6a,2023-10-09,77226299,"Ask ruff to fix things, and fix the now-unneeded noqa.",2,1,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,fa91642b6e,2023-09-15,4d866c4d,Allow single label hostname in format string,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jsonschema,ef6906a83b,2023-09-11,77226299,Split the pip-licenses noxenv off to its own noxenv.,1,1,18,13,18,13,0,0,0,1,0,0,0,0,1,0,0,3,0,0,17,0,0,0,1,0
+jsonschema,cd886db914,2023-09-10,77226299,Document the nox envs.,2,1,34,9,33,8,0,0,0,11,0,0,0,0,0,1,0,33,0,0,32,0,0,0,0,0
+jsonschema,931323043b,2023-08-09,77226299,More closely match modern JSON Schema vocabulary in internal module names.,7,1,197,207,189,189,0,0,0,0,0,0,0,0,0,0,0,0,0,0,189,0,0,1,0,0
+jsonschema,2f5ff0b14c,2023-08-07,77226299,Don't blow up if an automatically retrieved resource is missing $schema.,3,1,8,5,4,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+jsonschema,eaf2e7b455,2023-08-06,77226299,Deprecate importing Validator from the package root.,3,1,30,3,10,2,0,0,0,1,0,0,1,0,0,0,0,76,1,10,10,0,0,1,0,0
+jsonschema,4e999e0708,2023-08-02,77226299,Set a library-specific user agent when automatically retrieving $refs.,3,1,58,5,4,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+jsonschema,4fdc365820,2023-08-02,77226299,Declare support for 3.12.,4,1,18,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,b3f9d0ece6,2023-08-02,77226299,Make the noxfile support passing a less temporary directory for building docs.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+jsonschema,d8744fe9f1,2023-07-28,77226299,Enable another ruff ruleset.,5,2,22,22,5,5,0,0,0,2,0,0,0,0,0,0,0,64,1,2,5,0,0,0,0,0
+jsonschema,28778ee2e1,2023-07-28,77226299,"Update docs requirements, fixing the noxenv to do so.",2,1,25,25,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jsonschema,801a4cecc7,2023-07-18,77226299,Improve the hashability of referencing exceptions when they contain hashable data.,3,1,26,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,f79bad5fcd,2023-07-13,77226299,Properly preserve applicable_validators in extended validators.,3,1,26,0,3,0,0,0,0,2,0,0,1,0,0,0,0,64,1,1,2,0,0,0,0,0
+jsonschema,52c2419625,2023-07-12,77226299,Fix an additional regression with RefResolver and pointer resolution.,3,1,27,1,3,1,1,0,0,2,0,0,0,0,0,0,0,63,1,3,3,0,0,0,0,0
+jsonschema,90ea779619,2023-07-12,77226299,Fix a regression with RefResolver-based resolution in newly created drafts,3,1,32,0,5,0,1,0,0,2,0,0,0,0,0,0,0,63,1,3,3,0,0,0,0,0
+jsonschema,273d4dd6ca,2023-07-09,77226299,Twewak the build noxenv again.,2,1,3,3,3,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+jsonschema,4817d36a72,2023-07-09,77226299,Don't use nox.session.create_tmp.,1,1,20,25,20,25,0,0,0,2,0,0,0,0,0,1,0,17,0,0,20,0,0,0,0,0
+jsonschema,7046da13cf,2023-07-06,77226299,Make everywhere use the newer attrs APIs.,4,3,31,28,22,20,0,0,0,3,0,0,0,0,1,0,0,8,0,0,20,0,0,0,0,0
+jsonschema,d35f2c258a,2023-06-12,77226299,Only use a default (remote retrieving registry) when none is provided.,2,1,33,3,5,3,0,0,0,2,0,0,0,0,0,0,0,63,1,4,5,0,0,0,0,0
+jsonschema,1240e687b1,2023-06-05,77226299,Don't uselessly recombine registries each time we recurse into subschemas.,2,1,39,9,4,9,0,0,0,2,0,0,0,1,0,0,0,63,1,4,4,0,0,0,0,0
+jsonschema,b62bcfb334,2023-06-01,77226299,Add Unlicense to the allowed non-GPL license audit list.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,f5ca32e694,2023-05-30,77226299,Ensure twine checks the README in strict mode.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jsonschema,ecb27ef631,2023-05-30,77226299,Fix the rendering of __str__ on wrapped referencing exceptions.,2,1,27,7,16,4,1,0,0,5,0,0,0,0,4,1,0,2,0,0,13,0,0,0,0,0
+jsonschema,9f614ac0c9,2023-05-25,77226299,Try again at coverage without a separate shell script.,3,1,23,16,21,11,0,0,0,1,0,0,0,0,0,0,0,33,0,0,20,0,0,0,0,0
+jsonschema,6c7622ba72,2023-05-24,77226299,"Whoops, re-fix the noxfile env names.",2,1,3,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,abc37b5310,2023-05-24,77226299,More minor internal coverage related settings and setup tweaks.,2,1,38,19,33,19,0,0,0,2,0,0,0,0,0,0,0,24,0,0,31,0,0,0,0,0
+jsonschema,aec372b9bd,2023-05-23,77226299,Minor improvements to test coverage (via ignoring).,3,1,3,28,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,c8584e7f21,2023-05-23,77226299,tox -> nox,4,1,250,259,189,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,150,0,0,0,0,0
+jsonschema,b0604fbd30,2023-05-23,77226299,Remove dead (3.7) references to importlib_metadata.,3,2,3,15,2,10,0,0,0,1,0,0,0,1,0,0,0,66,1,1,2,0,0,1,1,0
+jsonschema,49798a7bb3,2023-05-23,77226299,"No idea why mypy still isn't happy, but shh please.",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,bd68ca323c,2023-05-23,77226299,Slightly speed up unevaluatedProperties in the failing case.,2,2,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,62,3,6,6,0,0,0,0,0
+jsonschema,16fef5b641,2023-04-27,77226299,Fix an additional unintentional resolution scope change in RefResolver,2,1,18,8,9,6,1,0,0,3,0,0,1,0,0,0,0,68,2,17,9,0,0,0,0,0
+jsonschema,dc683c3105,2023-04-25,77226299,Re-enable (but deprecate) automatic reference retrieval.,3,1,37,7,30,4,0,0,0,1,0,0,1,0,1,0,0,68,1,7,26,0,0,0,0,0
+jsonschema,29ad460fb3,2023-04-25,77226299,Ignore non-str $ids for *deprecated* RefResolver resolution.,2,1,13,3,4,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+jsonschema,3b35731082,2023-04-17,77226299,Wrap raised referencing exceptions in a RefResolutionError subclass.,3,2,50,1,16,1,0,0,0,6,0,0,0,0,2,0,0,64,1,4,12,0,0,0,0,0
+jsonschema,1d5e77c60e,2023-03-28,20c8e265,lint,1,1,3,4,3,4,0,0,0,1,0,0,0,1,0,0,0,62,1,3,3,0,0,0,0,0
+jsonschema,781f8cdf9c,2023-03-28,0299801b,fix: Python 3.11 date.fromisoformat() allows extra formats,1,1,6,1,6,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+jsonschema,9e7e017fe9,2023-03-27,20c8e265,lint,1,1,4,3,4,3,0,0,0,1,0,0,1,0,0,0,0,63,1,4,4,0,0,0,0,0
+jsonschema,1583370bc1,2023-03-27,20c8e265,Do not validate for unevaluatedProperties,1,1,6,13,6,13,0,0,0,1,0,0,0,1,0,0,0,62,1,6,6,0,0,0,0,0
+jsonschema,0730700196,2023-03-23,77226299,Always pass a URI to referencing.jsonschema.specification_with.,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,64,1,1,1,0,0,0,0,0
+jsonschema,5984889fcf,2023-03-20,72b3af1c,documentation mistype fix,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+jsonschema,4f0ef528d4,2023-03-15,77226299,Enable ruff's simplify rules too.,5,3,22,34,13,22,0,0,0,4,0,0,0,0,0,0,0,31,1,1,13,0,0,0,0,1
+jsonschema,db1e185913,2023-03-15,77226299,"flake8 -> ruff, a mostly painless affair.",13,8,85,67,37,30,0,0,0,12,0,0,0,0,0,0,0,50,1,1,35,0,0,0,0,0
+jsonschema,61bd0b1882,2023-03-15,77226299,Remove a codepath meant for 3.7.,1,1,8,14,8,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0
+jsonschema,69fc7b4eaf,2023-03-15,77226299,Newer attrs API in validators.py and some type hints for create.,3,3,69,29,69,29,0,0,0,3,0,0,1,0,1,0,0,64,1,35,61,0,0,0,0,0
+jsonschema,8bdec06351,2023-03-14,77226299,Ignore additionalItems when items isn't present on 2019.,2,1,4,3,3,3,0,0,0,1,0,0,0,0,0,0,0,50,1,2,2,0,0,0,0,0
+jsonschema,94c60e4170,2023-03-06,77226299,Speed up Validator.evolve by pre-computing fields.,1,1,61,17,61,17,0,0,0,4,0,0,2,0,1,0,0,59,2,84,52,0,0,0,0,0
+jsonschema,eb00447964,2023-03-06,77226299,Replace the other usages of pyrsistent with rpds.,5,2,16,23,13,17,0,0,0,1,0,0,0,0,1,1,0,33,0,0,12,0,0,0,0,0
+jsonschema,19bdf6191a,2023-02-23,77226299,Three more exception-related deprecations.,8,3,107,19,51,11,0,0,0,4,1,0,0,0,1,0,0,69,2,29,48,0,0,0,0,0
+jsonschema,bdda723503,2023-02-21,77226299,Flail to get Sphinx to find references again.,3,2,23,16,5,6,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+jsonschema,e826629440,2023-02-21,77226299,Resolve $ref using the referencing library.,7,4,131,382,114,75,0,1,1,9,2,1,3,0,1,0,0,69,6,122,104,0,0,0,0,0
+jsonschema,a39e5c953a,2023-02-21,77226299,Move Validator._resolver to _ref_resolver.,2,1,18,18,17,17,0,0,0,4,0,0,0,0,0,0,0,37,0,0,16,0,0,0,1,0
+jsonschema,635dc13c91,2023-02-21,77226299,Deprecate Validator.resolver.,4,2,39,6,20,2,0,0,0,4,0,0,1,0,0,0,0,51,1,3,18,0,0,0,0,0
+jsonschema,9da55dfa02,2023-02-21,77226299,Move reference resolution to a (private) Validator method.,3,2,63,50,28,33,0,0,0,4,0,0,1,0,2,1,0,49,1,1,24,0,0,0,1,0
+jsonschema,4ec24ab462,2023-02-21,77226299,Inline a function that will be RefResolver specific.,1,1,6,9,6,9,0,0,0,1,0,0,0,0,0,1,0,33,0,0,6,0,0,0,0,0
+jsonschema,52340d7820,2023-02-21,77226299,Offload a small initial bit of id-related code to referencing.,2,2,14,29,14,29,0,0,0,2,0,0,0,0,0,3,0,35,0,0,14,0,0,0,0,0
+jsonschema,238e7111ec,2023-02-21,77226299,Deprecate jsonschema.RefResolver from both places it is importable.,10,4,64,32,34,7,0,0,0,7,0,0,0,0,0,0,0,45,0,0,31,0,0,1,0,0
+jsonschema,bf94d57b2b,2023-02-21,77226299,Move to retrieving schemas from the jsonschema-specifications registry.,24,2,85,1370,22,33,0,0,0,1,0,0,0,0,0,1,0,6,0,0,22,0,0,0,1,0
+jsonschema,64a744277e,2023-02-15,77226299,More specific type.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,dae554c22c,2023-01-20,77226299,Squashed 'json/' changes from d21ed578a..f57d3e0cc,602,11,293,16891,0,4067,0,0,4,0,0,7,0,0,0,217,0,0,0,0,0,0,0,0,0,0
+jsonschema,c175f9d318,2022-12-26,77226299,Minor spelling and style.,2,1,6,5,5,4,0,0,0,1,0,0,0,0,0,0,0,45,0,0,5,0,0,0,0,0
+jsonschema,7fd4d38f3b,2022-12-22,24ba517a,Add typing to ``_Error.__init__``,1,1,10,9,10,9,0,0,0,1,0,0,0,0,0,0,0,39,0,0,10,0,0,0,0,0
+jsonschema,efa28c6900,2022-12-22,24ba517a,Add typing and check to ``_Error._matches_type``,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+jsonschema,e2c3a06301,2022-12-22,24ba517a,Add typing to some methods of ``_Error``,1,1,18,11,18,11,0,0,0,10,0,0,0,0,0,0,0,11,0,0,17,0,0,0,0,0
+jsonschema,dfb65eb719,2022-12-21,24ba517a,Use ``ClassVar`` for ``_Error`` attributes,1,1,36,51,36,51,0,0,0,5,0,0,0,0,0,1,0,11,0,0,30,0,0,0,0,0
+jsonschema,7b1bdb43e7,2022-12-19,77226299,Add a few examples of jsonschema.validators.validator_for.,2,1,38,0,37,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,26,0,0,0,0,0
+jsonschema,8304e417d4,2022-12-01,77226299,Add a docstring-ish for exceptions.relevance.,2,1,9,1,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jsonschema,19ed819626,2022-11-30,24ba517a,Add ``_VerboseError``,1,1,55,33,55,33,0,0,0,6,0,0,0,0,1,0,0,39,0,0,46,0,0,0,0,0
+jsonschema,57f2948447,2022-11-30,77226299,Handle the TypeVar for format checker callables.,3,1,31,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,dbc398245a,2022-11-29,77226299,Fix instantiating validators with cached refs-to-bool schemas.,3,1,24,2,3,2,1,0,0,1,0,0,0,0,0,0,0,28,0,0,3,0,0,0,0,0
+jsonschema,7ebe1614ce,2022-11-29,77226299,Try fixing more Sphinx refs which fail only on Ubuntu...,3,2,6,5,5,4,1,0,0,2,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+jsonschema,e868bfedde,2022-11-28,77226299,Durations without trailing units aren't valid durations.,2,1,12,1,3,1,0,1,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+jsonschema,24d13287b4,2022-11-28,77226299,Empty strings are not valid relative JSON pointers.,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+jsonschema,4f8f346cc4,2022-11-17,77226299,Un-bundle single-vocabulary meta-schemas.,16,1,578,2,5,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+jsonschema,7830605c1c,2022-11-17,77226299,Emit a better error message for unevaluatedProperties with a subschema.,2,1,37,9,17,8,0,1,0,1,0,0,0,0,0,0,0,26,0,0,14,0,0,0,0,0
+jsonschema,6de73c3d21,2022-11-11,77226299,Satisfy mypy's new default.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jsonschema,7448523b98,2022-11-01,77226299,Enable format validation by default in check_schema.,3,1,23,2,8,2,0,0,0,2,0,0,0,0,0,0,0,35,0,0,8,0,0,0,0,0
+jsonschema,f40199de80,2022-11-01,77226299,Deprecate the CLI (via import or running normally).,4,1,39,2,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,0
+jsonschema,669bd47422,2022-10-05,77226299,Fix the grammar on ErrorTree's repr when it has 1 error.,3,1,23,2,3,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+jsonschema,8fd12e29d8,2022-10-05,77226299,Ignore PyCQA/flake8-bugbear#287.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,ee024ffc61,2022-09-09,77226299,Deprecate jsonschema.draftN_format_checker attributes.,5,1,139,24,21,9,0,0,0,1,0,0,0,0,0,0,0,33,0,0,19,0,0,0,0,0
+jsonschema,d9e093d439,2022-09-09,77226299,Fix more $ref cases when the lookup URL is different from an $id,2,1,27,10,17,10,1,0,0,3,0,0,0,0,0,0,0,27,0,0,15,0,0,0,0,0
+jsonschema,420fc6bd9a,2022-08-31,77226299,Minor verbiage tweak for protocols.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,8ce8250897,2022-08-30,77226299,Don't show type checker functions in TypeChecker reprs.,2,1,9,1,5,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,d67decc6f0,2022-08-30,77226299,Add some deprecated directives (for previous deprecations) to the docs.,3,2,16,0,12,0,0,0,0,2,0,0,0,0,0,0,0,12,0,0,7,0,0,0,0,0
+jsonschema,6d04fd7041,2022-08-30,77226299,Remove the incorrect Optional from FormatChecker's formats annotation.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,1,0
+jsonschema,fd491f971e,2022-08-30,77226299,Minor non-functional changes to FormatChecker docstrings and __init__.,2,1,10,11,9,11,0,0,0,4,0,0,0,0,0,0,0,11,0,0,9,0,0,0,0,0
+jsonschema,bde874d31c,2022-08-29,77226299,Wouldn't be complete without refs which fail now only in ReadTheDocs. :/,2,1,6,5,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,4320a2cb4f,2022-08-29,77226299,Of course the tweaked name doesn't work on macOS.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+jsonschema,5fe9759e50,2022-08-29,77226299,Fix some ambiguous API refs which only fail on Sphinx+Linux :/,1,1,6,5,6,5,1,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+jsonschema,8e43f784be,2022-08-29,77226299,Experiment with autoapi for generating explicit API documentation.,10,1,78,4,1,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jsonschema,bf92aed44e,2022-08-28,77226299,Fix $id in the presence of $ref on draft 6 and 7.,3,2,22,21,17,2,1,0,0,0,0,0,0,0,2,0,0,0,0,0,14,0,0,0,0,0
+jsonschema,b4513dc847,2022-08-21,77226299,"Add ID_OF to the protocol, and schemas are arbitrary mappings.",1,1,10,6,10,6,0,0,0,2,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,0
+jsonschema,1e6b983569,2022-08-20,77226299,Fix unevaluatedItems on draft2019.,4,2,82,59,79,1,1,0,0,0,1,0,0,0,2,0,0,0,0,0,66,0,0,0,0,0
+jsonschema,cd8f0592b9,2022-08-20,77226299,Deprecate FormatChecker.cls_checks.,4,1,42,3,17,1,0,0,0,3,0,0,0,0,2,1,0,22,2,2,16,0,0,0,0,0
+jsonschema,b64cb5f4dc,2022-08-20,77226299,More tweaking of type-hinted Sphinx docstrings for TypeCheckers.,1,1,19,32,19,32,0,0,0,4,0,0,0,0,0,0,0,8,0,0,18,0,0,0,0,0
+jsonschema,229253cad5,2022-08-20,77226299,Type pmap using pyrsistent's typing.,1,1,9,15,9,15,0,0,0,3,0,0,0,0,0,0,0,8,0,0,9,0,0,0,0,0
+jsonschema,edba224b2d,2022-08-20,77226299,Standardize the format of Raises: in napolean docstrings.,4,4,14,10,14,10,0,0,0,6,0,0,0,0,0,0,0,11,0,0,10,0,0,0,0,0
+jsonschema,28a8666e88,2022-08-20,77226299,Convert more docs in protocols to napoleon.,1,1,56,26,56,26,0,0,0,4,0,0,0,0,0,0,0,1,0,0,36,0,0,0,0,0
+jsonschema,7215038a88,2022-08-20,77226299,Fix mypy types for protocols.Validator,1,1,4,4,4,4,1,0,0,3,0,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0
+jsonschema,a60a087884,2022-08-19,77226299,Support validator classes whose metaschema uses a different dialect.,3,1,44,1,2,1,0,0,0,2,0,0,0,0,0,0,0,35,0,0,2,0,0,0,0,0
+jsonschema,edaf2a19c4,2022-08-18,77226299,Remove some old unnecessary explicit object superclasses.,11,6,19,19,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0
+jsonschema,e69cb7ab50,2022-08-18,77226299,Warn at runtime when subclassing validator classes.,3,1,45,4,15,0,0,0,0,1,0,0,0,0,1,0,0,35,0,0,14,0,0,0,0,0
+jsonschema,990bae77c3,2022-08-18,77226299,Use an explicit default provided to validator_for in all cases.,3,1,28,12,18,12,0,0,0,1,0,0,0,0,0,0,0,16,0,0,15,0,0,0,0,0
+jsonschema,a8c3b140a0,2022-08-17,77226299,Fix one more Validator.evolve issue for downstream Validators.,3,1,14,5,6,4,1,0,0,2,0,0,0,0,0,0,0,34,0,0,4,0,0,0,0,0
+jsonschema,c2e86eea66,2022-08-17,77226299,Fix calling Validator.evolve for some downstream users.,3,1,44,1,1,1,1,0,0,2,0,0,0,0,0,0,0,34,0,0,1,0,0,0,0,0
+jsonschema,5145b185f5,2022-08-16,77226299,Replace references to draft 3 in a few more doc examples.,2,1,15,15,3,3,0,0,0,3,0,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0
+jsonschema,7d34d51338,2022-08-16,77226299,Prefer 'keyword' over 'validator' in docs.,12,5,106,108,44,44,0,0,0,11,0,0,1,0,0,0,0,45,1,2,39,0,0,0,0,0
+jsonschema,18a64d7e0f,2022-08-16,77226299,Add support for referencing schemas across different drafts.,4,2,35,1,26,1,0,0,0,2,0,0,0,0,1,0,0,34,0,0,19,0,0,0,0,0
+jsonschema,7a5fd08611,2022-08-06,77226299,Squashed 'json/' changes from 2782d7c29..f82764080,526,11,1278,16853,0,3770,0,0,2,0,0,6,0,0,0,209,0,0,0,0,0,0,0,0,0,0
+jsonschema,c9a3667507,2022-07-31,77226299,Fix resolving relative $refs with URN base URIs.,1,1,10,7,10,7,1,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+jsonschema,d8c7696285,2022-07-29,77226299,Replace the vendored twisted.reflect.namedAny with pkgutil.resolve_name.,3,2,10,153,8,153,0,0,0,0,0,0,0,0,1,4,0,0,0,0,7,0,0,0,0,0
+jsonschema,bd5ea732d2,2022-07-26,77226299,Don't let best_match traverse into applicators with equally bad sub-errors.,3,1,79,4,7,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+jsonschema,8e090fb258,2022-07-26,77226299,Micro-optimize an oft-called lambda to a methodcaller call.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+jsonschema,72c3200d9b,2022-07-12,77226299,Fix best_match's `type` matching when it's an array.,3,1,42,3,9,3,1,0,0,1,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,0
+jsonschema,e39abdb691,2022-07-10,77226299,Enhance best match to prefer errors from matching types.,4,2,59,2,21,2,0,0,0,6,0,0,1,0,1,0,0,48,1,1,19,0,0,0,0,0
+jsonschema,e5aba49430,2022-07-05,a05e94a0,docs: Fix a few typos,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jsonschema,19595b5e19,2022-06-28,77226299,Gut the meat of the recursiveRef implementation for draft2019,4,1,19,2,5,1,0,1,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+jsonschema,8d6e113522,2022-05-30,bbf08d79,Type annotate format checker methods,1,1,60,43,60,43,0,0,0,30,0,0,0,0,2,0,0,22,2,3,54,0,0,0,0,0
+jsonschema,59233ac6d6,2022-05-18,ab935833,Only validate unevaluated props/items on applicable types,2,1,14,0,4,0,0,0,0,2,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+jsonschema,fb85c6620f,2022-05-05,77226299,"Revert ""Extend dynamicRef keyword""",5,3,34,100,25,98,0,0,0,4,0,0,0,0,3,7,0,31,1,1,18,0,0,0,0,0
+jsonschema,eef74176cf,2022-05-05,dc1dae27,Ensure proper sorting of list in error message,2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jsonschema,ae8be4ac7d,2022-04-15,77226299,Ignore a style warning from bugbear.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,2e2832463e,2022-03-21,77226299,Update hyperlinks from the GitHub organization move.,7,1,19,20,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,f4a86190df,2022-03-11,48f38bdd,Remove stray double-quote,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+jsonschema,ee5d31afb0,2022-02-07,77226299,Fix style issues.,1,1,14,6,14,6,0,0,0,2,0,0,0,0,0,0,0,34,0,0,13,0,0,0,0,0
+jsonschema,c3d62aeab5,2022-01-31,77226299,Bump the default type checker and format checker.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+jsonschema,36291ae0ed,2022-01-16,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,5c7c87c501,2022-01-16,192197d2,Add FORMAT_CHECKER,2,2,33,1,33,1,0,0,0,2,0,0,0,0,0,0,0,34,0,0,23,0,0,0,0,0
+jsonschema,6787b213d8,2022-01-14,77226299,Minor style.,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+jsonschema,12c791ee81,2022-01-10,9ef05d2f,Extend dynamicRef keyword,4,3,98,34,97,25,0,0,0,4,0,0,0,0,7,3,0,31,1,4,81,0,0,0,0,0
+jsonschema,cdc2807c0d,2022-01-05,bbf08d79,Cleanup internal type annotation variables,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1
+jsonschema,17384e735c,2022-01-05,bbf08d79,Fix sphinx nitpick error arising from annotations,1,1,17,9,17,9,1,0,0,1,0,0,0,0,0,0,0,13,0,0,17,0,0,0,0,0
+jsonschema,631fba1086,2022-01-05,bbf08d79,Fix nitpick error on type annotation,2,2,12,5,12,5,1,0,0,1,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,0
+jsonschema,2474242192,2022-01-05,bbf08d79,Use future import for type annotations,5,4,27,19,19,12,0,0,0,1,0,0,0,0,0,0,0,7,0,0,15,0,0,1,0,0
+jsonschema,a8c131baaf,2022-01-05,bbf08d79,Fix typing_extensions import handling for mypy,1,1,10,2,10,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+jsonschema,5a2f8ee5a4,2022-01-05,bbf08d79,Setup mypy in `tox -e typing` and get it to pass,11,6,58,15,35,8,0,0,0,0,0,0,0,0,1,0,0,0,0,0,25,0,0,0,0,0
+jsonschema,15d7cb9732,2022-01-01,b934f3f2,Move warnings to user context,3,2,14,0,7,0,0,0,0,6,0,0,1,0,0,0,0,47,1,1,7,0,0,0,1,0
+jsonschema,afb0b73f1a,2021-12-19,77226299,Privated.,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,7,0,0,3,0,0,0,1,0
+jsonschema,68b0454d2b,2021-12-18,9455be0c,perf: Cache subschemas,1,1,39,16,39,16,0,0,0,4,0,0,0,0,5,2,0,31,1,1,29,0,0,0,0,0
+jsonschema,7c19bc9967,2021-12-16,9455be0c,perf: Replace the `Validator.evolve` method with an equivalent class attribute,2,1,2,3,1,3,0,0,0,1,0,0,0,0,0,1,0,31,0,0,1,0,0,0,0,0
+jsonschema,9f86718f4f,2021-12-16,9455be0c,perf: Use cached lookups for resolving fragments if the referent document is known,2,1,18,3,17,3,0,0,0,2,0,0,1,0,2,0,0,31,1,7,14,0,0,0,0,0
+jsonschema,60242e7708,2021-12-15,9455be0c,perf: Cache reference lookups for subschemas,2,1,18,7,17,7,0,0,0,1,0,0,0,0,2,0,0,6,0,0,15,0,0,0,0,0
+jsonschema,5b4d5b7a64,2021-12-15,77226299,Remove relative imports,4,2,7,6,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,1,0
+jsonschema,92d93c1333,2021-12-15,77226299,Schemas can be bools too in newer drafts.,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+jsonschema,f9f8995406,2021-12-15,9455be0c,perf: Undesired fallback to brute force container uniqueness check on certain input types,2,1,4,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jsonschema,94dea8b447,2021-12-13,bbf08d79,Fix references to IValidator; add protocol tests,7,3,32,10,4,3,1,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+jsonschema,642a09f083,2021-12-13,bbf08d79,Apply suggestions from code review,6,2,15,14,9,8,0,0,0,3,0,0,0,0,0,0,0,31,0,0,8,0,0,0,0,0
+jsonschema,75144264a5,2021-12-13,bbf08d79,Add `jsonschema.protocols.IValidator`,7,2,173,145,157,4,0,0,0,2,0,0,0,0,7,0,0,31,0,0,107,0,0,0,0,0
+jsonschema,1085b27490,2021-11-03,a5ac2f84,Ensure all items of array are checked for uniqueness,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+jsonschema,ffb5e06ec6,2021-11-03,8b025ef8,Load schemas via importlib.resources,2,1,11,3,10,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,8,0,0,1,0,0
+jsonschema,ff1a2bfdf4,2021-10-17,f39464e5,fix prefixItems index reporting in ValidationError,2,1,10,5,6,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+jsonschema,12a92ead0b,2021-10-01,9751ccad,validators: Fix dependentSchemas when instance is not an object,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+jsonschema,86e41f326f,2021-09-29,77226299,Style,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,38b4c603a0,2021-09-29,77226299,Remove the added argument to jsonschema.validators.create.                                          ,17,2,9,615,8,27,0,0,0,4,0,0,0,0,0,1,0,31,0,0,8,0,0,0,1,0
+jsonschema,836db7c4c7,2021-08-26,77226299,Deprecate jsonschema.validators.validators and .meta_schemas.,4,1,72,26,21,7,0,0,0,5,0,0,0,0,0,0,0,24,0,0,21,0,0,0,0,0
+jsonschema,996437f069,2021-08-25,77226299,"Add Validator.evolve, deprecating passing _schema to methods.",6,4,99,20,52,19,0,0,0,12,0,0,2,0,1,0,0,66,3,23,50,0,0,0,0,0
+jsonschema,3cf1d13cf4,2021-08-25,77226299,Set __qualname__ for validator classes.,2,1,48,10,15,9,0,0,0,1,0,0,0,0,1,1,0,32,0,0,14,0,0,0,0,0
+jsonschema,211c5482af,2021-08-25,77226299,Suppress the KeyError in unknown type exception tracebacks.,2,1,24,14,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,1,0,0,0
+jsonschema,9a62047b5d,2021-08-25,77226299,"Temporarily simplify _finditem, and unskip some tests.",2,1,13,46,13,10,0,0,0,2,1,0,0,0,0,0,0,27,1,4,13,0,0,0,0,1
+jsonschema,beea67bf27,2021-08-25,77226299,Remove RefResolver.scopes_stack_copy.,3,3,2,11,2,11,0,0,0,2,0,0,0,0,0,1,0,12,0,0,2,0,0,0,1,0
+jsonschema,53820379c4,2021-08-25,77226299,Deprecate jsonschema.RefResolver.in_scope.,2,1,25,2,5,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+jsonschema,dddac11d8b,2021-08-25,77226299,Remove more dead code.,2,1,0,29,0,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jsonschema,f27e7dc1ad,2021-08-25,77226299,Remove dead code.,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jsonschema,ff1cb6d5e9,2021-08-25,77226299,Minor tweak of local variables.,1,1,1,2,1,2,0,0,0,2,0,0,0,1,0,0,0,36,1,1,1,0,0,0,0,0
+jsonschema,5a05f6f7f4,2021-08-25,77226299,FileNotFoundError and FileExistsError in more places.,3,1,5,16,1,4,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+jsonschema,ebebf529e9,2021-08-25,77226299,Properly set the failing validator for min/maxContains.,2,1,92,0,4,0,0,0,0,1,0,0,0,0,0,0,0,30,0,0,4,0,0,0,0,0
+jsonschema,52b1f04969,2021-08-25,77226299,Use contextmanager.suppress to kill a bit of boilerplate.,1,1,17,36,17,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+jsonschema,8ea4978e79,2021-08-24,77226299,Add an explicit ASCII check.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jsonschema,f138b23c91,2021-08-24,77226299,Remove 3.6-related code.,1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jsonschema,622c7b276e,2021-08-24,77226299,"Depend on rfc3339-validator for format, even for non-nonGPL.",3,1,11,17,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,aaafa1e43a,2021-08-24,77226299,Minor local variable tweaking.,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+jsonschema,57351a3f63,2021-08-24,77226299,Remove resolve_local.,2,2,15,19,15,19,0,0,0,3,0,0,0,0,0,1,0,23,0,0,13,0,0,0,1,0
+jsonschema,53694e776a,2021-08-24,77226299,Fix items' instance path as well.,2,1,58,3,6,3,1,0,0,1,0,0,0,0,0,0,0,14,0,0,6,0,0,0,0,0
+jsonschema,60d689ca25,2021-08-24,77226299,And simplify items as well.,1,1,9,16,9,16,0,0,0,2,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,1
+jsonschema,641e9b8cf8,2021-08-23,77226299,Slightly nicer error message for not.,2,1,3,4,2,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+jsonschema,aca914c050,2021-08-23,77226299,Fix the schema path used by prefixItems errors.,2,1,53,7,3,6,1,0,0,2,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+jsonschema,319cd84470,2021-08-21,77226299,And deprecate importing ErrorTree from jsonschema.validators.,2,1,29,10,13,7,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,1,0,0
+jsonschema,656a86a4bb,2021-08-20,77226299,Deprecate jsonschema.__version__.,6,2,55,15,24,7,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0
+jsonschema,b88852007b,2021-08-20,77226299,Let format_index handle the container too.,2,2,16,10,16,10,0,0,0,2,0,0,0,0,0,0,0,11,0,0,14,0,0,0,0,0
+jsonschema,0b87431e8d,2021-08-19,77226299,Minor style.,2,2,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+jsonschema,d5a5d7a23c,2021-08-18,77226299,"yield from everywhere, saving precious lines",2,2,35,64,35,64,0,0,0,19,0,1,0,0,0,0,0,22,1,1,35,0,0,0,0,0
+jsonschema,e463aee10e,2021-08-18,77226299,"More strict style, now via bugbear.",9,6,29,26,21,25,0,0,0,10,0,0,0,0,0,0,0,64,1,1,21,0,0,0,0,0
+jsonschema,ee77589104,2021-08-18,77226299,Reimplement contains.,2,1,25,51,20,44,0,0,0,1,0,1,0,0,0,0,0,26,1,18,18,0,0,0,0,0
+jsonschema,00031cb043,2021-08-18,77226299,Remove types_msg which implements really old draft-3 behavior.,3,3,10,22,10,22,0,0,0,2,0,0,0,0,0,1,0,23,0,0,10,0,0,0,1,0
+jsonschema,eb633b216b,2021-08-18,77226299,"Tidy up validation error messages, particularly using f-strings.",10,6,320,152,98,114,0,0,0,42,1,0,1,0,0,0,0,43,3,19,95,0,0,0,0,0
+jsonschema,b2b6801fdc,2021-08-18,77226299,Remove more unneeded u prefixes.,7,3,101,101,16,16,0,0,0,2,0,0,0,0,0,0,0,10,0,0,16,0,0,0,1,0
+jsonschema,fd5de14373,2021-08-18,77226299,And a linter to forbid slash-line-continuation.,2,1,4,1,3,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+jsonschema,8695165f42,2021-08-18,77226299,Add a linter to ensure single quotes aren't added.,8,4,61,60,13,13,0,0,0,5,0,0,0,0,0,0,0,43,1,4,13,0,0,0,0,0
+jsonschema,9712d7f7e1,2021-08-18,77226299,Unnecessary `len`s.,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+jsonschema,d104bdbe2c,2021-08-18,77226299,May as well add support for Draft 2019 as well.,16,6,488,36,98,36,0,0,0,5,1,0,1,0,2,2,0,29,2,14,93,0,0,0,0,0
+jsonschema,7f677965d2,2021-08-18,77226299,Remove the $defs validator.,2,1,3,29,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,e2a2c50618,2021-08-18,77226299,Fix Draft2020-12Validator's name to be Draft202012Validator.,2,1,11,1,3,1,1,0,0,1,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,0
+jsonschema,1a856842b7,2021-08-17,77226299,Remove some u prefixes leftover from Py2.,1,1,160,160,160,160,0,0,0,6,0,0,0,0,0,0,0,37,1,1,160,0,0,0,1,0
+jsonschema,75c27fb7a0,2021-08-06,77226299,Fix the UUID format.,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+jsonschema,e908b80555,2021-08-04,77226299,Fix missing trailing commas.,15,7,92,110,47,48,1,0,0,26,0,0,0,0,0,0,0,64,4,24,47,0,0,0,0,0
+jsonschema,39697cda80,2021-08-04,77226299,Tidy the docstring slightly.,2,2,8,4,8,4,0,0,0,2,0,0,0,0,0,0,0,27,0,0,6,0,0,0,0,0
+jsonschema,c6b0fc454d,2021-07-21,f9e269f9,Julian/jsonschema#782: Add compatibility to draft7 and older,2,2,29,17,29,17,0,0,0,5,0,0,0,1,1,0,0,37,1,1,25,0,0,0,0,0
+jsonschema,841a0a2ad5,2021-07-21,f9e269f9,"Julian/jsonschema#782: Code clenaup, fixes validation messages",6,4,93,129,89,125,1,0,0,13,0,0,1,2,0,0,0,64,3,64,86,0,0,0,0,0
+jsonschema,bede403b64,2021-07-20,f9e269f9,Julian/jsonschema#782: Resolve meta schema vocabularies from local cache,10,2,317,5,36,4,0,0,0,4,0,0,0,0,2,0,0,26,0,0,30,0,0,0,0,0
+jsonschema,c380b09ea9,2021-07-20,f9e269f9,Julian/jsonschema#782: Refactor items behavior with prefixItems,1,1,3,18,3,18,0,0,0,1,0,1,0,0,0,0,0,15,1,3,3,0,0,0,0,1
+jsonschema,769478dc39,2021-07-20,f9e269f9,Julian/jsonschema#782: Update validation message for unevaluatedProperties and unevaluatedItems,2,1,46,2,12,2,0,0,0,2,0,0,0,0,0,0,0,19,0,0,10,0,0,0,0,0
+jsonschema,98b49be3f5,2021-07-20,f9e269f9,"Julian/jsonschema#782: Adapt validator test for draft2020-12, fixes code styles",6,5,128,62,111,60,1,0,0,12,0,0,3,1,0,0,0,69,5,82,111,0,0,0,0,0
+jsonschema,16d00de8bf,2021-07-20,f9e269f9,Julian/jsonschema#782: Fixes relative json pointer format validation for leading zero on digit,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+jsonschema,df1953ff50,2021-07-20,f9e269f9,Julian/jsonschema#782: Load dependencies from legacy validators,3,3,29,27,29,27,0,0,0,0,0,0,0,0,1,1,0,0,0,0,24,0,0,1,0,0
+jsonschema,f8555cd4a7,2021-07-20,f9e269f9,Julian/jsonschema#782: Implements dynamicRef validations,3,2,51,5,34,4,0,0,0,1,0,0,0,0,2,0,0,22,0,0,28,0,0,0,0,0
+jsonschema,73ec5a45f2,2021-07-19,f9e269f9,Julian/jsonschema#782: Add validation for uuid format,1,1,13,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+jsonschema,00614ccc4a,2021-07-19,f9e269f9,Julian/jsonschema#782: Implements defs validations,2,2,16,0,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+jsonschema,11b77ba65a,2021-07-19,f9e269f9,Julian/jsonschema#782: Extend resolver for anchor,1,1,16,12,16,12,0,0,0,3,0,0,0,0,0,0,0,20,0,0,13,0,0,0,0,0
+jsonschema,eccb7ece1e,2021-07-19,f9e269f9,Julian/jsonschema#782: Fixes ref resolver for folders,1,1,12,5,12,5,1,0,0,2,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+jsonschema,3d81c571a7,2021-07-19,f9e269f9,Julian/jsonschema#782: Fixes ref validation priority,2,2,12,3,12,3,1,0,0,4,0,0,1,0,0,0,0,41,2,6,7,0,0,0,0,0
+jsonschema,52d31345d6,2021-07-19,f9e269f9,Julian/jsonschema#782: Extend implementation of ref,3,3,52,11,52,11,0,0,0,6,0,0,2,1,2,0,0,51,3,21,42,0,0,0,0,0
+jsonschema,45ee736b9e,2021-07-19,f9e269f9,Julian/jsonschema#782: Implements unevaluatedProperties validations,3,3,82,2,82,2,0,0,0,2,1,0,1,0,2,0,0,28,2,6,68,0,0,0,0,0
+jsonschema,bb8b7eee22,2021-07-19,f9e269f9,Julian/jsonschema#782: Implements unevaluatedItems validations,4,4,76,24,76,24,0,0,0,3,1,0,0,1,2,0,0,18,1,7,64,0,0,0,0,0
+jsonschema,96b7fe8a2e,2021-07-19,f9e269f9,"Julian/jsonschema#782: Extend contains with minContains and maxContaints, add contains legacy valida",3,3,66,3,66,3,0,0,0,1,1,0,0,0,1,0,0,50,1,44,53,0,0,0,0,0
+jsonschema,753c415866,2021-07-19,f9e269f9,Julian/jsonschema#782: Adapt items to work with prefixItems,1,1,16,0,16,0,0,0,0,1,1,0,0,0,0,0,0,23,1,13,13,0,0,0,0,0
+jsonschema,0e4eaeb865,2021-07-19,f9e269f9,"Julian/jsonschema#782: Add checks for prefixItems, basic check for unevaluatedItems",2,2,26,0,26,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,16,0,0,0,0,0
+jsonschema,edc5eb086b,2021-07-19,f9e269f9,"Julian/jsonschema#782: Extend format check for draft2020-12, add duration format check",2,1,54,6,52,6,0,0,0,2,0,0,1,0,1,0,0,16,1,5,50,0,0,0,0,0
+jsonschema,491168de3b,2021-07-19,f9e269f9,Julian/jsonschema#782: Add dependentRequired and dependentSchemas validation,2,2,40,1,40,1,0,0,0,1,0,0,0,0,2,0,0,16,0,0,32,0,0,0,0,0
+jsonschema,173582ef02,2021-07-19,f9e269f9,Julian/jsonschema#782: Enable draft2020-12 test suite,6,4,118,2,46,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0,0
+jsonschema,8745243daf,2021-07-12,f9e269f9,Use python 3.9 for coverage,2,1,8,8,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jsonschema,a72044e55f,2021-07-09,77226299,Minor rewording of the docstring.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+jsonschema,72d8d08a16,2021-07-09,77226299,Simplify the implementations of the equal checks.,1,1,6,15,6,15,0,0,0,2,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,1
+jsonschema,be4287cbce,2021-07-09,77226299,Test only through _util.equal.,2,1,45,60,14,18,0,0,0,2,0,0,0,0,2,3,0,15,0,0,14,0,0,0,0,0
+jsonschema,4398265201,2021-07-09,77226299,Fix the DeprecationWarning from importing abcs from collections.,1,1,3,15,3,15,1,0,0,2,0,0,0,0,0,1,0,6,0,0,3,0,0,1,0,0
+jsonschema,b58395bc5b,2021-07-09,f9e269f9,Extend sequance and mapping check,2,1,81,26,23,7,0,0,0,2,0,0,0,0,2,0,0,15,0,0,19,0,0,0,0,0
+jsonschema,bd54c5cf5b,2021-07-09,f9e269f9,Add test case with custom sequance type,2,1,56,26,19,25,0,0,0,1,0,1,0,0,0,0,0,18,1,16,16,0,0,0,0,0
+jsonschema,36810ff4f5,2021-07-09,f9e269f9,Julian/jsonschema#686: Fixes unique and equal checks,2,1,46,162,46,2,1,0,0,2,1,0,0,0,2,0,0,22,1,6,32,0,0,0,0,0
+jsonschema,a0c3aae165,2021-06-25,f9e269f9,Fixes validation for uri-template format,2,1,7,8,5,8,0,0,0,1,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+jsonschema,d9f6384060,2021-05-04,77226299,Remove default types (in favor of the TypeChecker API).,3,1,2,397,2,147,0,0,0,3,0,1,0,0,0,5,0,24,1,2,2,0,0,0,1,0
+jsonschema,b9c037a711,2021-03-03,f86dad4b,remove uneeded backtick from docstring of validators.extend(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,1,0
+jsonschema,b0be7bf48e,2020-11-17,77226299,Make utils.indent exit stage left.,3,2,8,12,7,11,0,0,0,2,0,0,0,0,0,1,0,25,0,0,7,0,0,0,0,0
+jsonschema,e4bafa6185,2020-10-24,77226299,Work around danielrichman/strict-rfc3339#5.,2,1,1,21,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jsonschema,a11ab2b1a9,2020-10-20,77226299,Cope with IPv6Address now allowing zone IDs in 3.9.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+jsonschema,7265a93de1,2020-10-20,77226299,Vanilla flake8.,4,1,30,22,9,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,9502934ca1,2020-10-15,77226299,Minor formatting and wording.,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,44,0,0,6,0,0,0,0,0
+jsonschema,46db62a373,2020-10-05,81543218,Handle multipleOf overflow,2,1,13,40,13,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,5,1,0,0,0,0
+jsonschema,a0ec5e9dff,2020-09-14,d0e23283,Optimize the input parameters of '--base-uri',2,1,4,67,4,14,0,0,0,1,0,1,0,0,0,0,0,44,1,3,4,0,0,0,0,0
+jsonschema,0955ad094e,2020-09-03,d0e23283,Support --base-uri. and local full path and remote URI,2,1,17,64,9,23,0,0,0,1,0,0,0,1,0,0,0,53,1,9,9,0,0,0,0,0
+jsonschema,ae4a8e04e0,2020-08-29,77226299,Minor doc formatting.,2,1,6,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,26aa142e78,2020-08-29,d0e23283,support for cli specifying --base-uri local or remote and add test cases,2,1,152,14,24,13,0,0,0,1,0,0,1,0,0,0,0,64,1,21,22,0,0,0,0,0
+jsonschema,f13195f874,2020-08-20,d0e23283,Fix the bug of processing arguments[validator] in parse_args,1,1,3,2,3,2,1,0,0,2,0,0,0,0,0,0,0,40,0,0,2,0,0,0,0,0
+jsonschema,d9d5fe1ef1,2020-08-19,e96c3df6,use correct format check globally,1,1,7,5,7,5,0,0,0,1,0,0,0,0,1,1,0,4,0,0,5,0,0,0,0,0
+jsonschema,2f1d5ef276,2020-08-19,e96c3df6,better handling for Python 3.6,1,1,6,4,6,4,0,0,0,1,0,0,0,0,1,0,0,8,0,0,6,0,0,0,0,0
+jsonschema,03868b3316,2020-08-18,d0e23283,modify style issues,1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,54,1,3,4,0,0,0,0,0
+jsonschema,646d99b134,2020-08-18,d0e23283,Add the specified base-uri function in the CLI,2,1,33,18,13,8,0,0,0,1,1,0,0,0,0,0,0,52,1,10,12,0,0,0,0,0
+jsonschema,1db81c2555,2020-08-15,d0e23283,--base-uri flag instead -r,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,47,0,0,2,0,0,0,0,0
+jsonschema,09bd22d3f3,2020-08-13,77226299,Validate IP addresses using the ipaddress module.,1,1,12,19,12,19,0,0,1,2,0,0,0,0,0,0,0,4,0,0,12,0,0,1,0,0
+jsonschema,d9c0da82ea,2020-08-13,e96c3df6,improve date parsing,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+jsonschema,6f2ffeff7a,2020-08-13,d0e23283,fix issue_669,2,1,38,2,21,2,1,0,0,1,0,0,0,0,0,0,0,47,0,0,21,0,0,0,0,0
+jsonschema,6e1281abc9,2020-08-12,77226299,isorted.,13,4,22,16,10,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+jsonschema,95f38a61ab,2020-08-12,77226299,Unbreak non-format-setuptools-extra-installed jsonschema.,3,1,15,16,15,12,0,0,0,1,0,0,0,0,0,0,0,4,0,0,15,0,0,0,0,0
+jsonschema,9366c824d0,2020-08-08,d0e23283,Modify the code based on review comments,3,1,5,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,3b5f927e98,2020-08-07,d0e23283,fix bug about hostname by import fqdn,4,1,5,30,2,10,1,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,1,0,0
+jsonschema,1d7711702f,2020-08-05,77226299,Kill jsonschema.compat as well.,15,10,70,185,48,151,0,0,0,38,0,0,0,0,0,6,0,54,2,2,48,0,0,0,0,0
+jsonschema,1b205545cc,2020-08-04,77226299,Ref Py3 in the docs.,6,4,18,19,16,16,0,0,0,8,0,0,0,0,0,0,0,54,1,4,16,0,0,0,0,0
+jsonschema,027feac3cd,2020-07-30,6f1fedad,[compat] Drop support of PY2,7,2,4,32,1,7,0,0,0,1,0,0,0,1,0,0,0,54,1,1,1,0,0,0,0,0
+jsonschema,95ffe2df42,2020-06-20,77226299,Don't include `if` in the schema_path of errors.,2,1,3,3,1,1,0,0,0,2,0,0,0,0,0,0,0,55,2,2,1,0,0,1,0,0
+jsonschema,41b0a9fbb8,2020-06-09,77226299,Handle broken punycode in IDN hostnames.,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,82cd13190f,2020-03-28,77226299,Bit shorter.,2,1,6,6,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+jsonschema,0a420cded2,2020-03-28,77226299,Keep going when encountering invalid instance files.,2,1,21,1,1,1,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+jsonschema,c870d5f5f7,2020-03-28,77226299,Less nest.,1,1,10,11,10,11,0,0,0,1,0,0,0,0,0,0,0,38,0,0,9,0,0,0,0,0
+jsonschema,eccef1960a,2020-03-28,77226299,Mostly centralize the error handling for loading files.,1,1,32,29,32,29,0,0,0,2,0,1,0,0,1,1,0,40,1,12,28,0,0,0,0,0
+jsonschema,5049136feb,2020-03-27,77226299,Fill in the remaining missing tests.,2,1,363,51,50,25,0,0,0,3,1,0,0,0,3,1,0,58,1,29,47,0,0,0,0,0
+jsonschema,3762e043d3,2020-03-24,77226299,Remove the rest of the incorrectly added HTTPS for older metaschemas.,2,1,0,102,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,a2ac5cc6a8,2020-03-22,77226299,"argparse does funny wrapping by default, so no need for continuations.",1,1,17,18,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+jsonschema,c61b5ee4fb,2020-03-22,77226299,Note that --error-format is for schema and validation errors specifically.,1,1,8,6,8,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+jsonschema,2fefc2bad2,2020-03-22,77226299,repr paths in plain CLI outputted errors.,2,1,8,7,4,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+jsonschema,c1de16cbb6,2020-03-22,77226299,The validation already can handle not having instances.,2,1,4,14,0,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0
+jsonschema,4a68917c93,2020-03-22,77226299,And now bundle up stdout/stderr into an object.,1,1,41,39,41,39,0,0,0,8,0,1,0,0,4,0,0,34,1,3,34,0,0,0,0,0
+jsonschema,47053b55c5,2020-03-22,77226299,Show full tracebacks for parsing errors in pretty output.,2,1,27,11,21,11,0,0,0,5,0,0,0,0,0,0,0,38,0,0,20,0,1,0,0,0
+jsonschema,0bdb8e47e8,2020-03-22,77226299,Squash.,1,1,11,26,11,26,0,0,0,1,0,1,0,0,1,0,0,38,1,10,10,0,0,0,0,0
+jsonschema,97a697b687,2020-03-21,77226299,Minor style.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,54,1,1,1,0,0,0,0,0
+jsonschema,2561726af6,2020-03-21,77226299,Don't even bother keeping the whole list of valid/invalid.,1,1,18,22,18,22,0,0,0,1,0,0,0,1,0,0,0,54,1,18,18,0,0,0,0,0
+jsonschema,93815b074d,2020-03-21,77226299,Equivalent but consistent.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,58,1,1,1,0,0,0,0,0
+jsonschema,c46c2149da,2020-03-21,77226299,type=str is the default.,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,cbd356b947,2020-03-21,77226299,"Temporarily inline these, there will be a better way to combine them.",1,1,8,32,8,32,0,0,0,1,0,0,0,1,0,2,0,58,1,8,8,0,0,0,0,0
+jsonschema,fa8cfef48d,2020-03-21,77226299,Move compat code to compat.,2,1,7,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+jsonschema,fd3bb7ee93,2020-03-21,77226299,Slightly less exception for flow control.,1,1,36,27,36,27,0,0,0,2,0,0,1,1,0,0,0,60,2,33,35,0,0,0,0,0
+jsonschema,a1b52299a3,2020-03-21,77226299,Call all the args 'error' consistently.,1,1,44,29,44,29,0,0,0,10,0,0,1,0,0,0,0,21,1,7,44,0,0,0,0,0
+jsonschema,53124f4fd2,2020-03-21,77226299,Follow how other places tend to indicate the path for stdin.,2,1,3,3,2,2,0,0,0,2,0,0,0,0,0,0,0,52,1,1,2,0,0,0,0,0
+jsonschema,b156260a7a,2020-03-21,77226299,Only used in one place now.,1,1,4,9,4,9,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+jsonschema,690e583762,2020-03-21,77226299,Move where errors are written outside of cli writers.,1,1,62,69,62,69,0,0,0,5,1,0,1,0,6,6,0,52,2,37,61,0,0,0,1,0
+jsonschema,053b64bbd3,2020-03-21,77226299,HTTP -> HTTPS for specification URIs.,7,1,152,50,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,bf5e6cfd18,2020-03-16,77226299,Specify the type of error in pretty error messages.                                                 ,2,1,8,9,4,6,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+jsonschema,8297d761d3,2020-03-15,77226299,Bit clearer display of the error message in the actual source via dedent.,1,1,17,18,17,18,0,0,0,5,0,0,0,0,0,0,0,10,0,0,17,0,0,0,0,0
+jsonschema,6fa5802d9b,2020-03-10,77226299,attrs'ed.,1,1,17,22,17,22,0,0,0,5,0,0,0,0,0,2,0,10,0,0,14,0,0,0,0,0
+jsonschema,c503761b92,2020-03-10,77226299,Minor style.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,bb83bef182,2020-03-10,77226299,Share the parsing error message.,1,1,7,13,7,13,0,0,0,2,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+jsonschema,40ea62e0ae,2020-03-10,77226299,Py2 new-style class.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,7d8db25580,2020-03-10,73362696,[CLI] Fix coding style errors in parse_args,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jsonschema,ec3603e836,2020-03-10,73362696,[CLI] Remove abstract class for output writers,1,1,15,24,15,24,0,0,0,6,0,0,0,0,0,2,0,10,0,0,12,0,0,0,1,0
+jsonschema,cf1e784c5e,2020-03-08,73362696,[CLI] Switch public methods to private.,1,1,9,9,9,9,0,0,0,1,0,0,0,0,4,4,0,46,1,5,9,0,0,0,1,0
+jsonschema,3a87086adf,2020-03-08,73362696,[CLI] Forbid --error-format if --output is not plain,2,1,19,1,6,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,0
+jsonschema,038f2e114f,2020-03-07,73362696,[CLI] Fix compatibility with Python2 (about metaclass),1,1,5,3,5,3,1,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+jsonschema,a5c5fd03ba,2020-03-07,73362696,[CLI] Split CliOutputWriter to use object polymorphism,1,1,68,49,68,49,0,0,0,5,1,0,0,0,6,0,0,46,1,11,53,0,0,0,1,0
+jsonschema,712fda9865,2020-03-07,73362696,[CLI] Remove mandatory \n at the end of plain error.,1,1,3,5,3,5,0,0,0,2,0,0,0,0,0,0,0,17,0,0,3,0,0,0,1,0
+jsonschema,ae0cbf203b,2020-03-07,73362696,"[CLI] Change write_valid_* into write_validation_*, less confusing.",1,1,5,5,5,5,0,0,0,2,0,0,0,0,2,2,0,13,0,0,5,0,0,0,0,0
+jsonschema,8575306ff0,2020-03-07,73362696,[CLI] Improve --help message about --instance,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,2e056fe77b,2020-03-07,73362696,[CLI] Remove heading-style comments,1,1,0,15,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,6e114f1221,2020-03-05,73362696,Fix some flake8 style errors,2,1,4,4,3,3,0,0,0,3,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+jsonschema,0a60d623a3,2020-03-04,73362696,[CLI] Add pragma no cover for some safenet code,1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+jsonschema,ddc192e38c,2020-03-04,73362696,[tests] Finish to fix existing tests.,2,1,12,12,11,11,1,0,0,1,0,0,0,0,0,0,0,41,0,0,1,0,0,0,0,0
+jsonschema,155277d03e,2020-02-28,73362696,[CLI] Replace FileNotFoundError by IOError for 2.7 compat,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,41,0,0,4,0,0,0,0,0
+jsonschema,305a540abf,2020-02-28,73362696,[CLI] Replace JSONDecodeError by ValueError for 2.7 compat,1,1,6,6,6,6,0,0,0,4,0,0,0,0,0,0,0,41,0,0,6,0,0,0,0,0
+jsonschema,f07ff5b24c,2020-02-28,73362696,[CLI] Fix STDIN management.,1,1,18,12,18,12,1,0,0,1,0,0,0,0,0,0,0,41,0,0,18,0,0,0,0,0
+jsonschema,47e460bcbe,2020-02-28,73362696,[CLI] Add newline at end of oneline error,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+jsonschema,aa5fafa821,2020-02-28,73362696,[CLI] Improve stdin management and factorize more code,1,1,59,31,59,31,0,0,0,4,0,0,0,0,2,0,0,37,0,0,54,0,0,0,0,0
+jsonschema,96c98d532f,2020-02-28,73362696,[CLI] Remove --human and add --output. Add more helper functions.,1,1,134,78,134,78,0,0,0,1,0,1,0,0,6,0,0,22,1,12,119,0,0,0,1,0
+jsonschema,1e51198d08,2020-02-28,73362696,[CLI] General improvement of CLI output readability,1,1,111,18,111,18,0,0,0,1,1,0,0,0,1,1,0,66,1,61,79,0,0,0,0,0
+jsonschema,d702f7d265,2020-02-28,73362696,"[CLI] Remove incompatible character, replaced by '='",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,1,0
+jsonschema,e7cd69c429,2020-02-28,73362696,[CLI] Remove Linux-specific command for error delimiter,1,1,1,9,1,9,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,1,0
+jsonschema,40e5ba1540,2020-02-28,73362696,[CLI] Improve the default display of the errors,1,1,12,1,12,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,10,0,0,0,0,0
+jsonschema,2382f8dda6,2020-02-24,114d0b90,add json_path error attribute,3,1,58,1,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+jsonschema,0d192e1925,2020-02-21,77226299,Sigh... but also drops Py2 compat.,2,1,10,5,8,3,0,0,0,1,0,0,0,0,0,0,0,7,0,0,8,0,0,0,0,0
+jsonschema,09595a50f5,2020-02-21,77226299,Newer webcolors has a new API apparently.,2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jsonschema,112c809e7e,2020-01-25,77226299,setup.py is dead.,3,1,4,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,9131e5cdc9,2020-01-08,77226299,Might as well just inline it.,1,1,1,5,1,5,0,0,0,1,0,0,0,0,0,1,0,10,0,0,1,0,0,0,0,0
+jsonschema,8ce33029cd,2020-01-07,db2c5b36,Refactor to not leak global state,2,1,6,11,4,4,1,0,0,2,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,1
+jsonschema,f15ccb22c2,2020-01-07,db2c5b36,Get input from commandline when instance(s) not provided,2,1,26,2,6,1,0,0,0,1,0,0,0,0,1,0,0,10,0,0,3,0,0,0,0,0
+jsonschema,63f8d2c6d2,2019-11-17,2fe85fa6,Fix typo of 'metdata',1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,fe772c380c,2019-11-17,2fe85fa6,Use importlib from std (if possible),1,1,5,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0
+jsonschema,7ecdbcdc0a,2019-10-31,6a9628e0,"format_nongpl docs, and style fixes",3,1,23,10,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,10f8a3e525,2019-10-28,6a9628e0,Add format validators as separate modules,3,2,38,168,36,168,0,0,0,4,0,0,0,0,0,2,0,4,0,0,34,0,0,1,0,0
+jsonschema,af37707780,2019-10-23,6a9628e0,non GPL format option,4,2,179,17,171,14,0,0,0,4,0,0,0,0,4,0,0,4,0,0,142,0,0,0,0,0
+jsonschema,7ee391c6f9,2019-10-09,77226299,"Revert ""Respect ECMA regex syntax for schemas.""",6,3,15,22,8,11,0,0,0,4,0,0,0,0,0,0,0,10,0,0,8,0,0,0,0,0
+jsonschema,b3f0aad726,2019-10-07,81543218,Validate `format: regex` with js-regex,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+jsonschema,51fc2f7a90,2019-10-07,0d8d3440,Use JS regex syntax,5,2,14,9,7,6,0,0,0,3,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+jsonschema,6bf09562d7,2019-09-26,77226299,"3.3 is dead, and all the tests seem to still pass.",1,1,2,12,2,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0
+jsonschema,6a7155a854,2019-09-26,77226299,Switch to the newer importlib_metadata.,2,1,3,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+jsonschema,601168ca8a,2019-09-05,77226299,Minor style.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,bbf080b20d,2019-09-05,77226299,Minor fixes for CLI help.,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,f796b23b25,2019-09-05,77226299,Minor style.,7,4,0,30,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,d241afb695,2019-09-04,77226299,FormatChecker.__repr__,2,1,13,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,dd5b8d5c87,2019-09-03,77226299,Doc stylin.,6,3,135,57,120,6,0,0,0,11,0,0,0,0,0,0,0,10,0,0,99,0,0,0,0,0
+jsonschema,47a2ac312c,2019-08-16,77226299,Minor style.,1,1,36,36,36,36,0,0,0,4,0,0,0,0,0,0,0,55,1,9,36,0,0,0,0,0
+jsonschema,02bf1860cf,2019-08-04,77226299,"Bump to Sphinx2 for docs, fixing random nonsense along the way.",5,2,42,15,7,5,0,0,0,3,0,0,0,0,0,0,0,55,1,1,6,0,0,0,0,0
+jsonschema,27eb5d290f,2019-08-01,77226299,And now fix enum.,2,1,6,61,6,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,0
+jsonschema,159894032c,2019-08-01,77226299,Unskip and fix the const-related compare bug.,3,2,22,50,22,10,1,0,0,5,0,0,0,0,1,0,0,24,0,0,20,0,0,0,0,0
+jsonschema,3360ea5737,2019-07-11,8a0f65f8,Add --version argument,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jsonschema,7f79dff13a,2019-05-05,77226299,Minor style.,5,2,9,9,3,3,0,0,0,2,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+jsonschema,2c90fd5e9a,2019-03-03,77226299,These are actually now no different than the current implementations.,2,2,3,47,3,47,0,0,0,0,0,0,0,0,0,3,0,0,0,0,3,0,0,0,0,0
+jsonschema,548b96415a,2019-02-28,ce0c3f9b,Add missing id_of to validators.extend,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+jsonschema,2e082b58e4,2019-02-25,77226299,Hopefully clarify that this function is really only the most simple entry.,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+jsonschema,21838cd772,2019-02-23,77226299,Don't allow accessing DEFAULT_TYPES on new style validators.,2,1,120,54,60,38,0,0,0,4,0,0,1,0,1,0,0,55,1,6,48,0,0,0,0,0
+jsonschema,a52ec98ceb,2019-01-27,77226299,Wrong style but hey.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,9b8e1d3932,2019-01-27,77226299,"Revert ""Revert ""And now add the Draft7 time format, even though it don't work.""""",1,1,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+jsonschema,7df693c66e,2019-01-26,77226299,Preserve the old behavior of defining default types.,2,1,34,13,5,3,0,0,0,1,0,0,1,0,0,0,0,53,1,5,5,0,0,0,0,0
+jsonschema,231e894bc0,2019-01-26,77226299,Dead code.,1,1,2,9,2,9,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+jsonschema,fc2d4f95de,2019-01-26,77226299,Intentionally break mixing the new and old type interfaces.,2,1,33,17,10,1,0,0,0,2,1,0,0,0,0,0,0,51,1,3,10,0,0,0,1,0
+jsonschema,5559a31ddf,2019-01-23,77226299,Ensure error properties are properly set for boolean schemas.,2,1,25,0,4,0,0,0,0,2,0,0,1,0,0,0,0,48,1,4,4,0,0,0,0,0
+jsonschema,207bb1ca96,2019-01-23,77226299,Make sure DEFAULT_TYPES is still present on instances.,2,1,36,12,14,11,0,0,0,1,0,0,0,0,1,1,0,48,0,0,12,0,0,0,0,0
+jsonschema,89f0f22a94,2019-01-15,77226299,And now 'solve' the problem of colliding time formats.,1,1,23,15,23,15,0,0,0,2,0,0,0,0,0,0,0,14,1,7,17,0,0,0,0,0
+jsonschema,8c9edd5a2c,2019-01-14,77226299,Split out dependencies for draft 3.,4,3,58,17,32,15,0,0,1,1,0,0,0,0,1,0,0,16,0,0,28,0,0,1,1,0
+jsonschema,434ca10145,2019-01-13,77226299,Here's an easy way out of this one.,1,1,5,11,5,11,0,0,1,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+jsonschema,0d9ddd2f81,2019-01-11,77226299,And tests for the same for if/then/else.,2,1,31,3,2,3,0,0,1,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+jsonschema,21af2e4723,2019-01-11,77226299,Fix the error properties for propertyNames.,2,1,14,1,0,1,1,0,1,1,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0
+jsonschema,6466d070ad,2019-01-11,77226299,Get these out of the way.,3,3,180,171,180,171,0,0,0,0,0,0,0,0,10,10,0,0,0,0,152,0,0,0,0,0
+jsonschema,ce47781b06,2019-01-11,77226299,Style.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,140f1e5b3b,2019-01-11,77226299,"Revert ""And now add the Draft7 time format, even though it don't work.""",1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+jsonschema,37671acda2,2019-01-06,77226299,"And now add the Draft7 time format, even though it don't work.",1,1,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+jsonschema,6a5f703b81,2019-01-06,77226299,This is the old time.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0
+jsonschema,7925e87044,2019-01-05,77226299,Grudgingly add an inline implementation of relative JSON Pointers.,1,1,27,0,27,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+jsonschema,2f3fb3c9bd,2019-01-04,77226299,Minor style.,1,1,1,14,1,14,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,aa6cf9ea6e,2019-01-04,77226299,idn-hostname validation.,2,1,15,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+jsonschema,17fb9cb006,2019-01-03,77226299,Make validate use best_match.,2,1,16,6,5,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+jsonschema,b234ae8be9,2019-01-03,77226299,Minor style change on imports.,2,1,26,34,8,15,0,0,0,7,0,0,0,0,0,0,0,47,1,1,8,0,0,1,0,0
+jsonschema,a7ca0c50f3,2018-12-05,3b123df1,Make exceptions hashable (but not comparable) Fixes #477,3,1,15,14,0,10,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+jsonschema,3ececbd66d,2018-11-25,77226299,Move another compat import into compat.py,2,1,3,9,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+jsonschema,5b21e469ae,2018-11-25,77226299,Minor style.,2,2,11,3,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+jsonschema,3c9b61c4ef,2018-11-25,77226299,Add a note to compat.py.,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,fe72efe57d,2018-11-20,77226299,Add the type.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,47,0,0,1,0,0,0,0,0
+jsonschema,2f13d619c7,2018-11-20,77226299,Thanks GitHub for not showing the whitespace :/.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,2056cf8778,2018-11-19,85759c5b,Update create(id_of) docstring,1,1,1,5,1,5,0,0,0,1,0,0,0,0,0,0,0,47,0,0,1,0,0,0,0,0
+jsonschema,5ffc9a516a,2018-11-19,85759c5b,Added some testing/build files to gitignore Added docstring for jsonschema.validators.create id_of k,2,1,12,0,8,0,0,0,0,1,0,0,0,0,0,0,0,47,0,0,5,0,0,0,0,0
+jsonschema,65d23d5a14,2018-11-18,77226299,"Minor style, and remove a test that already exists.",2,1,9,14,4,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,1,0
+jsonschema,91c4a49b2c,2018-11-15,f3e0359d,Fix - lines too long,2,1,7,5,2,2,1,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jsonschema,7b41e5a3c7,2018-11-14,f3e0359d,Fix the warning message,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+jsonschema,8b7095f7dc,2018-11-14,f3e0359d,Update the warning mesage,2,1,5,5,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+jsonschema,f9cf860869,2018-11-10,f3e0359d,Update tests and use default when schema not specified,2,1,14,5,3,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+jsonschema,cff7cf1618,2018-11-04,f3e0359d,Change warning message from `raise SchemaError` to `raise an error` in future,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+jsonschema,d4ce700d61,2018-11-02,f3e0359d,Remove `Raise SchemaError` from validator_for doc string,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,c9fc80445a,2018-11-02,f3e0359d,Add test to validate warning is added if schema is not found,2,1,27,1,9,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+jsonschema,69f129498c,2018-11-01,f3e0359d,Raise an Error if schema doesn't exist,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+jsonschema,7454f0fffd,2018-10-02,2a92b4bf,fix urlopen usage in python2 when resolving refs,2,1,22,1,5,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,7e2a6bcc32,2018-10-01,77226299,Dead.,1,1,2,12,2,12,0,2,3,3,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0
+jsonschema,e8ee4f19bc,2018-09-30,77226299,Defend ourselves from evil.,1,1,6,1,6,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,863f091c39,2018-09-30,77226299,Apparently we've got internal tests to ensure this ignores non strings.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+jsonschema,497d615573,2018-09-30,77226299,A few more existing formats for Draft 7.,1,1,23,3,23,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,21,0,0,0,0,0
+jsonschema,ceb37aac7e,2018-09-30,77226299,If/Then/Else.,2,2,14,0,14,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+jsonschema,ec64d69f56,2018-09-30,77226299,Enable uri-reference and uri-template for draft 7.,1,1,8,2,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+jsonschema,1e7f1fbbb5,2018-09-30,77226299,Date is apparently back.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,7c16622e29,2018-09-30,77226299,First step on Draft7 support.,13,4,298,21,52,4,0,0,0,3,1,0,0,0,0,0,0,14,1,5,51,0,0,0,0,0
+jsonschema,e7f402c280,2018-09-29,77226299,HTTPS (almost) everywhere.,7,1,14,16,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jsonschema,995d99e5e0,2018-09-29,77226299,More suffix killin'.,2,2,4,4,4,4,0,0,0,0,0,0,0,0,2,2,0,0,0,0,4,0,0,0,0,0
+jsonschema,85a6401d5d,2018-09-29,77226299,"Whoops, this isn't a Draft3 thing.",1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,13ec6c2284,2018-09-28,2ab4a905,Prefer importing ABCs from collections.abc,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+jsonschema,3eabefb0c5,2018-09-03,77226299,Make draft3's any type not be special cased.,3,1,20,2,0,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0
+jsonschema,4e6cc75c81,2018-08-19,77226299,These are here to stay.,2,2,10,11,10,11,0,0,0,0,0,0,0,0,5,5,0,0,0,0,10,0,0,0,0,0
+jsonschema,72fd484311,2018-08-17,77226299,This is gone.,2,1,3,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,7c3d731a28,2018-08-17,77226299,Make the legacy type check tests actually run that way.,3,1,45,38,11,5,0,0,0,1,0,1,0,0,0,0,0,47,1,1,10,0,0,0,0,0
+jsonschema,a36b917135,2018-08-16,77226299,Another.,2,1,15,6,8,1,0,0,0,1,0,0,0,0,1,0,0,2,0,0,5,0,0,0,0,0
+jsonschema,adc0d1cc75,2018-08-16,77226299,Simplify TypeChecker and its tests.,2,1,66,97,7,29,0,0,0,3,0,0,0,0,0,1,0,8,0,0,6,0,0,0,0,1
+jsonschema,c0d5170bb6,2018-08-15,77226299,Get rid of support for old versions of requests.,1,1,2,9,2,9,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+jsonschema,09bf5fb649,2018-08-15,77226299,Still comin' for you mocks.,2,1,30,22,10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,8,0,0,0,0,0
+jsonschema,cdf48870a9,2018-08-13,77226299,"Whoops, need native strings.",2,1,8,9,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,eaa2b1ea1b,2018-08-09,77226299,Minor formatting.,1,1,9,10,9,10,0,0,0,1,0,0,0,0,0,0,0,2,0,0,9,0,0,0,0,0
+jsonschema,92365792f7,2018-08-09,77226299,Fix the docstring summary line to be one line.,1,1,3,2,3,2,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+jsonschema,a95af403e6,2018-08-01,77226299,setup.py -> setup.cfg,3,1,51,63,1,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,854f0653ae,2018-08-01,77226299,"Nope, seems unlikely.",1,1,12,0,12,0,0,3,0,3,0,0,0,0,0,0,0,25,0,0,12,0,0,0,0,0
+jsonschema,a8ff598379,2018-08-01,77226299,Handled a level up now.,1,1,0,12,0,12,0,0,3,3,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0
+jsonschema,7a8634e490,2018-07-06,500911f3,Fix bug in current registration of validators,2,1,5,2,4,2,1,0,0,3,1,0,0,0,0,0,0,51,1,1,4,0,0,0,0,0
+jsonschema,a4d778c546,2018-07-02,f8e7c48d,Fix unclosed resource in validators,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+jsonschema,9632422aa9,2018-06-03,77226299,Fix the contains error message.,2,1,13,1,1,1,1,0,1,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jsonschema,fa39b24e89,2018-05-30,2994e6a4,Handle $id property for draft6 in validates(),3,1,39,1,5,1,0,0,0,2,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+jsonschema,4f2eb1f533,2018-05-20,77226299,3.3 isn't supported.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,9b3f1c01b6,2018-05-15,77226299,Fix the const error message.,2,1,10,3,1,3,1,0,1,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jsonschema,5411305d82,2018-05-14,77226299,"Pass the non-string JSON pointer test, skip non strings.",1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+jsonschema,b6d654a8e0,2018-05-14,77226299,"This isn't released, and seems unlikely to be by the time we want to.",1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,030fdd1ca0,2018-05-14,77226299,"Whoops, this is Draft6 only.",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,7695804c0f,2018-05-14,77226299,Minor style.,1,1,8,8,8,8,0,0,0,1,0,0,0,0,0,0,0,5,0,0,8,0,0,0,0,0
+jsonschema,d1de20f7d8,2018-05-14,77226299,Stop falling back to isodate.,3,1,4,17,1,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+jsonschema,760ebe5fbf,2018-05-14,77226299,Merge in the minor validator_for shuffling.,1,1,26,28,26,28,0,0,0,1,0,0,0,0,0,0,0,2,0,0,16,0,0,0,0,0
+jsonschema,9bc3bc72e4,2018-05-04,77226299,Don't expose these publically.,1,1,1,5,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,310c441c63,2018-05-03,77226299,Kill isodate.,3,1,3,21,1,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+jsonschema,04de31ee4b,2018-05-03,77226299,More accurate.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+jsonschema,05912afc67,2018-05-03,77226299,"Axe the sentence about bools, it doesn't apply in general.",1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+jsonschema,cab4119ba3,2018-05-03,77226299,I guess there's not really a saner thing to do here.,2,1,19,3,6,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+jsonschema,004ce7c334,2018-05-03,77226299,Not sure why this needed _unset,1,1,24,28,24,28,0,0,0,1,0,0,0,0,0,0,0,2,0,0,15,0,0,0,0,0
+jsonschema,abada16aba,2018-05-03,77226299,More draft 6 stressin' in the code.,3,1,30,8,4,4,0,0,0,2,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+jsonschema,d96ee1072b,2018-05-03,77226299,This can go away again.,1,1,1,8,1,8,0,0,0,2,0,0,0,0,0,0,0,50,0,0,1,0,0,0,0,0
+jsonschema,b30ab148bd,2018-05-03,77226299,Assume the next version will be 3.0.0,2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+jsonschema,1fe25d032e,2018-05-03,77226299,And one more...,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+jsonschema,b44647a0db,2018-05-03,77226299,And here too.,1,1,14,5,14,5,0,0,0,4,0,0,0,0,1,0,0,50,1,1,12,0,0,0,0,0
+jsonschema,74cda667e5,2018-05-03,77226299,Fix float ints on Draft 6.,1,1,7,1,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+jsonschema,b86e136cab,2018-05-03,77226299,"Fix False schemas, and optimize.",1,1,10,3,10,3,1,0,0,2,0,0,1,0,0,0,0,49,1,5,10,0,0,0,0,0
+jsonschema,230290aa92,2018-05-03,77226299,A likely first step on getting ref resolution on both drafts.,2,1,16,4,8,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+jsonschema,2d4123e206,2018-05-01,77226299,Add the (wrong) type checker.,2,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,72ca4a7197,2018-05-01,77226299,Assume the next version will be 3.0.0,2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+jsonschema,0b826e6e59,2018-04-29,77226299,Apparently this is deprecated.,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,fa3d714bf9,2018-03-06,77226299,Minor style.,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jsonschema,d1392e4876,2018-03-03,5df26e11,.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,8ae6e6fc88,2018-03-03,5df26e11,syntax lint fix,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,8276968e30,2018-03-02,5df26e11,fix typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,d4553e4398,2018-03-02,5df26e11,update setup.py syntax for pipenv compliancy,1,1,5,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+jsonschema,b07d0f1d89,2018-02-11,77226299,vcversioner -> setuptools_scm,5,2,16,16,15,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,0,0,0,0
+jsonschema,1faf60d73c,2018-01-25,afe8ddcd,Move requests import to runtime,2,1,26,7,4,5,0,0,0,1,0,0,0,0,0,0,0,22,0,0,4,0,0,1,1,0
+jsonschema,8fdfca8ec7,2018-01-02,77226299,If it needs a loop might as well just loop without the evolver.,1,1,5,6,5,6,0,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+jsonschema,5dda44b51f,2018-01-02,77226299,Might as well make the default be the right type.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,2f10bc5076,2018-01-02,77226299,No need for the evolver.,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+jsonschema,cb262d943c,2018-01-02,77226299,No need for the separate flag.,1,1,11,15,11,15,0,0,0,1,0,0,0,0,0,0,0,49,0,0,11,0,0,0,0,0
+jsonschema,85b3402def,2018-01-02,77226299,One true type checker attribute.,2,1,5,5,4,4,0,0,0,3,0,0,0,0,0,0,0,50,0,0,4,0,0,0,0,0
+jsonschema,5fae54a912,2018-01-02,77226299,Minor style.,2,1,17,17,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,11134f5ceb,2018-01-02,77226299,Fix the stack levels on the other two warnings.,2,1,38,24,2,0,1,0,0,3,0,0,0,0,0,0,0,50,0,0,2,0,0,0,0,0
+jsonschema,e6fba2307b,2018-01-02,77226299,Skip this too until it's fixed.,1,1,5,6,5,6,1,0,0,1,0,1,0,0,0,0,0,50,1,5,5,0,0,0,0,0
+jsonschema,b9ae7ccfa7,2018-01-02,77226299,Re-write the two happy case non-warnings.,2,1,19,24,1,1,0,0,0,1,0,0,0,1,0,0,0,51,1,1,1,0,0,0,0,0
+jsonschema,b3c79fa6b1,2018-01-02,77226299,Make the first warning warn at the right stacklevel.,2,1,15,10,1,0,0,0,0,1,1,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+jsonschema,e86611bd19,2018-01-02,77226299,"This is new behavior, so there's no need to support it",2,1,30,9,4,0,0,0,0,1,0,0,0,0,0,0,0,50,0,0,4,0,0,0,0,0
+jsonschema,6558529b4b,2018-01-02,77226299,Slightly friendlier messages.,1,1,14,5,14,5,0,0,0,3,0,0,0,0,0,0,0,46,0,0,14,0,0,0,0,0
+jsonschema,0d3d344c6d,2017-12-25,77226299,Make it clear this is only used for deprecating.,2,1,5,6,5,3,0,0,0,1,0,0,0,0,0,0,0,43,0,0,3,0,0,0,0,0
+jsonschema,63155bab18,2017-12-24,77226299,"Sigh, apparently napoleon only works on docstrings wat...",2,1,130,121,130,2,0,0,0,5,1,1,0,0,7,7,0,43,0,0,86,0,0,0,0,0
+jsonschema,118e6a2412,2017-12-24,77226299,Spelling,3,1,13,2,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,0aba204d69,2017-12-24,77226299,One more.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,f75011a9cf,2017-12-24,77226299,Another missing object.,2,1,9,7,6,7,0,0,0,3,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,0
+jsonschema,2084040992,2017-12-24,77226299,:mod: / :exc: / :meth:,8,4,44,39,14,16,0,0,0,6,0,0,0,0,0,0,0,13,0,0,14,0,0,0,0,0
+jsonschema,11cfa509b6,2017-12-24,77226299,:func:,6,3,12,12,3,3,0,0,0,2,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+jsonschema,ba52a016fe,2017-12-24,77226299,:class:es,7,3,55,55,11,11,0,0,0,6,0,0,0,0,0,0,0,8,0,0,11,0,0,0,0,0
+jsonschema,a1f2f69125,2017-12-24,77226299,Fix more refs.,2,1,10,11,7,7,1,0,0,1,0,0,0,0,0,0,0,8,0,0,7,0,0,0,0,0
+jsonschema,c0cf51f4a1,2017-12-24,77226299,Style.,4,2,65,52,35,22,0,0,0,2,0,0,0,0,0,0,0,23,0,0,34,0,0,0,0,0
+jsonschema,c503080fd5,2017-12-24,77226299,Private.,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+jsonschema,2db932e69d,2017-12-24,77226299,Spelling,6,1,27,7,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+jsonschema,92ac6ce96d,2017-12-24,77226299,And now fix all the broken refs.,7,3,81,60,21,11,1,0,0,5,0,0,0,0,0,0,0,13,0,0,18,0,0,0,0,0
+jsonschema,e2264e56c7,2017-12-11,4adba89c,Simplify redefine_many.,1,1,2,6,2,6,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,1
+jsonschema,c202c48295,2017-12-11,4adba89c,Minor changes addressing PR review issues,8,3,96,50,23,8,0,0,0,9,0,0,0,0,3,0,0,11,0,0,19,0,0,0,0,0
+jsonschema,30bec1a010,2017-12-11,4adba89c,Add checker instance to type checking functions,3,2,13,13,10,10,0,0,0,12,0,0,0,0,0,0,0,7,0,0,10,0,0,0,0,0
+jsonschema,9302b66df5,2017-12-08,77226299,Minor style.,1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+jsonschema,34227e88cc,2017-12-04,4adba89c,Use attr.ib's convert arg to generate the pmap,1,1,5,6,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+jsonschema,9467cbf720,2017-12-04,4adba89c,"Revert ""Allow _type_checkers to be def'd as a dict at init""",1,1,6,9,6,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,0,0,0,0,0
+jsonschema,89a67390fa,2017-12-04,4adba89c,Fix the default_types deprecation,3,2,116,11,28,10,1,0,0,2,0,0,0,0,1,0,0,14,0,0,22,0,0,0,0,0
+jsonschema,cc1c0692f8,2017-11-30,8a9802c0,perf: Make is_type faster and cleaner,1,1,4,7,4,7,0,0,0,2,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+jsonschema,9c1c265e80,2017-11-29,4adba89c,Allow _type_checkers to be def'd as a dict at init,1,1,9,6,9,6,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+jsonschema,7c41d0ba83,2017-11-27,4adba89c,Updated docs with new TypeChecker interface,7,1,99,57,24,21,0,0,0,5,0,0,0,0,0,0,0,8,0,0,23,0,0,0,1,0
+jsonschema,644259b1eb,2017-11-27,4adba89c,The new type interface: a TypeChecker class,9,6,566,27,291,23,0,0,0,4,1,1,0,0,23,7,0,13,0,0,189,0,0,0,1,0
+jsonschema,ab82fe59fc,2017-10-29,77226299,Start on uri-template based on the provisional API.,2,2,23,1,23,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,21,0,0,0,0,0
+jsonschema,1d2a119898,2017-10-29,77226299,Add json-pointer format.,2,2,13,1,13,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+jsonschema,b749e37f68,2017-10-29,77226299,Pass the propertyNames test properly now.,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+jsonschema,4149dd8199,2017-10-29,77226299,Fine,2,2,10,10,10,10,0,2,2,6,0,0,0,0,0,0,0,34,1,2,10,0,0,0,0,0
+jsonschema,36f8927f69,2017-10-29,77226299,refRemote,2,1,10,3,2,2,0,0,0,3,0,0,0,0,0,0,0,34,1,1,2,0,0,0,0,0
+jsonschema,97023676d8,2017-10-29,77226299,uri-reference,1,1,6,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+jsonschema,2e16ebecd2,2017-10-29,77226299,Only support iso8601 for older drafts.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,7fba5fb5ac,2017-10-29,77226299,ipv4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,38b95037b2,2017-10-29,77226299,hostname,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,cbab4b2eff,2017-10-29,77226299,uri [and general format scaffolding],1,1,22,9,22,9,0,0,0,2,0,0,0,0,0,0,0,12,0,0,22,0,0,0,0,0
+jsonschema,ba44cce8fc,2017-10-29,77226299,zeroTerminatedFloats.,1,1,4,1,4,1,0,1,0,2,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+jsonschema,0f64c3c978,2017-10-29,77226299,uniqueItems,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,c94710e39a,2017-10-29,77226299,propertyNames,2,2,11,0,11,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+jsonschema,a427544ab4,2017-10-29,77226299,pattern,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,307313bce1,2017-10-29,77226299,patternProperties,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,885f1e3fbe,2017-10-29,77226299,oneOf,2,2,29,0,29,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,26,0,0,0,0,0
+jsonschema,b96d9ad3bc,2017-10-29,77226299,multipleOf,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,d3ecdfb3a5,2017-10-29,77226299,minProperties,2,2,3,2,3,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,0,0,0,0
+jsonschema,4226dd9c34,2017-10-29,77226299,minItems,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,11ed894c5d,2017-10-29,77226299,maxProperties,2,2,3,2,3,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,0,0,0,0
+jsonschema,bef785b5b0,2017-10-29,77226299,maxItems,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,8eee0345eb,2017-10-29,77226299,items,2,2,23,2,23,2,0,0,0,1,0,0,0,0,1,0,0,17,0,0,19,0,0,0,0,0
+jsonschema,a9f2b597a6,2017-10-29,77226299,format,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,a551799d4f,2017-10-29,77226299,dependencies,2,2,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,22,0,0,5,0,0,1,0,0
+jsonschema,a3ed18acb9,2017-10-29,77226299,definitions,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,497dfec2a3,2017-10-29,77226299,contains,2,2,11,0,11,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+jsonschema,f681232bcc,2017-10-29,77226299,Const,2,2,8,0,8,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+jsonschema,950e0657a6,2017-10-29,77226299,Boolean schemas hacked in.,1,1,11,1,11,1,0,0,0,3,0,0,1,0,0,0,0,34,1,4,10,0,0,0,0,0
+jsonschema,e89bcee96d,2017-10-29,77226299,bignum,2,2,54,8,54,8,0,0,0,0,0,0,0,0,6,2,0,0,0,0,42,0,0,0,0,0
+jsonschema,d89c79cb38,2017-10-29,77226299,anyOf,2,2,21,0,21,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,19,0,0,0,0,0
+jsonschema,e964b8d5dd,2017-10-29,77226299,allOf,2,2,24,8,24,8,0,1,0,0,0,0,0,0,5,4,0,0,0,0,22,0,0,0,0,0
+jsonschema,dbf44ad304,2017-10-29,77226299,And the additionalProperties tests.,2,2,2,1,2,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,2,0,0,0,0,0
+jsonschema,318983be01,2017-10-29,77226299,Pass the additionalItems tests.,2,2,4,1,4,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,0,0,0,0
+jsonschema,24d9fd95fd,2017-10-29,77226299,"Add all the Draft 6 tests, makin' em fail.",5,3,193,7,21,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+jsonschema,5c3abe21c7,2017-10-23,77226299,Run style on all the rest of the stuff.,4,1,124,86,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,54cc746bc5,2017-10-22,77226299,Move the benchmarks into the package.,7,1,19,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,be7bbe8afb,2017-08-27,77226299,Update classifiers.,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,9a31aa5cdb,2017-08-20,77226299,Go away.,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+jsonschema,95120384d6,2017-08-20,77226299,Make it clear when it's a SchemaError vs ValidationError even in the message.,2,1,25,5,8,4,0,0,0,1,0,0,0,0,0,0,0,25,0,0,8,0,0,0,0,0
+jsonschema,c8af2b376c,2017-06-04,77226299,"Switch to ebb-lint, and cry a bit inside.",3,1,9,5,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,124b81a129,2017-01-26,0340c6cb,Address review comments.,2,1,16,9,6,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,6,0,0,0,0,0
+jsonschema,822c75f653,2017-01-26,0340c6cb,Better error message for additionalProperties: false when there are patternProperties.,2,1,32,2,12,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,12,0,0,0,0,0
+jsonschema,ee2de6d0e0,2016-11-27,77226299,More style fun.,7,5,34,31,31,26,0,0,0,6,0,0,0,0,2,2,0,23,0,0,29,0,0,0,0,0
+jsonschema,e7d2975b08,2016-11-27,77226299,Whitespacin'.,5,1,182,182,52,52,0,0,0,2,0,0,0,0,0,0,0,23,0,0,52,0,0,0,0,0
+jsonschema,9b46129e40,2016-11-27,77226299,Napoleon.,5,3,142,43,140,42,0,0,0,10,0,0,0,0,0,0,0,18,0,0,79,0,0,0,0,0
+jsonschema,0c73af0451,2016-11-03,71c913ca,Fix indentation,1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+jsonschema,bc783cf136,2016-10-09,77226299,Minor tidying.,2,1,3,4,1,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jsonschema,b2d440a5ad,2016-10-09,77226299,"Revert ""Made required_draft4 more robust when used with Draft3""",1,1,0,5,0,5,0,0,0,1,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0
+jsonschema,b44c1a234d,2016-09-28,a96ca4fb,Added call to check_schema before checking instance,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jsonschema,cdfb1b0569,2016-09-28,1a5395fc,"Readme, help: clarify console call and input is filename a bit",2,1,8,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,41f2f8d965,2016-09-27,a96ca4fb,Made required_draft4 more robust when used with Draft3,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+jsonschema,20ff43fe6b,2016-08-27,77226299,"Use newer vcversioner, and py35.",2,1,8,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+jsonschema,90ade39f64,2016-05-17,36acc583,Minor for in ErrorTree for multiple errors on different levels.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+jsonschema,aa2cd272c8,2015-11-30,77226299,Drop support for Python 2.6,5,2,8,17,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,3f459b73a2,2015-06-08,77226299,Formatting.,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+jsonschema,a69464340b,2015-06-08,155b231c,Fix universal wheels,1,1,3,8,3,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,9fd67b4768,2015-06-05,77226299,Remove VCVersioner stuff from VCS.,3,1,3,6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+jsonschema,bfc06bd0a0,2015-05-08,9ff8bd6d,Fix formatting error for unique items if instance is tuple.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jsonschema,168237288e,2015-04-08,77226299,Temporarily disable lxml-cffi because travis' libxml doesn't cooperate.,3,1,4,5,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,aab0979f8d,2015-04-05,77226299,"Again, again.",3,1,5,5,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,839e6568c3,2015-04-05,77226299,Try again.,3,1,6,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,f672988e2c,2015-03-21,77226299,Need to preserve backwards compat for RefResolvers without the new methods.,2,1,33,7,13,7,0,0,0,1,0,0,0,0,0,0,0,14,0,0,13,0,0,0,0,0
+jsonschema,33973dc9fa,2015-03-21,77226299,Pass in caches instead of arguments.,3,2,20,15,19,14,0,0,0,3,0,0,0,0,0,0,0,26,0,0,18,0,0,0,0,0
+jsonschema,b7aab95f43,2015-03-15,77226299,"Not deprecating these for now, just not used internally.",3,2,15,11,14,10,0,0,0,2,0,0,0,0,0,0,0,22,0,0,13,0,0,0,0,0
+jsonschema,7241db0d5e,2015-03-15,6335f806,Fix base_uri backwards compatibility.,2,1,7,0,5,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,10ea4fa104,2015-03-15,77226299,"Er, green doesn't work on 2.6, and make running right out of a checkout easier.",4,1,12,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jsonschema,2fda689941,2015-03-15,77226299,Wrong docstring.,1,1,8,8,8,8,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+jsonschema,b74a7fd9b8,2015-03-15,77226299,Wait wat. Remove insanity.,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,feea2329b1,2015-03-15,77226299,"Probably should combine these at some point, but for now move them.",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jsonschema,504f978da3,2015-03-15,77226299,Fix a non-type in the docs.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,e2a604f7eb,2015-03-15,77226299,"Switch to vcversioner, use repoze.lru only on 2.6, and add extras_require for format.",7,4,27,41,22,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,1,0,0,0,0
+jsonschema,ee1a256fc8,2015-03-04,6335f806,Use lru_cache,7,6,45,33,38,32,0,0,0,5,0,0,0,0,0,2,0,16,0,0,35,0,0,0,0,0
+jsonschema,ca59f3fa87,2015-03-03,6335f806,Remove DefragResult.,2,2,5,9,5,9,0,0,0,2,0,0,0,0,0,0,0,10,0,0,5,0,0,0,1,0
+jsonschema,d1e24483aa,2015-03-01,6335f806,Remove context manager from ref() validation.,3,2,27,15,25,9,0,0,0,5,0,0,0,0,2,0,0,30,1,1,17,0,0,0,1,0
+jsonschema,613cf3e1a0,2015-03-01,6335f806,Perf improvements by using a cache.,3,2,53,46,48,39,0,0,0,5,0,0,0,0,5,1,0,30,1,1,42,0,0,0,0,0
+jsonschema,812392bbd4,2015-03-01,6335f806,Add benchmark script.,1,1,74,0,74,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,52,0,0,0,0,0
+jsonschema,22701dc652,2015-02-27,6335f806,Fix test failures,2,1,11,6,9,4,1,0,0,2,0,0,0,0,0,0,0,24,0,0,9,0,0,0,0,0
+jsonschema,2fda1556ef,2015-02-27,381d903a,issue #158: TRY to speed-up scope & $ref url-handling by keeping fragments separated from URL (and a,2,2,45,23,45,23,0,0,0,5,1,0,0,0,2,1,0,30,1,7,38,0,0,0,0,0
+jsonschema,2b9a72273e,2014-12-29,149f3a89,Improve mutlipleOf validator with floating point value.,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+jsonschema,fcb178774f,2014-12-07,77226299,"Slightly clarify the wording, which means to refer to calling this method directly.",1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+jsonschema,acbcbb1a16,2014-10-16,1266f590,Support pypy3,3,1,6,4,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jsonschema,1610e2802d,2014-10-12,77226299,Add a simple test and all of the args.,2,1,17,5,12,4,0,0,0,1,0,0,0,0,0,0,0,37,0,0,12,0,0,0,0,0
+jsonschema,0a51b663dc,2014-10-07,f0e62dc0,Make exceptions picklable on Python 2.X,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+jsonschema,8df0518ca3,2014-09-27,77226299,2.5.0-dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,b9dc7c4684,2014-09-23,23240599,Closes maximum issue which wasn't an issue. Remove float conversion on minimum validator to make it ,2,1,51,4,4,4,0,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,1,0
+jsonschema,458022d07b,2014-09-23,23240599,All tests pass when adding `float()` conversion on `instance` and `maximum` and `minimum` in respect,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+jsonschema,33bd732a91,2014-09-23,23240599,Add in float(instance) in maximum validator,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jsonschema,bee8d27831,2014-09-04,52320318,Fix Error.absolute_path logic,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+jsonschema,9f1827038e,2014-08-18,77226299,Bump version for 2.4.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,be5097d249,2014-06-20,e5ee2525,Workaround for tests in Python 3.4,2,1,24,19,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,0865bfbd4c,2014-06-01,77226299,No idea why this call to float was here.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+jsonschema,ed332a1819,2014-06-01,77226299,Squashed 'json/' changes from ddef9b0..abdd47f,100,8,25,5676,0,1621,0,0,0,0,0,0,0,0,0,116,0,0,0,0,0,0,0,0,0,0
+jsonschema,80ec8c0ec2,2014-05-18,77226299,"Rework things a bit, remove py.test, allow multiple instances, and a validator.",4,3,312,96,221,32,0,0,0,1,0,0,0,0,7,0,0,2,0,0,166,0,0,0,1,0
+jsonschema,fad8a030f3,2014-05-08,77226299,Add support for -m.,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jsonschema,709e0377ec,2014-05-08,77226299,Formatting.,1,1,1,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,7cebc7b533,2014-05-06,77226299,Formatting.,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+jsonschema,39499db8ac,2014-05-05,381d903a,"Fixes #164, ValidationError.__unicode__(): use 'is' operator instead of '==' for unset-check",1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,22,0,0,3,0,0,0,0,0
+jsonschema,14cbfe29d6,2014-05-04,069a5480,Fixed issue where arguments were not parsed correctly,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+jsonschema,93977e56f3,2014-05-04,069a5480,Dropped use of UTF-8 character √,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+jsonschema,0a7f02f9cc,2014-05-04,069a5480,Added unit tests for CLI,2,1,82,3,4,3,0,0,0,1,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+jsonschema,0eb8a89577,2014-05-04,069a5480,Added CLI format checking,1,1,19,2,19,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,18,0,0,0,0,0
+jsonschema,b535522074,2014-05-04,069a5480,Fixed #134 -- Added CLI interface,2,2,26,0,26,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,1,0
+jsonschema,7013e805c7,2014-05-04,77226299,Support 3.4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,0da93e8cb3,2014-05-04,77226299,"For my sanity, just depend on setuptools.",1,1,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,83e810c24a,2014-04-27,77226299,Load meta-schemas via pkgutil rather than searching the filesystem.,1,1,3,6,3,6,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+jsonschema,1ca7d219e6,2014-02-19,77226299,"As per the spec, only dotted-quad IPv4 addresses are valid.",1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+jsonschema,f13ac35b63,2013-12-26,77226299,Don't floatify the instance in minimum/maximum messages.,2,1,12,6,4,6,0,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+jsonschema,44b35706a7,2013-12-25,77226299,Add absolute path and absolute schema path.,3,1,154,35,45,16,0,0,0,4,0,0,0,0,2,0,0,25,0,0,40,0,0,0,0,0
+jsonschema,80495381f7,2013-12-24,77226299,"Add `relevance`, hopefully less confusing to directly use than by_relevance().",3,1,41,21,4,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+jsonschema,93465e5308,2013-12-24,77226299,Flake8,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,7c0d3073f2,2013-12-22,77226299,Minor formatting.,1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+jsonschema,bd8f983f97,2013-12-08,77226299,Minor cleanup,1,1,1,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+jsonschema,00e05898bc,2013-12-08,77226299,Update classifiers.,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jsonschema,bbbc8f8c22,2013-12-01,77226299,Don't mix unicode and bytes when loading schemas.,3,2,107,113,70,75,0,0,0,9,0,0,0,0,0,0,0,24,0,0,69,0,0,0,0,0
+jsonschema,3de5b177c7,2013-11-23,77226299,Use setuptools if present.,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jsonschema,35b60f3900,2013-11-02,77226299,Release v2.3.0,3,1,35,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,c763ab974c,2013-10-30,77226299,"Apply built-in formats only to strings, otherwise ignore.",4,2,61,12,38,9,0,0,0,7,0,0,0,0,4,0,0,10,0,0,38,0,0,0,0,0
+jsonschema,699528300b,2013-10-30,77226299,Move ErrorTree closer to its friends.,5,3,142,143,79,79,0,0,0,0,0,0,0,0,8,8,0,0,0,0,54,0,0,0,1,0
+jsonschema,a73d1efe56,2013-10-28,77226299,Format can apply to instances of any type.,2,1,19,4,1,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+jsonschema,6b8e1f4bcc,2013-10-27,77226299,"Remove __eq__, since it causes hashability issues on Py3 that I don't want to deal with at the momen",2,1,2,9,0,8,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+jsonschema,b4f098bdcc,2013-10-27,77226299,Different strategy that's a lot more robust.,2,1,106,91,17,23,0,0,0,1,0,0,0,0,2,1,0,9,0,0,13,0,0,0,0,0
+jsonschema,11b3220eac,2013-10-27,77226299,Use ._contents in create_from,1,1,1,11,1,11,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,8199901c3b,2013-10-27,77226299,Initial stab at best_match.,3,1,213,3,32,1,0,0,0,1,0,0,0,0,4,0,0,12,0,0,26,0,0,0,0,0
+jsonschema,3c6568b217,2013-10-27,77226299,Sort errors based on their paths.,2,1,72,18,32,18,0,0,0,2,0,0,0,0,1,0,0,12,0,0,26,0,0,0,0,0
+jsonschema,555386f045,2013-10-27,77226299,"These should be URIs, not URI references.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+jsonschema,9c1a2f589c,2013-10-20,77226299,Try to be as unconfusing as possible since is_type can be called outside validation.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+jsonschema,8a3be956ea,2013-10-20,77226299,Flake8.,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jsonschema,3906ee0e65,2013-10-18,77226299,Bump version.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,6fee28cc42,2013-10-18,77226299,Release v2.2.0,3,1,9,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jsonschema,4e6bf8051e,2013-10-18,993a82b1,Better Py2/3 support,1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+jsonschema,a324c1fc19,2013-10-17,993a82b1,Use pretty formatting,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+jsonschema,9440940677,2013-10-17,993a82b1,Cleaned up output,1,1,1,2,1,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+jsonschema,1963981389,2013-10-17,993a82b1,Clean up the output when an unknow type is found,2,2,23,2,23,2,0,0,0,5,0,0,0,0,3,0,0,26,0,0,18,0,0,0,0,1
+jsonschema,3baddb61a3,2013-10-17,993a82b1,This allows defining custom types,2,1,6,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0

@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+countdown,v0.1,v0.2,0,1.2444,20,203,27,0,6
+countdown,v0.2,v0.3,1,0.527,9,216,27,0,6
+countdown,v0.3,v0.4,2,1.0833,16,222,28,0,7
+countdown,v0.4,v0.5,3,2.1236,41,235,28,0,7
+countdown,v0.5,v0.6,4,0.643,6,267,28,0,7

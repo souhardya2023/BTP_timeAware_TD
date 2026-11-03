@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+currency_converter,v0.1,v0.2,0,0.3092,57,620,15,0,3
+currency_converter,v0.2,v0.3,1,2.2323,85,675,66,20,6
+currency_converter,v0.3,v0.4,2,1.9337,27,694,83,4,6
+currency_converter,v0.4,v0.5,3,3.0677,87,709,87,11,7
+currency_converter,v0.5,v0.6,4,2.0192,75,778,91,8,8
+currency_converter,v0.6,v0.7,5,1.1254,44,823,103,9,9
+currency_converter,v0.7,v0.8,6,1.1929,26,841,110,25,9
+currency_converter,v0.8,v0.9,7,0.3603,4,848,134,3,9
+currency_converter,v0.9,v0.10,8,2.4531,56,847,130,21,8
+currency_converter,v0.10,v0.11,9,0.1668,5,800,146,5,8

@@ -1,0 +1,17 @@
+protocol,model,auc,cap20,cap30,cap50,groups
+leave-one-repository-out,size,0.617,34.4,45.2,62.6,427
+leave-one-repository-out,persist,0.749,39.8,51.0,66.8,427
+leave-one-repository-out,persist_size,0.753,39.2,50.1,67.7,427
+leave-one-repository-out,logit_base,0.789,41.5,53.2,71.7,427
+leave-one-repository-out,logit_prox,0.788,41.3,53.2,71.2,427
+leave-one-repository-out,logit_prox_clock,0.784,41.2,53.1,71.3,427
+leave-one-repository-out,gb_base,0.779,38.8,51.7,70.5,427
+leave-one-repository-out,gb_prox_clock,0.764,39.2,51.8,71.0,427
+temporal (last 40% of each repository),size,0.621,34.6,47.0,64.1,204
+temporal (last 40% of each repository),persist,0.722,38.5,51.2,68.4,204
+temporal (last 40% of each repository),persist_size,0.724,38.9,50.7,68.9,204
+temporal (last 40% of each repository),logit_base,0.774,40.3,52.9,72.6,204
+temporal (last 40% of each repository),logit_prox,0.774,40.5,53.1,72.1,204
+temporal (last 40% of each repository),logit_prox_clock,0.773,40.8,53.2,71.9,204
+temporal (last 40% of each repository),gb_base,0.771,35.7,48.9,70.4,204
+temporal (last 40% of each repository),gb_prox_clock,0.722,40.4,53.8,72.6,204

@@ -1,0 +1,11 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+quiz,0,quiz/core.py,54,144,54,54
+quiz,0,quiz/services.py,6,37,0,0
+quiz,1,quiz/core.py,52,193,54,0
+quiz,1,quiz/services.py,22,54,0,0
+quiz,2,quiz/core.py,28,220,54,0
+quiz,2,quiz/services.py,1,54,0,0
+quiz,3,quiz/core.py,4,223,54,0
+quiz,3,quiz/services.py,1,54,0,0
+quiz,4,quiz/core.py,2,224,54,0
+quiz,4,quiz/services.py,3,56,0,0

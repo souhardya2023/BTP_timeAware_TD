@@ -1,0 +1,315 @@
+==================================================================================================== 
+P1  THE CORPUS
+====================================================================================================
+                 repo   lang  original  releases      first       last  code_lines  debt_share  instances  obs  events  event_rate  pm_total  never_pay
+  airline_reservation python     False        20 2020-03-04 2023-01-30         703       0.070          6   63      20      0.3175     0.114      0.333
+       anagram_finder python     False         6 2019-01-08 2020-05-05         220       0.214          2    9       1      0.1111     0.001      0.500
+          atm_machine python     False        10 2019-01-08 2020-10-10         373       0.303          5   39      12      0.3077     0.046      0.200
+        auction_house python     False        20 2019-08-21 2022-08-12         724       0.260          8   84      26      0.3095     0.152      0.500
+          bank_ledger python     False        10 2019-01-08 2020-07-12         333       0.114          2   13       0      0.0000     0.000      1.000
+         banking_core python     False        20 2019-04-03 2021-10-09        2415       0.393         33  389      79      0.2031     0.722      0.273
+       battleship_bot python     False        20 2019-10-15 2023-06-13         652       0.118          9  116       7      0.0603     0.050      0.444
+    battleship_engine python     False        20 2019-09-01 2023-04-26         718       0.358         13  168       1      0.0060     0.003      0.923
+              bin2dec python     False         6 2019-01-08 2020-05-09         412       0.449          5   21       4      0.1905     0.039      0.600
+            bit_masks python     False        14 2019-01-08 2021-12-02         460       0.330         13  108      15      0.1389     0.115      0.538
+          book_finder python     False        11 2019-01-08 2020-11-22         513       0.327          6   56       0      0.0000     0.000      1.000
+           boole_bots python     False        20 2020-07-26 2023-11-09         914       0.178          6   50      20      0.4000     0.146      0.000
+        border_radius python     False         6 2019-01-08 2019-10-13         320       0.153          2    2       0      0.0000     0.000      1.000
+       budget_planner python     False        12 2019-01-08 2021-03-05         932       0.726         17  161      49      0.3043     0.499      0.176
+          bug_tracker python     False        15 2019-01-08 2020-11-30         816       0.565          6   67      26      0.3881     0.318      0.333
+        caesar_cipher python     False         5 2019-01-08 2020-01-02         451       0.572          6   24      13      0.5417     0.143      0.167
+           calculator python     False         5 2019-01-08 2019-09-03         256       0.129          2    6       0      0.0000     0.000      1.000
+       calculator_cli python     False        14 2019-01-08 2021-02-23         453       0.258          9   63      10      0.1587     0.029      0.556
+             calendar python     False        20 2020-06-13 2024-01-24        1031       0.563         20  251      26      0.1036     0.326      0.300
+      calorie_counter python     False        20 2020-08-01 2024-04-22        1140       0.497         30  327      57      0.1743     0.444      0.400
+           car_rental python     False        14 2019-01-08 2020-05-27         396       0.237          5   49       0      0.0000     0.000      1.000
+          card_memory python     False        11 2019-01-08 2020-07-29         384       0.135          2   20       2      0.1000     0.003      0.000
+         cause_effect python     False         5 2019-01-08 2019-08-16         323       0.433          3   12       0      0.0000     0.000      1.000
+       charity_finder python     False        13 2019-01-08 2021-06-28         357       0.000          2   13       5      0.3846     0.079      0.000
+             chat_app python     False        20 2020-09-12 2024-04-24         598       0.278          9  107      16      0.1495     0.175      0.333
+     christmas_lights python     False         6 2019-01-07 2019-09-16         239       0.134          3   11       1      0.0909     0.009      0.667
+         chrome_theme python     False        14 2019-01-08 2022-09-30         544       0.235          6   70      16      0.2286     0.114      0.167
+          ci_pipeline python     False        20 2021-04-28 2025-09-06        1183       0.289         14  249      44      0.1767     0.291      0.286
+       cinema_booking python     False        15 2019-01-08 2021-07-18         307       0.036          4   35       1      0.0286     0.013      0.750
+  clinic_appointments python     False        12 2019-01-08 2020-11-19         713       0.582         15  120      17      0.1417     0.089      0.600
+                  cms python     False        20 2020-02-22 2024-10-17        1778       0.080         13  142      42      0.2958     0.388      0.385
+          coin_change python     False         6 2019-01-08 2020-01-27         240       0.271          3    8       1      0.1250     0.001      0.667
+          color_cycle python     False         6 2019-01-08 2020-01-19         467       0.542          8   36       2      0.0556     0.001      0.750
+ contribution_tracker python     False        20 2019-12-14 2023-11-02         889       0.535         20  234      40      0.1709     0.308      0.400
+            countdown python     False         6 2019-01-07 2020-01-02         330       0.436          5   24       7      0.2917     0.046      0.400
+  course_registration python     False        10 2019-01-08 2021-06-05         442       0.278          4   27      13      0.4815     0.208      0.000
+        css_variables python     False         6 2019-01-08 2020-06-12         271       0.476          4   12       0      0.0000     0.000      1.000
+             csv2json python     False         5 2019-01-07 2019-05-23         242       0.269          3   11       1      0.0909     0.001      0.667
+   currency_converter python     False        11 2019-01-08 2021-06-16         715       0.530         10   83      14      0.1687     0.152      0.600
+          dice_roller python     False         6 2019-01-08 2020-03-29         285       0.140          1    5       0      0.0000     0.000      1.000
+        dollars_cents python     False         5 2019-01-08 2019-09-16         376       0.412          6   19       4      0.2105     0.023      0.333
+          drawing_app python     False        11 2019-01-08 2021-02-11         465       0.325          4   40       2      0.0500     0.013      0.500
+             elevator python     False        20 2019-11-22 2024-04-06        1196       0.527         28  400     125      0.3125     1.039      0.286
+     emoji_translator python     False        14 2019-01-08 2021-06-05         379       0.237          7   43       3      0.0698     0.011      0.714
+             erp_mini python     False        20 2019-07-02 2022-12-05        2398       0.435         36  416      64      0.1538     0.367      0.472
+           event_rsvp python     False        14 2019-01-08 2022-05-20         399       0.000          4   36       0      0.0000     0.000      1.000
+      exoplanet_query python     False        20 2020-04-15 2024-02-17         576       0.069          4   52       1      0.0192     0.033      0.750
+     expense_splitter python     False        15 2019-01-08 2021-06-07         355       0.155          2   28       0      0.0000     0.000      1.000
+            fast_food python     False        20 2020-01-29 2023-11-27         681       0.051         11   84       2      0.0238     0.003      0.818
+       fibonacci_memo python     False         5 2019-01-08 2019-06-26         329       0.517          4   16       0      0.0000     0.000      1.000
+             first_db python     False         6 2019-01-08 2019-10-27         329       0.386          3   15       0      0.0000     0.000      1.000
+       fizzbuzz_rules python     False         6 2019-01-07 2019-08-15         437       0.604          8   33       8      0.2424     0.063      0.250
+           flashcards python     False        13 2019-01-08 2020-12-27         365       0.227          5   52       7      0.1346     0.057      0.400
+             flip_art python     False        13 2019-01-08 2021-05-24         498       0.331         14  130      18      0.1385     0.070      0.286
+           flip_image python     False         6 2019-01-08 2020-01-23         483       0.584          4   20       4      0.2000     0.025      0.500
+        food_delivery python     False        20 2020-03-30 2024-01-27         733       0.231          4   75      12      0.1600     0.141      0.000
+      game_suggestion python     False        13 2019-01-08 2020-11-17         530       0.530          8   74       5      0.0676     0.012      0.625
+      github_profiles python     False        12 2019-01-08 2020-06-15         547       0.472         15  114      11      0.0965     0.115      0.600
+        github_status python     False         5 2019-01-08 2019-07-30         293       0.242          2    8       2      0.2500     0.023      0.000
+      github_timeline python     False        20 2019-08-26 2022-07-30         946       0.216          9   61       5      0.0820     0.060      0.667
+         grocery_list python     False        14 2019-01-08 2021-02-09         921       0.706          5   65       4      0.0615     0.010      0.200
+       gym_membership python     False        13 2019-01-08 2022-01-03         407       0.219          7   56       0      0.0000     0.000      1.000
+        habit_tracker python     False        14 2019-01-08 2020-12-17         478       0.320          6   31       4      0.1290     0.008      0.667
+              hangman python     False         5 2019-01-08 2019-06-23         359       0.468          5   19       4      0.2105     0.023      0.200
+                hello python     False         6 2019-01-08 2020-02-16         409       0.472          7   31       6      0.1935     0.032      0.571
+            help_desk python     False        12 2019-01-08 2021-07-17         347       0.104          5   41      13      0.3171     0.073      0.400
+         high_striker python     False        13 2019-01-07 2021-05-31         423       0.288          6   70      10      0.1429     0.069      0.667
+     hospital_records python     False        20 2020-04-05 2024-07-29         756       0.262          8   72      13      0.1806     0.066      0.250
+        hotel_booking python     False        11 2019-01-07 2020-03-10         332       0.000          1    6       0      0.0000     0.000      1.000
+          hotel_chain python     False        20 2019-05-03 2022-06-07        1752       0.218         13  137      19      0.1387     0.129      0.692
+        image_scanner python     False        14 2019-01-08 2022-03-15         468       0.120          2   26       0      0.0000     0.000      1.000
+     input_validation python     False         6 2019-01-08 2020-02-23         411       0.246          6   20       0      0.0000     0.000      1.000
+      instagram_clone python     False        20 2020-05-30 2024-10-04         895       0.189          7   76       4      0.0526     0.015      0.571
+            inventory python     False        14 2019-01-08 2021-05-21         622       0.434          5   49      16      0.3265     0.164      0.200
+    invoice_generator python     False        12 2019-01-08 2021-05-29         441       0.397          9   86      17      0.1977     0.262      0.333
+             json2csv python     False         6 2019-01-08 2020-04-19         429       0.448          7   29       3      0.1034     0.030      0.857
+            key_value python     False         6 2019-01-08 2019-11-29         464       0.509          7   31      11      0.3548     0.061      0.571
+            kudos_bot python     False        20 2019-02-06 2022-09-17         851       0.495         11  112      38      0.3393     0.381      0.636
+         landing_page python     False         5 2019-01-08 2019-11-17         266       0.308          2    8       2      0.2500     0.028      0.500
+    learning_platform python     False        20 2020-08-21 2023-12-19        1830       0.238         19  210      53      0.2524     0.432      0.316
+   library_management python     False        11 2019-01-08 2020-09-12         412       0.323          6   51       6      0.1176     0.182      0.833
+         log_analyzer python     False        10 2019-01-07 2020-07-21         554       0.529          9   74      26      0.3514     0.257      0.111
+   logistics_tracking python     False        20 2019-02-19 2022-05-16        1624       0.235         20  237      30      0.1266     0.100      0.500
+          lorem_ipsum python     False         6 2019-01-08 2019-11-05         397       0.524          8   34       0      0.0000     0.000      1.000
+   markdown_previewer python     False        10 2019-01-08 2020-12-02         434       0.401          7   49       6      0.1224     0.077      0.571
+       markdown_table python     False        11 2019-01-08 2020-09-20         384       0.286          2   20       0      0.0000     0.000      1.000
+          math_editor python     False        10 2019-01-08 2020-09-11         573       0.349          4   36      24      0.6667     0.480      0.000
+       meme_generator python     False        15 2019-01-08 2021-07-14         473       0.201          4   47       1      0.0213     0.001      0.750
+  mortgage_calculator python     False         6 2019-01-08 2020-03-30         355       0.448          4   18       0      0.0000     0.000      1.000
+            movie_app python     False        20 2019-10-26 2023-06-03        1014       0.302         14  118      13      0.1102     0.205      0.643
+   my_podcast_library python     False        20 2020-03-27 2023-05-10         457       0.066          6   49       4      0.0816     0.068      0.500
+       name_generator python     False        10 2019-01-08 2020-03-05         352       0.114          1    9       1      0.1111     0.005      0.000
+                notes python     False         6 2019-01-08 2019-09-08         216       0.204          1    5       0      0.0000     0.000      1.000
+         number_guess python     False         5 2019-01-08 2019-10-16         260       0.365          3   10       2      0.2000     0.003      0.333
+         online_exams python     False        20 2020-04-09 2024-06-15        1602       0.516         21  210      31      0.1476     0.443      0.524
+         online_store python     False        14 2019-01-07 2021-03-23         402       0.296         13  107      17      0.1589     0.099      0.385
+           palindrome python     False         5 2019-01-08 2020-01-24         352       0.528          5   15       3      0.2000     0.046      0.400
+          parking_lot python     False        11 2019-01-08 2020-03-22         351       0.311          7   46      10      0.2174     0.027      0.143
+   password_generator python     False        10 2019-01-08 2020-11-25         728       0.650         14  105      11      0.1048     0.043      0.571
+             pastebin python     False        10 2019-01-07 2020-10-29         522       0.481          5   41       7      0.1707     0.050      0.400
+              payroll python     False        15 2019-01-08 2022-01-26         578       0.379          8   63      15      0.2381     0.085      0.250
+              pearson python     False         5 2019-01-07 2019-07-16         616       0.667          5   18       1      0.0556     0.001      0.800
+    podcast_directory python     False        12 2019-01-08 2021-03-24         426       0.298          8   51       2      0.0392     0.016      0.875
+             pomodoro python     False         6 2019-01-08 2019-06-28         423       0.598          9   35       1      0.0286     0.003      0.889
+          prime_sieve python     False         5 2019-01-08 2019-12-15         539       0.544          8   29       1      0.0345     0.005      0.875
+             qr_badge python     False        12 2019-01-08 2020-03-08         543       0.495         11  102       3      0.0294     0.006      0.727
+                 quiz python     False         6 2019-01-08 2019-10-14         237       0.186          1    5       0      0.0000     0.000      1.000
+          random_meal python     False         6 2019-01-08 2019-11-02         318       0.094          1    4       0      0.0000     0.000      1.000
+        random_number python     False         6 2019-01-08 2020-01-07         494       0.581         10   35      13      0.3714     0.141      0.500
+         rate_limiter python     False        15 2019-01-08 2021-05-09         527       0.357          7   81       7      0.0864     0.029      0.000
+               recipe python     False         5 2019-01-07 2019-05-13         207       0.193          1    4       0      0.0000     0.000      1.000
+         regex_helper python     False        12 2019-01-08 2020-12-27         497       0.437          5   51      16      0.3137     0.142      0.200
+        ride_dispatch python     False        20 2019-04-14 2022-11-02         492       0.185          3   57       2      0.0351     0.003      0.333
+  rock_paper_scissors python     False         6 2019-01-07 2020-06-15         532       0.596          9   38       5      0.1316     0.019      0.667
+       roman_numerals python     False         6 2019-01-08 2019-11-03         243       0.152          1    5       1      0.2000     0.015      0.000
+       sales_receipts python     False        10 2019-01-08 2020-03-28         517       0.590         12   84       4      0.0476     0.014      0.667
+           shell_game python     False        20 2020-11-14 2024-07-14        1225       0.424         11  130      20      0.1538     0.098      0.455
+        shopping_cart python     False        20 2020-03-26 2022-12-23         704       0.416          5   59       0      0.0000     0.000      1.000
+         shuffle_deck python     False        20 2020-09-27 2024-04-10        1047       0.510         20  278      31      0.1115     0.221      0.450
+       slack_archiver python     False        20 2021-01-14 2024-06-03         839       0.393         12  138      16      0.1159     0.120      0.333
+        slider_design python     False         5 2019-01-07 2020-01-02         300       0.497          4   16       5      0.3125     0.042      0.500
+           smart_home python     False        20 2020-04-17 2023-08-10        1022       0.311          9   98      41      0.4184     0.339      0.333
+          social_feed python     False        20 2020-08-25 2025-04-30        2388       0.251         24  190      61      0.3211     0.631      0.375
+             spell_it python     False        20 2019-12-21 2023-10-09         573       0.113          3   52       9      0.1731     0.094      0.667
+       sports_bracket python     False        13 2019-01-08 2021-09-08         633       0.518         13  141      16      0.1135     0.117      0.846
+      stock_portfolio python     False        20 2021-03-18 2025-01-14        1237       0.373         19  266      36      0.1353     0.482      0.474
+            stopwatch python     False         6 2019-01-08 2020-04-01         197       0.000          1    2       0      0.0000     0.000      1.000
+           string_art python     False        11 2019-01-07 2020-07-27         600       0.563         11   80      14      0.1750     0.054      0.455
+               survey python     False        20 2019-02-10 2022-01-29         850       0.593         20  275      71      0.2582     1.173      0.750
+       task_scheduler python     False        10 2019-01-08 2020-04-26         395       0.228          5   27       1      0.0370     0.013      0.800
+      telecom_billing python     False        20 2020-04-02 2023-08-22        2291       0.327         27  332      60      0.1807     0.843      0.704
+temperature_converter python     False         5 2019-01-08 2019-11-19         603       0.728         11   37       1      0.0270     0.003      0.909
+         this_or_that python     False        12 2019-01-08 2020-12-23         524       0.445          9   64      19      0.2969     0.275      0.111
+         time_tracker python     False        12 2019-01-08 2020-12-22         392       0.276          4   29       5      0.1724     0.050      0.750
+       tip_calculator python     False         6 2019-01-08 2019-09-07         496       0.528          3   15       1      0.0667     0.001      0.667
+                 todo python     False        14 2019-01-08 2021-03-08         432       0.086          3   15       0      0.0000     0.000      1.000
+ tournament_scheduler python     False        20 2020-10-01 2024-02-20         825       0.164         10  111      14      0.1261     0.074      0.200
+        true_or_false python     False         5 2019-01-08 2019-09-14         583       0.695          8   32       2      0.0625     0.011      0.750
+      typing_practice python     False        10 2019-01-08 2020-09-30         858       0.744         15  123      42      0.3415     0.603      0.200
+       unit_converter python     False         5 2019-01-07 2019-08-24         523       0.583          7   27       0      0.0000     0.000      1.000
+        url_shortener python     False        11 2019-01-08 2020-06-28         439       0.323          6   50       6      0.1200     0.021      0.667
+      vending_machine python     False        11 2019-01-08 2021-10-09         402       0.281          5   45      14      0.3111     0.112      0.400
+             vigenere python     False         5 2019-01-08 2019-07-29         280       0.271          3   10       0      0.0000     0.000      1.000
+               voting python     False        15 2019-01-08 2021-02-09         620       0.431          5   64      22      0.3438     0.189      0.400
+    warehouse_picking python     False        20 2019-03-25 2022-07-22         641       0.284         11  124      30      0.2419     0.266      0.545
+              weather python     False         5 2019-01-08 2019-11-17         345       0.449          5   19       3      0.1579     0.075      0.600
+           wind_chill python     False         6 2019-01-07 2020-08-30         451       0.572          9   36      16      0.4444     0.038      0.222
+       word_frequency python     False         5 2019-01-08 2019-12-18         533       0.553          5   20       9      0.4500     0.075      0.400
+
+148 repositories (148 Python), 1206 instances, 11024 instance-releases, 1906 events, 17.45 person-months
+
+==================================================================================================== 
+P2  CONCENTRATION AND FROZEN DEBT
+====================================================================================================
+     group  instances  gini  never_pay_10plus  top10  top20
+       all       1206 0.819             0.382  0.651  0.872
+    python       1206 0.819             0.382  0.651  0.872
+         c          0 0.000               NaN    NaN    NaN
+original 9          0 0.000               NaN    NaN    NaN
+    new 24       1206 0.819             0.382  0.651  0.872
+
+per repository: Gini min / median / max = 0.00 / 0.63 / 0.92 ; never-pay (10+ releases) = 0.00 / 0.33 / 1.00
+interest lines per event: median 2.5, mean 4.8, p90 13.0, max 48; share of all interest in the largest 10% of events 0.45
+
+==================================================================================================== 
+P3  MEMORY: DOES AN INSTANCE THAT PAID PAY AGAIN?
+====================================================================================================
+ lag  p_after_event  n_after  p_after_no_event
+   1          0.419     1773             0.118
+   2          0.395     1568             0.118
+   3          0.377     1389             0.119
+   4          0.386     1210             0.116
+   5          0.375     1076             0.120
+   6          0.393      937             0.116
+
+P(event) by number of past events: {'0': 0.09, '1': 0.198, '2': 0.256, '3-4': 0.347, '5+': 0.523}
+per repository (60 repos), lag 1: P(event | event before) median 0.39 vs P(event | no event before) median 0.15; ratio > 1 in 47 repos
+
+same-file contagion: P(event) 0.280 when ANOTHER instance of the file paid in the previous release pair vs 0.137 when none did: ratio 2.05 (n = 8296); size and own history not controlled
+   adjusted for the instance's own previous event, its size and the repository: odds ratio of another instance having paid 0.63 (95% CI 0.39 to 1.02)
+
+==================================================================================================== 
+P4  EXPOSURE LAW (SIZE) AND DEBT AVOIDANCE
+====================================================================================================
+instance level, logit of 'event in this release pair' on log(size of the debt region) with repository fixed effects: slope 0.710 (se 0.152); odds ratio per doubling 1.64
+interest lines per release pair, Poisson with log link: exponent beta (lines ~ size^beta) = 0.637 (se 0.144); beta = 1 would be pure exposure
+   python: logit slope 0.710 (se 0.152)
+Spearman of size and event rate per instance, per repository: median 0.07, range -0.22 to 0.47 (12 repos)
+frozen (no event in 10+ releases) median size 55 lines vs live 59 lines (Mann-Whitney p = 6.4e-01)
+
+function level (87671 function-releases): same size, same repository, a function that is a smell is edited with odds ratio 0.97 (95%% CI 0.76 to 1.24) against a non-smell function
+edit probability by size bin (non-smell | smell):
+         mean            size        
+smell       0      1        0       1
+bin                                  
+3-5     0.037  0.000  25294.0     5.0
+6-10    0.061    NaN  34423.0     NaN
+11-20   0.089  0.147  17608.0   401.0
+21-40   0.130  0.138   2937.0  2704.0
+41-80     NaN  0.203      NaN  2917.0
+81-160    NaN  0.249      NaN  1007.0
+>160      NaN  0.371      NaN   375.0
+
+enrichment (share of edits in debt / share of code in debt): pooled 0.59 (debt = 38.5% of code, receives 22.6% of edits); per repository median 0.38, range 0.00 to 1.99; below 1 in 129 of 148 repositories
+   Python median 0.38, C median nan
+
+==================================================================================================== 
+P5  THE RELEASE CLOCK
+====================================================================================================
+release pairs: 1630 ; mean event rate per instance-release 0.158
+by release step:
+       pairs   rate  churn_pct  days  commits
+step                                         
+minor   1630  0.158       2.22  51.5      2.0
+patch vs minor/major event rate: nan vs 0.158 (Mann-Whitney p = nan)
+within-repository correlation of the log release interest with the previous release: 0.02
+   within-repo correlation of log release interest with ldays_c: 0.34  (n=1482)
+   within-repo correlation of log release interest with lcommits_c: 0.55  (n=1482)
+   within-repo correlation of log release interest with lchurn_prev: 0.05  (n=1482)
+ICC of the event indicator: by instance 0.279, by release 0.166
+
+==================================================================================================== 
+P6  LIFE CYCLE OF A DEBT INSTANCE
+====================================================================================================
+instances introduced inside the window (346): event odds ratio per release of age 0.945 (95% CI 0.905 to 0.987), size controlled
+P(event) by age since introduction: {'0': np.float64(0.214), '1': np.float64(0.258), '2-3': np.float64(0.192), '4-6': np.float64(0.147), '7+': np.float64(0.162)}  n: {'0': np.int64(337), '1': np.int64(310), '2-3': np.int64(510), '4-6': np.int64(546), '7+': np.int64(666)}
+share of debt introduced inside the window still alive after 1, 3, 6, 12 releases (Kaplan-Meier): 0.97, 0.90, 0.83, 0.70
+
+debt introduced during a release pair (360 instances): in a function that already existed (grew past a threshold) 15%, in a new function 85%
+   complex_method: 238 introduced, 16% in an existing function, median size 40
+   long_method: 96 introduced, 18% in an existing function, median size 66
+   many_params: 26 introduced, 0% in an existing function, median size 11
+by smell kind:
+                 obs    rep     ev  size
+rule                                    
+complex_method  7004  0.041  0.163  49.0
+long_method     3402  0.039  0.208  74.0
+many_params      618  0.000  0.092  11.0
+repayment rate per instance-release: 0.038 overall; python 0.038, c nan
+share of debt functions that carry 2 or 3 smells (first release pair): 49%
+
+==================================================================================================== 
+P7  PATH OF WORK: DOES NEARBY RECENT ACTIVITY ADD TO SIZE AND HISTORY? (LEAVE ONE REPOSITORY OUT)
+====================================================================================================
+rows for the test: 10162 instance-releases, 147 repositories, 1765 events
+                              protocol            model   auc  cap20  cap30  cap50  groups
+              leave-one-repository-out             size 0.622   30.1   43.6   57.7     511
+              leave-one-repository-out          persist 0.730   48.5   62.5   76.3     511
+              leave-one-repository-out     persist_size 0.732   48.5   62.3   75.3     511
+              leave-one-repository-out       logit_base 0.786   48.9   63.3   79.3     511
+              leave-one-repository-out       logit_prox 0.785   49.1   63.7   79.3     511
+              leave-one-repository-out logit_prox_clock 0.785   49.1   63.7   79.3     511
+              leave-one-repository-out          gb_base 0.778   47.5   63.6   79.3     511
+              leave-one-repository-out    gb_prox_clock 0.777   46.7   62.2   79.0     511
+temporal (last 40% of each repository)             size 0.646   28.0   42.1   61.6     203
+temporal (last 40% of each repository)          persist 0.773   50.8   65.1   79.6     203
+temporal (last 40% of each repository)     persist_size 0.774   50.4   64.8   79.2     203
+temporal (last 40% of each repository)       logit_base 0.812   49.2   66.8   82.0     203
+temporal (last 40% of each repository)       logit_prox 0.812   49.4   66.2   81.8     203
+temporal (last 40% of each repository) logit_prox_clock 0.807   49.1   65.6   81.4     203
+temporal (last 40% of each repository)          gb_base 0.809   49.0   65.7   82.2     203
+temporal (last 40% of each repository)    gb_prox_clock 0.804   50.0   65.6   80.9     203
+
+paired differences of capture (percentage points, 95% bootstrap interval over groups):
+protocol                a            b  top  diff_pts    lo    hi  groups
+    LORO     persist_size      persist   20      -0.0  -1.2   1.3     511
+    LORO     persist_size      persist   30      -0.2  -1.8   1.5     511
+    LORO             size      persist   20     -18.4 -22.2 -14.5     511
+    LORO             size      persist   30     -18.9 -23.0 -14.7     511
+    LORO       logit_base persist_size   20       0.4  -2.0   2.7     511
+    LORO       logit_base persist_size   30       0.9  -1.3   3.2     511
+    LORO       logit_prox   logit_base   20       0.1  -0.4   0.6     511
+    LORO       logit_prox   logit_base   30       0.5   0.1   1.0     511
+    LORO logit_prox_clock   logit_prox   20       0.0  -0.1   0.1     511
+    LORO logit_prox_clock   logit_prox   30       0.0   0.0   0.0     511
+    LORO logit_prox_clock persist_size   20       0.5  -1.9   3.0     511
+    LORO logit_prox_clock persist_size   30       1.4  -0.8   3.6     511
+    LORO    gb_prox_clock      gb_base   20      -0.7  -2.3   0.8     511
+    LORO    gb_prox_clock      gb_base   30      -1.3  -2.9   0.2     511
+    LORO          gb_base persist_size   20      -1.0  -3.6   1.4     511
+    LORO          gb_base persist_size   30       1.3  -1.4   4.0     511
+temporal     persist_size      persist   20      -0.5  -1.8   0.6     203
+temporal     persist_size      persist   30      -0.4  -2.2   1.4     203
+temporal             size      persist   20     -22.9 -28.9 -17.2     203
+temporal             size      persist   30     -23.1 -29.7 -16.5     203
+temporal       logit_base persist_size   20      -1.2  -5.5   2.9     203
+temporal       logit_base persist_size   30       2.0  -1.8   5.5     203
+temporal       logit_prox   logit_base   20       0.2  -0.2   0.8     203
+temporal       logit_prox   logit_base   30      -0.5  -1.8   0.4     203
+temporal logit_prox_clock   logit_prox   20      -0.4  -1.5   0.4     203
+temporal logit_prox_clock   logit_prox   30      -0.6  -1.6   0.4     203
+temporal logit_prox_clock persist_size   20      -1.3  -5.7   2.8     203
+temporal logit_prox_clock persist_size   30       0.9  -3.1   4.6     203
+temporal    gb_prox_clock      gb_base   20       1.0  -1.0   3.2     203
+temporal    gb_prox_clock      gb_base   30      -0.0  -2.6   2.6     203
+temporal          gb_base persist_size   20      -1.4  -6.0   2.9     203
+temporal          gb_base persist_size   30       0.9  -3.1   5.0     203
+
+standardised logit coefficients (all repositories): {'lsize': np.float64(0.936), 'lccn': np.float64(-0.654), 'lpast_il': np.float64(0.214), 'lpast_n': np.float64(0.951), 'lage': np.float64(-0.721), 'is_py': np.float64(0.0), 'r_long_method': np.float64(-0.189), 'r_complex_method': np.float64(-0.2), 'f_file': np.float64(0.068), 'f_dir': np.float64(0.058), 'f_file_rel': np.float64(-0.057), 'f_repo': np.float64(-0.017)}
+   univariate AUC of f_file: 0.600
+   univariate AUC of f_dir: 0.547
+   univariate AUC of f_file_rel: 0.602
+   univariate AUC of f_repo: 0.557
+   univariate AUC of size 0.622 ; of interest paid so far 0.730
+
+==================================================================================================== 
+P8  SIZE AND COMPLEXITY OF REAL FUNCTIONS (GENERATOR PARAMETERS)
+====================================================================================================
+python: 8587 functions in the last release; nloc median 7, p90 18, p99 88; lognormal mu 1.86 sigma 0.88; smell share 6.5%; long 2.8% complex 5.9% params 0.7%; corr(nloc, ccn) 0.99
+share of code lines inside debt functions per repository: median 0.34, range 0.00 to 0.74
+code growth over the window: median x1.09; median churn per release pair (changed lines / code) 2.3%

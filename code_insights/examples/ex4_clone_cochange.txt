@@ -1,0 +1,24 @@
+===== A: jinja src/jinja2/parser.py parse_math1 (2.11.3 -> 3.0.0)  J=0.814
+>     def parse_math1(self):
+          lineno = self.stream.current.lineno
+          left = self.parse_concat()
+          while self.stream.current.type in ("add", "sub"):
+              cls = _math_nodes[self.stream.current.type]
+              next(self.stream)
+              right = self.parse_concat()
+              left = cls(left, right, lineno=lineno)
+              lineno = self.stream.current.lineno
+          return left
+
+===== B: jinja src/jinja2/parser.py parse_math2 (2.11.3 -> 3.0.0)  J=0.814
+>     def parse_math2(self):
+          lineno = self.stream.current.lineno
+          left = self.parse_pow()
+          while self.stream.current.type in ("mul", "div", "floordiv", "mod"):
+              cls = _math_nodes[self.stream.current.type]
+              next(self.stream)
+              right = self.parse_pow()
+              left = cls(left, right, lineno=lineno)
+              lineno = self.stream.current.lineno
+          return left
+

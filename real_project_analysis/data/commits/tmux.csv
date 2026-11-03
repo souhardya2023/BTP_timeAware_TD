@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+tmux,4a3176186e,2026-10-30,df292d51,"Clear tabs and wide characters cut by EL and ED, GitHub issue 5819 from Arkadiusz Miśkiewicz.",1,1,11,4,11,4,0,0,0,4,0,0,2,0,0,0,0,65,2,6,10,0,0,0,0,0
+tmux,f04b67a30f,2026-10-29,df292d51,"Add client_active_theme format, GitHub issue 5763.",4,3,59,16,50,14,0,0,0,4,1,0,1,0,1,0,0,51,2,18,39,0,0,0,0,0
+tmux,42271f0659,2026-10-29,df292d51,"Support OSC 9;9 to set pane path like OSC 7, GitHub issue 5806 from hrajyw4 at gmail dot com.",1,1,62,6,62,6,0,0,0,2,1,0,1,1,2,0,0,74,2,5,45,0,0,0,0,0
+tmux,a5ff0830b5,2026-10-29,77221af0,"Kitty image output path, mostly originally from Michael Grant.",15,8,1204,51,702,11,0,0,0,3,7,0,2,0,24,0,0,74,2,6,521,0,0,0,0,0
+tmux,5ce98fbe11,2026-10-29,df292d51,"Show mode content in display-panes and do not resize when a pane is chosen, GitHub issue 5812.",2,2,35,9,35,9,0,0,0,4,0,0,1,1,1,0,0,78,2,3,30,0,0,0,0,0
+tmux,585858852f,2026-10-28,df292d51,Reject \u and \U escapes that are not Unicode characters. GitHub issue 5804 from hrajyw4 at gmail do,2,1,15,8,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+tmux,47d89e1e7e,2026-10-27,df292d51,"Do not lose keys sent after a command prompt opens, instead of leaving them on the queue, offer them",5,5,134,34,134,34,0,0,0,7,0,0,4,0,4,0,0,189,4,25,100,0,0,0,0,0
+tmux,2e04a3fa65,2026-10-27,df292d51,"Separate side status keys from status line, from Michael Grant.",5,4,143,45,119,42,0,0,0,4,0,0,3,1,0,0,0,341,4,39,101,0,0,0,0,0
+tmux,4054188dc6,2026-10-27,df292d51,"Reset menu callback before firing to stop crash when killing window, GitHub issue 5810 from Rene Str",1,1,4,2,4,2,1,0,0,1,0,0,1,0,0,0,0,204,1,3,3,0,0,0,0,0
+tmux,83e1ba75b9,2026-10-27,df292d51,"Initialize before calling cfmakeraw, from Miles Conn.",1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,150,1,1,1,0,0,0,0,0
+tmux,f7ef88a100,2026-10-26,77221af0,Fix missing %s with images on.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,411,1,1,1,0,0,0,0,0
+tmux,ff0acc7dac,2026-10-26,df292d51,"Add a flag to keep the cursor column when moving lines in copy mode, from Michael Grant.",3,2,152,55,134,54,0,0,0,18,0,0,2,5,5,0,0,73,11,40,115,0,0,0,0,0
+tmux,1a383483f3,2026-10-26,df292d51,"Report 52 in DA if set-clipboard is enabled, from me at kitty dot sh.",1,1,11,12,11,12,0,0,0,1,0,0,1,0,0,0,0,410,1,10,10,0,0,0,0,0
+tmux,f295f6a5b1,2026-10-26,df292d51,"Add refresh-client -q to query terminal size, useful for terminals which do not respond to SIGWINCH ",6,5,113,34,107,31,0,0,0,7,0,0,2,1,4,0,0,150,5,28,88,0,0,0,0,0
+tmux,50f751b12d,2026-10-26,df292d51,"Do not use NULL pointer if there is an empty node, found by ossfuzz.",1,1,11,3,11,3,0,0,0,2,0,0,1,0,0,0,0,102,1,3,8,0,0,0,0,0
+tmux,f42b171f2f,2026-10-23,df292d51,"Take a reference to client when menu is opened in case it is closed, from someone in GitHub issue 58",1,1,5,2,5,2,0,0,0,2,0,0,0,0,0,0,0,48,0,0,4,0,0,0,0,0
+tmux,beeffaba37,2026-10-23,df292d51,"Do not show a status message on a client with no session, from someone in GitHub issue 5799.",1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,37,1,1,1,0,0,0,0,0
+tmux,af77c6fc1a,2026-10-23,77221af0,Common image bits that will be needed for Kitty output.,9,7,148,32,111,31,0,0,0,21,2,0,9,1,2,0,0,146,11,49,103,0,0,0,0,0
+tmux,dc9837f177,2026-10-23,df292d51,"Keep dead clients on a list so their queue can be flushed and they are not leaked, from someone in G",4,4,17,5,17,5,1,0,0,4,0,0,1,0,0,0,0,67,1,1,10,0,0,0,0,0
+tmux,8f79674b10,2026-10-23,df292d51,"Free ranges correctly if style is not terminated, GitHub issue 5795 from mail at luftaquila dot io.",1,1,9,5,9,5,0,0,0,1,0,0,1,0,0,0,0,353,1,8,8,0,0,0,0,0
+tmux,d34d16b4bd,2026-10-23,df292d51,"Change back to the original working directory if fork fails when spawning a pane, GitHub issue 5793 ",1,1,5,1,5,1,0,0,0,1,0,0,1,0,0,0,0,271,1,4,4,0,0,0,0,0
+tmux,d075ed22a0,2026-10-23,df292d51,Clear destination char when converting from wchar_t or the result could include stack garbage. GitHu,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+tmux,ecc43170f8,2026-10-22,df292d51,Fire window-layout-changed event when layout is changed by an option.,3,3,12,8,12,8,0,0,0,2,0,0,2,0,0,0,0,120,2,7,9,0,0,0,0,0
+tmux,2b12402120,2026-10-22,df292d51,"Apply timeout to window size queries as well, GitHub issue 5777.",3,3,14,11,14,11,0,0,0,5,0,0,1,0,0,0,0,150,3,4,11,0,0,0,0,0
+tmux,c95417e730,2026-10-21,df292d51,Get the pane's bufferevent when needed for replies rather than caching it and end up using it after ,4,4,26,16,26,16,0,0,0,7,0,0,0,0,1,0,0,26,0,0,18,0,0,0,0,0
+tmux,ccaf1acc36,2026-10-21,df292d51,"Apply palette to underscore colour before checking for change, same as foreground and background.",1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,101,1,3,3,0,0,0,0,0
+tmux,79b46093f8,2026-10-21,df292d51,"Fix status drag targeting across window labels, GitHub issue 5778 from Michael Grant.",1,1,11,8,11,8,1,0,0,2,0,0,1,1,0,0,0,302,2,7,7,0,0,0,0,0
+tmux,0b532697b3,2026-10-21,df292d51,"Keep a search match in the pane when it has fewer than four rows, from someone in GitHub issue 5781.",1,1,3,1,3,1,0,0,0,1,1,0,0,0,0,0,0,33,1,2,2,0,0,0,0,0
+tmux,474212fc11,2026-10-21,df292d51,"Have only one pane own shared corners so they are drawn with the active pane, GitHub issue 5784 from",1,1,23,3,23,3,0,0,0,1,0,0,1,0,0,0,0,58,1,14,14,0,0,0,0,0
+tmux,8b95395c78,2026-10-21,df292d51,"Extend REP limit to allow it to wrap on to the next line, GitHub issue 5780.",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,403,1,2,2,0,0,0,0,0
+tmux,b03b71fd4a,2026-10-20,df292d51,"Clear tabs and wide characters changed by ICH, DCH and ECH and insert mode, based on change in GitHu",2,2,71,83,71,83,0,0,0,5,0,0,1,0,1,1,0,154,1,19,57,0,0,0,0,0
+tmux,44d5fb5346,2026-10-20,df292d51,Add -P to display-panes to print the selected pane ID.,2,2,59,11,59,11,0,0,0,4,0,0,2,0,1,0,0,79,2,20,55,0,0,0,0,0
+tmux,3fbf213536,2026-10-20,df292d51,"Fix ^ in a group or after | in s/ format substitutions, GitHub issue 5775 from Azan Hyder.",1,1,7,13,7,13,0,0,0,1,0,0,0,0,0,0,0,42,0,0,5,0,0,0,0,0
+tmux,f2ae0579fc,2026-10-20,df292d51,"Add overline and sync for WezTerm, from Tom Dobson. Remove margins because it doesn't work in the la",1,1,6,5,6,5,0,0,0,1,0,0,1,0,0,0,0,129,1,5,5,0,0,0,1,0
+tmux,67d1c4dc5d,2026-10-20,df292d51,"Check for tiled child cells as well for select-layout -E, GitHub issue 5776 from Richard Dodson.",1,1,3,3,3,3,0,0,0,1,0,0,1,0,0,0,0,56,1,2,2,0,0,0,0,0
+tmux,d25b379e3e,2026-10-20,df292d51,"Add incremental regex search in copy mode, GitHub issue 5772 from Charlie Stanley.",3,2,84,62,57,60,0,0,0,3,1,2,1,0,3,0,0,333,3,11,55,0,0,0,0,0
+tmux,05151c0a31,2026-10-20,df292d51,Account for scrollbars in right/left functions.,1,1,25,13,25,13,0,0,0,2,0,0,0,0,0,0,0,14,0,0,22,0,0,0,0,0
+tmux,a550207d11,2026-10-19,77221af0,"Do something to fix something in systemd, reported by someone in GitHub issue 5741.",1,1,5,5,5,5,1,0,0,1,0,0,0,1,0,0,0,121,1,1,1,0,0,0,0,0
+tmux,26fcd3770d,2026-10-19,df292d51,"When a modal pane is open, process mouse input immediately. GitHub issue 5719.",1,1,16,6,16,6,0,0,0,2,0,0,2,0,0,0,0,306,2,15,15,0,0,0,0,0
+tmux,60dcdfe696,2026-10-19,df292d51,"Join a skin tone only to the emoji before it, it was originally incorrectly joined to the one after,",1,1,2,4,2,4,1,0,0,1,0,0,0,1,0,0,0,93,1,1,1,0,0,0,0,0
+tmux,e5f72a94ed,2026-10-17,df292d51,Report floating_flag correctly if pane is zoomed.,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+tmux,66a8ae0058,2026-10-17,77221af0,Add image limit options.,11,5,224,58,80,33,0,0,0,12,0,0,5,0,0,0,0,183,5,16,75,0,0,0,0,0
+tmux,92bc14e7f6,2026-10-17,77221af0,Kitty protocol query.,3,2,109,6,64,1,0,0,0,1,1,0,0,0,1,0,0,28,0,0,53,0,0,0,0,0
+tmux,6fbbd780fd,2026-10-16,df292d51,"Use session IDs instead of session names to handle empty names, GitHub issue 5759 from jsistsir at g",3,3,11,9,11,9,0,0,0,3,0,0,1,0,0,0,0,268,3,8,8,0,0,0,0,0
+tmux,49ea3a57a2,2026-10-16,df292d51,"Instead of overwriting wide characters manually when combining, use the normal cell write path. Fixe",1,1,57,34,57,34,1,0,0,2,1,1,1,0,1,0,0,95,2,22,44,0,0,0,0,0
+tmux,8a0a21a937,2026-10-16,df292d51,Always set the flag since we will never get a response.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+tmux,3c5a16d087,2026-10-16,df292d51,Add a key and flag for Kitty graphics.,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tmux,f6055cfa6f,2026-10-16,df292d51,Some minor tidying.,3,2,27,22,25,20,0,0,0,2,0,0,0,1,0,0,0,55,1,1,18,0,0,0,0,0
+tmux,98691297e1,2026-10-16,df292d51,"Clear stale pane references correctly when respawning windows, GitHub issue 5757 from Alejandro Pach",3,3,33,15,33,15,0,0,0,5,0,1,1,0,1,0,0,97,2,7,20,0,0,0,0,0
+tmux,cef0dd19a8,2026-10-16,df292d51,"Add a timeout for fuzzy matching, also some general tidying up.",1,1,183,138,183,138,0,0,0,13,0,4,4,0,1,0,0,118,8,132,173,0,0,0,0,0
+tmux,0908d3dccb,2026-10-16,df292d51,Don't bother working out width for fuzzy match without positions since it is not needed.,1,1,7,5,7,5,0,0,0,1,1,0,0,0,0,0,0,37,1,6,6,0,0,0,0,0
+tmux,4237434271,2026-10-16,77221af0,Kitty image input path.,29,13,3389,73,1598,55,0,0,0,34,10,0,8,1,37,2,0,72,11,58,1368,0,0,0,0,0
+tmux,6398970b2e,2026-10-16,df292d51,"Check the column when looking up search marks in case the cursor is past the last column, GitHub iss",1,1,32,11,32,11,0,0,0,3,1,0,1,0,1,0,0,75,2,10,24,0,0,0,0,0
+tmux,73e2683f6a,2026-10-16,df292d51,"Redraw the client after an OSC 11 background change, GitHub issue 5752 from Ilya Pozdnyakov.",1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+tmux,ca24dc178b,2026-10-16,77221af0,Add a limit on image count and size.,4,3,233,4,157,4,0,0,0,8,0,0,3,0,7,0,0,36,3,13,128,0,0,0,0,0
+tmux,00bddc8893,2026-10-16,94b6785e,tmux: remove redundant event_del()/evtimer_del(),4,4,4,10,4,10,0,0,0,6,0,0,0,2,0,0,0,304,2,0,0,0,0,0,1,0
+tmux,5965228c1f,2026-10-16,df292d51,"Like xterm, ignore DL and EL outside the scroll region, GitHub issue 5754.",1,1,6,58,6,58,0,0,0,2,0,2,0,0,0,0,0,28,2,5,5,0,0,0,0,0
+tmux,19ec0de3d7,2026-10-16,77221af0,Image side status bits.,1,1,7,4,7,4,0,0,0,4,0,0,3,0,0,0,0,145,4,7,7,0,0,0,0,0
+tmux,b53f389f07,2026-10-16,df292d51,"Fix -e flags in split-window and new-pane usages, from İhsan Deniz.",2,1,6,6,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+tmux,a7e8801089,2026-10-16,df292d51,"Add a vertical (side) status line, GitHub issue 5468 from John DeWyze.",20,19,1255,261,1214,259,0,0,0,43,9,0,15,4,23,0,0,331,23,135,985,0,0,0,0,0
+tmux,6eb906dbd5,2026-10-16,df292d51,"Fix -e flags in split-window and new-pane usages, from İhsan Deniz.",2,1,6,6,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+tmux,32069f8ced,2026-10-16,df292d51,"Add a vertical (side) status line, GitHub issue 5468 from John DeWyze.",20,19,1255,261,1214,259,0,0,0,43,9,0,15,4,23,0,0,331,23,135,985,0,0,0,0,0
+tmux,b5d46cb60d,2026-10-16,df292d51,Do not lose text after empty lists.,1,1,38,19,38,19,0,0,0,3,0,0,0,3,1,0,0,65,3,12,32,0,0,0,0,0
+tmux,7447c5f9ae,2026-10-16,df292d51,Correct pane offsets when clipping both sides.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tmux,7344f9e595,2026-10-16,df292d51,Do not include ignore-size clients in status line sizing.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,1,0,0
+tmux,786e738b74,2026-10-16,df292d51,Do not ignore lists with no alignment.,1,1,9,1,9,1,0,0,0,1,0,0,1,0,0,0,0,339,1,7,7,0,0,0,0,0
+tmux,330876a0a9,2026-10-16,df292d51,Use current window for opening menus from mouse so they do not appear to be hidden when opened from ,2,2,39,22,39,22,0,0,0,3,0,0,1,1,1,0,0,152,2,12,29,0,0,0,0,0
+tmux,4ab3dcac79,2026-10-15,df292d51,"Do not skip zoom on floating panes which can leave them inconsistent, GitHub issue 5747.",1,1,4,10,4,10,0,0,0,1,0,0,0,1,0,0,0,233,1,3,3,0,0,0,0,0
+tmux,b111fb23ff,2026-10-15,df292d51,Flip black and white colours for light mode.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tmux,173e6a9e05,2026-10-15,df292d51,"Memory leak fixes from someone in GitHub issues 5739, 5744, 5745, 5746.",4,4,13,6,13,6,1,0,0,4,0,0,3,0,0,0,0,249,4,9,9,0,0,0,0,0
+tmux,73d8f81c2c,2026-10-15,df292d51,"Add -f to switch-mode to read choices from a file, GitHub issue 5738.",4,3,163,13,141,11,0,0,0,6,3,0,3,0,3,0,0,124,5,34,127,0,0,0,0,0
+tmux,1fbadf9b41,2026-10-15,df292d51,"Set session for {current} target, GitHub issue 5742.",1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,268,1,1,1,0,0,0,0,0
+tmux,c67b537146,2026-10-15,df292d51,"Do not discard control state before a control client creates it, GitHub issue 5740 from Andre Popp.",1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,54,1,1,1,0,0,0,0,0
+tmux,610bf01351,2026-10-15,df292d51,"A few additional readonly checks, GitHub issue 5736 from gmkbenjamin at hotmail dot com.",5,5,49,11,49,11,0,0,0,5,0,0,4,0,0,0,0,124,4,36,39,0,0,0,0,0
+tmux,9ad0056ca9,2026-10-14,77221af0,Image storage and helper changes from the Kitty additions.,6,5,255,283,243,283,0,0,0,15,2,3,3,4,6,5,0,96,10,78,205,0,0,0,0,0
+tmux,cf8c6ec235,2026-10-14,df292d51,Tidy up APC function.,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+tmux,03c11da53d,2026-10-14,77221af0,A couple of missed tests.,3,1,32,10,4,2,0,0,0,1,0,0,1,0,0,0,0,66,1,4,4,0,0,0,1,0
+tmux,a37b40001c,2026-10-14,df292d51,"Do not set zero bits, and add imagescroll feature to kitty and ghostty.",2,2,6,3,6,3,0,0,0,2,0,0,1,0,0,0,0,128,1,2,4,0,0,0,0,0
+tmux,9ba088bbe8,2026-10-14,df292d51,Update sizes when we get a WINSZ response.,2,2,4,3,4,3,0,0,0,2,0,0,1,0,0,0,0,53,1,1,2,0,0,0,0,0
+tmux,5213cbf644,2026-10-14,77221af0,Add SIXEL cache.,2,1,252,3,174,3,0,0,0,1,1,0,1,0,6,0,0,16,1,6,146,0,0,0,0,0
+tmux,77449c0e5c,2026-10-14,77221af0,Remove some code that will not be needed.,3,3,15,61,15,61,0,0,0,4,0,0,0,4,0,1,0,94,4,7,12,0,0,0,1,0
+tmux,3a2b9ae5be,2026-10-14,77221af0,Do not set zero bits and add features.,3,3,8,1,8,1,0,0,0,3,0,0,1,0,0,0,0,128,1,2,7,0,0,0,0,0
+tmux,6dfed2fec0,2026-10-14,df292d51,Add a temporary var.,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,34,0,0,3,0,0,0,0,0
+tmux,e69cdbefef,2026-10-14,df292d51,Track window scrolling for damage.,3,3,53,3,53,3,0,0,0,5,0,0,4,0,2,0,0,32,4,8,44,0,0,0,0,0
+tmux,d1a68c1347,2026-10-14,df292d51,Add flags to damage struct.,1,1,18,4,18,4,0,0,0,2,1,1,0,0,1,0,0,32,1,4,14,0,0,0,0,0
+tmux,ff12520ec0,2026-10-14,df292d51,Add imagescroll feature and capability.,5,4,32,12,26,10,0,0,0,1,0,0,1,0,0,0,0,126,1,1,20,0,0,0,0,0
+tmux,fbde17083d,2026-10-14,df292d51,Only redraw when a feature changed.,1,1,10,10,10,10,0,0,0,1,0,0,0,0,0,0,0,21,0,0,9,0,0,0,0,0
+tmux,06262fbb48,2026-10-14,df292d51,Add a temporary var.,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,34,0,0,3,0,0,0,0,0
+tmux,3e6c6576ab,2026-10-14,df292d51,Track window scrolling for damage.,3,3,53,3,53,3,0,0,0,5,0,0,4,0,2,0,0,32,4,8,44,0,0,0,0,0
+tmux,abbe04fb74,2026-10-14,df292d51,Add flags to damage struct.,1,1,18,4,18,4,0,0,0,2,1,1,0,0,1,0,0,32,1,4,14,0,0,0,0,0
+tmux,3ba4fb32cf,2026-10-14,df292d51,Add imagescroll feature and capability.,5,4,32,12,26,10,0,0,0,1,0,0,1,0,0,0,0,126,1,1,20,0,0,0,0,0
+tmux,6b26f0abc0,2026-10-14,df292d51,Only redraw when a feature changed.,1,1,9,9,9,9,0,0,0,1,0,0,0,0,0,0,0,20,0,0,8,0,0,0,0,0
+tmux,e40cbf4ee8,2026-10-14,77221af0,Update sizes on WINSZ.,2,1,21,2,1,0,0,0,0,1,0,0,1,0,0,0,0,53,1,1,1,0,0,0,0,0
+tmux,d4d065c76c,2026-10-14,77221af0,Use imagescroll feature.,11,7,265,9,191,9,0,0,0,3,2,0,1,0,10,0,0,64,2,15,162,0,0,0,0,0
+tmux,d78914317c,2026-10-14,77221af0,Track window scrolling for damage.,3,3,50,0,50,0,0,0,0,5,0,0,4,0,2,0,0,32,4,8,44,0,0,0,0,0
+tmux,cae2f4319e,2026-10-14,77221af0,Add flags to damage struct.,1,1,17,3,17,3,0,0,0,2,1,1,0,0,1,0,0,32,1,4,14,0,0,0,0,0
+tmux,954ad1df9d,2026-10-14,77221af0,Add imagescroll feature and capability.,5,4,26,6,22,6,0,0,0,1,0,0,1,0,0,0,0,126,1,1,20,0,0,0,0,0
+tmux,93e55bb86d,2026-10-14,df292d51,Do redraw as two phases for text and images.,2,2,133,86,133,86,0,0,0,5,3,1,1,0,1,0,0,66,4,87,121,0,0,0,0,0
+tmux,69cffb88b6,2026-10-14,77221af0,Only redraw when features changed.,1,1,10,9,10,9,0,0,0,1,0,0,0,0,0,0,0,22,0,0,10,0,0,0,0,0
+tmux,1de5f662cb,2026-10-14,77221af0,Image regress tests.,29,3,2014,13,188,4,0,0,0,1,3,0,0,1,7,0,0,58,1,1,178,0,0,0,0,0
+tmux,a5d7247602,2026-10-14,df292d51,Redraw when pixel sizes change.,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tmux,126dea8828,2026-10-14,df292d51,Redraw when pixel sizes change.,3,3,15,7,15,7,0,0,0,2,0,0,1,0,0,0,0,52,1,4,12,0,0,0,0,0
+tmux,1e294b175f,2026-10-14,77221af0,SIXEL draw bits.,4,4,141,2,141,2,0,0,0,6,3,0,4,0,3,0,0,188,5,62,129,0,0,0,0,0
+tmux,464f404b85,2026-10-14,77221af0,Two phases for redraw.,2,2,131,84,131,84,0,0,0,5,3,1,1,0,1,0,0,66,4,87,121,0,0,0,0,0
+tmux,5ad552a55c,2026-10-14,77221af0,Put #error back.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,d68e56f130,2026-10-14,77221af0,Some of SIXEL output path.,7,7,307,9,307,9,0,0,0,6,0,0,2,0,12,0,0,52,2,9,241,0,0,0,0,0
+tmux,8add11f40a,2026-10-14,77221af0,SIXEL from image code.,2,2,707,9,707,9,0,0,0,1,9,0,0,0,14,0,0,27,0,0,572,0,0,0,0,0
+tmux,61b695097e,2026-10-14,df292d51,Fix some long lines.,1,1,13,12,13,12,1,0,0,4,0,0,1,0,0,0,0,80,3,6,9,0,0,0,0,0
+tmux,b85e4988b5,2026-10-14,2a686c2f,retry reading session keyring if it grows,1,1,8,8,8,8,0,0,0,1,0,0,0,0,0,0,0,34,0,0,7,0,0,0,0,0
+tmux,e33c83c6ba,2026-10-14,df292d51,Restructure a little bit of code.,1,1,5,6,5,6,0,0,0,1,0,0,0,1,0,0,0,180,1,4,4,0,0,0,0,0
+tmux,f0a2ed3001,2026-10-14,77221af0,Fix some errors from merge.,4,4,131,35,131,35,1,0,0,9,1,0,3,0,3,0,0,92,5,18,117,0,0,0,0,0
+tmux,17ecceb153,2026-10-14,77221af0,Image resizing code.,3,3,93,0,93,0,0,0,0,5,2,0,3,0,2,0,0,60,3,8,81,0,0,0,0,0
+tmux,e501ea12c7,2026-10-14,77221af0,Images and copy mode.,3,3,129,0,129,0,0,0,0,7,1,0,4,0,3,0,0,88,4,31,116,0,0,0,0,0
+tmux,c53fd94ffd,2026-10-14,77221af0,Fallback image drawing.,6,5,234,14,229,13,0,0,0,3,4,0,1,0,4,0,0,188,3,22,167,0,0,0,0,0
+tmux,fbbecde236,2026-10-13,77221af0,SIXEL image placement.,4,4,157,6,157,6,0,0,1,2,2,0,0,0,4,0,0,36,0,0,125,0,0,0,0,0
+tmux,6cebf96d9c,2026-10-13,77221af0,SIXEL to image conversion.,4,4,162,304,162,304,0,1,0,6,1,3,1,2,4,6,0,69,4,25,113,0,0,0,0,0
+tmux,2c64f131a9,2026-10-13,77221af0,Some more image redraw bits.,4,4,202,2,202,2,0,0,0,21,2,0,7,0,5,0,0,140,8,34,161,0,0,0,0,0
+tmux,baf8960837,2026-10-13,df292d51,"Add format variables for the cmdline property to OSC 133, GitHub issue 5711.",6,5,76,8,72,6,0,0,0,3,1,0,1,0,2,0,0,71,1,2,60,0,0,0,0,0
+tmux,9026b1d197,2026-10-13,df292d51,"Complete layout names and options again, GitHub issue 5731 from intertermux at gmail dot com.",1,1,31,11,31,11,0,0,0,2,1,0,0,1,0,0,0,53,2,30,30,0,0,0,0,0
+tmux,e2eb6b7d87,2026-10-13,df292d51,Add a flag to mark screen_write_ctx as coming from pane input and change a function argument.,3,3,15,10,15,10,0,0,0,6,0,0,1,0,0,0,0,51,2,4,12,0,0,0,0,0
+tmux,0985de0bc6,2026-10-13,df292d51,"For tree mode, hold a reference to prompt and other bits across command to avoid crashing when killi",2,2,25,22,25,22,1,0,0,9,0,0,2,1,0,0,0,305,3,8,20,0,0,0,0,0
+tmux,cef1b2f5dc,2026-10-12,2a686c2f,don't revoke + fork session,4,3,54,39,39,24,0,0,0,1,0,0,0,1,1,2,0,72,1,1,31,0,0,0,0,0
+tmux,7d01314422,2026-10-12,df292d51,Shorten some long lines.,1,1,6,5,6,5,0,0,0,1,0,0,1,0,0,0,0,78,1,5,5,0,0,0,0,0
+tmux,d913cf5723,2026-10-12,df292d51,Use grid_free_line when freeing reflow lines.,1,1,2,3,2,3,0,0,0,1,0,0,0,1,0,0,0,75,1,1,1,0,0,0,0,0
+tmux,e9fffcc7e9,2026-10-12,77221af0,Image grid infrastructure.,11,10,772,584,770,583,0,0,0,33,7,6,4,8,29,12,0,114,17,17,591,0,0,0,0,0
+tmux,d8aa888732,2026-10-12,df292d51,Reset background colour before clearing to end of line.,1,1,5,1,5,1,0,0,0,1,0,0,1,0,0,0,0,181,1,2,2,0,0,0,0,0
+tmux,77f39c9df9,2026-10-12,77221af0,Remove check code for tracking down what turned out to be a Apple bug.,4,4,4,56,4,56,1,0,0,5,0,0,0,0,0,2,0,275,1,1,4,0,0,0,1,0
+tmux,89e2015fb2,2026-10-12,df292d51,Preserve pixel sizes with manual sizing.,1,1,24,4,24,4,0,0,0,2,0,0,2,0,0,0,0,107,2,19,19,0,0,0,0,0
+tmux,b865fe844d,2026-10-12,df292d51,Add kittygraphics terminal feature.,4,3,26,12,23,11,0,0,0,1,0,0,1,0,0,0,0,125,1,4,18,0,0,0,0,0
+tmux,4d2e4e52e8,2026-10-12,df292d51,Add Kitty feature detection and sixel to WezTerm.,2,2,16,2,16,2,0,0,0,2,0,0,2,0,0,0,0,123,2,14,14,0,0,0,0,0
+tmux,7fe3e928dd,2026-10-12,df292d51,Add image_support to replace sixel_support variable.,2,1,10,7,7,4,0,0,0,0,0,0,0,0,1,1,0,0,0,0,5,0,0,0,0,0
+tmux,4caff240c8,2026-10-12,df292d51,"Fail an integer format expression with a NaN or out-of-range value, from someone in GitHub issue 572",1,1,22,8,22,8,0,0,0,1,0,0,1,0,1,0,0,132,1,10,17,0,0,0,0,0
+tmux,7a2ea39a3e,2026-10-12,df292d51,"Keep the row RM 1049 restores inside the saved grid, from someone in GitHub issue 5724.",1,1,5,1,5,1,0,0,0,1,0,0,1,0,0,0,0,33,1,2,2,0,0,0,0,0
+tmux,ddddd25d70,2026-10-12,df292d51,"Ignore a resize from a client whose tty is closed, from someone in GitHub issue 5723.",1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,102,1,1,1,0,0,0,0,0
+tmux,5bfa83d1fa,2026-10-12,df292d51,"Do not use a dead pane when redrawing a menu, from someone in GitHub issue 5722.",1,1,11,2,11,2,0,0,0,1,0,0,0,0,0,0,0,47,0,0,9,0,0,0,0,0
+tmux,fcb9ac2b2b,2026-10-12,77221af0,Reject invalid and out of range numbers.,1,1,44,7,44,7,0,0,0,2,0,0,2,0,1,0,0,71,2,28,41,0,0,0,0,0
+tmux,40a1901bad,2026-10-12,77221af0,Change --enable-sixel to --enable-images (the former stays as an alias).,9,7,64,55,45,45,0,0,0,28,0,0,0,0,0,0,0,402,14,16,45,0,0,0,0,0
+tmux,801703a3ac,2026-10-12,df292d51,"Respect the ncv capability and do not combine attributes and colours that will not work, reported by",3,3,34,3,34,3,0,0,0,1,1,0,1,0,1,0,0,98,1,1,28,0,0,0,0,0
+tmux,8ba04e721c,2026-10-12,df292d51,"Clear implied Meta when discarding BackTab modifiers, GitHub issue 5730 from Joan Fabrégat.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,94,1,1,1,0,0,0,0,0
+tmux,ef52b9e1cb,2026-10-12,df292d51,"Do not treat compact padding cells as width 1, make them width 0. GitHub issue 5718 from dustgle at ",1,1,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,37,0,0,4,0,0,0,0,0
+tmux,12c93f50f0,2026-10-12,df292d51,"Do not reuse old session group names when a new session is the same as its original session, GitHub ",1,1,14,8,14,8,0,0,0,1,0,0,1,0,0,0,0,266,1,13,13,0,0,0,0,0
+tmux,a88e7de22d,2026-10-12,2a686c2f,add copyright header,1,1,16,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+tmux,90cc41de32,2026-10-12,2a686c2f,Replace the session-keyring option with a configure option,8,5,34,60,9,17,0,0,0,2,0,0,1,0,2,2,0,73,1,4,8,0,0,0,0,0
+tmux,bba451c959,2026-10-12,2a686c2f,Give the server its own session keyring on Linux,8,5,83,0,63,0,0,0,0,2,0,0,1,0,2,0,0,72,1,3,48,0,0,0,0,0
+tmux,f510adb754,2026-10-09,df292d51,"Add a one line description text to each command, originally from someone in GitHub issue 5438.",64,63,223,83,213,81,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+tmux,ea6891fb8a,2026-10-09,f1fcbb08,Fix off-by-one buffer growth in sixel_print_add,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+tmux,b7fd92b782,2026-10-09,77221af0,"Add a utmp option if built with utempter, GitHub issue 5657 from Damian Nowak.",7,6,81,17,64,17,0,0,0,4,0,0,1,2,4,0,0,275,3,11,60,0,0,0,0,0
+tmux,c9c6a8f2ba,2026-10-09,df292d51,"Clear session when freeing client, GitHub issue 5712 from Jeong, Heon.",1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,65,1,2,2,0,0,0,0,0
+tmux,a0a0e12234,2026-10-08,df292d51,"Add commands to copy mode to select, pipe and open OSC 133 command output, from Michael Grant.",10,9,744,54,676,52,0,0,0,13,5,0,6,3,17,0,0,329,11,46,556,0,0,0,0,0
+tmux,cb44afd415,2026-10-08,df292d51,"Fix bugs with empty panes and load-buffer -w, GitHub issue 5701 from Alexandre Fiori.",3,3,10,6,10,6,1,0,0,3,0,0,1,0,0,0,0,267,2,3,6,0,0,0,0,0
+tmux,f7195bec82,2026-10-07,df292d51,"Add sort order flags to switch-mode, GitHub issue 5696 from harikp2002 at gmail dot com.",3,2,34,8,22,6,0,0,0,2,1,0,0,0,0,0,0,60,1,11,19,0,0,0,0,0
+tmux,ddd0698e30,2026-10-07,df292d51,"Show match count in copy mode, GitHub issue 5399.",3,2,113,20,110,19,0,0,0,9,0,0,3,2,2,0,0,139,5,38,103,0,0,0,0,0
+tmux,d041d56bb2,2026-10-07,df292d51,"Add window-default-command option to override default-command per window, from Meriel Sartha Mittelb",3,2,22,5,13,3,0,0,0,1,0,0,1,0,0,0,0,265,1,3,10,0,0,0,0,0
+tmux,e63e2df764,2026-10-07,df292d51,Do not change active pane if joining a pane to the same window. Reported by David le Blanc.,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,104,1,2,2,0,0,0,0,0
+tmux,37b1631e57,2026-10-07,df292d51,"Fix tty_clamp_area with status lines at the top and a smaller client, GitHub issue 5697 from Yasuhir",1,1,10,6,10,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tmux,61581458a4,2026-10-06,df292d51,"Parse terminal replies with keys and apply them only when finished, so that a preceding Escape can b",2,2,297,246,297,246,0,0,0,11,0,0,9,2,3,0,0,150,11,124,227,1,0,0,0,0
+tmux,b4f7b85e86,2026-10-06,df292d51,"Do not allow drags started on status line to trigger pane key bindings, GitHub issue 5692.",2,2,21,6,21,6,0,0,0,1,0,0,1,0,0,0,0,357,1,15,16,0,0,0,0,0
+tmux,50160131a8,2026-10-06,df292d51,Fix redraw and selection position when changing selection mode.,1,1,72,66,72,66,1,0,0,3,0,0,1,0,0,0,0,80,1,60,65,0,0,0,0,0
+tmux,a1d25b2816,2026-10-06,df292d51,"Redraw selections after scrolling to line boundaries, GitHub issue 5689 from bugreporter23 at gmail ",1,1,7,4,7,4,1,0,0,2,0,0,2,0,0,0,0,25,2,6,6,0,0,0,0,0
+tmux,4d2494dfee,2026-10-05,df292d51,"Fix mouse drag selection on the top and bottom lines in vi mode, GitHub issue 5667 from David Schwei",1,1,7,3,7,3,1,0,0,2,0,0,2,0,0,0,0,73,2,4,4,0,0,0,0,0
+tmux,38b4813f48,2026-10-05,df292d51,Check format time in format_skip1 before the loop as well.,1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,26,1,2,2,0,0,0,0,0
+tmux,bd4a63ab34,2026-10-05,df292d51,"Use window-status-separator in second and theird status lines, GitHub issue 5672. Also match width o",1,1,9,5,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+tmux,0e701cbe92,2026-10-05,df292d51,"Fix color range check, from Vaibhav Aggarwal.",1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,25,1,1,1,0,0,0,0,0
+tmux,3f5d054005,2026-10-05,df292d51,"Do not lose a pending pane resize when entering the alternate screen, from mml00 dot work at gmail d",1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+tmux,a1fd084d19,2026-10-05,df292d51,"Adjust widths of a few codepoints incorrectly set to double width, from Sidney Cammeresi.",2,2,8,6,8,6,0,0,0,1,0,0,1,0,0,0,0,99,1,6,6,0,0,0,0,0
+tmux,2b5b538152,2026-10-05,77221af0,"Add JEMALLOC_MANGLE to get mallctl on jemalloc 5.4.0, GitHub issue 5678.",1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,14d546fec3,2026-10-05,77221af0,"Do not close standard input when the server is socket activated, from Alexandre Fiori.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,152,1,1,1,0,0,0,0,0
+tmux,f8c7f64a3a,2026-10-05,77221af0,"Do not replace the socket of a socket activated server on SIGUSR1, from Alexandre Fiori.",1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,30,0,0,4,0,0,0,0,0
+tmux,a21247a508,2026-10-02,df292d51,"Include menus when working out what parts of a pane are visible to avoid overwriting them, GitHub is",2,2,106,96,106,96,0,0,0,4,1,0,2,1,1,0,0,139,4,63,93,0,0,1,0,0
+tmux,aed667218b,2026-10-02,df292d51,"Modify display-message -c target-client to use the data relative to target-client, GitHub issue 5613",1,1,4,6,4,6,0,0,0,1,0,0,1,0,0,0,0,101,1,1,1,0,0,0,0,0
+tmux,47c789a097,2026-10-02,df292d51,"Quote session_alert in status-format[2], GitHub issue 5671.",1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tmux,dfcb588029,2026-10-02,df292d51,"Only skip collecting text except for right margin when autowrap is off, from Jang-Ho Hwang.",1,1,7,2,7,2,0,0,0,1,0,0,1,0,0,0,0,42,1,2,2,0,0,0,0,0
+tmux,a8523db838,2026-10-02,df292d51,"Change to the new working directory even if getcwd fails, GitHub issue 5658.",1,1,9,9,9,9,0,0,0,1,0,0,0,0,0,0,0,263,1,8,8,0,0,0,0,0
+tmux,556235fbe2,2026-10-02,df292d51,Sync redraw should use the given rows not the scroll region now.,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+tmux,0a1adfa116,2026-10-02,df292d51,"Instead of redrawing the entire pane or scene when moving or redrawing a pane, add damage rectangles",12,12,451,59,451,59,0,0,0,25,2,0,8,1,11,0,0,193,10,40,352,0,0,0,0,0
+tmux,950a7f6631,2026-10-02,df292d51,"Do not leak client if lost before configuration is loaded, and do not load multiple times. GitHub is",3,3,31,7,31,7,1,0,0,4,0,0,0,1,1,0,0,63,1,1,23,0,0,0,0,0
+tmux,a511a7ab55,2026-10-02,df292d51,"Restore the zoom when swap-pane refuses a floating pane, GitHub issue 5660 from Alexandre Fiori.",1,1,8,3,8,3,0,0,0,1,0,0,1,0,0,0,0,133,1,6,6,0,0,0,0,0
+tmux,5932140d30,2026-10-02,df292d51,"Do not use client for copy-mode -S if NULL, reported by Martin Vlach.",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,54,1,2,2,0,0,0,0,0
+tmux,4a98a9dea8,2026-09-29,df292d51,"Add NULL checks for clients that may not have identified yet, GitHub issue 5663.",1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+tmux,c34432980f,2026-09-29,df292d51,"Do not format times that localtime_r and ctime_r cannot convert, from Alexandre Fiori.",1,1,7,5,7,5,0,0,0,2,0,0,2,0,0,0,0,131,2,6,6,0,0,0,0,0
+tmux,1bb90bdd62,2026-09-29,df292d51,Add a maximum repeat size as well as count.,1,1,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,629,1,1,2,0,0,0,0,0
+tmux,95aaa6cc2a,2026-09-28,df292d51,Do not try to decode UTF-8 if it is too long to match the pattern.,1,1,21,10,21,10,0,0,0,3,0,0,2,0,0,0,0,108,2,7,16,0,0,0,0,0
+tmux,389908d001,2026-09-28,df292d51,Do not allocate for repeat inside loop but allocate up front and just copy in the loop.,1,1,15,17,15,17,0,0,0,1,0,0,1,0,0,0,0,629,1,13,13,0,0,0,0,0
+tmux,5fbfaca6a8,2026-09-28,df292d51,Copy all #s at once when multiple are seen before [ rather than only copying one at a time which can,1,1,14,1,14,1,0,0,0,1,0,0,1,0,0,0,0,159,1,13,13,0,0,0,0,0
+tmux,c4eb4ab5df,2026-09-28,df292d51,Check time every iteration for expensive repeat loop.,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,631,1,2,2,0,0,0,0,0
+tmux,6a5745c771,2026-09-28,77221af0,Some more crazy stuff to make systemd OOM work properly (stop it killing entire process groups insea,1,1,106,64,106,64,0,0,0,1,1,0,0,1,1,0,0,92,1,39,87,0,0,0,0,0
+tmux,5e5e15f6c7,2026-09-28,df292d51,Use mode screen for cursor not base which may be wrong during synchronized updates. GitHub issue 564,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,114,1,1,1,0,1,0,0,0
+tmux,db3950ed07,2026-09-28,df292d51,"Do not use subtraction for comparators, this doesn't really matter for IDs but it breaks key sorting",3,3,50,26,50,26,0,0,0,10,0,0,0,1,1,0,0,52,6,17,46,0,0,0,0,0
+tmux,a16e62849d,2026-09-28,df292d51,"Fix dragging a floating pane by its top border over a tiled pane's status line, GitHub issue 5645 fr",1,1,11,1,11,1,1,0,0,1,0,0,1,0,0,0,0,60,1,5,5,0,0,0,0,0
+tmux,bbecdc802f,2026-09-28,df292d51,"Fix floating panes not being detected as obscuring the pane behind them, GitHub issue 5641 from Mich",3,3,34,12,34,12,1,0,0,1,0,1,0,0,1,0,0,26,1,1,22,0,0,0,0,0
+tmux,884101263e,2026-09-28,df292d51,"Exit 128 + SIGHUP like popups did if waiting for a pane that was killed, from Alexandre Fiori.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+tmux,86af3c8167,2026-09-28,df292d51,"Add a second comparison for key bindings to avoid ties, GitHub issue 5647 from Alexandre Fiori.",1,1,9,3,9,3,0,0,0,1,0,0,1,0,0,0,0,37,1,8,8,0,0,0,0,0
+tmux,abb1c79886,2026-09-28,df292d51,"Bounds check size and offsets for v1 layouts, found by ossfuzz.",1,1,7,2,7,2,0,0,0,1,0,0,1,0,0,0,0,47,1,6,6,1,0,0,0,0
+tmux,11a0799925,2026-09-25,df292d51,Tighten up TMUX_TMPDIR - do not allow relative paths or .. or if realpath fails. From Alexandre Fior,2,1,55,10,50,8,0,0,0,1,1,0,0,0,1,0,0,60,1,21,42,0,0,0,0,0
+tmux,7a816f90e7,2026-09-25,df292d51,"Discard keys if there is no session, fixes crash reported by Artyom Pertsovsky.",1,1,11,1,11,1,1,0,0,1,0,0,1,0,0,0,0,242,1,8,8,0,0,0,0,0
+tmux,d87bd430b9,2026-09-25,df292d51,Fix some indentation.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,41,0,0,2,0,0,0,0,0
+tmux,f9eb405921,2026-09-25,df292d51,Do not overflow window indexes at INT_MAX in new-window -a and renumber-windows. GitHub issue 5637 f,2,2,14,6,14,6,1,0,0,2,0,0,0,0,0,0,0,45,0,0,8,1,0,0,0,0
+tmux,4ae837de68,2026-09-25,df292d51,"Keep the scroll position in tree mode when the list is rebuilt, GitHub issue 5631 from Kim A Brandt.",1,1,18,13,18,13,0,0,0,3,0,0,0,0,0,0,0,31,0,0,12,0,0,0,0,0
+tmux,7fc7f1bf69,2026-09-24,df292d51,"As well as tracking modified (dirty) lines during a synchronized update, also track scrolled lines. ",4,4,164,37,164,37,0,0,0,6,1,1,0,1,6,2,0,112,3,5,137,0,1,0,0,0
+tmux,aa4123ab58,2026-09-24,df292d51,"Add margins for WezTerm and ghostty, from Michael Grant.",1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,111,1,3,3,0,0,0,0,0
+tmux,183c3432b0,2026-09-22,df292d51,"Get x and y the right way round, fixes crash when opening a mode prompt when the client is offset in",1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,48,1,1,1,0,0,0,0,0
+tmux,e7618f41c2,2026-09-22,df292d51,Some terminals have extended DECSCUSR to allow it to reset to the default style and put that as the ,3,3,14,9,14,9,0,0,0,3,0,0,1,0,0,0,0,72,2,6,11,0,0,0,0,0
+tmux,83f62d0acc,2026-09-22,df292d51,Add a feature for mintty's application escape to avoid dodgy terminals whinging about not supporting,5,4,31,10,24,8,0,0,0,3,0,0,1,1,0,0,0,109,2,2,18,1,0,0,0,0
+tmux,19b7660778,2026-09-22,df292d51,"Only rely on the previous line wrapping when the cursor is actually on it, GitHub issue 5625 from Be",1,1,7,2,7,2,0,0,0,1,0,0,1,0,0,0,0,179,1,6,6,0,0,0,0,0
+tmux,4624bc2129,2026-09-22,df292d51,"Correctly write Z indexes to v2 layouts if zoomed, GitHub issue 5624.",1,1,37,5,37,5,0,0,0,1,0,0,1,0,1,0,0,53,1,5,33,0,0,0,0,0
+tmux,0e1f6ed80d,2026-09-22,df292d51,"Do not leak waiting clients (in wait-for) if they are killed, GitHub issue 5614.",4,4,45,4,45,4,1,0,0,2,0,0,2,0,1,0,0,79,2,4,36,0,0,0,0,0
+tmux,ca5c28d224,2026-09-21,df292d51,Do not cancel mark when click on border.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,325,1,1,1,0,0,0,0,0
+tmux,21b3da3bab,2026-09-21,df292d51,"Do not do anything in session_detach and rely on the caller destroying the session, otherwise groupe",3,3,15,10,15,10,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+tmux,dda0e4d489,2026-09-21,df292d51,"Add support for borderless menus, like panes. GitHub issue 5447 from harikp2002 at gmail dot com.",5,5,77,47,77,47,0,0,0,11,0,0,4,1,1,0,0,202,5,34,61,0,0,0,0,0
+tmux,e361b8f8ff,2026-09-21,df292d51,"Do not trim all lines to make a zero line grid which reflow does not like, from Kaixuan Li.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,48,0,0,1,0,0,0,0,0
+tmux,9be3a35178,2026-09-21,df292d51,"Do not unzoom when resizing a floating pane that was created with -A. Similarly, skip hidden floatin",4,4,32,9,32,9,0,0,0,4,0,0,2,1,1,0,0,131,3,12,26,0,0,0,0,0
+tmux,34cd5da4e3,2026-09-21,df292d51,Remove popups and all the associated overlay machinery (they were the last user of it). display-popu,15,13,304,1661,272,1491,0,0,0,38,0,10,1,18,1,24,0,187,22,198,239,0,0,0,1,0
+tmux,3d5f946f35,2026-09-21,df292d51,"Fix typo (too few 0s) in CLIENT_CONTROL_DISCARD, from someone in GitHub issue 5622.",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,eee95e6479,2026-09-20,df292d51,"If no floating panes, reset default starting position, and reset if any part of the pane goes outsid",1,1,16,4,16,4,0,0,0,1,0,0,1,0,0,0,0,100,1,15,15,0,0,0,0,0
+tmux,bbd00148de,2026-09-20,df292d51,"Empty string for invalid old-style formats causes old iTerm2 versions to crash, so emit ""0000,"" inst",1,1,17,15,17,15,0,0,0,1,0,0,0,0,0,0,0,23,0,0,15,0,0,0,0,0
+tmux,2e9189c01d,2026-09-20,df292d51,Fix session_*_flag format variables which loop over the windows (they should only be false if all wi,1,1,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+tmux,d4dc032599,2026-09-20,df292d51,"Do not loop forever if someone tries to give WCHAR_MAX a width, GitHub issue 5602.",1,1,7,2,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tmux,d1d07f9790,2026-09-20,df292d51,"Expand -c for run-shell like the other -c flags, reported by Saúl Nogueras.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,74,1,1,1,0,0,0,0,0
+tmux,b25af0a08c,2026-09-20,df292d51,Reset layout manually instead of calling window_unzoom which can go down the notification path and e,1,1,10,2,10,2,1,0,0,1,0,0,0,0,0,0,0,27,0,0,8,1,0,0,0,0
+tmux,325b40e8c4,2026-09-11,df292d51,Add rounded borders option for panes like popups.,4,3,15,7,11,5,0,0,0,1,1,0,0,0,0,0,0,44,1,4,8,0,0,0,0,0
+tmux,f8fc53b6f8,2026-09-11,df292d51,"Rather than allowing floating panes to remain outside the window and invisible after resize, move th",1,1,49,2,49,2,0,0,0,1,1,0,1,0,1,0,0,37,1,5,43,0,0,0,1,0
+tmux,d202aa7ac1,2026-09-10,df292d51,Add remain-on-exit failed-key and a -D flag to new-pane to have a modal pane wait for Escape/C-c. Bo,6,5,48,21,33,17,0,0,0,4,0,0,3,0,0,0,0,239,3,11,22,1,0,0,0,0
+tmux,b7c5030004,2026-09-09,df292d51,"Add a nesting limit for v1 layouts, reported by M Khalilov, fix based on issue 5572 from Afonso Janu",1,1,16,9,16,9,1,0,0,2,0,0,2,0,0,0,0,49,2,6,7,0,0,0,0,0
+tmux,0544f0b210,2026-09-09,df292d51,Draw bottom border with pane status line at the top.,1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,88,1,1,1,0,0,0,0,0
+tmux,a3129249d1,2026-09-09,df292d51,"Bound the memory used by buffered control mode command replies (to 64 MB), GitHub issue 5565 from ka",2,2,55,3,55,3,0,0,0,3,0,0,0,0,1,0,0,25,0,0,41,0,0,0,0,0
+tmux,930c81b819,2026-09-09,df292d51,"Do not adjust prompt position on invalid Unicode, from Kaixuan Li.",1,1,5,3,5,3,0,0,0,1,0,0,1,0,0,0,0,301,1,4,4,0,0,0,0,0
+tmux,bf43fdc0c7,2026-09-09,df292d51,Add new layout format which includes floating panes. The new format is now a JSON subset which is le,5,4,957,185,943,176,0,0,0,10,7,1,4,0,24,1,0,98,6,135,738,0,0,1,0,0
+tmux,c7102ebbe5,2026-09-08,df292d51,"The client for the layout format is the client we are sending it to, not the target client.",1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+tmux,d9692f7ecf,2026-09-08,df292d51,Add new-layouts flag for control clients so they can default to old layouts for backwards compatibil,11,9,63,29,58,26,0,0,0,11,2,0,2,0,0,0,0,67,5,8,46,0,0,0,0,0
+tmux,2191c9b172,2026-09-08,df292d51,"Add a function to find last pane index, from Dane Jensen.",2,2,18,2,18,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+tmux,01d1d6580a,2026-09-08,df292d51,"Add a parser for a subset of JSON, will be used for new layout strings (and maybe some other stuff),",5,3,1061,11,1051,8,0,0,0,1,3,0,1,0,33,0,0,101,1,20,836,0,0,0,0,0
+tmux,96f4c7b9fa,2026-09-08,df292d51,Add capture-pane -I to show times.,2,1,18,10,13,7,0,0,0,2,0,0,1,0,0,0,0,150,1,9,12,0,0,0,0,0
+tmux,00f3899aea,2026-09-07,df292d51,"Error on invalid relative targets, such as +foo or -0. GitHub issue 5576 from imcusg at gmail dot co",1,1,11,7,11,7,0,0,0,2,0,0,2,0,0,0,0,128,2,10,10,0,0,0,0,0
+tmux,557967c36c,2026-09-07,df292d51,"Do not silently make a session monitor if the target is unknown, GitHub issue 5575 from zzchun12826 ",1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,34,0,0,3,0,0,0,0,0
+tmux,93169e2e62,2026-09-04,df292d51,"Do not attempt to write to control clients which have been destroyed, reported by Artur Penttinen in",1,1,13,3,13,3,0,0,0,3,0,0,0,0,0,0,0,21,0,0,9,0,0,0,0,0
+tmux,a6f9a206b7,2026-09-03,df292d51,"Extend neww -S to work with -t as well as -t, GitHub issue 5571 from Mazunki Hoksaas.",2,1,49,32,36,26,0,0,0,1,0,0,1,0,0,0,0,123,1,29,29,0,0,0,0,0
+tmux,7b666e62be,2026-09-03,df292d51,Wait for pane exit status in all cases not just remain-on-exit since events need it.,1,1,3,3,3,3,0,0,0,1,0,0,0,1,0,0,0,68,1,2,2,0,0,0,0,0
+tmux,6bb6c286a9,2026-09-02,df292d51,Create screen before zoom may need to use it.,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,49,0,0,2,0,0,0,0,0
+tmux,57a13664cc,2026-09-01,df292d51,Do not allow cursor on/off to escape synchronized updates.,2,2,9,7,9,7,0,0,0,2,0,0,1,1,0,0,0,124,2,7,7,1,1,0,0,0
+tmux,bd8218e85d,2026-09-01,df292d51,"When changing selection-mode to line, set up the selection start and end correctly, GitHub issue 554",1,1,63,2,63,2,0,0,0,1,1,0,0,0,0,0,0,66,1,52,52,0,0,0,0,0
+tmux,8f3101d820,2026-09-01,df292d51,"Extend word commands to use any Unicode whitespace character, GitHub issue 5562 from Hongyi Zhao.",5,4,105,24,93,17,0,0,0,1,1,0,0,0,0,0,0,27,1,19,83,0,0,0,0,0
+tmux,b402687fcd,2026-09-01,df292d51,"Add a generation counter to pane output, from Michael K Darling.",4,3,24,5,22,4,0,0,0,1,0,0,0,0,1,0,0,24,0,0,16,0,0,0,0,0
+tmux,0530a7d89a,2026-09-01,df292d51,"Add format variables for history change counters, from Michael K Darling.",2,1,45,2,41,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,32,0,0,0,0,0
+tmux,f2bfd611e2,2026-08-31,f0f32c71,tmux: add utf8 terminal-features,3,2,24,7,20,5,0,0,0,2,1,0,0,0,0,0,0,34,1,4,15,0,0,0,0,0
+tmux,af3e4d2e5b,2026-08-31,df292d51,"Do not allow popups for control clients, from Noam Stolero.",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,139,1,2,2,0,0,0,0,0
+tmux,c552d1bf16,2026-08-31,df292d51,"Layout cell can be replaced by unzoom, fixes use after free. From Uzair Aftab.",1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,124,1,1,1,1,0,0,0,0
+tmux,6a1ecdcce3,2026-08-31,df292d51,"Do not try to append zero size cells, from Uzair Aftab.",1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,37,1,1,1,0,0,0,0,0
+tmux,39357c829c,2026-08-31,df292d51,"Clear stale marks when a search regex fails to compile, GitHub issue 5547 from Uzair Aftab.",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,117,1,2,2,0,0,0,0,0
+tmux,7bad4f7722,2026-08-28,df292d51,"Do not walk off end of grid lines if last line is wrapped, reported by Moe Khalilov.",1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+tmux,65e811570b,2026-08-28,df292d51,Do no free input context if it is NULL when popup create fails.,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+tmux,013ada58c8,2026-08-28,df292d51,"Ignore focus events earlier to avoid them interfering with prefix, GitHub issue 5539.",1,1,5,1,5,1,0,0,0,1,0,0,1,0,0,0,0,192,1,2,2,0,0,0,0,0
+tmux,b26b240613,2026-08-25,df292d51,"Fix tiled pane resizing with floating layout cells, reported by Kevin Hovsäter.",1,1,23,16,23,16,1,0,0,6,1,0,0,0,1,1,0,47,1,5,19,0,0,0,0,0
+tmux,4157b64754,2026-08-25,df292d51,Add a clear-on-attach option which when turned off scrolls away the existing terminal state instead ,5,4,48,11,37,9,0,0,0,2,1,0,1,0,0,0,0,56,2,21,32,0,0,1,0,0
+tmux,6f4c9b32af,2026-08-25,df292d51,"Do not pass NULL to qsort, and add checks for invalid session or window after swap.",3,3,10,5,10,5,0,0,0,3,1,0,0,0,0,0,0,47,1,4,7,0,0,0,0,0
+tmux,0851650c6b,2026-08-25,df292d51,"Do not leak exit message on client free, from Jeong, Heon.",1,1,3,3,3,3,1,0,0,2,0,0,1,1,0,0,0,63,2,2,2,0,0,0,0,0
+tmux,1459c90a7f,2026-08-25,df292d51,"Tidy up args_make_commands reference counting to fix a memory leak, from Jeong, Heon.",5,5,16,8,16,8,1,0,0,7,1,0,2,0,0,0,0,59,3,5,11,0,0,0,0,0
+tmux,50ea32162f,2026-08-25,df292d51,Correct a comparison ('\0' should be 0).,1,1,2,4,2,4,0,0,0,1,0,0,0,1,0,0,0,47,1,1,1,0,0,0,0,0
+tmux,2d5328a860,2026-08-25,df292d51,"If a pane has no scrollbar, don't bother to redraw it, and if redraw is deferred change scrollbar re",3,3,19,9,19,9,0,0,0,2,0,0,1,0,0,0,0,84,1,13,16,0,0,0,0,0
+tmux,dc78d8f9ea,2026-08-24,df292d51,"Do not add messages to cfg_causes after config has finished, GitHub issue 5528.",1,1,13,2,13,2,0,0,0,1,0,0,0,0,0,0,0,44,0,0,12,0,0,0,0,0
+tmux,5b54c7d41a,2026-08-24,df292d51,"Always use synchronized updates in copy mode (like when not in the active pane), since copy mode wil",1,1,8,6,8,6,0,0,0,1,0,0,1,0,0,0,0,51,1,2,2,0,1,0,0,0
+tmux,7d358208b9,2026-08-24,df292d51,"Free any remaining items when destroying screen, from Jeong, Heon.",1,1,12,4,12,4,0,0,0,1,0,0,0,0,0,0,0,15,0,0,11,0,0,0,0,0
+tmux,402d366bba,2026-08-24,df292d51,"Add {} to shell escape characters (special in bash/ksh/csh), GitHub issue 5514.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,1,0,0,0,0
+tmux,41e701ad84,2026-08-24,77221af0,"Return early if image is zero height when generating fallback, otherwise we can allocated too little",1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,34,0,0,3,0,0,0,0,0
+tmux,c9f5ecb4b5,2026-08-24,df292d51,"Do not leak cached status line, from Jeong, Heon.",1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+tmux,7792a74c76,2026-08-24,df292d51,"Free pane fallback range when freeing pane, from Jeong, Heon.",1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+tmux,4cabc2ae85,2026-08-24,df292d51,"Do not leak path when destroying client, from Jeong, Heon.",1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,61,1,1,1,0,0,0,0,0
+tmux,995b395795,2026-08-24,df292d51,"Do not leak format when drawing preview, from Jeong, Heon.",1,1,3,1,3,1,0,0,0,2,0,0,2,0,0,0,0,131,2,2,2,0,0,0,0,0
+tmux,3d44f75d09,2026-08-24,df292d51,"Do not leak buffer name on failure, from Jeong, Heon.",1,1,6,2,6,2,1,0,0,1,0,0,1,0,0,0,0,77,1,5,5,0,0,0,0,0
+tmux,696a16cca2,2026-08-21,df292d51,"Use correct X position when combining characters, GitHub issue 5511 from Francesc Rosas.",1,1,7,4,7,4,0,0,0,1,0,0,1,0,0,0,0,90,1,6,6,0,0,0,0,0
+tmux,95a7170709,2026-08-20,df292d51,Add a way for floating panes to stay above zoom (-A) flag. Use by default for modal panes to match p,11,10,191,79,186,74,0,0,0,20,2,0,8,2,2,2,0,263,12,115,169,0,0,0,0,0
+tmux,50d0348b64,2026-08-19,df292d51,"Stop at the right end line when walking wrapped lines, GitHub issue 5479.",1,1,4,3,4,3,0,0,0,3,0,0,1,0,0,0,0,84,3,3,3,0,0,0,0,0
+tmux,b28b1b7b9a,2026-08-19,df292d51,Add a -K flag to new-pane to make a modal pane capture all keys like popups used to.,4,3,57,19,51,16,0,0,0,3,0,0,3,0,1,0,0,221,3,22,39,0,0,0,0,0
+tmux,e94fcd96f9,2026-08-18,df292d51,"Use DECRQM to detect mode 2026, from Michael Grant.",3,3,67,4,67,4,0,0,0,2,1,0,1,0,1,0,0,234,1,9,50,0,0,0,0,0
+tmux,b170c19274,2026-08-18,df292d51,"Change correct depth counter for source-file when used from hooks, GitHub issue 5437.",1,1,39,21,39,21,0,0,0,4,0,0,2,0,1,0,0,89,2,8,35,0,0,0,0,0
+tmux,4714f478fe,2026-08-18,df292d51,"When a pane is respawned, reset the control mode offsets. GitHub issue 5498 from Alex Rattray.",3,3,38,4,38,4,0,0,0,1,0,0,1,0,1,0,0,261,1,8,22,0,0,0,0,0
+tmux,72c5037f06,2026-08-18,df292d51,"Correctly clear clients referring to a session with destroy-unattached, GitHub issue 5497 from Jeong",1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+tmux,6238793ad7,2026-08-18,df292d51,"Restore umask if bind fails, from nachalsa at naver dot com.",1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,43,0,0,1,0,0,0,0,0
+tmux,db194ced5b,2026-08-17,df292d51,Log unknown message types.,1,1,7,1,7,1,0,0,0,2,0,0,2,0,0,0,0,84,2,6,6,0,0,0,0,0
+tmux,b2de803871,2026-08-17,df292d51,Flush output before ending sync. GitHub issue 5495 from xiangzhedev at gmail dot com.,3,3,18,4,18,4,0,0,0,1,0,0,0,0,1,0,0,69,1,1,12,0,0,0,0,0
+tmux,a18d4e0067,2026-08-17,df292d51,"Allow features to be disabled using @ suffix in terminal-features, from Michael Grant.",7,6,89,57,83,55,0,0,0,10,1,0,1,3,2,1,0,160,6,29,68,0,0,0,0,0
+tmux,1729bb8e8a,2026-08-17,df292d51,"If writing a file fails, propagate the error to the server via a new message. Use a client flag rath",5,5,86,25,86,25,0,0,0,6,0,0,1,0,2,0,0,149,2,5,70,0,0,0,0,0
+tmux,9fdd04ae61,2026-08-17,df292d51,"Add default terminal features for Rio, GitHub issue 5489 from Raphael Amorim.",2,2,16,2,16,2,0,0,0,2,0,0,2,0,0,0,0,108,2,14,14,0,0,0,0,0
+tmux,d384557b63,2026-08-17,df292d51,"Remove flags from both keys for menus, GitHub issue 5484.",1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,201,1,3,3,0,0,0,1,0
+tmux,a0d3585c6c,2026-08-17,df292d51,Attach window to session earlier so resize cannot cause customize mode to blow up. Reported by Marce,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,107,1,3,3,0,0,0,0,0
+tmux,ec34ff52cc,2026-08-17,df292d51,"Do not copy too many positions when deleting, GitHub issue 5478 from Uzair Aftab.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,299,1,1,1,0,0,0,0,1
+tmux,f466d6289e,2026-08-10,7951eda9,compat: use socklen_t for getsockopt length,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+tmux,10048f6579,2026-08-07,df292d51,"Only unzoom in the floating-split case, modal panes take care of themselves.",1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,219,1,1,1,0,0,0,1,0
+tmux,2ec1038ffd,2026-08-07,df292d51,"Always unzoom before splitting window, for floating panes also. We already unzoomed for tiled panes ",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,219,1,1,1,0,0,0,1,0
+tmux,641e75e6e2,2026-08-06,df292d51,"Add T key to change pane title, from Fouad Wahabi in GitHub issue 5461.",2,1,6,3,2,1,0,0,0,1,0,0,1,0,0,0,0,325,1,1,1,0,0,0,0,0
+tmux,4a9dbac435,2026-08-05,df292d51,Add a refresh-now command and change the r binding back to it in copy mode.,3,2,51,11,45,9,0,0,0,2,0,0,0,0,2,0,0,324,1,2,33,0,0,0,0,0
+tmux,bd483a63cf,2026-08-05,df292d51,"Ignore Ms if it is invalid (for example no %p1) and report in client mode, GitHub issue 5460.",3,3,35,7,35,7,0,0,0,2,0,0,1,0,1,0,0,50,1,2,28,0,0,0,0,0
+tmux,e56a042153,2026-08-05,df292d51,Use ACS arrows for tree mode.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,1995b5559d,2026-08-05,df292d51,Do not crash when synchronizing groups and there is no current window. GitHub issue 5467 from Ju-an ,1,1,4,2,4,2,1,0,0,1,1,0,0,0,0,0,0,44,1,3,3,0,1,0,0,0
+tmux,fe384e06bc,2026-08-05,df292d51,"Add pane_private_modes format with list of DEC private modes, from George Nachman.",2,1,61,3,58,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,49,0,0,0,1,0
+tmux,0198ee9e51,2026-08-05,df292d51,"Do not log when logging is off, from Michael Grant.",1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+tmux,3894397b07,2026-08-04,cb995bca,Switch from imsg_get to imsgbuf_get and switch type of n to int.,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,41,1,2,2,0,0,0,0,0
+tmux,5cd1976a4a,2026-08-04,df292d51,"Do not attempt to drain write buffer on stuck clients, since it requires a weird dance to make libev",2,2,24,27,24,27,0,0,0,4,0,0,1,0,0,0,0,56,1,15,20,0,0,0,0,0
+tmux,d2322d0114,2026-08-03,df292d51,"Check for floating only for flags that require a floating pane, reported by Ilya Grigoriev.",1,1,12,14,12,14,0,0,0,1,0,0,1,0,0,0,0,104,1,11,11,0,0,0,0,0
+tmux,114aa68082,2026-08-03,df292d51,Do not let a stuck client prevent the server from exiting - give up after 10 seconds. GitHub issue 5,3,3,68,5,68,5,0,0,0,3,0,0,2,0,3,0,0,60,2,9,50,0,0,0,0,0
+tmux,6db5175e4e,2026-08-03,df292d51,"Queue control mode notifications rather than emitting them inside %begin/%end, GitHub issue 5458 fro",5,5,180,74,180,74,0,0,0,24,0,0,1,0,4,1,0,39,1,4,133,0,0,0,0,0
+tmux,01a775a46c,2026-08-03,df292d51,Store background colour in padding cells and correctly clear adjacent cells when tabs are overwritte,4,4,79,55,79,55,0,0,0,6,0,0,0,1,2,0,0,134,3,15,60,0,0,0,0,0
+tmux,4918360ea1,2026-08-03,df292d51,"Exit failure on socket failure, from Rayan Salhab.",1,1,3,1,3,1,0,0,0,2,0,0,1,0,0,0,0,70,1,1,2,0,0,0,0,0
+tmux,8dfb7d0294,2026-07-30,df292d51,Fix unzoomed width when scrollbars are hidden.,1,1,6,3,6,3,1,0,0,1,1,0,0,0,0,0,0,31,1,5,5,0,0,0,0,0
+tmux,44b8a40b8c,2026-07-29,df292d51,"Correctly skip padding at end of line, GitHub issue 5411.",4,4,30,15,30,15,0,0,0,2,0,0,0,0,1,0,0,23,0,0,23,0,0,0,0,0
+tmux,415d265728,2026-07-29,df292d51,Add a flag to turn off scrollbars for display-panes; GitHub issue 5440 from David Marte.,3,3,20,7,20,7,0,0,0,1,0,0,0,0,0,0,0,20,0,0,16,0,0,0,0,0
+tmux,9f2c535909,2026-07-28,df292d51,Store status position in new mouse event for menus so the position is correct later.,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,0
+tmux,6a13d61b48,2026-07-28,df292d51,Show hook count and time in customize mode.,1,1,50,6,50,6,0,0,0,2,0,0,2,0,1,0,0,247,2,19,47,0,0,0,0,0
+tmux,27ab96b284,2026-07-28,df292d51,Store count of how many times a hook is fired and the last time.,6,5,128,20,124,18,0,0,0,12,0,0,4,1,7,0,0,87,6,29,96,0,0,0,0,0
+tmux,f751d3f2c1,2026-07-27,df292d51,"When destroying pane, also close pipe and destroy its event. GitHub issue 5424.",2,2,13,3,13,3,0,0,0,2,0,0,1,0,0,0,0,66,1,6,10,0,0,0,0,0
+tmux,5269e14113,2026-07-27,df292d51,Add after-swap-window hook from basicalllymiloud at gmail dot com.,2,2,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tmux,d57d75deee,2026-07-26,df292d51,"Include \n and \t in shell special characters, from Nikolas Skarlatos.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,1,0,0
+tmux,4cc45aa719,2026-07-26,df292d51,"Do not try to write to clients which have died, GitHub issue 5431 from Stefan Ladstätter.",1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+tmux,3068ae06a8,2026-07-26,df292d51,Also set ntitles to 0 when creating screen in the first place.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+tmux,55169f1275,2026-07-26,df292d51,"Reset title count when freeing titles, GitHub issue 5429 from Brett Smith.",1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+tmux,afb95f3134,2026-07-26,df292d51,"Do not loop forever if the combining character is too long, GitHub issue 5434 from me at qdrs dot de",2,2,5,3,5,3,0,0,0,2,0,0,1,0,0,0,0,87,2,3,3,0,0,0,0,0
+tmux,47f210a9d2,2026-07-24,df292d51,Replace outside as well as empty cells with the border.,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,46,1,2,2,0,0,0,0,0
+tmux,8862390c34,2026-07-23,df292d51,Extend fill-character to allow inside and outside to be separate and use a different default (filled,9,8,111,54,102,50,0,0,0,10,0,1,3,0,4,1,0,114,5,14,81,0,0,0,0,0
+tmux,7568c19276,2026-07-23,77221af0,Log jemalloc version if in use.,1,1,13,0,13,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,12,0,0,0,0,0
+tmux,7277712ca8,2026-07-22,df292d51,Switch show-options over to using a format and add -F.,4,3,202,99,178,98,0,0,0,4,2,0,1,1,1,1,0,87,4,132,161,0,0,0,0,0
+tmux,2a5389416a,2026-07-22,df292d51,Add a menu on empty areas to allow a new pane to be created.,1,1,6,1,6,1,0,0,0,1,0,0,1,0,0,0,0,324,1,2,5,0,0,0,0,0
+tmux,9625fe3b5f,2026-07-22,df292d51,Show user hooks correctly with show-hooks.,1,1,10,6,10,6,0,0,0,1,0,0,1,0,0,0,0,61,1,9,9,0,0,0,0,0
+tmux,bd4ac02994,2026-07-22,df292d51,"Add A modifier to cycle through a series of values, GitHub issue 5412 from Fernando Daciuk.",4,3,123,9,101,7,0,0,0,4,0,0,3,0,3,0,0,631,4,21,69,0,0,1,0,0
+tmux,a57b0f1282,2026-07-21,df292d51,"Clip floating panes exactly at window edge, don't let the border creep into the first outside column",1,1,7,5,7,5,0,0,0,1,0,0,1,0,0,0,0,88,1,6,6,0,0,0,0,0
+tmux,c59db2d007,2026-07-21,df292d51,Invalidate scene when window is resized.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+tmux,8bf2a4e807,2026-07-21,df292d51,"Add a -C flag to new-pane to have a modal pane close when the mouse is clicked outside it, GitHub is",4,3,18,7,13,5,0,0,0,2,0,0,2,0,0,0,0,345,2,7,10,0,0,0,0,0
+tmux,9d583cad5a,2026-07-21,df292d51,"If drawing border but not actually on a border, use the default line style.",1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,42,1,2,2,0,0,0,0,0
+tmux,abd2f3a9a5,2026-07-21,df292d51,"Add copy-mode-current-line-style to set style for current line in copy mode, GitHub issue 5391 from ",3,2,63,10,53,8,0,0,0,6,0,0,5,0,1,0,0,83,6,30,47,0,0,0,0,0
+tmux,0e2576a842,2026-07-21,df292d51,"Use correct cursor position for range end, GitHub issue 5414.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,332,1,1,1,0,0,0,0,0
+tmux,418ddada23,2026-07-21,df292d51,"Increase escape-time for tmux's own queries (refresh-client -l and window size) as well, GitHub issu",1,1,4,3,4,3,0,0,0,1,0,0,1,0,0,0,0,225,1,3,3,1,0,0,0,0
+tmux,8aaae25e56,2026-07-21,77221af0,Fix a merge and add test bits.,2,1,15,8,1,3,1,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+tmux,d13b69ece4,2026-07-20,df292d51,Change cellused/size to 16 bits and time to 32 bits in grid_line and add the OSC 133 positions (size,6,6,166,49,166,49,0,0,0,8,1,0,2,0,3,0,0,70,3,46,145,0,0,0,0,0
+tmux,efcfc55535,2026-07-20,df292d51,Correctly include status line in pane height.,1,1,8,4,8,4,0,0,0,1,1,0,0,0,0,0,0,31,1,7,7,0,0,1,0,0
+tmux,aea209b142,2026-07-19,df292d51,Remove bits to disable removing empty lines since actually we want to do that - zoom added them in t,3,3,6,21,6,21,0,0,0,3,0,0,0,1,0,0,0,33,1,1,3,0,0,0,1,0
+tmux,8024fab1f2,2026-07-19,df292d51,Copy the home directory if it comes from getpwuid.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+tmux,c766669b3b,2026-07-19,df292d51,"Add unzoomed width and height formats and use them for the sizes shown in panes mode, reported by tb",3,2,83,5,79,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,65,0,0,0,0,0
+tmux,6ef280fb0f,2026-07-19,df292d51,"Guard x as well as y to avoid overflow, GitHub issue 5409 from Park Seongjae.",1,1,2,2,2,2,1,0,0,1,0,0,1,0,0,0,0,141,1,1,1,1,0,0,0,0
+tmux,496bfdce38,2026-07-17,df292d51,Prevent display-panes from shifting the active pane scroll position by copying the screen from befor,3,3,60,15,60,15,0,0,0,7,2,2,3,0,3,2,0,66,5,17,54,0,0,0,0,0
+tmux,377a810168,2026-07-17,df292d51,Add some missing calls to invalidate scene.,1,1,4,1,4,1,0,0,0,3,0,0,1,0,0,0,0,123,1,1,3,0,0,0,0,0
+tmux,1ce000062a,2026-07-17,df292d51,"Remove the active-pane flag for now, there are some gaps in how this works and I don't like it. May ",9,8,22,166,20,155,0,0,0,12,0,0,0,4,0,6,0,124,8,8,11,0,0,0,1,0
+tmux,2711780dff,2026-07-17,df292d51,Move per-client window sizes into control.c since the only user is for control mode.,5,5,190,100,190,100,0,0,0,9,0,0,0,3,9,3,0,101,3,15,151,0,0,0,1,0
+tmux,a177d0f590,2026-07-17,df292d51,Change %% to escape single quotes (%1 remains with no quoting and %% with double quotes) to avoid a ,1,1,37,15,37,15,1,0,0,1,0,0,1,0,0,0,0,64,1,31,31,1,0,0,0,0
+tmux,d5b1f3ad89,2026-07-17,df292d51,Clear cfg_client if the client is destroyed to prevent UAF found by Ilya Grigoriev.,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,62,1,2,2,0,0,0,0,0
+tmux,1d0d22df22,2026-07-16,df292d51,Fix uninitialized var for sscanf %n.,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,89,1,1,1,0,0,0,0,0
+tmux,824a07290f,2026-07-16,df292d51,"Do not redraw overlays unless actually asked to, GitHub issue 5398 from Noam Stolero.",1,1,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,23,0,0,6,0,0,0,0,0
+tmux,edefce8eb5,2026-07-15,df292d51,Small section missed from previous.,1,1,31,4,31,4,0,0,0,1,0,0,1,0,0,0,0,340,1,29,29,0,0,0,0,0
+tmux,d98635e1bd,2026-07-15,df292d51,"Add modal panes, created currently with new-pane -O. There is one modal pane per window and it must ",13,12,239,32,230,30,0,0,0,19,4,0,9,0,5,0,0,314,12,95,197,0,0,0,0,0
+tmux,75c874c55b,2026-07-15,df292d51,"Clear the ""waiting for editor"" area before writing so stray characters aren't visible from underneat",2,2,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,40,0,0,4,0,0,0,0,0
+tmux,cbb97b961c,2026-07-15,df292d51,Add a mouse binding for empty areas of the window so C-Drag works on them as well.,4,3,47,42,44,40,0,0,0,2,0,0,2,0,0,0,0,322,2,35,38,0,0,0,0,0
+tmux,ad6832e697,2026-07-14,df292d51,Switch menus also to be attached to the window instead of an overlay and drawn as part of the client,9,9,568,382,568,382,0,0,0,27,3,4,10,3,19,10,0,137,14,94,511,0,0,0,0,0
+tmux,1a02c9957c,2026-07-14,df292d51,Convert display-panes away from an overlay and into a mode. This is another step on the road of gett,22,20,1333,542,1272,509,0,0,0,23,20,3,5,0,39,8,0,65,8,33,1070,0,0,0,0,0
+tmux,34a11db6ca,2026-07-14,df292d51,"Typos and doc fixes, from Ben Boeckel.",4,3,22,15,13,13,0,0,0,2,0,0,1,1,0,0,0,59,2,3,7,0,0,0,0,0
+tmux,a10252dad2,2026-07-14,df292d51,Handle padding and tab redraw correctly in copy mode.,1,1,16,3,16,3,0,0,0,1,0,0,1,0,0,0,0,33,1,15,15,0,0,0,0,0
+tmux,f88189cd59,2026-07-14,df292d51,Do not clear lines when we are just going to overwrite them in copy mode.,1,1,71,78,71,78,0,0,0,33,0,0,1,3,0,0,0,102,17,47,70,0,0,0,0,0
+tmux,09d5977263,2026-07-14,df292d51,Add e key to open editor to customize mode (like buffer mode) and a key to show only changed items.,4,3,954,102,952,101,0,0,0,19,8,0,9,2,23,0,0,234,12,136,849,0,0,0,0,0
+tmux,2a75cc2236,2026-07-13,df292d51,Apply dragging change to scroll-down as well as scroll-up.,1,1,12,1,12,1,0,0,0,1,1,0,0,0,0,0,0,24,1,8,8,0,0,0,0,0
+tmux,37da97fbe6,2026-07-13,df292d51,Add environment to customize mode also,1,1,322,20,322,20,0,0,0,14,3,0,6,0,6,0,0,126,7,44,289,0,0,0,0,0
+tmux,b1c347ee0c,2026-07-13,df292d51,"Replace last use of fgetln with getline, GitHub issue 5389 from Yayo Razo.",1,1,10,19,10,19,0,0,0,1,0,0,0,0,0,0,0,25,0,0,9,0,0,0,0,0
+tmux,fba5083b58,2026-07-13,df292d51,Add hooks to customize mode.,2,2,263,115,263,115,0,0,0,4,0,0,4,0,0,0,0,228,4,96,257,0,0,0,0,0
+tmux,c3e38b317d,2026-07-13,bdaea6b8,"fix(compat): drop fgetln compat shim, migrate prompt-history.c to getline",4,3,9,85,9,84,1,0,0,1,0,0,0,0,0,1,0,25,0,0,9,0,0,0,0,0
+tmux,8fbbde7035,2026-07-13,df292d51,"Add keys and menu items for copy mode line numbers, and a menu item for auto refresh.",3,2,96,9,80,8,0,0,0,4,0,0,2,0,4,0,0,321,2,4,73,0,0,0,0,0
+tmux,658e087f7a,2026-07-13,df292d51,"Add new-pane -M to create a new pane from a mouse binding and bind to C-MouseDrag1Pane, removing the",5,4,104,9,97,7,0,0,0,3,1,0,2,0,1,0,0,320,3,15,84,0,0,0,0,0
+tmux,b91086a5c8,2026-07-13,df292d51,Add pane-activity event.,5,4,15,13,12,5,0,0,0,2,0,0,0,0,0,0,0,42,0,0,8,0,0,0,0,0
+tmux,e00a1a3e26,2026-07-13,df292d51,Add some additional simple events.,12,11,216,23,199,22,0,0,0,16,0,0,8,0,6,0,0,134,9,28,171,0,0,0,0,0
+tmux,006cce5e4d,2026-07-13,9168d1c3,fix window_copy_mouse_in_selection() indentation; ok nicm@,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,58,1,2,2,0,0,0,0,0
+tmux,4a06a1f296,2026-07-13,df292d51,"Work out a single layout for the entire prompt so it can all be drawn together, fixes centered promp",2,2,218,87,218,87,1,0,0,6,2,0,1,2,4,2,0,52,4,52,190,0,0,0,0,0
+tmux,fe1b877410,2026-07-13,df292d51,"Allow drag on a selection to modify it, from Michael Grant.",1,1,151,8,151,8,0,0,0,9,1,0,1,0,2,0,0,70,5,21,116,0,0,0,0,0
+tmux,2b091d91d3,2026-07-13,df292d51,Make split-window inside a floating pane work more nicely and not immediately create an overlapping ,5,4,194,36,177,34,0,0,0,4,1,0,3,1,1,0,0,193,4,39,142,0,0,0,1,0
+tmux,6d227a8479,2026-07-13,df292d51,"Set other cell when creating layout set, from Dane Jensen.",1,1,25,1,25,1,0,0,0,5,0,0,5,0,1,0,0,88,5,9,22,0,0,0,0,0
+tmux,447d804a3a,2026-07-13,df292d51,"Size comparison should be >= not >, from Yayo Razo.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,45,1,1,1,0,0,0,0,0
+tmux,0925c9846b,2026-07-13,df292d51,"Use _exit in child after fork, from Yayo Razo in GitHub issue 5376.",2,2,17,12,17,12,0,0,0,2,0,0,1,0,0,0,0,145,2,15,15,0,0,0,0,0
+tmux,3612a9a605,2026-07-13,df292d51,Add missing calloc check and use fatal. Prompted by a similar change from Yayo Razo.,1,1,11,20,11,20,0,0,0,7,0,0,0,0,0,0,0,12,0,0,10,0,0,0,0,0
+tmux,330bedfb47,2026-07-12,77221af0,Build with ASAN on macOS by default.,4,2,24,2,21,0,0,0,0,1,0,0,0,0,1,0,0,15,0,0,20,0,0,0,0,0
+tmux,3ff24a8eb4,2026-07-11,bdaea6b8,fix(compat): guard buffer size multiplication in getline,1,1,7,1,7,1,1,0,0,1,0,0,1,0,0,0,0,43,1,6,6,0,0,0,0,0
+tmux,28a1231100,2026-07-11,bdaea6b8,fix(screen): free alternate-screen images on screen destroy,1,1,12,0,12,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+tmux,6fd9987632,2026-07-11,77221af0,"Revert ""Add formats and events for OSC 133 commmands, as well as a -T flag to""",9,8,94,1108,80,1000,0,0,0,24,0,4,0,4,0,29,0,149,9,17,77,0,0,0,0,0
+tmux,7f2b0ae16e,2026-07-10,df292d51,Do not make pty fds blocking again until all the data has been consumed or control mode clients can ,3,3,63,20,63,20,0,0,0,1,1,0,0,1,1,0,0,149,1,7,46,0,0,0,0,0
+tmux,0cc84b8cae,2026-07-10,9fd2edf3,Do not make pty fds blocking again until all the data has been consumed or control mode clients can ,3,3,60,17,60,17,0,0,0,1,1,0,0,1,1,0,0,149,1,7,46,0,0,0,0,0
+tmux,512255b9a7,2026-07-10,df292d51,"Add formats and events for OSC 133 commmands, as well as a -T flag to set-hook -B to only fire when ",9,8,263,29,236,27,0,0,0,8,1,0,2,0,8,0,0,80,5,46,200,0,0,0,0,0
+tmux,f3c6b4f1a3,2026-07-10,9fd2edf3,"Add formats and events for OSC 133 commmands, as well as a -T flag to set-hook -B to only fire when ",9,8,1108,94,1000,80,0,0,0,24,4,0,4,0,29,0,0,153,9,61,844,0,0,0,0,0
+tmux,d29aa12117,2026-07-10,df292d51,Replace the notification system with events. Events can carry a payload of additional payload (to re,153,150,2542,1786,2452,1767,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1
+tmux,1508bec957,2026-07-10,9fd2edf3,"Don't bother to send notifications to clients with CLIENT_EXIT, GitHub issue 5357 from Ben Maurer.",2,2,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,44,0,0,2,0,0,0,0,0
+tmux,bcc73e0db4,2026-07-10,9fd2edf3,Change NOTHING (which means only redraw the indicator) to MOVE. And redefine NOTHING as /actually/ n,1,1,160,140,160,140,1,0,0,92,0,0,2,0,0,0,0,102,20,56,149,0,0,0,0,0
+tmux,3a6c717bb8,2026-07-09,9fd2edf3,"Do not exit at bottom if a selection is in progress, GitHub issue 5349 from xiaomublue at gmail dot ",2,1,6,4,3,3,0,0,0,3,0,0,2,0,0,0,0,70,2,2,3,0,0,0,0,0
+tmux,161dbaf1ce,2026-07-09,9fd2edf3,"Cancel pending resizes and resize immediately when entering alternate screen, fixes flickering with ",1,1,6,0,6,0,1,0,0,1,0,0,0,0,0,0,0,25,0,0,6,0,0,0,0,0
+tmux,e242da168b,2026-07-09,9fd2edf3,"Clip the status line and menu against an open popup overlay, GitHub issue 5350 from Noam Stolero.",2,2,14,4,14,4,0,0,0,2,0,0,1,0,0,0,0,122,1,13,14,0,0,0,0,0
+tmux,dea309cf8d,2026-07-09,9fd2edf3,"Allow empty name with new-window again, from Jacob Koziej.",1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,93,1,1,1,0,0,0,0,0
+tmux,1fefb80445,2026-07-09,9fd2edf3,Add t/d for time difference in seconds.,2,1,21,1,16,0,0,0,0,2,0,0,2,0,1,0,0,616,2,4,13,0,0,0,0,0
+tmux,e37a2e54ab,2026-07-08,9fd2edf3,"Fix regsub with anchor at start of pattern, GitHub issue 5341.",1,1,9,6,9,6,1,0,0,1,0,0,0,0,0,0,0,47,0,0,7,0,0,0,0,0
+tmux,8e76565c9c,2026-07-08,9fd2edf3,"Keep all modes except cursor during redraw, GitHub issue 5337 from Ayman Bagabas.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,112,1,1,1,0,0,0,0,0
+tmux,dac6514147,2026-07-08,9fd2edf3,Report the terminal's own theme to panes rather than guessing from the background. GitHub issue 5343,1,1,8,10,8,10,0,0,0,1,0,0,0,1,0,0,0,30,1,1,1,0,0,0,0,0
+tmux,ac723bf2df,2026-07-08,9fd2edf3,Do not crash looking for next or previous session. GitHub issue 5344.,1,1,5,2,5,2,1,0,0,1,0,0,1,0,0,0,0,34,1,5,5,0,0,0,0,0
+tmux,25060c3fa5,2026-07-08,9fd2edf3,Fix empty argument to splitw/newp and add -k to copy-mode.,4,3,8,5,4,4,1,0,0,2,0,0,2,0,0,0,0,180,2,2,4,0,0,0,1,0
+tmux,28c2005a2a,2026-07-08,9fd2edf3,"Fix a typo (use right var), from Dane Jensen.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,1,1,1,0,0,0,0,0
+tmux,7b02cb6d03,2026-07-07,9fd2edf3,"Fix . and ; bindings, reported by tb.",2,1,3,6,2,2,1,0,0,1,0,0,0,0,0,0,0,320,1,2,2,0,0,0,0,0
+tmux,76b693aa81,2026-07-07,9fd2edf3,"Add C-b g , and C-b g . for move and resize menus, also add to pane menu (and fix to make them work)",5,4,58,2,55,2,1,0,0,4,0,0,4,0,0,0,0,320,4,15,43,0,0,0,1,0
+tmux,7188391a22,2026-07-07,9fd2edf3,"Add a layout_geometry container struct, from Dane Jensen.",9,9,234,235,234,235,0,0,0,46,0,1,1,2,1,0,0,122,26,133,226,0,0,0,0,0
+tmux,1ea574e4ca,2026-07-07,9fd2edf3,"Set initial scrollbar state, from Michael Grant.",2,2,3,1,3,1,0,0,0,2,0,0,0,0,0,0,0,317,1,1,3,0,0,0,0,0
+tmux,af35bcb64f,2026-07-07,9fd2edf3,Restore { and } to swap-pane and for floating panes and use a separate key table accessed by g (shor,2,1,27,10,21,4,0,0,0,1,0,0,1,0,0,0,0,317,1,19,19,0,0,0,0,0
+tmux,ff09914327,2026-07-06,9fd2edf3,Could of minor tidy ups.,2,2,2,6,2,6,0,0,0,2,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+tmux,d33d5b7de8,2026-07-06,9fd2edf3,"When sync is enabled, we need to mark the whole scroll region dirty if there has been any scrolling.",1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,47,1,4,4,0,0,0,0,0
+tmux,20ef19b42f,2026-07-06,9fd2edf3,Add a key to change an array key in customize mode.,4,4,338,122,338,122,0,0,0,30,0,0,9,2,6,1,0,189,12,101,304,0,0,0,0,0
+tmux,1117caaf09,2026-07-06,9fd2edf3,Change array item keys to be strings instead of numbers which are painful to work with.,7,6,53,48,45,44,0,0,0,7,1,0,1,1,0,0,0,78,4,16,45,0,0,0,0,0
+tmux,79b83600af,2026-07-06,9fd2edf3,"NOJOBS is a flag, use correct argument.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+tmux,85e3ca5ae2,2026-07-06,9fd2edf3,"Check for width/height 0, based on change from Uzair Aftab.",1,1,5,3,5,3,0,0,0,1,0,0,1,0,0,0,0,201,1,4,4,0,0,0,0,0
+tmux,d565fd3b54,2026-07-06,9fd2edf3,"Do not create zero size panes, from Uzair Aftab.",1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,59,1,2,2,0,0,0,0,0
+tmux,699b18414d,2026-07-06,9fd2edf3,Do not allow jobs in monitor formats.,1,1,17,5,17,5,0,0,0,5,0,0,0,0,1,0,0,32,0,0,14,0,0,0,0,0
+tmux,913e503296,2026-07-06,9fd2edf3,Unzoom before creating a floating pane (for now).,1,1,7,0,7,0,0,0,0,2,0,0,2,0,0,0,0,46,2,7,7,0,0,0,0,0
+tmux,3f065cf789,2026-07-05,9fd2edf3,Add a window pane reference count.,2,2,46,7,46,7,0,0,0,2,0,0,0,0,3,0,0,34,0,0,40,0,0,0,0,0
+tmux,2fdcb64a79,2026-07-05,9fd2edf3,Add a define for whether mouse is enabled by default (still off).,2,2,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tmux,468c2942a3,2026-07-05,9fd2edf3,Apply tree mode selection style to the entire line.,1,1,4,5,4,5,0,0,0,1,0,0,0,0,0,0,0,199,1,3,4,0,0,0,0,0
+tmux,de024e04d7,2026-07-05,9fd2edf3,Add set-hook -B install a subscription like in control mode. Subscriptions are formats which are che,9,8,607,117,567,116,0,0,0,22,5,0,4,0,18,0,0,144,5,57,490,0,0,0,0,0
+tmux,7a8f8f5a74,2026-07-04,9fd2edf3,Do not use stale pointers in modes.,2,2,12,3,12,3,0,0,0,5,0,0,1,0,0,0,0,53,2,5,12,0,0,0,0,0
+tmux,415885ecb9,2026-07-04,9fd2edf3,"Infer the terminal theme from the background colour correctly, if theme reporting is not supported.",2,2,7,1,7,1,0,0,0,2,1,0,1,0,0,0,0,224,2,7,7,0,0,0,0,0
+tmux,b05f0abeeb,2026-07-04,9fd2edf3,Do not ignore filter when >1 pane. GitHub issue 5326.,1,1,13,19,13,19,0,0,0,1,0,0,0,1,0,0,0,50,1,13,13,0,0,0,0,0
+tmux,898a91903a,2026-07-04,9fd2edf3,"Add some missing checks which make new pane positions off, from Dane Jensen.",1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,88,1,2,2,0,0,0,0,0
+tmux,a02e25ba01,2026-07-04,77221af0,Do not invoke clear check on respawn.,4,4,6,35,6,35,0,0,0,8,0,0,0,2,0,2,0,246,3,1,6,0,0,0,0,0
+tmux,c5a7309966,2026-07-04,9fd2edf3,"Dirty ED 2 correctly, GiHub issue 5322 from git at twilligon dot com.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+tmux,8e03310afe,2026-07-03,9fd2edf3,Move monitor stuff out of control.c into its own file for reuse.,5,4,591,437,590,437,0,0,0,5,1,1,0,0,20,10,0,33,0,0,467,0,0,0,1,0
+tmux,d512a65d4c,2026-07-03,9fd2edf3,Add O and V loops in formats for options and environment.,2,1,343,19,312,15,0,0,0,5,4,0,2,1,4,0,0,614,5,35,260,0,0,0,0,0
+tmux,4378a17fbe,2026-07-03,9fd2edf3,"Add floating panes key bindings and menu options, from Dane Jensen.",2,2,8,1,8,1,0,0,0,1,0,0,1,0,0,0,0,302,1,2,8,0,0,0,0,0
+tmux,b5a6d9bcab,2026-07-03,9fd2edf3,Fix some spelling and indentation.,1,1,24,23,24,23,0,0,0,1,0,0,1,0,1,1,0,64,1,21,22,0,0,0,0,0
+tmux,e03a937c71,2026-07-03,9fd2edf3,Add a quoted pane_start_command_list which does not lose argument information.,2,1,49,4,36,1,0,0,0,1,0,0,0,0,1,0,0,6,0,0,28,0,0,0,0,0
+tmux,820067826a,2026-07-03,9fd2edf3,Add -E to new-window and respawn-pane and respawn-window to create empty panes.,4,4,30,10,30,10,0,0,0,4,0,0,2,0,0,0,0,234,2,19,29,0,0,0,0,0
+tmux,6967f54774,2026-07-03,9fd2edf3,Add additional pane sort orders.,2,1,13,1,6,0,0,0,0,1,0,0,1,0,0,0,0,594,1,6,6,0,0,0,0,0
+tmux,e1fc6b31ee,2026-07-03,9fd2edf3,Add manual width and height window formats.,2,1,34,0,32,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,26,0,0,0,0,0
+tmux,cceca5a158,2026-07-03,9fd2edf3,Add single quote operator.,2,1,34,1,31,0,0,0,0,2,0,0,2,0,1,0,0,588,2,7,20,0,0,0,0,0
+tmux,fa2c9f4551,2026-07-03,9fd2edf3,"Allow join-pane to tile floating panes, from Dane Jensen.",3,2,57,8,48,8,0,0,0,3,0,0,1,0,1,0,0,89,1,2,42,0,0,0,0,0
+tmux,2b8c3c1362,2026-07-02,9fd2edf3,Enable swap-pane on floating panes again but not -U/-D. From Dane Jensen.,1,1,32,8,32,8,0,0,0,1,0,0,1,0,2,0,0,118,1,16,30,0,0,0,0,0
+tmux,93039db58c,2026-07-02,9fd2edf3,Use message-style as default for message-format again. GitHub issue 5315.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,48,0,0,1,0,0,0,0,0
+tmux,6ebef7450a,2026-07-02,9fd2edf3,"Do not double free or leak pane on failure, from Uzair Aftab in GitHub issue 5316.",1,1,17,6,17,6,1,0,0,1,0,0,1,0,0,0,0,180,1,7,7,1,0,0,0,0
+tmux,6b9b6c0b0b,2026-07-02,9fd2edf3,Copy UTF-8 data correctly.,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,44,0,0,5,0,0,0,0,0
+tmux,70f37ef815,2026-07-02,77221af0,No vis.h in portable.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tmux,0a81f4d742,2026-07-02,9fd2edf3,Add a raw grid output to capture-pane for debugging and regression tests.,5,4,197,5,194,4,1,0,0,2,1,0,1,0,5,0,0,53,2,4,170,0,0,0,0,0
+tmux,0ad5035457,2026-07-02,9fd2edf3,Do not crash if no client.,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,267,1,1,1,0,0,0,0,0
+tmux,3ef51a469c,2026-07-01,9fd2edf3,move-pane needs -D.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,8dc9e24c74,2026-07-01,9fd2edf3,"Revert previous, it is not the right change.",1,1,2,11,2,11,0,0,0,1,0,0,0,1,0,0,0,81,1,2,2,0,0,0,0,0
+tmux,735bbf9da7,2026-07-01,9fd2edf3,Disable time expansion if expanding an inner format or more %s are needed.,1,1,11,2,11,2,0,0,0,1,0,0,1,0,0,0,0,84,1,5,5,0,0,0,0,0
+tmux,5e32eddb8c,2026-07-01,77221af0,Fix up merge.,1,1,14,28,14,28,1,0,0,0,11,0,0,0,29,0,0,0,0,0,12,0,0,0,0,0
+tmux,e802909de0,2026-07-01,77221af0,Fix so that the end of a synchronized update again triggers a redraw.,3,1,8,2,2,0,1,0,0,1,0,0,1,0,0,0,0,71,1,2,2,0,1,0,0,0
+tmux,824ef37f5f,2026-07-01,9fd2edf3,"Change layout sets to build the layout using the new mechanics, from Dane Jensen.",6,6,178,192,178,192,0,0,0,15,1,0,6,0,1,1,0,93,10,138,168,0,0,0,0,0
+tmux,565db46a19,2026-07-01,9fd2edf3,"Instead of fully redrawing the pane when sync ends, only redraw lines that have been changed.",4,4,142,51,142,51,0,0,0,20,2,0,2,0,4,1,0,134,8,28,127,0,0,0,0,0
+tmux,e9396e59d9,2026-07-01,9fd2edf3,Add a couple of format c/f and c/b to emit colours.,5,4,92,8,86,8,0,0,0,3,1,0,1,0,1,0,0,586,3,31,79,0,0,0,1,0
+tmux,724f85d275,2026-07-01,9fd2edf3,Do not draw to tty if PANE_REDRAW has been set since it is just going to be replaced.,1,1,35,21,35,21,0,0,0,16,0,0,0,0,1,0,0,134,6,11,32,0,0,0,0,0
+tmux,e69950a9ca,2026-07-01,9fd2edf3,"Add overline for ghostty also, GitHub issue 5309.",1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,96,1,1,1,0,0,0,0,0
+tmux,1e9a16a748,2026-06-30,9fd2edf3,And some other indentation.,1,1,11,12,11,12,0,0,0,1,0,0,0,1,0,0,0,95,1,11,11,0,0,0,0,0
+tmux,74a5069c0a,2026-06-30,9fd2edf3,Fix some indentation.,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,96,1,4,4,0,0,0,0,0
+tmux,928c7a9771,2026-06-30,77221af0,More checks for macOS.,3,3,37,1,37,1,0,0,0,2,0,0,0,0,2,0,0,23,0,0,30,0,0,0,0,0
+tmux,eda7e563d0,2026-06-30,9fd2edf3,Change a malloc to calloc.,1,1,1,12,1,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+tmux,f8674cc993,2026-06-30,9fd2edf3,"Add default features for Ghostty, GitHub issue 5305 from Glib Shpychka.",2,2,14,0,14,0,0,0,0,2,0,0,2,0,0,0,0,95,2,14,14,0,0,0,0,0
+tmux,abefc3f705,2026-06-30,9fd2edf3,"Redraw when sync stops again (accidentally turned off), from Japin Li in GitHub issue 5304.",1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+tmux,0e418b62d2,2026-06-30,77221af0,Remove C-r from help.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tmux,a97f643bd3,2026-06-30,9fd2edf3,Remove C-r from help since it does not in fact exist.,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tmux,dbe50934b1,2026-06-30,77221af0,Add caching of scrollbar options to 3.7a branch.,7,7,80,91,80,91,0,0,0,17,0,0,4,6,0,0,0,125,10,61,78,0,0,0,0,0
+tmux,e06207c914,2026-06-29,9fd2edf3,Cache scrollbar options in window to avoid a slow lookup when working out visible ranges.,8,8,73,95,73,95,0,0,0,19,0,0,1,4,0,0,0,141,6,36,72,0,0,0,0,0
+tmux,166267c87a,2026-06-29,9fd2edf3,"Allow :. in names again, forbidding them is overly pernickety. Only forbid invalid UTF-8 and #(.",12,12,35,63,35,63,0,0,0,17,0,0,0,1,0,0,0,260,7,17,35,0,0,0,0,0
+tmux,65a032b205,2026-06-29,9fd2edf3,"Allow :. in names again, forbidding them is overly pernickety. Only forbid invalid UTF-8 and #(.",12,12,35,63,35,63,0,0,0,17,0,0,0,1,0,0,0,260,7,17,35,0,0,0,0,0
+tmux,bcd54d12d8,2026-06-29,9fd2edf3,Add link=/nolink to styles to specific a hyperlink. GitHub issue 4280 from Moritz Angermann.,5,4,82,6,60,6,0,0,0,4,0,0,4,0,1,0,0,332,4,29,44,0,0,0,0,0
+tmux,95719e342d,2026-06-29,9fd2edf3,Limit hyperlink URIs to 1024 bytes which seems enough and allows us not to have to worry about gigan,1,1,7,2,7,2,0,0,0,1,0,0,0,0,0,0,0,37,0,0,7,0,0,0,0,0
+tmux,132a63d1da,2026-06-29,9fd2edf3,Allow empty window and session names.,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+tmux,5df51a06f5,2026-06-29,9fd2edf3,Allow empty window and session names.,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+tmux,ad74c5ed7f,2026-06-29,77221af0,Add additional grid consistency checks for macOS.,1,1,46,3,46,3,0,0,0,6,0,0,2,0,2,0,0,50,2,2,37,0,0,0,0,0
+tmux,c29b41e527,2026-06-29,9fd2edf3,"Make pane scrollbars able to auto-hide after a short timeout. This replaces the previous ""modal"" beh",14,13,379,53,355,42,0,0,0,29,1,0,10,0,13,0,0,308,14,95,325,0,0,0,0,0
+tmux,4e612612dc,2026-06-29,9fd2edf3,Only forbid #( in names and titles (styles are #[ and are useful).,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+tmux,2dc704abb6,2026-06-28,77221af0,"Always set SIXEL aspect ratio to 1:1, GitHub issue 5291 from James Holderness.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,70,1,1,1,0,0,0,0,0
+tmux,96899dc527,2026-06-28,9fd2edf3,Only forbid #( in names and titles (styles are #[ and are useful).,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+tmux,7cd33ce0dd,2026-06-27,9fd2edf3,Set view name immediately when entering mode.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,43,0,0,1,0,0,0,0,0
+tmux,e0dd40f812,2026-06-27,9fd2edf3,Clear lines before writing in copy mode to avoid leaving stray text when new line is shorter than ol,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,81,1,2,2,0,0,0,0,0
+tmux,79f0f97495,2026-06-27,9fd2edf3,"Make split-window create a new floating pane if used in a floating pane, rather than just complainin",2,1,128,93,1,1,0,0,0,1,0,0,0,0,0,0,0,179,1,1,1,0,0,0,1,0
+tmux,5e0b0a2aa3,2026-06-27,9fd2edf3,Pulled code out of layout_split_pane for reuse and added layout_insert_tile. From Dane Jensen.,2,2,184,44,184,44,0,0,0,1,1,0,0,1,5,0,0,83,1,6,142,0,0,0,1,0
+tmux,e24969b422,2026-06-27,9fd2edf3,"Add a helper to swap a node into the place of a leaf, from Dane Jensen.",2,2,36,21,36,21,0,0,0,3,0,0,0,2,1,0,0,119,2,2,22,0,0,0,0,0
+tmux,dd02989e88,2026-06-27,9fd2edf3,"Invalidate scene when changing window Z index, from Dane Jensen.",1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+tmux,7383c04205,2026-06-27,9fd2edf3,"Preseve prompt flags across line clear, from Aung Myo Kyaw.",2,2,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,6,0,0,0,0,0
+tmux,84291b021f,2026-06-27,77221af0,Fix check so as to not use NULL name.,2,1,5,1,1,1,1,0,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+tmux,5be44a6c03,2026-06-26,9fd2edf3,Use linked sessions not active.,1,1,1,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,81f88f8517,2026-06-26,77221af0,Add a missing {.,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,3,0,154,1,1,1,0,0,0,0,0
+tmux,c0f213b056,2026-06-26,9fd2edf3,Add info modes to tree mode like for clients.,2,1,168,1,166,0,0,0,0,2,1,0,1,0,1,0,0,126,1,7,155,0,0,0,0,0
+tmux,575f84ce0f,2026-06-26,9fd2edf3,"Add switch-mode a fast switcher with fuzzy searching, bound to Tab (for windows) or BTab (S-Tab, for",12,10,1467,11,1381,6,0,0,0,7,11,0,3,1,32,0,0,300,4,5,1092,0,0,0,0,0
+tmux,973c4ab569,2026-06-26,9fd2edf3,Drop mouse movement events rather than redrawing unnecessarily.,1,1,6,0,6,0,0,0,0,1,0,0,1,0,0,0,0,26,1,2,2,0,0,0,0,0
+tmux,f59921ce18,2026-06-26,9fd2edf3,Use underscore for current in status line.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tmux,ec3c65122f,2026-06-26,9fd2edf3,message-command-style should be inverse of message-style.,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tmux,4869a5165a,2026-06-26,9fd2edf3,Add tree-mode-selection-style to continue the process of moving away from mode-style.,3,2,18,1,10,1,0,0,0,1,0,0,0,0,0,0,0,199,1,1,9,0,0,0,0,0
+tmux,73fd01c986,2026-06-26,9fd2edf3,"Some colour fixes and tweaks (marked pane, cursor colours now work).",7,6,38,11,31,9,1,0,0,5,0,0,2,0,0,0,0,199,2,9,29,0,0,0,0,0
+tmux,19db019e0c,2026-06-26,9fd2edf3,Do not force theme colours to default when capturing.,1,1,25,7,25,7,0,0,0,3,0,0,2,0,0,0,0,52,2,16,25,0,0,0,0,0
+tmux,d0bf3bf06d,2026-06-26,9fd2edf3,"Add ability to float a tiled pane to break-pane, from Dane Jensen.",5,4,159,39,120,38,0,0,0,6,1,0,1,2,2,0,0,123,3,15,101,0,0,0,0,0
+tmux,dd2fef6673,2026-06-26,9fd2edf3,"Do not count arguments starting - as optional arguments, makes old resize-pane syntax work. GitHub i",2,2,21,5,21,5,0,0,0,2,0,0,2,0,0,0,0,126,2,18,19,0,0,0,0,0
+tmux,8e79c4a03d,2026-06-26,9fd2edf3,"Bump style buffer to 1024, GitHub issue 5279 from Moritz Angermann.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,115,1,1,1,0,0,0,0,0
+tmux,f5e9bcc1fc,2026-06-26,9fd2edf3,Another couple of bits look nicer in grey.,2,2,22,22,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,1,0
+tmux,3631f81236,2026-06-26,9fd2edf3,Apply better colours to various builtin bits in modes.,9,8,364,198,356,198,0,0,0,10,0,0,8,0,1,0,0,298,8,141,351,0,0,0,0,0
+tmux,569e9d932f,2026-06-25,9fd2edf3,"Make the default colours more conservative, its really the greys that matter.",1,1,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+tmux,8c55a388cd,2026-06-25,9fd2edf3,Add nicer dark and light colour sets (themes) used on terminals with 256 or more colours. Currently ,8,7,478,29,427,29,0,0,0,16,0,0,9,0,4,0,0,104,9,33,376,0,0,0,0,0
+tmux,2d0845860a,2026-06-25,9fd2edf3,Fix scrollbar with a format colour.,1,1,10,3,10,3,0,0,0,1,0,0,0,0,0,0,0,29,0,0,10,0,0,0,0,0
+tmux,0d016195ac,2026-06-25,9fd2edf3,Expand colours as formats like styles.,9,9,101,38,101,38,0,0,0,7,2,0,2,1,1,0,0,189,5,51,96,0,0,0,0,0
+tmux,7c1ef6a387,2026-06-25,9fd2edf3,Format variable for client colours.,2,1,31,0,30,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,26,0,0,0,0,0
+tmux,51d037e881,2026-06-25,9fd2edf3,"Major rework of prompts. The basic prompt mechanics (draw, editing, etc) are now wrapped up in promp",19,17,2817,1739,2812,1738,0,0,0,31,19,11,7,4,69,33,0,298,18,279,2301,0,0,0,0,0
+tmux,6b1219b370,2026-06-24,9fd2edf3,Ignore mouse when help is open.,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,251,1,3,3,0,0,0,0,0
+tmux,ba9faae8b6,2026-06-24,9fd2edf3,Free modes rather than going through reset when pane is destroyed as the reset path may try to destr,1,1,16,1,16,1,0,0,0,1,0,0,0,0,1,0,0,32,0,0,13,0,0,0,0,0
+tmux,280a962328,2026-06-24,9fd2edf3,Replace two-value prompt_mode enum with a flag.,2,2,9,13,9,13,0,0,0,3,0,0,0,1,0,0,0,143,3,8,9,0,0,0,0,0
+tmux,37633ff957,2026-06-24,9fd2edf3,Add some enums for prompt return values to make them a bit less confusing.,8,8,143,109,143,109,0,0,0,18,0,0,1,0,0,0,0,308,6,48,134,0,0,0,0,0
+tmux,0a71af41be,2026-06-24,9fd2edf3,"Handle different borders in move-pane, from Dane Jensen.",1,1,7,2,7,2,0,0,0,1,0,0,1,0,0,0,0,63,1,7,7,0,0,0,0,0
+tmux,8fb484da37,2026-06-24,9fd2edf3,"Remove target completion which never worked very well, leave only command completion.",1,1,22,239,22,239,0,0,0,4,0,2,0,1,0,2,0,49,2,19,21,0,0,0,1,0
+tmux,55cfdbaa3f,2026-06-23,9fd2edf3,"Remove fuzzy match operator again for now, this will be done differently.",2,1,3,60,1,51,0,0,0,1,0,0,0,0,0,2,0,26,0,0,1,0,0,0,1,0
+tmux,1b5a07a740,2026-06-23,9fd2edf3,Rename prompt-input to match the usual format names.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,95,1,1,1,0,0,0,0,0
+tmux,89027bd22c,2026-06-23,9fd2edf3,Fix MOVE flag handling and remove key code (not actually needed).,7,7,52,48,52,48,1,0,0,16,0,0,1,1,1,1,0,308,5,16,47,0,0,0,1,0
+tmux,0c5e6770df,2026-06-23,9fd2edf3,Turn off preview if no draw callback and add a function to move to top.,2,2,11,2,11,2,0,0,0,2,0,0,1,1,1,0,0,247,2,3,10,0,0,0,1,0
+tmux,c0a5e10313,2026-06-23,9fd2edf3,Use flags for input callback instead of a single int done so the callback can be told about cursor m,7,7,53,39,53,39,0,0,0,15,0,0,0,1,1,0,0,315,5,23,50,0,0,0,0,0
+tmux,505d557fbb,2026-06-23,77221af0,"Fix SIXEL, from Marc Haesen.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,106,1,1,1,0,0,0,0,0
+tmux,de086f9848,2026-06-23,9fd2edf3,"Fix an infinite loop in customize mode when a filter does not match, and tweak a tmux.1 example.",3,2,9,8,8,7,1,0,0,3,0,0,1,0,0,0,0,71,1,1,8,0,0,0,0,0
+tmux,9dba08ac8b,2026-06-23,9fd2edf3,"Allow -p more than 100%, and account for borders when sizing new panes. From Dane Jensen.",7,7,76,38,76,38,0,0,0,5,0,0,1,0,2,0,0,179,4,45,68,0,0,0,0,0
+tmux,3ec115115d,2026-06-23,9fd2edf3,"Do not leak error message, use it instead. From Dane Jensen.",1,1,7,5,7,5,1,0,0,1,0,0,1,0,0,0,0,52,1,7,7,0,0,0,0,0
+tmux,748ef8b2ae,2026-06-23,9fd2edf3,Extend match to do multiple terms.,2,1,33,4,31,3,0,0,0,1,0,0,0,0,1,0,0,18,0,0,23,0,0,0,0,0
+tmux,b82048eb18,2026-06-23,9fd2edf3,Add c key to clear filter.,2,1,19,0,15,0,0,0,0,1,0,0,1,0,1,0,0,248,1,4,13,0,0,0,0,0
+tmux,51b787e449,2026-06-23,77221af0,Fix SIXEL build.,4,3,14,1907,14,10,1,0,0,3,0,0,1,0,0,0,0,106,1,9,14,0,0,0,0,0
+tmux,e7f414416f,2026-06-23,9fd2edf3,Set check callback for menus so they aren't overwritten by sync.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,15,1,2,2,0,0,0,0,0
+tmux,265f22be49,2026-06-22,9fd2edf3,Make cursor movement exit incremental prompt (more like emacs).,1,1,25,0,25,0,0,0,0,1,0,0,1,0,1,0,0,317,1,8,22,0,0,0,0,0
+tmux,2a26c738bd,2026-06-22,9fd2edf3,Add z modifier to m operator for fuzzy match.,2,1,31,3,23,1,0,0,0,1,0,0,0,0,1,0,0,29,0,0,21,0,0,0,0,0
+tmux,02b37b3c69,2026-06-22,9fd2edf3,Fix scrollbar pad to work even if not set in style.,2,2,19,15,19,15,0,0,0,2,0,0,0,0,0,0,0,60,1,1,17,0,0,0,0,0
+tmux,d8370864f3,2026-06-22,9fd2edf3,Memory leak from someone in GitHub issue 5259.,1,1,3,1,3,1,1,0,0,1,0,0,1,0,0,0,0,180,1,3,3,0,0,0,0,0
+tmux,49dff83a00,2026-06-22,9fd2edf3,Set check callback for menus so they aren't overwritten by sync.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,15,1,2,2,0,0,0,0,0
+tmux,95afd7549c,2026-06-22,9fd2edf3,Rewrite screen-redraw.c to make it tidier and more maintainable. A scene is generated and cached in ,16,15,1758,1248,1757,1248,0,0,0,22,15,12,5,0,47,24,0,119,12,46,1463,0,0,0,0,0
+tmux,e680420c89,2026-06-22,9fd2edf3,"Place floating cells meaningfully into the layouts, from Dane Jensen.",3,3,19,13,19,13,0,0,0,3,1,0,0,0,0,0,0,74,3,14,16,0,0,0,0,0
+tmux,347baa6f3e,2026-06-21,9fd2edf3,"Do not walk off end or beginning of menu item list if every item is disabled, GitHub issue 5255 from",1,1,3,3,3,3,0,0,0,1,0,0,1,0,0,0,0,194,1,3,3,0,0,0,0,0
+tmux,1fc4dcb76f,2026-06-20,9fd2edf3,"Error if key is unknown rather than just carry on, GitHub issue 5248.",1,1,6,1,6,1,0,0,0,1,0,0,1,0,0,0,0,81,1,6,6,0,0,0,0,0
+tmux,047f61aad6,2026-06-19,9fd2edf3,popup_write can be deleted now also.,2,2,16,145,16,145,0,0,0,2,0,0,0,2,0,4,0,99,2,8,16,0,0,0,0,0
+tmux,d04b1ffca5,2026-06-19,9fd2edf3,Use a floating pane for the buffer mode editor instead of a popup.,4,4,275,11,275,11,0,0,0,10,2,0,3,0,6,0,0,227,3,36,250,0,0,0,0,0
+tmux,c93e2f2332,2026-06-19,9fd2edf3,Do not loop forever if a pane ends up with borders the wrong way round.,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,141,1,4,4,0,0,0,0,0
+tmux,6c46358be8,2026-06-19,9fd2edf3,Draw help directly instead of using a popup.,5,5,116,89,116,89,0,0,0,3,2,1,2,0,2,0,0,244,3,12,111,0,0,0,0,0
+tmux,624db256c6,2026-06-19,9fd2edf3,Add a loop_index variable and use it to show last used 5 sessions on the session menu instead of nex,3,2,21,33,20,33,0,0,0,5,0,0,0,2,0,1,0,298,3,10,20,0,0,0,0,0
+tmux,f06d930445,2026-06-19,9fd2edf3,"Correctly report theme changes to panes, based on a fix from someone in GitHub issue 5246.",1,1,9,2,9,2,1,0,0,1,0,0,0,0,0,0,0,29,0,0,9,0,0,0,0,0
+tmux,b29f5688bd,2026-06-19,9fd2edf3,Make default M-C-Up/Down bound to prompt movement commands in copy mode.,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,298,1,2,2,0,0,0,0,0
+tmux,b1c72ec48c,2026-06-19,9fd2edf3,Use a helper and skip some setup for empty cells.,1,1,46,34,46,34,0,0,0,1,1,0,0,1,1,0,0,174,1,16,37,0,0,0,0,0
+tmux,e7f649e40a,2026-06-19,9fd2edf3,Tidy up a bit in tty_draw_line.,1,1,9,9,9,9,0,0,0,1,0,0,1,0,0,0,0,179,1,8,8,0,0,0,0,0
+tmux,12fdcea8b8,2026-06-19,77221af0,"Get use of raster attributes in the right order, from aizumusheer2 at gmail dot com in GitHub issue ",1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,52,1,4,4,0,0,0,0,0
+tmux,035447b08f,2026-06-19,9fd2edf3,Do not dereference the current window if it is NULL (can be if the notification fires after session ,1,1,8,0,8,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+tmux,14fc4a06a6,2026-06-18,9fd2edf3,Unescape arguments before passing to format_expand1 so that escaping :s etc actually works.,1,1,12,10,12,10,0,0,0,3,1,0,0,0,0,0,0,563,3,12,12,1,0,0,0,0
+tmux,cba4ba9cdc,2026-06-18,9fd2edf3,Check time periodically in loops rather than every one.,1,1,18,8,18,8,0,0,0,6,0,0,1,0,0,0,0,563,3,5,15,0,0,0,0,0
+tmux,0a6c846091,2026-06-18,9fd2edf3,"Use evbuffer for building S, W, L lists, also add an xmemdup helper instead of misusing asprintf.",3,3,64,35,64,35,0,0,0,11,1,0,1,0,1,0,0,63,2,22,62,0,0,0,0,0
+tmux,d92a479d2f,2026-06-18,9fd2edf3,Add a dim= style attribute to dim the colours (as best as tmux is able to). GitHub issue 4842.,11,10,115,16,112,16,0,0,0,14,0,0,5,0,2,0,0,212,6,39,100,0,0,0,0,0
+tmux,b1b184cdb8,2026-06-18,9fd2edf3,"Add functions to work out cell neighbours, and to remove a tiled cell. From Dane Jensen.",2,2,101,18,101,18,0,0,0,1,0,1,0,0,3,0,0,44,1,16,72,0,0,0,1,0
+tmux,1a6de01210,2026-06-18,9fd2edf3,Check the panes again if deferred redraw to make sure the flag is always set. Also add a helper for ,1,1,22,17,22,17,0,0,0,1,0,0,0,1,1,0,0,75,1,5,19,0,0,0,0,0
+tmux,3485e1c089,2026-06-17,9fd2edf3,Tidy up server_client_check_redraw. Get rid of the bitmask tracking panes which want redraw for defe,3,3,56,104,56,104,0,0,0,2,0,0,0,1,0,0,0,86,1,29,31,0,0,0,0,0
+tmux,1ba8fa6f04,2026-06-17,9fd2edf3,Fix shifts to 1ULL and check scrollbar even if pane is not being redrawn.,1,1,7,6,7,6,1,0,0,1,0,0,1,0,0,0,0,130,1,7,7,0,0,0,0,0
+tmux,3b8e25fef4,2026-06-17,9fd2edf3,Initialize wname so it we are not freeing garbage if it is not used.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,109,1,1,1,0,0,0,0,0
+tmux,64e83caf04,2026-06-17,9fd2edf3,"Be more strict about what names and titles we allow and reject them immediately when possible, but a",17,17,146,82,146,82,0,0,0,18,0,0,3,2,4,0,0,260,8,84,134,1,0,0,0,0
+tmux,d4defd943a,2026-06-17,9fd2edf3,Add -M to move-pane and default bindings for M-drag. From Michael Grant.,4,3,96,12,91,11,0,0,0,3,3,2,2,0,4,2,0,296,2,4,76,0,0,0,0,0
+tmux,eafd2bed5d,2026-06-17,9fd2edf3,FIx a couple of minor errors in use of layout_cell_is_tiled.,1,1,5,5,5,5,1,0,0,2,0,0,0,0,0,0,0,49,2,5,5,0,0,0,1,0
+tmux,9ad75e1dc3,2026-06-16,9fd2edf3,Rename the visible ranges functions since they really relate to windows and put them nto a new file.,7,6,251,229,250,229,0,0,0,14,1,1,0,4,2,2,0,134,12,19,180,0,0,0,0,0
+tmux,762e503978,2026-06-16,9fd2edf3,Allow rectangle selection to extend past end of current line to behave the same as vi with virtualed,1,1,6,2,6,2,0,0,0,1,0,0,1,0,0,0,0,52,1,2,2,0,0,0,0,0
+tmux,4b772fd783,2026-06-16,9fd2edf3,Allow rectangle selection to extend past end of current line to behave the same as vi with virtualed,1,1,6,2,6,2,0,0,0,1,0,0,1,0,0,0,0,52,1,2,2,0,0,0,0,0
+tmux,c809aea278,2026-06-16,77221af0,Fix a merge problem.,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+tmux,2f28d9a168,2026-06-16,9fd2edf3,"Fix resizing floating pane with a left scrollbar, from Michael Grant.",2,2,34,12,34,12,1,0,0,2,0,0,2,0,0,0,0,113,2,34,34,0,0,0,0,0
+tmux,2c4df765c5,2026-06-16,9fd2edf3,Fix missing border when drawing floating panes. From Michael Grant.,1,1,12,13,12,13,1,0,0,1,0,0,0,1,0,0,0,103,1,12,12,0,0,0,0,0
+tmux,fcbb6a7384,2026-06-16,9fd2edf3,Initialize wname so it we are not freeing garbage if it is not used.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,109,1,1,1,0,0,0,0,0
+tmux,bdc01f44de,2026-06-16,9fd2edf3,"Fix resizing floating pane with a left scrollbar, from Michael Grant.",2,2,34,12,34,12,1,0,0,2,0,0,2,0,0,0,0,113,2,34,34,0,0,0,0,0
+tmux,d2c23773ff,2026-06-16,9fd2edf3,Fix missing border when drawing floating panes. From Michael Grant.,1,1,12,13,12,13,1,0,0,1,0,0,0,1,0,0,0,107,1,12,12,0,0,0,0,0
+tmux,30e133d36a,2026-06-16,9fd2edf3,"Fix default window check in break-pane, from Dane Jensen.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+tmux,0890df5891,2026-06-16,9fd2edf3,"Add layout_cell_is_tiled and layout_cell_has_tiled_child helper functions, from Dane Jensen.",1,1,75,20,75,20,0,0,0,5,2,0,0,0,3,0,0,49,3,11,52,0,0,0,0,0
+tmux,482e254a49,2026-06-15,9fd2edf3,"Rename window_pane_visible to match other functions, from Dane Jensen.",6,6,16,16,16,16,0,0,0,13,0,0,0,0,1,1,0,151,6,7,16,0,0,0,0,0
+tmux,eb65331403,2026-06-15,9fd2edf3,"Be more strict about what names and titles we allow and reject them immediately when possible, but a",17,17,144,81,144,81,0,0,0,18,0,0,3,1,1,0,0,260,8,82,132,1,0,0,0,0
+tmux,2d9afa6348,2026-06-15,9fd2edf3,Use correct x position when drawing clipped line.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+tmux,bae5c14941,2026-06-15,9fd2edf3,Tidy up screen_redraw_get_visible_ranges by using a couple of temporaries for start and end of range,1,1,16,22,16,22,0,0,0,1,0,0,0,1,0,0,0,116,1,16,16,0,0,0,1,0
+tmux,9cf8de099c,2026-06-15,9fd2edf3,Convert cursor position back to pane coordinates for tty_cmd_cell.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,131,1,1,1,0,0,0,0,0
+tmux,b86bd1fcd0,2026-06-15,9fd2edf3,Add pane-border-lines none like popups (-B to new-pane).,8,7,79,29,77,29,0,0,0,8,0,0,6,0,0,0,0,137,6,64,71,0,0,0,0,0
+tmux,bb750b07bc,2026-06-15,9fd2edf3,"If the client is blocked, defer the redraw because it may end up partially discarded leading to redr",1,1,7,2,7,2,0,0,0,1,0,0,1,0,0,0,0,129,1,7,7,0,0,0,0,0
+tmux,0e6fe5a097,2026-06-15,9fd2edf3,Convert cursor position back to pane coordinates for tty_cmd_cell.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,135,1,1,1,0,0,0,0,0
+tmux,057b688fc7,2026-06-15,9fd2edf3,Tidy up screen_redraw_get_visible_ranges by using a couple of temporaries for start and end of range,1,1,16,22,16,22,0,0,0,1,0,0,0,1,0,0,0,116,1,16,16,0,0,0,1,0
+tmux,8ced9c332c,2026-06-15,9fd2edf3,Use correct x position when drawing clipped line.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+tmux,a41e6e2ed2,2026-06-15,9fd2edf3,Add -B to new-pane to select the floating pane border.,6,5,44,6,40,6,0,0,0,2,0,0,2,0,1,0,0,179,2,22,38,0,0,0,0,0
+tmux,7a18fa281d,2026-06-15,9fd2edf3,Add top-floating and bottom-floating to pane-border-status to show status line only on floating pane,7,6,65,32,59,31,0,0,0,14,0,0,5,0,1,0,0,105,7,19,54,0,0,0,0,0
+tmux,f98aaf544d,2026-06-15,9fd2edf3,"When redrawing a whole pane line, fall into tty_draw_line for any characters that are not plain ASCI",3,3,70,12,70,12,1,0,0,1,0,0,0,0,2,0,0,46,0,0,64,0,0,0,0,0
+tmux,78afc24736,2026-06-15,9fd2edf3,Fix various errors in redrawing:,1,1,13,9,13,9,1,0,0,5,0,0,2,0,0,0,0,122,4,12,13,0,0,0,0,0
+tmux,83e4534387,2026-06-15,9fd2edf3,Skip floating panes when working out the top or bottom cell. Fixes missing bottom status pane status,1,1,22,8,22,8,1,0,0,2,0,0,0,0,0,0,0,21,0,0,22,0,0,0,0,0
+tmux,97b5f22a70,2026-06-15,9fd2edf3,"When redrawing a whole pane line, fall into tty_draw_line for any characters that are not plain ASCI",3,3,70,13,70,13,1,0,0,1,0,0,0,0,2,0,0,46,0,0,64,0,0,0,0,0
+tmux,6e0e343f23,2026-06-14,9fd2edf3,Fix various errors in redrawing:,1,1,13,9,13,9,1,0,0,5,0,0,2,0,0,0,0,122,4,12,13,0,0,0,0,0
+tmux,cc27470cb6,2026-06-14,9fd2edf3,Skip floating panes when working out the top or bottom cell. Fixes missing bottom status pane status,1,1,22,8,22,8,1,0,0,2,0,0,0,0,0,0,0,21,0,0,22,0,0,0,0,0
+tmux,87976aa48e,2026-06-14,9fd2edf3,Add a helper to get pane-border-status for a window for some other changes to come.,7,7,34,29,34,29,0,0,0,13,0,0,1,2,2,1,0,303,10,16,33,0,0,0,0,0
+tmux,778a15b64a,2026-06-14,9fd2edf3,Take account of borders when resizing floating panes.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+tmux,cbe0f1f1e9,2026-06-14,77221af0,Another const from Jere Viikari.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,137,1,1,1,0,0,0,0,0
+tmux,97472e374f,2026-06-14,9fd2edf3,"Return early if connect construct cell, reported by Jere Viikari.",1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,47,1,2,2,0,0,0,0,0
+tmux,b1054ac227,2026-06-13,9fd2edf3,"With mode-keys vi, keep cursor in the same position relative to the text when scrolling. GitHub issu",2,1,22,0,12,0,0,0,0,2,0,0,2,0,0,0,0,72,2,10,10,0,0,0,0,0
+tmux,5b6ed54817,2026-06-13,9fd2edf3,"Add some missing const, from Jere Viikari.",4,4,13,12,13,12,0,0,0,6,0,0,0,0,0,0,0,401,4,9,13,0,0,0,0,0
+tmux,d23a2b7e97,2026-06-13,9fd2edf3,Skip floating cells when moving to previous cell for resize of tiled cells.,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,5,0,0,0,0,0
+tmux,ab92b27226,2026-06-13,9fd2edf3,Make the resize keys always change right and bottom borders for floating panes which is more intuiti,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,294,1,5,5,0,0,0,0,0
+tmux,b182791052,2026-06-13,9fd2edf3,Tidy up error messages from split-window.,2,2,22,9,22,9,0,0,0,2,0,0,1,0,0,0,0,164,2,22,22,0,0,0,1,0
+tmux,654758e622,2026-06-13,9fd2edf3,Add move-pane -z to move a pane to a particular the z-index.,2,1,54,10,43,5,0,0,0,2,0,0,1,0,1,0,0,118,2,3,37,0,0,0,1,0
+tmux,56779f9542,2026-06-13,9fd2edf3,Add Z index positions to move-pane -P.,3,2,86,30,61,9,0,0,0,2,0,0,1,0,0,0,0,294,2,61,61,0,0,0,0,0
+tmux,19393e13db,2026-06-13,9fd2edf3,"Add -P to move-pane to move a floating pane to a specific place (top-left, bottom-right). Get rid of",3,2,133,28,96,24,0,0,0,3,1,0,3,0,1,0,0,294,3,28,94,0,0,0,1,0
+tmux,aa2fd3a151,2026-06-13,9fd2edf3,"Add flags to move-pane to move floating panes around (-U, -D, -L, -R similar to resize-pane; -X, -Y ",3,2,115,10,89,3,0,0,0,1,1,0,1,0,1,0,0,76,1,9,79,0,0,0,1,0
+tmux,ec481ac82a,2026-06-13,9fd2edf3,Missed this one as well.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,7afee45635,2026-06-13,9fd2edf3,Use correct name for activity time.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,bc9252f6e3,2026-06-13,9fd2edf3,"Remove some stray code from an old floating panes implementation, from Dane Jensen.",1,1,0,4,0,4,0,0,0,1,0,0,0,1,0,0,0,107,1,0,0,0,0,0,1,0
+tmux,bf187170b1,2026-06-13,9fd2edf3,Extend client mode so the preview can be changed to a view with a summary of the client terminal and,5,4,154,6,150,5,0,0,0,4,0,0,3,0,2,0,0,164,3,17,131,0,0,0,0,0
+tmux,b44cdf1006,2026-06-13,9fd2edf3,"Add an I format modifier to get some bits of information about a client (terminal features, capabili",5,4,119,2,101,2,0,0,0,2,0,0,1,0,2,0,0,563,2,42,89,0,0,0,0,0
+tmux,34a6a9d3a1,2026-06-13,9fd2edf3,Change relative time for now to only work in the past and not show a sign which is more useful. Also,5,4,22,28,20,26,0,0,0,5,0,0,2,0,0,0,0,522,2,6,20,0,0,0,0,0
+tmux,b3deb9ec86,2026-06-12,666d82ba,fix tty_draw_line() indentation; ok nicm@,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,178,1,1,1,0,0,0,0,0
+tmux,dabaae1534,2026-06-12,9fd2edf3,"Make buffer creation time sort oldest first like it used to, but change windows to match sessions an",1,1,8,3,8,3,0,0,0,2,0,0,1,0,0,0,0,52,2,8,8,0,0,0,0,0
+tmux,574a4eccb5,2026-06-11,9fd2edf3,"Make buffer creation time sort oldest first like it used to, but change windows to match sessions an",1,1,8,3,8,3,0,0,0,2,0,0,1,0,0,0,0,52,2,8,8,0,0,0,0,0
+tmux,11b6e7844a,2026-06-11,9fd2edf3,"When MODE_SYNC is on, all terminal updates need to deferred, not just scrolling. Check the flag befo",2,2,44,9,44,9,0,0,0,15,0,0,7,0,0,0,0,135,7,27,43,0,0,0,0,0
+tmux,b6be437bab,2026-06-11,9fd2edf3,"Change send-keys -K to insert keys in the right place in the queue, like we already do for key bindi",3,3,51,8,51,8,0,0,0,4,1,1,2,0,2,0,0,191,3,16,46,0,0,0,0,0
+tmux,fa6d33f742,2026-06-11,9fd2edf3,Add a helper to free the list of pending resizes.,4,4,20,23,20,23,0,0,0,3,0,0,0,0,1,0,0,32,0,0,18,0,0,0,0,0
+tmux,3ea458b9dc,2026-06-11,9fd2edf3,"Add support for floating panes to resize-pane, from Dane Jensen.",4,3,172,42,147,33,0,0,0,3,0,0,2,0,2,0,0,123,2,71,123,0,0,0,0,0
+tmux,de60750506,2026-06-11,9fd2edf3,Hide Swap Marked also since floating panes cannot be swapped yet.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,7ec94fda08,2026-06-10,9fd2edf3,"Make list-keys only use a message if -1 is given, otherwise behave like other commands (stdout or mo",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,76,1,1,1,0,0,0,0,0
+tmux,4702e58ee5,2026-06-10,9fd2edf3,"Fix text to refer to status-keys not mode-keys, GitHub issue 5191.",1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,2719549cf2,2026-06-10,9fd2edf3,Rename new-pane -B to -W since -B is best kept to match -B to display-popup.,5,4,20,20,16,16,0,0,0,4,0,0,0,0,1,1,0,163,1,2,14,0,0,0,0,0
+tmux,c019b3dad9,2026-06-10,9fd2edf3,Use correct size when calculating status line right trim. GitHub issue 5098 from Aung Myo Kyaw.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,58,1,1,1,0,0,0,0,0
+tmux,8cb4aabb8b,2026-06-10,9fd2edf3,Replace refresh-from-pane in copy mode with a way to automatically update as pane content changes. T,5,4,284,19,271,17,0,0,0,10,1,0,1,0,10,1,0,292,2,3,191,0,0,0,0,0
+tmux,c6c8f77bc0,2026-06-10,9fd2edf3,"While grouped sessions are being killed, it can leave session which are not really useful as targets",1,1,16,0,16,0,0,0,0,1,0,0,0,0,1,0,0,23,0,0,14,0,0,0,0,0
+tmux,f415a70c0b,2026-06-10,77221af0,Merge two SIXEL blocks.,1,1,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tmux,5c0db5a293,2026-06-09,9fd2edf3,Preserve the original text in the first line for display-panes.,1,1,4,3,4,3,0,0,0,1,0,0,1,0,0,0,0,31,1,4,4,0,0,0,0,0
+tmux,d533d7c97c,2026-06-09,9fd2edf3,Add a context for cell/palette/hyperlinks when drawing to tty to avoid passing so much in parameters,10,10,125,125,125,125,0,0,0,36,0,0,6,8,0,0,0,178,16,68,109,0,0,0,0,0
+tmux,34dd42dc7f,2026-06-09,9fd2edf3,Use name as marker for failure not type (which must be set to be in the error).,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,82,1,4,4,0,0,0,0,0
+tmux,b374868750,2026-06-09,9fd2edf3,Add missing headers.,2,2,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+tmux,4a3f380fd2,2026-06-09,9fd2edf3,"Add -f for filter with -a to kill-pane, kill-window, kill-session. GitHub issue 4782.",4,3,211,56,190,56,0,0,0,3,0,1,0,0,6,0,0,32,1,11,158,0,0,0,0,0
+tmux,cc87db74c7,2026-06-09,9fd2edf3,"Two fixes for RI codepoints. Firstly, do not combine more than two of them - previously we were endi",2,2,25,1,25,1,1,0,0,2,0,0,2,0,1,0,0,93,2,8,22,0,0,0,0,0
+tmux,a42e425d44,2026-06-09,9fd2edf3,"Two fixes for RI codepoints. Firstly, do not combine more than two of them - previously we were endi",2,2,25,1,25,1,1,0,0,2,0,0,2,0,1,0,0,93,2,8,22,0,0,0,0,0
+tmux,d5c9196348,2026-06-09,9fd2edf3,"Add -B to new-pane/split-window to block until the command exits, like run-shell -b.",5,4,62,3,50,2,0,0,0,4,0,0,1,0,1,0,0,163,1,4,33,0,0,0,1,0
+tmux,8771b6051f,2026-06-09,9fd2edf3,"Fix mouse events on tiled pane status line - when panes share a border, prefer the pane for which th",2,2,23,7,23,7,1,0,0,2,0,0,1,1,0,0,0,93,2,13,13,0,0,0,0,0
+tmux,27c58c764d,2026-06-09,9fd2edf3,"Do not use NULL arguments, bug spotted by Dane Jensen.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+tmux,fd10db5a62,2026-06-08,9fd2edf3,"Fix mouse events on tiled pane status line - when panes share a border, prefer the pane for which th",2,2,23,7,23,7,1,0,0,2,0,0,1,1,0,0,0,93,2,13,13,0,0,0,0,0
+tmux,a6a06c5aa6,2026-06-08,9fd2edf3,"Fix squash-groups skipping every session, GitHub issue 5180 from Bryce Miller.",1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,43,1,4,4,0,0,0,0,0
+tmux,4d1ab1ba2a,2026-06-08,9fd2edf3,"Allow ACLs to use groups as well as users, GitHub issue 4917.",5,4,232,150,202,142,0,0,0,7,0,0,1,0,9,6,0,82,1,40,180,0,0,0,0,0
+tmux,bf2e078ecf,2026-06-08,9fd2edf3,"Add a relative time option for time formatting, GitHub issue 5009.",2,1,58,3,50,1,0,0,0,2,0,0,2,0,1,0,0,521,2,5,45,0,0,0,0,0
+tmux,a0f4038df2,2026-06-08,9fd2edf3,"Add a -h flag to choose-tree and choose-client to hide the pane containing the mode, intended for us",4,3,67,17,31,7,0,0,0,6,1,0,2,0,0,0,0,127,3,20,31,0,0,0,0,0
+tmux,df7c2e605b,2026-06-08,9fd2edf3,Add -T to new-pane to set the title; GitHub issue 5176 from Michael Grant.,2,1,33,9,11,5,0,0,0,1,0,0,1,0,0,0,0,159,1,7,11,0,0,0,0,0
+tmux,ea51cdb3f2,2026-06-08,9fd2edf3,Add display-panes-format to change the top-of-pane text shown with display-panes.,2,2,46,9,46,9,0,0,0,1,1,0,0,1,1,0,0,119,1,4,41,0,0,0,0,0
+tmux,fe986a52d6,2026-06-08,9fd2edf3,"When entering or leaving the alternate screen, discard any pending resizes. Improves flicking with s",4,4,24,14,24,14,0,0,0,5,0,0,1,0,0,0,0,40,1,2,21,0,0,0,0,0
+tmux,34fd261a4f,2026-06-08,9fd2edf3,Add a -k flag to choose commands to kill the pane when the mode is exited (useful with floating pane,2,2,14,8,14,8,0,0,0,2,0,0,0,0,0,0,0,33,0,0,13,0,0,0,0,0
+tmux,85d72b9952,2026-06-08,9fd2edf3,"Return immediately if the list is empty in mode_tree_key instead of crashing, from Bryce Miller in G",1,1,5,0,5,0,1,0,0,1,0,0,1,0,0,0,0,238,1,3,3,0,0,0,0,0
+tmux,529afada82,2026-06-07,9fd2edf3,Move checking of whether the cursor is visible inside the if so that it always hits the calculation ,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,83,1,3,3,0,0,0,1,0
+tmux,a532f4868f,2026-06-07,9fd2edf3,Add -H flag to capture-pane to show hyperlinks.,4,3,83,13,74,10,0,0,0,4,1,0,2,0,1,0,0,144,2,22,65,0,0,0,0,0
+tmux,ae5e0e8c05,2026-06-07,9fd2edf3,Add -L to show line numbers with capture-pane and -F to show line flags.,2,1,54,7,39,6,0,0,0,1,0,0,1,0,0,0,0,127,1,27,29,0,0,0,0,0
+tmux,42f3e7f7ce,2026-06-07,9fd2edf3,Clear entire lines when removing from history or freeing.,1,1,5,6,5,6,0,0,0,2,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+tmux,3acd247f5d,2026-06-07,9fd2edf3,Redraw entire session when making a new pane.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,153,1,1,1,0,0,0,0,0
+tmux,343ee5ece1,2026-06-07,9fd2edf3,"Add -g flag to kill-session to kill all sessions in a group, GitHub issue 5157 from github at jiku d",2,1,14,3,9,2,0,0,0,1,0,0,0,0,0,0,0,32,0,0,9,0,0,0,0,0
+tmux,0256ee77c2,2026-06-07,9fd2edf3,"Add some additional environment variables needed for Wayland, from shbernal dot 01 at gmail dot com.",1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tmux,ef8e9df02f,2026-06-07,9fd2edf3,Tweak previous.,1,1,8,3,8,3,0,0,0,1,0,0,1,0,0,0,0,153,1,8,8,0,0,0,0,0
+tmux,306ee0eddb,2026-06-07,9fd2edf3,Add -E to split-window to explicitly make an empty pane rather than requiring an empty command.,2,1,19,12,11,5,0,0,0,1,0,0,1,0,0,0,0,148,1,8,10,0,0,0,1,0
+tmux,5744021ac9,2026-06-07,9fd2edf3,"Allow floating panes to be created partially off the window, based on a change from Michael Grant.",3,3,9,9,9,9,0,0,0,3,0,0,0,0,0,0,0,143,3,9,9,0,0,0,0,0
+tmux,c9e22ab67b,2026-06-07,9fd2edf3,"Enable floating panes. These are panes which sit above the layout (""tiled panes"") like popups but un",3,2,4,1,2,1,0,0,0,2,0,0,1,0,0,0,0,292,2,2,2,1,0,0,0,0
+tmux,4063f968c6,2026-06-07,9fd2edf3,Do not allow swapping floating panes for the moment.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,111,1,1,1,0,0,0,0,0
+tmux,3a72f3beb8,2026-06-06,9fd2edf3,"Use correct X position for visible range checks in screen_write_fast_copy, GitHub issue 5164 from Ba",1,1,7,5,7,5,0,0,0,1,0,0,1,0,0,0,0,47,1,7,7,0,0,0,0,0
+tmux,35709a30ee,2026-06-06,9fd2edf3,Change so that floating panes are always part of the root layout. From Dane Jensen.,3,3,96,57,96,57,0,0,0,9,0,0,2,1,1,0,0,143,4,34,77,0,0,0,0,0
+tmux,d7a2b52da8,2026-06-05,9fd2edf3,"Add a way to quote for command arguments and use for key in list-keys, GitHub issue 5153.",3,2,16,3,9,1,0,0,0,2,0,0,2,0,0,0,0,519,2,7,9,0,0,0,0,0
+tmux,6beebbe074,2026-06-04,9fd2edf3,"Fix scrollbar drag position when window is taller than tty, from Michael Grant.",3,3,24,11,24,11,1,0,0,5,0,0,2,0,0,0,0,69,2,9,18,0,0,0,0,0
+tmux,580f9ced08,2026-06-03,9fd2edf3,Change run-shell expansion to just be #{1} etc not #1 which interferes with colours.,2,1,1,11,1,8,0,0,0,1,0,0,0,1,0,0,0,146,1,1,1,0,0,0,0,0
+tmux,642cc15b99,2026-06-03,9fd2edf3,"Change so panes scroll when the cursor is at the top instead of halfway down, from Michael Grant.",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tmux,390207cdf1,2026-06-02,9fd2edf3,"Use new layout functions for join-pane also, from Dane Jensen.",2,2,5,47,5,47,0,0,0,2,0,0,1,1,0,0,0,143,2,5,5,0,0,0,0,0
+tmux,a3bf632276,2026-06-02,9fd2edf3,"Move cell creation into layout.c, from Dane Jensen.",4,4,150,184,150,184,0,0,0,1,2,2,1,0,2,4,0,142,1,5,127,0,0,0,1,0
+tmux,ae6a749d3a,2026-06-02,9fd2edf3,Move the PANE_FLOATING flag into the layout cell and add an accessor. From Dane Jensen.,14,14,69,52,69,52,0,0,0,35,0,0,1,0,1,0,0,217,19,36,64,0,0,0,1,0
+tmux,35f4c8b333,2026-06-02,9fd2edf3,Fix border colour bug in the floating panes branch where inactive floating pane borders incorrectly ,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,0
+tmux,9725a0b9bf,2026-06-01,9fd2edf3,Remove the actual LAYOUT_FLOATING enum member.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tmux,b368e89bea,2026-06-01,9fd2edf3,"Remove LAYOUT_FLOATING and disable custom layouts with floating panes for now, from Dane Jensen.",2,2,10,72,10,72,0,0,0,11,0,1,0,5,0,0,0,89,6,7,8,0,0,0,1,0
+tmux,3269833caa,2026-06-01,9fd2edf3,"Fix vertical position of scrollbar having wrong vertical offset when status-position top, from Micha",1,1,6,6,6,6,1,0,0,1,0,0,0,0,0,0,0,92,1,4,4,0,0,0,0,0
+tmux,922f7d1645,2026-06-01,9fd2edf3,"Fix resize of floating panes with pane-border-status top, from Michael Grant.",1,1,3,8,3,8,1,0,0,1,0,0,0,1,0,0,0,30,1,2,2,0,0,0,0,0
+tmux,a1873fef61,2026-06-01,9fd2edf3,"Only set saved_layout_cell if creating a new cell, avoids crash when respawning pane. Reported by Mi",1,1,17,15,17,15,1,0,0,1,0,0,1,0,0,0,0,215,1,13,13,0,0,0,0,0
+tmux,f6557d1ea2,2026-06-01,9fd2edf3,Add a Z sort order in tree mode.,6,5,44,16,41,14,0,0,0,10,0,0,7,0,1,0,0,52,7,12,37,0,0,0,0,0
+tmux,cd6c01e42b,2026-06-01,9fd2edf3,Mark floating panes in tree mode.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tmux,b68ab3a4b4,2026-06-01,9fd2edf3,"Add pane_x, y, z format variables and show in list-panes.",3,2,61,4,58,4,0,0,0,1,0,0,1,0,3,0,0,66,1,10,51,0,0,0,0,0
+tmux,67dbf01eeb,2026-06-01,9fd2edf3,"Add some more DECRQM responses, from Ayman Bagabas in GitHub issue 5118.",1,1,65,17,65,17,0,0,0,3,0,0,1,0,0,0,0,401,1,59,65,0,0,0,0,0
+tmux,4d91ff8d8d,2026-06-01,9fd2edf3,"Do not try to use pane if there isn't one when redrawing wide characters, GitHub issues 5145 and 513",1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,131,1,1,1,0,0,0,0,0
+tmux,3bff7a9e62,2026-06-01,9fd2edf3,"Allow run-shell arguments after a shell command to be expanded as #1, #2 and so on. From Rasmus Thys",3,2,37,7,22,6,0,0,0,2,0,0,2,0,0,0,0,153,2,20,22,0,0,0,0,0
+tmux,a9721ea268,2026-05-31,9fd2edf3,Only draw visible parts of numbers for display-panes.,1,1,43,14,43,14,0,0,0,1,1,0,1,0,1,0,0,124,1,22,41,0,0,0,0,0
+tmux,d876bb8cf3,2026-05-31,9fd2edf3,"When pane-border-indicators is set to ""both"" or ""arrows"", only draw arrows on the active floating pa",1,1,61,48,61,48,0,0,0,4,1,0,2,1,1,0,0,103,3,26,53,0,0,0,0,0
+tmux,e3ee2b327b,2026-05-31,9fd2edf3,Move back to starting position when pane is outside the window at all.,1,1,11,3,11,3,0,0,0,1,0,0,1,0,0,0,0,61,1,11,11,0,0,0,1,0
+tmux,7a3b7ae812,2026-05-30,9fd2edf3,Return empty ranges if line is below window.,1,1,16,12,16,12,0,0,0,1,0,0,1,0,0,0,0,119,1,14,14,0,0,0,0,0
+tmux,290303e64f,2026-05-30,9fd2edf3,Missed this file from previous.,1,1,22,8,22,8,0,0,0,1,0,0,1,0,0,0,0,116,1,20,20,0,0,0,0,0
+tmux,f8ab7a5158,2026-05-30,9fd2edf3,Handle ranges for panes which are outside the window to the left.,3,3,5,4,5,4,0,0,0,2,0,0,1,0,0,0,0,33,1,3,5,0,0,0,0,0
+tmux,b9d228c72f,2026-05-30,9fd2edf3,Do not crash when a pane offset is negative.,1,1,5,3,5,3,1,0,0,1,0,0,1,0,0,0,0,83,1,5,5,0,0,0,0,0
+tmux,c40302a7ff,2026-05-30,9fd2edf3,"Check if the range is invalid using start,end rather than length since it will never be negative.",1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,81,1,4,4,0,0,0,0,0
+tmux,55db69e3b2,2026-05-29,9fd2edf3,Correct offsets for redrawing entire line here too.,1,1,4,5,4,5,0,0,0,1,0,0,0,0,0,0,0,29,0,0,4,0,0,0,0,0
+tmux,4ecf93487e,2026-05-29,9fd2edf3,Use correct X position for redrawing wide characters.,1,1,7,4,7,4,0,0,0,1,0,0,1,0,0,0,0,131,1,7,7,0,0,0,0,0
+tmux,3b19536df9,2026-05-28,9fd2edf3,Swap panes on z-index list as well.,1,1,10,0,10,0,0,0,0,1,0,0,1,0,0,0,0,111,1,9,9,0,0,0,0,0
+tmux,7ebeed1ae7,2026-05-28,9fd2edf3,Do not try to use last pane if there isn't one.,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,304,1,2,2,0,0,0,0,0
+tmux,7769097915,2026-05-28,9fd2edf3,Hide menu options that do not work for floating panes.,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tmux,c50c3629e6,2026-05-28,9fd2edf3,Use the correct ranges when a pane is covered by a popup in tty_draw_pane.,1,1,38,28,38,28,0,0,0,3,0,0,0,0,0,0,0,30,0,0,19,0,0,0,0,0
+tmux,9c6cfcd2e9,2026-05-28,9fd2edf3,Obscured check should not be true if pane is same size as window.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,34,1,2,2,0,0,0,0,0
+tmux,ecfe6e4e7a,2026-05-28,9fd2edf3,Check visible ranges for collected cell output.,2,2,122,50,122,50,0,0,0,1,1,1,0,0,2,0,0,34,1,21,109,0,0,0,0,0
+tmux,5c40cc43b2,2026-05-27,9fd2edf3,Bring in the single-cell redraw parts for floating panes.,3,3,86,28,86,28,0,0,0,5,0,0,3,1,0,0,0,128,4,54,61,0,0,0,0,0
+tmux,54ae850322,2026-05-27,9fd2edf3,"Do not adjust end position when removing partial padding, it does not change.",1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,174,1,0,0,0,0,0,0,0
+tmux,f00f92e7e3,2026-05-27,9fd2edf3,Check visible ranges when copying screens.,1,1,16,10,16,10,0,0,0,2,0,0,1,0,0,0,0,104,2,13,13,0,0,0,0,0
+tmux,bbe26df83d,2026-05-27,9fd2edf3,Add an accessor function needed for floating panes.,2,2,13,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+tmux,ee67452772,2026-05-27,9fd2edf3,"Add window-pane-status-format options and adjust the default second status line to show panes, also ",4,3,65,39,51,39,0,0,0,4,0,0,1,1,1,0,0,101,2,4,46,0,0,0,0,0
+tmux,84d016ddcf,2026-05-27,9fd2edf3,Floating panes clearing bits.,1,1,165,15,165,15,0,0,0,5,2,0,1,0,1,0,0,62,3,93,142,0,0,0,0,0
+tmux,0241fdac1a,2026-05-27,77221af0,Remove extra declaration.,1,1,0,4,0,4,0,0,0,1,0,0,0,1,0,0,0,45,1,0,0,0,0,0,1,0
+tmux,9cc8947a43,2026-05-27,9fd2edf3,"Cache border and active border style separately, fixes problem reported by Marcel Partap in GitHub i",2,2,30,25,30,25,0,0,0,5,0,0,0,1,0,0,0,61,2,2,27,0,0,0,0,0
+tmux,bff68fa079,2026-05-27,9fd2edf3,Remove reference to an option that hasn't been added yet.,1,1,12,16,12,16,0,0,0,2,0,0,1,0,0,0,0,67,1,4,12,0,0,0,1,0
+tmux,00c59041ea,2026-05-27,9fd2edf3,Bring in some more floating panes changes - obscured panes need to be handled specially in screen_wr,2,2,191,84,191,84,0,0,0,23,2,0,1,0,2,0,0,77,10,69,163,0,0,0,0,0
+tmux,f839588c69,2026-05-27,666d82ba,fix sort_get_clients() indentation; ok nicm@,1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,22,0,0,5,0,0,0,0,0
+tmux,27d719cd4d,2026-05-27,9fd2edf3,"Check error result correctly (*cause not cause), pointed out by jsg.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,43,1,1,1,0,0,0,0,0
+tmux,cc81287665,2026-05-25,9fd2edf3,"More of floating panes redraw path, still mostly using flags which are never set.",3,3,124,69,124,69,0,0,0,21,0,0,3,2,0,0,0,92,12,59,86,0,0,0,0,0
+tmux,ca95153b45,2026-05-25,9fd2edf3,"Preserve flags when creating new cells, from Brian Youngs.",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+tmux,eb330a6df6,2026-05-24,77221af0,Restore SIXEL bit.,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,63,1,3,3,0,0,0,0,0
+tmux,f047b3f8e7,2026-05-24,9fd2edf3,"Do not crash when freeing layout cell, reported by Jere Viikari.",4,4,7,7,7,7,1,0,0,4,0,0,0,1,0,0,0,105,2,2,6,0,0,0,0,0
+tmux,5c3a4746b7,2026-05-23,9fd2edf3,Some code tidying up.,3,3,39,48,39,48,0,0,0,2,0,0,1,1,0,0,0,92,2,30,30,0,0,0,0,0
+tmux,b8e0004ff2,2026-05-22,77221af0,Fix missing arguments.,2,2,1,3,1,3,1,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+tmux,143a177055,2026-05-22,9fd2edf3,"Tighten up read-only checks on attach-session, detach-client and switch-client so that a user should",3,3,28,1,28,1,0,0,0,3,0,0,3,0,0,0,0,111,3,26,27,0,0,0,0,0
+tmux,d45a9cad8c,2026-05-22,9fd2edf3,Work out if a pane is obscured by another one when drawing.,2,2,66,26,66,26,0,0,0,21,1,0,1,0,1,0,0,104,5,10,59,0,0,0,0,0
+tmux,285a3b7522,2026-05-22,77221af0,Fix up SIXEL with recent changes.,3,3,13,7,13,7,1,0,0,4,0,0,0,0,0,0,0,49,1,1,12,0,0,0,0,0
+tmux,36bc351557,2026-05-22,9fd2edf3,Use a union for the data passed around in tty_ctx instead of void *.,3,3,49,37,49,37,0,0,0,20,0,0,1,0,0,0,0,104,5,15,47,0,0,0,0,0
+tmux,d5ee330d20,2026-05-22,9fd2edf3,Tidy up a load of different flags and special values in the tty_ctx into a single bitmask.,4,4,82,67,82,67,0,0,0,25,1,0,4,0,0,0,0,104,12,35,72,0,0,0,0,0

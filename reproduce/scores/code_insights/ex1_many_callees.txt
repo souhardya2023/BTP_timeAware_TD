@@ -1,0 +1,47 @@
+===== HOT: jemalloc include/jemalloc/internal/extent_inlines.h extent_init  (5.2.0 -> 5.2.1) nloc 19 ccn 3 interest_lines 1  traits {'n_distinct_calls': 14.0, 'dup_line_ratio': 0.0, 'n_goto': 0.0, 'n_unsafe': 0.0, 'n_alloc': 0.0, 'n_arrow': 0.0, 'clone_ratio': 0.0}
+  extent_init(extent_t *extent, arena_t *arena, void *addr, size_t size,
+      bool slab, szind_t szind, size_t sn, extent_state_t state, bool zeroed,
+>     bool committed, bool dumpable) {
+  	assert(addr == PAGE_ADDR2BASE(addr) || !slab);
+  
+  	extent_arena_set(extent, arena);
+  	extent_addr_set(extent, addr);
+  	extent_size_set(extent, size);
+  	extent_slab_set(extent, slab);
+  	extent_szind_set(extent, szind);
+  	extent_sn_set(extent, sn);
+  	extent_state_set(extent, state);
+  	extent_zeroed_set(extent, zeroed);
+  	extent_committed_set(extent, committed);
+  	extent_dumpable_set(extent, dumpable);
+  	ql_elm_new(extent, ql_link);
+  	if (config_prof) {
+  		extent_prof_tctx_set(extent, NULL);
+  	}
+  }
+
+===== COLD: jemalloc src/jemalloc.c irallocx_prof_sample  (5.2.0 -> 5.2.1) nloc 21 ccn 4 interest_lines 0  traits {'n_distinct_calls': 3.0, 'dup_line_ratio': 0.125, 'n_goto': 0.0, 'n_unsafe': 0.0, 'n_alloc': 0.0, 'n_arrow': 0.0, 'clone_ratio': 0.1428571428571428}
+  irallocx_prof_sample(tsdn_t *tsdn, void *old_ptr, size_t old_usize,
+      size_t usize, size_t alignment, bool zero, tcache_t *tcache, arena_t *arena,
+      prof_tctx_t *tctx, hook_ralloc_args_t *hook_args) {
+  	void *p;
+  
+  	if (tctx == NULL) {
+  		return NULL;
+  	}
+  	if (usize <= SC_SMALL_MAXCLASS) {
+  		p = iralloct(tsdn, old_ptr, old_usize,
+  		    SC_LARGE_MINCLASS, alignment, zero, tcache,
+  		    arena, hook_args);
+  		if (p == NULL) {
+  			return NULL;
+  		}
+  		arena_prof_promote(tsdn, p, usize);
+  	} else {
+  		p = iralloct(tsdn, old_ptr, old_usize, usize, alignment, zero,
+  		    tcache, arena, hook_args);
+  	}
+  
+  	return p;
+  }
+

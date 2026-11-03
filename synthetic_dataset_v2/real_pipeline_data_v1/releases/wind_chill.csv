@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+wind_chill,0,v0.1,v0.2,2019-01-11,2019-01-14,minor,4,213,82,224,83,5,14,3,3,3
+wind_chill,1,v0.2,v0.3,2019-01-14,2019-01-15,minor,4,224,83,319,143,5,101,60,0,8
+wind_chill,2,v0.3,v0.4,2019-01-15,2019-01-21,minor,12,319,143,350,145,5,52,17,17,16
+wind_chill,3,v0.4,v0.5,2019-01-21,2019-01-23,minor,5,350,145,351,146,5,14,8,8,6
+wind_chill,4,v0.5,v0.6,2019-01-23,2019-01-29,minor,9,351,146,368,150,5,34,15,15,14

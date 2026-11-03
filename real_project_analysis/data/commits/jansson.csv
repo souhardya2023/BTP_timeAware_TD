@@ -1,0 +1,409 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+jansson,dbb5fb3636,2026-07-01,6c2e3d23,jansson 2.15.1,6,1,31,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,2836d8bde2,2026-06-13,6c2e3d23,"Limit recursion depth in dump, equal and deep copy to prevent stack overflow",6,2,117,18,32,16,1,0,0,8,2,0,1,0,1,0,0,163,2,7,28,1,0,0,0,0
+jansson,f45f0683b1,2026-06-13,6c2e3d23,Reject negative string length in json_pack s#/+# format,3,1,18,2,9,1,0,0,0,1,0,0,1,0,0,0,0,84,1,9,9,0,0,0,0,0
+jansson,8b2f3e0fbe,2026-03-25,fad58ace,Unpack: include keys in type mismatch error messages,2,1,81,20,30,20,0,0,0,4,0,0,3,0,0,0,0,127,3,28,30,0,0,1,0,0
+jansson,4a9a6db73d,2026-01-24,6c2e3d23,jansson 2.15.0,6,1,27,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,11a1284aa1,2025-07-17,0ce87e94,Removed duplicate prototype for jsonp_strndup,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+jansson,38ad2dac2d,2025-07-17,0ce87e94,Remove unused function jsonp_strdup,2,2,0,3,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jansson,914707424d,2025-07-17,0ce87e94,optimization: steal pointer from strbuffer,1,1,9,2,9,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,8,0,0,0,0,0
+jansson,d17f2940e8,2025-07-17,0ce87e94,Hashtable.h fix comments,1,1,5,6,5,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,0c4db95f53,2025-07-09,0ce87e94,In hashtable_do_rehash user precalculated bucket size,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+jansson,19c7f7faee,2025-07-08,0ce87e94,add realloc in json_array,1,1,8,20,8,20,0,0,0,4,0,0,0,0,0,0,0,23,0,0,8,0,0,0,0,0
+jansson,9cf3f8813b,2025-07-08,0ce87e94,add realloc in stringbuffer,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+jansson,21d2727f3f,2025-07-08,0ce87e94,Add realloc,5,3,87,1,52,0,0,0,0,1,0,0,0,0,3,0,0,5,0,0,39,0,0,0,0,0
+jansson,51000a9e03,2025-06-14,0ce87e94,Optimized dump.c Move indentation check out of loop (do_dump),1,1,10,11,10,11,0,0,0,1,0,0,0,1,0,0,0,161,1,8,8,0,0,0,1,0
+jansson,3e989adaaf,2025-06-14,0ce87e94,Optimized pack_unpack.c reuse key length,1,1,5,3,5,3,0,0,0,2,0,0,1,0,0,0,0,104,2,5,5,0,0,0,0,0
+jansson,05a10aa8af,2025-03-23,6c2e3d23,Fix code formatting,3,3,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,ed5cae4ed0,2025-03-23,6c2e3d23,jansson 2.14.1,6,1,8,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,cdb3b74d29,2025-01-28,aea6c869,include jansson_private_config.h only if HAVE_CONFIG_H is enabled,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+jansson,33a6c95d56,2024-03-25,6c2e3d23,Fix compiler warnings,1,1,9,8,9,8,1,0,0,2,0,0,0,0,0,0,0,2724,2,4,4,0,0,0,0,0
+jansson,ed06f65412,2024-03-25,6c2e3d23,Rename a symbol to avoid collision on Windows,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2724,1,1,1,0,0,0,0,0
+jansson,8b975abca1,2024-03-25,6c2e3d23,Use dtoa for double to string conversion,8,3,6431,21,6388,17,0,0,0,2,11,0,1,0,27,0,0,73,1,68,5631,0,0,0,0,0
+jansson,2d1c13224f,2024-03-08,6c2e3d23,Use sprintf() to determine locale's decimal point,7,2,29,48,17,23,0,0,0,4,0,0,0,1,1,0,0,37,1,0,16,0,0,0,0,0
+jansson,1894366598,2022-08-22,640433bb,hashtable: change to ifdef,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,78418c84f1,2021-11-20,f0139f92,"value, pack: use key length from json_object iternals",2,2,19,12,19,12,0,0,0,7,0,0,0,1,0,0,0,102,1,1,19,0,0,0,0,0
+jansson,684e18c927,2021-09-09,6c2e3d23,jansson 2.14,9,1,41,16,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,38c4b80ab7,2020-11-06,fcb32378,Fix hashsize() should return size_t.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,0758caaac0,2020-09-01,f0139f92,reuse key len from loop check for better performance,4,4,62,33,62,33,0,0,0,8,0,0,1,0,0,0,0,163,2,23,55,0,0,0,0,0
+jansson,ca6775dee4,2020-09-01,f0139f92,introduce new fixed-size key API,9,4,459,8,89,5,1,0,0,4,0,0,0,0,8,0,0,7,0,0,69,0,0,0,0,0
+jansson,ba4503804b,2020-08-12,f0139f92,pass length of the key to internal API,5,5,79,54,79,54,0,0,0,16,0,0,1,0,1,0,0,157,2,9,64,0,0,0,0,0
+jansson,38b001edbd,2020-05-23,fa5135a3,Handle vsnprintf corner cases.,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+jansson,e9ebfa7e77,2020-05-07,6c2e3d23,jansson 2.13.1,6,1,20,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,2882ead5bb,2020-05-05,6c2e3d23,jansson 2.13,7,1,10,10,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,a8f5fa5f5a,2019-10-21,6c2e3d23,Tweak clang-format configuration a bit,30,13,577,606,294,281,0,0,0,52,0,0,6,6,0,0,0,157,13,127,288,0,0,0,0,0
+jansson,79fe8c3435,2019-10-21,6c2e3d23,"Run clang-format on *.c, *.h",39,18,2516,2921,1165,1494,0,0,0,209,0,0,5,15,0,0,0,155,20,430,1152,0,0,0,0,0
+jansson,c3958a326c,2019-10-21,d0e23283,remove undef __NO_ISOCEXT for strtod compatiblity,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jansson,00d2d274bc,2019-10-12,bcfc8a10,add loop check for json_object_update_recursive function,2,1,75,8,43,7,0,0,0,3,0,0,0,0,1,0,0,28,0,0,36,0,0,0,0,0
+jansson,cb4727c4a9,2019-10-11,04da2d2f,Add json_object_update_recursive(),5,2,80,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,16,0,0,0,0,0
+jansson,1f889c4b60,2019-10-09,bcfc8a10,fix issue #481,4,4,24,24,24,24,1,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+jansson,8682f2aab3,2019-10-08,bcfc8a10,fix issue #281,3,1,105,0,24,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,21,0,0,0,0,0
+jansson,4f3305c506,2019-10-08,bcfc8a10,"fix issue #441 It already has ""strtod"" function in stdlib.h and because __USE_MINGW_ANSI_STDIO is de",1,1,0,4,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,3adf3e6a5a,2019-09-20,22991ffa,Fix various typos,6,1,13,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,53e9dd848f,2019-09-16,bcfc8a10,add the loop key length macro for circular reference detect,3,3,6,5,6,5,0,0,0,3,0,0,0,0,0,0,0,181,1,1,5,0,0,1,0,0
+jansson,63fb81faa5,2019-08-12,bcfc8a10,add loop check in json deep copy #457,4,3,109,17,56,17,0,0,0,4,0,0,0,0,2,1,0,181,1,2,47,0,0,0,0,0
+jansson,24cc9dd078,2019-07-19,30c5037d,Move ossfuzz directory and use Makefile.am,12,3,99,28,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+jansson,100e5549b6,2019-06-28,30c5037d,Create a fuzzing target for jansson,7,3,156,0,88,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,58,0,0,0,0,0
+jansson,76300601d9,2019-03-12,50a0d14b,Add runtime version checking functions,8,2,122,2,37,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,21,0,0,0,0,0
+jansson,10afd33efb,2018-11-25,f4cd2c95,jansson 2.12,6,1,47,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,e262ea5fcd,2018-11-05,f4cd2c95,Remove inappropriate jsonp_free which caused segmentation fault.,2,1,23,7,2,7,0,0,0,2,0,0,0,0,0,0,0,27,0,0,0,0,0,0,1,0
+jansson,226b34d546,2018-10-15,6d86ecfe,fixed extra bracket,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,181,1,1,1,0,0,0,0,0
+jansson,d115953347,2018-10-15,09f60f96,removed explicit casts,2,2,6,6,6,6,0,0,0,2,0,0,0,0,0,0,0,181,2,6,6,0,0,0,0,0
+jansson,8d659113d5,2018-09-25,f4cd2c95,More work on json_pack error reporting.,2,1,93,7,41,5,0,0,0,3,0,0,0,0,2,0,0,50,2,4,30,0,0,0,0,0
+jansson,5df5fc5b13,2018-09-25,f4cd2c95,json_pack: Improve handling of formats with '?' and '*'.,2,1,93,30,47,27,0,0,0,5,0,1,1,1,0,0,0,78,3,23,39,0,0,0,0,0
+jansson,fc591913ac,2018-08-31,09f60f96,removed various warnings,4,4,8,12,8,12,0,0,0,6,0,0,0,0,0,0,0,181,3,7,8,0,0,0,0,0
+jansson,d83d3d9172,2018-08-30,09f60f96,This fixes https://github.com/akheron/jansson/issues/434,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+jansson,020cc26b5c,2018-08-12,6c2e3d23,Rename a varialble that shadows another one,2,1,5,5,4,4,0,0,0,1,0,0,0,0,0,0,0,181,1,4,4,0,0,0,0,0
+jansson,66e4ee795d,2018-07-25,db3aedf7,Call va_end after va_copy in json_vsprintf,1,1,12,5,12,5,0,0,0,1,0,0,0,0,0,0,0,24,0,0,11,0,0,0,0,0
+jansson,81fe13eeed,2018-07-14,f4cd2c95,Deal with warnings under gcc 8.,2,1,9,2,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+jansson,aed855e692,2018-07-09,6c2e3d23,Avoid invalid memory read in json_pack(),1,1,4,1,4,1,0,0,0,1,1,0,0,0,0,0,0,31,1,3,3,0,0,0,0,0
+jansson,15105b66b4,2018-03-22,f0139f92,Fix error handling in json_pack,2,1,40,32,32,32,1,0,0,1,0,0,0,1,1,0,0,30,1,2,25,0,0,0,0,0
+jansson,e37e52549f,2018-03-06,f4cd2c95,Add warn_unused_result to strbuffer_init.,2,2,14,28,14,28,0,0,0,1,0,0,1,0,0,0,0,99,1,10,11,0,0,0,0,0
+jansson,ea664722d4,2018-03-06,f4cd2c95,Build: Add JANSSON_ATTRS macro.,3,3,27,21,27,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0
+jansson,73c22de516,2018-02-15,f4cd2c95,Improve test coverage.,15,3,444,14,7,13,0,0,0,5,0,0,1,1,0,0,0,70,2,6,7,0,0,0,0,0
+jansson,744fe5ed44,2018-02-09,f4cd2c95,jansson 2.11,6,1,49,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,efe6c7b3f2,2018-02-09,6c2e3d23,Add json_sprintf and json_vsprintf,8,2,78,1,39,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,28,0,0,0,0,0
+jansson,f44921e176,2018-02-08,6c2e3d23,"Clarify thread safety docs, rename JANSSON_THREAD_SAFE",3,1,27,15,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+jansson,37e0ee4d48,2018-02-01,f4cd2c95,json_dump: Fix thread safety issue.,3,3,48,48,48,48,1,0,0,4,0,0,0,1,1,0,0,181,1,28,42,0,1,0,0,0
+jansson,dc3b313e91,2018-01-29,f4cd2c95,Use thread-safe reference counting if supported by the compiler.,4,1,40,7,20,3,0,0,0,2,0,0,0,0,0,0,0,6,0,0,16,0,1,0,0,0
+jansson,45228cada4,2017-12-20,ed75b757,Use a more specific error code for premature end of input,2,1,12,0,4,0,0,0,0,1,0,0,0,0,0,0,0,49,0,0,3,0,0,0,0,0
+jansson,89dad8959b,2017-12-13,f4cd2c95,json_object_iter_set_new: Fix error branch leak.,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+jansson,9a1d9c88fc,2017-12-13,f4cd2c95,json_pack: Enable more complete stealing of references.,2,1,53,24,44,24,0,0,0,6,1,0,3,0,0,0,0,67,4,33,39,0,0,0,0,0
+jansson,bd91753e91,2017-11-14,f4cd2c95,Remove extra reference actions in parsers.,1,1,2,6,2,6,0,0,0,2,0,0,0,1,0,0,0,62,1,1,2,0,0,0,1,0
+jansson,009ffa3fc8,2017-11-07,6c2e3d23,Fix a compile error on macOS clang,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+jansson,112ccbd820,2017-10-03,ed75b757,Use last byte of error text as numeric error code,10,5,283,136,114,82,0,0,0,26,1,0,2,0,1,0,0,126,13,64,113,0,0,0,0,0
+jansson,271ffda903,2017-08-19,6c2e3d23,Make json_equal() const-correct,2,2,9,9,9,9,0,0,0,6,0,0,0,0,0,0,0,23,0,0,9,0,0,0,0,0
+jansson,3e5405c39e,2017-08-19,6c2e3d23,Work around gcc's -Wimplicit-fallthrough,1,1,11,11,11,11,0,0,0,1,0,0,0,0,0,0,0,134,1,11,11,0,0,0,0,0
+jansson,0abcbce3bb,2017-08-05,cb284d4c,json_dump_file API returns success even when fclose fails (consider disk full case). API should chec,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+jansson,28666cead0,2017-04-19,6ebd2fa9,Enable optional object/array members in json_pack(),3,1,64,2,18,1,0,0,0,2,1,0,0,0,0,0,0,49,1,7,16,0,0,0,0,0
+jansson,fbf720f2c5,2017-04-13,6c2e3d23,Allow forward declaring json_error_t values,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,b23201bb1a,2017-03-02,6ebd2fa9,jansson 2.10,6,1,32,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,b8bb078cc2,2017-02-27,6ebd2fa9,Add JSON_EMBED encoding flag,4,2,52,6,11,6,0,0,0,1,0,0,1,0,0,0,0,191,1,8,9,0,0,0,0,0
+jansson,1672bb5a65,2017-01-27,6ebd2fa9,Implement json_dumpfd() and json_loadfd(),8,4,166,7,67,2,0,0,0,0,0,0,0,0,4,0,0,0,0,0,55,0,0,0,0,0
+jansson,b900967f6f,2017-01-26,6ebd2fa9,Implement json_dumpb(),5,2,77,0,28,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,21,0,0,0,0,0
+jansson,4467bf243f,2016-10-19,2af917ec,"part of conditional expression is always true (!done), found with pvs-studio",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jansson,ddd1e1f223,2016-10-07,4d0c105b,Fix passing redundant argument to error_set(),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,125,1,1,1,0,0,0,0,0
+jansson,d1e97737d6,2016-10-01,e1643cbe,Allow parsing of buffers larger than 2GB on most 64 bit arch.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,b02db47881,2016-09-18,6c2e3d23,jansson 2.9,6,1,30,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,074bb3838f,2016-09-18,6c2e3d23,Update copyrights for 2016,41,14,41,41,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,63b9fd0552,2016-08-31,6ebd2fa9,Add support for the cleanup attribute in GCC/Clang,3,1,44,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,1
+jansson,012c5f0eca,2016-08-30,6c2e3d23,jansson 2.8,10,1,14,26,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,6a4b3f878d,2016-08-11,14dd9642,Conform to c89,2,1,5,3,2,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,2,0,0,0,0,0
+jansson,86fdf76f79,2016-08-11,14dd9642,Check the allocation was successful before freeing existing hashtable buckets and increasing hashtab,1,1,9,7,9,7,0,0,0,1,0,0,0,0,0,0,0,28,0,0,8,0,0,0,0,0
+jansson,9df267054f,2016-06-20,6c2e3d23,Always preserve insertion order of object items,9,6,68,111,27,63,0,0,0,15,0,0,0,1,1,3,0,189,2,7,27,0,0,0,0,0
+jansson,762b299e71,2016-05-17,fc786bd5,Fix subnormal number parsing on mingw32,1,1,7,0,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,64ce0ad373,2016-05-03,b90f2d03,Fix for issue #282,7,2,35,0,14,0,1,0,0,2,0,0,1,0,0,0,0,60,1,6,10,0,0,0,0,0
+jansson,107cfe9499,2016-02-23,fe309bc3,"Implemented json_pack() format specifiers 's?', 'o?', and 'O?'.",2,1,103,17,55,17,0,0,0,1,0,0,1,0,1,0,0,55,1,29,48,0,0,0,0,0
+jansson,811965b475,2016-02-22,fe309bc3,"Implemented json_pack() format specifiers 's?', 'o?', and 'O?'.",2,1,99,17,51,17,0,0,0,1,0,0,1,0,1,0,0,53,1,27,44,0,0,0,0,0
+jansson,b698ca13de,2016-02-03,1b7c28f7,"[Optimized functions] Optimized json_equal, json_delete, json_copy, json_deep_copy Replaced if to sw",1,1,74,67,74,67,0,0,0,4,0,0,0,0,0,0,0,24,0,0,72,0,0,0,0,0
+jansson,1c2e707b34,2015-12-23,6c2e3d23,Fix a comment,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,1d513d063a,2015-12-22,cfd324c6,pack_unpack: List unrecognized keys in strict unpacking,3,1,57,8,28,1,0,0,0,1,0,0,1,0,0,0,0,113,1,26,26,0,0,0,0,0
+jansson,245e532934,2015-12-21,6ebd2fa9,Add json_get_alloc_funcs() to allow alloc function fetching,5,2,21,1,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+jansson,067dc50efe,2015-10-12,f0a48126,changed code from while to do/while,1,1,10,10,10,10,0,0,0,2,0,0,0,0,0,0,0,78,2,10,10,0,0,0,0,0
+jansson,e89538f685,2015-10-05,d4747781,"Format %x expects unsigned int, not int",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,69,1,2,2,0,0,0,0,0
+jansson,f7331c7194,2015-10-05,d4747781,Use sizeof(seq) instead of magic number 13,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,69,1,2,2,0,0,0,0,0
+jansson,8f2298bad8,2015-08-31,96556650,Buildable with MS Compiler version  >= 1900,2,1,27,3,13,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+jansson,4c4f692bd6,2015-08-26,6c2e3d23,Add json_object_foreach_safe,3,1,39,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,5d42e1520a,2015-05-01,40d4b64a,Optimized dump_indent to reduce the number of fwrite calls.,1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,21,0,0,5,0,0,0,0,1
+jansson,95dd927857,2015-04-30,5cd2bc76,use snprintf and strncpy in place of sprintf and strcpy,3,3,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,69,1,2,6,0,0,0,0,0
+jansson,11813f4128,2015-02-07,6c2e3d23,Fix a use after free,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,42,0,0,1,1,0,0,0,0
+jansson,890760b2fb,2014-12-19,6c2e3d23,Increase test coverage,6,2,75,8,2,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+jansson,5508ab403d,2014-12-18,6c2e3d23,Honor JSON_DECODE_INT_AS_REAL at lexical stage,2,1,25,16,11,16,0,0,0,7,0,0,1,1,0,0,0,78,2,4,11,0,0,0,0,0
+jansson,abaae7630e,2014-12-18,6c2e3d23,Make it possible to set initial hashtable size,4,1,16,1,5,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+jansson,3c9e5c9925,2014-12-10,6c2e3d23,Move the list member to the top of hashtable_pair struct,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+jansson,1c38ab17f5,2014-12-04,6c2e3d23,Include jansson_config.h with quotes,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jansson,9b435df3d4,2014-11-28,888ac891,Warnings - use size_t where appropriate to prevent warning when compilation is targeting 64 bit,3,3,7,6,7,6,0,0,0,5,0,0,0,0,0,0,0,195,3,4,6,0,0,0,0,0
+jansson,ee27b7e3dd,2014-10-02,6c2e3d23,jansson 2.7,6,1,8,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,fa20e80860,2014-08-27,6c2e3d23,Parse subnormal numbers correctly,3,1,4,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jansson,88943b64e3,2014-07-07,6c2e3d23,Define JSON_MAX_INDENT,2,1,8,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,541cdf5960,2014-05-05,3c33c79c,Remove unneeded undef,1,1,0,4,0,4,0,0,0,1,0,0,0,1,0,0,0,134,1,0,0,0,0,0,1,0
+jansson,fc6e314498,2014-05-04,3c33c79c,Enable usage of AddressSanitizer to check Jansson,1,1,20,1,20,1,0,0,0,1,0,0,1,0,0,0,0,134,1,17,17,1,0,0,0,0
+jansson,17b5fdd94b,2014-04-30,6c2e3d23,Add JSON_REAL_PRECISION,6,4,55,18,21,13,0,0,0,3,0,0,2,0,0,0,0,195,2,6,19,0,0,0,0,0
+jansson,a425f8c650,2014-04-23,6c2e3d23,Rename variables to work aroung a GCC bug on Solaris,1,1,7,7,7,7,1,0,0,1,0,0,0,0,0,0,0,76,1,7,7,0,0,0,0,0
+jansson,571617ebfc,2014-04-08,a45700f5,use __sun instead of sun,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,33e4988180,2014-04-06,a45700f5,SmartOS build fix,2,1,3,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,663fbfb7a4,2014-04-04,a45700f5,SmartOS (Solaris) build,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,88aa6a9e30,2014-03-04,6c2e3d23,"Remove VS2010 project files, CMake should be used on Windows instead",7,1,2,251,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jansson,78da1de021,2014-02-16,6c2e3d23,Merge pull request #163 from vincentbernat/fix/unpack-mix-optional-and-strict,2,1,41,5,22,5,1,0,0,1,0,0,1,0,0,0,0,88,1,19,19,0,0,0,0,0
+jansson,946531bd7b,2014-02-16,6c2e3d23,Merge pull request #162 from nmlgc/master,1,1,5,6,5,6,0,0,0,1,0,0,0,0,0,0,0,30,0,0,3,0,0,0,0,0
+jansson,56a50e147d,2014-02-15,96282ebd,Micro-optimization for JSON_STRICT when no optional key is used,1,1,11,4,11,4,0,0,0,1,0,0,1,0,0,0,0,88,1,9,9,0,0,0,0,0
+jansson,7a0b9af662,2014-02-15,96282ebd,Allow to mix JSON_STRICT with optional keys,2,1,33,4,14,4,0,0,0,1,0,0,1,0,0,0,0,83,1,13,13,0,0,0,0,0
+jansson,4fbe44605b,2014-02-15,df6bf96a,Three fixes for hashtable seeding on Windows,1,1,5,6,5,6,1,0,0,1,0,0,0,0,0,0,0,30,0,0,3,0,0,0,0,0
+jansson,42016a35c8,2014-02-11,6c2e3d23,"Oops, ATOMIC_ACQ_REL is not a correct memmodel for __atomic_store_n",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,1,0,0,0
+jansson,e83ded066a,2014-02-11,6c2e3d23,jansson 2.6,6,1,37,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,8f80c2d838,2014-02-11,6c2e3d23,"CVE-2013-6401: Change hash function, randomize hashes",19,7,873,122,693,58,1,0,0,8,1,0,0,0,10,2,0,34,0,0,522,1,0,0,0,0
+jansson,30fdf6067e,2014-01-28,6c2e3d23,Update copyrights for 2014,42,15,42,42,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,3fe8f74e7f,2014-01-27,180b34f6,Renamed config.h -> jansson_private_config.h,10,2,22,18,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+jansson,98610bfcec,2013-12-28,df6bf96a,Check for key == NULL in json_object_get and json_object_del,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+jansson,05f7d30e5a,2013-12-04,6c2e3d23,Add json_boolean_value as alias for json_is_true,3,1,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,30a4c88843,2013-10-15,6c2e3d23,Fix an off-by-one error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+jansson,08be94e8e6,2013-10-15,6c2e3d23,Don't call strlen twice,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+jansson,d544852ff6,2013-10-15,6c2e3d23,Avoid integer overflows with very long strings,2,2,8,1,8,1,1,0,0,2,0,0,0,0,0,0,0,38,0,0,5,1,0,0,0,0
+jansson,a76dc45512,2013-10-03,bcef5af1,paper bag bug: json_string_set* functions should set the length too,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+jansson,6ebd0bc7a6,2013-09-30,f60d33b6,fix type mismatch anywhere int != int32 (Vorne),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,1bfc33362e,2013-09-30,6c2e3d23,Add JSON_ALLOW_NUL decoding flag for enabling NUL byte support,7,2,50,4,12,1,0,0,0,1,0,0,1,0,0,0,0,63,1,9,10,0,0,0,0,0
+jansson,4d5aead31c,2013-09-30,6c2e3d23,Fix NUL byte check for object keys,3,1,4,1,1,1,1,0,0,1,0,0,0,0,0,0,0,64,1,1,1,0,0,0,0,0
+jansson,78a80b8899,2013-09-30,6c2e3d23,load.c: Change an error message,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,64,1,1,1,0,0,0,0,0
+jansson,dcaa90d21e,2013-09-27,bcef5af1,dump \u sequences as upper case for readability (just like error messages),2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,69,1,2,2,0,0,0,0,0
+jansson,9c259c07aa,2013-09-27,bcef5af1,"Support \u0000 - add size_t string lengths to API, load and dump \u000, etc. Also:   Steal strings d",15,9,281,120,241,111,1,0,0,26,0,0,8,1,9,0,0,194,11,77,209,0,0,0,0,0
+jansson,641002da37,2013-09-19,6c2e3d23,jansson 2.5,6,1,67,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,21599b95f8,2013-08-27,29b86be3,Replace strcpy with memcpy,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+jansson,3196ad48ed,2013-08-14,6c2e3d23,"pack: Add format specifiers s#, + and +#",6,4,267,81,176,56,0,0,0,13,1,0,0,1,2,0,0,108,4,29,143,0,0,0,0,0
+jansson,2489ea90b1,2013-07-23,6c2e3d23,Update copyrights for 2013,41,15,41,41,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,11d45b0090,2013-07-21,6c2e3d23,Fix integer overflow in jsonp_strdup(),1,1,6,1,6,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,5,1,0,0,0,0
+jansson,8490e377c0,2013-07-08,6c2e3d23,Make the argument of json_deep_copy() const,3,2,21,13,20,12,0,0,0,6,0,0,0,0,0,0,0,18,0,0,18,0,0,0,0,0
+jansson,6fe231757e,2013-06-26,180b34f6,BUGFIX: Compilation error with -DNDEBUG defined.,1,1,10,1,10,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+jansson,120a90a155,2013-06-11,82e603e8,Using jsonp_strtod instead of casting to double to catch double overflow,3,1,23,5,6,1,1,0,0,1,0,0,1,0,0,0,0,51,1,6,6,1,0,0,0,0
+jansson,02a3829363,2013-06-11,82e603e8,Renamed flag to JSON_DECODE_INT_AS_REAL and added documentation,5,2,18,7,5,5,0,0,0,1,0,0,0,0,0,0,0,46,1,1,5,0,0,0,0,0
+jansson,9e7f11a847,2013-06-09,82e603e8,Implemented a decode option to only decode numbers to reals and never integers,2,2,6,1,6,1,0,0,0,1,0,0,1,0,0,0,0,46,1,5,6,0,0,0,0,0
+jansson,5cc594c9e8,2013-05-21,6c2e3d23,Don't shadow the stdlib function index() with arg names,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+jansson,6950cd203b,2013-05-12,e2ab32e2,"Add json_array_foreach() #define, parallelling json_object_foreach()",1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,867079c820,2013-04-15,6c2e3d23,json_dump*(): Don't crash if json is NULL and JSON_ENCODE_ANY is set,2,1,24,0,3,0,1,0,0,1,0,0,1,0,0,0,0,193,1,2,2,0,0,0,0,0
+jansson,7c4f323abc,2013-03-27,8f87d6c4,"Create Android.mk, preconfigured jansson_config.h and CleanSpec.mk for Android-like build systems.",3,1,117,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+jansson,1edff47af3,2013-03-14,5b0280f4,Do not define _GNU_SOURCE is already defined,4,4,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+jansson,3e03b07831,2013-03-07,8784e8b1,Add CMake build system.,10,3,454,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+jansson,02beb90db3,2013-01-03,6c2e3d23,Make it possible to forward declare struct json_t,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,e9cb9dbf60,2012-12-28,6c2e3d23,Fix // -> /* */,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,872f847655,2012-12-10,487e8ea9,Change const pointer to array,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,f86bb0377f,2012-12-10,487e8ea9,Mark some constant data as const.,3,3,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,c82cea9d32,2012-12-10,c621053f,fixed l_isxdigit() macro,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,e0a7f81b39,2012-12-04,6c2e3d23,Really fix the off-by-one error in json_array_remove(),2,1,3,3,1,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+jansson,54d59c743c,2012-12-04,6c2e3d23,Fix an off-by-one error in json_array_remove(),2,1,18,1,4,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jansson,5804e9de9b,2012-09-23,6c2e3d23,Set master for 2.5 development mode,3,1,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,3279aacdee,2012-09-23,6c2e3d23,jansson 2.4,5,1,9,9,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,4118315afa,2012-09-13,6c2e3d23,Disallow NaN or Inf real values,2,1,46,2,15,2,0,0,0,2,0,0,0,0,2,0,0,12,0,0,12,0,0,0,0,0
+jansson,ee13c667f1,2012-09-13,6c2e3d23,Fix json_real_set() to return -1 on error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+jansson,b6a1d8cfd4,2012-07-30,6c2e3d23,Add json_boolean() macro,3,1,28,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,37bc3bbf4b,2012-06-29,6c2e3d23,Tweak slash escaping,1,1,11,16,11,16,0,0,0,2,0,0,0,2,0,0,0,191,2,9,9,0,0,0,0,0
+jansson,b217cd6689,2012-06-28,4f801266,Created flag to dump escaping slash,4,2,39,6,13,5,0,0,0,2,0,0,1,0,0,0,0,192,2,12,13,0,0,0,0,0
+jansson,a0c262d08b,2012-06-27,4f801266,Escaping the slash when dump,2,1,4,3,3,2,0,0,0,1,0,0,1,0,0,0,0,66,1,2,2,0,0,0,0,0
+jansson,a79f64e155,2012-05-01,2e438754,Fix build warnings under MinGW,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,7ca783c3bc,2012-04-30,2e438754,Add vs2010 solution and project,7,3,202,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,ff0c05b8f1,2012-04-29,6c2e3d23,Support building on Windows,12,9,99,102,24,10,0,0,0,4,0,0,2,0,0,0,0,192,2,2,21,0,0,0,0,0
+jansson,ff6e6ee293,2012-04-20,6c2e3d23,jansson 2.3.1,5,1,30,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,aabfd493d3,2012-04-18,002a8c15,load: Change buffer_pos to be a size_t,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,bd72efbd80,2012-04-18,002a8c15,load: Avoid unexpected behaviour in macro expansion,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,e8fd3e3085,2012-03-26,6c2e3d23,Document and tweak json_load_callback(),4,2,33,5,4,4,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+jansson,040bd7b0fa,2012-03-22,2e438754,Add json_load_callback(),4,2,134,0,58,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,44,0,0,0,0,0
+jansson,3c6e36ba2d,2012-03-20,6c2e3d23,Update copyright notices for 2012,40,13,44,44,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,02b915af54,2012-03-11,6c2e3d23,Remove unused declarations,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jansson,a894980258,2012-01-30,6c2e3d23,Set master to 2.4 development mode,3,1,5,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,f227483846,2012-01-27,6c2e3d23,jansson 2.3,5,1,54,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,6cb14dd337,2012-01-26,6c2e3d23,Add support for optional object keys for json_unpack() and friends,3,1,124,37,74,37,0,0,0,3,0,0,3,0,0,0,0,108,3,64,64,0,0,0,0,0
+jansson,fa268b5017,2012-01-24,6c2e3d23,"Add json_object_update_{existing,missing}",5,2,95,2,34,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,26,0,0,0,0,0
+jansson,a307974731,2012-01-24,6c2e3d23,Implement json_object_foreach(),6,3,92,46,32,46,0,0,0,4,0,0,0,0,1,0,0,13,0,0,25,0,0,0,0,0
+jansson,a2381948bb,2012-01-24,6c2e3d23,Make hashtable less generic,7,6,98,219,97,218,0,0,0,20,0,0,1,0,2,8,0,192,2,8,79,0,0,0,0,0
+jansson,5eb2c442a9,2012-01-24,6c2e3d23,Fix a potential memory leak,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+jansson,f471e63bb3,2012-01-23,6c2e3d23,Write number of bytes read to error position on successful decode,3,1,56,18,6,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+jansson,c4a7bf90cf,2011-11-14,6c2e3d23,"Revert ""json_dump_file: Open the output file in wb mode""",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jansson,1e36667193,2011-11-14,cf301f1a,JSON_DECODE_ANY,4,2,43,3,6,3,0,0,0,1,0,0,0,0,0,0,0,23,0,0,6,0,0,0,0,0
+jansson,0f2cdd70ff,2011-11-14,6c2e3d23,Avoid problems with object's serial number growing too big,2,2,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+jansson,5ec101ec21,2011-11-14,cf301f1a,json_load* return NULL if the first argument is NULL,2,1,51,5,28,5,0,0,0,4,0,0,0,0,0,0,0,20,0,0,20,0,0,0,0,0
+jansson,8484ea3fb2,2011-11-01,6c2e3d23,Remove '+' and leading zeros from exponents in the encoder,4,1,25,4,22,1,0,0,0,1,1,0,0,0,0,0,0,38,1,17,17,0,0,0,1,0
+jansson,bc98ab6a69,2011-11-01,6c2e3d23,Use %I64d format for printing long longs on Windows,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,32cd821273,2011-10-07,6c2e3d23,json_dump_file: Open the output file in wb mode,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jansson,9c6cb42f17,2011-10-06,6c2e3d23,jansson 2.2.1,5,1,34,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,6362032513,2011-10-04,6c2e3d23,json_load_file: Open the input file in rb mode,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jansson,f0d5c04734,2011-10-03,6c2e3d23,Make identifier decoding work under all locales,1,1,22,15,22,15,0,0,0,4,0,0,0,1,0,0,0,123,3,11,20,0,0,0,0,0
+jansson,fd56deb7dd,2011-10-03,6c2e3d23,Use strchr() when searching for a single character,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+jansson,d7ddbf3661,2011-10-02,6c2e3d23,Make real number encoding and decoding work under all locales,24,4,199,59,117,23,0,0,0,2,0,0,0,2,4,0,0,191,2,4,85,0,0,0,0,0
+jansson,b6d0191e51,2011-09-24,6c2e3d23,Implement all other encoding functions using json_dump_callback,1,1,5,18,5,18,0,0,0,2,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+jansson,909874b1b9,2011-09-20,cf301f1a,scope error. result points to a out-of-score variable.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,42,0,0,1,0,0,0,0,0
+jansson,ff57dee13d,2011-09-20,cf301f1a,unsed static variable removed,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,889f295958,2011-09-02,6c2e3d23,jansson 2.2,5,1,27,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,c7d543d36c,2011-06-30,d253349d,"new typedef json_dump_callback_t, function json_dump_callback",2,2,18,8,18,8,0,0,0,5,0,0,0,0,1,0,0,201,2,2,15,0,0,0,0,0
+jansson,cd9757512d,2011-06-30,d253349d,"use size_t for strbuffer writes, and avoid integer overflow",2,2,12,5,12,5,1,0,0,1,0,0,0,0,0,0,0,25,0,0,10,1,0,0,0,0
+jansson,c0193bfb7f,2011-06-17,6c2e3d23,Check that target is string and value is not NULL in json_string_set(),1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jansson,86d17a8dc2,2011-06-10,6c2e3d23,jansson 2.1,4,1,7,7,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,a76ba52f34,2011-05-29,6c2e3d23,Add JSON_DISABLE_EOF_CHECK decoding flag,4,2,36,5,8,5,0,0,0,1,0,0,0,0,0,0,0,21,0,0,8,0,0,0,0,0
+jansson,9febdf333c,2011-05-29,6c2e3d23,Reduce code duplication in the decoder,1,1,14,34,14,34,0,0,0,4,0,0,0,0,0,0,0,19,0,0,11,0,0,0,0,1
+jansson,013b8b3f60,2011-05-24,6c2e3d23,Clear errno before calling strtod(),1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,80,1,1,1,0,0,0,0,0
+jansson,49fc708d4c,2011-05-15,6c2e3d23,Add JSON_REJECT_DUPLICATES decoding flag,4,2,64,28,27,19,0,0,0,7,0,0,1,0,0,0,0,58,2,12,21,0,0,0,0,1
+jansson,636d5f60f9,2011-05-14,6c2e3d23,Add JSON_ENCODE_ANY flag to allow encoding any JSON value,4,2,78,9,9,4,0,0,0,2,0,0,0,0,0,0,0,18,0,0,9,0,0,0,0,0
+jansson,e20619e071,2011-04-21,6c2e3d23,Fix a leak when memory allocation fails in json_object_set() & friends,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+jansson,b44e2be032,2011-04-10,6c2e3d23,Add json_loadb() for decoding possibly non null-terminated strings,7,2,106,0,53,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,42,0,0,0,0,0
+jansson,1c0a3b2a55,2011-03-31,6c2e3d23,jansson 2.0.1,5,1,36,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,eab23f05d8,2011-03-31,6c2e3d23,Fix a few malloc() and free() calls,2,2,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+jansson,0944ac8d91,2011-03-30,6c2e3d23,Fix invalid object key hashing in json_unpack() strict checking mode,4,3,34,16,26,15,1,0,0,2,0,0,0,0,4,2,0,64,1,1,21,0,0,0,0,0
+jansson,5456fc59ab,2011-03-27,6c2e3d23,Set JANSSON_MICRO_VERSION to 255 (0xFF) for git master,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,279d8bf108,2011-03-27,6c2e3d23,Use the correct number of parens in JANSSON_VERSION_HEX macro,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,af18578928,2011-03-23,6c2e3d23,Use the correct number of parens in JANSSON_VERSION_HEX macro,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,c30e92603c,2011-03-21,6c2e3d23,ANSI C requires struct initializers to be constant expressions,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,0
+jansson,6ecba84817,2011-03-21,6c2e3d23,Fix json_object_size() return value,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+jansson,b90ed1accb,2011-03-20,6c2e3d23,Enhance portability of va_copy(),2,2,10,2,10,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+jansson,1111960120,2011-03-10,6c2e3d23,Fix a declaration after statement,2,1,4,2,3,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+jansson,cf9b384bcb,2011-02-28,6c2e3d23,jansson 2.0,5,1,10,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,42b651ef56,2011-02-27,6c2e3d23,Fix packing of invalid UTF-8 strings,2,1,24,3,12,2,1,0,0,2,0,0,1,0,0,0,0,40,1,5,11,0,0,0,0,0
+jansson,58f9d65535,2011-02-22,6c2e3d23,"Add lots of tests for pack/unpack code, fix bugs found",7,3,396,110,105,59,1,0,0,10,0,0,4,0,2,0,0,89,4,42,96,0,0,0,0,0
+jansson,50dc64a7af,2011-02-22,6c2e3d23,"Truncate error source from start, not end, if it's too long to fit",1,1,10,2,10,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,9,0,0,0,0,0
+jansson,5df7b79397,2011-02-22,6c2e3d23,Refactor decoder input stream,245,5,375,461,136,93,0,0,0,21,2,0,2,1,1,2,0,123,5,49,122,0,0,0,0,1
+jansson,4be9e9e7fe,2011-02-17,6c2e3d23,Add custom memory allocation,14,8,293,58,126,52,0,0,0,28,0,0,0,0,4,0,0,201,4,12,97,0,0,0,0,0
+jansson,dd7dd414f0,2011-02-03,f825cdc9,Resolve __va_list_tag ** -> va_list * type errors with clang and future GCCs,1,1,10,2,10,2,0,0,0,2,0,0,0,0,0,0,0,29,0,0,10,0,0,0,0,0
+jansson,ef13fb9189,2011-01-29,6c2e3d23,Tweak the default validation behaviour of the unpack API,3,2,58,52,35,39,0,0,0,2,0,0,2,0,0,0,0,59,2,34,35,0,0,0,0,0
+jansson,908c62f327,2011-01-25,6c2e3d23,Add the 'I' format for both pack and unpack,1,1,15,1,15,1,0,0,0,2,0,0,2,0,0,0,0,82,2,10,10,0,0,0,0,0
+jansson,a1c185a376,2011-01-25,6c2e3d23,Use 'f' for real and 'F' for number (real or integer) in unpack,1,1,13,1,13,1,0,0,0,1,0,0,1,0,0,0,0,74,1,9,9,0,0,0,0,0
+jansson,ac96ac13d4,2011-01-25,6c2e3d23,unpack: Unify and enhance error messages,1,1,31,29,31,29,0,0,0,6,0,0,0,2,0,0,0,65,4,16,29,0,0,0,0,0
+jansson,579c291882,2011-01-25,6c2e3d23,"Expand the pack/unpack API, implement unpack flags",5,2,184,94,131,45,0,0,0,5,1,0,2,0,4,0,0,75,3,36,90,0,0,0,0,0
+jansson,2770dca2c0,2011-01-25,6c2e3d23,Add validation features to json_unpack(),3,3,57,11,57,11,0,0,0,3,1,0,0,0,2,2,0,56,1,31,49,0,0,0,0,0
+jansson,6d1f28f050,2011-01-25,6c2e3d23,Refactor json_unpack(),1,1,166,262,166,262,0,0,0,1,1,1,0,0,3,1,0,27,0,0,136,0,0,0,0,1
+jansson,7f3018a4fb,2011-01-24,6c2e3d23,Refactor json_pack(),4,3,152,229,151,228,0,0,0,2,1,1,0,0,6,1,0,25,0,0,144,0,0,0,0,1
+jansson,53383860e8,2011-01-24,6c2e3d23,Unify style,3,1,116,139,70,73,0,0,0,4,0,0,0,0,0,0,0,210,2,63,68,0,0,0,0,0
+jansson,fa7c2ea070,2011-01-22,6c2e3d23,Update copyright notices for 2011,38,11,40,40,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,46f91797ec,2011-01-17,6c2e3d23,Build cleanly with gcc's -Werror=declaration-after-statement flag,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+jansson,a242381024,2011-01-15,f825cdc9,Remove debugging printf,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,210,1,0,0,0,0,0,1,0
+jansson,3a7512d2b0,2011-01-14,f825cdc9,Make json_pack/json_unpack() recursive,3,1,558,428,421,393,0,0,0,2,2,2,0,0,2,0,0,14,2,26,347,0,0,0,0,0
+jansson,c7611e7a0d,2010-12-18,6c2e3d23,Make int32_t available when the configure script is not used,1,1,9,4,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,23bc8e468d,2010-12-14,6c2e3d23,Add version info to jansson.h,1,1,16,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+jansson,5422a862de,2010-10-27,6c2e3d23,Enhance error reporting,7,5,129,91,116,89,0,0,0,7,0,0,2,0,2,3,0,236,2,41,99,0,0,0,0,0
+jansson,bb5d4efb2e,2010-10-26,6c2e3d23,Make json_error_t transparent again,8,4,108,154,53,72,0,0,0,19,0,0,0,0,0,2,0,234,7,7,51,0,0,0,0,0
+jansson,198d537be7,2010-10-26,f825cdc9,Adds json_pack / json_unpack variadic functions.,10,4,882,17,606,15,0,0,0,0,2,0,0,0,4,0,0,0,0,0,454,0,0,0,0,0
+jansson,23dd078c8d,2010-10-14,6c2e3d23,Make json_error_t opaque,6,2,140,94,58,39,0,0,0,15,0,0,0,0,2,0,0,125,5,5,46,0,0,0,0,0
+jansson,cbb3855d97,2010-09-05,6c2e3d23,"On Windows, typedef int to int32_t",1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,06eb436008,2010-09-05,6c2e3d23,"Move max() to jansson_private.h, define only if not already defined",5,4,6,16,6,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+jansson,e3654c2245,2010-09-05,6c2e3d23,Don't use designated struct initializers,2,2,4,16,4,16,0,0,0,4,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+jansson,a112563214,2010-09-05,6c2e3d23,Use config.h only if it exists,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,976fc2279f,2010-09-05,6c2e3d23,Replace all occurences of inline with JSON_INLINE,2,2,8,13,8,13,0,0,0,6,0,0,0,0,0,0,0,7,0,0,8,0,0,0,0,0
+jansson,b76c69de1b,2010-08-14,6c2e3d23,Clarify and document the integer type configuration,3,1,21,14,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,bfac1972e2,2010-08-14,6c2e3d23,Add a flags parameter to all decoding functions for future needs,9,2,29,24,9,7,0,0,0,3,0,0,0,0,0,0,0,24,0,0,9,0,0,0,0,0
+jansson,f8d0e01e46,2010-08-13,6c2e3d23,Change the maximum indentation size to 32 spaces in encoder,3,2,8,8,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,ffbab6fedd,2010-08-13,6c2e3d23,Change the underlying type of JSON integer from long to json_int_t,17,5,120,45,35,18,0,0,0,5,0,0,1,1,0,0,0,201,2,12,32,0,0,0,0,0
+jansson,145032a57f,2010-08-12,6c2e3d23,Make object_key_t portable,2,2,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,23,0,0,6,0,0,0,0,0
+jansson,519d52e2bb,2010-08-12,6c2e3d23,Beautify the container_of macro,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,014c49c285,2010-08-10,6c2e3d23,Change JSON integer's underlying type from int to long,7,4,20,20,9,9,0,0,0,5,0,0,0,1,0,0,0,199,2,4,9,0,0,0,0,0
+jansson,68f2861e92,2010-06-15,6c2e3d23,Unify unsigned integer usage in the API,12,5,93,93,53,54,0,0,0,34,0,0,0,1,0,0,0,199,1,2,53,0,0,0,0,0
+jansson,1347686dbf,2010-06-12,6c2e3d23,Remove the C++ interface,8,1,4,1107,0,317,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,1,0
+jansson,453e4c0aa2,2010-05-14,6c2e3d23,Zero the visited flag after an encoding error,2,1,67,16,24,16,0,0,0,1,0,0,1,0,0,0,0,195,1,22,22,0,0,0,0,0
+jansson,2630980f49,2010-05-14,6c2e3d23,Zero the visited flag after encoding an empty array or object,4,1,55,2,6,2,0,0,0,1,0,0,1,0,0,0,0,189,1,6,6,0,0,0,0,0
+jansson,f9475f9577,2010-05-07,6c2e3d23,load.c: Make stream_init() static,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+jansson,29ee3832cf,2010-03-28,6c2e3d23,"Support compilers that don't have the ""inline"" keyword",5,2,28,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+jansson,bb89a5d4d3,2010-03-26,6c2e3d23,Estimate real number underflows with 0.0,7,1,3,12,1,8,0,0,0,1,0,0,0,1,0,0,0,77,1,1,1,0,0,0,0,0
+jansson,f284e3c069,2010-03-23,6c2e3d23,"Fix reference counting on true, false and null",2,1,34,3,3,3,1,0,0,3,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+jansson,7d5982e6fe,2010-03-18,9cfc6069,c++ wrapper: add missing 'inline' statements to various constructors,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,a2a9107600,2010-03-18,6c2e3d23,Don't include stdint.h anywhere,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jansson,42621370c3,2010-02-11,6c2e3d23,hashtable: Fix typo in comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,f18ef5144a,2010-02-11,6c2e3d23,Implement JSON_PRESERVE_ORDER encoding flag,10,4,115,20,65,20,0,0,0,7,0,0,1,0,5,3,0,190,1,11,54,0,0,0,0,0
+jansson,307167fb66,2010-02-09,6c2e3d23,Optimize hashtable_set(),1,1,24,16,24,16,0,0,0,1,0,0,0,0,0,0,0,34,0,0,22,0,0,0,0,0
+jansson,7e8b128740,2010-02-08,6c2e3d23,C++: Optimize PropertyProxy,2,1,18,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,acec2559a5,2010-02-07,6c2e3d23,C++: Make proxies safer,2,1,40,5,7,5,0,0,0,0,0,0,0,0,0,2,0,0,0,0,7,0,0,0,0,0
+jansson,286823227c,2010-02-06,6c2e3d23,Make int32_t available on all systems,4,3,10,2,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,adb1b58627,2010-02-04,6c2e3d23,"C++: Add Value::dump_file(), load_file() and loads() that take an std::string",2,1,16,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,b8059a1880,2010-02-04,6c2e3d23,C++: Rename some functions to better match the C API,3,1,10,10,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+jansson,49d40f020b,2010-02-04,6c2e3d23,C++: #include <cstdio> in jansson.hpp,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jansson,08dc8d9baf,2010-02-02,6c2e3d23,Add year 2010 to copyright notices,34,12,34,34,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,c9fc055351,2010-02-02,6c2e3d23,Add myself as another copyright holder for jansson.hpp and jansson.ipp,2,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,d1a0c3ffc2,2010-02-02,6c2e3d23,C++: Rename jansson-impl.hpp to jansson.ipp,3,1,7,7,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+jansson,b07e69c37a,2010-02-02,6c2e3d23,C++: Rename namespace json::_private to json::detail,2,2,12,12,12,12,0,0,0,6,0,0,0,0,67,67,0,4,0,0,12,0,0,0,1,0
+jansson,2b43e7dbda,2010-02-02,6c2e3d23,"C++: Untabify, reindent, delete trailing whitespace",3,2,822,819,673,673,0,0,0,100,0,0,0,0,0,0,0,8,0,0,469,0,0,0,0,0
+jansson,b495b96547,2010-02-01,6c2e3d23,"Add functions json_object_iter_{at,set,set_new}",7,4,134,0,77,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,45,0,0,0,0,0
+jansson,38950b081c,2010-01-18,ce6362eb,add meaningful copyright to jansson-impl.hpp too,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,56687e9b56,2010-01-18,ce6362eb,add meaningful copyright to jansson.hpp,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,e080667729,2010-01-18,ce6362eb,replace json::from() with explicit Value() constructors,3,3,75,75,75,75,0,0,0,1,0,0,0,0,11,11,0,109,1,15,61,0,0,0,0,0
+jansson,ef6c35ae1b,2010-01-18,ce6362eb,"move static functions out of Value, add test driver to ensure linking works properly",5,4,136,132,134,130,0,0,0,11,1,1,0,0,19,18,0,7,0,0,105,0,0,0,1,0
+jansson,95bf762eeb,2010-01-18,ce6362eb,rename jansson namespace to json,3,3,42,42,42,42,0,0,0,3,0,0,0,0,98,98,0,109,1,30,41,0,0,0,0,0
+jansson,dd36e4e838,2010-01-16,ce6362eb,rename files to match upstream's preferences,4,3,19,7,18,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,df35adc438,2010-01-16,ce6362eb,add comments noting inefficiency of stream ops,2,1,6,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,f88a5a0e6b,2010-01-16,ce6362eb,added a couple minor comments,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+jansson,cc06bc334a,2010-01-16,ce6362eb,cleanup code,3,1,497,238,56,95,0,0,0,0,0,0,0,0,0,48,0,0,0,0,49,0,0,0,0,1
+jansson,2dc2b6bab7,2010-01-16,ce6362eb,rename ArrayProxy to ElementProxy and ObjectProxy to PropertyProxy,2,1,35,35,20,20,0,0,0,1,0,0,0,0,4,4,0,3,0,0,20,0,0,0,0,0
+jansson,49a64a6edf,2010-01-16,ce6362eb,rename and move the _* private classes to _private namespace,2,1,213,209,172,168,0,0,0,6,0,0,0,0,26,26,0,3,0,0,107,0,0,0,1,0
+jansson,f0be52f9f8,2010-01-16,ce6362eb,add object property proxy support,3,2,56,7,36,6,0,0,0,2,0,0,1,0,3,1,0,109,1,2,19,0,0,0,0,0
+jansson,1bc0225441,2010-01-16,ce6362eb,add array element proxy support,3,2,56,17,42,9,0,0,0,1,0,0,1,0,4,0,0,107,1,6,25,0,0,0,0,0
+jansson,87df8bb0fe,2010-01-16,ce6362eb,templatize janssonxx functionality to prepare for proxy setters,3,2,367,229,234,229,0,0,0,31,0,0,1,0,23,48,0,101,1,6,142,0,0,0,0,0
+jansson,69437a7183,2010-01-13,ce6362eb,dont attempt to create a std::string from NULL in as_string(),1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+jansson,63f762bc48,2010-01-13,ce6362eb,save flags default to 0,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+jansson,5a0efe6536,2010-01-13,ce6362eb,add a safeguard against NULL return output stream,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+jansson,01759517aa,2010-01-13,ce6362eb,add Value::from(float),1,1,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0
+jansson,17805e5829,2010-01-12,ce6362eb,insert and remove methods,2,2,35,3,35,3,0,0,0,3,0,0,1,0,9,1,0,95,1,7,27,0,0,0,1,0
+jansson,492d95329a,2010-01-12,ce6362eb,add proper attribution to janssonxx.h,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,7ba18d3f0a,2010-01-12,ce6362eb,use different temporaries in tests instead of reusing e3,1,1,56,56,56,56,0,0,0,1,0,0,0,0,0,0,0,88,1,56,56,0,0,0,0,0
+jansson,7d09af38c1,2010-01-12,ce6362eb,remove auto type conversion on array/object assignment,2,2,6,14,6,14,0,0,0,3,0,0,1,0,0,0,0,88,1,4,4,0,0,0,1,0
+jansson,8d3a9e347c,2010-01-12,ce6362eb,rename as_json_t to as_json,1,1,6,6,6,6,0,0,0,4,0,0,0,0,1,1,0,11,0,0,6,0,0,0,0,0
+jansson,f79a81dad9,2010-01-12,ce6362eb,add (ugly) stream support,2,2,32,0,32,0,0,0,0,1,0,0,1,0,2,0,0,86,1,9,26,0,0,0,0,0
+jansson,b98e9d180c,2010-01-12,ce6362eb,rename the set() methods,2,2,18,12,18,12,0,0,0,1,0,0,0,0,4,3,0,77,1,9,17,0,0,0,0,0
+jansson,8d5d2a93d5,2010-01-12,ce6362eb,remove some unnecessary checks,1,1,8,26,8,26,0,0,0,8,0,0,0,0,0,0,0,6,0,0,8,0,0,0,1,0
+jansson,d77c2e3fb0,2010-01-12,ce6362eb,cleanup the take_ownership function a bit,1,1,20,18,20,18,0,0,0,10,0,0,0,0,1,1,0,7,0,0,18,0,0,0,0,1
+jansson,7ef3202f83,2010-01-12,ce6362eb,added save_file and save_string methods,2,2,19,0,19,0,0,0,0,1,0,0,1,0,2,0,0,77,1,7,14,0,0,0,0,0
+jansson,36085ab49a,2010-01-12,ce6362eb,include jansson.h inside the jansson namespace,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+jansson,f743c4ee7f,2010-01-12,ce6362eb,test object property assignment and clear,1,1,27,0,27,0,0,0,0,1,1,0,0,0,0,0,0,70,1,20,20,0,0,0,0,0
+jansson,c994eddec4,2010-01-12,ce6362eb,expand array assignment tests,1,1,14,0,14,0,0,0,0,1,0,0,0,0,0,0,0,50,0,0,11,0,0,0,0,0
+jansson,bd09127859,2010-01-12,ce6362eb,cleaner assignment behavior,2,2,62,25,62,25,0,0,0,3,0,0,0,0,18,4,0,39,0,0,43,0,0,0,0,0
+jansson,39601c183a,2010-01-12,ce6362eb,add tests,3,1,167,0,66,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,53,0,0,0,0,0
+jansson,93ac06c902,2010-01-10,6c2e3d23,Fix memory leaks in json_*_deep_copy(),1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+jansson,508873de9b,2010-01-10,6c2e3d23,Use _nocheck functions internally for speed,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+jansson,9db34dc31a,2009-12-31,6c2e3d23,Add functions for shallow and deep copying JSON values,7,2,517,0,161,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,111,0,0,0,0,0
+jansson,95a468cebb,2009-12-31,6c2e3d23,Add equality test for JSON values,7,2,328,0,98,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,68,0,0,0,0,0
+jansson,dd2fe1ebe8,2009-12-23,6c2e3d23,Add _nocheck functions,6,3,121,12,18,12,0,0,0,1,0,0,0,0,2,1,0,6,0,0,15,0,0,0,0,0
+jansson,f5202bedef,2009-12-21,6c2e3d23,Remove const qualifier from the json_t parameter in json_*_set() functions.,2,2,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,14,0,0,6,0,0,0,1,0
+jansson,ec96cbf016,2009-12-18,6c2e3d23,Encode reals correctly,1,1,16,1,16,1,0,0,0,1,0,0,1,0,0,0,0,119,1,13,13,0,0,0,0,0
+jansson,19a606d736,2009-12-16,6c2e3d23,Implement JSON_SORT_KEYS encoding flag,8,2,132,13,87,13,0,0,0,1,0,0,1,0,1,0,0,174,1,68,74,0,0,0,0,0
+jansson,50031440a3,2009-12-05,6c2e3d23,Implement JSON_ENSURE_ASCII encoding flag,7,5,150,24,88,22,0,0,0,5,0,0,3,0,1,0,0,119,3,40,67,0,0,0,0,0
+jansson,d67aeb9739,2009-12-02,6c2e3d23,Use int32_t instead of plain int with Unicode code points,3,3,10,6,10,6,0,0,0,4,0,0,1,0,0,0,0,125,2,4,10,0,0,0,0,0
+jansson,330e892ff6,2009-11-29,6c2e3d23,Make parse_json static,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+jansson,ca6d26a1c2,2009-11-07,6c2e3d23,Don't include stdint.h in jansson.h,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+jansson,f236c14dc5,2009-11-04,6c2e3d23,dump: Revise whitespace usage,6,2,221,22,25,16,0,0,0,4,0,0,1,0,0,0,0,118,1,17,24,0,0,0,0,0
+jansson,d3959a8ce7,2009-10-29,6c2e3d23,load: Parse a badly put - sign correctly,3,1,37,3,5,1,0,0,0,1,0,0,1,0,0,0,0,81,1,5,5,0,0,0,0,0
+jansson,f243930b68,2009-10-27,6c2e3d23,json_load_file: Initialize the error struct properly,4,1,29,1,2,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jansson,a83cd30c31,2009-10-19,22df517c,Add C++ guards to jansson.h,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+jansson,86dc1d629b,2009-10-16,6c2e3d23,Fix indentation,7,4,19,18,14,13,1,0,0,8,0,0,1,0,0,0,0,125,3,7,14,0,0,0,0,0
+jansson,4cd777712b,2009-10-15,6c2e3d23,Enhance handling of circular references,6,3,182,42,75,42,0,0,0,7,0,0,1,0,0,0,0,108,1,16,56,0,0,1,0,0
+jansson,79009e62c1,2009-10-15,6c2e3d23,json_dumps: Close the strbuffer if dumping fails,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+jansson,951d091f07,2009-10-14,6c2e3d23,"Make integer, real and string mutable",4,2,106,14,47,4,0,0,0,1,0,0,0,0,3,0,0,4,0,0,35,0,0,0,0,0
+jansson,185e107d24,2009-10-13,6c2e3d23,Don't use non-portable asprintf(),1,1,13,14,13,14,0,0,0,1,0,0,0,1,0,0,0,94,1,10,12,0,0,0,0,0
+jansson,1e00cd58a5,2009-10-11,6c2e3d23,Extend object API,6,4,255,17,94,13,0,0,0,1,0,0,0,0,5,0,0,5,0,0,66,0,0,0,0,0
+jansson,9d648a87cb,2009-10-10,6c2e3d23,Check json_object_set_new arguments,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+jansson,19588c2d69,2009-10-06,6c2e3d23,Fix a few more compilation issues,1,1,2,2,2,2,1,0,0,1,0,0,0,1,0,0,0,124,1,2,2,0,0,0,0,0
+jansson,9c5a8430db,2009-10-01,6c2e3d23,Make it compile on platforms where char is unsigned,2,2,3,3,3,3,0,0,0,3,0,0,0,1,0,0,0,54,2,2,3,0,0,0,0,0
+jansson,cbacac5975,2009-09-29,6c2e3d23,Extend array API,5,2,439,16,158,10,0,0,0,2,0,0,0,0,8,0,0,19,0,0,124,0,0,0,0,0
+jansson,6d8c287032,2009-09-14,6c2e3d23,load: Check for integer and real overlfows and underflows,2,1,65,9,40,9,0,0,0,2,0,0,2,0,0,0,0,77,2,33,34,0,0,0,0,0
+jansson,5406c2b3d3,2009-09-13,6c2e3d23,load: Check for integer and real overlfows and underflows,3,1,90,9,40,9,0,0,0,2,0,0,2,0,0,0,0,77,2,33,34,0,0,0,0,0
+jansson,743af38e7f,2009-09-13,6c2e3d23,Use unsigned long instead of uint32_t,3,2,11,11,8,8,0,0,0,5,0,0,0,0,0,0,0,98,1,1,8,0,0,0,0,0
+jansson,0f62dac627,2009-09-08,6c2e3d23,load: Handle EOF correctly,1,1,2,5,2,5,0,0,0,2,0,0,1,0,0,0,0,124,1,1,2,0,0,0,0,0
+jansson,7ee974e91c,2009-09-07,6c2e3d23,"Don't perform reference counting on true, false and null",2,2,8,8,8,8,0,0,0,5,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+jansson,234ee47281,2009-09-06,6c2e3d23,Better argument validation,5,1,68,7,23,2,0,0,0,5,0,0,0,0,0,0,0,24,0,0,15,0,0,0,0,0
+jansson,98a8c1aebf,2009-09-06,6c2e3d23,Don't include unistd.h,2,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+jansson,78eda92908,2009-09-04,6c2e3d23,jansson.h: Fix typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,9611780907,2009-09-04,6c2e3d23,dump: Optimize indenting,1,1,9,8,9,8,0,0,0,1,0,0,0,0,0,0,0,15,0,0,7,0,0,0,0,0
+jansson,93c5892bc3,2009-09-04,6c2e3d23,load: Factor out an unneeded strdup,1,1,12,1,12,1,0,0,0,1,0,0,0,0,1,0,0,51,1,1,11,0,0,0,0,0
+jansson,89d09813c3,2009-09-04,6c2e3d23,Add reference stealing functions for inserting values to objects and arrays,5,2,101,13,60,12,0,0,0,1,0,0,0,0,7,3,0,4,0,0,53,0,0,0,0,0
+jansson,ee2d164025,2009-08-24,6c2e3d23,Detect garbage near EOF in json_loadf() and json_load_file(),2,1,21,0,10,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,9,0,0,0,0,0
+jansson,114fc96f76,2009-08-23,6c2e3d23,array: Fix a few checks and a leak,1,1,4,2,4,2,1,0,0,2,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+jansson,0428f48d19,2009-08-04,6c2e3d23,Refuse to dump other types than array and object as the root value,1,1,6,0,6,0,0,0,0,2,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+jansson,36530d8c25,2009-07-30,6c2e3d23,Remove unimplemented json_clone(),1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+jansson,08d712d038,2009-07-30,6c2e3d23,Add macro json_is_boolean,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+jansson,2f4d6f8ae7,2009-07-30,6c2e3d23,Add LICENSE and a copyright note to all sources,18,10,130,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,f41e380984,2009-07-28,6c2e3d23,"Rename json_{load,dump} to json_{load,dump}_file",7,3,41,41,35,35,0,0,0,0,0,0,0,0,2,2,0,0,0,0,27,0,0,0,0,0
+jansson,b348519e96,2009-07-28,6c2e3d23,Fix some memory leaks and invalid memory references,3,2,27,7,22,7,1,0,0,7,0,0,1,0,0,0,0,123,1,3,18,0,0,0,0,0
+jansson,9240146c10,2009-07-16,6c2e3d23,Implement support for \u escapes,5,3,152,13,124,13,0,0,1,2,0,0,1,0,2,0,0,121,1,46,102,1,0,0,0,0
+jansson,a0435e3061,2009-07-16,6c2e3d23,"Show the whole UTF-8 sequence in error message, not just the first byte",1,1,14,1,14,1,0,0,0,1,0,0,1,0,1,0,0,52,1,4,12,0,0,0,0,0
+jansson,df307f1bc3,2009-07-14,6c2e3d23,Report errors from lexical and stream level in parser,2,1,93,57,88,52,0,1,1,13,0,0,2,0,1,0,0,83,4,47,83,0,0,0,0,0
+jansson,1f65a3cae7,2009-07-13,6c2e3d23,Get rid of JSON_SORT_KEYS dump flag,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+jansson,902bcdaa5e,2009-07-13,6c2e3d23,Decode and check for correct UTF-8,6,5,189,4,186,4,0,0,0,5,2,0,0,0,5,0,0,51,2,2,137,0,0,0,0,0
+jansson,625f50f916,2009-07-13,6c2e3d23,Streamify the loader,4,3,265,133,258,126,0,0,0,13,0,0,4,1,13,0,0,73,5,96,222,0,0,0,0,0
+jansson,4c414bdd6d,2009-07-13,6c2e3d23,Get rid of json_dumpfd and json_loadfd,7,3,1,80,0,52,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+jansson,1b67edb54d,2009-07-13,6c2e3d23,Little clean-up in parser,1,1,15,10,15,10,0,0,0,3,1,1,0,0,2,1,0,50,1,1,13,0,0,0,0,0
+jansson,287ec3f9da,2009-07-13,6c2e3d23,Unify naming in parser,1,1,73,74,73,74,0,0,0,4,5,5,0,0,9,9,0,29,0,0,73,0,0,0,0,0
+jansson,13c7ad3219,2009-07-13,6c2e3d23,Make the lexer not depend on locale,1,1,12,8,12,8,0,0,0,2,0,0,1,0,0,0,0,67,2,11,11,0,0,0,0,0
+jansson,68e948f567,2009-07-09,6c2e3d23,Don't dump extra spaces when indenting,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+jansson,6b14df13cc,2009-07-09,6c2e3d23,Fix dumping of Unicode control codes,1,1,33,13,33,13,1,0,0,1,0,0,1,0,0,0,0,44,1,27,27,0,0,0,0,0
+jansson,f9c2a113bb,2009-07-04,6c2e3d23,Fix number tokenizer,1,1,12,7,12,7,1,0,0,1,0,0,1,0,0,0,0,47,1,11,11,0,0,0,0,0
+jansson,4384776776,2009-07-04,6c2e3d23,Fix empty array dumping,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,98,1,1,1,0,0,0,0,0
+jansson,55af26f05a,2009-07-04,6c2e3d23,strbuffer: Optimize string termination,2,2,5,6,5,6,0,0,0,2,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+jansson,b724c2b122,2009-07-04,6c2e3d23,Separate integers and real numbers,4,4,117,32,117,32,0,0,0,5,1,0,2,0,6,2,0,98,3,29,96,0,0,0,0,0
+jansson,b1fe723a7f,2009-06-30,6c2e3d23,Fix json_loadf and json_loadfd with empty input,4,4,22,14,22,14,1,0,0,6,0,0,0,0,0,0,0,29,0,0,20,0,0,0,0,0
+jansson,dc9b954b62,2009-06-30,6c2e3d23,Print correct error message on premature end of array,1,1,16,14,16,14,0,0,0,1,0,0,0,0,0,0,0,30,0,0,13,0,0,0,0,0
+jansson,ae5ed3ff70,2009-06-15,6c2e3d23,Fix json_set_error,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,31,0,0,4,0,0,0,0,0
+jansson,7dc6cfd9cc,2009-06-15,6c2e3d23,Fix a few memory leaks in json_parse_object(),1,1,5,1,5,1,1,0,0,1,0,0,1,0,0,0,0,50,1,5,5,0,0,0,0,0
+jansson,d135a80e07,2009-06-15,6c2e3d23,"Implement json_load, json_loadf and json_loadfd",2,2,114,10,114,10,0,0,0,1,0,0,0,0,3,0,0,28,0,0,96,0,0,0,0,0
+jansson,8c697312e4,2009-06-13,6c2e3d23,strbuffer_value: Return a read-only pointer rather than duplicating the value,3,3,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+jansson,3e0134782b,2009-06-13,6c2e3d23,strbuffer: Allocate enough space for value initially,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+jansson,197d3aa160,2009-06-11,6c2e3d23,Implement strbuffer,4,3,93,28,91,28,0,0,0,1,0,0,0,0,7,1,0,13,0,0,74,0,0,0,0,0
+jansson,9b825f7b18,2009-06-11,6c2e3d23,Move max() to util.h,3,2,14,3,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0
+jansson,7764f3f321,2009-06-09,6c2e3d23,Implement json_dump and json_dumps,1,1,59,0,59,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,45,0,0,0,0,0
+jansson,d1407bed3a,2009-05-16,6c2e3d23,Implement dumping to an fd,2,2,17,0,17,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,15,0,0,0,0,0
+jansson,fdcf28b667,2009-05-13,6c2e3d23,Refactor error reporting,2,2,42,36,42,36,0,0,0,5,0,0,0,0,0,1,0,46,1,5,40,0,0,0,0,1
+jansson,0b58486ec4,2009-05-12,6c2e3d23,Fix json_object_get,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+jansson,86e1481cdb,2009-05-12,6c2e3d23,Get rid of include/,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+jansson,514bbeaf7f,2009-05-12,6c2e3d23,Parse an empty object correctly,1,1,4,1,4,1,0,0,0,1,1,0,0,0,0,0,0,46,1,3,3,0,0,0,0,0
+jansson,9ea51b2855,2009-05-12,6c2e3d23,Implement dumping to file,1,1,162,22,162,22,0,0,0,0,2,0,0,0,5,1,0,0,0,0,137,0,0,0,0,0
+jansson,61d0111323,2009-05-12,6c2e3d23,"Bump hashtable, allocate object->hashtable statically",3,3,107,58,107,58,0,0,0,8,0,0,0,0,4,2,0,23,0,0,66,0,0,0,0,0
+jansson,a2adf6ec98,2009-05-12,6c2e3d23,Add support for iterating over objects,2,2,45,3,45,3,0,0,0,1,0,0,0,0,4,0,0,8,0,0,35,0,0,0,0,0

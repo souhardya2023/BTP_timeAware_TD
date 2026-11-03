@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+arrow,2224255c4a,2026-04-30,246b2e00,"Revert ""Fix humanize reporting ""a month"" for 16-day differences (#1240) (#1242)"" (#1264)",1,1,9,11,9,11,1,0,0,1,0,0,0,1,0,0,0,146,1,6,6,0,0,0,0,0
+arrow,b423717da8,2026-02-19,223e1609,"Fix humanize reporting ""a month"" for 16-day differences (#1240) (#1242)",1,1,11,9,11,9,1,0,0,1,0,0,1,0,0,0,0,146,1,6,6,0,0,0,0,0
+arrow,b247ad073d,2025-12-15,cd0ff0a5,Added weeks to afrikaans locale (#1234),2,1,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,6c4e0db819,2025-12-14,2850fc8c,Fix linting,5,3,13,12,6,9,1,0,0,3,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+arrow,c61de92997,2025-10-18,246b2e00,Bump version and add changelog (#1228),2,1,26,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c3bb589536,2025-10-18,2850fc8c,Update pypy CI version and update pre-commit dependencies,9,3,27,44,14,28,0,0,0,3,2,4,0,0,0,14,0,71,2,0,14,0,0,1,0,0
+arrow,4c8c44aefc,2025-10-01,246b2e00,Add week_start parameter to floor() and ceil() (#1222),3,1,178,6,16,6,0,0,0,3,0,0,0,0,0,0,0,39,1,2,14,0,0,0,0,0
+arrow,05cd9b47d0,2025-10-01,246b2e00,fix humanize month limits (#1224),2,1,34,24,34,14,1,0,1,1,0,0,1,0,0,0,0,146,1,22,23,0,0,0,0,0
+arrow,97695bfce6,2025-08-06,b630801a,Migrate Arrow to use ZoneInfo for timezones (#1217),14,4,208,158,29,27,0,0,0,14,0,0,0,0,0,0,0,134,5,6,29,0,0,0,0,0
+arrow,d8bf13d444,2025-08-04,d3cb6516,"Add week, weeks to timeframes in class ThaiLocale (#1218)",2,1,57,8,19,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+arrow,0fe5f06571,2025-05-18,246b2e00,Add FORMAT_RFC3339_STRICT with a T separator. (#1201),3,2,10,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,d05ca1dbd2,2024-11-17,246b2e00,"Revert ""Add fa to lang and fix linting issue (#1166)"" (#1202)",1,1,0,4,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,b84ac0b36b,2024-11-05,246b2e00,Adding docstrings to parser.py (#988) (#1010),1,1,169,0,169,0,0,0,0,9,0,0,0,0,0,0,0,93,3,32,137,0,0,0,0,0
+arrow,0a01d345cb,2024-11-05,246b2e00,Add Macedonian in Latin. (#1200),2,1,245,5,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0
+arrow,016fb9eb9b,2024-10-28,61f307ff,fix: adding persian names of months and month-abbreviations and day-abbreviations in Gregorian calen,2,1,41,25,34,25,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0
+arrow,c2dfa12bde,2024-10-28,8b6f7ba2,Add fa to lang and fix linting issue (#1166),1,1,4,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,540182adf5,2024-10-23,e6b7e732,add weeks to catalan locale (#1189),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,74815dfe73,2024-10-23,246b2e00,Add Python versions and bump ci deps (#1177),9,3,64,17,53,7,0,0,0,1,0,0,0,0,0,0,0,17,0,0,53,0,0,0,0,0
+arrow,c78e35e8ee,2024-10-21,9ef76cb9,added week and quarter to persian/farsi (#1190),2,1,25,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,d5bd7db75d,2024-10-19,7ce2bf53,Fix type hint of Arrow.__getattr__ (#1171),1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+arrow,cbe4949c49,2024-10-19,16ad6104,"Modifying Spelling `제작년`, Remove poorly used expressions (#1181)",2,1,3,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+arrow,403c29fd48,2024-10-19,93d91c32,Update shift() for issue #1145 (#1194),2,1,23,5,13,5,0,0,0,4,0,0,1,0,0,0,0,72,3,5,10,0,0,0,0,0
+arrow,f77aa1d425,2024-08-26,bebf27a4,"Improve ""second"" and ""day(s)"" translation to Greek (#1186)",2,1,9,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,02e3b1b4c5,2024-08-25,bebf27a4,"Fix ""ago"" Greek translation and month typo (#1184)",2,1,13,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,587af5fbe9,2024-08-23,67fac906,#1178: changes to address datetime.utcnow deprecation warning (#1182),6,1,27,23,2,2,0,0,0,1,0,0,0,0,0,0,0,134,1,1,2,0,0,0,0,0
+arrow,2bd89ab7cb,2024-07-08,b14117e0,add a doc link for arrow.format (#1180),2,1,6,1,2,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+arrow,41717e5e0e,2024-06-23,e24a62b0,Remove typing_extensions (#1176),5,5,7,31,7,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0
+arrow,87a1a774aa,2023-09-30,2850fc8c,Bump version and add changelog,2,1,14,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,431e9793be,2023-09-30,b630801a,Migrate to pyproject.toml (#1164),7,1,110,65,0,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,522a65b167,2023-09-30,a08ca860,add 'week' and 'weeks' to Arabic locale (#1155),2,1,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,3a6cd95389,2023-09-30,2850fc8c,Add python dateutil types,4,1,7,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,1b95733910,2023-09-30,ab4e6ef0,Added translation for weeks in Finnish locale (#1157),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,de0aea9805,2023-09-11,b630801a,Fix failing builds and drop Py36 and 37 support (#1163),20,6,74,443,18,53,1,0,0,6,0,0,1,0,0,0,0,81,2,5,18,0,0,0,0,0
+arrow,8cac5fabf5,2022-10-18,707fd757,Spelling Fixes (#1131),4,1,8,8,2,2,0,0,0,1,0,0,0,0,0,0,0,72,1,2,2,0,0,0,0,0
+arrow,d2ceb53279,2022-10-08,b801f7a6,add error codes to type ignore comments,3,2,9,6,6,6,0,0,0,6,0,0,0,0,0,0,0,134,4,4,6,0,0,0,0,0
+arrow,054749e00a,2022-10-08,b801f7a6,upgrade mypy version,3,1,3,2,1,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+arrow,11712752c0,2022-10-01,b801f7a6,add support for Python 3.11,3,1,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f8f306848f,2022-08-31,0c4b73ce,"Typo Fix in Italian locale, update Romansh locale (#1121)",1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,5f9dfbef9e,2022-08-29,d75a95a7,Parser: Allow UTC prefix in TzInfoParser (#1099),2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4eb070fd85,2022-08-29,d66d9f28,Hungarian Locale Update (#1123),2,1,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,aa862642ab,2022-07-22,56fe4655,Update Finnish locale,2,1,7,7,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,8842f8c326,2022-06-25,5c404173,Bump version to 1.2.3 and update CHANGELOG (#1116),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,3fa1b92d31,2022-06-02,3a4e7339,Add Armenian locale,2,1,8,9,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,de1c5bdca7,2022-05-18,5c404173,Fix syntax in locales,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,fbe19bd177,2022-05-18,5c404173,Fix syntax in locales,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4357f8c8db,2022-05-02,c55b3047,Add Uzbek (#1098),4,2,152,60,69,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0
+arrow,f98ad73177,2022-05-01,08c09793,Add Laotian locale (#1105),4,2,169,0,110,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,94,0,0,0,0,0
+arrow,1904804a8d,2022-05-01,b630801a,Fix failing CI lint task. (#1107),7,2,51,69,4,4,0,0,0,1,0,0,0,0,0,0,0,72,1,3,4,0,0,0,0,0
+arrow,80af201e58,2022-03-02,3a4e7339,Add Armenian locale,4,2,156,0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,0
+arrow,c9cae9e8c2,2022-02-18,d09d7835,Add Amharic Locale (#1093),3,2,249,0,173,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,155,0,0,0,0,0
+arrow,5ad47f1cf5,2022-02-14,08c09793,Add Georgian Locale (#1088),4,2,142,0,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,0,0,0,0,0
+arrow,cdc8d33783,2022-02-13,42fc1adf,Fix Issues and Add Tests for Danish Language (#1091),2,1,59,2,7,2,1,0,0,5,0,0,0,0,1,0,0,12,0,0,6,0,0,0,0,0
+arrow,f8a65212df,2022-01-20,5c404173,Bump version to 1.2.2 and update CHANGELOG (#1085),2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4c4689c6d9,2022-01-19,c9981d11,Fix outdated Python 2 print in docs (#1086),2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,26,1,1,1,0,0,0,0,0
+arrow,e43524088f,2022-01-05,0ba05405,Fix ordinals for norwegian languages (#1074),2,1,123,1,11,1,1,0,0,6,0,0,0,0,2,0,0,12,0,0,9,0,0,0,0,0
+arrow,774ac01303,2021-12-31,b630801a,Break up requirements.txt into multiple requirements files (#1080),8,1,59,89,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,74bc0a1d25,2021-12-27,a4a308fe,Dehumanize Support for Czech and Slovak Locales (#1079),4,2,82,28,32,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0
+arrow,a2ebb7e20b,2021-12-18,a4a308fe,Dehumanize Support for Slavic Locales (#1077),4,3,95,2,24,2,0,0,0,2,0,0,0,0,0,0,0,72,1,1,20,0,0,0,0,0
+arrow,d688de482c,2021-11-23,c55b3047,Kazakh Locale (#1069),4,2,139,0,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0
+arrow,56e58ee568,2021-11-05,f8eb7a27,Align Format of cn-zh Timeframe (#1058),2,1,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,8f5b21f037,2021-11-01,a053ab2d,Add Support for Quarter Granularity in Russian (#1062) (#1063),2,1,85,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+arrow,675c877a25,2021-10-30,eb80ea2f,Add Qeeks and Quarters Timeframes for Indonesian locale (#1060),2,1,7,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,baebfff4d1,2021-10-28,a053ab2d,Incorrect plural for seconds in Russian (#1056) (#1057),3,1,90,4,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+arrow,3e50ae4b6c,2021-10-24,b630801a,Bump version to 1.2.1 and update CHANGELOG. (#1055),2,1,26,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,cc1cbeb018,2021-10-24,a4a308fe,Added Error Checking For Empty Granularity List (#1016),2,1,14,0,7,0,0,0,0,1,0,0,1,0,0,0,0,134,1,5,5,0,0,0,0,0
+arrow,f7a3aa3225,2021-10-22,9607f176,Add quarter granularity (#1048),3,2,34,2,14,2,0,0,0,1,0,0,1,0,0,0,0,129,1,5,14,0,0,0,0,0
+arrow,4d1aa4f9df,2021-10-22,cb3c80cc,Issue 985 -- Add Azerbaijani second time frame (#1052),2,1,74,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,2ee879f771,2021-10-22,22a34c54,Declare support for Python 3.10 (#1053),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,8151564f54,2021-10-19,3843d529,Corrections in Serbian locale (#1047),1,1,14,14,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+arrow,4962416941,2021-10-04,08c09793,add Urdu locale (#1046),4,2,115,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,0,0,0,0,0
+arrow,2f54cb8edd,2021-09-28,d09d7835,Add Sinhala Locale (#1044),2,1,238,0,164,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,144,0,0,0,0,0
+arrow,9b45719591,2021-09-21,51820a5b,Fixing Plural of Years and Days in Hebrew (#1042),3,1,28,12,10,12,1,0,0,1,0,0,0,0,0,0,0,11,0,0,10,0,0,0,0,0
+arrow,a4f179721f,2021-09-12,b630801a,Revert dateutil lock back to >= 2.7.0 (#1041),3,1,3,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+arrow,3f056f35fd,2021-09-11,5c404173,Bump version to 1.2.0 and update CHANGELOG (#1039),2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,310cef824e,2021-09-11,a4a308fe,Added new Locales that Dehumanize Supports (#1034),3,2,68,37,53,32,0,0,0,1,0,0,1,0,0,0,0,72,1,32,40,0,0,0,0,0
+arrow,4eda42bbae,2021-09-10,954c72b8,"Add ""week"" timeframe locale for greek language (#1040)",1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,4c13420f4f,2021-09-05,246b2e00,"Revert ""Default to UTC for arrow.fromtimestamp() (#1036)"" (#1037)",2,1,6,5,2,2,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+arrow,8ad64d0c83,2021-09-05,246b2e00,Default to UTC for arrow.fromtimestamp() (#1036),2,1,5,6,2,2,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+arrow,246c55d3ae,2021-09-05,246b2e00,Add Support for Decimal as Input to arrow.get. (#1035),2,1,11,0,3,0,0,0,0,1,0,0,1,0,0,0,0,71,1,2,3,0,0,0,0,0
+arrow,80e5947de2,2021-09-02,a4a308fe,Refactored Finnish Locale (#1031),2,1,32,37,22,32,0,0,1,3,0,0,0,0,0,1,0,15,0,0,22,0,0,0,0,1
+arrow,c3149a7327,2021-09-02,a4a308fe,Slovak Locale Refactor (#1023),1,1,44,19,44,19,0,0,0,1,0,0,0,0,0,0,0,20,0,0,44,0,0,0,0,1
+arrow,72301727ab,2021-08-29,a4a308fe,Refactor of Czech Locale For Dehumanize Support (#1021),2,1,47,19,45,19,0,0,0,1,0,0,0,0,0,0,0,20,0,0,44,0,0,0,0,1
+arrow,906802c255,2021-08-29,a4a308fe,Refactored Arabic Locale for Dehumanize Support (#1028),1,1,7,7,7,7,0,0,0,1,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,1
+arrow,6b9e427398,2021-08-29,a4a308fe,Hebrew Locale Refactor (#1029),2,1,28,36,19,27,0,0,0,2,0,0,0,0,0,0,0,20,0,0,18,0,0,0,0,1
+arrow,44c3930d5c,2021-08-26,08c09793,Add Albanian Locale (#1030),4,2,115,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,0,0,0,0,0
+arrow,e9f5f1a279,2021-08-23,a4a308fe,Refactor of Icelandic Locale For Dehumanize Support (#1017),2,1,58,20,26,19,0,1,1,1,0,0,0,0,0,0,0,13,0,0,24,0,0,0,0,1
+arrow,de6062c399,2021-08-19,0d3e95e2,1 for numbers is written as 'un' (#1027),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,b1fdaf9ce9,2021-08-18,a4a308fe,Added Units to Nepali Years Timeframe (#1024),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,df74acdbd4,2021-08-17,08c09793,Add Ukrainian Locale Name Variant (#1025),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,326c62ce03,2021-08-01,a4a308fe,Refactor of Slavic Locales for Future Dehumanize Support (#992),1,1,133,45,133,45,0,0,0,1,0,0,0,0,0,0,0,11,0,0,133,0,0,0,0,1
+arrow,95838a8fab,2021-08-01,a4a308fe,Refactor of Thai Locale for Dehumanize Support (#990),1,1,8,4,8,4,0,0,0,1,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,1
+arrow,fe1afe2c2b,2021-07-29,11458979,Parser Token Validation (#1007),2,1,9,1,4,1,0,0,0,1,0,0,1,0,0,0,0,64,1,4,4,0,0,0,0,0
+arrow,255f717c58,2021-07-14,b630801a,Require dateutil 2.8.2+ (#1006),3,1,6,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c53113a2a3,2021-07-08,d09d7835,Add Tamil locale (#1004),4,2,141,0,91,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,81,0,0,0,0,0
+arrow,37b45daccb,2021-07-07,08c09793,Add Zulu locale (#1002),2,1,121,0,98,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,85,0,0,0,0,0
+arrow,aa0e805388,2021-06-28,08c09793,Expand locale name variants (#998),1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,989ab94e4e,2021-06-27,b630801a,Improve _format_timeframe type annotations and update pre-commit dependencies. (#995),2,1,19,42,13,37,0,0,0,13,0,0,0,0,0,0,0,20,0,0,13,0,0,1,0,0
+arrow,57332ed039,2021-06-24,b630801a,Bump version and update CHANGELOG. (#994),2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,b8a9df754e,2021-06-23,a4a308fe,Fix floats appearing in Humanize output for locales that override _format_timeframe (#986),2,1,24,4,5,4,1,0,0,4,0,0,0,0,0,0,0,20,0,0,5,0,0,0,0,0
+arrow,f1df58b321,2021-06-23,d09d7835,Add Luxembourgish Locale (#993),4,2,133,0,104,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,88,0,0,0,0,0
+arrow,7c9632c091,2021-06-14,08c09793,Add Sami locale (#989),4,2,110,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,0,0,0,0,0
+arrow,197bd64a06,2021-06-10,08c09793,Add Serbian locale (#980),2,1,125,0,94,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,83,0,0,0,0,0
+arrow,7060ea253d,2021-05-31,9acd8123,Fixed TurkishLocale,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,e68df211f9,2021-05-29,9acd8123,Update TurkishLocale,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,119bb6730c,2021-05-16,b630801a,Change requirements.txt to requirements-dev.txt and clean up dependency versioning. (#978),9,1,29,33,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,1
+arrow,05c1a1a5c8,2021-05-09,b630801a,Update dependencies (#975),5,2,14,14,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,1,0,0
+arrow,384fb74081,2021-05-06,08c09793,Add Maltese locale (#972),2,1,123,2,96,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,85,0,0,0,0,0
+arrow,06fe693c19,2021-05-02,5c404173,Fix multiple bugs in arrow.get() tzinfo kwarg handling (#968),2,1,62,21,21,21,1,0,0,1,0,0,0,0,0,0,0,69,1,9,9,0,0,0,0,0
+arrow,fe1aaaee3e,2021-04-29,5e295712,Add Odia (or) locale (#966),4,2,130,0,93,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,84,0,0,0,0,0
+arrow,08705bcde7,2021-04-27,a4a308fe,Reverse humanize (#965),2,1,9,9,7,7,0,0,0,1,0,0,0,0,0,0,0,64,1,7,7,0,0,0,0,0
+arrow,fbec661ad2,2021-04-27,5c404173,Bump version to 1.1.0 and update CHANGELOG (#963),2,1,49,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,699198c4d2,2021-04-25,a4a308fe,Implement dehumanize method (#956),6,3,752,6,220,4,0,0,0,1,1,0,0,0,1,0,0,11,0,0,173,0,0,0,0,0
+arrow,1310dbbc32,2021-04-18,b630801a,Standardize locales and improve locale validation (#954),10,7,157,121,108,104,0,0,0,16,0,0,0,0,0,0,0,126,4,6,107,0,0,0,0,0
+arrow,ac6a204e2a,2021-04-15,08c09793,Add Malay locale (#959),2,1,103,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,0
+arrow,60bc1960b0,2021-04-14,11458979,Make start of week adjustable when using span (#934),2,1,36,2,14,1,0,0,0,1,1,0,0,0,0,0,0,37,1,11,11,0,0,0,0,0
+arrow,f18be7fdf0,2021-04-11,5c404173,"Audit all docstrings for style, typos and outdated info (#939)",7,7,56,30,56,30,0,0,0,20,0,0,0,0,0,0,0,69,3,3,41,0,0,0,0,0
+arrow,57c67d02f2,2021-04-08,08c09793,Add Latin locale (#955),2,1,103,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,0
+arrow,6941e32dbb,2021-04-08,c5b5ff7e,Utilize __init_subclass__ instead of inspect on Locale mapping to improve type checking (#920),3,1,20,20,11,17,0,0,0,1,0,0,0,0,1,1,0,5,0,0,7,0,0,0,0,0
+arrow,485d40bac8,2021-04-07,08c09793,Add Latvian locale (#951),2,1,108,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,0
+arrow,85964d0d4e,2021-04-07,08c09793,Add Lithuanian (#950),2,1,107,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,0
+arrow,45ad1129dc,2021-04-01,08c09793,Add Croatian locale,2,1,121,0,94,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,83,0,0,0,0,0
+arrow,cf8a0cc746,2021-03-14,48ab3a72,Restore datetime constructor type acceptability in factory.get() (#943),1,1,10,0,10,0,0,0,0,3,0,0,0,0,1,0,0,18,0,0,8,0,0,0,0,0
+arrow,ce69c31f18,2021-03-07,5c404173,Bump version to 1.0.3 and update CHANGELOG (#940),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c577c76ee7,2021-03-05,3c4b63d8,Reconfigure arrow/__init__.py to avoid mypy --strict problems (#938),1,1,22,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+arrow,47c715d9aa,2021-03-02,0088fc53,Swedish locale fix (#935),2,1,21,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,fc2cbaa312,2021-02-28,b630801a,Bump version to 1.0.2 and update CHANGELOG (#932),2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,86116aea96,2021-02-28,b630801a,Fix overflow on 32-bit Linux systems (#931),1,1,4,3,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+arrow,23800a8e4a,2021-02-27,b630801a,Bump version to 1.0.1 and update CHANGELOG (#927),3,1,14,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,7bc67846a3,2021-02-26,bb036a9b,Add py.typed export per PEP 561 (#925),2,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,5248407fda,2021-02-25,5c404173,Bump version to 1.0.0 and update CHANGELOG (#924),2,1,30,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f15a7ae787,2021-02-23,3c4b63d8,Fix German time frames (#922),1,1,5,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+arrow,87cd4a981f,2021-02-20,5c404173,Remove usage of dateutil enfold() (#921),1,1,3,6,3,6,0,0,1,2,0,0,0,1,0,0,0,27,1,2,3,0,0,0,1,0
+arrow,53029db7ab,2021-02-17,96be82d2,Add type annotations (#883),12,9,999,383,960,383,0,6,0,139,4,2,4,1,16,0,0,126,10,140,888,0,0,0,0,0
+arrow,f2e08490fb,2021-02-01,deaec7df,Correct Norwegian grammar (#915),1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+arrow,fb6913b503,2021-01-07,44e4de47,Raise exception when None value is passed to arrow.get() (#906),2,1,4,6,2,2,0,0,0,1,0,0,0,0,0,0,0,69,1,1,1,0,0,0,0,0
+arrow,b66baf7417,2021-01-07,cff0fbe0,Remove redundant Python2 numeric relics (#911),5,4,36,36,34,34,0,0,0,3,0,0,0,0,0,0,0,139,2,24,34,0,0,0,1,0
+arrow,6825f8a1b7,2020-12-24,5c404173,Remove tzinfo setter and update tests (#902),2,1,1,8,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+arrow,c3085672b7,2020-12-24,cff0fbe0,Modernize code for Python 3.6+ (#903),5,5,47,63,47,63,0,0,0,24,0,1,0,1,0,0,0,139,5,21,47,0,0,0,0,0
+arrow,ea9f325dea,2020-12-22,a05e94a0,"Fix simple docs typo, inpute -> input (#901)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+arrow,67732ee6f1,2020-12-13,3dbc392d,Implemented new fromordinal method and added new timespec arg to isoformat. (#891),5,3,138,4,49,4,0,0,0,1,0,0,0,0,2,0,0,2,0,0,40,0,0,0,0,0
+arrow,e521f2777d,2020-12-03,635f3f36,"Add 'exact' keyword in span_range, span and interval methods  (#888)",2,1,257,18,51,18,0,0,0,3,0,0,2,0,0,0,0,27,2,34,50,0,0,0,0,0
+arrow,0aebf57293,2020-12-02,2211cf64,Use datetime.strptime tokens internally for parsing ISO 8601 week dates (#889),1,1,7,3,7,3,0,0,0,1,0,0,1,0,0,0,0,93,1,2,3,0,0,0,0,0
+arrow,1278a21b46,2020-11-25,b630801a,Audit errors and clean up utils (#887),9,6,66,96,56,80,0,0,0,18,0,0,0,3,0,1,0,139,6,21,56,0,0,0,0,1
+arrow,f885241eb7,2020-11-18,b630801a,Fix MAX_TIMESTAMP on Windows (#882),2,1,40,26,18,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+arrow,30d16c1cff,2020-11-10,b630801a,Deprecate Python 2.7 and Python 3.5 (#877),27,10,155,293,103,193,0,0,4,43,0,0,1,1,0,3,0,142,7,28,99,0,0,0,0,0
+arrow,609b630b9f,2020-11-08,5c404173,"Change humanize() granularity=""auto"" limits (#868)",2,1,43,23,19,20,0,1,0,1,0,0,0,0,0,0,0,142,1,17,18,0,0,0,0,0
+arrow,fe9602e217,2020-10-22,46cb25b7,Correct mistakes in Japanese locale (#873),2,1,23,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,7cccf6a703,2020-10-13,b630801a,Raise ParserError rather than TypeError/re.error in certain scenarios. (#862),2,1,37,1,16,1,0,2,0,1,0,0,0,0,0,0,0,32,0,0,12,0,0,0,0,0
+arrow,3709e32da3,2020-10-07,946b31f3,Update locales.py (#865),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,b746fedf72,2020-10-06,b630801a,Add release notes and bump version for 0.17.0 (#858),2,1,35,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,eb35893156,2020-09-26,0d3e95e2,Include day and month abbreviations for Catalan (#853),1,1,38,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,1,0,0
+arrow,da6ed8c028,2020-09-26,f87e9239,Fix range behaviour at end of month/quarter/year frames (#842) (#844),2,1,61,0,12,0,1,0,0,1,0,0,1,0,1,0,0,21,1,6,9,0,0,0,0,0
+arrow,405e0a5535,2020-09-26,b630801a,Add case normalization to day of week parsing (#852),2,1,54,22,10,2,0,0,0,1,0,0,1,0,0,0,0,55,1,8,8,0,0,0,0,0
+arrow,e22c53108c,2020-09-19,5c404173,Add new int_timestamp property in preparation for 1.0.0 release (#814),2,1,34,1,25,1,0,0,0,2,0,0,0,0,1,0,0,8,0,0,18,0,0,0,0,0
+arrow,7bb5c60378,2020-09-16,5c404173,Improve handling of imaginary datetimes (#845),2,1,114,8,17,8,0,0,0,4,0,0,0,0,1,0,0,25,1,1,13,0,0,0,0,0
+arrow,80aa80c0eb,2020-09-10,246b2e00,Add weeks and expand on tests for Tagalog. (#849),2,1,175,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,0c2a9d7c50,2020-08-28,b630801a,Upgrade black and enforce minimum Tox version. (#846),10,5,209,120,59,64,0,0,0,57,0,0,1,0,0,0,0,142,7,8,59,0,0,0,0,0
+arrow,3807a16393,2020-08-25,b630801a,Reorganize functions in arrow.py into a more logical ordering. (#841),3,2,202,202,195,195,0,0,0,15,0,0,0,0,1,1,0,32,1,1,122,0,0,0,0,0
+arrow,fb83f688f3,2020-08-23,b630801a,Bump version to 0.16.0 and update CHANGELOG (#843),2,1,30,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,185a1a027b,2020-08-21,5c404173,Implement PEP 495 to handle ambiguous datetimes (#802),4,2,172,6,48,6,0,1,0,9,0,0,1,0,2,0,0,28,1,14,36,0,0,0,0,0
+arrow,5e2e52ad2b,2020-07-26,1c41527e,Add normalize_spaces flag to arrow.get (#813),5,2,95,8,18,7,0,0,1,3,0,0,2,0,0,0,0,77,2,12,15,0,0,0,0,0
+arrow,b7a74034db,2020-07-23,5c404173,Bump version to 0.15.8 and update CHANGELOG (#826),6,2,30,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,14c64b1907,2020-07-23,246b2e00,Add a deprecation warning for Python 2.7 and <=3.5. (#828),1,1,10,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+arrow,3b54885409,2020-07-14,b630801a,Fix arrow.get functionality when weekday is parsed alone (#823),5,2,177,6,55,3,1,0,0,2,0,0,2,0,1,0,0,91,2,15,34,0,0,0,0,0
+arrow,4c99ae3e62,2020-07-03,4a480573,Added week and weeks timeframes for Czech locale (#816),2,1,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,81f224d72f,2020-06-19,b630801a,Bump version to 0.15.7 and update CHANGELOG (#810),2,1,28,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,451a3fef29,2020-06-16,7c3aa45e,Add week timeframe to Korean locale (#804),2,1,113,5,37,5,0,0,0,3,0,0,0,0,2,0,0,10,0,0,32,0,0,0,0,0
+arrow,22acd93050,2020-06-09,5c404173,Create built-in format strings for common formats (#791),6,3,139,2,25,2,0,0,0,1,0,0,0,0,0,0,0,90,1,2,24,0,0,0,0,0
+arrow,6e17e229a9,2020-06-08,47752907,Add Swahili Locale (#797),2,1,123,0,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,0,0,0,0,0
+arrow,95ce1609a5,2020-06-07,b630801a,Add official Python 3.9 support (#801),6,1,28,32,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,09508f1f38,2020-06-05,246b2e00,Fixing second. Adding tests for it.,2,1,8,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,15ed80b54f,2020-06-05,246b2e00,Fix up MK locale and add tests.,2,1,119,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,1619df9273,2020-06-05,246b2e00,Clean up Macedonian Locale. Add weeks.,1,1,27,25,27,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,1
+arrow,1a60d8bb80,2020-06-04,2850fc8c,Fixed bug with long and int on Python 2.7,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+arrow,82e2257ae3,2020-06-03,2850fc8c,Remove trunc in locales.py added by mistake.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,1,0
+arrow,b6e5a9c5bb,2020-06-03,2850fc8c,Normalize millisecond and microsecond timestamps in all cases.,5,4,35,20,26,20,0,0,0,4,0,0,0,1,1,0,0,81,1,3,23,0,0,0,0,0
+arrow,e7a5676280,2020-05-31,4f2e9ca2,Add weeks translation for Hebrew (#794),2,1,73,6,37,2,0,0,0,1,0,0,0,0,1,0,0,10,0,0,31,0,0,0,0,0
+arrow,b8a601139c,2020-05-19,4296f31c,Fix Portuguese locale capitalization and consolidate Brazilian locale (#793),2,1,7,69,6,69,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,0986e6abd1,2020-05-15,9ec42340,Add French Canadian locale (#792),2,1,53,17,44,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0
+arrow,0acec71ad6,2020-05-13,cff0fbe0,Add support for week for the Slovak locale and complete the timeframe tests,2,1,58,5,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,38e285e7bc,2020-05-03,cf5c4933,Added support for week in Swedish locale. (#780),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,61362579f6,2020-05-03,b630801a,Fix x formatting token on Python 2.7 (#781),3,1,11,8,3,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,3088a51c6e,2020-04-29,5c404173,Bump version to 0.15.6 and update CHANGELOG,2,1,33,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c79b550b16,2020-04-25,8eaa452c,"Adds ""week"" locale support for zh_tw (#776)",2,1,26,3,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+arrow,d675335300,2020-04-11,82ba5237,Consolidate German locales and add missing 'week'/'weeks' localization (#768),2,1,41,89,18,79,0,0,0,2,0,0,0,0,0,0,0,7,0,0,13,0,0,0,0,0
+arrow,9a1df216c4,2020-04-07,f055eba8,Add week timeframe to Polish locale (#769),2,1,52,8,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+arrow,34213790eb,2020-04-01,5c404173,Allow formatting with 'x' token (#766),2,1,9,1,5,1,0,0,0,1,0,0,1,0,0,0,0,79,1,3,4,0,0,0,0,0
+arrow,bc54bf027f,2020-03-29,246b2e00,lint fix up.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,d4da708c76,2020-03-28,246b2e00,Moving test_locales.py to pytest fixtures.,2,1,115,169,14,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+arrow,a794566c21,2020-03-26,3072251e,Update locales.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,7e0d4f6c5e,2020-03-05,b630801a,Add support for parsing and formatting ISO 8601 week dates (#754),5,2,97,6,34,4,0,0,1,5,0,0,4,0,0,0,0,90,4,17,24,0,0,0,0,0
+arrow,3298ccd331,2020-02-18,da9d5e44,Update locales.py,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,f664c139c1,2020-01-04,2850fc8c,Remove test suite support from setup.py as it will soon be deprecated,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+arrow,c856ab9dad,2020-01-03,5c404173,Bump version to 0.15.5 and update CHANGELOG (#750),2,1,30,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,6adb8dbccc,2020-01-03,b630801a,Correct error in humanize() granularities for single seconds (#748),4,2,157,69,111,53,0,0,0,2,0,0,1,0,0,0,0,142,1,14,109,0,0,0,0,0
+arrow,b12f4a6d23,2020-01-01,c258647a,allowing plural 'name' arguments to _get_frames (#735),2,1,45,2,15,2,0,0,0,1,0,0,0,0,0,0,0,27,0,0,15,0,0,0,0,0
+arrow,b1b37cee7a,2020-01-01,b630801a,Fixed arrow.get with a timestamp and a timezone string (#746),5,2,24,18,11,16,1,0,0,3,0,0,0,0,0,0,0,20,0,0,11,0,0,0,0,0
+arrow,6a70b9d113,2020-01-01,f787ffe5,Added Hong Kong (zh_hk) locale (#742),2,1,84,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,0,0,0,0,0
+arrow,1cd7f94ef6,2020-01-01,5c404173,Revert support for negative timestamps on Windows (#745),5,3,24,133,6,57,0,0,0,3,0,0,0,0,0,3,0,79,1,2,6,0,0,0,0,0
+arrow,545dead00a,2019-12-20,d43c8764,add week to the dutch/nl locale,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,a593b06723,2019-12-09,7d6c6144,"Style fixes, update test, documentation additions",3,1,43,13,15,8,0,0,0,1,0,0,0,1,0,0,0,135,1,7,7,0,0,0,0,0
+arrow,9d23e479a2,2019-12-06,5c404173,Refactor logic statements,1,1,4,5,4,5,0,0,0,1,0,0,0,1,0,0,0,74,1,3,3,0,0,0,0,1
+arrow,7355768d54,2019-12-03,7d6c6144,Multiple granularities logic simplification,3,1,24,14,12,13,0,0,0,1,0,0,0,0,0,0,0,136,1,7,12,0,0,0,0,1
+arrow,a8f34fc9bd,2019-11-30,22c29a48,Fixed a small comment formatting issue,1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,41,0,0,1,0,0,0,0,0
+arrow,fd72ecba52,2019-11-30,22c29a48,Made suggested changes from #720,4,1,40,8,10,4,0,0,0,1,0,0,0,0,0,0,0,42,0,0,10,0,0,0,0,0
+arrow,3cca6fbdb3,2019-11-26,7d6c6144,Multiple granularities logic simplification,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,136,1,6,6,0,0,0,0,1
+arrow,6b70d80970,2019-11-26,7d6c6144,Added support for multiple granularities in humanize function,4,2,157,9,96,8,0,0,0,1,0,0,1,0,1,0,0,136,1,49,88,0,0,0,0,0
+arrow,ce9e5b420c,2019-11-25,22c29a48,Fixed linting failures,3,1,13,17,6,5,1,0,0,1,0,0,0,0,0,0,0,36,0,0,6,0,0,0,0,0
+arrow,f3c301573c,2019-11-24,22c29a48,Fixed a small redundancy in the regex,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,35,0,0,1,0,0,0,0,0
+arrow,f434f7a6b5,2019-11-24,22c29a48,Fixed issue #701,3,1,51,7,11,6,1,0,0,1,0,0,0,0,0,0,0,35,0,0,6,0,0,0,0,0
+arrow,b43cd2b341,2019-11-21,b75ea32e,Updated the methods params descriptions.,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,12,2,2,2,0,0,0,0,0
+arrow,52366e9d13,2019-11-21,5c404173,Allow factory.get() to construct from a timestamp and timezone,2,1,14,0,4,0,0,0,0,1,0,0,1,0,0,0,0,74,1,2,2,0,0,0,0,0
+arrow,eed2f9dafc,2019-11-21,b75ea32e,Reverted windows_datetime_from_timestamp to use local timezone by default. Removed os_name param fro,3,1,37,50,19,20,1,0,0,3,0,0,0,0,0,0,0,16,0,0,16,0,0,0,0,0
+arrow,101b10170c,2019-11-02,2850fc8c,Increment version and add to changelog,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,40eb90b8e5,2019-11-02,5c404173,Bump version to 0.15.3 and update CHANGELOG,2,1,28,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,3b64e90184,2019-11-02,f5533d76,Formatter supports escape characters (#688),3,1,69,2,8,1,0,0,0,1,0,0,1,0,0,0,0,73,1,2,3,1,0,0,0,0
+arrow,8f6b82e444,2019-11-01,b75ea32e,Changed datetime_from_timestamp to windows_datetime_from_timestamp. Changed default timzeon for wind,2,1,29,20,19,16,0,0,0,2,0,0,0,0,1,1,0,7,0,0,16,0,0,0,0,0
+arrow,24e7a068f5,2019-10-31,8f42e37e,Add support for midnight at the end of day,2,1,96,1,16,1,0,0,0,1,0,0,1,0,0,0,0,79,1,14,14,0,0,0,0,0
+arrow,a0ba91395d,2019-10-31,e33ecb90,Add ParserError to the module exports.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+arrow,4bb36e8992,2019-10-31,b630801a,Upgraded dependencies and re-ran black (#702),3,1,14,10,7,3,0,0,0,1,0,0,1,0,0,0,0,74,1,7,7,0,0,1,0,0
+arrow,4d64d58f27,2019-10-28,b75ea32e,Add support for negative timestamps on Windows (#675),4,3,119,6,55,6,0,0,0,3,0,0,0,0,3,0,0,66,1,2,46,0,0,0,0,0
+arrow,e2c8eb5a4d,2019-10-22,b75ea32e,"Added bounds parameter to Arrow.span_range, Arrow.interval and Arrow.span (#687). Parameter allows t",2,1,101,14,37,14,0,0,0,4,0,0,0,1,1,0,0,32,3,13,32,1,0,0,0,0
+arrow,6950788d55,2019-10-21,5c404173,Move todo note,2,2,1,2,1,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+arrow,eb025fbe8c,2019-10-21,14c9b30e,"add ""week"" translation for vi-vn locale",1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,9e737346c3,2019-10-09,b630801a,Renamed ISO 8601 mentions in docs to conform with ISO 8601 Wikipedia page (#689),6,3,12,12,6,6,0,1,1,2,0,0,0,0,0,0,0,72,2,3,4,0,0,0,0,0
+arrow,9461692b4f,2019-10-03,b630801a,Refactored fromtimestamp and utcfromtimestamp methods in Arrow and improved performance of is_timest,6,3,48,42,26,20,0,0,0,4,0,0,1,0,0,1,0,72,1,6,23,0,0,0,0,1
+arrow,2d977e1f25,2019-10-01,2850fc8c,Added comments to constants,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,67e3ec80a7,2019-10-01,2850fc8c,Attempt fix for Windows and py35,2,1,4,4,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,bce8f60e43,2019-10-01,2850fc8c,Fixed a few bugs an added token to docs,3,1,14,12,2,2,0,0,0,1,0,0,0,0,0,0,0,66,1,2,2,0,0,0,0,0
+arrow,d693754c82,2019-10-01,2850fc8c,Added support for expanded timestamps,3,2,80,2,33,2,0,0,0,2,0,0,2,0,0,0,0,66,2,16,26,0,0,0,0,0
+arrow,d7c81700ea,2019-09-27,5c404173,Further improvements,3,2,5,4,4,4,0,0,0,2,0,0,1,0,0,0,0,72,1,1,4,0,0,0,0,0
+arrow,1babb3753a,2019-09-24,5c404173,Check inputs and add edge cases to tests,2,1,14,4,5,4,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+arrow,cbd99ba4c6,2019-09-17,080e9dab,增加中文周，add chinese week,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,06d111330c,2019-09-16,ab63c87a,i18n(locales): add week granularity localization for Spanish,2,1,50,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,559e010ca0,2019-09-15,5c404173,Error handling and extra tests,3,2,12,1,5,1,0,0,1,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+arrow,cc31f51322,2019-09-15,5c404173,Update docstring,2,2,11,6,11,6,0,0,0,1,0,0,0,0,0,0,0,72,1,6,6,0,0,0,0,0
+arrow,da09a84c76,2019-09-15,5c404173,Add test cases,3,2,14,12,2,8,0,1,1,1,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0
+arrow,60c049970d,2019-09-15,5c404173,Further work on isotuples,3,2,27,11,18,11,0,1,0,3,0,0,0,0,0,0,0,72,1,3,8,0,0,0,0,0
+arrow,bba2b315ab,2019-09-15,5c404173,Initial work to allow arrow to create from a isocalendar tuple,2,2,19,1,19,1,0,0,0,1,0,0,1,0,1,0,0,72,1,3,14,0,0,0,0,0
+arrow,67852370e5,2019-09-14,5c404173,Bump version to 0.15.2 and update changelog (#674),2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,d79320b0e3,2019-09-12,4c7d6592,"Adds {0} seconds to portuguese and brazilian portuguese locales, adds tests for Portuguese and Brazi",2,1,48,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,cd11a14946,2019-09-12,4c7d6592,Adds week/weeks to Portuguese and BrazilianPortuguese locales,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,15fae21f01,2019-09-10,2850fc8c,Prep 0.15.1 release,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,dafdb69f1d,2019-09-10,2850fc8c,Fix bug with tzinfo.zone,5,1,23,4,1,0,1,0,0,1,0,0,1,0,0,0,0,17,1,1,1,0,0,0,0,0
+arrow,d856efa1dd,2019-09-10,83538744,Update parser.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,9b0521697b,2019-09-10,a688c0e2,Add Japanese translations for week(s) (#659),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,ee2b3b3243,2019-09-08,5c404173,Update CHANGELOG for 0.15.0 and bump version,2,1,49,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,3160c4c20c,2019-09-08,2850fc8c,Added test for comma subsecond separator and moved setting of tz_format down in file,2,1,13,7,7,7,0,0,0,1,0,0,0,0,0,0,0,70,1,4,4,0,0,0,0,0
+arrow,ca1bb57cb4,2019-09-08,2850fc8c,Added tests for leading and trailing whitespace,2,1,37,2,1,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,66e97fea19,2019-09-08,2850fc8c,Changed checking of basic time format,1,1,1,3,1,3,0,0,1,1,0,0,0,1,0,0,0,70,1,1,1,0,0,0,0,0
+arrow,877debfc96,2019-09-06,b727089e,Update russian translations for week(s) (#654),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,c35f839db2,2019-09-05,2fdbd008,Add Swiss German translations for week(s),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,e6bafb30bc,2019-09-05,3ec41af9,Add French locale for week granularity (#652),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,b37a0a1a56,2019-09-04,2850fc8c,Tweaked when ArrowParseWarning is called and incremented version to 0.14.7,3,2,5,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f026294687,2019-08-27,b630801a,Increment version to 0.14.6 and add to CHANGELOG (#648),2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,0861bbe8fd,2019-08-27,b630801a,Made a number of tweaks to the MANIFEST and tweaked a few error messages (#649),5,2,22,12,10,5,0,0,0,1,0,0,0,0,0,0,0,18,0,0,10,0,0,0,0,0
+arrow,52354fe79f,2019-08-24,b630801a,Added locale validation and translation request on untranslated timeframes (#646),8,3,160,86,102,85,0,0,0,4,0,0,1,1,1,1,0,96,2,75,90,0,0,0,0,0
+arrow,a89c5312bf,2019-08-20,b630801a,Add week granulation and week locale handling (#642),3,2,41,1,13,1,0,0,0,1,0,0,1,0,0,0,0,83,1,8,12,0,0,0,0,0
+arrow,fce69267f6,2019-08-19,22a37d21,Handle date with over 999999 microseconds (#643),2,1,46,10,23,10,0,0,0,1,0,0,0,0,0,0,0,31,0,0,20,0,0,0,0,0
+arrow,66d09f85de,2019-08-19,2850fc8c,Reverted version increment; added tests to get coverage to 100%,3,2,28,9,3,9,0,0,0,2,0,0,0,1,0,0,0,71,1,1,3,0,0,0,0,0
+arrow,56f665d986,2019-08-18,b630801a,Fix pytz and tzinfo string bugs in Arrow factory (#640),8,2,125,33,34,16,1,0,0,9,0,0,2,0,0,0,0,79,2,16,31,0,0,0,0,0
+arrow,62cda84336,2019-08-18,b630801a,Move Macedonian locale to slavic base (#641),2,1,105,76,76,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,0,0,0,1,0
+arrow,9940542e3b,2019-08-17,2850fc8c,Cleaned up a comment,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,e99837382b,2019-08-17,2850fc8c,Consolidate and clean up errors for spacing,1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,76,1,1,1,0,0,0,0,1
+arrow,d63fd39da2,2019-08-17,2850fc8c,Consolidate and clean up errors for spacing,1,1,4,9,4,9,0,0,0,1,0,0,0,1,0,0,0,78,1,4,4,0,0,0,0,1
+arrow,fca652290d,2019-08-17,2850fc8c,Added ordinal tests and added new error type to fix exception bubbling issue with ordinal dates,2,1,41,21,19,12,1,0,0,4,0,0,0,0,0,0,0,82,1,2,12,0,0,0,0,0
+arrow,992038d6c6,2019-08-17,2850fc8c,Added tests and cleaned up TODOs,2,1,36,8,1,6,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+arrow,d7e083bef1,2019-08-17,2850fc8c,"Fixed float timestamp on py27, removed warnings, changed parser error to inherit from value error",3,2,7,30,1,28,1,0,0,1,0,0,0,1,0,0,0,66,1,0,1,0,0,0,1,0
+arrow,d9cb79e5a1,2019-08-17,2850fc8c,Increment version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,6f13d10e33,2019-08-17,2850fc8c,Added tests and removed stripping of whitespace,4,1,64,37,4,10,0,1,3,1,0,0,0,1,0,0,0,78,1,1,1,0,0,0,0,0
+arrow,4e36c9ad8e,2019-08-16,2850fc8c,Fixed a critical bug with X token and float timestamps; revamped basic format to use regex,5,2,106,61,38,42,0,4,8,3,0,0,0,1,0,0,0,79,2,26,28,0,0,0,0,0
+arrow,46f30b2a69,2019-08-16,5c404173,Make error messages clearer and add extra DDDD test,2,1,15,15,11,15,0,0,4,3,0,0,1,0,0,0,0,73,1,8,10,0,0,0,0,0
+arrow,62e8ced0f3,2019-08-13,2850fc8c,Added a few comments,1,1,2,2,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,87684c142e,2019-08-13,2850fc8c,Added remaining regex tests,2,1,30,30,5,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,4ed43aeb10,2019-08-13,2850fc8c,Finalized regex changes,1,1,12,7,12,7,0,1,1,2,0,0,0,0,0,0,0,80,1,2,6,0,0,0,0,0
+arrow,409b85501e,2019-08-10,2850fc8c,Added a comment to tzinfoparser,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,4c360cb24a,2019-08-09,2850fc8c,Tweaked tzinfo parser regex and added some TODOs,2,1,29,27,27,26,0,5,0,3,0,0,1,0,0,0,0,80,1,4,20,1,0,0,0,0
+arrow,35e33f7a59,2019-08-09,3782024c,Updates to BrazilianPortugueseLocale (#632),1,1,60,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0
+arrow,4e7c9333ac,2019-08-08,2850fc8c,up version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f872d7a56c,2019-08-08,d8ecf1a9,Fix locale argument for factory.get() (#631),2,1,11,7,1,1,1,0,0,1,0,0,0,0,0,0,0,76,1,1,1,0,0,0,0,0
+arrow,1b8e36bb5a,2019-08-04,2850fc8c,Revamped regex of tz--work in progress,2,1,74,6,28,4,0,3,0,1,0,0,1,0,0,0,0,76,1,9,11,0,0,0,0,0
+arrow,7c701d289b,2019-08-04,5c404173,black formatting fixes,1,1,56,21,56,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0
+arrow,f0ed46f261,2019-08-04,e8151701,Added Afrikaans locale,1,1,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,d152923183,2019-08-04,2850fc8c,Added back support for multiple subsecond tokens to align with format function,3,1,69,8,5,1,0,1,1,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+arrow,f02c8d73ad,2019-08-02,5c404173,Add test cases for iso8601 basic format,2,1,37,8,6,6,0,1,2,1,0,0,0,0,0,0,0,69,1,3,3,0,0,0,0,0
+arrow,be87f39a9f,2019-08-01,5c404173,Further test cases for DDD and DDDD tokens,2,1,26,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,976b6ea355,2019-08-01,b630801a,Removed deprecated replace shift functionality (#624),2,1,8,120,0,17,0,0,3,1,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0
+arrow,b9d1171cc0,2019-07-30,b630801a,Release notes and increment version (#623),2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,a4893b5478,2019-07-30,b630801a,Tweaked factory kwargs handling (#622),1,1,5,4,5,4,0,0,0,1,0,0,0,1,0,0,0,76,1,2,2,0,0,0,0,0
+arrow,4d65575606,2019-07-30,b630801a,Move backports from extra_requires to install_requires (#620),1,1,6,4,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0
+arrow,1011d9bddd,2019-07-29,97ecf7a6,Fix regression when tzinfo kwarg is a string,2,1,7,1,1,1,1,0,0,1,0,0,0,0,0,0,0,77,1,1,1,0,0,0,0,0
+arrow,d4bcb73530,2019-07-28,2850fc8c,Added tests for new timestring changes,2,1,21,33,4,2,0,1,1,1,0,0,1,0,0,0,0,69,1,3,3,0,0,0,0,0
+arrow,75a9318f5f,2019-07-28,2850fc8c,Bump version and prepare for release,2,1,9,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,074dddf566,2019-07-14,5c404173,Simplify conditional and create extra tests,2,1,29,3,1,3,0,0,0,1,0,0,0,1,0,0,0,67,1,1,1,0,0,0,0,1
+arrow,87f63fb632,2019-07-14,2850fc8c,Added support for DDD and DDDD tokens in arrow.get(),2,1,45,20,43,17,0,2,0,3,0,0,2,0,0,0,0,67,2,4,32,0,0,0,0,0
+arrow,17447dbcee,2019-07-14,5c404173,Add warnings for .get() parsing changes in 0.15.0,1,1,26,0,26,0,0,0,0,1,0,0,1,0,0,0,0,72,1,10,20,0,0,0,0,0
+arrow,188693d808,2019-07-13,2850fc8c,Fixed an issue with the timestamp not strictly matching,2,1,16,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,7622b8bc6e,2019-07-13,2850fc8c,Fixed bugs with basic format and multiple subsecond tokens,4,1,15,62,10,14,0,1,4,2,0,0,1,0,0,0,0,65,1,2,6,0,0,0,0,0
+arrow,52d0d1c354,2019-07-12,5c404173,Add meridians to Spanish locale,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,08df568467,2019-07-09,2850fc8c,Split up recently added parse_iso and parse unit tests and removed from_parse_iso flag,2,1,129,82,4,4,0,0,0,3,0,0,0,0,0,0,0,63,1,1,4,0,0,0,1,0
+arrow,4c331c7203,2019-07-09,2850fc8c,Tweaked space and t divider checks and added a few more test inputs,2,1,17,6,11,6,0,1,0,1,0,0,1,0,0,0,0,63,1,9,9,0,0,0,0,0
+arrow,81dd26ad63,2019-07-08,2850fc8c,Removed _version.py encoding pragma,3,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,682f0ff686,2019-07-08,2850fc8c,Heavily refactored documentation to reduce duplication and streamline styles in RST,8,3,62,155,7,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,0,0,0,0,1
+arrow,f77e6984ff,2019-07-08,2850fc8c,Added unit tests and added cleanup/validation to datetimte string in parse_iso,2,1,135,68,69,60,0,4,2,2,0,0,1,0,0,0,0,60,1,35,54,0,0,0,0,1
+arrow,e3126c77b2,2019-07-07,2850fc8c,Fixed a number of parsing issues with a couple of regex tweaks and additions,2,1,60,127,26,88,1,4,10,3,0,1,1,0,0,0,0,53,2,3,10,0,0,0,1,0
+arrow,6ab1c0ba64,2019-07-07,2850fc8c,Fixed merging issues,3,1,47,46,10,10,1,0,0,1,0,0,1,0,0,0,0,69,1,7,7,0,0,0,0,0
+arrow,91d99d765d,2019-07-06,2850fc8c,Added comments and tests,3,2,91,11,28,11,0,5,0,2,0,0,0,0,0,0,0,62,2,7,7,0,0,0,0,0
+arrow,955850c634,2019-07-06,5c404173,Add tests for .get() warnings and comment on current problems,2,1,79,16,47,15,0,4,1,2,0,0,1,1,0,0,0,62,2,24,27,0,0,0,0,0
+arrow,dd5b855392,2019-07-04,5c404173,Allow factory.get() to construct with kwargs,2,1,21,0,9,0,0,0,0,1,0,0,1,0,0,0,0,69,1,7,7,0,0,0,0,0
+arrow,dc2e6d251f,2019-06-30,2850fc8c,Fixed bug with YY mapping to 20,1,1,8,3,8,3,1,0,0,2,0,0,1,0,0,0,0,49,1,2,4,0,0,0,0,0
+arrow,824b7445c8,2019-06-30,2850fc8c,Removed unnecessary helper functions in parser class and cleaned up some variable names,3,1,12,36,10,23,0,1,0,2,0,0,0,0,0,2,0,29,0,0,8,0,0,0,0,0
+arrow,b67c9e2e83,2019-06-29,2850fc8c,Added a number of new formatting changes,1,1,18,9,18,9,0,0,1,1,0,0,1,0,0,0,0,53,1,16,16,0,0,0,0,0
+arrow,12c1b4c67b,2019-06-29,2850fc8c,Reverted change to handling of Z string,2,1,9,11,3,6,0,2,3,1,0,0,0,1,0,0,0,43,1,1,1,0,0,0,0,0
+arrow,a50137f1ac,2019-06-29,2850fc8c,More progress toward GET fixes,3,1,33,6,6,2,1,0,0,2,0,0,1,0,0,0,0,43,2,2,2,0,0,0,0,0
+arrow,d69d16c89f,2019-06-24,5c404173,Create custom warning class for get changes,1,1,35,0,35,0,0,1,0,1,0,0,1,0,0,0,0,47,1,21,30,0,0,0,0,0
+arrow,df49462a04,2019-06-23,2850fc8c,Current progress of fixing get,7,3,41,147,29,74,1,3,1,4,1,0,1,0,0,5,0,43,2,11,18,0,0,0,0,0
+arrow,47445f99a5,2019-06-22,2850fc8c,started some fixes for get method,1,1,36,15,36,15,1,2,0,1,0,0,1,0,0,0,0,42,1,24,24,0,0,0,0,0
+arrow,26a8af8d47,2019-06-04,b630801a,Updated tox file and changed Travis CI to use tox (#597),8,2,50,61,5,7,0,0,0,1,0,0,0,0,0,0,0,3,0,0,5,0,0,0,0,0
+arrow,95f2be6f55,2019-06-03,a6c73caa,Always open README and __init__.pyfiles with utf-8 encoding (#601),1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,f77546d882,2019-06-03,b630801a,Fixed regression from 0.14.0 (#599),3,2,18,4,14,4,1,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+arrow,cfafc0e4b2,2019-05-31,95716019,version bump to 0.14.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,606b03cb73,2019-05-29,b630801a,Added flake8 to enforce formatting and style requirements (#587),27,9,5723,3466,3624,1855,0,1,1,109,0,0,6,1,0,0,0,76,10,198,3579,0,0,0,0,0
+arrow,7b2e746bea,2019-05-26,2850fc8c,Adjusted keywords,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,dd10d4f109,2019-05-26,2850fc8c,Tweaked setup.py classifiers and project URLs,1,1,2,5,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,7f9430bc75,2019-05-26,2850fc8c,Adjusted setup.py to help improve visibility on PyPI,1,1,13,2,13,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0
+arrow,2e5031b473,2019-05-26,b630801a,Updated setup.py with modern Python standards (#592),2,2,6,27,6,27,0,0,0,0,0,0,0,0,0,3,0,0,0,0,6,0,0,0,0,0
+arrow,470d7e46e4,2019-05-25,b630801a,Added badges and updated README (#590),2,1,19,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c96ada19c7,2019-05-21,b630801a,Deprecated support for Python 3.4 as it has reached end-of-life status (#588),5,1,3,10,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,3fc3233c09,2019-05-18,95716019,remove print in setup.py,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0
+arrow,a84c591ece,2019-05-18,95716019,fix grep in setup.py,1,1,26,29,26,29,1,0,0,2,0,0,0,0,0,0,0,5,0,0,26,0,0,0,0,0
+arrow,2de3ff2e7f,2019-05-18,95716019,bump version to 0.13.2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,7f20aefde3,2019-05-16,89f3c0e3,Fix SyntaxWarning due to escape sequences,1,1,10,10,10,10,1,0,0,1,0,0,0,0,0,0,0,26,0,0,10,1,0,0,0,0
+arrow,27a95b717d,2019-05-16,5c404173,Docs update for 0.13.2,2,1,4,4,2,2,0,0,0,1,0,0,0,0,0,0,0,21,1,2,2,0,0,0,0,0
+arrow,88de0faf97,2019-04-26,d79790ee,Fix humanize behavior with future days (#575),2,1,11,1,1,1,1,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,0,0
+arrow,c9cecaf91e,2019-04-26,b630801a,Improved humanize behavior for near-zero durations (#576),2,1,26,0,14,0,0,0,0,1,0,0,0,0,1,0,0,5,0,0,10,0,0,0,0,0
+arrow,be0f8ee4e4,2019-04-25,b630801a,Add is_between functionality (#574),2,1,135,0,59,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,43,0,0,0,0,0
+arrow,43ffd2ac65,2019-03-04,0275beda,Add additional timeframes translations for german language (#571),2,1,34,0,22,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+arrow,5b175882be,2019-02-12,95716019,version bump,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,2e55168811,2019-02-09,5c404173,Mention Python 3.7 in docs (#564),3,1,8,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c94bf9fbd4,2019-02-09,246b2e00,Python 3.7 support. (#544),5,2,15,16,7,15,0,0,0,1,0,0,1,0,0,2,0,12,1,7,7,0,0,0,0,0
+arrow,ad33776f81,2019-01-29,5c404173,Update docs to 0.13.0,4,2,201,27,188,23,0,0,0,24,0,0,0,0,0,0,0,5,0,0,118,0,0,0,0,0
+arrow,f6759989a5,2019-01-11,a02b205a,Remove double assignment of `later`.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,1,0
+arrow,9e2c50e38d,2019-01-07,95716019,bump verison to 0.13.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,1f6d86f239,2018-12-21,22a34c54,Add tests_require=['chai'] (#473),1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f008ac7c2e,2018-12-20,22a34c54,"Drop support for EOL Python 2.6 and 3.3, add support for 3.6 (#472)",15,7,83,135,67,82,0,0,0,32,0,0,0,0,1,2,0,71,2,17,65,0,0,0,0,0
+arrow,918bb42169,2018-12-16,d8ddfca7,Update locales.py (#555),1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,d998cb7d18,2018-12-13,ad83fa22,Added support for ZZZ while formatting (#391),2,1,20,1,4,1,0,0,0,1,0,0,1,0,0,0,0,71,1,2,3,0,0,0,0,0
+arrow,7437f2d72c,2018-03-27,eb5feee8,Fix spacing in deprecation warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+arrow,3f67c8be2c,2018-03-11,7b55e3dc,Made format string handle RegEx chars properly,2,1,11,2,5,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+arrow,73ce2aa97b,2018-03-08,3e903cb2,Removed 'isInstance' check,1,1,4,6,4,6,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+arrow,0f92d43e99,2018-02-24,3e903cb2,Added singular second and fixed typos,1,1,4,3,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,620fe628ca,2018-02-21,3e903cb2,Update locales.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,64301a7d18,2018-02-21,3e903cb2,Added Estonian localisation,1,1,40,1,40,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32,0,0,0,0,0
+arrow,72a275e030,2018-02-02,67ff9e02,Respect falsy tzinfos when falling back,1,1,11,7,11,7,0,0,0,6,0,0,0,0,0,0,0,8,1,1,11,0,0,0,0,0
+arrow,f06c13ee93,2018-02-02,67ff9e02,Drop datetime.utcnow in favor of datetime.now(UTC),1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+arrow,5d9136742f,2018-01-29,1ce10816,"#515, #462, #493: allow arrow.get() to be called with str+tzinfo parameter combo",2,1,7,1,1,1,0,0,0,1,0,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+arrow,c03ff6add9,2018-01-29,e58184e2,Changed from using functools.wraps to reassigning .__doc__,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,874f2f9997,2018-01-18,efcdee8e,"get, now & utcnow will now use docs found in ArrowFactory",1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,5a481c02ba,2018-01-14,ae6aeb6a,Bump version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,61f4808d5f,2018-01-03,4ada9a4b,Allow wheels to determine the required dependencies,2,1,7,5,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,0,0
+arrow,0f60d3ddf8,2017-12-10,f47364b1,Makes the only_distance paramter value equivalent to value given to function when granularity paramt,2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,0,0
+arrow,66ac193809,2017-11-25,95716019,"bump version, note in HISTORY.md",2,1,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,62c53126a5,2017-11-25,ae6aeb6a,Add functools-lru-cache to install_requires if version is less than 3,1,1,6,3,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+arrow,c68499563c,2017-11-24,95716019,version bump to 0.11.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,65d5d74392,2017-11-09,42d3375f,include ZZZ in format example as a hint,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,51,1,2,2,0,0,1,0,0
+arrow,db226dae9d,2017-11-09,819b510b,Make seconds timeframe similar to EnglishLocale's,2,1,2,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,7904c53689,2017-11-09,819b510b,Correct second/s timeframe for TagalogLocale,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,8cda79463e,2017-11-09,819b510b,Add ordinal numbers for Tagalog locale,2,1,21,0,2,0,0,0,0,2,0,0,0,0,1,0,0,2,0,0,2,0,0,0,0,0
+arrow,47a3ce47c6,2017-11-09,819b510b,Add tl_ph as TagalogLocale and en_ph as EnglishLocale,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,937a9556ad,2017-09-29,04b050a8,Rename DefaultArabicLocale to ArabicLocale,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+arrow,9c2ca434a2,2017-09-28,152a0b3c,Fixed a build issue,1,1,4,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,5cdcd61bf6,2017-09-28,152a0b3c,Changed AustriaLocale,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,c8af8f8f1c,2017-09-25,3389cd76,Fix broken Python 2 support,2,1,16,13,6,7,1,0,0,2,0,0,0,0,0,0,0,4,0,0,6,0,0,0,0,0
+arrow,60461849b5,2017-09-23,979ff3a4,Tiny documentation tweaks,1,1,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,13,3,6,6,0,0,0,0,0
+arrow,6a3ca5f12b,2017-09-23,979ff3a4,Add shims around range() et al to warn of switch to iterables,3,2,129,5,72,5,0,0,0,3,0,0,0,0,7,0,0,13,3,4,61,0,0,0,0,0
+arrow,b2e568e2f3,2017-09-23,979ff3a4,Make Arrow.interval() return an iterator,2,1,30,28,20,18,0,0,0,2,0,0,1,0,0,0,0,72,2,8,8,0,0,0,0,0
+arrow,c5c89b5dad,2017-09-23,4bfe95fa,"Return generator instead of list in Arrow.range(), Arrow.span_range(), and Arrow.interval(). Fix #25",2,1,44,45,8,9,1,0,0,3,0,0,0,0,0,0,0,13,3,8,8,0,0,0,0,0
+arrow,e2dac958b5,2017-09-15,ae6aeb6a,Fixed pt_br past,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,2c2a822b14,2017-08-09,07c70c0b,Add Indonesian Locale to arrow,2,1,68,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0
+arrow,601ed1b089,2017-07-08,7a34f35e,add tests,2,1,26,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,1a84e7ae64,2017-07-08,7a34f35e,fixes,1,1,5,4,5,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,8314e8ba8a,2017-07-08,7a34f35e,add nepali locale,1,1,45,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0
+arrow,19d214e627,2017-04-25,fb3f52aa,Fix a typo in the Basque locales,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,a471d30b32,2017-04-17,04b050a8,More accurate month naming per region,2,1,37,9,36,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0
+arrow,be5308dd08,2017-04-17,04b050a8,Fix typo in ArabicLocale,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,fa8199aaea,2017-04-17,04b050a8,Fix grammar of ArabicLocale,2,1,86,14,50,14,1,0,0,4,0,0,0,0,1,0,0,16,0,0,48,0,0,0,0,0
+arrow,fd723b46a6,2017-01-24,801965df,ArrowFactory.get: document kwargs locale and tzinfo (#411),1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,51,1,5,5,0,0,0,0,0
+arrow,56e50285b1,2017-01-24,d53740f1,Fixes a typo in the Swiss German translation (#410),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,a78bb2ffde,2017-01-24,4a171067,Added more human-readable error message for invalid frames for range/span (#407),1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+arrow,93f4890942,2017-01-07,b1fffad1,Remove `timeframes['days']` handling from `AustriaLocale` (#408),1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+arrow,93d699020d,2017-01-07,be1e77a7,"Replace "".replace"" with new "".shift"" function in docs (#406)",2,1,8,8,2,2,0,0,0,1,0,0,0,0,0,0,0,72,1,2,2,0,0,0,0,0
+arrow,24f06c145f,2016-12-31,b04e7ddf,Remove print statement and fix typo (#404),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,1,0
+arrow,a20b22b410,2016-12-31,e89601d7,Humanizegranularity (#388),3,2,123,45,69,45,0,0,0,2,0,0,1,0,0,0,0,72,1,55,58,0,0,0,0,0
+arrow,7f69ace2d3,2016-12-30,b04e7ddf,Fix for poperly handle tz passed in form pytz,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+arrow,a42770b94a,2016-12-20,a3be9561,fix typo in month full name in Thai Language,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,bfbd4a00ca,2016-12-18,b1fffad1,Update locales.py,1,1,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,d949820291,2016-12-07,31ee243e,Implement weekday shifting for #64,2,1,80,1,16,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,11,0,0,0,0,0
+arrow,b2bae227ab,2016-12-04,7272f7d2,implementation of interval function,2,1,60,0,43,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,33,0,0,0,0,0
+arrow,8c0f58e29b,2016-12-01,5258bace,fixed coverage to ignore Py2 only imports,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+arrow,aa7d08fef4,2016-12-01,5258bace,added tests,2,1,40,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+arrow,9b91649cea,2016-12-01,5258bace,added format caching to date parser,2,1,28,11,27,11,0,0,0,3,0,0,0,0,1,0,0,29,1,2,21,0,0,0,0,0
+arrow,d7cd81a6fa,2016-11-29,b04e7ddf,Update to version 0.10.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,b1fcf1cc88,2016-11-29,f0b174f6,Fixes #378,2,1,12,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+arrow,2deb0a8914,2016-11-28,3389cd76,Tweak docs after merging with the replace/shift split,1,1,2,7,2,7,0,0,0,2,0,0,0,0,0,0,0,24,0,0,2,0,0,0,1,0
+arrow,fa5bce0476,2016-11-28,dc040bbd,Fix negative offset for UTC,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,69,1,1,1,0,0,0,0,0
+arrow,07d63083fd,2016-11-26,199acc48,Update version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,0e2bb033bb,2016-11-21,68485305,Update arrow.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+arrow,66eec78128,2016-11-16,73ce7638,"implement, test, and document half-even rounding for fractional seconds",3,1,19,16,11,1,0,0,0,1,0,0,1,0,0,0,0,45,1,8,8,0,0,0,0,0
+arrow,8ec8f89632,2016-11-16,73ce7638,fix all (seven) sphinx warnings,5,3,7,6,4,3,1,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+arrow,9355b404c9,2016-11-16,73ce7638,"fix py2, too, and don't swallow unexpected exceptions",2,1,16,6,2,2,1,0,0,2,0,0,0,0,0,0,0,38,1,1,2,0,0,0,0,0
+arrow,bc03b0b533,2016-11-16,73ce7638,fix parsing of iso-8601 dates as emitted by GNU date -Ins,2,1,75,34,12,25,1,1,0,3,0,0,0,2,0,0,0,38,2,4,8,0,0,0,0,0
+arrow,aef1ce018c,2016-11-16,b04e7ddf,Remove duplicate code,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,1
+arrow,2dc36f472f,2016-11-15,ca54a26b,Slovenian locale added,1,1,47,0,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0
+arrow,d201cbd3f5,2016-10-12,d438892d,Add Slovak locale,1,1,81,8,81,8,0,0,0,4,0,0,0,0,1,0,0,16,0,0,65,0,0,0,0,0
+arrow,9115858ed3,2016-09-30,95f12d17,Update singular Romanian names,1,1,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+arrow,4cca70ec9e,2016-09-30,95f12d17,Add Romanian locale,1,1,29,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0
+arrow,c99b58fec6,2016-08-23,3389cd76,Support `quarters` in `shift`,2,1,27,24,8,5,0,0,0,2,0,0,0,0,0,0,0,24,0,0,6,0,0,0,0,0
+arrow,b5eee6ddf9,2016-08-23,3389cd76,Bug: `replace` was using the value of the last-read argument for the `quarters` argument,2,1,35,6,3,6,1,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+arrow,f4bf660b99,2016-08-16,83538744,respect limit even if end is defined in a range,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+arrow,c3bfd002db,2016-07-12,cd46cda5,return NotImplemented instead of raising TypeError,2,1,21,14,18,11,0,0,0,8,0,0,0,0,1,1,0,8,0,0,14,0,0,0,0,0
+arrow,f290c12f5c,2016-06-28,3389cd76,Undo this one code change: I want this PR to be just about docs (although some dead code was removed,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+arrow,26a6dd1a5c,2016-06-28,3389cd76,Fix docs for a few more methods that accept timezone expressions,1,1,12,16,12,16,0,0,2,7,0,0,0,0,0,0,0,6,0,0,12,0,0,0,0,0
+arrow,c8f0873625,2016-06-26,3389cd76,Clarify the role of ``tz`` in ``range`` and ``span_range``,1,1,13,4,13,4,0,0,2,2,0,0,0,0,0,0,0,13,2,10,10,0,0,0,0,0
+arrow,ae503cc9de,2016-06-26,3389cd76,"Improve (and fix!) `range` and `span_range` documentation, and other doc tweaks",5,4,37,34,35,32,0,0,6,6,0,0,0,0,0,0,0,51,3,15,31,0,0,0,0,0
+arrow,91682cac36,2016-06-23,3389cd76,"Docs: clarifying where the timezone is replaced vs converted, and other tweaks",5,4,111,93,94,83,0,10,0,19,0,0,0,0,0,0,0,51,3,24,68,0,0,0,0,0
+arrow,cf4888c21d,2016-05-25,e16ed7ba,"Azerbaijani locale added, locale issue fixed in Turkish.",1,1,32,1,32,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0
+arrow,d7120026a2,2016-05-17,a89ad7e1,Restore old replace-shift & add deprecated warning,2,1,39,0,16,0,0,3,0,1,0,0,0,0,0,0,0,22,0,0,12,0,0,0,0,0
+arrow,f35836eb13,2016-05-16,b40346a8,Format ParserError's raise message,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+arrow,77bf476941,2016-05-12,e18f5649,Update locales.py,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,e6c1931dc8,2016-05-06,63e93b2e,Fixed ordinal pattern for Italian and Spanish,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+arrow,dddb0b0503,2016-05-05,b40346a8,Update Korean Locale,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,474dfe2ce3,2016-04-26,e18f5649,Update locales.py,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,cd907a06c7,2016-04-09,2ce91a09,"arrow.get(): Implement d, ddd and ddd",2,1,14,1,5,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+arrow,945258bd39,2016-03-29,7fbb22ad,included error message,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,1,0,0
+arrow,fcaa831f1d,2016-03-23,5258bace,Fixed formatting for Python 2.6 compatibility,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+arrow,adce66bbeb,2016-03-23,5258bace,"Fixed problems with coverage, broken build, and testing",3,1,8,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4e5d3456db,2016-03-23,b04e7ddf,Update version to 0.8.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4f2303ef33,2016-03-09,a1a92136,"sorry, it was missing Canadian English.",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,b886b23107,2016-03-06,d89a29b3,Update Japanese locale,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f2f82d5ba6,2016-02-17,da5b78a0,Adds support for tz offsets without minutes,2,1,9,2,4,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+arrow,39f2762e0d,2016-02-05,407422c0,fixed #301: __rsub__ returns timedelta of opposite sign,2,1,13,4,5,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+arrow,b2a3d83881,2016-02-03,9015fa6d,Adding Esperanto (eo) locale.,3,1,63,0,44,0,0,0,0,1,0,0,0,0,1,0,0,2,0,0,36,0,0,0,0,0
+arrow,c3de029447,2016-01-11,2fdbd008,Adds romansh locale,1,1,42,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,0,0
+arrow,81259e744a,2016-01-04,fb5d063a,adds relative replace values for quarters,2,1,13,4,10,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,0
+arrow,47e715845d,2016-01-04,fb5d063a,adding arrow.quarter property,2,1,14,0,4,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+arrow,81eed52838,2015-12-11,5258bace,Removed affectively dead code discovered during coverage testing,2,1,9,5,3,4,0,0,0,1,0,0,0,0,0,0,0,36,0,0,2,0,0,0,0,0
+arrow,77c6e85495,2015-12-11,5258bace,Fixed a bug in rebuilding the escaped regular expression,2,1,11,4,9,2,1,0,0,1,0,0,0,0,0,0,0,37,0,0,7,1,0,0,0,0
+arrow,b6487ab66a,2015-12-11,5258bace,Added support for escaping in parsing formats,1,1,16,5,16,5,0,0,0,1,0,0,0,0,0,0,0,32,0,0,10,0,0,0,0,0
+arrow,32f7444fca,2015-12-02,6bb65551,Added bulgarian localization,1,1,32,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0
+arrow,d32ee4efcc,2015-12-01,f498f2df,"Added Bengali Locale support['bn','bn_bd','bn_in']",1,1,51,0,51,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,41,0,0,0,0,0
+arrow,6663f84fba,2015-11-24,c36ba458,Add codecov support and enforce coverage tests.,11,1,161,53,15,43,0,0,0,0,0,0,0,0,0,1,0,0,0,0,14,0,0,0,0,0
+arrow,a3f9ded44a,2015-11-13,acc5f516,parser: add new ZZZ token to recognize/parse TZ names from the tz database,3,1,35,4,5,2,0,0,0,1,0,0,0,0,0,0,0,47,1,1,4,0,0,0,0,0
+arrow,1a8d00ad7e,2015-11-09,ff76cde4,Add ordinal indicators for German & Finnish,1,1,10,0,10,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,6,0,0,0,0,0
+arrow,a7e595b1a6,2015-11-05,ff76cde4,Use normalized strings for month-to-ordinal lookups,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,47,1,1,2,0,0,0,0,0
+arrow,786b15ad88,2015-11-05,ff76cde4,Fix capitalization of days & months for many locales,1,1,54,54,54,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,54,0,0,0,0,0
+arrow,15d903ab82,2015-10-29,a89ad7e1,Separate replace & shift function,2,1,76,51,30,11,0,0,0,2,0,0,0,0,1,0,0,15,0,0,21,0,0,0,0,0
+arrow,4854aac6b6,2015-10-14,2fdbd008,Add SwissGerman localization,2,1,55,0,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,0,0
+arrow,e51987b994,2015-10-09,0316e7a1,Add parseable formats for common separators,1,1,9,5,9,5,0,0,0,1,0,0,1,0,0,0,0,30,1,4,6,0,0,0,0,0
+arrow,2607b8b0ac,2015-10-08,b04e7ddf,Fixes mismatch between docs and code,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+arrow,76bde3b48b,2015-10-08,5aef154f,Added Python 3.5 support,3,1,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,2fdf51b4cc,2015-10-07,690fc07a,Update version,2,1,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,cffc145447,2015-09-01,e698aa05,Fix #263: provide missing format calls for exception messages,2,1,8,4,4,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+arrow,2b96713d79,2015-08-20,1fe5d46f,Remove two modules that were imported but unused,2,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+arrow,130ff68132,2015-08-20,1fe5d46f,Throw TypeError when passing booleans to arrow.get,2,1,10,1,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+arrow,ec67c30316,2015-08-20,0016a1dd,1.5 months no longer returns in 1 months,2,1,8,3,2,1,0,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+arrow,877cd14967,2015-08-17,ca064590,Fix overzealous time truncation in span_range().,2,1,15,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,1,1,1,0,0,0,0,0
+arrow,6ab19b2203,2015-08-15,1050419e,Fix Catalan locale,1,1,8,8,8,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+arrow,e88984c0b6,2015-08-03,a7fac80a,Fix pytz conversion error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+arrow,e400261330,2015-07-31,0016a1dd,Raise TypeError when adding/subtracting non-dates,2,1,4,5,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+arrow,9468824357,2015-07-31,be701b6a,Fix Czech locale,1,1,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,8682c5b8c3,2015-07-28,67d1542d,Cleanup class methods definition,2,2,12,12,12,12,0,0,0,6,0,0,0,0,0,0,0,15,0,0,12,0,0,0,0,1
+arrow,a33a1eff50,2015-07-26,67d1542d,Search date in strings,3,1,80,48,28,48,0,0,0,2,0,0,0,0,0,2,0,31,1,2,20,0,0,0,0,0
+arrow,ba527c496a,2015-07-22,af5413b0,Correcting a syntax error,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,9cc726ed65,2015-07-22,af5413b0,Adding Belarusian (be) locale,1,1,30,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,fbc12bfb86,2015-07-22,a89ad7e1,Get rid of u'',1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+arrow,3a87fa17e0,2015-07-22,a89ad7e1,Add Thai locale,2,2,78,2,78,2,0,0,0,1,0,0,0,0,5,0,0,69,1,2,61,0,0,0,0,0
+arrow,51bdf3f6a7,2015-07-14,acc5f516,Fix parsing of localized meridians (refers #228),3,1,80,11,15,5,1,0,0,2,0,0,1,0,0,0,0,47,1,8,13,0,0,0,0,0
+arrow,b83bb867e7,2015-07-09,146eb48c,Update version and history file.,2,1,19,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,eb73b04cc8,2015-06-24,4466660f,hungarian translation,1,1,61,0,61,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,50,0,0,0,0,0
+arrow,d1d19223da,2015-06-05,a562a8ce,humanize for time duration,3,2,52,17,18,17,0,0,0,2,0,0,0,0,0,0,0,49,1,14,18,0,0,0,0,0
+arrow,69059e2e19,2015-06-02,223fcfaa,Fixed Python 2.6 support.,1,1,9,9,9,9,1,0,0,5,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+arrow,b50af47636,2015-06-02,223fcfaa,"Added ordinal parsing for Italian, Spanish, and French.",2,1,47,13,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,2953545211,2015-06-02,223fcfaa,Support for parsing ordinal days of month and docs.,4,2,69,6,14,6,0,0,0,3,0,0,1,0,0,0,0,41,1,2,11,0,0,0,0,0
+arrow,1d89292304,2015-06-02,223fcfaa,Added ordinal day of the month formatting.,4,2,100,1,36,1,0,0,0,1,0,0,1,0,6,0,0,69,1,2,28,0,0,0,0,0
+arrow,8120fec5c7,2015-06-01,223fcfaa,Parse localized month names.,4,1,38,12,13,4,0,0,0,2,0,0,0,0,1,0,0,25,0,0,12,0,0,0,0,0
+arrow,34fbbd0783,2015-06-01,223fcfaa,Added ordinal day of the month formatting.,4,2,100,1,36,1,0,0,0,1,0,0,1,0,6,0,0,69,1,2,28,0,0,0,0,0
+arrow,32ea472f0e,2015-05-30,4f3444aa,Simplified logic for 615b164.,1,1,2,5,2,5,0,0,0,1,0,0,0,1,0,0,0,48,1,1,1,0,0,0,0,1
+arrow,615b164c43,2015-05-30,4f3444aa,Avoid truncating oversized epoch timestamps. Fixes #216.,3,2,19,7,14,7,1,0,0,1,0,0,1,0,1,0,0,51,1,5,13,0,0,0,0,0
+arrow,a597a937ea,2015-05-18,af5413b0,Fixed month abbreviations for Ukrainian,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,c3db6efff6,2015-05-15,635fe935,Fix #219. Add minimal support for fractional seconds longer than six digits.,2,1,30,12,1,1,1,0,0,1,0,0,0,0,0,0,0,31,1,1,1,0,0,0,0,0
+arrow,9d551e223b,2015-05-14,ec144176,"Modify tzinfo parameter in `get` api, it now support (str, format, tzinfo=tzinfo())",2,1,12,1,4,1,0,0,0,1,0,0,1,0,0,0,0,53,1,4,4,0,0,0,0,0
+arrow,32cf66382e,2015-04-20,56fe4655,Fix Finnish grammar,1,1,25,12,25,12,1,0,0,4,0,0,0,0,2,0,0,16,0,0,21,0,0,0,0,0
+arrow,4ca9aa2619,2015-04-11,4be7c457,Adding locale support for Marathi (mr),2,1,68,1,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0
+arrow,198c4896d9,2015-04-02,0e2bb079,Fix typo timezone,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+arrow,16cd686b4b,2015-03-23,7f36cdf3,Fix typo in 'Arrow.floor' docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+arrow,17c982ce01,2015-03-15,0eeb2479,Added catala and basque locales,1,1,51,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0
+arrow,57aed7f67c,2015-03-15,0eeb2479,"Fixed capitalization for turkish and arabic dialects, now these dialects are lowercase",1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,48b1633612,2015-03-14,dd3c5b97,Spanish locale: `Miercoles` should have acute accent,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f21c7b49c5,2015-03-03,3b81c50e,Add count argument to span method,2,1,13,2,6,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+arrow,bef52b1246,2015-02-26,690cce50,Be explicit about encoding when reading in the README.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+arrow,6123ca57ca,2015-02-26,690cce50,Use read() utility to open README.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,0f8535b1c5,2015-02-26,146eb48c,Update version. Update setup config.,3,2,10,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,dd4ccc6423,2015-02-26,c0971edc,Allow arrow to recognize (short)month names that are not capitalized,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,39,1,1,3,0,0,0,0,0
+arrow,0e16d73f9c,2015-01-27,9935cd44,Add Hebrew Locale,2,1,66,0,50,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,41,0,0,0,0,0
+arrow,4ce24a6c02,2015-01-23,b04e7ddf,Update version number,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,7bb0c32c9d,2015-01-22,146eb48c,Update pypi meta data and manifest,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,326aab162a,2015-01-22,146eb48c,Update pypi meta data,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,ba7d5ce8be,2015-01-22,146eb48c,Adjust to ISO-8601 format instead,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+arrow,f67e1b5d46,2015-01-22,146eb48c,increment version number,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,ceedf081c7,2015-01-22,146eb48c,Merging and updating history,3,1,26,1,1,1,0,0,0,1,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+arrow,7dfc0e72c3,2015-01-22,146eb48c,Simplify the time check and formatting,2,2,6,15,6,15,0,0,0,2,0,0,0,1,0,0,0,67,2,6,6,0,0,0,0,1
+arrow,1624fd20d2,2015-01-08,076f4a58,Use token.upper() as per @pypingou,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,39,1,1,1,0,0,0,0,0
+arrow,45c215d318,2015-01-06,076f4a58,Also parse lower-cased 'h' instead of ignoring it.,2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,39,1,1,1,0,0,0,0,0
+arrow,746f814c60,2014-12-24,246b2e00,Adding Macedonian(mk) locale,1,1,37,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0
+arrow,e4c3ec60c2,2014-12-02,09d0f5cc,Raise TypeError on invalid comparison,2,1,22,8,8,4,0,0,0,4,0,0,0,0,1,0,0,4,0,0,7,0,0,0,0,0
+arrow,e52c0c56ed,2014-11-25,89e47f94,"add ""for_json"" method to support simplejson serialization.",1,1,3,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+arrow,0cffe33133,2014-10-20,655df3c3,update _map_locales(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+arrow,29d8521044,2014-09-12,ec60a8d9,Improved docs,1,1,6,0,6,0,0,0,0,3,0,0,0,0,0,0,0,20,2,2,3,0,0,0,0,0
+arrow,98b9570416,2014-09-11,6ed2213f,Fixes parsing of time strings with a final Z,2,1,7,1,1,1,1,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+arrow,da7725eb99,2014-09-11,6ed2213f,Fixes ISO parsing and formatting for fractional seconds,4,2,29,16,11,6,1,0,0,2,0,0,1,0,0,0,0,67,2,11,11,0,0,0,0,0
+arrow,3f7851adc6,2014-09-10,3ffc5962,Chinese locale: Quantitative seconds,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,2a5360c2a1,2014-09-05,e2024118,Add quarter range,2,1,45,7,19,7,0,0,0,3,0,0,0,0,0,0,0,20,1,2,17,0,0,0,0,0
+arrow,b2b90d4339,2014-09-05,e2024118,fix span_range for week frame,2,1,3,1,2,1,1,0,0,1,0,0,1,0,0,0,0,5,1,2,2,0,0,0,0,0
+arrow,9a9da8718b,2014-08-23,02239d05,Slight modifications to Dutch locale.,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,55a6b83c26,2014-08-23,f02d20f2,__init__ should have __version__ clean.,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,1beb2abba1,2014-08-23,da9d659e,Use __version__ from module.,2,2,23,2,23,2,0,0,0,0,0,0,0,0,3,0,0,0,0,0,13,0,0,1,0,0
+arrow,30e5435cd2,2014-08-22,2297c373,Complete the list of english locales,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,92e32261ee,2014-08-13,c41422a3,"Use correct Dutch wording for ""hours""",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,8deaa5d794,2014-08-08,6803e38d,some typos fixed,2,1,5,5,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,808b6e2c71,2014-08-07,85cf0323,Some unit tests and a special case in the singular case - what if someone passes zero?,2,1,38,6,11,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+arrow,a63fc8a6e4,2014-08-07,9917b274,Lowercase Norwegian months and weekdays,1,1,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+arrow,4b8bf935a2,2014-08-06,85cf0323,Czech localization for Arrow.,1,1,64,1,64,1,0,0,0,1,0,0,0,0,1,0,0,7,0,0,56,0,0,0,0,0
+arrow,eec2f0b54f,2014-08-06,868f1c49,Add fa_ir to locales,1,1,38,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0
+arrow,e91a9c5ce2,2014-08-05,4f6a1567,Give format a default parameter,4,1,17,1,5,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+arrow,2c3a5f5855,2014-08-05,eb166cac,Correct typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+arrow,47d8a78640,2014-08-04,cffb13f1,Finish reverting changes from parsedatetime integration,2,1,4,6,2,6,0,0,0,1,0,0,0,1,0,0,0,50,1,2,2,0,0,0,0,0
+arrow,fb0c8b42e2,2014-08-04,cffb13f1,Remove parsedatetime support,2,1,2,18,1,12,0,0,0,1,0,0,0,1,0,0,0,45,1,1,1,0,0,0,1,0
+arrow,2876bf8582,2014-07-29,09081d55,Fixed discrepancy between specifying 'X' to arrow.get and specifying no template,3,1,11,2,2,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+arrow,ebc5d8fae8,2014-07-26,95716019,"add pypi classifiers, start testing on 3.4",3,1,17,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+arrow,b6c1b413fb,2014-07-25,95716019,remove import,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+arrow,143bc85465,2014-07-25,95716019,emergency fix broken import,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+arrow,63eed26f75,2014-07-23,95716019,history updated; version bump to 0.4.3,3,1,25,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4b2fd07ef4,2014-07-10,cded9127,Fix for incorrectly inflected word minuta in polish locales,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,78278c0b95,2014-07-05,e1a438f1,Fixed typo.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c52c5b9610,2014-07-05,e1a438f1,Removed useless EuropeanPortuguese class.,1,1,1,5,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,5225c0b182,2014-07-04,e1a438f1,New Portuguese locale. Updated Brazilian locale.,1,1,14,4,14,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+arrow,8bed4bdc0b,2014-06-23,09081d55,Check that the resultant parsed values (along with their respective separators) are actually in the ,2,1,31,0,26,0,0,0,0,1,0,0,0,0,2,0,0,25,0,0,18,0,0,0,0,0
+arrow,44402e0c0c,2014-05-07,bd691198,"Add two new arrow.get formats, humanized input and struct_time",2,1,42,7,29,3,0,0,0,1,0,0,1,0,0,0,0,49,1,15,22,0,0,0,0,0
+arrow,09af0756d4,2014-05-05,eef2a0ea,Adds more descriptive error messages on parse failures,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+arrow,3e732dd4cf,2014-04-22,3a6bcee6,fix small typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,9898eb6be7,2014-04-22,3a6bcee6,Added finnish locale,1,1,40,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+arrow,08af908fa2,2014-04-11,165ca45a,Added localization for hindi and malayalam languages,1,1,77,0,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0,0,0
+arrow,46a02ec07b,2014-03-31,4cfb48a7,"Implemented arrow.get(date[, t]) to fix #99.",2,1,49,2,24,1,1,0,0,1,0,0,1,0,0,0,0,48,1,14,15,0,0,0,0,0
+arrow,e66bcdadc6,2014-02-12,28f5cc05,Add Danish locale,1,1,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0
+arrow,798db8b7ec,2014-02-12,28f5cc05,Add ability to localize meridians (am/pm),2,2,36,4,36,4,0,0,0,1,0,0,0,1,1,0,0,67,1,2,29,0,0,0,0,0
+arrow,750e1445ed,2014-02-12,28f5cc05,Add Icelandic locale with tests,2,1,59,0,43,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32,0,0,0,0,0
+arrow,b9f6939ea0,2014-01-29,39035fad,"Fix typo in reference "":class:`ArrowFactory <...>""",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+arrow,389a84f86d,2014-01-18,a6867b79,Fixed a typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,642ff9b3b0,2014-01-18,a6867b79,Added basic Arabic support,1,1,30,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,312c05fb8e,2014-01-11,2a856b0b,Support for 'hh' and 'h' strings,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,4a407c00a1,2013-12-16,c92a98b9,tzinfo: claify tz objects in Docs and add timezone parsing on arrow.get(),3,2,8,14,5,11,0,0,0,2,0,0,1,1,0,0,0,40,2,4,4,0,0,0,0,0
+arrow,2e0bd5d52d,2013-12-11,9b5c0fa5,Fixed indentation issues.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,32,1,3,3,0,0,0,0,0
+arrow,ae53f0a5c9,2013-12-11,4dba62a3,Added support for parsing ISO 8601 format without the T separator,1,1,9,2,9,2,0,0,0,1,1,0,0,0,0,0,0,32,1,8,8,0,0,0,0,0
+arrow,5a63863742,2013-12-03,feeaabcf,Added __version__ attribute to arrow module,2,2,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+arrow,87fecda3ba,2013-11-14,c9472f14,fix day and month abbreviations,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,7ef798a865,2013-11-13,c9472f14,add turkish (tr_TR) locale.,1,1,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,1baa0df5f6,2013-10-29,9569f548,Declare the tests in the setup.py allowing to run ``python setup.py test``,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,170e41c5c1,2013-10-28,95716019,version bump -> 4.2,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f6ec8d9bdd,2013-10-28,04f76e03,Fix korean words.,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+arrow,f2289dec2c,2013-10-27,04f76e03,Remove trailing whitespaces.,6,5,9,9,7,7,0,0,0,2,0,0,0,0,0,0,0,43,1,1,4,0,0,0,1,0
+arrow,70151388ae,2013-10-26,95716019,accept SSSS - SSSSSS in parsing,3,1,14,7,7,1,0,0,0,1,0,0,1,0,0,0,0,69,1,6,7,0,0,0,0,0
+arrow,38b3331ab2,2013-10-26,95716019,float_timestamp property,2,1,14,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+arrow,93409cc83d,2013-10-23,95716019,docs update for factory,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,43,1,3,3,0,0,0,0,0
+arrow,05aa56a698,2013-10-23,95716019,accept single arrow argument in factory .get,2,1,15,0,8,0,0,0,0,1,0,0,1,0,0,0,0,43,1,3,3,0,0,0,0,0
+arrow,b45d8b4cdf,2013-10-21,5b60b913,Make arrow.get() accept a string and list of parse formats.,2,1,14,3,7,2,0,0,0,1,0,0,1,0,0,0,0,41,1,5,5,0,0,0,0,0
+arrow,8eaafa6e95,2013-10-18,04f76e03,Fix Arrow.__getattr__ to do not make maximum recursion.,1,1,4,3,4,3,1,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+arrow,065ce460a7,2013-10-16,6cabecbe,add Vietnamese locale (2),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,34b6863a4c,2013-10-16,6cabecbe,add Vietnamese locale,1,1,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,1be016dad4,2013-10-15,261628d2,Fix humanize() to return unicode,3,1,3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,5ec6198b46,2013-10-13,95716019,fix for util breaking in python 3+,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+arrow,bdff9b3096,2013-10-13,95716019,version 0.4.1,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,34e2dff3c2,2013-10-13,95716019,"HISTORY updated, tweaks to util",2,1,13,7,12,7,0,0,0,1,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+arrow,ff88aed276,2013-10-12,1ac00f11,Add Tagalog locale,1,1,35,3,35,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+arrow,47912a42b4,2013-10-11,1d85ee35,Fixing parsing of midnight and noon with specified period,2,1,9,1,3,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+arrow,c282257339,2013-10-11,1d85ee35,Changing 'hh' and 'h' format parameters to convert to '12' rather than '0' at midnight,2,1,15,2,2,2,0,0,0,1,0,0,0,0,0,0,0,63,1,2,2,0,0,0,0,0
+arrow,2bc0c7d731,2013-10-11,1d85ee35,Fixing support for unicode strings under Python 2.x in ArrowFactory.get,3,2,23,4,17,4,1,0,0,1,0,0,0,0,2,0,0,41,1,3,12,0,0,0,0,0
+arrow,c1a1de71ba,2013-10-11,2622a869,syntax error,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,c415dd7945,2013-10-10,2622a869,"added Austrian locale, change german locale",1,1,45,3,45,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0
+arrow,2781f0f88a,2013-10-09,db9403ef,"BrazilianLocale() should be a class, not a function.",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+arrow,6e5d9c1b68,2013-10-09,a90ccb90,Update locales.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,61fb608198,2013-10-09,26d35950,Added ItalianLocale class in arrow/locale.py,1,1,28,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,e004a7dbbf,2013-10-09,b60a1484,Add Dutch locales.,1,1,36,3,36,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,870caff1f9,2013-10-08,a90ccb90,Update locales.py,1,1,28,0,28,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,24,0,0,0,0,0
+arrow,29168a7f25,2013-10-08,95716019,version bump,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,4211f678b3,2013-10-08,95716019,added .week as attribute,2,1,7,0,3,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+arrow,f953b83f67,2013-10-07,95716019,docs update,3,1,41,24,1,1,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+arrow,08d9dc2f17,2013-10-04,fd620bb7,Fixed plurals of Russian and Ukrainian feminine nouns.,2,1,14,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,38a603be9c,2013-09-30,f8d8503d,Add Polish locales,2,1,51,4,37,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0
+arrow,b394dbff43,2013-09-29,95716019,"history, docs update",2,1,2,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,d60369df4f,2013-09-29,95716019,"int, float, string timestamp conversion moved factory -> arrow",4,2,33,15,20,12,0,0,0,4,0,0,0,1,1,0,0,41,1,2,16,0,0,0,0,0
+arrow,172ec22f44,2013-09-29,95716019,week support for .replace,2,1,15,4,7,4,0,0,0,2,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+arrow,17f1b03bdc,2013-09-29,95716019,use ISO weekday standard of monday as day 1,2,1,5,3,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+arrow,b68fc34c1b,2013-09-29,95716019,span_range tests rewritten,2,1,37,42,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,078604da8a,2013-09-29,c7d2e8fd,"If total of minutes is positive, sign should be +",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+arrow,ce35d714b1,2013-09-29,95716019,removed debugging print statements,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0
+arrow,97e8de0c1d,2013-09-29,95716019,range tests rewritten,2,1,92,47,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,5d89966dfa,2013-09-29,95716019,"probably working week support for span_range, span",2,1,44,20,27,15,0,0,0,5,0,0,0,1,0,0,0,13,2,4,20,0,0,0,0,0
+arrow,5c0d99614e,2013-09-28,95716019,"span_range rewrite, week support",2,1,22,32,10,32,0,0,0,1,0,0,0,1,0,0,0,7,1,10,10,0,0,0,0,0
+arrow,31fa4d3450,2013-09-28,95716019,week support for range,3,1,29,8,7,5,0,0,0,2,0,0,0,1,0,0,0,13,1,2,4,0,0,0,0,0
+arrow,244e728963,2013-09-28,95716019,"walked back .iso() method, cleaned up .get() and implemented there",5,3,17,62,14,39,0,0,0,1,0,0,0,0,0,2,0,44,1,9,10,0,0,0,0,0
+arrow,95b2072afb,2013-09-28,95716019,remove old 0.1 arrow factory method support,5,3,5,75,2,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,1,0
+arrow,c953efb28a,2013-09-28,95716019,"correct return type for iso factory method, some docs",2,1,15,3,14,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,11,0,0,0,0,0
+arrow,45f97cc4b2,2013-09-28,95716019,add 'iso' to module api,2,2,10,1,10,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,1,0,0
+arrow,746a6952b6,2013-09-28,95716019,"initial commit of .4 branch.  .iso() factory method, ISO auto-parsing in parser",5,3,171,1,40,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,28,0,0,0,0,0
+arrow,023078a2d0,2013-09-19,9917b274,Add Norwegian and New Norwegian locales,1,1,66,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0
+arrow,160dbb0404,2013-09-13,5fef3a2f,Added full parse support for microseconds.,2,1,25,2,14,1,0,0,0,1,0,0,1,0,0,0,0,39,1,6,14,0,0,0,0,0
+arrow,fba051149b,2013-09-06,ab5334a4,Added Japanese locales,1,1,32,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,046ec51f59,2013-08-29,95716019,version bumped; history updated,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,76e0f7a7a1,2013-08-27,a99950d5,Fix days in locales.py,1,1,21,21,21,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+arrow,a2f203e596,2013-08-26,a41d16e2,Added French locales,1,1,29,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,27d6b8ee4d,2013-08-24,13d0de64,Issue #29: maintain timezone when calculating ranges.,2,1,85,2,8,2,0,0,0,2,0,0,2,0,0,0,0,23,2,8,8,0,0,0,0,0
+arrow,bf2345c50b,2013-07-15,f1910be8,Added SpanishLocale to locales.py,1,1,29,0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+arrow,02445de13e,2013-06-10,95716019,fix for backwards handling of 2-digit years in parser,2,1,3,3,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+arrow,8375eb491b,2013-06-05,95716019,"history updated, version bumped",2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,049ccb4438,2013-06-05,95716019,fix for blank output in __format__ with empty format string,2,1,11,1,5,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+arrow,4737f4caee,2013-06-03,95716019,fix for erroneous month delta calculation in .humanize,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,49,1,3,3,0,0,0,0,0
+arrow,0145aa6850,2013-06-03,b9ff56a0,Add German localization,1,1,38,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0
+arrow,2f1d335c81,2013-05-28,95716019,version bumped to 0.3.3 in setup.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,fda80e01a5,2013-05-28,95716019,"locale-specific month, day names & abbreviations",1,1,60,5,60,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0
+arrow,6e69fa3e7f,2013-05-27,d8b96a05,"upgraded chai to branch w/ python3 support, python3 support updated",6,2,10,11,4,5,0,0,0,3,0,0,0,1,0,0,0,63,2,3,4,0,0,0,0,0
+arrow,748733468f,2013-05-27,d8b96a05,"location, docs update",3,2,104,68,91,62,0,0,0,9,0,0,0,0,2,2,0,63,1,2,77,0,0,0,0,0
+arrow,a9ac21bda0,2013-05-27,d8b96a05,locales update,1,1,21,15,21,15,0,0,0,6,0,0,0,0,0,0,0,5,0,0,17,0,0,0,0,0
+arrow,f326885df7,2013-05-27,d8b96a05,locales update,6,4,309,280,215,222,0,0,0,3,0,0,1,0,6,5,0,48,1,33,164,0,0,0,0,0
+arrow,3f74e7663a,2013-05-27,d8b96a05,docs update,2,1,69,32,38,32,0,0,0,23,0,0,0,0,0,0,0,46,3,6,36,0,0,0,0,0
+arrow,86c2cf8492,2013-05-27,d8b96a05,docs update,4,3,253,165,241,165,0,0,0,40,0,0,0,0,0,0,0,46,4,69,172,0,0,0,0,0
+arrow,6d56e2aae4,2013-05-25,d8b96a05,docs update,3,1,6,6,3,3,0,0,0,2,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+arrow,246c1f55ad,2013-05-25,d8b96a05,api imports cleanup,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+arrow,ad28f4e261,2013-05-25,d8b96a05,removal of debugging print statements,2,1,1,5,1,4,0,0,0,3,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0
+arrow,e39ff09493,2013-05-25,d8b96a05,factory updates,6,4,213,149,27,22,0,0,0,18,0,0,0,0,1,0,0,20,2,3,24,0,0,0,0,0
+arrow,d43b5e0636,2013-05-25,d8b96a05,initial factory implementation,2,2,136,102,136,102,0,0,0,4,1,1,0,0,5,0,0,2,1,1,83,0,0,0,0,0
+arrow,b678e224b7,2013-05-25,d8b96a05,comments update,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,bb89029c58,2013-05-25,d8b96a05,const stuff -> locales,8,6,128,137,64,66,0,0,1,6,0,0,1,1,9,0,0,63,3,10,46,0,0,0,0,0
+arrow,a7c364d755,2013-05-25,d8b96a05,"tests and coverage fixes, esp. python 2.6",3,1,21,12,2,3,1,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+arrow,8e002ab9e1,2013-05-25,d8b96a05,"compatibility arch / tweaks, tests and imports updates",10,6,104,106,39,37,0,0,0,3,0,0,1,0,2,3,0,63,3,8,27,0,0,1,0,0
+arrow,18e3be375b,2013-05-24,3841ab5b,Added Swedish locale,1,1,23,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+arrow,df9f623234,2013-05-23,d41f50a1,fix issue in fbb472c and 7e1a4f9,2,2,4,5,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,7e1a4f9f6d,2013-05-23,d41f50a1,"fixed issue with dddd, ddd, and dd format modifiers not being parsed",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,fbb472c835,2013-05-23,d41f50a1,fix issues introduced by pull request #22 because of PEP 3113 and PEP 328,3,3,11,9,11,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+arrow,c4aef955df,2013-05-21,6e1ebf0e,python 2.6 support added w/ unit tests,8,5,107,19,72,17,0,1,0,3,0,0,0,0,3,0,0,63,3,8,46,0,0,0,0,0
+arrow,32e61a52f9,2013-05-20,d8b96a05,setup / README updated ahead of 0.3.2 release,2,1,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,60952df030,2013-05-20,d8b96a05,setup / README updated ahead of 0.3.2 release,2,1,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,f631119df0,2013-05-20,d41f50a1,Modified to be able to work in 3.x,3,3,9,10,9,10,0,0,0,2,0,0,0,0,0,0,0,17,0,0,9,0,0,0,0,0
+arrow,af89e5fe63,2013-05-15,d8b96a05,"additional timestamp fix, readme / setup updated",4,2,11,3,2,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+arrow,a461453182,2013-05-15,d8b96a05,correctly handle timestamps in old arrow api function,2,1,13,1,7,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+arrow,704d385569,2013-05-11,d8b96a05,metadata update,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,1ce1a9f31a,2013-05-11,d8b96a05,"docs, styles updated, Makefile updated",5,1,192,140,10,7,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+arrow,3fd72a67c7,2013-05-11,d8b96a05,"update -> replace, fromdate, respect limits and accept timestamps, datetime and Arrows as valid date",7,6,333,182,266,155,0,0,4,9,0,0,0,2,6,3,0,20,2,95,177,0,0,0,0,0
+arrow,73fe539cbe,2013-05-11,d8b96a05,docs update,1,1,21,0,21,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,15,0,0,0,0,0
+arrow,3bd8e0387b,2013-05-11,d8b96a05,readme & setup updated for 0.2.1,2,1,7,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,33be735549,2013-05-11,d8b96a05,"mutability removed, plural attributes shifted in purpose",2,1,24,125,9,25,0,0,0,5,0,0,0,2,0,1,0,22,2,0,8,0,0,0,0,0
+arrow,93cc6508cf,2013-05-11,d8b96a05,readme & setup updated for 0.2.1,2,1,7,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+arrow,e3e6d44ff3,2013-05-11,d8b96a05,"update updated, ha",1,1,7,7,7,7,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+arrow,5c11d00127,2013-05-11,d8b96a05,initial take on immutability (Arrow.update),2,1,48,0,19,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+arrow,203dbcb480,2013-05-10,d8b96a05,return to 100% test coverage,3,1,22,6,2,2,0,0,0,1,0,0,0,0,0,0,0,46,1,1,2,0,0,0,0,0
+arrow,9c88f1633e,2013-05-10,5c77612c,Locales in available_locales should be lowercased,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,0550266029,2013-05-09,d8b96a05,docs update,2,1,28,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,52a0857a66,2013-05-09,d8b96a05,range method,2,1,89,5,64,5,0,4,1,2,1,0,0,0,1,0,0,24,1,3,48,0,0,0,0,0
+arrow,e1a602fdcd,2013-05-10,941a3595,Added Korean to locale.py,1,1,24,3,24,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+arrow,5260309e62,2013-05-09,d8b96a05,span_range method + docs,3,1,151,137,69,126,0,1,0,1,1,0,0,0,1,0,0,3,0,0,52,0,0,0,0,0
+arrow,40af106bb5,2013-05-10,0d05fa91,zh_CN and zh_TW,1,1,46,1,46,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0
+arrow,ca3e37d05e,2013-05-09,d8b96a05,tweaks to locale architecture / api,1,1,86,76,86,76,0,0,0,5,0,0,0,0,0,0,0,9,0,0,59,0,0,0,0,0
+arrow,509ed800be,2013-05-09,d8b96a05,re-added otommod's greek locale data,1,1,21,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+arrow,c38350889e,2013-05-09,d8b96a05,merge of cleg's locale updates into master,4,2,305,72,270,68,0,0,0,1,0,0,0,1,5,0,0,46,1,14,141,0,0,0,0,0
+arrow,2c3b9d833d,2013-05-09,bd7e22fc,Improve locales hierarchy,1,1,40,16,40,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0
+arrow,17850a5655,2013-05-09,bd7e22fc,Added Russian plurals support,4,2,171,56,136,52,0,0,0,1,0,0,0,1,5,0,0,46,1,14,120,0,0,0,0,0
+arrow,68e987c25c,2013-05-09,46f59eae,Add greek to locale.py,1,1,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0
+arrow,256f5174e0,2013-05-08,d8b96a05,"removal of debugging print statements, minor rearrangement of code in Arrow class, docs update",3,3,213,116,213,116,0,0,0,9,0,0,0,1,0,0,0,63,2,49,149,0,0,0,0,0
+arrow,fce625364a,2013-05-08,d8b96a05,docs update,2,2,29,9,29,9,0,0,0,9,0,0,0,0,0,0,0,41,1,2,20,0,0,0,0,0
+arrow,68fba82e32,2013-05-08,d8b96a05,minor tweaks to locale code (mostly documentation),2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+arrow,2141155569,2013-05-08,bd7e22fc,Added basic localizations for humanize,5,2,100,16,58,16,0,0,0,1,0,0,1,0,0,0,0,49,1,17,52,0,0,0,0,0
+arrow,ec540350ed,2013-05-08,ec216a85,Fixed typos,3,1,7,7,2,2,1,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+arrow,25abfceae9,2013-05-07,d8b96a05,trivial,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,a47f43d768,2013-05-07,d8b96a05,docs update; README update,2,1,11,0,2,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+arrow,2642f8a350,2013-05-07,d8b96a05,api documentation update,1,1,60,0,60,0,0,0,0,1,0,0,0,0,0,0,0,41,1,44,44,0,0,0,0,0
+arrow,c8555ce453,2013-05-07,d8b96a05,docs update; cast for timestamp,4,2,102,10,90,10,0,0,0,10,0,0,0,0,0,0,0,41,1,1,69,0,0,0,0,0
+arrow,e6af445cd2,2013-05-07,d8b96a05,"README, setup.py updated",2,1,12,6,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,824ecd9812,2013-05-06,d8b96a05,partial documentation,11,1,633,13,6,0,0,0,0,2,0,0,0,0,0,0,0,41,1,2,4,0,0,0,0,0
+arrow,920854f8db,2013-05-05,d8b96a05,additional test coverage,3,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+arrow,6f076e2645,2013-05-05,d8b96a05,additional test coverage,4,1,4,7,0,2,0,0,0,1,0,0,0,1,0,0,0,35,1,0,0,0,0,0,0,0
+arrow,898aeb61a7,2013-05-05,d8b96a05,additional test coverage,3,1,32,9,2,2,0,0,0,2,0,0,0,0,0,0,0,46,1,1,2,0,0,0,0,0
+arrow,cd73f8abd8,2013-05-05,d8b96a05,additional test coverage,4,1,61,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,489e8d9092,2013-05-05,d8b96a05,"Makefile, coverage update",3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+arrow,d3f5ed2463,2013-04-12,aaf3b76d,Accept unicode TimeZone string,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+arrow,93b9acba21,2012-11-23,d8b96a05,"humanized time deltas, version bump",5,2,210,40,63,8,0,0,0,2,0,0,0,0,3,0,0,2,0,0,45,0,0,0,0,0
+arrow,0da8fbc65e,2012-11-23,3bb1288b,Python 3 support,2,2,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+arrow,c57e84235c,2012-11-22,d8b96a05,fix for some identified date conversion issues,4,2,97,86,56,46,1,0,0,9,0,0,0,0,1,0,0,23,0,0,44,0,0,0,0,0
+arrow,9b25a4c135,2012-11-22,d8b96a05,consistency fixes; more specific exceptions,4,2,122,73,51,29,1,0,0,4,0,0,0,0,4,3,0,5,0,0,45,0,0,0,0,0
+arrow,da4760ec89,2012-11-20,d8b96a05,"parsing of ISO-formatted timestamps, correct timestamps for delta-created time zones, correct displa",6,3,101,30,30,10,0,0,0,3,0,0,0,0,1,0,0,13,0,0,20,0,0,0,0,0
+arrow,6ddbcddd09,2012-11-20,d8b96a05,"readme update, print statements removed, version bump",3,2,2,3,1,2,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+arrow,fe2b83d832,2012-11-20,d8b96a05,version bump,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0

@@ -1,0 +1,5 @@
+statistic,value
+Spearman correlation of the project totals (nominal vs paper constants),0.9666666666666667
+Spearman correlation of the per-event effort,1.0
+"nominal COCOMO II.2000: A, E","2.94, 1.0997"
+"paper preset: A, E","2.64, 0.91"

@@ -1,0 +1,5 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+fibonacci_memo,0,v0.1,v0.2,2019-01-08,2019-02-17,minor,4,320,169,321,170,5,6,1,1,4
+fibonacci_memo,1,v0.2,v0.3,2019-02-17,2019-03-20,minor,1,321,170,329,170,5,12,0,0,2
+fibonacci_memo,2,v0.3,v0.4,2019-03-20,2019-04-27,minor,1,329,170,329,170,5,0,0,0,0
+fibonacci_memo,3,v0.4,v0.5,2019-04-27,2019-06-26,minor,1,329,170,329,170,5,0,0,0,0

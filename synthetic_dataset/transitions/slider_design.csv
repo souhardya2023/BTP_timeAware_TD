@@ -1,0 +1,26 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+slider_design,v0.1,v0.2,0,slider_design-D01,slider_design/services.py,reset_style_store_1,synth:private_access,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+slider_design,v0.1,v0.2,0,slider_design-D02,slider_design/cli.py,<imports>:from .core import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+slider_design,v0.1,v0.2,0,slider_design-D03,slider_design/services.py,compute_style_expr_3,synth:eval_input,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+slider_design,v0.1,v0.2,0,slider_design-D04,slider_design/services.py,compute_slider_expr_4,synth:eval_input,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+slider_design,v0.2,v0.3,1,slider_design-D01,slider_design/services.py,reset_style_store_1,synth:private_access,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+slider_design,v0.2,v0.3,1,slider_design-D02,slider_design/cli.py,<imports>:from .core import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+slider_design,v0.2,v0.3,1,slider_design-D03,slider_design/services.py,compute_style_expr_3,synth:eval_input,MAJOR,15,6,2,1,0,0,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+slider_design,v0.2,v0.3,1,slider_design-D04,slider_design/services.py,compute_slider_expr_4,synth:eval_input,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+slider_design,v0.2,v0.3,1,slider_design-D05,slider_design/core.py,read_slider_file_5,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,interest,1,6,4,4.0,0.006781608318638173
+slider_design,v0.2,v0.3,1,slider_design-D06,slider_design/services.py,new_style_token_6,synth:insecure_random,MAJOR,15,2,2,0,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+slider_design,v0.3,v0.4,2,slider_design-D01,slider_design/services.py,reset_style_store_1,synth:private_access,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+slider_design,v0.3,v0.4,2,slider_design-D02,slider_design/cli.py,<imports>:from .core import *,synth:wildcard_import,MAJOR,15,1,1,2,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+slider_design,v0.3,v0.4,2,slider_design-D03,slider_design/services.py,compute_style_expr_3,synth:eval_input,MAJOR,15,6,2,2,1,1,0.010592055810999847,repayment,0,5,2,0.0,0.0
+slider_design,v0.3,v0.4,2,slider_design-D04,slider_design/services.py,compute_slider_expr_4,synth:eval_input,MAJOR,15,6,2,2,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+slider_design,v0.3,v0.4,2,slider_design-D05,slider_design/core.py,read_slider_file_5,synth:path_traversal,MAJOR,15,6,2,1,4,1,0.010592055810999847,interest,1,7,2,1.0,0.001476547186496228
+slider_design,v0.3,v0.4,2,slider_design-D06,slider_design/services.py,new_style_token_6,synth:insecure_random,MAJOR,15,2,2,1,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+slider_design,v0.3,v0.4,2,slider_design-D07,slider_design/core.py,read_style_file_7,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,interest,1,7,2,1.0,0.001476547186496228
+slider_design,v0.3,v0.4,2,slider_design-D08,slider_design/core.py,read_style_file_8,synth:path_traversal,MAJOR,15,6,2,0,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D01,slider_design/services.py,reset_style_store_1,synth:private_access,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D02,slider_design/cli.py,<imports>:from .core import *,synth:wildcard_import,MAJOR,15,1,1,3,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D04,slider_design/services.py,compute_slider_expr_4,synth:eval_input,MAJOR,15,6,2,3,0,0,0.010592055810999847,none,1,6,0,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D05,slider_design/core.py,read_slider_file_5,synth:path_traversal,MAJOR,15,7,2,2,5,2,0.012548784031360172,none,1,7,0,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D06,slider_design/services.py,new_style_token_6,synth:insecure_random,MAJOR,15,2,2,2,0,0,0.003164390096496418,none,1,2,0,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D07,slider_design/core.py,read_style_file_7,synth:path_traversal,MAJOR,15,7,2,1,1,1,0.012548784031360172,repayment,0,6,2,0.0,0.0
+slider_design,v0.4,v0.5,3,slider_design-D08,slider_design/core.py,read_style_file_8,synth:path_traversal,MAJOR,15,6,2,1,0,0,0.010592055810999847,none,1,6,0,0.0,0.0

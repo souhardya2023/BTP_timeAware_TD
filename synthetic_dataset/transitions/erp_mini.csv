@@ -1,0 +1,207 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+erp_mini,v0.1,v0.2,0,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,0,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.1,v0.2,0,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,0,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.1,v0.2,0,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,0,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.1,v0.2,0,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.1,v0.2,0,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,0,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.2,v0.3,1,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,1,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.2,v0.3,1,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,1,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.2,v0.3,1,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,1,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.2,v0.3,1,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.2,v0.3,1,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,1,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.3,v0.4,2,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,2,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.3,v0.4,2,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,2,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.3,v0.4,2,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,2,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.3,v0.4,2,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.3,v0.4,2,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,2,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.4,v0.5,3,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,3,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.4,v0.5,3,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,3,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.4,v0.5,3,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,3,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.4,v0.5,3,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.4,v0.5,3,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,3,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.5,v0.6,4,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,4,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.5,v0.6,4,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,4,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.5,v0.6,4,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,4,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.5,v0.6,4,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.5,v0.6,4,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,4,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.6,v0.7,5,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,5,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.6,v0.7,5,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,5,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.6,v0.7,5,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,5,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.6,v0.7,5,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.6,v0.7,5,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,5,0,0,0.02062846280146194,interest,1,11,2,2.0,0.003164390096496418
+erp_mini,v0.6,v0.7,5,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,0,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,6,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,6,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,6,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,6,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,6,2,1,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,1,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.7,v0.8,6,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,0,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,7,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,7,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,7,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,7,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,11,4,7,2,1,0.02062846280146194,increase,1,12,1,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,2,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.8,v0.9,7,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,1,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,8,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,8,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,8,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,8,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,12,4,8,2,1,0.02269984787238689,none,1,12,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,3,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.9,v0.10,8,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,2,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,9,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,9,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,9,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,9,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,12,4,9,2,1,0.02269984787238689,none,1,12,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,4,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.10,v0.11,9,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,3,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,10,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,10,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,10,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,10,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,12,4,10,2,1,0.02269984787238689,none,1,12,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,5,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.11,v0.12,10,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,4,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,11,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,11,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,11,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,11,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,12,4,11,2,1,0.02269984787238689,none,1,12,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,6,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.12,v0.13,11,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,5,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,12,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,12,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,12,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,12,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,12,4,12,2,1,0.02269984787238689,none,1,12,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,7,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,6,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,6,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.13,v0.14,12,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,13,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,13,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,13,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,13,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D05,erp_mini/feat_10.py,build_stock_5,synth:params,MAJOR,15,12,4,13,2,1,0.02269984787238689,repayment,0,2,1,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,8,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,7,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,7,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.14,v0.15,13,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,14,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,14,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,14,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,14,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,9,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,8,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,8,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.15,v0.16,14,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,0,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,15,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,15,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D03,erp_mini/feat_10.py,classify_employee_3,synth:ladder,MAJOR,15,32,15,15,0,0,0.06675145884150166,repayment,0,6,4,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,15,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,10,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,9,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,9,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.16,v0.17,15,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,1,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,16,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,16,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,16,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,11,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,10,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,10,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.17,v0.18,16,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,2,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,17,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,17,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,17,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,12,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,11,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,11,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.18,v0.19,17,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,3,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,18,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,18,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,18,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,13,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,12,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,12,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,30,17,6,0,0,0.06217811821415762,increase,1,33,3,0.0,0.0
+erp_mini,v0.19,v0.20,18,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,4,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,19,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,19,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,19,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,14,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,13,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,13,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,33,17,7,0,0,0.06904895497244092,none,1,33,0,0.0,0.0
+erp_mini,v0.20,v0.21,19,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,5,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,20,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,20,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,20,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,15,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,14,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,14,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,14,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.21,v0.22,20,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,33,17,8,0,0,0.06904895497244092,interest,1,33,3,3.0,0.004942396395519926
+erp_mini,v0.21,v0.22,20,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,6,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,21,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,21,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,21,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,16,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,15,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,15,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,15,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,33,17,9,3,1,0.06904895497244092,none,1,33,0,0.0,0.0
+erp_mini,v0.22,v0.23,21,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,7,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,22,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,22,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,22,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,17,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,16,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,16,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,16,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,33,17,10,3,1,0.06904895497244092,none,1,33,0,0.0,0.0
+erp_mini,v0.23,v0.24,22,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,8,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,23,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,23,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,23,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,18,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,17,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,17,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,17,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,33,17,11,3,1,0.06904895497244092,none,1,33,0,0.0,0.0
+erp_mini,v0.24,v0.25,23,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,9,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D01,erp_mini/feat_04.py,report_vendor_1,synth:long,MAJOR,15,60,19,24,0,0,0.1332540018328541,none,1,60,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D02,erp_mini/feat_14.py,build_purchase_2,synth:params,MAJOR,15,11,4,24,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D04,erp_mini/feat_09.py,handle_vendor_4,synth:nested,MAJOR,15,30,17,24,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D06,erp_mini/svc_ledger.py,PurchaseManager6,synth:god_class,MAJOR,15,23,2,19,0,0,0.04642366586005456,none,1,23,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D07,erp_mini/feat_03.py,handle_vendor_7,synth:nested,MAJOR,15,30,17,18,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D08,erp_mini/validators.py,<imports>:from . import feat_07,synth:import_cycle,MAJOR,15,1,1,18,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D09,erp_mini/feat_10.py,classify_vendor_9,synth:ladder,MAJOR,15,36,17,18,0,0,0.07598243207490085,none,1,36,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D10,erp_mini/feat_03.py,handle_ledger_10,synth:nested,MAJOR,15,33,17,12,3,1,0.06904895497244092,none,1,33,0,0.0,0.0
+erp_mini,v0.25,v0.26,24,erp_mini-D11,erp_mini/feat_07.py,report_employee_11,synth:long,MAJOR,15,60,19,10,0,0,0.1332540018328541,none,1,60,0,0.0,0.0

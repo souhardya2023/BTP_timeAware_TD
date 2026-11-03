@@ -1,0 +1,60 @@
+
+## CodeBERT mean-pooled embedding, logistic regression C=0.1
+  synthetic accuracy: random 0.969   held-out project 0.977   held-out template 0.618   temporal 0.949
+  per held-out template:
+ty                    t                 
+complexity            ladder                0.14
+                      long                  0.09
+                      nested                0.85
+                      params                0.59
+concurrency           check_then_act        0.72
+                      lock_not_released     0.91
+                      lock_order            0.98
+                      shared_list           0.98
+                      unlocked_counter      0.93
+coupling_cohesion     feature_envy          0.25
+                      god_class             0.99
+                      message_chain         0.20
+                      private_access        0.30
+dependency_structure  import_cycle          0.91
+                      layer_violation       0.49
+                      wildcard_import       0.95
+security              eval_input            0.08
+                      insecure_random       0.25
+                      path_traversal        0.88
+                      shell_injection       0.95
+                      sql_injection         1.00
+                      unsafe_deserialize    0.47
+                      weak_hash_secret      0.87
+  real pairs, leave one project out: 0.328   non-boltons 0.541   (majority 0.426 / 0.432)
+  sim-to-real (train synthetic, test the 61 real pairs): 0.295   Python 0.195 (majority 0.585)   C/C++ 0.500 (majority 0.700)
+predicted             complexity  concurrency  coupling_cohesion  dependency_structure  security
+true                                                                                            
+complexity                     2            0                  0                     4         0
+concurrency                   16            3                  0                     0         7
+coupling_cohesion              1            0                  0                     4         1
+dependency_structure           0            0                  0                     7         0
+security                       1            2                  1                     6         6
+  real -> synthetic: 0.195 (majority 0.206)
+  pooled (other real projects + all synthetic), real leave one project out: 0.443   non-boltons 0.703
+
+## CodeBERT mean-pooled embedding, logistic regression C=1
+  synthetic accuracy: random 0.968   held-out project 0.974   held-out template 0.575   temporal 0.937
+  real pairs, leave one project out: 0.328   non-boltons 0.541   (majority 0.426 / 0.432)
+  sim-to-real (train synthetic, test the 61 real pairs): 0.279   Python 0.195 (majority 0.585)   C/C++ 0.450 (majority 0.700)
+  real -> synthetic: 0.192 (majority 0.206)
+  pooled (other real projects + all synthetic), real leave one project out: 0.361   non-boltons 0.568
+
+## CodeBERT [CLS] embedding, logistic regression C=0.1
+  synthetic accuracy: random 0.969   held-out project 0.977   held-out template 0.593   temporal 0.946
+  real pairs, leave one project out: 0.443   non-boltons 0.703   (majority 0.426 / 0.432)
+  sim-to-real (train synthetic, test the 61 real pairs): 0.344   Python 0.317 (majority 0.585)   C/C++ 0.400 (majority 0.700)
+  real -> synthetic: 0.355 (majority 0.206)
+  pooled (other real projects + all synthetic), real leave one project out: 0.508   non-boltons 0.676
+
+## CodeBERT [CLS] embedding, logistic regression C=1
+  synthetic accuracy: random 0.967   held-out project 0.977   held-out template 0.574   temporal 0.947
+  real pairs, leave one project out: 0.410   non-boltons 0.676   (majority 0.426 / 0.432)
+  sim-to-real (train synthetic, test the 61 real pairs): 0.246   Python 0.220 (majority 0.585)   C/C++ 0.300 (majority 0.700)
+  real -> synthetic: 0.357 (majority 0.206)
+  pooled (other real projects + all synthetic), real leave one project out: 0.492   non-boltons 0.676

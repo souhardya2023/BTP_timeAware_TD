@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+zstd,cbbc114e5d,2026-09-14,73e122d7,lib: allow integrations to override BMI2 dispatch,14,12,99,49,97,49,0,0,0,14,0,0,1,8,0,0,0,23,11,14,52,0,0,0,0,0
+zstd,942937f39c,2026-09-14,73e122d7,lib: add fallback aliases for disabled BMI2 variants,5,5,26,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0
+zstd,cc10195987,2026-09-14,73e122d7,decompress: sink nextState/nbBits loads in ZSTD_decodeSequence,1,1,6,10,6,10,0,0,0,1,0,0,0,1,0,0,0,158,1,6,6,0,0,0,0,0
+zstd,62daca7c08,2026-09-10,b8cb43e3,Apply suggestion from @terrelln,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+zstd,30b43e3755,2026-09-10,64c61177,remove X6 huffman decoder from legacy v0.2,1,1,1,360,1,360,0,0,0,1,0,4,0,0,0,7,0,19,0,0,1,0,0,0,1,0
+zstd,ae70342561,2026-09-08,73e122d7,compress: Elide long-offset path on 64-bit,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,85,1,3,3,0,0,0,0,0
+zstd,1fcad56180,2026-08-27,64c61177,doc: clarify that ZSTD_[CD]Ctx_get_bmi2() is not a CPU capability test,2,2,24,2,24,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,b89e8c2aaf,2026-08-27,64c61177,perf: skip CPUID probe in CCtx when BMI2 is enabled at compile time,3,3,21,6,21,6,0,0,0,7,0,0,0,0,1,0,0,94,5,5,20,0,0,0,0,0
+zstd,c6f91a41ab,2026-08-10,64c61177,fix: prevent OOB read/write in DDict hashset probe T283341343,1,1,2,4,2,4,1,0,0,2,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+zstd,cef5a5611a,2026-03-17,748e5edd,Fix unintended high memory usage,2,1,36,1,5,1,1,0,0,1,1,0,0,0,0,0,0,35,1,5,5,0,0,0,0,0
+zstd,e374fc76fe,2026-03-12,53fcb1ce,fix display format,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,95,1,1,1,0,0,0,0,0
+zstd,3f565b731e,2026-03-12,53fcb1ce,rever -q,2,1,3,4,2,2,0,0,0,2,0,0,1,0,0,0,0,95,1,1,2,0,0,0,0,0
+zstd,3041c8e539,2026-03-11,53fcb1ce,Update #define format,3,2,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,9,1,1,2,0,0,0,0,0
+zstd,2293e9601f,2026-03-09,53fcb1ce,init commit,4,2,19,6,8,4,0,0,0,2,0,0,0,0,0,0,0,27,2,4,8,0,0,0,0,0
+zstd,043426b3e2,2026-03-09,53fcb1ce,Promote flag,1,1,3,3,3,3,0,0,0,2,0,0,0,1,0,0,0,94,1,0,3,0,0,0,0,0
+zstd,3f8f9b3f89,2026-03-07,d3034481,Fix potential NULL pointer dereference in ZSTD_customCalloc when custom allocator fails,1,1,6,2,6,2,1,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+zstd,f1e77ab2ba,2026-03-07,684ee074,"Accept G, GB and GiB suffixes for options",1,1,37,23,37,23,0,0,0,2,0,0,2,0,0,0,0,34,2,30,32,0,0,0,0,0
+zstd,6a8715f8d4,2026-03-04,53fcb1ce,update man,2,1,8,2,6,1,0,0,0,1,0,0,1,0,0,0,0,637,1,6,6,0,0,0,0,0
+zstd,6e1e545916,2026-03-02,29011c69,"avoid potential RC on ctx->threadLimit, code review; closes gh-4547; replaces gh-4558",1,1,16,19,16,19,0,0,0,2,0,0,0,0,0,0,0,35,0,0,15,0,1,0,0,0
+zstd,bb1eedcf86,2026-02-27,c25e85f1,correct mmap error check,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,0
+zstd,2107c8f189,2026-02-27,f36c183a,bitstream: fix `BIT_readBits` and `BIT_reloadDStream` prototypes,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,bce1ec6b07,2026-02-27,9dde5e5c,Make explicit ptrdiff_t to int casts in divsufsort.c to avoid compiler warnings.,1,1,77,77,77,77,0,0,0,18,0,0,1,0,0,0,0,196,14,68,76,0,0,0,0,0
+zstd,81cf153bce,2026-02-27,893325fa,fix: adjust LDM params in estimate functions to prevent SIGFPE (issue #4590),2,1,29,2,10,2,1,0,0,2,0,0,0,0,0,0,0,22,0,0,10,0,0,0,0,0
+zstd,117b0edfae,2026-02-27,7f56c800,Fix formatting of lz4 option in zstdcli.c,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+zstd,3a3c506b51,2025-12-18,0e12f98b,Fix #4553,1,1,9,2,9,2,1,0,0,1,0,0,1,0,0,0,0,138,1,6,6,0,0,0,0,0
+zstd,073c7fb6ea,2025-12-18,0e12f98b,update dev version number to v1.6.0,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,71146f5b6d,2025-11-03,cc12f2ab,Add RISC-V 64-bit architecture detection,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,7a3c940e7f,2025-10-26,0e12f98b,syncio interface only enabled when compression is enabled,1,1,38,32,38,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,1,0
+zstd,41f2673acd,2025-10-25,008f0635,changed name to syncIO for clarity,1,1,56,54,56,54,0,0,0,4,0,0,0,0,0,0,0,182,4,54,54,0,0,0,0,0
+zstd,ccadc33a59,2025-10-25,008f0635,minor: use init/destroy pair naming convention,1,1,3,3,3,3,0,0,0,1,0,0,0,0,1,1,0,6,0,0,3,0,0,0,0,0
+zstd,d1dd7e1481,2025-10-25,008f0635,removed asyncio completely for compression path,1,1,366,132,366,132,0,0,0,11,1,0,2,5,12,0,0,182,10,101,320,0,1,0,0,0
+zstd,44cd3c8451,2025-10-25,008f0635,disable asyncio during compression,1,1,12,10,12,10,0,0,0,2,0,0,1,1,0,0,0,74,2,10,10,0,1,0,0,0
+zstd,0dffae42e3,2025-10-08,058a8e5a,AArch64: Remove 32-bit code from ZSTD_decodeSequence,1,1,2,16,2,16,0,0,0,1,0,0,0,1,0,0,0,161,1,2,2,0,0,0,1,0
+zstd,33618c89e5,2025-10-08,058a8e5a,AArch64: Revert previous branch optimization,1,1,3,6,3,6,0,0,0,1,0,0,0,1,0,0,0,171,1,3,3,0,0,0,0,0
+zstd,87cc127705,2025-09-26,e99d13bd,- Modify the GCC version used for CI testing of the RISCV architecture - Fix a bug in the ZSTD_row_g,5,4,32,29,31,28,1,0,0,2,0,0,0,0,0,0,0,33,0,0,31,0,0,0,0,0
+zstd,17888b3fbe,2025-09-24,008f0635,fix minor initialization warnings,1,1,5,4,5,4,1,0,0,2,0,0,1,0,0,0,0,61,2,5,5,0,0,0,0,0
+zstd,c15fa3cd40,2025-09-23,008f0635,update documentation of ZSTD_getFrameContentSize(),1,1,24,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,4c1f86c777,2025-09-23,0e12f98b,fix minor warning in legacy decoders,5,5,5,5,5,5,1,0,0,5,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+zstd,236e44f00f,2025-09-16,a4a3ccdd,Remove debug logging,2,1,0,60,0,16,0,0,0,2,0,0,0,1,0,0,0,108,1,0,0,0,0,0,1,0
+zstd,85f4a7e84e,2025-09-16,a4a3ccdd,Fix bug,1,1,9,6,9,6,1,0,0,1,0,0,0,0,0,0,0,43,0,0,8,0,0,0,0,0
+zstd,96fdb9bd16,2025-09-15,a4a3ccdd,Add debug logging and simple repro,2,1,64,0,20,0,0,0,0,2,0,0,1,0,0,0,0,115,1,7,18,0,0,0,0,0
+zstd,c59812e558,2025-09-15,17da91e5,🔧 Fix memory leak in pthread init functions on failure,1,1,16,2,16,2,1,0,0,2,0,0,0,0,0,0,0,15,0,0,14,0,1,0,0,0
+zstd,fb7a86f20f,2025-09-11,6f0ad005,Refactor ZSTD_row_getMatchMask for RVV optimization,1,1,23,21,23,21,0,0,0,1,0,0,0,0,0,0,0,27,0,0,23,0,0,0,0,1
+zstd,c9d2cbd5ba,2025-09-09,6f0ad005,add RVV optimization for ZSTD_row_getMatchMask,1,1,39,3,39,3,0,0,0,1,0,0,1,0,1,0,0,52,1,5,31,0,0,0,0,0
+zstd,249e4a07d5,2025-09-02,0e12f98b,fixed minor unused variable warning,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+zstd,725a152c7b,2025-09-02,0e12f98b,benchmark uses 1 thread by default,1,1,12,7,12,7,0,0,0,3,0,0,1,0,0,0,0,632,2,7,12,0,1,0,0,0
+zstd,c41fc1aa01,2025-09-02,0e12f98b,only display nbThread Msg in nbThreads > 1,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,628,1,3,3,0,1,0,0,0
+zstd,6551db3459,2025-09-02,0e12f98b,specify nb of threads used during benchmarking,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,627,1,2,2,0,1,0,0,0
+zstd,1c5d45fc11,2025-09-02,0e12f98b,fixed -T# documentation in zstd -H,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+zstd,2849f3a5d1,2025-08-21,058a8e5a,AArch64: Add SVE2 path for convertSequences_noRepcodes,1,1,149,0,149,0,0,0,0,2,1,0,1,0,2,0,0,98,2,98,104,0,0,0,0,0
+zstd,ae64545c6b,2025-08-19,0e12f98b,fixed a potential division by 0 in the cli trace unit,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,2,0,1,0,0,0
+zstd,0d1f8de9ad,2025-08-19,1067049e,Check for build environment instead of just _GNU_SOURCE,1,1,7,5,7,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,0055ce7a02,2025-07-18,0e12f98b,simplify sequence resolution in zstd_opt,1,1,2,10,2,10,0,0,0,1,0,0,0,1,0,0,0,276,1,2,2,0,0,0,0,1
+zstd,07cd78d366,2025-07-10,058a8e5a,AArch64: Add Neon path for convertSequences_noRepcodes,2,1,262,6,136,6,0,0,0,3,1,0,0,0,1,0,0,86,3,91,97,0,0,0,0,0
+zstd,8e4400463a,2025-07-10,058a8e5a,Improve ZSTD_get1BlockSummary,2,1,171,13,88,13,0,0,0,1,1,0,0,0,1,0,0,68,1,55,63,0,0,0,0,0
+zstd,d04e7944dd,2025-07-07,e99d13bd,add compiler version check.,1,1,11,3,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+zstd,2c3f23b018,2025-06-29,e99d13bd,fix dereferencing type-punned pointer error,1,1,64,58,64,58,1,0,0,2,0,0,1,0,0,0,0,64,1,49,51,0,0,0,0,0
+zstd,4efbd56749,2025-06-24,feecc06d,Check for job before releasing,1,1,14,12,14,12,0,0,0,1,0,0,0,0,0,0,0,19,0,0,10,0,0,0,0,0
+zstd,50f169411b,2025-06-24,feecc06d,Remove redundant setting of allJobsCompleted to 1,1,1,1,2,1,2,0,0,0,1,0,0,0,1,0,0,0,102,1,1,1,0,0,0,1,0
+zstd,a28e8182b1,2025-06-24,058a8e5a,AArch64: Improve ZSTD_decodeSequence performance,1,1,119,8,119,8,0,0,0,1,0,0,1,0,0,0,0,174,1,94,94,0,0,0,0,0
+zstd,bd38fc2c5f,2025-06-23,058a8e5a,AArch64: Enhance struct access in Huffman decode 2X,1,1,51,43,51,43,0,0,0,2,0,0,1,0,0,0,0,56,1,28,40,0,0,0,0,0
+zstd,1e9d2006ae,2025-06-20,058a8e5a,AArch64: Use better block copy8,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+zstd,7e4937bc75,2025-06-11,058a8e5a,AArch64: Add SVE2 implementation of histogram computation,3,3,271,3,271,3,0,0,0,3,2,0,2,1,3,0,0,59,3,13,235,0,0,0,0,0
+zstd,de8d9e8914,2025-06-09,c309dd34,Fix several locations with potential memory leak,6,1,162,71,1,0,1,0,0,1,0,0,1,0,0,0,0,57,1,1,1,0,0,0,0,0
+zstd,d95123f2e6,2025-06-02,e99d13bd,Improve speed of ZSTD_compressSequencesAndLiterals() using RVV,2,2,157,0,157,0,0,0,0,2,1,0,0,0,2,0,0,57,1,57,115,0,0,0,0,0
+zstd,4bd5654e72,2025-05-30,c309dd34,update `--rm` cmd help info,3,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+zstd,2a12bbaf90,2025-03-28,02a0b1be,Update cli-tests/file-stat tests,7,2,23,3,5,3,0,0,0,2,0,0,1,0,0,0,0,72,1,3,4,0,0,0,0,0
+zstd,3bd5aa3404,2025-03-28,02a0b1be,Check regular file for sparse support after opening,3,3,22,12,22,12,0,0,0,1,0,0,0,1,1,0,0,70,1,8,18,0,0,0,0,0
+zstd,2f9627863f,2025-03-28,0e12f98b,update error message,2,1,4,3,3,2,0,0,0,1,0,0,1,0,0,0,0,72,1,3,3,0,0,0,0,0
+zstd,8626da73b6,2025-03-28,0e12f98b,add error message clarification for inputs as process substitution,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,71,1,3,3,0,0,0,0,0
+zstd,0bde39a9b3,2025-03-28,0e12f98b,visual studio fix,1,1,21,8,21,8,1,0,0,1,0,0,0,0,0,0,0,22,0,0,15,0,0,0,0,0
+zstd,94cfa0b5a0,2025-03-28,0e12f98b,minor: restore some code comment,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,76c2fdc7b7,2025-03-28,0e12f98b,better naming,4,3,21,20,20,20,0,0,0,1,0,0,0,0,1,1,0,627,1,1,17,0,0,0,0,0
+zstd,7630870b47,2025-03-28,0e12f98b,"second implementation, better structured for improved maintenance",1,1,104,84,104,84,0,0,0,1,0,1,0,0,3,0,0,33,1,29,76,0,0,0,0,0
+zstd,165e52ce62,2025-03-28,0e12f98b,first implementation supporting Process Substitution,3,3,117,72,117,72,0,0,0,2,1,0,0,0,1,2,0,86,1,71,88,0,0,0,0,0
+zstd,eb168a0afc,2025-03-25,0e12f98b,add --patch-apply command,2,1,7,1,3,1,0,0,0,2,0,0,2,0,0,0,0,627,2,3,3,0,0,0,0,0
+zstd,33f4d40d1e,2025-03-23,008f0635,fix a risk of overflow on a time counter on Windows,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,1,0,0,0,0
+zstd,2fec3989c1,2025-03-22,008f0635,add an assert,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,73,1,1,1,0,0,0,0,0
+zstd,cd8ca9d92e,2025-03-20,227b7194,lib/zstd.h: move pragma before static,1,1,4,5,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+zstd,4d53e27144,2025-03-12,0e12f98b,removed OpenBSD specificity,1,1,0,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,a9b8fef2e8,2025-03-11,0e12f98b,add support for C11 Annex K qsort_s(),2,1,16,7,15,6,0,0,0,1,0,0,0,0,0,0,0,23,0,0,14,0,0,0,0,0
+zstd,dcf675886b,2025-03-11,0e12f98b,re-design qsort() selection in cover,3,1,46,15,40,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0
+zstd,51b6e79f65,2025-03-11,008f0635,fix #4312,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,68dfd14a8c,2025-03-11,208ecb23,[linux] Opt out of row based match finder for the kernel,1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+zstd,19541b4d1a,2025-03-11,008f0635,fix minor unused variable warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,626,1,1,1,0,0,0,0,0
+zstd,c583c2c39e,2025-03-10,0e12f98b,warn when requesting decompression with multiple threads,3,1,31,11,7,11,0,0,0,1,0,0,1,0,0,0,0,626,1,7,7,0,1,0,0,0
+zstd,2ff87aefac,2025-03-10,0e12f98b,fix FreeBSD,3,2,17,19,9,3,1,0,0,2,0,0,1,0,0,0,0,621,2,6,7,0,0,0,0,0
+zstd,56e2ebf5c3,2025-03-10,0e12f98b,removed useless assert(),1,1,2,3,2,3,0,0,0,1,0,0,0,1,0,0,0,621,1,2,2,0,0,0,0,0
+zstd,d5986f235f,2025-03-10,0e12f98b,fix #4332: setting ZSTD_NBTHREADS=0 via environment variables,3,1,24,40,24,31,1,0,0,1,0,0,0,1,1,1,0,622,1,13,24,0,1,0,0,0
+zstd,0de4991942,2025-03-07,208ecb23,Add a method for checking if ZSTD was compiled with flags that impact determinism,4,4,44,1,44,1,0,0,0,1,0,0,1,0,1,0,0,25,1,3,24,0,0,0,0,0
+zstd,190a620974,2025-03-05,208ecb23,[zstd] Remove global variables in dictBuilder,2,2,82,85,82,85,0,0,0,5,0,0,3,0,0,0,0,136,4,27,76,0,0,0,1,0
+zstd,d5b84f5a27,2025-03-05,208ecb23,[zstd] Backport D49756856,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+zstd,f5a0e047cb,2025-03-04,0e12f98b,fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,631,1,1,1,0,0,0,0,0
+zstd,0b40c513fd,2025-03-04,0e12f98b,update fileio to employ jobSize,4,4,11,11,11,11,0,0,0,4,0,0,0,0,1,1,0,631,2,4,11,0,0,0,0,0
+zstd,0298df50f9,2025-03-04,0e12f98b,update cli-tests,3,2,8,8,5,5,0,0,0,2,0,0,0,0,0,0,0,108,2,5,5,0,0,0,0,0
+zstd,19ffcf81b8,2025-03-04,0e12f98b,changed -B# command into --jobsize,2,1,6,5,2,1,0,0,0,1,0,0,1,0,0,0,0,631,1,1,1,0,0,0,0,0
+zstd,fcfb3160dc,2025-03-04,0e12f98b,convert benchmark unit to use the new naming scheme,3,3,53,64,53,64,0,0,0,6,0,0,0,0,0,0,0,630,5,50,52,0,0,0,0,0
+zstd,d5dbdd6ece,2025-03-04,0e12f98b,changed command --blocksize into --split,3,2,49,39,40,30,0,0,0,3,0,0,1,0,0,0,0,630,2,14,38,0,0,0,1,0
+zstd,dca9791862,2025-02-26,008f0635,fixed minor C++ compat warnings,2,2,12,11,12,11,1,0,0,10,0,0,0,0,0,0,0,128,6,6,12,0,0,0,0,0
+zstd,db2d205ada,2025-02-26,0e12f98b,fixed -Wconversion for lib/decompress/zstd_decompress_block.c,4,4,71,63,71,63,1,0,0,18,0,0,3,1,0,0,0,128,10,54,71,0,0,0,0,0
+zstd,2413f17322,2025-02-26,0e12f98b,fixed -Wconversion for cover.c,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,8ffa27d93b,2025-02-26,0e12f98b,fixed -Wconversion for divsufsort.c,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+zstd,e635221f1b,2025-02-26,0e12f98b,fixed -Wconversion for zdict,1,1,18,14,18,14,1,0,0,3,0,0,1,0,0,0,0,139,3,18,18,0,0,0,0,0
+zstd,30281d889f,2025-02-26,0e12f98b,fix conversion warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+zstd,2840631dc1,2025-02-26,f1499b6c,Fix function signature mismatch for ZSTD_convertBlockSequences,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,ebfa660b82,2025-02-21,0e12f98b,introduce ZSTD_USE_C90_QSORT,2,1,9,8,8,7,0,1,1,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zstd,d2c562b803,2025-02-10,0e12f98b,update hrlog comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,67fad95f79,2025-02-10,0e12f98b,derive hashratelog from hashlog when only hashlog is set,1,1,15,10,15,10,0,0,0,1,0,0,0,0,0,0,0,31,0,0,13,0,0,0,0,0
+zstd,09d7e34ed8,2025-02-10,008f0635,adjust mml,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+zstd,d5e4698267,2025-02-10,008f0635,fix boundary condition,1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+zstd,72406b71c3,2025-02-10,008f0635,update hrlog rule to favor compression ratio a bit more at low levels,3,1,26,26,1,1,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+zstd,bf218c142a,2025-02-10,008f0635,updated LDM documentation,2,1,20,18,6,5,0,0,0,1,0,0,0,0,0,0,0,26,0,0,6,0,0,0,0,0
+zstd,f26cc54f37,2025-02-10,008f0635,dynamic bucket sizes,1,1,10,2,10,2,0,0,0,1,0,0,0,0,0,0,0,30,0,0,10,0,0,0,0,0
+zstd,4609a40b89,2025-02-10,008f0635,dynamically adjust hratelog and ldmml based on strategy,1,1,10,6,10,6,0,0,0,1,0,0,0,0,0,0,0,22,0,0,9,0,0,0,0,0
+zstd,468e1453a5,2025-02-09,008f0635,disable --max in 32-bit mode,2,1,22,13,20,11,0,0,0,1,0,0,1,0,0,0,0,628,1,9,19,0,0,0,0,0
+zstd,39d1d82fa8,2025-02-09,0e12f98b,adjusted mml heuristic,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+zstd,630b47a158,2025-02-09,0e12f98b,added a new --max command,1,1,17,0,17,0,0,0,0,1,0,0,1,0,1,0,0,620,1,1,16,0,0,0,0,0
+zstd,aebffd66ec,2025-02-08,0e12f98b,--ultra automatically triggered with --long and --patch-from,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,620,1,2,2,0,0,0,0,0
+zstd,23e5f80390,2025-02-05,0e12f98b,"Revert ""pass dictionary loading method as parameter""",6,6,48,39,48,39,0,0,0,21,0,0,1,0,0,0,0,283,15,28,47,0,0,0,0,0
+zstd,c7cd7dc04b,2025-02-05,0e12f98b,better MT fluidity,2,2,30,14,30,14,0,0,0,1,0,0,1,0,2,1,0,101,1,5,26,0,0,0,0,0
+zstd,f11bd19c7f,2025-02-05,0e12f98b,ensure cdict is properly reset to NULL,2,1,3,2,1,0,0,0,0,1,0,0,1,0,0,0,0,92,1,1,1,0,0,0,0,0
+zstd,7406d2b6eb,2025-02-05,0e12f98b,skips the need to create a temporary cdict for --patch-from,1,1,48,33,48,33,0,0,0,4,0,0,1,0,0,0,0,98,2,17,39,0,0,0,0,0
+zstd,220abe6da8,2025-02-05,0e12f98b,reduced memory usage,6,6,39,36,39,36,0,0,0,21,0,0,0,0,0,0,0,283,15,17,39,0,0,0,0,1
+zstd,85a44b233a,2025-02-05,0e12f98b,always free .cdictLocal,1,1,2,3,2,3,0,0,0,1,0,0,0,1,0,0,0,86,1,1,1,0,0,0,0,0
+zstd,e637fc64c5,2025-02-05,0e12f98b,update type naming convention,1,1,51,51,51,51,0,0,0,20,0,0,0,0,0,0,0,98,4,4,51,0,0,0,0,0
+zstd,34ba14437a,2025-02-05,0e12f98b,minor boundary change,3,1,13,13,1,1,0,0,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+zstd,ffa66a6971,2025-02-05,0e12f98b,fix speed of --patch-from at high compression mode,2,2,38,35,38,35,1,0,0,12,0,0,3,2,0,0,0,96,11,35,38,0,0,0,0,0
+zstd,e117d79e22,2025-02-05,0e12f98b,fix minor alignment warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+zstd,c39424ea87,2025-02-05,0e12f98b,fix minor alignment warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,74,1,1,1,0,0,0,0,0
+zstd,32dff04d32,2025-02-05,0e12f98b,fix one minor alignment warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,74,1,1,1,0,0,0,0,0
+zstd,54e9d46db4,2025-02-05,0e12f98b,added __clang__ to compiler-specific alignment attribute,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,bcf404c0ab,2025-02-05,0e12f98b,changed C11 keyword to _Alignas,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,60f84f73fe,2025-01-30,0e12f98b,bench: better result alignment,1,1,4,4,4,4,0,0,0,1,0,0,0,1,0,0,0,337,1,4,4,0,0,0,0,0
+zstd,0cda0100ea,2025-01-24,bf43eb20,fix formatting,1,1,92,95,92,95,1,0,0,5,0,0,0,0,0,0,0,23,0,0,92,0,0,0,0,0
+zstd,f7e8fc339b,2025-01-24,bf43eb20,Check `STATIC_BMI2` instead of `STATIC_BMI2 == 1`,2,2,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+zstd,0a183620a3,2025-01-24,bf43eb20,Reorder __BMI2__ check,1,1,3,5,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,d486ccc9e9,2025-01-24,bf43eb20,Update comment for STATIC_BMI2 macro,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,1b15e888fc,2025-01-24,bf43eb20,Move STATIC_BMI2 block as-is to portability_macros.h,2,2,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,1,0
+zstd,59afb28c97,2025-01-24,bf43eb20,Remove unused ZSTD_decompressSequences_t typedef,1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zstd,1204626138,2025-01-23,bf43eb20,Check `DYNAMIC_BMI2` instead of `DYNAMIC_BMI2 != 0`,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+zstd,a0872a8372,2025-01-21,bf43eb20,Implement ZSTD_ALIGNED for ms compiler,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,6c1d1cc600,2025-01-21,bf43eb20,Use _M_X64 only without mixing with _M_AMD64,3,3,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+zstd,82346b92bb,2025-01-19,0e12f98b,minor: generalize BitContainerType,2,2,19,19,19,19,0,0,0,11,0,0,0,0,0,0,0,9,0,0,18,0,0,0,0,0
+zstd,4bbf4a285d,2025-01-19,008f0635,enable DYNAMIC_BMI2 by default on x86 (32-bit mode),1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zstd,a556559841,2025-01-19,008f0635,no longer limit automated BMI2 detection to x64,2,1,9,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,27d7940631,2025-01-18,0e12f98b,"minor: cosmetic, indentation",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,f0b5f65bca,2025-01-18,0e12f98b,fixed minor static function declaration issue,1,1,5,4,5,4,1,0,0,2,0,0,0,0,0,0,0,74,1,1,5,0,0,0,0,0
+zstd,9efb09749b,2025-01-18,0e12f98b,added a CI test for x86 32-bit + avx2 combination,3,2,14,3,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+zstd,fcd684b9b4,2025-01-19,bf43eb20,update sizeof check,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+zstd,d60c4d75e9,2025-01-19,bf43eb20,remove unrelated changes,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+zstd,462484d5dc,2025-01-19,bf43eb20,change to BitContainerType,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+zstd,26e5fb3614,2025-01-18,bf43eb20,handle 32bit size_t when building for x64,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+zstd,936927a427,2025-01-18,bf43eb20,handle 32bit size_t when building for x64,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+zstd,e8de8085f4,2025-01-18,0e12f98b,minor: assert that state is not null,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,261,1,1,1,0,0,0,0,0
+zstd,ee17f4c6d2,2025-01-18,bf43eb20,Use _bzhi_u32 for 32-bit builds when building with STATIC_BMI2,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+zstd,46e17b805b,2025-01-18,bf43eb20,[asm] Enable x86_64 asm for windows builds,2,1,13,8,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,87f0a4fbe0,2025-01-15,008f0635,restore full equation,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,62,1,1,1,0,0,0,0,0
+zstd,8bff69af86,2025-01-15,008f0635,Alignment instruction ZSTD_ALIGNED() in common/compiler.h,2,2,15,12,15,12,0,0,0,1,0,0,0,0,0,0,0,36,0,0,10,0,0,0,0,0
+zstd,2f3ee8b530,2025-01-15,008f0635,changed code compilation test to employ ZSTD_ARCH_X86_AVX2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,debe3d20d9,2025-01-15,008f0635,removed unused branch,1,1,3,9,3,9,0,0,0,1,0,0,0,1,0,0,0,62,1,3,3,0,0,0,0,0
+zstd,6f8e6f3c97,2025-01-15,0e12f98b,create new compilation macro ZSTD_ARCH_X86_AVX2,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+zstd,e3181cfd32,2025-01-15,008f0635,minor code doc update,2,2,11,10,11,10,0,0,0,1,0,0,0,0,0,0,0,74,1,3,4,0,0,0,0,0
+zstd,aa2cdf964f,2025-01-15,008f0635,added compilation-time checks to ensure AVX2 code is valid,1,1,13,0,13,0,0,0,0,2,0,0,1,0,0,0,0,74,1,8,10,0,0,0,0,0
+zstd,57a4554192,2025-01-15,008f0635,removed unused variable,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0
+zstd,4aaf9cefe9,2025-01-15,008f0635,fix minor conversion warning,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,66,1,4,4,0,0,0,0,0
+zstd,db3d48823a,2025-01-15,008f0635,no need for specialized variant,1,1,1,15,1,15,0,0,0,1,1,1,0,0,0,2,0,67,1,1,1,0,0,0,0,0
+zstd,cd53924eff,2025-01-15,008f0635,removed erroneous #includes,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+zstd,ed0a8b8be1,2025-01-15,008f0635,AVX2 version of ZSTD_get1BlockSummary(),1,1,39,30,39,30,0,0,0,1,0,0,0,0,0,0,0,35,0,0,31,0,0,0,0,0
+zstd,b6a4d5a8ba,2025-01-15,008f0635,minor +10% speed improvement for scalar ZSTD_get1BlockSummary(),1,1,58,3,58,3,0,0,0,1,0,0,0,0,1,0,0,31,0,0,42,0,0,0,0,0
+zstd,8eb2587432,2025-01-15,008f0635,added benchmark for get1BlockSummary(),3,2,30,8,9,8,0,0,0,1,0,0,0,0,1,1,0,77,1,1,8,0,0,0,0,0
+zstd,8d62164589,2025-01-15,008f0635,control long length within AVX2 implementation,1,1,60,90,60,90,0,0,0,2,1,0,0,0,0,1,0,66,1,32,37,0,0,0,0,0
+zstd,d1f0e5fb97,2025-01-15,008f0635,fullbench can run a verification function,2,1,80,29,25,4,0,0,0,2,0,0,1,0,0,0,0,67,1,16,24,0,0,0,0,0
+zstd,886720442f,2025-01-15,008f0635,initial implementation (incomplete),2,1,249,17,248,16,0,0,0,1,1,0,0,0,5,0,0,7,0,0,135,0,0,0,0,0
+zstd,afff3d2cce,2025-01-13,0c8cdaa3,return error if block delimiter is not found,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,78,1,2,2,0,0,0,0,0
+zstd,e490be895c,2025-01-13,0c8cdaa3,fix out-of-bounds array index access,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,77,1,1,1,1,0,0,0,0
+zstd,f5dbdac818,2025-01-12,0e12f98b,fixed macro name typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,56500044c4,2025-01-12,008f0635,bench: nb threads specified with -v,1,1,11,4,11,4,0,0,0,1,0,0,1,0,0,0,0,619,1,11,11,0,1,0,0,0
+zstd,42d704ad5e,2025-01-10,bb1f8fd8,should check defined(_M_X64) not defined(_M_X86) when building with MSVC.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+zstd,d88651e604,2025-01-03,8004b8c0,Do not vary row matchfinder selection based on availability of SSE2/Neon,1,1,1,10,1,10,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+zstd,1548bfc349,2025-01-03,208ecb23,[opt] Fix too short of match getting generated,2,2,33,7,33,7,1,0,0,4,1,0,2,0,1,0,0,283,3,8,28,0,0,0,0,0
+zstd,dfb236b2aa,2025-01-02,8004b8c0,chore: indentation alignment,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zstd,6b046f5841,2025-01-02,8004b8c0,PR feedback,3,2,4,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,54c3d998a0,2025-01-02,8004b8c0,Support for libc variants without fseeko/ftello,4,2,25,3,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zstd,04a2a0219c,2024-12-29,008f0635,update type names,10,4,37,35,18,16,0,0,0,9,0,0,0,0,0,0,0,90,3,3,18,0,0,0,0,0
+zstd,a2ff6ea784,2024-12-29,008f0635,improve ZSTD_getFrameHeader on skippable frames,4,3,28,13,11,9,0,0,0,2,0,0,1,0,0,0,0,90,1,3,7,0,0,1,0,0
+zstd,f8a2b352d6,2024-12-29,008f0635,clarify doc on Frame-level methods when invoked on a skippable frame,2,1,35,22,23,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zstd,47cbfc87a9,2024-12-20,0e12f98b,restore invocation of ZSTD_entropyCompressSeqStore(),1,1,6,8,6,8,0,0,0,2,0,0,0,1,0,0,0,94,2,6,6,0,0,0,0,0
+zstd,522adc34eb,2024-12-20,0e12f98b,minor: use MEM_writeLE24(),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,77,1,2,2,0,0,0,0,0
+zstd,b7a9e69d8d,2024-12-20,0e12f98b,added parameter litCapacity,5,2,23,15,12,6,0,0,0,1,0,0,1,0,0,0,0,42,1,8,10,0,0,0,0,0
+zstd,76445bb379,2024-12-20,0e12f98b,"add a check, to return an error if Sequence validation is enabled",3,2,7,2,5,1,0,0,0,1,0,0,1,0,0,0,0,38,1,3,3,0,0,0,0,0
+zstd,ab0f1798e8,2024-12-20,0e12f98b,ensure that srcSize is controlled,3,1,68,38,52,37,0,0,0,3,0,1,1,0,1,1,0,77,3,26,48,0,0,0,0,0
+zstd,b339efff2b,2024-12-20,0e12f98b,add dedicated error code for special case,4,3,3,2,3,1,0,0,0,2,0,0,1,0,0,0,0,74,2,2,3,0,0,0,0,0
+zstd,0a54f6f288,2024-12-20,0e12f98b,ZSTD_compressSequencesAndLiterals requires srcSize as parameter,5,2,12,13,4,5,0,0,0,1,0,0,0,0,0,0,0,35,1,3,4,0,0,0,0,0
+zstd,b7b4e86347,2024-12-20,0e12f98b,fixed minor conversion warning,1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,35,1,1,1,0,0,0,0,0
+zstd,12c47d3262,2024-12-20,0e12f98b,improved speed of the Sequences converter,7,3,115,178,82,138,0,0,0,10,1,3,1,1,2,4,0,169,9,35,73,0,0,0,0,0
+zstd,95ad9e47ff,2024-12-20,0e12f98b,added benchmark for ZSTD_convertBlockSequences_wBlockDelim(),3,2,94,17,34,17,0,0,0,1,3,3,0,0,4,3,0,84,1,4,28,0,0,0,0,0
+zstd,d48e330ae1,2024-12-20,0e12f98b,change name to ZSTD_convertSequences*(),1,1,7,7,7,7,0,0,0,1,3,3,0,0,3,3,0,84,1,2,7,0,0,0,0,0
+zstd,31b5ef2539,2024-12-20,0e12f98b,ZSTD_compressSequencesAndLiterals() now supports multi-blocks frames.,3,2,23,24,22,23,0,0,0,4,0,0,1,1,0,0,0,84,4,15,16,0,0,0,0,0
+zstd,5164d44dab,2024-12-20,0e12f98b,change advanced parameter name: ZSTD_c_repcodeResolution,4,2,23,16,21,14,0,0,0,5,0,0,0,0,0,0,0,198,5,6,8,0,0,0,0,0
+zstd,ca8bd83373,2024-12-20,0e12f98b,minor: cleaner function parameter repcodeResolution,1,1,18,13,18,13,0,0,0,4,0,0,3,1,0,0,0,83,4,14,15,0,0,0,0,0
+zstd,d2d0fdac42,2024-12-20,0e12f98b,updated documentation on validateSequence,2,2,15,15,15,15,0,0,0,1,0,0,0,0,0,0,0,10,1,2,2,0,0,0,0,0
+zstd,1f6d6815c3,2024-12-20,0e12f98b,optimization: instantiate specialized version without Sequence checking code,1,1,41,11,41,11,0,0,0,2,2,0,1,1,2,0,0,81,2,16,38,0,0,0,0,0
+zstd,a288751de7,2024-12-20,0e12f98b,minor optimization: only track seqPos->posInSrc when validateSequences is enabled,1,1,22,15,22,15,0,0,0,2,0,0,1,0,0,0,0,80,2,16,16,0,0,0,0,0
+zstd,f176514467,2024-12-20,008f0635,minor doc update,2,1,12,8,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,1c8f5b0f11,2024-12-20,008f0635,minor optimization for ZSTD_compressSequencesAndLiterals(),1,1,5,6,5,6,0,0,0,2,0,0,1,0,0,0,0,29,1,1,5,0,0,0,0,0
+zstd,0a5c0807af,2024-12-20,008f0635,minor conversion warning fix,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,f281497aef,2024-12-20,008f0635,fullbench: new scenario: compressSequencesAndLiterals(),2,1,60,2,1,1,0,0,0,1,0,0,0,0,0,0,0,78,1,1,1,0,0,0,0,0
+zstd,8ab04097ed,2024-12-20,0e12f98b,add the compressSequences() benchmark scenario,4,3,52,16,4,12,0,0,0,2,0,0,0,0,0,0,0,39,1,1,2,0,0,0,0,0
+zstd,0b013b2688,2024-12-20,0e12f98b,added unit tests to ZSTD_compressSequencesAndLiterals(),4,2,122,11,18,8,0,0,0,2,0,0,2,0,0,0,0,78,2,13,14,0,0,0,0,0
+zstd,14a21e43b3,2024-12-20,0e12f98b,produced ZSTD_compressSequencesAndLiterals() as a separate pipeline,3,2,254,8,247,5,0,0,0,1,3,0,1,0,3,0,0,48,1,4,187,0,0,0,0,0
+zstd,bcb15091aa,2024-12-20,0e12f98b,minor: more accurate variable scope,1,1,11,7,11,7,0,0,0,2,0,0,1,0,0,0,0,96,2,8,8,0,0,0,0,0
+zstd,047db4f1f8,2024-12-20,0e12f98b,ZSTD_SequenceCopier_f no returns the nb of bytes consumed from input,3,2,30,29,28,27,0,0,0,4,0,0,3,0,0,0,0,101,4,17,19,0,0,0,0,0
+zstd,4ef9d7d585,2024-12-20,0e12f98b,codemod: ZSTD_cParamMode_e -> ZSTD_CParamMode_e,3,2,29,21,26,18,0,0,0,10,0,0,0,0,0,0,0,88,2,2,19,0,0,0,0,0
+zstd,56cfb7816a,2024-12-20,0e12f98b,codemod: ZSTD_paramSwitch_e -> ZSTD_ParamSwitch_e,12,10,71,61,69,59,0,0,0,23,0,0,0,0,0,0,0,612,13,23,56,0,0,0,0,0
+zstd,13b9296d79,2024-12-20,0e12f98b,minor simplification,3,2,34,32,19,20,0,0,0,1,0,0,1,0,0,1,0,19,1,6,14,0,0,0,0,1
+zstd,e0f3aaee46,2024-12-20,0e12f98b,doc: add mention of frame checksum incompatibility,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,08edecb78c,2024-12-20,0e12f98b,codemod: ZSTD_blockCompressor -> ZSTD_BlockCompressor_f,3,3,9,9,9,9,0,0,0,3,0,0,0,0,0,0,0,131,3,7,9,0,0,0,0,0
+zstd,25bef24c5c,2024-12-20,0e12f98b,codemod: rawSeqStore_t -> RawSeqStore_t,6,6,25,25,25,25,0,0,0,15,0,0,0,0,0,0,0,131,4,4,25,0,0,0,0,0
+zstd,41c667c0fd,2024-12-20,0e12f98b,codemod: repcodes_t -> Repcodes_t,4,4,46,44,46,44,0,0,0,9,1,1,0,0,1,1,0,281,6,24,38,0,0,0,0,0
+zstd,5df80acedb,2024-12-20,0e12f98b,codemod: ZSTD_matchState_t -> ZSTD_MatchState_t,12,12,182,182,182,182,0,0,0,103,1,1,0,0,1,1,0,281,34,44,180,0,0,0,0,0
+zstd,fa468944f2,2024-12-20,0e12f98b,codemod: ZSTD_buildSeqStore_e -> ZSTD_BuildSeqStore_e,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,30671d77af,2024-12-20,0e12f98b,codemod: ZSTD_sequencePosition -> ZSTD_SequencePosition,2,2,32,28,32,28,0,0,0,8,0,0,2,0,0,0,0,169,7,20,28,0,0,0,0,0
+zstd,5359d16d8d,2024-12-20,0e12f98b,enable proper type,1,1,6,6,6,6,0,0,0,4,0,0,0,0,0,0,0,74,3,5,6,0,0,0,0,0
+zstd,03d95f9d13,2024-12-20,0e12f98b,fix proper type for .forceNonContiguous,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,76dd3a98c4,2024-12-20,0e12f98b,scope: ZSTD_copySequencesToSeqStore*() are private to ZSTD_compress.c,2,2,32,36,32,36,0,0,0,1,0,0,0,0,0,0,0,14,0,0,15,0,0,0,1,0
+zstd,1ac79ba1b6,2024-12-20,0e12f98b,minor: simplify ZSTD_selectSequenceCopier,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,1
+zstd,894ea31281,2024-12-20,0e12f98b,codemod: ZSTD_sequenceCopier -> ZSTD_SequenceCopier_f,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,95,1,1,4,0,0,0,0,0
+zstd,c97522f7fb,2024-12-20,0e12f98b,codemod: ZSTD_sequenceFormat_e -> ZSTD_SequenceFormat_e,6,3,19,16,12,9,0,0,0,4,0,0,1,0,0,0,0,198,3,7,12,0,0,0,0,0
+zstd,0165eeb441,2024-12-20,0e12f98b,created ZSTD_entropyCompressSeqStore_wExtLitBuffer(),1,1,47,24,47,24,0,0,0,5,1,0,0,1,1,0,0,83,4,23,30,0,0,0,0,0
+zstd,e9f8a119b4,2024-12-20,0e12f98b,ZSTD_entropyCompressSeqStore_internal() can accept an externally defined literals buffer,1,1,7,8,7,8,0,0,0,2,0,0,1,1,0,0,0,95,2,6,7,0,0,0,0,0
+zstd,0442e43aca,2024-12-20,0e12f98b,codemod: ZSTD_defaultPolicy_e -> ZSTD_DefaultPolicy_e,3,3,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,112,2,2,4,0,0,0,0,0
+zstd,477a01067f,2024-12-20,0e12f98b,codemod: symbolEncodingType_e -> SymbolEncodingType_e,10,8,27,27,25,25,0,0,0,10,0,0,0,0,0,0,0,189,10,16,25,0,0,0,0,0
+zstd,8d4506bc94,2024-12-20,0e12f98b,codemod: ZSTD_sequenceLength -> ZSTD_SequenceLength,2,2,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,22,0,0,4,0,0,0,0,0
+zstd,a2245721ca,2024-12-20,0e12f98b,codemod: seqStore_t -> SeqStore_t,21,20,156,156,152,152,0,0,0,79,0,0,0,0,0,0,0,281,21,23,149,0,0,0,0,0
+zstd,9671813375,2024-12-20,0e12f98b,codemod: seqDef -> SeqDef,7,6,31,31,29,29,0,0,0,20,0,0,0,0,0,0,0,156,13,16,29,0,0,0,0,0
+zstd,b4a40a845f,2024-12-20,0e12f98b,move Sequences definition to zstd_compress_internal.h,6,4,187,62,66,61,0,0,0,1,0,0,0,0,1,1,0,93,1,1,46,0,0,0,1,0
+zstd,a00f45a037,2024-12-20,0e12f98b,created ZSTD_storeSeqOnly(),2,2,53,24,53,24,0,0,0,3,0,0,1,2,1,0,0,100,3,34,37,0,0,0,0,0
+zstd,125f05282b,2024-12-20,0e12f98b,publish new symbol ZSTD_compressSequencesAndLiterals(),2,2,15,2,15,2,0,0,0,1,0,0,0,1,0,0,0,21,1,0,4,0,0,0,0,0
+zstd,8f49db5a02,2024-12-19,8004b8c0,"Revert ""Remove unnecessary extern C declarations from xxhash.h""",1,1,90,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,1,0
+zstd,c7af0428c6,2024-12-19,8004b8c0,Oopsie with fileio_common.h,1,1,1,7,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,10b9d81909,2024-12-19,8004b8c0,Remove unnecessary extern C declarations from xxhash.h,1,1,0,90,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zstd,c727d5cd67,2024-12-19,8004b8c0,Remove unnecessary extern C declarations from programs/ and contrib/,9,7,8,58,8,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0
+zstd,d0d5ce4c00,2024-12-19,8004b8c0,Remove extern C blocks from lib/* internal APIs (except xxhash.h),17,17,0,163,0,163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zstd,d51e6072a8,2024-12-19,8004b8c0,Test: remove extern C from some lib/common files,2,2,0,24,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zstd,a7bb6d6c49,2024-12-18,8004b8c0,Oopsie with xxhash.h [1/?],1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,07ffcc6b65,2024-12-18,8004b8c0,Separate xxhash includes from extern C blocks,1,1,91,17,91,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,0,0,1,0,0
+zstd,f25b9f11ba,2024-12-18,8004b8c0,Oopsie with zdict.h,1,1,10,3,10,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zstd,63acf9a995,2024-12-18,8004b8c0,"Oopsie with huf.h, debug.h",2,2,3,11,3,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,58a7f4b869,2024-12-17,8004b8c0,Oopsie with threading.h,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+zstd,fa5bfb6030,2024-12-17,8004b8c0,Oopsie with zstd.h,1,1,10,2,10,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zstd,ded4c1ec18,2024-12-17,8004b8c0,Oopsie with util.h,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,5222dd87cf,2024-12-17,8004b8c0,Oopsie with fse.h,1,1,11,10,11,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+zstd,fc726da774,2024-12-17,8004b8c0,"Move #includes out of `extern ""C""` blocks",27,26,135,121,132,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,0,0,1,1,0
+zstd,50ca9984ad,2024-12-14,008f0635,minor: more accurate parameter,1,1,13,12,13,12,0,0,0,4,0,0,0,0,0,0,0,127,1,4,11,0,0,0,0,0
+zstd,17beeb5d1a,2024-12-12,0b9aa5a7,Change CLI to employ multithreading by default (#4211),3,2,39,33,35,32,0,0,0,1,0,0,1,0,1,1,0,612,1,10,27,0,1,0,0,0
+zstd,5e0a83ec25,2024-12-04,ff343b6e,Disallow 32-bit mode in clang section,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,97,1,1,1,0,0,0,0,0
+zstd,fcf88ae39b,2024-11-26,c326dcd6,Fix new typos found by codespell,2,1,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,10beb7cb53,2024-11-24,1bde7877,Fix typo in ZSTD_compressBound docs,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,194062a4e7,2024-11-20,2bf8875e,Fix printing of filesize if >4GB,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+zstd,b3035b36c6,2024-11-05,008f0635,blind fix for QNX,1,1,6,8,6,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zstd,2e02cd330d,2024-10-31,0e12f98b,inform manual users that it's automatically generated,3,1,37,15,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,d9553fd218,2024-10-31,0e12f98b,elevated ZSTD_getErrorCode() to stable status,3,2,109,92,27,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+zstd,bbaba45589,2024-10-31,0e12f98b,change experimental parameter name,4,2,44,36,35,28,0,0,0,5,0,0,0,0,0,0,0,198,5,6,9,0,0,0,0,0
+zstd,4f93206d62,2024-10-29,0e12f98b,changed variable name to ZSTD_c_blockSplitterLevel,3,2,11,11,9,9,0,0,0,5,0,0,0,0,0,0,0,198,5,6,7,0,0,0,1,0
+zstd,fcbf6b014a,2024-10-28,0e12f98b,fixed minor conversion warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+zstd,37706a677c,2024-10-28,0e12f98b,added a test,3,2,69,2,6,2,0,0,0,3,0,0,1,0,0,0,0,132,2,5,6,0,0,0,0,0
+zstd,226ae73311,2024-10-28,0e12f98b,expose new parameter ZSTD_c_blockSplitter_level,2,2,36,2,36,2,0,0,0,5,0,0,5,0,0,0,0,198,5,12,16,0,0,0,1,0
+zstd,01474bf73b,2024-10-28,0e12f98b,add internal compression parameter preBlockSplitter_level,2,2,48,24,48,24,0,0,0,10,0,0,2,0,0,0,0,194,7,23,32,0,0,0,1,0
+zstd,5b4ce643f0,2024-10-25,0e12f98b,update ZSTD_splitBlock() documentation,1,1,9,7,9,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+zstd,e557abc8a0,2024-10-25,0e12f98b,new block splitting variant _fromBorders,4,4,71,21,71,21,0,0,0,2,0,0,0,1,2,0,0,9,1,2,47,0,0,0,1,0
+zstd,da2c0dffd8,2024-10-24,0e12f98b,"add faster block splitting heuristic, suitable for dfast strategy",3,3,22,15,22,15,0,0,0,4,0,0,1,0,0,0,0,33,1,5,17,0,0,0,1,0
+zstd,2366a87ddc,2024-10-24,0e12f98b,fix minor visual conversion warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+zstd,326c45bb8e,2024-10-24,0e12f98b,complete sample11 with reduced fingerprint size,1,1,33,31,33,31,0,0,0,7,0,0,0,0,0,0,0,33,0,0,33,0,0,0,0,1
+zstd,ca6e55cbf5,2024-10-24,0e12f98b,reduce splitBlock arguments,3,3,17,18,17,18,0,0,0,3,0,2,0,0,0,0,0,28,3,15,17,0,0,0,1,1
+zstd,94d7b07425,2024-10-24,0e12f98b,organize specialization at recordFingerprint level,1,1,24,22,24,22,0,0,0,3,0,0,0,0,1,1,0,29,2,6,24,0,0,0,0,0
+zstd,566763fdc9,2024-10-24,0e12f98b,"new variant, sampling by 11",3,3,10,4,10,4,0,0,0,2,0,0,2,0,0,0,0,13,2,7,9,0,0,0,0,0
+zstd,90095f056d,2024-10-24,0e12f98b,apply limit conditions for all splitting strategies,1,1,21,17,21,17,0,0,0,2,0,0,1,1,0,0,0,69,2,3,3,0,0,0,1,0
+zstd,c80645a055,2024-10-23,0e12f98b,stricter limits to ensure expansion factor with blind-split strategy,1,1,17,3,17,3,0,0,0,2,0,0,0,1,0,0,0,70,2,2,2,0,0,0,1,0
+zstd,7d3e5e3ba1,2024-10-23,0e12f98b,split all full 128 KB blocks,1,1,6,5,6,5,0,0,0,1,0,0,0,0,0,0,0,10,1,1,1,0,0,0,1,0
+zstd,b68ddce818,2024-10-23,0e12f98b,rewrite fingerprint storage to no longer need 64-bit members,2,2,13,13,13,13,0,0,0,7,0,0,0,0,0,0,0,132,3,3,13,0,0,0,0,0
+zstd,57239c4d3b,2024-10-23,008f0635,fixed minor strict pedantic C90 issue,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,18b1e67223,2024-10-23,0e12f98b,fixed extraneous return,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,0be334d208,2024-10-23,0e12f98b,fixes static state allocation check,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+zstd,06b7cfabf8,2024-10-23,0e12f98b,rewrote ZSTD_cwksp_initialAllocStart() to be easier to read,1,1,7,2,7,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,0
+zstd,16450d0732,2024-10-23,0e12f98b,rewrite penalty update,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,29,1,1,1,0,0,0,0,0
+zstd,1ec5f9f1f6,2024-10-23,0e12f98b,changed loop exit condition so that there is no need to assert() within the loop.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,29,1,2,2,0,0,0,0,0
+zstd,4662f6e646,2024-10-23,0e12f98b,renamed: FingerPrint => Fingerprint,1,1,12,12,12,12,0,0,0,6,0,0,0,0,0,0,0,12,0,0,12,0,0,0,0,0
+zstd,ea85dc7af6,2024-10-23,0e12f98b,conservatively estimate over-splitting in presence of incompressible loss,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,70,1,1,1,0,0,0,1,0
+zstd,5ae34e4c96,2024-10-23,0e12f98b,ensure `lastBlock` is correctly determined,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,69,1,1,1,0,0,0,0,0
+zstd,7bad787d8b,2024-10-23,0e12f98b,made ZSTD_isPower2() an inline function,2,2,8,4,8,4,0,0,0,3,0,0,0,0,1,0,0,10,0,0,6,0,0,0,0,0
+zstd,a167571db5,2024-10-23,0e12f98b,added a faster block splitter variant,3,3,46,16,46,16,0,0,0,2,2,0,1,0,3,2,0,10,1,4,38,0,0,0,1,0
+zstd,1c62e714ab,2024-10-23,0e12f98b,minor split optimization,2,2,9,5,9,5,0,0,0,2,0,0,0,0,0,0,0,30,0,0,5,0,0,0,1,0
+zstd,4ce91cbf2b,2024-10-23,008f0635,fixed workspace alignment on non 64-bit systems,3,3,34,27,34,27,1,0,0,8,0,0,0,0,1,1,0,132,2,11,31,0,0,0,0,0
+zstd,cae8d13294,2024-10-23,0e12f98b,splitter workspace is now provided by ZSTD_CCtx*,4,4,60,44,60,44,0,0,0,15,0,0,1,1,2,0,0,132,9,23,49,0,0,0,1,0
+zstd,4685eafa81,2024-10-23,0e12f98b,fix alignment test,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0
+zstd,73a6653653,2024-10-23,0e12f98b,ZSTD_splitBlock_4k() uses externally provided workspace,3,3,37,23,37,23,0,0,0,5,1,0,0,0,0,0,0,69,2,5,31,0,0,0,1,0
+zstd,31d48e9ffa,2024-10-23,0e12f98b,fixing minor formatting issue in 32-bit mode with logs enabled,3,3,12,12,12,12,1,0,0,3,0,0,0,0,0,0,0,281,2,10,12,0,0,0,0,0
+zstd,6dc52122e6,2024-10-23,0e12f98b,fixed c90 comment style,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,20c3d176cd,2024-10-23,0e12f98b,fix assert,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+zstd,0d4b520657,2024-10-23,0e12f98b,only split full blocks,1,1,7,2,7,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,1,0
+zstd,dd38c677eb,2024-10-23,0e12f98b,fixed single-library build,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,8b3887f579,2024-10-23,0e12f98b,fixed kernel build,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,f83ed087f6,2024-10-23,0e12f98b,fixed RLE detection test,2,1,16,13,5,5,1,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+zstd,83a3402a92,2024-10-23,0e12f98b,fix overlap write scenario in presence of incompressible data,1,1,11,5,11,5,1,0,0,3,0,0,1,0,0,0,0,69,1,3,7,0,0,0,0,0
+zstd,fa147cbb4d,2024-10-23,0e12f98b,more ZSTD_memset() to apply,1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+zstd,6021b6663a,2024-10-23,0e12f98b,minor C++-ism,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+zstd,e2d7d08888,2024-10-23,0e12f98b,use ZSTD_memset(),1,1,27,23,27,23,0,0,0,4,0,0,0,0,0,0,0,11,0,0,27,0,0,0,0,0
+zstd,586ca96fec,2024-10-23,0e12f98b,do not use `new` as variable name,1,1,6,6,6,6,0,0,0,2,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+zstd,9e52789962,2024-10-23,0e12f98b,fixed strict C90 semantic,1,1,31,25,31,25,1,0,0,6,0,0,0,0,0,0,0,12,0,0,31,0,0,0,0,0
+zstd,a5bce4ae84,2024-10-23,0e12f98b,XP: add a pre-splitter,3,3,188,8,188,8,0,0,0,4,0,0,3,0,12,0,0,194,4,11,135,0,0,0,1,0
+zstd,f34bc9cee6,2024-10-23,008f0635,improve man page on benchmark mode,4,1,168,294,1,0,0,0,0,1,0,0,1,0,0,0,0,605,1,1,1,0,0,0,0,0
+zstd,0079d515b1,2024-10-22,008f0635,Modify benchmark to only load sources once,3,3,57,56,57,56,0,0,0,4,2,1,0,2,1,1,0,604,4,32,53,0,0,0,0,0
+zstd,47d4f5662d,2024-10-17,0e12f98b,rewrite code in the manner suggested by @terrelln,1,1,11,13,11,13,0,0,0,1,0,0,0,1,0,0,0,144,1,10,10,0,0,0,0,0
+zstd,6326775166,2024-10-17,0e12f98b,slightly improved compression ratio at levels 3 & 4,1,1,13,9,13,9,0,0,0,1,0,0,1,0,0,0,0,146,1,9,9,0,0,0,0,0
+zstd,c2abfc5ba4,2024-10-15,0e12f98b,minor improvement to level 3 dictionary compression ratio,1,1,20,25,20,25,0,0,0,2,0,0,0,2,0,0,0,175,2,18,18,0,0,0,0,0
+zstd,e63896eb58,2024-10-15,0e12f98b,small dictionary compression speed improvement,1,1,2,2,2,2,0,0,0,1,0,0,0,1,0,0,0,154,1,1,1,0,0,0,0,0
+zstd,8e5823b65c,2024-10-11,0e12f98b,rename variable name,1,1,5,10,5,10,0,0,0,2,0,0,0,0,0,0,0,139,1,3,4,0,0,0,0,0
+zstd,83de00316c,2024-10-11,0e12f98b,fixed parameter ordering in `dfast`,1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,145,2,3,3,0,0,0,0,0
+zstd,fa1fcb08ab,2024-10-10,008f0635,minor: better variable naming,1,1,14,14,14,14,0,0,0,3,0,0,0,0,0,0,0,139,1,7,13,0,0,0,0,0
+zstd,d45aee43f4,2024-10-08,008f0635,make __asm__ a __GNUC__ specific,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+zstd,741b860fc1,2024-10-08,008f0635,store dummy bytes within ZSTD_match4Found_cmov(),1,1,12,11,12,11,0,0,0,3,0,0,0,1,0,0,0,139,1,2,8,0,0,0,0,0
+zstd,197c258a79,2024-10-08,008f0635,introduce memory barrier to force test order,1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+zstd,186b132495,2024-10-08,008f0635,made search strategy switchable,2,2,47,37,47,37,0,0,0,4,0,0,1,0,2,1,0,140,1,4,30,0,0,0,0,0
+zstd,2cc600bab2,2024-10-08,008f0635,refactor search into an inline function,2,2,48,49,48,49,0,0,0,3,0,0,0,1,1,0,0,140,1,10,23,0,0,0,0,1
+zstd,1e7fa242f4,2024-10-07,008f0635,minor refactor zstd_fast,2,2,36,39,36,39,0,0,0,3,0,0,0,1,0,0,0,154,2,14,17,0,0,0,0,1
+zstd,8edd147686,2024-10-01,008f0635,fix missing fclose(),1,1,21,16,21,16,1,0,0,1,0,0,1,0,0,0,0,56,1,19,19,0,0,0,0,0
+zstd,039f404faa,2024-09-25,0e12f98b,update documentation to specify that Dictionary can be used for benchmark,2,1,5,1,1,1,0,0,0,1,0,0,1,0,0,0,0,95,1,1,1,0,0,0,0,0
+zstd,e8fce38954,2024-09-20,16cf81da,Optimize compression by avoiding unpredictable branches,3,3,61,25,61,25,0,0,0,2,0,0,1,1,1,0,0,147,2,22,35,0,0,0,0,0
+zstd,7a48dc230c,2024-09-19,0e12f98b,fix doc nit: ZDICT_DICTSIZE_MIN,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,09cb37cbb1,2024-08-21,0e12f98b,Limit range of operations on Indexes in 32-bit mode,1,1,9,7,9,7,0,0,0,1,0,0,0,0,0,0,0,33,0,0,4,0,0,0,0,0
+zstd,a40bad8ec0,2024-08-06,626d74d9,[zstd][leak] Avoid memory leak on early return of ZSTD_generateSequence,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0
+zstd,6dbd49bcd0,2024-08-06,626d74d9,[riscv] Enable support for weak symbols,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,14b8d398fd,2024-08-06,0e12f98b,fix c90 comment style,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,89451cafbd,2024-08-06,0e12f98b,formatString_u() can display numbers > 100,1,1,36,27,36,27,0,0,0,1,0,1,0,0,2,0,0,28,1,9,29,0,0,0,0,0
+zstd,cb784edf5d,2024-07-30,0e12f98b,added android-ndk-build,3,2,42,4,5,4,0,0,0,3,0,0,0,0,0,0,0,32,0,0,5,0,0,0,0,0
+zstd,c3c28c4d5a,2024-07-29,626d74d9,[zstd][android] Fix build with NDK r27,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,345bcb5ff7,2024-07-01,626d74d9,[zstd][dict] Ensure that dictionary training functions are fully reentrant,2,2,72,19,72,19,0,1,0,0,0,7,0,0,0,26,0,0,0,0,55,0,1,0,0,0
+zstd,0938308ff6,2024-06-20,27989113,Throw error if Huffman weight initial states are truncated,4,1,26,0,2,0,0,0,0,1,0,0,1,0,0,0,0,44,1,1,1,0,0,0,0,0
+zstd,44e83e9180,2024-06-20,c326dcd6,Fix typos not found by codespell,7,5,9,9,6,6,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+zstd,2d736d9c50,2024-06-20,c326dcd6,Fix new typos found by codespell,4,2,6,6,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,2acf90431a,2024-06-03,0e12f98b,minor:doc: specify decompression behavior in presence of multiple concatenated frames,1,1,31,28,31,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,5e9a6c2fe4,2024-05-29,7c3b4091,Refactor dictionary matchfinder index safety check (#4039),5,5,24,18,24,18,0,0,0,7,0,0,0,1,1,0,0,214,7,17,20,0,0,0,0,1
+zstd,4c6a519fdd,2024-05-26,bea63eb3,[fix] Add newline when file exceeds 128KB,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+zstd,1872688e0a,2024-05-17,626d74d9,[fix] Add check on failed allocation in legacy/zstd_v06,1,1,4,0,4,0,1,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+zstd,5fadd8e6b1,2024-05-15,aea4d5ef,revert FSE_readNCount_body attribute,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,2955d92ac0,2024-05-14,aea4d5ef,Improve support for IAR compiler with attributes and intrinsics,5,5,25,5,25,5,0,0,0,6,0,0,0,0,0,0,0,23,0,0,25,0,0,0,0,0
+zstd,97291fc502,2024-04-29,f993bdda,Increase x-compatibility,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zstd,d7cb47036c,2024-04-29,f993bdda,Make zstd.h compatible with -Wzero-as-null-pointer-constant,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,a86f5f3f33,2024-04-23,0e12f98b,update documentation of ZSTD_decompressStream(),1,1,12,6,12,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,75d0f66c87,2024-04-13,f60c4043,reverted the addition of free at the gz_init(),1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0
+zstd,01cea2e1e2,2024-04-13,f60c4043,fixed ISO C incompatibility for good this time... probably,3,2,3,3,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+zstd,4f41631aa4,2024-04-13,f60c4043,fixed ISO C incompatibility,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,112,1,1,1,0,0,0,0,0
+zstd,1d5e9705db,2024-04-13,f60c4043,fixed memory leaks and almost all undefined behaviour,10,4,19,10,5,3,1,0,0,4,0,0,0,0,0,0,0,112,1,1,4,0,0,0,0,0
+zstd,71def59890,2024-04-07,c3aec662,Fix zlibWrapper build,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,47,1,1,1,0,0,0,0,0
+zstd,a2f145f059,2024-04-01,0e12f98b,decompression errors always display the full origin filename,2,2,11,18,11,18,0,0,0,3,0,0,0,2,0,0,0,185,2,10,11,0,0,0,0,0
+zstd,72c16b187d,2024-04-01,0a753278,Fix building on windows-x86 if clang already includes,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,97,1,1,1,0,0,1,0,0
+zstd,731f4b70fc,2024-03-21,f57476b0,Fix & fuzz ZSTD_generateSequences,8,3,231,56,110,54,1,0,0,8,0,0,3,0,0,0,0,63,4,52,77,0,0,0,0,0
+zstd,741b87bbe1,2024-03-20,9e480495,Fuzzing and bugfixes for magicless-format decoding (#3976),6,1,163,4,5,3,0,0,0,3,0,0,3,0,0,0,0,260,3,5,5,0,0,0,0,0
+zstd,6f1215b874,2024-03-18,0e12f98b,fix ZSTD_TARGETCBLOCKSIZE_MIN test,1,1,9,7,9,7,1,0,0,1,0,0,1,0,0,0,0,193,1,9,9,0,0,0,0,0
+zstd,c5da438dc0,2024-03-18,0e12f98b,fix typo,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,902c7ec1fe,2024-03-18,0e12f98b,add doc on CCtx UB state,1,1,8,3,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,5d82c2b57c,2024-03-18,0e12f98b,add a paragraph on UB DCtx state after error,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,f5728da365,2024-03-18,0e12f98b,update targetCBlockSize documentation,2,2,22,20,22,20,0,0,0,1,0,0,0,0,0,0,0,156,1,1,3,0,0,0,0,0
+zstd,7d970bd83c,2024-03-18,9e480495,Implement one-shot fallback for magicless format (#3971),2,1,48,9,13,9,0,0,0,5,0,0,1,0,1,0,0,259,2,5,12,0,0,0,0,0
+zstd,686e7e4b4b,2024-03-14,0e12f98b,updated version to v1.5.6,5,1,22,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,559762da12,2024-03-14,9e480495,Remove duplicate and incorrect docs in zstd_decompress.c (#3967),1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+zstd,9cc3304614,2024-03-14,0e12f98b,add line number to debug traces,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0
+zstd,3613448fb8,2024-03-13,88652a84,Promote `ZSTD_c_targetCBlockSize` Parameter to Stable API,1,1,11,7,11,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,86b8e39a84,2024-03-13,88652a84,Remove Erroneous Exclusion of Hidden Files and Folders in `--output-dir-mirror`,1,1,0,3,0,3,0,0,0,1,0,0,0,0,0,0,0,20,0,0,0,0,0,0,1,0
+zstd,d6ee2d5d24,2024-03-13,88652a84,Use `utimensat()` on FreeBSD,1,1,20,5,20,5,0,0,0,1,0,0,0,0,0,0,0,19,0,0,14,0,0,0,0,0
+zstd,c8ab027227,2024-03-13,0e12f98b,"reduce the amount of includes in ""cover.h""",3,3,17,19,17,19,0,0,0,4,0,0,1,0,0,0,0,71,2,4,17,0,0,1,0,1
+zstd,94c102038b,2024-03-13,f57476b0,[cpu] Backport fix for rbx clobbering on Windows with Clang,1,1,36,0,36,0,1,0,0,1,0,0,1,0,0,0,0,97,1,31,31,0,0,0,0,0
+zstd,b20703f273,2024-03-12,990468ae,Updates `ZSTD_RowFindBestMatch` comment (#3947),1,1,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,f65b9e27ce,2024-03-12,9e480495,Exercise ZSTD_findDecompressedSize() in the simple decompression fuzzer (#3959),3,1,25,1,9,0,0,0,0,1,0,0,1,0,0,0,0,79,1,8,8,0,0,0,0,0
+zstd,83ec3d0164,2024-03-12,0e12f98b,no longer truncate file name in verbose mode,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,59,1,2,2,0,0,0,0,0
+zstd,5a66afa051,2024-03-12,0b9aa5a7,Add common file extensions to --exclude-compressed (#3951),3,1,119,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,104,0,0,0,0,0
+zstd,e0872806df,2024-03-12,9e480495,Use ZSTD_LEGACY_SUPPORT=5 in make test (#3943),3,2,22,13,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zstd,edab9eed66,2024-03-11,990468ae,Fix AsyncIO reading seed queueing (#3940),1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,1,0,0,0
+zstd,f99a450ca4,2024-03-11,88652a84,Stop Hardcoding the POSIX Version on BSDs,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,fbd9e628ae,2024-03-11,0e12f98b,added tests,2,1,31,11,1,9,0,0,0,1,0,0,0,1,0,0,0,608,1,1,1,0,0,0,0,0
+zstd,c610a01d7d,2024-03-11,0e12f98b,fix #3719,2,1,17,7,12,4,1,0,0,1,0,0,1,0,0,0,0,614,1,8,8,0,0,0,0,0
+zstd,a9fb8d4c41,2024-03-08,0e12f98b,new method to deal with offset==0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,86,1,1,1,0,0,0,0,0
+zstd,aed172a8fe,2024-03-08,0e12f98b,minor: fix incorrect debug level,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,156,1,3,3,0,0,0,0,0
+zstd,007cda88ca,2024-03-07,0e12f98b,prevent XXH64 from being autovectorized by XXH512 by default,1,1,17,0,17,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+zstd,8d31e8ec42,2024-02-26,0e12f98b,sizeBlockSequences() also tracks uncompressed size,1,1,13,5,13,5,0,0,0,1,0,0,1,0,0,0,0,21,1,9,9,0,0,0,0,0
+zstd,d23b95d21d,2024-02-26,0e12f98b,minor refactor for clarity,1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,156,1,4,4,0,0,0,0,1
+zstd,86db60752d,2024-02-26,0e12f98b,optimization: bail out faster in presence of incompressible data,1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,154,1,1,1,0,0,0,0,0
+zstd,ef82b214ad,2024-02-26,0e12f98b,nit: comment indentation,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,aa8592c532,2024-02-26,0e12f98b,minor: reformulate nbSubBlocks assignment,1,1,2,3,2,3,0,0,0,1,0,0,0,1,0,0,0,153,1,1,2,0,0,0,0,0
+zstd,e0412c2062,2024-02-26,0e12f98b,fix extraneous semicolon ';',1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,1,1,1,0,0,0,0,0
+zstd,1fafd0c4ae,2024-02-25,0e12f98b,fix minor visual static analyzer warning,1,1,47,53,47,53,1,0,0,1,0,0,0,1,0,0,0,154,1,41,41,0,0,0,0,0
+zstd,038a8a906b,2024-02-25,0e12f98b,targetCBlockSize: modified splitting strategy to generate blocks of more regular size,1,1,119,47,119,47,0,0,0,3,1,0,2,0,1,0,0,161,2,71,95,0,0,0,1,0
+zstd,4d2bf7f0f2,2024-02-24,0e12f98b,removed sprintf usage from zstdcli.c,1,1,6,5,6,5,0,0,0,2,0,0,1,0,0,0,0,608,1,5,6,0,0,0,0,0
+zstd,f8372191f5,2024-02-24,0e12f98b,reduced minimum compressed block size,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,126,2,4,4,0,0,0,0,1
+zstd,f77f634d41,2024-02-24,0e12f98b,update API documentation,2,1,48,27,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+zstd,4b51526412,2024-02-24,0e12f98b,fix partial block uncompressed,3,3,73,62,73,62,1,0,0,4,0,0,2,0,0,0,0,126,2,52,67,0,0,0,0,0
+zstd,6719794379,2024-02-23,0e12f98b,fixed some regressionTests,2,1,14,11,8,5,1,0,0,2,0,0,2,0,0,0,0,120,2,8,8,0,0,0,0,0
+zstd,0591e7eea1,2024-02-23,0e12f98b,minor: fix overly cautious conversion warning,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+zstd,3b40100058,2024-02-23,0e12f98b,fix long sequences (> 64 KB),2,1,9,6,8,5,1,0,0,4,0,0,1,0,0,0,0,118,2,4,8,0,0,0,0,0
+zstd,6b11fc436c,2024-02-23,0e12f98b,fix issue with incompressible sections,2,1,60,35,58,33,1,0,0,2,0,0,1,0,0,0,0,118,1,50,51,0,0,0,0,0
+zstd,cc4530924b,2024-02-23,0e12f98b,speed optimized version of targetCBlockSize,2,1,58,59,54,58,0,0,0,4,0,0,0,1,1,0,0,97,4,36,45,0,0,0,0,0
+zstd,68a232c591,2024-02-23,0e12f98b,benchmark more can test targetCBlockSize,4,3,9,0,5,0,0,0,0,3,0,0,2,0,0,0,0,607,2,3,5,0,0,0,0,0
+zstd,7170f51dd2,2024-02-20,008f0635,fix include order,1,1,4,2,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+zstd,e62e15df19,2024-02-20,008f0635,fix clangbuild,2,2,5,48,5,48,1,0,0,1,0,0,0,0,0,0,0,40,1,5,5,0,0,0,0,0
+zstd,588dfbcc97,2024-02-20,008f0635,fix c89 compatibility by removing snprintf(),1,1,54,3,54,3,1,0,0,2,1,0,0,0,1,0,0,126,1,1,43,0,0,0,0,0
+zstd,7a225c0c46,2024-02-20,0e12f98b,internal benchmark: can select size of generated synthetic sample,2,2,712,425,712,425,0,0,0,19,0,0,8,0,0,0,0,337,8,521,690,0,0,0,0,0
+zstd,83598aa106,2024-02-20,0e12f98b,datagen generates lorem ipsum by default,5,1,176,91,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,7003c9905e,2024-02-20,0e12f98b,increase word dictionary,1,1,19,3,19,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,19,0,0,0,0,0
+zstd,3dbd861b7d,2024-02-20,0e12f98b,runtime weight distribution table,1,1,57,26,57,26,0,0,0,3,0,0,0,0,2,0,0,22,0,0,52,0,0,0,0,0
+zstd,5a1bb4a4e0,2024-02-20,0e12f98b,add question marks,1,1,6,4,6,4,0,0,0,2,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+zstd,40874d4aea,2024-02-20,0e12f98b,enriched vocabulary again,1,1,16,2,16,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0
+zstd,1e046ce7fa,2024-02-20,0e12f98b,increase vocabulary size,2,1,142,124,137,122,0,0,0,9,0,0,0,0,0,0,0,19,0,0,134,0,0,0,0,0
+zstd,b921f1aad6,2024-02-11,0a0ff7df,Reduce scope of variables,8,8,27,28,27,28,0,0,0,12,0,0,1,2,0,0,0,281,6,16,26,0,0,0,0,1
+zstd,b0e8580dc7,2024-02-08,008f0635,fix fuzz issue 5131069967892480,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,282,1,1,1,0,0,0,0,0
+zstd,22574d848d,2024-02-06,0e12f98b,fix issue 5921623844651008,2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,281,1,1,2,0,0,0,0,0
+zstd,1f87c88ecf,2024-02-06,375e0fc7,[Zstd] Less verbose log for patch mode.,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,25,0,0,6,0,0,0,0,0
+zstd,b88c593d8f,2024-02-05,0e12f98b,added or updated code comments,2,2,15,9,15,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,6c35fb2e8c,2024-02-05,008f0635,fix msan warnings,2,1,13,6,10,4,1,0,0,1,0,0,1,0,0,0,0,281,1,9,9,0,0,0,0,0
+zstd,641749fc09,2024-02-05,008f0635,fix uasan dictionary_stream_round_trip fuzz test,2,1,7,4,4,2,1,0,0,2,0,0,1,0,0,0,0,275,1,3,4,0,0,0,0,0
+zstd,fe2e2ad36d,2024-02-03,008f0635,use ZSTD_memcpy(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,274,1,1,1,0,0,0,0,0
+zstd,0ae21d8c31,2024-02-03,008f0635,removed trace control,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+zstd,5474edbe60,2024-02-03,008f0635,fixed wrong assert,3,3,8,7,8,7,1,0,0,3,0,0,0,0,0,0,0,274,3,5,8,0,0,0,0,0
+zstd,e5af24c5fa,2024-02-03,008f0635,fixed wrong assert,1,1,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,274,1,0,0,0,0,0,0,0
+zstd,8168a451e5,2024-02-03,008f0635,"minor optimization, mostly for clarity",1,1,4,15,4,15,0,0,0,1,0,0,0,1,0,0,0,275,1,4,4,0,0,0,0,0
+zstd,d31018e223,2024-02-03,008f0635,"finally, a version that generalizes well",1,1,23,13,23,13,0,0,0,1,0,0,1,0,0,0,0,283,1,22,22,0,0,0,0,0
+zstd,0166b2ba80,2024-01-31,0e12f98b,modification: differentiate literal update at pos+1,1,1,27,25,27,25,0,0,0,1,0,0,1,0,0,0,0,276,1,22,22,0,0,0,0,0
+zstd,4683667785,2024-01-31,0e12f98b,refactor optimal parser,4,4,138,97,138,97,0,0,0,6,0,0,3,0,0,1,0,273,6,105,112,0,0,0,0,1
+zstd,de10f56be2,2024-01-29,0e12f98b,improve high compression ratio for file like #3793,1,1,41,13,41,13,0,0,0,2,0,0,1,0,0,0,0,247,1,33,37,0,0,0,0,0
+zstd,d0b7da30e2,2024-01-29,0e12f98b,add a lorem ipsum generator,5,5,259,12,259,12,0,0,0,2,0,0,0,0,9,0,0,606,1,2,168,0,0,0,0,0
+zstd,e6f4b46493,2024-01-15,0e12f98b,playTests.sh does no longer needs grep -E,3,2,36,36,3,3,0,0,0,2,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+zstd,66269e74a0,2024-01-14,ae67fda6,Fix building xxhash on AIX 5.1,1,1,15,3,15,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+zstd,c6cabf9441,2023-12-28,9e480495,Make offload API compatible with static CCtx (#3854),3,2,87,9,34,8,0,0,0,1,0,0,0,0,1,0,0,10,0,0,23,0,0,0,0,0
+zstd,8052cd0131,2023-12-18,e6b6da3a,cli: better errors on arguent parsing,4,1,66,21,27,21,0,0,0,1,1,1,1,0,2,2,0,606,1,21,24,0,0,0,0,0
+zstd,9a3b17c4d6,2023-12-16,27c0e056,Fix a nullptr dereference in ZSTD_createCDict_advanced2(),1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,41,1,1,1,0,0,0,0,0
+zstd,2ce0290e4d,2023-12-14,8838a6fe,zlibWrapper: convert to C89 / ANSI C,7,4,103,324,56,192,0,0,0,50,0,0,0,13,0,0,0,124,13,16,56,0,0,0,0,0
+zstd,468bb17378,2023-11-28,82f3739b,lib/decompress: check for reserved bit corruption in zstd,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,68,1,1,1,0,0,0,0,0
+zstd,d151a4880b,2023-11-27,9e480495,Move offload API params into ZSTD_CCtx_params,2,2,42,50,42,50,0,0,0,9,0,0,0,0,1,0,0,132,5,21,37,0,0,0,1,0
+zstd,809c7eb6bf,2023-11-27,9e480495,Refactor ZSTD_sequenceProducer_F typedef to ZSTD_sequenceProducer_F*,3,3,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,1
+zstd,8193250615,2023-11-21,208ecb23,Modernize macros to use `do { } while (0)`,12,12,207,169,207,169,0,0,0,10,0,0,0,0,0,0,0,259,6,36,205,0,0,0,0,0
+zstd,dd4de1dd7a,2023-11-20,208ecb23,[huf] Fix null pointer addition,1,1,5,0,5,0,1,0,0,1,0,0,1,0,0,0,0,47,1,3,3,0,0,0,0,0
+zstd,5ab78c0418,2023-11-20,208ecb23,[huf] Improve fast C & ASM performance on small data,2,1,61,57,45,39,0,0,0,6,0,0,2,1,0,0,0,56,4,26,32,0,0,0,0,0
+zstd,c7269add7e,2023-11-20,208ecb23,[huf] Improve fast huffman decoding speed in linux kernel,2,1,109,66,105,66,0,0,0,4,0,1,2,1,0,0,0,56,4,56,75,0,0,0,0,0
+zstd,e122fcbf58,2023-11-17,208ecb23,[debug] Don't define g_debuglevel in the kernel,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,59dcc47579,2023-11-16,0e12f98b,update license text,2,2,10,59,10,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,3fd5f9f52d,2023-11-13,0e12f98b,fix the copyright linter,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,592b1acb18,2023-11-13,0e12f98b,update xxhash to v0.8.2,2,2,2412,1021,2412,1021,0,3,1,82,2,0,2,1,12,1,0,55,9,114,796,0,0,0,0,0
+zstd,24dabde507,2023-10-18,0e12f98b,revert to manually defining DTable,2,2,10,7,10,7,0,0,0,3,0,0,1,0,0,0,0,37,1,4,7,0,0,0,0,0
+zstd,d988e00a7f,2023-10-18,0e12f98b,baby-step towards solving flexArray issue #3785,2,2,21,20,21,20,0,0,0,5,0,0,3,1,0,0,0,85,4,18,21,0,0,0,0,0
+zstd,6bb1688c1a,2023-10-08,008f0635,extended the fix to ZSTDMT's Buffer Pool,1,1,38,27,38,27,1,0,0,6,0,0,0,0,0,0,0,32,0,0,36,0,0,0,0,0
+zstd,ea4027c003,2023-10-07,008f0635,removed unused macro constant,1,1,2,6,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,c87ad5bdb5,2023-10-07,008f0635,fixes suggested by @ebiggers,1,1,5,6,5,6,1,0,0,2,0,0,0,0,0,0,0,24,0,0,5,0,0,0,0,0
+zstd,e8ff7d18eb,2023-10-07,008f0635,removed FlexArray pattern from CCtxPool,3,2,27,17,19,11,0,0,0,6,0,0,0,0,0,0,0,24,0,0,18,0,0,0,0,0
+zstd,43118da8a7,2023-09-28,208ecb23,Stop suppressing pointer-overflow UBSAN errors,23,18,252,103,241,92,1,0,0,49,0,0,11,0,4,0,0,214,34,65,200,1,0,0,0,0
+zstd,3daed7017a,2023-09-28,208ecb23,"Revert ""Work around nullptr-with-nonzero-offset warning""",1,1,0,6,0,6,0,0,0,1,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0
+zstd,585aaa0ed3,2023-09-23,c326dcd6,"Do not test WIN32, instead test _WIN32",5,3,7,7,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+zstd,fe34776c20,2023-09-23,c326dcd6,Fix new typos found by codespell,13,7,49,49,22,22,1,0,0,1,0,0,0,0,0,0,0,120,1,1,6,0,0,0,0,0
+zstd,cdceb0fce5,2023-09-22,f57476b0,Improve macro guards for ZSTD_assertValidSequence,1,1,5,3,5,3,0,0,0,2,0,0,0,0,0,0,0,25,1,1,5,0,0,0,0,0
+zstd,3fc14e411b,2023-09-13,0e12f98b,added some documentation on ZSTD_estimate*Size() variants,1,1,23,17,23,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,839c7939e8,2023-09-03,617eedac,Added qnx in the posix test section of platform.h,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,396ef5b434,2023-08-25,208ecb23,Fix & refactor Huffman repeat tables for dictionaries,2,2,58,18,58,18,1,0,0,7,0,0,1,1,2,0,0,83,3,3,41,0,0,0,0,1
+zstd,c27fa39904,2023-08-25,208ecb23,Work around nullptr-with-nonzero-offset warning,1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+zstd,ecb86d8286,2023-08-23,33d1bf35,zdictlib: fix prototype mismatch,2,2,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,122,2,2,4,0,0,0,0,0
+zstd,bd02c9be6e,2023-08-22,208ecb23,No longer reject dictionaries with literals maxSymbolValue < 255,1,1,1,2,1,2,0,0,0,1,0,0,1,0,0,0,0,74,1,1,1,0,0,0,0,0
+zstd,9987d2f594,2023-08-16,88652a84,Unpoison Workspace Memory Before Freeing to Custom Free,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+zstd,5f5bdc1e5d,2023-08-16,88652a84,Easy: Move Helper Functions Up,1,1,9,9,9,9,0,0,0,2,0,0,0,0,0,0,0,4,0,0,7,0,0,0,1,0
+zstd,4d267f3d4f,2023-07-21,7849a8bd,fileio_asyncio: handle malloc fails in AIO_ReadPool_create,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,1,0,0,0
+zstd,de6b46dfc8,2023-07-20,34c5db1f,Update fileio.c: fix build failure with enabled LTO,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+zstd,55ff3e4e17,2023-07-20,a7ab881a,Save one byte on the frame epilogue,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,32,0,0,3,0,0,0,0,0
+zstd,b1a30e2b4a,2023-06-26,f7f79753,hide asm functions on apple platforms,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,c6a888c073,2023-06-21,9e480495,suppress false error message in LDM mode,3,3,5,13,5,13,0,0,0,2,0,0,0,0,0,0,0,36,0,0,5,0,0,0,0,0
+zstd,e4aeaebc20,2023-06-20,0e12f98b,fixed incorrect test in Win32 pthread wrapper,2,1,9,2,8,2,1,0,0,5,0,0,0,0,0,0,0,32,0,0,6,0,1,0,0,0
+zstd,c123e69ad0,2023-06-16,0e12f98b,fixed static analyzer false positive regarding @sequence initialization,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,120,1,1,1,0,0,0,0,0
+zstd,c60dcedcc9,2023-06-16,0e12f98b,adapted long decoder to new decodeSequences,1,1,21,158,21,158,0,0,0,2,0,1,0,2,0,1,0,126,2,21,21,0,0,0,0,0
+zstd,33fca19dd4,2023-06-16,0e12f98b,changed ZSTD_decompressSequences_bodySplitLitBuffer() decoding loop,1,1,19,21,19,21,0,0,0,1,0,0,0,1,0,0,0,120,1,15,15,0,0,0,1,0
+zstd,84e898a76c,2023-06-16,0e12f98b,removed _old variant from splitLit,2,2,14,18,14,18,0,0,0,3,0,0,0,1,0,0,0,125,1,12,14,0,0,0,1,0
+zstd,02134fad12,2023-06-16,0e12f98b,changed (partially) the decodeSequences flow logic,1,1,145,15,145,15,0,0,0,4,1,0,1,1,1,0,0,133,4,98,100,0,0,0,0,0
+zstd,d9645327b3,2023-06-14,0e12f98b,fixed MEM_STATIC already defined in Linux Kernel mode,3,2,4,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,74c901bbed,2023-06-14,0e12f98b,fix : unused attribute for FORCE_INLINE functions,3,3,28,26,28,26,1,0,0,2,0,0,0,0,1,0,0,27,0,0,16,0,0,0,0,0
+zstd,ba50807029,2023-06-14,0e12f98b,make the bitstream generate only 0-value bits after an overflow,5,5,57,56,57,56,1,0,0,9,0,0,0,0,0,0,0,38,1,6,35,1,0,0,0,0
+zstd,b46236278a,2023-06-13,0e12f98b,detect extraneous bytes in the Sequences section,3,1,18,0,2,0,0,0,0,1,0,0,1,0,0,0,0,67,1,2,2,0,0,0,0,0
+zstd,3732a08f5b,2023-06-05,0e12f98b,fixed decoder behavior when nbSeqs==0 is encoded using 2 bytes,6,2,44,18,7,7,1,0,0,1,0,0,0,1,0,0,0,65,1,3,3,0,0,0,0,0
+zstd,1f83b7cfc4,2023-06-05,0e12f98b,fix a minor inefficiency in compress_superblock,3,1,5,4,1,1,1,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+zstd,94a2f2791f,2023-05-31,0e12f98b,changed LLU suffix into ULL for Visual 2012 and lower,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,d01a2c6929,2023-05-26,208ecb23,Fix UBSAN issue (zero addition to NULL),1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,168,1,1,1,0,0,0,0,0
+zstd,1b994cbc57,2023-05-23,aabec7b6,Get zstd working with ARM64EC on Windows,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,1b65803fe7,2023-05-22,88652a84,Reorder Definitions in zstd_opt.c to Group Under Macro Guards (Slightly),1,1,5,11,5,11,0,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+zstd,59c7b2a492,2023-05-22,88652a84,Reorder Definitions in zstd_lazy.c to Group Under Macro Guards,1,1,58,97,58,97,0,0,0,25,0,0,0,0,0,0,0,6,0,0,56,0,0,0,0,0
+zstd,eb9227935e,2023-05-04,88652a84,Also Reorganize Zstd Opt Declarations,1,1,23,36,23,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+zstd,d09f195ceb,2023-05-04,88652a84,Remove blockCompressor NULL Checks,2,2,0,4,0,4,0,0,0,2,0,0,0,2,0,0,0,131,2,0,0,0,0,0,1,0
+zstd,b7add1dd67,2023-05-04,88652a84,Abort if Unsupported Parameters Used,2,2,8,0,8,0,0,0,0,2,0,0,1,0,0,0,0,94,1,6,8,0,0,0,0,0
+zstd,f242f5be8f,2023-05-04,88652a84,Re-Order Lazy Declarations; Minimize ifndefs,1,1,84,149,84,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,0,0,0,0,0
+zstd,39b7946b95,2023-05-04,88652a84,Define Macros for Possibly-Present Functions; Use Them Rather than Ifdef Guards,4,4,149,186,149,186,0,0,0,1,0,0,0,1,0,0,0,83,1,39,147,0,0,0,0,0
+zstd,b12e8cb3e7,2023-05-04,88652a84,Merge Ultra and Ultra2 Exclusion,4,3,8,22,7,20,0,0,0,3,0,0,0,2,0,0,0,122,3,3,7,0,0,0,0,0
+zstd,6761e1c949,2023-05-04,88652a84,Tweak Ultra/Opt Guards,1,1,7,3,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+zstd,5a75956001,2023-05-04,88652a84,Adjust Strategy in CParams to Avoid Using Excluded Block Compressors,1,1,44,0,44,0,0,0,0,1,0,0,1,0,0,0,0,88,1,41,41,0,0,0,0,0
+zstd,50cdf84f58,2023-05-04,88652a84,Macro-Exclude Block Compressors from Declaration/Definition,8,8,185,3,185,3,0,0,0,2,0,0,1,0,0,0,0,91,1,11,181,0,0,0,0,0
+zstd,81b86a2024,2023-05-04,88652a84,NULL Out Block Compressor Table Entries When Excluded,1,1,176,15,176,15,0,0,0,1,0,0,1,0,0,0,0,122,1,176,176,0,0,0,0,0
+zstd,cbf3e26316,2023-05-04,88652a84,Allow `ZSTD_selectBlockCompressor()` to Return NULL,2,2,13,6,13,6,0,0,0,2,0,0,2,0,0,0,0,133,2,12,12,0,0,0,0,0
+zstd,4c25ea329b,2023-04-20,9a8d460e,Disable unused variable warning in msan configurations,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+zstd,61efb2a047,2023-04-17,f57476b0,Add ZSTD_d_maxBlockSize parameter,7,3,165,6,46,4,0,0,0,7,1,0,2,0,1,0,0,259,3,9,26,0,0,0,0,0
+zstd,0abf2baef9,2023-04-17,f57476b0,Reduce streaming decompression memory by 128KB,5,4,143,114,137,107,0,0,0,21,0,0,5,12,2,0,0,189,17,76,108,0,0,0,0,1
+zstd,c28031df8f,2023-04-06,0b9aa5a7,Add new line + [no-] to mmap-dict help output (#3601),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,94,1,1,1,0,0,0,0,0
+zstd,e4120c5513,2023-04-03,0e12f98b,fixing potential over-reads,1,1,40,38,40,38,1,0,0,4,0,0,1,0,0,0,0,71,1,5,29,0,0,0,0,0
+zstd,2e29728797,2023-04-03,0e12f98b,fix #3583,3,2,21,17,20,16,1,0,0,4,0,0,0,0,0,0,0,68,1,1,16,0,0,0,0,0
+zstd,9f58241dcc,2023-03-31,008f0635,updated version number to v1.5.5,5,1,132,88,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,fcaf06ddb4,2023-03-31,0b9aa5a7,Check that `dest` is valid for decompression (#3555),6,1,32,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+zstd,14d0cd5d69,2023-03-31,0e12f98b,do not add invocation of UTIL_isRegularFile(),1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,68,1,4,4,0,0,0,0,0
+zstd,5bf1359e3b,2023-03-31,0e12f98b,fix decompression with -o writing into a block device,1,1,8,3,8,3,1,0,0,2,0,0,1,0,0,0,0,66,1,4,6,0,0,0,0,0
+zstd,b2ad17a658,2023-03-28,0b9aa5a7,mmap for windows (#3557),2,2,92,35,92,35,0,0,0,7,0,0,0,1,6,4,0,69,2,4,78,0,0,0,0,0
+zstd,b558190ac7,2023-03-28,2bd6dea1,Remove clang-only branch hints from ZSTD_decodeSequence,1,1,0,12,0,12,0,0,0,0,14,0,0,0,19,0,0,0,0,0,0,0,0,0,1,0
+zstd,e6dccbf482,2023-03-28,2bd6dea1,Inline BIT_reloadDStream,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+zstd,3e0550ee52,2023-03-21,0b9aa5a7,fix window update (#3556),1,1,3,2,3,2,1,0,0,1,0,0,1,0,0,0,0,91,1,3,3,0,0,0,0,0
+zstd,a3c3a38b9b,2023-03-20,f57476b0,[lazy] Skip over incompressible data,4,3,186,131,71,16,0,0,0,8,0,0,4,1,0,0,0,214,6,33,39,0,0,0,0,0
+zstd,fbd97f305a,2023-03-16,f57476b0,Deprecated bufferless and block level APIs,8,7,326,223,323,221,0,0,0,12,0,0,0,0,6,0,0,168,5,13,122,0,0,0,0,0
+zstd,53bad103ce,2023-03-14,0b9aa5a7,patch-from speed optimization (#3545),2,1,144,134,18,8,0,0,0,1,0,0,1,0,0,0,0,90,1,15,15,0,0,0,0,0
+zstd,f4563d87b9,2023-03-14,0e12f98b,added documentation for LDM + dictionary compatibility,1,1,11,4,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,91f4c23e63,2023-03-13,990468ae,Add salt into row hash (#3528 part 2) (#3533),4,4,104,48,104,48,0,0,0,18,0,0,5,0,12,3,0,155,6,23,85,0,0,0,0,0
+zstd,9420bce8a4,2023-03-13,990468ae,Add init once memory (#3528) (#3529),4,4,174,105,174,105,0,1,1,13,0,0,1,1,2,0,0,226,3,35,107,0,0,0,0,0
+zstd,a91e91d614,2023-03-13,990468ae,[Bugfix] row hash tries to match position 0 (#3548),2,1,140,136,6,2,1,0,0,1,0,0,1,0,0,0,0,154,1,6,6,0,0,0,0,0
+zstd,33e39094e7,2023-03-10,990468ae,Reduce RowHash's tag space size by x2 (#3543),5,3,320,321,21,22,0,0,0,11,0,0,0,0,0,0,0,150,9,14,19,0,0,0,0,1
+zstd,c40c7378c6,2023-03-09,208ecb23,Clarify dstCapacity requirements,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,c4c3e11958,2023-03-09,88652a84,Avoid Calling `setvbuf()` on Null File Pointer,1,1,17,11,17,11,0,0,0,1,0,0,1,0,0,0,0,62,1,4,4,0,0,0,0,0
+zstd,70850eb72b,2023-03-08,9266218a,assert to ensure that dict buffer type is valid,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+zstd,07a2a33135,2023-03-08,208ecb23,"Add ZSTD_set{C,F,}Params() helper functions",3,2,178,20,51,20,0,0,0,1,0,0,0,0,2,0,0,14,0,0,27,0,0,0,0,0
+zstd,96e55c14f2,2023-03-08,9266218a,ability to disable mmap + struct to manage FIO dictionary,4,4,48,45,48,45,0,0,0,6,0,0,2,0,2,2,0,602,2,14,46,0,0,0,0,0
+zstd,988ce61a0c,2023-03-06,990468ae,Adds initialization of clevel to static cdict (#3525) (#3527),3,1,37,26,1,0,0,0,0,1,0,0,1,0,0,0,0,39,1,1,1,0,0,0,0,0
+zstd,1e38e07b3d,2023-03-06,0e12f98b,simplified BMK_benchFilesAdvanced(),3,3,31,34,31,34,0,0,0,3,0,0,1,2,0,0,0,595,3,24,30,0,0,0,0,1
+zstd,9efc14804e,2023-03-06,0e12f98b,minor: fixed zlib wrapper internal benchmark,2,1,7,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,db79219f70,2023-03-06,0e12f98b,simplify BMK_syntheticTest(),3,3,29,33,29,33,0,0,0,2,0,0,0,0,0,0,0,598,1,2,26,0,0,0,0,1
+zstd,395a2c5462,2023-02-23,208ecb23,[bug-fix] Fix rare corruption bug affecting the block splitter,4,1,74,1,2,1,1,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,1,0
+zstd,547794ef40,2023-02-18,c326dcd6,Fix typos found by codespell,7,5,7,7,5,5,1,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+zstd,2d8afd9ce1,2023-02-14,9266218a,add manual flag to mmap dictionary,4,4,16,5,16,5,0,0,0,4,0,0,2,0,1,0,0,601,3,7,15,0,0,0,0,0
+zstd,886de7bc04,2023-02-13,db728490,Use correct types in LZMA comp/decomp (#3497),1,1,6,6,6,6,0,0,0,2,0,0,0,0,0,0,0,67,2,6,6,0,0,0,0,0
+zstd,8a189b1b29,2023-02-13,9266218a,refactor dictionary file stat,1,1,25,22,25,22,0,0,0,4,0,0,1,0,1,0,0,71,1,2,16,0,0,0,0,1
+zstd,4373c5ab88,2023-02-13,9266218a,mmap dicitonaries for large dictionaries in patch-from,1,1,55,32,55,32,0,0,0,4,0,0,1,0,5,0,0,70,1,6,52,0,0,0,0,0
+zstd,c78f434aa4,2023-02-12,990468ae,Fix zstd-dll build missing dependencies (#3496),13,9,76,48,61,41,1,0,0,0,0,0,0,0,3,3,0,0,0,0,38,0,0,1,0,0
+zstd,a7de1d9f49,2023-02-11,9e480495,Fix all MSVC warnings (#3495),6,2,33,19,9,9,1,0,0,7,0,0,0,0,0,0,0,83,2,4,9,0,0,0,0,0
+zstd,ff42ed1582,2023-02-09,9e480495,"Rename ""External Matchfinder"" to ""Block-Level Sequence Producer"" (#3484)",20,5,235,224,156,145,0,0,0,16,0,0,0,0,2,2,0,191,13,27,51,0,0,0,0,0
+zstd,cc4e941745,2023-02-09,9266218a,initial commit,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,610c8b9e33,2023-02-09,9266218a,initial commit,385,117,7510,4031,3680,2801,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+zstd,c689310b25,2023-02-07,0e12f98b,rewrite legacy v0.7 bound checks to be independent of address space overflow,1,1,7,4,7,4,1,0,0,1,0,0,1,0,0,0,0,63,1,7,7,1,0,0,0,0
+zstd,c5bf6b8b88,2023-02-07,008f0635,add requested check for legacy decoder v0.1,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,63,1,1,1,0,0,0,0,0
+zstd,9419747171,2023-02-07,008f0635,"fix legacy decoders v0.4, v0.5 and v0.6",3,3,0,3,0,3,1,0,0,3,0,0,0,3,0,0,0,73,3,0,0,0,0,0,0,0
+zstd,67d7a659f8,2023-02-07,0e12f98b,port fix for v0.3 to v0.6,1,1,11,4,11,4,1,0,0,1,0,0,1,0,0,0,0,65,1,7,7,0,0,0,0,0
+zstd,7a1a171658,2023-02-07,0e12f98b,port fix for v0.3 to v0.5,1,1,11,4,11,4,1,0,0,1,0,0,1,0,0,0,0,68,1,7,7,0,0,0,0,0
+zstd,b20e4e95f2,2023-02-07,0e12f98b,copy fix for v0.3 to v0.4,2,2,12,5,12,5,1,0,0,1,0,0,1,0,0,0,0,74,1,7,7,0,0,0,0,0
+zstd,7eb4471fec,2023-02-07,0e12f98b,adapt v0.3 fix to v0.1,1,1,12,7,12,7,1,0,0,1,0,0,1,0,0,0,0,62,1,7,7,0,0,0,0,0
+zstd,cfec005efd,2023-02-07,0e12f98b,fix for v0.3 blindly ported to v0.2,1,1,9,2,9,2,1,0,0,1,0,0,1,0,0,0,0,59,1,6,6,0,0,0,0,0
+zstd,e04706c58c,2023-02-07,0e12f98b,fix oss-fuzz case 55714,1,1,10,4,10,4,1,0,0,1,0,0,1,0,0,0,0,58,1,7,7,0,0,0,0,0
+zstd,6740f8f0b8,2023-02-07,0e12f98b,add error message for the (rare) compression error scenario,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,234,1,1,1,0,0,0,0,0
+zstd,58e7067c7d,2023-02-07,0e12f98b,added more accurate error messages,1,1,14,9,14,9,0,0,0,2,0,0,1,0,0,0,0,234,2,13,13,0,0,0,0,0
+zstd,9cabd155fd,2023-02-07,0e12f98b,return error code when benchmark fails,2,1,10,5,8,5,0,0,0,1,0,0,1,0,0,0,0,598,1,8,8,0,0,0,0,0
+zstd,f746c37d00,2023-02-06,88652a84,Use File Descriptor in Setting Stat on Output File,4,2,27,15,17,5,0,0,0,3,0,0,2,0,0,0,0,52,2,12,12,0,0,0,0,0
+zstd,a5a2418df4,2023-02-06,88652a84,Introduce Variants of Some Functions that Take Optional File Descriptors,10,2,129,53,89,13,0,0,0,3,0,0,0,0,3,0,0,4,0,0,75,0,0,0,0,0
+zstd,79bdb8cbb6,2023-02-02,990468ae,AsyncIO performance regression for small files fix (#3474),3,3,116,28,116,28,1,0,0,11,1,0,1,0,6,0,0,55,2,20,65,0,1,0,0,0
+zstd,71a0259247,2023-02-02,f57476b0,Fix ZSTD_getOffsetInfo() when nbSeq == 0,1,1,20,15,20,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+zstd,3fe5f1fbb9,2023-02-01,9e480495,assert externalRepSearch != ZSTD_ps_auto,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,75,1,1,1,0,0,0,0,0
+zstd,cc3e3acd34,2023-02-01,f57476b0,Fix 32-bit decoding with large dictionary,1,1,96,29,96,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0
+zstd,7f8189ca57,2023-02-01,9e480495,add ZSTD_c_fastExternalSequenceParsing cctxParam,4,3,109,18,108,18,0,1,0,12,0,0,9,0,1,0,0,191,10,48,66,0,0,0,0,0
+zstd,64052ef57d,2023-01-31,9e480495,Guard against invalid sequences from external matchfinders (#3465),5,1,96,37,31,13,0,0,0,5,0,0,1,0,1,0,0,127,3,12,24,0,0,0,0,0
+zstd,af09777b24,2023-01-31,0e12f98b,ensure that benchmark mode can only be invoked with zstd format,2,1,30,14,24,14,0,0,0,1,0,0,1,0,0,0,0,595,1,23,23,0,0,0,0,0
+zstd,39ceef27f9,2023-01-30,0e12f98b,bump version number to v1.5.4,3,1,218,58,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,2f74507bbd,2023-01-30,f57476b0,Simplify 32-bit long offsets decoding logic,2,2,13,10,13,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,1
+zstd,b3b43f2893,2023-01-27,f57476b0,Fix invalid assert in 32-bit decoding,1,1,6,0,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,2bde9fbf85,2023-01-27,0b9aa5a7,Update lib/compress/zstd_compress.c,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+zstd,423a74986f,2023-01-27,f57476b0,[fse] Delete unused functions,3,3,2,292,2,292,0,0,0,0,0,3,0,0,0,14,0,0,0,0,0,0,0,0,0,0
+zstd,9e4c66b9e9,2023-01-27,9266218a,record long offsets in ZSTD_symbolEncodingTypeStats_t + add test case,4,2,71,17,11,15,0,0,0,6,0,0,0,2,0,0,0,132,4,5,11,0,0,0,0,0
+zstd,814f4bfb99,2023-01-27,9266218a,fix long offset resolution,2,2,14,4,14,4,1,0,0,4,0,0,3,0,0,0,0,134,3,7,14,0,0,0,0,0
+zstd,bda947e17a,2023-01-26,f57476b0,[huf] Fix bug in fast C decoders,1,1,6,2,6,2,1,0,0,2,0,0,2,0,0,0,0,83,2,4,4,0,0,0,0,0
+zstd,82ca00811a,2023-01-26,0e12f98b,change logic when stderr is not console : don't update progress status,10,1,83,66,2,3,0,0,0,1,0,0,0,0,0,0,0,586,1,1,1,0,0,0,0,0
+zstd,6422d1d7a8,2023-01-25,d59b5989,Bugfix: `--[no-]row-match-finder` do the opposite of what they are supposed to,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,583,1,3,3,0,0,0,0,0
+zstd,02434e0867,2023-01-25,0e12f98b,enforce a hard fail when input files are set to be erased,1,1,14,2,14,2,0,0,0,1,1,0,0,0,0,0,0,37,1,10,10,0,0,0,0,0
+zstd,8c85b29e32,2023-01-25,0e12f98b,disable --rm on -o command,8,3,118,66,81,56,0,0,0,9,0,0,1,0,1,1,0,586,5,21,55,0,0,0,0,0
+zstd,8957fef554,2023-01-25,f57476b0,[huf] Add generic C versions of the fast decoding loops,13,8,448,91,405,76,0,0,0,10,5,1,3,0,6,4,0,185,5,41,264,0,0,0,0,0
+zstd,db18a62f89,2023-01-25,0e12f98b,Provide more accurate error codes for busy-loop scenarios,3,3,7,3,7,3,0,0,0,2,0,0,1,0,0,0,0,257,2,5,7,0,0,0,0,0
+zstd,1d636b4ba0,2023-01-24,d59b5989,Bug fix redzones by unpoisoning only the intended buffer and not the followup redzone.,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+zstd,7d600c628a,2023-01-24,9266218a,fix bound check for ZSTD_copySequencesToSeqStoreNoBlockDelim(),3,1,36,3,2,1,1,0,0,1,0,0,1,0,0,0,0,97,1,2,2,0,0,0,0,0
+zstd,3bfd3be5fb,2023-01-23,9e480495,Fix ZSTD_estimate* and ZSTD_initCStream() docs,1,1,13,4,13,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,dc2b3e8876,2023-01-23,f57476b0,Fix -Wstringop-overflow warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,37,1,1,1,1,0,0,0,0
+zstd,815d1d4eda,2023-01-23,9266218a,update external sequence error to fit error naming scheme,4,3,10,10,6,6,0,0,0,4,0,0,0,0,0,0,0,96,4,5,6,0,0,0,0,0
+zstd,1b65727e74,2023-01-23,9266218a,fix nits and add new error code for invalid external sequences,4,3,24,5,7,5,1,0,0,4,0,0,1,0,0,0,0,96,4,6,7,0,0,0,0,0
+zstd,638d502002,2023-01-23,9266218a,modify sequence compression api fuzzer,16,8,587,199,191,109,0,2,2,23,0,0,9,2,3,4,0,230,11,29,121,0,0,0,0,0
+zstd,cee6bec9fa,2023-01-20,0e12f98b,refactor : --rm is ignored with stdout,4,3,37,28,29,26,0,0,0,3,0,0,1,0,0,0,0,583,1,21,26,0,0,0,0,1
+zstd,d9280afb7d,2023-01-20,0e12f98b,fixed minor c89 warning,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,b4467c1061,2023-01-20,f57476b0,Fix bufferless API with attached dictionary,2,1,27,1,6,1,1,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+zstd,329169189c,2023-01-20,f57476b0,Replace Huffman boolean args with flags bit set,12,8,208,181,176,158,0,0,0,16,12,12,5,3,12,12,0,183,16,74,150,0,0,0,0,0
+zstd,0cc1b0cb22,2023-01-20,f57476b0,Delete unused Huffman functions,15,11,51,575,45,564,0,0,2,7,2,10,3,1,2,37,0,182,7,16,43,0,0,0,0,0
+zstd,666944fbe6,2023-01-20,f57476b0,Cap hashLog & chainLog to ensure that we only use 32 bits of hash,5,3,144,7,39,7,0,0,0,5,0,0,1,0,0,0,0,63,1,16,22,0,0,0,0,0
+zstd,aa385ece13,2023-01-20,9266218a,fix sequence validation and bounds check in ZSTD_copySequencesToSeqStore(),2,1,94,8,10,8,1,0,0,3,1,0,0,0,0,0,0,96,3,9,9,1,0,0,0,0
+zstd,ea684c335a,2023-01-19,0e12f98b,added c89 build test to CI,8,6,87,43,77,42,0,0,0,10,0,0,3,1,3,0,0,187,6,32,70,0,0,0,0,0
+zstd,bce0382c82,2023-01-19,9e480495,Bugfixes for the External Matchfinder API (#3433),3,2,88,21,41,15,1,0,0,4,0,0,1,1,0,0,0,120,3,6,19,0,0,0,0,0
+zstd,7a8c8f3fe7,2023-01-18,88652a84,Easy: Print Mode as Octal in `chmod()` Trace,3,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,1,0,0,0
+zstd,0d2d460223,2023-01-18,88652a84,"Mimic gzip chown(gid), chmod(), chown(uid) Behavior",5,1,18,4,14,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+zstd,1e3eba65a6,2023-01-18,88652a84,Copy Permissions from Source File,4,1,34,26,16,14,0,0,0,2,0,0,0,1,0,0,0,47,2,12,14,0,0,0,0,0
+zstd,0382076af7,2023-01-18,88652a84,Re-Use `stat_t` in `FIO_compressFilename_srcFile()`,9,3,67,34,57,20,0,0,0,6,0,0,1,0,1,0,0,62,2,12,48,0,0,0,0,0
+zstd,a5ed28f1fb,2023-01-17,88652a84,Use Existing Src File Stat in `*_dstFile()` Funcs,3,1,6,16,6,12,0,0,0,2,0,0,0,2,0,0,0,47,2,6,6,0,0,0,0,0
+zstd,5653f96776,2023-01-17,88652a84,Pass `stat_t` into `*_dstFile()` Functions,1,1,14,3,14,3,0,0,0,4,0,0,3,0,0,0,0,50,3,10,11,0,0,0,0,0
+zstd,2ad6855ac1,2023-01-17,88652a84,`FIO_openSrcFile()` Returns File Stat,1,1,13,10,13,10,0,0,0,4,0,0,1,0,0,0,0,38,1,2,13,0,0,0,0,0
+zstd,8353a4b095,2023-01-17,9266218a,fix maxBlockSize resolution + add test cases,2,1,91,2,3,2,1,0,0,3,0,0,1,0,0,0,0,132,2,2,3,0,0,0,0,0
+zstd,5d8cfa6b96,2023-01-13,9e480495,Deprecate advanced streaming functions (#3408),6,5,20,9,16,7,0,0,0,5,0,0,0,0,0,0,0,31,0,0,16,0,0,0,0,0
+zstd,d78fbedd96,2023-01-13,88652a84,Don't Even Declare Poisoning Functions if Poisoning is Disabled,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,f10922a8fa,2023-01-13,88652a84,Disable Custom ASAN/MSAN Poisoning on MinGW Builds,1,1,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+zstd,14b8defb86,2023-01-13,9266218a,move ZSTD_BLOCKSIZE_MAX_MIN to static linking only section,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+zstd,a2ef23dec0,2023-01-12,0e12f98b,restore support of clock_gettime() for POSIX systems,1,1,31,8,31,8,0,0,0,3,0,0,0,0,1,0,0,18,0,0,22,0,0,0,0,0
+zstd,bcfb7ad03c,2023-01-12,0e12f98b,refactor timefn,8,5,94,106,66,83,0,2,2,7,0,0,0,1,1,4,0,230,1,2,44,0,0,0,0,1
+zstd,5b266196a4,2023-01-12,f57476b0,Add support for in-place decompression,7,4,227,10,118,3,0,0,0,4,0,0,3,0,1,0,0,79,3,11,48,0,0,0,0,0
+zstd,ac45e078a5,2023-01-12,0e12f98b,add explanation about new test,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,796699c0bc,2023-01-12,0e12f98b,fix root cause of #3416,5,5,37,16,37,16,1,0,0,8,0,0,2,0,1,0,0,89,5,11,32,0,0,0,0,0
+zstd,06b096db47,2023-01-12,9266218a,additional tests and documentation updates + allow maxBlockSize to be set to 0 (goes to default),3,2,89,27,8,2,0,0,0,1,0,0,1,0,0,0,0,187,1,2,2,0,0,0,0,0
+zstd,53eb5a758c,2023-01-12,9266218a,add simple test for maxBlockSize expected functionality,3,2,45,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,1fffcfe01d,2023-01-11,9266218a,update minimum threshold for max block size,3,2,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,162,1,1,2,0,0,0,0,0
+zstd,fe08137d9a,2023-01-09,9266218a,resolve max block value in cctx and use when calculating the max block size,3,2,29,12,28,12,0,0,0,11,0,0,3,0,1,0,0,186,6,9,23,0,0,0,0,0
+zstd,8b130009e3,2023-01-06,0e12f98b,minor simplification refactoring for timefn,5,3,25,53,21,51,0,0,0,1,0,0,0,0,0,3,0,4,0,0,12,0,0,0,0,1
+zstd,71dbe8f9d4,2023-01-04,0e12f98b,minor: fix conversion warnings,2,2,14,13,14,13,1,0,0,4,0,0,1,0,0,0,0,225,2,11,14,0,0,0,0,0
+zstd,908e812733,2023-01-04,9266218a,initial commit,328,112,3342,1428,1468,672,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+zstd,ebba9ff425,2023-01-03,0e12f98b,update regression results,2,1,105,102,10,7,1,0,0,1,0,0,1,0,0,0,0,42,1,8,8,0,0,0,0,0
+zstd,5434de01e2,2023-01-03,0e12f98b,improve compression ratio of small alphabets,5,5,77,41,77,41,0,0,0,8,0,0,2,1,1,0,0,100,5,36,61,0,0,0,0,0
+zstd,df714ddb0f,2023-01-03,9266218a,implement suggestions,1,1,9,4,9,4,0,0,0,1,0,0,1,0,0,0,0,32,1,7,7,0,0,0,0,0
+zstd,d07e72bb13,2022-12-28,0e12f98b,fixed incorrect assert,1,1,6,4,6,4,1,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+zstd,4a1a79a512,2022-12-28,0e12f98b,just add some comments to zstd_opt for improved clarity,1,1,41,27,41,27,0,0,0,5,0,0,0,0,0,0,0,100,1,5,16,0,0,0,0,0
+zstd,00c85b28e7,2022-12-28,0e12f98b,update ZSTD_CCts_setCParams() inline documentation,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,2a402626dd,2022-12-28,9e480495,External matchfinder API (#3333),18,5,929,40,408,35,0,0,0,15,0,0,10,0,4,0,0,182,10,88,195,0,0,0,0,0
+zstd,b17743e41b,2022-12-28,0e12f98b,Signal parameter change during MT compression,1,1,9,2,9,2,0,0,0,2,0,0,0,0,0,0,0,54,1,1,6,0,0,0,0,0
+zstd,89342d1e07,2022-12-27,0e12f98b,New xp library symbol : ZSTD_CCtx_setCParams(),3,2,50,12,24,8,0,0,0,2,0,0,0,0,1,0,0,178,1,2,18,0,0,0,0,0
+zstd,48f4aa7307,2022-12-23,9a8d460e,Move deprecated annotation before static to allow C++ compilation for clang,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+zstd,6a9c525903,2022-12-22,0e12f98b,spec update : require minimum nb of literals for 4-streams mode,8,7,60,24,41,19,0,0,0,10,0,0,6,1,0,0,0,182,7,20,28,0,0,0,0,0
+zstd,ea2895cef4,2022-12-22,0e12f98b,Support decompression of compressed blocks of size ZSTD_BLOCKSIZE_MAX exactly,2,2,14,2,14,2,0,0,0,1,0,0,1,0,0,0,0,27,1,1,2,0,0,0,0,0
+zstd,40a7188130,2022-12-21,f57476b0,Fix `make clangbuild` & add CI,13,8,58,51,21,22,1,0,0,8,0,0,0,0,0,0,0,81,6,9,20,0,0,0,0,0
+zstd,b6e8112261,2022-12-21,f57476b0,[util] Add traces enabled by --trace-file-stat,3,3,137,34,137,34,0,0,0,13,0,0,1,0,1,0,0,576,1,1,127,0,1,0,0,0
+zstd,9c93dd71cd,2022-12-20,5705d4aa,Clean up welcome message,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,93,1,1,3,0,0,0,0,1
+zstd,678335c4f3,2022-12-20,5705d4aa,Rewrite help output to improve readability,1,1,103,90,103,90,0,0,0,2,0,0,1,0,0,0,0,92,1,76,100,0,0,0,0,0
+zstd,c26f348dc8,2022-12-20,9266218a,fix CI errors,2,1,32,31,2,1,1,0,0,1,0,0,1,0,0,0,0,29,1,2,2,0,0,0,0,0
+zstd,482689b995,2022-12-20,9266218a,huf log speed optimization: unidirectional scan of logs + break when regressing,21,7,96,77,40,43,0,0,0,11,1,0,2,1,0,0,0,178,9,29,33,0,0,0,0,0
+zstd,e4018c4e7f,2022-12-20,f57476b0,[docs] Clarify dictionary loading documentation,1,1,10,8,10,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,5d693cc38c,2022-12-20,88652a84,Coalesce Almost All Copyright Notices to Standard Phrasing,194,83,198,198,83,83,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+zstd,7f12f24cf4,2022-12-20,88652a84,Rewrite Copyright Date Ranges from `-present` to `-2022`,80,5,80,80,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,36d5c2f326,2022-12-20,88652a84,Update Copyright Year ('2021' -> 'present'),17,3,17,17,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,8927f985ff,2022-12-20,88652a84,Update Copyright Headers 'Facebook' -> 'Meta Platforms',279,110,280,280,110,110,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+zstd,26f1bf7d70,2022-12-19,d59b5989,CR fixes,1,1,31,14,31,14,1,0,0,2,0,0,0,0,0,0,0,31,0,0,22,0,0,0,0,0
+zstd,832c1a6a1c,2022-12-18,008f0635,minor reformatting,2,2,231,193,231,193,0,0,0,26,0,0,10,1,0,0,0,112,15,157,211,0,0,0,0,0
+zstd,ec42c92aaa,2022-12-17,d59b5989,Fix race condition in the Windows thread / pthread translation layer,2,2,50,17,50,17,1,0,0,3,0,0,0,0,0,0,0,25,0,0,37,0,1,1,0,0
+zstd,500f02eb66,2022-12-17,d59b5989,Fixes two bugs in the Windows thread / pthread translation layer,4,3,8,9,6,7,1,0,0,3,0,0,0,0,0,0,0,15,0,0,6,0,1,1,0,0
+zstd,2f4238e47a,2022-12-16,0e12f98b,make ZSTD_DECOMPRESSBOUND() compatible with input size 0,2,1,3,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,ea24b88667,2022-12-16,0e12f98b,decompressBound() tests,2,1,58,1,1,1,0,0,0,1,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+zstd,2f7b8d47fb,2022-12-16,f57476b0,[zdict] Fix static linking only include guards,1,1,6,8,6,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,0,0
+zstd,358a237484,2022-12-16,f57476b0,[api][visibility] Make the visibility macros more consistent,6,3,95,32,73,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,1,0
+zstd,97f63ce2b5,2022-12-16,0e12f98b,added unit tests for compressBound(),2,1,109,89,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,ee6475cbbd,2022-12-15,f57476b0,Add missing parens around macro definition,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+zstd,45ed0df18a,2022-12-15,0e12f98b,check potential overflow of compressBound(),2,2,34,8,34,8,1,0,0,1,0,0,0,0,0,0,0,5,0,0,6,1,0,0,0,0
+zstd,a91e7ec175,2022-12-15,f57476b0,Fix corruption that rarely occurs in 32-bit mode with wlog=25,2,1,62,5,3,3,1,0,0,3,0,0,0,0,0,0,0,96,2,2,3,0,0,0,0,0
+zstd,728e73ebb4,2022-12-14,f57476b0,[legacy] Remove FORCE_MEMORY_ACCESS and only use memcpy,7,7,0,289,0,289,0,0,0,29,0,0,0,0,0,58,0,4,0,0,0,0,0,0,1,0
+zstd,f31b83ff34,2022-12-14,f57476b0,[decompress] Fix nullptr addition & improve fuzzer,4,3,15,8,11,4,1,0,0,3,0,0,3,0,0,0,0,257,3,10,10,0,0,0,0,0
+zstd,15f32ad74c,2022-12-14,f57476b0,[fileio] Separate parameter adaption from display update rate,3,2,108,93,100,93,0,0,0,1,0,0,1,0,0,0,0,187,1,76,78,0,0,0,0,0
+zstd,a78c91ae59,2022-12-14,7484122d,Use proper unaligned access attributes,10,8,106,167,105,164,0,0,0,36,0,0,0,0,0,0,0,1,0,0,69,0,0,0,0,0
+zstd,fbff7827fa,2022-12-14,f57476b0,Refactor progress bar & summary line logic,6,2,318,52,79,52,0,0,0,10,0,0,4,3,2,0,0,183,10,58,75,0,0,0,0,1
+zstd,e58a39f84e,2022-12-14,f57476b0,Allow tests to fake stdin/stdout/stderr is a console,5,5,55,6,55,6,0,0,0,2,0,0,1,0,4,0,0,575,2,7,38,0,0,0,0,0
+zstd,4dffc35f2e,2022-12-14,9266218a,Convert references to https from http,57,20,153,155,101,103,0,0,0,1,0,0,0,0,0,0,0,79,1,1,75,0,0,0,0,0
+zstd,c43da3d605,2022-12-13,9e480495,Fix C90 compat,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+zstd,e1e82f74f1,2022-12-13,9e480495,Reserve two fields in ZSTD_frameHeader,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+zstd,69ec75f0d5,2022-12-13,9266218a,fix window resizing edge case,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,48,1,2,2,0,0,0,0,0
+zstd,dc39409a03,2022-12-12,f88b6248,Print checksum value for single frame files in cli with -v -l options,1,1,13,3,13,3,0,0,0,2,1,0,0,0,0,0,0,85,2,10,11,0,0,0,0,0
+zstd,4d82a4d3f2,2022-11-22,0e12f98b,minor : reorder --help,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,85,1,3,3,0,0,0,0,0
+zstd,ecd7601c36,2022-11-22,0e12f98b,minor: proper pledgedSrcSize trace,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,1,0,0,0
+zstd,c8d870fe52,2022-11-21,9e480495,Improve LDM cparam validation logic,1,1,5,4,5,4,0,0,0,2,0,0,1,0,0,0,0,178,2,3,3,0,0,0,0,0
+zstd,0547c3d3f8,2022-11-19,bf10b45e,Random edit to re-run the CI,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,0168914490,2022-11-18,bf10b45e,Fix for MSVC C4267 error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,51,1,1,1,0,0,0,0,0
+zstd,5334339421,2022-11-01,928375f0,Rewrite checking condition bufStart pointer NULL,1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,62,1,4,4,0,0,0,0,0
+zstd,c2638212af,2022-10-27,9266218a,Change threshold for benchmarking,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,db74d043d6,2022-10-27,9266218a,Speed optimizations with macro,15,6,237,167,155,151,0,0,0,6,1,0,0,3,1,1,0,207,3,25,115,0,0,0,0,0
+zstd,401331909e,2022-10-24,9266218a,Commit for benchmarking,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+zstd,361d86998a,2022-10-24,009d9b3d,Fix the wrong check for buffer overrun in UTIL_mergeFileNamesTable,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,37,0,0,1,0,0,0,0,0
+zstd,dcc7228de9,2022-10-21,f57476b0,[lazy] Use switch instead of indirect function calls. (#3295),2,2,124,111,124,111,0,0,0,2,1,0,0,2,1,1,0,207,2,10,87,0,0,0,0,0
+zstd,a08fabd51a,2022-10-17,9266218a,Rough draft speed optimization,2,2,28,4,28,4,0,0,0,1,0,0,1,0,0,0,0,49,1,23,24,0,0,0,0,0
+zstd,a910489ff5,2022-10-17,9266218a,No longer pass srcSize to minTableLog,2,2,4,4,4,4,0,0,0,2,0,0,1,0,0,0,0,30,1,2,4,0,0,0,0,0
+zstd,b34729018c,2022-10-17,9266218a,Minor simplication: no longer need to check src size if using cardinality for minTableLog,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+zstd,d7841d150b,2022-10-14,88652a84,Make ZSTD_getDictID_fromDDict() Read DictID from DDict,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+zstd,75cd42afd7,2022-10-14,9266218a,Update regression results and better variable naming for HUF_cardinality,3,2,230,229,7,6,1,0,0,2,0,0,0,0,0,0,0,29,1,2,7,0,0,0,0,0
+zstd,c4853e1553,2022-10-14,9266218a,Update threshold to use optimal depth,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+zstd,e60cae33cf,2022-10-14,9266218a,Additional ratio optimizations,2,2,17,4,17,4,0,0,0,2,0,0,1,0,1,0,0,29,1,2,14,0,0,0,0,0
+zstd,b7d55cfa0d,2022-10-12,0e12f98b,fix issue #3119,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,37,0,0,4,0,0,0,0,0
+zstd,fa7d9c1139,2022-10-11,9266218a,Set threshold to use optimal table log,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,96,2,2,3,0,0,0,0,0
+zstd,8888a2ddcc,2022-10-11,9266218a,CI failure fixes,48,12,944,235,216,82,1,0,0,23,1,0,7,0,3,0,0,572,17,88,164,0,0,0,0,0
+zstd,5635827ede,2022-09-22,cd336ba1,Move ZSTD_DEPRECATED before ZSTDLIB_API/ZSTDLIB_STATIC_API,1,1,12,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,1,0
+zstd,434ffe979c,2022-09-22,0e12f98b,minor: refactor publication of ZSTD_copyCCtx(),1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1
+zstd,358787764f,2022-09-21,03bf6186,Fix for `zstd` CLI accepts bogus values for numeric parameters (#3268),4,1,82,4,16,4,1,0,0,1,0,0,0,0,0,0,0,572,1,4,15,0,0,0,0,0
+zstd,ce52acd7dc,2022-09-18,2d6e0063,compress:check more bytes to reduce ZSTD_count call,1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,150,2,2,2,0,0,0,0,1
+zstd,e46b12e1b4,2022-09-12,9266218a,fix indentation,1,1,17,17,17,17,1,0,0,1,0,0,0,0,0,0,0,253,1,15,15,0,0,0,0,0
+zstd,a1d89424c2,2022-09-12,9266218a,fuzzer error fix,1,1,15,15,15,15,1,0,0,1,0,0,0,0,0,0,0,253,1,15,15,0,0,0,0,0
+zstd,aa82998821,2022-09-09,9266218a,add sequence bound function,2,2,13,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+zstd,a06e953db9,2022-09-08,9266218a,"some additional comments, remove apt-get from clang jobs, better test titles",3,1,7,9,2,2,0,0,0,1,0,0,0,0,0,0,0,253,1,2,2,0,0,0,1,0
+zstd,0015308c0f,2022-09-08,c326dcd6,Fix typos found by codespell,2,1,7,7,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,3d7f9a90df,2022-09-08,9266218a,skip flush operation in case where op is NULL,1,1,5,4,5,4,0,0,0,1,0,0,1,0,0,0,0,253,1,5,5,0,0,0,0,0
+zstd,f3ddaaddd6,2022-09-08,9266218a,ternary operator instead of if statement,1,1,4,6,4,6,0,0,0,1,0,0,0,1,0,0,0,252,1,2,2,0,0,0,0,0
+zstd,028842788b,2022-09-07,9266218a,fix zero offset to nullpointer errors,1,1,6,2,6,2,1,0,0,1,0,0,1,0,0,0,0,256,1,6,6,0,0,0,0,0
+zstd,3b4e47092e,2022-08-15,306a5a27,Document pass-through behavior (#3242),6,1,36,9,3,2,0,0,0,2,0,0,0,0,0,0,0,85,1,1,3,0,0,0,0,0
+zstd,1c847e2e32,2022-08-08,769f7caf,Add description for ZSTD_decompressStream and ZSTD_initDStream,1,1,19,1,19,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+zstd,03cc84fddb,2022-08-04,f57476b0,Add explicit --pass-through flag and default to enabled for *cat (#3223),7,4,125,5,33,5,0,0,0,4,0,0,3,0,1,0,0,572,3,21,27,0,0,0,0,0
+zstd,d0dcc9d775,2022-08-04,54baa9d9,fix issue #3144 (#3226),4,1,23,0,2,0,1,0,0,1,0,0,1,0,0,0,0,570,1,2,2,0,0,0,0,0
+zstd,3dfcafacd7,2022-08-03,0e12f98b,fileio_types.h : avoid dependency on mem.h,4,4,23,22,23,22,0,0,0,6,0,0,0,0,0,0,0,568,2,8,23,0,0,1,0,0
+zstd,a925362534,2022-08-03,0e12f98b,minor : fixed missing include,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0

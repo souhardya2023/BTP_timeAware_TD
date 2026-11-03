@@ -1,0 +1,152 @@
+{
+ "commit": {
+  "n": 20988,
+  "analysed": 20960,
+  "lines_q": {
+   "0.25": 4.0,
+   "0.5": 12.0,
+   "0.75": 38.0,
+   "0.9": 110.0,
+   "0.99": 997.0
+  },
+  "files_med": 1.0,
+  "funcs_med": 1.0,
+  "single_func": 0.39,
+  "bugfix_share": 0.19,
+  "fix_lines": 8.0,
+  "nonfix_lines": 13.0
+ },
+ "dilution_pct": {
+  "median": 0.149,
+  "p90": 1.76,
+  "fix": 0.092
+ },
+ "events": {
+  "created_smell": {
+   "n": 1847,
+   "nloc1": 40.0,
+   "nloc0": 0.0,
+   "changed": 26.0,
+   "bugfix": 0.04
+  },
+  "deleted_smell": {
+   "n": 970,
+   "nloc1": 0.0,
+   "nloc0": 46.0,
+   "changed": 0.0,
+   "bugfix": 0.02
+  },
+  "grew_smell": {
+   "n": 7651,
+   "nloc1": 67.0,
+   "nloc0": 62.0,
+   "changed": 5.0,
+   "bugfix": 0.18
+  },
+  "introduced_smell": {
+   "n": 881,
+   "nloc1": 35.0,
+   "nloc0": 25.0,
+   "changed": 8.0,
+   "bugfix": 0.15
+  },
+  "removed_smell": {
+   "n": 626,
+   "nloc1": 19.0,
+   "nloc0": 38.0,
+   "changed": 3.0,
+   "bugfix": 0.09
+  },
+  "shrank_smell": {
+   "n": 3104,
+   "nloc1": 62.0,
+   "nloc0": 68.0,
+   "changed": 2.0,
+   "bugfix": 0.11
+  }
+ },
+ "created_removed": [
+  2728,
+  1596
+ ],
+ "commit_share": {
+  "create": 0.065,
+  "remove": 0.037,
+  "touch": 0.412
+ },
+ "creating_commit_lines": [
+  122.0,
+  141.0
+ ],
+ "author_top10": [
+  0.79,
+  1.0
+ ],
+ "author_experience_corr": 0.38,
+ "bugfix_or_touch": [
+  1.35,
+  1.17,
+  1.55
+ ],
+ "bugfix_or_create": [
+  0.76,
+  0.6,
+  0.96
+ ],
+ "sad": {
+  "added": 604,
+  "removed": 548,
+  "p_create_with": 0.214,
+  "p_create_without": 0.062,
+  "share": 0.017
+ },
+ "type_share": {
+  "security": 0.095,
+  "concurrency": 0.145,
+  "dependency": 0.234,
+  "coupling": 0.348,
+  "complexity": 0.178
+ },
+ "mixed_share": 0.085,
+ "type_size": {
+  "security": 11.0,
+  "concurrency": 17.0,
+  "dependency": 12.0,
+  "coupling": 18.0,
+  "complexity": 27.0
+ },
+ "type_dilution": {
+  "security": 0.067,
+  "concurrency": 0.195,
+  "dependency": 0.141,
+  "coupling": 0.188,
+  "complexity": 0.338
+ },
+ "candidates": {
+  "created_smell": 118,
+  "deleted_smell": 50,
+  "grew_smell": 2709,
+  "introduced_smell": 309,
+  "removed_smell": 142,
+  "shrank_smell": 901
+ },
+ "clean_removals": [
+  143,
+  30
+ ],
+ "clean_intro": [
+  419,
+  33,
+  94
+ ],
+ "fix_pairs": {
+  "security": [
+   244,
+   28
+  ],
+  "concurrency": [
+   121,
+   21
+  ]
+ }
+}

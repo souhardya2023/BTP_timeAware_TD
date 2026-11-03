@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+cause_effect,v0.1,v0.2,0,0.3555,61,204,41,1,3
+cause_effect,v0.2,v0.3,1,1.7993,17,262,89,5,8
+cause_effect,v0.3,v0.4,2,1.2852,20,264,80,4,7
+cause_effect,v0.4,v0.5,3,1.0194,14,275,73,3,6

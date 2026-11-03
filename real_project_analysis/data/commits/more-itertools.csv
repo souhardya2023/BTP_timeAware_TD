@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+more-itertools,fbd55137fe,2026-10-26,8b87d89b,fix: validate the chunk size in chunked_even,2,1,18,0,5,0,1,0,0,1,1,0,0,0,0,0,0,27,1,4,4,0,0,0,0,0
+more-itertools,bafe069b72,2026-10-16,75de90e2,Speed up interleave_longest(),1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+more-itertools,da864da6d8,2026-10-14,22decb34,Version 11.2.1: Include additional files in sdist,4,1,26,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+more-itertools,909b70336c,2026-10-13,22decb34,Bump version to 11.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,e6ce1b0f65,2026-10-11,8b87d89b,Fix peekable slice with negative step and omitted stop unnecessarily caching entire iterable,3,1,28,2,14,2,1,0,0,1,0,0,1,0,0,0,0,28,1,12,12,0,0,0,0,0
+more-itertools,98562cab07,2026-10-09,22decb34,Revert PR 1194 changes to tail,3,1,5,24,0,3,0,0,0,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0
+more-itertools,0ab351d380,2026-10-09,22decb34,Revert PR 1182 changes to iter_index,3,1,74,26,0,7,0,0,0,1,0,1,0,0,0,0,0,13,1,0,0,0,0,0,0,0
+more-itertools,a2c619c1de,2026-10-09,edbf9b64,Improve docstring for iter_except(),1,1,9,13,9,13,0,0,0,1,0,0,0,0,0,0,0,6,0,0,8,0,0,0,0,0
+more-itertools,0cfb9f501d,2026-10-09,edbf9b64,Micro-optimization for partition,1,1,3,1,3,1,0,0,0,2,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+more-itertools,5236f040f5,2026-10-09,edbf9b64,Additional example for quantify,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,67fcf64047,2026-10-06,6dfe02b0,fix: honour a falsey validator in bucket (#1308),3,1,19,1,4,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+more-itertools,f89d7a3331,2026-09-29,58ea98f1,Issue 1304: make ichunked match chunked for n=0 and negative n,3,1,19,1,5,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+more-itertools,237642ea8a,2026-09-27,cd67b4fd,Use the same literal markup as the explicit-step case,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,031c1a62bd,2026-09-27,cd67b4fd,Document that numeric_range's default step is typed from stop - start,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+more-itertools,ca0586d550,2026-09-25,20321702,Remove redundant seekable peek cache check,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,0,0,0,0,1,0
+more-itertools,ed1bd2d470,2026-09-25,22decb34,Optimize maxlen == 0,1,1,6,1,6,1,0,0,0,2,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+more-itertools,3eb4053e1a,2026-09-22,20321702,Bound zero-cache seekable lookahead storage,2,1,34,6,3,6,0,0,0,2,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+more-itertools,262dbb9805,2026-09-21,56af9e0e,fix: check maxlen with getattr instead of isinstance,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+more-itertools,670b715b30,2026-09-18,4bd7c6d8,Validate running window sizes through the index protocol,3,1,54,0,6,0,0,0,0,4,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+more-itertools,288d6da005,2026-09-17,edbf9b64,Issue #1287: Less aggressive fix for issue #1284,1,1,5,8,5,8,1,0,0,3,0,0,0,0,0,0,0,18,0,0,5,0,0,0,0,0
+more-itertools,0c5183863a,2026-09-17,5bb5b7ab,Keep the cached append within the 79-column limit,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+more-itertools,2b8d5cddce,2026-09-17,5bb5b7ab,Issue 1284: don't let a bucket lookup invent a key,2,1,40,4,8,4,0,0,0,3,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+more-itertools,def2dabea8,2026-09-14,3f1a503e,Fix one()/only() dropping a falsy user-supplied exception,3,1,59,5,9,5,1,0,0,2,0,0,0,0,0,0,0,14,0,0,9,0,0,0,0,0
+more-itertools,feaddee0ff,2026-09-12,60a8a71f,Optimize numeric_range reverse iteration following review,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+more-itertools,e426d256b9,2026-09-12,1829d1f9,Reuse input iterators in zip_broadcast,2,1,28,8,7,8,0,0,0,1,0,0,0,0,1,1,0,21,0,0,7,0,0,0,0,0
+more-itertools,752799b5c8,2026-09-11,60a8a71f,Preserve numeric_range values during reverse iteration,3,1,21,9,1,9,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,d032cab779,2026-09-09,3d96a47f,fix nonpositive item limits in constrained_batches,1,1,3,1,3,1,1,0,0,1,1,0,0,0,0,0,0,26,1,3,3,0,0,0,0,0
+more-itertools,6b1907de29,2026-09-09,56af9e0e,fix: seekable.peek/bool no longer drop items when maxlen is 0,2,1,19,0,5,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+more-itertools,0e6dce3a7a,2026-09-09,0e8527b6,Clarify `combination_with_replacement_index` a bit,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+more-itertools,1b74b56d03,2026-09-08,0e8527b6,Fix/simplify `combination_with_replacement_index`,1,1,9,23,9,23,1,0,0,1,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,1
+more-itertools,1fd388bc23,2026-09-07,4bd7c6d8,Validate running window sizes through the index protocol,3,1,54,0,6,0,0,0,0,4,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+more-itertools,b8e0cbb8ed,2026-09-06,199c519e,Add missing word in docstring,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+more-itertools,ddd678209d,2026-09-06,edbf9b64,Thinner API with only random_ordered_range(),5,1,22,175,3,42,0,0,0,1,0,0,0,0,0,4,0,7,0,0,1,0,0,0,0,0
+more-itertools,caaec943d8,2026-09-06,edbf9b64,Add random ordered combinatoric functions,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+more-itertools,dee22c93f7,2026-09-06,edbf9b64,Remove special case logic for cwr,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,1,0
+more-itertools,b8fe92096c,2026-09-06,edbf9b64,Add random ordered combinatoric functions,5,1,236,0,82,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,59,0,0,0,0,0
+more-itertools,ce676d2413,2026-09-04,cc56c5da,Do not yield an empty list for an empty iterable when maxsplit is 0,3,1,41,17,9,3,0,0,0,3,0,0,0,0,0,0,0,23,0,0,9,0,0,0,1,0
+more-itertools,7847d4324a,2026-09-03,5bb5b7ab,Don't mask TypeError raised while iterating in value_chain,2,1,25,1,3,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+more-itertools,dc2664b4a7,2026-09-02,5bb5b7ab,Issue 1247: Keep numeric_range consistent with the items it produces,2,1,89,15,38,15,0,0,0,3,0,0,0,0,2,0,0,20,0,0,24,0,0,0,0,0
+more-itertools,63ee583047,2026-08-29,199c519e,Clarify output order for sortable input elements,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,29,1,2,2,0,0,0,0,0
+more-itertools,237388cc32,2026-08-10,0e8527b6,Simplify and speed up nth_permutation,1,1,4,5,4,5,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,1
+more-itertools,63243787b0,2026-08-04,22decb34,Update the convolve docstring,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+more-itertools,794fe558a6,2026-08-04,a8d7f978,Document suggested method to unique-ify `duplicates_everseen` output,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,1
+more-itertools,0e6acdf9b6,2026-07-19,a8b784b8,Raise a clear ValueError for negative n in chunked(),2,1,12,0,3,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+more-itertools,f312dce1a2,2026-07-16,22decb34,Run the formatter,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,eedb79a899,2026-07-16,22decb34,Issue 1215: Add docstring note for iter_index on using range objects,1,1,7,2,7,2,0,0,0,1,0,0,0,0,0,0,0,16,1,5,5,0,0,0,0,0
+more-itertools,069b30002a,2026-07-16,22decb34,Issue 1214: Update __eq__ and __hash__ for numeric_range,2,1,48,58,31,16,0,0,0,2,0,0,0,0,0,0,0,15,0,0,19,0,0,0,0,0
+more-itertools,c92c4fa26e,2026-07-12,edbf9b64,Let the invariant speak for itself,1,1,0,14,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,eb3ac850dd,2026-07-12,edbf9b64,Better align the comment with the code,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,7c17fc62eb,2026-07-12,edbf9b64,min() is implemented with LT and max() with GT,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+more-itertools,d992be0de9,2026-07-12,edbf9b64,Fix stability in running_min and running_max,2,1,52,14,36,14,1,0,0,2,0,0,0,0,0,0,0,9,0,0,14,0,0,0,0,0
+more-itertools,07eb790b4a,2026-07-12,adf88b76,Add threading to lazy_modules.  Revert c6b640,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,9,0,0,4,0,1,1,0,0
+more-itertools,bb70114ae6,2026-07-10,a8d7f978,Sort `__all__`,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+more-itertools,4a02e36621,2026-07-10,a8d7f978,Sort `__all__`,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+more-itertools,71253170de,2026-07-06,a8d7f978,Remove redundant u-prefix strings,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,1,0
+more-itertools,958990e22c,2026-07-02,53cec91a,Raise for negative slice sizes in sliced(),2,1,12,0,3,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+more-itertools,208fbcdede,2026-07-02,a8d7f978,Use `.. deprecated::` directive for `pairwise`,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,6d6052d60b,2026-07-02,a8d7f978,Use `.. deprecated::` directive for `callback_iter`,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,d64a7d6971,2026-06-30,f38f3606,Raise for negative tail sizes on sized iterables,2,1,7,0,3,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+more-itertools,f51a53bfd2,2026-06-29,e422e597,fix: handle empty interleave_evenly input,2,1,7,0,3,0,1,0,0,1,0,0,1,0,0,0,0,32,1,2,2,0,0,0,0,0
+more-itertools,43decdd760,2026-06-17,03cf4f1a,Support negative start/stop in iter_index for general iterables,3,1,30,0,7,0,0,0,0,1,1,0,0,0,0,0,0,16,1,3,3,0,0,0,0,0
+more-itertools,aa3fd14cc9,2026-06-17,a8d7f978,commit 2,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,c6b640cade,2026-06-17,a8d7f978,commit,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+more-itertools,fc43f8c688,2026-06-15,a8d7f978,commit,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+more-itertools,842a2b17a8,2026-06-09,edbf9b64,Add subfactorial(),5,1,63,1,29,1,0,0,0,1,0,0,0,0,1,0,0,7,0,0,23,0,0,0,0,0
+more-itertools,ec3e6a1988,2026-06-08,038de0ea,Fix typos in lstrip and consecutive_groups docstrings,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+more-itertools,319b243823,2026-06-07,edbf9b64,Reversed is more general than seq[-1],1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+more-itertools,f7b44bba5c,2026-05-23,edbf9b64,Apply variable renaming to avoid cost of a swap,1,1,18,10,18,10,0,0,0,1,0,0,1,0,0,0,0,39,1,18,18,0,0,0,0,0
+more-itertools,03a08ec245,2026-05-18,22decb34,Changes for version 11.1.0,2,1,11,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,9af73b9ca0,2026-05-18,22decb34,Bump version: 11.0.2 → 11.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,ba7ef9425f,2026-05-13,5f9ce438,Add seekable.__getitem__ to access the internal cache,3,1,32,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+more-itertools,1c85ece40f,2026-05-01,edbf9b64,Make attributes private. Support all generator methods.,1,1,29,5,29,5,0,0,0,2,0,0,0,0,3,0,0,3,0,0,23,0,0,0,1,0
+more-itertools,b5ebe53641,2026-04-22,edbf9b64,Switch from itemgetter() to compress(),1,1,6,9,6,9,0,0,0,1,0,0,0,1,0,0,0,69,1,6,6,0,0,0,0,0
+more-itertools,45a9b51485,2026-04-21,edbf9b64,itemgetter() is faster than a K combinator lambda.,1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,71,1,4,4,0,0,0,0,0
+more-itertools,975c157ed9,2026-04-20,edbf9b64,Side counter,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,69,1,3,3,0,0,0,0,0
+more-itertools,5e4893f87d,2026-04-20,edbf9b64,Side counter,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,68,1,3,3,0,0,0,0,0
+more-itertools,ddc0d86770,2026-04-12,3fd31e4b,Add __class_getitem__ to peekable for generic type subscript support,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,edb3346f83,2026-04-10,22decb34,Fix empty ranges in numeric_range.__reversed__,2,1,10,3,7,3,1,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+more-itertools,6294fa6186,2026-04-08,edbf9b64,Move running statistics to recipes,5,2,151,161,125,128,0,0,0,1,0,0,0,0,5,5,0,10,0,0,89,0,0,0,1,0
+more-itertools,ca21d8be1b,2026-04-07,22decb34,Bump version to 11.0.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,95ce3352d6,2026-04-07,edbf9b64,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+more-itertools,2fcf9ef942,2026-04-02,22decb34,Changes for version 11.0.1,4,2,18,5,8,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,8,0,0,0,0,0
+more-itertools,52cfcfedc3,2026-04-02,22decb34,"Revert ""Remove pairwise()""",5,1,14,3,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,1,0
+more-itertools,06626d5d47,2026-04-01,22decb34,callback_iter is deprecated,2,1,6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+more-itertools,c91ba4ee38,2026-04-01,22decb34,Fix formatting in unique_everseen,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+more-itertools,71b46b06fb,2026-03-31,edbf9b64,Issue #1057: Raise exception for invalid size in windowed(),2,1,6,8,2,5,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+more-itertools,87e5c5bd0f,2026-03-31,edbf9b64,"Revert ""quantify: pred -> predicate""",2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,93c1cf8484,2026-03-31,edbf9b64,"Revert ""first_true: pred -> predicate""",4,2,8,8,5,5,0,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+more-itertools,e90bda0657,2026-03-31,edbf9b64,transpose: it -> matrix,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,bca980656d,2026-03-31,edbf9b64,sum_of_squares: it -> iterable,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,1f95c4155c,2026-03-31,edbf9b64,iter_except: func -> function,2,1,5,5,3,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+more-itertools,d63a26e56e,2026-03-31,edbf9b64,first_true: pred -> predicate,4,2,8,8,5,5,0,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+more-itertools,d0c20f5946,2026-03-31,edbf9b64,quantify: pred -> predicate,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,a7bac4a4b0,2026-03-31,edbf9b64,flatten: listOfLists -> list_of_lists,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,38b66e2865,2026-03-31,edbf9b64,repeatfunc: func -> function,2,1,6,6,4,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+more-itertools,26a54030be,2026-03-31,edbf9b64,prepend:  iterator -> iterable,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,0,0,0,0
+more-itertools,8089263d23,2026-03-31,edbf9b64,Issue: #898: Sync recipe with main docs. Eliminate quadratic fallback.,3,1,54,41,23,31,0,0,0,1,0,0,0,0,0,0,0,12,0,0,23,0,0,0,0,0
+more-itertools,6d43b18491,2026-03-31,22decb34,Docs changes for 11.0.0,4,1,52,4,3,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+more-itertools,63039f708e,2026-03-31,22decb34,Bump version: 10.8.0 → 11.0.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,18c57c720f,2026-03-31,cfd292bd,Issue #1134: Add running_statistics (#1135),8,2,499,18,167,12,0,0,0,1,0,0,0,0,6,0,0,7,0,0,118,0,0,0,0,0
+more-itertools,dfeb321bba,2026-03-23,edbf9b64,#1130:  Improve partition() memory efficiency,1,1,16,4,16,4,0,0,0,1,0,0,0,0,1,0,0,8,0,0,14,0,0,0,0,0
+more-itertools,b290c272d9,2026-03-23,cd4b1d79,"docs: add cross-references between groupby_transform, bucket, and map_reduce",1,1,20,1,20,1,0,0,0,2,0,0,0,0,0,0,0,16,0,0,15,0,0,0,0,1
+more-itertools,a51da8244b,2026-02-20,feb25805,Fix numeric_range slicing with negative step returning empty range,1,1,6,17,6,17,1,0,0,1,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+more-itertools,db4f41b280,2026-02-09,22decb34,Add running_mean recipe,3,1,42,1,17,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+more-itertools,d71c4ad9f8,2026-02-08,3fce99df,fix: prevent _marker from being passed to user predicates in replace() and locate(),2,1,20,8,17,5,1,0,0,2,0,0,0,0,0,0,0,17,0,0,13,0,0,0,0,0
+more-itertools,be5793a55f,2026-02-02,edbf9b64,Two fixes for repeat with iterator arguments,2,1,15,2,3,2,1,0,0,2,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+more-itertools,fdbd43c569,2026-01-28,22decb34,Update sized_iter for merging,1,1,13,15,13,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+more-itertools,f91c7339f1,2026-01-28,f75d86b4,Add sized_iterator class,4,1,54,0,34,0,0,0,0,18,0,0,0,0,4,0,0,23,0,0,25,0,0,0,0,0
+more-itertools,7c10fbd5cb,2026-01-10,edbf9b64,Fast path when *initial* is specified,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,3f43b98e87,2026-01-07,36321297,Simpler faster `ichunked`,1,1,5,42,5,42,0,0,0,1,0,0,0,0,0,3,0,7,0,0,5,0,0,0,0,0
+more-itertools,5a62e4f754,2026-01-05,22decb34,Issue 895: Warnings for files in with_iter,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+more-itertools,18ebe6f04e,2026-01-02,edbf9b64,Beautification,1,1,2,14,2,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,f5e92de40c,2026-01-02,edbf9b64,Use math.prod() in nth_product(),1,1,16,5,16,5,0,0,0,2,0,0,0,0,0,0,0,13,0,0,16,0,0,0,0,0
+more-itertools,06f3181912,2026-01-02,edbf9b64,Simplify nth_combination_with_replacement. Fix incorrect exception.,2,1,12,10,4,7,1,0,0,1,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,1
+more-itertools,def2d821c0,2026-01-02,edbf9b64,Simplify nth_permutation. Fix incorrect exception.,2,1,8,17,4,11,1,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,1
+more-itertools,5afff59d13,2025-12-31,edbf9b64,Clearer range check,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+more-itertools,d9adeb4e31,2025-12-31,edbf9b64,Sync exception with the code equivalent,2,1,5,8,1,5,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+more-itertools,fa3b62edda,2025-12-31,edbf9b64,Simplify nth_combination with math.comb(),1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,1
+more-itertools,b0aa91efbb,2025-12-30,edbf9b64,Fix random_product() as well,2,1,9,1,1,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+more-itertools,073d23421b,2025-12-30,edbf9b64,"Fix support for iterators using ""repeat""",2,1,12,2,2,2,1,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+more-itertools,f0f662ea07,2025-12-18,edbf9b64,Faster instantiation,1,1,5,6,5,6,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+more-itertools,baa6fc149c,2025-12-04,edbf9b64,Harmonize random_product API with itertools.product,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+more-itertools,bcbdae2f86,2025-12-04,edbf9b64,"Consistent functional style with tuple(map, ...)",1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+more-itertools,d6e0d18c81,2025-12-04,edbf9b64,Fix code equivalent to show the tuple conversion,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,584acbc614,2025-12-04,edbf9b64,Sync code equivalents,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+more-itertools,bf78689202,2025-12-04,edbf9b64,Multiply iterables immediately,2,1,8,5,4,5,0,0,0,4,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+more-itertools,5e6ae76a61,2025-12-04,edbf9b64,Add repeat keyword argument to partial_product(),3,1,15,2,6,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+more-itertools,867798d4ce,2025-12-04,edbf9b64,Add repeat keyword argument to gray_product,3,1,15,3,6,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,5,0,0,0,0,0
+more-itertools,b0106bae26,2025-12-04,edbf9b64,Add repeat keyword argument to product_index,3,1,20,4,9,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+more-itertools,37ae0d6dd5,2025-12-04,edbf9b64,Add repeat keyword argument to nth_product,3,1,18,4,9,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+more-itertools,205dcb9f4f,2025-11-26,22decb34,Issue 1049: Try .result with a timeout,1,1,9,6,9,6,0,0,0,2,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+more-itertools,315fc8fe2d,2025-11-18,edbf9b64,Add __slots__ to _concurrent_tee,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+more-itertools,923ee93122,2025-11-12,edbf9b64,.,1,1,8,8,8,8,0,0,0,2,0,0,0,0,0,0,0,17,0,0,6,0,0,0,0,0
+more-itertools,9f29db1aaf,2025-11-12,edbf9b64,Separate generators for each path,1,1,29,24,29,24,0,0,0,1,0,0,0,0,1,0,0,6,0,0,21,0,0,0,0,0
+more-itertools,2af32e1202,2025-11-12,edbf9b64,Add monotonic option to extract(),3,1,59,4,27,3,0,0,0,1,0,0,0,0,1,0,0,23,0,0,24,0,0,0,1,0
+more-itertools,428a0a2c8d,2025-11-11,edbf9b64,Issue 1098: Add synchronized decorator,5,1,74,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,20,0,1,0,0,0
+more-itertools,1b7f033d50,2025-11-06,edbf9b64,Issue 1096: Concurrent tee,5,1,115,2,50,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,41,0,1,0,0,0
+more-itertools,4f399222d0,2025-11-05,edbf9b64,Issue 1093: Add serialize(),5,1,69,3,24,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,17,0,0,0,0,0
+more-itertools,fabe163f54,2025-10-31,edbf9b64,Use list comprehensions where possible,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+more-itertools,0ce3e5de83,2025-10-31,edbf9b64,More functional code,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+more-itertools,528e0356db,2025-10-31,edbf9b64,Hoist constant tuple out of loop,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+more-itertools,b3adf9ede3,2025-10-31,edbf9b64,Harmonize substrings() with subslices(),1,1,8,11,8,11,0,0,0,1,0,0,0,0,0,0,0,6,0,0,7,0,0,0,0,0
+more-itertools,70885b5a9c,2025-10-31,edbf9b64,Fast path for count_cycle() bounded case.,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,1,0,0
+more-itertools,adeda34bd1,2025-10-28,edbf9b64,Fix bug for negative inputs to exactly_n(). Optimize code.,2,1,21,2,14,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,13,0,0,0,0,0
+more-itertools,11faeef6ab,2025-10-20,72b56ed9,Replaced IteratorCounterWrapper by countable,1,1,4,18,4,18,0,0,0,9,0,0,0,0,0,3,0,67,1,4,4,0,0,0,0,0
+more-itertools,5927603151,2025-10-19,72b56ed9,islice_extended: Reduce memory consumption peak,1,1,22,7,22,7,0,0,0,10,0,0,1,0,3,0,0,67,1,8,18,0,0,0,0,1
+more-itertools,619ab9ce9a,2025-10-13,edbf9b64,Add baseset to powerset_of_sets,3,1,15,4,6,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+more-itertools,f22a1e6153,2025-10-11,edbf9b64,Grammar fix,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+more-itertools,f90849b63d,2025-10-11,edbf9b64,Issue 1083: Improve docs for unique_in_window(),1,1,10,2,10,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,7,0,0,0,0,0
+more-itertools,cf186b5de4,2025-10-10,edbf9b64,Fix product_index() with iterator input,2,1,7,2,1,2,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,7f6e101d2e,2025-10-09,edbf9b64,Sync grouper() recipe with main docs using Py3.10 match/case.,2,1,10,9,9,8,0,0,0,1,0,0,0,0,0,0,0,11,0,0,9,0,0,0,0,0
+more-itertools,ccf96ac64c,2025-10-09,edbf9b64,Issue 1070: Add random derangements,5,1,53,3,22,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,18,0,0,0,0,0
+more-itertools,4332c7e59a,2025-10-09,edbf9b64,Remove unnecessary fillvalue trick from product_index(),1,1,7,7,7,7,0,0,0,1,0,0,0,0,0,0,0,9,0,0,7,0,0,0,1,0
+more-itertools,120ee0a599,2025-10-09,edbf9b64,Issue 900: Replace iequals fillvalue logic with strict size test,2,1,9,2,4,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+more-itertools,8ce301704c,2025-10-09,edbf9b64,Remove unnecessary layer of indirection,1,1,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,1,0
+more-itertools,946323176b,2025-09-11,edbf9b64,Fix deprecated typing imports. Remove unnecessary Hashable parent.,2,1,9,9,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+more-itertools,24be440015,2025-09-02,22decb34,Add note for issue 1054,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+more-itertools,3dd5980a6d,2025-09-02,22decb34,Add a note for issue 1063,1,1,6,5,6,5,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+more-itertools,2ce52d1049,2025-09-01,22decb34,Update docs for 10.8.0,4,1,38,4,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+more-itertools,eae915618a,2025-09-01,22decb34,Bump version: 10.7.0 → 10.8.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,9a3d7e31e6,2025-09-01,edbf9b64,Clarify how derangements treats duplicate inputs,1,1,14,2,14,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,10,0,0,0,0,1
+more-itertools,c509b1434e,2025-09-01,edbf9b64,Clean-up tail().  Prefer try/except over the Sized ABC.,1,1,5,8,5,8,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+more-itertools,099da68d7a,2025-09-01,edbf9b64,Readability improvement for reshaped(),1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+more-itertools,24035f6639,2025-08-28,edbf9b64,Adopt reviewer suggestion,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+more-itertools,f7134fa18c,2025-08-28,edbf9b64,Vectorize count_cycle(),1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,1,0,0
+more-itertools,7554159ff2,2025-08-27,edbf9b64,Remove outdated comment,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,196acd2325,2025-08-27,edbf9b64,Remove pairwise(),5,1,10,39,1,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+more-itertools,ca002789a2,2025-08-27,edbf9b64,Set minimum version to Py3.10. Remove deprecated zip_equal. Remove _zip_strict.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+more-itertools,74c001a4b3,2025-08-27,edbf9b64,Get coverage to 100%,2,1,15,9,9,9,0,0,0,1,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+more-itertools,4e105c4cd2,2025-08-26,edbf9b64,Get coverage to 100%,2,1,17,11,11,11,0,0,0,1,0,0,0,0,0,0,0,10,0,0,11,0,0,0,0,0
+more-itertools,21d3d88359,2025-08-21,cfd292bd,Issue 1003: Multidimensional reshape() (#1062),3,1,117,9,60,8,0,0,0,1,0,0,0,0,2,0,0,6,0,0,48,0,0,0,0,0
+more-itertools,396e9187e7,2025-08-16,36321297,`unzip`: replace custom itemgetter,1,1,11,19,11,19,0,0,0,1,0,0,0,0,0,2,0,10,0,0,4,0,0,0,0,0
+more-itertools,b10b4c5abe,2025-08-15,36321297,`unzip`: replace custom itemgetter,1,1,11,19,11,19,0,0,0,1,0,0,0,0,0,2,0,10,0,0,4,0,0,0,0,0
+more-itertools,361b925673,2025-08-15,edbf9b64,Set minimum version to Py3.10. Remove deprecated zip_equal. Remove _zip_strict.,7,2,18,196,13,94,0,0,0,4,0,0,0,0,0,4,0,20,0,0,13,0,0,0,1,0
+more-itertools,4a02cad913,2025-08-14,edbf9b64,Eliminate unnecessary variable,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+more-itertools,11c8280461,2025-08-14,edbf9b64,Fix review comments,2,1,6,8,1,3,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+more-itertools,05bd1299b5,2025-08-13,edbf9b64,Eliminate unnecessary variable,1,1,5,6,5,6,0,0,0,1,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+more-itertools,5bd5c263f9,2025-08-13,edbf9b64,Working draft,5,1,150,0,47,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,35,0,0,0,0,0
+more-itertools,70d5b0fa02,2025-08-08,520f9c92,Update more_itertools/more.py,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+more-itertools,7f21fb1411,2025-08-07,b77e4691,Add interleave_randomly,3,1,59,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+more-itertools,7646cd01bf,2025-08-02,edbf9b64,Pretty is as pretty does,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,aebf56ca35,2025-08-02,edbf9b64,Simplify with a conditional expression,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,1
+more-itertools,be6c8d7a35,2025-08-02,edbf9b64,"Improve variable names. The ""window"" slides across the data in arrival order.",1,1,10,10,10,10,0,0,0,1,0,0,0,0,0,0,0,16,0,0,10,0,0,0,0,0
+more-itertools,c083f73255,2025-08-02,edbf9b64,"Adjust ""no cover"" pragmas",1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+more-itertools,5b79a6360d,2025-08-02,edbf9b64,Fold _sorted_window into _running_median_windowed,1,1,8,22,8,22,0,0,0,1,0,0,0,0,0,1,0,16,0,0,7,0,0,0,0,0
+more-itertools,fffcd7a1e8,2025-08-02,edbf9b64,Remove speculative part of the comment block,1,1,3,9,3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,f559403c54,2025-08-01,edbf9b64,"Consistent use of ""maxlen"" formal parameter",1,1,7,7,7,7,0,0,0,2,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+more-itertools,f8ccab2285,2025-08-01,edbf9b64,Various small improvments,3,1,22,14,16,10,0,0,0,3,0,0,0,0,0,0,0,11,0,0,14,0,0,0,0,0
+more-itertools,5c8336c5f3,2025-08-01,edbf9b64,Draft of running_median() with windowed data,3,1,107,33,77,29,0,0,0,2,0,0,0,0,3,0,0,11,0,0,49,0,0,0,0,0
+more-itertools,6887a7bd5a,2025-07-31,edbf9b64,Add running_median,5,1,112,1,70,1,0,0,0,1,0,0,0,0,2,0,0,12,0,0,42,0,0,0,0,0
+more-itertools,7b18730e1e,2025-07-28,edbf9b64,Fix linespacing,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,113f3e6f5d,2025-07-28,edbf9b64,Remove future warning,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,e9c2ead90d,2025-07-27,edbf9b64,Add a reference link,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+more-itertools,d700eef6f5,2025-07-27,edbf9b64,Indicate code block,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+more-itertools,682797a732,2025-07-27,edbf9b64,Fix markup,1,1,10,10,10,10,1,0,0,1,0,0,0,0,0,0,0,16,0,0,10,0,0,0,0,0
+more-itertools,4a984ac777,2025-07-27,edbf9b64,Add usage notes for sample(),1,1,25,3,25,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,18,0,0,0,0,0
+more-itertools,b0adf482b3,2025-07-26,edbf9b64,Leave room for refinement,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+more-itertools,fb30d30544,2025-07-26,edbf9b64,Bounds are exclusive,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,1,0,0,0,0
+more-itertools,42a979897f,2025-07-26,edbf9b64,Spread is relative to nth prime not n.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,4539302eee,2025-07-22,36321297,Improve `mark_ends`,1,1,6,13,6,13,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+more-itertools,ca449749bc,2025-07-15,18bb5d93,fix batched IDE/help() docs,2,1,5,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,cca32949f1,2025-07-13,18bb5d93,fix last() when __reversed__ is None,2,1,11,1,1,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+more-itertools,f7476246b4,2025-07-07,22decb34,Fix up operator imports,1,1,10,3,10,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,0
+more-itertools,626ee86a37,2025-07-07,22decb34,Update derangements implementation and docstring,2,1,12,5,11,5,0,0,0,1,0,0,0,0,0,0,0,7,0,0,10,0,0,0,0,0
+more-itertools,f9d784067f,2025-07-03,36321297,Improve `interleave_longest`,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+more-itertools,4005f18dab,2025-06-27,edbf9b64,Fix 1009: Confused docstring for minmax(),1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,31,1,2,2,0,0,0,0,0
+more-itertools,acdb1d9e06,2025-06-27,edbf9b64,Add expected size to the derangements() docstring,1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+more-itertools,9431bd7ac2,2025-06-23,edbf9b64,Remove duplicate test,1,1,0,3,0,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,1
+more-itertools,e7fe24a00b,2025-06-23,edbf9b64,Search upwards from the lb/ub midpoint,1,1,21,17,21,17,0,0,0,1,0,0,0,0,1,1,0,8,0,0,15,0,0,0,0,0
+more-itertools,d49571b46c,2025-06-22,edbf9b64,Apply floor and ceil on separate code paths,2,1,8,7,7,6,0,0,0,1,0,0,0,0,0,0,0,10,0,0,7,0,0,0,0,0
+more-itertools,28359e0177,2025-06-22,edbf9b64,Ruff cleanups,1,1,1,5,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+more-itertools,01520779d1,2025-06-22,edbf9b64,Fast path instead of identity function,2,1,35,17,34,16,0,0,0,3,0,0,0,0,0,0,0,16,0,0,25,0,0,0,0,0
+more-itertools,ef8e6a2a94,2025-06-21,36321297,before_and_after improvement,1,1,4,17,4,17,0,0,0,1,0,0,0,0,0,1,0,4,0,0,4,0,0,0,0,0
+more-itertools,599c0e7293,2025-06-20,22decb34,Reformat docstring,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,0f9237f394,2025-06-18,22decb34,More minmax docstring changes,1,1,6,14,6,14,0,0,0,1,0,0,0,0,0,0,0,31,1,5,5,0,0,0,0,0
+more-itertools,67da4b090e,2025-06-18,edbf9b64,Issue 1005: Document difference from builtin min() and max().,1,1,10,0,10,0,0,0,0,1,0,0,0,0,0,0,0,31,1,8,8,0,0,0,0,0
+more-itertools,0709a37509,2025-06-18,edbf9b64,General cleanups,1,1,7,7,7,7,0,0,0,7,0,0,0,0,0,0,0,21,0,0,7,0,0,0,0,1
+more-itertools,8e0251f10c,2025-06-18,edbf9b64,Fix broken link,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,31,1,1,1,0,0,0,0,0
+more-itertools,277b6aa21a,2025-06-17,edbf9b64,Add approximate option to nth_prime(),1,1,22,2,22,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,14,0,0,0,0,0
+more-itertools,fbe3b49c54,2025-06-17,edbf9b64,Tighter estimate in _nth_prime_ub(),1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+more-itertools,8726eb0a6c,2025-06-16,edbf9b64,Speed-up _complex_sumprod,1,1,8,5,8,5,0,0,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,1
+more-itertools,a16e9c1c9b,2025-06-07,72b56ed9,Improve islice_extended memory usage when stop<0 and step>0,2,1,11,6,7,2,0,0,0,1,0,0,1,0,0,0,0,66,1,3,3,0,0,0,0,0
+more-itertools,cd08f8de54,2025-06-06,edbf9b64,Stick with the inline computation to be closer to the paper.,1,1,2,4,2,4,0,0,0,2,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+more-itertools,519aee10fc,2025-06-06,edbf9b64,Simply the exponential of a scaled logarithm,1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+more-itertools,5f5b48faab,2025-06-04,edbf9b64,convolve() is agnostic to endianness,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,efd3e11a9a,2025-05-29,72b56ed9,Fix lifecycle for current item,1,1,7,2,7,2,1,0,0,1,0,0,1,0,0,0,0,65,1,3,3,0,0,1,0,0
+more-itertools,e96a633546,2025-05-29,72b56ed9,Improve islice_extended memory usage,1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,64,1,4,4,0,0,0,0,0
+more-itertools,cbca4aa4e7,2025-05-15,edbf9b64,Run aspell and check grammar/punctuation with MS Word,2,2,6,6,6,6,0,0,0,4,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+more-itertools,610533d1d9,2025-05-14,edbf9b64,Wordsmithing,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,ed6704c47b,2025-05-14,edbf9b64,Tighten the example,1,1,2,6,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,b619526dff,2025-05-13,edbf9b64,Better alignment,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+more-itertools,6ec8aa78a3,2025-05-13,edbf9b64,Add motivating examples for argmin() and argmax(),1,1,47,10,47,10,0,0,0,2,0,0,0,0,0,0,0,4,0,0,31,0,0,0,0,0
+more-itertools,fb33cf2c24,2025-05-12,22decb34,Issue 986: argmin and argmax,3,1,66,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,24,0,0,0,0,0
+more-itertools,ff4340e1b2,2025-05-02,22decb34,Import operator once,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,1,0,0
+more-itertools,e39ae39c0a,2025-05-02,22decb34,Reject by ID,2,1,72,163,4,31,0,0,0,1,0,0,0,0,0,1,0,6,0,0,4,0,0,0,0,0
+more-itertools,45b6bf81e1,2025-05-01,22decb34,Include derangements function,3,1,2,461,2,100,0,0,0,1,0,0,0,0,0,2,0,7,0,0,2,0,0,1,0,0
+more-itertools,85ebeb23d1,2025-04-30,22decb34,Fix whitespace,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,729f67e242,2025-04-30,22decb34,Add a note about polynomial endianness,1,1,8,0,8,0,0,0,0,4,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+more-itertools,30cb691b43,2025-04-29,edbf9b64,"Improve docstrings for dft, idft, and multinomial",2,2,16,7,16,7,0,0,0,3,0,0,0,0,0,0,0,6,0,0,14,0,0,0,0,0
+more-itertools,00a53d852c,2025-04-29,edbf9b64,More examples,1,1,6,6,6,6,0,0,0,5,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+more-itertools,cd228c1300,2025-04-29,edbf9b64,Issue 980: Fix variable names: iterable vs iterator,1,1,24,24,24,24,1,0,0,9,0,0,0,0,0,0,0,23,0,0,24,0,0,0,0,0
+more-itertools,a0b475f552,2025-04-23,57a1628b,Remove setup.py file,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,4c1a0c7af1,2025-04-22,22decb34,Bump version: 10.6.0 → 10.7.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,c904030580,2025-04-08,b254ff04,Fix some typos,1,1,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+more-itertools,a4e6e84211,2025-04-06,edbf9b64,Document supported data types,1,1,12,0,12,0,0,0,0,6,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,0
+more-itertools,c22d0bc328,2025-04-06,edbf9b64,Copy note from CPython docs,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+more-itertools,e8a7f5a1ab,2025-04-06,edbf9b64,Mention takewhile_inclusive(),1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+more-itertools,dcc6db7b7c,2025-04-05,edbf9b64,Improve wording,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+more-itertools,99d9e9ea31,2025-04-05,edbf9b64,Fix markup,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,af9351c342,2025-04-05,edbf9b64,Nicer ilen() example. Add code equivalent.,1,1,13,3,13,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,10,0,0,0,0,0
+more-itertools,8d678c7afb,2025-04-05,edbf9b64,Show how to limit an infinite iterator,1,1,7,0,7,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,0,0,0,0,0
+more-itertools,433b97883a,2025-04-05,edbf9b64,Simplify the iterate() example.,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,1
+more-itertools,f0a4ea4531,2025-04-04,cbfda7f5,Fix `one` docstring example error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+more-itertools,30a9e4da60,2025-03-10,edbf9b64,Use private prng in is_prime(),1,1,33,17,33,17,0,0,0,1,0,0,0,0,0,0,0,11,1,19,21,0,0,0,1,0
+more-itertools,cedf39c8b1,2025-02-13,edbf9b64,Leave components as frozensets,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+more-itertools,a7794056e4,2025-02-11,edbf9b64,Restore old parameter names,1,1,9,9,9,9,0,0,0,4,0,0,0,0,0,0,0,4,0,0,9,0,0,0,0,0
+more-itertools,461039205a,2025-02-11,edbf9b64,Sync-up recipes with the itertools docs,1,1,54,49,54,49,0,0,0,21,0,0,0,0,0,0,0,13,0,0,46,0,0,0,0,0
+more-itertools,7ddbb4c36f,2025-02-11,edbf9b64,Switch to a from-import to match the itertools docs,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,1,0,0
+more-itertools,dbc32776a8,2025-02-10,edbf9b64,Doc updates,2,1,4,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+more-itertools,edb9970d02,2025-02-10,edbf9b64,Bring over the multinomial() recipe from the itertool docs,4,2,99,2,48,1,0,0,0,1,0,0,0,0,1,0,0,29,1,1,34,0,0,0,0,0
+more-itertools,64bf81d072,2025-02-10,edbf9b64,Remove unnecessary range restriction,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,1,0
+more-itertools,b6e2142145,2025-01-31,edbf9b64,Remove unnessary layer of indirection with yield-from,2,2,7,5,7,5,0,0,0,3,0,0,0,0,0,0,0,6,0,0,7,0,0,1,1,0
+more-itertools,12803d1f4c,2025-01-31,edbf9b64,Appease the linter and coverage report.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,cff0091112,2025-01-31,edbf9b64,Sync _fsumprod() with the CPython implementation.,1,1,28,1,28,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,20,0,0,0,0,0
+more-itertools,e8a9797245,2025-01-23,edbf9b64,Another suppress() improvement,1,1,5,9,5,9,0,0,0,2,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+more-itertools,05ab1ef5a6,2025-01-23,edbf9b64,Improve iterate(),1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+more-itertools,bc8c7acad2,2025-01-23,edbf9b64,Simplify and speed-up only(). Harmonize the code with one().,1,1,11,15,11,15,0,0,0,1,0,0,0,0,0,0,0,11,0,0,11,0,0,0,0,1
+more-itertools,b3b67e7d32,2025-01-23,edbf9b64,Memory friendly version of exactly_n().,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,2be4c2b804,2025-01-23,edbf9b64,Avoid calling next() one at a time.,1,1,11,13,11,13,0,0,0,1,0,0,0,0,0,0,0,22,0,0,9,0,0,0,0,0
+more-itertools,f5774b65f7,2025-01-23,edbf9b64,Clean up one() and fix over-specified test,2,1,15,39,10,21,1,0,0,1,0,0,0,0,0,0,0,11,0,0,10,0,0,0,0,1
+more-itertools,255a101bd4,2025-01-21,edbf9b64,Add attribution,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+more-itertools,7d3be6af74,2025-01-21,edbf9b64,More formatting,1,1,18,21,18,21,0,0,0,1,0,0,0,0,0,0,0,7,0,0,18,0,0,0,0,0
+more-itertools,2c5430ca44,2025-01-21,edbf9b64,Maybe the helps the 3.9 definition list error,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+more-itertools,3e5d3d81bb,2025-01-20,edbf9b64,Actually appease ruff,1,1,21,21,21,21,0,0,0,2,0,0,0,0,0,0,0,7,0,0,21,0,0,0,0,0
+more-itertools,8d0cc080ca,2025-01-20,edbf9b64,Perhaps appease ruff,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+more-itertools,bb3ef6e443,2025-01-20,edbf9b64,Improve the readability of polynomial examples.,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+more-itertools,7d00662fa5,2025-01-20,edbf9b64,Better dotproduct() example. Reference math.sumprod().,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,0,0,0,0
+more-itertools,e0b27ee678,2025-01-20,edbf9b64,Improve the convolve() docstring and comment.,1,1,31,9,31,9,0,0,0,1,0,0,0,0,0,0,0,7,0,0,21,0,0,0,0,0
+more-itertools,10bfc51282,2025-01-20,edbf9b64,Improve docstring for totient,1,1,14,3,14,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,10,0,0,0,0,0
+more-itertools,b30fe916b0,2025-01-20,edbf9b64,Better without the comma,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,1,1,1,0,0,0,0,0
+more-itertools,57437935c0,2025-01-19,edbf9b64,Fix grammar and use bigger examples,1,1,6,6,6,6,1,0,0,1,0,0,0,0,0,0,0,11,1,6,6,0,0,0,0,0
+more-itertools,d2db2e3770,2025-01-19,edbf9b64,Show how to generate random primes,1,1,11,0,11,0,0,0,0,1,0,0,0,0,0,0,0,11,1,7,7,0,0,0,0,0
+more-itertools,5a3cd80c6f,2025-01-17,72dbcd9f,Replace docstrings example with one that works,1,1,9,4,9,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,9,0,0,0,0,0
+more-itertools,221e87745a,2025-01-17,72dbcd9f,Add clarification in docstring of derangements_by_value,1,1,7,0,7,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+more-itertools,7d5d553065,2025-01-17,72dbcd9f,Fix __all__ error due to forgotton comma,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,c890be732f,2025-01-17,72dbcd9f,Add updated versions of derangements to stubs and __all__,2,1,10,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,8bbfc3d41a,2025-01-17,72dbcd9f,Split (distinct) derangements into 2 for either implementation,1,1,76,24,76,24,0,0,0,2,0,0,0,0,2,0,0,7,0,0,59,0,0,0,1,0
+more-itertools,1681cea3cd,2025-01-14,22decb34,Bump version: 10.5.0 → 10.6.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,4dbce3249c,2025-01-13,72dbcd9f,Align derangements implementation with distinct_derangements implementation,1,1,6,19,6,19,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+more-itertools,bfa2adb6c5,2025-01-13,72dbcd9f,Add clarification about how duplicates are handled in itertools,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,1
+more-itertools,22cccfbb1f,2025-01-12,72dbcd9f,Apply black formatting,2,1,12,9,9,6,0,0,0,1,0,0,0,0,0,0,0,21,0,0,9,0,0,0,0,0
+more-itertools,0edba927d3,2025-01-12,72dbcd9f,Update docstrings,1,1,47,37,47,37,0,0,0,2,0,0,0,0,0,0,0,18,0,0,42,0,0,0,0,0
+more-itertools,449dee231e,2025-01-12,72dbcd9f,Fix unique pool by not using a set,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+more-itertools,0d74505531,2025-01-12,72dbcd9f,Bring functionality of distinct_derangements in line with derangements,2,1,17,5,7,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,7,0,0,0,0,0
+more-itertools,2175ce39eb,2025-01-12,72dbcd9f,Update derangements to extend functionality and runspeed,1,1,19,5,19,5,0,0,0,1,0,0,0,0,0,0,0,18,0,0,19,0,0,0,0,0
+more-itertools,7efbc062ee,2025-01-11,edbf9b64,Keep the tests as early as possible,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+more-itertools,ae37eb38a1,2025-01-11,edbf9b64,Add more sample() tests and fix bug in strict option with counts,2,1,16,2,2,2,1,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+more-itertools,0a2a507844,2025-01-10,22decb34,Drop unused import,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+more-itertools,28f5e8f142,2025-01-10,22decb34,Changes for release 10.6.0,7,2,191,405,5,87,0,0,0,2,0,0,0,0,0,2,0,11,1,3,5,0,0,0,0,0
+more-itertools,8ee69910e8,2025-01-09,dfeaa4ca,remove string.format(); fix tests,2,1,50,50,8,10,0,0,0,5,0,0,0,0,0,0,0,23,0,0,8,0,0,0,1,0
+more-itertools,41ac0cd557,2025-01-09,dfeaa4ca,remove explicit repr calls for f-strings,1,1,5,8,5,8,0,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,0,0,1,0
+more-itertools,012fa831ee,2025-01-09,dfeaa4ca,run pyupgrade --py39-plus ...,3,1,32,58,4,4,0,0,0,3,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+more-itertools,4a87839e1b,2025-01-05,edbf9b64,Slightly broader corner case reduction,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+more-itertools,f253d2ae42,2025-01-05,edbf9b64,Remove unnecessary variable,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,1,0
+more-itertools,5beda14a37,2025-01-05,edbf9b64,Improve docstring.,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+more-itertools,24adaa7e16,2025-01-05,edbf9b64,More specific variable name for small primes,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+more-itertools,617b2df3df,2025-01-05,edbf9b64,Fix out of date docstring.,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+more-itertools,5158493922,2025-01-05,edbf9b64,Make small_primes into a global to avoid the long enumeration.,1,1,4,50,4,50,0,0,0,1,0,1,0,0,0,0,0,17,1,1,2,0,0,0,0,0
+more-itertools,56a70abf9f,2025-01-05,edbf9b64,Remove unused _factor_trial().,1,1,0,12,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+more-itertools,919f85694c,2025-01-05,edbf9b64,Localize gcd() for better performance in a frequently executed loop.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+more-itertools,d1db73fa8b,2025-01-02,22decb34,Fix formatting,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+more-itertools,379ad21764,2025-01-02,22decb34,Add a comment about small_primes,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+more-itertools,d825a348f1,2024-12-31,72dbcd9f,Remove derangements_range,3,1,0,70,0,32,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+more-itertools,610e148138,2024-12-31,22decb34,Issue 939: Speed up factor,1,1,68,9,68,9,0,0,0,1,1,0,0,0,0,0,0,65,1,61,61,0,0,0,0,0
+more-itertools,e35235ca22,2024-12-27,72dbcd9f,Apply more changes due to make all-checks output,3,1,12,11,11,9,0,0,0,3,0,0,0,0,0,0,0,19,0,0,11,0,0,0,0,0
+more-itertools,2f13b1cabe,2024-12-27,72dbcd9f,Reformating due to black recommendations,3,1,170,34,9,5,0,0,0,3,0,0,0,0,0,0,0,19,0,0,9,0,0,0,0,0
+more-itertools,2119c2aa88,2024-12-27,72dbcd9f,Change input of derangements from int_iterable to iterable,1,1,10,10,10,10,0,0,0,2,0,0,0,0,0,0,0,4,0,0,10,0,0,0,0,0
+more-itertools,22e24e89d5,2024-12-26,72dbcd9f,Add derangements to __all__ and stubs,2,1,12,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+more-itertools,bca63e7f81,2024-12-26,72dbcd9f,Add and fix more doc-strings,1,1,44,50,44,50,0,0,0,3,0,0,0,0,0,1,0,17,0,0,44,0,0,0,0,0
+more-itertools,0eb960f75e,2024-12-26,72dbcd9f,Remove random_derangement for now to make PR more focused,1,1,0,53,0,53,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+more-itertools,a3e894b036,2024-12-26,72dbcd9f,Add faster implementation for integer version,1,1,20,0,20,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+more-itertools,f0378729be,2024-12-26,72dbcd9f,Add doc-strings and proper names derangements functions,1,1,146,1,146,1,0,0,0,0,0,0,0,0,5,0,0,0,0,0,104,0,0,0,0,0
+more-itertools,1de75454bc,2024-12-23,22decb34,Clarify docstring,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,1,2,2,0,0,0,0,0
+more-itertools,4b86846729,2024-12-19,22decb34,Optimize factor recipe,3,1,48,8,40,6,0,0,0,1,0,0,0,0,2,0,0,13,0,0,32,0,0,0,0,0
+more-itertools,daa454751d,2024-12-19,22decb34,Set number of rounds for is_prime to 64,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,1,2,2,0,0,0,0,0
+more-itertools,94e594830d,2024-12-18,dfeaa4ca,restore single quotes,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+more-itertools,3d517d5058,2024-12-15,dfeaa4ca,groom the first and last functions,1,1,6,7,6,7,0,0,0,2,0,0,0,0,0,0,0,14,0,0,6,0,0,0,0,0
+more-itertools,6197c8d5c9,2024-12-05,22decb34,Fix the bad mistakes,2,1,3,3,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,880d45b9df,2024-12-05,22decb34,Add loops,4,1,22,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+more-itertools,3598d8a422,2024-12-04,22decb34,More is_prime and nth_prime revisions,4,2,7,7,4,7,0,0,0,3,0,0,0,0,0,0,0,11,1,1,4,0,0,0,0,0
+more-itertools,807e47cb25,2024-12-03,22decb34,is_prime and nth_prime revisions,5,2,40,31,38,29,0,0,0,3,0,0,0,0,2,2,0,12,1,6,27,0,0,0,0,0
+more-itertools,6932dee9f1,2024-12-02,22decb34,Add nth_prime also,4,1,28,14,21,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,15,0,0,0,0,0
+more-itertools,a7236314cd,2024-12-02,22decb34,Issue 920: Add is_prime recipe,3,1,92,1,68,1,0,0,0,0,1,0,0,0,3,0,0,0,0,0,56,0,0,0,0,0
+more-itertools,baef3d1372,2024-10-11,22decb34,Issue 918: improve outer_product docstring,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+more-itertools,e733192454,2024-10-11,22decb34,Issue 916: lt only for is_sorted (#917),2,1,24,21,9,8,0,0,0,1,0,0,0,0,0,0,0,7,0,0,9,0,0,0,0,0
+more-itertools,00c7acd8a7,2024-09-20,36321297,Make polynomial_from_roots() non-recursive,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,0,0,0,0,0
+more-itertools,39cbab56a7,2024-09-10,22decb34,Optimize spy function,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+more-itertools,2f9036c04a,2024-09-05,22decb34,Bump version: 10.4.0 → 10.5.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,ebe42b056e,2024-08-20,22decb34,Reduce groupby.__next__ calls in all_equal,2,1,19,1,1,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,1
+more-itertools,4f4217c164,2024-08-19,22decb34,Fix issue 897,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+more-itertools,fa05e903f9,2024-08-15,22decb34,Use loops,1,1,5,7,5,7,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+more-itertools,b4f7911d15,2024-08-15,22decb34,Optimize all_equal recipe,1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,7,0,0,0,0,0
+more-itertools,dab9518f9c,2024-08-07,22decb34,Bump version to 10.4.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,eb265124b4,2024-08-06,22decb34,Issue 894: ilen beautification,2,1,5,6,4,6,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,d942faaa51,2024-08-04,0dae5da1,use `zip_equals` instead,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+more-itertools,0bf967c0f8,2024-08-02,0dae5da1,add docstring about `strict`,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+more-itertools,bc1fc2e61a,2024-08-02,0dae5da1,add argument `strict`,2,1,15,1,7,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,6,0,0,0,0,0
+more-itertools,7ddf9d2601,2024-08-01,22decb34,Issue 889: Optimize triplewise,1,1,7,2,7,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0
+more-itertools,fc5773f428,2024-07-15,22decb34,sliding_window optimizations and improvements,1,1,9,3,9,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,9,0,0,0,0,0
+more-itertools,612a009dee,2024-07-15,22decb34,Minor code clean-up in circular_shifts,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,1,0,0
+more-itertools,92390bdeff,2024-07-09,22decb34,Drop unused imports,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+more-itertools,7f885d384e,2024-07-09,22decb34,Issue 876: is_sorted clarifications,2,1,9,4,8,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,8,0,0,0,0,0
+more-itertools,bbe6c8f7f3,2024-07-08,22decb34,Issue 870: counts parameter for sample,3,1,86,8,58,7,0,0,0,1,0,0,0,0,2,0,0,16,0,0,43,0,0,0,0,0
+more-itertools,fb95291e8f,2024-07-08,22decb34,Issue 869: Add a steps argument to circular_shifts,2,1,48,7,24,5,0,0,0,1,0,0,0,0,0,0,0,10,0,0,18,0,0,1,0,0
+more-itertools,311a824d36,2024-07-08,22decb34,Issue 871: Add a fast path for sliding_window,2,1,33,6,21,5,0,0,0,1,0,0,0,0,2,0,0,4,0,0,14,0,0,0,0,0
+more-itertools,6b9d4d5eb4,2024-07-08,02b16c73,Fix comments,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,0de415570d,2024-07-06,0dae5da1,fix checks,3,1,19,9,12,5,1,0,0,1,0,0,1,0,0,0,0,26,1,11,11,0,0,0,0,0
+more-itertools,02e4afb071,2024-07-06,0dae5da1,modify docstring,1,1,13,0,13,0,0,0,0,1,0,0,0,0,0,0,0,20,1,11,11,0,0,0,0,0
+more-itertools,3b80ba6c8a,2024-07-06,0dae5da1,add argument `min_size` and `max_size`,2,1,9,4,8,3,0,0,0,1,1,0,0,0,0,0,0,20,1,7,7,0,0,0,0,0
+more-itertools,51e201a669,2024-07-03,22decb34,Use log1p for _sample_unweighted,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+more-itertools,fa2518e568,2024-07-03,02b16c73,Update doctests,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,080fb1397f,2024-07-03,02b16c73,Issue 862: change relative_seek() behaviour,2,1,6,2,4,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+more-itertools,90f83cba8b,2024-07-01,22decb34,Issue 864: Improve _sample_unweighted,1,1,9,16,9,16,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+more-itertools,70b4c4aabe,2024-06-27,22decb34,Fix line length,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,2e6c38f4b7,2024-06-27,22decb34,Clarify seekable.relative_seek behavior,1,1,17,5,17,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+more-itertools,4bd0bd8762,2024-06-17,22decb34,Merge fix for issue 832 (distinct_permutations),2,1,55,168,22,10,1,0,0,1,0,0,0,0,0,0,0,29,1,21,21,0,0,0,0,0
+more-itertools,4f0cc7001b,2024-06-14,22decb34,Remove outdated comment,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,a71805e91e,2024-06-14,22decb34,Issue 858: Use chain and starmap in run_length.decode,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,6ea811ad92,2024-06-14,22decb34,Issue 859: Update totient recipe,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+more-itertools,cbb051842c,2024-06-14,22decb34,Drop unused import,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+more-itertools,cc6f6802dc,2024-06-14,22decb34,Avoid extra heappop steps,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+more-itertools,c0b8476394,2024-06-13,22decb34,Don't un-heapify,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,22,0,0,3,0,0,0,0,0
+more-itertools,72bae8069f,2024-06-13,22decb34,Type hints for sample helpers,2,1,14,10,9,9,0,0,0,3,0,0,0,0,0,0,0,21,0,0,9,0,0,0,0,0
+more-itertools,dc7a36a380,2024-06-13,22decb34,More sample docstring changes,1,1,12,12,12,12,0,0,0,1,0,0,0,0,0,0,0,11,0,0,12,0,0,0,0,0
+more-itertools,2ab70dcb38,2024-06-12,22decb34,Add strict parameter,3,1,24,11,17,11,0,0,0,3,0,0,0,0,0,0,0,21,0,0,16,0,0,0,0,0
+more-itertools,6675c748ce,2024-06-11,22decb34,Issue 854: sample improvements,2,1,17,4,12,4,0,0,0,3,0,0,0,0,0,0,0,19,0,0,11,0,0,0,0,0
+more-itertools,0b76d6ca08,2024-06-07,22decb34,Bump version: 10.2.0 → 10.3.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,9e10fa4ff4,2024-06-03,22decb34,Add unique(),4,1,46,10,20,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+more-itertools,36aae74f51,2024-05-31,adf88b76,Remove trailing whitespace (after running black).,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,29,1,4,4,0,0,0,1,0
+more-itertools,e8ce2d2bd6,2024-05-31,adf88b76,Explain cycling through equivalent elements in unsortable iterables,1,1,7,0,7,0,0,0,0,1,0,0,0,0,0,0,0,29,1,6,6,0,0,0,0,0
+more-itertools,7c453ba8bc,2024-05-30,22decb34,Line length correction,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+more-itertools,d5cd09a162,2024-05-30,22decb34,601-attempt,1,1,5,4,5,4,0,0,0,2,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+more-itertools,5252383356,2024-05-30,22decb34,Add dft and dft,4,1,102,18,60,7,0,0,0,3,0,0,0,0,3,0,0,31,2,4,50,0,0,0,0,0
+more-itertools,33ff9cd2ed,2024-05-29,643fc34f,Add doublestarmap (closes #679),4,1,70,0,19,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+more-itertools,7f0026946e,2024-05-20,22decb34,Remove more vestiges of the dictionary mapping,2,1,4,3,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,1,0
+more-itertools,6063f08941,2024-05-20,22decb34,"Drop strict=True, use kwargs",4,1,9,33,4,17,0,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,0,0,0,0
+more-itertools,168224a22e,2024-05-20,22decb34,Add join_mapping,4,1,68,1,32,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,23,0,0,0,0,0
+more-itertools,89fbdf602a,2024-05-04,adf88b76,Run black.,1,1,3,1,3,1,0,0,0,2,0,0,0,0,0,0,0,29,1,3,3,0,0,0,0,0
+more-itertools,4bf31788eb,2024-05-04,adf88b76,Share dict of cycle iters instead of making a new one for each permuted_items call,1,1,3,2,3,2,0,0,0,2,1,0,0,0,0,0,0,29,1,2,2,0,0,1,0,0
+more-itertools,ed201a263e,2024-05-03,adf88b76,Take values from the original items.  __eq__ual but different items share an index.,2,1,21,35,12,10,0,0,0,1,0,1,0,0,1,0,0,28,1,9,9,0,0,0,0,0
+more-itertools,db659cdbb8,2024-05-03,adf88b76,Black formatted,2,1,17,14,12,10,0,0,0,1,0,0,1,0,0,0,0,28,1,12,12,0,0,0,0,0
+more-itertools,53cbb6bfc4,2024-05-03,adf88b76,"Fix distinct_permutations of [1, True, ""love""].  Now (the) True does not become 1.",1,1,5,2,5,2,1,0,0,1,1,0,0,0,0,0,0,22,1,5,5,0,0,0,0,0
+more-itertools,4d2db3b699,2024-05-02,adf88b76,Update more.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,db67158d79,2024-05-02,adf88b76,Fixed.  Indices need to be sorted.,2,1,13,19,4,11,1,0,0,1,0,1,0,0,0,0,0,19,1,3,3,0,0,0,0,0
+more-itertools,258791eb40,2024-05-02,adf88b76,"Simple tests pass but duplicated incomparables, out of sequence fail",3,1,30,3,7,3,0,0,0,1,0,0,1,0,0,0,0,22,1,4,4,0,0,0,0,1
+more-itertools,dd62823bde,2024-05-02,adf88b76,Tweaks,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,21,1,1,1,0,0,0,0,0
+more-itertools,87b3f1768e,2024-05-02,adf88b76,Support distinct_permutations of incomparable items.,1,1,25,2,25,2,0,0,0,1,1,0,0,0,0,0,0,21,1,13,13,0,0,0,0,0
+more-itertools,c29de6dedf,2024-04-13,c326dcd6,Fix a typo found by codespell,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,53b2aee41f,2024-03-21,22decb34,Issue 820: add powerset_of_sets (#828),5,2,44,5,21,5,0,0,0,1,0,0,0,0,1,0,0,3,0,0,17,0,0,0,0,0
+more-itertools,c53f9af597,2024-03-21,22decb34,Update roundrobin implementation,1,1,5,10,5,10,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+more-itertools,8a718e3b23,2024-03-20,22decb34,Issue 822: update iter_index docs,1,1,13,2,13,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,9,0,0,0,0,0
+more-itertools,c6fa7ee153,2024-03-20,22decb34,Re-format recipes.pyi,3,1,5,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,876ac4ad4e,2024-03-20,22decb34,Issue 823: improve totient,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+more-itertools,de81c47f7f,2024-03-20,22decb34,Issue 821: key argument for all_equal,3,1,16,11,11,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,8,0,0,0,0,0
+more-itertools,53294a2cd4,2024-03-13,d74e8be4,Revert windowed argument name change,2,1,4,4,2,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+more-itertools,8afc217f50,2024-03-13,d74e8be4,Remove branch from windowed,1,1,18,24,18,24,0,0,0,1,0,0,0,0,0,0,0,20,0,0,12,0,0,0,1,0
+more-itertools,2d9450b6be,2024-02-19,d74e8be4,Fix comment,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,4486d24624,2024-02-19,d74e8be4,Rename seq argument to iterable for consistency,2,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+more-itertools,e90acd8505,2024-02-19,d74e8be4,Improve optimizations further,1,1,21,24,21,24,0,0,0,1,0,0,0,0,0,0,0,27,0,0,15,0,0,0,0,0
+more-itertools,f2d58f3236,2024-02-18,d74e8be4,Optimize chunked_even itertool,1,1,21,33,21,33,0,0,0,1,0,0,0,0,0,2,0,23,0,0,14,0,0,0,0,0
+more-itertools,a514c6c6d3,2024-02-16,d74e8be4,Add black formatting,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+more-itertools,ed4f9f3ea5,2024-02-16,d74e8be4,Optimize windowed itertool,1,1,32,18,32,18,0,0,0,1,0,0,0,0,0,0,0,27,0,0,21,0,0,0,0,0
+more-itertools,8addf54e75,2024-02-07,22decb34,Use padded in example,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+more-itertools,7c42b1a5c6,2024-02-07,22decb34,Reformat with black,4,1,6,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,30ca74370d,2024-02-02,d74e8be4,Remove double colon,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,1,0
+more-itertools,d7a5746e75,2024-02-02,d74e8be4,Remove unneeded newline,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,1,0
+more-itertools,c2d3a02985,2024-01-30,d74e8be4,Change itertool to itertools,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+more-itertools,ab6cd373de,2024-01-30,d74e8be4,Add exactly size of n doc to padded,1,1,8,0,8,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+more-itertools,b93fa30e22,2024-01-21,aec28b58,Update more.py,1,1,199,173,199,173,0,0,0,44,0,0,1,0,0,0,0,62,4,10,198,0,0,0,0,0
+more-itertools,bd0132d10a,2024-01-21,aec28b58,Update more.py,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,d4bd4f62b6,2024-01-21,aec28b58,Format more.py,1,1,173,199,173,199,0,0,0,45,0,0,0,1,0,0,0,62,4,8,173,0,0,0,0,0
+more-itertools,011deda93f,2024-01-19,d74e8be4,Increase performance of `padded`,1,1,15,10,15,10,0,0,0,1,0,0,0,0,1,0,0,12,0,0,11,0,0,0,0,0
+more-itertools,d6a7d45a92,2024-01-18,aec28b58,Add pre/postpend examples in value_chain doc,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+more-itertools,1859a5cd32,2024-01-11,d74e8be4,Clean up meteralize_next method,1,1,5,8,5,8,0,0,0,2,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,1
+more-itertools,f72385b8b9,2024-01-11,d74e8be4,Make materialize_next in _ichunk more consistent,1,1,16,8,16,8,0,0,0,3,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+more-itertools,6b2f4a7820,2024-01-10,d74e8be4,Reformatting with black,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+more-itertools,c83dc851f3,2024-01-09,d74e8be4,Put if statement in single line,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+more-itertools,f8e8a96dba,2024-01-09,d74e8be4,Removing unneeded check in ichunked,1,1,0,4,0,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0
+more-itertools,e3686896f3,2024-01-09,22decb34,Incorporate PR 792,3,2,7,7,6,6,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+more-itertools,bd1632c3df,2024-01-09,d74e8be4,replace append with appendLeft to be consistent,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+more-itertools,274bcfa36e,2024-01-09,d74e8be4,Change variable name to make use more clear,1,1,7,7,7,7,0,0,0,1,0,0,0,0,0,0,0,24,0,0,6,0,0,0,0,0
+more-itertools,52b49d4a1f,2024-01-09,d74e8be4,Remove recursion from the collapse method,1,1,33,20,33,20,0,0,0,1,0,0,0,0,0,1,0,24,0,0,23,0,0,0,1,0
+more-itertools,2faa0f59bf,2024-01-08,d74e8be4,Add `ichunked` internal comments,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,7d5f7a21ba,2024-01-08,d74e8be4,Remove unneeded check on internal method `materialize_next` in `_ichunk`,1,1,0,3,0,3,0,0,0,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,1,0
+more-itertools,2d7d14d778,2024-01-08,d74e8be4,Speed up ichunked,1,1,36,24,36,24,0,0,0,5,0,0,0,0,3,4,0,10,0,0,30,0,0,0,0,0
+more-itertools,0fe6ab3bcc,2024-01-07,be23af01,"Add some ""pragma: no cover""s to ver-dependent code",2,2,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+more-itertools,a1c7e6611a,2024-01-07,be23af01,Remove unused code from nth_permutation,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,1,0
+more-itertools,7313c86ca1,2024-01-07,be23af01,"Ensure time_limited(0, ...) always returns nothing",1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+more-itertools,51ad8fb7f1,2024-01-05,22decb34,Bump version: 10.1.0 → 10.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,20c3265fcf,2024-01-05,22decb34,Doc changes for 10.2.0,4,1,30,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+more-itertools,3b13b3f341,2024-01-05,22decb34,Fix docstring length,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+more-itertools,3742d33e8f,2024-01-05,22decb34,Issue 787: update strictly_n docstring,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+more-itertools,ed2d8d2a51,2024-01-02,22decb34,Add a strict argument for batched,2,1,25,13,16,13,0,0,0,2,0,0,0,0,0,0,0,8,0,0,15,0,0,0,0,0
+more-itertools,1f30109435,2023-12-22,22decb34,"Add totient and reshape, improve unique_justseen",3,1,93,1,31,1,0,0,0,2,0,0,0,0,2,0,0,4,0,0,23,0,0,0,0,0
+more-itertools,fd26c54218,2023-12-21,edbf9b64,Use math.comb() and math.perm() where possible,1,1,7,9,7,9,0,0,0,4,0,0,0,0,0,0,0,36,0,0,7,0,0,0,0,0
+more-itertools,4e19ccdf72,2023-12-20,b2db4bfa,Fix typo in `bucket` docstring,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,abe5a454fa,2023-12-17,be23af01,Minor doc fix in classify_unique,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+more-itertools,0841e57849,2023-12-13,be23af01,Add classify_unique,5,1,241,0,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,35,0,0,0,0,0
+more-itertools,71163a7f84,2023-11-22,9f25d9c0,Format with black,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+more-itertools,9939cb9ee2,2023-11-22,9f25d9c0,Optimize combination_with_replacement_index,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,36,0,0,3,0,0,0,0,0
+more-itertools,a2e2780e27,2023-11-06,7c12f06f,Remove minor duplication in takewhile_inclusive,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,1,0
+more-itertools,dcb3725608,2023-11-06,7c12f06f,Fix docstring for batched,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,c8e6dbc4e0,2023-10-20,4e08f865,Fix formatting of matmul and factor in recipes.py,1,1,2,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,871187db0b,2023-10-17,22decb34,Integrate filter_map,3,1,10,4,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+more-itertools,b9682ea907,2023-10-16,70cdddeb,Implement filter_map function.,3,1,41,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+more-itertools,810634f8fb,2023-09-28,c326dcd6,Fix typos found by codespell,4,2,7,7,4,4,1,0,0,4,0,0,0,0,0,0,0,34,0,0,4,0,0,0,0,0
+more-itertools,e400e99f02,2023-09-20,22decb34,Fix all_equal typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,edd6642ee7,2023-09-14,22decb34,Incorporate sieve recipe improvements,1,1,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,0
+more-itertools,eb24d3927a,2023-09-12,22decb34,Add stop argument to iter_index,3,1,20,14,13,14,0,0,0,1,0,0,0,0,0,0,0,15,0,0,13,0,0,0,0,0
+more-itertools,633ccd68ca,2023-09-06,22decb34,Update iter_suppress implementation,1,1,1,12,1,12,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+more-itertools,3b48f2ad69,2023-09-05,0e8527b6,Remove obsolete `from e`,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,1,0
+more-itertools,6b58ea7326,2023-09-05,22decb34,Issue 735: iter_suppress,3,1,83,0,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,29,0,0,0,0,0
+more-itertools,48fd2a38f7,2023-09-05,0e8527b6,Optimize `first`,1,1,8,9,8,9,0,0,0,1,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+more-itertools,26428ac97c,2023-08-29,22decb34,Update the factor recipe to match CPython PR #108114,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,e470f7733b,2023-08-02,22decb34,Doc updates for 10.1.0,4,1,25,5,7,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+more-itertools,cc8a8ab246,2023-08-02,22decb34,Bump version: 10.0.0 → 10.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,5fd6c673e9,2023-08-01,0e8527b6,Add empty line,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,0ee59bd103,2023-08-01,0e8527b6,Simplify `_zip_equal`,1,1,3,8,3,8,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,1
+more-itertools,a24b439969,2023-07-30,7bb89430,Fixed line too long in doc string.,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+more-itertools,ca1904479f,2023-07-30,7bb89430,Added outer_product.,4,1,53,0,32,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27,0,0,0,0,0
+more-itertools,4ffef76ed7,2023-07-30,0e8527b6,Simplify zip_broadcast,1,1,5,10,5,10,0,0,0,1,0,0,0,0,0,0,0,21,0,0,5,0,0,0,0,1
+more-itertools,6b4ad24024,2023-07-25,f1ed7c2f,Speed up `zip_broadcast()` by pre-filling the scalar elements,1,1,4,6,4,6,0,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+more-itertools,dfca42bbb9,2023-07-22,3322efad,Added takewhile_inclusive,4,1,45,2,17,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+more-itertools,a67c0306f6,2023-07-21,372d6bc4,Delay computation of numeric_range len until needed,1,1,5,5,5,5,0,0,0,1,0,0,0,0,1,1,0,25,0,0,5,0,0,0,0,0
+more-itertools,9514d0722f,2023-07-21,22decb34,Update convolve recipe with note about implementation,1,1,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+more-itertools,45b10802f4,2023-07-18,22decb34,Fix docstring typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,9c6f616820,2023-07-17,22decb34,Sync factor with CPython GH-106817,1,1,3,4,3,4,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+more-itertools,d0ea877acf,2023-07-17,22decb34,Bump version: 9.1.0 → 10.0.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,7243af8c8a,2023-07-17,22decb34,Update recipes for Python 3.7 / more-itertools 10.0.0,3,1,42,38,30,25,0,0,1,5,0,0,0,0,1,0,0,12,0,0,25,0,0,0,0,0
+more-itertools,c3fa799832,2023-07-11,22decb34,Sync with CPython itertools recipes,2,1,3,6,3,5,0,0,0,2,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+more-itertools,41dda9e791,2023-06-01,22decb34,Add polynomial_derivative,3,1,34,5,17,4,0,0,0,1,0,0,0,0,1,0,0,6,0,0,13,0,0,0,0,0
+more-itertools,46a253b36b,2023-05-21,9f25d9c0,Rename uniques to counts,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,18,0,0,6,0,0,0,0,0
+more-itertools,09eb43d1b6,2023-05-21,9f25d9c0,Remove redundant tuple element,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,1,0
+more-itertools,ab72fc8a4e,2023-05-21,9f25d9c0,Fix unique_in_window to match described behavior,2,1,18,12,12,11,1,0,0,1,0,0,0,0,0,0,0,18,0,0,12,0,0,0,0,0
+more-itertools,63a3bf4809,2023-05-19,0e8527b6,Improve `duplicates_justseen`,1,1,1,6,1,6,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,1
+more-itertools,19b9fa50f8,2023-05-18,0e8527b6,Simplify/optimize `partial_product`,1,1,6,9,6,9,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,1
+more-itertools,2d43036d0c,2023-05-17,0e8527b6,"`partial_product`: fix bugs, simplify, and clean up",1,1,9,19,9,19,1,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,1
+more-itertools,725670e5a7,2023-05-17,0e8527b6,Optimize `pairwise`,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+more-itertools,fe45d91409,2023-05-16,0e8527b6,Reformatted qith black.,1,1,1,4,1,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+more-itertools,3142520c20,2023-05-15,0e8527b6,Issue #677: Improve `partition`,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+more-itertools,7aac93796f,2023-05-01,22decb34,Update polynomial_from roots and convolve,1,1,4,5,4,5,0,0,0,2,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+more-itertools,cd0a3a87d2,2023-04-19,b3b8a933,Issue #707: fix ``iterate()`` to enable ``func`` to raise StopIteration,2,1,35,1,4,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+more-itertools,a68f4490cc,2023-04-10,22decb34,Fix comment typo,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,fa60e38e7e,2023-04-10,22decb34,"Add sum_of_squares, sync various recipes with itertools",4,1,42,21,28,21,0,0,0,6,0,0,0,0,1,0,0,12,0,0,20,0,0,0,0,0
+more-itertools,6ac11b10aa,2023-04-01,b8bee6bb,Add nth_combination_with_replacement-function,3,1,83,1,49,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,38,0,0,0,0,0
+more-itertools,9e54b5551a,2023-04-01,22decb34,Update comment about sumprod,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,a4eec2a7b4,2023-03-30,22decb34,Add polynomial_eval recipe,4,1,45,0,22,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,0,0,0,0,0
+more-itertools,aa22fc39a9,2023-03-30,22decb34,Update transpose doc,1,1,1,17,1,17,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,64ef9995bb,2023-03-21,a0df90f3,docs: rewrap docstring to 79 columns,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+more-itertools,d5ce308d13,2023-03-20,a0df90f3,Move comments in doctest,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,2,0,0,6,0,0,0,1,0
+more-itertools,b44c099daa,2023-03-20,a0df90f3,Add notes for transposing empty inputs,1,1,17,0,17,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,15,0,0,0,0,0
+more-itertools,472ed1598b,2023-03-18,9f25d9c0,Format with black.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+more-itertools,9de32b3394,2023-03-17,9f25d9c0,Support non-subscriptable iterables.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+more-itertools,67cebe0f95,2023-03-17,9f25d9c0,Remove added newline.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,0250151d55,2023-03-17,9f25d9c0,Optimize _chunked_even_finite,1,1,12,17,12,17,0,0,0,1,0,0,0,0,0,0,0,21,0,0,11,0,0,0,0,0
+more-itertools,b63055332f,2023-03-08,230a16d0,seekable: Add relative_seek,3,1,20,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+more-itertools,b74cfac61a,2023-03-03,b8bee6bb,Avoid dummy variables,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+more-itertools,38d1a8c0df,2023-03-02,22decb34,Update recipes.iter_index to match CPython PR 102360,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+more-itertools,4cfc79ce1d,2023-03-02,b8bee6bb,Avoid consuming iterable with ilen,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,36,0,0,6,0,0,0,0,0
+more-itertools,ebf3bcc805,2023-03-02,b8bee6bb,Break line in docstring,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,33,0,0,2,0,0,0,0,0
+more-itertools,a0144143d6,2023-03-02,b8bee6bb,Avoid the use of math.comb to support older Python,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,33,0,0,5,0,0,0,0,0
+more-itertools,906b394fde,2023-03-02,b8bee6bb,Add combination_with_replacement function,2,1,78,5,26,5,0,0,0,1,0,0,0,0,0,0,0,30,0,0,20,0,0,0,0,0
+more-itertools,ea47f251de,2023-03-02,b8bee6bb,Remove testing script for development,1,1,0,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+more-itertools,3eaee83b77,2023-03-02,b8bee6bb,Start on combination_with_replacement_index,2,2,40,0,40,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,33,0,0,0,0,0
+more-itertools,4a8b7eea8e,2023-02-26,991973af,"fixups for flake8, black",2,1,19,18,1,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+more-itertools,6946f78b09,2023-02-26,991973af,add partial_product,5,1,109,0,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,28,0,0,0,0,0
+more-itertools,5647ec26c7,2023-02-21,22decb34,Bump version: 9.0.0 → 9.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,aae6d92b95,2023-02-19,22decb34,Substitute for math.sqrt,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+more-itertools,3082c063b5,2023-02-19,22decb34,"Sync with itertool recipes by adding transpose(), matmul(), and factor()~",5,2,125,3,48,2,0,1,0,0,0,0,0,0,3,0,0,0,0,0,36,0,0,0,0,0
+more-itertools,474b6a5b39,2023-01-13,22decb34,Fix long line,1,1,4,3,4,3,1,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+more-itertools,bcd5323a39,2023-01-13,22decb34,Add gray_product to docs,2,1,21,19,20,19,0,0,0,1,0,0,0,0,0,0,0,20,0,0,15,0,0,0,0,0
+more-itertools,ce82aff410,2023-01-08,be23af01,Fix in documentation,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,aa66ad6155,2023-01-08,be23af01,Appease flake8,2,1,21,14,3,3,0,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+more-itertools,b64e30f5d0,2023-01-07,be23af01,Add gray_product,3,1,67,0,44,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,37,0,0,0,0,0
+more-itertools,26b5977f56,2022-12-20,514f8497,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+more-itertools,9245cd04c0,2022-11-22,22decb34,Fix issue 658 for split_after,2,1,7,1,3,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,0,1,0
+more-itertools,27bdb29a6a,2022-10-24,5923166e,DEPR: deprecate more_itertools.batched in Python 3.12,1,1,12,0,12,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+more-itertools,16c856a8aa,2022-10-22,22decb34,"Add iter_index, update sieve",4,1,70,5,35,5,0,0,0,1,0,0,0,0,1,0,0,9,0,0,29,0,0,0,0,0
+more-itertools,99a9faa8a4,2022-10-15,f5fad99f,Allow passing before_and_after remainders into before_and_after again,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,1,0,6,0,0,2,0,0,0,0,0
+more-itertools,d62b32c70e,2022-10-08,22decb34,Bump version: 8.14.0 → 9.0.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,442875fee6,2022-10-08,22decb34,Drop unused imports,5,2,13,17,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+more-itertools,899b63c4c6,2022-10-08,22decb34,Release 9.0.0 preparation,8,2,16,114,0,44,0,0,0,1,0,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0
+more-itertools,5829849930,2022-10-07,22decb34,"Rename old batched, add new batched",7,2,58,12,24,4,0,0,0,0,0,0,0,0,2,1,0,0,0,0,20,0,0,0,0,0
+more-itertools,db4630bc31,2022-09-29,22decb34,Issue 462: windowed should yield nothing for empty iterables,2,1,33,40,3,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+more-itertools,a34ec44882,2022-09-23,22decb34,Simplify sieve recipe,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,1
+more-itertools,72b2c28943,2022-09-22,22decb34,Also limit by count,2,1,26,6,18,6,0,0,0,1,0,0,0,0,0,0,0,22,0,0,16,0,0,0,0,0
+more-itertools,25eb8a8cfd,2022-09-21,22decb34,Fewer calls to get_len,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+more-itertools,e9f2f4fda6,2022-09-14,22decb34,Add sieve,3,1,66,0,18,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+more-itertools,633aabafeb,2022-09-14,22decb34,Add batched,4,1,128,0,36,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27,0,0,0,0,0
+more-itertools,7a91fd319c,2022-09-09,22decb34,Handle math.prod for Python 3.6 and Python 3.7,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+more-itertools,4bfc7050a2,2022-09-07,22decb34,Add polynomial_from_roots recipe,4,1,31,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+more-itertools,3a640383fa,2022-08-09,22decb34,Bump version: 8.13.0 → 8.14.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,a2f0b63d47,2022-08-09,33d6c0b2,Add a comment about `tail` optimization,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,38c69b53f2,2022-08-08,33d6c0b2,"Revert ""Limit the scope of optimization.""",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+more-itertools,a3be1ca07f,2022-08-08,33d6c0b2,Limit the scope of optimization.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+more-itertools,22364dd8bb,2022-08-07,33d6c0b2,Optimize memory allocation for `tail` function,2,1,29,16,5,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,0,0,0,0,0
+more-itertools,23fa2ee7a3,2022-08-06,33d6c0b2,Add function `iequals`,4,1,59,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+more-itertools,77030109dd,2022-08-05,33d6c0b2,Run black,2,1,3,4,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,ddbbea2c50,2022-08-04,33d6c0b2,Add function `longest_common_prefix`,3,1,63,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+more-itertools,57fa7d4664,2022-07-29,22decb34,Add comment about lazy import,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+more-itertools,c2992eabcf,2022-07-16,a05e94a0,"docs: fix simple typo, versiosn -> versions",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,519fa74123,2022-07-10,22decb34,Try that again,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+more-itertools,cac460f2da,2022-07-10,22decb34,Lazily import ThreadPoolExecutor,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,1,1,0,0
+more-itertools,92e0163dfc,2022-04-29,22decb34,Bump version: 8.12.0 → 8.13.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,74bc8781d6,2022-04-18,22decb34,Fix docstring length,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+more-itertools,39e3a2d5fb,2022-04-18,22decb34,Add subslices recipe,3,1,44,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+more-itertools,81df802cd7,2022-03-11,22decb34,Create setup.py,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+more-itertools,02e753222c,2022-03-09,22decb34,Update to the latest grouper recipe,4,2,157,82,79,47,0,0,0,8,0,0,0,0,3,3,0,26,0,0,57,0,0,0,0,0
+more-itertools,7c444046f3,2022-02-22,22decb34,Fixes #596: typo in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+more-itertools,4d905d2396,2022-01-31,e30a1ceb,replace `starmap`+`zip` combination with `map`,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,f4044df2e6,2022-01-26,b1b16e08,Switch to flit build system,6,2,55,68,2,66,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+more-itertools,ce85a9006f,2021-12-05,10125927,fillCache->fill_cache,1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,10,0,0,2,0,0,0,0,0
+more-itertools,e873b9766e,2021-12-05,10125927,fix flake8 issue,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,5a5144eb4a,2021-12-05,10125927,Clean up,2,1,11,23,6,20,0,0,0,2,0,0,0,0,0,1,0,10,0,0,5,0,0,0,0,1
+more-itertools,685fb8e238,2021-12-05,10125927,Write a working but messy solution,1,1,40,7,40,7,0,0,0,6,0,0,0,0,5,0,0,11,0,0,32,0,0,0,0,0
+more-itertools,fbc3d8b1d6,2021-11-26,3bd38ddb,Fix typo in zip_broadcast() docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+more-itertools,13608756d3,2021-11-23,22decb34,Bump version: 8.11.0 → 8.12.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,38abb58afb,2021-11-23,22decb34,Temporarily go down to 3.5 again,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+more-itertools,5926786683,2021-11-23,e30a1ceb,Fix comments typo,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,a6aeb4b698,2021-11-10,69d55606,Update setup.py to require Python 3.6+,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,f52f202e42,2021-11-04,22decb34,Bump version: 8.10.0 → 8.11.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,54db9063f4,2021-10-23,22decb34,Prepare minmax for merge,2,1,20,34,17,34,0,0,0,1,0,0,0,0,0,0,0,31,1,16,16,0,0,0,0,0
+more-itertools,de345f6c3d,2021-10-23,22decb34,Add back missing *,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+more-itertools,6f775551a9,2021-10-23,22decb34,too_short and too_long get item counts,2,1,21,16,13,12,0,0,0,1,0,0,0,0,0,0,0,26,0,0,13,0,0,0,0,0
+more-itertools,0d5262795d,2021-10-23,22decb34,Ensure too_short is only called once,2,1,8,6,1,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+more-itertools,086c540456,2021-10-19,22decb34,Make strictly_n lazy,2,1,64,48,33,36,0,0,0,1,0,0,0,0,0,0,0,25,0,0,33,0,0,0,0,0
+more-itertools,b2dbc3d064,2021-10-19,6be18c9d,"Fix `flake8` ""line too long"" error in `minmax`",1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,31,1,2,2,0,0,0,0,0
+more-itertools,330f40b11c,2021-10-18,6be18c9d,Add function `minmax`,2,1,144,0,90,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,66,0,0,0,0,0
+more-itertools,14c5ad9415,2021-10-16,22decb34,Incorporate duplicates_everseen and duplicates_justseen,1,1,11,11,11,11,0,0,0,2,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,1
+more-itertools,e926528eec,2021-10-13,1cf692c6,Add duplicates_everseen and duplicates_justseen,4,1,196,0,51,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,40,0,0,0,0,1
+more-itertools,0b97fbde3d,2021-10-09,22decb34,Changes for zip_broadcast merge,1,1,46,39,46,39,0,0,0,2,0,0,0,0,1,0,0,25,0,0,36,0,0,0,0,0
+more-itertools,eceb6d21de,2021-10-06,22decb34,Fix indentation,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+more-itertools,36ae18590e,2021-10-05,6be18c9d,Apply `black` reformatting,3,1,6,10,1,5,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+more-itertools,ae955eb6a9,2021-10-05,22decb34,Add sliding_window to recipes,4,1,45,0,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+more-itertools,cdc5065431,2021-10-05,22decb34,Add triplewise to recipes,4,1,28,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+more-itertools,73b00bd0de,2021-10-05,22decb34,Add before_and_after to recipes,4,1,59,0,33,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,26,0,0,0,0,0
+more-itertools,f9089b327a,2021-10-05,f1ed7c2f,Run black,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,6fe4e7222c,2021-10-05,f1ed7c2f,"Raise ValueError, to be consistent with zip(strict=True)",2,1,14,14,2,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+more-itertools,9f4f31faab,2021-10-05,f1ed7c2f,Fix linter complaints,2,1,12,11,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,395bdfc00d,2021-10-05,f1ed7c2f,Reimplement zip_broadcast() to fix #561,2,1,53,36,29,27,1,0,0,1,0,1,0,0,1,0,0,22,1,26,26,0,0,0,0,0
+more-itertools,ea119aad9a,2021-10-04,6be18c9d,Remove accidental unused import from `sys`,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+more-itertools,cfea57a30c,2021-10-04,6be18c9d,Add `strict` parameter to `is_sorted` for strict ordering check,3,1,66,8,17,5,0,0,0,1,0,0,0,0,0,0,0,8,0,0,15,0,0,0,0,0
+more-itertools,7ee3e60766,2021-10-03,22decb34,Update signature for strictly_n,3,1,17,15,14,12,0,0,0,1,0,0,0,0,0,0,0,27,0,0,12,0,0,0,0,0
+more-itertools,ba5240aa78,2021-10-03,22decb34,Incorporate strictly_n,4,1,97,22,55,17,0,0,0,0,0,0,0,0,1,1,0,0,0,0,48,0,0,0,0,0
+more-itertools,ae1e0ab333,2021-09-22,a026a56b,Adapt to only accept function on too_long/too_short.,2,1,16,40,13,37,0,0,0,1,0,0,0,0,1,1,0,30,0,0,11,0,0,0,0,0
+more-itertools,3f4e291187,2021-09-18,22decb34,Add unique_in_window,4,1,89,17,57,17,0,0,0,0,0,0,0,0,1,0,0,0,0,0,44,0,0,0,0,0
+more-itertools,c1edeb8d41,2021-09-17,a026a56b,Add implementation of nth_exactly.,2,1,73,0,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,49,0,0,0,0,0
+more-itertools,8b098da553,2021-09-16,22decb34,Bump version: 8.9.0 → 8.10.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,b43a1ee776,2021-09-14,4ce2da30,Remove `include_package_data` option from setup.py,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+more-itertools,127dada991,2021-09-03,2905e5e0,formated docstring with black,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+more-itertools,5927994b1b,2021-09-01,2905e5e0,added doc on multiple exceptions,1,1,10,0,10,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+more-itertools,6f29e1b2ce,2021-08-31,22decb34,Bump version: 8.8.0 → 8.9.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,e579777668,2021-08-31,22decb34,Changes for 8.9.0,3,1,16,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,82080967e4,2021-08-31,22decb34,Handle empty in zip_broadcast,2,1,9,4,6,4,0,0,0,1,0,0,1,0,0,0,0,23,1,5,5,0,0,0,0,0
+more-itertools,0926631dee,2021-08-30,22decb34,Implement zip_broadcast,4,1,115,0,56,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,39,0,0,0,0,0
+more-itertools,7e943689b3,2021-08-19,22decb34,Merge in map_if,2,1,8,4,7,3,0,0,0,2,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+more-itertools,336b7ea4ba,2021-08-11,94da1c93,cosmetics,2,1,6,3,3,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+more-itertools,41020d0944,2021-08-11,94da1c93,add `map_if` itertool,3,1,37,0,18,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,0,0,0,0,0
+more-itertools,6ccc5d7c20,2021-08-07,22decb34,Update chunked_even docstring,1,1,8,6,8,6,0,0,0,1,0,0,0,0,0,0,0,6,0,0,8,0,0,0,0,0
+more-itertools,0b1957742b,2021-08-03,91a94ccb,CI fixes,2,1,8,6,6,6,1,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+more-itertools,355f590648,2021-08-02,9304e8c7,Chunked: Allow chunk size to be of size None.,3,1,22,1,2,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+more-itertools,3d604c7d02,2021-08-01,91a94ccb,Address PR comments,2,1,18,15,11,12,0,0,0,2,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+more-itertools,49a4b3c94b,2021-08-01,91a94ccb,Fix bugs in chunked_even,2,1,13,12,1,2,1,0,1,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,c0780fbbba,2021-07-31,91a94ccb,Add chunked_even,3,1,123,1,70,1,0,1,0,0,0,0,0,0,3,0,0,0,0,0,51,0,0,0,0,0
+more-itertools,f4e84f1dcb,2021-07-21,22decb34,Integrate interleave_only,1,1,21,28,21,28,0,0,0,1,0,0,0,1,0,0,0,30,1,21,21,0,0,0,0,0
+more-itertools,b4ee4232db,2021-07-20,d083979d,Make 'lengths' and optional kwarg and add more tests,3,1,75,21,32,8,0,0,0,1,1,0,0,0,0,0,0,33,1,27,28,0,0,0,0,0
+more-itertools,127709a48f,2021-07-18,d083979d,Add interleave_evenly to __all__ and api.rst,2,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,fb89af02fd,2021-07-12,f281b72e,fixed repeat_each() to accept infinite iterators as input,2,1,18,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+more-itertools,91fc9e8694,2021-07-11,2090c404,formatting using black,2,1,3,6,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+more-itertools,3641057588,2021-07-10,2090c404,Revert back to intial version without incremental repeats,3,1,4,44,3,22,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+more-itertools,257f250f62,2021-07-10,2090c404,Adding repeat_each itertool,4,1,69,0,29,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0
+more-itertools,7b89d6ead4,2021-07-06,d083979d,Add interleave_evenly function and tests,4,1,127,1,49,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,34,0,0,0,0,0
+more-itertools,db1eca6bf7,2021-05-20,22decb34,Bump version: 8.7.0 → 8.8.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,427eccc4c8,2021-05-03,3db2010f,Do not use an identity function when no key function is supplied,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+more-itertools,15927a5058,2021-04-17,22decb34,Add a DeprecationWarning for 3.10+ (#511),3,1,31,11,17,8,0,0,0,2,0,0,0,0,0,0,0,21,0,0,15,0,0,0,0,0
+more-itertools,2e81a562fb,2021-03-10,04f0a4ea,Fix split_before for an empty collections.,2,1,7,1,2,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,1,0
+more-itertools,c40dd24a59,2021-03-06,22decb34,Clean up difference docstring,1,1,10,19,10,19,0,0,0,1,0,0,0,0,0,0,0,9,0,0,10,0,0,0,0,1
+more-itertools,1aadcb8b6c,2021-03-06,22decb34,Fix indentation on sample docstring,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+more-itertools,d1d3f9e32f,2021-02-08,22decb34,Add countable,4,1,56,0,33,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,25,0,0,0,0,0
+more-itertools,781c46bcaa,2021-02-06,22decb34,Bump version: 8.6.0 → 8.7.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,181a82ed46,2021-02-06,22decb34,Updates for 8.7.0,2,1,22,2,2,2,0,0,0,2,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+more-itertools,13bf54eb03,2021-02-02,e41c4a4a,"Fix ""then then"" typos in docstrings.",1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+more-itertools,da6cec1635,2021-01-31,22decb34,Use itertools.pairwse on 3.10 (#497),3,1,18,5,16,2,0,0,0,1,0,0,0,0,1,0,0,2,0,0,11,0,0,0,0,0
+more-itertools,705b614a63,2021-01-17,22decb34,Update docs for combinatoric index functions,4,2,20,59,14,59,0,0,1,6,0,0,0,0,0,0,0,24,0,0,13,0,0,0,0,0
+more-itertools,527431647b,2021-01-16,9225d635,fix failing tests,1,1,5,0,5,0,1,0,0,5,0,0,0,0,0,0,0,24,0,0,5,0,0,0,0,0
+more-itertools,27300229f5,2021-01-05,22decb34,Add convolve,5,1,55,1,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,16,0,0,0,0,0
+more-itertools,20c41eae5e,2021-01-03,9225d635,removed importing stuff in comments? even though it makes tests fail?,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+more-itertools,94b15e6794,2021-01-03,9225d635,doc changes,2,2,81,3,81,3,0,0,0,6,0,0,0,0,0,0,0,24,0,0,54,0,0,0,0,0
+more-itertools,89d6a8e2e5,2021-01-02,9225d635,"add product_index, combination_index, and permutation_index functions",3,1,19,19,2,2,0,0,0,2,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+more-itertools,8b94e1758c,2020-12-25,9225d635,"add product_index, combination_index, and permutation_index functions",3,1,20,20,5,5,0,0,0,0,0,0,0,0,2,2,0,0,0,0,5,0,0,0,0,0
+more-itertools,47ba915af0,2020-12-25,9225d635,add product/combinations/permutations _index functions,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+more-itertools,85b3b3d8dd,2020-12-25,9225d635,add product/combinations/permutations _index functions,3,1,220,0,77,0,0,1,0,0,0,0,0,0,3,0,0,0,0,0,59,0,0,0,0,0
+more-itertools,1604bc368d,2020-12-24,5af2504b,add key argument to sort_together() function (#484),3,1,74,6,35,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,24,0,0,0,0,0
+more-itertools,9c8dabe6e2,2020-12-18,22decb34,Add timed_out property for time_limited (#490),3,1,46,17,25,10,0,0,0,3,0,0,0,0,3,1,0,7,0,0,22,0,0,0,0,0
+more-itertools,ad385b3aae,2020-12-17,d7d02004,refactor: Simplify unique_everseen (#488),1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,1
+more-itertools,894cd35409,2020-12-16,22decb34,Note the new functionality in docs,1,1,21,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+more-itertools,a50ab3eebb,2020-12-15,b2f49139,Implement __bool__ and peek for seekable,3,1,52,17,19,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,17,0,0,0,0,0
+more-itertools,88841e9f83,2020-12-11,ec3be997,Iterative solution for distinct_combinations (#483),1,1,23,5,23,5,0,0,0,1,0,0,0,0,0,0,0,28,0,0,23,0,0,0,0,0
+more-itertools,3fbbc130e7,2020-12-02,22decb34,Bring in value_chain,3,1,21,33,14,32,0,0,0,1,0,0,0,0,0,0,0,9,0,0,11,0,0,0,0,0
+more-itertools,e8184a9d53,2020-12-01,50328314,Blackify code.,2,1,18,5,10,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,10,0,0,0,0,0
+more-itertools,27fe19e72e,2020-12-01,22decb34,Rename recipes.padnone to recipes.pad_none (#473),4,1,18,11,6,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,4,0,0,0,0,0
+more-itertools,0d67cde054,2020-12-01,50328314,Test for more scalar types.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+more-itertools,254133ff84,2020-12-01,50328314,Fix flake8 warning while keeping doctest happy.,2,1,3,3,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+more-itertools,8dbf8ae723,2020-12-01,50328314,Add new `value_chain` iterator.,5,2,69,2,40,1,0,0,0,1,0,0,0,0,1,0,0,2,0,0,34,0,0,0,0,0
+more-itertools,d2677e4b38,2020-11-30,3132b29f,Fix typo in documentation (#474),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+more-itertools,298909b8b7,2020-10-29,22decb34,Bump version: 8.5.0 → 8.6.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,f4c59950fa,2020-10-29,22decb34,Doc changes for 8.6.0,4,1,29,9,9,7,0,0,0,3,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+more-itertools,16c626b5f9,2020-10-27,22decb34,Bring in nth_permutation,4,2,45,46,42,43,0,0,0,0,0,0,0,0,1,1,0,0,0,0,32,0,0,0,0,0
+more-itertools,d76f586210,2020-10-25,9225d635,forgot to remove import of reduce,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+more-itertools,2cf89aba88,2020-10-25,9225d635,removed combinatoric functions,3,1,11,257,8,123,0,0,0,1,0,0,0,0,0,6,0,24,0,0,7,0,0,0,0,0
+more-itertools,5ec85e6e34,2020-10-24,9225d635,Dropped dynamic imports and positional only arguments because it wouldn't be cross python version co,2,1,58,60,55,57,0,0,0,3,0,0,0,0,0,0,0,14,0,0,43,0,0,1,0,0
+more-itertools,b44172bfc4,2020-10-24,9225d635,mypy fixes and making certain functions match their math counterparts more closely,2,1,7,7,3,3,1,0,0,3,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+more-itertools,6c0c650665,2020-10-24,9225d635,switched to using pragma: no cover,1,1,55,59,55,59,0,0,0,3,0,0,0,0,0,0,0,14,0,0,44,0,0,0,0,0
+more-itertools,bdc8303c80,2020-10-24,9225d635,Changed how dynamic imports are done so check coverage doesn't fail,1,1,58,54,58,54,0,0,0,3,0,0,0,0,0,0,0,14,0,0,44,0,0,1,0,0
+more-itertools,01d66763b4,2020-10-24,9225d635,removed changes to nth_product,2,1,1,33,1,26,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+more-itertools,d0fbaf373f,2020-10-24,9225d635,Add combinatoric caclulations and nth_permutation,3,1,372,0,185,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,143,0,0,0,0,0
+more-itertools,58e6b3cda2,2020-10-16,22decb34,nth_product to more.py,6,2,54,55,28,29,0,0,0,0,0,0,0,0,1,1,0,0,0,0,21,0,0,0,0,0
+more-itertools,b1042ae2e9,2020-10-16,9225d635,nth_product fixes,3,1,52,1,27,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0
+more-itertools,c1bf0524e3,2020-10-10,22decb34,Drop 3.5 from classifiers; add 3.9,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,8091a26194,2020-09-22,22decb34,Incorporate all_unique,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+more-itertools,58fecdb292,2020-09-21,ed9225ad,CR,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+more-itertools,c345290c2c,2020-09-21,ed9225ad,add new all_unique itertool,5,1,75,0,38,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,33,0,0,0,0,0
+more-itertools,a6b454a5f8,2020-09-19,22decb34,Incorporate chunked and sliced changes,1,1,16,24,16,24,0,0,0,2,0,0,0,0,0,0,0,7,0,0,14,0,0,0,0,0
+more-itertools,44a2b1d9ad,2020-09-18,2a7ef69d,try to fix black tests (CI),3,1,12,4,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,decd936553,2020-09-17,2a7ef69d,convert to the wrapping loop like chunked,1,1,14,4,14,4,0,0,0,1,0,0,0,0,1,0,0,7,0,0,10,0,0,0,0,0
+more-itertools,ccdaf4db7e,2020-09-17,2a7ef69d,clarify the code/docs per review,1,1,7,3,7,3,0,0,0,2,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+more-itertools,37082bae07,2020-09-15,faf29ac4,RM trailing whitespace,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,701656c859,2020-09-15,faf29ac4,Wrap line 1135 and remove trailing whitespace.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,1,0
+more-itertools,2142224863,2020-09-15,faf29ac4,ADD strict for sliced with tests,2,1,9,3,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+more-itertools,4c69053777,2020-09-15,faf29ac4,FIX add size check to slice,1,1,8,3,8,3,1,0,0,1,0,0,0,0,0,0,0,5,0,0,7,0,0,0,0,0
+more-itertools,ee43ca90b9,2020-09-15,faf29ac4,FIX nits in documentaiton,1,1,2,8,2,8,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+more-itertools,dccb7e97e5,2020-09-15,2a7ef69d,rename some variables,1,1,7,7,7,7,0,0,0,2,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,0
+more-itertools,028184c40e,2020-09-15,2a7ef69d,test strict=True on success and avoid doc clutter,2,1,3,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+more-itertools,3191c36090,2020-09-15,2a7ef69d,Add a strict keyword argument to chunked(),2,1,44,2,25,2,0,0,0,1,0,0,0,0,1,0,0,7,0,0,23,0,0,0,0,0
+more-itertools,88819736f5,2020-08-28,22decb34,Formatting changes,4,2,35,30,27,27,0,0,0,10,0,0,0,0,0,0,0,8,0,0,27,0,0,0,0,0
+more-itertools,d71b67a025,2020-08-28,22decb34,Bump version: 8.4.0 → 8.5.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,8a23d62f63,2020-08-24,22decb34,Update more.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+more-itertools,fe253fabac,2020-08-21,22decb34,Add stubs for windowed_complete,2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+more-itertools,2d8dfe643c,2020-08-21,22decb34,Bring in windowed_complete,2,1,17,43,9,22,0,0,0,1,0,0,0,0,0,0,0,12,0,0,7,0,0,0,0,0
+more-itertools,afdd017255,2020-08-21,b43473e8,Changed implementation and name,3,1,52,60,38,49,0,0,0,0,0,0,0,0,1,1,0,0,0,0,35,0,0,0,0,0
+more-itertools,99052c3527,2020-08-16,b43473e8,Added pitchfork partitioning,3,1,125,0,64,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,55,0,0,0,0,0
+more-itertools,eb8e6a0eed,2020-08-09,22decb34,Version-specific workarounds,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+more-itertools,b0a560da60,2020-08-09,22decb34,Look at the ABCs,2,1,14,19,13,19,0,0,0,1,0,0,0,0,0,0,0,15,0,0,13,0,0,0,0,0
+more-itertools,70c4e62dda,2020-08-06,22decb34,Reverse iterables for last(),2,1,21,22,18,12,0,0,0,1,0,0,0,0,0,0,0,16,0,0,13,0,0,0,0,0
+more-itertools,2d962c7075,2020-07-10,f9780d5f,fix typo in more.partitions,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+more-itertools,4539a1109b,2020-07-02,9708c8f3,Improve distinct_permutations's docstring example (#449),1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+more-itertools,29288c851d,2020-07-01,22decb34,Add callback_iter wrapper (#444),4,1,243,1,133,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,101,0,0,0,0,0
+more-itertools,78405e9b24,2020-07-01,22decb34,Add reducefunc to groupby_transform (#440),3,1,42,35,22,15,0,0,0,1,0,0,0,0,0,0,0,7,0,0,20,0,0,0,0,1
+more-itertools,d2915dc00f,2020-06-29,961b6c06,Fix typo in peekable() docstring (#445),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+more-itertools,40a5a4060b,2020-06-14,a53d3325,Implement is_sorted using starmap (#437),1,1,1,5,1,5,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0

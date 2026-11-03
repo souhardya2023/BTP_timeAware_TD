@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+tip_calculator,0,v0.1,v0.2,2019-01-12,2019-01-22,minor,18,210,0,324,30,5,132,30,0,24
+tip_calculator,1,v0.2,v0.3,2019-01-22,2019-01-26,minor,5,324,30,325,30,5,10,0,0,8
+tip_calculator,2,v0.3,v0.4,2019-01-26,2019-01-27,minor,1,325,30,325,30,5,0,0,0,0
+tip_calculator,3,v0.4,v0.5,2019-01-27,2019-01-28,minor,1,325,30,325,30,5,3,0,0,2
+tip_calculator,4,v0.5,v0.6,2019-01-28,2019-01-31,minor,7,325,30,332,30,5,39,0,0,10

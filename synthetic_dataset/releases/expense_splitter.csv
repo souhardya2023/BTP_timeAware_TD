@@ -1,0 +1,15 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+expense_splitter,v0.1,v0.2,0,0.2402,20,287,40,3,4
+expense_splitter,v0.2,v0.3,1,0.0963,16,305,42,2,4
+expense_splitter,v0.3,v0.4,2,1.1114,39,319,46,6,5
+expense_splitter,v0.4,v0.5,3,0.2115,15,346,72,3,6
+expense_splitter,v0.5,v0.6,4,1.6306,34,357,72,8,6
+expense_splitter,v0.6,v0.7,5,0.4583,28,376,76,9,7
+expense_splitter,v0.7,v0.8,6,0.2955,24,395,80,12,8
+expense_splitter,v0.8,v0.9,7,0.5305,25,406,62,6,5
+expense_splitter,v0.9,v0.10,8,0.2175,17,426,64,4,5
+expense_splitter,v0.10,v0.11,9,0.2005,4,436,61,2,4
+expense_splitter,v0.11,v0.12,10,2.442,79,438,62,9,4
+expense_splitter,v0.12,v0.13,11,0.1508,3,496,59,3,3
+expense_splitter,v0.13,v0.14,12,0.9827,51,496,59,6,3
+expense_splitter,v0.14,v0.15,13,5.8264,204,534,61,9,3

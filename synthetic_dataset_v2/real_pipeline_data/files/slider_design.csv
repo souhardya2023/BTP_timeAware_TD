@@ -1,0 +1,6 @@
+repo,vi,file,changed,file_code,file_debt,changed_in_debt
+slider_design,0,slider_design/core.py,18,225,149,13
+slider_design,1,slider_design/core.py,9,233,149,0
+slider_design,1,slider_design/services.py,7,31,0,0
+slider_design,2,slider_design/core.py,6,233,149,6
+slider_design,3,slider_design/core.py,20,239,149,10

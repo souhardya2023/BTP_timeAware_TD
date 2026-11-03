@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+recipe,v0.1,v0.2,0,0.1471,7,219,47,0,3
+recipe,v0.2,v0.3,1,0.321,5,225,54,0,6
+recipe,v0.3,v0.4,2,0.3314,3,229,58,0,7
+recipe,v0.4,v0.5,3,0.2761,0,230,58,0,7

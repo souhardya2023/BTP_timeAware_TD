@@ -1,0 +1,6 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+lorem_ipsum,0,v0.1,v0.2,2019-01-08,2019-02-13,minor,1,334,159,334,159,5,0,0,0,0
+lorem_ipsum,1,v0.2,v0.3,2019-02-13,2019-07-02,minor,4,334,159,450,253,5,121,94,0,7
+lorem_ipsum,2,v0.3,v0.4,2019-07-02,2019-08-26,minor,1,450,253,437,253,5,0,0,0,0
+lorem_ipsum,3,v0.4,v0.5,2019-08-26,2019-10-03,minor,1,437,253,437,253,5,0,0,0,0
+lorem_ipsum,4,v0.5,v0.6,2019-10-03,2019-11-05,minor,1,437,253,397,208,5,0,0,0,0

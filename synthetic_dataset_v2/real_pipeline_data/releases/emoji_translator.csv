@@ -1,0 +1,14 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+emoji_translator,0,v0.1,v0.2,2019-01-08,2019-06-13,minor,2,455,220,435,189,8,2,1,1,2
+emoji_translator,1,v0.2,v0.3,2019-06-13,2019-08-23,minor,5,435,189,370,113,8,29,3,5,7
+emoji_translator,2,v0.3,v0.4,2019-08-23,2019-09-28,minor,1,370,113,375,113,8,5,0,0,1
+emoji_translator,3,v0.4,v0.5,2019-09-28,2019-11-21,minor,1,375,113,375,113,8,0,0,0,0
+emoji_translator,4,v0.5,v0.6,2019-11-21,2019-12-27,minor,1,375,113,352,79,8,9,0,0,2
+emoji_translator,5,v0.6,v0.7,2019-12-27,2020-03-03,minor,2,352,79,373,90,8,21,11,0,2
+emoji_translator,6,v0.7,v0.8,2020-03-03,2020-07-02,minor,3,373,90,379,90,8,12,4,4,4
+emoji_translator,7,v0.8,v0.9,2020-07-02,2020-09-07,minor,2,379,90,379,90,8,2,0,0,2
+emoji_translator,8,v0.9,v0.10,2020-09-07,2020-10-01,minor,1,379,90,379,90,8,0,0,0,0
+emoji_translator,9,v0.10,v0.11,2020-10-01,2021-01-30,minor,4,379,90,379,90,8,7,0,0,6
+emoji_translator,10,v0.11,v0.12,2021-01-30,2021-02-24,minor,1,379,90,379,90,8,0,0,0,0
+emoji_translator,11,v0.12,v0.13,2021-02-24,2021-04-20,minor,1,379,90,379,90,8,1,0,0,1
+emoji_translator,12,v0.13,v0.14,2021-04-20,2021-06-05,minor,1,379,90,379,90,8,0,0,0,0

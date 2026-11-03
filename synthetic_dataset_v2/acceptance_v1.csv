@@ -1,0 +1,28 @@
+test,real,accept_low,accept_high,value,passed,note
+H1_func_median_lines,8.0,4.0,12.0,8.0,True,"functions: real Python 5, C 11"
+H1_func_p90_lines,34.0,18.0,50.0,12.0,False,"real Python 22, C 46"
+H1_corr_size_ccn,0.88,0.7,1.0,0.923,True,
+H2_debt_function_share,0.12,0.05,0.2,0.02,False,"real C 17 %, Python 8 %"
+H2_debt_line_share_median,0.41,0.2,0.6,0.064,False,
+H3_logit_slope,0.607,0.45,0.75,-0.084,False,
+H4_debt_flag_OR,1.07,0.85,1.25,0.884,True,no avoidance
+H4_enrichment_matched,1.11,0.9,1.3,0.632,False,
+H5_ratio,4.0,3.0,5.0,4.816,True,lag-1 ratio (real 0.46/0.11)
+H5_adjusted_OR,4.63,3.0,8.0,3.282,True,
+H6_gini_per_repo_median,0.72,0.6,0.85,0.0,False,
+H6_never_pay_10plus_per_repo_median,0.22,0.15,0.4,0.409,False,
+H7_event_lines_median,2.5,2.0,4.0,2.0,True,
+H7_event_lines_p90,16.0,12.0,25.0,4.0,False,
+H9_rate_patch,0.089,0.05,0.13,,False,
+H9_rate_minor,0.282,0.2,0.36,0.143,False,
+H9_rate_major,0.315,0.2,0.42,,False,
+H9_R2_step_days,0.265,0.15,0.4,,False,
+H9_corr_commits,0.73,0.6,0.85,0.516,False,
+H10_autocorr,-0.07,-0.2,0.1,0.08,True,
+H11_born_in_new_function,0.76,0.6,0.95,1.0,False,
+H11_survival_12,0.57,0.45,0.7,0.82,False,
+H11_repayment_rate,0.069,0.03,0.09,0.021,False,
+H11_age_OR,0.929,0.85,1.0,0.953,True,
+H12_multi_smell_share,0.47,0.35,0.6,0.245,False,
+H13_churn_median_pct,1.4,1.0,2.0,4.555,False,
+mean_event_rate,0.172,0.12,0.23,0.121,True,

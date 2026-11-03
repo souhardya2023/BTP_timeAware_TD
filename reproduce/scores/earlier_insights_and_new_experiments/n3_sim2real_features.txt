@@ -1,0 +1,13 @@
+majority baseline on the real pairs: 0.426; real class counts {'concurrency': 26, 'security': 16, 'dependency_structure': 7, 'coupling_cohesion': 6, 'complexity': 6}
+train synthetic -> test real  [raw delta, random forest]: accuracy 0.148   Python 0.146 (n=41)   C/C++ 0.150 (n=20)
+train synthetic -> test real  [raw delta, 10-best + RF]: accuracy 0.148   Python 0.098 (n=41)   C/C++ 0.250 (n=20)
+train synthetic -> test real  [signed log delta, random forest]: accuracy 0.148   Python 0.146 (n=41)   C/C++ 0.150 (n=20)
+predicted             complexity  concurrency  coupling_cohesion  dependency_structure
+true                                                                                  
+complexity                     2            0                  2                     2
+concurrency                    0            0                  1                    25
+coupling_cohesion              0            0                  0                     6
+dependency_structure           0            0                  0                     7
+security                       0            1                  0                    15
+train synthetic -> test real  [signed log delta, 10-best + RF]: accuracy 0.148   Python 0.098 (n=41)   C/C++ 0.250 (n=20)
+train real (61) -> test synthetic (1,321): accuracy 0.484 (majority 0.206)

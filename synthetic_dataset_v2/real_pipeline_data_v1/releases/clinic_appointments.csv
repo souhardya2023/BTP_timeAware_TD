@@ -1,0 +1,12 @@
+repo,vi,v0,v1,d0,d1,step,n_commits,code0,debt0,code1,debt1,n_src_files1,chg_all,chg_in_debt1,chg_in_debt_pre,n_funcs_changed
+clinic_appointments,0,v0.1,v0.2,2019-01-10,2019-01-17,minor,10,261,45,344,75,8,95,35,5,15
+clinic_appointments,1,v0.2,v0.3,2019-01-17,2019-01-17,minor,3,344,75,386,105,8,49,30,0,8
+clinic_appointments,2,v0.3,v0.4,2019-01-17,2019-01-20,minor,3,386,105,427,145,8,48,44,4,5
+clinic_appointments,3,v0.4,v0.5,2019-01-20,2019-01-24,minor,7,427,145,437,136,8,39,9,9,13
+clinic_appointments,4,v0.5,v0.6,2019-01-24,2019-01-27,minor,3,437,136,443,136,8,16,7,7,5
+clinic_appointments,5,v0.6,v0.7,2019-01-27,2019-02-08,minor,20,443,136,603,208,8,192,87,15,28
+clinic_appointments,6,v0.7,v0.8,2019-02-08,2019-02-10,minor,4,603,208,603,208,8,8,5,5,5
+clinic_appointments,7,v0.8,v0.9,2019-02-10,2019-02-22,minor,17,603,208,642,208,8,66,12,12,25
+clinic_appointments,8,v0.9,v0.10,2019-02-22,2019-03-03,minor,16,642,208,696,209,8,75,7,7,23
+clinic_appointments,9,v0.10,v0.11,2019-03-03,2019-03-11,minor,13,696,209,726,209,8,56,9,9,25
+clinic_appointments,10,v0.11,v0.12,2019-03-11,2019-03-14,minor,3,726,209,726,209,8,4,2,2,3
