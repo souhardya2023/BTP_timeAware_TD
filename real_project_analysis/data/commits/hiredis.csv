@@ -1,0 +1,681 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+hiredis,5f3fd8d0e2,2026-10-15,2163a9d5,Bump version to 1.5.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,058ebcdf36,2026-09-22,34eb2d71,Defer macOS event hook publish until CF attach succeeds,1,1,9,7,9,7,0,0,0,1,0,0,0,0,0,0,0,24,0,0,6,0,0,0,0,0
+hiredis,004ec00249,2026-09-21,9b313f87,Skip error queue test without SO_TIMESTAMPING,1,1,9,2,9,2,0,0,0,1,0,0,1,0,0,0,0,94,1,9,9,0,0,0,0,0
+hiredis,bd812ea624,2026-09-21,9b313f87,Handle queued errors during blocking TCP connect,2,2,32,13,32,13,0,0,0,3,0,0,2,1,0,0,0,87,3,29,29,0,0,0,0,0
+hiredis,221c1b7378,2026-09-21,9b313f87,Drain pending TCP connect error queues,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,35,1,4,4,0,0,0,0,0
+hiredis,3d2a935e5b,2026-09-21,9b313f87,Drain Linux socket error queue after connect,2,2,188,8,188,8,0,0,0,2,2,0,1,0,4,0,0,145,2,13,163,0,0,0,0,0
+hiredis,33a12fb235,2026-09-08,8d35d05e,Guard Windows wincert check when cacert_filename is NULL,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,88,1,1,1,0,0,0,0,0
+hiredis,8c81265ddd,2026-08-20,2163a9d5,Don't print '(null)' when SSL_connect fails with an empty error queue,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,44,0,0,2,0,0,0,0,0
+hiredis,7ed4afa6f4,2026-08-20,2163a9d5,Reset the socket timeout before the SSL reconnect tests,1,1,8,0,8,0,0,0,0,1,0,0,1,0,0,0,0,51,1,3,3,0,0,0,0,0
+hiredis,b8fab8e5e0,2026-08-14,6f2f4eb8,Reject verify_name when peer verification is disabled,3,3,29,3,29,3,0,0,0,2,0,0,0,0,0,0,0,45,0,0,9,0,0,0,0,0
+hiredis,7fc17d1f94,2026-08-14,6f2f4eb8,Reject an empty verify_name instead of skipping verification,3,3,28,0,28,0,0,0,0,2,0,0,0,0,0,0,0,38,0,0,14,0,0,0,0,0
+hiredis,84659af127,2026-08-14,6f2f4eb8,Fix verify_name DNS names on BoringSSL,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+hiredis,300b180f5f,2026-08-14,6f2f4eb8,Test that a mismatching IP is rejected by verify_name,1,1,20,3,20,3,0,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+hiredis,bdee0ce71b,2026-08-13,6f2f4eb8,Add optional TLS peer certificate name verification,4,3,150,3,141,2,0,0,0,3,0,0,2,0,3,0,0,144,2,16,83,0,0,0,0,0
+hiredis,1ab1790cab,2026-08-06,2163a9d5,Move maxdepth to the end of redisReader to preserve ABI,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+hiredis,932f3a50c2,2026-08-04,e1de5760,Add a `maxdepth` `redisReader` configuration member.,4,3,61,0,51,0,0,0,0,3,0,0,2,0,0,0,0,450,2,41,44,0,0,0,0,0
+hiredis,e1b64cfd98,2026-06-03,2163a9d5,Bump version to 1.5.0-dev,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,ecc0013292,2026-06-03,2163a9d5,Bump version to 1.4.0,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,86f5cc0380,2026-06-02,02a2c209,test: verify sign bit in double edge-magnitude test,1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,406,1,2,2,0,0,0,0,0
+hiredis,013a483517,2026-06-02,02a2c209,read/ffc: fix macOS -Werror build + review feedback,2,2,35,36,35,36,1,0,0,2,0,0,1,0,0,1,0,130,1,12,20,0,0,0,0,0
+hiredis,6d6d5649ea,2026-06-02,02a2c209,Use ffc (pure-C99) as the RESP3 double parser instead of strtod,3,3,3549,2,3549,2,0,0,0,2,8,0,2,0,128,0,0,405,2,64,2507,0,0,0,0,0
+hiredis,1d18adbf41,2026-03-22,5ae6ebb4,fix: add NULL check for c->funcs before dereferencing in redisReconnect,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,33,1,1,1,0,0,0,0,0
+hiredis,af083b42bb,2026-03-10,e1de5760,Protect against overflow of map elements,2,2,24,1,24,1,1,0,0,2,0,0,2,0,0,0,0,377,2,21,21,1,0,0,0,0
+hiredis,04e85b81aa,2025-10-01,c71fc2bb,Add C++ compatibility to sds.h,1,1,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+hiredis,294782041e,2025-05-24,7cf8d127,Apply FD_CLOEXEC on sockets (#1301),3,3,27,4,27,4,0,0,0,3,0,0,2,0,0,0,0,149,2,12,21,0,0,0,0,0
+hiredis,28ea80cc5a,2025-05-12,1caf714d,Fix buffer overflow in tests.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,369,1,1,1,1,0,0,0,0
+hiredis,6859cc7f16,2025-05-03,8d09d28b,Define ssize_t as intptr_t in Windows,3,3,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+hiredis,f0271c6a93,2025-04-22,9a1107ea,Change the version of the library to 1.3,2,1,6,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,1da763ec2a,2025-04-18,d06a43d6,Fix OPENSSL_IS_BORINGSSL define check on windows,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,ab8c75ebcb,2025-02-05,afdb9b0d,Do not explicitly initialize openSSL in newer versions,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+hiredis,8d8703ee61,2024-11-04,e61e63fa,Update old link for modules-api-ref.md,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+hiredis,329346bb64,2024-08-21,e1de5760,Test for both EAGAIN and EINPROGRESS for AF_UNIX sockets.,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,48,1,1,1,0,0,0,0,0
+hiredis,0c63e3f396,2024-08-13,e1de5760,Fix timing based macOS CI failure.,1,1,3,7,3,7,1,0,0,1,0,0,0,1,0,0,0,48,1,3,3,0,0,0,0,0
+hiredis,643dddafab,2024-08-06,e1de5760,Clarify macos adapter and example license.,2,1,64,8,32,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,19cfd60d92,2024-04-03,e1de5760,Only override context read/write funcs on SSL_connect success.,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,43,0,0,4,0,0,0,0,0
+hiredis,2a7b8fac96,2024-04-02,e1de5760,Remove dead assignment in sdstrim.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,1,0
+hiredis,7ab6b824c7,2024-03-15,16b18762,fix: typos,2,1,3,3,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,ab30060a6e,2024-01-31,18a0a515,Fix review comments,2,2,1,2,1,2,1,0,0,2,0,0,0,0,0,0,0,79,1,1,1,0,0,0,0,0
+hiredis,5b253d89c7,2024-01-31,18a0a515,Add support of RESP3 attribute type,3,3,34,1,34,1,0,0,0,11,0,0,5,0,0,0,0,369,5,26,33,0,0,0,0,0
+hiredis,2706c3e16d,2024-01-30,c3894b09,Fix memory leak.,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,869f3d0ef1,2023-08-18,e1de5760,Make redisEnableKeepAlive a no-op on AF_UNIX connections. (#1215),3,2,24,0,23,0,0,0,0,2,1,0,1,0,1,0,0,139,2,3,16,0,0,0,0,0
+hiredis,e07ae7d3b6,2023-07-25,e1de5760,Add a panic helper for non-assert aborts.,1,1,10,3,10,3,0,0,0,2,0,0,0,0,0,0,0,31,1,2,9,0,0,0,0,0
+hiredis,af95517612,2023-07-25,e1de5760,Retry poll(2) if we are intterupted.,1,1,35,17,35,17,0,0,0,1,1,0,0,0,1,0,0,31,1,21,33,0,0,0,0,0
+hiredis,dedc6208b1,2023-07-14,57e53e77,Fix a false positive warning of gcc 12+ -Werror=maybe-uninitialized,1,1,3,3,3,3,1,0,0,1,1,0,0,0,0,0,0,27,1,3,3,0,0,0,0,0
+hiredis,d7a84df9ea,2023-07-13,e1de5760,Bump development SONAME.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,60e5075d4a,2023-07-12,b9a99b43,Version 1.2.0 (#1202),2,1,57,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,adef139a75,2023-07-12,4b623fc4,Remove support in deprecated TLS versions 1.0 and 1.1 (#1205),1,1,17,3,17,3,0,0,0,1,0,0,1,0,0,0,0,80,1,12,14,0,0,0,1,0
+hiredis,052f99ab2d,2023-06-08,dccea706,Ensure functionality without _MSC_VER definition,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+hiredis,ded32c7d1a,2023-06-01,e1de5760,Add a test for the TCP_USER_TIMEOUT option. (#1192),2,2,11,1,11,1,0,0,0,2,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+hiredis,5cbd1f2960,2023-06-01,98ccff49,Add -Werror as a default. (#1193),4,3,12,9,11,8,0,0,0,3,0,0,0,0,0,0,0,178,2,7,9,0,0,0,0,0
+hiredis,6de326e872,2023-05-30,98ccff49,Fix a typo in b6a052f.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+hiredis,b6a052fe09,2023-05-29,f58c8fef,Helper for setting TCP_USER_TIMEOUT socket option (#1188),5,4,55,1,23,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,20,0,0,0,0,0
+hiredis,3fa9b69443,2023-04-24,2b7e3fa1,Add RedisModule adapter (#1182),2,1,245,0,144,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,113,0,0,1,0,0
+hiredis,d13c091e9f,2023-04-18,2652b9f2,Fix wincrypt symbols conflict,1,1,8,0,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+hiredis,5d84c8cfdb,2023-04-15,e1de5760,Add a test ensuring we don't clobber connection error.,1,1,15,1,15,1,0,0,0,1,0,0,1,0,0,0,0,45,1,11,11,0,0,0,0,0
+hiredis,3f95fcdae4,2023-04-14,e1de5760,Don't attempt to set a timeout if we are in an error state.,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,55,1,3,3,0,0,0,0,0
+hiredis,563b062e37,2023-04-14,e1de5760,Accept -nan per the RESP3 spec recommendation.,2,2,12,1,12,1,0,0,0,2,0,0,2,0,0,0,0,350,2,11,11,0,0,0,0,0
+hiredis,04c1b5b029,2023-03-13,f58c8fef,Fix colliding option values,1,1,10,16,10,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+hiredis,011f7093c0,2023-03-07,e1de5760,Allow specifying the keepalive interval,2,2,6,3,6,3,0,0,0,1,0,0,0,0,1,0,0,3,0,0,5,0,0,0,0,0
+hiredis,6f5bae8c69,2023-01-06,5004252a,fix typo,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+hiredis,97fcf0fd1a,2022-12-21,b8dba734,Add sdevent adapter,3,1,269,0,177,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,138,0,0,0,0,0
+hiredis,ccff093bcd,2022-11-15,e1de5760,Bump dev version for the next release cycle.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+hiredis,c14775b4e4,2022-11-14,e1de5760,Prepare for v1.1.0 GA,3,1,34,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,f0bdf8405b,2022-11-14,0e49f5b4,Add support for nan in RESP3 double (#1133),2,2,8,5,8,5,0,0,0,2,0,0,2,0,0,0,0,341,2,6,6,0,0,0,0,0
+hiredis,7583ebb1b2,2022-11-09,e1de5760,Make freeing a NULL redisAsyncContext a no op.,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,1,0,0,0
+hiredis,2c53dea7f9,2022-11-09,e1de5760,Update version in dev branch.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,f063370edf,2022-11-06,e1de5760,Prepare for v1.1.0-rc1,3,1,143,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,2b069573a5,2022-11-02,e1de5760,CI fixes in preparation of release,2,1,15,21,1,0,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+hiredis,afc29ee1a1,2022-10-26,ad795b4e,Update for mingw cross compile,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,ceb8a8815e,2022-10-24,c4d0c981,fixed cpp build error with adapters/libhv.h,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,28,0,0,2,0,0,0,0,0
+hiredis,3b15a04b59,2022-10-14,21face29,Fixup of PR734: Coverage of hiredis.c (#1124),3,2,50,15,48,14,1,0,0,8,0,0,3,1,0,0,0,340,5,22,46,0,0,0,0,0
+hiredis,9c338a5981,2022-09-27,e1de5760,Fix PUSH handler tests for Redis >= 7.0.5,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,54,1,4,4,0,0,0,0,0
+hiredis,68b29e1ad5,2022-09-21,e1de5760,Add timeout support to libhv adapter. (#1109),2,1,81,12,66,12,0,0,0,6,0,0,0,0,2,0,0,28,0,0,51,0,0,0,0,0
+hiredis,bd9ccb8c47,2022-09-14,21face29,Use __attribute__ when building with clang on windows,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,5392adc265,2022-09-08,ec9abc6e,set default SSL certificate directory,2,2,6,0,6,0,0,0,0,1,0,0,1,0,0,0,0,76,1,5,6,0,0,0,0,0
+hiredis,560e664862,2022-09-08,e1de5760,Minor refactor,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,1
+hiredis,a66916719b,2022-09-07,978db410,Add adapters/libhv,3,1,130,0,69,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,57,0,0,0,0,0
+hiredis,79ae5ffc69,2022-09-05,e1de5760,Fix protocol error (#1106),3,3,16,6,16,6,1,0,0,2,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+hiredis,61b5b299f0,2022-09-03,e1de5760,Use a windows specific keepalive function. (#1104),4,4,40,0,40,0,0,0,0,2,0,0,1,0,2,0,0,137,1,1,31,0,0,0,0,0
+hiredis,fce8abc1c1,2022-09-02,e0662dd9,Introduce .close method for redisContextFuncs,3,3,11,2,11,2,0,0,0,2,1,0,0,0,0,0,0,33,1,3,10,0,0,0,0,0
+hiredis,cfb6ca8811,2022-09-02,e1de5760,Add REDIS_OPT_PREFER_UNSPEC (#1101),2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,bc8d837b72,2022-09-01,4c1f3d19,fix heap-buffer-overflow (#957),1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,178,1,2,2,1,0,0,0,0
+hiredis,ca4a0e850b,2022-09-01,a43f9a17,uvadapter: reduce number of uv_poll_start calls,1,1,8,0,8,0,0,0,0,2,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,1
+hiredis,10c78c6e17,2022-09-01,f58c8fef,"Add possibility to prefer IPv6, IPv4 or unspecified",3,3,32,11,32,11,0,0,0,2,0,0,2,0,0,0,0,145,2,20,24,0,0,0,0,0
+hiredis,329eaf9bae,2022-09-01,21face29,Fix heap-buffer-overflow issue in redisvFormatCommad,2,2,10,1,10,1,1,0,0,2,0,0,2,0,0,0,0,176,2,5,5,1,0,0,0,0
+hiredis,0a5fa3ddee,2022-08-31,7e0b0dab,Regression test for off-by-one parsing error,1,1,13,0,13,0,1,0,0,1,0,0,1,0,0,0,0,327,1,12,12,0,0,0,0,0
+hiredis,9e174e8f7d,2022-08-30,43729427,Add do while(0) protection for macros,1,1,15,12,15,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+hiredis,4ad99c69a2,2022-08-29,e1de5760,Rework asSleep to be a generic millisleep function.,1,1,11,11,11,11,0,0,0,2,0,0,0,0,1,1,0,72,2,2,10,0,0,0,0,0
+hiredis,75cb6c1ea6,2022-08-29,6ca00f23,Do store command timeout in the context for redisSetTimeout (#593),2,2,15,0,15,0,0,0,0,2,0,0,1,0,0,0,0,52,1,4,9,0,0,0,0,0
+hiredis,b044eaa6a7,2022-08-29,21face29,Copy error to redisAsyncContext when finding subscribe cb,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,55,1,1,1,0,1,0,0,0
+hiredis,6a3e96ad21,2022-08-26,e1de5760,Maintain backward compatibiliy withour onConnect callback.,4,3,51,19,49,19,0,0,0,4,0,0,0,0,2,0,0,41,0,0,36,0,0,0,0,0
+hiredis,71119a71d7,2022-08-15,74296313,Make it possible to set SSL verify mode,2,2,53,1,53,1,0,0,0,1,1,0,0,1,1,0,0,14,1,10,32,0,0,0,0,0
+hiredis,f69fac7690,2022-07-08,69db83b6,"Drop `const` on redisAsyncContext in redisConnectCallback Since the callback is now re-entrant, it c",2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,1,0,0,0
+hiredis,005d7edebe,2022-07-08,69db83b6,"Support calling redisAsyncDisconnect from the onConnected callback, by deferring context deletion",1,1,54,10,54,10,0,0,0,6,0,1,0,1,2,0,0,33,2,8,43,0,1,0,0,0
+hiredis,6ed060920f,2022-07-08,69db83b6,Add async regression test for issue #931,1,1,47,5,47,5,1,0,0,3,0,0,1,0,0,0,0,72,1,17,35,0,1,0,0,0
+hiredis,2ccef30f3e,2022-07-05,69db83b6,Add regression test for issue #945,1,1,46,3,46,3,1,0,0,2,1,0,0,0,1,0,0,55,1,13,34,0,0,0,0,0
+hiredis,4b901d44ad,2022-07-05,69db83b6,Initial async tests,1,1,179,0,179,0,0,0,0,1,0,0,1,0,7,0,0,136,1,9,154,0,1,0,0,0
+hiredis,31c91408ef,2022-07-05,69db83b6,Polling adapter and example,3,1,263,1,197,0,0,0,0,0,1,0,0,0,10,0,0,0,0,0,148,0,0,0,0,0
+hiredis,f246ee433d,2022-06-26,e1de5760,"Whitespace, style",1,1,3,4,3,4,0,0,0,1,0,0,0,0,0,0,0,32,0,0,2,0,0,0,0,0
+hiredis,94c1985bde,2022-06-26,69db83b6,Use correct type for getsockopt(),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,33,0,0,2,0,0,0,0,0
+hiredis,5e002bc21c,2022-06-26,69db83b6,Support failed async connects on windows.,2,2,36,4,36,4,0,0,0,3,0,0,0,0,0,0,0,33,0,0,26,0,1,0,0,0
+hiredis,eedb37a65d,2022-04-24,d1eb7180,Fix warnings on Win64,1,1,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,103,3,3,3,0,0,0,0,0
+hiredis,b455b33818,2022-04-22,98ccff49,Handle push notifications before or after reply.,1,1,11,0,11,0,0,0,0,1,1,0,0,0,0,0,0,51,1,7,7,0,0,0,0,0
+hiredis,7123b87f6d,2022-02-03,21face29,Handle any pipelined unsubscribe in async,3,3,91,42,91,42,0,0,0,5,0,0,2,0,0,0,0,99,3,63,67,0,1,0,0,0
+hiredis,b6fb548fc6,2022-02-02,21face29,Ignore pubsub replies without a channel/pattern,2,2,9,1,9,1,0,0,0,2,0,0,1,0,0,0,0,52,1,1,4,0,0,0,0,0
+hiredis,00b82683bb,2022-02-02,21face29,Handle overflows as errors instead of asserting,1,1,3,3,3,3,1,0,0,2,0,0,1,0,0,0,0,53,1,1,3,1,0,0,0,0
+hiredis,64062a1d40,2022-02-01,21face29,Catch size_t overflows in sds.c,1,1,5,2,5,2,1,0,0,2,0,0,1,0,0,0,0,53,1,1,5,1,0,0,0,0
+hiredis,066c6de79e,2022-02-01,21face29,Use size_t/long to avoid truncation,1,1,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,88,1,1,4,0,0,0,0,0
+hiredis,be41ed60d7,2022-01-27,21face29,Avoid incorrect call to the previous reply's callback (#1040),2,2,179,10,179,10,0,0,0,2,0,0,1,1,5,0,0,127,2,8,120,0,0,0,0,0
+hiredis,f2e8010d95,2022-01-24,b8ff7f96,fix building on AIX and SunOS (#1031),2,1,5,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,e73ab2f232,2022-01-18,5e2ce668,Add timeout support for libuv adapter (#1016),3,1,139,68,104,58,0,0,0,5,0,0,0,0,2,3,0,10,0,0,93,0,0,0,0,0
+hiredis,f2ce5980e6,2022-01-18,21face29,Allow sending commands after sending an unsubscribe (#1036),2,2,32,18,32,18,0,0,0,6,0,0,1,0,1,0,0,52,1,6,23,0,0,0,0,0
+hiredis,ff860e55db,2022-01-11,21face29,Correction for command timeout during pubsub (#1038),2,2,93,4,93,4,0,0,0,2,1,0,1,0,3,0,0,125,2,6,62,0,0,0,0,0
+hiredis,4ece9a02ed,2022-01-05,48d65093,Fix adapters/libevent.h compilation for 64-bit Windows (#937),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+hiredis,f2be748024,2021-12-22,75bfeb99,Fix integer overflow when format command larger than 4GB (#1030),3,3,12,13,12,13,0,0,0,4,0,0,0,0,0,0,0,33,1,1,12,1,0,0,0,0
+hiredis,58aacdac65,2021-12-22,21face29,Handle array response in parallell with pubsub using RESP3 (#1014),3,3,24,2,24,2,0,0,0,3,0,0,2,0,1,0,0,51,2,2,15,0,0,0,0,0
+hiredis,d3384260e7,2021-12-16,21face29,Support PING while subscribing (RESP2) (#1027),3,3,25,16,25,16,0,0,0,5,0,0,1,0,1,0,0,63,3,5,17,0,0,0,0,0
+hiredis,da5a4ff362,2021-12-01,21face29,Add asynchronous test for pubsub using RESP3 (#1012),2,2,56,4,56,4,0,0,0,3,0,0,1,0,2,0,0,122,1,6,36,0,1,0,0,0
+hiredis,c4333203e3,2021-11-18,21face29,Remove unused parameter warning in libev adapter,1,1,15,6,15,6,0,0,0,7,0,0,0,0,0,0,0,10,0,0,15,0,0,0,1,0
+hiredis,7ad38dc4a8,2021-11-17,e1de5760,Small tweaks of the async tests,1,1,7,4,7,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,6,0,1,0,0,0
+hiredis,50cdcab49d,2021-11-01,43729427,Fix potential fault at createDoubleObject,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+hiredis,4021726a69,2021-10-27,21face29,Add asynchronous test for pubsub using RESP2,1,1,107,0,107,0,0,0,0,1,0,0,1,0,5,0,0,116,1,4,77,0,1,0,0,0
+hiredis,fa900ef76f,2021-10-10,e1de5760,Fix unused variable warning.,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+hiredis,e489846b72,2021-10-10,e1de5760,Minor refactor of CVE-2021-32765 fix.,4,4,25,1,25,1,1,0,0,4,0,0,0,0,1,0,0,23,0,0,16,1,0,0,0,1
+hiredis,d4e6f109a0,2021-10-07,e1de5760,Revert erroneous SONAME bump,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,8d1bfac464,2021-10-04,e1de5760, Prepare for v1.0.1 GA,3,1,16,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,76a7b10005,2021-10-04,98ccff49,Fix for integer/buffer overflow CVE-2021-32765,2,2,15,0,15,0,1,0,0,2,0,0,1,0,0,0,0,186,1,12,13,1,0,0,0,0
+hiredis,2d9d77518d,2021-08-18,58c1d722,Don't leak memory if an invalid type is set (#906),1,1,1,1,1,1,1,0,1,1,0,0,1,0,0,0,0,47,1,1,1,0,0,0,0,0
+hiredis,f5f31ff9b9,2021-07-11,7de7870b,Added REDIS_NO_AUTO_FREE_REPLIES flag (#962),3,3,14,1,14,1,0,0,0,2,0,0,2,0,0,0,0,50,2,6,8,0,0,0,0,0
+hiredis,5850a8ecd2,2021-06-17,e1de5760,Ensure we curry any connect error to an async context.,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,24,0,0,3,0,1,0,0,0
+hiredis,5f4382247a,2021-04-11,5e40427b,improve SSL leak fix redis/hiredis#896,1,1,5,2,5,2,1,0,0,2,0,0,0,0,0,0,0,41,0,0,4,0,0,0,0,0
+hiredis,e06ecf7e45,2021-04-08,69db83b6,Ignore timeout callback from a successful connect,1,1,11,3,11,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,0
+hiredis,dfa33e60b0,2021-04-02,e1de5760,Change order independant push logic to not change behavior.,1,1,16,7,16,7,0,0,0,2,0,0,0,0,1,0,0,24,0,0,10,0,0,0,0,0
+hiredis,6204182aae,2021-04-02,e1de5760,Handle the case where an invalidation is sent second.,1,1,15,17,15,17,0,0,0,2,0,1,0,0,0,0,0,24,1,2,11,0,0,0,0,0
+hiredis,410c24d2a9,2021-02-25,e1de5760,Fix off-by-one error in seekNewline,1,1,13,7,13,7,1,0,0,1,0,0,0,0,0,0,0,15,0,0,7,0,0,0,0,0
+hiredis,bd7488d27d,2021-02-25,2ec975dd,read: Validate line items prior to checking for object creation callbacks,1,1,33,30,33,30,0,0,0,1,0,0,0,0,0,0,0,103,1,25,25,0,0,0,0,0
+hiredis,5f9242a1f8,2021-02-25,2ec975dd,read: Remove obsolete comment on nested multi bulk depth limitation,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+hiredis,83c1450425,2021-02-25,2ec975dd,read: Add support for the RESP3 bignum type,4,4,36,2,36,2,0,1,0,5,0,0,5,0,0,0,0,303,5,30,32,0,0,0,0,0
+hiredis,c6646cb192,2021-02-25,2ec975dd,read: Ensure no invalid '\r' or '\n' in simple status/error strings,1,1,7,0,7,0,0,0,0,1,0,0,1,0,0,0,0,90,1,7,7,0,0,0,0,0
+hiredis,e43061156c,2021-02-25,2ec975dd,read: Additional validation and test case for RESP3 double,2,2,12,3,12,3,0,0,0,2,0,0,2,0,0,0,0,293,2,11,11,0,0,0,0,0
+hiredis,c8adea4024,2021-02-25,2ec975dd,"redisReply: Fix parent type assertions during double, nil, bool creation",1,1,4,2,4,2,1,0,0,2,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+hiredis,ff73f1f9e7,2021-02-25,2ec975dd,redisReply: Explicitly list nil and bool cases in freeReplyObject() switch.,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,30,1,2,2,0,0,0,0,0
+hiredis,0f92518847,2021-02-25,2ec975dd,test: Add test case for RESP3 set,1,1,22,0,22,0,0,0,0,1,0,0,1,0,0,0,0,285,1,21,21,0,0,0,0,0
+hiredis,33c06dd503,2021-02-25,2ec975dd,test: Add test case for RESP3 map,1,1,20,0,20,0,0,0,0,1,0,0,1,0,0,0,0,264,1,19,19,0,0,0,0,0
+hiredis,397fe26301,2021-02-25,2ec975dd,read: Use memchr() in seekNewline() instead of looping over entire string,1,1,12,19,12,19,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+hiredis,81c48a9821,2021-02-25,2ec975dd,test: Add test cases for RESP3 bool,1,1,29,0,29,0,0,0,0,1,0,0,1,0,0,0,0,245,1,26,26,0,0,0,0,0
+hiredis,51e693f4fd,2021-02-25,2ec975dd,read: Add additional RESP3 bool validation,1,1,9,1,9,1,0,0,0,1,0,0,1,0,0,0,0,83,1,7,7,0,0,0,0,0
+hiredis,790b4d3b4d,2021-02-25,2ec975dd,test: Add test cases for RESP3 nil,1,1,18,0,18,0,0,0,0,1,0,0,1,0,0,0,0,219,1,16,16,0,0,0,0,0
+hiredis,d8899fbc19,2021-02-25,2ec975dd,read: Add additional RESP3 nil validation,1,1,6,0,6,0,0,0,0,1,0,0,1,0,0,0,0,77,1,5,5,0,0,0,0,0
+hiredis,96e8ea6110,2021-02-25,2ec975dd,test: Add test cases for infinite and NaN doubles,1,1,20,0,20,0,0,0,0,1,0,0,1,0,0,0,0,203,1,18,18,0,0,0,0,0
+hiredis,f913e9b997,2021-02-25,2ec975dd,read: Fix double validation and infinity parsing,1,1,7,3,7,3,1,0,0,1,0,0,0,0,0,0,0,72,1,3,3,0,0,0,0,0
+hiredis,8039c7d26c,2021-02-25,2ec975dd,test: Add test case for doubles,1,1,13,0,13,0,0,0,0,1,0,0,1,0,0,0,0,185,1,11,12,0,0,0,0,0
+hiredis,49539fd1a7,2021-02-25,2ec975dd,redisReply: Fix - set len in double objects,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+hiredis,4bba72103c,2021-01-26,21face29,Handle OOM during async command callback registration,1,1,13,8,13,8,0,0,0,1,0,0,1,0,0,0,0,63,1,12,12,0,1,0,0,0
+hiredis,920128a260,2021-01-25,21face29,Stack allocate dict iterators,3,3,9,25,9,25,0,0,0,1,0,0,0,1,1,2,0,34,1,7,9,0,0,0,0,0
+hiredis,fd033e983a,2020-12-24,75bfeb99,Remove semicolon after do-while in _EL_CLEANUP,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+hiredis,664c415e7f,2020-12-07,0664a8b3,"Illumos test fixes, error message difference fot bad hostname test.",1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,35,1,1,1,0,0,0,0,0
+hiredis,aefef8987f,2020-11-10,63840c52,Free SSL object when redisSSLConnect fails,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,42,0,0,1,0,0,0,0,0
+hiredis,e7dda97859,2020-10-18,e1de5760,Formatting,1,1,7,11,7,11,0,0,0,1,0,0,0,1,0,0,0,69,1,7,7,0,0,0,0,0
+hiredis,b9b9f446fe,2020-10-17,e1de5760,Fix handling of NIL invalidation messages.,2,2,33,8,33,8,1,0,0,3,0,0,0,0,0,0,0,44,0,0,26,0,0,0,0,0
+hiredis,b086f763e7,2020-10-12,f6616424,"clean a warning, remvoe empty else block",1,1,5,7,5,7,0,0,0,1,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+hiredis,f989670e59,2020-09-26,a05e94a0,"docs: Fix simple typo, termined -> terminated",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,773d6ea8a7,2020-09-23,7ca78679,Copy error to redisAsyncContext on timeout,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,1,0,0,0
+hiredis,6693863f4c,2020-09-08,d5bd350e,Add support for system CA certificate store on Windows,2,2,46,1,46,1,0,0,0,2,0,0,1,0,0,0,0,73,1,37,45,0,0,0,0,0
+hiredis,bd6f86eb6b,2020-08-20,e1de5760,Fix sockaddr typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,d5b4c69b71,2020-08-03,e1de5760,Prepare for v1.0.0 GA,3,1,13,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,5003906d63,2020-07-31,e1de5760,Define a no op assert if we detect NDEBUG (#861),1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+hiredis,ea063b7cc8,2020-07-31,e1de5760,Use development specific versions in master,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,34b7f7a0ff,2020-07-30,716c2bba,Keep libev's code style (#857),1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,0
+hiredis,a853467542,2020-07-29,e1de5760,Update notes preparing for v1.0.0-rc1,3,1,227,27,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,d8ff72387d,2020-07-29,e1de5760,Move SSL management to a distinct private pointer. (#855),7,4,119,36,78,30,0,0,0,12,0,0,2,0,2,0,0,71,2,8,56,0,0,0,1,0
+hiredis,be32bcdc8e,2020-07-26,e1de5760,Minor refactor for scheduling an async timer. (#854),2,2,14,9,14,9,0,0,0,1,0,0,0,0,0,0,0,7,0,0,9,0,1,0,0,1
+hiredis,38b5ae543f,2020-07-26,191fc90a,add a command_timeout to redisContextOptions (#839),7,5,80,42,78,40,0,0,0,10,1,0,0,0,2,1,0,137,3,16,66,0,0,0,0,0
+hiredis,3bb985314d,2020-07-21,e1de5760,Fix a static analysis false positive,1,1,6,5,6,5,1,0,0,1,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+hiredis,18fc12c392,2020-07-20,e1de5760,Move include to sockcompat.h to maintain style (#850),2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+hiredis,43aeabbbee,2020-07-20,c6d29943,fix windows compiling with mingw (#848),1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,2e7d7cbabd,2020-07-19,e1de5760,Resp3 oob push support (#841),11,5,505,30,304,22,0,0,0,8,1,0,2,0,14,0,0,70,3,13,206,0,0,0,0,0
+hiredis,ada3665279,2020-07-08,e1de5760,Use _WIN32 define instead of WIN32 (#845),1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,392de5d7f9,2020-06-22,6217bf79,fix #785: defer TCP_NODELAY in async tcp connections (#836),3,3,18,5,18,5,1,0,0,3,0,0,0,0,1,0,0,137,1,2,14,0,1,0,0,0
+hiredis,a28de70a01,2020-06-18,191fc90a,timeout option in redisConnectWithOptions should be on connect only (#829),1,1,1,3,1,3,0,0,0,1,0,1,0,0,0,0,0,29,1,0,0,0,0,0,0,0
+hiredis,6448f735d5,2020-06-07,e1de5760,sdsrange overflow fix (#830),9,9,30,20,30,20,1,0,0,7,0,0,2,0,0,0,0,36,2,7,26,1,0,0,0,0
+hiredis,c726723545,2020-06-01,20ca08f7,Use explicit pointer casting for c++ compatibility (#826),1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+hiredis,904bf7fe00,2020-05-30,e1de5760,Tiny OOM fix,1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,42,1,2,2,0,0,0,0,0
+hiredis,e553e0f382,2020-05-26,e1de5760,Document allocator injection and completeness fix in test.c (#824),2,1,32,1,2,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,1,0,0,0,0
+hiredis,f5d2585043,2020-05-25,e1de5760,Use unique names for allocator struct members (#823),3,3,29,29,29,29,0,0,0,12,0,0,0,0,0,0,0,16,0,0,29,0,0,0,0,0
+hiredis,190bca88d0,2020-05-24,98ccff49,New SSL API to replace redisSecureConnection().,6,3,320,151,240,123,0,0,0,11,1,1,1,0,6,3,0,114,1,5,139,1,0,0,0,0
+hiredis,8e0264cfd6,2020-05-22,e1de5760,Allow users to replace allocator and handle OOM everywhere. (#800),23,20,471,196,453,188,0,0,0,67,1,0,8,1,14,0,0,175,14,113,374,0,0,0,0,0
+hiredis,83bba659b9,2020-05-21,e1de5760,Add logic to handle RESP3 push messages (#819),4,4,27,4,27,4,0,0,0,7,0,0,5,0,0,0,0,165,5,21,25,0,0,0,0,0
+hiredis,c8999c6602,2020-05-20,8fd1c6a1,Use standrad isxdigit instead of custom helper function. (#814),1,1,2,9,2,9,0,0,0,1,0,0,0,0,0,1,0,101,1,2,2,0,0,0,0,0
+hiredis,5c9f49e212,2020-05-19,e1de5760,Resp3 verbatim string support (#805),5,5,52,13,52,13,0,0,0,5,1,0,4,0,0,0,0,152,5,46,50,0,0,0,0,0
+hiredis,eafb085d11,2020-05-04,e1de5760,Remove nested depth limitation. (#797),3,3,98,36,98,36,0,0,0,9,0,0,2,0,1,0,0,143,6,37,79,0,0,0,1,0
+hiredis,994d2fd77d,2020-05-04,e1de5760,Support timeouts in libev adapater (#795),1,1,31,2,31,2,0,0,0,2,0,0,0,0,3,0,0,22,0,0,26,0,0,0,0,0
+hiredis,0184caac9d,2020-04-09,6b5c7bcb,Provides an optional cleanup callback for async data.,2,2,6,0,6,0,0,0,0,2,0,0,0,0,0,0,0,32,0,0,5,0,1,0,0,1
+hiredis,a5613f3f7f,2020-04-09,e1de5760,Use correct libuv call on Windows (#784),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+hiredis,ec08c2b94a,2020-04-09,e1de5760,Added CMake package config and fixed hiredis_ssl on Windows (#783),4,1,109,7,21,2,1,0,0,3,0,0,0,0,3,0,0,3,0,0,20,0,0,0,0,0
+hiredis,cc9d032971,2020-04-02,e1de5760,Win32 tests and timeout fix (#776),6,2,119,92,101,40,1,0,0,6,1,0,2,0,1,0,0,108,3,59,91,0,0,0,0,0
+hiredis,ec18d790f1,2020-04-02,e1de5760,Const correctness,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+hiredis,d57067564e,2020-03-13,e1de5760,Actually define include guard,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+hiredis,139f966cc8,2020-02-28,e1de5760,Bump version to 0.15.0,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,38675d23cc,2020-02-27,e1de5760,Housekeeping fixes (#764),6,2,72,10,16,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+hiredis,669ac9d0c8,2020-01-28,e1de5760,Safe allocation wrappers (#754),13,11,141,27,129,17,0,0,0,12,0,0,0,0,4,0,0,134,2,7,57,0,0,0,0,0
+hiredis,386b9950f3,2020-01-01,dbd264a1,fix spelling mistakes,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,72,1,1,2,0,0,0,0,0
+hiredis,ac0b186aa3,2019-12-12,e1de5760,Free the reply in redisGetReply when passed NULL,2,2,12,2,12,2,0,0,0,2,0,0,1,0,0,0,0,66,1,3,7,0,0,0,0,0
+hiredis,42697bd45a,2019-11-25,aa2aeafa,Fix dead code in sslLogCallback relating to should_log variable.,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+hiredis,e58a9f7d52,2019-11-20,4778826c,Fix typo in dict.c.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,5aa7b1056b,2019-09-25,e1de5760,Fixes leaks in unit tests,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,83,1,2,2,0,0,0,0,0
+hiredis,d952ed877a,2019-09-16,98ccff49,Add SSL mode tests.,3,1,136,12,76,4,0,0,0,3,0,0,1,0,2,0,0,89,1,29,69,0,0,0,0,0
+hiredis,a1e538092d,2019-09-16,98ccff49,Make SSL timeout error compatible with rest.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+hiredis,d41443bd3d,2019-09-16,98ccff49,Fix: redisReconnect() should clear SSL context.,1,1,5,0,5,0,1,0,0,1,0,0,0,0,0,0,0,22,0,0,4,0,0,0,0,0
+hiredis,5872d818d9,2019-09-01,98ccff49,Separate hiredis and hiredis_ssl library build.,2,1,48,27,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,5c85a04164,2019-09-01,98ccff49,Use a const funcs in redisContext.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,df68d7d8bd,2019-08-29,98ccff49,Rename sslio.,2,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,8715ba5c82,2019-08-29,98ccff49,"wip: SSL code reorganization, see #705.",11,8,455,288,446,283,0,0,0,8,1,1,0,0,11,12,0,19,0,0,248,0,0,0,0,0
+hiredis,28759c4b81,2019-08-28,98ccff49,Fix MSVC build.,1,1,4,3,4,3,1,0,0,1,0,0,0,0,0,0,0,72,1,2,4,0,0,0,0,0
+hiredis,aacd4ccd76,2019-08-25,98ccff49,Fix typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,73,1,1,1,0,0,0,0,0
+hiredis,153b8f632b,2019-08-22,98ccff49,SSL: Properly report SSL_connect() errors.,1,1,13,1,13,1,0,0,0,1,0,0,1,0,0,0,0,73,1,10,12,0,0,0,0,0
+hiredis,6d21ffce7c,2019-08-13,98ccff49,Silent SSL trace to stdout by default.,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,64,1,2,4,0,1,0,0,0
+hiredis,8e61d5737a,2019-08-12,d19d73af,add recv error code for clarifying timeout,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+hiredis,ab1762cd92,2019-08-12,d19d73af,fix timeout code in windows,1,1,9,2,9,2,1,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,0,0,0
+hiredis,173f16ab55,2019-08-09,cf22802d,MSVC: Fix some compiler warnings in sds.h,1,1,14,14,14,14,1,0,0,3,0,0,0,0,0,0,0,24,0,0,13,0,0,0,0,0
+hiredis,85fee25653,2019-08-09,cf22802d,MinGW fix: Use _MSC_VER instead of _WIN32 where appropriate,5,5,17,7,17,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+hiredis,91de9c975a,2019-08-04,98ccff49,RESP3 support changes from Redis.,5,4,140,8,134,8,0,0,0,8,2,0,1,0,2,0,0,72,3,53,117,0,0,0,0,0
+hiredis,a7a1886b7e,2019-08-04,98ccff49,Initial RESP3 support [d5c54f0b].,2,2,22,3,22,3,0,0,0,1,1,1,1,0,1,1,0,51,1,9,20,0,0,0,0,0
+hiredis,a1d4da63b8,2019-07-22,73ba62ac,Removed whitespace before newline,3,2,6,6,5,5,0,0,0,1,0,0,0,0,0,0,0,42,1,1,3,0,0,0,0,0
+hiredis,83d3c097ef,2019-07-03,58ceabc1,Remove unnecessary null check before free,1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,134,1,1,1,0,0,0,1,0
+hiredis,918e24c83b,2019-05-30,2b56caa4,redisReaderGetReply leak memory,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,36,1,4,4,0,0,0,0,0
+hiredis,993af7710e,2019-05-14,a76d7583,test: fix errstr matching for musl libc,1,1,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,35,1,1,1,0,0,0,0,0
+hiredis,76394f1be8,2019-05-13,73e51b26,remove useless type casting,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,2,0,0,0,1,0
+hiredis,f5454d509f,2019-05-05,73e51b26,fix bugs on socket timeout tv usec calculation,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+hiredis,4a94ce6326,2019-05-05,73e51b26,fix bugs for optlen output on size not big enough for timeout events,1,1,10,5,10,5,1,0,0,1,0,0,0,0,0,0,0,20,0,0,10,0,0,0,0,0
+hiredis,82252440de,2019-05-05,73e51b26,fix bugs on ref address incorrect on sockcompact with getsockopt,1,1,2,3,2,3,1,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+hiredis,d8f814d48b,2019-05-05,73e51b26,fix bugs of setsockopt diff in win compact implementation,1,1,20,2,20,2,1,0,0,2,0,0,0,0,0,0,0,16,0,0,19,0,0,0,0,0
+hiredis,cdb836d5f8,2019-04-13,515dcabe,Fix Compile Error On Windows (Visual Studio),4,4,14,0,14,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+hiredis,5aa2397f9e,2019-04-11,91ff5daa,fix blocking timeouts on SSL reads/writes,1,1,24,1,24,1,1,0,0,2,0,0,0,0,0,0,0,29,0,0,14,0,0,0,0,0
+hiredis,4830786c84,2019-04-10,91ff5daa,ensure that blocking timeout is set,1,1,4,0,4,0,0,0,0,2,1,0,0,0,0,0,0,32,1,3,4,0,0,0,0,0
+hiredis,dc6d19b9ec,2019-04-01,0f928c3c,Port network layer to Winsock,8,6,367,22,351,11,0,1,0,2,1,0,1,0,16,0,0,41,1,5,250,0,0,1,0,0
+hiredis,1d092a235a,2019-04-01,0f928c3c,Use recv/send instead of read/write,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+hiredis,e84086cb92,2019-04-01,0f928c3c,Introduce a redisFD type,3,3,19,15,19,15,0,0,0,6,0,0,1,0,0,0,0,136,1,3,18,0,0,0,0,0
+hiredis,1788f41f16,2019-04-01,0f928c3c,Move network I/O calls to net.c,3,3,49,49,49,49,0,0,0,9,0,0,0,0,3,3,0,135,1,2,44,0,0,0,1,0
+hiredis,afcc11cc5a,2019-03-31,e1de5760,Fix NXDOMAIN test case,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,34,0,0,4,0,0,0,0,0
+hiredis,17b4174089,2019-03-11,91ff5daa,Retain the same semantics for connection error on connection timeout,1,1,11,0,11,0,0,1,0,2,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+hiredis,5eb6958870,2019-02-21,91ff5daa,Allow option for async connections to not automatically free,3,3,21,1,21,1,0,0,0,3,0,0,0,0,0,0,0,29,0,0,9,0,1,0,0,0
+hiredis,4b90429640,2019-02-20,91ff5daa,Remove redundant line after rebase,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,39,1,0,0,0,0,0,1,0
+hiredis,d9e0299f1c,2019-02-20,191fc90a,fix redisLibeventEvents init,1,1,2,5,2,5,1,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+hiredis,ea9f9d2515,2019-02-20,91ff5daa,fixed wrong memset args,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+hiredis,f0a7595056,2019-02-20,91ff5daa,libevent: call destroy from cleanup,1,1,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,18,0,0,6,0,0,0,0,1
+hiredis,1eb44cf0c4,2019-02-20,91ff5daa,scrub redisContext before freeing,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+hiredis,f60c5506fe,2019-02-20,91ff5daa,Add EV_PERSIST flag to read events,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+hiredis,24e6166fed,2019-02-20,91ff5daa,libevent: fix invalid mem access on delete within callback enter,1,1,37,4,37,4,1,0,0,2,0,0,0,0,1,0,0,18,0,0,29,0,0,0,0,0
+hiredis,5f633ac4ec,2019-02-20,91ff5daa,fix potential uninitialized read,1,1,2,1,2,1,1,0,0,2,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+hiredis,847a20122f,2019-02-20,191fc90a,Fix memory leaks,2,2,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+hiredis,58222c26f4,2019-02-20,191fc90a,Support SNI,6,4,15,9,13,7,0,0,0,3,0,0,1,0,0,0,0,64,1,7,13,0,0,0,0,0
+hiredis,3a547b8ec0,2019-02-20,91ff5daa,Unix: set addrlen so async reconnect uses proper size,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,40,1,2,2,0,1,0,0,0
+hiredis,f4f6b6d65c,2019-02-20,91ff5daa,minor fixes: initialize options struct with 0 always,1,1,3,9,3,9,1,0,0,2,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+hiredis,53d9b12b76,2019-02-20,91ff5daa,Fix bug in options macro,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,deba8d956d,2019-02-20,91ff5daa,Allow connectWithOptions for async as well,2,2,25,28,25,28,0,0,0,4,0,0,0,0,1,0,0,8,0,0,24,0,1,0,0,0
+hiredis,35a0a1f369,2019-02-20,91ff5daa,read/write timeouts,4,4,121,26,121,26,0,0,0,6,0,0,0,0,6,2,0,21,0,0,99,0,0,0,0,0
+hiredis,e4a78006e7,2019-02-20,91ff5daa,Provide option-struct initialization,2,2,117,79,117,79,0,1,0,10,0,0,0,0,1,0,0,20,0,0,96,0,0,0,0,0
+hiredis,4127e4488b,2019-02-20,91ff5daa,Don't add dead code for HIREDIS_NOSSL,1,1,4,15,4,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+hiredis,bc2a8f372a,2019-02-20,91ff5daa,Minor SSL-related fixes,2,1,4,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,82549a53de,2019-02-20,91ff5daa,Disable SSL by default,3,2,20,11,15,8,0,0,0,4,0,0,0,0,0,0,0,5,0,0,15,0,0,0,0,0
+hiredis,08efa46599,2019-02-20,91ff5daa,SSL for async I/O,5,3,197,4,120,3,0,0,0,5,0,0,1,0,5,0,0,58,1,1,82,0,1,0,0,0
+hiredis,5f50eb4131,2019-02-20,91ff5daa,Remove extra printfs,1,1,4,7,4,7,0,0,0,1,0,0,0,1,0,0,0,57,1,0,0,0,0,0,1,0
+hiredis,0c14544906,2019-02-20,91ff5daa,Initial SSL (sync) implementation,5,4,322,27,310,23,0,0,0,3,1,0,0,0,17,0,0,19,0,0,250,0,0,0,0,0
+hiredis,be6bb39fda,2019-01-28,1d126df8,Fix Invalid argument after redisAsyncConnectUnix,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,39,1,1,1,0,1,0,0,0
+hiredis,088d1469b3,2018-12-05,91ff5daa,Fix regression when connecting with Unix sockets (#629),1,1,5,4,5,4,1,0,0,1,0,0,1,0,0,0,0,38,1,5,5,0,0,0,0,0
+hiredis,d9fe8bdf67,2018-11-26,0664a8b3,FreeBSD  build fix,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,9ce15c4b39,2018-11-04,98ccff49,Fix errors not propagating properly with libuv.h.,1,1,3,6,3,6,1,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+hiredis,169fcc708b,2018-10-24,29770ff8,Fix redisBufferRead documentation,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,3cb4fb2395,2018-09-25,91ff5daa,Skip NXDOMAIN test when using evil ISPs,1,1,35,20,35,20,0,0,0,6,0,0,0,0,1,1,0,80,2,2,32,0,0,0,0,0
+hiredis,cbe4ae63ae,2018-09-25,91ff5daa,Handle connection errors better in blocking mode as well,3,3,15,6,15,6,0,0,0,3,0,0,1,0,1,1,0,135,1,5,11,0,0,0,0,0
+hiredis,5e6bbf8c60,2018-09-25,91ff5daa,saddr should be addrlen bytes,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,131,1,1,1,0,0,0,0,0
+hiredis,49974c9359,2018-09-25,91ff5daa,Call connect(2) again for non-blocking connect,6,6,56,13,56,13,0,0,0,4,0,0,1,0,1,0,0,131,1,6,42,0,0,0,0,0
+hiredis,29c82b728c,2018-09-25,c8d14ed3,Prepare for the 0.14.0 release,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,c3188bfb1f,2018-09-24,c8d14ed3,Make string2ll static to avoid conflict with redis,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,48,1,1,1,0,0,0,0,0
+hiredis,ef4256670f,2018-05-21,2aedd03f,Update createArray to take size_t,5,4,8,6,6,6,0,0,0,3,0,0,1,0,0,0,0,132,2,3,6,0,0,0,0,0
+hiredis,33a36dc25b,2018-05-20,e1de5760,Don't overflow 32 bit machines in the tests!,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,80,1,2,2,1,0,0,0,0
+hiredis,60f622b892,2018-05-20,e1de5760,Add an integer parsing heavy workload to throughput testing,1,1,24,0,24,0,0,0,0,1,0,0,1,0,0,0,0,80,1,22,22,0,0,0,0,0
+hiredis,7bef042c03,2018-05-20,e1de5760,Use string2ll from Redis,1,1,71,17,71,17,0,0,0,3,1,0,0,0,1,1,0,61,2,5,48,0,0,0,0,0
+hiredis,1091975857,2018-05-20,2aedd03f,Fix bulk and multi-bulk length truncation,2,2,51,1,51,1,1,0,0,3,0,0,3,0,0,0,0,132,3,45,45,0,0,0,0,0
+hiredis,93421f9d84,2018-05-19,2aedd03f,Properly detect integer parse errors,2,2,77,29,77,29,0,0,0,5,0,0,3,0,0,0,0,100,3,46,66,0,0,0,0,0
+hiredis,c1af0e849d,2018-05-09,e1de5760,Attempted fix for Cygwin to expose getaddrinfo and friends,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,58e6b87f51,2018-04-30,2aedd03f,Remove redundant NULL checks,3,3,18,34,18,34,0,0,0,7,0,1,0,3,0,0,0,175,4,6,18,0,0,0,1,0
+hiredis,54acc8f087,2018-04-30,2aedd03f,Remove redundant zero stores,2,2,0,8,0,8,0,0,0,2,0,0,0,0,0,0,0,15,0,0,0,0,0,0,1,0
+hiredis,546d9415e1,2018-04-30,2aedd03f,Fix a segfault on *BSD,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,127,1,3,3,0,0,0,0,0
+hiredis,d1c1b668c1,2018-04-30,2aedd03f,Drop __redis_strerror_r,3,3,2,26,2,26,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+hiredis,49bbaacc79,2018-04-28,2aedd03f,Strip down fmacros.h,2,2,3,29,3,29,0,0,0,1,0,0,0,0,0,0,0,29,0,0,2,0,0,0,0,0
+hiredis,bbeab80090,2018-04-28,2aedd03f,Use AF_UNIX,2,2,2,6,2,6,0,0,0,1,0,0,0,0,0,0,0,38,1,2,2,0,0,0,0,0
+hiredis,471557c349,2018-03-17,08617360,fix common realloc mistake and add null check more,1,1,24,5,24,5,1,0,0,3,0,0,2,0,0,0,0,101,2,18,22,0,0,0,0,0
+hiredis,952a33f298,2018-01-06,09b494a1,Make it compile on IBM AIX systems,2,2,8,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+hiredis,94ed2e430b,2018-01-05,09b494a1,Make XOPEN_SOURCE definition explicit per architecture,1,1,10,4,10,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+hiredis,9219556386,2018-01-05,0736a64d,calloc param fixes and NULL check,2,2,5,1,5,1,1,0,0,3,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+hiredis,3c32344a41,2017-06-15,2b72d85a,Small fixes,2,2,1,3,1,3,1,0,0,2,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+hiredis,b46413647f,2017-06-15,2b72d85a,Assert statement calls a function which has side effects,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+hiredis,6114da6429,2017-05-17,8bdbc544,Fix compilation on FreeBSD 10.3 with default compiler,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,706129a161,2017-05-15,07fd8b48,Don't pass a negative value to __redisAsyncCommand if redisFormatSdsCommandArgv fails,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,11,1,2,2,0,1,0,0,0
+hiredis,e21c9c6729,2017-05-15,07fd8b48,Fix leak if setsockopt fails,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,125,1,1,1,0,0,0,0,0
+hiredis,515228e5a1,2017-03-28,d7ef2d99,Update libevent.h,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+hiredis,2ec7740c3a,2017-03-22,5a70fa9b,suppress gcc complaint,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,d4699989ca,2017-01-30,67c27382,Use cached local variable instead using accessor,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,42,1,1,1,0,0,0,0,0
+hiredis,be76c56b51,2017-01-30,67c27382,Consider sub by pattern when clear subscribed flag,1,1,3,1,3,1,0,0,0,1,1,0,0,0,0,0,0,42,1,3,3,0,0,0,0,0
+hiredis,25cd884f6b,2016-12-30,4a4a8cf1,Fix __redisSetErrorFromErrno() can not get error string.,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+hiredis,8636d90821,2016-12-09,09b494a1,Avoid unchecked malloc,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,52,1,1,1,0,0,0,0,0
+hiredis,41b07dab5e,2016-10-25,4d851060,Remove trailing comma in redisConnectionType enum,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+hiredis,073dc84399,2016-09-30,67c27382,Counting pending subscribe. Fix #396,2,2,30,5,30,5,1,0,0,3,0,0,1,0,0,0,0,53,2,13,22,0,0,0,0,0
+hiredis,cbb956567b,2016-09-19,baf0f645,Prevented uv adapter from calling write when context has been freed,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+hiredis,64d1ec8342,2016-07-07,d8ff6ea2,fix: should close socket fd when retry connet remote (tcp),1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,124,1,1,1,0,0,0,0,0
+hiredis,bc0ea5c466,2016-06-19,82e9fbbd,Do not define _XOPEN_SOURCE for OS X,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,386802e809,2016-05-20,5e798f2a,using new version libevent,1,1,12,12,12,12,0,0,0,6,0,0,0,0,0,0,0,19,0,0,12,0,0,0,0,0
+hiredis,f5b32e2474,2016-05-14,6d82acf4,Update sds.h,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,8655a6ac7a,2016-05-14,09b494a1,test: Add regression test for sds argv formatting,1,1,16,0,16,0,1,0,0,1,0,0,1,0,0,0,0,83,1,13,13,0,0,0,0,0
+hiredis,360a0646bb,2016-05-14,a3254be2,Typo format in redisFormatSdsCommandArgv function,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+hiredis,97ac0d1f50,2016-04-20,09b494a1,fix: Change string length type to size_t,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,921e1aa84b,2016-04-20,50907870,remove unused code,1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,94,1,1,1,0,0,0,1,0
+hiredis,6c53d6803a,2016-04-20,4919c25e,Add CI for Windows,3,2,99,9,13,9,0,0,0,4,0,0,0,0,0,0,0,64,1,4,12,0,0,0,0,0
+hiredis,8f5265ded3,2016-04-20,09b494a1,fix: Remove backwards compatibility macro's,1,1,3,8,3,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+hiredis,a72860765f,2016-04-20,09b494a1,fix: Add sdsalloc.h file,1,1,42,0,42,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,63e1cf0c63,2016-04-20,09b494a1,feat: Include latests changes from sds upstream,2,2,66,24,66,24,0,0,0,8,0,0,0,0,5,0,0,94,3,7,41,0,0,1,0,0
+hiredis,d76e13b6d5,2016-04-20,d770c9ee,apply sds from redis,2,2,488,183,488,183,0,0,0,20,3,1,0,2,12,1,0,83,5,97,420,0,0,0,0,0
+hiredis,8a5fdf0c9e,2016-04-17,e2aa4ce4,test.c: Fix shadowed name with typedef when compiling with -Wshadow,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+hiredis,9317a74ae5,2016-04-17,e2aa4ce4,fmacros.h: Fix warning when compiled with -Wundef,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,6bfc580a34,2016-04-11,f57b885a,Update read.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+hiredis,0335cb3e98,2015-11-18,09b494a1,Prevent buffer overflow when formatting the error,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+hiredis,d4b715f0aa,2015-11-18,c8d14ed3,Fix potential race in 'invalid timeout' tests,2,2,30,13,30,13,1,0,0,4,0,0,2,0,1,0,0,123,2,11,23,0,1,0,0,0
+hiredis,bb1747b1bf,2015-11-18,c8d14ed3,Fix strerror_r on some esoteric platforms,1,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,e2f6ee239c,2015-10-28,93d1cb25,fixing typos,6,6,9,9,9,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,010756025e,2015-09-16,09b494a1,Release version 0.13.3,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,3d4b5c29ba,2015-09-16,8acfc24b,Add FreeBSD message to test_blocking_connection_errors.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+hiredis,d323b5ef9c,2015-09-14,09b494a1,"Revert ""redisBufferRead: Clear REDIS_CONNECTED flag when server closed connection""",1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0
+hiredis,53c32439bf,2015-08-25,09b494a1,Release version 0.13.2,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,1db17f257b,2015-08-24,f09fcaa0,redisBufferRead: Clear REDIS_CONNECTED flag when server closed connection,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+hiredis,36a9802c54,2015-07-27,09b494a1,Prevent crash on pending replies in async code,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,43,1,2,2,0,1,0,0,0
+hiredis,c18a564818,2015-07-27,536019e0,Added MacOS X addapter and corresponding example.,3,1,183,0,114,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,81,0,0,0,0,0
+hiredis,4a632a6038,2015-07-27,438e59f1,Make sure to disconnect the adapter in the destructor,2,1,14,6,13,5,0,0,0,3,0,0,0,0,0,0,0,13,0,0,11,0,0,0,0,0
+hiredis,9069b147b0,2015-07-27,438e59f1,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+hiredis,1984b309b8,2015-07-27,438e59f1,Add hooks for read/write/cleanup,1,1,68,4,68,4,0,0,0,1,0,0,0,0,10,0,0,9,0,0,59,0,0,0,0,1
+hiredis,8ef7d595ac,2015-07-27,438e59f1,Add Qt adapter and relative example.,4,1,155,0,63,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,28,0,0,0,0,0
+hiredis,3b153cbf9d,2015-07-27,f2015f30,Add an Ivykis adapter,3,1,142,0,81,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,61,0,0,0,0,0
+hiredis,9644a96a48,2015-07-27,09b494a1,Use stable soname version,2,1,5,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,1c884ec75b,2015-06-22,d11b10f9,Use explicit casts for void* pointer in order to compile in C++,1,1,10,10,10,10,0,0,0,5,0,0,0,0,0,0,0,11,0,0,10,0,0,0,0,0
+hiredis,f58dd249d6,2015-05-03,09b494a1,Release version 0.13.1,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,d132d676e9,2015-04-30,0f51ceab,Renamed redisContext struct member 'unix' to 'unix_sock' to avoid encountering defined constant 'uni,3,3,7,7,7,7,0,0,0,4,0,0,0,0,0,0,0,35,1,2,7,0,0,0,0,0
+hiredis,2fc39eb4c3,2015-04-28,ea7f6d8a,Fix memory leak in async spontaneous reply handling,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,42,1,1,1,0,1,0,0,0
+hiredis,31436c33ac,2015-04-16,09b494a1,Release version 0.13.0,2,1,13,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,af598dbce5,2015-04-16,09b494a1,Change copyright date and add copyright holder,4,4,14,6,14,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,b676007253,2015-04-16,09b494a1,Document reconnect method,1,1,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,d9e0b0f6ab,2015-04-16,09b494a1,Implement a reconnect method for the client context,4,4,170,5,170,5,0,0,0,5,1,0,2,0,2,0,0,117,3,46,136,0,0,0,0,0
+hiredis,b872919463,2015-04-16,09b494a1,Make this work on Redis 3.0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+hiredis,ec229678c2,2015-03-13,dd35ec21,Added support for compiling the parser code with Microsoft Visual C compiler. For hiredis-py and oth,4,4,58,11,58,11,0,0,0,10,0,0,0,0,2,0,0,28,1,1,48,0,0,0,0,0
+hiredis,27076a3e6d,2015-02-18,fae60532,Fix tests when assert() undefined,1,1,7,0,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+hiredis,9be3a07d8a,2015-01-26,fae60532,Release hiredis 0.12.1,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,7b51834c16,2015-01-22,fae60532,Increase version to 0.12.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,3c023ee157,2015-01-22,fae60532,Cleanup memory during test,1,1,2,1,2,1,0,0,0,2,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,1
+hiredis,195aca3427,2015-01-22,fae60532,Improve digit counting for multibulk creation,2,2,17,16,17,16,0,0,0,4,0,0,0,0,1,1,0,176,1,1,15,0,0,0,0,0
+hiredis,802456def1,2015-01-08,fae60532,Use known-bad hostname when testing hostname fail,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+hiredis,c642079a80,2015-01-08,fae60532,Update test error message detection for dead hosts,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+hiredis,74b7495f93,2015-01-06,fae60532,Silence _BSD_SOURCE warnings,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,f28872ca70,2015-01-05,fae60532,Cleanup tabs and end of line whitespace,2,2,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,1
+hiredis,cc20232406,2015-01-05,fae60532,Fix errno error buffers to not clobber errors,3,3,26,2,26,2,1,0,0,2,0,0,0,0,0,0,0,13,0,0,17,0,0,0,0,0
+hiredis,ba3e74c408,2015-01-05,dd35ec21,Refactor reading code into read.c,5,4,646,553,644,552,0,0,0,1,4,4,0,0,17,16,0,3,0,0,447,0,0,0,0,1
+hiredis,0cacb485fe,2015-01-05,fae60532,Fix sds building with C++,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+hiredis,6a00a4643b,2015-01-05,fae60532,Fix redisAppendCommand error result,2,2,32,9,32,9,1,0,0,4,0,0,1,0,0,0,0,176,1,16,23,0,0,0,0,0
+hiredis,0c9ff5bb03,2015-01-05,c0bee5b0,Add GLib 2.0 adapter,3,1,232,1,153,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,123,0,0,0,0,0
+hiredis,e30c96ebde,2015-01-05,3dea8847,Add empty pointer check in error cleanup,1,1,6,5,6,5,0,0,0,1,0,0,1,0,0,0,0,169,1,6,6,0,0,0,0,1
+hiredis,d1e820d8ee,2015-01-05,3dea8847,Add error check in redisContextInit,1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+hiredis,b6a860795c,2015-01-05,3dea8847,Fix redisvFormatCommand format parsing,1,1,2,5,2,5,0,0,0,1,0,0,0,1,0,0,0,168,1,2,2,0,0,0,0,0
+hiredis,9a753b4251,2015-01-05,fae60532,Add API to free hiredis (sds) formattings,2,2,5,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+hiredis,1b392eb796,2015-01-05,14669081,Add API to free hiredis (char *) formattings,2,2,5,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+hiredis,85c6bfb02a,2015-01-05,e327db52,Fix build under kfreebsd,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+hiredis,9b83ddc2d9,2015-01-05,fae60532,Fix clang analyzer warning,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+hiredis,7c4d2557c4,2015-01-05,5cc980ae,Add support for SO_REUSEADDR,5,5,49,2,49,2,0,0,0,1,0,0,1,0,2,0,0,92,1,17,40,0,0,0,0,0
+hiredis,a1bc89b236,2015-01-05,57b7d1a4,Improve calloc() correctness,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+hiredis,9c57314489,2015-01-05,5927ab67,Cleanup libuv adapter,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+hiredis,40f7035ba4,2015-01-05,e1de5760,Improve redisAppendCommandArgv performance,5,5,253,8,253,8,0,0,0,3,1,0,0,0,4,0,0,29,1,3,174,0,0,0,0,0
+hiredis,3315c09839,2015-01-05,827372c1,Use stricter function argument types,2,2,12,6,12,6,0,0,0,2,0,0,0,0,1,0,0,43,1,3,11,0,0,0,0,0
+hiredis,2d814b8da3,2015-01-05,f609f99f,Fix minor comment problems,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,2a6dbdd225,2015-01-05,bdcaf1f9,Free string if it is unused,1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,43,1,4,4,0,0,0,0,0
+hiredis,537a8845d1,2014-09-18,fae60532,Fix getaddrinfo() memory leak,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,76,1,1,1,0,0,0,0,0
+hiredis,21a1207ae1,2014-05-29,7143200e,Add tests for redisFree() and freeReplyObject(),1,1,15,0,15,0,0,0,0,1,0,0,1,0,1,0,0,62,1,1,11,0,0,0,0,0
+hiredis,05b85ebe7f,2014-05-29,7143200e,Less surprising behaviour.,1,1,5,0,5,0,0,0,0,2,1,0,0,0,0,0,0,25,1,2,4,0,0,0,0,0
+hiredis,8332a88393,2014-04-09,879381bd,File descriptors can be 0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+hiredis,a9c21e4d48,2014-04-09,879381bd,Fix const correctness,6,6,13,11,13,11,1,0,0,6,0,0,0,0,0,0,0,75,1,1,13,0,0,0,0,0
+hiredis,4369ee5d08,2014-04-09,fae60532,Fix build under Solaris,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,30,0,0,3,0,0,0,0,0
+hiredis,2d66c4814e,2014-04-09,ea7f6d8a,Add missing license and copyright for adapters,3,3,90,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,334525359a,2014-04-09,ea7f6d8a,Upgrade sds to latest version,3,3,450,140,450,140,0,0,0,19,1,1,2,2,10,1,0,99,6,85,219,0,0,0,0,0
+hiredis,4441fa3513,2014-04-09,b6cdb453,Define _XOPEN_SOURCE for NetBSD,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,4ede1bada1,2014-04-09,d098106a,Define redisLibuvAttach as static,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+hiredis,66192a0052,2014-04-09,1d8e44a5,Add new redisAppendFormatedCommand with tests,3,3,36,0,36,0,0,0,0,1,0,0,1,0,2,0,0,61,1,1,22,0,0,0,0,0
+hiredis,f20f5ad102,2014-04-09,27d4ee3e,Libuv: Fix compile warnings and C++ compatability,1,1,3,2,3,2,1,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+hiredis,303a0421ef,2014-04-09,002d1308,"Fix ""host cannot be resolved test"" test",1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+hiredis,ae30d58ff9,2014-04-09,74cf7e7b,Add redisConnectFd() and redisFreeKeepFd(),3,3,47,5,47,5,0,0,0,5,0,0,1,0,2,0,0,63,3,10,40,0,0,0,0,0
+hiredis,37d25a392c,2014-04-08,fae60532,Add ability to bind source address on connect,6,6,56,2,56,2,0,0,0,1,1,1,0,0,4,0,0,4,1,4,51,0,0,0,0,0
+hiredis,61eeedbe77,2014-04-08,fae60532,Fix potential undefined struct read,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+hiredis,e35266e68f,2014-04-08,fae60532,Stop redisCheckSocketError from more than checking,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0
+hiredis,7f0c7a29fd,2014-04-08,fae60532,Remove possiblity of multiple close on same fd,3,3,45,39,45,39,0,0,0,9,0,0,0,0,1,0,0,52,1,6,44,0,0,0,1,0
+hiredis,070da21623,2014-01-15,d098106a,async.c: avoid a NULL deref when redisAsyncInitialize returns NULL,1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,1,0,0,0
+hiredis,81c95a5fd3,2014-01-15,d098106a,sds.c: avoid leaking tokens when seplen < 1 || len < 0,1,1,5,1,5,1,1,0,0,1,0,0,1,0,0,0,0,51,1,5,5,0,0,0,0,0
+hiredis,06919b3f86,2013-07-11,ea7f6d8a,Minimal IPv6 support.,1,1,10,2,10,2,0,0,0,1,0,0,1,0,0,0,0,52,1,5,5,0,0,0,0,0
+hiredis,fbf1bb648e,2013-07-10,4c1747c3,Mark the timeout parameter as const in various functions,4,4,12,12,12,12,0,0,0,6,0,0,0,0,0,0,0,49,1,1,12,0,0,0,0,0
+hiredis,c532edc27f,2013-07-10,879381bd,Fix const-related compiler errors,2,2,7,7,7,7,1,0,0,4,0,0,0,0,0,0,0,12,0,0,7,0,0,0,0,0
+hiredis,37a840dc2c,2013-07-10,c4717bae,Emphasize size_t length for %b formatting,4,2,7,7,5,5,0,0,0,2,0,0,0,0,0,0,0,70,2,4,4,0,0,0,0,0
+hiredis,f9ce2111bb,2013-07-10,879381bd,Whitespace,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,0,0,1,0,0,0,0,0
+hiredis,c552ca6904,2013-07-10,86de5aba,Move examples into their own folder,7,5,36,27,17,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+hiredis,49de2cf990,2013-07-10,879381bd,Fix DNS error test (fixes #167),1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+hiredis,af9bf16953,2013-07-10,879381bd,Call aeStop on error conditions,1,1,4,1,4,1,0,0,0,2,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+hiredis,fc55afb1b6,2013-07-02,6e0ae33a,Made example-ae work again,2,1,4,2,3,1,0,0,0,2,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+hiredis,b15650e13a,2013-07-02,a87d1ae8,va_copy must be followed by va_end,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+hiredis,0396159214,2013-06-09,6e0ae33a,Removed unnecessary comments,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,61277d0925,2013-06-04,6e0ae33a,Added libuv adapter,3,2,184,0,175,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,125,0,0,0,0,0
+hiredis,637f54b92c,2013-05-07,9a3b43c4,Fix possible uninitialized value access due to strerror_r error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+hiredis,b1f07f77d2,2013-05-01,879381bd,Fix style,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+hiredis,bb3c4c17c4,2013-05-01,879381bd,Make redisKeepAlive work on OSX,2,2,12,0,12,0,0,0,0,1,0,0,0,0,0,0,0,30,0,0,11,0,0,0,0,0
+hiredis,9dff5105fc,2013-04-30,63d9c956,Make KeepAlive optional,4,4,12,6,12,6,0,0,0,2,0,0,0,1,1,0,0,49,1,0,9,0,0,0,0,0
+hiredis,8d5bc445e5,2013-04-19,63d9c956,SetKeepAlive,2,2,36,0,36,0,0,0,0,1,0,0,1,0,1,0,0,51,1,2,27,0,0,0,0,0
+hiredis,fca66b9e8b,2013-03-14,86de5aba,Set error when invalid timeout value is given to redisConnectWithTimeout,2,2,28,0,28,0,0,0,0,2,0,0,1,0,1,0,0,52,1,1,18,0,0,0,0,0
+hiredis,e5589afdec,2013-02-23,2382f395,Fix tests for test_blocking_connection_errors();,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+hiredis,d7e3268f48,2013-01-22,e8ba2d11,Prevent AsyncConnect from crashing on memory allocation failures.,1,1,14,1,14,1,1,0,0,3,0,0,0,0,0,0,0,26,0,0,10,0,1,0,0,0
+hiredis,814be4f5bd,2013-01-22,e8ba2d11,Made connect functions return NULL on alloc failures.,5,4,64,14,63,13,0,0,0,10,0,0,0,0,0,0,0,50,0,0,47,0,0,0,0,0
+hiredis,ba6c3c152c,2012-11-12,9d1170a6,constify: constify some variables / functions,2,2,5,4,5,4,0,0,0,4,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+hiredis,bf161d996f,2012-11-06,dca9ffb9,Try again later for EINTR errors (see issue #99),1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+hiredis,8cbedceca7,2012-10-25,991f6e92,make redisConnectWithTimeout connect to 127.0.0.1 instead of 127.0.0.2,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+hiredis,0fff0f182b,2012-08-27,879381bd,Bump minor version because reader struct changed,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,05d0608ab9,2012-08-27,879381bd,Test new maximum depth of multi-bulk replies,1,1,7,5,7,5,0,0,0,1,0,0,1,0,0,0,0,66,1,5,5,0,0,0,0,0
+hiredis,f7f022e4e0,2012-08-21,ea7f6d8a,On stack buffer to read replies set to 16k (was 2k).,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+hiredis,51ab89d899,2012-08-21,ea7f6d8a,Max depth of multi-bulk reply moved from 2 to 7.,2,2,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,52,1,2,3,0,0,0,0,0
+hiredis,7f095053c6,2012-08-21,ea7f6d8a,Configurable reader max idle buffer size.,3,2,32,1,5,1,0,0,0,2,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+hiredis,7ec4df9403,2012-07-31,879381bd,Spontaneous error reply can always happen,1,1,16,8,16,8,0,0,0,1,0,0,0,1,0,0,0,41,1,1,1,0,0,0,0,0
+hiredis,01cce89d9d,2012-07-11,9a9d4723,"async: support for determining monitor mode, if so, repush replies callback in expectation of anothe",2,2,16,3,16,3,0,0,0,2,1,0,1,0,0,0,0,41,2,9,10,0,1,0,0,0
+hiredis,f8debbfdbe,2012-04-18,2125e51f,Use poll() instead of select() inside redisContextWaitReady(),1,1,24,12,24,12,0,0,0,1,0,0,0,0,0,0,0,36,0,0,20,0,0,0,0,0
+hiredis,56ae8aa110,2011-12-20,bcef5af1,DRY list of integer formats,1,1,6,5,6,5,0,0,0,1,0,0,1,0,0,0,0,171,1,6,6,0,0,0,0,0
+hiredis,1d5e27f6d7,2011-12-20,bcef5af1,more error messages,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,70,1,1,3,0,0,0,0,0
+hiredis,52a29a124b,2011-12-02,bfb5a55f,"increase read depth by one, would allow ruby redis client to read from slowlog",3,3,6,5,6,5,0,0,0,2,0,0,1,0,0,0,0,66,2,4,5,0,0,0,0,0
+hiredis,347528cf48,2011-11-28,68f70d26,Fix minor inconsistencies in comment.,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,e6cf455be5,2011-07-10,c26bb7fc,"Include stdlib.h in async.c for free(3), realloc(3) and strtol(3) support",1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0
+hiredis,b3290392d9,2011-07-10,879381bd,Put back missing socket error check after select(2),1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0
+hiredis,b52193977e,2011-07-10,879381bd,Colorize test outcome,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,dad240f0a3,2011-07-10,879381bd,Test all supported types for printf-like formatting,1,1,33,19,33,19,0,0,0,1,0,0,0,1,0,0,0,70,1,28,28,0,0,0,0,0
+hiredis,2da784ce8f,2011-07-09,879381bd,Abort on invalid format,2,2,3,7,3,7,0,0,0,2,0,0,0,2,0,0,0,170,2,3,3,0,0,0,0,0
+hiredis,27c96dde77,2011-07-09,879381bd,Use correct type when calling va_arg in formatter,1,1,67,19,67,19,0,0,0,1,0,0,1,0,0,0,0,171,1,50,50,0,0,0,0,0
+hiredis,4ac55be9b5,2011-07-09,879381bd,Update printf-formatting tests to fail,1,1,8,6,8,6,0,0,0,1,0,0,0,0,0,0,0,75,1,6,6,0,0,0,0,0
+hiredis,0625e7c5fe,2011-06-27,879381bd,Update examples,3,3,24,13,24,13,0,0,0,6,0,0,0,0,0,0,0,7,0,0,24,0,0,0,0,0
+hiredis,3313bcd191,2011-06-27,879381bd,Change prototype of connect callback,2,2,43,7,43,7,0,0,0,2,0,0,0,0,1,0,0,19,0,0,28,0,0,0,0,0
+hiredis,e6d997a96f,2011-06-27,879381bd,Extract function to check a socket for errors,2,2,21,17,21,17,0,0,0,1,0,0,0,0,1,0,0,28,0,0,17,0,0,0,1,0
+hiredis,026d5ae750,2011-06-27,879381bd,Use macro's for event loop hooks,1,1,25,10,25,10,0,0,0,5,0,1,0,0,0,0,0,38,1,1,24,0,0,0,0,0
+hiredis,0bf4dded31,2011-06-27,c26bb7fc,Convert the rest of the async adapters contain static functions for easier linking,2,2,22,17,22,17,0,0,0,16,0,0,0,0,0,0,0,19,0,0,22,0,1,0,0,0
+hiredis,62c8917f2f,2011-06-27,c26bb7fc,Make libev adapter functions static to fix linking,1,1,11,8,11,8,1,0,0,8,0,0,0,0,0,0,0,22,0,0,11,0,0,0,0,0
+hiredis,0f2e899c41,2011-06-27,c26bb7fc,Add implied include of stdlib.h,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+hiredis,3cc6a7f299,2011-06-19,879381bd,Bump patch version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,375ba48eea,2011-06-19,879381bd,"Revert ""Add function to retrieve formatted reply""",3,3,11,139,11,139,0,0,0,6,1,0,0,3,0,6,0,52,4,6,6,0,0,0,0,0
+hiredis,367ac44ac1,2011-06-18,879381bd,Remove private feature macros for Solaris from compiler flags,3,2,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+hiredis,c4ed06d90c,2011-06-18,ca0bf3cc,"Fix incorrect ""no route to host"" errors.",1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,49,1,4,4,0,0,0,0,0
+hiredis,d5a28db039,2011-06-18,879381bd,7th revision is not necessary,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,1ac7121f65,2011-06-18,879381bd,Define _POSIX_C_SOURCE for Solaris,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+hiredis,e0d5c71277,2011-06-18,879381bd,Fix compiler warnings,1,1,4,3,4,3,1,0,0,2,0,0,0,0,0,0,0,36,0,0,4,0,0,0,0,0
+hiredis,3afe2585de,2011-06-17,ca0bf3cc,Use getaddrinfo(3) in redisContextConnectTcp.,1,1,43,37,43,37,0,0,0,1,0,0,1,0,0,0,0,46,1,40,40,0,0,0,0,0
+hiredis,b4664b41c7,2011-06-17,ca0bf3cc,"Add redisSetReuseAddr(c, fd) static function.",1,1,12,4,12,4,0,0,0,1,0,0,0,0,1,0,0,13,0,0,11,0,0,0,0,0
+hiredis,5f5b3d9787,2011-06-09,879381bd,Fix for issue #45,2,2,19,5,19,5,1,0,0,3,0,1,1,0,0,0,0,65,2,11,17,0,0,0,0,0
+hiredis,159a83ab8a,2011-06-09,879381bd,Flag to disable throughput tests,1,1,5,2,5,2,0,0,0,1,1,0,0,0,0,0,0,52,1,5,5,0,0,0,0,0
+hiredis,7a8de1fe25,2011-05-29,879381bd,Exit with a non-zero status when tests failed,2,1,6,4,4,3,0,0,0,1,0,0,0,0,0,0,0,49,0,0,3,0,0,0,0,0
+hiredis,1c29aafd47,2011-05-29,879381bd,Clarify rationale behind issue #43,1,1,9,6,9,6,0,0,0,1,0,0,0,1,0,0,0,37,1,1,1,0,0,0,0,0
+hiredis,63dcf9b741,2011-05-24,63f44af1,Make sure subscribe is still respected,1,1,6,6,6,6,0,0,0,1,0,0,1,0,0,0,0,40,1,6,6,0,0,0,0,0
+hiredis,7268857254,2011-05-24,63f44af1,Fix the case where an error reply is received before any callbacks are registered,1,1,11,1,11,1,1,0,0,1,1,0,0,0,0,0,0,40,1,9,9,0,0,0,0,0
+hiredis,9723a4fc46,2011-05-22,879381bd,More control over host/port and unix path in test.c,1,1,266,177,266,177,0,0,0,3,0,0,1,1,5,2,0,63,2,67,207,0,0,0,0,0
+hiredis,5793b999a9,2011-05-22,9ab09d12,"Add ""make check"" target (useful for automated tests).",2,1,12,3,6,3,0,0,0,3,0,0,0,0,0,0,0,111,1,1,5,0,0,0,0,0
+hiredis,77540aa316,2011-05-05,879381bd,Add function to retrieve formatted reply,3,3,140,12,140,12,0,0,0,6,0,1,2,0,6,0,0,56,3,12,116,0,0,0,0,0
+hiredis,6d026b70d0,2011-04-22,879381bd,Bump version to 0.10.0,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+hiredis,0cb7c27d9c,2011-04-21,879381bd,Update license,7,6,37,18,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,f3f02b6419,2011-04-21,879381bd,Let the async API segfault on OOM for now,3,3,0,44,0,44,1,0,0,1,0,0,0,0,0,1,0,14,0,0,0,0,1,0,0,0
+hiredis,c9dc93e1de,2011-04-21,879381bd,Move chrtos to hiredis.c (not used elsewhere),2,2,24,24,24,24,0,0,0,0,0,0,0,0,1,1,0,0,0,0,21,0,0,0,1,0
+hiredis,8419b060f2,2011-04-21,879381bd,Handle OOM when doing blocking requests,2,2,56,31,56,31,0,0,0,6,0,0,0,0,1,1,0,15,0,0,47,0,0,0,0,0
+hiredis,e932709a66,2011-04-21,879381bd,More safety,1,1,17,3,17,3,0,0,0,3,0,0,0,0,0,0,0,24,0,0,11,0,0,0,0,0
+hiredis,ebb690ea99,2011-04-21,879381bd,Fix sdscatrepr,1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,26,1,5,5,0,0,0,0,0
+hiredis,dd5fc26457,2011-04-21,879381bd,Make command formatters gracefully abort when out of memory,1,1,77,31,77,31,0,0,0,2,0,0,1,0,1,1,0,134,1,50,56,0,1,0,0,0
+hiredis,d4ebb60d65,2011-04-21,879381bd,More OOM checks in the protocol reader,2,2,25,3,25,3,0,0,0,2,0,0,0,0,0,0,0,21,0,0,17,0,0,0,0,0
+hiredis,ac9fb4993b,2011-04-21,879381bd,Don't abort on OOM in sds.c,1,1,18,7,18,7,0,0,0,2,1,0,1,0,0,0,0,73,2,13,15,0,0,0,0,0
+hiredis,eb63a565e9,2011-04-21,879381bd,sys/types.h is included by libevent itself,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+hiredis,df1d693b03,2011-04-21,879381bd,Include fmacros.h to make sure strerror_p is defined on Linux,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+hiredis,19709152f2,2011-04-21,879381bd,Reflect rename in tests,1,1,33,37,33,37,0,0,0,1,0,0,0,1,0,0,0,55,1,33,33,0,0,0,0,0
+hiredis,965d42640f,2011-04-21,879381bd,Rename *ReplyReader* to *Reader*,2,2,27,23,27,23,0,0,0,8,1,1,0,0,7,7,0,52,3,5,27,0,0,0,0,0
+hiredis,0ee7c66818,2011-04-21,879381bd,Use static buffer for error string on context,3,3,40,35,40,35,0,0,0,11,0,0,1,0,1,0,0,43,1,3,36,0,0,0,0,0
+hiredis,6d207ea98e,2011-04-21,879381bd,Create protocol reader when creating context,5,5,16,42,16,42,0,0,0,5,0,0,0,0,0,3,0,59,1,4,14,0,0,0,0,0
+hiredis,58caf62a52,2011-04-21,879381bd,Move prototypes around in header,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+hiredis,a926232293,2011-04-21,879381bd,Reply object functions can be set by the user after creating the reader,2,2,0,11,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+hiredis,5ba49014da,2011-04-21,879381bd,Privdata can be set directly on the struct,2,2,3,13,3,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0
+hiredis,2002218981,2011-04-21,879381bd,Remove useless casts,2,2,10,17,10,17,0,0,0,5,0,0,0,1,0,0,0,33,1,1,10,0,0,0,1,0
+hiredis,e1abacb7b4,2011-04-21,879381bd,Return when memory cannot be allocated,1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+hiredis,026636b0cd,2011-04-21,879381bd,Remove accessor functions now the redisReader struct is public,2,2,4,16,4,16,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,1,0
+hiredis,f0307c6172,2011-04-21,879381bd,Move definitions around,1,1,14,13,14,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,0
+hiredis,41d4d9c6f4,2011-04-21,879381bd,Forward declaration is not necessary,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,727e1babec,2011-04-21,879381bd,Make redisReader struct public,2,2,32,31,32,31,0,0,0,8,0,0,0,0,0,0,0,34,1,1,28,0,0,0,0,0
+hiredis,fc790ebea6,2011-04-21,879381bd,State should not be reset after protocol error,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,59,1,2,2,0,0,0,0,0
+hiredis,26588f5007,2011-04-21,879381bd,Test if there is a freeObject function,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+hiredis,eaf58bd32a,2011-04-20,879381bd,Use pre-allocated buffer for error strings in reader,3,3,116,67,116,67,0,0,0,9,0,0,2,2,4,1,0,52,4,29,96,0,0,0,0,0
+hiredis,5d78214557,2011-04-20,879381bd,First pass at making the protocol reader properly handle OOM,1,1,94,30,94,30,0,0,0,10,4,0,0,0,0,0,0,48,4,22,67,0,0,0,0,0
+hiredis,178024244d,2011-04-19,879381bd,Use variable for throughput test iteration count,1,1,21,19,21,19,0,0,0,1,0,0,1,0,0,0,0,57,1,21,21,0,0,0,0,0
+hiredis,cd7063e85b,2011-04-19,879381bd,Inline sdslen and sdsavail (thanks to @bitbckt),2,2,11,11,11,11,0,0,0,0,0,0,0,0,2,2,0,0,0,0,9,0,0,0,0,0
+hiredis,421eec9a4d,2011-04-03,879381bd,Lazily destroy protocol reader buffer,1,1,7,7,7,7,0,0,0,2,0,1,0,0,0,0,0,33,1,0,5,0,0,0,0,0
+hiredis,921150fc8a,2011-04-03,879381bd,Individual reply object functions may be NULL,1,1,25,14,25,14,0,0,0,3,0,0,0,0,0,0,0,44,0,0,24,0,0,0,0,0
+hiredis,b4f85484ea,2011-03-31,879381bd,Add pipelined throughput tests,1,1,29,2,29,2,0,0,0,1,1,0,0,0,0,0,0,55,1,27,27,0,0,0,0,0
+hiredis,aeeea0076d,2011-03-29,879381bd,Update fmacros.h,1,1,4,5,4,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+hiredis,8e2c39200d,2011-03-06,879381bd,Fix formatCommand to work with all empty interpolations,2,2,12,7,12,7,1,0,0,2,0,0,1,1,0,0,0,106,2,11,11,0,0,0,0,0
+hiredis,36f73fdb0c,2011-02-04,879381bd,Fix copying timeval for timeout,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+hiredis,2fc0d8756e,2011-02-04,879381bd,Use select(2) for enforce a timeout on blocking connect(2),5,5,109,25,109,25,0,0,0,8,1,0,0,0,4,1,0,45,1,8,91,0,0,0,0,0
+hiredis,663d6d1258,2011-01-27,879381bd,Properly reset state after protocol error in reply reader,2,2,10,1,10,1,0,0,0,2,0,0,1,0,0,0,0,59,1,8,9,0,0,0,0,0
+hiredis,864bce944b,2011-01-27,879381bd,redisReplyReaderFeed should take a const char*,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+hiredis,fbe756d838,2011-01-27,879381bd,Avoid warnings with -Wstrict-prototypes,5,4,11,11,9,9,0,0,0,7,0,0,0,0,0,0,0,111,3,3,9,0,0,0,0,0
+hiredis,3e8cbd53cf,2011-01-19,879381bd,Let sds.c figure out where the range stops,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,38,1,1,1,0,0,0,0,0
+hiredis,f6a501001c,2011-01-19,879381bd,Discard consumed part of buffer less often,1,1,4,9,4,9,0,0,0,1,0,0,0,1,0,0,0,38,1,2,2,0,0,0,0,0
+hiredis,5962a2de17,2011-01-19,879381bd,Add testhelp.h inline in sds.c,1,1,14,1,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+hiredis,7aa5fa102e,2011-01-19,879381bd,Update string library,2,2,117,4,117,4,0,0,0,1,1,0,1,0,2,0,0,29,1,7,93,0,0,0,0,0
+hiredis,c6b8bd77c0,2011-01-14,879381bd,Make dictionary functions static and include the .c file,5,4,45,99,43,96,0,0,0,13,0,0,0,0,0,5,0,29,0,0,41,0,0,1,0,0
+hiredis,4def8569b8,2011-01-10,cdff354a,strcasecmp and strncasecmp are defined in strings.h,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,43ab0f8018,2011-01-07,879381bd,Return error on socket timeout for a blocking context,5,5,36,3,36,3,0,0,0,4,0,0,1,0,2,0,0,111,1,7,31,0,0,0,0,0
+hiredis,ec922cd007,2010-12-31,879381bd,Unsubscribe messages always have 3 elements,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+hiredis,ed97945c27,2010-12-31,879381bd,Clean up dictionaries on free,1,1,31,10,31,10,0,0,0,2,0,0,0,0,1,0,0,31,0,0,25,0,0,0,0,1
+hiredis,a0ebc5417f,2010-12-31,879381bd,Delegate pub/sub replies to the right callback,1,1,48,2,48,2,0,0,1,1,0,0,0,0,1,0,0,33,0,0,35,0,0,0,0,0
+hiredis,3ac8ef927d,2010-12-31,879381bd,Add callbacks to channel/pattern dictionaries,1,1,64,8,64,8,0,0,0,1,1,0,0,0,1,0,0,38,1,29,40,0,0,0,0,0
+hiredis,e6621d05b4,2010-12-31,879381bd,Add fields for subscribed channel/pattern names,2,2,54,1,54,1,0,0,0,1,0,0,0,0,5,0,0,23,0,0,43,0,0,0,0,0
+hiredis,b758e52e44,2010-12-31,879381bd,Remove unused code/cleanup,2,2,19,196,19,196,0,0,0,18,0,1,0,0,0,9,0,29,0,0,18,0,0,0,1,1
+hiredis,4e8c8e74ee,2010-12-31,879381bd,Replace zmalloc with regular malloc,2,1,17,47,15,46,0,0,0,12,0,0,0,0,0,3,0,30,0,0,14,0,0,0,0,0
+hiredis,5703dfc306,2010-12-31,879381bd,Import dictionary code from Redis repository (as of 2069d06a),2,2,726,0,726,0,0,0,0,0,1,0,0,0,34,0,0,0,0,0,476,0,0,1,0,0
+hiredis,3ce8d5b08b,2010-12-31,879381bd,Change reply processing code to prepare for pub/sub,2,2,17,2,17,2,0,1,0,1,0,0,0,0,0,0,0,32,0,0,5,0,0,0,0,0
+hiredis,2d53a6a711,2010-12-31,879381bd,Copy entire callback in one call,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+hiredis,a020db3013,2010-12-29,879381bd,License,3,3,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,18c55a8f1e,2010-12-29,879381bd,Scope event library related data and hooks to a struct,5,5,46,44,46,44,0,0,0,9,0,0,0,0,0,0,0,22,0,0,42,0,0,0,0,0
+hiredis,8cb4d52cd2,2010-12-28,879381bd,Run pending callbacks with a NULL reply on redisAsyncFree(),1,1,27,26,27,26,0,0,0,4,0,0,0,0,0,0,0,20,0,0,19,0,1,0,0,0
+hiredis,29ea901b24,2010-12-28,879381bd,Fix the async free() and disconnect() functions,2,2,29,20,29,20,1,0,0,4,0,0,0,0,0,0,0,29,0,0,16,0,1,0,0,0
+hiredis,c882a3621a,2010-12-28,879381bd,Only check REDIS_FREEING when a callback was executed,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,27,0,0,4,0,0,0,0,0
+hiredis,e3776bfaa6,2010-12-28,879381bd,Add function to explicitly free an async context,4,4,49,15,49,15,0,0,0,4,0,0,0,0,2,0,0,27,0,0,26,0,1,0,0,0
+hiredis,3d76f3fe02,2010-12-28,879381bd,Add write event after setting connect callback,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+hiredis,2c17d2e221,2010-12-22,094b7147,Missing declaration.,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,0fbfa45f23,2010-12-16,879381bd,Bump version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,7e4ce57367,2010-12-16,879381bd,Solaris doesn't know AF_LOCAL,2,2,7,1,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+hiredis,a1e2c6dfed,2010-12-16,879381bd,Add myself to license in some files,4,4,8,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,2ef9c2e5f7,2010-12-16,879381bd,Redefine REDIS_REPLY_ERROR to be non-zero,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,12725f88ed,2010-12-07,879381bd,Fire onConnect callback on the first write event,5,5,53,2,53,2,0,0,0,8,0,0,0,0,4,0,0,19,0,0,35,0,0,0,0,0
+hiredis,822efe2ac3,2010-12-02,ae9d85b3,"Redis command getting executed is PING, PONG is actually the expected answer",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,44,0,0,1,0,0,0,0,0
+hiredis,7684d556bd,2010-12-02,879381bd,Add (nearly) full printf support by delegating to vsprintf,2,2,78,0,78,0,0,0,0,2,1,0,1,0,0,0,0,107,2,56,57,0,0,0,0,0
+hiredis,af7369a253,2010-12-01,879381bd,Use extra field for adapter-specific data,5,5,16,12,16,12,0,0,0,8,0,0,0,0,0,0,0,22,0,0,14,0,0,0,0,0
+hiredis,9af1574d6e,2010-12-01,879381bd,Add adapter for the Redis-bundled ae event library,3,2,150,0,141,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,111,0,0,0,0,0
+hiredis,2635feb0ac,2010-12-01,879381bd,Wait with setting CONNECTED until there is an fd,2,2,2,4,2,4,0,0,0,6,0,0,0,0,0,0,0,37,0,0,2,0,0,0,0,0
+hiredis,89c6927282,2010-11-26,879381bd,Bump version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,e73289a5c6,2010-11-26,879381bd,Use r->len in another spot,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+hiredis,4eab917a24,2010-11-26,879381bd,Use custom stroll,1,1,32,3,32,3,0,0,0,3,0,0,0,0,1,0,0,40,0,0,25,0,0,0,0,0
+hiredis,f14108361b,2010-11-26,879381bd,Reply objects don't need to be calloc'ed,1,1,5,4,5,4,0,0,0,2,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+hiredis,5cf292cdd0,2010-11-26,879381bd,Use explicit buffer length field in the reply reader,1,1,35,20,35,20,0,0,0,5,0,0,1,0,0,0,0,43,1,5,26,0,0,0,0,0
+hiredis,adb0895e99,2010-11-26,879381bd,Rename 'parent' field in read tasks to 'obj',2,2,11,9,11,9,0,0,0,6,0,0,1,0,0,0,0,42,1,2,11,0,0,0,0,0
+hiredis,b4dd17b57f,2010-11-24,879381bd,Remove leftover line from earlier commit,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+hiredis,257a9d40a9,2010-11-24,879381bd,Set error on unexpected nesting of multi bulks,2,2,18,0,18,0,0,0,0,2,1,0,0,0,0,0,0,51,1,10,15,0,0,0,0,0
+hiredis,d4058be7b0,2010-11-24,879381bd,Add pointer to parent task in read tasks,2,2,3,1,3,1,0,0,0,2,0,0,0,0,0,0,0,41,1,1,3,0,0,0,0,0
+hiredis,3d702d0bf1,2010-11-24,879381bd,Don't care if object returned by object function is NULL,1,1,14,9,14,9,0,0,0,3,0,0,0,0,0,0,0,34,0,0,9,0,0,0,0,0
+hiredis,1927c643da,2010-11-24,879381bd,Add privdata field to reply reader,2,2,17,0,17,0,0,0,0,2,0,0,1,0,1,0,0,41,1,1,14,0,0,0,0,0
+hiredis,fb49cd1988,2010-11-23,879381bd,Make the libev adapter work without support for multiple event loops,2,2,31,12,31,12,0,0,0,8,0,0,0,0,0,0,0,22,0,0,29,0,0,0,0,0
+hiredis,56bbeb7049,2010-11-22,879381bd,Abort on code path that should never be taken,1,1,1,2,1,2,0,0,0,1,0,0,0,1,0,0,0,47,1,1,1,0,0,0,0,0
+hiredis,b6b96f776e,2010-11-22,879381bd,Make error messages consistent in casing,3,3,5,5,5,5,0,0,0,4,0,0,0,0,0,0,0,104,2,2,5,0,0,0,0,0
+hiredis,537e64e946,2010-11-22,879381bd,Tests for behavior when connecting fails,1,1,12,0,12,0,0,0,0,1,0,0,1,0,0,0,0,104,1,10,10,0,0,0,0,0
+hiredis,7c33f2666b,2010-11-22,879381bd,Make test for formatting commands using a vector more robust,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,50,0,0,4,0,0,0,0,0
+hiredis,cb89a472b6,2010-11-22,879381bd,Fix formatting literal percent characters,2,2,7,1,7,1,1,0,0,2,0,0,0,0,0,0,0,71,1,1,6,0,0,0,0,0
+hiredis,9d9b8e1c79,2010-11-22,879381bd,Correctly format commands with empty interpolated values,2,2,22,3,22,3,0,0,0,2,0,0,1,0,0,0,0,71,1,10,20,0,0,0,0,0
+hiredis,4f4d1ed7b5,2010-11-22,879381bd,Explicit casts for the libev adapter,1,1,9,8,9,8,0,0,0,8,0,0,0,0,0,0,0,21,0,0,8,0,0,0,0,0
+hiredis,0d925bb497,2010-11-21,e01a80a3,add explicit casts for C++ compiles - C++ disallows implicit casts from void*,1,1,8,8,8,8,0,0,0,8,0,0,0,0,0,0,0,19,0,0,8,0,0,0,0,0
+hiredis,a01c5b1352,2010-11-21,e01a80a3,"more extern ""C"" declarations for C++ compiles",1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+hiredis,650df0f982,2010-11-19,879381bd,Don't do a write(2) after QUIT,1,1,9,13,9,13,0,0,0,1,0,0,0,1,0,0,0,94,1,4,4,0,0,0,0,0
+hiredis,74254a3b39,2010-11-19,9fa461fb,"add extern ""C"" for C++ compiles",1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+hiredis,09a0fe626f,2010-11-15,879381bd,Explicitly initialize struct fields to NULL,2,2,14,3,14,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,12,0,0,0,0,0
+hiredis,0b27639e09,2010-11-15,879381bd,Don't print when testing can continue,1,1,2,5,2,5,0,0,0,1,0,0,0,1,0,0,0,98,1,2,2,0,0,0,0,0
+hiredis,a5acb58948,2010-11-15,879381bd,"Redis >=2.1 replies with OK on QUIT, so make the test conditional",1,1,42,22,42,22,0,0,0,1,0,0,1,0,0,0,0,101,1,28,28,0,0,0,0,0
+hiredis,1c39483434,2010-11-05,879381bd,Include signal.h,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+hiredis,8ce0b3228d,2010-11-04,879381bd,Finding \r\n without strstr is a little harder,2,2,21,1,21,1,0,0,0,2,0,0,0,0,0,0,0,41,0,0,20,0,0,0,0,0
+hiredis,8b616d3547,2010-11-04,879381bd,The buffer length to feed should be a size_t,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+hiredis,183220bf60,2010-11-04,879381bd,Make moveToNextTask non-recursive,1,1,19,19,19,19,0,0,0,1,0,0,0,0,0,0,0,21,0,0,17,0,0,0,0,0
+hiredis,9c4ee606d6,2010-11-04,879381bd,Use strchr in a loop rather than strstr,1,1,12,3,12,3,0,0,0,2,0,0,0,0,1,0,0,32,0,0,9,0,0,0,0,0
+hiredis,2e5e9a49fd,2010-11-04,879381bd,Return the reply type when the reply object function set is NULL,3,3,46,15,46,15,0,0,0,7,0,0,0,0,1,0,0,32,0,0,42,0,0,0,0,0
+hiredis,3be1d6e66d,2010-11-03,879381bd,Add version information to hiredis.h,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,bea6c4bde2,2010-11-03,879381bd,Check replies in throughput test,1,1,15,3,15,3,0,0,0,2,0,0,0,0,0,0,0,30,0,0,14,0,0,0,0,0
+hiredis,f25a5267cc,2010-11-03,879381bd,Allow to connect using a unix socket from hiredis,4,4,47,7,47,7,0,0,0,4,0,0,1,0,3,0,0,88,1,10,37,0,0,0,0,0
+hiredis,0ccb2c8d89,2010-11-03,879381bd,Add functiont to net.c to connect to a unix socket,3,3,32,4,32,4,0,0,0,2,0,0,0,0,2,1,0,7,0,0,27,0,0,0,0,0
+hiredis,8220cd4ba6,2010-11-03,879381bd,Move code in net.c to separate functions,1,1,30,17,30,17,0,0,0,2,0,1,0,0,1,0,0,36,1,11,28,0,0,0,1,0
+hiredis,e13674dd4e,2010-11-03,879381bd,Expose redisGetReplyFromReader as public API,2,2,4,3,4,3,0,0,0,1,0,0,0,0,1,1,0,20,0,0,4,0,0,0,0,0
+hiredis,314c04840b,2010-11-02,879381bd,Update examples,3,2,8,8,6,6,0,0,0,4,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+hiredis,e51ddd7c2c,2010-11-02,879381bd,Make setError receive an sds,2,2,7,6,7,6,0,0,0,3,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+hiredis,b8b296654d,2010-11-02,879381bd,Strip net.c down to the bare minimum,4,4,49,224,49,224,0,0,0,1,1,0,0,0,3,14,0,9,0,0,46,0,0,0,0,0
+hiredis,dd8a34de84,2010-11-02,879381bd,"Move anet.{c,h} to net.{c,h}",3,2,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+hiredis,ffa8666a64,2010-11-02,879381bd,Change error reporting to have an explicit type,6,6,47,28,47,28,0,0,0,11,0,0,1,0,1,0,0,82,1,4,39,0,0,0,0,0
+hiredis,5db8008d97,2010-11-02,879381bd,Remove superfluous definition,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+hiredis,5fa8d30599,2010-11-01,879381bd,There is no longer need for a separate redisDisconnect,3,2,10,7,1,7,0,0,0,1,0,0,0,0,0,1,0,11,0,0,1,0,0,0,0,0
+hiredis,30a9f8f271,2010-11-01,879381bd,Use existing function to append to the output buffer,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+hiredis,ef995accb2,2010-11-01,879381bd,Strip non-blocking callbacks from hiredis.c,2,2,0,57,0,57,0,0,0,3,0,0,0,0,0,3,0,11,0,0,0,0,0,0,0,0
+hiredis,b673f0cfb3,2010-11-01,879381bd,Change prototype of async reply callback,3,3,5,3,5,3,0,0,0,2,0,0,0,0,0,0,0,6,0,0,5,0,1,0,0,0
+hiredis,b028dda359,2010-11-01,879381bd,Return from getCallback if there is no reply,3,2,4,2,2,0,0,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+hiredis,89e0622535,2010-11-01,879381bd,Move libev/libevent headers to adapters directory,5,4,20,17,10,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+hiredis,d5fc7d8c53,2010-11-01,879381bd,Update libev and libevent examples to work with async.h,4,4,141,149,141,149,0,0,0,4,0,0,0,0,18,14,0,15,0,0,131,0,1,0,0,0
+hiredis,ac13c9f095,2010-11-01,879381bd,Only copy relevant fields from callback ptr to avoid copying garbage,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+hiredis,a66ec18e80,2010-11-01,879381bd,Make push/shift functions for callbacks responsible for malloc/free,1,1,32,19,32,19,0,0,0,5,0,0,0,0,0,0,0,23,0,0,26,0,0,0,0,0
+hiredis,e25db30f38,2010-11-01,879381bd,Run pending callbacks with NULL reply on error,1,1,39,21,39,21,0,0,0,3,0,0,0,0,0,0,0,19,0,0,28,0,0,0,0,0
+hiredis,8b0fddcb02,2010-11-01,879381bd,Clarify redisAsyncDisconnect behavior in comments,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+hiredis,ad2456047e,2010-11-01,879381bd,Process callbacks after reading,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+hiredis,c43256633c,2010-11-01,879381bd,Cleanup function should remove read/write events,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,0,0,0,0,1,1
+hiredis,437eea80fc,2010-11-01,879381bd,Make error ptr accessible from async context,2,2,14,1,14,1,0,0,0,2,0,0,0,0,1,0,0,11,0,0,9,0,1,0,0,0
+hiredis,4e3bd7893d,2010-11-01,879381bd,Add support to lazily disconnect an asynchronous connection,3,3,97,30,97,30,0,0,0,4,0,0,0,0,4,0,0,14,0,0,61,0,1,0,0,0
+hiredis,0152f12807,2010-10-31,879381bd,Extracted code to support callbacks in an asynchronous context,3,2,259,1,257,0,0,0,0,0,1,0,0,0,11,0,0,0,0,0,138,0,1,0,1,0
+hiredis,9c7c602cc9,2010-10-31,879381bd,exit(3) is defined in stdlib.h,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,435e545dd2,2010-10-31,879381bd,Fix redisGetReply,1,1,5,9,5,9,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+hiredis,6042c569b1,2010-10-31,879381bd,Move include of stdio.h to hiredis.h for size_t,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+hiredis,1d4f16b571,2010-10-31,879381bd,Extract OOM killer to util.h,2,2,40,6,40,6,0,0,0,0,0,0,0,0,1,1,0,0,0,0,8,0,0,0,1,0
+hiredis,154097445c,2010-10-31,879381bd,Remove unused header file,1,1,0,45,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+hiredis,a0b9f04eaa,2010-10-31,879381bd,Move stdarg.h include to the hiredis header file,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+hiredis,44a2d08b30,2010-10-31,879381bd,The reply object functions may not change the read tasks,2,2,12,12,12,12,0,0,0,4,0,0,0,0,0,0,0,18,0,0,12,0,0,0,0,0
+hiredis,3f0394b8a9,2010-10-31,879381bd,Use a fixed size stack instead of a dynamic list for read tasks,2,2,60,52,60,52,1,0,0,8,0,0,0,1,1,0,0,48,2,9,52,0,0,0,0,0
+hiredis,8a80b89232,2010-10-31,879381bd,Update example.c to work with current code,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,44,0,0,6,0,0,0,0,0
+hiredis,f463734e91,2010-10-31,879381bd,Remove reply object functions from connect functions,3,3,31,11,31,11,0,0,0,6,0,0,0,0,2,0,0,20,0,0,24,0,0,0,1,0
+hiredis,47e1f77149,2010-10-31,879381bd,Refactor internal function flow and add redisAppendCommand* family,2,2,122,50,122,50,0,0,0,2,0,0,0,0,8,2,0,23,0,0,82,0,0,0,0,1
+hiredis,298e9325d7,2010-10-31,879381bd,First step in decoupling reply callbacks from internals,3,3,106,224,106,224,0,0,0,6,0,1,0,0,0,7,0,19,0,0,2,0,0,0,1,0
+hiredis,a3a405bcba,2010-10-31,879381bd,Format a command using an argument vector,3,3,80,0,80,0,0,0,0,1,0,0,0,0,2,0,0,14,0,0,62,0,0,0,0,0
+hiredis,e95c9d4c5b,2010-10-30,879381bd,Change redisFormatCommand to return the command in a char*,2,2,84,58,84,58,0,0,0,4,1,1,0,0,2,0,0,19,1,7,61,0,0,0,0,0
+hiredis,bc5dcdbc85,2010-10-30,879381bd,Status replies should have type REDIS_REPLY_STATUS,2,2,3,7,3,7,0,0,0,2,0,0,0,0,0,0,0,81,1,3,3,0,0,0,0,0
+hiredis,171b5a24d4,2010-10-30,879381bd,Drop dependency on sds.h for exposed API,3,3,31,25,31,25,0,0,0,7,0,0,0,0,0,0,0,81,1,11,29,0,0,1,0,0
+hiredis,1e7f5ae6bd,2010-10-30,879381bd,Rename struct,2,2,10,10,10,10,0,0,0,4,0,0,0,0,0,0,0,11,0,0,10,0,0,0,0,0
+hiredis,0f745d1ac0,2010-10-19,879381bd,Run pending callbacks with NULL reply on redisDisconnect(),4,4,31,7,31,7,0,0,0,6,0,0,1,0,0,0,0,62,1,9,26,0,0,0,0,0
+hiredis,bbe007a75a,2010-10-19,879381bd,Test helper for creating a non-blocking connection,1,1,14,11,14,11,0,0,0,1,0,0,0,1,1,0,0,55,1,8,12,0,0,0,0,0
+hiredis,e3067fe231,2010-10-19,879381bd,Actively disconnect on an error,2,2,6,2,6,2,0,0,0,4,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+hiredis,947612865d,2010-10-19,879381bd,Remove const qualifier from command callback in examples,2,2,5,5,5,5,0,0,0,4,0,0,0,0,0,0,0,11,0,0,5,0,0,0,1,0
+hiredis,d4b4a9128e,2010-10-19,879381bd,Revert e5dd32d8 that added the const qualifier for command callbacks,3,3,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+hiredis,c8d72f7c7a,2010-10-19,879381bd,Style,3,3,29,32,29,32,0,0,0,2,0,0,0,0,6,6,0,21,0,0,25,0,0,0,0,0
+hiredis,e245ab48ec,2010-10-19,879381bd,Added header file and example for usage from libev,4,2,125,2,120,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,95,0,0,1,0,0
+hiredis,206868de06,2010-10-19,879381bd,Make error callback argument const,2,2,5,7,5,7,0,0,0,3,0,0,0,0,0,0,0,20,0,0,5,0,0,0,0,0
+hiredis,ba42ab2ef8,2010-10-19,879381bd,Revert privdata in context callbacks to being non-const,3,3,16,16,16,16,0,0,0,5,0,0,0,0,0,0,0,58,1,7,16,0,0,0,0,0
+hiredis,f9596db90b,2010-10-18,879381bd,Test callback sequence in non-blocking context,2,2,46,11,46,11,0,0,0,4,1,0,0,0,1,0,0,58,1,16,34,0,0,0,0,0
+hiredis,e332a32b35,2010-10-18,879381bd,Change redisWriteBuffer to return OK on an empty buffer,2,2,50,18,50,18,0,0,0,2,0,0,0,0,0,0,0,42,0,0,36,0,0,0,0,0
+hiredis,a68cb9686e,2010-10-18,879381bd,Tests for context callbacks in non-blocking mode,1,1,37,0,37,0,0,0,0,1,0,0,0,0,2,0,0,13,0,0,31,0,0,0,0,0
+hiredis,634314f386,2010-10-18,879381bd,Rearrange tests to isolated functions,1,1,40,16,40,16,0,0,0,2,1,1,0,0,4,0,0,12,1,5,34,0,0,0,0,0
+hiredis,61ba85ce57,2010-10-18,879381bd,Move context callbacks into struct and make privdata const,2,2,30,26,30,26,0,0,0,6,0,0,0,0,0,0,0,18,0,0,27,0,0,0,1,0
+hiredis,7496458c68,2010-10-18,879381bd,The QUIT commands returns OK on master,1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,129,1,5,5,0,0,0,0,0
+hiredis,3dfacba4f7,2010-10-12,879381bd,Add comments for function prototypes in hiredis.h,1,1,30,3,30,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+hiredis,d89241e795,2010-10-11,879381bd,Include sys/types.h instead of a custom typedef,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+hiredis,a7acd97ad1,2010-10-11,879381bd,Move event_base code out of libevent.h,3,3,6,22,6,22,0,0,0,2,0,0,0,0,0,1,0,19,0,0,6,0,0,0,1,0
+hiredis,135e9265ac,2010-10-10,094b7147,Added event_base to libevent code.,3,3,22,2,22,2,0,0,0,2,0,0,0,0,1,0,0,21,0,0,17,0,0,0,0,0
+hiredis,96510ce86a,2010-10-07,879381bd,Factor out reusable include for libevent,3,2,110,79,107,76,0,0,0,2,0,0,0,0,7,5,0,11,0,0,77,0,0,1,0,0
+hiredis,b60952f22a,2010-10-07,879381bd,Disconnect before free'ing,1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+hiredis,9cd3b03d84,2010-10-07,879381bd,Fire callback when the context is being disconnected by the user,2,2,23,0,23,0,0,0,0,2,0,0,0,0,2,0,0,7,0,0,17,0,0,0,0,0
+hiredis,e5dd32d809,2010-10-07,879381bd,Add const qualifier to privdata pointer for command callbacks,2,2,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+hiredis,5c7b5fca4d,2010-10-06,879381bd,Make error messages more consistent (e.g. no newline),5,5,21,21,21,21,0,0,0,13,0,0,0,0,0,0,0,44,0,0,21,0,0,0,0,0
+hiredis,1a5f111d52,2010-10-06,879381bd,"c->error is no longer a redisReply object, but rather a plain C-string",2,2,6,5,6,5,0,0,0,2,0,0,0,0,0,0,0,44,0,0,6,0,0,0,0,0
+hiredis,97920b443e,2010-10-06,879381bd,Rename variables,1,1,14,15,14,15,0,0,0,4,0,0,0,0,0,0,0,14,0,0,14,0,0,0,0,0
+hiredis,5a38356cc4,2010-09-25,879381bd,Add example for non-blocking usage of hiredis with libevent,3,1,101,0,97,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,73,0,0,0,0,0
+hiredis,1c245845ed,2010-09-25,879381bd,Trigger callbacks when a command is issued or the context is free'd,2,2,38,5,38,5,0,0,0,3,0,0,0,0,2,0,0,18,0,0,22,0,0,0,0,0
+hiredis,8345467b2e,2010-09-25,879381bd,Free the replies after the tests are done,1,1,8,4,8,4,0,0,0,1,0,0,1,0,0,0,0,126,1,8,8,0,0,0,0,0
+hiredis,9e417047ed,2010-09-25,879381bd,Add function to free an allocated context,3,3,17,3,17,3,0,0,0,1,0,0,1,0,1,0,0,122,1,5,16,0,0,0,0,0
+hiredis,cab99f6427,2010-09-25,879381bd,Free command before returning,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+hiredis,bc3ec0f35a,2010-09-25,879381bd,Rename HIREDIS_BLOCK to REDIS_BLOCK,2,2,8,8,8,8,0,0,0,7,0,0,0,0,0,0,0,19,0,0,8,0,0,0,0,0
+hiredis,a7d7618141,2010-09-25,879381bd,Deprecate the error object for I/O and protocol errors,3,3,139,105,139,105,0,0,0,13,1,0,0,2,3,3,0,120,3,26,106,0,0,0,0,0
+hiredis,e6fb160b44,2010-09-25,879381bd,Rename defines HIREDIS_* to REDIS_*,2,2,13,13,13,13,0,0,0,5,0,0,0,0,0,0,0,29,0,0,13,0,0,0,0,0
+hiredis,bb668e1b94,2010-09-25,879381bd,Support callback functions in a non-blocking context,2,2,83,10,83,10,0,0,0,4,0,0,0,0,3,0,0,29,0,0,65,0,0,0,0,0
+hiredis,de9c172b50,2010-09-25,879381bd,Fix comment,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+hiredis,d156550886,2010-09-24,879381bd,Rename fd to the more appropriate c,2,2,38,38,38,38,0,0,0,2,0,0,0,0,0,0,0,121,1,25,38,0,0,0,0,0
+hiredis,817d26b81d,2010-09-24,879381bd,Use context variable to keep state for a connection,4,4,188,71,188,71,0,0,0,9,0,0,2,0,8,1,0,121,3,12,148,0,0,0,0,0
+hiredis,81f6b8ffd4,2010-09-24,879381bd,Split redisCommand to a more generic function,1,1,9,4,9,4,0,0,0,1,1,1,0,0,1,0,0,10,1,6,8,0,0,0,1,0
+hiredis,af8ba74cbf,2010-09-21,879381bd,"Rename functions to be more consistent, split feed from get reply",3,3,31,31,31,31,0,0,0,2,0,1,1,0,5,5,0,121,1,10,28,0,0,0,1,0
+hiredis,b1bedf5c6d,2010-09-20,879381bd,Use a set of function pointers for building the reply,3,3,51,18,51,18,0,0,0,11,0,0,0,1,1,0,0,119,2,2,41,0,0,0,0,0
+hiredis,0a6e3b38e7,2010-09-20,879381bd,Add context to createErrorObject,1,1,20,17,20,17,0,0,0,6,0,0,0,0,0,1,0,48,1,2,20,0,0,0,0,0
+hiredis,db5244045c,2010-09-20,879381bd,Introduce read tasks to allow hooking other code into reply parsing,2,2,155,83,155,83,0,0,0,10,0,0,1,0,4,0,0,48,2,8,130,0,0,0,0,0
+hiredis,b1fa529cf9,2010-09-20,879381bd,Add function to check if the reply reader is empty,2,2,10,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+hiredis,e944ea3662,2010-09-20,879381bd,"Add reply type for protocol errors, in order to never exit()",3,3,62,7,62,7,0,0,0,5,0,0,3,0,2,0,0,119,3,28,54,0,0,0,0,0
+hiredis,aec1fbd2ad,2010-09-20,879381bd,Use automatic numbering in tests,1,1,23,29,23,29,0,0,0,1,0,0,0,0,0,0,0,102,1,19,20,0,0,0,0,0
+hiredis,3253105d49,2010-09-20,879381bd,Update sds code,2,2,135,10,135,10,0,0,0,2,1,0,0,0,3,0,0,26,1,1,110,0,0,0,0,0
+hiredis,e621f31306,2010-09-20,879381bd,Expose API for streaming bytes to a reply,2,2,91,50,91,50,0,0,0,2,1,0,0,0,3,0,0,16,0,0,72,0,0,0,0,0
+hiredis,4ec97f5907,2010-09-19,879381bd,Free reply in test.c to make hiredis-test run cleanly on Valgrind,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,102,1,1,1,0,0,0,0,0
+hiredis,f87625777d,2010-09-19,879381bd,Change function prototype,1,1,4,4,4,4,0,0,0,2,0,0,0,0,1,1,0,101,1,2,4,0,0,0,0,0
+hiredis,c18b58899e,2010-09-19,879381bd,Use auxiliary variable to store reply before free'ing the list,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,39,0,0,3,0,0,0,0,0
+hiredis,62c8054dbe,2010-09-19,879381bd,Clean up when there is an I/O error,2,2,26,9,26,9,0,0,0,4,0,0,1,0,1,0,0,101,1,8,23,0,0,0,0,1
+hiredis,457cdbf7c5,2010-09-19,879381bd,Rewrite reply parsing to use a read buffer,3,3,222,82,222,82,0,0,0,2,1,0,1,0,6,5,0,99,1,14,186,0,0,0,0,0
+hiredis,66036d113e,2010-09-19,879381bd,Add speed tests,1,1,29,5,29,5,0,0,0,1,0,0,1,0,1,0,0,85,1,17,23,0,0,0,0,0
+hiredis,e7aa0b4b52,2010-08-30,ea7f6d8a,memory leak resolved in redisReadIntegerReply,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+hiredis,4b5f030d4f,2010-06-11,ea7f6d8a,"integer memory leak fixed, thanks to Amit Bakshi for both reporting and providing a patch",1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+hiredis,7302a5ec69,2010-05-25,cdff354a,strcasecmp requires strings.h,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+hiredis,4693a51707,2010-05-25,cdff354a,Constify the API and enable -Wwrite-strings,7,6,13,13,12,12,0,0,0,6,0,0,0,0,0,0,0,55,1,2,12,0,0,0,0,0
+hiredis,bd4ec57059,2010-05-18,ea7f6d8a,minimalistic test suite...,2,1,115,2,104,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,76,0,0,0,0,0
+hiredis,9562351ae5,2010-05-18,ea7f6d8a,more stuff into example,1,1,15,0,15,0,0,0,0,1,0,0,0,0,0,0,0,44,0,0,11,0,0,0,0,0
+hiredis,3d8d3aa0e5,2010-05-18,ea7f6d8a,better example and license information,4,3,87,0,77,0,0,0,0,1,0,0,0,0,0,0,0,33,0,0,14,0,0,0,0,0
+hiredis,60e85fb4f3,2010-05-18,ea7f6d8a,new newline needed after commands,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0

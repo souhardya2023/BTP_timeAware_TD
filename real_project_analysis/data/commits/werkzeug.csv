@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+werkzeug,594452f6a4,2026-10-01,cbbf6e73,put sign in correct place for small negative float,2,1,8,1,7,1,0,0,0,1,1,0,0,0,0,0,0,23,1,6,6,0,0,0,0,0
+werkzeug,2f60c2039d,2026-09-27,cbbf6e73,drop python 3.10,17,6,79,459,46,68,0,0,0,15,0,0,0,1,0,0,0,65,2,6,46,0,0,0,0,0
+werkzeug,b2a2c09730,2026-09-27,cbbf6e73,disallow special name with ads,2,1,8,1,6,1,0,0,0,1,0,0,1,0,0,0,0,26,1,5,5,0,0,0,0,0
+werkzeug,6b4134a972,2026-09-27,cbbf6e73,deprecated `is_resource_modified` and `is_byte_range_valid`,3,2,63,8,55,4,0,0,0,1,2,1,0,0,4,3,0,51,1,19,46,0,0,0,0,0
+werkzeug,655b5daa01,2026-09-27,cbbf6e73,`SharedDataMiddleware` uses `send_file`,2,1,95,128,92,128,0,0,0,2,0,0,0,1,0,1,0,48,1,26,80,0,0,0,0,0
+werkzeug,d441b0c73b,2026-09-27,cbbf6e73,improve `send_file`,3,1,175,135,141,110,0,0,0,1,0,0,1,0,0,0,0,129,1,116,118,0,0,0,0,0
+werkzeug,34e4c1c3cc,2026-09-27,cbbf6e73,split `make_conditional`,9,3,490,388,164,132,0,0,0,3,1,0,2,0,2,3,0,112,2,11,142,0,0,0,1,0
+werkzeug,fbbbf74573,2026-09-27,cbbf6e73,clamp too large start or suffix,3,2,32,18,28,18,0,0,0,5,0,0,0,0,0,0,0,12,0,0,19,0,0,0,0,0
+werkzeug,eba2c4c83f,2026-09-27,cbbf6e73,add `IfMatch.check`,2,1,21,0,20,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+werkzeug,4a7ead7be5,2026-09-25,cbbf6e73,deprecate `FileWrapper`,6,2,37,33,27,21,0,0,0,5,0,0,0,0,0,0,0,20,0,0,25,0,0,0,0,0
+werkzeug,6064e9257e,2026-09-25,cbbf6e73,target 4.0,20,20,144,253,144,253,0,0,0,73,0,0,0,0,0,0,0,47,4,5,138,0,0,0,0,0
+werkzeug,7b3559ec20,2026-09-25,cbbf6e73,deprecate `populate_request`,5,2,42,28,21,9,0,0,0,2,0,0,0,1,0,0,0,32,1,0,17,0,0,0,0,0
+werkzeug,d2d09b0e66,2026-09-25,cbbf6e73,deprecate `responder`,3,1,23,12,21,1,0,0,0,0,0,0,0,0,2,1,0,0,0,0,15,0,0,0,0,0
+werkzeug,9c6fe8c146,2026-09-24,cbbf6e73,fix application typing,2,1,43,24,41,24,1,0,0,2,0,0,0,0,0,0,0,8,0,0,34,0,0,0,0,0
+werkzeug,2c453bf3f3,2026-09-24,cbbf6e73,don't modify SERVER_NAME or SERVER_PORT,3,1,38,38,34,36,0,0,0,1,0,1,0,0,0,0,0,38,1,19,30,0,0,0,0,0
+werkzeug,021b8a52e8,2026-09-24,cbbf6e73,deprecate xhtml,2,1,21,3,19,3,0,0,0,2,0,0,0,0,0,0,0,9,0,0,16,0,0,0,0,0
+werkzeug,fa8e8b84c7,2026-09-24,cbbf6e73,deprecate ETagSet methods,4,1,102,35,91,5,0,0,0,8,0,0,0,0,0,0,0,21,0,0,74,0,0,0,0,0
+werkzeug,0e1701828a,2026-09-24,cbbf6e73,update etag comparison functions,5,2,115,16,65,15,0,0,0,6,0,0,0,0,1,0,0,40,1,1,53,0,0,0,0,0
+werkzeug,6048fa4875,2026-09-21,cbbf6e73,add missing deprecated imports,1,1,22,6,22,6,0,0,0,1,0,0,0,0,2,2,0,46,0,0,20,0,0,1,0,0
+werkzeug,015697636f,2026-09-21,cbbf6e73,add error code to bare type ignore,20,20,134,81,134,81,0,0,0,54,0,0,1,0,0,0,0,110,8,21,131,0,0,0,0,0
+werkzeug,45444750e6,2026-09-21,cbbf6e73,import from specific modules,13,13,41,41,41,41,0,0,0,1,0,0,0,0,0,0,0,11,0,0,41,0,0,1,0,0
+werkzeug,01ff541b12,2026-09-21,cbbf6e73,add ETag structured header class,15,10,228,84,209,71,0,0,0,21,0,0,0,1,13,0,0,110,3,7,167,0,0,1,0,0
+werkzeug,c44a19af54,2026-09-21,cbbf6e73,rename ETags to ETagSet,9,6,47,17,42,13,0,0,0,4,0,0,0,0,1,0,0,42,1,2,35,0,0,0,0,0
+werkzeug,2d98672d61,2026-09-21,cbbf6e73,move HeaderSet to own module,5,5,200,179,200,179,0,0,0,1,0,0,0,0,20,20,0,27,0,0,149,0,0,1,1,0
+werkzeug,687a513094,2026-09-21,cbbf6e73,rewrite cache control docs,1,1,9,6,9,6,0,0,0,2,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+werkzeug,c0d9e42cc8,2026-09-21,cbbf6e73,rewrite auth docs,1,1,15,18,15,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+werkzeug,7b46c1dce1,2026-09-21,cbbf6e73,capitalize ETag initialism consistently,7,5,26,26,20,20,0,0,0,8,0,0,0,0,0,0,0,41,1,3,20,0,0,0,0,0
+werkzeug,d53827f313,2026-09-21,cbbf6e73,rewrite HeaderSet docs and variables,1,1,90,80,90,80,0,0,0,18,0,0,0,0,0,0,0,11,0,0,77,0,0,1,0,0
+werkzeug,5fe6b3909b,2026-09-21,cbbf6e73,rewrite Accept docs and variables,1,1,142,156,142,156,0,0,0,20,0,0,0,1,0,0,0,25,1,21,120,0,0,0,0,0
+werkzeug,9932a660aa,2026-09-21,cbbf6e73,rewrite FileStorage docs,1,1,25,14,25,14,0,0,0,2,0,0,0,0,0,0,0,19,1,13,19,0,0,0,0,0
+werkzeug,73448fef9a,2026-09-21,cbbf6e73,cached properties on FileStorage,7,6,48,42,46,40,0,0,0,6,0,0,0,0,0,2,0,3,0,0,43,0,0,0,0,0
+werkzeug,54b7596dff,2026-09-21,cbbf6e73,q values are three decimal places,2,1,3,5,1,5,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+werkzeug,e573ef373b,2026-09-21,cbbf6e73,rewrite range docs,1,1,34,16,34,16,0,0,0,4,0,0,0,0,0,0,0,20,0,0,27,0,0,0,0,0
+werkzeug,1d704e28b3,2026-09-21,cbbf6e73,deprecate duplicate range to content range methods,3,2,86,26,84,26,0,1,0,4,0,0,0,0,1,0,0,26,0,0,63,0,0,0,0,1
+werkzeug,c57debfe98,2026-09-21,cbbf6e73,don't validate Range constructor,3,1,6,13,4,5,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+werkzeug,2af15d1e6a,2026-09-21,cbbf6e73,rewrite ETags docs,1,1,45,14,45,14,0,0,0,7,0,0,0,0,0,0,0,20,0,0,32,0,0,0,0,0
+werkzeug,42f3ccf949,2026-09-21,cbbf6e73,ETags.__call__ checks star,2,1,16,3,15,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,11,0,0,0,0,0
+werkzeug,63a800cacf,2026-09-21,cbbf6e73,csp bool directives,3,1,67,45,64,44,0,0,0,4,0,0,0,0,1,1,0,15,0,0,58,0,0,0,0,0
+werkzeug,ad8533c647,2026-09-18,cbbf6e73,simplify form parsing customization,4,2,223,82,215,71,0,2,0,9,0,0,0,1,6,1,0,47,3,4,174,0,0,0,0,1
+werkzeug,e31501bc3b,2026-09-18,cbbf6e73,deprecate `header_property`,6,4,173,153,163,144,0,0,0,7,2,2,0,0,10,10,0,28,2,16,126,0,0,1,0,0
+werkzeug,ff4589aaac,2026-09-18,cbbf6e73,consistent types and docs for request properties,2,1,104,74,98,74,0,0,0,4,0,0,0,0,0,0,0,13,0,0,78,0,0,0,0,0
+werkzeug,2489158245,2026-09-18,cbbf6e73,header_property instead of cached_property,1,1,61,29,61,29,0,0,0,0,0,0,0,0,0,6,0,0,0,0,55,0,0,1,0,0
+werkzeug,577071df8b,2026-09-18,cbbf6e73,accept headers use header_property,2,2,35,20,35,20,0,0,0,2,0,0,0,0,0,3,0,19,0,0,31,0,0,1,0,0
+werkzeug,23ab46ccdc,2026-09-18,cbbf6e73,always cached_property on request,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+werkzeug,23002fd651,2026-09-18,cbbf6e73,if_range is false if empty,2,2,13,5,13,5,0,0,0,1,0,0,0,0,1,1,0,2,0,0,11,0,0,0,0,0
+werkzeug,2765b4823f,2026-09-18,cbbf6e73,consistent types and docs for response properties,1,1,134,94,134,94,0,0,0,1,0,0,0,0,0,2,0,9,0,0,113,0,0,0,0,0
+werkzeug,e659652649,2026-09-18,cbbf6e73,annotate that response.location can be none,2,2,8,5,8,5,0,0,0,1,0,0,1,0,0,0,0,42,1,1,7,0,0,0,0,0
+werkzeug,dbd1fa9ff7,2026-09-18,cbbf6e73,csp structured properties,1,1,29,61,29,61,0,0,0,0,0,0,0,0,0,6,0,0,0,0,29,0,0,0,0,0
+werkzeug,d10bf5a532,2026-09-18,cbbf6e73,cache_control structured property for set/del,1,1,13,15,13,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,13,0,0,0,0,0
+werkzeug,60120677c9,2026-09-18,cbbf6e73,use structured property for HeaderSet,1,1,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,0,0
+werkzeug,91e786b7da,2026-09-18,cbbf6e73,use structured property for HeaderSet,2,2,90,56,90,56,0,0,0,0,0,0,0,0,2,4,0,0,0,0,75,0,0,1,0,0
+werkzeug,ff3767c716,2026-09-18,cbbf6e73,retry_after is a header property,2,2,29,30,29,30,0,0,0,0,0,0,0,0,2,2,0,0,0,0,23,0,0,1,0,0
+werkzeug,ecb07329b8,2026-09-18,cbbf6e73,deprecate get/set/del item/attr on auth classes,3,1,146,22,116,0,0,0,0,12,0,0,0,0,2,0,0,20,0,0,100,0,0,0,0,0
+werkzeug,5c7420b700,2026-09-18,cbbf6e73,auth headers are properties,5,3,85,74,82,73,0,0,0,4,0,0,0,0,2,6,0,17,0,0,74,0,0,1,0,0
+werkzeug,d9d53e22f0,2026-09-18,cbbf6e73,factory for structured response header properties,4,4,164,25,164,25,0,0,0,2,0,0,0,0,10,3,0,27,0,0,129,0,0,1,0,0
+werkzeug,87e53872bf,2026-09-18,cbbf6e73,warn on dict_storage_class,1,1,8,0,8,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+werkzeug,f85f380717,2026-09-17,cbbf6e73,handle dump_func returning empty,1,1,10,3,10,3,0,0,0,2,0,0,0,0,0,0,0,16,1,1,7,0,0,0,0,0
+werkzeug,ae7f2163ff,2026-09-17,cbbf6e73,consistent `Response.mimetype` behavior,3,2,41,15,39,15,0,0,0,5,0,0,0,0,1,0,0,5,0,0,32,0,0,0,0,0
+werkzeug,6a604e005d,2026-09-14,cbbf6e73,hide module getattr from typing,2,2,50,47,50,47,0,0,0,2,0,0,0,0,0,0,0,34,0,0,48,0,0,1,0,0
+werkzeug,7b56163420,2026-09-14,cbbf6e73,header property set None is del,2,1,6,2,5,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,1,0,0
+werkzeug,abc0133d32,2026-09-14,cbbf6e73,cache read only header property,2,1,10,3,8,3,0,0,0,2,0,0,0,0,0,0,0,17,0,0,5,0,0,1,0,0
+werkzeug,3777e3c02f,2026-09-14,cbbf6e73,clean up property typing,3,2,142,104,140,104,0,0,0,6,2,1,0,0,10,8,0,17,1,16,119,0,0,0,0,1
+werkzeug,02f705324b,2026-09-14,cbbf6e73,clean up docs and typing for `Request.mimetype`,2,2,15,16,15,16,0,0,0,6,0,0,0,0,0,0,0,25,0,0,12,0,0,0,0,1
+werkzeug,2f2625fefd,2026-09-14,cbbf6e73,deprecate environ properties,5,3,123,58,112,51,0,0,0,1,0,0,0,0,6,0,0,44,1,1,93,0,0,0,0,0
+werkzeug,50bf1e92af,2026-09-13,cbbf6e73,deprecate UserAgent,4,2,84,18,70,16,0,0,0,2,0,0,0,0,3,4,0,13,0,0,58,0,0,0,0,0
+werkzeug,aca1f56ea6,2026-09-12,cbbf6e73,refactor empty ContentRange and bool,6,3,81,58,73,54,0,0,0,9,1,0,0,0,0,0,0,31,1,19,64,0,0,0,0,1
+werkzeug,9e26542c04,2026-09-08,cbbf6e73,deprecate testapp,3,1,26,10,12,0,0,0,0,1,0,0,0,0,0,0,0,45,0,0,10,0,0,0,0,0
+werkzeug,130e744ab1,2026-09-07,cbbf6e73,remove undocumented provided attribute,1,1,0,8,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,55ec217b1c,2026-09-07,cbbf6e73,deprecate TypeConversionDict,4,2,53,30,50,7,0,0,0,4,0,0,0,0,1,0,0,34,0,0,45,0,0,0,0,0
+werkzeug,286c46ffca,2026-09-07,cbbf6e73,deprecate UpdateDictMixin,5,3,99,12,94,8,0,0,0,9,0,0,0,0,9,0,0,32,0,0,77,0,0,0,0,0
+werkzeug,f29e6812f0,2026-09-07,cbbf6e73,deprecate ImmutableDict,10,7,61,67,52,35,0,0,0,8,0,0,0,0,0,0,0,31,1,2,46,0,0,0,0,0
+werkzeug,09b823614b,2026-09-07,cbbf6e73,cache control classes inherit Mapping,4,1,271,154,255,144,0,0,0,4,0,0,0,0,13,4,0,18,0,0,219,0,0,0,1,0
+werkzeug,b0becc395c,2026-09-07,cbbf6e73,deprecate ImmutableList,8,5,119,48,113,37,0,0,0,5,0,0,0,0,5,0,0,29,0,0,89,0,0,0,0,0
+werkzeug,019498f10e,2026-09-06,cbbf6e73,deprecate autocorrect_location_header,6,1,38,22,14,1,0,0,0,1,0,0,1,0,0,0,0,45,1,8,9,0,0,1,0,0
+werkzeug,6fba87c311,2026-08-21,cbbf6e73,only accept ASCII digits,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,0c419f951f,2026-08-21,cbbf6e73,disallow range -0,3,1,9,0,5,0,0,0,0,1,0,0,1,0,0,0,0,46,1,2,2,0,0,0,0,0
+werkzeug,6d7c0b4e2f,2026-08-21,cbbf6e73,sort converter matches numerically,3,1,20,6,7,6,0,0,0,2,0,0,1,0,0,0,0,62,2,14,7,0,0,0,0,0
+werkzeug,ea77c357b8,2026-08-21,cbbf6e73,avoid resizing buffer,2,1,7,1,5,1,0,0,0,1,0,0,0,0,0,0,0,35,0,0,1,0,0,0,0,0
+werkzeug,5d39fd55ac,2026-08-21,cbbf6e73,add docs to address common invalid security reports,8,7,119,39,97,39,0,0,0,14,0,0,0,0,0,0,0,65,3,17,75,1,0,0,0,0
+werkzeug,46b89c9147,2026-08-20,cbbf6e73,clearer docs about about where request limits apply,6,3,101,87,79,56,0,0,0,5,0,0,0,0,0,0,0,21,2,17,65,0,0,0,0,0
+werkzeug,44736742f5,2026-08-20,cbbf6e73,regex OWS,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,c96267b7a6,2026-08-20,cbbf6e73,use startswith/endswith instead of slicing,6,6,10,10,10,10,0,0,0,9,0,0,0,0,0,0,0,83,4,4,10,0,0,0,0,0
+werkzeug,b5ca9067b0,2026-08-20,cbbf6e73,use partition instead of split,4,4,12,12,12,12,0,0,0,8,0,0,0,0,0,0,0,44,2,4,12,0,0,0,1,0
+werkzeug,cc717a993a,2026-08-20,cbbf6e73,only strip OWS,7,7,27,25,27,25,0,0,0,15,0,0,1,0,0,0,0,73,5,11,27,0,0,0,0,0
+werkzeug,580fa61182,2026-08-20,cbbf6e73,improve performance of cookie parsing,3,1,24,15,23,14,0,0,0,1,0,0,0,0,0,0,0,25,0,0,20,0,0,0,0,0
+werkzeug,a6b49f446d,2026-08-20,cbbf6e73,improve performance of etag parsing,1,1,17,6,17,6,0,0,0,1,0,0,0,0,0,0,0,21,0,0,14,0,0,0,0,0
+werkzeug,1b8bc581fd,2026-08-19,cbbf6e73,validate base64,3,1,9,1,3,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+werkzeug,7ea4211c62,2026-08-19,cbbf6e73,include the entire cgroup line,2,1,2,1,1,1,0,0,0,2,0,0,0,0,0,0,0,47,1,1,1,0,0,1,0,0
+werkzeug,c678a23103,2026-08-19,cbbf6e73,stricter int and float converters,3,1,217,95,120,57,0,0,0,6,0,0,0,0,1,1,0,18,1,3,98,0,0,0,0,0
+werkzeug,ab16e62df7,2026-08-13,cbbf6e73,int URL 404s when longer than max_int_str_digits,4,2,25,3,8,3,0,0,0,2,0,0,0,0,0,0,0,35,1,2,6,0,0,0,0,0
+werkzeug,658bf5ed30,2026-08-12,cbbf6e73,validate host port,3,1,18,4,6,3,0,0,0,1,0,0,1,0,0,0,0,27,1,4,5,0,0,0,0,0
+werkzeug,b9761b5b6d,2026-08-11,cbbf6e73,make plain int parsing even stricter,3,2,16,9,12,9,0,0,0,2,0,0,0,0,0,0,0,9,0,0,12,0,0,0,0,0
+werkzeug,0ac9f126e1,2026-08-11,cbbf6e73,handle unclosed quote,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,73,1,2,2,0,0,0,0,0
+werkzeug,5b0dc6d64c,2026-08-10,cbbf6e73,discard invalid etag values,6,3,59,41,45,26,0,0,0,5,0,0,1,0,0,0,0,41,1,3,37,0,0,0,0,0
+werkzeug,c1a9de83bc,2026-08-10,cbbf6e73,require delimiters in etag parsing,2,2,11,3,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+werkzeug,ad00b2d44b,2026-08-10,cbbf6e73,additional etag cleanup,2,2,3,4,3,4,0,0,0,2,0,0,0,0,0,0,0,41,1,1,3,0,0,0,0,1
+werkzeug,6efb819847,2026-08-09,cbbf6e73,improve performance of etag parsing,7,4,59,47,42,35,0,0,0,7,0,0,0,0,0,0,0,45,2,4,28,0,0,0,0,0
+werkzeug,c724fcf563,2026-08-09,cbbf6e73,reduce string slicing in parse_options_header,2,1,76,55,75,55,0,0,0,2,0,0,1,0,0,0,0,71,1,51,57,0,0,1,0,1
+werkzeug,4ce92208da,2026-07-30,cbbf6e73,add client.query method,3,2,11,3,10,3,0,0,0,1,0,0,0,0,1,0,0,27,1,2,8,0,0,0,0,0
+werkzeug,4da3786f14,2026-07-30,cbbf6e73,"preserve empty username, password, port 0",3,1,28,6,12,6,0,0,0,2,0,0,0,0,0,0,0,20,0,0,10,0,0,0,0,0
+werkzeug,707de6664b,2026-07-29,cbbf6e73,update dependencies,9,2,1358,606,3,3,0,0,0,4,0,0,0,0,0,0,0,80,1,1,3,0,0,1,0,0
+werkzeug,eff2d02701,2026-07-29,cbbf6e73,use profiling.tracing on Python 3.15,2,1,9,4,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+werkzeug,884437aef9,2026-07-29,cbbf6e73,fix boolean logic for external url,2,1,14,7,4,7,1,0,0,1,0,0,0,1,0,0,0,42,1,4,4,0,0,0,0,0
+werkzeug,0ada8fa1e5,2026-05-05,cbbf6e73,deprecate storage_class attrs,8,5,238,167,223,126,0,1,0,16,0,0,4,0,0,0,0,58,4,39,174,0,0,0,0,0
+werkzeug,e6892a69e3,2026-05-05,cbbf6e73,note difference between mdn and spec,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+werkzeug,da9d4724fc,2026-05-02,cbbf6e73,parse plain int in a few more inputs,6,5,41,13,16,13,0,0,0,6,0,0,0,0,0,0,0,16,0,0,14,0,0,0,0,0
+werkzeug,a852be7a4c,2026-05-01,cbbf6e73,use secrets.token_urlsafe for salt,3,2,8,12,6,12,0,0,0,2,0,0,0,0,0,1,0,34,1,1,5,0,0,0,0,0
+werkzeug,ff1b12a662,2026-05-01,cbbf6e73,use base64 instead of hex,2,1,8,11,6,3,0,0,0,1,0,0,0,0,0,0,0,3,0,0,6,0,0,0,0,0
+werkzeug,8c129d383e,2026-04-26,cbbf6e73,use sha3-256 instead of sha-1,5,3,35,16,24,14,0,0,0,5,0,0,0,0,0,0,0,50,1,1,21,0,0,0,0,0
+werkzeug,9ffdc2d385,2026-04-23,cbbf6e73,use match to remove port,1,1,8,9,8,9,0,0,0,1,0,0,0,0,0,0,0,25,1,6,8,0,0,0,1,0
+werkzeug,8e9105fbaf,2026-04-23,cbbf6e73,if-range discards weak etag,4,2,26,15,18,9,0,0,0,3,0,0,0,0,0,0,0,9,0,0,14,0,0,0,0,0
+werkzeug,cc89c44f38,2026-04-18,cbbf6e73,update dev dependencies,7,1,463,409,2,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,1,0,0
+werkzeug,f88164a271,2026-04-18,3c4b63d8,Prevent scientific notation being used for floats,3,1,14,0,7,0,0,0,0,1,0,0,0,0,1,0,0,2,0,0,4,0,0,0,0,0
+werkzeug,539695f6bf,2026-04-17,cbbf6e73,move structured header parsing to class methods,19,16,642,412,582,360,0,0,0,49,1,3,0,1,17,9,0,58,3,6,476,0,0,1,1,0
+werkzeug,25f2a09c5b,2026-04-17,cbbf6e73,consistent header capitalization,18,10,72,74,44,44,0,0,0,30,0,0,0,0,0,0,0,110,4,5,44,0,0,1,0,0
+werkzeug,97dec527bc,2026-04-16,cbbf6e73,deprecate Accept-Charset header,6,3,57,19,54,5,0,0,0,1,0,0,0,0,2,0,0,11,0,0,41,0,0,1,0,0
+werkzeug,6068bd88a4,2026-04-16,cbbf6e73,deprecate Pragma header,3,1,16,9,14,7,0,0,0,1,0,0,0,0,0,0,0,9,0,0,12,0,0,1,0,0
+werkzeug,7734cee953,2026-04-12,cbbf6e73,deprecate Content-MD5 header,4,2,69,22,67,20,0,0,0,0,0,0,0,0,4,0,0,0,0,0,54,0,0,1,0,0
+werkzeug,863f665247,2026-04-11,cbbf6e73,clean up old comments,7,2,15,28,8,14,0,0,0,3,0,0,0,1,0,0,0,50,2,5,6,0,0,0,0,1
+werkzeug,deab88f61f,2026-04-02,cbbf6e73,relax get_host strictness,3,1,25,14,16,3,0,0,0,1,0,0,0,0,0,0,0,24,0,0,11,0,0,0,0,0
+werkzeug,7d49189baa,2026-03-24,cbbf6e73,no extra 100 continue,2,1,2,3,0,3,0,0,0,1,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0
+werkzeug,7294d72c0f,2026-03-24,cbbf6e73,deprecate `HTTP_STATUS_CODES`,7,3,40,18,24,8,0,0,0,2,0,0,0,0,1,0,0,19,0,0,20,0,0,0,0,0
+werkzeug,23142a3cb5,2026-03-23,cbbf6e73,merge any number of slashes,4,2,6,3,2,3,0,0,0,2,0,0,0,0,0,0,0,35,1,1,2,0,0,0,0,0
+werkzeug,b913d68db5,2026-03-23,cbbf6e73,always set accept-ranges header,3,1,28,8,15,8,0,0,0,2,0,0,0,0,0,0,0,29,0,0,11,0,0,1,0,0
+werkzeug,f282943ddc,2026-03-23,99b63ffc,Correct 1049dd6b2a363e1ef302b4161c340fb8582f627a,2,1,8,5,7,5,0,0,0,1,0,0,0,0,0,0,0,28,0,0,6,0,0,0,0,0
+werkzeug,d3d3df56c9,2026-03-23,cbbf6e73,validate host characters,5,3,129,50,105,49,0,0,0,5,1,1,0,0,0,0,0,25,2,54,91,0,0,0,0,0
+werkzeug,63261cdfb9,2026-03-23,cbbf6e73,parse transfer-encoding as set,3,2,8,2,7,2,0,0,0,2,0,0,0,0,0,0,0,58,1,1,7,0,0,0,0,0
+werkzeug,051fd66352,2026-03-23,80901dc4,fix trailing whitespace in WWW-Authenticate bearer,3,1,8,0,3,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+werkzeug,795f4eaf6e,2026-03-20,cbbf6e73,improve list quote handling (#3128),3,1,62,17,55,17,0,0,0,3,1,0,0,0,0,0,0,30,1,35,44,0,0,0,0,0
+werkzeug,e8c44c3742,2026-02-25,cbbf6e73,update dev dependencies,8,1,610,339,1,1,0,0,0,1,0,0,0,0,0,0,0,110,1,1,1,0,0,1,0,0
+werkzeug,de397c80af,2026-02-24,cbbf6e73,undeprecated report-uri for now,2,1,8,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+werkzeug,a9b116e6cc,2026-02-23,cbbf6e73,update csp directives,2,1,76,33,71,33,0,0,0,5,0,0,0,0,0,0,0,15,0,0,57,0,0,0,0,0
+werkzeug,de546be714,2026-02-23,cbbf6e73,validate host characters,5,3,129,50,105,49,0,0,0,5,1,1,0,0,0,0,0,25,2,54,91,0,0,0,0,0
+werkzeug,f54fe98026,2026-02-18,cbbf6e73,safe_join prevents Windows special device names in multi-segment paths,3,1,32,16,28,15,0,0,0,1,0,0,1,0,0,0,0,25,1,23,24,0,0,0,0,0
+werkzeug,664deb6a58,2026-02-12,cbbf6e73,always set accept-ranges header,3,1,26,8,15,8,0,0,0,2,0,0,0,0,0,0,0,29,0,0,11,0,0,1,0,0
+werkzeug,0d29255f3c,2026-02-12,cbbf6e73,update Cross-Origin headers,3,2,75,7,60,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,0,0,1,0,0
+werkzeug,f96520c7df,2026-02-12,99b63ffc,"add Sec-Fetch-Site, Mode, User, and Dest headers",5,2,152,2,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,0,0,1,0,0
+werkzeug,08cf07f9ac,2026-02-12,cbbf6e73,consider methods for duplicate rule check,5,3,72,20,31,16,0,0,0,3,0,0,0,0,1,1,0,19,0,0,18,0,0,0,0,1
+werkzeug,9bca0b8eab,2026-02-06,99b63ffc,error on dupcliate rules,6,3,137,2,44,2,0,0,0,8,0,0,0,0,2,0,0,19,0,0,30,0,0,0,0,0
+werkzeug,a44b1a7b76,2026-02-05,cbbf6e73,use NamedTemporaryFile instead of mkstemp,1,1,14,17,14,17,0,0,0,1,0,0,0,0,0,0,0,19,0,0,13,0,0,0,0,0
+werkzeug,4f1577393f,2026-02-05,cbbf6e73,avoid ResourceWarning on failed multipart parsing,4,1,30,51,26,29,0,0,0,4,0,0,1,0,2,1,0,18,1,1,24,0,0,0,0,0
+werkzeug,9ef32a8812,2026-02-05,cbbf6e73,get filename from IO object,2,1,38,27,36,27,0,0,0,2,0,0,0,1,1,0,0,22,1,1,26,0,0,0,0,0
+werkzeug,62f2f5123e,2026-02-05,cbbf6e73,clean up some annotations,2,2,4,5,4,5,0,0,0,2,0,0,0,0,0,0,0,22,0,0,4,0,0,0,0,1
+werkzeug,063feacf3f,2026-02-05,cbbf6e73,rewrite docs about mutually exclusive attrs,1,1,70,43,70,43,0,0,0,7,0,0,0,0,0,0,0,88,1,1,54,0,0,0,0,0
+werkzeug,ea45bfc722,2026-02-05,cbbf6e73,close files on clear,2,1,9,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+werkzeug,700ad12785,2026-02-05,cbbf6e73,simpler mutually exclusive attrs,1,1,29,60,29,60,0,0,0,11,0,0,0,1,0,2,0,41,1,1,23,0,0,0,0,0
+werkzeug,d4a60922eb,2026-02-05,cbbf6e73,EnvironBuilder context manager,6,2,83,92,19,17,0,0,0,4,0,0,0,2,2,0,0,88,2,3,18,0,0,0,0,0
+werkzeug,33dbcfe2a4,2026-02-03,cbbf6e73,remove previously deprecated code,7,3,11,556,5,366,0,0,0,17,0,1,0,0,0,31,0,11,0,0,4,0,0,0,1,0
+werkzeug,51926a7a88,2026-02-03,cbbf6e73,drop python 3.9,16,6,110,772,13,72,0,0,0,8,0,1,0,0,0,1,0,72,6,6,13,0,0,0,0,0
+werkzeug,8596db3a96,2026-02-03,5ae6fc07,Check event type before pattern matching in watchdog reloader,2,1,13,10,5,2,0,0,0,2,0,0,0,0,1,0,0,28,0,0,4,0,0,0,0,0
+werkzeug,161c18b2a8,2026-02-03,cbbf6e73,rewrite build docstring,1,1,40,63,40,63,0,0,0,1,0,0,0,0,0,0,0,41,1,34,34,0,0,0,0,0
+werkzeug,649a32a56e,2026-02-03,cbbf6e73,update dev dependencies,6,1,495,312,1,1,0,0,0,1,0,0,0,0,0,0,0,110,1,1,1,0,0,1,0,0
+werkzeug,51e2cb9f4d,2026-02-03,cbbf6e73,don't add interface addresses,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,62,1,2,2,0,0,0,1,0
+werkzeug,6335b7211d,2026-02-03,cbbf6e73,validate trusted_hosts during routing,3,1,35,5,16,5,0,0,0,1,0,0,1,0,0,0,0,51,1,12,13,0,0,0,0,0
+werkzeug,a6a7dd1445,2026-02-03,cbbf6e73,improve subdomain and host matching,5,2,410,166,142,107,0,0,0,7,0,0,6,0,1,1,0,72,6,97,119,0,0,0,0,0
+werkzeug,6e2dfd0f6c,2026-01-24,cbbf6e73,EnvironBuilder closes all files,4,2,19,13,14,9,0,0,0,1,0,0,0,0,1,0,0,6,0,0,10,0,0,0,0,0
+werkzeug,781c58579a,2026-01-24,cbbf6e73,update test client redirect handling,2,1,19,16,12,16,0,0,0,2,1,0,0,1,0,0,0,46,2,10,10,0,0,0,0,0
+werkzeug,a6e57dbb38,2026-01-24,cbbf6e73,rewrite redirect docs,1,1,35,18,35,18,0,0,0,1,0,0,0,0,0,0,0,18,0,0,28,0,0,0,0,0
+werkzeug,285af2c465,2026-01-24,cbbf6e73,redirect defaults to 303,4,1,10,5,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+werkzeug,06f33b2418,2026-01-20,99b63ffc,Correct 1049dd6b2a363e1ef302b4161c340fb8582f627a,1,1,7,5,7,5,0,0,0,1,0,0,0,0,0,0,0,28,0,0,6,0,0,0,0,0
+werkzeug,37797aba26,2026-01-08,cbbf6e73,`safe_join` prevents windows special device names with compound extensions,3,1,23,8,13,6,0,0,0,1,0,0,0,0,0,0,0,21,1,5,11,0,0,0,0,0
+werkzeug,1049dd6b2a,2026-01-02,99b63ffc,Correct parsing up to a potential partial boundary,4,1,39,39,27,31,0,0,0,1,0,0,0,0,1,1,0,24,0,0,20,0,0,0,0,0
+werkzeug,fa0f4f2710,2026-01-02,a6c00156,initialize _pin,3,1,18,2,3,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+werkzeug,1b9bfd2dcd,2026-01-02,e9e7c112,docs: fix typos in ContentSecurityPolicy and Response docstrings,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,1,0,0,0,0
+werkzeug,d9cda879dd,2026-01-02,cbbf6e73,update dev dependencies,11,1,278,293,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+werkzeug,5e8b1c1c33,2025-12-02,85d6f02f,Add Literal[True] overload for MultiDict.to_dict().,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,9bdec46fe4,2025-11-27,cbbf6e73,safe_join prevents windows special device names,4,2,27,8,16,8,0,0,0,1,1,0,0,0,0,0,0,21,1,6,15,0,0,0,0,0
+werkzeug,1131dbd4d4,2025-11-27,cbbf6e73,distinguish wsgi and sansio response annotation,2,1,37,20,35,20,0,0,0,10,0,0,0,0,0,0,0,12,0,0,34,0,0,0,0,0
+werkzeug,60ea32c88e,2025-11-26,cbbf6e73,skip rendering missing source,3,1,22,1,1,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+werkzeug,8ac21dbf75,2025-11-26,cbbf6e73,json property is only any,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+werkzeug,bdd668dac5,2025-11-26,a5b2288f,reload as soon as trigger_reload is called,2,1,10,15,9,15,0,0,0,4,0,0,0,0,0,0,0,27,0,0,5,0,0,0,0,0
+werkzeug,77bde33372,2025-11-26,b851f9e8,handle chunk across \r\n ending,4,1,46,1,8,0,0,0,0,1,0,0,0,0,0,0,0,30,0,0,5,0,0,0,0,0
+werkzeug,c7d2b8b28a,2025-11-26,0bf3d65e,check pin consistently,2,1,8,1,6,1,0,0,0,2,0,0,0,0,0,0,0,37,0,0,3,0,0,0,0,0
+werkzeug,ce0ea87da0,2025-11-26,4b615d4a,fix docstring typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+werkzeug,9aabb57c53,2025-11-26,42e236d6,Fix typos discovered by codespell,5,1,14,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,ee7ad400ee,2025-11-25,cbbf6e73,update dev dependencies,8,3,1072,624,8,8,0,0,0,8,0,0,0,0,0,0,0,60,1,1,8,0,0,1,0,0
+werkzeug,dbc734911c,2025-08-18,cbbf6e73,update macos error message,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,72,1,2,2,0,0,0,0,0
+werkzeug,0c49ff0649,2025-06-08,cbbf6e73,update dev dependencies,15,9,199,239,28,23,0,0,0,9,0,0,0,0,0,0,0,89,1,1,28,0,0,1,0,0
+werkzeug,32f75a4e3e,2025-05-14,cbbf6e73,use uv,32,11,1818,504,16,21,0,0,0,6,0,0,0,0,0,0,0,23,0,0,16,0,0,0,0,0
+werkzeug,aafc5c5706,2025-04-18,b06d9923,tbtools: Add typing to `out` to appease mypy,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+werkzeug,738074ad4c,2025-04-18,b06d9923,tbtools: Fix typing of `current`,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+werkzeug,d99f72d126,2024-11-07,cbbf6e73,wrap IPv6 SERVER_NAME in [],3,1,15,0,8,0,0,0,0,1,1,0,0,0,0,0,0,23,1,4,4,0,0,0,0,0
+werkzeug,598bb1de78,2024-11-06,cbbf6e73,restrict containers accepted by multi,4,2,50,28,29,27,0,0,0,13,0,1,0,0,0,0,0,32,1,6,29,0,0,0,0,0
+werkzeug,ac87bf835f,2024-11-04,cbbf6e73,Headers is not MutableMapping,3,2,13,12,11,11,0,0,0,9,0,0,0,0,0,0,0,32,1,1,11,0,0,1,0,0
+werkzeug,acdf7faf21,2024-11-04,cbbf6e73,TypeConversionDict.get type can be a callable,3,2,44,23,40,23,0,0,0,7,0,0,0,0,0,0,0,17,0,0,40,0,0,0,0,0
+werkzeug,afc4ea7b5e,2024-11-01,cbbf6e73,fix str(request.headers),3,1,9,2,2,2,1,0,0,2,0,0,0,0,0,0,0,6,0,0,2,0,0,1,0,0
+werkzeug,564835a6b5,2024-10-31,cbbf6e73,add docstring changelogs,3,3,8,0,8,0,0,0,0,2,0,0,0,0,0,0,0,29,1,2,5,0,0,0,0,0
+werkzeug,b0f361ce69,2024-10-31,cbbf6e73,more cache-control cleanup,3,1,41,50,24,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,1
+werkzeug,e3a50c9ac1,2024-10-30,cbbf6e73,more cache-control cleanup,5,1,167,71,131,58,0,0,0,3,0,0,0,0,0,0,0,22,0,0,111,0,0,0,0,1
+werkzeug,b65b587aa1,2024-10-29,cbbf6e73,implement or and ior operators,5,3,126,1,77,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,60,0,0,0,0,0
+werkzeug,e550ef8b31,2024-10-29,cbbf6e73,getlist catches TypeError,2,1,10,7,8,6,0,0,0,3,0,0,0,0,0,0,0,15,0,0,7,0,0,0,0,0
+werkzeug,3720e3e84d,2024-10-29,cbbf6e73,deprecate OrderedMultiDict,7,3,120,22,82,14,0,0,0,6,0,0,0,0,2,0,0,24,1,1,63,0,0,0,0,0
+werkzeug,0294d88b9c,2024-10-29,cbbf6e73,inline annotations for datastructures,25,15,1095,1577,1093,676,0,0,0,283,0,0,2,2,15,8,0,110,7,40,1005,0,0,0,0,0
+werkzeug,763609ae21,2024-10-27,cbbf6e73,increase pbkdf2 iterations,3,1,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,c1477605c5,2024-10-27,cbbf6e73,remove previously deprecated code,2,1,1,21,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,8e62ad62b0,2024-10-27,cbbf6e73,drop support for Python 3.8,14,7,16,66,8,8,0,0,0,4,0,0,0,0,0,0,0,65,1,1,8,0,0,0,0,0
+werkzeug,d27debc32f,2024-10-27,cbbf6e73,default max_form_memory_size to 500kB,3,1,18,5,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,14c5d99021,2024-10-25,56a2ecd6,Add support for RFC5861 Cache-Control headers,5,1,34,19,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+werkzeug,437cf6fccb,2024-10-25,2bd98a3d,add 421 Misdirected Request exception,4,1,15,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+werkzeug,87cc78a25f,2024-10-25,cbbf6e73,catch special absolute path on Windows Python < 3.11,3,1,16,6,2,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+werkzeug,8760275afb,2024-10-25,cbbf6e73,apply max_form_memory_size another level up in the parser,4,2,28,0,13,0,0,0,0,1,1,0,0,0,0,0,0,56,1,7,7,0,0,0,0,0
+werkzeug,e6b4cce97e,2024-10-24,cbbf6e73,catch OSError from getpass.getuser,2,1,4,1,2,1,0,0,0,1,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+werkzeug,e14f4e0693,2024-10-24,16155861,improve type annotation for SharedDataMiddleware,2,1,4,2,3,2,0,0,0,1,0,0,0,0,0,0,0,33,0,0,3,0,0,0,0,0
+werkzeug,1688968101,2024-10-24,ccbb949e,ignore invalid authorization parameters,3,1,19,3,4,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+werkzeug,7326de64ea,2024-10-24,61a749fe,fix logging addresses with ipv6 scope,4,1,20,1,3,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+werkzeug,cfe71ee9d5,2024-10-24,4c883d3b,filter watchdog events,3,1,38,2,13,2,0,0,0,2,0,0,0,0,0,0,0,27,0,0,12,0,0,0,0,0
+werkzeug,2b4ab69864,2024-10-24,cbbf6e73,update dev dependencies,12,1,129,70,7,7,0,0,0,6,0,0,0,0,0,0,0,23,0,0,7,0,0,1,0,0
+werkzeug,cf18d037fa,2024-08-21,cbbf6e73,treat SSLEOFError as dropped connection,2,1,10,1,8,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,7,0,0,0,0,0
+werkzeug,650481972f,2024-08-21,cbbf6e73,synchronize failed pin entry,2,1,11,5,9,5,0,0,0,3,0,0,0,0,0,0,0,37,1,1,8,0,1,0,0,0
+werkzeug,3a893d27b1,2024-08-20,cbbf6e73,improve parse_options_header performance,3,1,47,26,41,24,0,0,0,1,0,0,1,0,0,0,0,54,1,23,25,0,0,1,0,0
+werkzeug,a2f29de125,2024-08-20,cbbf6e73,restore invalid bytes behavior for form parser,3,1,18,10,5,9,0,0,0,1,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+werkzeug,f95be71cf0,2024-08-20,cbbf6e73,update mypy,5,3,9,9,7,7,0,0,0,3,0,0,0,0,0,0,0,60,1,4,7,0,0,0,0,0
+werkzeug,c3c82f4576,2024-08-20,09d367fd,Improve types for AST handling (#2905),1,1,23,12,23,12,0,0,0,5,0,0,1,0,0,0,0,60,1,8,21,0,0,0,0,0
+werkzeug,b28001e06f,2024-07-12,f48cc529,fix cache control issues,5,2,70,26,20,3,1,0,0,1,0,0,0,0,0,0,0,110,1,1,14,0,0,0,0,0
+werkzeug,e12362681a,2024-05-11,cbbf6e73,test with python 3.13,7,1,22,14,13,2,0,0,0,2,1,0,0,0,0,0,0,40,1,5,10,0,0,0,0,0
+werkzeug,890b6b6263,2024-05-05,cbbf6e73,only require trusted host for evalex,2,2,21,6,21,6,0,0,0,7,0,0,0,1,1,0,0,37,1,1,16,0,0,0,0,0
+werkzeug,71b69dfb7d,2024-05-05,cbbf6e73,restrict debugger trusted hosts,5,2,50,7,13,0,0,0,0,3,0,0,3,0,0,0,0,61,3,9,9,0,0,0,0,0
+werkzeug,7080b55acd,2024-05-05,cbbf6e73,endpoint type is Any,4,3,19,14,17,14,0,0,0,12,0,0,0,0,0,0,0,69,5,6,16,0,0,0,0,0
+werkzeug,97fb2f7222,2024-05-05,cbbf6e73,remove _invalid_iri_to_uri workaround,5,2,17,21,7,21,0,0,0,1,0,0,0,0,0,1,0,37,1,1,4,0,0,0,1,0
+werkzeug,793be472c9,2024-05-05,1d92c6ef,update adhoc tls dev cert format,2,1,6,2,5,2,0,0,0,2,0,0,0,0,0,0,0,42,0,0,5,0,0,0,0,0
+werkzeug,e633b30cd1,2024-05-04,095d2bca,Update _reloader.py,2,1,5,1,3,1,0,0,0,2,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+werkzeug,8c302d86ff,2024-05-04,095d2bca,Update _reloader.py,2,1,5,1,3,1,0,0,0,2,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+werkzeug,f5b71d82b8,2024-04-08,cbbf6e73,address mypy strict mode findings,37,32,282,241,250,217,0,0,0,81,2,3,2,0,1,21,0,110,11,25,225,0,0,0,0,0
+werkzeug,57413980f4,2024-03-19,99b63ffc,Raise an error if the converter arguments cannot be parsed,3,1,13,0,8,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,7,0,0,0,0,0
+werkzeug,32e6951213,2024-03-05,139fcda6,add params for partitioned in set_cookie and delete_cookie,1,1,6,0,6,0,0,0,0,2,0,0,2,0,0,0,0,29,2,6,6,0,0,0,0,0
+werkzeug,564397967a,2024-03-05,99b63ffc,Support Cookie CHIPS,3,1,26,0,10,0,0,0,0,1,0,0,1,0,0,0,0,65,1,8,8,0,0,0,0,0
+werkzeug,0b472374af,2024-03-05,99b63ffc,Fix issue with repeated-slash requests redirecting,4,2,15,2,9,2,1,0,0,2,0,0,1,1,2,0,0,35,2,1,7,0,0,0,0,0
+werkzeug,f516c4005c,2024-03-03,add2b475,Handle TypeError in TypeConversionDict,3,1,11,4,7,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+werkzeug,7ab3823fb6,2024-03-03,ddf80fd7,Fix: Use `issubclass` instead of `isinstance`,2,1,26,2,4,2,1,0,0,1,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+werkzeug,70ad4d6d9b,2024-03-03,e4076931,Use more precise type for formparser.MultiPartParser.parse return,2,1,9,1,1,1,0,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+werkzeug,0a5777c951,2023-11-11,cbbf6e73,use ruff lint and format,27,14,121,151,63,38,0,0,0,23,0,0,2,0,0,0,0,110,6,24,63,0,0,0,0,0
+werkzeug,af893ea8ad,2023-11-10,cbbf6e73,fix mypy findings,1,1,2,4,2,4,1,0,0,2,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+werkzeug,7a6eb7d3c9,2023-11-08,c7c80f9f,Start version 2.3.9,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,dc909431a6,2023-11-08,c7c80f9f,Release version 2.3.8,2,1,5,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,f2300208d5,2023-10-30,c9c827de,Fix: slow multipart parsing for huge files with few CR/LF characters,1,1,9,1,9,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,0
+werkzeug,b1916c0c08,2023-10-24,c9c827de,Fix: slow multipart parsing for huge files with few CR/LF characters,1,1,9,1,9,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,0
+werkzeug,6427542588,2023-09-30,99b63ffc,Default the PathConverter (and descendants) to be non part isolating,2,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,4820d8c487,2023-09-24,2711097b,Provide elapsed and timestamp info to filename_format,3,1,69,3,16,3,0,0,0,1,0,0,0,0,0,0,0,36,0,0,15,0,0,0,0,0
+werkzeug,81b879a523,2023-08-22,8d504719,Update helpful error message for AirPlay collision,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,72,1,1,1,0,0,0,0,0
+werkzeug,40ba284a21,2023-08-14,cbbf6e73,deprecate __version__ attribute,4,2,28,5,25,4,0,0,0,2,0,0,1,0,1,0,0,72,1,2,18,0,0,0,0,0
+werkzeug,9a21003d45,2023-08-14,cbbf6e73,use scrypt as default,3,1,6,6,4,5,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+werkzeug,5ff0a573f4,2023-08-14,cbbf6e73,remove support for bytes where str is expected,16,16,96,660,96,660,0,0,0,54,0,0,0,12,0,17,0,89,13,21,90,0,0,0,1,0
+werkzeug,1058daa00a,2023-08-14,cbbf6e73,remove make_chunk_iter,4,1,6,371,0,224,0,0,0,0,0,1,0,0,0,4,0,0,0,0,0,0,0,0,1,0
+werkzeug,56f820790a,2023-08-14,cbbf6e73,remove old cookie behavior in test client,1,1,12,63,12,63,0,0,0,2,0,1,0,1,0,1,0,22,2,11,11,0,0,0,1,0
+werkzeug,4756a636c6,2023-08-14,cbbf6e73,remove old password hash methods,2,1,6,15,1,15,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,1,0
+werkzeug,0495bed470,2023-08-14,cbbf6e73,remove old formparser behavior,1,1,5,68,5,68,0,0,0,1,0,0,0,0,0,1,0,21,0,0,5,0,0,0,1,0
+werkzeug,4c769c91e3,2023-08-14,cbbf6e73,remove old http parsing parameters,1,1,18,67,18,67,0,0,0,4,0,0,0,0,0,0,0,29,0,0,16,0,0,0,1,0
+werkzeug,bafffa9fb5,2023-08-14,cbbf6e73,remove old auth behavior,4,2,2,257,1,252,0,0,0,1,0,0,0,0,0,12,0,12,0,0,1,0,0,0,1,0
+werkzeug,0266f51cc3,2023-08-14,cbbf6e73,remove urllib.parse copy,5,3,46,1530,42,1228,0,0,0,5,0,10,0,1,1,46,0,101,3,20,39,0,0,0,1,0
+werkzeug,43d6cdca9d,2023-08-14,cbbf6e73,start version 3.0.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,828bab48b0,2023-08-14,99b63ffc,Start version 2.3.8,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,3c2ba3da89,2023-08-14,99b63ffc,Release version 2.3.7,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,88f4ed649c,2023-08-13,40cc8f9f,qvalue parsing accepts float without decimal,4,2,14,22,7,22,0,0,0,1,0,0,0,0,0,1,0,23,0,0,4,0,0,0,0,0
+werkzeug,fdc295a79c,2023-08-13,32eb0eda,clearer url rule slash error,2,1,3,1,2,1,0,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+werkzeug,a0f4bf4bb6,2023-08-13,32eb0eda,fix: improve error message,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+werkzeug,a3a313a3a6,2023-08-12,99b63ffc,Fix empty stream file uploads when testing,3,1,21,2,1,0,1,0,0,1,0,0,1,0,0,0,0,65,1,1,1,0,0,0,0,0
+werkzeug,d3e0e015bc,2023-08-12,b00c2bbe,Strip leading/trailing whitespace from header values before checking type,2,1,8,0,6,0,0,0,0,2,0,0,0,0,0,0,0,5,0,0,4,0,0,1,0,0
+werkzeug,19fc3ecdce,2023-08-12,99b63ffc,Account for the data_start position if a boundary is found,3,1,11,15,2,3,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+werkzeug,89ce5e5a4c,2023-08-12,471e369f,Prevent Addition of Extra Newline in Binary File Uploads,3,1,60,1,2,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+werkzeug,9893c0e564,2023-06-27,cbbf6e73,start version 2.3.7,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,dcd9d215fe,2023-06-27,cbbf6e73,update dependencies,8,2,21,23,4,4,0,0,0,5,0,0,0,0,0,0,0,45,0,0,4,0,0,1,0,0
+werkzeug,5b8c7de98d,2023-06-19,b2db4bfa,lowercase auth schemes in docs,1,1,5,5,5,5,0,0,0,4,0,0,0,0,0,0,0,11,0,0,5,0,0,0,0,0
+werkzeug,f9b2005e0e,2023-06-09,c8646a83,update cross-domain cookie docs,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,87,2,2,2,0,0,0,0,0
+werkzeug,c6f3c2a327,2023-06-08,cbbf6e73,release version 2.3.6,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,f91304f109,2023-06-08,cbbf6e73,remove docs links from docstrings,5,4,22,31,2,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+werkzeug,a184111664,2023-06-08,cbbf6e73,fix parsing error in FileStorage.content_length,2,1,10,4,7,4,1,0,0,1,0,0,0,0,0,0,0,7,0,0,6,0,0,0,0,0
+werkzeug,3a8de8db39,2023-06-08,cbbf6e73,start version 2.3.6,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,2c9b513da3,2023-06-07,cbbf6e73,release version 2.3.5,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,6290332384,2023-06-07,cbbf6e73,fail on Python's extended int/float syntax,8,5,76,10,45,10,0,0,0,6,0,0,0,0,2,0,0,44,2,6,35,0,0,0,0,0
+werkzeug,dc9e73b34b,2023-06-06,1498b71b,passing bytes to iri_to_uri shows deprecation warning,3,1,15,10,10,10,0,0,0,1,0,0,0,0,0,0,0,72,1,9,9,0,0,0,0,0
+werkzeug,23593ae58d,2023-06-06,cbbf6e73,Map.bind ignores port for IDNA,3,1,14,1,4,1,0,0,0,1,0,0,1,0,0,0,0,35,1,2,2,0,0,0,0,0
+werkzeug,7475264b7e,2023-06-05,cbbf6e73,debugger escapes title,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,1,0,0,0,0
+werkzeug,c52fa3770e,2023-06-02,ccbb949e,Fix handling of invalid base64 values,3,1,6,1,2,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+werkzeug,a1f41f13f1,2023-05-31,cbbf6e73,address bugbear findings,2,1,7,7,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+werkzeug,2a6ea76f06,2023-05-31,cbbf6e73,use importlib instead of pkgutil,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,1,0,0
+werkzeug,8105a4587e,2023-05-31,cbbf6e73,use ast.Constant instead of ast.Str,3,1,9,7,5,5,0,0,0,2,0,0,0,0,0,0,0,64,1,5,5,0,0,0,0,0
+werkzeug,2eb811c8a7,2023-05-31,cbbf6e73,start version 2.3.5,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,59352d7b83,2023-05-31,cbbf6e73,update dependencies,6,1,23,23,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,1,0,0
+werkzeug,46d78ab7e3,2023-05-09,95a7f55c,Update serving.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+werkzeug,9959cffead,2023-05-08,cbbf6e73,release version 2.3.4,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,0820d2e9de,2023-05-08,cbbf6e73,update removal version to 3.0,13,13,120,120,120,120,0,0,0,61,0,0,0,0,0,0,0,103,16,37,120,0,0,0,0,0
+werkzeug,68227737cb,2023-05-06,cbbf6e73,preserve invalid itms-services url scheme,5,3,51,45,26,8,0,0,0,2,0,0,0,0,1,0,0,37,1,1,21,0,0,0,0,0
+werkzeug,4321c5b0c9,2023-05-05,c7c80f9f,Do not apply max_form_parts to non-multipart data,3,1,8,7,4,5,0,0,0,2,0,0,0,0,0,0,0,23,1,2,4,0,0,0,0,0
+werkzeug,3a4c8d0844,2023-05-03,9284f77b,Remove uses of warnings.catch_warnings (#2690) (#2692),5,2,48,46,25,43,0,0,0,9,0,0,0,3,0,0,0,51,3,3,25,0,0,0,1,0
+werkzeug,2051469a2b,2023-05-01,cbbf6e73,WWWAuthenticate.from_header handles base64 padding in token,3,1,20,6,5,4,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,1,0,0
+werkzeug,282061cb41,2023-05-01,6ec6b7cb,Authorization.from_header handles base64 padding in token,3,1,21,6,5,6,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,1,0,0
+werkzeug,510d7281ff,2023-05-01,cbbf6e73,start version 2.3.4,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,cf6f3aa782,2023-05-01,cbbf6e73,release version 2.3.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,7a33be5eda,2023-05-01,cbbf6e73,release version 2.3.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,f0a1733f52,2023-05-01,99b63ffc,Fix the parsing of large multipart bodies,2,1,25,15,23,15,1,0,0,2,0,0,0,0,0,0,0,22,0,0,19,0,0,0,0,0
+werkzeug,9004c05320,2023-05-01,cbbf6e73,cookie path=/ default,6,3,43,21,20,18,0,0,0,7,0,0,0,0,0,0,0,87,4,4,20,0,0,0,0,0
+werkzeug,942dab369f,2023-05-01,cbbf6e73,start version 2.3.3,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,83054c4ab4,2023-04-28,cbbf6e73,release version 2.3.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,a83b56a8b1,2023-04-28,cbbf6e73,update changelogs in docstrings,3,3,10,5,10,5,0,0,0,3,0,0,0,0,0,0,0,87,1,3,8,0,0,0,0,0
+werkzeug,18616d24dc,2023-04-28,cbbf6e73,cookie path=/ default,3,1,19,13,4,1,0,0,0,1,0,0,0,0,0,0,0,87,1,3,3,0,0,0,0,0
+werkzeug,06e8df4f45,2023-04-28,cbbf6e73,max_content_length only with wsgi.input_terminated,2,1,14,8,12,8,0,0,0,1,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+werkzeug,9c0fef4eae,2023-04-27,cbbf6e73,test client parses set-cookie more accurately,2,1,16,10,14,10,0,0,0,1,0,0,0,0,0,0,0,22,0,0,12,0,0,0,0,0
+werkzeug,d128daa187,2023-04-27,cbbf6e73,start version 2.3.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,2e176a1f35,2023-04-27,cbbf6e73,release version 2.3.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,eee8ce05c3,2023-04-26,cbbf6e73,Authorization and WWWAuthenticate __eq__,3,1,44,0,20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,16,0,0,0,0,0
+werkzeug,0822143862,2023-04-26,cbbf6e73,allow more characters in unquoted cookie values,3,1,8,7,4,4,0,0,0,1,0,0,0,0,0,0,0,87,1,1,2,0,0,0,0,0
+werkzeug,d0f040a65b,2023-04-26,cbbf6e73,quote plus in urls,3,1,4,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+werkzeug,316053bdf6,2023-04-26,cbbf6e73,start version 2.3.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,f2e0ac6e91,2023-04-25,cbbf6e73,release version 2.3.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,dfb6465703,2023-04-25,cbbf6e73,support scrypt,3,1,113,68,83,53,0,0,0,4,0,0,0,0,0,0,0,50,0,0,79,0,0,0,0,0
+werkzeug,bdb6466100,2023-04-24,cbbf6e73,deprecate custom form parser content types,3,2,179,56,176,56,0,0,0,9,0,0,3,0,0,0,0,49,3,64,157,0,0,0,0,0
+werkzeug,e5a3aff363,2023-04-24,cbbf6e73,escape ASCII control characters in request log,2,1,10,0,8,0,0,0,0,1,0,0,0,0,0,0,0,23,0,0,5,1,0,0,0,0
+werkzeug,7be1875015,2023-04-20,cbbf6e73,drop support for python 3.7,16,7,26,38,17,26,0,0,0,12,0,0,0,0,0,0,0,64,3,4,15,0,0,0,0,0
+werkzeug,deacedcc61,2023-04-19,cbbf6e73,remove unneeded data,3,2,27,187,27,179,0,0,0,1,0,0,0,0,0,5,0,45,0,0,24,0,0,0,1,0
+werkzeug,2185a5ea19,2023-04-19,cbbf6e73,remove noqa F401 for typing,4,4,4,7,4,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+werkzeug,09ddd52f97,2023-04-19,cbbf6e73,add __future__ annotations,55,45,1237,1267,944,927,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+werkzeug,b38fe5d5bf,2023-04-19,cbbf6e73,split csp and etag from headers module,8,5,394,379,188,182,0,0,0,0,0,0,0,0,23,23,0,0,0,0,151,0,0,1,1,0
+werkzeug,c336a7e334,2023-04-18,cbbf6e73,shorten header submodule names,9,2,12,12,12,12,0,0,0,1,0,0,0,0,0,0,0,16,0,0,12,0,0,1,0,0
+werkzeug,15cf425c8f,2023-04-15,94b8e169,fix ProfilerMiddleware stream param type hint,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+werkzeug,45c1e774eb,2023-04-12,cbbf6e73,fix Map.bind raising BadHost on invalid idna,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,34,1,1,1,0,0,0,0,0
+werkzeug,4285bbe4bb,2023-04-12,cbbf6e73,internal test cookie request/response methods,1,1,46,23,46,23,0,0,0,1,0,0,0,0,2,0,0,8,0,0,42,0,0,0,0,0
+werkzeug,eb363e4fad,2023-04-11,cbbf6e73,no path by default,2,1,3,3,2,2,0,0,0,2,0,0,0,0,0,0,0,29,2,2,2,0,0,0,0,0
+werkzeug,42e898c108,2023-04-11,cbbf6e73,deprecate iri charset and errors params,3,3,57,26,57,26,0,0,0,4,1,0,2,0,0,0,0,105,3,52,53,0,0,0,0,0
+werkzeug,a6d96ca1dc,2023-04-11,cbbf6e73,deprecate request and response charset,7,5,214,43,208,32,0,0,0,17,0,0,5,0,8,0,0,103,6,66,184,0,0,0,0,0
+werkzeug,ff3df42fed,2023-04-10,cbbf6e73,restrict multipart charsets,2,1,9,2,7,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+werkzeug,6d4de9e0ff,2023-04-10,cbbf6e73,remove request.url_charset,6,4,25,33,21,24,0,0,0,7,0,0,1,0,0,1,0,39,1,6,19,0,0,0,1,0
+werkzeug,7bf8357498,2023-04-10,cbbf6e73,finish deprecating charset for cookies,3,3,30,19,30,19,0,0,0,3,0,0,0,0,0,0,0,47,0,0,28,0,0,0,0,0
+werkzeug,f931577561,2023-04-10,cbbf6e73,deprecate charset in routing,2,1,34,7,32,7,0,0,0,1,0,0,1,0,0,0,0,50,1,20,27,0,0,0,0,0
+werkzeug,c81896d994,2023-04-10,cbbf6e73,deprecate bytes in headers,4,2,93,87,93,58,0,0,0,7,0,0,0,0,3,3,0,21,0,0,74,0,0,1,0,0
+werkzeug,67776f7e65,2023-04-10,cbbf6e73,deprecate bytes where str is expected,13,9,19,86,13,50,0,0,0,11,0,0,0,1,0,1,0,94,2,4,13,0,0,0,0,0
+werkzeug,72e49272b8,2023-04-10,cbbf6e73,remove uses of _to_str and _to_bytes,9,6,69,53,66,47,0,0,0,9,0,0,1,2,0,0,0,71,4,13,54,0,0,0,1,0
+werkzeug,9c92a5f904,2023-04-10,cbbf6e73,"inline _encode_idna, _decode_idna takes str only",4,4,34,54,34,54,0,0,0,5,0,0,0,0,0,3,0,34,1,2,28,0,0,0,0,0
+werkzeug,082e0e5b9c,2023-04-10,99b63ffc,Correctly implement multipart parsing for empty fields,3,1,102,26,45,25,0,0,0,2,0,0,1,1,1,0,0,66,2,18,38,0,0,0,0,0
+werkzeug,fc4526b592,2023-04-10,cbbf6e73,update dependencies,7,1,25,43,1,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,1,0,0
+werkzeug,f78174827c,2023-04-03,cbbf6e73,refactor test client cookie implementation,4,1,306,133,286,131,0,0,0,6,1,1,2,1,7,7,0,94,4,91,238,0,0,0,0,1
+werkzeug,e31514ff85,2023-04-03,cbbf6e73,no path by default,3,1,22,19,4,1,0,0,0,1,0,0,0,0,0,0,0,96,1,3,3,0,0,0,0,0
+werkzeug,cf0102d644,2023-04-03,cbbf6e73,refactor parse_cookie and dump_cookie,8,5,199,218,180,199,0,1,1,5,0,1,2,0,1,7,0,96,3,69,140,0,0,0,0,1
+werkzeug,5d069e5f7e,2023-03-18,cbbf6e73,more windows special files,2,1,6,10,5,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+werkzeug,5ee439a692,2023-03-17,cbbf6e73,development server discards header keys with underscores,2,1,5,0,3,0,0,0,0,1,0,0,1,0,0,0,0,58,1,2,2,0,0,1,0,0
+werkzeug,4f7048e7a3,2023-03-14,cbbf6e73,check max_content_length consistently,10,6,324,364,267,305,0,0,0,16,0,0,0,0,2,10,0,31,0,0,217,0,0,0,0,0
+werkzeug,0bdf9bac15,2023-03-10,cbbf6e73,refactor Authorization and WWWAuthenticate,10,4,576,400,509,246,0,0,0,18,0,1,0,0,29,12,0,28,1,10,420,0,0,0,0,1
+werkzeug,dbdc962100,2023-03-09,cbbf6e73,refactor parse and dump header functions,3,1,218,80,208,74,0,0,0,7,0,0,0,0,0,1,0,39,1,2,148,0,0,1,0,1
+werkzeug,f716f21b20,2023-03-06,cbbf6e73,improve parse_accept_header,3,1,64,57,47,54,0,0,0,2,0,0,0,0,0,0,0,23,0,0,34,0,0,1,0,0
+werkzeug,92474c5aa8,2023-03-06,cbbf6e73,refactor parse_options_header,3,1,196,156,142,100,0,0,0,2,0,0,0,1,0,0,0,36,1,65,102,0,0,1,0,1
+werkzeug,351b73196c,2023-03-04,bb832832,"increase PBKDF2 default to 600,000 iterations",3,1,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,84649db488,2023-03-04,cbbf6e73,deprecate make_line_iter and make_chunk_iter,5,3,70,24,61,24,0,0,0,5,0,1,2,0,1,0,0,53,3,19,51,0,0,0,0,0
+werkzeug,22dcfe47a2,2023-03-03,cbbf6e73,unix socket path can start with dot,2,1,4,2,2,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+werkzeug,f01c6cd528,2023-03-03,99b63ffc,Allow the router to cope with nested groups,4,2,46,3,14,3,0,0,0,3,0,0,2,0,0,0,0,83,3,22,13,0,0,0,0,0
+werkzeug,45fb6d41dd,2023-03-03,1817e41c,watchdog ignore fil opened events,6,1,32,4,6,1,0,0,0,2,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+werkzeug,71590240c4,2023-03-03,cbbf6e73,fix mypy and issue link,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+werkzeug,c3b26d0810,2023-03-03,cbbf6e73,deprecate safe_conversion in iri_to_uri,5,3,24,46,22,37,0,0,0,3,0,0,1,1,0,0,0,57,2,15,18,0,0,0,0,0
+werkzeug,1c6ebef933,2023-03-02,cbbf6e73,fix mypy findings,4,4,17,17,17,17,1,0,0,9,0,0,0,0,0,0,0,50,1,1,16,0,0,0,0,0
+werkzeug,c5f4004e8f,2023-03-02,cbbf6e73,drop _urls module,5,5,50,59,50,59,0,0,0,0,0,0,0,0,3,3,0,0,0,0,36,0,0,1,0,0
+werkzeug,5e300733ed,2023-03-02,cbbf6e73,deprecate tuple/bytes to iri functions,2,1,71,33,46,12,0,0,0,11,0,0,1,0,0,0,0,50,3,20,43,0,0,0,0,0
+werkzeug,1f353180ec,2023-03-02,cbbf6e73,remove unused private function,1,1,0,13,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,19d55c1e01,2023-03-02,cbbf6e73,deprecate werkzeug.urls,3,2,176,27,174,27,0,0,0,16,0,0,7,0,1,0,0,94,9,61,150,0,0,0,0,0
+werkzeug,aa2a0c5418,2023-03-02,cbbf6e73,link to reference for each use of safe chars during quote,11,8,62,52,51,49,0,0,0,11,0,0,2,0,0,1,0,112,5,18,39,0,0,0,0,0
+werkzeug,22a83b7f07,2023-03-02,cbbf6e73,refactor uri_to_iri and iri_to_uri,4,2,125,36,119,31,0,0,0,3,1,0,0,0,2,0,0,35,1,24,90,0,0,0,0,1
+werkzeug,2554f4739e,2023-03-02,cbbf6e73,replace uses of url_join with urllib.parse.urljoin,2,2,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,71,2,2,4,0,0,0,0,0
+werkzeug,6613fb9a6c,2023-03-02,cbbf6e73,replace uses of url_encode with urllib.parse.urlencode,5,4,28,17,26,15,0,0,0,5,0,0,0,0,1,0,0,63,1,1,21,0,0,0,0,0
+werkzeug,47cf613252,2023-03-02,cbbf6e73,replace uses of url_decode with urllib.parse.parse_qsl,2,2,51,8,51,8,0,0,0,2,0,0,0,0,1,0,0,16,0,0,43,0,0,0,0,0
+werkzeug,163d0f45a5,2023-03-02,cbbf6e73,replace uses of url_unquote with urllib.parse.unquote,2,2,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,63,2,2,4,0,0,0,0,0
+werkzeug,53782a0a97,2023-03-02,cbbf6e73,replace uses of url_quote with urllib.parse.quote,8,7,34,17,32,15,0,0,0,7,0,0,0,0,1,0,0,112,4,4,26,0,0,0,0,0
+werkzeug,a6bae8f442,2023-03-02,cbbf6e73,replace uses of url_parse with urllib.parse.urlsplit,6,3,19,18,12,11,0,0,0,6,0,0,0,0,0,0,0,94,2,2,11,0,0,0,1,0
+werkzeug,550fa11500,2023-02-17,cbbf6e73,remove previously deprecated code,11,9,34,332,33,320,0,0,0,7,0,0,0,0,0,6,0,39,5,10,31,0,0,0,1,0
+werkzeug,1d8a21f1c8,2023-02-17,cbbf6e73,update dependencies,6,1,36,36,1,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,1,0,0
+werkzeug,51b8402ec4,2023-02-17,cbbf6e73,reloader uses sys.orig_argv,3,1,9,0,5,0,0,0,0,1,0,0,1,0,0,0,0,34,1,2,2,0,0,0,0,0
+werkzeug,22a254fca2,2023-02-14,cbbf6e73,release version 2.2.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,09449ee779,2023-02-14,cbbf6e73,clean up docs,4,3,13,16,9,12,0,0,0,3,0,0,1,0,0,0,0,55,2,3,6,0,0,0,0,1
+werkzeug,fe899d0cdf,2023-02-14,99b63ffc,limit the maximum number of multipart form parts,5,3,43,1,30,1,0,0,0,7,0,0,4,0,0,0,0,74,4,10,20,0,0,0,0,0
+werkzeug,8c2b4b82d0,2023-02-14,cbbf6e73,don't strip leading = when parsing cookie,4,2,14,9,9,8,0,0,0,2,0,0,0,0,0,0,0,14,0,0,7,0,0,0,0,0
+werkzeug,cfebee06d2,2023-02-13,99b63ffc,Refactor the datastructures code structure,20,11,4141,3962,3122,3041,0,0,0,0,5,5,0,0,311,310,0,0,0,0,2433,0,0,0,0,1
+werkzeug,35d96367ec,2023-02-13,99b63ffc,Microbenchmark improvement to the clean_status,1,1,15,14,15,14,0,0,0,1,0,0,0,0,0,0,0,19,0,0,13,0,0,0,0,0
+werkzeug,19ae03e6a3,2023-02-07,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+werkzeug,c5ab22217d,2023-02-06,cbbf6e73,default part_isolating=False if regex has /,4,2,32,13,16,13,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+werkzeug,591b1150ce,2023-02-06,cbbf6e73,refactor LimitedStream.exhaust,3,1,77,60,51,30,0,0,0,2,0,0,0,0,1,1,0,17,0,0,31,0,0,0,0,1
+werkzeug,971a9649a4,2023-02-05,9ec48dcf,fix LimitedStream.read method to work with raw IO streams,1,1,21,2,21,2,1,0,0,1,0,0,0,0,1,0,0,16,0,0,19,0,0,0,0,0
+werkzeug,a80dc5e939,2023-02-05,99b63ffc,Fix strict slash redirects for final RuleParts,4,2,55,4,36,4,1,0,0,4,0,0,2,0,0,0,0,80,3,32,32,0,0,0,0,0
+werkzeug,8bc1b0a738,2023-02-02,cbbf6e73,render send_from_directory docs,2,1,7,4,5,4,0,0,0,2,0,0,0,0,0,0,0,112,1,1,5,0,0,0,0,0
+werkzeug,132eaef167,2023-01-17,cbbf6e73,switch to pyproject.toml,6,1,123,141,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+werkzeug,4a293aa586,2023-01-09,cbbf6e73,fix changelog for json 415 error change,1,1,14,5,14,5,0,0,0,3,0,0,0,0,0,0,0,28,1,5,11,0,0,0,0,0
+werkzeug,97547cc682,2023-01-09,8e6af825,Adjust extended parameter handling in headers,4,1,19,0,13,0,0,0,0,2,0,0,0,0,1,0,0,18,0,0,11,0,0,1,0,0
+werkzeug,f2b92c3397,2023-01-08,07b66743,updating pre-existing headers in multipart/form-data for pytest envir… (#2554),2,1,4,2,2,1,0,0,0,1,0,0,1,0,0,0,0,56,1,2,2,0,0,1,0,0
+werkzeug,2db62e4413,2023-01-05,cbbf6e73,update dependencies,17,10,68,58,13,15,0,0,0,14,0,0,0,0,0,0,0,94,3,4,13,0,0,1,0,0
+werkzeug,eef696b15c,2022-12-19,45321077,Specify HTTP error on wrong Content-Type,3,1,13,8,8,7,0,0,0,3,0,0,0,0,0,0,0,28,1,3,8,0,0,0,0,0
+werkzeug,af15163e10,2022-10-13,0c6bc307,replace os.path.sep with os.sep,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+werkzeug,ee5f5cd422,2022-10-13,4b615d4a,fix unclosed socket ResourceWarning,2,1,42,67,40,67,1,0,0,2,0,0,2,0,0,1,0,70,2,31,32,0,0,0,0,0
+werkzeug,a2f2fec9e0,2022-10-12,bb4a7c72,http: check length validity before calling ds.ContentRange,3,1,8,0,3,0,0,0,0,1,0,0,1,0,0,0,0,35,1,2,2,0,0,0,0,0
+werkzeug,5a856dad84,2022-10-12,554b2d5a,get_json silent=False return type isn't optional,3,2,23,0,20,0,0,0,0,2,1,1,0,0,4,0,0,4,1,4,16,0,0,0,0,0
+werkzeug,6acfd713cb,2022-10-12,cbbf6e73,start version 2.2.3,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,8871d7c999,2022-10-12,cbbf6e73,update dev dependencies,9,4,34,42,4,6,0,0,0,4,0,0,0,1,0,0,0,56,1,1,4,0,0,1,0,0
+werkzeug,87b082a023,2022-08-08,cbbf6e73,release version 2.2.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,b484e5497d,2022-08-08,cbbf6e73,handle unclosed socket resource warning,2,1,5,0,3,0,0,0,0,1,0,0,1,0,0,0,0,58,1,1,1,0,0,0,0,0
+werkzeug,82d3fba4e7,2022-08-08,cbbf6e73,LocalProxy.__wrapped__ is always set when unbound,3,1,21,13,9,3,0,0,0,1,0,0,0,0,0,0,0,27,1,1,8,0,0,0,0,0
+werkzeug,09a30668d9,2022-08-08,cbbf6e73,always show dev server warning,2,1,43,37,41,37,0,0,0,4,0,0,1,0,0,0,0,57,1,1,36,0,0,0,0,0
+werkzeug,6f8c3dce84,2022-08-08,cbbf6e73,try int() instead of str.isdigit,7,6,54,35,53,35,0,0,0,9,0,0,2,0,0,0,0,50,4,12,40,0,0,0,0,0
+werkzeug,dc78955c46,2022-08-06,e394de97,Add explicit re-export for werkzeug.routing,1,1,26,26,26,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0
+werkzeug,8e084470a0,2022-08-05,99b63ffc,Bugfix rewrite the rule parsing,3,1,113,48,66,48,1,0,0,2,0,0,1,0,0,0,0,62,1,41,63,0,0,0,0,0
+werkzeug,e5a4321681,2022-08-03,99b63ffc,Restore the 2.1 strict_slashes == False routing behaviour,3,1,31,5,6,5,0,0,0,2,0,0,1,0,0,0,0,49,2,12,6,0,0,0,0,0
+werkzeug,410c87843f,2022-07-27,99b63ffc,release version 2.2.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,56a24f760a,2022-07-27,99b63ffc,Bugfix the calculation of weighting based on static parts,3,1,20,2,6,2,1,0,0,1,0,0,1,0,0,0,0,56,1,3,3,0,0,0,0,0
+werkzeug,b59eb67b65,2022-07-26,99b63ffc,Switch $\Z to \Z in matching regex,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,55,1,1,1,0,0,0,0,0
+werkzeug,3a408edffd,2022-07-26,99b63ffc,Bugfix ensure that the entire part is matched,3,1,18,1,1,1,1,0,0,1,0,0,0,0,0,0,0,55,1,1,1,0,0,0,0,0
+werkzeug,364d9c2a90,2022-07-25,99b63ffc,Restore ValidationError as part of the werkzeug.routing API,2,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,fa76cbe1de,2022-07-25,99b63ffc,Ensure that rules without strict slashes match paths with slashes,3,1,21,0,16,0,0,0,0,2,0,0,1,0,0,0,0,48,2,20,10,0,0,0,0,0
+werkzeug,6a044155bc,2022-07-23,99b63ffc,start version 2.2.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,1308ffc948,2022-07-23,99b63ffc,start version 2.3.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,4c7d9908d1,2022-07-23,99b63ffc,release version 2.2.0,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,7e626b811e,2022-07-23,99b63ffc,Remove deprecated multiple option,3,1,3,37,2,17,0,0,0,1,0,0,0,1,0,0,0,39,1,2,2,0,0,0,1,0
+werkzeug,14f31db12b,2022-07-23,99b63ffc,Deprecate wsgi functions,5,2,106,210,102,116,0,0,0,5,0,0,0,0,1,3,0,34,0,0,76,0,0,0,0,0
+werkzeug,c074f910ff,2022-07-23,99b63ffc,Cleanup b42d1a4b57b8aba5c38fb8a030848db71004e2c5 and 81d2ed03ecf27d640b3a6fe84c736a3639544874,4,3,13,79,9,75,0,0,0,7,0,0,0,0,0,1,0,42,1,1,9,0,0,0,0,1
+werkzeug,b00ecce047,2022-07-23,99b63ffc,Don't set a default mimetype for Test Responses,4,2,22,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+werkzeug,dfdc7c602f,2022-07-22,99b63ffc,Ignore false positive B023 errors,1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,83,1,4,4,0,0,0,0,0
+werkzeug,81d2ed03ec,2022-07-22,abd39004,extractring utils functions to sansio,3,2,200,73,197,72,0,0,0,5,0,0,0,0,5,1,0,18,0,0,149,0,0,0,1,0
+werkzeug,b42d1a4b57,2022-07-22,abd39004,extractring http functions to sansio,4,3,179,75,177,75,0,0,0,2,1,1,0,0,3,1,0,18,1,11,134,0,0,0,1,0
+werkzeug,dbf78f674d,2022-07-14,87346ef3,enhanced error location in debugger traceback,2,1,28,10,26,10,0,0,0,3,0,0,1,0,0,0,0,65,1,11,22,0,1,0,0,0
+werkzeug,84e5ad7b18,2022-07-08,cbbf6e73,prerelease version 2.2.0a1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,04e89bd738,2022-07-04,cbbf6e73,use markupsafe for escaping values,12,7,47,30,20,13,0,0,0,4,0,0,0,0,0,0,0,47,0,0,14,0,0,0,0,0
+werkzeug,62fac4bbb6,2022-07-04,65b8404e,AnyConverter validates the value to build,3,1,26,0,11,0,0,0,0,3,0,0,0,0,1,0,0,5,0,0,8,0,0,0,0,0
+werkzeug,e9e11e1b33,2022-07-04,99b63ffc,Lowercase the parsed options names,3,1,11,2,4,1,0,0,0,1,0,0,0,0,0,0,0,51,1,3,3,0,0,0,0,0
+werkzeug,4ecdc1b7fe,2022-07-02,cbbf6e73,add RoutingException export,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,60adf60800,2022-07-03,a8b1f4ab,Add missing routing imports,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+werkzeug,1babf75f49,2022-07-02,99b63ffc,Remove the TableMatcher,4,3,1,119,0,113,0,0,0,0,0,1,0,0,0,6,0,0,0,0,0,0,0,0,1,0
+werkzeug,5a7c0dec02,2022-07-02,99b63ffc,Add a State Machine Matcher for the routing,8,5,400,170,348,168,0,0,0,9,4,1,1,1,11,4,0,49,3,76,272,0,0,0,0,0
+werkzeug,c741436a06,2022-07-02,99b63ffc,Move the matching to a matcher,4,4,172,142,172,142,0,0,0,8,1,1,2,1,7,2,0,71,3,30,138,0,0,0,1,0
+werkzeug,88125beebc,2022-07-02,99b63ffc,Refactor the routing code into multiple files,7,6,2410,2352,2392,2336,0,0,0,0,14,14,0,0,84,84,0,0,0,0,1925,0,0,0,0,1
+werkzeug,4f2d7711d4,2022-07-02,b1b16e08,Set AST node fallback end_lineno & end_col_offset as well,2,1,6,0,4,0,0,0,0,1,0,0,1,0,0,0,0,61,1,4,4,0,0,0,0,0
+werkzeug,f1b93f8030,2022-07-01,99b63ffc,Record the search position in the multipart parser,1,1,21,2,21,2,0,0,0,2,0,0,1,0,0,0,0,71,1,10,12,0,0,0,0,0
+werkzeug,1503e2a2fc,2022-06-30,3a4d016e,debugger: check both the path and realpath in is_library,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+werkzeug,9261ee5a31,2022-06-30,cbbf6e73,add mechanism for restoring context-local data in the debug console,2,1,32,5,29,4,0,0,0,3,0,0,1,0,0,0,0,35,1,1,24,0,0,0,0,0
+werkzeug,9741ea9930,2022-06-24,cbbf6e73,"refactor LocalProxy, LocalStack, and Local",4,2,392,229,280,165,0,0,0,25,1,0,0,0,5,2,0,27,1,36,216,0,0,0,0,1
+werkzeug,435623010b,2022-04-28,cbbf6e73,release version 2.1.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,e1bb24dbbe,2022-04-28,cbbf6e73,ignore new mypy finding,2,2,2,1,2,1,0,0,0,2,0,0,1,0,0,0,0,55,1,1,2,0,0,0,0,0
+werkzeug,600a2b9bf5,2022-04-25,cbbf6e73,disable keep-alive connections,2,1,19,11,16,11,0,0,0,2,0,0,1,0,0,0,0,39,1,11,11,0,0,0,0,0
+werkzeug,dfe26841b3,2022-04-25,cbbf6e73,set cache_control with none type,3,1,8,1,4,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+werkzeug,1094fbfc64,2022-04-24,94cf7c7c,use <!doctype html> and lang=en consistently,16,5,66,26,13,10,0,0,0,4,0,0,0,0,0,0,0,23,0,0,12,0,0,0,0,0
+werkzeug,da6dafb39c,2022-04-24,09d367fd,Broaden allowed return type of write callable,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+werkzeug,fd4556941d,2022-04-04,cbbf6e73,fix flake8-bugbear finding,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+werkzeug,2dd52d9e10,2022-04-04,cbbf6e73,"don't set transfer-encoding: chunked for 1xx, 204, 304, HEAD",2,1,15,1,12,1,0,0,0,2,1,0,0,0,0,0,0,38,1,6,6,0,0,0,0,0
+werkzeug,f5d0d531be,2022-04-04,cbbf6e73,start version 2.1.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,7df72f9143,2022-04-01,cbbf6e73,fix latest mypy findings,3,2,18,11,3,5,1,0,0,2,0,0,0,0,0,0,0,31,0,0,3,0,0,0,0,0
+werkzeug,ae7ca14c97,2022-04-01,cbbf6e73,release version 2.1.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,74948bc7c4,2022-04-01,29938b13,s_maxage converts to an int,3,1,10,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+werkzeug,2b05281c5c,2022-04-01,cbbf6e73,start version 2.1.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,eea02fb839,2022-03-28,cbbf6e73,start version 2.2.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,67b108cdf7,2022-03-28,cbbf6e73,release version 2.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,2ffa7c1de0,2022-03-25,cbbf6e73,deprecate parse_options_header multiple parameter,3,1,47,44,24,28,0,0,0,1,1,1,0,0,0,2,0,51,1,20,20,0,0,1,0,0
+werkzeug,ce1d8449d0,2022-03-18,b5d229ba,[style]: fix various typos in docstrings and comments,7,3,8,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,bf4ede2753,2022-03-17,cbbf6e73,400 error on bad json content type,3,1,42,14,32,11,0,0,0,3,1,0,0,0,0,0,0,28,1,12,26,0,0,0,0,0
+werkzeug,b7616b2e4f,2022-03-17,cbbf6e73,disable autocorrect_location_header,5,1,32,12,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+werkzeug,00401f7ea5,2022-03-17,cbbf6e73,close stream only after final redirect,2,1,8,5,6,5,0,0,0,1,0,0,1,0,0,0,0,53,1,4,4,0,0,0,0,0
+werkzeug,5275172176,2022-03-17,cbbf6e73,use 308 for append_slash_redirect,3,1,9,2,5,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+werkzeug,db55e8a82f,2022-03-16,cbbf6e73,clean up append_slash_redirect,1,1,24,7,24,7,0,0,0,1,0,0,0,0,0,0,0,10,0,0,17,0,0,0,0,1
+werkzeug,ad4a2d977e,2022-03-16,9284f77b,fix append_slash_redirect when PATH_INFO has internal slashes,3,1,21,4,2,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+werkzeug,aaa29526b1,2022-03-16,3ecb4940,test client doesn't set HTTP_CONTENT_TYPE and HTTP_CONTENT_LENGTH headers,3,1,12,2,7,2,0,0,0,1,0,0,0,0,0,0,0,63,1,2,5,0,0,1,0,0
+werkzeug,d761d0e7ac,2022-03-16,cbbf6e73,routing match includes newline,3,1,19,1,8,1,0,0,0,1,0,0,0,0,0,0,0,33,0,0,5,0,0,1,0,0
+werkzeug,7f0c0595bf,2022-03-15,cbbf6e73,"safe_join keeps directory="""" as relative path",3,1,11,0,5,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+werkzeug,10df677b9c,2022-02-10,cbbf6e73,add `TestResponse.text` property,3,1,48,36,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+werkzeug,e8294d32a7,2022-02-07,cbbf6e73,release version 2.0.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,4a8f76c289,2022-02-07,cbbf6e73,fix debugger html,2,2,4,8,4,8,1,0,0,1,0,0,0,0,0,0,0,31,0,0,4,0,0,0,0,0
+werkzeug,79c6c952bf,2022-02-07,cbbf6e73,update pre-commit,5,3,16,12,8,8,0,0,0,1,0,0,0,0,0,0,0,20,0,0,8,0,0,0,0,0
+werkzeug,70a61859d2,2022-02-07,cbbf6e73,debugger uses traceback module,6,4,285,524,279,451,0,0,0,11,1,2,0,1,11,26,0,32,1,1,232,0,1,1,0,0
+werkzeug,87d5dd167d,2022-02-07,cbbf6e73,cached_property for __slots__,2,1,28,5,26,5,0,0,0,4,0,0,0,0,0,0,0,15,0,0,23,0,0,0,0,0
+werkzeug,9c87ba9046,2022-01-29,cbbf6e73,remove flask reloader hack,1,1,11,17,11,17,0,0,1,1,0,0,0,1,0,0,0,32,1,7,7,0,0,0,1,0
+werkzeug,4795b9a7ce,2022-01-28,cbbf6e73,enable HTTP/1.1 when server has multiple workers,4,1,13,11,8,0,0,0,0,1,0,0,1,0,0,0,0,52,1,4,4,0,0,0,0,0
+werkzeug,d062807b64,2022-01-28,cbbf6e73,use base server code more,1,1,11,32,11,32,0,0,0,4,0,1,0,0,1,3,0,33,1,1,6,0,0,0,0,0
+werkzeug,a0e51e367e,2022-01-28,cbbf6e73,update debugger responses,1,1,23,22,23,22,0,0,0,2,0,0,0,0,0,0,0,34,0,0,20,0,0,0,0,0
+werkzeug,50509cf11d,2022-01-28,c596f72d,use chunked encodding for streaming responses with HTTP/1.1,5,1,86,7,27,6,0,0,0,3,1,0,0,0,0,0,0,43,1,15,21,0,0,0,0,0
+werkzeug,9d2bcd9222,2022-01-26,cbbf6e73,optimize stat reloader,3,1,46,21,41,19,0,0,0,4,0,0,0,0,0,0,0,29,0,0,28,0,0,0,0,0
+werkzeug,babfc93b38,2022-01-26,94e68873,Extend default set of always safe characters in url_quote,3,1,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,087372ec34,2022-01-25,29938b13,tell pytest to skip collecting TestResponse,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,f096577916,2022-01-25,cbbf6e73,make log_startup a server method,1,1,41,42,41,42,0,0,0,3,0,0,1,1,0,0,0,56,2,6,35,0,0,0,0,0
+werkzeug,74601150b5,2022-01-25,cbbf6e73,run_simple always prepares socket early,1,1,83,41,83,41,0,0,0,1,0,0,1,0,1,1,0,55,1,25,65,0,0,0,0,0
+werkzeug,41045dd623,2022-01-25,cbbf6e73,bind socket manually during server init,1,1,32,18,32,18,0,0,0,1,0,0,1,0,0,0,0,50,1,25,25,0,0,0,0,0
+werkzeug,feb7af3c15,2022-01-25,cbbf6e73,rewrite server object docs,1,1,35,17,35,17,0,0,0,3,0,0,0,2,0,0,0,31,2,13,26,0,0,0,0,0
+werkzeug,9288d2a464,2022-01-24,cbbf6e73,extract log_startup from run_simple,1,1,41,32,41,32,0,0,0,2,0,0,0,1,1,1,0,48,1,5,35,0,0,0,1,0
+werkzeug,88392eb410,2022-01-24,cbbf6e73,debugger is applied after static middleware,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,49,1,3,3,0,0,0,0,0
+werkzeug,f4b011304f,2022-01-24,cbbf6e73,rewrite run_simple docs,2,1,74,68,74,66,0,0,0,1,0,0,0,0,0,0,0,49,1,72,72,0,0,0,0,0
+werkzeug,0ede566f1d,2022-01-20,cbbf6e73,test client request_uri stays in sync with path,3,1,21,1,3,1,0,0,0,1,0,0,0,0,0,0,0,37,0,0,3,0,0,0,0,0
+werkzeug,c6e0548774,2022-01-19,1e86b8b6,Change `try/except` to `if sys.platform` in `debug`,1,1,3,5,3,5,0,0,0,2,0,0,0,1,0,0,0,46,1,2,2,0,0,0,0,0
+werkzeug,206d24a6de,2021-12-25,cbbf6e73,don't filter or collapse lists when building urls,3,1,109,62,10,26,0,0,0,1,0,0,0,1,0,0,0,41,1,8,10,0,0,0,0,0
+werkzeug,8431de6b28,2021-12-24,29938b13,MapAdapter.build only picks first list value for MultiDict,2,1,5,1,2,1,0,0,0,1,0,0,1,0,0,0,0,49,1,2,2,0,0,0,0,0
+werkzeug,eb73beb4c4,2021-12-23,cbbf6e73,fix proxy fallback for __class__ and __doc__ attrs,3,1,36,12,22,8,1,0,0,2,0,0,0,0,0,0,0,18,0,0,18,0,0,0,0,0
+werkzeug,a2b95a7fe0,2021-12-23,cbbf6e73,fix type for user_agent_class,2,1,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,5100c9b626,2021-12-23,8c97c361,fix typing for request_or_environ parameters,4,3,18,11,14,11,1,0,0,5,0,0,0,0,0,0,0,50,1,8,14,0,0,0,0,0
+werkzeug,131ebd1f41,2021-12-22,cbbf6e73,fix new mypy findings,15,13,38,25,34,22,1,0,0,20,0,0,2,0,0,0,0,60,2,6,28,0,0,0,0,0
+werkzeug,5e890bccd3,2021-12-15,cbbf6e73,run pre-commit on all files,2,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+werkzeug,18872bf580,2021-11-16,1543732b,ProxyFix supports IPv6,3,1,26,7,7,7,0,0,0,1,1,0,0,0,0,0,0,46,1,5,5,0,0,0,0,0
+werkzeug,3afa6ce761,2021-11-16,cbbf6e73,always use socket.fromfd,2,1,5,22,3,22,0,0,0,1,0,0,0,1,0,0,0,49,1,3,3,0,0,0,0,0
+werkzeug,7ad76a7ea6,2021-11-16,cbbf6e73,remove filesystem module,8,4,19,108,16,77,0,0,0,3,0,0,1,0,0,2,0,27,1,6,10,0,0,1,1,0
+werkzeug,ff943116c6,2021-11-07,cbbf6e73,more ssl error message,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+werkzeug,afab0afca4,2021-11-07,cbbf6e73,clearer error message when ssl is not available,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+werkzeug,8eb6d0db5b,2021-11-07,cbbf6e73,remove contextvars compat,3,1,17,64,2,64,0,0,0,6,0,0,0,0,0,5,0,16,0,0,2,0,0,0,1,0
+werkzeug,ce09ed71c9,2021-11-07,cbbf6e73,remove python 3.6 compat for shared data,1,1,26,61,26,61,0,0,0,2,0,0,0,0,0,1,0,28,0,0,26,0,0,0,1,0
+werkzeug,97e5c11ba6,2021-11-07,cbbf6e73,drop Python 3.6,8,1,10,60,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+werkzeug,22d1e9ac13,2021-11-05,cbbf6e73,remove deprecated escape and unescape,3,1,1,57,0,49,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,1,0
+werkzeug,70fc80133f,2021-11-05,cbbf6e73,remove deprecated format_string,2,1,1,26,0,26,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,d13625aaa3,2021-11-05,cbbf6e73,remove deprecated detect_utf_encoding,2,1,1,58,0,58,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,ee63ecb011,2021-11-05,cbbf6e73,remove deprecated bind_arguments and validate_arguments,4,2,2,216,0,212,0,0,0,1,0,0,0,0,0,5,0,28,0,0,0,0,0,0,1,0
+werkzeug,a28aaa67e3,2021-11-05,cbbf6e73,remove deprecated HTMLBuilder class,3,1,1,140,0,138,0,0,0,2,0,1,0,0,0,5,0,28,0,0,0,0,0,0,1,0
+werkzeug,2289ea0076,2021-11-05,cbbf6e73,remove deprecated invalidate_cached_property,4,2,3,181,0,179,0,0,0,4,0,1,0,4,0,4,0,20,4,0,0,0,0,0,1,0
+werkzeug,7fff62feaa,2021-11-05,cbbf6e73,remove deprecated pbkdf2 security functions,3,1,3,120,0,112,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,1,0
+werkzeug,9dee4cdeef,2021-11-05,cbbf6e73,remove deprecated thread-local code from locals,3,1,5,99,1,98,0,0,0,1,0,0,0,0,0,9,0,9,0,0,1,0,1,0,1,0
+werkzeug,a0e15e6c43,2021-11-05,cbbf6e73,remove deprecated run_with_reloader internal function,1,1,0,21,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,1e504e27e4,2021-11-05,cbbf6e73,remove deprecated werkzeug.serving cli,2,1,1,51,0,51,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,047762d1f4,2021-11-05,cbbf6e73,remove deprecated dev server shutdown function,3,1,3,44,0,23,0,0,0,4,0,0,0,2,0,2,0,56,2,0,0,0,0,0,1,0
+werkzeug,8c82bf4d5b,2021-11-05,cbbf6e73,remove deprecated cookie_date function,3,1,1,20,0,18,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,3ae3abb025,2021-11-05,cbbf6e73,remove deprecated parse_multipart_headers,1,1,0,40,0,40,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+werkzeug,8665e2f0d2,2021-11-05,cbbf6e73,remove deprecated HTTPException.wrap method,2,1,4,66,3,66,0,0,0,0,0,0,0,0,0,4,0,0,0,0,2,0,0,0,1,0
+werkzeug,7d2784f139,2021-11-05,cbbf6e73,remove deprecated test response tuple behavior,3,1,18,50,15,38,0,0,0,1,0,0,0,1,0,2,0,51,1,2,11,0,0,0,1,0
+werkzeug,c5677d0ed0,2021-11-05,cbbf6e73,remove deprecated Response.freeze no_etag parameter,3,1,5,15,4,10,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,1,0
+werkzeug,c364c52be3,2021-11-05,cbbf6e73,remove deprecated Request.disable_data_descriptor,2,1,5,22,3,22,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,1,0
+werkzeug,28fa9cc826,2021-11-05,cbbf6e73,remove deprecated user agent parser,6,2,7,521,1,217,0,0,0,0,0,0,0,0,0,11,0,0,0,0,1,0,0,0,1,0
+werkzeug,a4608ed698,2021-11-05,cbbf6e73,remove deprecated cache_property name,2,1,1,12,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+werkzeug,7d3933e188,2021-11-05,cbbf6e73,remove deprecated has_key method,2,1,2,28,0,28,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+werkzeug,7b52ecd8f3,2021-11-05,cbbf6e73,remove deprecated request/response mixins,14,12,8,356,3,293,0,0,0,0,0,0,0,0,0,20,0,0,0,0,3,0,0,0,1,0
+werkzeug,f1761b2f5d,2021-10-05,cbbf6e73,release version 2.0.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,a026095816,2021-10-05,f3719c2d,handle an exception without a traceback,3,1,18,0,5,0,0,0,0,1,0,0,1,0,0,0,0,27,1,2,2,0,1,0,0,0
+werkzeug,9ee2b8cc62,2021-10-05,99b63ffc,fix setting CSP header options,3,1,81,17,66,17,1,0,0,0,0,0,0,0,6,0,0,0,0,0,57,0,0,1,0,0
+werkzeug,9c79d7b7ad,2021-10-05,cbbf6e73,setting CacheControl int property enforces type,3,1,19,1,13,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+werkzeug,08a0ea5515,2021-10-04,cbbf6e73,use exception chaining,7,5,40,25,37,22,0,0,0,16,0,0,0,0,0,0,0,83,2,4,27,0,0,0,0,0
+werkzeug,366b2d97eb,2021-09-23,29938b13,Fix type-hint in `CallbackDict`,4,2,6,3,2,2,1,0,0,4,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+werkzeug,60e83271dc,2021-09-22,68792bf7,fix typo and grammar mistake,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+werkzeug,c46a01aec0,2021-08-19,e5804760,Spelling fix: changed 'y' to 'by',1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,51e41c2c41,2021-08-08,99b63ffc,Fix memory usage with the non-stdlib ContextVar,2,1,13,1,11,1,1,0,0,2,0,0,0,0,2,0,0,2,0,0,5,0,0,0,0,0
+werkzeug,e65eed8c10,2021-08-06,9f025a5f,Use provided `cn` for subjAltName,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,0,0,1,0,0,0,0,0
+werkzeug,517aa6909d,2021-08-06,cbbf6e73,run pyupgrade,3,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+werkzeug,770ac299b8,2021-08-06,cbbf6e73,use IO[bytes] instead of BinaryIO for wider compatibility,13,11,61,56,53,51,0,0,0,34,1,0,1,0,0,0,0,112,8,17,53,0,0,0,0,0
+werkzeug,f663609dd6,2021-08-06,cbbf6e73,debugger cookie uses SameSite=Strict,2,1,4,1,1,1,0,0,0,1,0,0,0,0,0,0,0,35,0,0,1,0,0,0,0,0
+werkzeug,3b6449781d,2021-08-06,6ea392af,fix type annotations of RuleFactory classes,2,1,9,4,6,4,1,0,0,4,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+werkzeug,24665353db,2021-08-06,63809081,send_file only sets content-encoding if as_attachment is False,3,1,16,4,7,1,0,0,0,1,0,0,1,0,0,0,0,112,1,4,4,0,0,0,0,0
+werkzeug,a2063c1680,2021-08-06,689a35b9,use Headers.extend to add defaults as opposed to List.extend,3,1,25,9,7,7,0,0,0,1,0,0,0,0,0,0,0,4,0,0,6,0,0,1,0,0
+werkzeug,e8d8db5f4e,2021-08-05,689a35b9,CombinedMultiDict.to_dict flat=False collects values from all dicts,3,1,12,6,4,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+werkzeug,bf958a50cb,2021-08-05,689a35b9,prevent double encoding of merge_slash redirect url,3,1,29,3,5,1,0,0,0,1,0,0,0,0,0,0,0,43,1,1,2,0,0,0,0,0
+werkzeug,bcb39cb083,2021-08-02,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+werkzeug,af5e92060b,2021-07-24,dd4774b9,updating a couple of comments so they are gender neurtal.,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+werkzeug,c5dc54519c,2021-06-02,cb33b728,Remove the useless import in response,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+werkzeug,a27b759a79,2021-06-02,eec2cc75,"is_json is a property, not a method",2,2,4,4,4,4,0,0,0,4,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,0
+werkzeug,5098a0691b,2021-06-01,95b7cee5,debugger: set appropriate secure flag on cookie,2,1,2,0,1,0,0,0,0,1,0,0,0,0,0,0,0,35,0,0,1,1,0,0,0,0
+werkzeug,c69a22a576,2021-05-18,5ed4f7dc,handle multiple tokens in Connection header,3,1,19,4,5,4,0,0,0,1,0,0,1,0,0,0,0,50,1,5,5,0,0,1,0,0
+werkzeug,c4d0884f43,2021-05-18,cbbf6e73,start version 2.0.2.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,c09fe3fa45,2021-05-17,cbbf6e73,release version 2.0.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,67ef7411a0,2021-05-17,cbbf6e73,convert `HTTPException.description` to string,3,1,14,1,8,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+werkzeug,ca830cafd0,2021-05-17,cbbf6e73,use _typeshed.wsgi instead of wsgiref.types,22,21,49,49,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0
+werkzeug,625aaba621,2021-05-16,c4cf7db4,Enhance type of headers.get method.,3,1,4,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,1,0,0
+werkzeug,3f8a95fb27,2021-05-14,99b63ffc,Fix multipart parsing bug,3,1,8,6,2,2,1,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+werkzeug,a7ee5b10bb,2021-05-13,57407b9a,Fix potential None access,1,1,5,1,5,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,5,0,0,0,0,0
+werkzeug,d7bb846422,2021-05-13,57407b9a,Make @cached_property generic over the return type,5,4,16,12,14,12,0,0,0,9,0,0,0,0,0,0,0,31,1,1,13,0,0,0,0,0
+werkzeug,7c79d763e3,2021-05-13,cbbf6e73,fix typing that wasn't available in Python 3.6.0,3,2,7,4,6,4,1,0,0,3,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+werkzeug,6ea5c55da4,2021-05-13,cbbf6e73,mark top-level names as exported,4,2,8,9,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+werkzeug,07ed4afba3,2021-05-13,cbbf6e73,fix max_age typing,2,1,13,11,10,11,1,0,0,1,0,0,0,0,0,0,0,112,1,10,10,0,0,0,0,0
+werkzeug,c0be480cf2,2021-05-11,cbbf6e73,start version 2.1.0.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,d554d28971,2021-05-11,cbbf6e73,start version 2.0.1.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,c987e02763,2021-05-11,cbbf6e73,release version 2.0.0,2,1,2,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,2dfb6dc62a,2021-05-10,cbbf6e73,enable more mypy checks,36,34,533,361,472,316,0,0,0,248,0,0,3,0,2,0,0,112,22,57,443,0,0,0,0,0
+werkzeug,d2625f545f,2021-05-07,fddb964e,Fixed typo in security.py documentation,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,1,0,0,0,0
+werkzeug,e5cb711179,2021-05-05,cbbf6e73,fix iterating over multidict keys,1,1,4,2,4,2,1,0,0,4,0,0,0,0,2,0,0,12,0,0,4,0,0,0,0,0
+werkzeug,092ff47d6d,2021-05-03,99b63ffc,Fix LocalStack mutable list issue,2,1,19,3,2,3,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+werkzeug,7d8e0f4115,2021-05-03,cbbf6e73,release version 2.0.0rc5,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,aebb04478a,2021-04-24,c7c80f9f,Do not deprecate access to unparsed user_agent,2,1,25,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,33830cbd44,2021-04-17,89f3c0e3,Set daemon attribute instead of using setDaemon method that was deprecated in Python 3.10,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+werkzeug,99a235bbc0,2021-04-16,cbbf6e73,release version 2.0.0rc4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,a397cb29d9,2021-04-15,cbbf6e73,deprecated HTTPException.wrap,2,1,47,5,45,4,0,0,0,6,0,0,0,0,3,0,0,21,0,0,33,0,0,0,0,0
+werkzeug,e28eb930e1,2021-04-15,cbbf6e73,deprecate url_decode_stream return_iterator,2,1,7,20,7,7,0,0,0,1,0,0,1,0,0,0,0,31,1,7,7,0,0,0,0,0
+werkzeug,ba0247874d,2021-04-15,cbbf6e73,rename cache_property to cache_control_property,1,1,31,17,31,17,0,0,0,1,0,0,0,0,1,0,0,8,0,0,28,0,0,0,0,0
+werkzeug,7d9d5a8d72,2021-04-15,cbbf6e73,deprecate disable_data_descriptor,3,1,38,37,33,36,0,0,1,6,0,0,0,0,0,1,0,33,0,0,23,0,0,0,0,0
+werkzeug,03979aaff2,2021-04-15,cbbf6e73,deprecate dict.has_key,1,1,27,2,27,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,27,0,0,0,0,0
+werkzeug,b2b27e399f,2021-04-15,cbbf6e73,deprecate detect_utf_encoding,1,1,10,0,10,0,0,0,0,1,0,0,1,0,0,0,0,28,1,9,9,0,0,0,0,0
+werkzeug,0193b7dda5,2021-04-15,cbbf6e73,deprecate urls.Href,3,1,13,35,11,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+werkzeug,004b446eac,2021-04-15,cbbf6e73,del invalidates cached_property,3,1,47,36,33,14,0,0,0,1,0,0,0,0,1,0,0,8,0,0,26,0,0,0,0,0
+werkzeug,d847cb5d21,2021-04-15,cbbf6e73,deprecate pbkdf2 and compare functions,3,1,73,182,71,51,0,0,0,5,0,1,0,0,0,2,0,24,1,11,57,0,0,0,0,0
+werkzeug,cb0fbec75f,2021-04-15,cbbf6e73,consistent versions and deprecation messages,26,24,137,141,135,138,0,0,0,58,0,0,0,0,0,0,0,112,6,21,135,0,0,0,0,0
+werkzeug,931b0ecbc8,2021-04-08,cbbf6e73,deprecate user agent parser,8,3,210,124,167,97,0,0,0,2,0,0,0,0,13,4,0,8,0,0,131,0,0,0,0,0
+werkzeug,fd8df2f60a,2021-04-04,1266f590,fix connection reset when over max content size,3,1,27,0,10,0,1,0,0,2,0,0,0,0,1,0,0,24,0,0,6,0,0,0,0,0
+werkzeug,033df904a8,2021-03-30,3b440ce6,fixed DechunkedInput.readinto to not read more than size of buffer,2,1,14,3,12,3,1,0,0,1,0,0,0,0,0,0,0,22,0,0,8,0,0,0,0,0
+werkzeug,103852364e,2021-03-25,20f7e93f,update UserAgentParser to handle more use cases (#2074),4,1,48,17,11,1,0,0,0,1,0,0,0,0,0,0,0,33,0,0,8,0,0,0,0,0
+werkzeug,903b94b803,2021-03-22,95b7cee5,Use realpath when checking potential library directories (#2073),1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+werkzeug,aa4e272a0d,2021-03-17,99b63ffc,Following the release of 2.0.0rc3 continue with 2.0.0rc4.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,b12649785f,2021-03-17,99b63ffc,Release 2.0.0rc3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,57acc42360,2021-03-14,99b63ffc,Fix sansio request cookies,2,1,9,1,2,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+werkzeug,2f0d8a7725,2021-03-14,99b63ffc,Fix the sans-io request content length method,2,1,31,2,11,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+werkzeug,9fc48a2dae,2021-03-13,99b63ffc,Utilise existing base class code rather than repeating,1,1,4,6,4,6,0,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+werkzeug,3003a0bace,2021-03-07,99b63ffc,Restore the previous Werkzeug LocalProxy __doc__ behaviour,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+werkzeug,3da0b23329,2021-03-03,99b63ffc,Following the release of 2.0.0rc2 continue with 2.0.0rc3.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,b14df0ccc5,2021-03-03,99b63ffc,Release 2.0.0rc2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,237a17f45f,2021-03-03,5ed4f7dc,websocket handling,5,2,105,2,9,2,0,0,0,2,1,0,1,0,0,0,0,58,2,8,8,0,0,0,0,0
+werkzeug,4dc084f668,2021-03-03,99b63ffc,Move the url functions to sans-io,4,4,153,118,153,118,0,0,0,8,0,0,0,0,5,4,0,24,1,6,118,0,0,0,1,0
+werkzeug,94af9ee11a,2021-03-03,99b63ffc,Move the host and get_host functions to sans-io,7,4,212,91,155,84,0,0,0,3,0,0,1,0,5,3,0,24,1,2,114,0,0,0,1,0
+werkzeug,9081a409aa,2021-02-26,99b63ffc,Alter the local checking logic,1,1,5,7,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+werkzeug,9aa280a95a,2021-02-25,cbbf6e73,http_date accepts date and struct_time,3,1,32,13,30,11,0,0,0,3,0,0,0,0,0,0,0,68,1,2,23,0,0,0,0,0
+werkzeug,2a084d0dcb,2021-02-24,cbbf6e73,consistent typing config,8,4,25,17,11,7,0,0,0,6,0,0,0,0,0,0,0,9,2,2,11,0,0,0,0,0
+werkzeug,352cd71679,2021-02-20,99b63ffc,Restore the previous Werkzeug LocalProxy __class__ behaviour,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,66f575a608,2021-02-20,99b63ffc,Accept HTTPStatus as a response status code,2,2,9,5,9,5,0,0,0,4,0,0,0,0,0,0,0,30,2,2,9,0,0,0,0,0
+werkzeug,97ced0954d,2021-02-20,99b63ffc,Modify exceptions to work with ASGI frameworks,1,1,45,21,45,21,0,0,0,10,0,0,0,0,0,0,0,14,0,0,44,0,0,0,0,0
+werkzeug,b47614df34,2021-02-20,99b63ffc,Improve typing,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,68,2,2,2,0,0,0,0,0
+werkzeug,82842702a8,2021-02-20,99b63ffc,Minor fix: Initialise _trace in Rule init,1,1,3,1,3,1,1,0,0,2,0,0,1,0,0,0,0,46,1,1,2,0,1,0,0,0
+werkzeug,0fff5272c4,2021-02-18,acf56978,Fix dict interop regression for MultiDicts.,2,1,14,0,6,0,1,0,0,3,0,0,0,0,1,0,0,12,0,0,2,0,0,0,0,0
+werkzeug,df14dd9886,2021-02-11,cbbf6e73,test client response.close() closes input stream,3,2,29,6,26,6,0,0,0,2,0,0,1,0,0,0,0,61,1,10,18,0,0,0,0,0
+werkzeug,265bad79ee,2021-02-10,cbbf6e73,http.parse_date returns timzeone-aware value,14,7,236,188,128,116,0,0,0,16,0,0,0,0,3,2,0,112,3,4,111,0,0,0,0,0
+werkzeug,9be5449007,2021-02-10,99b63ffc,Tweak local contextvar feature checking,1,1,19,14,19,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+werkzeug,18de3245d1,2021-02-09,cbbf6e73,request.values ignores form data for GET,3,1,39,3,21,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0
+werkzeug,fb353d4bf0,2021-02-09,cbbf6e73,deprecation warnings for local ident func,3,1,95,56,84,52,0,0,0,9,0,0,0,0,3,0,0,19,0,0,78,0,0,0,0,0
+werkzeug,58c7aff2ad,2021-02-08,99b63ffc,Following the release of 2.0.0rc1 continue with 2.0.0rc2.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,22bfb446a7,2021-02-08,99b63ffc,Release 2.0.0rc1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,7866f25e91,2021-02-02,99b63ffc,Switch locals to be based on ContextVars,4,1,139,19,96,13,0,0,0,13,0,0,0,0,6,0,0,17,0,0,80,0,0,0,0,0
+werkzeug,0396223b29,2021-02-01,cbbf6e73,send_file sets content-encoding from detected mimetype,3,1,21,2,11,2,0,0,0,1,0,0,1,0,0,0,0,112,1,9,9,0,0,0,0,0
+werkzeug,61dcab062d,2021-02-01,cbbf6e73,update for mypy 0.800,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,108,1,1,1,0,0,0,0,0
+werkzeug,39c9bd889e,2021-01-31,29b3d22d,Further multipart parser speedups,1,1,28,20,28,20,0,0,0,2,0,0,0,1,1,0,0,63,1,15,26,0,0,0,0,0
+werkzeug,da677ca066,2021-01-30,99b63ffc,Improve the performance of the multipart parser,2,1,54,20,29,20,0,0,0,1,0,0,1,0,0,0,0,67,1,23,23,0,0,0,0,0
+werkzeug,9e0b790810,2021-01-26,cbbf6e73,update proxy special methods,4,1,711,216,256,117,0,0,0,3,0,0,0,0,11,6,0,10,0,0,195,0,0,0,0,0
+werkzeug,f303dd6edd,2021-01-26,c8d0762f,Mark `abort` as having type `NoReturn`,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+werkzeug,cbb446fdca,2021-01-25,99b63ffc,Refactor the Multipart parsing into a Sans-IO layer,10,5,421,406,344,264,0,0,0,6,3,0,1,1,6,7,0,54,3,64,277,0,0,1,0,1
+werkzeug,f07ca622cb,2021-01-20,cbbf6e73,range request on empty file returns 200,3,1,15,4,8,0,0,0,0,2,0,0,0,0,0,0,0,30,0,0,6,0,0,0,0,0
+werkzeug,3bc4bd0958,2021-01-20,99b63ffc,Move sansio code to a sansio module,5,5,1065,1051,1065,1051,0,0,0,8,4,4,1,0,58,58,0,30,3,0,869,0,0,1,1,0
+werkzeug,9916f37ae3,2021-01-20,99b63ffc,Split the Sans-IO parts out of the Response wrapper,2,1,674,622,670,622,0,0,0,36,1,0,0,1,2,0,0,30,4,116,554,0,0,0,1,0
+werkzeug,6eeca8afd6,2021-01-20,99b63ffc,Split the Sans-IO parts out of the Request wrapper,4,3,608,593,605,589,0,0,0,38,1,0,1,0,3,3,0,27,2,21,472,0,0,0,1,0
+werkzeug,8b0fdb3f4f,2021-01-18,cbbf6e73,fix colors in log on Windows,4,2,53,16,47,16,1,0,0,3,1,1,0,0,2,0,0,23,1,8,38,0,0,0,0,0
+werkzeug,df1c871fbb,2021-01-18,cbbf6e73,server shows valid address instead of 0.0.0.0,2,1,42,8,37,8,0,0,0,2,0,0,0,0,1,0,0,62,1,16,28,0,0,0,0,0
+werkzeug,a413881799,2021-01-18,99b63ffc,Add Cross-Origin-Opener/Embedder-Policy response headers,4,2,56,1,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,1,0,0
+werkzeug,11ba286a1b,2021-01-18,cbbf6e73,use SHA-1 instead of MD5,6,3,25,18,19,6,0,0,0,5,0,0,0,0,0,0,0,50,2,4,16,0,0,0,0,0
+werkzeug,3b44937b23,2021-01-17,cbbf6e73,send_file accepts etag string,3,1,25,4,10,4,0,0,0,1,0,0,1,0,0,0,0,108,1,9,9,0,0,0,0,0
+werkzeug,b45b508c48,2021-01-15,cbbf6e73,ignore empty list and None when building url,3,1,45,21,21,14,0,0,0,1,0,0,1,0,0,0,0,48,1,13,13,0,0,0,0,0
+werkzeug,2cd4fa9484,2021-01-15,cbbf6e73,merge request and response wrapper mixins,33,18,2815,2829,2639,2536,0,1,1,10,4,4,0,0,136,118,0,57,4,52,2101,0,0,0,0,0
+werkzeug,592bec2127,2021-01-12,cbbf6e73,document that single quote is escaped,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,1,0,0,0,0
+werkzeug,7288f27575,2021-01-10,cbbf6e73,open form data temp file as 'rb+',2,1,5,2,2,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+werkzeug,1c2c18ede4,2021-01-10,8e99e0b7,log SSL errors before discarding them,2,1,4,1,3,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+werkzeug,f860e55fde,2021-01-10,f825ccf4,Add end of word character for OR regex raw strings in platforms,3,1,11,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+werkzeug,8f8507b462,2021-01-10,d068ada4,don't unquote cookie name,3,1,6,2,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+werkzeug,28343b90f5,2021-01-10,cbbf6e73,redo type annotations,55,39,3622,3028,2643,2944,0,0,3,825,3,5,10,15,28,16,0,106,74,509,2449,0,0,0,0,0
+werkzeug,2ff0dc47d4,2020-11-05,cbbf6e73,add helpers for Flask's send_file wrapper,2,1,42,1,20,1,0,0,0,2,0,0,1,0,0,0,0,100,1,9,11,0,0,0,0,0
+werkzeug,4c4130b066,2020-11-02,cbbf6e73,avoid double encoding in EnvironBuilder.from_environ,3,1,22,12,15,9,0,0,0,2,0,0,0,0,0,0,0,65,1,4,14,0,0,0,0,0
+werkzeug,98f338bd16,2020-10-28,cbbf6e73,fix reloader path split and join on Windows,2,1,4,3,3,2,1,0,0,2,0,0,0,0,0,0,0,11,0,0,3,0,0,0,1,0
+werkzeug,14719cbacd,2020-10-28,a66fb66a,exclude paths from reloader,4,2,67,16,53,16,0,0,0,8,0,0,1,0,1,0,0,61,1,13,49,0,0,0,0,0
+werkzeug,44583678eb,2020-10-26,247317a8,iterating over Headers is not dict-like (#1947),1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+werkzeug,9faf5e9deb,2020-10-26,cbbf6e73,rewrite live server tests,27,3,618,823,215,156,0,0,0,9,0,0,0,0,12,8,0,22,0,0,156,0,0,0,0,0
+werkzeug,6985798926,2020-10-16,99b63ffc,Allow an auth parameter when EnvironBuilder building,6,3,84,16,47,15,0,0,0,2,0,0,1,0,1,0,0,99,1,7,40,0,0,0,0,0
+werkzeug,0258988430,2020-10-16,78743cfd,deprecate dev server shutdown function,2,1,8,1,6,1,0,0,0,3,0,0,0,0,0,0,0,63,1,5,6,0,0,0,0,0
+werkzeug,669323cf3c,2020-10-16,cbbf6e73,test Client always returns a TestResponse,12,2,421,417,233,170,0,0,0,21,1,0,2,0,1,2,0,65,4,97,200,0,0,0,0,0
+werkzeug,d34e5c4751,2020-10-15,2f046673,track redirects in test response,3,1,39,1,31,1,0,0,0,1,0,0,1,0,3,0,0,45,1,5,20,0,0,0,0,0
+werkzeug,fc74a5d8da,2020-10-15,bb832832,Remove unused `_pack_int`,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+werkzeug,4aae4efbd4,2020-10-15,bb832832,Drop unreachable code in `safe_str_cmp`,2,1,1,24,1,12,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+werkzeug,bb67981172,2020-10-14,99b63ffc,Switch environ usage to headers in request mixins,7,6,45,40,43,40,0,0,0,16,0,0,0,0,0,0,0,5,0,0,43,0,0,1,0,0
+werkzeug,74831270bf,2020-10-14,99b63ffc,match delete_cookie arguments with set_cookie,3,2,55,16,53,16,0,0,0,4,2,0,0,0,0,0,0,30,4,53,53,0,0,0,0,0
+werkzeug,6b0230676b,2020-10-14,e8f626a2,prevent reloader crash if stdin is None,2,1,6,1,4,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+werkzeug,7729a6297b,2020-10-14,bb832832,update generate_password_hash defaults,3,1,8,6,4,5,0,0,0,2,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+werkzeug,ce3686270a,2020-10-14,63107231,Fixes request log output for light terminal themes,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+werkzeug,8e006ad2d1,2020-10-14,cbbf6e73,don't raise warning about HTMLBuilder on import,1,1,0,5,0,5,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0
+werkzeug,7f74cb0fa0,2020-09-06,99b63ffc,Improve the typing based on checking against Quart,4,4,73,33,73,33,0,0,0,10,0,1,0,0,8,0,0,68,5,9,53,0,0,0,0,0
+werkzeug,fcd246e58b,2020-08-13,c00d0dcb,Add samesite='None' to debugger cookie (#1913),1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+werkzeug,ef545f0d0b,2020-08-08,a66fb66a,Fix some type errors.,33,32,1275,1167,1274,1166,1,1,0,424,5,5,16,2,0,0,0,92,58,237,1234,0,0,0,0,0
+werkzeug,967b2dabed,2020-08-08,a66fb66a,Generate type annotations using `monkeytype`.,29,29,1906,860,1906,860,0,0,0,651,8,3,20,1,1,1,0,92,65,414,1873,0,0,0,0,0
+werkzeug,ffe81a5045,2020-07-13,cbbf6e73,add send_from_directory,3,1,60,1,37,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27,0,0,0,0,0
+werkzeug,20cafe60ff,2020-07-12,cbbf6e73,send_file raises TypeError for no mimetype or name,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,94,1,1,1,0,0,0,0,0
+werkzeug,e91b36da9b,2020-07-12,cbbf6e73,enable conditional and disable max_age by default,3,1,74,29,23,16,0,0,0,1,0,0,1,0,0,0,0,94,1,21,21,0,0,0,0,0
+werkzeug,b01ff62f28,2020-07-12,cbbf6e73,replace attachment_filename with download_name,3,1,55,33,28,28,0,0,0,1,0,0,0,1,0,0,0,93,1,27,27,0,0,0,0,0
+werkzeug,65b70450c9,2020-07-12,cbbf6e73,use pathlib internally in send_file,3,1,48,72,31,42,0,0,0,1,0,0,0,1,0,0,0,97,1,29,30,0,0,0,0,0
+werkzeug,80d173d831,2020-07-12,78743cfd,implement send_file function from Flask,5,1,313,0,190,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,157,0,0,0,0,0
+werkzeug,947640399d,2020-06-27,a66fb66a,call property.__init__ in cached_property,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+werkzeug,4f6ea4d804,2020-06-27,a66fb66a,simplify message list init,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,1
+werkzeug,f4505599bf,2020-06-27,a66fb66a,use chained comparison,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+werkzeug,573af70d61,2020-06-27,a66fb66a,add missing docs for parameters,2,2,5,0,5,0,0,0,0,2,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+werkzeug,1011193fd1,2020-06-27,a66fb66a,fix signature of subclassed InteractiveInterpreter.runsource,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+werkzeug,8e8ada90c6,2020-06-27,d8d876c3,remove posixemulation,2,1,1,103,0,103,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,1,0
+werkzeug,8e254e5428,2020-06-27,db975b31,switch parameter order in default_stream_factory,2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+werkzeug,6997b3daff,2020-06-26,ecad7b1d,"Change ""request"" to ""response"" in BaseResponse.get_data docstring",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+werkzeug,cebb4475d8,2020-06-20,99b63ffc,Remove future annotations import and usage,42,42,45,163,45,163,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+werkzeug,f46997e45c,2020-06-20,99b63ffc,Apply the typeshed typings to the codebase,10,10,154,55,154,55,0,0,0,19,0,0,0,0,0,0,0,34,1,5,144,0,0,0,0,0
+werkzeug,4f4a6b6efd,2020-06-20,99b63ffc,Add initial type hinting,48,42,228,56,169,47,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+werkzeug,bc589f538f,2020-06-20,78743cfd,test.py: Preserve query string,2,1,12,4,10,4,0,0,0,2,0,0,1,0,0,0,0,85,2,6,9,0,0,0,0,0
+werkzeug,794fa0895a,2020-06-19,a66fb66a,some typo and grammar fixes,7,7,24,24,24,24,0,0,0,3,0,0,0,0,0,0,0,15,0,0,22,0,0,0,0,0
+werkzeug,43f75e3d98,2020-06-19,78743cfd,replace jQuery with vanilla JavaScript,8,2,335,221,1,33,0,0,0,1,0,0,0,1,0,2,0,29,1,0,1,0,0,0,0,0
+werkzeug,5fdca4441c,2020-06-19,cbbf6e73,"deprecate run_with_reloader, it's private",1,1,15,2,15,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,14,0,0,0,1,0
+werkzeug,ef948cfdb8,2020-06-19,cbbf6e73,finish converting to argparse,1,1,15,23,15,23,0,0,0,1,0,0,0,0,0,0,0,40,0,0,15,0,0,0,0,0
+werkzeug,c1f057a47c,2020-06-19,a66fb66a,deprecate servering.py CLI,2,1,4,0,2,0,0,0,0,1,0,0,0,0,0,0,0,47,0,0,1,0,0,0,0,0
+werkzeug,b1931884ae,2020-06-15,f74c3332,Fixed bad hash method iteration example,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+werkzeug,1938f9d205,2020-06-10,a66fb66a,don't fail when decoding auth header,3,1,19,7,10,7,0,0,0,1,0,0,1,0,0,0,0,33,1,10,10,0,0,1,0,0
+werkzeug,32c5a38de2,2020-06-09,a66fb66a,Fix formatting.,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,46,0,0,3,0,0,0,0,0
+werkzeug,a4afb81d18,2020-06-09,a66fb66a,Replace `optparse` with `argparse`,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,44,0,0,5,0,0,0,0,0
+werkzeug,6a50caf4c6,2020-05-18,cbbf6e73,fix docs build,3,1,4,12,4,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+werkzeug,ddc9fef1bb,2020-05-18,cbbf6e73,use pip-compile to pin dev requirements,12,1,155,31,1,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,d03b977797,2020-05-10,4c5a5e0a,"Add new ""edg"" identifier for Edge in UserAgentPreparser Resolves #1797",3,1,52,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,d956506775,2020-05-03,5bdbed36,Update documentation of SharedDataMiddleware,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,5fd13860d7,2020-04-12,cbbf6e73,replace deprecated escape with html.escape,10,6,47,71,25,34,0,0,0,6,0,0,0,0,0,1,0,32,1,2,19,1,0,0,0,0
+werkzeug,e13b8fba7d,2020-04-12,d8d876c3,deprecate utils.escape/unescape,2,1,23,10,21,10,0,0,0,2,0,0,0,0,0,0,0,19,0,0,20,1,0,0,0,0
+werkzeug,c8803517e8,2020-04-12,d8d876c3,deprecate utils.HTMLBuilder,3,1,19,31,18,0,0,0,0,3,0,0,0,0,0,0,0,10,0,0,17,0,0,0,0,0
+werkzeug,958fffba9d,2020-04-12,d8d876c3,deprecate utils.bind/validate_arguments,4,2,30,40,27,2,0,0,0,3,0,0,0,0,0,0,0,34,0,0,24,0,0,0,0,0
+werkzeug,1dde4b1790,2020-03-31,cbbf6e73,release version 1.0.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+werkzeug,65026914d9,2020-03-29,1a47c9b7,"Improved some grammar in datastructures.py : ""as"" --> ""like"" and added commas.",1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+werkzeug,fa6781dfbf,2020-03-21,6e4eada6,"Remove vestiges of Python 2 support, test improvements.",6,4,8,15,3,13,0,0,0,5,0,0,0,0,0,3,0,13,0,0,3,0,0,0,1,0
+werkzeug,c73bfe938c,2020-03-19,cbbf6e73,remove simplejson,4,1,6,17,3,12,0,0,0,2,0,0,0,0,0,0,0,5,0,0,3,0,0,0,1,0
+werkzeug,09a2486490,2020-03-19,cbbf6e73,remove unused ref directives,10,2,6,19,3,3,0,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,1,0
+werkzeug,51bbafdda6,2020-03-19,cbbf6e73,move package metadata to setup.cfg,3,1,36,52,1,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+werkzeug,b6b702da07,2020-03-19,cbbf6e73,remove coverage,3,1,5,40,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+werkzeug,13e842872e,2020-03-19,cbbf6e73,remove unused module docstrings,76,23,174,849,143,361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,0,0,1,1,0
+werkzeug,361c3af48d,2020-03-18,cbbf6e73,remove unmaintained benchmark script,1,1,0,481,0,481,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,1,0
+werkzeug,e3aecede89,2020-03-18,cbbf6e73,remove unneeded local.get_ident compat,1,1,4,8,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+werkzeug,6ef5ecac1f,2020-03-18,cbbf6e73,replace format_string code with Template,2,1,10,14,8,14,0,0,0,1,0,0,0,0,0,1,0,9,0,0,7,0,0,0,0,0
+werkzeug,b30355264e,2020-03-18,d8d876c3,"deprecate format_string, use string.Template",2,2,14,5,14,5,0,0,0,2,0,0,0,0,0,0,0,24,0,0,13,0,0,0,0,0
+werkzeug,d80925c2a5,2020-03-18,6e4eada6,Fix browser interop for multiple www_authenticate values.,3,1,16,8,7,4,1,0,0,1,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+werkzeug,0658f0ae7d,2020-03-18,cbbf6e73,dynamic HTTPException response test,3,1,11,43,2,2,0,0,0,2,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+werkzeug,276ae9236a,2020-03-18,ad7faf4b,all HTTPException subclasses accept response kwarg,2,1,55,4,4,4,0,0,0,2,0,0,0,0,0,0,0,4,0,0,4,0,0,0,0,0
+werkzeug,a9ba22af18,2020-03-17,46a4949c,Add missing documentation about None return type.,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+werkzeug,c341a0ab6f,2020-03-17,1c898983,fix os.fspath call on file-like objects,3,1,19,1,3,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+werkzeug,c761ff8248,2020-03-17,944a4d5b,fix locals in InteractiveConsole,2,1,5,2,3,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+werkzeug,b70df18e5a,2020-03-17,2004a95b,zfill year < 1000,3,1,16,2,2,2,0,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0

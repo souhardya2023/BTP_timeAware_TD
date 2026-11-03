@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+flask,bfc8f98387,2026-10-30,cbbf6e73,add `versionchanged` for ctx signature change,1,1,67,11,67,11,0,0,0,14,0,0,0,0,0,0,0,43,0,0,52,0,0,0,0,0
+flask,f2ef7a553e,2026-10-30,cbbf6e73,werkzeug 3.2 compat,3,2,14,11,11,8,0,0,0,2,0,0,0,0,0,0,0,65,1,1,10,0,0,0,0,0
+flask,d086db856b,2026-10-07,cbbf6e73,fix typing,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,329c32b916,2026-10-07,cbbf6e73,fix dev,2,1,33,36,31,34,1,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0
+flask,7689f98403,2026-10-07,cbbf6e73,drop support for Python 3.10,12,3,67,433,3,7,0,0,0,2,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+flask,d73fa1cdcb,2026-09-08,cbbf6e73,fix docs ref,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+flask,d318b68347,2026-08-16,cbbf6e73,explain seek,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,23,1,2,2,0,0,0,0,0
+flask,2a8a38b051,2026-08-11,cbbf6e73,support query in methodview,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,89992954ec,2026-08-11,cbbf6e73,add app.query route decorator,3,1,14,2,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+flask,7203feabf7,2026-08-11,93c8a599,Fix IPv6 server name parsing,2,1,8,4,7,4,1,0,0,1,0,0,1,0,0,0,0,50,1,6,7,0,0,0,0,0
+flask,de8429ffda,2026-08-11,93c8a599,Fix IPv6 session transactions,2,1,15,1,1,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+flask,81798b406f,2026-08-11,cbbf6e73,fix typos,5,1,8,8,2,2,1,0,0,1,0,0,0,0,0,0,0,65,1,2,2,0,0,0,0,0
+flask,8285adf5a4,2026-06-10,cbbf6e73,update dev dependencies,9,2,1003,661,4,4,0,0,0,2,0,0,0,0,0,0,0,29,0,0,4,0,0,1,0,0
+flask,36e4a824f3,2026-05-31,cbbf6e73,Any for  CertParamType type,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,954f5684e4,2026-05-18,cbbf6e73,update dev dependencies,3,1,441,383,3,3,0,0,0,2,0,0,0,0,0,0,0,29,0,0,3,0,0,1,0,0
+flask,9368fb3f3c,2026-05-01,cbbf6e73,case-insensitive comparison,2,1,6,1,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+flask,06ea505ce2,2026-05-01,cbbf6e73,separate copy per call,4,1,38,129,5,5,0,0,0,2,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+flask,a29f88ce6f,2026-03-04,cbbf6e73,document that headers must be set before streaming,4,2,55,8,32,6,0,0,0,2,0,0,0,0,0,0,0,12,0,0,25,0,0,1,0,0
+flask,fbb6f0bc4c,2026-02-19,cbbf6e73,all teardown callbacks are called despite errors,10,3,194,80,71,9,0,0,0,3,0,0,0,0,4,0,0,29,0,0,52,0,0,0,0,0
+flask,7b0088693e,2026-02-19,cbbf6e73,fix typing,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+flask,a411a2434b,2026-02-19,cbbf6e73,add back opening session on context push,1,1,21,9,21,9,0,0,0,2,0,0,0,0,1,0,0,10,0,0,15,0,0,0,0,0
+flask,c17f379390,2026-02-18,cbbf6e73,request context tracks session access,6,4,74,53,32,35,0,0,0,7,0,0,0,0,1,3,0,23,0,0,28,0,0,0,0,0
+flask,e82db2ca3a,2026-02-12,cbbf6e73,fix provide_automatic_options override,7,1,96,86,8,8,1,0,0,1,0,0,1,0,0,0,0,44,1,7,7,0,0,0,0,0
+flask,c77a520343,2026-01-24,cbbf6e73,deprecate should_ignore_error,3,2,27,9,25,9,0,0,0,2,0,0,0,0,0,1,0,26,0,0,22,0,0,0,0,0
+flask,3709c4a9a8,2026-01-24,cbbf6e73,update ruff hook and noqa,3,2,4,4,3,3,0,0,0,2,0,0,0,0,0,0,0,38,1,1,3,0,0,0,0,0
+flask,eca5fd1dfd,2026-01-24,cbbf6e73,redirect defaults to 303,4,2,14,3,8,2,0,0,0,2,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+flask,da6d075dfd,2025-11-17,cbbf6e73,update dev dependencies,6,1,1040,643,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,1,0,0
+flask,6a64969009,2025-09-19,cbbf6e73,pass context through dispatch methods,6,3,167,72,156,67,0,0,0,22,0,0,0,0,5,0,0,25,0,0,128,0,0,0,0,0
+flask,c2705ffd9c,2025-09-19,cbbf6e73,merge app and request context,36,11,779,1007,434,394,0,0,0,43,0,0,1,0,6,5,0,55,2,7,375,0,0,0,0,0
+flask,dbd4c28825,2025-09-06,64951664,Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,1,0,0,0,0
+flask,edebd37044,2025-08-19,cbbf6e73,"rewrite docs, clean up typing for template decorators",3,2,228,179,186,159,0,0,0,12,0,0,0,0,3,3,0,8,0,0,173,0,0,0,0,1
+flask,daf1510a4b,2025-08-19,78057396,use template_filter without parens,6,2,272,23,103,22,0,0,0,6,0,0,0,0,0,0,0,9,0,0,62,0,0,0,0,0
+flask,d8259eb119,2025-08-19,cbbf6e73,use Jinja name consistently,9,2,31,31,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+flask,9822a03515,2025-08-19,cbbf6e73,refactor stream_with_context for async views,3,1,63,32,39,32,0,0,0,2,0,0,0,0,0,0,0,14,0,0,23,0,1,0,0,1
+flask,d44f1c6523,2025-08-18,6a983838,relax type hint for bytes io,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,1,1,1,0,0,0,0,0
+flask,53b8f08218,2025-08-18,cbbf6e73,push preserved contexts in correct order,3,1,15,23,2,2,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+flask,f04c5e6964,2025-06-08,cbbf6e73,update dev dependencies,11,6,239,229,7,7,0,0,0,6,0,0,0,0,0,0,0,39,1,1,7,0,0,1,0,0
+flask,52df9eed45,2025-05-13,cbbf6e73,drop end of life python versions,11,4,78,284,30,44,0,0,0,1,0,0,0,0,0,0,0,6,0,0,30,0,0,0,0,0
+flask,fb54159861,2025-05-12,f7ece939,secret key rotation: fix key list ordering,3,1,15,5,2,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+flask,0109e496f6,2025-05-11,cbbf6e73,use uv,24,1,1876,534,1,1,0,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+flask,11c45eeba3,2025-05-11,cbbf6e73,update dev dependencies,11,1,34,34,1,1,0,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,1,0,0
+flask,410e5ab7ed,2025-03-30,b8de02d8,Accept `AsyncIterable` for responses,2,1,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0
+flask,7d5d187458,2025-03-29,cbbf6e73,better type checking during deprecation,1,1,14,13,14,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,14,0,0,0,0,0
+flask,da60039486,2025-03-29,543201f8,Handle help arg by itself the same as no args,2,1,5,1,3,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+flask,165af0a090,2025-03-29,cbbf6e73,update dev dependencies,10,2,64,58,6,6,0,0,0,2,0,0,0,0,0,0,0,38,2,6,6,0,0,1,0,0
+flask,54c3f87af9,2024-11-23,bf96ebbd,fix type hint for `cli_runner.invoke`,2,1,4,1,2,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+flask,b394a994e6,2024-11-23,cbbf6e73,update `__version__` deprecation,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+flask,d22bfcd4cf,2024-11-23,cbbf6e73,remove previously deprecated code,2,1,2,21,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+flask,f49dbfd3e4,2024-11-13,cbbf6e73,use generic bases for session,1,1,7,5,7,5,0,0,2,1,0,0,0,0,0,0,0,6,0,0,7,0,0,0,0,0
+flask,4f7156f2c3,2024-11-12,cbbf6e73,configure and check trusted_hosts,4,1,40,0,7,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,5,0,0,0,0,0
+flask,4995a775df,2024-11-12,cbbf6e73,fix subdomain_matching=False behavior,5,1,98,43,25,17,1,0,0,1,0,0,0,0,0,0,0,18,0,0,15,0,0,0,0,0
+flask,e13373f838,2024-11-08,cbbf6e73,enable secret key rotation,9,2,55,7,12,5,0,0,0,1,0,0,0,0,0,0,0,15,0,0,9,0,0,0,0,0
+flask,2c31603042,2024-11-07,cbbf6e73,update env file precedence,3,1,90,47,67,43,0,0,0,4,1,0,0,0,0,0,0,27,1,28,56,0,0,0,0,0
+flask,6c44dd4bb8,2024-11-06,b8c52c3c,update helpers.send_from_directory docstring (#5599),1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+flask,98ae718976,2024-11-01,cbbf6e73,fix mypy finding,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,64,1,1,1,0,0,0,0,0
+flask,9efc1ebeeb,2024-11-01,cbbf6e73,add SESSION_COOKIE_PARTITIONED config,5,2,34,0,12,0,0,0,0,1,0,0,0,0,1,0,0,41,0,0,10,0,0,0,0,0
+flask,c7a53888a1,2024-11-01,cbbf6e73,add config and docs for limits,7,2,231,33,91,6,0,0,0,1,0,0,0,0,5,0,0,6,0,0,72,0,0,0,0,0
+flask,1d610e44b3,2024-10-31,cbbf6e73,drop support for Python 3.8,12,5,25,42,17,29,0,0,0,4,0,0,0,0,0,1,0,65,1,1,17,0,0,0,0,0
+flask,9e831e915f,2024-10-24,fe1bb516,fix pyright type errors,10,8,22,19,18,17,1,0,0,12,0,0,1,1,0,0,0,65,5,7,18,0,0,0,0,0
+flask,dffe303482,2024-10-18,cbbf6e73,fix mypy findings,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+flask,b337d21058,2024-10-18,cbbf6e73,update dev dependencies,9,1,67,56,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,1,0,0
+flask,176fdfa000,2024-08-23,cbbf6e73,fix mypy findings,2,2,14,2,14,2,1,0,0,2,0,0,0,0,0,0,0,12,0,0,10,0,0,0,0,0
+flask,28d5a4d718,2024-07-10,cbbf6e73,add encoding parameter to open_resource,4,2,81,53,57,42,0,0,0,3,0,0,0,0,0,0,0,9,0,0,48,0,0,0,0,0
+flask,d718ecf6d3,2024-06-07,99b63ffc,Provide a configuration option to control automatic option responses,4,2,14,2,2,1,0,0,0,1,0,0,1,0,0,0,0,43,1,1,2,0,0,0,0,0
+flask,c7da8c2aa3,2024-05-25,7e489b9c,Added python type annotation and return type.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+flask,860a25c390,2024-05-06,cbbf6e73,fix mypy finding,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+flask,eb1182a10e,2024-05-06,cbbf6e73,fix mypy finding,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,38,0,0,2,0,0,0,0,0
+flask,a363642a32,2024-05-06,cbbf6e73,fix mypy finding with new werkzeug endpoint type,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+flask,ccf125bf30,2024-04-23,cbbf6e73,fix mypy findings,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+flask,5fdce4c331,2024-04-07,99b63ffc,Don't set the cli attribute in the sansio scaffold,5,4,54,12,52,12,0,0,0,3,1,0,1,2,1,0,0,41,3,2,34,0,0,0,0,0
+flask,db461112c7,2024-04-07,cbbf6e73,access sha1 lazily,2,1,13,1,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,0,0,0,0
+flask,87d5f5b9a9,2024-04-07,cbbf6e73,update project files (#5457),35,3,377,317,5,8,0,0,0,2,0,0,0,0,0,4,0,20,0,0,4,0,0,0,0,0
+flask,1af8f95785,2024-02-03,6e51d89f,fix super call in list comprehension,3,1,10,1,3,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+flask,ecc057dd48,2024-02-03,0a4e56c0,fix jinja_loader annotation,2,1,4,1,2,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+flask,08d3185e87,2024-01-16,cbbf6e73,update pre-commit hooks,3,2,3,3,2,2,0,0,0,2,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+flask,6000e80acf,2024-01-16,cbbf6e73,address mypy strict findings,24,20,346,234,335,216,0,2,0,117,0,0,2,0,5,0,0,64,11,52,299,0,0,0,0,0
+flask,700fc7d928,2024-01-15,cbbf6e73,untag without object_hook,2,1,16,1,13,1,0,0,0,1,0,0,0,0,1,0,0,2,0,0,8,0,0,0,0,0
+flask,8fdab74cc8,2024-01-01,c0e376ee,[pre-commit.ci] auto fixes from pre-commit.com hooks,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+flask,1d5abfadd7,2023-12-13,b3720df3,Fixing issue 5342: 'The double quote is missing in the string',2,1,4,1,3,1,1,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+flask,b55ccae72a,2023-12-13,63636382,Bump the python-requirements group in /requirements with 3 updates,3,1,6,6,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+flask,4104f29956,2023-11-15,144c86ee,type hint fix for flask.send_file,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,23,1,1,1,0,0,0,0,0
+flask,54e05a2824,2023-11-15,cbbf6e73,use ruff linter and formatter,26,6,99,132,16,13,0,0,0,5,0,0,1,0,0,0,0,64,1,2,14,0,0,0,0,0
+flask,54ff9b2972,2023-11-09,cbbf6e73,use ruff linter and formatter,26,6,99,128,16,13,0,0,0,5,0,0,1,0,0,0,0,64,1,2,14,0,0,0,0,0
+flask,438edcdf01,2023-09-30,99b63ffc,Allow self as an argument to url_for,3,1,9,0,1,0,0,0,0,1,0,0,1,0,0,0,0,57,1,1,1,0,0,0,0,0
+flask,293041a290,2023-08-29,cbbf6e73,deprecate __version__ attribute,3,1,23,2,20,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,0,0,0,0,0
+flask,65271c105f,2023-08-27,99b63ffc,Remove print left in by accident,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,0,0,0,0,1,0
+flask,3205b53c7c,2023-08-21,cbbf6e73,release version 2.3.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,9f9550247a,2023-08-21,cbbf6e73,bump werkzeug 2.3.7,8,2,50,36,19,5,0,0,0,2,0,0,0,0,1,0,0,12,0,0,13,0,0,0,0,0
+flask,5bb30270d2,2023-08-21,cbbf6e73,bump werkzeug 2.3.7,8,2,50,36,19,5,0,0,0,2,0,0,0,0,1,0,0,12,0,0,13,0,0,0,0,0
+flask,80cf589a26,2023-08-19,99b63ffc,Correct the error handler typing,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+flask,cc80a47f5b,2023-08-19,99b63ffc,Widen the response typing,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,3f6b243cec,2023-08-19,99b63ffc,Support async template context processors,2,2,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,1,0,0,0
+flask,72c85e80c8,2023-08-19,99b63ffc,Provide an extendable merge blueprint funcs method,1,1,31,31,31,31,0,0,0,1,0,0,0,1,2,1,0,61,1,1,27,0,0,0,0,0
+flask,0ec7f713d6,2023-08-19,99b63ffc,Split the App and Blueprint into Sansio and IO parts,10,10,1622,1353,1622,1353,0,0,0,12,4,3,0,1,38,32,0,84,3,5,1252,0,0,0,1,0
+flask,a64588f87a,2023-08-19,99b63ffc,Move file to sansio,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,04994df59f,2023-08-16,cbbf6e73,remove deprecated code,7,5,3,225,1,220,0,0,0,1,0,0,0,0,0,11,0,23,1,1,1,0,0,0,1,0
+flask,6a12b191f7,2023-08-16,cbbf6e73,start version 3.0.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,17e146ad94,2023-08-16,2a8b016c,Pass maxsplit via kwarg to re.split,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,1,0
+flask,bda295d37f,2023-06-09,cbbf6e73,fix use of importlib.util.find_spec,3,2,39,81,38,81,1,0,0,2,0,1,0,0,0,1,0,30,1,18,27,0,0,1,0,0
+flask,84e11a1e82,2023-06-07,cbbf6e73,use importlib instead of pkgutil,3,2,7,4,5,4,0,0,0,2,0,0,1,0,0,0,0,41,1,2,5,0,0,1,0,0
+flask,367e1df785,2023-06-07,cbbf6e73,start version 2.3.3,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,2abb7513dc,2023-05-14,99b63ffc,Allow for PathLike types for config file variables,1,1,5,3,5,3,0,0,0,3,0,0,0,0,0,0,0,17,0,0,5,0,0,0,0,0
+flask,1d7281fe07,2023-05-02,cbbf6e73,remove egg test,3,1,1,56,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,47af817c8f,2023-05-02,cbbf6e73,release version 2.2.5,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,8646edca6f,2023-05-02,cbbf6e73,set `Vary: Cookie` header consistently for session,3,1,30,4,6,4,0,0,0,1,0,0,0,0,0,0,0,38,0,0,4,0,0,1,0,0
+flask,3fbfbad79f,2023-05-02,cbbf6e73,werkzeug 2.3.3 compatibility,2,1,16,3,14,3,0,0,0,1,0,0,0,0,0,0,0,40,0,0,11,0,0,0,0,0
+flask,726d3f4fa9,2023-05-02,cbbf6e73,start version 2.2.5,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,f3b8f57054,2023-05-01,cbbf6e73,release version 2.3.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,e1aedecdc6,2023-05-01,cbbf6e73,update werkzeug,3,1,10,20,7,17,0,0,0,1,0,0,0,0,0,0,0,25,0,0,7,0,0,0,0,0
+flask,8705dd39c4,2023-05-01,cbbf6e73,set `Vary: Cookie` header consistently for session,2,1,29,4,6,4,0,0,0,1,0,0,0,0,0,0,0,38,0,0,4,0,0,1,0,0
+flask,9532cba45d,2023-05-01,cbbf6e73,fix mypy finding,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+flask,0bc7356ce1,2023-05-01,cbbf6e73,start version 2.3.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,721abdc381,2023-04-25,cbbf6e73,release version 2.3.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,0ec9192cf2,2023-04-25,24cb5a0c,fix importing Markup from flask,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,1,0,0
+flask,345f18442c,2023-04-25,cbbf6e73,start version 2.3.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,8728c3e4cd,2023-04-25,cbbf6e73,release version 2.3.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,79ebf6c39c,2023-04-25,cbbf6e73,update minimum requirements,5,1,16,14,1,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+flask,74e0329820,2023-04-25,cbbf6e73,release version 2.2.4,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,2e8fe7b2f2,2023-04-20,cbbf6e73,drop support for python 3.7,14,3,19,40,4,21,0,0,0,3,0,0,0,0,0,1,0,10,0,0,4,0,0,0,0,0
+flask,44ffe6c6d6,2023-04-20,cbbf6e73,add __future__ annotations,19,18,277,262,276,262,0,0,0,132,0,0,0,1,0,0,0,84,12,72,260,0,0,0,0,0
+flask,84c007d34f,2023-04-14,cbbf6e73,show subdomain or host in routes output,3,1,69,49,39,26,0,0,0,1,0,0,1,0,0,0,0,35,1,30,34,0,0,0,0,0
+flask,8239765a44,2023-04-13,99b63ffc,allow async signal receivers,5,4,25,12,24,12,0,0,0,11,0,0,0,0,0,0,0,18,0,0,24,0,1,0,0,0
+flask,9cb1a7a52d,2023-04-13,cbbf6e73,"blinker is required, signals are always available",18,2,82,168,29,42,0,0,0,1,0,0,0,0,1,4,0,49,0,0,23,0,0,0,0,0
+flask,b626a93879,2023-04-12,e4076931,Allow Response subclasses to set default_mimetype as None,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,c24f8c8199,2023-04-12,cbbf6e73,no cookie domain by default,5,2,34,125,17,54,0,0,0,2,0,0,0,0,0,0,0,14,0,0,15,0,0,0,0,0
+flask,04c21387db,2023-04-12,cbbf6e73,update test cookie handling for Werkzeug 2.3,4,1,49,60,37,33,0,0,0,1,0,0,0,0,0,0,0,32,0,0,27,0,0,0,0,0
+flask,b8b410014d,2023-03-11,897561ba,require a non-empty name for blueprints,3,1,10,0,3,0,0,0,0,1,0,0,1,0,0,0,0,33,1,2,2,0,0,0,0,0
+flask,c4b39ba2f3,2023-03-11,cbbf6e73,replace werkzeug.urls with urllib.parse,3,2,13,4,5,4,0,0,0,2,0,0,1,0,0,0,0,56,2,3,5,0,0,0,0,0
+flask,b10b6d4af1,2023-02-23,3c33753f,add text parameter to config.from_file,4,1,23,5,8,3,0,0,0,1,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,0
+flask,4256fc6304,2023-02-23,cbbf6e73,deprecate locked_cached_property,4,3,22,6,18,6,0,0,0,1,0,0,0,0,0,0,0,15,0,0,16,0,1,0,0,0
+flask,fc03d0dfab,2023-02-23,cbbf6e73,setup method on registered blueprint is error,2,1,8,13,6,13,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+flask,2a33c17854,2023-02-23,cbbf6e73,deprecate got_first_request property,3,1,11,3,10,2,0,0,0,2,0,0,0,1,0,0,0,54,1,0,8,0,0,0,0,0
+flask,9c02f07f9b,2023-02-23,cbbf6e73,deprecate markupsafe exports,8,1,41,20,24,3,0,0,0,1,0,0,0,0,0,0,0,40,0,0,20,0,0,0,0,0
+flask,6650764e97,2023-02-23,cbbf6e73,remove previously deprecated code,16,8,81,946,48,805,0,0,0,17,0,0,0,2,0,30,0,84,3,4,42,0,0,0,1,0
+flask,c4c7f504be,2023-02-16,cbbf6e73,update dependencies,6,1,47,39,2,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,1,0,0
+flask,41d4f62909,2023-02-15,cbbf6e73,release version 2.2.3,2,1,3,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,aa040c085c,2023-02-10,cbbf6e73,run latest black format,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+flask,ab93222bd6,2023-02-10,cbbf6e73,point to app-scoped blueprint methods,2,2,77,33,77,33,0,0,0,22,0,0,0,0,0,0,0,21,1,4,69,0,0,0,0,0
+flask,6d6d986fc5,2023-01-18,cbbf6e73,switch to pyproject.toml,6,1,123,141,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,a748770199,2023-01-09,8b209e01,clarify `View.as_view` docstring,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+flask,cabda59353,2023-01-04,99b63ffc,Ensure that blueprint subdomains suffix-chain,4,1,26,4,7,2,0,0,0,1,0,0,1,0,0,0,0,84,1,6,6,0,0,0,0,0
+flask,d7b6c1f670,2023-01-04,bb32903c,Fix subdomain inheritance for nested blueprints.,2,1,56,0,9,0,1,0,0,1,0,0,1,0,0,0,0,82,1,7,7,0,0,0,1,0
+flask,bd26928fdb,2022-12-24,a8b1f4ab,Prefer flask run --debug in docs,9,1,15,19,4,8,0,0,0,1,0,0,0,1,0,0,0,37,1,1,2,0,0,0,0,0
+flask,4bc0e4943d,2022-12-24,a8b1f4ab,Add --debug option to flask run,2,1,9,1,8,1,0,0,0,1,0,0,1,0,0,0,0,39,1,3,8,0,0,0,0,0
+flask,79032ca5f1,2022-12-24,d3c05b50,Add .svg to select_jinja_autoescape (#4840),3,1,8,2,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,1,0,0,0,0
+flask,09112cfc47,2022-12-24,2e3e1251,template_folder type allows pathlib,4,3,5,3,3,3,0,0,0,3,0,0,0,0,0,0,0,56,3,3,3,0,0,0,0,0
+flask,d178653b5f,2022-11-25,cbbf6e73,update requirements,12,6,39,46,12,12,0,0,0,10,0,0,0,0,0,0,0,34,0,0,12,0,0,0,0,0
+flask,cc66213e57,2022-10-30,d3c05b50,Add .svg to select_jinja_autoescape (#4840),3,1,8,2,4,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,1,0,0,0,0
+flask,0d8c8ba71b,2022-09-18,8b434e88,Fix docstring of test_request_context (#4821),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+flask,e7b2ce9a50,2022-09-02,cafeec2b,Add missing .dev to version (#4801),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,212b72a1fe,2022-08-22,cbbf6e73,start version 2.2.3,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,746455d103,2022-08-21,73bf9286,Fix misrendered docstring,1,1,3,2,3,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+flask,00b07c863e,2022-08-09,3faf2de3,fix typo,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+flask,43d2fff317,2022-08-08,cbbf6e73,release version 2.2.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,de16718b39,2022-08-08,cbbf6e73,require werkzeug >= 2.2.2,3,2,4,8,1,8,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+flask,e3df23374c,2022-08-05,cbbf6e73,remove env from shell banner,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,1,0
+flask,a6a7a57380,2022-08-04,cbbf6e73,fix default value of app.env,2,1,4,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+flask,4984753dbf,2022-08-04,cbbf6e73,start version 2.2.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,52c54b2ce1,2022-08-03,cbbf6e73,release version 2.2.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,714ccefeca,2022-08-03,cbbf6e73,show deprecation warning on json_encoder/decoder access,5,4,167,42,160,38,0,0,0,2,0,0,0,0,8,0,0,43,0,0,131,0,0,0,0,0
+flask,9a1b25fce4,2022-08-03,cbbf6e73,start version 2.2.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,292c7e5c5d,2022-08-01,cbbf6e73,release version 2.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,bfdd37110c,2022-08-01,cbbf6e73,deprecate config attributes,8,4,154,57,146,42,0,0,0,10,0,0,0,0,6,0,0,20,0,0,124,0,0,0,0,0
+flask,ef95998d79,2022-08-01,cbbf6e73,deprecate FLASK_ENV,5,3,95,96,88,78,0,0,0,8,0,0,1,1,2,1,0,56,3,12,77,0,0,0,0,0
+flask,7d53a129cf,2022-08-01,cbbf6e73,remove __traceback_hide__,1,1,0,4,0,4,0,0,0,2,0,0,0,0,0,0,0,29,0,0,0,0,1,0,1,0
+flask,5d8e35653f,2022-08-01,cbbf6e73,refactor lazy loading,6,2,31,118,21,87,0,0,0,6,1,1,1,0,1,6,0,51,4,12,14,0,0,0,0,1
+flask,095651be9e,2022-07-25,cbbf6e73,fix has_app_context and has_request_context,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+flask,add53e190c,2022-07-24,cbbf6e73,require Werkzeug 2.2,2,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,4bf7415a96,2022-07-14,c600ea1c,allow TypedDict as a response value,3,1,15,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,134aebe601,2022-07-13,cbbf6e73,release version 2.1.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,58f3536a8f,2022-07-13,29938b13,error for render_template outside app context,2,1,15,0,12,0,0,0,0,2,0,0,0,0,0,0,0,15,0,0,8,0,0,0,0,0
+flask,69f9845ef2,2022-07-13,cbbf6e73,add json provider interface,13,7,664,284,579,183,0,0,0,14,0,0,1,0,13,2,0,63,2,13,455,0,0,0,1,0
+flask,91044c4d76,2022-07-09,99b63ffc,Change _cv_req -> _cv_request,7,6,25,25,23,23,0,0,0,11,0,0,0,0,0,0,0,55,1,1,23,0,0,0,0,0
+flask,e0dad45481,2022-07-08,cbbf6e73,update docs about contexts,9,4,82,132,55,60,0,0,0,2,0,0,0,0,0,0,0,3,0,0,47,0,0,0,0,0
+flask,82c2e0366c,2022-07-08,cbbf6e73,remove uses of LocalStack,13,7,115,132,70,81,0,0,0,21,0,0,0,1,0,0,0,55,2,5,70,0,0,0,1,0
+flask,d597db67de,2022-07-08,cbbf6e73,contexts no longer use LocalStack,5,4,146,71,137,71,0,0,0,9,0,0,0,0,7,1,0,28,0,0,113,0,0,0,0,0
+flask,0b2f809f9b,2022-07-08,cbbf6e73,access names as proxies directly,1,1,33,42,33,42,0,0,0,0,0,0,0,0,0,3,0,0,0,0,33,0,0,0,0,0
+flask,89463cb77c,2022-07-08,cbbf6e73,require Werkzeug 2.2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,9b44bf2818,2022-07-06,99b63ffc,Improve decorator typing (#4676),6,5,123,76,118,76,0,0,0,48,0,0,0,0,0,0,0,55,4,4,117,0,0,0,0,0
+flask,9dfcb90c92,2022-07-06,94cf7c7c,Document serialization of Decimal in JSONEncoder,2,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,60b845ebab,2022-07-02,cbbf6e73,update typing tests for json,2,1,18,2,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+flask,f8cb0b0dd5,2022-07-02,cbbf6e73,update docs about json,3,1,31,23,6,4,0,0,0,1,0,0,1,0,0,0,0,63,1,6,6,0,0,0,0,0
+flask,ca2bfbb0ac,2022-07-02,a8b1f4ab,Support returning list as JSON,3,2,16,4,8,4,0,0,0,1,0,0,0,0,0,0,0,61,1,6,7,0,0,0,0,0
+flask,c2810ffdd2,2022-07-01,cbbf6e73,remove deprecated send_file argument names,2,1,13,65,6,64,0,0,0,3,0,1,0,1,0,0,0,25,2,5,6,0,0,0,1,0
+flask,9e686d93b6,2022-07-01,cbbf6e73,remove deprecated RequestContext.g,2,1,4,26,0,26,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+flask,84c722044a,2022-07-01,cbbf6e73,new debug/test preserve context implementation,10,4,84,220,50,92,0,0,0,10,0,0,0,0,0,1,0,33,0,0,38,0,0,0,0,0
+flask,5544d09477,2022-06-29,cbbf6e73,re-add flag to skip unguarded app.run from CLI,3,2,9,7,7,2,0,0,0,2,0,0,0,0,0,0,0,51,1,2,3,0,0,0,0,0
+flask,46433e9807,2022-06-18,99b63ffc,add generate_template and generate_template_string functions,7,2,142,40,58,2,0,0,0,0,0,0,0,0,4,0,0,0,0,0,43,0,0,0,0,0
+flask,762382e436,2022-06-18,99b63ffc,view functions can return generators as responses directly,5,2,48,2,15,2,0,0,0,1,0,0,1,0,0,0,0,61,1,8,12,0,0,0,0,0
+flask,ed42e92928,2022-06-17,03d63f53,session expiration datetime is UTC timezone-aware,3,1,7,3,2,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+flask,c9e000b9ce,2022-06-17,cbbf6e73,with_appcontext lasts for the lifetime of the click context,6,1,65,26,29,6,0,0,0,3,0,0,0,0,0,0,0,14,0,0,20,0,0,0,0,0
+flask,99fa3c36ab,2022-06-17,cbbf6e73,"add --app, --env, --debug, and --env-file CLI options",3,2,197,54,191,54,0,0,0,8,0,0,1,0,5,0,0,36,3,16,137,0,0,0,0,0
+flask,aa801c431a,2022-06-15,cbbf6e73,FlaskGroup can be nested,3,1,36,10,20,10,0,0,0,2,0,0,1,0,1,1,0,24,1,4,17,0,0,0,0,0
+flask,4f03a769d4,2022-06-15,cbbf6e73,edit some cli messages,3,3,17,29,17,29,0,0,0,4,0,0,1,0,0,1,0,51,1,8,15,0,0,0,0,0
+flask,9934528c8f,2022-06-09,ad865908,Update send_from_directory docstring,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+flask,45174bf9a1,2022-06-06,cbbf6e73,use __init_subclass__ instead of metaclass for MethodView,1,1,19,29,19,29,0,0,0,0,0,0,0,0,1,1,0,0,0,0,14,0,0,0,0,0
+flask,bab5a65e6e,2022-06-06,cbbf6e73,rewrite class-based view docs,2,1,311,215,56,44,0,0,0,1,0,0,0,0,0,0,0,2,0,0,41,0,0,0,0,0
+flask,6e23239567,2022-06-06,cbbf6e73,add View.init_every_request attribute,3,1,62,14,41,13,0,0,0,3,0,0,0,0,1,0,0,20,0,0,25,0,0,0,0,0
+flask,96c97dec09,2022-06-06,cbbf6e73,deprecate before_first_request,6,2,66,33,41,17,0,0,0,3,0,0,0,0,0,1,0,15,0,0,28,0,0,0,0,0
+flask,3ba37d2afe,2022-06-06,cbbf6e73,fix uninstalled package tests under tox,3,1,15,7,14,4,1,0,0,2,0,0,0,0,1,0,0,40,1,3,11,0,0,0,0,0
+flask,88bcf78439,2022-06-06,90b6daa2,instance_path for namespace packages uses path closest to submodule,3,1,47,11,26,11,0,0,0,2,1,0,0,0,0,0,0,40,1,21,22,0,0,1,0,0
+flask,3351a8677e,2022-06-05,cbbf6e73,add errorhandler type check tests,4,3,40,4,7,4,0,0,0,4,0,0,0,0,0,0,0,5,0,0,7,0,0,0,0,0
+flask,81be290ec8,2022-06-05,cbbf6e73,view function is actually type checked,5,4,63,45,35,26,0,0,0,12,0,0,0,0,0,0,0,61,4,4,32,0,0,0,0,0
+flask,72cae9ce2b,2022-06-05,de1b4bef,Remove extra backtick,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,61f62e6005,2022-05-23,cbbf6e73,access flask types through namespace alias,5,5,77,96,77,96,0,0,0,54,0,0,1,0,0,0,0,61,3,15,77,0,0,0,0,0
+flask,8cb950671f,2022-05-23,b5116726,use bound typevar to accept Flask and Werkzeug Response classes,2,1,8,2,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+flask,a4f63e0390,2022-05-23,cbbf6e73,start version 2.1.3,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,1232d69860,2022-05-23,cbbf6e73,inline conditional imports for cli behaviors,3,1,40,35,22,31,0,0,0,4,0,0,0,0,0,0,0,27,0,0,17,0,0,1,0,0
+flask,a406c297aa,2022-05-23,cbbf6e73,apply setupmethod consistently,3,3,53,30,53,30,0,0,1,3,0,0,0,0,3,3,0,4,0,0,52,0,0,0,0,0
+flask,eb36135cfe,2022-05-23,c9114da4,always warn on blueprint setupmethod after registration,3,2,11,5,7,5,0,1,0,2,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+flask,69e2300608,2022-05-15,cbbf6e73,use app.url_for as template global,2,1,4,2,3,2,0,0,0,2,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+flask,39f9363296,2022-05-14,cbbf6e73,finish moving url_for to app,3,2,189,156,181,152,0,0,0,4,2,0,0,0,0,0,0,55,3,131,144,0,0,0,0,0
+flask,92acd05d9b,2022-05-14,24a37590,add url_for method to app,2,2,46,37,46,37,0,0,0,1,0,1,0,0,1,0,0,28,1,1,36,0,0,0,0,0
+flask,fac630379d,2022-05-12,cbbf6e73,update app.redirect docs,3,2,17,11,9,4,0,0,0,2,0,0,0,0,0,0,0,6,0,0,8,0,0,0,0,0
+flask,eb5dd9f5ef,2022-05-12,554b2d5a,add aborter object to app,5,3,92,1,58,1,0,0,0,1,0,0,1,0,2,0,0,55,1,1,34,0,0,0,0,0
+flask,fdab801fbb,2022-05-10,8a5b491f,add redirect method to app,5,3,55,1,36,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,27,0,0,0,0,0
+flask,a74e266474,2022-05-03,84f8a183,skip coverage for TYPE_CHECKING,13,13,13,13,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+flask,1e5dd43022,2022-05-03,fe784032,refactor error checks in register_error_handler,4,1,42,37,23,20,0,0,0,2,0,0,0,0,0,0,0,31,0,0,21,0,0,0,0,1
+flask,8ddbad9ccd,2022-05-02,53eae1fd,Fix linting error.,1,1,8,1,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+flask,7b28a9057d,2022-04-28,cbbf6e73,release version 2.1.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,5050a18a00,2022-04-24,2d178d35,evaluate --cert before --key,3,1,11,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+flask,eede1a3685,2022-04-24,a277991b,fix annotation for json.loads,2,1,8,1,5,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+flask,69f71b4d94,2022-04-24,cbbf6e73,start version 2.1.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,c6f297719e,2022-03-30,cbbf6e73,release version 2.1.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,d023d94371,2022-03-30,cbbf6e73,set importlib_metadata minimum version,2,1,4,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+flask,5589915b38,2022-03-30,cbbf6e73,start version 2.1.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,b109b092a9,2022-03-28,cbbf6e73,start version 2.2.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,7d264d7dc5,2022-03-28,cbbf6e73,release version 2.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,cd4ab005a9,2022-03-28,cbbf6e73,fix typing,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+flask,41aaaf7fa0,2022-03-25,cbbf6e73,clean up unused function from prefixed_env pr,1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+flask,4eb5e9455b,2022-03-25,cbbf6e73,more from_prefixed_env features,4,1,136,62,55,29,0,0,0,2,0,0,0,0,0,0,0,25,0,0,41,0,0,0,0,0
+flask,08a283af5e,2022-03-25,99b63ffc,Allow loading of environment variables into the config,3,1,94,23,46,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,36,0,0,0,0,0
+flask,81c7ff7f8d,2022-03-25,cbbf6e73,update tests for relative redirects,6,1,20,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,6578b493c8,2022-03-23,cbbf6e73,better override for json BadRequest error,1,1,7,5,7,5,0,0,0,1,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,0
+flask,0a300d007d,2022-03-23,cbbf6e73,better replacement of original form KeyError,2,2,10,6,10,6,0,0,0,3,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+flask,c9a1f7ad65,2022-03-23,cbbf6e73,don't intercept 307/308 routing redirects,3,2,44,35,29,22,0,0,0,2,0,0,0,0,0,0,0,19,0,0,26,0,0,0,0,0
+flask,faaa5594b2,2022-03-15,cbbf6e73,accurate type for __exit__,3,2,14,3,12,3,0,0,0,3,0,0,0,0,0,0,0,13,0,0,12,0,0,0,0,0
+flask,190dd4df86,2022-03-15,cbbf6e73,don't use AnyStr for ResponseValue type,3,3,15,9,15,9,0,0,0,2,0,0,1,0,0,0,0,59,1,9,15,0,0,0,0,0
+flask,8886328822,2022-03-15,cbbf6e73,relax errorhandler function arg type,5,4,19,27,16,27,0,0,0,6,0,0,0,1,1,1,0,40,1,1,10,0,0,0,0,0
+flask,b707bf443a,2022-03-15,4f5fb8ba,Preserve HttpOnly flag when deleting session cookie,2,1,9,2,7,2,0,0,0,1,0,0,0,0,0,0,0,36,0,0,7,0,0,0,0,0
+flask,af34b8c9e7,2022-03-08,cf1ddeb7,Add better types for app decorators,1,1,13,8,13,8,0,0,0,8,0,0,0,0,0,0,0,9,0,0,13,0,0,0,0,0
+flask,aa13521d42,2022-02-22,cbbf6e73,lazy loading preserves click context,2,1,11,0,8,0,0,0,0,2,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+flask,6f79cb8a23,2022-02-16,c7f9c75e,Fix typing on `app.session_interface`,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+flask,702d973b1f,2022-02-14,cbbf6e73,release version 2.0.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,beae1249f7,2022-02-09,b0989d58,add `exclude-patterns` option to `flask run`,3,1,33,1,21,1,0,0,0,1,0,0,1,0,0,0,0,31,1,11,21,0,0,0,0,0
+flask,1be65b1b69,2022-02-09,cbbf6e73,overriding FlaskClient.open works with redirects,2,1,33,30,31,30,0,0,0,1,0,0,0,0,2,1,0,28,0,0,26,0,0,0,0,0
+flask,9a134da31b,2022-01-27,6c493194,Match typing declaration with implementation.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+flask,751d85f3de,2022-01-17,9e5eaaa3,cli: use importlib.metadata instead of pkg_resources,3,2,15,6,13,6,0,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,1,0,0
+flask,aab064fee1,2022-01-14,cbbf6e73,remove deprecated as_tuple parameter from test_client,2,1,7,24,5,24,0,0,0,1,0,1,0,0,0,0,0,34,1,5,5,0,0,0,1,0
+flask,b1a00ebc4c,2021-12-22,cbbf6e73,update error message for after_this_request and copy_current_request_context,2,1,9,8,8,7,0,0,0,2,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+flask,633449a36c,2021-12-22,29938b13,fix error message,2,1,11,1,9,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,8,0,0,0,0,0
+flask,a841cfabb5,2021-12-22,b70518e1,Only use a custom JSONDecoder if needed,2,1,12,3,9,3,0,0,0,2,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+flask,9d36623db1,2021-12-22,cbbf6e73,update requirements,6,1,44,43,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+flask,c8ddb948f6,2021-11-16,cbbf6e73,deprecate RequestContext.g,2,1,22,2,20,2,0,0,0,2,0,0,0,0,0,0,0,10,0,0,18,0,0,0,0,0
+flask,47e4bd5059,2021-11-16,99b63ffc,copy_current_request_context can decorate async functions,2,1,4,1,1,1,0,0,0,2,0,0,0,0,0,0,0,11,0,0,1,0,1,0,0,0
+flask,282d8621dd,2021-11-16,cbbf6e73,document session lifetime and possible concurrency issues,1,1,20,8,20,8,0,0,0,2,0,0,0,0,0,0,0,4,0,0,17,0,1,0,0,0
+flask,e679a85b80,2021-11-15,98d80251,made ImportError verbose in cli.py,2,1,7,4,5,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,5,0,0,1,0,0
+flask,46b39e2698,2021-11-15,5bf07b98,fix errorhandler type check,2,1,2,8,1,8,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+flask,564bb27efa,2021-11-15,cbbf6e73,deprecate as_tuple,2,1,41,12,30,12,0,0,0,2,0,0,1,0,0,0,0,51,1,24,27,0,0,0,0,0
+flask,15a3e82823,2021-11-12,cbbf6e73,extend deprecation for renamed send_file params,2,1,13,4,4,4,0,0,0,2,0,0,0,0,0,0,0,48,1,3,4,0,0,0,0,0
+flask,48f2afbf90,2021-11-12,cbbf6e73,same blueprint cannot be registered with same name,3,1,10,18,6,16,0,0,0,1,0,0,0,1,0,0,0,75,1,6,6,0,0,0,0,0
+flask,f8cdc78ce1,2021-11-12,cbbf6e73,remove deprecated total_seconds,2,1,2,22,0,22,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+flask,b7501776a1,2021-11-12,cbbf6e73,remove deprecated safe_join,4,2,2,27,0,25,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+flask,218534a9f2,2021-11-12,cbbf6e73,remove deprecated json encoding parameter,2,1,2,60,1,60,0,0,0,4,0,0,0,0,0,0,0,5,0,0,1,0,0,0,1,0
+flask,2bd7aed1a4,2021-11-12,cbbf6e73,remove deprecated config.from_json,2,1,5,26,3,26,0,0,0,1,0,0,0,0,0,1,0,16,0,0,2,0,0,0,1,0
+flask,e21e003f62,2021-11-12,cbbf6e73,remove deprecated script_info factory arg,3,1,34,102,13,57,0,0,1,5,0,0,1,0,0,1,0,54,2,6,13,0,0,0,1,0
+flask,1b552d0b01,2021-11-11,cbbf6e73,remove ContextVar compat,6,1,22,13,0,8,0,0,0,1,0,0,0,0,0,0,0,10,0,0,0,0,0,0,1,0
+flask,e609dddd60,2021-11-11,cbbf6e73,drop Python 3.6,9,1,11,33,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,174fe4453a,2021-10-04,cbbf6e73,release version 2.0.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,3f6cdbd8b3,2021-10-03,cbbf6e73,use similar code for all callback-applying methods,1,1,52,51,52,51,0,0,0,6,0,0,0,0,0,0,0,15,0,0,34,0,0,0,0,0
+flask,166a2a6207,2021-10-03,863e34aa,Fix callback order for nested blueprints,3,1,105,26,22,26,1,0,0,5,0,0,0,0,0,0,0,16,0,0,22,0,0,0,0,0
+flask,22933a8cb4,2021-10-01,3abd903b,fix docs for Flask.test_client_class,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,6a4bf9eec1,2021-10-01,cbbf6e73,use exception chaining,5,5,21,20,21,20,0,0,0,10,0,0,0,0,0,0,0,55,3,9,19,0,0,0,0,0
+flask,aa1d34dc51,2021-09-22,3abd903b,Fix grammatical error (#4268),1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,3,0,0,4,0,0,0,0,0
+flask,9f0da9b770,2021-08-05,23065922,cli loader handles kwargs in app factory,3,1,26,12,15,12,0,0,0,1,0,0,0,0,0,0,0,25,0,0,13,0,0,0,0,0
+flask,aa6dd09c2c,2021-08-05,16cf5583,correctly handle raising deferred errors in cli lazy loading,3,1,16,8,9,8,0,0,0,5,0,0,0,0,0,0,0,11,0,0,8,0,0,0,0,0
+flask,892ae95509,2021-08-05,d1cb45b5,jsonify encodes decimal to str,3,1,16,1,8,1,0,0,0,3,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+flask,9a2adfba4d,2021-08-05,29938b13,static_folder can be a pathlib.Path,4,3,8,5,6,5,0,0,0,4,0,0,0,0,0,0,0,54,3,4,6,0,0,0,0,0
+flask,e18ed45c88,2021-08-05,2ffeb34d,document return value for config loading methods,1,1,5,1,5,1,0,0,0,5,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+flask,6e1b72096d,2021-07-06,c7c80f9f,Fix typo in docs,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+flask,a44c722860,2021-06-14,99b63ffc,Fix registering a blueprint twice with differing names,3,1,16,3,5,3,1,0,0,1,0,0,1,0,0,0,0,84,1,4,4,0,0,0,0,0
+flask,6a4e7e948d,2021-06-01,c4cf7db4,improve typing for `app.errorhandler` decorator,5,4,38,13,37,13,0,0,0,6,0,0,1,0,2,1,0,43,1,4,33,0,0,0,0,0
+flask,270eb2df2a,2021-06-01,5ed4f7dc,Support View and MethodView instances with async handlers,4,1,34,3,3,2,0,0,0,3,0,0,0,0,0,0,0,16,0,0,3,0,1,0,0,0
+flask,491ea32803,2021-06-01,02a58c68,Optimize loop in Flask._find_error_handler(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+flask,8e589daaf2,2021-05-29,7d11269c,Fix typing of jinja decorators (#4109),2,1,5,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+flask,a960236117,2021-05-25,7184db5d,Fix type annotation for `before_request` and `before_app_request` decorators,4,3,13,6,10,5,1,0,0,3,0,0,0,0,0,0,0,54,1,1,10,0,0,0,0,0
+flask,f7adb2c813,2021-05-24,c4cf7db4,improve typing for `teardown_request`,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,e22021d531,2021-05-21,cbbf6e73,start version 2.0.2.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,fe2d744b53,2021-05-21,cbbf6e73,release version 2.0.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,7ab934f6bc,2021-05-21,cbbf6e73,improve typing for `stream_with_context`,2,1,5,2,4,2,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+flask,3257b7574e,2021-05-21,99b63ffc,Fix blueprint renaming,2,1,25,1,3,1,1,0,0,2,0,0,0,0,0,0,0,25,0,0,2,0,0,0,0,0
+flask,714b0a467a,2021-05-21,99b63ffc,Fix blueprint self registration,2,1,8,0,2,0,1,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+flask,9409be6e34,2021-05-21,cbbf6e73,warn when registering same blueprint with same name,3,1,34,17,24,12,0,0,0,1,0,0,1,0,0,0,0,83,1,22,22,0,0,0,0,0
+flask,63b306743f,2021-05-21,cbbf6e73,changelog for blueprint registered name,3,2,30,0,23,0,0,0,0,3,0,0,0,0,0,0,0,75,1,9,19,0,0,0,0,0
+flask,67b0b7e30d,2021-05-21,cbbf6e73,cache blueprint path calculation,3,3,55,29,55,29,0,0,0,4,0,0,0,0,1,0,0,8,0,0,41,0,0,0,0,0
+flask,c2920e2bd9,2021-05-21,99b63ffc,Bugfix allow blueprints to be registered with a different name,2,1,15,1,2,1,1,0,0,1,0,0,1,0,0,0,0,75,1,2,2,0,0,0,0,0
+flask,141fde1d8e,2021-05-21,99b63ffc,Bugfix blueprint naming,3,3,51,34,51,34,1,0,0,9,0,0,1,0,1,1,0,74,1,16,40,0,0,0,0,0
+flask,99afbb277d,2021-05-21,99b63ffc,Fix blueprint nested url_prefix,2,1,28,42,3,1,1,0,0,1,0,0,1,0,0,0,0,73,1,3,3,0,0,0,0,0
+flask,10a36cb60e,2021-05-21,cda9e34a,Improve decorator factory type signatures,3,3,19,7,19,7,0,0,0,7,0,0,0,0,0,0,0,5,0,0,19,0,0,0,0,0
+flask,8796b2a784,2021-05-21,cda9e34a,Use TypeVar for setupmethod(),1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+flask,bf982718cf,2021-05-21,cda9e34a,Make add_url_rule() signature consistent,2,2,11,2,11,2,0,0,0,2,1,0,0,0,0,0,0,21,2,11,11,0,0,0,0,0
+flask,10425fb9b1,2021-05-20,cbbf6e73,re-add deprecated Config.from_json method,2,1,27,0,25,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0
+flask,afc907fd0d,2021-05-17,cbbf6e73,use _typeshed.wsgi instead of wsgiref.types,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,6fbdeb80c7,2021-05-17,99b63ffc,Fix nested blueprint url_prefix,2,1,16,0,2,0,1,0,0,1,0,0,1,0,0,0,0,71,1,2,2,0,0,0,0,0
+flask,a7b02b3a07,2021-05-14,cbbf6e73,converters have access to session,4,1,28,16,5,3,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+flask,64a5d7a018,2021-05-13,cbbf6e73,release version 1.1.4,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,3ace642ef3,2021-05-13,b52f0e6b,Use compat fspath instead of os.fspath When 7ba35c4 was cherry-picked it introduced the usage of os.,4,2,9,3,2,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+flask,661bbcdb90,2021-05-13,cbbf6e73,release version 1.1.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,6d8b4ce9d0,2021-05-13,cbbf6e73,set maximum versions of pallets dependencies,3,2,11,9,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0
+flask,e93704fbfd,2021-05-13,a8b1f4ab,fix url_prefix argument when nesting blueprints,3,1,45,6,10,6,1,0,0,1,0,0,1,0,0,0,0,69,1,8,8,0,0,0,0,0
+flask,7c5261407d,2021-05-13,cbbf6e73,blueprint name may not contain a dot,4,1,28,85,10,6,0,0,0,2,0,0,1,0,0,0,0,31,1,2,6,0,0,0,0,0
+flask,d5aadba4d3,2021-05-13,a8b1f4ab,improve type hints for send_file and send_from_directory,3,2,32,22,30,22,0,0,0,4,0,0,2,0,0,0,0,48,2,24,30,0,0,0,0,0
+flask,25884c433f,2021-05-13,cbbf6e73,fix typing that wasn't available in Python 3.6.0,4,3,7,3,6,3,1,0,0,3,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+flask,6fe7f45725,2021-05-13,cbbf6e73,inform mypy that g has arbitrary attributes,2,1,22,2,20,2,0,0,0,2,0,0,0,0,3,0,0,2,0,0,14,0,0,0,0,0
+flask,2baaa8fd8e,2021-05-13,cbbf6e73,fix annotation for g object,1,1,5,3,5,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+flask,89475e5d1e,2021-05-13,cbbf6e73,mark top-level names as exported,2,1,43,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,0,0,0,0,0
+flask,fc82dd50e3,2021-05-12,a8b1f4ab,Re-add filename param for send_from_directory,2,1,19,1,15,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,13,0,0,0,0,0
+flask,80a4e62096,2021-05-11,cbbf6e73,update click minimum version,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,2846abaefe,2021-05-11,cbbf6e73,start version 2.1.0.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,6fb1101f70,2021-05-11,cbbf6e73,start version 2.0.1.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,f8e63d3991,2021-05-11,cbbf6e73,release version 2.0.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,1403d35e2a,2021-05-11,cbbf6e73,update type annotations,3,3,10,7,10,7,0,0,0,4,0,0,0,0,0,0,0,21,0,0,10,0,0,0,0,0
+flask,3a5532b4ed,2021-05-11,cbbf6e73,update pallets projects minimum versions,2,1,4,13,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+flask,e2b7d1056c,2021-05-03,cbbf6e73,release version 2.0.0rc2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,2889da67cb,2021-05-03,99b63ffc,Remove the async helper method,3,2,34,28,32,26,0,0,0,1,0,0,0,0,1,1,0,4,0,0,24,0,1,0,1,0
+flask,7f87f3dd93,2021-05-03,99b63ffc,Simplify the async handling code,6,4,53,68,36,66,0,0,0,24,0,0,0,2,1,4,0,67,2,6,34,0,1,0,0,1
+flask,cb13128cf0,2021-05-03,99b63ffc,Remove context copying from run_async function,1,1,4,29,4,29,0,0,0,1,0,0,0,0,1,2,0,15,0,0,4,0,1,0,1,0
+flask,26a6cc0f94,2021-04-27,c7c80f9f,Allow using Click 7 with a DeprecationWarning,5,2,26,3,8,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+flask,10b0d6b33f,2021-04-27,c7c80f9f,Move get_root_path back to flask.helpers,2,2,52,49,52,49,0,0,0,0,0,0,0,0,1,1,0,0,0,0,32,0,0,0,1,0
+flask,77237093da,2021-04-26,99b63ffc,Add initial type hints,20,19,820,461,819,461,0,0,0,307,0,0,6,0,0,0,0,71,13,114,788,0,0,0,0,0
+flask,7df5db7b0c,2021-04-16,cbbf6e73,release version 2.0.0rc1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,07000942da,2021-04-16,cbbf6e73,update minimum install requirements,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+flask,5c6a0f0c12,2021-04-16,99b63ffc,Fix wrapped view function comparison,3,2,5,1,3,0,1,0,0,2,0,0,1,0,0,0,0,45,1,2,3,0,0,0,0,0
+flask,ec27677f95,2021-04-15,cbbf6e73,remove _os_alt_seps,1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,85b430a366,2021-04-15,cbbf6e73,deprecate total_seconds,3,2,13,2,11,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+flask,5a7a4ab4c5,2021-04-15,cbbf6e73,locked_cached_property subclasses cached_property,1,1,19,20,19,20,0,0,0,2,0,0,0,0,2,0,0,5,0,0,15,0,1,0,0,0
+flask,8ab4967703,2021-04-15,cbbf6e73,consistent versions and deprecation messages,4,4,26,23,26,23,0,0,0,8,0,0,1,0,0,0,0,46,2,8,26,0,0,0,0,0
+flask,32272da9ac,2021-04-14,cbbf6e73,shell calls sys.__interativehook__,2,1,20,0,18,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,10,0,0,0,0,0
+flask,f92e820b4b,2021-04-14,99b63ffc,Nested blueprints,5,2,154,56,79,56,0,0,0,10,0,0,2,0,2,0,0,71,2,32,71,0,0,0,0,0
+flask,6d5ccdefe2,2021-04-12,99b63ffc,Bugfix iscoroutinefunction with Python3.7,1,1,16,1,16,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+flask,dc3e9c0cc3,2021-04-06,cbbf6e73,update async docs,7,3,109,65,12,10,0,0,0,5,0,0,0,0,0,0,0,14,0,0,11,0,1,0,0,0
+flask,00f5a3e55c,2021-04-06,99b63ffc,Alter ensure_sync implementation to support extensions,5,4,169,32,68,26,0,0,0,6,1,0,0,0,2,1,0,51,1,27,57,0,0,0,0,0
+flask,c6c6408c3f,2021-04-06,99b63ffc,Raise a runtime error if run_async is called without real ContextVars,3,1,19,1,6,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,5,0,1,0,0,0
+flask,6979265fa6,2021-04-06,99b63ffc,Add `async` support,11,4,165,9,68,9,0,0,0,9,0,0,0,0,4,0,0,43,1,1,57,0,1,0,0,0
+flask,3dfc12e8d8,2021-03-10,cbbf6e73,only extend on first registration,1,1,44,49,44,49,0,0,0,2,0,0,0,0,2,2,0,33,0,0,36,0,0,0,0,0
+flask,ef52e3e4a3,2021-03-10,cbbf6e73,remove redundant _register_error_handler,1,1,2,11,2,11,0,0,0,3,0,0,0,0,0,1,0,16,0,0,2,0,0,0,1,0
+flask,25ab05e6a2,2021-03-10,cbbf6e73,remove old note about InternalServerError,1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,7029674775,2021-03-10,cbbf6e73,rewrite Scaffold docs,3,3,208,169,208,169,0,0,2,8,0,0,0,0,0,0,0,26,2,44,102,0,0,0,0,0
+flask,9f7c602a84,2021-03-10,cbbf6e73,move _PackageBoundObject into Scaffold,3,3,344,353,344,353,0,0,0,4,0,0,1,0,14,15,0,26,1,6,223,0,0,0,1,0
+flask,33145c3699,2021-03-10,a8b1f4ab,Set default encoding to UTF-8 for load_dotenv,3,1,9,4,5,2,0,0,0,1,0,0,0,0,0,0,0,23,0,0,4,0,0,0,0,0
+flask,83d358d2c4,2021-03-08,99b63ffc,"remove _blueprint_order, dicts are ordered",1,1,5,6,5,6,0,0,0,3,0,0,0,1,0,0,0,52,1,0,1,0,0,0,1,0
+flask,fd62210f58,2021-03-08,99b63ffc,Utilise defaultdicts,3,3,23,21,23,21,0,0,0,13,0,0,1,0,0,0,0,34,1,9,23,0,0,0,0,0
+flask,705e52684a,2021-03-08,99b63ffc,Add syntatic sugar for route registration,3,1,61,0,41,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,29,0,0,0,0,0
+flask,49b7341a49,2021-02-25,a8b1f4ab,update json.dumps for http_date changes,3,1,12,17,1,4,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+flask,0c7cbe2d11,2021-02-24,cbbf6e73,move version to setup.cfg,2,1,1,7,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,b473e7c97c,2021-02-01,cbbf6e73,use Jinja's tojson filter,7,2,28,88,11,17,0,0,0,2,0,0,0,0,0,1,0,17,0,0,10,0,0,0,0,0
+flask,01621485fd,2021-02-01,11d0f2fb,Ensure session_interface.open_session is called after URL matching (#3776),3,1,28,3,3,3,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,1,0
+flask,81ba6c24ef,2021-02-01,cbbf6e73,remove Jinja 'autoescape' and 'with' extensions,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
+flask,055cdc2625,2021-01-29,cbbf6e73,click detects program name when run as module,2,2,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,2,0,0,4,0,0,1,0,0
+flask,64206c13c2,2021-01-29,cbbf6e73,simplify InternalServerError.original_exception,2,1,5,22,1,4,0,0,2,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,1
+flask,eb42655c46,2021-01-29,cbbf6e73,simplify BadRequestKeyError.show_exception,1,1,4,11,4,11,0,0,1,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,1
+flask,14f56363a4,2021-01-29,cbbf6e73,rename send_file add_etags to etag,2,1,23,4,21,3,0,0,0,2,1,0,1,0,0,0,0,45,2,19,19,0,0,0,0,0
+flask,1936ca8a2e,2021-01-29,cbbf6e73,remove BaseRequest and BaseResponse,5,3,5,5,3,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,1,0
+flask,fdba0d2526,2021-01-29,cbbf6e73,remove JSONMixin,2,1,17,32,11,15,0,0,0,1,0,0,0,0,0,1,0,4,0,0,8,0,0,0,1,0
+flask,2fab8a31ae,2021-01-04,a8b1f4ab,Fix broken func directives in docstrings,1,1,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+flask,aff21fd8bc,2021-01-04,c554c7d2,Document parameter description error,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+flask,dc11cdb4a4,2020-11-05,cbbf6e73,move send_file and send_from_directory to Werkzeug,8,2,259,653,201,298,0,0,0,6,0,0,0,1,1,0,0,27,1,80,174,0,0,0,1,0
+flask,22987b6817,2020-11-04,8448ae00,include samesite and secure when removing session cookie (#3726),3,1,20,3,5,3,0,0,0,1,0,0,0,0,0,0,0,29,0,0,5,1,0,1,0,0
+flask,7a444c5dab,2020-11-04,cbbf6e73,update tests for new werkzeug client (#3827),4,1,42,36,35,27,0,0,0,1,1,0,0,0,1,0,0,31,1,28,30,0,0,0,0,0
+flask,373f0dd82e,2020-11-01,cbbf6e73,update requirements (#3823),7,2,33,35,3,6,0,0,0,2,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+flask,1c6dc15420,2020-10-31,cbbf6e73,fix response bases order,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,5d60cce242,2020-10-29,54f5b5d2,Updating external_url_handler example to Python 3 (#3816),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,54,1,1,1,0,0,0,0,0
+flask,bdf7083cfd,2020-10-07,ff6ab1fb,refer to encoder instead of decoder,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,8efea0ccbb,2020-10-03,bdb684a8,Break reference cycle created by default in Flask instances.,2,1,29,1,5,1,0,0,0,1,0,0,1,0,0,0,0,53,1,2,3,0,0,1,0,0
+flask,5bfe236fb5,2020-08-26,adbf071c,fix typo in flask shell help (#3744),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+flask,1f1b65a625,2020-08-23,014eac93,fixed #3738 typo in src/flask/blueprints.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,cf3089a8f8,2020-08-13,82ba5237,Discover app factory deterministically,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+flask,b146a13f63,2020-08-01,5855c637,extract common Flask/Blueprint API to Scaffold base class,5,4,473,495,468,495,0,0,0,3,2,0,1,1,25,32,0,52,2,12,315,0,0,0,1,0
+flask,253570784c,2020-07-30,cbbf6e73,cleaner message when CLI can't load app,4,1,58,37,22,24,0,0,0,2,0,0,0,0,0,0,0,11,0,0,8,0,0,0,0,0
+flask,7b09a0904c,2020-07-23,235f1ad8,change make_response to use headers.update,3,1,15,7,1,1,0,0,0,1,0,0,0,0,0,0,0,54,1,1,1,0,0,1,0,0
+flask,4a1acc8b5f,2020-07-08,c7ba33ae,Some small doc fixes,2,1,4,3,2,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+flask,b724832872,2020-07-06,6e4eada6,Cherry-pick 7ba35c4 from master (support pathlib.Path for static_folder),3,1,22,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+flask,7ba35c4d4f,2020-07-06,6e4eada6,Restore support for using pathlib.Path for static_folder.,3,1,20,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+flask,84cbfc0698,2020-07-05,a8b1f4ab,Stop change CWD to .env/.flaskenv location,2,1,1,8,0,7,0,0,0,1,0,1,0,0,0,0,0,23,1,0,0,0,0,0,0,0
+flask,eea31f29a5,2020-05-23,cbbf6e73,use pip-compile to pin dev requirements,13,1,137,29,1,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,846ee2c62e,2020-04-16,212cdd8a,add assert message for errorhandler exception type,2,1,11,1,3,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+flask,ff2f71379b,2020-04-07,cbbf6e73,use ast to parse FLASK_APP,4,1,67,40,63,37,0,0,0,4,1,0,0,0,0,0,0,53,1,31,49,0,0,0,0,0
+flask,fcac7f11cf,2020-04-07,cbbf6e73,deprecate passing script_info to factory,5,1,45,38,15,8,0,0,0,2,0,0,0,0,0,0,0,38,0,0,15,0,0,0,0,0
+flask,756902cca1,2020-04-07,cbbf6e73,update json docs,4,2,142,135,123,106,0,0,0,8,0,0,0,0,0,0,0,17,0,0,112,0,0,0,0,0
+flask,8b5f760b72,2020-04-07,cbbf6e73,deprecate JSON encoding options,2,1,54,49,54,48,0,0,0,8,0,0,0,0,0,2,0,17,0,0,48,0,0,0,0,0
+flask,c43edfc7c0,2020-04-07,cbbf6e73,remove simplejson,6,1,27,113,20,69,0,0,0,4,0,1,0,0,0,1,0,7,0,0,12,0,0,0,1,0
+flask,024f0d384c,2020-04-04,cbbf6e73,move package metadata to setup.cfg,14,2,142,151,3,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+flask,171aabc87d,2020-04-04,cbbf6e73,remove unused ref directives,55,6,129,221,13,14,0,0,0,5,0,0,0,0,0,0,0,54,2,5,13,0,0,0,1,0
+flask,f2f027d1fb,2020-04-04,cbbf6e73,remove unused module docstrings,37,19,15,331,15,182,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,1,0
+flask,2ae740dd49,2020-04-04,cbbf6e73,f-strings everywhere,35,12,227,245,148,165,0,0,0,38,0,0,1,2,0,0,0,114,8,49,145,0,0,0,0,0
+flask,524fd0bc8c,2020-04-04,cbbf6e73,apply pyupgrade,54,20,169,230,68,98,0,0,0,37,0,0,0,0,0,0,0,43,4,7,68,0,0,0,0,0
+flask,57d628ca74,2020-04-04,cbbf6e73,remove more compat code,9,3,37,89,25,49,0,0,0,6,0,1,0,1,0,0,0,117,2,14,17,0,0,0,1,0
+flask,662c245795,2020-04-04,cbbf6e73,remove _compat module,20,11,68,274,55,223,0,0,0,25,0,1,0,1,0,7,0,120,5,14,46,0,0,1,1,0
+flask,1263d3bd14,2020-04-04,cbbf6e73,remove deprecated code,9,6,0,198,0,167,0,0,0,1,0,0,0,0,0,11,0,7,0,0,0,0,0,0,1,0
+flask,a0a61acdec,2020-04-04,cbbf6e73,drop support for Python 2.7 and 3.5,7,2,54,130,2,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,7673835b3d,2020-04-04,cbbf6e73,remove Python 2 from docs,17,2,53,908,7,9,0,0,0,1,0,0,0,0,0,0,0,55,1,2,5,0,0,0,1,0
+flask,93dd1709d0,2020-04-03,cbbf6e73,release version 1.1.2,3,1,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,4024a4a89c,2020-04-03,cbbf6e73,update deprecation versions,2,2,18,17,18,17,0,0,0,4,0,0,0,0,0,0,0,9,0,0,18,0,0,0,0,0
+flask,4548e00dba,2020-04-03,0b0dfa3f,clarify static_folder is relative to root_path,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+flask,e047dd6a32,2020-03-18,3653b974,Update deprecated for config.from_json,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+flask,d5f88dafaf,2020-03-11,9ce77cf3,refactor variable choices into if blocks,1,1,18,11,18,11,0,0,0,2,0,0,1,0,0,0,0,38,1,12,16,0,0,0,0,1
+flask,e6178fe489,2020-02-12,8152d34d,Handle different sep across os,1,1,3,1,3,1,0,0,0,2,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+flask,d4076cf07c,2020-02-10,c53f182d,strip the ending slash for static_url_path,3,1,14,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+flask,bcde664f9a,2020-02-10,cbbf6e73,cli checks for cryptography library,3,1,11,7,5,3,0,0,0,2,1,0,0,0,0,0,0,29,1,1,5,0,0,0,0,0
+flask,5da342e4dd,2020-02-10,2c9783cb,fix docstring and remove redundant parentheses,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,1,0
+flask,d92b64aa27,2020-02-10,cbbf6e73,clean up merge,2,1,3,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+flask,900fa2f795,2020-02-10,a2f0457f,Feature request #3445.,2,1,3,2,2,2,0,0,0,1,0,0,0,0,0,0,0,55,1,2,2,0,0,0,0,0
+flask,79c71f24e4,2020-02-10,c7ba33ae,0.12.6.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,191710cbda,2020-02-10,c7ba33ae,Bump version number to 0.12.5,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,85db0135cb,2020-02-10,c7ba33ae,Pin Werkzeug < 1.0 for 0.12 (#3497),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,8d5234e4c7,2020-02-09,cbbf6e73,next version 1.2.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,38eb5d3b49,2019-11-25,c7c80f9f,Remove comment about extension backwards compat,1,1,1,6,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,ef434ea998,2019-11-19,a8b1f4ab,Replace old pocoo links everywhere,12,1,13,13,1,1,0,0,0,1,0,0,0,0,0,0,0,38,1,1,1,0,0,0,0,0
+flask,980168d084,2019-11-19,cbbf6e73,send_file doesn't allow StringIO,3,1,102,94,50,38,0,0,0,1,0,0,1,0,0,0,0,120,1,43,43,0,0,0,0,0
+flask,33d9f9fa08,2019-11-18,94c6a075,declare support for Python 3.8,2,1,5,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+flask,a671e47921,2019-11-18,cbbf6e73,rewrite the development server docs,3,1,64,37,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,240a11052b,2019-11-18,cbbf6e73,lazy load app on reload only,2,1,8,4,5,4,0,0,0,2,0,0,0,1,0,0,0,21,1,0,3,0,0,0,0,0
+flask,1feb69d595,2019-11-13,b2db4bfa,Update `versionadded` for `Config.from_file`,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+flask,aac0f585b9,2019-10-18,cbbf6e73,clean up config.from_file docs,3,1,54,38,35,28,0,0,0,2,0,0,0,0,0,0,0,11,0,0,28,0,0,0,0,1
+flask,829aa65e64,2019-10-18,99b63ffc,Support loading configuration from text files,3,1,56,16,33,8,0,0,0,1,0,0,0,0,1,0,0,8,0,0,30,0,0,0,0,0
+flask,0c0b31a789,2019-10-12,e6680b7f,get_cookie_name in SessionInterface for easier overriding in SecureCookieSessionInterface,3,1,73,5,11,5,0,0,0,2,0,0,0,0,1,0,0,27,0,0,9,1,0,0,1,0
+flask,553b26f857,2019-08-15,504249c6,Fix typo in pop documentation,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+flask,353d891561,2019-08-09,ba7b38a0,fixed typo in logging docstring (#3328),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+flask,a0a49e1c9e,2019-07-24,6d777db9,clean up outdated code,1,1,1,12,1,12,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,1
+flask,ded3d642a7,2019-07-10,cbbf6e73,pass sys.argv to flask cli,3,2,12,2,3,2,0,1,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+flask,c478e5d52f,2019-07-10,cbbf6e73,pass sys.argv to flask cli,3,2,12,2,3,2,0,1,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+flask,ffc68840f8,2019-07-08,cbbf6e73,release version 1.1.1,4,2,5,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,1617202d91,2019-07-08,cbbf6e73,restore and deprecate json_available,4,2,54,1,32,1,0,0,0,0,0,0,0,0,5,0,0,0,0,0,22,0,0,0,0,0
+flask,1b4ace9ba5,2019-07-04,cbbf6e73,release version 1.1.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,626b5cc166,2019-07-04,cbbf6e73,release version 1.0.4,3,2,5,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,975f979269,2019-07-03,c7c80f9f,Move dotenv warning to stderr,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,21,1,1,1,0,0,0,1,0
+flask,b08e35e4ab,2019-07-02,cbbf6e73,show warning for old logger config,3,1,41,3,30,1,0,0,0,1,0,0,0,0,1,0,0,17,0,0,23,0,0,0,0,0
+flask,df470aecb9,2019-07-01,cbbf6e73,use app.name as app.logger name,8,2,40,25,21,14,0,0,0,2,0,0,0,0,0,0,0,7,0,0,19,0,0,0,0,0
+flask,3aff003c45,2019-07-01,efb6d9e9,Update cli.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,a5ecdfa7a5,2019-07-01,1266f590,Fixes for PEP451 import loaders and pytest 5.x,6,1,57,25,46,15,1,0,0,1,1,0,0,0,1,0,0,17,0,0,33,0,0,1,0,0
+flask,54cbb4e642,2019-06-27,cbbf6e73,"send_file quotes "":/"" in UTF-8 filename",3,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,94,1,1,1,0,0,0,0,0
+flask,871e6d6a9d,2019-06-26,cbbf6e73,don't clear BadRequestKeyError args,3,2,16,6,6,6,0,1,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+flask,24498afed5,2019-06-22,cbbf6e73,standardize project metadata,6,1,68,281,57,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,0,0,0,0,0
+flask,e666f7a69c,2019-06-22,cbbf6e73,standardize license and copyright,44,20,133,178,40,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0
+flask,54519ef028,2019-06-21,cbbf6e73,document behavior of very generic error handlers,3,1,89,5,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+flask,9054f6d639,2019-06-19,cbbf6e73,always pass InternalServerError instance to 500 handler,3,1,146,11,40,9,0,2,0,1,0,0,0,0,0,0,0,15,0,0,30,0,0,0,0,0
+flask,c65863912b,2019-06-13,cbbf6e73,move url matching after opening session,4,1,26,17,5,5,0,0,0,2,0,0,0,0,0,0,0,21,0,0,4,0,0,0,1,0
+flask,1ff98a2d21,2019-06-13,68a2a692,wait until app ctx is ready before matching url,4,1,41,24,3,3,0,0,0,2,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+flask,6ec98f0749,2019-06-12,cbbf6e73,reword _get_exc_class_and_code docstring,1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+flask,d8d74b0cc8,2019-06-12,5c6c56d6,document _get_exc_class_and_code params,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+flask,571b9f54e7,2019-06-12,cbbf6e73,reword Blueprint class docstring,1,1,42,22,42,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,0,0,0
+flask,b89bf9e6d7,2019-06-12,10829d93,document Blueprint params,1,1,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+flask,53c893b646,2019-06-01,cbbf6e73,fix string concats left over by black,10,5,17,18,10,11,1,0,0,6,0,0,0,1,0,0,0,119,1,1,10,0,0,0,0,0
+flask,43483683b2,2019-06-01,cbbf6e73,apply reorder-python-imports pre-commit config,56,19,291,246,183,166,0,0,0,6,0,0,0,0,0,0,0,43,0,0,178,0,0,1,0,0
+flask,ca278a8694,2019-06-01,cbbf6e73,move to src directory,22,21,6,4,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+flask,b46f5942a5,2019-06-01,1e454a46,address flake8 issues,23,7,89,92,17,16,0,0,0,15,0,0,0,0,0,0,0,54,1,1,15,0,0,0,0,0
+flask,1718f1934c,2019-05-31,72f3d370,don't require ssl module for flask cli,3,1,21,1,12,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,10,0,0,1,0,0
+flask,a3272941ce,2019-05-31,f917fd28,Clarify documentation about how url_for uses configuration values (#2759),2,1,7,1,3,0,0,0,0,1,0,0,0,0,0,0,0,54,1,2,2,0,0,0,0,0
+flask,e45370b994,2019-05-31,34f54a2c,Fix name of kwargs parameter,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+flask,c7f56c5a55,2019-05-31,34f54a2c,Create json_dumps() method on new EnvironBuilder,3,1,11,14,9,9,0,0,0,1,0,0,0,1,1,0,0,34,1,1,8,0,0,0,0,0
+flask,976dfedaa9,2019-05-31,34f54a2c,Convert make_test_environ_builder into class (fixes #3207),4,2,96,45,68,38,1,0,1,5,1,1,0,0,1,0,0,39,2,53,64,0,0,0,0,0
+flask,1b526c837e,2019-05-31,8ca9cfc0,Comment on bare except usage in _compat.py,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,8bb7185284,2019-05-31,e2670b7d,Better error message when view return type is not supported,3,1,19,5,10,2,0,0,0,1,0,0,1,0,0,0,0,55,1,9,10,0,0,0,0,0
+flask,55ad09c902,2019-05-31,02dbd063,Move python properties to decorator syntax,3,3,30,38,30,38,0,0,0,0,0,0,0,0,8,8,0,0,0,0,28,0,0,0,1,0
+flask,f25b5000fd,2019-05-31,34f54a2c,Do not register empty CLI groups from Blueprint,2,1,12,0,3,0,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+flask,2a97d4a706,2019-05-31,40539f31,#3225: document,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,cd14adbc1e,2019-05-31,f2983d27,Issue #3226: Remove unused werkzeug datastructure import,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+flask,a5ff3cd01b,2019-05-31,34f54a2c,Fix style issues on master using Black,4,1,19,14,5,3,0,0,0,1,0,0,0,0,0,0,0,18,0,0,5,0,0,0,0,0
+flask,a71c167836,2019-05-25,c420541a,fix teardown bug in FlaskClient,3,1,29,6,11,6,1,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+flask,ed9ab2d3b6,2019-05-25,cbbf6e73,strip static url trailing slash at assignment,5,3,21,19,17,17,0,0,0,2,0,0,0,1,2,2,0,58,1,3,16,0,0,0,0,0
+flask,a12bf290da,2019-05-25,e290665c,fix 'static_url_path' defaulting for empty paths,2,1,16,1,2,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+flask,ec1ccd7530,2019-05-24,dfad729f,Add Blueprint level cli command registration,6,3,136,8,33,7,0,0,0,4,0,0,1,0,0,0,0,60,2,3,19,0,0,0,0,0
+flask,7bf8366970,2019-05-24,99b63ffc,Allow dictionary return values as JSON,4,1,37,16,6,0,0,0,0,1,0,0,1,0,0,0,0,48,1,4,5,0,0,0,0,0
+flask,e18cc4d71d,2019-05-24,cbbf6e73,add SeparatedPathType to accept multiple paths,3,1,47,23,25,6,0,0,0,1,0,0,1,0,1,0,0,23,1,4,22,0,0,0,0,0
+flask,2308cba407,2019-05-23,f408c986,Fix #2897 - Add `extra_files` option to `flask run` CLI,3,1,23,2,6,1,1,0,0,1,0,0,1,0,0,0,0,22,1,3,6,0,0,0,0,0
+flask,33379155f6,2019-05-23,6e4eada6,"Add pre-commit to dev dependencies, document it and pre-commit in CONTRIBUTING",2,1,7,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+flask,fcf2eb4753,2019-05-23,4a1d948c,FakeSignal should stub connect_via method,2,1,10,9,8,9,0,0,0,1,0,0,0,0,1,0,0,5,0,0,7,0,0,0,0,0
+flask,db8cb31f2b,2019-05-19,6cdcbabf,Fix #2937: Ensure the consistency in load_dotenv's return type,3,1,19,3,12,2,1,0,0,1,0,0,1,0,0,0,0,24,1,7,7,0,0,0,0,0
+flask,e1cc16f8be,2019-05-19,026a50c7,Fix 0 port value being overriden by default,3,1,14,8,2,1,1,0,0,1,0,0,0,0,0,0,0,31,1,1,1,0,0,0,0,0
+flask,2a2a11b063,2019-05-18,59bc003f,allow customizing url map class,2,1,9,1,7,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,2,0,0,0,0,0
+flask,6af14f058b,2019-05-18,8a38f953,support dataclass in JSONEncoder,3,1,26,5,15,5,0,0,0,1,0,0,0,0,0,0,0,12,0,0,13,0,0,0,0,0
+flask,2039e2e3b6,2019-05-18,5b54af8a,Remove ending slash from static_url_path,4,2,15,2,2,2,0,0,0,2,0,0,0,0,0,0,0,60,1,1,2,0,0,0,1,0
+flask,e0afff0e92,2019-05-18,9fe98328,Simplify flask.cli.main,2,1,4,17,1,17,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,1
+flask,8590d65a57,2019-05-18,9fe98328,Use Werkzeug's JSONMixin class and update tests,5,2,18,131,5,87,0,0,0,1,0,0,0,0,0,4,0,4,0,0,5,0,0,0,0,0
+flask,957f48a98d,2019-05-18,cbbf6e73,use dict literal syntax for jinja_options clarify docs about when jinja_options can be modified,2,1,27,12,22,10,0,0,0,2,0,0,0,0,0,0,0,17,0,0,11,0,0,0,0,0
+flask,af3c24c7df,2019-05-18,9fe98328,Make jinja_options a dict rather than ImmutaleDict,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,1f3923a999,2019-05-17,8663a5eb,"Inherit ""methods"" in MethodView",3,1,27,3,4,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,1,0
+flask,6f703a564c,2019-05-17,cbbf6e73,clean up open_resource and tests,3,1,14,22,4,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,1
+flask,ad709be46e,2019-05-17,79c6e687,Allow mode='rt' on open_resource() helper,2,1,27,0,2,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+flask,99660cc409,2019-05-17,cbbf6e73,release version 1.0.3,2,1,5,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,a4f0f19796,2019-05-17,cbbf6e73,don't push app context for test client json,4,2,95,39,65,39,0,1,0,7,0,0,0,1,0,0,0,31,1,2,55,0,0,0,0,0
+flask,e2f4b53396,2019-05-16,80564fcf,Fix dev-server warning message readability (#3168),1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+flask,ac78da0bb0,2019-05-16,4c2e2a7d,removed unused reference to url_join,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,d23b160e6d,2019-05-16,5cc962dd,"helpers.py: Fix docs of url_for(..., _external=True)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,53,1,1,1,0,0,0,0,0
+flask,205c943ded,2019-05-13,86720a5a,Fix misplaced paren in docs,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+flask,025589ee76,2019-05-06,4a1d948c,Reformat with black,63,21,3788,3463,1139,889,0,0,0,174,0,0,7,5,0,0,0,121,15,237,1065,0,0,0,0,0
+flask,de01dfb702,2019-04-15,2ede243d,Bump Jinja2 requirements,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,47bdf9f26f,2019-01-25,42e236d6,_compat.py: Use feature detection instead of version detection,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+flask,662ce2151d,2019-01-07,cbbf6e73,add changelog for GH-2986,3,1,22,8,13,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+flask,b92b2e6c74,2019-01-07,d7841f92,Do not handle RoutingExceptions with app error handlers,2,1,13,1,8,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+flask,40118e785f,2019-01-07,1df3f721,Make sure the attachment filename is text type. If attachment filename is bytes type and contains no,3,1,10,1,3,0,0,0,0,1,0,0,1,0,0,0,0,94,1,2,2,0,0,0,0,0
+flask,366f3f49af,2019-01-07,cbbf6e73,add changelog for GH-2957,3,1,15,13,4,2,0,0,0,1,0,0,0,0,0,0,0,100,1,2,2,0,0,0,0,0
+flask,b570bf699c,2019-01-07,189b706d,Allow partial content on bytesio,2,1,27,1,9,1,0,0,0,1,0,0,1,0,0,0,0,100,1,8,9,0,0,0,0,0
+flask,a0ccc47780,2019-01-06,cbbf6e73,clean up flask --version code,3,1,19,10,10,5,0,0,0,1,0,0,0,0,0,0,0,15,0,0,10,0,0,0,0,1
+flask,3fd51c65fb,2019-01-06,22c3fcbb,add werkzeug to flask --version,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+flask,830c77cb44,2019-01-06,1fc28984,document that Config.from_object uses object as-is,2,1,42,0,4,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+flask,b85425ac1b,2019-01-06,89f3c0e3,remove syntax warning from docstring,1,1,9,8,9,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,0,1,0
+flask,e4ebbd3f5b,2019-01-06,89f3c0e3,Fix DeprecationWarning on collections import,2,2,4,2,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+flask,02df042416,2019-01-06,1a47c9b7,"Corrected a typo in a docstring: ""Help object"" --> ""Helper object""",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,d0ceb16be9,2019-01-06,a8b1f4ab,Use imperative tense for CLI help text,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+flask,25de45cbb6,2019-01-05,3a2aa23b,Add support for PathLike objects in static file helpers,4,2,62,5,19,1,0,0,0,2,0,0,1,0,1,0,0,94,1,4,12,0,0,0,0,0
+flask,49efc44233,2019-01-05,cbbf6e73,clear KeyError in production for Werkzeug 0.15,2,1,12,11,11,10,0,0,0,1,0,0,0,0,0,0,0,16,0,0,7,0,0,0,0,0
+flask,2611632c69,2018-12-08,f2629fc7,add classifiers,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,ed9775fb77,2018-11-12,a5b88ebf,Handle errors during create_url_adapter,2,1,30,2,7,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,7,0,0,0,0,0
+flask,e08bcf9f97,2018-11-03,631fcf15,Fix #2935: Copy current session object in copy_current_request_context (#2936),3,1,22,6,12,6,1,0,0,3,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+flask,c38499bbf2,2018-10-24,1df3f721,ignore colon with slash when split app_import_path Flask currently supports importing app through a ,2,1,17,4,1,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,1,1,0
+flask,9bc87d09c6,2018-10-23,1df3f721,Cache return values to avoid repeated function calls.,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+flask,673772cac9,2018-10-13,cd11dfee,Fixed typo in app.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+flask,aa7e15dcba,2018-09-23,1df3f721,"Reduce unnecessary function calls. When propagate exceptions, the function call of ""_find_error_hand",1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,1
+flask,d5c465ddf4,2018-06-29,1a66cefa,:art: Use itervalues instead of iteritems,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,41,1,1,2,0,0,0,0,0
+flask,d362399e7e,2018-06-27,1a66cefa,:fire: Remove code supposed to be removed at v1.0,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,f036308442,2018-06-15,a8b1f4ab,Add cli tips for .flaskenv,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,21,1,1,1,0,0,0,0,0
+flask,50227f0954,2018-06-14,c7c80f9f,Add option to not overwrite debug flag in cli,3,1,39,9,14,9,0,0,0,4,0,0,1,0,0,0,0,29,1,3,12,0,0,0,0,0
+flask,076dddb2e1,2018-06-13,fc11d589,Fixed 2823,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,21,1,1,1,0,0,0,0,0
+flask,b51ab3ff2c,2018-05-28,cbbf6e73,"encode filenames as ascii instead of latin-1 latin-1 is allowed by pep3333, but that breaks gunicorn",3,1,27,10,6,2,0,0,0,1,0,0,0,0,0,0,0,92,1,5,5,0,0,0,0,0
+flask,a913b4dafd,2018-05-17,8c8f2794,SSLContext was added in Python 2.7.9,2,1,4,4,2,2,0,0,0,2,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+flask,939c77a39a,2018-05-02,cbbf6e73,Bump version number to 1.0.3.dev,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,dfd3619d6f,2018-05-02,cbbf6e73,Bump version number to 1.0.2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,b4e092600d,2018-05-02,a8b1f4ab,Check whether exist registered routes,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,25,1,3,3,0,0,0,0,0
+flask,b21b4d1608,2018-05-01,cbbf6e73,add more merge cases,2,1,8,3,3,3,0,0,0,2,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+flask,f7a3bdc6db,2018-05-01,ade1ccc6,"Fix blueprint route for """"",2,1,5,1,4,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+flask,3fd7abec3c,2018-04-30,cbbf6e73,fix project urls,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,c9ab9ef5db,2018-04-29,cbbf6e73,Bump version number to 1.0.2.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,a15795c99e,2018-04-29,cbbf6e73,Bump version number to 1.0.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,6e1e3e03ca,2018-04-29,cbbf6e73,check FLASK_SKIP_DOTENV in app.run,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,32,1,1,6,0,0,0,0,0
+flask,e8fd06a0a7,2018-04-29,cbbf6e73,Bump version number to 0.12.5.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,5beb3be536,2018-04-29,cbbf6e73,Bump version number to 0.12.4,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,f13870731c,2018-04-29,cbbf6e73,allow empty prefix and no lead slash in bp route,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+flask,5965cb7e1c,2018-04-29,cbbf6e73,"rename to FLASK_SKIP_DOTENV, add docs, test",4,2,50,7,18,7,0,0,0,2,0,0,0,0,1,0,0,21,1,1,13,0,0,0,0,0
+flask,bac5d6b9f4,2018-04-28,ade1ccc6,Use FLASK_DONT_LOAD_ENV flag to disable load .env,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+flask,b573a86977,2018-04-28,cbbf6e73,"trap key errors in debug, not all 400 errors",2,1,27,8,8,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+flask,4d0cdf95e6,2018-04-27,cbbf6e73,merge slashes between blueprint prefix and rule,2,1,16,13,3,5,0,0,0,2,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+flask,3666a584fd,2018-04-27,ebfa45c2,fix #2736 - allow lists to be passed through to response_class init,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,46,1,1,1,0,0,0,0,0
+flask,78b56dbf2c,2018-04-27,cbbf6e73,"Revert ""Add `python_requires` metadata for PyPI""",1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,a22d143f96,2018-04-27,8a41ce35,Add `python_requires` metadata for PyPI,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,6663bf1f7d,2018-04-27,c7c80f9f,Fix registering partials as view functions,3,1,5,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+flask,fafb827a46,2018-04-26,8a41ce35,Exclude 3.3 aswell.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,732c5b0509,2018-04-26,8a41ce35,Add `python_requires` metadata for PyPI,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,d60f213fdb,2018-04-26,cbbf6e73,Bump version number to 1.0.1.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,79d3ff9baa,2018-04-26,cbbf6e73,Bump version number to 1.1.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,46a71071ed,2018-04-26,cbbf6e73,Bump version number to 1.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,9d0b163362,2018-04-26,cbbf6e73,release 1.0,2,1,5,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,291f3c338c,2018-04-26,cbbf6e73,Bump version number to 1.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,23047a71fd,2018-04-26,cbbf6e73,Bump version number to 0.12.4.dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,1a9e58e8c9,2018-04-26,cbbf6e73,Bump version number to 0.12.3,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,5c8110de25,2018-04-26,cbbf6e73,ensure order of project urls,1,1,7,5,7,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+flask,10a77a5430,2018-04-26,ade1ccc6,Add project_urls so that PyPI will show GitHub stats.,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+flask,eaedb9320c,2018-04-19,736c6366,Fix index example for TaggedJSONSerializer.register(),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,fc6a1d9354,2018-04-19,736c6366,Fix default index for TaggedJSONSerializer.register(),2,1,20,4,4,4,1,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+flask,80a9e0edf6,2018-04-18,cbbf6e73,app.run is not lazy use click.echo for banner messages,2,2,7,5,7,5,0,0,0,2,0,0,0,0,0,0,0,32,1,1,5,0,0,0,0,0
+flask,be46acb871,2018-04-18,cbbf6e73,add changelog for docs theme and tutorial,2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,49a38ed999,2018-04-18,cbbf6e73,use theme provided by pallets-sphinx-themes,25,3,190,590,9,2,0,0,0,2,0,0,0,0,0,0,0,92,1,1,9,0,0,0,0,0
+flask,8f5168cb31,2018-04-18,f408c986,Add explicit `(lazy loading)` message to `flask run` related to #2706,1,1,6,3,6,3,0,0,0,2,0,0,0,0,0,0,0,16,1,1,6,0,0,0,0,0
+flask,0e1e9a04aa,2018-04-10,cbbf6e73,detect UTF encodings when loading json,3,2,67,23,51,11,0,0,0,2,1,0,0,0,1,0,0,17,0,0,36,0,0,0,0,0
+flask,18c9db4794,2018-04-10,cbbf6e73,"be smarter about adding "".cli"" to reloader command python -m flask.cli raises an import warning on >",1,1,9,9,9,9,0,0,0,1,0,0,0,0,0,0,0,11,0,0,5,0,0,1,0,0
+flask,1ed756a523,2018-04-10,cbbf6e73,add Response.max_cookie_size config,6,2,65,5,18,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+flask,ab4142215d,2018-04-10,cbbf6e73,detect UTF encodings when loading json,4,2,82,26,59,15,0,0,0,2,1,0,0,0,1,0,0,23,0,0,45,0,0,0,0,0
+flask,171eb28c95,2018-04-09,622baeab,get_json separate cache depending on silent arg,3,1,30,6,12,6,0,0,0,1,0,0,0,0,0,0,0,24,0,0,12,0,0,0,0,0
+flask,2411707492,2018-04-09,cbbf6e73,rework context docs,7,4,542,375,170,62,0,0,0,11,0,0,0,0,0,0,0,34,1,19,144,0,0,0,0,0
+flask,08e61ea200,2018-03-23,ade1ccc6,Add tip for dotenv,1,1,5,0,5,0,0,0,0,1,1,0,0,0,0,0,0,21,1,5,5,0,0,0,0,0
+flask,401423df06,2018-02-23,cbbf6e73,only strip one slash when registering blueprint add test and changelog,3,1,20,4,3,3,0,0,0,2,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+flask,0887245bfd,2018-02-23,b94302e4,"Add re.sub for blueprint add_url_rule handler, prevent '/a//b/'(blueprint.url_prefix='/a/' and the r",1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+flask,82f0d120de,2018-02-23,cbbf6e73,"use subdomain arg in url_map.bind_to_environ rename new subdomain test, parametrize test allowing su",4,1,56,44,28,22,0,0,0,1,0,0,0,0,0,0,0,13,0,0,24,0,0,0,0,0
+flask,8cec2010c0,2018-02-23,c7ba33ae,Do not enable subdomain matching by default Updated tests for new subdomain matching Added a test to,4,1,52,7,15,1,0,0,0,2,0,0,1,0,0,0,0,63,1,2,10,0,0,0,0,0
+flask,cf5525f98a,2018-02-19,cbbf6e73,add test_cli_runner for testing app.cli commands,6,2,140,12,61,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,40,0,0,0,0,0
+flask,575021c07b,2018-02-12,606446cd,Fix docs for test_request_context,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+flask,310fbfcf64,2018-02-08,cbbf6e73,revert copyright year to project start add copyright header to files,52,21,167,52,51,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,1,0,0
+flask,9bf5c3b3a3,2018-02-08,cbbf6e73,update project metadata new readme readme as setup.py long_description links in changes git in autho,16,1,310,653,9,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0
+flask,af32ea0b94,2018-02-06,cbbf6e73,bump dependency versions,4,2,29,32,22,26,0,0,0,1,0,0,0,1,0,0,0,92,1,7,22,0,0,1,0,0
+flask,2cba0d77ee,2018-01-28,cbbf6e73,use traceback to detect call more reliably,1,1,27,10,27,10,0,0,0,3,0,0,0,0,0,0,0,45,1,1,18,0,1,0,0,0
+flask,0570393bc4,2018-01-23,a8b1f4ab,Update cli help for FLASK_ENV,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+flask,382b13581e,2018-01-23,cbbf6e73,clean up samesite docs,4,1,32,29,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,1
+flask,2beedabaaf,2018-01-23,cbbf6e73,add HTTPS support for flask run command,3,1,159,8,93,6,0,0,0,1,0,0,0,0,3,0,0,14,1,2,74,0,0,0,0,0
+flask,a1d9ebe4ab,2018-01-23,5bb9bc2a,New Feature: Added Support for cookie's SameSite attribute.,5,2,61,4,11,1,0,0,0,1,0,0,0,0,1,0,0,30,0,0,10,0,0,0,0,0
+flask,87c2e121e0,2018-01-10,cbbf6e73,clean up FLASK_ENV docs [ci skip],7,2,129,83,36,28,0,0,0,3,0,0,0,0,0,1,0,5,0,0,13,0,0,0,0,1
+flask,3738f7ff99,2018-01-10,cbbf6e73,match run command behavior in app.run output extra server information handle env var changed by load,2,2,58,39,58,39,0,0,0,2,0,0,1,1,1,0,0,32,2,26,42,0,1,0,0,0
+flask,2433522d29,2018-01-06,c7ba33ae,Add Support for FLASK_ENV (#2570),10,3,154,74,71,45,0,0,0,8,0,0,2,2,4,1,0,32,4,15,47,0,0,0,0,0
+flask,60eecb547d,2018-01-06,ade1ccc6,Remove python 2.6 and 3.3 everywhere. (#2583),4,1,4,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+flask,22e072379b,2018-01-06,ade1ccc6,cleanup werkzeug import (#2582),2,2,3,16,3,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,1
+flask,333865ea34,2018-01-05,cbbf6e73,windows python 2 doesn't provide inet_pton,1,1,10,2,10,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,9,0,0,0,0,0
+flask,06f96df67e,2018-01-05,cbbf6e73,silence ENOTDIR when loading config file,2,1,10,2,3,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+flask,0a33954555,2018-01-04,cbbf6e73,improve documentation for session attributes add test for session attributes,2,1,47,27,37,26,0,0,0,1,0,0,0,0,2,2,0,3,0,0,16,0,0,0,0,0
+flask,f7983ae96a,2018-01-03,cbbf6e73,concat newline in jsonify ref pallets/werkzeug#1130,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+flask,c52e1b7388,2017-11-25,c7c80f9f,Fix ValueError for some invalid Range requests,3,1,30,2,2,1,1,0,0,1,0,0,1,0,0,0,0,86,1,2,2,0,0,0,0,0
+flask,1a2dc6f205,2017-11-25,c7ba33ae,Fixed tests for python 3,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+flask,2ef2000a39,2017-11-25,c7ba33ae,Enable threads by default for the dev server (#2529),2,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+flask,c23a63a185,2017-11-25,c7ba33ae,Improved bad factory error handling,2,1,17,0,10,0,0,0,0,2,0,0,1,0,1,0,0,45,1,2,8,0,0,0,0,0
+flask,e3c853e604,2017-10-24,f6613d73,Fix typo in cli.py (#2502),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+flask,9bc329c0c9,2017-10-10,cbbf6e73,rewrite cli docs reflects the current FLASK_APP detection,3,1,297,244,22,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0
+flask,5436dddf64,2017-10-10,cbbf6e73,rewrite cli errors consistent order for arguments to load functions refactor find_app_by_string to f,3,1,81,58,71,56,0,0,0,5,0,0,1,0,0,0,0,43,1,13,61,0,0,0,0,1
+flask,2f57a0b917,2017-10-09,99f2bb6c,Blueprint view function name should not contain dots,3,1,13,0,2,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+flask,0a1090890f,2017-10-07,bedf2b4b,Add additional information in the url_rule docs (#2467),1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,851ca95778,2017-09-23,a8b1f4ab,Fix typo in comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,392989aaa7,2017-08-06,8648462f,corrected indentations for pypa description,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+flask,66b1b752da,2017-07-31,cbbf6e73,simplify logging configuration single default handler and formatter don't remove handlers configure ,13,2,404,456,71,110,0,0,0,3,0,0,0,1,2,5,0,61,1,0,56,0,0,0,1,1
+flask,a89bdb3395,2017-07-29,cbbf6e73,prefer the url's scheme over the kwarg tabs -> spaces add test add changelog,3,1,17,4,6,4,0,0,0,1,0,0,1,0,0,0,0,34,1,6,6,0,0,0,0,0
+flask,241673fd15,2017-07-27,8249298d,make_test_environ_builder: use url_scheme from path if provided,1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,32,1,2,2,0,0,0,0,0
+flask,491d331e6e,2017-07-16,cbbf6e73,load env vars using python-dotenv,13,3,235,42,115,30,0,0,0,4,2,0,0,1,2,0,0,27,3,29,83,0,0,0,0,0
+flask,fb845b9032,2017-07-14,cbbf6e73,allow local packages in FLASK_APP don't require .py extension in FLASK_APP add tests for nested pack,8,1,162,155,50,79,0,0,0,4,0,0,0,0,1,2,0,40,0,0,44,0,0,0,0,0
+flask,59f7966e31,2017-07-13,cbbf6e73,support passing environ to test client (#2412),3,1,52,9,31,9,0,0,0,1,0,0,0,0,0,0,0,31,0,0,27,0,0,0,0,0
+flask,9560f22bb6,2017-07-10,cbbf6e73,clean up,2,1,8,16,2,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,1
+flask,a417e41d27,2017-07-07,f5cbe39b,Update documentation and regression tests to clarify that Flask.teardown_appcontext() only receives ,2,1,56,3,4,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,4,0,0,0,0,0
+flask,465922e5f1,2017-06-28,cbbf6e73,"clean up secret key docs consistent key across docs and examples consistent key across tests, set in",15,1,41,79,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+flask,4f30cb7c57,2017-06-27,5ed4f7dc,fix variable substitution in error message,1,1,4,3,4,3,1,0,0,1,0,0,0,0,0,0,0,32,0,0,4,0,0,0,0,0
+flask,5bc0d15359,2017-06-26,cbbf6e73,un-deprecate request.json,3,1,3,34,0,8,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+flask,715a9a3e7b,2017-06-26,cbbf6e73,remove deprecated flask.ext,6,3,4,495,1,173,0,0,0,0,0,0,0,0,0,9,0,0,0,0,1,0,0,0,1,0
+flask,723e665004,2017-06-26,cbbf6e73,remove deprecated Request.module,3,2,19,49,19,36,0,0,1,1,0,0,0,1,0,1,0,53,1,14,14,0,0,1,1,0
+flask,d63c2bc417,2017-06-26,cbbf6e73,remove deprecated Flask.static_path,2,1,30,31,30,18,0,0,0,1,0,0,1,0,0,0,0,63,1,28,28,0,0,0,1,0
+flask,9491bf8695,2017-06-26,cbbf6e73,remove deprecated Flask.error_handlers,1,1,1,16,1,16,0,0,0,1,0,0,0,1,0,2,0,53,1,1,1,0,0,0,1,0
+flask,e9386a7273,2017-06-26,0c63ec93,Remove deprecated request_globals_class _get and _set methods.,1,1,0,12,0,12,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+flask,75327c0a85,2017-06-23,0c63ec93,Remove deprecated init_jinja_globals.,1,1,0,9,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+flask,448368e226,2017-06-16,cbbf6e73,style cleanup [ci skip],3,1,35,21,21,9,0,0,0,2,0,0,0,0,0,0,0,31,0,0,16,0,0,0,0,1
+flask,7c40aa9e50,2017-06-15,5ed4f7dc,Import app from wsgi.py or app.py if FLASK_APP is not defined,4,1,48,10,20,9,0,0,0,3,0,0,0,0,0,0,0,28,0,0,20,0,0,1,0,0
+flask,d41e2e6a5d,2017-06-14,4b4164e4,"Correctly encode aware, non-UTC datetime objects",2,1,5,1,3,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+flask,4fc48200a5,2017-06-14,cbbf6e73,reconfigure the app from run command and method extract templates_auto_reload to property continues ,3,2,60,10,57,10,0,0,0,3,0,0,0,0,3,0,0,22,0,0,34,0,0,0,1,0
+flask,fe1bf3c821,2017-06-14,cbbf6e73,document the blueprint param too,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+flask,0f7b3a4f26,2017-06-14,cbbf6e73,document `Flask.register_blueprint` arguments closes #1809,2,2,41,15,41,15,0,0,0,2,0,0,0,0,0,0,0,17,0,0,35,0,0,0,0,0
+flask,cf425403c8,2017-06-10,78d79a86,Remove duplicate word from docstring,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+flask,235c830759,2017-06-06,cbbf6e73,document inherited attributes for Flask and Blueprint closes #480 [ci skip],3,3,56,13,56,13,0,2,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,1,0
+flask,b5f4c52150,2017-06-05,cbbf6e73,"don't cache error handlers for exception mro closes #2267, closes #1433",2,1,15,15,11,15,0,0,0,1,0,0,0,0,0,1,0,13,0,0,9,0,0,0,0,0
+flask,16396248b8,2017-06-05,a8b1f4ab,Include flask.json package in setup(),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+flask,12c45f06a5,2017-06-04,cbbf6e73,remove unused import,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+flask,fa7e8d6073,2017-06-04,cbbf6e73,"be smarter about adding "".cli"" to reloader command python -m flask.cli raises an import warning on >",1,1,10,10,10,10,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,1,0,0
+flask,e97253e4c1,2017-06-04,cbbf6e73,clean up JSON code and docs,5,2,92,84,72,65,0,0,0,8,0,0,1,0,1,0,0,32,1,6,59,0,0,0,0,1
+flask,6637e20174,2017-06-02,cbbf6e73,only open session if request hasn't been pushed yet closes #1348,2,1,15,8,11,8,0,0,0,1,0,0,0,0,0,0,0,21,0,0,6,0,0,0,0,0
+flask,217d5f9bc0,2017-06-02,cbbf6e73,mention mimetype and is_json,1,1,12,10,12,10,0,0,0,3,0,0,0,0,0,0,0,21,0,0,12,0,0,0,0,0
+flask,daf85d3725,2017-06-02,c809ac1c,Clarify documentation for json parsing,1,1,5,6,5,6,0,0,0,2,0,0,0,0,0,0,0,21,0,0,5,0,0,0,0,0
+flask,9bee2500dd,2017-06-02,cbbf6e73,finish documentation [ci skip],2,1,50,22,49,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,0,0
+flask,bbd15d53ad,2017-06-02,cbbf6e73,docs style cleanup [ci skip],2,1,34,28,19,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,1
+flask,ca176cb903,2017-06-02,cbbf6e73,pass serializer at tag init instead of to each method split tagged dict and passthrough into separat,1,1,133,68,133,68,0,0,0,29,0,0,0,0,4,2,0,11,0,0,113,0,0,0,1,0
+flask,5e1ced3c05,2017-06-01,cbbf6e73,make session serializer extensible support serializing 1-item dicts with tag as key refactor seriali,4,2,201,140,196,129,0,0,0,1,0,1,0,0,31,12,0,5,1,0,128,0,0,1,0,1
+flask,859d9a9d5c,2017-05-31,cbbf6e73,show nice message when registering error handler for unknown code clean up error handler docs closes,3,1,79,54,25,30,0,0,0,2,0,0,0,0,0,0,0,16,0,0,14,0,0,0,0,1
+flask,8f3563cf79,2017-05-29,cbbf6e73,fix operator precedence,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+flask,42905b8a55,2017-05-29,cbbf6e73,set description for trap as well as debug test for key error description,2,1,8,3,2,2,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+flask,045dccaefb,2017-05-29,cbbf6e73,make debugging bad key errors easier,4,1,37,7,27,4,0,0,0,2,0,0,0,0,0,0,0,15,0,0,16,0,0,0,0,0
+flask,b9c8c9bad1,2017-05-29,cbbf6e73,deprecate app session methods in favor of session_interface ref #1182,3,3,37,6,37,6,0,0,0,6,0,0,0,0,0,0,0,24,0,0,30,0,0,0,1,0
+flask,b8eba0a3fa,2017-05-29,cbbf6e73,use existing response.vary property to set vary header closes #2345,3,2,12,26,1,16,0,0,0,1,0,0,0,0,0,1,0,28,0,0,1,0,0,1,0,0
+flask,4a53840df0,2017-05-28,cbbf6e73,APPLICATION_ROOT defaults to '/',4,3,9,6,6,6,0,0,0,3,0,0,0,1,0,0,0,24,1,2,6,0,0,0,0,0
+flask,399ac3c54f,2017-05-28,cbbf6e73,update changelog [ci skip],2,1,29,10,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,3c7625e8c0,2017-05-28,cbbf6e73,update development resources,8,1,188,116,11,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+flask,4f689c41d9,2017-05-27,a04c43a6,#2341: Accept default argument value when args lenght equal 1,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+flask,7c0b36f146,2017-05-26,96ed14d8,cleanup #2326,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,40,0,0,4,0,0,0,0,1
+flask,48c2925664,2017-05-25,7396d2fe,Factor in code review comments and refactor functions to be more naturally split.,2,1,66,59,60,59,0,0,0,2,0,0,0,0,1,1,0,24,0,0,56,0,0,0,1,1
+flask,bdf31cd423,2017-05-25,cbbf6e73,extract patch_vary_header to helpers,2,2,23,20,23,20,0,0,0,1,0,0,0,0,1,1,0,28,0,0,16,0,0,1,1,0
+flask,7a1a594b26,2017-05-25,7396d2fe,Factor out call_factory_from_regex function,1,1,24,17,24,17,0,0,0,1,0,1,0,0,1,0,0,47,1,1,23,0,0,0,0,0
+flask,7106fb6357,2017-05-25,7396d2fe,Handle app factory with arguments in FLASK_APP,3,1,84,15,45,7,0,0,0,2,1,0,0,0,0,0,0,63,2,41,44,0,0,0,0,0
+flask,e7cd68ba58,2017-05-24,ba805c5c,Don't overwrite Vary header when setting for cookie access #2317,2,1,36,5,14,1,0,0,0,1,0,0,0,0,1,0,0,28,0,0,11,0,0,1,0,0
+flask,65b22926f7,2017-05-24,cbbf6e73,reduce number of tox and travis envs bump minimum werkzeug version to fix tests cache pip pacakges o,5,1,113,64,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+flask,38df3df735,2017-05-23,cbbf6e73,shorten cli factory name [ci skip],1,1,11,13,11,13,0,0,0,2,0,0,0,1,1,1,0,36,1,1,11,0,0,0,0,0
+flask,d05862574f,2017-05-23,a8e56862,Update click dependency info.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+flask,ae41df9a77,2017-05-23,7396d2fe,Check if app factory takes script_info argument and call it with(out) script_info as an argument dep,3,2,66,28,25,7,0,0,0,3,0,0,1,0,1,0,0,37,1,3,23,0,0,0,0,0
+flask,75f537fb87,2017-05-23,06cb2bf1,Adds provide_automatic_options to Class-based Views,2,1,41,0,4,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+flask,361dba7e3a,2017-05-23,2d214d8c,removed dupe text from merge,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,4f815015b8,2017-05-23,2d214d8c,Added support for generic HTTPException handlers on app and blueprints,2,1,69,44,13,20,0,0,0,1,0,0,0,0,0,0,0,8,0,0,11,0,0,0,0,0
+flask,637eae5489,2017-05-23,2d214d8c,Added support for generic HTTPException handlers on app and blueprints,2,1,69,44,13,20,0,0,0,1,0,0,0,0,0,0,0,8,0,0,11,0,0,0,0,0
+flask,668061a5fc,2017-05-23,7a65d8c8,Register errorhandlers for Exceptions,2,1,34,2,10,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+flask,11d2eec3ac,2017-05-22,8c52557d,Fix refactoring error in static_folder docstring (#2310),1,1,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+flask,65fc888172,2017-05-22,c4f87a3d,For Issue #2286: Replaces references to unittest in the documentation with pytest,3,1,112,94,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,01ddf54b87,2017-05-22,cbbf6e73,adjust for loop style,2,1,4,4,2,2,0,0,0,1,0,0,0,0,0,0,0,36,1,2,2,0,0,0,0,0
+flask,7ecdbcfa2b,2017-05-22,cbbf6e73,show error if multiple Flask instances are detected add changelog,2,1,22,9,19,9,0,0,0,1,1,0,0,0,0,0,0,36,1,17,17,0,0,0,0,0
+flask,b4eb6534d5,2017-05-22,7396d2fe,Remove unnecessary checks and reformat NoAppException messages,1,1,14,12,14,12,0,0,0,1,0,1,0,0,0,0,0,28,1,13,13,0,0,0,1,0
+flask,ced719ea18,2017-05-22,7396d2fe,Auto-detect create_app and make_app factory functions,2,1,49,0,15,0,0,0,0,1,1,0,0,0,0,0,0,26,1,12,12,0,0,0,0,0
+flask,5d9dd0b379,2017-05-20,cbbf6e73,set session accessed for setdefault,2,1,27,18,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+flask,ae133aa173,2017-05-20,cbbf6e73,"reorder session cookie checks to deleted, accessed, modified",1,1,37,38,37,38,0,0,0,3,0,0,0,0,0,0,0,28,0,0,30,0,0,0,0,0
+flask,f347d3c59e,2017-05-16,34434033,Bump to dev version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,571334df8e,2017-05-16,34434033,Bump version number to 0.12.2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,f7c35bf0d5,2017-05-16,cbbf6e73,safe_join on Windows uses posixpath,3,1,33,21,14,8,0,0,0,1,0,0,0,0,0,0,0,14,0,0,9,0,0,0,0,0
+flask,2a65794306,2017-05-15,cbbf6e73,safe_join on Windows uses posixpath fixes #2033 closes #2059,2,1,26,21,14,8,1,0,0,1,0,0,0,0,0,0,0,14,0,0,9,0,0,0,0,0
+flask,f75ad9fca2,2017-05-13,cbbf6e73,refactor session cookie domain logic cache result of session cookie domain add warnings for session ,4,2,109,35,66,35,0,0,0,3,0,0,0,0,0,0,0,29,0,0,42,0,0,0,0,1
+flask,c3d49e29ea,2017-05-13,3e82d1b6,show warning if session cookie domain is ip closes #2007,2,2,25,1,25,1,0,0,0,1,0,0,0,0,1,0,0,20,0,0,21,0,0,0,0,0
+flask,160999e882,2017-05-10,6d2272e6,Removed unused import,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+flask,7ad79583b9,2017-04-26,cbbf6e73,add sort by match order sort by endpoint by default combine sort flags sort methods ignore HEAD and ,4,1,104,75,47,27,0,0,0,1,1,0,0,0,0,0,0,22,1,23,42,0,0,0,0,0
+flask,501f043125,2017-04-25,cbbf6e73,clean up preprocess_request docs [ci skip],1,1,38,32,38,32,0,0,0,3,0,0,0,0,0,0,0,14,0,0,21,0,0,0,0,1
+flask,697f7b9365,2017-04-25,cbbf6e73,refactor make_response to be easier to follow,3,1,207,110,107,63,0,0,0,1,1,0,0,0,0,0,0,46,1,64,82,0,0,0,0,1
+flask,46f83665ef,2017-04-24,cbbf6e73,clean up blueprint json support add changelog for #1898,4,2,30,17,16,12,0,0,0,2,0,0,0,0,0,0,0,14,0,0,12,0,0,0,0,1
+flask,13754b6d11,2017-04-22,cbbf6e73,ensure error while opening session pops context errors will be handled by the app error handlers clo,3,1,29,1,1,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+flask,648344d4e8,2017-04-21,cbbf6e73,use mro to collect methods ignore methods attr unless explicitly set add changelog,2,1,24,22,22,22,0,0,0,0,0,0,0,0,1,2,0,0,0,0,12,0,0,0,0,0
+flask,97e2cd0a5a,2017-04-21,cbbf6e73,"update changelog move test next to existing test, rename reword / reflow param doc",3,1,58,51,5,6,0,0,0,1,0,0,0,1,0,0,0,31,1,5,5,0,0,0,1,0
+flask,19fbe3a18f,2017-04-20,e6b78ac2,Add scheme to url_build error handler parameters,2,1,4,0,1,0,0,0,0,1,0,0,1,0,0,0,0,57,1,1,1,0,0,0,0,0
+flask,7481844c98,2017-04-19,1e86b8b6,Fix typo in app.py (#2248),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+flask,09b49104f3,2017-04-12,cbbf6e73,"filename can be latin-1, not just ascii only normalize basic name when utf-8 header is needed ref #2",1,1,4,7,4,7,0,0,0,1,0,0,0,1,0,0,0,94,1,4,4,0,0,1,0,0
+flask,c1973016ea,2017-04-07,cbbf6e73,style cleanup break out header parts in test test for no filename* parameter for ascii header,2,1,28,16,12,7,0,0,0,1,0,0,0,1,0,0,0,96,1,8,9,0,0,1,0,1
+flask,d50a5db5ed,2017-04-07,32893e4d,Keep using only filename if it's valid ascii,1,1,16,7,16,7,0,0,0,1,0,0,1,0,0,0,0,97,1,13,14,0,0,0,0,0
+flask,00d6e339ec,2017-04-07,6e4eada6,"Change Flask.__init__ to accept two new keyword arguments, host_matching and static_host. (#1560)",4,1,46,7,21,7,0,0,0,1,0,0,1,0,0,0,0,54,1,5,14,0,0,0,0,0
+flask,d76d68cd38,2017-04-06,5f76c04f,Update out of date jsonify documentation,1,1,4,5,4,5,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+flask,c935eaceaf,2017-03-31,34434033,"Revert ""Handle BaseExceptions (#2222)""",3,1,0,23,0,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0
+flask,07a705888c,2017-03-31,34434033,Bump to dev version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,a34d0e6878,2017-03-31,34434033,Bump version number to 0.12.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+flask,12c49c75fb,2017-03-31,614afd8f,Handle BaseExceptions,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+flask,1d4448abe3,2017-03-31,614afd8f,Handle BaseExceptions (#2222),3,1,23,0,3,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0

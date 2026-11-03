@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+lz4,f811fb6e6b,2026-10-31,64c61177,lz4frame: remove the unprefixed enums (LZ4F_ENABLE_OBSOLETE_ENUMS),2,1,2,33,1,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+lz4,8329829b6b,2026-10-31,64c61177,"lz4, lz4hc: remove functions deprecated since v1.7.x and v1.8.0 from the headers",9,4,100,66,60,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,0,0,1,1,0
+lz4,a29c916b9c,2026-10-31,64c61177,version: v1.11.0,6,4,22,22,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+lz4,da9a41a425,2026-10-31,64c61177,lz4frame: LZ4F_uncompressedUpdate() deprecation warning also with MSVC,1,1,17,2,17,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+lz4,578b33d180,2026-10-31,64c61177,"lz4, lz4hc: LZ4_resetStream() and LZ4_resetStreamHC() are deprecated",3,2,17,21,16,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,0504eb4b33,2026-10-30,1f6396c0,lz4frame: avoid a zero offset on a null pending pointer,2,1,5,2,4,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+lz4,d6db686cdb,2026-10-29,64c61177,lz4frame: raw dictionary copied ahead of buffered input (linked blocks),4,2,64,2,16,2,0,0,0,1,0,0,1,0,0,0,0,107,1,10,10,0,0,0,0,0
+lz4,b67d3f515f,2026-10-29,64c61177,lz4: LZ4_decompress_safe() returns distinct error codes,4,2,55,12,20,12,0,0,0,1,0,0,1,0,0,0,0,228,1,11,11,0,0,0,0,0
+lz4,8e3d272456,2026-10-29,64c61177,lz4frame: no history save after the last block of a frame,3,1,91,6,20,6,0,0,0,1,0,0,1,0,1,0,0,317,1,8,12,0,0,0,0,0
+lz4,077551a7e4,2026-10-29,64c61177,lz4hc: no full reset after a failed compression,4,2,50,46,11,26,0,0,0,2,0,0,0,1,0,0,0,50,1,0,5,0,0,0,0,0
+lz4,c618320d41,2026-10-29,64c61177,"lz4file: no cache of frame parameters, no handle reset after release",1,1,15,37,15,37,0,0,0,5,0,0,0,0,0,2,0,43,0,0,14,0,0,0,0,0
+lz4,706c4f5256,2026-10-29,64c61177,lz4frame: uncompressed input as an option of LZ4F_compressUpdate(),10,4,177,95,51,56,0,0,0,7,0,0,4,2,0,0,0,105,7,21,26,0,0,0,0,0
+lz4,0c961aa96d,2026-10-29,64c61177,lz4hc: LZ4_compressHC2_continue() no longer crashes after LZ4_slideInputBufferHC(),3,1,42,2,5,2,1,0,0,2,0,0,1,0,0,0,0,5,1,2,4,0,0,0,0,0
+lz4,147c2b60f9,2026-10-29,64c61177,ossfuzz: file_fuzzer reaches the resume points of LZ4F_seek(),2,2,38,3,38,3,0,0,0,2,0,0,0,0,1,0,0,45,0,0,34,0,0,0,0,0
+lz4,a7f4c73a54,2026-10-29,64c61177,lz4file: LZ4F_read() no longer reuses its decoder after an error,3,2,43,0,6,0,0,0,0,2,1,0,0,0,0,0,0,48,1,3,5,0,0,0,0,0
+lz4,f69110d1ad,2026-10-29,64c61177,"lz4file: custom allocators, with LZ4F_readOpen_advanced() and LZ4F_writeOpen_advanced()",4,2,162,31,72,31,0,0,0,7,0,0,0,0,4,0,0,39,1,1,56,0,0,0,0,0
+lz4,a4dcfe6203,2026-10-29,1f6396c0,cli: refuse an output which is the input itself,3,1,44,1,19,1,0,0,0,1,0,0,1,0,1,0,0,47,1,4,15,0,0,0,0,0
+lz4,b72babf06d,2026-10-29,44ca9af2,"review: declarations at block start, runFileOp() takes a plain buffer, file_fuzzer_clean target",2,1,43,35,41,34,0,0,0,4,0,0,0,0,0,0,0,43,0,0,37,0,0,0,0,0
+lz4,dbfb6d9125,2026-10-28,64c61177,lz4hc : extended states include the temporary buffer of levels >= 10,7,5,121,26,51,26,0,0,0,10,0,0,2,0,1,0,0,31,2,10,35,0,0,1,0,0
+lz4,394c7d4f68,2026-10-28,64c61177,lz4frame: remove dead code from LZ4F_compressBound_internal() and LZ4F_decodeHeader(),1,1,22,40,22,40,0,0,0,3,0,0,0,1,1,1,0,66,1,4,16,0,0,1,1,0
+lz4,bd8782c339,2026-10-28,64c61177,lz4frame: autoFlush keeps 64 KB of history with small unstable updates,3,1,82,2,24,2,0,0,0,2,0,0,1,0,0,0,0,106,2,21,21,0,0,0,0,0
+lz4,2d3d6d4573,2026-10-28,64c61177,"lz4frame, lz4file : LZ4_USER_MEMORY_FUNCTIONS applies to them too",3,2,48,21,47,21,0,0,0,7,0,0,0,0,0,0,0,40,1,1,40,0,0,0,0,0
+lz4,5d7ff957b4,2026-10-28,64c61177,lz4frame: LZ4F_cctx_size() includes the thread pool,2,1,22,8,11,1,0,0,0,1,0,0,0,0,2,0,0,14,0,0,9,0,1,1,0,0
+lz4,c0d228095c,2026-10-28,44ca9af2,ossfuzz: add a fuzz target for the file API (lz4file.c),2,1,167,1,165,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,119,0,0,0,0,0
+lz4,81d2515a77,2026-10-28,64c61177,lz4frame: a frame cut into jobs always has a pool,2,1,45,11,14,11,0,0,0,8,0,0,0,0,0,0,0,16,0,0,10,0,0,0,0,0
+lz4,462147e0f0,2026-10-28,64c61177,lz4io: srcFileName is unused on non-POSIX systems,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,44,1,1,1,0,0,0,0,0
+lz4,39f3ad4ad2,2026-10-28,64c61177,"lz4hc: attached dictionaries are copied from 2 KB at level 11, 1 KB at level 12",2,1,17,15,16,14,0,0,0,1,0,0,0,0,0,0,0,26,1,1,15,0,0,0,0,0
+lz4,c2ca6e3b20,2026-10-27,64c61177,"lz4frame: simpler job ring, LZ4F_st_update()",2,1,103,77,62,77,0,0,0,13,1,1,2,3,4,2,0,97,5,15,48,0,0,0,0,0
+lz4,7be869dfe8,2026-10-28,01a9edd5,cli: keep new output files private until permissions are copied,3,1,31,5,19,5,0,0,0,5,0,0,1,0,0,0,0,66,4,12,17,0,0,0,1,0
+lz4,6c4560ee59,2026-10-28,e84d54d5,bench: -d decodes all frames of a file,2,1,24,8,17,8,0,0,0,1,0,0,1,0,0,0,0,23,1,14,14,0,0,0,0,0
+lz4,3daf4c61d5,2026-10-27,64c61177,lz4.c: extDict compression continues in prefix mode beyond reach of the dictionary,3,1,119,24,76,23,0,0,0,2,1,0,2,0,1,0,0,349,2,49,61,0,0,0,0,0
+lz4,a7276261f2,2026-10-27,64c61177,"lz4frame: one place to start a stream, one place to invalidate a frame",3,1,104,78,63,73,0,0,0,8,0,0,1,5,2,0,0,96,6,18,51,0,0,0,0,0
+lz4,62659684a5,2026-10-27,64c61177,lz4.c: extDict compression selects its match pointer without branch,2,1,14,12,13,12,0,0,0,1,0,0,1,0,0,0,0,333,1,11,11,0,0,0,0,0
+lz4,0621497b99,2026-10-27,64c61177,lz4: fast levels without dictionary compare the candidate before its distance,2,1,12,2,11,2,0,0,0,1,0,0,1,0,0,0,0,334,1,9,9,0,0,0,0,0
+lz4,0276cd6de8,2026-10-27,b15dbb93,cli: legacy format uses HC from level 2,3,1,4,1,1,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+lz4,86829ed7de,2026-10-27,e84d54d5,cli: -r doesn't follow symbolic links to directories,4,1,18,3,8,2,0,0,0,1,0,0,1,0,0,0,0,57,1,7,7,0,0,0,0,0
+lz4,fb17d68b76,2026-10-26,64c61177,lz4frame: raw dictionary digested for the frame's HC level,4,2,13,9,6,3,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+lz4,9d5175225b,2026-10-26,64c61177,lz4frame: raw dictionary used by each independent block,5,2,221,36,68,33,0,0,0,4,0,1,1,0,1,1,0,112,2,12,51,0,0,0,0,0
+lz4,a6a09ffe08,2026-10-26,64c61177,fix portability warnings reported in #1465,15,4,37,13,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+lz4,4e6e64ad8d,2026-10-26,e84d54d5,"lz4io: report decompression speed on success, not on failure",2,1,7,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+lz4,1977272d01,2026-10-26,64c61177,lz4frame: copied jobs are submitted before hashing their last piece,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,86,1,2,2,0,0,0,0,0
+lz4,5ab0421df1,2026-10-26,64c61177,lz4hc: compute LZ4MID's drop limit from iend,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,135,1,2,2,0,0,0,0,0
+lz4,ae2fbfe419,2026-10-26,c49729a3,lz4hc: set the compressor's end limits after the input size check,1,1,19,9,19,9,0,0,0,3,0,0,3,0,0,0,0,135,3,19,19,0,0,0,0,0
+lz4,7a74fd3cb9,2026-10-26,e84d54d5,cli: ignore LZ4_CLEVEL and LZ4_NBWORKERS values with trailing garbage,2,1,6,2,3,2,0,0,0,2,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+lz4,9b216eb03f,2026-10-25,64c61177,lz4 CLI: benchmark measures frames with the CLI options and -T# ; new option --single-thread,10,5,276,286,231,284,0,0,0,8,2,1,5,0,6,17,0,410,5,112,196,0,1,0,0,0
+lz4,82a4b27119,2026-10-25,64c61177,lz4io: --list : a truncated frame header is not recognized,3,1,11,2,4,2,0,0,0,1,0,0,1,0,0,0,0,126,1,4,4,0,0,1,0,0
+lz4,1ecbddd7d6,2026-10-25,64c61177,lz4frame: multi-threading resources allocated on demand,3,2,132,74,111,60,0,0,0,11,1,1,2,0,4,1,0,91,2,31,90,0,1,0,0,0
+lz4,08779f2c5d,2026-10-25,64c61177,lz4frame: error when no worker thread can be created,3,2,27,28,11,7,0,0,0,1,0,0,1,0,0,0,0,90,1,3,4,0,1,0,0,0
+lz4,086ff5f213,2026-10-25,64c61177,lz4hc: LZ4_compress_HC_continue_destSize() can resume after a partial consumption,3,1,101,0,51,0,0,0,0,2,0,0,2,0,1,0,0,131,2,15,39,0,0,0,0,0
+lz4,9b5c6febd8,2026-10-25,64c61177,tests: errors met while jobs are running must not exit from a job,4,3,88,2,66,2,0,0,0,7,0,0,0,0,5,0,0,21,0,0,48,0,0,0,0,0
+lz4,fb37b4b599,2026-10-25,64c61177,lz4io: errors met by jobs are reported once all jobs are done,3,3,166,54,166,54,0,0,0,16,0,0,3,1,7,0,0,79,6,31,135,0,0,0,0,0
+lz4,cda5371280,2026-10-25,64c61177,lz4frame: the calling thread no longer compresses jobs when worker threads exist,6,2,28,51,24,47,0,0,0,10,0,0,0,0,0,0,0,82,1,1,14,0,1,0,0,0
+lz4,ec8065b9a4,2026-10-24,64c61177,tests: organize tests/ into subdirectories,59,1,87,84,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,d587f0845f,2026-10-24,e84d54d5,lz4io: --list: require complete frame header reads,2,1,4,2,2,2,0,0,0,1,0,0,0,0,0,0,0,124,1,2,2,0,0,1,0,0
+lz4,8f402355df,2026-10-23,64c61177,lz4hc.h : document the compression levels of LZ4_compress_HC(),1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,e0924dcb52,2026-10-23,64c61177,lz4frame: multi-threaded jobs of 1 MB with linked blocks too,8,3,29,33,19,23,0,0,0,5,0,0,0,0,0,0,0,88,2,2,10,0,1,0,0,0
+lz4,3532daff71,2026-10-23,64c61177,"lz4io: buffer pool index takes the counter type, without cast",1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+lz4,dc4983558d,2026-10-22,64c61177,lz4hc : copy the tables of an attached dictionary from 4 KB inputs,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,26,1,1,1,0,0,0,0,0
+lz4,24e765a099,2026-10-22,b15dbb93,cli: --rm skips -t and stdin,2,1,24,2,13,2,0,0,0,2,0,0,0,0,1,0,0,29,1,1,8,0,0,0,0,0
+lz4,9b2bcd91a9,2026-10-22,64c61177,ossfuzz: uncompressed round trip fuzzer also employs worker threads (nbWorkers from 0 to 3),1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,1,0,0,0
+lz4,b1b1feda6d,2026-10-22,64c61177,"lz4frame.h: with linked blocks, multi-threaded output can differ from nbWorkers == 0 at any level",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+lz4,648ebfaeb3,2026-10-22,64c61177,rebase on dev : lz4 frame compression follows dev's split of file processing ; worker states initial,2,2,102,113,102,113,0,0,0,4,1,0,1,2,1,0,0,88,4,58,73,0,0,0,1,0
+lz4,c0a1b631e6,2026-10-22,64c61177,review round 12: LZ4F_uncompressedUpdate() supports linked blocks ; CLI threads capped by file jobs ,15,7,208,90,54,45,1,0,0,11,0,0,4,4,0,1,0,388,9,28,35,0,1,0,0,0
+lz4,35d74f85f7,2026-10-22,64c61177,lz4hc: LZ4_saveDictHC() before any compression no longer corrupts the next block,3,1,32,0,3,0,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+lz4,124e0d4da8,2026-10-22,64c61177,"lz4frame: exact bounds, the job is the unit with nbWorkers >= 1 ; uncompressed segments are jobs ; C",6,4,181,226,140,198,0,0,0,17,1,2,5,1,2,4,0,146,7,49,95,1,1,0,0,0
+lz4,fa086fd0d6,2026-10-22,64c61177,lz4frame: LZ4F_flush() and LZ4F_compressEnd() fill dstBuffer or complete ; CLI releaseLag from LZ4F_,8,5,736,140,393,98,0,0,0,18,2,0,7,0,12,0,0,140,9,79,289,0,0,0,0,0
+lz4,a88e3a7311,2026-10-22,64c61177,"review round 11: allocations within workers documented, CLI nb of threads only grows across files, s",6,4,74,6,30,5,0,0,0,2,0,0,1,0,0,0,0,140,1,9,15,0,1,0,0,0
+lz4,88ed0b630e,2026-10-22,64c61177,"api: LZ4F_getMaxNbWorkers() reports multi-threading support ; CLI thread cap follows liblz4, lz4 -V ",14,7,99,36,63,25,0,0,0,5,0,1,2,0,3,0,0,388,3,12,43,0,1,0,0,0
+lz4,d4a0782b47,2026-10-22,64c61177,"review round 10: failed LZ4F_compressBegin() invalidates on allocation only, deferred emission of co",5,2,224,12,24,11,0,0,0,2,0,0,1,0,0,0,0,100,1,3,8,0,1,0,0,0
+lz4,c6e5a8cf53,2026-10-22,64c61177,"review round 9: destination too small invalidates MT frames (test), --rm keeps a renamed or replaced",13,3,312,30,43,17,0,0,0,4,0,0,1,0,1,0,0,134,3,12,28,0,1,0,0,0
+lz4,826f9bd6c8,2026-10-22,64c61177,"cleanup: legacy helpers without frame leftovers, nbWorkers == 1 comments (checkpoint)",3,2,11,38,10,37,0,0,0,5,0,2,0,1,0,0,0,61,3,2,7,0,0,0,0,1
+lz4,bfd8019c02,2026-10-22,64c61177,"memory: CLI memory budget (--memory, LZ4_MEMORY), no fixed nb of workers, single-threaded path witho",10,5,295,51,259,40,1,0,0,15,3,0,5,0,8,0,0,384,7,89,206,0,1,0,0,0
+lz4,6781c41631,2026-10-22,64c61177,lz4 CLI: memory-mapped source modified during compression is accepted when its content checksum stil,5,3,37,14,28,7,0,0,0,2,0,0,1,0,1,0,0,124,1,7,19,0,0,0,0,0
+lz4,b54cc29c78,2026-10-22,64c61177,"MT robustness: source modified during compression detected, pool retried, queued jobs cancelled, lon",7,4,164,19,93,15,0,0,0,5,0,0,1,1,6,0,0,119,2,19,75,0,0,0,0,0
+lz4,96be2ab78d,2026-10-22,64c61177,"build: mingw _WIN32_WINNT, pthread probe in a private directory, install installs what was built (ch",4,1,42,7,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,0,1,0
+lz4,d9c9fe23a2,2026-10-22,64c61177,lz4frame: explicit reserved fields ; LZ4F_srcStableUntilFlush includes LZ4F_srcStable (checkpoint),4,2,122,18,18,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,0,0
+lz4,84507cb3d6,2026-10-22,64c61177,MT: synchronous signals remain deliverable in workers ; CLI reports SIGBUS on memory-mapped input (c,7,5,81,9,78,7,0,0,0,5,1,0,1,0,2,0,0,106,3,21,59,0,0,0,0,0
+lz4,c283199226,2026-10-22,64c61177,"lz4frame: LZ4F_stableSrc_t, MT jobs read input in place only with LZ4F_srcStableUntilFlush (checkpoi",5,4,50,26,26,13,0,0,0,5,0,0,1,0,0,0,0,106,4,7,15,0,0,0,0,0
+lz4,ebbdb4e807,2026-10-22,64c61177,"MT hardening : allocation failure injection, lz4file test, fuzzers with nbWorkers, CI sanitizer step",7,4,347,31,77,17,0,0,0,5,1,0,1,0,0,0,0,83,3,53,71,1,0,0,0,0
+lz4,bb777cdb47,2026-10-22,64c61177,"lz4 CLI: memory-mapped input for frame compression, --[no-]mmap ; document -T# semantics (checkpoint",6,4,156,10,133,7,0,0,0,6,0,0,2,0,5,0,0,384,2,19,106,0,0,0,0,0
+lz4,ae0012969a,2026-10-22,64c61177,lz4frame: reduce multi-threading memory (checkpoint),1,1,148,28,148,28,0,0,0,12,0,0,2,0,7,0,0,93,2,28,126,0,1,0,0,1
+lz4,0852fddadc,2026-10-22,64c61177,"lz4frame: streaming multi-threaded compression, persistent pool, CLI uses it (checkpoint)",9,3,1205,825,914,809,0,0,0,15,3,8,5,1,38,17,0,96,6,79,731,0,1,0,0,0
+lz4,02916432ee,2026-10-22,64c61177,lz4frame: experimental multi-threaded one-shot compression (checkpoint),13,2,1160,60,564,34,0,0,0,4,5,0,1,1,14,0,0,82,3,33,428,0,1,0,0,0
+lz4,81ee260c4e,2026-10-22,64c61177,level 2 : check ip+1 after any short match,3,1,26,20,14,19,0,0,0,1,0,0,0,1,0,0,0,126,1,13,13,0,0,0,0,0
+lz4,b37b56f181,2026-10-22,e84d54d5,lz4file: skip zero-length fwrite calls in LZ4F_write,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+lz4,4b45bb5e32,2026-10-21,64c61177,fast levels : first test the position following the previous occurrence of ip-1,3,1,71,26,41,26,0,0,0,1,0,0,1,0,1,0,0,327,1,29,35,0,0,0,0,0
+lz4,da7b7ebdda,2026-10-21,64c61177,copy the tables of an attached dictionary from 2 KB inputs,2,1,7,1,6,1,0,0,0,1,0,0,0,0,0,0,0,57,1,1,2,0,0,0,0,0
+lz4,6739cc9d10,2026-10-21,64c61177,cli: main() : clearer check of the .lz4 extension for automatic output names,1,1,4,8,4,8,0,0,0,1,0,0,0,1,0,0,0,382,1,4,4,0,0,0,0,0
+lz4,ab5f917365,2026-10-21,64c61177,"lz4frame: share state initialization, LZ4F_makeBlock() takes the context",3,1,68,50,39,50,0,0,0,4,0,0,0,2,1,0,0,91,3,19,31,0,0,0,0,0
+lz4,317389aaff,2026-10-21,64c61177,cli: share file name building of multiple-files modes,1,1,47,62,47,62,0,0,0,3,0,0,0,1,2,0,0,49,1,4,36,0,0,0,0,0
+lz4,f11eeb613c,2026-10-21,64c61177,cli: legacy format honors --rm and keeps file attributes,3,1,101,122,89,122,0,0,0,2,3,2,1,1,3,2,0,63,2,23,59,0,0,0,0,0
+lz4,568d7d93c3,2026-10-21,01a9edd5,lz4io: use unsigned counters for multithreaded decode buffer pool,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,9,0,0,4,0,1,0,0,0
+lz4,cebeba6e3e,2026-10-20,e84d54d5,cli: reject malformed --fast= and --threads arguments,2,1,4,1,2,1,0,0,0,1,0,0,1,0,0,0,0,386,1,2,2,0,1,0,0,0
+lz4,26f121584a,2026-10-20,e84d54d5,lz4io: detect truncated skippable frames in regular files,2,1,17,2,7,2,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+lz4,8b8c415d79,2026-10-19,64c61177,xxhash: no -Wbad-function-cast warning,3,1,4,3,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+lz4,af4b7386f2,2026-10-19,64c61177,lz4: LZ4_WILDCOPY64 can be set from the build command,3,1,15,5,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+lz4,79d09aa0d9,2026-10-19,64c61177,lz4frame: LZ4F_decompress(): gather input with LZ4F_gatherInput(),1,1,77,139,77,139,0,0,0,2,0,0,0,1,1,0,0,312,2,44,65,0,0,0,0,0
+lz4,aecc724040,2026-10-19,64c61177,lz4: set the compressor's end limits after the input size check,1,1,4,2,4,2,0,0,0,1,0,0,1,0,0,0,0,320,1,4,4,0,0,0,0,0
+lz4,aca5592874,2026-10-19,64c61177,lz4frame: LZ4F_decompress(): factor block decoding and history move,1,1,61,62,61,62,0,0,0,2,0,1,0,1,2,0,0,389,2,10,43,0,0,0,0,0
+lz4,6f6e186b3a,2026-10-19,64c61177,"headers: include dependencies outside of extern ""C""",8,4,37,18,19,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,0,0
+lz4,f676142fff,2026-10-19,64c61177,lz4hc: LZ4MID_compress(): factor match candidate evaluation,1,1,66,87,66,87,0,0,0,1,1,0,0,1,1,0,0,131,1,40,58,0,0,0,0,0
+lz4,bf2b488182,2026-10-19,64c61177,bench: decode-only mode shares the whole result buffer,2,1,5,8,4,8,0,0,0,1,0,0,0,1,0,0,0,220,1,3,4,0,0,0,0,0
+lz4,fe6efeb514,2026-10-19,64c61177,cli: legacy decoder counts decoded bytes in its writer thread,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,1,0,1,0,0,0
+lz4,ac2eba0f1a,2026-10-19,64c61177,cli: accept the Linux kernel's legacy end marker,4,1,19,1,3,0,0,0,0,3,1,0,2,0,0,0,0,61,3,3,3,0,0,0,0,0
+lz4,9584f8433a,2026-10-19,64c61177,lz4hc: LZ4MID_compress(): fill hash tables at the actual match start,2,1,8,4,7,4,0,0,0,1,0,0,1,0,0,0,0,169,1,5,5,0,0,0,0,0
+lz4,c2ecde85b9,2026-10-19,64c61177,bench: fix compressed buffer size with small blocks,2,1,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,225,1,1,1,0,0,0,0,0
+lz4,f4f7a9882c,2026-10-19,64c61177,lz4: decoder still supports rings of the former LZ4_DECODER_RING_BUFFER_SIZE(),4,2,60,45,14,3,0,0,0,2,0,0,1,0,0,0,0,222,1,5,6,0,0,0,0,0
+lz4,875d99dd82,2026-10-19,64c61177,lz4hc: LZ4HC_compress_hashChain(): simplify the m1/m2/m3 flow,1,1,71,97,71,97,0,0,0,1,0,0,1,0,0,1,0,133,1,54,54,0,0,0,0,1
+lz4,2330c5ddc1,2026-10-19,64c61177,lz4: LZ4_decompress_generic(): safe loop copies matches with LZ4_memcpy_using_offset_base(),1,1,16,25,16,25,0,0,0,2,0,0,0,1,0,0,0,217,1,1,10,0,0,0,0,0
+lz4,c33d5dc701,2026-10-19,64c61177,lz4: LZ4_decompress_generic(): LZ4_wildCopy64 on x86-64,2,1,10,4,9,3,0,0,0,1,0,0,0,0,0,0,0,232,1,2,8,0,0,0,0,0
+lz4,70860f1790,2026-10-19,64c61177,cli: decode Firefox's mozlz4 files,6,1,128,8,62,6,0,0,0,2,0,0,1,0,1,0,0,66,1,12,49,0,0,0,0,0
+lz4,b5be6dc6bf,2026-10-19,64c61177,lz4: LZ4_decompress_generic(): fast loop decodes the match length like the safe loop,1,1,19,23,19,23,0,0,0,1,0,0,0,1,0,0,0,232,1,18,18,0,0,0,0,0
+lz4,354572d2d1,2026-10-18,64c61177,LZ4_saveDict(): a negative dictSize saves nothing,3,1,21,6,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+lz4,6b1d673e3c,2026-10-18,58877111,Reject negative dictionary sizes in LZ4_saveDict,2,1,9,1,1,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+lz4,ccfc64e7b9,2026-10-18,64c61177,legacy format: same level to acceleration mapping as the frame format,3,1,13,1,10,1,0,0,0,1,0,0,0,1,1,0,0,18,1,1,8,0,0,0,0,0
+lz4,97c68c2cd9,2026-10-18,64c61177,"cap acceleration at LZ4_ACCELERATION_MAX, now defined in lz4.h",9,4,40,27,23,19,0,0,0,3,0,0,0,0,1,0,0,8,0,0,13,0,0,0,0,0
+lz4,38b3ed8a33,2026-10-18,64c61177,cli: -b --fast=# benchmarks a single level,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,385,1,1,1,0,0,0,0,0
+lz4,e77252c9db,2026-10-18,e84d54d5,lz4frame: avoid signed overflow for very negative compression levels,2,1,40,2,12,2,1,0,0,2,0,0,0,2,1,0,0,11,2,2,8,1,0,0,0,0
+lz4,3796322233,2026-10-18,e84d54d5,cli: reject numeric arguments that overflow,3,1,70,18,53,16,1,0,0,4,1,0,0,0,2,0,0,385,1,5,39,1,0,0,0,0
+lz4,830fc63f80,2026-10-18,64c61177,lz4: LZ4_decompress_generic(): simplify the last literals copy,1,1,11,44,11,44,0,0,0,1,0,0,0,1,0,0,0,236,1,6,6,0,0,0,0,1
+lz4,e829d4b3df,2026-10-18,01a9edd5,lz4: reject negative dictSize in dictionary entry points,3,2,18,1,5,1,0,0,0,5,0,0,2,0,0,0,0,28,2,2,5,0,0,0,0,0
+lz4,970fd67bb1,2026-10-17,64c61177,lz4: LZ4_decompress_generic(): name literal and match lengths ll and ml,1,1,75,70,75,70,0,0,0,1,0,0,1,0,0,0,0,252,1,72,72,0,0,0,0,0
+lz4,c6d0bf8f0e,2026-10-17,64c61177,lz4: LZ4_decompress_generic() safe loop: remove the _copy_match label,1,1,74,78,74,78,0,0,0,1,0,0,0,1,0,0,0,248,1,47,47,0,0,0,1,0
+lz4,2343fa3e8e,2026-10-17,64c61177,enable LZ4_FAST_DEC_LOOP on riscv64 when unaligned accesses are fast,2,1,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,2a997d35c9,2026-10-17,64c61177,"lz4: LZ4_decompress_generic() safe loop: check the end of block once, then copy",1,1,54,48,54,48,0,0,0,2,0,0,0,1,1,0,0,250,1,11,38,0,0,0,0,0
+lz4,72b82c1720,2026-10-17,64c61177,lz4: LZ4_decompress_safe_partial() clears the match segment of an invalid offset 0,3,1,22,1,3,1,0,0,0,1,0,0,1,0,0,0,0,271,1,3,3,0,0,0,0,0
+lz4,b65a5cc90a,2026-10-17,a3b2a26d,reject truncated frames in --list by validating full reads,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,28,0,0,2,0,0,0,0,0
+lz4,b158fc1a2b,2026-10-17,64c61177,lz4: LZ4_decompress_generic() fast loop hands over at a sequence start,1,1,21,20,21,20,0,0,0,1,0,0,0,1,0,0,0,268,1,7,7,0,0,0,0,0
+lz4,29aac801d5,2026-10-17,64c61177,lz4io: size multi-file output names for the suffix,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,47,0,0,2,0,0,0,0,0
+lz4,eaf7baf1b6,2026-10-17,f17a8a43,util: check UTIL_realloc result before computing *bufEnd in UTIL_prepareFileList,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,163291f905,2026-10-17,64c61177,lz4: remove two LZ4_decompress_generic() checks that can never fail,1,1,5,10,5,10,0,0,0,1,0,0,0,1,0,0,0,269,1,2,2,0,0,0,1,0
+lz4,b19a8f7536,2026-10-17,64c61177,lz4: reject negative compressedSize in LZ4_decompress_safe_partial*(),3,1,8,1,1,1,0,0,0,1,0,0,0,0,0,0,0,276,1,1,1,0,0,0,0,0
+lz4,0c4e2005e6,2026-10-17,64c61177,lz4frame: FORWARD_IF_ERROR evaluates its argument only once,1,1,8,3,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+lz4,f0f81c777a,2026-10-17,64c61177,lz4: factor the extDict match copy of LZ4_decompress_generic() into LZ4_copyExtDictMatch(),1,1,32,36,32,36,0,0,0,1,0,0,0,1,1,0,0,276,1,2,25,0,0,0,0,0
+lz4,f110dbabd6,2026-10-17,64c61177,lz4: reject negative originalSize in LZ4_decompress_fast*(),2,1,9,1,3,1,0,0,0,1,0,0,1,0,0,0,0,73,1,3,3,0,0,0,0,0
+lz4,24a02299f9,2026-10-17,64c61177,lz4frame: don't redefine DEBUGLOG when already defined,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,2c5a00d811,2026-10-17,64c61177,lz4: LZ4_putPosition() registers a position in any table type,1,1,16,30,16,30,0,0,0,3,0,0,0,1,0,1,0,318,1,5,13,0,0,0,0,0
+lz4,aa787570e6,2026-10-17,64c61177,"Windows CI: test lz4 -l on an empty file, NEWS for #1740",3,1,11,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,28cdacfb85,2026-10-17,01a9edd5,read full frame header for dictID frames in --list,3,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,124,1,1,1,0,0,1,0,0
+lz4,8770c84d3f,2026-10-17,64c61177,lz4: fix C90 compilation of LZ4_compress_destSize() with LZ4_HEAPMODE=1,2,1,3,2,2,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+lz4,0f9e06b7dc,2026-10-17,64c61177,lz4: factor LZ4_compress_fast_extState_fastReset() variants into LZ4_compress_fastReset_generic(),1,1,26,26,26,26,0,0,0,1,1,0,0,1,1,0,0,11,1,2,24,0,0,0,0,0
+lz4,06f05a60c4,2026-10-17,64c61177,lz4: LZ4_compress_fast_extState() = LZ4_initStream() + LZ4_compress_fast_extState_fastReset(),1,1,5,17,5,17,0,0,0,2,0,0,0,1,0,0,0,14,2,4,4,0,0,0,0,0
+lz4,d74b41e8ef,2026-10-14,64c61177,lz4file: LZ4F_read() reports files ending within a frame,3,2,112,8,22,7,0,0,0,3,0,0,0,0,2,0,0,45,0,0,15,0,0,0,0,0
+lz4,25adde3434,2026-10-14,64c61177,lz4file: fix error paths of LZ4F_writeOpen() and LZ4F_writeClose(),2,2,24,14,24,14,1,0,0,3,0,0,0,0,0,0,0,40,0,0,17,0,0,0,0,0
+lz4,6d891bccd3,2026-10-14,64c61177,lz4: factor the dictSmall condition into LZ4_isDictSmall(),1,1,12,4,12,4,0,0,0,2,0,0,0,1,1,0,0,57,1,3,8,0,0,0,0,0
+lz4,bdfef4f07f,2026-10-14,64c61177,lz4: factor the byPtr / byU32 selection into LZ4_largeInputTableType(),1,1,14,8,14,8,0,0,0,3,0,0,0,3,1,0,0,35,3,5,10,0,0,0,0,0
+lz4,096e541cb1,2026-10-14,64c61177,lz4io: multi-file test mode decodes into /dev/null instead of stdout,1,1,6,1,6,1,0,0,0,1,0,0,1,0,0,0,0,54,1,5,5,0,0,0,0,0
+lz4,5584cff72b,2026-10-14,64c61177,"lz4: LZ4_compress_destSize_extState(): clamp acceleration, like other entry points",2,1,38,6,12,6,0,0,0,4,0,0,1,3,1,0,0,57,4,4,10,0,0,0,0,0
+lz4,babf4f5886,2026-10-14,64c61177,ossfuzz: occasionally skip checksums,6,6,13,5,13,5,0,0,0,5,0,0,1,0,0,0,0,69,1,2,12,0,0,0,0,0
+lz4,e016a0a513,2026-10-14,64c61177,lz4frame: skipChecksums also skips block checksums of compressed blocks,3,1,69,1,2,1,0,0,0,1,0,0,1,0,0,0,0,427,1,2,2,0,0,0,0,0
+lz4,618ed9ac37,2026-10-14,64c61177,"lz4hc: InsertAndGetWiderMatch: extract LZ4HC_sparsestChain(), flatten the pattern jump",1,1,61,53,61,53,0,0,0,1,0,0,0,1,1,0,0,169,1,32,50,0,0,0,1,0
+lz4,37ea69c7bf,2026-10-14,64c61177,lz4hc: InsertAndGetWiderMatch: extract LZ4HC_patternSegment(),1,1,79,57,79,57,0,0,0,1,1,0,0,1,1,0,0,188,1,36,65,0,0,0,1,0
+lz4,0cc7159132,2026-10-13,64c61177,lz4hc: favorDecSpeed : optimal parser prefers fewer sequences,1,1,59,25,59,25,0,0,0,6,0,0,2,0,1,0,0,111,3,13,41,0,0,0,0,0
+lz4,c137d7b949,2026-10-13,64c61177,lz4file: new functions LZ4F_seek() and LZ4F_tell(),4,2,349,11,226,11,0,0,0,4,1,0,0,0,7,0,0,45,0,0,176,0,0,0,0,0
+lz4,dfb6d8c612,2026-10-13,64c61177,lz4hc: hashChain: share the overlap correction between m1 and m2,1,1,26,24,26,24,0,0,0,1,0,0,0,1,1,0,0,139,1,5,18,0,0,0,0,0
+lz4,2655472fcf,2026-10-13,64c61177,lz4hc: LZ4HC_encodeSequence() restores op on failure,1,1,13,26,13,26,0,0,0,4,0,0,1,3,0,0,0,167,4,12,12,0,0,0,0,0
+lz4,9f108f7e79,2026-10-13,64c61177,lz4frame: new experimental API LZ4F_resumeFrame(),3,2,324,39,76,14,0,0,0,2,0,0,1,0,1,0,0,426,1,12,44,0,0,0,0,0
+lz4,502b02b446,2026-10-13,64c61177,lz4hc: stop searching once a match reaches the maximum possible length,1,1,6,2,6,2,0,0,0,1,0,0,1,0,0,0,0,206,1,4,4,0,0,0,0,0
+lz4,cf1e50c668,2026-10-13,64c61177,lz4hc: fix LZ4_compressHC2_continue(),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+lz4,fdd2bc58ef,2026-10-13,64c61177,lz4frame: accept NULL srcBuffer with srcSize==0 in LZ4F_decompress(),1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,426,1,4,4,0,0,0,0,0
+lz4,d3c23ca2e3,2026-10-13,64c61177,lz4hc: optimal parser: remove fullUpdate,1,1,29,38,29,38,0,0,0,3,1,1,0,2,1,1,0,106,3,6,27,0,0,0,1,0
+lz4,d8c8976078,2026-10-13,64c61177,lz4frame: fix decompression hints around block checksums,2,1,13,2,2,2,1,0,0,1,0,0,0,1,0,0,0,424,1,2,2,0,0,0,0,0
+lz4,395f317e6a,2026-10-13,64c61177,lz4: LZ4_loadDict() with a dictionary too small to be used keeps a consistent state,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0
+lz4,7652c7243c,2026-10-13,64c61177,lz4hc: optimal parser: fullUpdate comes from the level table,1,1,17,18,17,18,0,0,0,1,0,0,0,1,0,0,0,41,1,1,15,0,0,0,0,0
+lz4,2cba83a60a,2026-10-13,64c61177,"lz4hc: optimal parser: return directly, handle overflow at its call site",1,1,54,52,54,52,1,0,0,2,1,0,0,1,1,0,0,42,2,24,53,1,0,0,0,0
+lz4,63b89affd0,2026-10-13,64c61177,lz4hc: re-indent LZ4HC_compress_optimal() (whitespace only),1,1,111,111,111,111,0,0,0,1,0,0,0,0,0,0,0,127,1,87,87,0,0,0,0,0
+lz4,25ae65810f,2026-10-13,64c61177,lz4hc: share final literals and fillOutput last sequence between parsers,1,1,120,157,120,157,0,0,0,3,2,0,0,3,2,0,0,171,3,24,91,0,0,0,0,0
+lz4,85a4ac8e36,2026-10-13,64c61177,lz4hc: optimal parser: remove literals update after a searched position,1,1,27,33,27,33,0,0,0,3,0,2,0,0,1,0,0,165,3,17,22,0,0,0,1,0
+lz4,749991031d,2026-10-13,64c61177,lz4hc: restructure the optimal parser (no output change),1,1,120,149,120,149,0,0,0,1,2,0,0,1,3,0,0,165,1,43,97,0,0,0,0,0
+lz4,664c914a12,2026-10-12,64c61177,lz4.h: bump version to v1.10.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,b2806bb72b,2026-10-12,64c61177,ossfuzz: check dictStream allocations in the stream fuzzer,1,1,2,0,2,0,0,0,0,2,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+lz4,2f449bb3a0,2026-10-12,64c61177,lz4.h: ring buffer conditions of LZ4_decompress_safe_continue(),1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,10179cb183,2026-10-12,64c61177,lz4: LZ4_compress_fast_continue() handles input overwriting its whole dictionary,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,58,1,2,2,0,0,0,0,0
+lz4,16d695b1af,2026-10-12,64c61177,lz4: LZ4_DECODER_RING_BUFFER_SIZE() margin covers the decoder's wide copies,2,2,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+lz4,f59a98d5bf,2026-10-12,64c61177,lz4: fix one-shot fast reset after LZ4_attach_dictionary() on a new state,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+lz4,73ee988e95,2026-10-10,d47bc333,ossfuzz: check cstreamHC after LZ4_createStreamHC() in the stream fuzzer,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+lz4,6334ff8214,2026-10-10,64c61177,lz4hc: don't leave stale chains at the end of an external dictionary,1,1,8,3,8,3,0,0,0,1,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+lz4,7899259a59,2026-10-09,64c61177,lz4hc: LZ4_loadDictHC() and CDict attachment preserve favorDecSpeed,2,2,9,1,9,1,0,0,0,2,0,0,1,0,0,0,0,28,1,2,4,0,0,0,0,0
+lz4,e13b541638,2026-10-09,64c61177,lz4: clear the table for a new stream starting with a large block,1,1,9,3,9,3,0,0,0,2,0,0,1,0,0,0,0,58,2,3,4,0,0,0,0,0
+lz4,96ac8d0600,2026-10-09,64c61177,lz4: clear the table beyond LZ4_HASHTABLESIZE / 16 for one-shot fast reset,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,27,1,1,1,0,0,0,0,0
+lz4,4b7fd5d5c8,2026-10-09,64c61177,lz4frame: linked frames start from a cleared table,1,1,13,9,13,9,0,0,0,1,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+lz4,bbd0b9aa72,2026-10-09,64c61177,lz4hc: LZ4_resetStreamHC_fast() preserves favorDecSpeed after a failure,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+lz4,ba56b8c14e,2026-10-08,64c61177,ossfuzz: FUZZ_dataProducer_retrieve32() returns 32 bits,1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+lz4,63250bbfdc,2026-10-08,64c61177,lz4frame: fix LZ4F_dctx_size() after a frame with smaller blocks,1,1,14,9,14,9,1,0,0,2,0,0,1,0,0,0,0,424,1,10,12,0,0,0,0,0
+lz4,680f370610,2026-10-08,64c61177,lz4frame: rename maxBufferSize into tmpBuffCapacity / tmpOutBufferCapacity,1,1,15,15,15,15,0,0,0,8,0,0,0,0,0,0,0,420,4,9,15,0,0,0,0,0
+lz4,416740ab75,2026-10-08,64c61177,lz4frame: ctxTypeID_to_size() => LZ4F_sizeofLZ4State(),1,1,23,17,23,17,0,0,0,3,0,0,0,0,1,1,0,102,1,7,17,0,0,0,0,0
+lz4,7df09393e8,2026-10-08,64c61177,lz4frame: ctxTypeID_to_size() uses sizeof(),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+lz4,9b387dc135,2026-10-08,64c61177,lz4frame: allow compression into dst capacities < compressBound (fixes #1817),2,2,111,77,111,77,1,0,0,6,0,0,2,2,0,0,0,102,4,38,56,0,0,0,0,0
+lz4,c8d0a16537,2026-10-08,64c61177,tests: LZ4F compression into dst capacities < compressBound (#1817),6,3,1164,36,249,13,0,0,0,2,3,0,0,0,7,0,0,55,1,4,207,0,0,0,0,0
+lz4,d1a760a155,2026-10-08,64c61177,lz4frame: rename error dstMaxSize_tooSmall into dstCapacity_tooSmall,3,2,13,10,12,9,0,0,0,5,0,0,0,0,0,0,0,98,3,5,10,0,0,0,0,0
+lz4,b008b0858a,2026-10-07,64c61177,cli: honor custom block sizes in multithreaded compression (fixes #1810),1,1,101,15,101,15,1,0,0,4,2,0,1,1,4,0,0,155,2,8,76,0,1,0,0,0
+lz4,8f082771f2,2026-10-07,64c61177,fix dst capacity accounting,3,2,186,31,24,6,1,0,0,2,0,0,1,0,0,0,0,97,1,12,18,0,0,0,0,0
+lz4,688082d7bd,2026-10-07,d909d052,fix unvalidated blockSizeID in LZ4F_compressBegin_internal(),2,1,72,0,1,0,1,0,0,1,0,0,1,0,0,0,0,98,1,1,1,0,0,0,0,0
+lz4,1db76f6c70,2026-10-07,d909d052,fix ineffective LZ4F_getBlockSize() error check in lz4file,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,37,0,0,2,0,0,0,0,0
+lz4,4cf98b0324,2026-10-07,9f2b667c,cli: keep source after decompression failure,2,1,5,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+lz4,adbf1719e7,2026-06-08,a3b2a26d,avoid hang by using predicate-based wait in TPool_jobsCompleted,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+lz4,587ed95577,2026-06-01,008f0635,"add comments explaining read_variable_length() ilimit bounds, fix match length limit",1,1,8,2,8,2,1,0,0,1,0,0,0,0,0,0,0,306,1,2,2,1,0,0,0,0
+lz4,7332f25843,2026-06-01,008f0635,simplify read_variable_length() by removing initial_check parameter,1,1,6,10,6,10,0,0,0,2,0,0,0,0,0,0,0,306,1,4,6,0,0,0,0,1
+lz4,fe1d3925da,2026-06-01,008f0635,fix ip reaching iend in safe decode loop shortcut path,2,1,17,1,1,1,1,0,0,1,0,0,0,0,0,0,0,306,1,1,1,0,0,0,0,0
+lz4,a1eaa9342a,2026-06-01,008f0635,fix ip reaching iend in fast decode loop,2,1,19,1,2,1,1,0,0,2,0,0,0,0,0,0,0,306,1,1,2,0,0,0,0,0
+lz4,e64d5c5491,2026-06-01,008f0635,update read_variable_length() comment on initial_check,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,65df5960f8,2026-06-01,008f0635,rename `ip` to `ipPtr` in read_variable_length(),1,1,9,9,9,9,0,0,0,1,0,0,0,0,0,0,0,27,0,0,9,0,0,0,0,0
+lz4,279bb25a67,2026-06-01,008f0635,fix read_variable_length() call sites limits,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,306,1,3,3,0,0,0,0,0
+lz4,167c38c99a,2026-06-01,008f0635,remove unreachable overflow check in read_variable_length(),1,1,0,4,0,4,1,0,0,1,0,0,0,0,0,0,0,27,0,0,0,1,0,0,1,0
+lz4,d5e67621de,2026-06-01,008f0635,fix off-by-one OOB read in read_variable_length(),1,1,3,6,3,6,1,0,0,1,0,1,0,0,0,0,0,30,1,3,3,0,0,0,0,0
+lz4,7771c606b1,2026-05-27,422f2035,Update assert message for clarity in lz4.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+lz4,b0296ad1bc,2026-05-27,422f2035,Address offset==0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+lz4,519a482e24,2026-05-27,422f2035,Relax assert,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+lz4,93e8b693f4,2026-03-20,b1bbd600,Quickly branch on stream's end,1,1,16,11,16,11,0,0,0,1,0,0,1,0,0,0,0,302,1,12,12,0,0,0,0,0
+lz4,20e0be96d3,2026-03-19,b1bbd600,Use 2-byte loads on LZ4_memcpy_using_offset_base,1,1,3,4,3,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+lz4,651a70a381,2026-03-19,b1bbd600,Introduce LZ4_wildCopy64 for aarch64,1,1,24,1,24,1,0,0,0,1,0,0,1,0,1,0,0,305,1,10,20,0,0,0,0,0
+lz4,5ef1f16929,2026-03-02,64c61177,fix -Wmissing-prototypes warnings,3,3,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,97,3,3,4,0,0,0,0,0
+lz4,c474ef8be9,2026-02-13,53fcb1ce,Revert prev changes and fix bug,3,2,4,6,2,2,1,0,0,2,0,0,0,0,0,0,0,37,0,0,2,0,0,0,0,0
+lz4,01d0a210af,2026-02-12,0e12f98b,fix typedef redefinition warning in strict C90 mode,2,1,17,13,15,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+lz4,5aa4ecb42d,2026-02-08,53fcb1ce,fix compress bound off by one,2,1,15,2,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+lz4,ed86bc1ed8,2026-02-02,058a8e5a,AArch64: Enable LZ4_FAST_DEC_LOOP for Android,1,1,1,8,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,c57dfafe27,2026-01-24,008f0635,bench: align display when speed > 10000 MB/s,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,225,1,1,1,0,0,0,0,0
+lz4,de06fcf574,2026-01-22,0e12f98b,Updated lz4hc documentation: LZ4_saveDictHC() expects valid arguments,2,2,8,1,8,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+lz4,f3aedd1344,2026-01-21,6e2f6eea,add warning message when content size flag is used with stdin,1,1,6,2,6,2,0,0,0,1,0,0,1,0,0,0,0,385,1,6,6,0,0,0,0,0
+lz4,c99cfe4792,2025-09-15,0e12f98b,update LZ4F_decompress() code documentation,1,1,38,27,38,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,6aabc3f823,2025-08-27,cc12f2ab,Configure LZ4_FORCE_MEMORY_ACCESS=2 for RISC-V with Zicclsm extension,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,92a17e9e0d,2025-06-02,88652a84,Add Functions that Return the Memory Footprint for LZ4F Contexts,2,2,21,0,21,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,16,0,0,0,0,0
+lz4,f64efec011,2025-05-27,3a5d9c5a,fix(null) : improve error handlings when passing a null pointer to some functions from lz4frame,2,1,19,5,13,2,1,0,0,2,0,0,0,0,0,0,0,35,0,0,9,0,0,0,0,0
+lz4,41b00256a0,2025-05-25,b8cb43e3,"cast printf(""%p"") to (void*) to avoid (overly) pedantic warnings",1,1,10,10,10,10,0,0,0,9,0,0,0,0,0,0,0,301,3,4,10,0,0,0,0,0
+lz4,700ac95f23,2025-05-23,008f0635,minor refactor of LZ4F_write() in lz4file.c,1,1,17,18,17,18,0,0,0,2,0,0,0,0,0,0,0,25,0,0,13,0,0,0,0,1
+lz4,f30a0a954a,2025-05-23,008f0635,minor refactor of LZ4F_writeOpen() in lz4file.c,2,2,81,61,81,61,0,0,0,4,0,1,0,0,4,3,0,37,1,27,49,0,0,0,0,1
+lz4,672d141b99,2025-05-23,008f0635,minor refactor of LZ4F_read() in lz4file.c,2,1,29,27,28,27,0,0,0,1,0,0,0,0,0,0,0,36,0,0,26,0,0,0,0,1
+lz4,3afe5a5e6c,2025-05-23,008f0635,minor: refactor of LZ4F_readOpen() in lz4file.c,3,2,83,60,82,59,0,0,0,1,0,1,0,0,2,1,0,24,1,18,51,0,0,0,0,1
+lz4,51f8af506b,2025-04-30,422f2035,Fix missing endif,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,0aa33884fa,2025-04-30,422f2035,[LZ4] Limit disabling LZ4_FAST_DEC_LOOP to aarch64+clang+android,1,1,7,6,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+lz4,2719f42eb5,2025-04-27,b8cb43e3,removed year from header (#1605),28,24,32,30,26,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,1,0,0
+lz4,657246ff07,2025-03-18,7270d35d,Replaced uint8_t with unsigned char in BYTE typedef for post C99/C++,2,2,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+lz4,f369c3a98e,2025-02-25,0e12f98b,Fix theoretical risk of double-free in UTIL_realloc(),1,1,13,6,13,6,1,0,0,1,0,0,0,0,0,0,0,12,0,0,9,1,0,0,0,0
+lz4,5edb4bfa22,2025-02-24,0e12f98b,fixed a minor ubsan warning,3,1,5,3,1,1,1,0,0,1,0,0,1,0,0,0,0,87,1,1,1,0,0,0,0,0
+lz4,b8af3e2f74,2025-01-16,0e12f98b,fix fuzzer test,2,1,55,37,6,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,555d294b9b,2025-01-13,0e12f98b,fix flushing single byte,2,2,7,5,7,5,1,0,0,3,0,0,1,0,0,0,0,42,2,4,6,0,0,0,0,0
+lz4,d5362329cd,2025-01-13,0e12f98b,simplified LZ4F_localSaveDict() call pattern,3,2,117,77,79,51,0,0,0,6,0,0,3,1,1,0,0,204,4,35,66,0,0,0,0,1
+lz4,eba7d05b8e,2024-12-23,0e12f98b,fix modulo operation in tests,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,256,1,1,1,0,0,0,0,0
+lz4,9b9e03ff09,2024-12-23,0e12f98b,lz4hc: centralized input sanitization,1,1,53,21,53,21,0,0,0,4,0,0,3,1,0,0,0,256,4,23,23,1,0,0,0,0
+lz4,710ed4f0d7,2024-12-23,0e12f98b,no good reason to FORCE_INLINE,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,5c2068c606,2024-12-23,0e12f98b,fix lz4_opt behavior when srcSize == 0,2,1,34,7,3,0,1,0,0,1,0,0,1,0,0,0,0,255,1,3,3,0,0,0,0,0
+lz4,217bdb2f2f,2024-09-04,0e12f98b,update -H documentation regarding compression levels,2,2,6,3,6,3,0,0,0,1,0,0,1,0,0,0,0,63,1,5,5,0,0,0,0,0
+lz4,6410f177c6,2024-08-03,0e12f98b,slighly better cpu time measurement for Windows,1,1,22,12,22,12,0,0,0,7,0,0,0,0,2,1,0,50,1,1,15,0,0,0,0,0
+lz4,f7e65802dc,2024-08-02,0e12f98b,fix process time counter on Windows for very large files,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+lz4,9d298e9540,2024-07-28,0e12f98b,-h only documents -T# when multithreading is enabled,2,2,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,1,0,0,0
+lz4,7739164446,2024-07-26,cf80d9c4,docs: update lz4conf.h,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,5ec9143e1e,2024-07-24,1668a000,Fix file size check in LZ4F_readOpen,2,2,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,57,1,1,2,0,0,0,0,0
+lz4,de6531b45b,2024-07-20,0e12f98b,fixed minor conversion warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+lz4,8ce9e94cd5,2024-07-20,0e12f98b,improved lorem ipsum generator speed by a factor > x8,2,1,62,17,61,16,0,0,0,7,0,0,0,0,3,0,0,24,0,0,56,0,0,0,0,0
+lz4,2a1de07855,2024-07-20,0e12f98b,improved speed of lorem ipsum generator,2,1,45,23,44,23,0,0,0,6,0,0,0,0,1,0,0,23,0,0,41,0,0,0,0,0
+lz4,cc1508f523,2024-07-20,0e12f98b,more correct extDict detection,1,1,3,4,3,4,0,0,0,1,0,0,1,0,0,0,0,216,1,2,2,0,0,0,0,0
+lz4,2ea0373b57,2024-07-19,0e12f98b,level 2 compatibility with LZ4F dictionary compression,2,2,121,43,121,43,0,0,0,5,1,0,2,0,4,0,0,217,2,3,100,0,0,0,0,0
+lz4,21837b9621,2024-07-19,0e12f98b,fixed traces,2,2,32,32,32,32,1,0,0,13,0,0,0,1,0,0,0,216,1,1,32,0,1,0,0,0
+lz4,d31aaac2ed,2024-07-19,0e12f98b,Level 2 is now compatible with dictionary attach mode,2,2,126,118,126,118,0,0,0,21,0,1,2,0,1,1,0,217,4,13,101,0,0,0,0,0
+lz4,be35b7c591,2024-07-17,0e12f98b,minor documentation edit,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,1b12a1515f,2024-07-17,0e12f98b,fix minor conversion warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+lz4,f458b2b1a5,2024-07-17,0e12f98b,LZ4_loadDictHC is compatible with LZ4MID level 2,3,2,96,53,95,52,0,0,0,5,0,0,1,0,0,0,0,216,1,63,88,0,0,0,0,0
+lz4,7480aeed02,2024-07-17,0e12f98b,added a dictionary loader dedicated to level 2 (LZ4MID),3,2,71,45,70,44,0,0,0,1,1,1,0,1,3,1,0,39,1,4,62,0,0,0,0,0
+lz4,33c62fa67e,2024-07-17,0e12f98b,promote LZ4_attach_HC_dictionary() to stable,1,1,30,31,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+lz4,0642ae2f1e,2024-07-16,0e12f98b,minor: document version for new entry point,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,4f88c7a49d,2024-07-15,0e12f98b,exit on invalid frame,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,74,1,3,3,0,0,0,0,0
+lz4,8017ca0ed1,2024-07-15,0e12f98b,add documentation about decompression side,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,4f25e37a75,2024-07-14,0e12f98b,--list automatically triggers -m,2,1,3,2,1,1,0,0,0,1,0,0,0,0,0,0,0,381,1,1,1,0,0,0,0,0
+lz4,42a43c554a,2024-07-14,0e12f98b,promote LZ4 dictionary API to stable,1,1,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,0990811a9b,2024-07-14,0e12f98b,promote LZ4F dictionary API to stable,2,2,105,100,105,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+lz4,2db419ee23,2024-07-12,0e12f98b,removed implicit stdout,2,1,10,16,3,13,0,0,0,1,0,0,0,1,0,0,0,381,1,2,2,0,0,0,0,0
+lz4,e36fadfd44,2024-07-09,0e12f98b,support multithreading for linked blocks with dictionary,1,1,10,24,10,24,0,0,0,2,0,0,0,2,0,0,0,28,2,8,8,0,1,0,0,0
+lz4,b3dd37f78f,2024-07-09,0e12f98b,fix leak issue,1,1,34,34,34,34,1,0,0,5,0,0,0,0,0,0,0,155,3,30,34,0,0,0,0,0
+lz4,ed4d7d19bd,2024-07-09,0e12f98b,Linked Blocks compression (-BD) can employ multiple threads,1,1,23,8,23,8,0,0,0,3,0,0,2,0,0,0,0,50,2,16,18,0,1,0,0,0
+lz4,c78899a3a2,2024-07-08,0e12f98b,add support for environment variable LZ4_CLEVEL,4,2,37,8,25,2,0,0,0,1,0,0,0,0,1,0,0,388,1,1,17,0,0,0,0,0
+lz4,461881cf4a,2024-07-08,0e12f98b,fixed c90 compliance,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+lz4,461f369774,2024-07-08,0e12f98b,automatically enable multithreading by default on Windows,1,1,11,4,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,1,0,0,0
+lz4,32f7fd3f38,2024-07-07,008f0635,minor completion port update,1,1,4,7,4,7,0,0,0,3,0,0,0,1,0,0,0,29,1,2,4,0,0,0,0,0
+lz4,cfdb8ac60b,2024-07-07,008f0635,completion ports: minor readability refactor,1,1,57,58,57,58,0,0,0,5,0,0,0,1,0,0,0,32,1,22,50,0,0,0,0,1
+lz4,c688b4bd58,2024-07-07,008f0635,updated threadpool API,3,3,113,112,113,112,0,0,0,12,1,1,0,0,15,15,0,155,4,34,100,0,1,0,0,0
+lz4,50d541f9e3,2024-07-07,008f0635,simpler execution expression,1,1,9,11,9,11,0,0,0,2,0,0,0,0,0,0,0,18,0,0,6,0,0,0,0,0
+lz4,f0b29a973b,2024-07-07,008f0635,updated completion ports logic,1,1,21,23,21,23,0,0,0,5,1,0,0,0,0,0,0,41,1,8,21,0,0,0,0,0
+lz4,1dc60aa1a2,2024-07-07,008f0635,minor: removed one variable,1,1,3,8,3,8,0,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+lz4,5301a75c5a,2024-07-06,008f0635,fix cpuload measurements on Windows,2,2,20,3,20,3,1,0,0,1,0,0,0,0,1,0,0,14,0,0,14,0,0,0,0,0
+lz4,b7b0ee0a54,2024-07-06,0e12f98b,Add MT control via Environment variable LZ4_NBWORKERS,3,1,34,1,16,1,0,0,0,1,0,0,0,0,1,0,0,388,1,1,14,0,0,0,0,0
+lz4,718d1dcad7,2024-07-06,008f0635,warning message when nbThreads above limit,1,1,11,3,11,3,0,0,0,1,0,0,1,0,0,0,0,388,1,11,11,0,1,0,0,0
+lz4,79e72beeb5,2024-07-06,008f0635,minor optimization: allocate worker array at runtime,3,3,12,6,12,6,0,0,0,3,0,0,0,0,0,0,0,36,0,0,10,0,0,0,0,0
+lz4,b5639ade0e,2024-07-06,008f0635,fixed Visual Studio type warning,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,10cc4e38ac,2024-07-05,008f0635,fix C90 comment style,1,1,18,18,18,18,0,0,0,2,0,0,0,0,0,0,0,27,0,0,5,0,0,0,0,0
+lz4,425cd51aa7,2024-07-05,008f0635,count nb cores on Windows,1,1,9,87,9,87,0,0,0,1,0,1,0,0,0,1,0,13,1,3,6,0,0,0,0,0
+lz4,c7fd52aebc,2024-07-05,008f0635,fixed queue size control,1,1,3,6,3,6,1,0,0,2,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+lz4,3628163d2a,2024-07-05,008f0635,minor: Semaphore init value,1,1,8,8,8,8,0,0,0,3,0,0,0,0,0,0,0,31,0,0,8,0,1,0,0,0
+lz4,097f0fba84,2024-07-05,008f0635,minor parameter sanitization,1,1,12,7,12,7,0,0,0,1,0,0,0,0,0,0,0,31,0,0,10,1,0,0,0,0
+lz4,b4e3708823,2024-07-05,008f0635,queueLock no longer required,1,1,0,3,0,3,0,0,0,2,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0
+lz4,7183fe9e04,2024-07-05,008f0635,minor simplification,1,1,3,8,3,8,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,1
+lz4,9443ed9332,2024-07-05,0e12f98b,working implementation of completionPorts,1,1,152,2,152,2,0,0,0,4,0,0,0,0,5,0,0,27,0,0,105,0,0,0,0,0
+lz4,043745887c,2024-07-05,0e12f98b,fixed tsan warnings,3,1,18,5,15,3,1,0,0,4,0,0,0,0,0,0,0,39,0,0,9,0,0,0,0,0
+lz4,c379947b61,2024-07-05,0e12f98b,fix pedantic warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,0,0,0,0
+lz4,2e867a5ab6,2024-07-05,0e12f98b,fix comments for C90 strict compatibility,1,1,0,3,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,7b4e80481e,2024-07-05,0e12f98b,fix minor cast warnings related to -Wc++-compat,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,40,0,0,2,0,0,0,0,0
+lz4,e9b89073ef,2024-07-05,0e12f98b,optimize asyncio parameters,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0
+lz4,091ec2621b,2024-07-05,0e12f98b,implemented ayncio for lz4f decompression,1,1,255,1,255,1,0,0,0,1,1,0,1,0,7,0,0,72,1,73,201,0,0,0,0,0
+lz4,06ce31e7b3,2024-07-02,0e12f98b,add status update when decompressing legacy frames,1,1,3,0,3,0,0,0,0,2,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+lz4,db10b08fc9,2024-05-07,feecc06d,len should be unsigned,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,328,1,1,1,0,0,0,0,0
+lz4,642f6b8f80,2024-05-07,feecc06d,Prefer OR over ADD for splicing numbers from byte-addressed memory,3,3,14,14,14,14,0,0,0,5,0,0,0,0,0,0,0,13,0,0,14,0,0,0,0,0
+lz4,7f042fc1ed,2024-05-07,feecc06d,Define mlen = MINMATCH at the start of the loop,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,252,1,3,3,0,0,0,0,0
+lz4,9838a0de34,2024-05-05,422f2035,Update function comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,1a5b83b8c4,2024-04-03,008f0635,benchmark results are displayed to stdout,1,1,12,7,12,7,0,0,0,1,0,0,1,0,0,0,0,225,1,8,10,0,0,0,0,0
+lz4,993e77f255,2024-03-26,6757dcf1,Fix: 25 typos,1,1,19,19,19,19,1,0,0,18,0,0,0,0,0,0,0,57,2,2,19,0,0,0,0,0
+lz4,58c3e9dc1d,2024-03-26,dca2c796,Suppress VS2022 warnings,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,643a51caa8,2024-03-22,008f0635,minor: assert successful context creation,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+lz4,fab3068680,2024-03-21,008f0635,add test for bug #1374,2,1,5,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,e50a894154,2024-03-21,008f0635,fix #1374,1,1,27,26,27,26,1,0,0,4,0,0,0,2,0,0,0,155,2,2,20,0,0,0,0,0
+lz4,6b88d0a311,2024-03-10,0e12f98b,fix to please C++ compiler,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+lz4,323360009f,2024-03-10,0e12f98b,minor: keep old single-thread code,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+lz4,7a1b70502a,2024-03-10,0e12f98b,fix variable LZ4IO_MULTITHREAD,5,4,10,10,9,9,1,0,0,4,0,0,0,0,0,0,0,380,2,3,9,0,1,0,0,0
+lz4,43ae8c8545,2024-03-10,0e12f98b,first implementation of async io for decoder,1,1,147,3,147,3,0,0,0,2,1,0,0,0,3,0,0,60,1,61,109,0,1,0,0,0
+lz4,e0410ac4b6,2024-03-10,0e12f98b,reorganize mt code,1,1,63,58,63,58,0,0,0,3,0,0,0,0,0,0,0,18,2,36,49,0,0,0,0,0
+lz4,be8a4f6522,2024-02-22,60dbc580,Added preprocessor checks for Clang on Windows,3,2,5,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+lz4,1de550fcb5,2024-02-20,0e12f98b,fixed minor conversion warnings,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+lz4,718fe2a88b,2024-02-20,0e12f98b,updated lorem ipsum generator,1,1,211,131,211,131,0,0,0,9,0,0,0,0,2,0,0,22,0,0,199,0,0,0,0,0
+lz4,d6765765b8,2024-02-08,0e12f98b,fix incorrect assert,1,1,0,1,0,1,1,0,0,1,0,0,0,1,0,0,0,192,1,0,0,0,0,0,0,0
+lz4,80b7db0493,2024-02-08,0e12f98b,fix overly cautious static analyzer warning,1,1,10,8,10,8,1,0,0,1,0,0,1,0,0,0,0,193,1,8,8,0,0,0,0,0
+lz4,9712d319be,2024-02-08,0e12f98b,fix inaccurate address overflow condition,1,1,9,9,9,9,1,0,0,1,0,0,1,0,0,0,0,192,1,9,9,1,0,0,0,0
+lz4,5ccd3347e6,2024-02-08,0e12f98b,fix out-of-limit match in level 2,2,2,25,12,25,12,1,0,0,2,0,0,2,0,0,0,0,301,2,24,24,0,0,0,0,0
+lz4,0abb17fd72,2024-02-07,0e12f98b,fix back limit bug,1,1,4,2,4,2,1,0,0,1,0,0,1,0,0,0,0,186,1,4,4,0,0,0,0,0
+lz4,cc0f287528,2024-02-07,0e12f98b,fix minor sign comparison warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,184,1,1,1,0,0,0,0,0
+lz4,9e8649ef1d,2024-02-07,0e12f98b,removed assert always true,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,184,1,1,1,0,0,0,0,0
+lz4,ad204dc099,2024-02-07,0e12f98b,"fix ""source has 2 buffers"" for level 2",2,1,16,11,15,10,1,0,0,1,0,0,1,0,0,0,0,184,1,14,14,0,0,0,0,0
+lz4,bde614d894,2024-02-07,0e12f98b,fix dictionary support for level 2,1,1,88,25,88,25,1,0,0,5,1,0,3,2,1,0,0,202,5,37,81,0,0,0,0,0
+lz4,65ee88f1c5,2024-02-07,0e12f98b,fix _destSize() variant for level 2,1,1,59,15,59,15,1,0,0,2,0,0,2,0,0,0,0,193,2,54,54,0,0,0,0,0
+lz4,5a2516c220,2024-02-07,0e12f98b,made hash8Ptr compatible with big-endian systems,1,1,17,4,17,4,0,0,0,1,0,0,0,0,2,1,0,1,0,0,13,0,0,0,0,0
+lz4,3dc0cafe25,2024-02-07,0e12f98b,"minor refactor, for clarity",1,1,13,14,13,14,0,0,0,1,0,0,1,0,0,0,0,135,1,10,12,0,0,0,0,1
+lz4,7d304b5c77,2024-02-07,0e12f98b,fill table more,1,1,8,1,8,1,0,0,0,1,0,0,1,0,0,0,0,139,1,8,8,0,0,0,0,0
+lz4,6774551253,2024-02-07,0e12f98b,skip over incompressible data,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,132,1,1,1,0,0,0,0,0
+lz4,80026581de,2024-02-07,0e12f98b,long matches look for 7 bytes,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+lz4,15ed8113dd,2024-02-07,0e12f98b,fix the hash8 formula,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+lz4,10921d86c8,2024-02-07,0e12f98b,another minor compression improvement for level 2,2,2,19,6,19,6,0,0,0,2,0,0,2,0,0,0,0,223,2,12,13,0,0,0,0,0
+lz4,3116d85de3,2024-02-07,0e12f98b,slightly improved compression ratio of level 2,1,1,14,4,14,4,0,0,0,1,0,0,1,0,0,0,0,126,1,13,13,0,0,0,0,0
+lz4,ee86631034,2024-02-07,0e12f98b,first implementation of level2,2,2,347,152,347,152,0,0,0,5,1,0,1,0,9,0,0,63,2,74,259,0,0,0,0,0
+lz4,e0cfe3eb89,2024-01-29,0e12f98b,C90 comment style,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,f8a0a37c1f,2024-01-29,0e12f98b,improve LZ4F dictionary compression in fast mode,4,3,53,13,43,3,0,0,0,3,0,0,0,0,2,0,0,39,1,1,27,0,0,0,0,0
+lz4,10ac725c5e,2024-01-29,0e12f98b,fix init for dictionary compression in HC streaming mode,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+lz4,ef7baa60d4,2024-01-28,0e12f98b,fixed visual studio solution,7,2,21,18,5,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+lz4,47ffbfd6ef,2024-01-28,0e12f98b,finish generation with a newline character,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+lz4,65362838cb,2024-01-28,0e12f98b,datagen uses lorem ipsum generator by default,6,2,120,47,19,38,0,0,0,1,0,0,0,0,0,1,0,21,0,0,8,0,0,0,0,0
+lz4,69d708dd02,2024-01-28,0e12f98b,fixed minor unused variable,1,1,11,11,11,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,1511ec685f,2024-01-28,0e12f98b,made lorem slightly less compressible,1,1,21,3,21,3,0,0,0,2,0,0,0,0,0,0,0,21,0,0,15,0,0,0,0,0
+lz4,e6791b2d46,2024-01-28,0e12f98b,fix a very picky visual studio warning,1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+lz4,d3b5fe9362,2024-01-28,0e12f98b,minor optimization,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+lz4,5bc39192e2,2024-01-28,0e12f98b,fix minor static analyzer warning,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+lz4,73dd539a6e,2024-01-28,0e12f98b,minor optimizations,2,2,20,34,20,34,0,0,0,4,0,0,0,0,0,1,0,17,0,0,20,0,0,0,0,0
+lz4,823d37f730,2024-01-28,0e12f98b,bench.c does not longer need datagen,5,4,2,4,1,3,0,0,0,1,0,0,0,0,0,0,0,222,1,1,1,0,0,0,0,0
+lz4,f9eb26664e,2024-01-28,0e12f98b,added a lorem ipsum generator,5,5,302,24,302,24,0,0,0,3,0,0,0,1,11,0,0,55,2,4,219,0,0,0,0,0
+lz4,1230f1ca61,2024-01-01,0e12f98b,regrouped all compile-time variables into programs/lz4conf.h,5,4,80,70,74,66,0,0,0,6,0,0,0,0,0,0,0,380,2,4,50,0,0,0,0,0
+lz4,d61b4f1fe2,2023-12-31,0e12f98b,LZ4IO_MULTITHREADING can be forcefully disabled at compile time,4,3,48,18,40,11,0,0,0,4,0,0,1,0,0,0,0,380,2,3,19,0,1,0,0,0
+lz4,0d57b8262e,2023-12-31,0e12f98b,Build variable LZ4_NBTHREADS_DEFAULT,2,1,49,20,23,7,0,0,0,3,0,0,0,1,0,0,0,380,1,2,10,0,1,0,0,0
+lz4,196e7dbb55,2023-12-30,008f0635,minor optimization: only create thread pools if needed,1,1,11,9,11,9,0,0,0,2,0,0,1,0,0,0,0,161,1,7,9,0,1,0,0,0
+lz4,1e4dce4d70,2023-12-30,008f0635,minor optimization : share thread pools,1,1,35,24,35,24,0,0,0,3,0,0,0,1,0,0,0,154,1,8,31,0,1,0,0,0
+lz4,312693ba72,2023-12-29,0e12f98b,fixed potential leak scenario detected by @t-mat,2,2,3,4,3,4,1,0,0,2,0,0,1,1,0,0,0,66,2,3,3,0,0,0,0,0
+lz4,bde2e95db7,2023-12-29,0e12f98b,fixed initialization issue,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+lz4,93a1bc6bba,2023-12-29,0e12f98b,fix leak when input is an exact multiple of job size,1,1,10,5,10,5,1,0,0,2,0,0,1,0,0,0,0,55,1,2,7,0,0,0,0,0
+lz4,128666662e,2023-12-29,0e12f98b,fix potential leak after failure in legacy format,2,1,54,27,51,24,0,0,0,3,1,1,0,1,1,0,0,42,2,15,38,0,0,0,0,0
+lz4,6a3932d1c9,2023-12-29,0e12f98b,make file open errors recoverable in legacy mode,3,2,17,12,14,11,0,0,0,2,0,0,1,0,0,0,0,381,2,11,11,0,0,0,0,0
+lz4,8e114d9b9c,2023-12-29,0e12f98b,fix MT compatibility with dictionaries,2,1,30,12,17,10,1,0,0,6,0,0,1,1,0,0,0,158,3,9,16,0,0,0,0,0
+lz4,e9e9beb62e,2023-12-29,0e12f98b,manually select single-thread path with -T1,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,13,1,2,2,0,1,0,0,0
+lz4,0dfbe965d6,2023-12-29,008f0635,report nb of threads in verbose mode,3,3,11,3,11,3,0,0,0,2,0,0,1,0,1,1,0,381,1,8,11,0,1,0,0,0
+lz4,132c2149c8,2023-12-29,008f0635,removed left-over trace,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,47,0,0,0,0,1,0,0,0
+lz4,88faa801bd,2023-12-29,008f0635,second attempt at fixing mingw32,1,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,34e9895cde,2023-12-29,008f0635,fixed MT incompatibility with --content-size,2,2,19,22,19,22,1,0,0,5,0,0,0,2,0,0,0,156,2,6,16,0,0,0,0,0
+lz4,b45de8b49b,2023-12-29,008f0635,attempt to fix mingw32 compilation issues,2,1,3,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,2b23260580,2023-12-29,008f0635,removed cancelled declaration,1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,3bdaad3560,2023-12-29,0e12f98b,silence some clang x32 test,3,2,15,14,2,1,0,0,0,1,0,0,1,0,0,0,0,39,1,1,2,0,0,0,0,0
+lz4,d7c82ffef1,2023-12-29,0e12f98b,fixed a few Visual Studio Static Analyzer warnings,4,2,15,7,12,4,1,0,0,2,0,0,1,0,0,0,0,59,1,9,12,0,0,0,0,0
+lz4,e1350f8649,2023-12-29,0e12f98b,make visual compilation test on appveyor less permissive,3,1,4,5,1,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+lz4,3227a55269,2023-12-28,0e12f98b,added a simple test for MT CLI commands,4,2,38,23,31,23,0,0,0,4,0,0,1,0,0,0,0,376,1,6,31,0,0,0,0,0
+lz4,ef6442b504,2023-12-28,0e12f98b,fix minor static analyzer warnings,2,2,6,3,6,3,1,0,0,2,0,0,1,0,0,0,0,222,2,6,6,0,0,0,0,0
+lz4,4333be50bc,2023-12-28,0e12f98b,fix minor static analysis initialization warning,1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+lz4,db7495d08b,2023-12-28,0e12f98b,fix another C90 pedantic warning,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,62,1,2,2,0,0,0,0,0
+lz4,ee38a8702c,2023-12-28,0e12f98b,fixed several minor pedantic conversion warnings,1,1,7,7,7,7,1,0,0,5,0,0,0,0,0,0,0,37,2,4,7,0,0,0,0,0
+lz4,94496a90f6,2023-12-28,0e12f98b,fix pedantic C90 compatibility warnings,1,1,74,80,74,80,1,0,0,6,0,0,2,0,0,0,0,156,2,42,68,0,0,0,0,0
+lz4,bd47756690,2023-12-28,0e12f98b,lz4io: verbose compress/decompress operations display a summary,2,2,64,43,64,43,0,0,0,10,1,0,3,1,1,0,0,154,5,20,60,0,0,0,0,0
+lz4,a49ca22195,2023-12-28,0e12f98b,fix cmake recipe,5,1,13,22,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,ca2e106054,2023-12-28,0e12f98b,fix minor conversion warnings,1,1,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,152,2,2,4,0,0,0,0,0
+lz4,d169286a9f,2023-12-28,0e12f98b,fixed minor conversion warnings,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,96,1,2,2,0,0,0,0,0
+lz4,4984c7fde6,2023-12-28,0e12f98b,updated Welcome message to specify if binary support multithreading or not,1,1,7,2,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,0,0,0
+lz4,cbe7211b9c,2023-12-28,008f0635,make: fix lz4 mt compilation on linux/posix,5,2,37,9,8,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+lz4,d3ae8e0e85,2023-12-28,0e12f98b,fix numCores detection on Linux,2,1,5,56,1,51,1,0,0,1,0,1,0,0,0,0,0,10,1,1,1,0,0,0,0,0
+lz4,f4dda829cc,2023-12-28,0e12f98b,fix minor comparator warning,1,1,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,96,1,1,1,0,0,0,0,0
+lz4,da5e8b7b0f,2023-12-28,0e12f98b,lz4frame: new API: LZ4F_compressBegin_usingDict(),7,3,396,186,222,130,0,0,0,9,5,3,0,0,5,2,0,90,2,11,138,0,0,0,0,0
+lz4,fd5f76d722,2023-12-28,0e12f98b,minor traces upgrades,1,1,18,15,18,15,0,0,0,3,0,0,1,0,0,0,0,14,1,2,13,0,1,0,0,0
+lz4,fc6029f8aa,2023-12-27,0e12f98b,preparation to support linked blocks,2,2,75,36,75,36,0,0,0,9,0,0,2,1,0,0,0,152,5,25,49,0,0,0,0,0
+lz4,e58a06d1f9,2023-12-27,0e12f98b,fixed smaller block sizes,2,2,43,30,43,30,1,0,0,6,1,1,1,0,3,2,0,420,3,19,40,0,0,0,0,0
+lz4,95c2bc7f1f,2023-12-27,0e12f98b,fix legacy format compression,3,2,53,58,53,55,0,0,0,10,1,1,1,2,1,1,0,420,5,10,51,0,0,0,0,0
+lz4,d4c21a4dd0,2023-12-27,0e12f98b,fixed stdin support,1,1,26,8,26,8,1,0,0,3,0,0,1,0,1,0,0,139,1,18,24,0,0,0,0,0
+lz4,815f3550a3,2023-12-27,0e12f98b,fix frame checksum in MT mode,2,2,40,8,40,8,1,0,0,4,0,0,2,0,0,0,0,126,2,26,32,0,0,0,0,0
+lz4,3acabda180,2023-12-27,0e12f98b,"multithreading works with lz4f format, but",1,1,210,28,210,28,0,0,0,8,2,0,2,0,2,0,0,108,4,114,162,0,1,0,0,0
+lz4,610baf140f,2023-12-27,0e12f98b,more generic read and write jobs,2,2,90,32,90,32,0,0,0,6,2,0,3,0,2,1,0,94,3,19,83,0,0,0,0,0
+lz4,553962bd39,2023-12-27,0e12f98b,better time measurement and reportin,6,6,321,185,321,185,0,0,0,12,1,0,1,0,9,16,0,219,3,34,226,0,0,0,0,0
+lz4,127fa57895,2023-12-27,0e12f98b,control over nbThreads,5,5,475,204,475,204,0,0,0,5,2,1,1,0,11,2,0,375,2,41,352,0,1,0,0,0
+lz4,8a1c8aa31d,2023-12-27,0e12f98b,"first implementation, for compression of legacy format",3,3,342,7,342,7,0,0,0,2,0,0,0,0,11,0,0,361,1,1,285,0,0,0,0,0
+lz4,b239d6afef,2023-12-27,0e12f98b,added a simple (untested) threadpool implementation,2,2,356,0,356,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,229,0,1,0,0,0
+lz4,88e477db6b,2023-12-27,0e12f98b,fix 1308,3,2,44,30,29,28,1,0,0,3,2,1,1,0,1,1,0,22,2,15,22,0,0,0,0,0
+lz4,854d13a168,2023-12-21,0e12f98b,fix uninitialized memory,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,6b9fc5fe68,2023-12-21,0e12f98b,minor: C90 comment style,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,863cf7cbed,2023-12-21,0e12f98b,streamline free logic,2,2,80,58,80,58,0,0,0,4,0,0,0,2,4,0,0,57,2,33,70,0,0,0,0,0
+lz4,00ad605bdf,2023-12-21,0e12f98b,lz4file API returns more accurate error codes,2,2,33,24,33,24,0,0,0,6,0,0,0,0,1,0,0,61,2,10,31,0,0,0,0,0
+lz4,06b2287804,2023-12-21,0e12f98b,very minor conversion warning fix,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+lz4,dc474bd84a,2023-12-19,0e12f98b,fix minor conversion warnings,3,2,15,15,12,12,1,0,0,5,0,0,0,0,0,0,0,219,5,12,12,0,0,0,0,0
+lz4,e52a82644f,2023-12-17,0e12f98b,link final binary rather than copy,3,2,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,a86d5c8131,2023-12-17,0e12f98b,avoid accidental redefinition of LZ4_STATIC_LINKING_ONLY,1,1,4,6,4,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+lz4,a2e4da3ec3,2023-12-07,0e12f98b,updated code documentation,3,1,109,45,17,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+lz4,629ba802c8,2023-12-05,2d6e0063,decomp: refine read_variable_length codegen layout,1,1,13,2,13,2,0,0,0,1,1,0,0,0,0,0,0,33,1,12,12,0,0,0,0,0
+lz4,ee25fc2812,2023-11-13,54f4456b,Add LZ4_compress_fast_extState_destSize() API,2,2,21,9,21,9,0,0,0,1,1,0,0,1,1,0,0,4,1,3,14,0,0,0,0,0
+lz4,84a1e9c273,2023-10-24,2d6e0063,lz4: remove unnecessary check of ip,1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,328,1,4,4,0,0,0,1,0
+lz4,0e4b22ddc9,2023-10-20,0e12f98b,updated NEWS and raised version number,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,212da692ea,2023-10-20,a7a60dfe,Fix compiler preprocessor,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,39734d2fe5,2023-10-17,a7a60dfe,Enable basic support on riscv64,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,9fa9bf264a,2023-10-16,8bf54f06,Add null pointer check before `FREEMEM()`,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,252,1,1,1,0,0,0,0,0
+lz4,b389bbf5fc,2023-10-11,8bf54f06,Make Meson version number parsing more robust,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+lz4,5ba4803d76,2023-10-09,f4126a62,chore: suppress warning C6385 for MSVC 17.7,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,28,0,0,2,0,0,0,0,0
+lz4,67532ae3c5,2023-09-26,0e12f98b,fix examples,6,1,72,91,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,f10aaa0af4,2023-09-11,0e12f98b,created new test case bug1227,2,1,67,3,5,2,1,0,0,2,0,0,1,0,0,0,0,67,1,3,5,0,0,0,0,0
+lz4,9a03570692,2023-09-11,0e12f98b,update comment on @.stableDst parameter,2,1,8,6,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,8a0d78f97f,2023-09-06,0e12f98b,"minor: fixed incorrectly position comma (,)",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,219,1,1,1,0,0,0,0,0
+lz4,4bd6e02816,2023-09-06,2d6e0063,lz4hc: increase count back search step,1,1,43,0,43,0,0,0,0,1,0,0,0,0,1,0,0,19,0,0,40,0,0,0,0,0
+lz4,eef01f7791,2023-08-15,d546c600,Hide the functionality behind a feature flag and document it,5,1,24,0,7,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+lz4,b6d94d24bc,2023-07-19,d546c600,Make hashes identical between LE and BE platforms,1,1,11,1,11,1,0,0,0,1,0,0,0,0,1,0,0,5,0,0,10,0,0,0,0,0
+lz4,06a27a6600,2023-07-11,f4126a62,fix: missing LZ4F_freeDecompressionContext,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,60,1,1,1,0,0,0,0,0
+lz4,bdecb2e803,2023-06-30,0e12f98b,fix #1246,2,1,3,1,2,1,1,0,0,1,0,0,1,0,0,0,0,361,1,2,2,0,0,0,0,0
+lz4,b7ec6e3f09,2023-06-25,c326dcd6,Macros should not use a trailing semicolon,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,bdfe4c0c98,2023-06-25,c326dcd6,Enclose by a do-while loop to avoid possible if/else logic defects,7,3,115,94,17,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+lz4,7075bc2990,2023-06-11,008f0635,fixed minor typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,d678159c64,2023-05-20,f4126a62,fix: workaround for false positive analysis from MSVC v17.6,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,28,0,0,2,0,0,0,0,0
+lz4,42aef71096,2023-04-09,973adda9,Reduce usage of variable cpy on decompression,1,1,11,11,11,11,0,0,0,1,0,0,0,1,0,0,0,297,1,9,9,0,0,0,0,1
+lz4,8ef36c0b1a,2023-04-08,973adda9,Fix build break on Visual Studio 2010,1,1,3,3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,ae72509d3c,2023-04-08,973adda9,remove whitespace,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+lz4,b87247f964,2023-04-08,0c01e70f,Add packing support for MSC,1,1,10,4,10,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+lz4,0973fe52b2,2023-04-08,973adda9,Remove redundant error check,1,1,0,4,0,4,0,0,0,1,0,0,0,1,0,0,0,294,1,0,0,0,0,0,1,0
+lz4,a51521916d,2023-02-26,0e12f98b,merge into a single UTIL_isDirectory() method,2,2,7,23,7,23,0,0,0,4,0,0,1,0,0,1,0,64,1,4,7,0,0,0,0,0
+lz4,45a4880b9c,2023-02-26,008f0635,refuse to compress directories,3,2,53,28,34,12,0,0,0,4,0,0,0,0,1,0,0,43,1,1,31,0,0,0,0,0
+lz4,1a3f35c51d,2023-02-13,2b83bb83,Add 64-bit detection for LoongArch,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,c3addfea0f,2023-02-03,9e480495,improve LZ4F_decompress() documentation,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,7ab223b7fa,2023-01-30,5514212d,"build: move meson files from contrib, to go alongside other build systems",14,1,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+lz4,b1fd838cdb,2023-01-08,c326dcd6,Fix typo found by codespell,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,fe389cab10,2022-12-19,0e12f98b,version note,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,e4ea198b44,2022-11-22,7f0ac5de,Fixed const-ness of src data pointer in lz4file and install lz4file.h,2,2,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,30,0,0,3,0,0,0,0,0
+lz4,812c4b13d6,2022-11-10,d5a35d25,Declare read_long_length_no_check() static,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+lz4,7213a321ad,2022-10-10,3a2dde2e,uncompressed-blocks: Allow uncompressed blocks for all modes,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,9,1,0,0,0,0,0,0,0
+lz4,4dafb855a6,2022-10-01,0e12f98b,fixed usan32 tests,2,1,6,6,4,4,1,0,0,1,0,0,0,0,0,0,0,204,1,4,4,0,0,0,0,0
+lz4,e3974e5a14,2022-09-30,0e12f98b,minor refactor of lz4.c,1,1,23,19,23,19,0,0,0,8,0,0,2,0,0,0,0,325,2,10,21,0,0,0,0,1
+lz4,68848ec601,2022-09-30,008f0635,fix another ubsan warning in lz4hc,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,204,1,1,1,0,0,0,0,0
+lz4,a3d1762092,2022-09-30,008f0635,use LZ4HC_match_t structure directly to store match candidates,1,1,53,68,53,68,0,0,0,1,0,0,0,1,0,0,0,180,1,53,53,0,0,0,0,0
+lz4,2fefb1da61,2022-09-29,0e12f98b,removed virtual pointer from optimal parser,1,1,4,5,4,5,0,0,0,1,0,0,0,1,0,0,0,252,1,4,4,0,0,0,0,0
+lz4,0a2e406d82,2022-09-29,0e12f98b,removed virtual match pointer from HC parser,1,1,23,26,23,26,0,0,0,1,0,0,0,1,0,0,0,195,1,23,23,0,0,0,0,0
+lz4,a0adc616cd,2022-09-29,0e12f98b,sequence encoder accepts offset as a value,1,1,15,14,15,14,0,0,0,3,0,0,1,0,0,0,0,253,3,15,15,0,0,0,0,0
+lz4,952942d032,2022-09-29,0e12f98b,LZ4 HC matchfinder returns an offset value,1,1,58,43,58,43,0,0,0,4,0,0,2,2,0,0,0,204,4,47,53,0,0,0,0,0
+lz4,586e9a4c6d,2022-09-27,0e12f98b,added code documentation on heap mode,4,3,46,15,37,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,b21490232d,2022-09-20,0e12f98b,added notes about LZ4_compressFrame() and stack/heap memory usage,2,2,14,4,14,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,dc944197e6,2022-09-16,0e12f98b,fix rare ub,1,1,8,6,8,6,1,0,0,5,0,0,0,0,0,0,0,1,0,0,8,0,0,0,0,0
+lz4,7f54a56413,2022-09-16,0e12f98b,fixed minor UB warning,1,1,13,12,13,12,1,0,0,1,0,0,0,0,0,0,0,58,1,10,11,0,0,0,0,0
+lz4,2c8fd1142a,2022-09-16,0e12f98b,removed a few more usages of base ptr,1,1,20,15,20,15,0,0,0,3,0,0,1,0,0,0,0,324,1,15,20,0,0,0,0,0
+lz4,2620c0924b,2022-09-16,0e12f98b,remove another usage of base,1,1,6,4,6,4,0,0,0,2,0,0,1,0,0,0,0,313,1,1,6,0,0,0,1,0
+lz4,251e04a9c1,2022-09-15,0e12f98b,added test able to catch bug #1167,2,1,37,22,36,22,1,0,0,6,0,0,5,0,0,0,0,219,5,30,35,0,0,0,0,0
+lz4,ec0d3e6ec9,2022-09-15,0e12f98b,fix benchmark more using Dictionary,3,3,35,9,35,9,1,0,0,12,0,0,5,0,0,0,0,298,6,28,35,0,0,0,0,0
+lz4,72b9348f02,2022-09-12,0e12f98b,Clarifiy documentation for LZ4F_HEAPMODE,2,1,5,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,f6c18481ce,2022-09-12,0e12f98b,simplify getPosition,1,1,7,9,7,9,0,0,0,3,0,0,0,0,0,0,0,312,1,2,7,0,0,0,0,1
+lz4,fbd2f9f05e,2022-09-08,0e12f98b,fixed a few ubsan warnings in lz4hc,1,1,18,18,18,18,1,0,0,5,0,0,0,0,0,0,0,30,1,1,16,0,0,0,0,0
+lz4,2822825845,2022-09-07,0e12f98b,added LZ4F_compressUpdate() in fullbench,2,1,31,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,cedf9cd57f,2022-09-07,0e12f98b,allocation optimization for lz4frame compression,1,1,6,7,6,7,0,0,0,3,0,0,1,0,0,0,0,419,2,5,6,0,0,0,0,0
+lz4,ae179a9c16,2022-08-13,db618fe0,Add note about RC_INVOKED,1,1,13,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+lz4,af0d7c0cb8,2022-08-12,db618fe0,Suppress warning from rc.exe,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+lz4,0fc36f1bc7,2022-08-12,db618fe0,Suppress false positive warning from MSVC,1,1,7,0,7,0,0,0,0,1,0,0,0,0,0,0,0,28,0,0,7,0,0,0,0,0
+lz4,ec487d3265,2022-08-11,0e12f98b,faster CLI decompression speed for frames with -BD4 setting,1,1,22,16,22,16,0,0,0,3,0,0,1,2,0,0,0,418,3,9,9,0,0,0,0,0
+lz4,67c321935b,2022-08-11,db618fe0,Fix document for LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION in lz4.c,1,1,6,1,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,d0928a7f20,2022-08-11,db618fe0,Add short document of LZ4_FREESTANDING to lz4.h,1,1,11,4,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,50915609a9,2022-08-07,db618fe0,Fix: Disable LZ4HC correspond functions when LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION is en,2,2,5,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+lz4,721e76d1af,2022-08-07,db618fe0,Add LZ4_FREESTANDING,2,2,26,1,26,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+lz4,e1276aebe2,2022-08-06,db618fe0,Fix: Disable prototypes in header file,1,1,4,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+lz4,d9e0741aee,2022-08-06,db618fe0,Add: Doxygen comment for LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION,1,1,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,ccd92cb43b,2022-08-03,0e12f98b,simplify read_variable_length(),1,1,24,26,24,26,0,0,0,2,0,0,1,0,0,0,0,282,1,16,24,0,0,0,0,1
+lz4,63e9a62249,2022-08-02,0e12f98b,refactor read_variable_length(),1,1,29,19,29,19,0,0,0,2,0,0,0,0,0,0,0,280,1,3,15,0,0,0,0,1
+lz4,7d7cddfac1,2022-08-02,0e12f98b,remove support of decompress_fast*() from decompress_generic(),1,1,43,92,43,92,0,0,0,15,0,0,0,1,0,0,0,280,5,33,41,0,0,0,1,0
+lz4,efd123e1f1,2022-08-02,0e12f98b,introduce LZ4_decompress_unsafe_generic(),1,1,158,18,158,18,0,0,0,5,1,1,0,0,2,1,0,36,0,0,114,0,0,0,0,0
+lz4,9173ca37d7,2022-08-01,db618fe0,Fix : Internal memory allocation macro names,1,1,3,6,3,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,3347485307,2022-07-31,fb364c4f,fix: various typos,13,3,15,15,3,3,1,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+lz4,fa889cf6da,2022-07-31,db618fe0,Introduce LZ4_STATIC_LINKING_ONLY_DISABLE_MEMORY_ALLOCATION,2,2,18,1,18,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0
+lz4,5d80375ded,2022-07-31,db618fe0,"New macro for memcpy, memmove and memset",2,2,26,13,26,13,0,0,0,6,0,0,0,0,0,0,0,302,4,6,25,0,0,0,1,0
+lz4,9978bb90cf,2022-07-29,0e12f98b,fixed minor pedantic warning,1,1,4,2,4,2,1,0,0,1,0,0,1,0,0,0,0,19,1,4,4,0,0,0,0,0
+lz4,5797d57018,2022-07-29,0e12f98b,extend disabling checksum validation to normal lz4 CLI decompression,2,1,26,5,25,4,0,0,0,2,1,0,1,0,0,0,0,54,2,21,21,0,0,0,0,0
+lz4,8f18b4b4e6,2022-07-29,0e12f98b,introduced new `--no-crc` command,3,1,6,0,1,0,0,0,0,1,0,0,1,0,0,0,0,360,1,1,1,0,0,0,0,0
+lz4,f01b7b5209,2022-07-29,0e12f98b,can select validation of CRC during benchmark,4,4,18,8,18,8,0,0,0,4,0,0,2,0,1,0,0,415,4,14,17,0,0,0,0,0
+lz4,e8f0baa3f9,2022-07-29,0e12f98b,added ability to skip checksum calculation when decoding LZ4 Frames,2,2,21,11,21,11,0,0,0,2,0,0,1,0,0,0,0,415,1,13,19,0,0,0,0,0
+lz4,4f4d09a0d1,2022-07-29,0e12f98b,implement decoder-only benchmark mode,7,5,135,44,130,43,0,0,0,3,1,0,3,0,2,0,0,359,3,86,112,0,0,0,0,0
+lz4,cd96e3e7a5,2022-07-29,0e12f98b,minor refactor,3,3,176,159,176,159,0,0,0,19,0,0,0,0,0,0,0,30,0,0,140,0,0,0,0,1
+lz4,df4bb410e3,2022-07-29,0e12f98b,updated documentation of bench unit,2,2,21,8,21,8,0,0,0,1,0,0,0,1,0,0,0,12,1,1,8,0,0,0,0,0
+lz4,598eafde2d,2022-07-29,0e12f98b,minor : fix conversion warnings,1,1,25,25,25,25,1,0,0,5,0,0,0,0,0,0,0,176,3,20,25,0,0,0,0,0
+lz4,6784e78e00,2022-07-15,0e12f98b,support skippable frames within pipe,6,3,37,8,24,5,0,0,0,1,0,0,0,0,1,0,0,15,0,0,20,0,0,0,0,0
+lz4,e535d6424a,2022-07-14,0e12f98b,implemented LZ4F_createCDict_advanced(),3,2,64,42,55,40,0,0,0,2,0,0,0,0,1,0,0,8,0,0,39,0,0,0,0,0
+lz4,a3c4f0d0a3,2022-07-13,0e12f98b,implemented LZ4F_createDecompressionContext_advanced(),2,2,30,17,30,17,0,0,0,3,0,0,0,0,1,0,0,410,1,4,22,0,0,0,0,0
+lz4,270529e80e,2022-07-13,0e12f98b,implemented first custom memory manager interface,3,2,195,85,139,81,0,0,0,9,0,0,1,0,4,0,0,410,2,14,100,0,0,0,1,0
+lz4,832b444266,2022-07-13,0e12f98b,fix stricter enum type requirements for C++,2,1,7,7,4,4,1,0,0,2,0,0,0,0,0,0,0,67,1,1,4,0,0,0,0,0
+lz4,7deae4bd22,2022-07-13,0e12f98b,minor : proper interface for LZ4F_getBlockSize(),4,2,32,43,6,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,1,0
+lz4,db836b5519,2022-07-13,0e12f98b,declare experimental prototype for LZ4F custom Memory manager,1,1,23,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+lz4,47681c72ff,2022-07-13,0e12f98b,removed ->dictBase from lz4hc state,2,2,34,27,34,27,0,0,0,7,0,0,2,0,0,0,0,191,4,26,34,0,0,0,0,0
+lz4,20d4ff5361,2022-07-13,0e12f98b,removed ->base from lz4hc state,2,2,68,67,68,67,0,0,0,9,0,0,0,1,0,0,0,188,3,32,63,0,0,0,0,0
+lz4,3da483c0e6,2022-07-13,0e12f98b,Re-organize state's internal to be more compact,1,1,5,4,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,60f8eb6f4c,2022-07-12,0e12f98b,minor : specify min versions for library version identifiers,3,2,27,45,26,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+lz4,d174f975d2,2022-07-12,0e12f98b,clarify static sizes of states for static allocation,4,4,33,72,33,72,0,0,0,6,0,0,0,0,0,0,0,12,0,0,13,0,0,0,0,0
+lz4,9de5b571d7,2022-07-11,0e12f98b,minor refactor : simplify LZ4F_makeBlock,1,1,20,27,20,27,0,0,0,4,1,0,0,2,1,0,0,90,2,10,19,0,0,0,0,1
+lz4,b4f508608f,2022-07-11,dca2c796,"Change definitions of LZ4_STREAMSIZE, LZ4_STREAMDECODESIZE and LZ4_STREAMHCSIZE to factor in OS400 p",2,2,47,3,47,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,34f25c3c1d,2022-07-10,0e12f98b,fixed direct-leak in round_trip_fuzzer.c,1,1,3,2,3,2,1,0,0,1,0,0,1,0,0,0,0,90,1,3,3,0,0,0,0,0
+lz4,910ec80d28,2022-07-09,d59b5989,- Fixed incorrect free in `round_trip_fuzzer.c` (https://bugs.chromium.org/p/oss-fuzz/issues/detail?,2,2,106,110,106,110,1,0,0,5,0,0,0,1,0,0,0,88,2,54,76,0,0,0,0,0
+lz4,0ac3c74de1,2022-07-05,3a2dde2e,review: fix findings,6,3,4,23,1,21,1,0,0,2,0,0,0,0,0,1,0,10,1,1,1,0,0,0,0,0
+lz4,42eb47d42f,2022-07-05,3a2dde2e,uncompressed-api: allow uncompressed_update only for independent blocks,6,5,84,163,84,151,0,0,0,7,0,0,1,1,0,4,0,92,3,59,71,0,0,0,0,0
+lz4,f745a01cfd,2022-07-04,0e12f98b,clarify yet another time what dual-license means,2,1,4,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,6fb713358b,2022-07-04,0e12f98b,silence a useless MSVC warning,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,e595150baf,2022-07-04,3a2dde2e,lz4frame: correct start and size after flush,1,1,4,1,4,1,0,0,0,1,0,0,1,0,0,0,0,104,1,4,4,0,0,0,0,0
+lz4,49e63cd522,2022-07-01,0e12f98b,fixed minor leak,3,2,6,10,5,9,1,0,0,2,0,0,0,1,0,0,0,352,1,3,5,0,0,0,0,0
+lz4,149644df49,2022-07-01,0e12f98b,fixed -tm,3,2,11,4,6,4,1,0,0,2,0,0,1,0,0,0,0,354,1,4,6,0,0,0,0,0
+lz4,fcbf585598,2022-07-01,0e12f98b,minor refactor : EXM_THROW -> END_PROCESS,1,1,70,76,70,76,0,0,0,21,0,0,0,1,0,0,0,125,8,40,66,0,0,0,0,1
+lz4,e23700d263,2022-07-01,0e12f98b,fix #1086,1,1,1,9,1,9,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+lz4,35565bf0dc,2022-07-01,0e12f98b,refactored logic to test special file names,3,3,98,58,98,58,0,0,0,11,0,0,0,0,4,0,0,91,4,8,58,0,0,0,0,1
+lz4,24b50935f9,2022-06-30,0e12f98b,fail on requesting to process 3+ file names in legacy mode,3,2,29,32,25,27,0,0,0,1,0,0,0,0,0,0,0,37,1,1,21,0,0,0,0,0
+lz4,5065080664,2022-06-13,3a2dde2e,ossfuzz: extend fuzzing test to include linked blocks,1,1,24,5,24,5,0,0,0,1,1,1,0,0,4,1,0,5,1,3,20,0,0,1,0,0
+lz4,af447b22c8,2022-06-12,b2aed733,meson: fix meson build,2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,9,1,1,1,0,0,0,0,0
+lz4,9a42a9db94,2022-06-11,b2aed733,dict-size: make lz4 context const,5,4,7,7,6,6,0,0,0,2,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+lz4,3c57d2f185,2022-06-11,b2aed733,lz4frame: fix different linkage error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,1,1,1,0,0,0,0,0
+lz4,1738b50443,2022-06-11,3a2dde2e,fuzz-test: add fuzz test for uncompressed api,4,3,129,7,128,7,0,0,0,0,1,0,0,0,2,0,0,0,0,0,92,0,0,0,0,0
+lz4,5c7382798e,2022-06-10,3a2dde2e,review: Fix review findings,4,2,47,39,22,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+lz4,62f6cef564,2022-06-10,3a2dde2e,review: Fix review findings,8,6,89,27,52,15,1,0,0,3,0,0,0,0,2,2,0,17,0,0,9,0,0,0,0,0
+lz4,4aeb5020c3,2022-06-09,3a2dde2e,frame-api: add method to insert uncomressed data,8,6,329,95,214,72,0,0,0,6,2,0,1,1,6,0,0,34,2,26,142,0,0,0,0,0
+lz4,582f5fe534,2022-06-07,d78a6f6d,ossfuzz: add fuzz for `LZ4_decompress_safe_partial_usingDict`,2,2,79,4,79,4,0,0,0,2,1,0,0,0,0,0,0,88,1,57,68,0,0,0,0,0
+lz4,b1e84b38ef,2022-06-07,d78a6f6d,API: add `LZ4_decompress_safe_partial_usingDict` API,2,2,49,1,49,1,0,0,0,0,3,0,0,0,4,0,0,0,0,0,45,0,0,0,0,0
+lz4,97d60acd89,2022-06-05,0e12f98b,updated documentation of LZ4F_freeCompressionContext,1,1,7,4,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,8331b32321,2022-05-24,4518e8e2,Correct unit prefix names in programs/lz4io.c,1,1,5,5,5,5,0,0,0,3,0,0,0,0,0,0,0,91,3,5,5,0,0,0,0,0
+lz4,3bf71d35d4,2022-05-09,0e12f98b,introduced FORWARD_IF_ERROR(),1,1,49,48,49,48,0,0,0,13,0,0,1,3,0,0,0,410,5,28,48,0,0,0,0,0
+lz4,5d0adabd28,2022-05-06,008f0635,introduced macro LZ4F_RETURN_ERROR_IF,1,1,23,32,23,32,0,0,0,9,0,0,0,4,0,0,0,412,4,14,22,0,0,0,0,0
+lz4,80ececaaed,2022-05-06,008f0635,introduced macro LZ4F_RETURN_ERROR,1,1,39,37,39,37,0,0,0,12,0,0,0,0,1,1,0,418,5,23,38,0,0,0,0,0
+lz4,ebfad2da84,2022-05-06,008f0635,removed ERROR_GENERIC from lz4frame.h,2,2,4,3,4,3,0,0,0,2,0,0,0,0,0,0,0,80,1,2,4,0,0,0,0,0
+lz4,ce8ee024b2,2022-04-17,0e12f98b,update library version to v1.9.4,3,1,10,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,da75a4096e,2022-04-06,0e12f98b,updated one error code,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,418,1,1,1,0,0,0,0,0
+lz4,f5625f260e,2022-03-10,58c4b17e,add file operation and examples operate lz4 compressed files as a general files,5,2,645,2,404,0,0,0,0,0,2,0,0,0,6,0,0,0,0,0,281,0,0,0,0,0
+lz4,4f984e45a5,2022-01-31,0e12f98b,added target test-compile-with-lz4-memory-usage,4,2,23,6,7,4,0,0,0,1,0,0,1,0,0,0,0,192,1,2,6,0,0,0,0,0
+lz4,379c1a10ca,2022-01-30,0e12f98b,Introduce MIN and MAX bounds to LZ4_MEMORY_USAGE,4,3,26,15,16,6,0,0,0,2,0,0,0,0,0,0,0,312,1,1,10,1,0,0,0,0
+lz4,756693083a,2022-01-30,0e12f98b,minor comments improvements to lz4frame,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,fbc61cde65,2022-01-28,0e12f98b,--test and --list return an error when parsing invalid file,3,2,56,35,55,34,0,0,0,8,1,0,1,1,0,0,0,125,4,28,49,0,0,0,0,0
+lz4,77bef09693,2022-01-28,0e12f98b,renamed unaligned -> LZ4_unaligned,1,1,6,6,6,6,0,0,0,5,0,0,0,0,0,0,0,1,0,0,6,0,0,0,0,0
+lz4,573fa33d1d,2022-01-28,0e12f98b,added test,3,2,6,2,5,2,0,0,0,1,0,0,0,0,0,0,0,45,1,1,5,0,0,0,0,0
+lz4,e4f5a34d16,2022-01-28,0e12f98b,fixed bug in optimal parser,2,1,18,19,17,19,1,0,0,2,0,0,1,0,0,0,0,190,1,16,17,0,0,0,0,0
+lz4,c2d00cb97b,2022-01-27,0f874fa4,Add comments,1,1,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,bee421b93d,2022-01-26,0f874fa4,Disable _tzcnt_u64 for ARM64EC,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,53,1,1,1,0,0,0,0,0
+lz4,540b52ea7b,2021-12-14,4518e8e2,Allow '--list' with stdin if it is a regular file,3,3,27,7,27,7,0,0,0,1,1,0,0,0,2,0,0,45,1,1,23,0,0,0,0,0
+lz4,4bdfb08b95,2021-11-25,c326dcd6,Fix typos found by codespell,15,7,19,19,11,11,1,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+lz4,22e232dada,2021-11-22,8e980c0a,Enable fast decoding on Apple/AArch64 builds,1,1,5,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,1a2e8f4e30,2021-08-09,561f013a,fix clang-cl _tzcnt_u64 not defined issue,1,1,6,0,6,0,1,0,0,1,0,0,1,0,0,0,0,53,1,4,4,0,0,0,0,0
+lz4,0c78292335,2021-08-07,98db52ef,nit(programs/platform.h): replace Unicode character #1018,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,0a0922067f,2021-07-31,581ca99c,Don't reuse state memory that's too small.,1,1,13,1,13,1,0,0,0,1,0,0,1,0,1,0,0,83,1,3,13,0,0,0,0,0
+lz4,80e3e7034e,2021-07-31,581ca99c,Define LZ4_STREAMSIZE in terms of LZ4_MEMORY_USAGE,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,2216d45e04,2021-06-25,e36e6bb0,fix LZ4HC_HEAPMODE macro guard,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,253,1,3,3,0,0,0,0,0
+lz4,b3d46ae07f,2021-06-15,2fc7942b,Cast ALLOC return value to satisfy C++,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+lz4,dfc431fb3d,2021-05-28,0e12f98b,fix NULL ptr arithmetic at lz4:2299,1,1,7,2,7,2,1,0,0,1,0,0,0,0,0,0,0,14,0,0,7,0,0,0,0,0
+lz4,539c783c98,2021-05-28,0e12f98b,fix NULL ptr arithmetic in lz4:1680,1,1,6,3,6,3,1,0,0,1,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+lz4,59273b7127,2021-05-28,0e12f98b,fix UB lz4:988 and lz4:1178,3,2,44,29,40,28,1,0,0,6,0,0,4,0,0,0,0,312,4,19,24,0,0,0,0,0
+lz4,c2c0c47d5f,2021-05-27,0e12f98b,fix NULL ptr arithmetic of lz4:1572,1,1,5,5,5,5,1,0,0,1,0,0,1,0,0,0,0,53,1,5,5,0,0,0,0,0
+lz4,8e46846287,2021-05-27,0e12f98b,fix UB of lz4frame:907,2,2,66,59,66,59,1,0,0,3,0,0,0,2,0,0,0,81,2,28,33,0,0,0,0,0
+lz4,29a6a1f494,2021-03-10,7a1168fe,fix null pointer dereference,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+lz4,8301a21773,2021-02-26,57069d3c,Fix potential memory corruption with negative memmove() size,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,302,1,1,1,0,0,0,0,0
+lz4,909aae8260,2021-01-07,fa1dc7df,fix some typos (work by Andrea Gelmini),2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,06b07e175e,2021-01-07,7b0e4c6e,Don't trigger UBSan warning in LZ4_resetStreamHC_fast if LZ4_streamHCPtr->internal_donotuse.end is N,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+lz4,28ff53b868,2020-12-01,0e12f98b,fix minor pedantic warnings,1,1,9,7,9,7,1,0,0,2,0,0,1,0,0,0,0,52,1,7,9,0,0,0,0,0
+lz4,50ff8b3ae8,2020-11-30,0e12f98b,fix minor header date,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+lz4,87a80acbe7,2020-11-25,008f0635,updated license & header dates,35,13,37,37,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,0,0
+lz4,f61b034cd7,2020-11-14,0e12f98b,fix minor win32 warning,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+lz4,e0f85f2fc8,2020-11-14,0e12f98b,better visual conformance,5,2,18,27,6,7,0,0,0,1,0,0,0,0,0,0,0,44,1,3,6,0,0,0,0,0
+lz4,581c459b4e,2020-11-14,0e12f98b,restrict BitScanForward() to VS2005+,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,52,1,1,1,0,0,0,0,0
+lz4,be13653ad0,2020-11-14,0e12f98b,fix minor parse warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+lz4,36eadb205a,2020-11-14,0e12f98b,all usages of prefs within lz4io are const,3,3,48,45,48,45,0,0,0,10,0,0,0,1,0,0,0,91,2,4,48,0,0,0,0,0
+lz4,7315c6e7a0,2020-11-14,0e12f98b,LZ4IO_openDstFile() doesn't need pref mutability,2,2,36,33,36,33,0,0,0,9,0,0,2,0,0,0,0,91,4,8,29,0,0,0,0,0
+lz4,849ebae524,2020-11-14,0e12f98b,fixed force --sparse mode,3,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+lz4,5fa6417b2e,2020-11-13,0e12f98b,dictionary functions don't need prefs mutability,1,1,5,4,5,4,0,0,0,3,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+lz4,772a312b00,2020-11-13,0e12f98b,LZ4IO_createDict() doesn't need prefs,2,1,31,28,30,27,0,0,0,6,0,0,1,1,0,0,0,63,2,14,28,0,0,0,0,0
+lz4,8af38013e0,2020-11-13,0e12f98b,LZ4IO_decompressSrcFile() doesn't need mutable prefs,1,1,5,5,5,5,0,0,0,3,0,0,0,0,0,0,0,39,0,0,5,0,0,0,0,0
+lz4,2b3445a269,2020-11-13,0e12f98b,selectDecoder() doesn't need mutable prefs,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,57,1,3,4,0,0,0,0,0
+lz4,8d37662e48,2020-11-13,0e12f98b,LZ4IO_passThrough() doesn't need prefs,1,1,14,9,14,9,0,0,0,2,0,0,0,0,0,0,0,57,1,1,9,0,0,0,0,0
+lz4,c8c3f8e62e,2020-11-13,0e12f98b,LZ4IO_decompressLZ4F() doesn't need mutable prefs,1,1,14,4,14,4,0,0,0,3,0,0,2,0,0,0,0,57,2,7,14,0,0,0,0,0
+lz4,a203cb2a6e,2020-11-13,0e12f98b,LZ4IO_decodeLegacyStream() doesn't need mutable prefs,1,1,9,9,9,9,0,0,0,3,0,0,0,0,0,0,0,55,1,1,9,0,0,0,0,0
+lz4,f81f3a254e,2020-11-13,0e12f98b,LZ4IO_fwriteSparse doesn't need writable prefs,1,1,10,5,10,5,0,0,0,4,0,0,1,0,0,0,0,59,2,6,9,0,0,0,0,0
+lz4,22729ecb8b,2020-11-13,0e12f98b,minor refactor,1,1,28,32,28,32,0,0,0,2,0,0,1,0,0,0,0,91,1,24,25,0,0,0,0,1
+lz4,b7c6fc9f61,2020-11-13,0e12f98b,minor refactor of lz4io,2,2,98,98,98,98,0,0,0,9,0,0,1,1,0,0,0,119,3,51,88,0,0,0,0,1
+lz4,86f5e9d0f4,2020-11-09,0e12f98b,minor : lz4frame include stdlib only if needed,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+lz4,a296839802,2020-11-09,0e12f98b,changed LZ4_calloc() to a 2-arguments signature,3,1,5,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,52646e8d75,2020-11-08,0e12f98b,first proposal for LZ4_USER_MEMORY_FUNCTIONS,6,2,45,16,24,12,0,0,0,3,0,0,0,0,0,0,0,253,1,2,20,0,0,0,0,0
+lz4,2a2b10f192,2020-11-08,008f0635,fixed remaining ubsan warnings,2,2,6,3,6,3,1,0,0,2,0,0,0,0,0,0,0,22,0,0,6,0,0,0,0,0
+lz4,2964b8a6f6,2020-11-08,0e12f98b,fix #874,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,53,1,1,1,0,0,0,0,0
+lz4,be634559e3,2020-11-08,0e12f98b,update obsolete section documentation,3,1,54,38,11,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,e251a84025,2020-11-07,0e12f98b,fix minor UBs,2,2,5,3,5,3,1,0,0,2,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+lz4,a2222a879f,2020-11-07,0e12f98b,fix #926,2,1,38,20,20,18,1,0,0,3,0,0,0,1,0,0,0,27,1,5,12,0,0,0,0,0
+lz4,f61eeb7793,2020-11-07,008f0635,"Revert ""Replace ""static"" to ""LZ4_FORCE_INLINE"" for small functions""",2,2,20,20,20,20,0,0,0,20,0,0,0,0,0,0,0,10,0,0,20,0,0,0,0,0
+lz4,d4bfcf8489,2020-11-07,0e12f98b,fix #935,2,2,4,3,4,3,1,0,0,2,0,0,0,0,0,0,0,28,0,0,4,0,0,0,0,0
+lz4,27959b43ec,2020-11-06,0e12f98b,LZ4F_decompress requires a valid dctx state,3,2,10,7,5,2,0,0,0,1,0,0,1,0,0,0,0,418,1,1,1,0,0,0,0,0
+lz4,67e661a2ad,2020-11-06,0e12f98b,static state size,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+lz4,211d653ff8,2020-11-06,0e12f98b,re-enable alignment test on all targets,3,2,10,17,7,15,0,0,0,3,0,0,0,0,0,0,0,29,0,0,4,0,0,0,0,0
+lz4,0c56f838ed,2020-11-06,0e12f98b,unified internal state declaration,2,2,41,74,41,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0
+lz4,e968a24129,2020-11-06,0e12f98b,unified alignment test,3,2,76,55,30,27,0,0,0,5,0,0,0,1,1,0,0,16,1,1,22,0,0,0,0,0
+lz4,0e3933edd4,2020-10-07,abdcea9c,"Replace ""static"" to ""LZ4_FORCE_INLINE"" for small functions",2,2,20,20,20,20,0,0,0,20,0,0,0,0,0,0,0,10,0,0,20,0,0,0,0,0
+lz4,749bd91a06,2020-10-07,abdcea9c,Replace define LZ4_FORCE_O2_INLINE_GCC_PPC64LE to LZ4_FORCE_INLINE,1,1,18,18,18,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+lz4,c4792cdfa9,2020-10-06,abdcea9c,"Fix: The ""inline"" specifier do not use for LZ4_wildCopy8 and LZ4_wildCopy32",1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,c24e979063,2020-10-03,abdcea9c,[lz4hc] Made function LZ4HC_encodeSequence a human readable,1,1,30,23,30,23,0,0,0,1,0,0,0,0,0,0,0,62,1,24,27,0,0,0,0,0
+lz4,2631002f74,2020-10-02,0e12f98b,preserver alignment test on Visual Studio x64,1,1,19,16,19,16,0,0,0,3,0,0,1,0,0,0,0,16,1,1,10,0,0,0,0,0
+lz4,1e5ff76b36,2020-10-01,0e12f98b,"add LZ4F_decompress() tests with (NULL,0) input and output",2,1,55,33,52,32,0,0,0,3,0,0,2,0,0,0,0,417,2,48,50,0,0,0,0,0
+lz4,03f006a7ea,2020-10-01,008f0635,make scan-build accept assert(),2,1,10,7,9,6,0,0,0,1,0,0,1,0,0,0,0,55,1,5,5,0,0,0,0,0
+lz4,1e31f1d25c,2020-09-30,008f0635,fix bad init scenario,1,1,5,3,5,3,1,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+lz4,fe74eb2031,2020-09-30,008f0635,added memcpy() related SA warning fixes,1,1,14,8,14,8,1,0,0,2,0,0,2,0,0,0,0,401,2,13,13,0,0,0,0,0
+lz4,7d21f761c3,2020-09-29,0e12f98b,fix conversion warning,1,1,5,5,5,5,1,0,0,2,0,0,0,0,0,0,0,302,1,4,5,0,0,0,0,0
+lz4,ad2d2764c7,2020-09-29,008f0635,fix minor static analyzer warnings,12,8,114,91,58,58,1,0,0,16,0,0,2,1,0,0,0,396,7,14,53,0,0,0,0,0
+lz4,392809d66e,2020-09-29,008f0635,fix minor static analyzer warnings,11,7,90,69,34,36,1,0,0,12,0,0,2,1,0,0,0,396,4,9,32,0,0,0,0,0
+lz4,293713a4fa,2020-09-29,008f0635,bump version number,3,1,48,26,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,ab89dda91d,2020-09-28,0e12f98b,improved last literals run on LZ4_compress_destSize,2,1,12,10,2,2,0,0,0,1,0,0,0,0,0,0,0,309,1,2,2,0,0,0,0,0
+lz4,89736e4e27,2020-09-27,0e12f98b,ensure last match not too close to end,3,2,48,27,40,21,0,0,0,4,0,0,4,0,0,0,0,302,4,38,38,0,0,0,0,0
+lz4,a13c79d56d,2020-09-27,0e12f98b,fix incorrect counting,2,1,4,3,3,2,1,0,0,2,0,0,1,0,0,0,0,186,2,3,3,0,0,0,0,0
+lz4,e7fe105ac6,2020-09-27,0e12f98b,fix efficiency of LZ4_compress_HC_destSize(),3,2,161,34,68,25,1,0,0,6,0,0,5,0,0,0,0,309,6,61,62,0,0,0,0,0
+lz4,9730d91110,2020-09-27,e000cdf2,Fix compilation with TinyCC,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,52,1,2,2,0,0,0,0,0
+lz4,ee4f37d284,2020-09-26,0e12f98b,fix compressing into NULL,2,1,14,4,1,0,1,0,0,1,0,0,1,0,0,0,0,34,1,1,1,0,0,0,0,0
+lz4,dc27b7ae41,2020-09-17,0e12f98b,comment bug on older versions of ZSTD_compress_destSize(),1,1,12,1,12,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+lz4,10d2e1c694,2020-09-17,0e12f98b,fixed lz4frame with blocks of size 1,3,2,27,24,23,22,1,0,0,5,0,0,4,1,0,0,0,395,5,22,22,0,0,0,0,0
+lz4,ee01df1271,2020-09-16,0e12f98b,added the actual code change,1,1,53,6,53,6,0,0,0,1,1,0,0,1,1,0,0,33,1,32,36,0,0,0,0,0
+lz4,c5d6f8a8be,2020-08-27,0e12f98b,fix #783,3,2,49,32,45,28,1,0,0,1,0,0,1,0,0,0,0,296,1,12,12,0,0,0,0,0
+lz4,5243173b23,2020-08-25,0e12f98b,added documentation about LZ4_FORCE_SW_BITCOUNT,2,1,33,8,19,2,0,0,0,1,0,0,1,0,0,0,0,52,1,13,14,0,0,0,0,0
+lz4,a58b7ac6ce,2020-08-25,a1688338,fixup: Portable fileno(),1,1,10,1,10,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,6,0,0,0,0,0
+lz4,86edeb6784,2020-08-25,a1688338,"fixup: C90 compliance, clean up stat() types/calls",1,1,31,27,31,27,1,0,0,2,0,0,0,0,0,0,0,14,0,0,24,0,0,0,0,1
+lz4,9a7658070a,2020-08-24,a1688338,Use fstat() to determine file size.,2,2,28,3,28,3,0,0,0,2,0,0,1,0,1,0,0,127,2,2,26,0,0,0,0,0
+lz4,0002563be8,2020-08-21,0e12f98b,removed LZ4_compress_fast_force(),1,1,0,16,0,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+lz4,e45defa8bd,2020-08-17,0dc4ad11,silence warning,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,46,1,2,2,0,0,0,0,0
+lz4,e9cfa49d0d,2020-08-12,0e12f98b,Clarifies and fix EndMark,3,1,55,30,5,3,1,0,0,1,0,0,1,0,0,0,0,393,1,5,5,0,0,0,0,0
+lz4,ab713923a2,2020-08-12,59837135,fix issue #783 (#862),3,1,61,4,1,1,1,0,0,1,0,0,1,0,0,0,0,290,1,1,1,0,0,0,0,0
+lz4,e72897402d,2020-08-11,0dc4ad11,rejigger bit counting intrinsics,1,1,46,45,46,45,0,0,0,1,0,0,0,1,0,0,0,46,1,44,44,0,0,0,0,0
+lz4,3dd34df751,2020-08-11,0e12f98b,added target lz4-wlib,6,1,36,14,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+lz4,28e5a4e054,2020-08-10,0e12f98b,fixed test of gnu c version,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+lz4,a29ade17a0,2020-08-10,0e12f98b,fix #832,1,1,6,7,6,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+lz4,7b1b078dfc,2020-08-10,0e12f98b,fix #876,2,2,16,6,16,6,1,0,0,3,0,0,3,0,0,0,0,54,3,6,10,0,0,0,0,0
+lz4,a78235e6ad,2020-08-10,88652a84,Fix Enum Casts,1,1,5,5,5,5,1,0,0,3,0,0,0,0,0,0,0,308,2,4,5,0,0,0,0,0
+lz4,9af86f0841,2020-08-06,88652a84,Remove dirty Field From LZ4_stream_t,3,2,2,18,2,14,0,0,0,2,0,0,0,2,0,0,0,52,2,0,2,0,0,0,1,0
+lz4,ae1372690d,2020-08-05,85644bb5,LZ4LIB_VISIBILITY -> LZ4FLIB_VISIBILITY in comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+lz4,d7399232a4,2020-08-05,88652a84,Remove Extraneous Reset in LZ4_attach_dictionary(),1,1,0,6,0,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,1,0
+lz4,fe2a1b3707,2020-08-03,f57476b0,Call LZ4_memcpy() instead of memcpy(),1,1,51,36,51,36,0,0,0,12,0,0,0,0,0,0,0,308,3,20,41,0,0,0,0,0
+lz4,e68c7d3878,2020-07-08,2a2cf248,avoid computing 0 offsets from null pointers,1,1,2,2,2,2,0,0,0,1,0,0,1,0,0,0,0,308,1,2,2,0,0,0,0,0
+lz4,57c35511d4,2020-05-13,9ddcaaef,fix LZ4F_compressBound when automatic flushing is enabled,2,2,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+lz4,7a75b045bd,2020-05-11,7de378a2,Reducing stack usage in _t_alignment checks,2,2,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+lz4,12001d6c1a,2020-05-07,2a9d8aaf,Avoid old-style function definitions,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0
+lz4,8ec5ee30be,2020-04-26,85644bb5,Add LZ4FLIB_VISIBILITY for controlling library symbol visibility,1,1,11,6,11,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0
+lz4,781417a369,2020-02-07,0432a577,Implement -m option with legacy format on cli,2,2,58,4,58,4,0,0,0,1,0,0,1,0,1,0,0,63,1,1,46,0,0,0,0,0
+lz4,ac4940cd98,2020-02-06,0432a577,Fix lz4cli --list option,2,2,6,5,6,5,1,0,0,1,0,0,0,0,0,0,0,48,0,0,6,0,0,0,0,0
+lz4,4cc9d863a3,2020-02-03,ef5d3a84,fix malloc handling,1,1,4,1,4,1,1,0,0,1,0,0,1,0,0,0,0,230,1,4,4,0,0,0,0,0
+lz4,2553cd550b,2020-01-31,ef5d3a84,fix: allocate  LZ4HC_optimal_t opt on heap each time (#837),1,1,16,3,16,3,1,0,0,1,0,0,1,0,0,0,0,229,1,16,16,0,0,0,0,0
+lz4,7224f9bd5d,2020-01-17,5f38e713,Force inline small functions used by LZ4_compress_generic.,1,1,6,6,6,6,0,0,0,6,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+lz4,d755f87f9f,2019-12-03,0e12f98b,fixed lz4hc assert error,2,2,11,11,11,11,1,0,0,2,0,0,0,0,0,0,0,191,1,2,11,0,0,0,0,0
+lz4,0f6cbd996f,2019-12-02,0e12f98b,faster decoding speed with Visual,2,1,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+lz4,935b432be1,2019-11-07,c2c67794,bring support for Haiku up to date.,2,2,6,1,6,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,6,0,0,0,0,0
+lz4,cc91777c98,2019-11-05,6b546b5d,Make benchmark compatible with dictionary compression,3,3,244,53,244,53,0,0,0,7,3,0,2,0,14,1,0,353,6,61,209,0,0,0,0,0
+lz4,192161e97e,2019-09-23,d5378ad2,Using size instead of LZ4_compressBound(size) <- causes heap overflow,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,1,1,0,0,0,0
+lz4,c5a83c1a48,2019-09-21,9810a529,Have read_variable_length use fixed size types,1,1,6,2,6,2,1,0,0,1,0,0,0,0,0,0,0,19,0,0,6,0,0,0,0,0
+lz4,8edc5879d0,2019-09-13,2806a820,Retreiving 32 bits from the end for fuzzer,10,10,36,50,36,50,0,0,0,9,0,0,0,0,1,1,0,39,0,0,31,0,0,0,0,0
+lz4,9cb73d69c4,2019-09-13,2806a820,Addressing naming nits and moving size modification up in all fuzzers,10,10,63,68,63,68,0,0,0,11,0,0,0,0,2,2,0,41,0,0,49,0,0,0,0,0
+lz4,208694297a,2019-09-13,2806a820,Seperating the seed generation and use,10,10,68,33,68,33,0,0,0,11,0,0,0,0,2,0,0,43,0,0,63,0,0,0,0,0
+lz4,a55095ddd6,2019-09-10,640433bb,util.h: Remove deprecated utime for non-Windows,2,2,20,6,20,6,0,0,0,1,0,0,0,0,0,0,0,20,0,0,20,0,0,0,1,0
+lz4,7d153a704d,2019-08-30,2806a820,Making fuzzers use dataProducer api instead of random seed for decisions,5,5,56,7,56,7,0,0,0,3,0,0,0,0,2,0,0,31,0,0,43,0,0,0,0,0
+lz4,dc17d39c2f,2019-08-16,2806a820,"Adding comments, fixing nit, and hiding the struct in data producer api",8,8,25,11,25,11,1,0,0,7,0,0,0,0,1,0,0,39,0,0,15,0,0,0,0,0
+lz4,f839e9fe8a,2019-08-16,2806a820,"Seperating fuzz data producer api impl and header, using data producer on the easy fuzzers",9,8,78,42,77,41,0,0,0,6,0,0,0,0,3,3,0,39,0,0,61,0,0,1,0,0
+lz4,a9ac056456,2019-08-16,2806a820,Created a data producer API and used in decompress_fuzzer,2,2,26,6,26,6,0,0,0,1,0,0,0,0,3,1,0,34,0,0,21,0,0,0,0,0
+lz4,fad8c97532,2019-08-16,f029ef21,Adding fuzz data producer for uint32 and using in decompress_fuzzer,2,2,29,3,29,3,0,0,0,1,0,0,0,0,1,0,0,31,0,0,24,0,0,0,0,0
+lz4,d7cad81093,2019-08-09,f57476b0,[LZ4_compress_destSize] Fix off-by-one error,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,308,1,1,1,0,0,0,0,0
+lz4,4c58006719,2019-08-06,88652a84,Only Bump Offset When Attaching Non-Null Dictionary,1,1,21,15,21,15,0,0,0,1,0,0,0,0,0,0,0,17,0,0,13,0,0,0,0,0
+lz4,4f49d744e8,2019-08-06,88652a84,Add Attach Dict Debug Log,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+lz4,918269a4e3,2019-08-06,88652a84,Make Attaching an Empty Dict Behave the Same as Using it Directly,1,1,15,14,15,14,0,0,0,2,0,0,0,0,0,0,0,24,0,0,8,0,0,0,0,0
+lz4,e18fbd51c1,2019-08-06,0e12f98b,silence msan warning when offset==0,2,1,66,64,65,64,0,0,0,2,0,0,0,1,0,0,0,290,1,1,44,0,0,0,0,0
+lz4,064adb2e8d,2019-07-31,f57476b0,[lz4hc] Chain swap with acceleration,1,1,10,4,10,4,0,0,0,1,0,0,1,0,0,0,0,191,1,10,10,0,0,0,0,0
+lz4,38c3945de3,2019-07-31,f57476b0,[lz4hc] Only allow chain swapping forwards,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,185,1,1,1,0,0,0,0,0
+lz4,be1738aa46,2019-07-31,f57476b0,[lz4hc] Fix pattern detection end of dictionary,1,1,45,20,45,20,1,0,0,1,0,0,1,0,1,0,0,185,1,31,35,0,0,0,0,0
+lz4,58ea585878,2019-07-31,f57476b0,[lz4hc] Fix minor pessimization in extDict pattern matching,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,171,1,1,1,0,0,0,0,0
+lz4,7e97bf377d,2019-07-31,f57476b0,[lz4hc] Improve pattern detection in ext dict,1,1,13,5,13,5,0,0,0,2,0,0,1,0,0,0,0,171,1,8,12,0,0,0,0,0
+lz4,4c1d4c437d,2019-07-24,f57476b0,[LZ4HC] Speed up pattern compression with external dictionary,1,1,47,27,47,27,0,0,0,1,0,0,1,0,1,0,0,166,1,31,41,0,0,0,0,0
+lz4,eee8cc79e7,2019-07-23,4518e8e2,lz4cli: add option '--best' as an alias of '-12',3,1,11,0,4,0,0,0,0,2,0,0,1,0,0,0,0,353,1,1,2,0,0,0,0,0
+lz4,87e52f7d5d,2019-07-19,f57476b0,[lz4frame] Fix unused variable warnings in fuzzing mode,1,1,9,0,9,0,1,0,0,1,0,0,1,0,0,0,0,391,1,9,9,0,0,0,0,0
+lz4,d28159c025,2019-07-18,f57476b0,[fuzz] Add LZ4 frame fuzzers,6,5,219,3,212,0,0,0,0,0,1,0,0,0,7,0,0,0,0,0,159,0,0,0,0,0
+lz4,b487660309,2019-07-18,f57476b0,[lz4frame] Skip magic and checksums in fuzzing mode,1,1,12,0,12,0,0,0,0,3,0,0,0,0,0,0,0,385,2,10,12,0,0,0,0,0
+lz4,1f236e0790,2019-07-18,f57476b0,Fix LZ4_attach_dictionary with empty dictionary,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+lz4,675ef9a9fc,2019-07-18,f57476b0,"[fuzz] Add HC fuzzers for round trip, compress, and streaming",5,4,202,14,199,13,0,0,0,8,0,0,0,0,6,0,0,17,0,0,165,0,0,0,0,0
+lz4,9b258abd93,2019-07-18,f57476b0,[fuzz] Add a streaming round trip fuzzer,1,1,217,0,217,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,178,0,0,0,0,0
+lz4,7c32101c65,2019-07-18,f57476b0,[LZ4_compress_destSize] Fix off-by-one error in fix,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,308,1,1,1,0,0,0,0,0
+lz4,40943ba0c9,2019-07-18,88652a84,Unconditionally Clear `dictCtx`,1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+lz4,369fb3900c,2019-07-18,88652a84,Fix Data Corruption Bug when Streaming with an Attached Dict in HC Mode,1,1,5,0,5,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+lz4,13a2d9e34f,2019-07-17,f57476b0,[LZ4_compress_destSize] Fix overflow condition,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,308,1,1,1,1,0,0,0,0
+lz4,6bc6f836a1,2019-07-17,f57476b0,[LZ4_compress_destSize] Fix rare data corruption bug,1,1,30,0,30,0,1,0,0,1,0,0,1,0,1,0,0,308,1,12,23,0,0,0,0,0
+lz4,690009e2c2,2019-07-17,f57476b0,[LZ4_compress_destSize] Allow 2 more bytes of match length,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,296,1,1,1,0,0,0,0,0
+lz4,3c40db8d25,2019-07-15,f57476b0,[ossfuzz] Improve the fuzzers,8,7,273,44,272,44,0,0,1,2,0,0,0,0,4,0,0,32,0,0,166,0,0,0,0,0
+lz4,725cb0aafd,2019-07-15,f57476b0,[lz4] Fix bugs in partial decoding,1,1,41,8,41,8,1,0,0,1,0,0,1,0,0,0,0,294,1,16,16,0,0,0,0,0
+lz4,6654c2cd3b,2019-07-15,0e12f98b,ensure conformance with custom LZ4_DISTANCE_MAX,5,1,18,8,9,4,0,0,0,1,0,0,1,0,0,0,0,296,1,7,9,0,0,0,0,0
+lz4,8ac954aa71,2019-07-15,a12e1ab1,"bugfix: correctly control the offset < LZ4_DISTANCE_MAX,when change the value of LZ4_DISTANCE_MAX,",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,159,1,1,1,0,0,0,0,0
+lz4,12e5841e76,2019-07-04,fde36f43,Remove an useless declaration,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,21,1,1,1,0,0,0,1,0
+lz4,bb5c34a875,2019-07-01,0e12f98b,bumped version number to v1.9.2,5,2,14,14,9,9,0,0,0,4,0,0,0,0,0,0,0,63,1,1,9,0,0,0,0,0
+lz4,e2a33f12e1,2019-06-29,30c5037d,More markups for style changes,4,3,39,28,32,21,0,1,0,2,0,0,0,0,0,0,0,13,0,0,23,0,0,0,0,0
+lz4,02b5b3c242,2019-06-28,30c5037d,Move to using C rather than C++ for compilation,6,1,13,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+lz4,e72d442300,2019-06-28,f57476b0,Fix out-of-bounds read of up to 64 KB in the past,1,1,8,2,8,2,1,0,0,1,0,0,1,0,0,0,0,284,1,7,7,1,0,0,0,0
+lz4,60d71dc20c,2019-06-28,30c5037d,Write a simple decompress target as well,3,1,34,5,28,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0

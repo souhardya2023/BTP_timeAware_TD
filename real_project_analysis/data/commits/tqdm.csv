@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+tqdm,5dcb022b55,2026-08-07,a67e640c,minor syntax update,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+tqdm,4664b5701e,2026-07-27,a67e640c,minor tidy,2,1,23,25,1,3,0,0,0,1,0,0,0,0,0,0,0,118,1,1,1,0,0,0,0,0
+tqdm,426a0988a1,2026-07-27,9edd9213,Treat inf total as unknown in reset() too,2,1,15,1,2,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+tqdm,606bcaba6f,2026-07-25,feb25805,async: support iterables with only __aiter__,2,1,39,0,4,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,1,0,0,0
+tqdm,9f92bc6439,2026-07-24,7efd2f6b,remove unnecessary comments,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tqdm,494372e2be,2026-07-24,4b87cc64,Fix AttributeError in `close()` on failed `__init__`,1,1,6,1,6,1,1,0,0,1,1,0,0,0,0,0,0,28,1,3,3,0,0,0,0,0
+tqdm,164ef7302b,2026-07-24,673c3aa8,rich: misc fixes,2,1,42,5,8,5,1,0,0,2,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,0
+tqdm,90f59704b5,2026-07-24,7efd2f6b,minor tidy,2,1,2,5,2,4,0,0,0,1,0,0,0,1,0,0,0,101,1,1,1,0,0,0,0,0
+tqdm,ef15578141,2026-07-24,1ec5fbe0,fix: handle total=inf in format_meter to avoid OverflowError,2,1,6,1,4,1,1,0,0,1,0,0,1,0,0,0,0,103,1,3,3,1,0,0,0,0
+tqdm,99615b9787,2026-07-17,76edbccc,asyncio: add gather(return_exceptions=False) (#1776),2,1,25,2,8,2,0,0,0,2,0,0,1,0,0,0,0,7,1,8,8,0,1,0,0,0
+tqdm,74ff9929df,2026-07-07,b26415c6,fix: prevent tqdm.write from crashing when sys.stdout is none,2,1,15,0,5,0,1,0,0,2,0,0,1,0,0,0,0,20,1,3,5,0,0,0,0,0
+tqdm,55156ce4be,2026-07-06,8a1edb5d,fix: apply disp_trim to all format_meter return paths (#1658),2,1,21,4,6,4,1,0,0,1,0,0,1,0,0,0,0,101,1,5,5,0,0,0,0,0
+tqdm,9872f80e0d,2026-06-16,7efd2f6b,drop date from snap version str to fix pydantic,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,b82933405f,2026-06-16,7efd2f6b,"support QtConsole, Spyder, JupyterLite",1,1,12,3,12,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+tqdm,6fa4867b27,2026-06-15,a67e640c,delay os.get_terminal_size,1,1,1,2,1,2,0,0,0,2,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+tqdm,748e107287,2026-06-13,a67e640c,lint,9,3,55,49,11,9,0,0,0,8,0,0,0,0,0,0,0,132,2,5,11,0,0,0,0,0
+tqdm,c49c50d831,2026-06-13,a67e640c,"add python 3.14, drop python 3.7 support",8,1,26,45,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,fa2bcdb4ad,2026-06-13,a67e640c,pre-commit: tqdm.1,4,1,37,11,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+tqdm,18836a57c7,2026-06-11,a67e640c,pre-commit: completion,2,1,9,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,0c129ea472,2026-06-11,a67e640c,pre-commit: README.rst,2,1,10,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,4b3395272d,2026-06-09,a67e640c,revert accidental change to `tqdm(ascii)` default,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,118,1,1,1,0,0,0,0,0
+tqdm,85b62dd5fc,2026-06-09,a67e640c,docs: replace stray rst -> md,6,2,94,80,54,48,0,0,0,3,0,0,0,0,0,0,0,21,0,0,48,0,0,0,0,0
+tqdm,85940f9d17,2026-06-09,a67e640c,docs: consistent progress bar terminology,9,5,39,39,16,16,0,0,0,1,0,0,0,0,0,0,0,26,0,0,13,0,0,0,0,0
+tqdm,cfa4a8522e,2026-06-05,7efd2f6b,minor docstring updates,2,1,11,24,3,9,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+tqdm,f83290ce32,2026-06-05,703aafa3,Fix TMonitor deadlock at interpreter shutdown,2,1,106,2,15,1,1,0,0,1,0,0,0,0,1,0,0,10,0,0,7,0,1,0,0,0
+tqdm,59029c37ad,2026-06-05,046ae64a,Set name for tqdm monitor thread (#1752),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,1,0,0,0
+tqdm,17f246b77d,2026-06-05,a67e640c,lint warning suppression,13,5,43,28,18,16,0,0,0,6,0,0,2,0,0,0,0,118,3,9,18,0,0,0,0,0
+tqdm,e4d97426d6,2026-06-05,a67e640c,soft-deprecate tqdm.utils.envwrap -> envwrap,9,2,86,93,47,68,0,0,0,2,0,0,0,0,0,0,0,21,0,0,44,0,0,0,0,0
+tqdm,0de6e96b33,2026-06-04,a67e640c,simplify terminal size detection,1,1,7,60,7,60,0,0,0,1,0,0,0,0,1,3,0,4,0,0,6,0,0,0,0,1
+tqdm,b557cb03b6,2026-02-25,3d7c78de,fix: apply disp_trim to all format_meter return paths,2,1,40,4,6,4,1,0,0,1,0,0,1,0,0,0,0,100,1,5,5,0,0,0,0,0
+tqdm,a74d8f8d97,2026-01-30,a67e640c,drop _dist_ver,5,1,10,12,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+tqdm,a69dac84b3,2026-01-30,a67e640c,fix dedented docstrings,4,1,120,190,3,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+tqdm,0647db1c74,2026-01-30,a67e640c,misc tidy,2,1,8,17,8,16,0,0,0,4,0,0,0,1,0,0,0,66,2,14,8,0,0,0,0,0
+tqdm,9bcd04b3ba,2026-01-30,9dcac1e8,fix pandas>=3 & negative format_interval,2,1,22,8,17,8,1,0,0,4,0,0,1,0,0,0,0,66,2,14,11,0,0,0,0,0
+tqdm,ce1dada691,2026-01-30,a67e640c,fix flake8 warnings,2,2,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+tqdm,f420136c02,2026-01-30,a67e640c,pyupgrade,14,6,41,45,15,19,0,0,0,5,0,0,0,0,0,0,0,132,2,3,15,0,0,0,0,0
+tqdm,c66458d9ac,2024-11-06,a67e640c,gui: fix matplotlib,1,1,5,12,5,12,1,0,0,1,0,0,0,1,0,0,0,47,1,5,5,0,0,0,0,0
+tqdm,47b9227f45,2024-10-28,a67e640c,snap: fix build,1,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,2575c15c18,2024-10-06,a67e640c,"cli: zip-safe --manpath, --comppath",1,1,9,10,9,10,0,0,0,2,0,0,1,0,0,0,0,132,1,9,9,0,0,0,0,0
+tqdm,43230f6095,2024-08-03,a67e640c,slight lint,1,1,4,6,4,6,0,0,0,1,0,0,0,1,0,0,0,130,1,2,3,0,0,0,0,0
+tqdm,5ba65950bd,2024-08-03,b1b16e08,cli: Fix docstring processing with Python 3.13+,1,1,6,1,6,1,1,0,0,1,0,0,1,0,0,0,0,132,1,4,5,0,0,0,0,0
+tqdm,d8ac65641d,2024-08-03,a67e640c,ncols: support FreeBSD,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,d7f469eb2e,2024-05-02,a63eb164,Add display to close in rich module,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,1,0,0
+tqdm,d774884a1a,2024-05-02,a67e640c,tidy `super()` calls,17,8,42,42,19,19,0,0,0,18,0,0,0,0,0,0,0,48,1,1,19,0,0,0,0,0
+tqdm,b53348c730,2024-05-01,a67e640c,cli: eval safety,1,1,22,11,22,11,0,0,0,1,1,0,0,0,0,0,0,34,1,22,22,0,0,0,0,0
+tqdm,4a6fd4f690,2024-02-10,c100aeb8,fix datetime.utcfromtimestamp py3.12 warning (#1519),1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,99,1,1,2,0,0,0,0,0
+tqdm,a95cd88465,2024-02-05,a67e640c,"pandas: add progress_map, fix tests",2,1,15,5,2,0,1,0,0,1,0,0,1,0,0,0,0,66,1,2,2,0,0,0,0,0
+tqdm,123cb1c036,2024-02-05,7efd2f6b,slight tidy,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,30,1,1,1,0,0,0,0,0
+tqdm,bda614a39b,2024-02-05,0666a774,fix HTML-escaped space padding in notebook (#1506),1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,30,1,1,1,1,0,0,0,0
+tqdm,ea1ba1b7d2,2024-02-05,a67e640c,f-strings,7,2,33,43,11,13,0,0,0,3,0,0,0,0,0,0,0,99,1,4,10,0,0,0,0,0
+tqdm,b38a9221c4,2024-02-05,a67e640c,fix format_num,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+tqdm,9a11b2e591,2024-02-05,8625dfcb,keras: fix resuming training when `verbose>=2` (#1508),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+tqdm,6ce50bedb3,2023-08-09,a67e640c,utils.envwrap: fix types,5,2,83,47,31,19,1,0,1,3,0,0,0,0,0,0,0,118,1,1,27,0,0,0,0,0
+tqdm,f12b8bc907,2023-08-09,a67e640c,drop old python versions,10,1,13,30,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,84546d6be8,2023-08-09,a67e640c,fix edge cases & windows tests,2,1,33,17,11,11,1,1,1,2,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+tqdm,1411a0fd6a,2023-08-09,a67e640c,"utils.envwrap: fix unused var, add tests",2,1,29,3,4,3,1,0,0,2,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+tqdm,7faf97e978,2023-08-09,a67e640c,replace os.path => pathlib.Path,1,1,5,8,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+tqdm,4f54ec0f8b,2023-08-09,a67e640c,fix & update API docs,4,2,17,16,11,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+tqdm,17482374a5,2023-08-09,a67e640c,cli: fix & update completion,3,2,40,45,38,41,1,1,1,1,0,0,0,0,0,0,0,129,1,1,38,0,0,0,0,0
+tqdm,783bd6e070,2023-08-09,a67e640c,ignore unknown env overrides,1,1,8,7,8,7,0,1,1,2,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+tqdm,52d78121b1,2023-08-09,a67e640c,env var override support,2,2,175,117,175,117,0,1,0,1,0,0,0,0,2,0,0,118,1,1,165,0,0,0,0,0
+tqdm,29bfd664e4,2023-08-08,a67e640c,fix snap,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,d13dfbf63b,2023-08-05,a67e640c,tests: bump pre-commit,5,3,5,5,3,3,0,0,0,3,0,0,0,0,0,0,0,54,2,2,3,0,0,0,0,0
+tqdm,2efa1e8224,2023-06-05,a67e640c,"build: migrate setup.{cfg,py} => pyproject.toml",13,1,181,211,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,687f5e4ccf,2023-03-03,a67e640c,tech-debt: drop more legacy code,4,3,11,45,9,27,0,1,1,2,0,0,0,1,0,1,0,99,1,2,7,0,0,0,0,0
+tqdm,32da44f340,2023-03-03,a67e640c,build: drop disco-py from snap,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,4a442b462a,2023-03-03,a67e640c,misc linting,8,2,37,44,17,19,0,0,0,2,0,0,0,2,0,0,0,129,2,17,17,0,0,0,0,0
+tqdm,8785c52025,2023-03-03,a67e640c,build: bump snap to core22 <= core18,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,8f8560c945,2023-03-03,a67e640c,drop redundant __future__ imports,26,9,0,54,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+tqdm,a587f3037e,2023-03-03,a67e640c,drop py<=3.6,36,11,309,476,48,102,0,0,0,17,0,0,0,2,0,0,0,130,3,6,42,0,0,0,0,0
+tqdm,f75e74217b,2023-03-03,a67e640c,tests: update pre-commit,3,1,5,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,8fb3d91f56,2022-09-03,a67e640c,fix ipywidgets>=8 display,2,1,8,4,1,0,1,0,0,1,0,0,1,0,0,0,0,29,1,1,1,0,0,0,0,0
+tqdm,05e3d32a5f,2022-08-30,a67e640c,fix jupyterlab display,1,1,2,2,2,2,1,0,0,1,0,0,0,0,1,1,0,5,0,0,2,0,0,0,0,0
+tqdm,9f0ffe6e9f,2022-04-03,78a67162,autonotebook: re-enable VSCode (#1309),1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,d14adb602b,2022-03-26,088023d2,docs: fix typo (#1301),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,64,1,1,1,0,0,0,0,0
+tqdm,96fe8c504a,2022-03-26,a67e640c,rich: expose `options` kwargs,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,5,0,0,0,0,0
+tqdm,c61a5679d2,2022-03-23,e90c2d39,Use consistent flush syntax,1,1,3,5,3,5,0,0,0,2,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+tqdm,938b24ac8d,2022-03-23,e90c2d39,Ensure that stderr/stdout has flush attr before calling it,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+tqdm,2527b35574,2022-03-15,a67e640c,perf: misc optimisations caught by perflint,3,2,18,15,16,14,0,0,0,3,0,0,1,1,0,0,0,133,2,13,15,0,0,0,0,0
+tqdm,6426c55b0f,2022-02-27,a67e640c,cli: fix py3.9 `importlib` usage,1,1,5,2,5,2,1,0,0,2,0,0,0,0,0,0,0,131,1,5,5,0,0,1,0,0
+tqdm,7cdbfee224,2022-02-27,a67e640c,autonotebook: check for ipywidgets,2,2,10,6,10,6,0,0,0,1,0,0,0,0,0,0,0,28,0,0,10,0,0,0,0,0
+tqdm,6cb00522d2,2022-02-27,a67e640c,cli: warn on positional arg,2,1,7,4,6,4,0,0,0,1,0,0,1,0,0,0,0,131,1,6,6,0,0,0,0,0
+tqdm,6c930f5d84,2021-10-03,a67e640c,fix deps & tests,3,1,7,6,4,4,1,0,0,2,0,0,0,0,0,0,0,129,1,4,4,0,0,0,0,0
+tqdm,3ad2549adc,2021-10-03,a67e640c,CLI: replace `pkg_resources` => `importlib`,1,1,12,11,12,11,0,0,0,2,0,0,1,0,0,0,0,129,1,11,11,0,0,1,0,0
+tqdm,4c7ad3a65a,2021-10-03,a67e640c,add `__reversed__()`,2,1,21,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+tqdm,983b66c132,2021-10-03,a67e640c,add efficient `__contains__`,2,1,15,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+tqdm,a7e717dc53,2021-09-19,a67e640c,misc linting/refactoring,5,2,27,46,5,7,0,0,0,2,0,0,0,1,0,0,0,120,1,2,4,0,0,0,0,1
+tqdm,83ce8b9d68,2021-09-18,a67e640c,linter config udpates,10,5,104,128,36,40,0,0,0,8,0,0,0,1,0,0,0,123,4,12,36,0,0,0,0,0
+tqdm,25cdf96c78,2021-09-09,a67e640c,fix minor typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,8c35d4228c,2021-08-14,a67e640c,fix notebook memory leak,1,1,8,5,8,5,1,0,0,3,0,0,0,0,0,0,0,26,1,1,8,0,0,0,0,0
+tqdm,42d7b6e563,2021-08-14,a67e640c,slight tidy,1,1,8,5,8,5,0,0,0,2,0,0,0,0,0,0,0,17,0,0,8,0,0,0,0,0
+tqdm,75ccceef7f,2021-08-14,56595563,Use weakref on tqdm instance in DisableOnWriteError,1,1,8,2,8,2,0,0,0,2,0,0,0,0,0,0,0,14,0,0,7,0,0,0,0,0
+tqdm,223561a83b,2021-07-30,2b3cf5f3,`asyncio.gather` API consistency with stdlib,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,6,1,1,1,0,1,0,0,0
+tqdm,d0483be6c0,2021-07-30,a67e640c,fix shutdown exception,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+tqdm,63f427b0b8,2021-07-04,a67e640c,"flush {stderr,stdout} on init",1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+tqdm,f4cc427dc4,2021-07-04,a67e640c,support pandas==1.3.0,3,1,7,3,5,1,0,0,0,3,0,0,1,0,0,0,0,64,2,10,5,0,0,0,0,0
+tqdm,c36a011c3a,2021-06-20,a67e640c,telegram: `delete()` on `leave=False`,2,1,13,11,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+tqdm,dd93d93c01,2021-06-15,a67e640c,`file.flush()` on init,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+tqdm,28c90a74cf,2021-06-15,a67e640c,build: minor lint,2,1,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,e56cc12fbf,2021-06-15,86013c87,Added AtributeError to address issue #1183,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,d2a6ec2ab8,2021-06-12,a67e640c,fix py3.10 `asyncio` tests,1,1,6,1,6,1,1,0,0,1,0,0,1,0,0,0,0,8,1,4,5,0,1,0,0,0
+tqdm,963137c123,2021-05-31,b83b9ed8,Gracefully handle empty COLUMNS/LINES env vars on Linux.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,1,0,0,0
+tqdm,74ec622661,2021-05-03,a67e640c,keras: fix resume from `initial_epoch`,2,1,8,15,2,1,1,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+tqdm,3f899b9f77,2021-05-03,2ac25a15,fix: display wrong epoch on keras resume training,2,1,23,2,4,2,1,0,0,2,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+tqdm,8a66f6e35d,2021-04-05,a67e640c,"notebook: fix `delay`, add tests",2,1,51,11,11,10,1,0,0,4,0,0,1,0,0,0,0,28,2,5,10,0,0,0,0,0
+tqdm,a638d6a157,2021-04-05,798074b4,notebook update checks if disabled,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+tqdm,a22aebcd1d,2021-04-05,798074b4,fix delay for notebooks,1,1,6,1,6,1,1,0,0,2,0,0,1,0,0,0,0,26,1,3,6,0,0,0,0,0
+tqdm,317f7e0fc8,2021-03-05,a67e640c,docs: minor formatting fix,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,17,1,1,2,0,0,0,0,0
+tqdm,28823f4288,2021-03-05,a67e640c,misc documentation updates,7,4,26,24,11,15,0,0,0,2,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+tqdm,1e50916fdc,2021-03-05,aadcd926,dask: purge unused args,1,1,4,7,4,7,0,0,0,3,0,1,0,0,0,0,0,6,1,2,4,0,0,0,0,0
+tqdm,f16c8886ae,2021-03-05,aadcd926,add `dask` submodule,1,1,45,0,45,0,0,0,0,0,1,0,0,0,5,0,0,0,0,0,39,0,0,1,0,0
+tqdm,4ff77538ea,2021-03-05,a67e640c,basic support for `length_hint`,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+tqdm,94009b5adb,2021-03-03,aadcd926,asyncio: require py>=3.6 for awaitable comprehensions,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0
+tqdm,8fdcddb446,2021-03-03,aadcd926,"asyncio: fix, tidy & update `gather` & tests",2,1,17,47,8,32,1,0,0,2,0,0,0,1,0,0,0,6,1,8,8,0,1,0,0,0
+tqdm,82e0851f63,2021-03-03,ec6ea8fc,Fix formatting,1,1,6,2,6,2,1,0,0,1,0,0,1,0,0,0,0,24,1,5,6,0,0,0,0,0
+tqdm,9367463fba,2021-03-03,aadcd926,notebook: minor ipywidgets tidy,2,1,2,6,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,644fd81bce,2021-03-02,ec6ea8fc,"Adding a test case for tqdm_asyncio.gather, mirroring tqdm_asyncio.as_completed",2,1,21,1,1,1,0,0,0,1,0,0,0,0,0,0,0,20,1,1,1,0,1,0,0,0
+tqdm,0c922ed4df,2021-03-02,ec6ea8fc,Adding an asyncio.gather() replacement for tqdm,1,1,33,0,33,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,28,0,1,0,0,0
+tqdm,47e303cdee,2021-02-25,aadcd926,minor `close()` optimisation,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+tqdm,90cb341e8e,2021-02-25,aadcd926,rename `waituntil` => `delay`,2,1,10,10,7,7,0,0,0,4,0,0,0,0,0,0,0,123,2,5,7,0,0,0,0,0
+tqdm,caf6dbbaae,2021-02-25,aadcd926,performance/optimisation and slight tidy,1,1,21,21,21,21,0,0,0,4,0,0,1,1,0,0,0,123,2,7,18,0,0,0,0,0
+tqdm,90774d36a4,2021-02-25,f2fb64a6,Allow hiding progressbar until some time interval has elapsed.,2,1,41,15,26,15,0,0,0,4,0,0,2,0,0,0,0,122,2,11,23,0,0,0,0,0
+tqdm,bbf40d242b,2021-02-22,aadcd926,lint: fix some warnings,5,2,11,9,7,7,0,0,0,3,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+tqdm,f2e09bc7bb,2021-02-18,aadcd926,"pandas: suppress warning, ignore deprecated coverage",1,1,8,4,8,4,0,0,1,1,0,0,1,0,0,0,0,64,1,7,7,0,0,0,0,0
+tqdm,16ef703660,2021-02-17,aadcd926,fix some codacy issues,8,4,19,19,8,8,1,0,0,3,0,0,0,0,0,0,0,128,1,1,8,0,0,0,0,0
+tqdm,12614aa54c,2021-02-17,aadcd926,minor framework tidy,2,1,4,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,5846c4ae9a,2021-02-10,aadcd926,fix notebook `reset()` when disabled,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+tqdm,ee74bfbe30,2021-02-10,aadcd926,fix `reset()` & `unpause()` when disabled,1,1,8,3,8,3,1,0,0,2,0,0,0,0,0,0,0,12,0,0,8,0,0,0,0,0
+tqdm,ea06383194,2021-02-09,aadcd926,rename `__repr__` => `__str__`,1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,20,1,1,2,0,0,0,0,0
+tqdm,42de6bdfc9,2021-02-09,aadcd926,fix `repr()` & `format_dict` when disabled,1,1,6,4,6,4,1,0,0,1,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+tqdm,daf36893ee,2021-01-10,aadcd926,add `rich`,6,1,178,2,157,0,0,1,0,0,0,0,0,0,10,0,0,0,0,0,127,0,0,0,0,0
+tqdm,d0a34e278d,2021-01-10,aadcd926,minor docstring fixes,2,2,4,6,4,6,1,0,0,1,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+tqdm,f2be444e25,2021-01-10,aadcd926,"notebook, gui, tk: fix {bar} removal for display",3,3,25,27,25,27,1,0,0,6,1,0,0,2,0,1,0,54,3,12,22,0,0,0,0,0
+tqdm,99a7c67846,2021-01-10,aadcd926,tk & gui: fix `disply()` inheritance,2,2,7,10,7,10,1,0,0,4,0,0,0,0,0,0,0,50,0,0,7,0,0,0,1,0
+tqdm,6fb8cc8e1c,2021-01-10,7efd2f6b,more pipe removal,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+tqdm,13ccf1d5f5,2021-01-10,9b821c96,cut out default pipes from {l_bar}{r_bar},1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+tqdm,418f99a5c4,2021-01-10,9b821c96,respond to comments,1,1,0,15,0,15,0,0,0,1,0,1,0,0,0,1,0,50,1,0,0,0,0,0,0,0
+tqdm,bffe77c508,2021-01-09,aadcd926,tk: tidy,2,2,92,155,92,155,0,1,1,10,0,0,0,1,1,0,0,52,1,25,77,0,0,0,0,0
+tqdm,63b884d7b6,2021-01-09,aadcd926,restore original tqdm.gui,2,2,289,260,289,260,0,1,0,1,1,1,0,0,12,12,0,48,0,0,234,0,0,0,0,0
+tqdm,059e02185c,2021-01-09,9b821c96,remove redundant flag toggle,1,1,0,2,0,2,0,0,0,1,0,0,0,1,0,0,0,87,1,0,0,0,0,0,1,0
+tqdm,bc1bd7e27c,2021-01-09,9b821c96,satisfy codacy,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+tqdm,c7c88fb08a,2021-01-09,9b821c96,updates based on experience from usage,1,1,15,13,15,13,0,0,0,5,0,0,1,0,0,0,0,89,1,2,11,0,0,0,0,0
+tqdm,bf33319d56,2021-01-09,9b821c96,document additional params,1,1,14,0,14,0,0,0,0,1,0,0,0,0,0,0,0,88,1,13,13,0,0,0,0,0
+tqdm,10e9d3b39e,2021-01-09,9b821c96,reset can change determinate/indeterminate mode,1,1,13,2,13,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,12,0,0,0,0,0
+tqdm,4303ba3e6a,2021-01-09,9b821c96,clean up __init__,1,1,6,11,6,11,0,0,0,1,0,0,0,1,0,0,0,88,1,6,6,0,0,0,0,1
+tqdm,ff7cdccb89,2021-01-09,9b821c96,make tqdm_tk the default tqdm_gui,1,1,11,10,11,10,0,0,0,1,0,0,0,0,1,1,0,48,0,0,11,0,0,0,0,0
+tqdm,22c4c7bc02,2021-01-09,9b821c96,"better docstring for tqdm_tk, tqdm_tk.cancel",1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+tqdm,3ebb867043,2021-01-09,9b821c96,make desc appear only in title bar,1,1,12,30,12,30,0,0,0,2,0,0,0,1,2,0,0,93,1,2,10,0,0,0,0,0
+tqdm,244132daeb,2021-01-09,9b821c96,"make tkinter objects ""private""",1,1,55,55,55,55,0,0,0,5,0,0,0,0,1,1,0,105,1,35,55,0,0,0,1,0
+tqdm,f349fadbb6,2021-01-09,9b821c96,avoid tkinter imports and startup if initially disabled,1,1,11,10,11,10,0,0,0,2,0,0,0,0,0,0,0,105,1,8,9,0,0,1,0,0
+tqdm,82cf6213e5,2021-01-09,9b821c96,early construction of tk_desc_label,1,1,13,1,13,1,0,0,0,1,0,0,1,0,0,0,0,105,1,12,12,0,0,0,0,0
+tqdm,c40230edcd,2021-01-09,9b821c96,Initially bring window to front,1,1,5,0,5,0,0,0,0,1,0,0,1,0,0,0,0,94,1,5,5,0,0,0,0,0
+tqdm,5620dff37e,2021-01-09,9b821c96,re-enable monitor thread,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+tqdm,dea31091d7,2021-01-09,9b821c96,subclass std_tqdm instead,1,1,20,4,20,4,0,0,0,1,0,0,1,0,1,0,0,89,1,2,15,0,0,0,0,0
+tqdm,3d9bad764a,2021-01-09,9b821c96,"py27 kwargs compat, improve desc display",1,1,38,21,38,21,0,0,0,2,0,0,1,0,0,0,0,88,1,23,38,0,0,0,0,0
+tqdm,9a2bf6a19b,2021-01-09,9b821c96,"Code quality, py2 compat",1,1,22,9,22,9,0,0,0,3,0,0,1,0,0,0,0,85,1,12,21,0,0,0,0,0
+tqdm,ee453f4f46,2021-01-09,9b821c96,Optional cancel button,1,1,15,1,15,1,0,0,0,1,0,0,1,0,1,0,0,80,1,10,14,0,0,0,0,0
+tqdm,2de334d027,2021-01-09,9b821c96,Add tqdm_tk and ttk_range to tqdm.gui,1,1,167,2,167,2,0,0,0,0,1,0,0,0,7,0,0,0,0,0,135,0,0,0,0,0
+tqdm,ab97437755,2021-01-09,a585a75b,format: isort,51,21,186,103,93,56,0,2,2,7,0,0,0,1,0,0,0,128,2,6,58,0,0,0,0,0
+tqdm,fd0ca187f0,2021-01-09,aadcd926,fix more formatting and potential minor bugs,17,5,84,68,25,24,1,0,0,12,0,0,0,0,0,0,0,128,1,1,25,0,0,0,0,0
+tqdm,841090491a,2021-01-03,aadcd926,tests: warnings and timeout,6,1,18,10,1,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+tqdm,845805cdce,2021-01-02,aadcd926,fix pandas.window.(Rolling|Expanding).progress_apply,1,1,12,3,12,3,1,0,0,1,0,0,1,0,0,0,0,63,1,12,12,0,0,0,0,0
+tqdm,0f95bedeae,2020-12-25,aadcd926,codacy fixes,3,1,10,8,2,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+tqdm,acbe64809e,2020-12-25,aadcd926,update/fix all submodule inheritance,8,2,27,17,5,3,1,0,0,0,0,0,0,0,2,1,0,0,0,0,4,0,0,1,1,0
+tqdm,ff7044733c,2020-12-25,aadcd926,replace requirements-dev.txt => environment.yml,5,1,37,14,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,8de9c69948,2020-12-24,aadcd926,update & tidy GUI,1,1,8,139,8,139,0,0,1,3,0,3,0,0,0,2,0,50,1,3,8,0,0,0,0,0
+tqdm,65ff8be96f,2020-12-24,aadcd926,minor close() & reset() fixes,1,1,4,1,4,1,1,0,0,2,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+tqdm,836f885b50,2020-12-24,aadcd926,even more tidy,1,1,3,34,3,34,0,0,0,1,0,1,0,0,0,0,0,24,1,3,3,0,0,0,0,0
+tqdm,7af7781cf9,2020-12-24,aadcd926,tidy,1,1,12,27,12,27,0,0,0,2,0,0,0,2,0,0,0,50,2,3,3,0,0,0,0,0
+tqdm,8ae4fc86d1,2020-12-24,aadcd926,fix EMA estimates,2,1,56,44,47,36,1,0,0,4,1,1,1,0,2,1,0,53,3,16,43,0,0,0,0,0
+tqdm,6de6e14d77,2020-12-24,aadcd926,better ETA for wildly varying iteration speeds,1,1,9,6,9,6,0,0,0,6,0,0,3,0,0,0,0,119,4,7,9,0,0,0,0,0
+tqdm,e9bf3cde2b,2020-12-24,aadcd926,better EMA accuracy for early iterations,2,1,34,42,31,38,0,0,0,4,0,0,0,2,0,0,0,118,3,27,31,0,0,0,0,0
+tqdm,8c55759a36,2020-12-20,aadcd926,move gui deprecation warning to display(),2,1,6,13,6,12,0,0,0,3,1,0,0,2,0,0,0,53,3,5,5,0,0,0,1,0
+tqdm,2f56a1f8c2,2020-12-20,aadcd926,fix notebook gui-mode extra spaces,3,3,10,9,10,9,1,0,0,7,0,0,0,0,0,0,0,58,2,3,10,0,0,0,0,0
+tqdm,2c3c3a6bae,2020-12-20,aadcd926,notebook: TqdmHBox pretty display,1,1,15,5,15,5,0,0,0,1,0,0,0,0,2,0,0,4,0,0,13,0,0,0,0,0
+tqdm,3c581208d6,2020-12-20,aadcd926,manually lint everything,29,11,145,243,64,108,0,0,0,20,0,0,0,9,0,0,0,128,9,32,64,0,0,0,0,0
+tqdm,a6542b51de,2020-12-20,aadcd926,fix ASCII notebook export,2,1,17,4,16,3,1,0,0,2,0,0,0,0,1,0,0,31,1,2,14,0,0,0,0,0
+tqdm,9224b7b7ce,2020-11-27,aadcd926,get rid of get_new,6,2,5,79,3,32,0,0,0,1,0,0,0,0,0,2,0,14,0,0,2,0,0,0,0,0
+tqdm,2ddae6b231,2020-11-21,aadcd926,abstract and document `get_new`,6,2,65,56,22,18,0,0,0,1,0,0,0,0,1,0,0,2,0,0,20,0,0,0,1,0
+tqdm,ee5f8d21e8,2020-11-21,aadcd926,"fix nested `asyncio`, document async `break` hazard",4,1,81,10,20,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,18,0,1,0,0,0
+tqdm,b80490e12c,2020-11-21,aadcd926,more sanitising,6,1,8,17,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,69a179a075,2020-11-17,aadcd926,"use setuptools_scm, upgrade snap build",15,5,111,139,15,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+tqdm,f37a43ab95,2020-11-16,aadcd926,drop py2.6/3.2/3.3 and distutils (no longer tested),9,4,145,248,45,225,0,0,0,6,0,0,0,0,0,12,0,13,0,0,43,0,0,0,0,0
+tqdm,6b4a6b5372,2020-11-16,aadcd926,test py3.9,3,1,11,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,fd969bfd74,2020-11-16,aadcd926,mostly linting,6,1,14,20,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+tqdm,1e0ce0d938,2020-11-07,aadcd926,CLI: remove redundant test mock code,1,1,3,15,3,15,0,0,1,1,0,0,0,1,0,0,0,35,1,3,3,0,0,0,1,0
+tqdm,669002c45c,2020-11-06,aadcd926,keras: use kwargs for all bars,1,1,6,5,6,5,0,0,0,1,0,0,1,0,0,0,0,19,1,5,6,0,0,0,0,0
+tqdm,983a05b495,2020-11-06,aadcd926,"fix keras display, expose initial bar(s) `**tqdm_kwargs`",1,1,7,3,7,3,1,0,0,1,0,0,0,0,0,0,0,17,1,7,7,0,0,0,0,0
+tqdm,410c136b49,2020-11-06,aadcd926,notebook: support delay display,2,2,22,1,22,1,0,0,0,2,0,0,1,0,1,0,0,31,1,10,20,0,0,0,0,0
+tqdm,4c77dea4cf,2020-11-02,aadcd926,document slow CLI options,3,1,12,4,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tqdm,4c1f17a7e7,2020-10-26,aadcd926,add project urls,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tqdm,1c547ec4ec,2020-10-26,aadcd926,"relax async test requirement, expose more coverage",3,2,6,7,5,6,0,0,0,2,0,0,0,1,0,0,0,43,1,3,5,0,1,0,0,0
+tqdm,721b8c5588,2020-10-25,aadcd926,"`eta_dt` => `eta`, prevent `OverflowError`, misc tidy",3,1,11,15,9,13,1,0,0,2,0,0,0,1,0,0,0,120,2,8,9,1,0,0,0,0
+tqdm,ddf0844ef7,2020-10-25,c67d00d2,Fixed `eta_dt` resetting to epoch beginning when bar finishes,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,116,1,1,1,0,0,0,0,0
+tqdm,15905b9b8c,2020-10-25,c67d00d2,"Added ""eta_dt"" option for `bar_format`",1,1,13,3,13,3,0,0,0,2,0,0,1,0,0,0,0,120,2,11,12,0,0,0,0,0
+tqdm,947e6a2130,2020-10-24,aadcd926,"fix py3 CLI bug, fix py3 tests",3,1,41,40,4,4,1,0,0,5,0,0,0,0,0,0,0,132,1,4,4,0,0,0,0,0
+tqdm,f00036bbd8,2020-10-24,aadcd926,move tests directory to external module,21,13,55,51,34,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+tqdm,7f2545ef00,2020-10-24,5a462b02,replace nose => pytest,17,1,2601,2734,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,a00f7f3b74,2020-10-07,aadcd926,utils:OS detection using sys.platform,1,1,5,8,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+tqdm,67280989a2,2020-10-07,aadcd926,tests: fix TMonitor sleep patching,3,1,52,63,3,13,1,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+tqdm,a8317c9268,2020-10-06,aadcd926,linting,3,1,7,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+tqdm,d5e7bd10dd,2020-10-06,aadcd926,fix synchronisation tests,2,1,79,68,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,1,0,0,0
+tqdm,42ec75915c,2020-10-06,aadcd926,don't obsessively kill monitor,1,1,2,11,2,11,0,0,0,2,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+tqdm,4bdb4f76a4,2020-10-06,aadcd926,fix multiprocessing lock creation leak,1,1,25,20,25,20,1,0,0,3,0,0,0,0,1,0,0,9,0,0,19,0,1,0,0,0
+tqdm,800bc23e58,2020-09-28,aadcd926,misc linting,4,2,21,25,7,12,0,0,0,4,0,0,0,0,0,0,0,26,0,0,7,0,0,0,0,0
+tqdm,c2188cb3db,2020-09-28,aadcd926,fix minor doc formatting,3,1,4,4,2,2,0,0,0,2,0,0,0,0,0,0,0,120,2,2,2,0,0,0,0,0
+tqdm,53a84eaf17,2020-09-28,aadcd926,closed file: use `miniters=inf` rather than hacky `disable=1`,2,2,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+tqdm,098745d99f,2020-09-28,aadcd926,test and fix disable when writing to closed files,3,2,16,3,7,3,1,0,0,3,0,0,0,0,0,0,0,24,0,0,7,0,0,0,0,0
+tqdm,c89b0fe0a1,2020-09-27,aadcd926,fix notebook,1,1,4,2,4,2,1,0,0,2,0,0,0,0,0,0,0,3,0,0,4,0,0,0,0,0
+tqdm,8baa057e60,2020-09-27,aadcd926,support hex colours,3,1,15,15,10,10,0,0,0,3,0,0,0,0,0,0,0,120,2,4,10,0,0,0,0,0
+tqdm,afe9ad8957,2020-09-27,aadcd926,support CLI colours,4,1,60,11,48,8,0,0,0,5,0,0,2,0,2,0,0,120,2,13,46,0,0,0,0,0
+tqdm,dd5739a719,2020-09-27,aadcd926,notebook: add colour,1,1,10,0,10,0,0,0,0,1,0,0,1,0,2,0,0,24,1,2,8,0,0,0,0,0
+tqdm,3fce28f62b,2020-09-27,aadcd926,"split ltext, fix reset",1,1,11,14,11,14,1,0,0,3,0,0,0,1,0,0,0,32,1,3,11,0,0,0,1,0
+tqdm,8c69bd0129,2020-09-18,aadcd926,safer exception handling,1,1,7,5,7,5,0,0,0,3,0,0,0,0,0,0,0,8,0,0,7,0,0,0,0,0
+tqdm,3100e87ecc,2020-09-18,aadcd926,fix tests,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+tqdm,d3c07ae789,2020-09-18,aadcd926,fix writing to closed file,2,2,33,1,33,1,1,0,0,2,0,0,1,0,4,0,0,119,1,1,28,0,0,0,0,0
+tqdm,1f221233d1,2020-09-12,aadcd926,cli --update/--update_to auto-float (default int),1,1,5,4,5,4,0,0,0,5,0,0,0,0,0,0,0,132,1,4,5,0,0,0,0,0
+tqdm,c0d9c6173b,2020-09-12,aadcd926,cli: remove unneeded boolean arguments,3,1,12,10,3,2,0,0,0,1,0,0,1,0,0,0,0,132,1,3,3,0,0,0,1,0
+tqdm,7249910dcb,2020-09-12,aadcd926,cli: accept `-` instead of `_` in options,2,1,11,9,3,1,0,0,0,1,0,0,1,0,0,0,0,131,1,3,3,0,0,0,0,0
+tqdm,b038f5510f,2020-09-12,aadcd926,minor help tidy,2,1,4,5,2,3,0,0,0,1,0,0,0,1,0,0,0,129,1,2,2,0,0,0,0,0
+tqdm,4a3d9b1a1b,2020-09-12,aadcd926,cli: add --null,4,1,21,4,12,3,0,0,0,2,0,0,1,0,1,0,0,130,1,8,12,0,0,0,0,0
+tqdm,4a22f276d1,2020-09-12,aadcd926,minor logging tidy,1,1,5,6,5,6,0,0,0,2,0,0,0,1,0,0,0,124,1,2,3,0,0,0,0,0
+tqdm,c7e1465f4a,2020-09-12,aadcd926,"cli: add --update, --update_to",4,1,73,10,52,9,0,0,0,2,0,0,2,0,4,0,0,125,2,43,49,0,0,0,0,0
+tqdm,df31adf6a6,2020-09-12,aadcd926,fix cli tests encoding,1,1,21,1,21,1,1,1,0,1,1,0,0,0,1,0,0,40,1,9,16,0,0,0,0,0
+tqdm,e59f91ca7f,2020-09-12,aadcd926,fix py3 cli --delim bytes encoding,1,1,7,7,7,7,1,0,0,3,0,0,0,0,0,0,0,101,1,2,6,0,0,0,0,0
+tqdm,55121d307a,2020-09-07,aadcd926,"add tests, revert total offset",2,1,13,1,1,1,0,0,0,1,0,0,0,1,0,0,0,118,1,1,1,0,0,0,0,0
+tqdm,dcc1df46aa,2020-09-07,aadcd926,misc tidy,1,1,6,11,6,11,0,0,0,2,0,0,0,0,0,0,0,118,2,5,6,0,0,0,0,0
+tqdm,707e1fcba9,2020-09-07,14d5a537,Fix final rate when `initial` is set,1,1,12,4,12,4,1,0,0,3,0,0,2,0,0,0,0,118,2,4,6,0,0,0,0,0
+tqdm,7988b2c66d,2020-09-07,aadcd926,update external callback documentation,3,1,50,0,5,0,0,0,0,1,0,0,0,0,0,0,0,40,1,4,4,0,0,0,0,0
+tqdm,f1c6f269e8,2020-09-07,aadcd926,return `True` on display-triggering `update()`,7,3,9,6,3,1,0,0,0,3,0,0,2,0,0,0,0,40,2,2,3,0,0,0,0,0
+tqdm,3d95a75049,2020-09-07,aadcd926,add & update tests & docs,4,1,42,19,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,4c41381eee,2020-09-07,aadcd926,cli: add --tee,4,1,22,1,13,0,0,0,0,1,0,0,1,0,1,0,0,101,1,10,12,0,0,0,0,0
+tqdm,f7722edecc,2020-09-07,331d103d,fix version detection in auto.py (#1029),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,f0e01446d9,2020-08-03,aadcd926,"bump version, fix notebook formatting",2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+tqdm,e602bb5ee6,2020-08-02,aadcd926,notebook: `total=None` display improvements,1,1,13,2,13,2,0,0,0,2,1,0,0,0,1,0,0,33,1,4,12,0,0,0,0,0
+tqdm,bf00034ac8,2020-07-21,aadcd926,fix --version crash on missing git/refs/heads,1,1,40,37,40,37,1,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+tqdm,030ea9df54,2020-07-20,aadcd926,linting,2,1,4,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,9d6a07c978,2020-07-19,9b821c96,More accidental references,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+tqdm,3bf905184f,2020-07-19,9b821c96,remove accidental strong reference to tqdm instance,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,1,0
+tqdm,707c5550ab,2020-07-19,aadcd926,minor comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,e1fb85a095,2020-07-19,aadcd926,fix ANSI escape codes breaking `tqdm.write`,1,1,1,1,1,1,1,0,0,2,0,0,0,0,0,0,0,7,0,0,1,1,0,0,0,0
+tqdm,e243ca7db2,2020-07-17,aadcd926,auto: asyncio on py>=3.5,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0
+tqdm,b360a4e5d7,2020-07-17,aadcd926,update asyncio tests & examples,3,1,8,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+tqdm,331c62feed,2020-07-17,aadcd926,"auto: multi-inherit from `autonotebook`, `asyncio` on py3",1,1,29,2,29,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,24,0,1,0,1,0
+tqdm,d1920f95e4,2020-07-17,aadcd926,asyncio: inherit from `std` rather than `auto`,2,1,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0
+tqdm,d36f004cf1,2020-07-17,aadcd926,replace deep => shallow copies,6,1,7,12,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+tqdm,9c9966338b,2020-07-16,aadcd926,fix pandas wrapper: shallow not deepcopy,1,1,1,2,1,2,1,0,0,1,0,0,0,1,0,0,0,54,1,1,1,0,0,0,0,0
+tqdm,7289d88cd8,2020-07-16,aadcd926,update README documentation,3,1,77,35,1,1,0,0,0,1,0,0,0,0,0,0,0,55,1,1,1,0,0,0,0,0
+tqdm,e1266df8a4,2020-07-16,aadcd926,wait why do we need `async with/update`?,2,1,0,17,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0
+tqdm,10c87c093e,2020-07-16,aadcd926,asyncio: add contenxt manager,2,1,19,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,1,0,0,0
+tqdm,796bf616e4,2020-07-16,aadcd926,minor refactor,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,1
+tqdm,9c4e5788f0,2020-07-16,aadcd926,asyncio: add as_completed,2,1,27,0,12,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,11,0,1,0,0,0
+tqdm,a7c75fe685,2020-07-16,aadcd926,minor docstring,1,1,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+tqdm,d3be02bc99,2020-07-16,aadcd926,add `asyncio.tarange`,2,1,12,3,9,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,1,0,0,0
+tqdm,b7af6af595,2020-07-16,aadcd926,create and flesh out `tqdm.coroutine`,2,2,43,14,43,14,0,0,0,0,0,0,0,0,4,2,0,0,0,0,35,0,0,0,0,0
+tqdm,92ecb3b986,2020-07-16,aadcd926,remove coroutine,2,2,1,7,1,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+tqdm,d1591fcf6f,2020-07-16,635581c7,support async generators,1,1,2,5,2,5,0,0,0,2,0,0,0,0,0,0,0,10,0,0,2,0,1,0,0,0
+tqdm,6cb3d204e4,2020-07-16,aadcd926,"fix exception safety, tidy naming convention",2,2,12,11,12,11,1,0,0,1,0,0,0,0,1,1,0,10,0,0,11,0,0,0,0,0
+tqdm,0443ce7f82,2020-07-16,ccdffd24,Preliminary async coroutine support,2,2,23,1,23,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,19,0,1,0,0,0
+tqdm,e7b2e0c3ab,2020-07-16,aadcd926,"fix potential pandas bug, standardise naming",2,2,12,10,12,10,1,0,0,5,0,0,1,0,0,0,0,55,3,11,12,0,0,0,0,0
+tqdm,b168c391da,2020-07-16,aadcd926,misc docstring updates,10,6,60,48,31,37,0,0,0,1,0,0,0,0,0,0,0,53,1,3,29,0,0,0,0,0
+tqdm,6e4b48cfcb,2020-06-28,aadcd926,gui: fix TypeError on unknown `len()`,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+tqdm,b18a31eb26,2020-06-28,aadcd926,notebook: cleaner `ipywidgets` ImportError,1,1,9,10,9,10,0,0,0,1,0,0,0,0,0,0,0,31,0,0,9,0,0,1,0,0
+tqdm,4e8f74cd29,2020-06-28,4500b23d,Speed up tqdm.auto import when not in an IPython notebook,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+tqdm,39cc736a20,2020-06-25,aadcd926,keep Codacy happy,3,2,10,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,171a409849,2020-06-06,aadcd926,official py3.8 support,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,0cd9448b2b,2020-06-03,aadcd926,fix codacy,1,1,6,3,6,3,1,0,0,3,0,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0
+tqdm,133b2184b8,2020-06-03,aadcd926,keras: fix tensorflow==2.2.0 compatibility,1,1,9,0,9,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,6,0,0,0,0,0
+tqdm,571f0ed3dd,2020-05-22,aadcd926,"minor linting, sync readme",3,2,7,7,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,8b83af2cc8,2020-05-02,2834fe20,Fix: release lock if an exception occurs within the context manager,1,1,20,18,20,18,1,0,0,1,1,0,0,0,0,0,0,17,1,15,15,0,1,0,0,0
+tqdm,2a318d9b06,2020-05-02,aadcd926,add missing docstrings,2,2,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,c7586a604e,2020-05-02,aadcd926,fix codacy,4,3,18,15,17,14,1,0,0,3,0,0,0,0,0,0,0,94,1,4,14,0,0,0,0,0
+tqdm,6be1880867,2020-05-02,aadcd926,add completion.sh to setup,3,1,23,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,40bda883a7,2020-05-02,aadcd926,don't complete after user-specified options,1,1,29,20,29,20,0,0,0,1,0,0,0,0,0,0,0,3,0,0,27,0,0,0,0,0
+tqdm,3e549bf418,2020-05-02,aadcd926,minor efficiency,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,0,0,0,0
+tqdm,8d0e68350a,2020-05-02,aadcd926,minor tidy,1,1,9,11,9,11,0,0,1,1,0,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0
+tqdm,27e9338f24,2020-05-02,7aba183c,base functionality,1,1,37,2,37,2,0,1,1,0,0,0,0,0,1,0,0,0,0,0,29,0,0,0,0,0
+tqdm,5f733eea79,2020-05-02,aadcd926,slight tidy,1,1,5,7,5,7,0,0,0,1,0,0,0,1,0,0,0,94,1,5,5,0,0,0,0,0
+tqdm,36ad510ef2,2020-05-02,aadcd926,render,3,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,e773193f69,2020-05-02,aadcd926,completion.sh framework,5,3,42,6,38,6,0,1,0,1,0,0,1,0,1,0,0,96,1,14,32,0,0,0,0,0
+tqdm,ed9ebed7a4,2020-03-31,aadcd926,"fix tests, optimise `close() when `leave=False`",2,1,19,21,4,4,1,0,0,2,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+tqdm,068c5d4e90,2020-03-31,aadcd926,fix `leave=True` for overflow,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,25,0,0,2,1,0,0,0,0
+tqdm,6943da2e48,2020-03-30,aadcd926,fix ... (more hidden) ... message,1,1,4,3,4,3,1,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+tqdm,bee52fa1c3,2020-03-30,aadcd926,rework `decr_instances()`,1,1,14,13,14,13,0,0,1,1,0,0,0,0,0,0,0,22,0,0,11,0,0,0,0,0
+tqdm,6e4941eb6c,2020-03-30,aadcd926,minor linting,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,2,0,0,0,0,0
+tqdm,ef976564f5,2020-03-30,aadcd926,slight nested skip `clear()` optimisation,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+tqdm,8ca3df85a0,2020-03-30,aadcd926,minor optimisation,1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,4,0,0,0,0,0
+tqdm,06634199e5,2020-03-30,aadcd926,fix `display()` override properly,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+tqdm,4665954df5,2020-03-30,aadcd926,minor nested `clear()` bugfix,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+tqdm,9a6fbaffc6,2020-03-29,aadcd926,exception safety,2,2,65,60,65,60,0,0,0,5,0,0,2,0,0,0,0,58,3,44,42,0,0,0,0,0
+tqdm,0229cc67d0,2020-03-29,aadcd926,fix import error => deprecation,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+tqdm,d2fa326874,2020-03-28,aadcd926,fix `pos == nrows` and `clear()` logic,1,1,12,9,12,9,1,0,0,3,0,0,0,0,0,0,0,25,0,0,12,0,0,0,0,0
+tqdm,820115a8df,2020-03-28,aadcd926,fix display; add tests,2,1,29,2,2,2,1,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+tqdm,83a378653a,2020-03-28,aadcd926,wrap properly,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+tqdm,6b07255148,2020-03-28,aadcd926,fix unknown nrows,1,1,5,3,5,3,1,0,0,2,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,0
+tqdm,35538da00a,2020-03-28,aadcd926,dynamically update nrows,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+tqdm,2472e1be29,2020-03-28,aadcd926,actually use nrows,1,1,7,3,7,3,0,0,0,2,0,0,0,0,0,0,0,25,0,0,5,0,0,0,0,0
+tqdm,338aae04ce,2020-03-28,aadcd926,re-add and deprecate `utils._environ_cols_wrapper`,1,1,19,0,19,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,14,0,0,0,0,0
+tqdm,2918e32298,2020-03-28,aadcd926,initial `nrows`,2,2,48,35,48,35,0,0,0,3,0,0,1,0,4,4,0,117,2,20,48,0,0,0,0,0
+tqdm,d7542e92a5,2020-03-24,aadcd926,fix wrapped file comparison,1,1,3,0,3,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+tqdm,fc2f028c40,2020-02-16,030f7175,always initialize sp in notebook,1,1,9,10,9,10,0,0,0,2,0,0,0,0,0,0,0,20,0,0,7,0,0,0,0,0
+tqdm,550481f6c8,2020-02-16,030f7175,initialize leave even if disabled,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,110,1,1,1,0,0,0,0,0
+tqdm,0fcf9ed4c1,2020-01-31,aadcd926,pandas: support v1.0.0,1,1,7,4,7,4,0,0,0,1,0,0,1,0,0,0,0,53,1,7,7,0,0,0,0,0
+tqdm,bbc1c9fb91,2020-01-24,aadcd926,minor import tidy,1,1,3,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+tqdm,6afc15966f,2020-01-24,aadcd926,allow tensorflow.keras without keras,2,1,11,2,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+tqdm,fd2d878118,2020-01-24,aadcd926,minor metadata,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,589eafa43c,2020-01-24,aadcd926,notebook:disable=None => False,1,1,2,2,2,2,0,0,0,1,0,1,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+tqdm,07c3bce58b,2020-01-24,4da8ea01,Update notebook.py,1,1,2,0,2,0,0,0,0,1,1,0,0,0,0,0,0,20,1,2,2,0,0,0,0,0
+tqdm,e7a3418334,2019-12-31,7efd2f6b,fix batch_size=None,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+tqdm,588eab9fac,2019-12-20,aadcd926,minor keras tidy,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+tqdm,2902de2136,2019-12-20,aadcd926,keras missing pop('size'),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,1,1,1,0,0,0,0,0
+tqdm,b7dcfbf20e,2019-12-20,aadcd926,fix batch scaling,2,1,9,5,7,4,1,0,0,3,0,0,0,0,0,0,0,20,0,0,7,0,0,0,0,0
+tqdm,dadb81732d,2019-12-19,aadcd926,minor tidy,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+tqdm,aa7e631edd,2019-12-19,aadcd926,keras notebook auto-epochs,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+tqdm,9dc126657f,2019-12-19,aadcd926,add documentation,4,1,33,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,e5863ffa56,2019-12-19,aadcd926,auto-detect epochs and batches,1,1,32,19,32,19,0,0,0,4,0,0,0,1,1,0,0,18,1,7,31,0,0,0,0,0
+tqdm,f949df77c1,2019-12-19,aadcd926,use TqdmWarning and yapf,1,1,14,19,14,19,0,0,0,2,0,0,0,1,0,0,0,17,1,8,14,0,0,0,0,0
+tqdm,8f86849c45,2019-12-19,aadcd926,misc tidy,1,1,25,16,25,16,0,0,0,3,0,0,1,0,0,0,0,23,1,15,24,0,0,0,0,0
+tqdm,f5c4424636,2019-12-19,aadcd926,add some documentation,1,1,13,1,13,1,0,0,0,1,0,0,0,0,0,0,0,16,1,13,13,0,0,0,0,0
+tqdm,4c7cb44d96,2019-12-19,aadcd926,initial keras.callback,1,1,52,0,52,0,0,0,0,0,1,0,0,0,5,0,0,0,0,0,47,0,0,0,0,0
+tqdm,127af5caf1,2019-12-19,aadcd926,fix most tests and logic,3,2,12,12,6,6,1,0,0,2,0,0,0,1,0,0,0,104,1,2,5,0,0,0,0,0
+tqdm,bef86db566,2019-12-19,aadcd926,tidy wip,2,2,22,22,22,22,0,0,0,1,0,0,1,0,2,2,0,106,1,6,21,0,0,0,0,0
+tqdm,74a645b03a,2019-12-19,db08baa2,Implement fixed width bar [bar_width] and chop overflow of ncols,3,2,70,4,29,3,1,0,0,1,0,0,1,0,2,0,0,104,1,4,24,1,0,0,0,0
+tqdm,8106506890,2019-12-11,aadcd926,add notebook.reset(),1,1,15,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+tqdm,d8152a4618,2019-12-09,aadcd926,fix pandas unhashable func,1,1,4,1,4,1,1,0,0,3,1,0,0,0,0,0,0,50,2,8,4,0,0,0,0,0
+tqdm,f422502038,2019-12-05,aadcd926,fix floating point imprecision raising errors,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+tqdm,1277ca0619,2019-11-30,aadcd926,create contrib submodule,7,1,17,13,0,9,0,0,0,1,0,0,0,0,0,1,0,2,0,0,0,0,0,1,0,0
+tqdm,4c48242593,2019-11-30,aadcd926,refactor common into utils.ObjectWrapper,4,2,68,73,66,44,0,0,0,6,1,1,0,0,7,5,0,109,1,0,57,0,0,0,0,1
+tqdm,974e515cad,2019-11-26,aadcd926,attempt to fix perf,1,1,4,3,4,3,1,0,0,1,0,0,1,0,0,0,0,102,1,4,4,0,0,0,0,0
+tqdm,ac2d5f96d3,2019-11-26,aadcd926,allow float imprecision,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,101,1,1,1,0,0,0,0,0
+tqdm,4c9638d84e,2019-11-26,aadcd926,fix unicode format args,2,1,8,0,3,0,0,0,0,1,0,0,1,0,0,0,0,101,1,3,3,0,0,0,0,0
+tqdm,83ddf64207,2019-11-23,aadcd926,notebook: move to FloatProgress <= IntProgress,1,1,11,18,11,18,0,0,0,1,0,0,0,0,0,0,0,32,0,0,11,0,0,0,1,0
+tqdm,d93cf30c25,2019-11-23,aadcd926,officially document float n/total guidelines,2,1,27,25,16,16,0,0,0,4,0,0,0,0,0,0,0,109,3,14,16,0,0,0,0,0
+tqdm,dfdf351310,2019-11-21,aadcd926,fix style,1,1,7,6,7,6,0,0,0,1,0,0,1,0,0,0,0,109,1,7,7,0,0,0,0,0
+tqdm,80ade932fa,2019-11-21,ca79f8a0,Add check for pandas builtin for progress apply,2,1,8,1,2,0,0,0,0,3,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+tqdm,83f2752eae,2019-11-21,f2fb64a6,Replace dedent calls by dedented strings.,1,1,8,9,8,9,0,0,0,2,0,0,0,1,0,0,0,108,2,8,8,0,0,0,0,0
+tqdm,f17957b9de,2019-11-21,aadcd926,fix style,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+tqdm,06930c993e,2019-11-21,aadcd926,add and test wrapattr(bytes=True),2,1,16,3,5,1,0,0,0,1,1,0,0,0,0,0,0,7,1,5,5,0,0,0,0,0
+tqdm,2fd7eb2d5a,2019-11-20,aadcd926,nuke self_wrapattr,1,1,1,28,1,28,0,0,0,1,0,0,0,0,0,1,0,3,0,0,1,0,0,0,0,0
+tqdm,c032868a8e,2019-11-20,aadcd926,"add `CallbackIOWrapper`, add tests",2,1,49,19,34,19,0,0,0,3,1,1,0,0,5,2,0,13,1,0,30,0,0,0,0,0
+tqdm,9a949ec21c,2019-11-19,aadcd926,"move to classmethod wrapattr, rename low-level to self_wrapattr",1,1,21,2,21,2,0,0,0,1,0,0,0,0,3,2,0,4,0,0,19,0,0,0,1,0
+tqdm,505669b7da,2019-11-19,aadcd926,add tqdm.tqdm.wrapattr,1,1,44,1,44,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,41,0,0,0,0,0
+tqdm,49c5e15517,2019-11-15,aadcd926,remove unneeded bar logic,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,1,0,0,0,1,0
+tqdm,1599ada42d,2019-11-08,aadcd926,update docs,4,2,26,2,4,1,0,0,0,1,0,0,0,0,0,0,0,109,1,1,4,0,0,0,0,0
+tqdm,213f30288c,2019-11-08,aadcd926,"fix silly lock bug, tighten perf tests",2,1,8,7,3,2,1,0,0,2,0,0,0,0,0,0,0,109,1,1,3,0,1,0,0,0
+tqdm,d301a1237c,2019-11-08,aadcd926,debugging thread races,2,1,10,3,2,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,1,0,0,0
+tqdm,52b985e16c,2019-11-08,aadcd926,"fix lock_args on creation, add tests",2,1,25,2,2,2,1,0,0,1,0,0,0,0,0,0,0,109,1,2,2,0,1,0,0,0
+tqdm,37038f005d,2019-11-08,aadcd926,fix acquisition and perf debugging,2,1,7,5,6,4,1,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+tqdm,66037effa4,2019-11-07,aadcd926,default lock_args=None and expose,1,1,9,4,9,4,0,0,0,3,0,0,1,0,0,0,0,109,3,9,9,0,1,0,0,0
+tqdm,dba8a28f13,2019-11-07,aadcd926,"default `lock_args=(False,)` for intermediate progress",1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,107,3,3,3,0,1,0,0,0
+tqdm,4d95227b7e,2019-11-07,aadcd926,add refresh(lock_args=None),1,1,15,3,15,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,14,0,1,0,0,0
+tqdm,23e7fb1fe1,2019-11-07,aadcd926,use `self.refresh()` in more places,1,1,3,6,3,6,0,0,0,3,0,0,0,3,0,0,0,107,3,3,3,0,0,0,0,0
+tqdm,b989bc47b7,2019-11-07,aadcd926,support args for `TqdmDefaultWriteLock.acquire()`,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+tqdm,ae6de71c34,2019-11-01,aadcd926,fix colorama on win,1,1,6,2,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,a46caa4ba4,2019-10-31,aadcd926,linting/fix flake8,5,1,5,5,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,b3589f6736,2019-10-31,aadcd926,silly syntax error fix,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,50,1,1,1,0,0,0,0,0
+tqdm,59f457a8ce,2019-10-29,aadcd926,potential future pandas fix,1,1,6,2,6,2,1,1,0,1,1,0,0,0,0,0,0,50,1,6,6,0,0,0,0,0
+tqdm,6e50fa2719,2019-10-12,aadcd926,add stacklevel=2 to more warnings,6,6,8,8,8,8,0,0,0,6,0,0,0,0,0,0,0,49,0,0,8,0,0,0,0,0
+tqdm,fa2e30fb7f,2019-10-12,4ff725f1,MNT: set stack level on warnings,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tqdm,b3d77399fd,2019-10-11,aadcd926,"unicode width speed improvement, clear fix",2,2,2,2,2,2,1,0,0,3,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+tqdm,e601dd92c4,2019-10-10,aadcd926,attempt to fix perf,1,1,7,11,7,11,1,0,0,1,0,0,0,0,0,0,0,2,0,0,7,0,0,0,0,0
+tqdm,124d72a4e3,2019-10-10,0542aa3b,Recognize wide characters in description,2,2,2,1,2,1,0,1,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+tqdm,825f7dc7ea,2019-10-10,4fb72469,except TypeError instead of UnicodeDecodeError,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+tqdm,a6c4ce4ee0,2019-10-10,4fb72469,fix print_status when using widechars in desc,2,2,16,3,16,3,1,0,0,3,0,0,0,0,1,0,0,96,1,1,14,0,0,0,0,0
+tqdm,ed82bf38cb,2019-09-19,aadcd926,fix console entry point,2,2,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tqdm,1bd486c6ca,2019-09-17,aadcd926,expose more custom format params,2,1,17,12,13,9,0,0,0,2,0,0,1,0,0,0,0,108,2,11,11,0,0,0,0,0
+tqdm,05c02c5177,2019-08-27,aadcd926,linting,2,1,5,9,1,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,6c5fb3bcdc,2019-08-27,aadcd926,add warning msg,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+tqdm,a3477060f1,2019-08-27,aadcd926,potential thread safety fix,1,1,7,3,7,3,1,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,1,0,0,0
+tqdm,c54409bdf5,2019-08-26,aadcd926,update docs,3,1,5,3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,44a0985f96,2019-08-26,aadcd926,update docs,3,3,12,11,12,11,0,0,0,4,0,0,0,0,0,0,0,108,3,6,12,0,0,0,0,0
+tqdm,49471d3b43,2019-08-26,aadcd926,backward-compatibility,5,5,40,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,0,0,0
+tqdm,06d3310fff,2019-08-26,aadcd926,expose utils,4,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,b7ad7c936d,2019-08-26,aadcd926,rename main -> cli,4,2,4,4,2,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,2670a17551,2019-08-26,aadcd926,migrate to new submodule architecture,10,2,46,34,18,12,0,2,0,2,0,0,0,0,0,0,0,7,0,0,18,0,0,1,0,0
+tqdm,f7cf8c94d6,2019-08-26,aadcd926,fix minor cached var optimisation,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,57,1,2,2,0,0,0,0,0
+tqdm,13911cf5bc,2019-08-26,aadcd926,display-ify tqdm_gui,1,1,70,121,70,121,0,0,0,2,1,0,0,2,1,0,0,51,2,2,56,0,0,0,0,0
+tqdm,b8a28f26b0,2019-08-26,aadcd926,update tqdm_gui logic from tqdm,1,1,48,32,48,32,0,0,0,3,0,0,2,0,0,0,0,104,2,37,39,0,0,0,0,0
+tqdm,0e20bfd6b8,2019-08-26,aadcd926,deindentation,1,1,72,71,72,71,0,0,0,1,0,0,0,0,0,0,0,57,1,51,51,0,0,0,0,0
+tqdm,13406721ae,2019-08-26,aadcd926,minor gui update,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,49,0,0,3,0,0,0,0,0
+tqdm,5d373de1da,2019-08-26,aadcd926,support custom bar_format with unknown total,1,1,11,1,11,1,0,0,0,1,0,0,1,0,0,0,0,95,1,11,11,0,0,0,0,0
+tqdm,129311e1e0,2019-08-24,c5b90226,Fix tqdm_notebook red block on explicit file=None,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+tqdm,bda07d1931,2019-08-24,aadcd926,update notebook to fully support custom `bar_format`,1,1,24,30,24,30,0,0,0,2,0,0,1,0,0,0,0,28,1,15,17,0,0,0,0,0
+tqdm,21520782ac,2019-08-24,aadcd926,initial notebook upgrade,1,1,59,65,59,65,0,0,0,2,1,1,0,0,1,2,0,32,0,0,34,0,0,0,0,0
+tqdm,ee68bac05e,2019-08-24,aadcd926,add bar formatspec documentation,3,1,94,46,10,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+tqdm,91c52e4d73,2019-08-24,aadcd926,re-fix py2 unicode,1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,85,1,2,2,0,0,0,0,0
+tqdm,532d433f20,2019-08-24,aadcd926,blank bar format spec type,2,1,3,1,2,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+tqdm,3c177105d2,2019-08-24,aadcd926,negative bar len for auto-trimming,2,1,11,6,10,6,0,0,0,2,0,0,0,0,0,0,0,83,1,1,9,0,0,0,0,0
+tqdm,1aa3745667,2019-08-24,aadcd926,move and document empty format helper,2,2,17,11,17,11,0,0,0,5,1,1,0,0,2,2,0,108,2,1,14,0,0,0,1,0
+tqdm,5624c3159b,2019-08-24,aadcd926,add Bar.__format__ tests,2,1,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,ecd2ed6b93,2019-08-24,aadcd926,add Bar.__format__ helper,1,1,69,45,69,45,0,0,0,2,1,1,0,1,4,0,0,83,2,18,58,0,0,0,0,0
+tqdm,45a475c373,2019-08-18,aadcd926,minor closing when leave=True stats fix,1,1,4,5,4,5,1,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+tqdm,08261f1c64,2019-08-18,aadcd926,"add leave=None, make close() display at pos=0 if leave",1,1,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,108,1,1,4,0,0,0,0,0
+tqdm,aafa889804,2019-08-18,aadcd926,clear bars before shifting up,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+tqdm,d2c4d75531,2019-08-08,aadcd926,actually support both ' ' and '=' for CLI,2,1,10,5,9,4,0,0,0,1,0,0,1,0,0,0,0,89,1,8,9,0,0,0,0,0
+tqdm,7d790472bb,2019-08-08,a76c2e0f,remove the = between options and values in tqdm --help,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,84,1,1,1,0,0,0,1,0
+tqdm,7277b70e3d,2019-08-08,aadcd926,fix pandas==0.25 API change,1,1,26,11,26,11,1,0,0,1,0,0,0,0,0,0,0,46,0,0,25,0,0,0,0,0
+tqdm,7995a6523a,2019-07-12,60c53dc9,Fix typos,6,2,6,6,2,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+tqdm,5157c9bf70,2019-06-18,79e00226,Assign to _instances and monitor under the class lock,1,1,22,22,22,22,0,0,0,2,0,0,0,0,0,0,0,18,0,0,19,0,1,0,0,0
+tqdm,86dfc619a5,2019-06-18,79e00226,Fix race for tqdm._instances between __init__ and other methods,1,1,6,4,6,4,1,0,0,1,0,0,1,0,0,0,0,108,1,6,6,0,1,0,0,0
+tqdm,71acad5791,2019-06-18,616e12c1,Adds check for VSCODE_PID environment variable,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,e52835d088,2019-06-18,b002fe12,Fix usage docstrings,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,0f0c7f09a7,2019-05-20,aadcd926,trove classifier update,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,d1187ac546,2019-05-16,d41d8716,Workaround lack of multiprocessing on Jython,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+tqdm,71fe001876,2019-05-16,aadcd926,tidy bool() and tests,2,1,23,25,1,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+tqdm,73962a4702,2019-05-16,f0e62dc0,tqdm: fix boolean casting to work for sizeless self.iterable,2,1,32,16,11,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,9,0,0,0,0,0
+tqdm,c2599e3cd6,2019-05-14,aadcd926,move unnecessary root clutter,7,1,6,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tqdm,53ecca3d74,2019-05-13,aadcd926,fix notebook with unknown total,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+tqdm,993277f5ee,2019-05-13,aadcd926,automate more documentation,3,1,31,69,18,5,0,0,0,1,0,0,0,0,0,0,0,10,0,0,17,0,0,0,0,0
+tqdm,e2bd4eb303,2019-05-13,aadcd926,better reset() docs,3,1,27,3,9,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,7,0,0,0,0,0
+tqdm,0e1961cbb8,2019-05-13,aadcd926,"documentation, tidy, and function reordering",3,1,127,126,59,66,0,0,0,10,0,0,0,0,0,0,0,27,0,0,53,0,0,0,0,0
+tqdm,c7015f4859,2019-05-10,aadcd926,add a reset() function,1,1,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,0,0,0,0
+tqdm,140de47a46,2019-05-10,aadcd926,support negative update,2,1,4,10,1,1,0,0,0,1,0,0,0,0,0,0,0,40,1,1,1,0,0,0,0,0
+tqdm,6f7091b879,2019-05-08,aadcd926,notebook:support unit_scale,3,1,5,4,3,2,0,0,0,3,0,0,0,0,0,0,0,33,1,1,3,0,0,0,0,0
+tqdm,d9da314476,2019-02-10,aadcd926,"tidy, flake8, fix tox",4,1,12,26,1,1,1,0,0,1,0,0,0,0,0,0,0,97,1,1,1,0,0,0,0,0
+tqdm,ff4fe9216e,2019-02-09,aadcd926,attempt to fix #673,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,106,1,1,1,0,0,0,0,0
+tqdm,b54cc10216,2019-02-05,aadcd926,"update documentation, tidy",5,2,24,36,15,27,0,0,0,2,0,0,0,0,0,0,0,106,1,8,13,0,0,0,0,0
+tqdm,417b60fa9d,2019-02-03,7efd2f6b,implement custom bar spinners,2,2,29,21,29,21,0,0,0,2,0,0,1,1,1,0,0,101,2,16,26,0,0,0,0,0
+tqdm,616358f076,2019-02-03,aadcd926,support custom `bar_format` with unknown `total`,2,1,44,32,38,32,0,0,0,1,0,0,1,0,0,0,0,99,1,26,26,0,0,0,0,0
+tqdm,964dee631d,2019-02-03,aadcd926,fix `TypeError` when `unit_scale` and unknown `total`,2,1,11,1,2,1,1,0,0,1,0,0,1,0,0,0,0,98,1,2,2,0,0,0,0,0
+tqdm,03b3476464,2019-01-27,aadcd926,minor flake8 linting,2,1,7,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,4286498c14,2019-01-27,aadcd926,auto README.rst generation framework,4,2,897,2,58,1,0,2,1,0,0,0,0,0,1,0,0,0,0,0,50,0,0,0,0,0
+tqdm,1dc88b5245,2019-01-27,aadcd926,"expose `elapsed_s`, `remaining_s` to `bar_format`",1,1,10,8,10,8,0,0,0,2,0,0,1,0,0,0,0,101,2,10,10,0,0,0,0,0
+tqdm,7531bbd866,2019-01-27,34f66e0a,add unit option to bar_format,1,1,5,3,5,3,0,0,0,2,0,0,0,0,0,0,0,101,2,5,5,0,0,0,0,0
+tqdm,284fe01df7,2019-01-26,aadcd926,avoid moving when leave=False,2,1,6,23,5,12,0,0,0,1,0,1,0,0,0,0,0,27,1,5,5,0,0,0,0,0
+tqdm,97d884564e,2019-01-26,aadcd926,"tidy tests, lint flake8",3,1,42,73,3,4,0,0,0,2,0,0,0,1,0,0,0,57,1,1,3,0,0,0,0,0
+tqdm,0307fe8f4d,2019-01-26,aadcd926,add display() helper,1,1,22,22,22,22,0,0,0,4,0,0,0,3,1,0,0,101,3,3,19,0,0,0,0,0
+tqdm,3d1ced41ac,2019-01-26,aadcd926,add test for custom format arguments,2,1,24,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+tqdm,4fa83d0497,2019-01-26,aadcd926,allow arbitrary keyword arguments for format_meter,1,1,15,24,15,24,0,0,0,1,0,0,0,1,0,0,0,95,1,14,14,0,0,0,0,0
+tqdm,93b19264aa,2019-01-26,aadcd926,expose `format_dict`,1,1,17,9,17,9,0,0,0,2,0,0,0,0,1,0,0,105,1,1,16,0,0,0,0,0
+tqdm,d718750e97,2019-01-26,aadcd926,developer documentation and tidy,3,1,22,12,16,10,0,1,0,3,0,0,3,0,0,0,0,105,3,15,15,0,0,0,0,0
+tqdm,7550d31557,2019-01-24,aadcd926,fix py3 CLI pipe decoding error,1,1,6,6,6,6,1,0,0,1,0,0,0,0,0,0,0,84,1,6,6,0,0,0,0,0
+tqdm,5b7816d53a,2019-01-21,aadcd926,framework overhaul,11,1,64,151,16,100,0,0,0,0,0,0,0,0,0,2,0,0,0,0,15,0,0,0,0,0
+tqdm,bcf3cca298,2019-01-19,aadcd926,"setup.py Makefile parsing add multi-line commands, tidy and efficiency",2,1,34,65,32,64,0,0,0,1,0,0,0,0,0,0,0,33,0,0,19,0,0,0,0,0
+tqdm,5ddf608f61,2019-01-19,aadcd926,setup.py refactor,1,1,103,110,103,110,0,0,0,2,0,0,0,0,0,0,0,32,0,0,54,0,0,0,0,1
+tqdm,b2c6e9e045,2019-01-19,aadcd926,"flake8, .gitignore ipy",5,3,16,9,11,8,0,0,0,3,0,0,2,0,0,0,0,73,2,4,9,0,0,0,0,0
+tqdm,11dc38fc6b,2019-01-11,9a4b038c,Make sure _lock exists during write(),1,1,7,4,7,4,0,0,0,4,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+tqdm,943feebb25,2019-01-06,aadcd926,minor tidy,1,1,4,6,4,6,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+tqdm,b566af8bfc,2019-01-06,9a4b038c,Avoid global multiprocessing locks,1,1,37,19,37,19,0,0,0,2,0,0,0,0,2,0,0,18,0,0,25,0,1,0,0,0
+tqdm,dedbc659c3,2019-01-06,aadcd926,minor tidy,3,1,9,11,3,2,0,0,0,1,0,0,0,0,0,0,0,102,1,3,3,0,0,0,0,0
+tqdm,866282e16b,2019-01-06,48e3f3e2,Implement correct handling of iterable of infinite total length,2,1,17,2,5,2,0,0,0,1,0,0,1,0,0,0,0,102,1,4,4,0,0,0,0,0
+tqdm,2730ea8614,2019-01-06,d29aef90,Fixed missing attr pos when used in multi-threaded enviornment,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,0,0,1,0,1,0,0,0
+tqdm,6081329a60,2019-01-06,1cb679fb,Do not join `TMonitor` if it is the current thread,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,1,0,0,0
+tqdm,12bdfc431c,2019-01-06,6db188fb,Recognize OpenBSD as a NIX,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,3494970c1c,2019-01-06,7b055a27,Fix minor documentation typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,84,1,1,1,0,0,0,0,0
+tqdm,3c38d41729,2018-10-21,aadcd926,tqdm.main(): expose argv,1,1,11,8,11,8,0,0,0,1,0,0,1,0,0,0,0,84,1,9,9,0,0,0,0,0
+tqdm,64bbcf3cfa,2018-10-20,aadcd926,cli: add working `--manpath`,2,2,8,8,8,8,0,0,0,1,0,0,0,0,0,0,0,82,1,5,8,0,0,0,0,0
+tqdm,eeb24eb87f,2018-10-16,aadcd926,cli:add `--man_path` option,2,1,18,0,12,0,0,0,0,1,0,0,1,0,0,0,0,82,1,10,12,0,0,0,0,0
+tqdm,e53fae537c,2018-10-16,aadcd926,remove man page from distribution,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+tqdm,5aa5924e26,2018-10-15,aadcd926,neater fix,1,1,6,6,6,6,1,0,0,1,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+tqdm,d19d6476a3,2018-10-15,f073dce2,fix the WeakSet keyError bug,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+tqdm,6d33b1178d,2018-10-15,aadcd926,update documentation,4,1,22,19,7,7,0,0,0,2,0,0,0,0,0,0,0,100,1,4,7,0,0,0,0,0
+tqdm,877355a3e7,2018-10-15,aadcd926,tidy and use OOP,3,3,32,40,32,40,0,0,0,4,0,0,0,0,1,1,0,95,4,11,30,0,0,0,0,0
+tqdm,b317c207ca,2018-10-14,68a7028b,Change default smoothing,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,100,1,2,2,0,0,0,0,0
+tqdm,de4ae9f876,2018-10-14,68a7028b,Add EMA function into _tdqm modules,2,2,24,28,24,28,0,0,0,4,0,0,1,3,0,0,0,95,4,19,21,0,0,1,0,0
+tqdm,7f301d63fa,2018-10-14,68a7028b,Add _ema function,1,1,24,0,24,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0
+tqdm,49cbd051a9,2018-10-14,aadcd926,Better postfix auto-formatting of numbers,1,1,20,1,20,1,0,0,0,1,0,0,0,0,1,0,0,13,0,0,17,0,0,0,0,0
+tqdm,548ee7da43,2018-10-14,aadcd926,minor tidy,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,104,1,1,1,0,0,0,0,0
+tqdm,7e9f546ac4,2018-10-14,f073dce2,fix unit_scale rate,1,1,3,0,3,0,1,0,0,1,0,0,1,0,0,0,0,104,1,2,2,0,0,0,0,0
+tqdm,bc36ebc928,2018-10-14,aadcd926,minor tidy,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+tqdm,b30b1b75a4,2018-10-14,f073dce2,"replace str.isnumeric with try..except..., as isnumeric only for unicode.",1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,34,0,0,6,0,0,0,0,0
+tqdm,a49478c7df,2018-10-14,aadcd926,slight tidy,1,1,6,7,6,7,0,0,0,2,0,0,0,0,0,0,0,30,1,1,6,0,0,0,0,0
+tqdm,d9973984c5,2018-10-14,6b312f24,check ipywidgets version and set style,1,1,11,2,11,2,0,0,0,2,0,0,1,0,0,0,0,30,1,2,11,0,0,0,0,0
+tqdm,ff86280cb8,2018-10-14,f59e4ce6,Fix tqdm_notebook description being truncated for long descriptions.,1,1,2,0,2,0,1,0,0,2,0,0,1,0,0,0,0,29,1,1,2,0,0,0,0,0
+tqdm,920f911b6f,2018-09-30,97f534ed,"ignore pylint complaint against SimpleTextIOWrapper, fix docstrings",1,1,7,1,7,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,5,0,0,0,0,0
+tqdm,7af36e9fb1,2018-09-29,97f534ed,Add `write_bytes` parameter to override default behavior,2,1,33,3,11,3,0,0,0,1,0,0,1,0,0,0,0,106,1,11,11,0,0,0,0,0
+tqdm,3bb5ac9b5e,2018-09-29,97f534ed,No need to check `disable`,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,104,1,1,1,0,0,0,0,0
+tqdm,09a2260047,2018-09-29,97f534ed,Create and use SimpleTextIOWrapper,3,2,47,81,47,74,0,0,0,4,0,0,0,2,1,3,0,104,2,32,40,0,0,0,0,0
+tqdm,59df3c1e86,2018-09-29,97f534ed,Stop guessing about stdout/stderr,1,1,6,15,6,15,0,0,0,1,0,0,0,1,0,0,0,107,1,5,5,0,0,0,0,0
+tqdm,00cd160962,2018-09-28,97f534ed,self.fp = None after detaching...  because it is then unusable,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,39,1,1,1,0,0,0,0,0
+tqdm,8e754aea04,2018-09-28,97f534ed,Detach rather than ignoring close,2,2,46,46,46,46,0,0,0,3,0,0,2,0,0,1,0,113,2,38,38,0,0,0,0,0
+tqdm,86937e5293,2018-09-27,97f534ed,Avoid closing the underlying file from TextIOWrappableStdOutErr,1,1,7,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,6,0,0,0,0,0
+tqdm,899fff4d18,2018-09-27,97f534ed,"Revert ""major debug commit to be reverter""",5,2,2,143,0,45,0,0,0,4,0,0,0,1,0,0,0,72,1,0,0,0,0,0,0,0
+tqdm,9765502dfa,2018-09-27,97f534ed,"Revert ""more debugging to revert, again...""",1,1,0,2,0,2,0,0,0,1,0,0,0,1,0,0,0,80,1,0,0,0,0,0,0,0
+tqdm,72f2d8f8f2,2018-09-27,97f534ed,"Revert ""more debugging""",3,2,11,30,9,29,0,0,0,2,0,0,1,0,0,2,0,82,1,7,9,0,0,0,0,0
+tqdm,e3d6d9f13c,2018-09-27,97f534ed,more debugging,3,2,30,11,29,9,0,0,0,2,0,0,0,1,2,0,0,81,1,6,25,0,0,0,0,0
+tqdm,0baf2d0994,2018-09-27,97f534ed,"more debugging to revert, again...",1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,82,1,2,2,0,0,0,0,0
+tqdm,c8f54a68ea,2018-09-27,97f534ed,major debug commit to be reverter,5,2,143,2,45,0,0,0,0,4,0,0,1,0,0,0,0,80,1,8,20,0,0,0,0,0
+tqdm,15fb066c95,2018-09-21,aadcd926,suppress TqdmExperimentalWarning in,1,1,6,1,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,b4d81809c4,2018-09-21,aadcd926,alias `auto` -> `autonotebook`,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,922d1e26cf,2018-09-10,f073dce2,fix #566,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,64,1,1,1,0,0,0,0,0
+tqdm,40c5ce859b,2018-09-10,6a2b2f63,Fix typo in _tqdm_notebook.py (juputer -> jupyter),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,28,0,0,1,0,0,0,0,0
+tqdm,c0eaf5d72c,2018-09-10,e2ab1da0,"When 'index' or 'columns' is passed as pandas axis, convert to corresponding int Add 'index' and 'co",2,1,5,1,4,0,0,0,0,3,0,0,0,0,0,0,0,31,0,0,4,0,0,0,0,0
+tqdm,d0920b8e15,2018-08-27,97f534ed,Remove .close() blocker for sharing results,1,1,0,6,0,6,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+tqdm,330f3e5c52,2018-08-26,97f534ed,Fix up quality issues again,1,1,4,4,4,4,1,0,0,4,0,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0
+tqdm,26da1154fe,2018-08-26,97f534ed,Add docstrings etc,3,2,24,2,18,2,0,0,0,5,0,0,0,0,0,0,0,111,1,4,11,0,0,0,0,0
+tqdm,e97ea21754,2018-08-22,97f534ed,# pragma: no cover,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+tqdm,0f8ca59824,2018-08-22,97f534ed,Write bytes to stdout/stderr in py2,3,2,121,35,52,1,0,1,0,1,0,0,1,0,7,0,0,111,1,11,35,0,0,0,0,0
+tqdm,baad44f594,2018-08-18,aadcd926,minor documentation update,4,2,15,8,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,d6b05fbded,2018-08-14,aadcd926,tidy,2,2,3,9,3,9,0,0,0,1,0,0,0,1,0,1,0,102,1,1,2,0,0,0,0,0
+tqdm,858b0b4e05,2018-08-14,aadcd926,stop monitor on shutdown,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+tqdm,7321546599,2018-08-11,b4bdbb17,ignore ANSI escape codes in the bar length calculation,3,2,25,3,12,3,0,0,0,1,0,0,1,0,1,0,0,103,1,5,10,1,0,0,0,0
+tqdm,1cf3393255,2018-07-31,7efd2f6b,find_packages() for submodules,1,1,13,7,13,7,0,0,0,1,0,0,0,0,1,0,0,8,0,0,11,0,0,1,0,0
+tqdm,a7ce69eaf8,2018-07-26,0338083b,fix `format_sizeof` hundreds rounding,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+tqdm,4f340697af,2018-07-19,aadcd926,support `bool()` cast when `disable=True`,2,1,38,6,7,6,0,0,0,1,0,0,1,0,0,0,0,100,1,6,6,0,0,0,0,0
+tqdm,19b08ab34f,2018-07-19,aadcd926,autonotebook tests,2,1,16,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+tqdm,592988bd66,2018-06-03,7efd2f6b,IntProgress NameError -> ImportError,1,1,14,6,14,6,0,0,0,1,0,0,0,0,0,0,0,28,0,0,12,0,0,1,0,0
+tqdm,97a9393274,2018-06-03,aadcd926,tqdm.autonotebook,2,1,27,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+tqdm,715a629bb7,2018-05-22,aadcd926,codacy,5,1,14,14,3,3,0,0,0,3,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+tqdm,95107d24bf,2018-05-21,22a34c54,Add python_requires to help pip,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,d8ff6ee4d1,2018-05-21,aadcd926,minor tidy,1,1,4,8,4,8,0,0,0,1,0,0,0,0,0,0,0,30,0,0,4,0,0,0,0,0
+tqdm,39f8d61507,2018-05-21,8e70f166,Support pandas 0.23.0 `core.groupby` module layout,1,1,11,4,11,4,0,0,0,1,0,0,0,0,0,0,0,34,0,0,10,0,0,1,0,0
+tqdm,2e3fffd74f,2018-05-08,aadcd926,suppress warning,1,1,8,4,8,4,0,0,0,1,0,0,0,0,1,0,0,22,0,0,5,0,0,0,0,0
+tqdm,32cde6fdd2,2018-04-30,aadcd926,fix parallel example extra line,2,1,18,7,5,3,1,0,0,1,1,0,0,0,0,0,0,33,1,4,4,0,0,0,0,0
+tqdm,74e6eba4ef,2018-04-29,77d3465c,Fix overlap of nested progressbar,2,1,5,5,2,2,1,0,0,1,0,0,0,0,0,0,0,32,0,0,2,0,0,0,0,0
+tqdm,f66d9923d1,2018-04-29,aadcd926,slightly tidier,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,0,0,0
+tqdm,26d0ff1fab,2018-04-29,a2a0d360,Fix broken import of os.environ.get,1,1,3,5,3,5,1,0,0,1,0,0,0,0,0,0,0,15,0,0,3,0,0,1,0,0
+tqdm,01af3ac032,2018-04-29,7efd2f6b,tidy & abstract comparison logic,2,2,27,19,27,19,0,0,0,0,0,0,0,0,7,6,0,0,0,0,20,0,0,0,1,0
+tqdm,2e829ddeb6,2018-04-29,7efd2f6b,refix #323,1,1,3,4,3,4,0,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+tqdm,61b116cea4,2018-04-25,aadcd926,fix AttributeError 'fp' for `tqdm.write()`,1,1,7,9,7,9,1,0,0,2,0,0,0,0,0,0,0,99,1,4,7,0,0,0,0,0
+tqdm,7f1590e27e,2018-04-25,aadcd926,"solve missing ""pos"" AttributeError on initialisation",1,1,6,5,6,5,0,0,0,2,0,0,1,0,0,0,0,99,1,5,6,0,0,0,0,0
+tqdm,b2228e1ee2,2018-04-15,aadcd926,"flake8, remove duplicate test",2,1,9,57,7,11,0,0,0,4,0,0,0,0,0,0,0,28,0,0,6,0,0,0,1,1
+tqdm,bfa5bba470,2018-04-15,57355c05,add test,2,1,76,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+tqdm,222774059c,2018-04-15,57355c05,address #530 - Add progress_apply for pd.(Series|DataFrame).(rolling|expanding) - Todo: unittest - T,1,1,16,2,16,2,0,0,0,4,0,0,0,0,0,0,0,29,0,0,12,0,0,0,0,0
+tqdm,a432c3dacd,2018-04-15,aadcd926,"remove warning, flake8",3,2,9,13,6,2,0,0,0,2,0,0,1,0,0,0,0,72,1,2,4,0,0,0,1,0
+tqdm,b502f0d961,2018-04-15,7efd2f6b,allow custom pandas total,1,1,1,1,1,1,0,0,0,3,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+tqdm,34457bd2b0,2018-04-15,aadcd926,"tidy,flake8",1,1,6,7,6,7,0,0,0,3,0,0,0,0,0,0,0,22,0,0,6,0,0,0,0,0
+tqdm,47df7d6d1b,2018-04-15,57355c05,closes #292,1,1,13,13,13,13,0,0,0,2,0,0,0,0,0,0,0,22,0,0,10,0,0,0,0,0
+tqdm,f8831d0a41,2018-04-15,ccdffd24,Add ncols to specify tqdm_notebook bar width,1,1,19,2,19,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,11,0,0,0,0,0
+tqdm,6dad2e8901,2018-04-15,aadcd926,fix `disable=True` edge case,2,1,21,4,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+tqdm,ce8fbd54ec,2018-04-08,aadcd926,unit tests,3,1,16,6,2,3,0,0,0,1,0,0,0,0,0,0,0,98,1,2,2,0,0,0,0,0
+tqdm,5a0b6c7934,2018-04-08,aadcd926,allow non-str `postfix`,1,1,16,8,16,8,0,0,0,2,0,0,2,0,0,0,0,100,2,15,15,0,0,0,0,0
+tqdm,ceac869998,2018-04-08,aadcd926,minor documentation update,2,1,10,8,7,5,0,0,0,1,0,0,0,0,0,0,0,95,1,7,7,0,0,0,0,0
+tqdm,fad0c41494,2018-04-07,aadcd926,minor logging format,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,71,1,2,2,0,0,0,0,0
+tqdm,3454cc86b2,2018-04-06,aadcd926,TqdmExperimentalWarning for GUI,3,3,13,6,13,6,0,0,0,1,0,0,0,0,0,0,0,48,0,0,13,0,0,0,0,0
+tqdm,d7ccbbdabd,2018-04-06,aadcd926,GUI mode __del__ fix (TODO: check after v5),2,1,26,36,15,15,1,0,0,2,0,0,0,1,0,0,0,95,1,0,14,0,0,0,0,0
+tqdm,06e25b32c8,2018-04-06,aadcd926,misc improvements,3,2,53,40,46,40,0,1,1,12,0,0,1,0,0,0,0,97,3,10,40,0,0,0,0,0
+tqdm,0c56c08245,2018-04-03,aadcd926,linting,2,1,46,34,13,9,0,0,0,3,0,0,0,0,0,0,0,26,0,0,8,0,0,0,0,0
+tqdm,bcbdc223b1,2018-04-03,57355c05,fix a bug and add tests in test_pandas,2,1,48,3,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,6921743b28,2018-04-03,57355c05,address the problem in #299 correctly.,2,1,77,43,19,11,0,0,0,4,0,0,0,0,0,0,0,24,0,0,13,0,0,0,0,0
+tqdm,a4e60eb07d,2018-04-03,aadcd926,grammar,1,1,3,1,3,1,0,0,0,3,0,0,0,0,0,0,0,22,0,0,1,0,0,0,0,0
+tqdm,aaaf18994b,2018-04-03,18d77cbf,Remove support for *args in pandas wrappers Fix total computation for pandas apply,1,1,5,5,5,5,1,0,0,3,0,0,0,0,0,0,0,22,0,0,4,0,0,0,1,0
+tqdm,0e8f839211,2018-04-02,aadcd926,TqdmSynchronisationWarning,2,2,16,4,16,4,0,0,0,1,0,0,0,0,0,0,0,24,0,0,14,0,1,0,0,0
+tqdm,a69443dbdd,2018-03-19,aadcd926,"pep8, minor tidy",2,1,6,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,eb5b9866f2,2018-03-18,8e0098b0,TMonitor: Python 2.6... EOL 2013...,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+tqdm,d794570695,2018-03-18,8e0098b0,TMonitor: adjusts tests for threading.Event,2,1,21,8,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,1,0,0,0
+tqdm,4d90744a6b,2018-03-18,8e0098b0,TMonitor: properly terminate threads,1,1,9,9,9,9,0,0,2,4,0,0,0,0,0,0,0,18,0,0,8,0,1,0,0,0
+tqdm,be21c5b00c,2018-03-16,aadcd926,TqdmMonitorWarning,2,2,12,4,12,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,10,0,0,0,0,0
+tqdm,4f56220381,2018-03-16,aadcd926,warnings.warn,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+tqdm,8136f49466,2018-03-16,aadcd926,log.info,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+tqdm,d4fdfcb623,2018-03-16,aadcd926,abstract and no-raise monitor error,3,3,90,81,90,81,0,2,2,2,1,1,0,0,4,4,0,96,1,0,62,0,0,0,1,0
+tqdm,3f8d365a7b,2018-03-09,ebd1f434,Avoid manipulating uninitialized instances on monitoring thread.,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,1,0,0,0
+tqdm,531d1c92d6,2018-02-26,7efd2f6b,minor tidy,1,1,6,5,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+tqdm,e14f45b373,2018-02-26,d486fafb,Run on platforms without sem_open.,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tqdm,4efd35246c,2018-02-14,7efd2f6b,CLI: support escaped hyphens,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+tqdm,ce3a728f57,2018-01-29,aadcd926,update framework,4,1,48,45,31,14,0,0,0,1,0,0,0,0,0,0,0,32,0,0,29,0,0,0,0,0
+tqdm,1da038c1cf,2018-01-19,aadcd926,CLI improvements,3,1,56,8,42,3,0,1,0,2,0,0,1,0,0,0,0,70,1,18,35,0,0,0,0,0
+tqdm,a501b7e7e2,2017-12-10,aadcd926,minor tidy,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+tqdm,b1cfad8810,2017-12-10,57355c05,fix `set_description` for notebook,1,1,18,1,18,1,1,0,0,2,0,0,1,0,1,0,0,23,1,3,13,0,0,0,0,0
+tqdm,dc259ca87c,2017-11-01,327276ec,"correct prefix for 'kilo' is 'k', not 'K'",2,1,7,7,2,2,0,0,0,2,0,0,0,0,0,0,0,98,1,1,2,0,0,0,0,0
+tqdm,1e4b60c650,2017-10-18,aadcd926,attempt to really fix #457,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+tqdm,d13f6efa08,2017-10-15,9784ed1b,"always flush, even when not moving cursor to a new line",1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+tqdm,6f7a1f19c8,2017-10-15,9784ed1b,always flush after moving the cursor to a different line,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+tqdm,5e84938e83,2017-10-14,aadcd926,linting,8,5,26,45,11,33,0,1,1,7,0,0,0,1,0,2,0,63,2,1,6,0,0,0,0,0
+tqdm,86d409303c,2017-10-14,aadcd926,"tidy, use recursive locks",2,1,12,13,7,9,0,0,0,1,0,0,0,0,0,0,0,3,0,0,7,0,1,0,0,0
+tqdm,da136b3cc4,2017-10-11,6b312f24,Fix for issues #466,1,1,10,4,10,4,1,0,0,1,0,0,0,0,0,0,0,3,0,0,9,0,0,0,0,0
+tqdm,533b89125b,2017-10-05,aadcd926,final `sp()` cleanup,2,1,3,4,1,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,1
+tqdm,292bf59186,2017-10-05,aadcd926,status printer updates,2,1,5,15,4,13,0,0,1,2,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+tqdm,f3c1ffe0cf,2017-10-05,aadcd926,flush on `refresh()`,1,1,5,1,5,1,0,1,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+tqdm,5933c684d7,2017-10-05,aadcd926,fix pypi ReST,3,2,21,21,5,5,1,0,0,1,0,0,0,0,0,0,0,98,1,3,5,0,0,0,0,0
+tqdm,a6ef53c054,2017-10-03,aadcd926,tqdm.1 man page,5,1,274,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+tqdm,0fdb3e70f5,2017-10-02,aadcd926,"remove __new__:set_lock, add tests",2,1,8,3,0,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,0,0,0,0,1,0
+tqdm,2bd3df594d,2017-10-02,7efd2f6b,fix missing default _lock,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,9fc77f838f,2017-09-30,aadcd926,remove optimised vars (flake8),1,1,0,11,0,11,0,0,0,2,0,0,0,1,0,0,0,63,1,0,0,0,0,0,1,0
+tqdm,b26c4bd9cf,2017-09-30,aadcd926,"remove self.elapsed, add `elapsed=None` to `__repr__`",1,1,7,11,7,11,0,0,0,6,0,0,0,3,0,0,0,96,3,1,4,0,0,0,1,0
+tqdm,9bcf03d722,2017-09-30,aadcd926,misc fixes,2,1,12,14,11,13,1,0,0,2,0,0,0,1,0,0,0,74,2,7,7,0,0,0,0,0
+tqdm,e1df411be5,2017-09-30,4afd8691,Squashed commit of MPagel:minor_tidy_2,2,1,26,34,23,31,0,0,0,6,0,1,1,2,0,0,0,97,4,13,19,0,0,0,0,0
+tqdm,b8631323fb,2017-09-30,aadcd926,rate_(no)inv(_fmt) in documentation,2,1,24,20,16,14,0,0,0,1,0,0,1,0,0,0,0,98,1,16,16,0,0,0,0,0
+tqdm,42789743a0,2017-09-24,aadcd926,monitor deletion thread safety,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,5,0,1,0,0,0
+tqdm,d4b942d003,2017-09-24,aadcd926,flake8,3,1,26,26,4,4,0,0,0,1,0,0,0,0,0,0,0,96,1,3,3,0,0,0,0,0
+tqdm,da46cd4371,2017-09-23,aadcd926,nolock=False for write,2,1,38,21,23,20,0,0,0,2,0,0,0,0,0,0,0,16,0,0,17,0,0,0,0,0
+tqdm,9b7043cbb9,2017-09-23,aadcd926,"pep8, more locking",2,1,24,23,24,22,0,0,0,6,0,0,0,1,0,0,0,99,3,5,14,0,1,0,0,0
+tqdm,61acdf699b,2017-09-23,ccdffd24,fix unit test and coverage,1,1,34,35,34,35,1,0,0,6,0,0,0,0,0,0,0,14,0,0,30,0,0,0,0,0
+tqdm,4ddacb9b7f,2017-09-23,ccdffd24,codacy fix,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+tqdm,48b90f6d39,2017-09-23,ccdffd24,Add set_lock() for parallelism safety,1,1,158,100,158,100,0,0,0,13,1,1,3,0,7,0,0,79,4,42,127,0,0,0,0,0
+tqdm,08f6a757f1,2017-09-22,7efd2f6b,__repr__() bugfix,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,96,1,1,1,0,0,0,0,0
+tqdm,b44c0e9bd8,2017-09-20,aadcd926,better unicode detection,1,1,16,6,16,6,0,0,0,2,0,0,0,0,0,0,0,12,0,0,16,0,0,0,0,0
+tqdm,efcc54991d,2017-09-20,aadcd926,initialise `n` even when disabled,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,98,1,1,1,0,0,0,0,0
+tqdm,8c03307b76,2017-09-09,aadcd926,set_description/postfix:update(0)->refresh=True,3,1,68,24,27,10,0,0,0,6,0,0,0,0,0,0,0,97,2,2,25,0,0,0,0,0
+tqdm,fced6e7d78,2017-09-09,7efd2f6b,set_description() and set_postfix() call update(0),1,1,13,9,13,9,0,0,0,5,0,0,0,0,0,0,0,43,1,1,6,0,0,0,0,0
+tqdm,9c2a524ab3,2017-09-09,a13e99bf,Added contextmanager to disable tqdm and allow smooth write to stdout,1,1,15,3,15,3,0,0,0,1,0,0,0,0,1,0,0,5,0,0,13,0,0,0,0,0
+tqdm,cf4271a2ad,2017-09-09,4afd8691,work-around for prefix strings already colon-appended (#4),2,1,20,14,6,2,0,0,0,1,0,0,1,0,0,0,0,96,1,6,6,0,0,0,0,0
+tqdm,a6344f1a3a,2017-09-09,7efd2f6b,"move "": "" from prefix to bar_format, remove redundant set_description_str()",2,1,21,10,18,9,0,0,0,2,0,0,1,0,0,0,0,97,2,16,16,0,0,0,1,0
+tqdm,9cff8577ea,2017-09-09,7efd2f6b,set_postfix_direct()->set_postfix_str(); add set_decription_str(); sync docs,2,1,23,8,21,8,0,0,0,3,0,0,0,0,2,1,0,97,2,10,20,0,0,0,0,0
+tqdm,9d3c120506,2017-09-09,4afd8691,Specifies which method/function calls require postfix to be a string and which a dictionary.,1,1,14,7,14,7,0,0,0,3,0,0,0,0,1,0,0,97,2,9,13,0,0,0,0,0
+tqdm,69326b7189,2017-08-28,aadcd926,".gitattributes, .style.yapf",13,1,141,129,25,26,0,0,0,5,0,0,0,1,0,0,0,97,2,12,23,0,0,0,0,0
+tqdm,170bf4a353,2017-08-19,7efd2f6b,CLI better installation path support,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,52,1,1,1,0,0,0,0,0
+tqdm,ca7e960f61,2017-07-22,7efd2f6b,add numeric support for unit_scale,2,1,18,9,14,6,0,0,0,2,0,0,1,0,0,0,0,99,2,12,12,0,0,0,0,0
+tqdm,2189a2b291,2017-07-22,aadcd926,remove setcheckinterval/setswitchinterval to unit tests only,2,1,4,3,0,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,1,0
+tqdm,c0a402a138,2017-07-22,aadcd926,jupyter notebook close fix,1,1,4,1,4,1,1,0,0,2,0,0,1,0,0,0,0,22,1,4,4,0,0,0,0,0
+tqdm,6b1a135ca8,2017-07-15,2c9fabc4,set total for apply on axis 1,1,1,7,2,7,2,0,0,0,3,0,0,0,0,0,0,0,22,0,0,7,0,0,0,0,0
+tqdm,e758e9c237,2017-06-06,2c9fabc4,Set file before trying to read attr's,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,99,1,2,2,0,0,0,0,0
+tqdm,caf7cbad2f,2017-05-29,aadcd926,"unit_divisor, allowing e.g. 1024",3,1,23,12,19,10,0,0,0,6,0,0,3,0,0,0,0,99,4,14,19,0,0,0,0,0
+tqdm,22fe33c79d,2017-05-29,7efd2f6b,minor doc tweaks,2,1,4,6,2,4,0,0,0,1,0,0,0,0,0,0,0,98,1,2,2,0,0,0,0,0
+tqdm,4119d4aff8,2017-05-29,ccdffd24,Fix `file` default value (ease redirection),3,3,14,5,14,5,1,0,0,4,0,0,1,0,0,0,0,98,1,3,11,0,0,0,0,0
+tqdm,d3886d615b,2017-05-29,7efd2f6b,fix manually positioned nested bars clearing,1,1,5,1,5,1,1,0,0,1,0,0,1,0,0,0,0,96,1,5,5,0,0,0,0,0
+tqdm,25574b5c2b,2017-05-29,aadcd926,avoid messing with ncols=0,1,1,6,3,6,3,0,0,0,1,0,0,0,1,0,0,0,92,1,2,2,0,0,0,0,0
+tqdm,58fcb2fcc6,2017-05-29,aadcd926,flake8 fixes,1,1,18,18,18,18,1,0,0,5,0,0,0,1,0,0,0,84,3,13,17,0,0,0,0,0
+tqdm,e69e04d671,2017-05-29,aadcd926,unknown system fix,1,1,6,2,6,2,1,0,0,1,0,0,1,0,0,0,0,93,1,6,6,0,0,0,0,0
+tqdm,f75e6ce824,2017-05-28,aadcd926,"bump version, minor documentation tidy",3,1,29,25,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,e18f20497b,2017-05-04,aadcd926,minor tidy,1,1,8,11,8,11,0,0,0,3,0,0,0,1,0,0,0,44,1,1,8,0,0,0,0,0
+tqdm,a379e330d0,2017-02-09,7efd2f6b,NetBSD support,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,9b074d50dc,2017-01-27,7efd2f6b,fix monitor delete race,1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,1,0,0,0
+tqdm,1104d07e03,2017-01-23,aadcd926,allow travis to pass without latest tag upon version bump,1,1,8,4,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+tqdm,aec3f7d04c,2017-01-22,aadcd926,no extra on manual tag,1,1,5,2,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+tqdm,30a39b29b1,2017-01-22,aadcd926,coverage fixes,3,3,2,7,2,7,1,0,0,1,0,0,0,0,0,1,0,13,0,0,2,0,0,0,0,0
+tqdm,4857462f92,2017-01-22,aadcd926,"minor safety, comments tidy, flake8 fixes, show coverage",8,3,38,27,24,20,1,0,0,2,0,0,0,0,0,0,0,9,0,0,16,0,0,0,0,0
+tqdm,064aa65ce7,2017-01-22,ccdffd24,check if in tqdm project before extra version calculation + style fixes,2,1,38,32,34,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+tqdm,7996430e92,2017-01-22,ccdffd24,"__version__ extra calculation: security fix, add branch name",2,1,35,21,33,20,1,0,0,0,0,0,0,0,0,1,0,0,0,0,21,1,0,0,0,0
+tqdm,100229258e,2017-01-20,aadcd926,minor tidy,1,1,3,4,3,4,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+tqdm,3db952ed0e,2017-01-20,24d30daa,`sys.setcheckinterval` (deprecated) changed to `sys.setswitchinterval`,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+tqdm,588530c6d7,2017-01-20,aadcd926,minor tidy,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,64f5e73024,2017-01-20,95ea0a40,Update _tqdm.py,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+tqdm,795732207e,2017-01-19,7efd2f6b,add Py3.6,3,1,5,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,cdf7ab70ed,2017-01-12,aadcd926,tidy for merge,4,2,15,17,7,9,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+tqdm,6cb8fa30ef,2017-01-12,ccdffd24,fix compatibility with Python 2.6 and 3.0,3,2,75,5,74,3,1,0,0,1,0,0,0,0,11,0,0,11,0,0,58,0,0,0,0,0
+tqdm,f9168d2279,2017-01-12,ccdffd24,set_postfix() supports ordered arguments,2,1,30,10,14,8,0,0,0,1,0,0,0,0,0,0,0,11,0,0,12,0,0,0,0,0
+tqdm,9683c1737e,2017-01-12,ccdffd24,Fix Py3 compatibility,2,2,8,2,8,2,1,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+tqdm,bc62fcfd84,2017-01-12,ccdffd24,Add postfix unit test + fix flake8,2,1,32,2,5,2,1,0,0,2,0,0,1,0,0,0,0,89,1,2,4,0,0,0,0,0
+tqdm,768e551be6,2017-01-12,ccdffd24,Add set_postfix,1,1,40,10,40,10,0,0,0,6,0,0,3,0,1,0,0,88,5,21,35,0,0,0,0,0
+tqdm,b479d1519b,2016-12-31,7efd2f6b,safer setup.py file paths,1,1,6,5,6,5,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+tqdm,95efb20fae,2016-12-16,cffd4f3b,Fix typo in README and _tqdm.py docstrings,2,1,3,3,2,2,0,0,0,2,0,0,0,0,0,0,0,84,2,2,2,0,0,0,0,0
+tqdm,5f3519b11b,2016-11-12,aadcd926,code tidy,6,2,10,7,5,5,0,0,0,2,0,0,0,0,0,0,0,52,1,2,4,0,0,0,0,0
+tqdm,a3bcc8a386,2016-11-12,7efd2f6b,"tidy, canonical benchmarks in simple_examples.py",4,1,25,9,5,4,0,0,0,1,0,0,0,0,0,0,0,84,1,3,3,0,0,0,0,0
+tqdm,c19cb069f1,2016-11-12,ccdffd24,Fix unit test error (when too fast to print because of miniters bigger than total),1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,76,1,1,1,0,0,0,0,0
+tqdm,a07e7aa972,2016-11-12,ccdffd24,"Fix dynamic_miniters calculation when smoothing=0, docs, unit tests",2,1,52,20,23,19,0,0,0,3,0,0,2,0,0,0,0,84,3,19,19,0,0,0,0,0
+tqdm,d0e0a74074,2016-11-12,ccdffd24,"Fix maxinterval to adjust miniters to mininterval, unit tests, fix #249",3,1,103,14,26,9,1,0,0,3,0,0,2,0,0,0,0,84,3,23,23,0,0,0,0,0
+tqdm,86292e571a,2016-10-31,ccdffd24,Addendum to #288,1,1,3,2,3,2,0,0,0,1,0,0,1,0,0,0,0,84,1,2,2,0,0,0,0,0
+tqdm,6b73b5bd29,2016-10-31,aadcd926,slight safety and doc updates,2,1,15,3,1,1,0,0,0,1,0,0,0,0,0,0,0,83,1,1,1,0,0,0,0,0
+tqdm,67afb85473,2016-10-31,7efd2f6b,minor optimistaion,1,1,3,5,3,5,0,0,0,2,0,0,0,1,0,0,0,83,1,0,1,0,0,0,0,0
+tqdm,a65e347518,2016-10-31,aadcd926,"bump version, minor comments",5,3,11,12,8,9,0,0,0,2,0,0,0,0,0,0,0,32,0,0,5,0,0,0,0,0
+tqdm,5a086dfbbe,2016-10-31,aadcd926,doc updates,3,1,40,44,3,2,0,0,0,1,0,0,0,0,0,0,0,69,1,1,3,0,0,0,0,0
+tqdm,b4b20cd7e7,2016-10-31,ccdffd24,"Fix unit test for monitoring thread (no real sleep) race issues, flake8",2,1,41,22,9,5,1,1,1,3,0,0,0,0,0,0,0,17,0,0,5,0,1,0,0,0
+tqdm,93b48f3f6d,2016-10-31,ccdffd24,"docs, flake8, unit tests for TqdmDeprecationWarning, monitoring thread",3,1,215,22,50,22,0,2,0,7,0,0,0,0,0,0,0,69,1,2,40,0,1,0,0,0
+tqdm,175ecce240,2016-10-31,ccdffd24,"- Add monitoring thread to avoid trespassing maxinterval, readjust miniters",1,1,59,4,59,4,0,0,0,4,1,1,1,0,4,0,0,69,2,13,40,0,1,0,0,0
+tqdm,83b1d5fc03,2016-10-29,aadcd926,doc and unit tests,3,1,33,15,11,6,0,0,0,1,0,0,0,0,0,0,0,52,1,10,10,0,0,0,0,0
+tqdm,2b29fe601d,2016-10-29,7efd2f6b,"CLI --bytes. TODO: test, docs",1,1,23,3,23,3,0,0,0,2,0,0,1,0,0,0,0,52,1,7,19,0,0,0,0,0
+tqdm,929a4fdacf,2016-10-22,7efd2f6b,safety and warning suppression,4,1,6,13,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+tqdm,bde013b1da,2016-10-16,a6940e64,disable automatically on non-TTY (#281),2,1,25,2,6,2,0,0,0,1,0,0,1,0,0,0,0,84,1,4,4,0,0,0,0,0
+tqdm,8957af6619,2016-10-16,a6940e64,fixed refresh() and clear() if disabled (#286),2,1,28,0,6,0,1,0,0,2,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+tqdm,2d45eca654,2016-09-15,ccdffd24,Fix time() in refresh() + avoid racing conditions in write() (#264),1,1,9,4,9,4,1,0,0,5,0,0,3,0,0,0,0,82,3,3,6,0,0,0,0,0
+tqdm,166a8203b9,2016-09-15,7f1b4b60,cleaner tqdm_notebook exit when not run in a notebook (#267),1,1,10,8,10,8,0,0,0,1,0,0,0,0,0,0,0,10,0,0,7,0,0,0,0,0
+tqdm,4b3d916889,2016-08-17,aadcd926,bump version,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,93e3dac198,2016-08-17,be583bae,Removed commented-out code (#226),3,3,0,17,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+tqdm,0346a4a19f,2016-08-16,7efd2f6b,"14% overhead reduction, flake8 fixes",1,1,12,12,12,12,1,0,0,2,0,0,0,0,0,0,0,68,2,12,12,0,0,0,0,0
+tqdm,713f615841,2016-08-16,18d77cbf,noexcept when closing tqdm_notebook without a total (#239),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+tqdm,50fc2d85ea,2016-08-01,7efd2f6b,version bump for pypi,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,2eff05159b,2016-07-27,7efd2f6b,blindly clobber pandas,1,1,16,3,16,3,0,0,0,1,0,0,0,0,0,0,0,22,0,0,13,0,0,0,0,0
+tqdm,b6771840ec,2016-07-27,7efd2f6b,"pandas.Series.progress_map, update docs, tests",4,1,69,45,42,38,0,0,0,1,0,0,0,0,3,2,0,12,0,0,36,0,0,0,0,0
+tqdm,ad9abcc633,2016-07-24,7efd2f6b,use new warnings,4,2,22,21,14,15,0,0,0,4,0,0,0,0,0,0,0,81,3,5,13,0,0,0,0,0
+tqdm,2c440b63d0,2016-07-24,7efd2f6b,rework warnings and error framework,4,3,51,34,32,20,0,0,0,3,1,1,2,0,1,0,0,68,3,11,25,0,0,0,0,0
+tqdm,05db42ad71,2016-07-23,7efd2f6b,"less duplication = more safety, coverage, warnings",3,2,37,72,20,57,0,0,0,3,0,0,0,0,0,2,0,16,0,0,19,0,0,0,0,0
+tqdm,977fcd7738,2016-07-23,7efd2f6b,"make pandas a classmethod. TODO: Readme update, unit tests (incl subclasses)",2,2,95,13,95,13,0,0,0,2,0,0,0,0,3,0,0,18,0,0,72,0,0,0,0,0
+tqdm,2451bcfbc3,2016-07-23,7efd2f6b,"minor forward-compatibility, flake8",1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+tqdm,004c5297ca,2016-07-23,ccdffd24,tqdm_pandas: backwards compatibility + deprecation message and unit test,2,1,31,2,10,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,9,0,0,0,0,0
+tqdm,83bda731ea,2016-07-23,ccdffd24,Fix tqdm_pandas(tqdm_notebook) by delaying instanciation in tqdm_pandas,3,1,27,14,20,7,1,0,0,2,0,0,0,0,0,0,0,12,0,0,11,0,0,0,0,0
+tqdm,1fd2234a0b,2016-07-18,7efd2f6b,cleaner solution,1,1,8,9,8,9,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+tqdm,5fbbd7369b,2016-07-18,ccdffd24,Fix tqdm.write() when not yet instanciated,1,1,9,8,9,8,1,0,0,1,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,0
+tqdm,e53dcacba9,2016-06-30,7efd2f6b,attempt to fix aliased imports as per #187,1,1,12,5,12,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,0,0
+tqdm,57edc22ab4,2016-06-26,7efd2f6b,"numpy len support, addressing #185",2,1,14,1,3,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+tqdm,991474ace3,2016-06-14,7efd2f6b,"disable support (fixes #184), fkake8 fixes",2,2,7,3,7,3,1,0,0,2,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+tqdm,41386577bc,2016-06-14,7efd2f6b,"series len, tests",2,1,17,8,2,1,0,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+tqdm,0a278e32bc,2016-06-13,7efd2f6b,addresses #182,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+tqdm,c2941fbe45,2016-06-05,7efd2f6b,spring clean (mostly pragma),8,8,100,128,100,128,0,0,0,15,0,0,1,0,0,1,0,96,3,10,95,0,0,0,0,0
+tqdm,8b5a87ecad,2016-06-02,7efd2f6b,colorama only on win,1,1,15,7,15,7,0,0,0,1,0,0,0,0,0,0,0,9,0,0,13,0,0,0,0,0
+tqdm,ade57d5f47,2016-06-02,7efd2f6b,import coverage,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,3,0,0,2,0,0,1,0,0
+tqdm,6ba502590c,2016-06-02,7efd2f6b,slightly better docs,1,1,4,7,4,7,0,0,0,2,0,0,0,0,0,0,0,3,0,0,4,0,0,0,0,0
+tqdm,c49021da40,2016-06-02,56ab66f8,RF: delay imports of ipython until necessary through adapter functions,1,1,18,2,18,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,12,0,0,1,0,0
+tqdm,df7f18f5ee,2016-06-02,ccdffd24,Fix temporary bar displaying with tqdm_notebook,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+tqdm,9d849d3f1b,2016-05-28,ccdffd24,Add tqdm_gui.write(),1,1,11,0,11,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+tqdm,ac522465ac,2016-05-28,ccdffd24,Add tqdm_notebook.write(),1,1,9,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,7,0,0,0,0,0
+tqdm,65bc76eca0,2016-05-21,7efd2f6b,"tidy tests, docs",4,1,23,17,6,6,0,0,0,2,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+tqdm,cbc69d04f3,2016-05-21,7efd2f6b,pandas.DataFrame.apply support,2,1,34,5,11,5,0,0,0,2,0,0,0,0,0,0,0,10,0,0,11,0,0,0,0,0
+tqdm,f270ee05b5,2016-05-18,7efd2f6b,minor readability fix,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+tqdm,19c86d5722,2016-05-15,7efd2f6b,custom error test,3,2,29,13,16,6,0,0,0,2,0,0,1,0,0,0,0,46,1,4,14,0,0,0,0,0
+tqdm,b6562b1693,2016-05-15,ccdffd24,Bump version 4.6.2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,930b72da57,2016-05-15,7efd2f6b,"notebook warning suppression, flake8",2,2,58,25,58,25,0,0,0,4,0,0,1,0,0,0,0,81,2,6,34,0,0,0,0,0
+tqdm,1843071548,2016-05-15,7efd2f6b,More robust argument parsing:     - either one or two `-` preceding kwargs (eg `-ascii` or `--ascii`,2,1,15,10,6,4,0,0,0,1,0,0,0,0,0,0,0,43,1,2,4,0,0,0,0,0
+tqdm,34461b341a,2016-05-15,ccdffd24,Bump version 4.6.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,d7e16e0dac,2016-05-15,7efd2f6b,tests and docs,4,1,68,39,43,31,0,0,0,3,0,0,0,0,0,0,0,43,1,3,40,0,0,0,0,0
+tqdm,1a2ea938ad,2016-05-15,7efd2f6b,CLI delimeter support,1,1,59,3,59,3,0,0,0,1,0,0,1,0,2,0,0,43,1,10,49,0,0,0,0,0
+tqdm,f6d4113525,2016-05-15,ccdffd24,update refreshing code,1,1,1,6,1,6,0,0,1,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+tqdm,aca83b2f1e,2016-05-15,ccdffd24,Add alexanderkuk as co-author,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+tqdm,0f516212ea,2016-05-15,ccdffd24,Fix notebook bar to always show last status,1,1,9,4,9,4,1,0,0,3,1,0,0,0,0,0,0,19,1,4,5,0,0,0,0,0
+tqdm,4db8c7b8ef,2016-05-15,ccdffd24,Add info style bar for no total iterable,1,1,25,17,25,17,0,0,0,3,0,0,0,0,0,0,0,18,0,0,16,0,0,0,0,0
+tqdm,d209fe31cc,2016-05-15,ccdffd24,Fix danger style in manual mode,1,1,11,4,11,4,0,0,0,2,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+tqdm,c3759abe52,2016-05-15,ccdffd24,Fix success style,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+tqdm,cc7d34ed3b,2016-05-15,ccdffd24,hide only if there was no error,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+tqdm,c6f34d90ff,2016-05-15,ccdffd24,Fix blank lines + danger styling when exception,1,1,13,4,13,4,1,0,0,3,0,0,0,0,1,0,0,17,0,0,8,0,0,0,0,0
+tqdm,1db657f833,2016-05-15,ccdffd24,"Adding bar styles (draft, untested)",1,1,21,2,21,2,0,0,0,3,0,0,0,0,2,0,0,16,0,0,18,0,0,0,0,0
+tqdm,e6e4cebbc3,2016-05-15,ccdffd24,Refactor tqdm_notebook with new subclassing architecture,2,1,67,60,57,60,0,1,0,2,0,0,0,0,2,3,0,15,0,0,36,0,0,0,0,1
+tqdm,b06b168dd3,2016-05-15,ccdffd24,add ipython/jupyter notebook support,2,2,151,1,151,1,0,0,0,0,0,0,0,0,6,0,0,0,0,0,99,0,0,0,0,0
+tqdm,4c705bdc64,2016-05-15,ccdffd24,Fix rate_noinv_fmt not using custom unit,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,80,1,1,1,0,0,0,0,0
+tqdm,cae9d139c6,2016-05-15,ccdffd24,Fix a bug with new bar_format + fix unit test,2,1,6,2,1,1,1,0,0,1,0,0,0,0,0,0,0,80,1,1,1,0,0,0,0,0
+tqdm,08b8ad1ff3,2016-05-15,ccdffd24,Fix bar_format breaking console display,1,1,36,27,36,27,1,0,0,1,0,0,1,0,0,0,0,80,1,25,25,0,0,0,0,0
+tqdm,560e897719,2016-05-09,ccdffd24,Add no rate inversion option in bar_format,1,1,6,1,6,1,0,0,0,1,0,0,1,0,0,0,0,78,1,6,6,0,0,0,0,0
+tqdm,91133a71c4,2016-04-25,ccdffd24,"tqdm.write intelligently clears sys.(stdout|stderr), refresh only cleared bars, added more tests",2,1,63,7,11,4,0,1,1,1,0,0,0,0,0,0,0,12,0,0,6,0,0,0,0,0
+tqdm,a483e55e3f,2016-04-25,7efd2f6b,"Update documentation, per-file refresh",2,1,41,1,2,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+tqdm,3567a90427,2016-04-25,ccdffd24,unit tests,2,1,132,13,15,13,0,0,0,2,0,0,0,0,0,0,0,8,0,0,12,0,0,0,0,0
+tqdm,d3c3ad2af5,2016-04-25,ccdffd24,Add tqdm.write() class method to print messages,1,1,43,2,43,2,0,1,0,1,0,0,0,0,3,0,0,67,1,2,32,0,0,0,0,0

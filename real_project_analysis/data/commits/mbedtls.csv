@@ -1,0 +1,667 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+mbedtls,fe8a9eade7,2026-10-29,7652de91,Remove spurious tabs from header file,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,51622ca4ea,2026-10-29,7652de91,Make mbedtls_x509_get_sig_alg() public,2,2,12,2,12,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,d0496aaaac,2026-10-29,7652de91,Make mbedtls_x509_oid_get_md_alg() public,3,3,13,16,13,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,62dd8a556c,2026-10-16,d61c0023,x509: Accept basicConstraints with omitted cA,4,1,52,7,7,5,0,0,0,1,0,0,0,0,0,0,0,41,0,0,3,0,0,0,0,0
+mbedtls,113010a9d6,2026-10-12,e28751af,Add fix for transform setup resource leak,1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,88,1,2,2,0,0,0,0,0
+mbedtls,6c9478b2ed,2026-09-26,b987edd5,x509_crt: accept empty AuthorityKeyIdentifier sequence,1,1,5,0,5,0,0,0,0,1,0,0,1,0,0,0,0,54,1,3,3,0,0,0,0,0
+mbedtls,09cf58f2dd,2026-09-25,cda85f62,Fix DER certificate output on Windows,1,1,5,1,5,1,1,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+mbedtls,c2c8d1e142,2026-09-22,6770627a,Reject out-of-bounds ALPN length in ssl_context_load,4,1,95,0,4,0,0,0,0,1,0,0,1,0,0,0,0,157,1,3,3,1,0,0,0,0
+mbedtls,217dee1d11,2026-09-21,7652de91,Fix incorrect check in check_config.h,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,7145c949f0,2026-08-22,145120e7,Add missing __cplusplus guard to oid.h,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+mbedtls,efe8ab6518,2026-08-13,32a14be2,fix guards and keep SHA,2,2,50,10,50,10,1,0,0,2,0,0,2,0,0,0,0,625,2,50,50,0,0,0,0,0
+mbedtls,3cf6109ccb,2026-08-13,32a14be2,Replace mbedtls_md_info_from_string() with strcmp(),2,2,82,4,82,4,0,0,0,2,0,0,2,0,0,0,0,613,2,78,78,0,0,0,0,0
+mbedtls,f79eac885d,2026-08-10,e207af77,Reject overflowing numeric OID components,3,1,13,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,1,0,0,0,0
+mbedtls,77343dc0e5,2026-08-07,6770627a,rework handshake length checks per review,4,2,51,41,22,36,0,0,0,2,0,0,1,1,0,0,0,409,2,12,12,0,0,0,0,0
+mbedtls,c824263361,2026-07-30,940e229a,library: ssl_tls: replace wrong usage of mbedtls_pk_get_type with mbedtls_pk_get_key_type,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,136,1,2,3,0,0,0,0,0
+mbedtls,a0053fe8a9,2026-07-15,6770627a,bound two-byte length reads in tls 1.2 handshake parsing,3,2,26,0,20,0,0,0,0,2,0,0,2,0,0,0,0,403,2,12,12,0,0,0,0,0
+mbedtls,41dd79e72c,2026-07-10,940e229a,library: ssl: remove usage of MBEDTLS_ECP_DP_MAX,3,3,16,2,16,2,0,0,0,1,0,0,0,0,1,0,0,50,0,0,7,0,0,0,1,0
+mbedtls,d19ebc8c18,2026-07-10,940e229a,library: ssl: remove mbedtls_ecp_group_id field from mbedtls_ecp_group_id,1,1,10,11,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0
+mbedtls,f9dbbec325,2026-07-10,940e229a,library: ssl: remove mbedtls_ssl_check_curve,2,2,6,21,6,21,0,0,0,1,0,0,1,0,0,1,0,136,1,5,5,0,0,0,1,0
+mbedtls,8a23cf2f14,2026-07-10,940e229a,library: replace mbedtls_ssl_get_tls_id_from_ecp_group_id,4,4,11,12,11,12,0,0,0,2,0,0,0,2,1,1,0,201,2,2,7,0,0,0,0,0
+mbedtls,cac52a43c9,2026-07-10,940e229a,library: replace mbedtls_ssl_get_ecp_group_id_from_tls_id,4,4,27,20,27,20,0,0,0,4,0,1,0,1,1,1,0,59,2,3,21,0,0,0,0,0
+mbedtls,c099994dca,2026-07-09,6770627a,Reject out-of-bounds session ID length in ssl_tls12_session_load,4,1,72,14,3,0,0,0,0,1,0,0,1,0,0,0,0,123,1,3,3,1,0,0,0,0
+mbedtls,b11a07f274,2026-06-29,90f0e5ae,Bump version --version 4.2.0,5,2,9,9,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,b188f399f9,2026-06-24,12cc3145,Check ServerHello record boundary alignment only in TLS 1.3 case,2,2,23,0,23,0,0,0,0,2,0,0,1,0,0,0,0,48,1,1,8,0,0,0,0,0
+mbedtls,74b9ab2008,2026-06-24,12cc3145,tls13_fetch_handshake_msg(): Remove require_record_boundary parameter,5,4,31,13,30,12,0,0,0,10,1,0,0,0,0,0,0,46,1,13,22,0,0,0,1,0
+mbedtls,6c557a70f6,2026-06-24,12cc3145,tls13: Rework mbedtls_ssl_tls13_fetch_handshake_msg(),1,1,19,11,19,11,0,0,0,1,0,0,0,0,0,0,0,33,0,0,17,0,0,0,0,0
+mbedtls,0c9d3d4a0f,2026-06-24,12cc3145,tls13: Improve argument name,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+mbedtls,3861588b47,2026-06-24,12cc3145,tls13: Add record boundary checks,5,4,36,52,13,10,0,0,0,10,0,0,0,0,0,0,0,46,0,0,13,0,0,0,0,0
+mbedtls,3bd3e47100,2026-06-24,821c054c,include: ssl: fix documentation of mbedtls_ssl_set_cid,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+mbedtls,a2338a21fa,2026-06-24,821c054c,library: ssl: reset some SSL context's fields in mbedtls_ssl_session_reset,1,1,8,0,8,0,0,0,0,2,0,0,1,0,0,0,0,54,1,2,6,0,0,0,0,0
+mbedtls,fbd49c0c4e,2026-06-24,821c054c,tests|programs: call check_context_after_session_reset whenever mbedtls_ssl_session_reset,3,2,27,0,19,0,0,0,0,2,0,0,2,0,0,0,0,2066,2,12,14,0,0,0,0,0
+mbedtls,3e191be15a,2026-06-24,821c054c,include: ssl: add a typedef for unused data in mbedtls_ssl_config and mbedtls_ssl_context,1,1,22,10,22,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,0,0
+mbedtls,c438b0b9a9,2026-06-24,e28751af,Correct error handling in mbedtls_ssl_reset_checksum,2,1,14,15,12,13,0,0,0,6,0,0,0,0,0,0,0,37,1,1,12,0,0,0,0,0
+mbedtls,0bf015a43b,2026-06-24,e28751af,restore missing ext_len set,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,131,1,1,1,0,0,0,0,0
+mbedtls,2e95cb7baa,2026-06-24,e28751af,Update error handling of return from ssl_write_ecjpake_kkpp_ext,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,130,1,2,2,0,0,0,0,0
+mbedtls,1c68ca14fb,2026-06-24,e28751af,Fix code style issues,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+mbedtls,48593c23a0,2026-06-24,e28751af,Add fix for missing return from ssl_write_ecjpake_kkpp_ext,1,1,9,5,9,5,1,0,0,2,0,0,1,0,0,0,0,130,1,4,9,0,0,0,0,0
+mbedtls,f6aeb4c8e4,2026-06-24,e28751af,Add additional fix for return with error,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+mbedtls,3565231081,2026-06-24,e28751af,Fix issues with hanging seed length,1,1,5,1,5,1,1,0,0,1,0,0,1,0,0,0,0,144,1,5,5,0,0,0,0,0
+mbedtls,9063aca165,2026-06-24,e28751af,ssl: propagate transcript-hash computation failures,2,2,2,0,2,0,0,0,0,2,0,0,1,0,0,0,0,140,1,1,2,0,0,0,0,0
+mbedtls,feb2c53009,2026-06-22,821c054c,pkcs7: update documentation adding a note about rejecting weak hash algs,1,1,10,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,64d8776ea9,2026-06-22,821c054c,pkcs7: replace MBEDTLS_ERR_PKCS7_VERIFY_FAIL with MBEDTLS_ERR_PKCS7_VERIFY_FAIL,2,1,5,5,2,2,0,0,0,1,0,0,0,0,0,0,0,64,1,2,2,0,0,0,0,0
+mbedtls,45654b0246,2026-06-22,821c054c,pkcs7: split MD/PK check in mbedtls_pkcs7_data_or_hash_verify,1,1,6,2,6,2,0,0,0,1,0,0,1,0,0,0,0,64,1,6,6,0,0,0,1,0
+mbedtls,c25e7654ea,2026-06-22,821c054c,pkcs7: fail verification if MD alg or sig_alg are not secure,1,1,8,0,8,0,0,0,0,1,0,0,1,0,0,0,0,60,1,4,4,1,0,0,0,0
+mbedtls,395bc86df8,2026-06-22,821c054c,x509: make profile checking functions internally available,2,2,24,17,24,17,0,0,0,3,0,0,0,0,2,2,0,114,3,5,14,0,0,0,0,0
+mbedtls,24a184ad36,2026-06-22,821c054c,x509_crt: add SHA3 algs to mbedtls_x509_crt_profile_default,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,4e057619a9,2026-06-22,821c054c,x509_crt: remove old invalid comment,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,c2f9cf3416,2026-06-17,d5c722fa,"Explain the ""get invalid AD record .*renego"" tests better",2,1,28,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,05fa79dc43,2026-06-17,d5c722fa,Add renegotiate=2 option to ssl_client2,1,1,39,4,39,4,0,0,0,1,0,0,1,0,0,0,0,1885,1,31,33,0,0,0,0,0
+mbedtls,259de57a85,2026-06-17,d5c722fa,Add badmac_limit option to ssl_client2,2,2,16,6,16,6,0,0,0,1,0,0,1,0,0,0,0,1863,1,9,15,0,0,0,0,0
+mbedtls,67e696b430,2026-06-15,e28751af,Add fix for stale pointer after mbedtls_pkcs7_free,3,1,64,1,1,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+mbedtls,38185e2308,2026-06-08,e28751af,Improve robustness of tlen and lifetime variables,1,1,2,4,2,4,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+mbedtls,a5c2e02198,2026-06-08,e28751af,Add fix for leak,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,29,0,0,1,0,0,0,0,0
+mbedtls,0d6060d644,2026-06-05,d5c722fa,Stop accepting basicConstraints with only pathLenConstraint,2,1,23,11,15,11,0,0,0,1,0,1,0,0,0,0,0,39,1,1,1,0,0,0,0,0
+mbedtls,eb051b501a,2026-06-05,d5c722fa,Remove unreachable CSR extensionRequest check,1,1,2,5,2,5,0,0,0,1,0,0,0,1,0,0,0,55,1,0,0,0,0,0,1,0
+mbedtls,cc794d8501,2026-06-05,d5c722fa,Tighten CSR extensionRequest bounds,3,1,26,7,15,3,0,0,0,1,1,0,0,0,0,0,0,59,1,13,13,1,0,0,0,0
+mbedtls,baf449db7e,2026-06-04,e28751af,Added fix for Integer overflow using a large ECDHE Identity,1,1,7,2,7,2,1,0,0,1,0,0,1,0,0,0,0,185,1,7,7,1,0,0,0,0
+mbedtls,6c8ae1ea48,2026-05-26,d5c722fa,Fix lax basicConstraints parsing,3,1,22,0,7,0,1,0,0,1,0,0,1,0,0,0,0,47,1,3,3,0,0,0,0,0
+mbedtls,e2a6f05640,2026-05-26,90f0e5ae,ssl_write_supported_groups_ext: Updated documentation,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,7a232d0822,2026-05-19,90f0e5ae,sll_client:  align TLS 1.3 supported_groups filtering with PSA curve support,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,61,1,1,1,0,0,0,0,0
+mbedtls,72f767da31,2026-05-19,dcbbcd4c,Address review comments on serialized data hardening,3,1,15,7,6,4,0,0,0,1,0,0,0,1,0,0,0,109,1,2,2,0,0,0,0,0
+mbedtls,fea00c3e51,2026-05-19,dcbbcd4c,Reject out-of-bounds DTLS CID length in ssl_context_load,3,1,13,3,8,0,0,0,0,1,0,0,1,0,0,0,0,154,1,6,6,1,0,0,0,0
+mbedtls,a3ae8be611,2026-05-18,821c054c,ssl: improve documentation of mbedtls_ssl_conf_sig_algs(),1,1,7,2,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,3f972d014d,2026-05-12,dcbbcd4c,Use block-local ret to avoid unused-variable in restricted configs,1,1,2,3,2,3,0,0,0,1,0,0,0,1,0,0,0,111,1,2,2,0,0,0,0,0
+mbedtls,08e3e3f81e,2026-05-11,e28751af,Add fix for OOB key exchange error,1,1,2,0,2,0,1,0,0,1,0,0,1,0,0,0,0,202,1,1,1,0,0,0,0,0
+mbedtls,465d6e9669,2026-05-04,d5c722fa,Fix ssl_tls13_prepare_new_session_ticket returning 1 on an RNG failure,2,1,8,2,3,2,1,0,0,1,0,0,1,0,0,0,0,75,1,3,3,0,0,0,0,0
+mbedtls,b155a58ab5,2026-04-29,940e229a,include mbedtls_platform_requirements.h in mbedtls_config.c,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+mbedtls,3ab4fce1a0,2026-04-25,dcbbcd4c,Harden TLS 1.3 serialized session loading,4,1,102,5,19,5,0,0,0,1,0,0,1,0,0,0,0,112,1,16,16,0,0,0,0,0
+mbedtls,c3d52b905b,2026-04-22,940e229a,check_config: fix error message for missing TLS 1.2 key exchanges,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,5ea77200d9,2026-04-22,940e229a,check_config: add check for TLS 1.3 key exchanges,1,1,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+mbedtls,9027620393,2026-04-21,90f0e5ae,tls13_client: fix HRR selected_group validation,1,1,9,5,9,5,1,0,0,1,0,0,1,0,0,0,0,46,1,7,7,0,0,0,0,0
+mbedtls,f90e81c7f8,2026-04-18,f08f95cf,Pacify uncrustify,1,1,5,4,5,4,0,0,0,1,0,0,1,0,0,0,0,38,1,5,5,0,0,0,0,0
+mbedtls,3d61c38ea0,2026-04-17,f08f95cf,ssl: add TLS 1.2 RSA-PSS debug trace,1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,37,1,5,5,0,1,0,0,0
+mbedtls,a3d3ede9d6,2026-04-16,2fb21ad5,Fix build warning/error using llvm-mingw,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,2168fe9cda,2026-04-16,f08f95cf,ssl: narrow TLS 1.2 RSA-PSS handling and add interop coverage,6,2,85,81,53,33,0,0,0,2,1,0,0,1,0,0,0,36,2,28,29,0,0,0,0,0
+mbedtls,f75c033ead,2026-04-07,f08f95cf,ssl: add TLS 1.2 RSA-PSS regression coverage,4,1,36,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,c064ba0edb,2026-04-04,f08f95cf,ssl: accept TLS 1.2 rsa_pss_rsae signature schemes,4,1,42,0,19,0,0,0,0,1,0,0,1,0,0,0,0,41,1,18,18,0,0,0,0,0
+mbedtls,e89565f92a,2026-03-26,90f0e5ae,Bump version,6,2,15,15,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,5554a33fb2,2026-03-25,e28751af,Add ret return pattern to avoid variable ret was set but never used warning,1,1,6,5,6,5,0,0,0,1,0,0,1,0,0,0,0,69,1,6,6,0,0,0,0,0
+mbedtls,1330606ca1,2026-03-25,12cc3145,dtls: Fix adaptation to first ClientHello,1,1,9,8,9,8,1,0,0,1,0,0,0,0,0,0,0,166,1,6,6,0,0,0,0,0
+mbedtls,1141cd0fb6,2026-03-25,12cc3145,Improve comments,2,1,19,5,15,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,f2f44a9c9f,2026-03-25,12cc3145,Restrict mapping of UNEXPECTED_RECORD to UNEXPECTED_MESSAGE,1,1,10,2,10,2,0,0,0,1,0,0,1,0,0,0,0,397,1,10,10,0,0,0,0,0
+mbedtls,c9264ad227,2026-03-25,12cc3145,dtls: Fix log level,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,166,1,1,1,0,0,0,0,0
+mbedtls,140ebea442,2026-03-25,12cc3145,dtls: parse_client_hello: Adapt mbedtls_ssl_read_record() error code,1,1,25,0,25,0,0,0,0,1,0,0,1,0,0,0,0,393,1,3,3,0,0,0,0,0
+mbedtls,f9b7441542,2026-03-25,12cc3145,dtls: Keep invalid/unexpected record header error code,1,1,1,10,1,10,0,0,0,1,0,0,0,1,0,0,0,110,1,1,1,0,0,1,0,0
+mbedtls,0c301a686a,2026-03-25,12cc3145,dtls: Improve comment,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,912ef74195,2026-03-25,12cc3145,Update buffering when adapting to ClientHello message_seq,1,1,13,9,13,9,0,0,0,1,0,0,1,0,0,0,0,166,1,11,11,0,0,0,0,0
+mbedtls,16c5dd99b3,2026-03-25,12cc3145,Introduce ssl_buffering_shift_slots,2,1,39,20,38,19,0,0,0,1,0,0,0,0,1,0,0,18,0,0,23,0,0,0,0,0
+mbedtls,676d74e4c7,2026-03-25,12cc3145,dtls: Error out on invalid/unexpected record header,1,1,24,0,24,0,0,0,0,1,0,0,1,0,0,0,0,114,1,14,14,0,0,1,0,0
+mbedtls,315c970fbe,2026-03-25,12cc3145,dtls: Fix debug log,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,117,1,1,1,0,0,0,0,0
+mbedtls,ade56554a6,2026-03-24,12cc3145,"Revert ""ssl_server2.c: DTLS: Attempt to read the response to the close notification""",3,1,1,51,1,49,0,0,0,1,0,0,0,1,0,0,0,2060,1,1,1,0,0,0,0,0
+mbedtls,52379636c5,2026-03-19,940e229a,library: check_config: remove RSA encryption requirement from ECDHE-RSA,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+mbedtls,ae885590fb,2026-03-16,940e229a,library: bulk replace MBEDTLS_RSA_C with PSA_WANT_KEY_TYPE_RSA_KEY_PAIR_BASIC,5,5,23,22,23,22,0,0,0,6,0,0,0,0,0,0,0,390,4,5,23,0,0,0,0,0
+mbedtls,6714b39017,2026-03-16,ca2b8c28,Improve ssl_parse_signature_algorithm,1,1,7,27,7,27,0,0,0,1,0,0,0,0,0,0,0,25,0,0,7,0,0,0,0,0
+mbedtls,5ffef28971,2026-03-16,ca2b8c28,Fix code style,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,33,0,0,2,0,0,0,0,0
+mbedtls,7b255e3a12,2026-03-16,ca2b8c28,ssl_parse_signature_algorithm: match error codes,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,32,0,0,5,0,0,0,0,0
+mbedtls,c46eccf6ef,2026-03-16,ca2b8c28,ssl_parse_signature_algorithm: caller to get bytes,1,1,10,11,10,11,0,0,0,2,0,0,1,0,0,0,0,201,1,4,10,0,0,0,0,0
+mbedtls,3d02353281,2026-03-16,ca2b8c28,Fix code style,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,35,0,0,2,0,0,0,0,0
+mbedtls,e8894974cb,2026-03-16,ca2b8c28,Reintroduce ssl_parse_signature_algorithm,1,1,66,8,66,8,0,0,0,1,0,0,0,1,1,0,0,198,1,1,38,0,0,0,0,0
+mbedtls,d7b85b76a6,2026-03-16,ca2b8c28,sig_algs: fix typo in client's sig_algs check,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,205,1,2,2,0,0,0,0,0
+mbedtls,a9ba5975f8,2026-03-13,7652de91,Add unused field to mbedtls_x509_crt structure,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,22245cb294,2026-03-13,7652de91,Add unused fields to SSL structs,1,1,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+mbedtls,95f0885507,2026-03-13,940e229a,library: x509: fix guard in mbedtls_x509_crt_profile_next,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,624fc2e0de,2026-03-10,7652de91,Move TLS 1.3 verify-result setting for PSK,3,3,6,3,6,3,0,0,0,3,0,0,0,0,0,0,0,43,0,0,2,0,0,0,1,0
+mbedtls,09210ea54f,2026-03-10,12cc3145,Restore seq number check of post-handshake ClientHello msg,1,1,36,23,36,23,0,0,0,1,0,0,1,0,0,0,0,162,1,20,20,0,0,0,0,0
+mbedtls,7f40da187c,2026-03-10,12cc3145,ssl_tls12_server.c: Move back the digest update,1,1,14,15,14,15,0,0,0,1,0,0,0,0,0,0,0,390,1,5,5,0,0,0,1,0
+mbedtls,65a038198e,2026-03-09,12cc3145,Improve comments,2,2,7,6,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,b38e28dbf0,2026-03-04,d5c722fa,Make sure we declare TF-PSA-Crypto platform requirements before including system headers,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+mbedtls,037f3c62ff,2026-03-04,d5c722fa,Tell MSVC to allow non-s functions where needed,5,5,45,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+mbedtls,37fd7d5210,2026-03-04,d5c722fa,Start from a clean baseline for C11 ext1 and POSIX features,2,2,14,10,14,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+mbedtls,e8dec9c031,2026-03-04,d5c722fa,Unify the detection of Unix-like platforms,2,1,4,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,436f1e30ad,2026-03-02,d5c722fa,Include the config in mbedtls_commmon.h as promised,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+mbedtls,a3d55d9ec7,2026-03-02,d5c722fa,Document the purpose of mbedtls_common.h,1,1,13,1,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,4ec9536339,2026-02-26,d5c722fa,Temporarily force standard *printf functions on MingW,1,1,14,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+mbedtls,64ff7fc1dc,2026-02-26,d5c722fa,Stop using MBEDTLS_PRINTF_SIZET,5,4,32,10,22,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+mbedtls,cdf3b0a535,2026-02-26,d5c722fa,MingW: insist on standard-compliant printf() and friends,2,2,24,25,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+mbedtls,3c67824964,2026-02-26,d5c722fa,test_suite_debug: test the printf used by debug.c,3,2,26,3,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,11,0,0,0,0,0
+mbedtls,3a98885950,2026-02-26,d5c722fa,Create a header to declare platform requirements,2,2,28,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+mbedtls,29d00fa861,2026-02-26,d5c722fa,Create a mbedtls_common.h for the project,4,4,23,2,23,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+mbedtls,8731587e41,2026-02-26,12cc3145,tls13: Commit to session resume only when we actually do it,1,1,6,6,6,6,0,0,0,1,0,0,1,0,0,0,0,321,1,5,5,0,0,0,0,0
+mbedtls,ed767bada9,2026-02-26,12cc3145,tls13: Do not negotiate TLS 1.2 after an HRR,2,1,23,34,9,1,0,0,0,1,0,0,0,0,0,0,0,45,0,0,6,0,0,0,0,0
+mbedtls,f549fc7bdc,2026-02-26,7652de91,Fix null pointer dereference in string to names,1,1,3,0,3,0,1,0,0,1,0,0,1,0,0,0,0,86,1,3,3,0,0,0,0,0
+mbedtls,027ed1fef0,2026-02-25,12cc3145,Reduce duplication between save/load documentations,1,1,4,20,4,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,d5d7131eb5,2026-02-25,12cc3145,Add warning in mbedtls_ssl_session_load/save documentation,1,1,42,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,64898a5e5c,2026-02-25,12cc3145,Add warning in mbedtls_ssl_context_save/load documentation,1,1,42,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,53dd7d0dce,2026-02-24,12cc3145,ssl_tls12_server.c: Update hs status after some validations of the ClientHello,1,1,20,7,20,7,0,0,0,1,0,0,0,0,0,0,0,390,1,5,5,0,0,0,0,0
+mbedtls,3771c17a0b,2026-02-23,12cc3145,Update mbedtls_ssl_handshake() documentation,1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,d718a35a1f,2026-02-23,12cc3145,ssl_msg.c: Remove some now unnecessary code,1,1,1,6,1,6,0,0,0,1,0,0,0,1,0,0,0,104,1,0,0,0,0,0,1,0
+mbedtls,0db3a49330,2026-02-23,12cc3145,ssl_tls12_server.c: parse_client_hello: Remove remaining record level code,1,1,2,29,2,29,0,0,0,1,0,0,0,1,0,0,0,390,1,2,2,0,0,0,1,0
+mbedtls,00160b910a,2026-02-23,12cc3145,ssl_tls12_server.c: Move ClientHello record sequence_number init,2,2,9,19,9,19,0,0,0,2,0,0,1,1,0,0,0,402,2,6,6,0,0,0,1,0
+mbedtls,943c1071bb,2026-02-23,12cc3145,ssl_tls12_server.c: Move ClientHello message_seq adjustment,2,2,21,28,21,28,0,0,0,2,0,0,1,1,0,0,0,412,2,10,10,0,0,0,1,0
+mbedtls,a50110be71,2026-02-23,12cc3145,ssl_tls12_server.c: Use mbedtls_ssl_read_record() only to read the ClientHello,2,2,22,103,22,103,0,0,0,2,0,0,1,1,0,0,0,429,2,14,14,0,0,0,0,0
+mbedtls,516e74ca5c,2026-02-23,12cc3145,ssl_tls12_server.c: Document replay check and update in ssl_parse_client_hello(),1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,2e9b9681e6,2026-02-23,12cc3145,ssl_server2.c: DTLS: Attempt to read the response to the close notification,3,1,51,1,49,1,0,0,0,1,0,0,1,0,0,0,0,2081,1,24,24,0,0,0,0,0
+mbedtls,39813964ef,2026-02-23,12cc3145,ssl_tls.c: Allow client hello fragmentation,1,1,0,7,0,7,0,0,0,1,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0
+mbedtls,ed642cab9e,2026-02-19,d5c722fa,Fix inclusion of <time.h> when MBEDTLS_HAVE_TIME is disabled,1,1,2,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,e2b04b6847,2026-02-19,d5c722fa,"Don't use printf(""%llu"")",1,1,5,3,5,3,0,0,0,1,0,0,0,0,0,0,0,70,1,3,3,0,0,0,0,0
+mbedtls,5890b22b82,2026-02-19,d5c722fa,Fix a build error with MSVC,5,3,16,6,5,5,1,0,0,3,0,0,0,0,0,0,0,70,1,2,5,0,0,0,0,0
+mbedtls,7ea318246c,2026-02-19,d5c722fa,Fix build error when MBEDTLS_TIMING_C and MBEDTLS_HAVE_TIME are both disabled,1,1,8,1,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+mbedtls,137b5b776d,2026-02-19,d5c722fa,Simplify MBEDTLS_TIMING_C to use mbedtls_ms_time(),2,2,6,82,6,82,0,0,0,1,0,0,0,0,0,1,0,10,0,0,5,0,0,0,0,1
+mbedtls,86eac795c9,2026-02-19,d5c722fa,Have MBEDTLS_TIMING_C require MBEDTLS_HAVE_TIME,7,6,17,18,12,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+mbedtls,4f0741498c,2026-02-18,12cc3145,ssl_msg.c: Improve handshake message fragmenting message,2,1,11,10,2,1,0,0,0,1,0,0,1,0,0,0,0,111,1,2,2,0,0,0,0,0
+mbedtls,7fe38dd934,2026-02-18,12cc3145,ssl_msg.c: Improve HS message reassembly completed message,2,1,18,14,4,1,0,0,0,1,0,0,1,0,0,0,0,63,1,3,4,0,0,0,0,0
+mbedtls,86b7df5591,2026-02-18,12cc3145,ssl_tls.c: Rename and expand ssl_tls13_get_hs_msg_name,2,2,14,4,14,4,0,0,0,1,1,0,0,0,1,1,0,30,1,3,13,0,0,0,0,0
+mbedtls,8ab14401d7,2026-02-18,12cc3145,ssl_server2.c: Flush stdout to improve logs timeliness,1,1,8,0,8,0,0,0,0,1,0,0,1,0,0,0,0,2060,1,8,8,0,0,0,0,0
+mbedtls,059fe77e4b,2026-02-16,7652de91,Fix missing type conversion in the TLS-Exporter,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+mbedtls,607f725563,2026-02-16,7652de91,Set verify_result in non-verification cases,1,1,5,0,5,0,0,0,0,3,0,0,1,0,0,0,0,132,1,1,3,0,0,0,0,0
+mbedtls,384a16746f,2026-02-12,940e229a,library: check_config: remove redundant check on hash algorithms for TLS 1.2,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,50376926a7,2026-02-12,ca2b8c28,inet_pton: simplify IPv4 walkback loop,1,1,6,7,6,7,0,0,0,1,0,0,0,1,0,0,0,77,1,1,1,0,0,0,0,1
+mbedtls,1a127e3c89,2026-02-12,ca2b8c28,inet_pton: fix buggy condition,1,1,6,2,6,2,1,0,0,1,0,0,0,0,0,0,0,82,1,1,1,0,0,0,0,0
+mbedtls,ff51a1a176,2026-02-05,7652de91,Initialize verify_result in session free,2,1,13,0,3,0,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+mbedtls,687a1ba907,2026-02-05,7652de91,Switch to a default value of -1u,4,3,4,8,3,7,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+mbedtls,dea75cbb88,2026-02-05,7652de91,Set verify_result to failure by default,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+mbedtls,86c40c1b0d,2026-02-05,7652de91,Add new X509 verification result for 'not started',2,2,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+mbedtls,4987340d24,2026-01-29,dcb3f6cb,fix code style in ssl_msg.c and add signoff,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+mbedtls,d823908335,2026-01-29,dcb3f6cb,"fix: Disabling the MBEDTLS_SSL_CLI_C feature caused a compilation error: unused parameter ""ssl"".",1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+mbedtls,476a2edea7,2026-01-28,940e229a,library: extend mbedtls_ssl_iana_tls_group_info_t structure,2,1,109,23,97,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,0,0,0
+mbedtls,9b49d5dbde,2026-01-27,940e229a,library: ssl: fix documentation of IANA TLS group info,1,1,10,6,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,4f1e4fba80,2026-01-27,940e229a,"library: ssl: make the list of ""TLS ID"" <-> ""group name"" public when possible",2,2,13,5,13,5,0,0,0,1,0,0,0,0,0,0,0,9,0,0,8,0,0,0,0,0
+mbedtls,fb317afa9f,2026-01-27,940e229a,library: ssl: rework macro to define known TLS ID <-> group name list,3,2,28,13,20,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+mbedtls,8a3bcb1434,2026-01-26,7a77ec95,Fix coding style conventions for mbedtls_ssl_context,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,6afd8367b9,2026-01-26,7a77ec95,remove whitespace in mbedtls_ssl_session_msg_layer,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,4f83ebedd1,2026-01-26,7a77ec95,Fix outstanding code review issues,3,2,11,11,7,7,1,0,0,2,0,0,0,0,1,1,0,85,2,4,7,0,0,0,0,0
+mbedtls,15c68993cb,2026-01-26,7a77ec95,Apply suggestions from code review,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,7ca3c602b7,2026-01-26,940e229a,library: ssl: add macro for allocating a TLS-ID <-> group-name table,2,2,27,17,27,17,0,0,0,1,0,0,0,0,0,0,0,9,0,0,23,0,0,0,0,0
+mbedtls,2aecd2cd5f,2026-01-22,940e229a,library|tests: ssl: remove secp256k1 from default groups,2,1,0,11,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,6c5a9f04df,2026-01-22,940e229a,library: ssl: improve/fix documentation of group related functions,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,335b1b6089,2026-01-22,940e229a,library: ssl: add missing secp256k1 to ssl_preset_default_groups,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,67f30df5a1,2026-01-22,940e229a,library: ssl: use correct PSA_WANT for DH groups in ssl_preset_default_groups,1,1,9,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+mbedtls,2707100ab7,2026-01-22,940e229a,library: ssl: move location of ssl_preset_default_groups(),1,1,41,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,1,0
+mbedtls,1ab51732e2,2026-01-22,940e229a,library: ssl: improve documentation of mbedtls_ssl_conf_groups(),1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,0c8b25a684,2026-01-22,940e229a,library: ssl: add public function to retrieve the list of supported groups,2,2,23,0,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,0,0,0
+mbedtls,b300692011,2026-01-14,e28751af,"Remove some headers from ssl_test_lib.h, as they are no longer required",1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,dcf7670825,2026-01-14,e28751af,Add further rng removals highlighted by the ci,4,4,4,9,4,9,0,0,0,3,0,0,0,1,0,0,0,2052,2,2,4,0,0,0,0,0
+mbedtls,7d71244dc3,2026-01-14,e28751af,"Remove rng_context_t, as it is no longer useful",1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,767a3655e5,2026-01-14,e28751af,"Remove f_rng p_rng, as these are no longer used",1,1,0,2,0,2,0,0,0,1,0,0,0,1,0,0,0,2052,1,0,0,0,0,0,1,0
+mbedtls,b6cccdf8b5,2026-01-14,e28751af,Replace mbedtls_psa_get_random,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2054,1,3,3,0,0,0,0,0
+mbedtls,79002cc990,2026-01-14,e28751af,"Remove rng_get from sample programs, as it is no longer required",3,3,3,25,3,25,0,0,0,1,0,0,0,0,0,1,0,2054,1,3,3,0,0,0,1,0
+mbedtls,99ec289535,2026-01-14,e28751af,Remove duplicated reproducable,1,1,0,5,0,5,0,0,0,1,0,0,0,0,0,0,0,11,0,0,0,0,0,0,1,1
+mbedtls,eace7ca23f,2026-01-14,e28751af,Remove double initialisation of psa,2,2,0,2,0,2,0,0,0,2,0,0,0,2,0,0,0,2054,2,0,0,0,0,0,1,0
+mbedtls,fe978ac1f3,2026-01-14,e28751af,Remove Deprecated Items From Sample Programs,35,21,37,579,28,421,0,0,0,25,0,1,0,13,0,3,0,2055,14,2,28,0,0,0,1,0
+mbedtls,c23592d7ee,2026-01-12,e28751af,Add improvements to code comments and docs,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,085aef59ca,2026-01-12,e28751af,Change function name from mbedtls_pk_key_type_to_string to mbedtls_x509_pk_type_as_string,6,6,8,8,8,8,0,0,0,4,0,0,0,0,1,1,0,2056,4,5,7,0,0,0,0,0
+mbedtls,837a3cec40,2026-01-12,e28751af,rename function,6,6,7,7,7,7,0,0,0,4,0,0,0,0,1,1,0,2056,4,5,7,0,0,0,0,0
+mbedtls,f9b95cedaa,2026-01-12,e28751af,Fix style issues,2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+mbedtls,2481daa309,2026-01-12,e28751af,Replace mbedtls_pk_get_name with pk_key_type_to_string,6,6,32,5,32,5,0,0,0,4,0,0,0,0,1,0,0,2056,4,5,19,0,0,0,0,0
+mbedtls,ebbaca0a99,2026-01-08,940e229a,"library: debug: adjust guards for ""mbedtls_debug_print_crt""",4,2,22,9,9,6,0,0,0,1,0,0,1,0,0,0,0,23,1,2,8,0,0,0,0,0
+mbedtls,2af638a177,2026-01-08,940e229a,library: debug: fix print format in mbedtls_debug_print_buf_ext(),2,2,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,28,1,3,5,0,0,0,0,0
+mbedtls,d040eb823e,2026-01-08,940e229a,include: debug: fix guards for MBEDTLS_SSL_DEBUG_CRT,1,1,3,4,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+mbedtls,af62bae5c1,2026-01-08,940e229a,library: debug: add PK_WRITE_C guard to mbedtls_debug_print_crt(),2,1,4,3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,f1cb45289b,2026-01-08,940e229a,library: debug: improve mbedtls_debug_print_buf(),1,1,52,40,52,40,0,0,0,2,1,0,1,1,2,0,0,16,2,9,46,0,0,0,0,0
+mbedtls,c6bf9d8200,2026-01-08,940e229a,library: debug: use mbedtls_pk_write_pubkey_psa() to write public key,1,1,10,201,10,201,0,0,0,2,0,3,0,1,0,4,0,23,2,10,10,0,0,0,0,0
+mbedtls,10eaf68acd,2026-01-08,940e229a,library: debug: remove mbedtls_debug_print_mpi(),4,2,0,136,0,76,0,0,0,1,0,1,0,1,0,1,0,29,1,0,0,0,0,0,1,0
+mbedtls,23aad2cdad,2025-12-23,e28751af,Replace references of mbedtls_ecp_set_max_ops with psa_interruptible_set_max_ops as it is now intern,2,2,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,33bd8f8f7f,2025-12-10,7a77ec95,ssl - reset alert type for session reset,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,52,1,1,1,0,0,0,0,0
+mbedtls,13200ab116,2025-12-10,7a77ec95,Fix more C code style issues,2,1,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,f9a734f2b7,2025-12-10,7a77ec95,Fix C code style issues,2,1,4,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,d589854611,2025-12-10,7a77ec95,mbedtls_ssl_get_alert(): getter for fatal alerts,6,3,86,0,35,0,0,0,0,2,0,0,2,0,1,0,0,85,2,3,17,0,0,0,0,0
+mbedtls,c0ac4a6933,2025-12-09,940e229a,library: ssl: specify hash algorithm when checking signature in ssl_parse_certificate_verify,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,105,1,3,3,0,0,0,0,0
+mbedtls,5ad2bfa6c8,2025-12-09,940e229a,library: ssl: adjust return type of mbedtls_psa_alg_from_pk_sigalg(),1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+mbedtls,d8f0b37d1a,2025-12-05,940e229a,ssl: replace remaining occurrence of pk_can_do with pk_get_key_type,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,131,1,1,1,0,0,0,0,0
+mbedtls,9eb5b2a146,2025-12-04,940e229a,x509: replace usage of mbedtls_pk_can_do() with mbedtls_pk_get_key_type(),2,2,6,4,6,4,0,0,0,2,0,0,2,0,0,0,0,138,2,6,6,0,0,0,0,0
+mbedtls,902467d62f,2025-12-04,940e229a,ssl: replace usage of mbedtls_pk_can_do() with mbedtls_pk_get_key_type(),1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+mbedtls,1de094fb32,2025-12-04,940e229a,library: x509: replace mbedtls_pk_can_do() with mbedtls_pk_can_do_psa(),1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,32,0,0,4,0,0,0,0,0
+mbedtls,9d1fa1a8d8,2025-12-04,940e229a,library: x509: change order of checks in x509_crt_check_signature(),1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,30,0,0,3,0,0,0,0,0
+mbedtls,81a5a0914c,2025-12-04,940e229a,library: ssl: replace mbedtls_pk_can_do() with mbedtls_pk_can_do_psa(),3,3,14,3,14,3,0,0,0,3,0,0,3,0,0,0,0,205,3,11,14,0,0,0,0,0
+mbedtls,92926ff4dc,2025-12-04,940e229a,library: common: add helper to get PSA algorithm from PK sigalg,1,1,23,0,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,19,0,0,0,0,0
+mbedtls,024c3aeb9e,2025-12-04,940e229a,library: ssl: remove duplicate check in ssl_parse_server_key_exchange(),1,1,0,8,0,8,0,0,0,1,0,0,0,1,0,0,0,201,1,0,0,0,0,0,1,1
+mbedtls,5341c86877,2025-12-02,ad8032b1,Add comments for remaining internal includes,5,5,7,10,7,10,0,0,3,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0
+mbedtls,ea5718721f,2025-12-02,ad8032b1,Remove two more useless internal includes,2,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,3e6455d50e,2025-12-02,ad8032b1,Remove useless includes of psa_util_internal,6,6,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,d6551eaaa6,2025-12-01,ad8032b1,Add comment about internal crypto include,1,1,4,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+mbedtls,411282d126,2025-12-01,ad8032b1,x509: rm useless private include in C file,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,eab6d3276b,2025-12-01,ad8032b1,ssl: rm useless private include in C file,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,c53c43c296,2025-12-01,ad8032b1,x509: rm useless private includes in internal headers,2,2,2,7,2,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+mbedtls,4b663abecc,2025-12-01,ad8032b1,ssl: rm useless private includes in internal headers,2,2,1,26,1,26,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+mbedtls,53c511578a,2025-12-01,ad8032b1,x509: rm useless private include in public header,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,59c9ebfaae,2025-12-01,ad8032b1,ssl: rm useless private includes in public headers,2,2,0,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,caf73f885a,2025-11-20,940e229a,library: check_config: remove references to secp192 curves,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,5f4cbcd336,2025-11-05,186cd949,ssl_tls12: change log level for ECDH computation,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,184,2,3,3,0,0,0,0,0
+mbedtls,666fa2da3d,2025-11-05,186cd949,ssl_msg.c: change log level for record checking,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,35,0,0,2,0,0,0,0,0
+mbedtls,a35e332bbb,2025-11-03,940e229a,library: debug: remove temporary fixes for RSA key handling,1,1,7,12,7,12,1,0,0,1,0,0,0,0,0,0,0,32,1,3,7,0,0,0,1,0
+mbedtls,42074c193f,2025-10-31,e28751af,Rename mbedtls_ssl_get_pk_type_and_md_alg_from_sig_alg to mbedtls_ssl_get_pk_sigalg_and_md_alg_from_,3,3,4,4,4,4,0,0,0,3,0,0,0,0,1,1,0,209,3,3,4,0,0,0,0,0
+mbedtls,b76c38334a,2025-10-31,e28751af,Update name of mbedtls_ssl_pk_alg_from_sig_pk_alg to mbedtls_ssl_pk_sig_alg_from_sig,3,3,4,4,4,4,0,0,0,1,0,0,0,0,1,1,0,103,1,1,3,0,0,0,0,0
+mbedtls,f21e63c6d0,2025-10-30,e28751af,Update pk_alg to use mbedtls_pk_sigalg_t and remove casts in library/x509write_csr.c,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,95,1,6,6,0,0,0,1,0
+mbedtls,00b04a6590,2025-10-30,e28751af,Update mbedtls_pk_sign_ext in x509write_crt.c to use mbedtls_pk_sigalg_t directly and remove casts,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,137,1,6,6,0,0,0,1,0
+mbedtls,5f037c7fb3,2025-10-30,e28751af,Rename mbedtls_ssl_pk_alg_from_sig to mbedtls_ssl_pk_alg_from_sig_pk_alg and update to use mbedtls_p,5,5,23,23,23,23,0,0,0,5,0,0,0,0,1,1,0,209,4,12,19,0,0,0,0,0
+mbedtls,0035cfb1f0,2025-10-30,e28751af,Removed unnecessary cast in mbedtls_pk_sign_ext,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,184,1,1,1,0,0,0,0,0
+mbedtls,4565d5d4e6,2025-10-30,e28751af,Change the call to mbedtls_pk_verify_ext in pkcs7 to have a variable input cert->sig_pk,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,56,1,1,1,0,0,0,0,0
+mbedtls,64e7d4b64b,2025-10-29,43cf90f9,format: apply suggestions (add spaces),1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+mbedtls,a5384bdf09,2025-10-28,7860f7ca,add cast to fix IAR compiler errors,2,1,5,2,2,2,1,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+mbedtls,bc076f9f76,2025-10-28,e28751af,fix style isses,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,95,1,1,1,0,0,0,0,0
+mbedtls,a2de40a100,2025-10-28,e28751af,Change the return type of mbedtls_ssl_get_ciphersuite_sig_pk_alg to mbedtls_pk_sigalg_t,5,5,20,21,20,21,0,0,0,6,0,0,0,0,0,0,0,483,3,6,20,0,0,0,0,0
+mbedtls,4b4ca812e5,2025-10-28,e28751af,Corrected debug return,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,83,1,1,1,0,0,0,0,0
+mbedtls,10d471a14d,2025-10-28,e28751af,Correct debug return,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,209,1,1,1,0,0,0,0,0
+mbedtls,b190c1bb0b,2025-10-28,e28751af,Replace change to restartable with ext,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,95,1,4,4,0,0,0,0,0
+mbedtls,1b32994bef,2025-10-28,e28751af,Fix style issues,3,3,9,9,9,9,0,0,0,4,0,0,0,0,0,0,0,184,4,9,9,0,0,0,0,0
+mbedtls,2c056721d1,2025-10-28,e28751af,Tidy up debug of non ext functions,5,5,15,15,15,15,0,0,0,14,0,0,0,0,0,0,0,209,9,10,15,0,0,0,0,0
+mbedtls,cef9d2d31f,2025-10-28,e28751af,"Revert change to mbedtls_pk_{sign,verify}_restartable and replace with ext version",4,4,17,18,17,18,0,0,0,5,0,0,0,1,0,0,0,184,4,13,17,0,0,0,0,0
+mbedtls,5e23093285,2025-10-28,e28751af,Fix code style issues,5,5,14,13,14,13,0,0,0,6,0,0,1,0,0,0,0,184,5,11,14,0,0,0,0,0
+mbedtls,c3e2b37530,2025-10-28,e28751af,Remove mbedtls_ssl_write_handshake_msg as it now replaced by mbedtls_ssl_write_handshake_msg_ext,6,6,13,18,13,18,0,0,0,13,0,0,0,0,0,1,0,180,8,8,13,0,0,0,1,0
+mbedtls,279dd4ab59,2025-10-28,e28751af,Remove dependencies on mbedtls_pk_verify,2,2,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,103,2,4,4,0,0,1,1,0
+mbedtls,94f1628aca,2025-10-28,e28751af,Remove dependencies on mbedtls_pk_sign,4,4,8,8,8,8,0,0,0,4,0,0,0,0,0,0,0,184,3,6,8,0,0,1,1,0
+mbedtls,411461a86e,2025-10-13,90f0e5ae,Doc: Removed references to beta version,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,0ff335d715,2025-10-13,e28751af,Remove uses of mbedtls_pk_verify_new,2,2,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,209,2,3,3,0,0,0,1,0
+mbedtls,91b8310e54,2025-10-07,e28751af,Remove internal deprecated items,3,2,0,63,0,45,0,0,0,2,0,0,0,1,0,1,0,53,1,0,0,0,0,0,1,0
+mbedtls,6efe52473c,2025-09-29,e28751af,revert change to gmtime arguments int ssl_context_info.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+mbedtls,7e8e438fce,2025-09-29,e28751af,Replace cases of time_t with mbedtls_time_t,3,2,2,3,2,2,0,0,0,2,0,0,0,0,0,0,0,120,1,1,2,0,0,0,0,0
+mbedtls,24d058bc6c,2025-09-24,d5c722fa,Enable checks for bad options in the config file,2,2,26,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+mbedtls,67f54d2213,2025-09-19,d5c722fa,Have the definition of MBEDTLS_CONFIG_VERSION uncommented by default,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,ff5d117df8,2025-09-17,d5c722fa,Increment config version for the new product major version,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,3091e40774,2025-09-17,12cc3145,Remove usage of old crypto options in public headers,3,3,1,17,1,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,91c0945def,2025-09-16,940e229a,tests: fix alg and usage for some ECDHE-ECDSA opaque key tests,2,1,4,4,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,bc611fe44c,2025-09-16,940e229a,[tls12|tls13]_server: fix usage being checked on the certificate key,2,2,3,2,3,2,1,0,0,2,0,0,1,0,0,0,0,63,2,3,3,0,0,0,0,0
+mbedtls,7b2d72aaf0,2025-09-16,940e229a,ssl: replace PSA_ALG_ECDSA with MBEDTLS_PK_ALG_ECDSA,3,3,5,5,5,5,0,0,0,3,0,0,0,0,0,0,0,44,1,1,5,0,0,0,0,0
+mbedtls,0009b042ac,2025-09-16,940e229a,library: ssl: replace mbedtls_pk_can_do_ext with mbedtls_pk_can_do_psa,3,3,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,63,3,6,6,0,0,0,0,0
+mbedtls,4fe3760a27,2025-09-16,12cc3145,Cleanup following the removal of MBEDTLS_BIGNUM_C option,2,1,3,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,feb5e26619,2025-09-16,12cc3145,Cleanup following the removal of MBEDTLS_ECP_DP_.*_ENABLED options,5,3,20,40,13,13,0,0,0,1,0,0,0,0,0,0,0,21,1,3,12,0,0,0,0,1
+mbedtls,2ad1e5c1a2,2025-09-16,12cc3145,Cleanup following the removal of MBEDTLS_ECJPAKE_C option,3,1,2,12,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,3c6bbddfd4,2025-09-16,12cc3145,Cleanup following the removal of MBEDTLS_ECDSA_C option,6,1,4,26,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,a19ee2819e,2025-09-16,12cc3145,Cleanup following the removal of MBEDTLS_ECDH_C option,4,1,4,16,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,919a1e4e22,2025-09-16,12cc3145,Cleanup following the removal of RSA legacy options,3,1,2,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,0dd31fe523,2025-09-16,12cc3145,Introduce MBEDTLS_SSL_NULL_CIPHERSUITES,7,3,47,31,19,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+mbedtls,337161eb41,2025-09-11,e28751af,Remove comment referencing ECDH,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,5cdbe30804,2025-09-11,e28751af,replace MBEDTLS_KEY_EXCHANGE_SOME_NON_PFS_ENABLED with MBEDTLS_KEY_EXCHANGE_PSK_ENABLED,3,3,7,12,7,12,0,0,0,1,0,0,0,0,0,0,0,45,1,4,7,0,0,0,0,0
+mbedtls,4766a23f9c,2025-09-11,e28751af,change MBEDTLS_KEY_EXCHANGE_SOME_NON_PFS_ENABLED to MBEDTLS_KEY_EXCHANGE_PSK_ENABLED,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,c8823a262d,2025-09-11,e28751af,Remove MBEDTLS_KEY_EXCHANGE_SOME_ECDHE_ENABLED as it appears to be causing issues,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+mbedtls,a7b3f26864,2025-09-11,e28751af,"reverted change to MBEDTLS_KEY_EXCHANGE_SOME_NON_PFS_ENABLED, as it appears it could be causing issu",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,b2f6a69d85,2025-09-11,e28751af,Replace MBEDTLS_KEY_EXCHANGE_SOME_ECDHE_ENABLED with MBEDTLS_KEY_EXCHANGE_SOME_ECDH_OR_ECDHE_1_2_ENA,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,013f8aee4e,2025-09-11,e28751af,Replace MBEDTLS_KEY_EXCHANGE_PSK_ENABLED with MBEDTLS_KEY_EXCHANGE_SOME_NON_PFS_ENABLED,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,1d651cc8a1,2025-09-11,e28751af,Remove additional occurances of static ECDH symbols,2,1,0,16,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,3116f2febe,2025-09-11,e28751af,Remove further symbols,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,4d7f715c07,2025-09-11,e28751af,Remove further symbols that are not required,2,2,0,71,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,558766d814,2025-09-11,e28751af,Remove additional ifdef's,3,3,3,30,3,30,0,0,0,1,0,0,0,1,0,1,0,45,1,0,3,0,0,0,1,0
+mbedtls,15f1d7f812,2025-09-11,e28751af,Remove support for static ECDH cipher suites,16,10,14,618,9,556,0,0,0,12,0,1,0,4,0,2,0,209,4,6,9,0,0,0,1,0
+mbedtls,efcec8cecd,2025-09-10,12cc3145,Cleanup following the removal of MBEDTLS_ENTROPY_C option,5,3,2,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,a450affbca,2025-09-08,12cc3145,Fix MBEDTLS_SSL_TLS1_2_SOME_ECC definition,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,a8a9beccc2,2025-09-01,e28751af,Remove MBEDTLS_DECLARE_PRIVATE_IDENTIFIERS from ssl_test_lib.h as it is not required,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,69aa8d08e0,2025-09-01,e28751af,Remove MBEDTLS_DECLARE_PRIVATE_IDENTIFIERS from ssl_clinet.c as it it not required,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,f19a900ed5,2025-09-01,e28751af,Temporarily include private symbols in sample programs,2,2,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,1,0
+mbedtls,92129adcf2,2025-08-29,d4250222,Removed the whitespace which is causing CI to fail,1,1,6,2,6,2,0,0,0,1,0,0,1,0,0,0,0,139,1,6,6,0,0,0,0,0
+mbedtls,8135b84ed2,2025-08-29,d4250222,Fixed incorrect usage of key derivation procedures,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,135,1,2,2,0,0,0,0,0
+mbedtls,8e4d8c9227,2025-08-29,d4250222,Update ssl_tls.c to use psa_pake_get_shared_key,1,1,18,2,18,2,0,0,0,1,0,0,1,0,0,0,0,135,1,12,12,0,0,0,0,0
+mbedtls,4e091786ca,2025-08-29,d4250222,Moved the MbedTLS config adjust headers to a private subdirectory,4,3,6,6,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0
+mbedtls,7a65ce6737,2025-08-29,d4250222,"Unfortunately, we had two files named oid.h - one in the main repo, and one in the tf-psa-crypto rep",18,15,18,18,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,0,0
+mbedtls,bc48725b64,2025-08-29,d4250222,Include fixups (headers moves to private directory),45,35,96,96,55,55,1,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,1,1,0
+mbedtls,a01ddf65b7,2025-08-28,c1c9dbf0,Revert unification for some error codes,5,3,59,60,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,ed7058730a,2025-08-20,c1c9dbf0,"Removed the directory with the programs, and its inclusion in the parent directory CMakeLists.txt fi",10,5,1,1090,0,1058,0,0,0,0,0,6,0,0,0,13,0,0,0,0,0,0,0,0,0,0
+mbedtls,37ede2c3b4,2025-08-18,c1c9dbf0,Unify generic errors to PSA errors,6,6,66,66,66,66,0,0,0,1,0,0,0,0,0,0,0,10,0,0,14,0,0,0,0,0
+mbedtls,3f523748e0,2025-08-18,e28751af,Add const to serial argument in mbedtls_x509write_crt_set_serial_raw,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+mbedtls,b2ba9fa68b,2025-08-18,20f856e1,Simplify runtime version info string methods,4,2,21,25,8,19,0,0,0,2,0,0,0,0,0,0,0,4,0,0,6,0,0,0,0,1
+mbedtls,6eb5335ef0,2025-08-12,d4250222,"Fixed issues with policy verification, since wildcard JPAKE policy is now disallowed, changed to con",4,3,4,4,3,3,1,0,0,3,0,0,0,0,0,0,0,2056,2,2,3,0,0,0,0,0
+mbedtls,1b70084bd9,2025-08-12,d4250222,TF-PSA-Crypto submodule link fixup,5,3,6,7,4,5,1,0,0,4,0,0,0,0,0,0,0,2056,2,2,4,0,0,1,0,0
+mbedtls,5a27010fab,2025-08-08,e28751af,Remove group_list_heap_allocated,2,2,0,13,0,13,0,0,0,1,0,0,0,1,0,0,0,54,1,0,0,0,0,0,1,0
+mbedtls,ed0db45b63,2025-08-07,e28751af,Completely remove sig_algs_heap_allocated,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,0,0,0,0,1,0
+mbedtls,8dfed9fc15,2025-08-07,e28751af,Remove pointer cast in mbedtls_x509_oid_get_sig_alg,5,5,22,22,22,22,0,0,0,3,0,0,0,0,0,0,0,137,2,2,22,0,0,0,1,0
+mbedtls,8b3b7e5cac,2025-08-07,e28751af,Update further type mismatches,4,3,5,5,4,4,0,0,0,4,0,0,0,0,0,0,0,225,3,3,4,0,0,0,0,0
+mbedtls,6816fd781e,2025-08-07,e28751af,Adjust for change in mbedtls_pk_verify_new function prototype,4,3,5,5,4,4,0,0,0,4,0,0,0,0,0,0,0,225,3,3,4,0,0,0,0,0
+mbedtls,7573321f61,2025-08-07,e28751af,Fix style issues,4,4,20,19,20,19,0,0,0,4,0,0,1,0,0,0,0,137,3,4,20,0,0,0,0,0
+mbedtls,8e832b6594,2025-08-07,e28751af,Add sigalg types to x509_crt.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+mbedtls,1c118a564d,2025-08-07,e28751af,reverted enum in pk_verify_new,4,3,5,5,4,4,0,0,0,4,0,0,0,0,0,0,0,225,3,3,4,0,0,0,0,0
+mbedtls,b2eecc621d,2025-08-07,e28751af,switch to mbedtls_pk_sigalg_t,9,9,19,19,19,19,0,0,0,8,0,0,0,0,0,0,0,136,4,5,19,0,0,0,0,0
+mbedtls,500e497c05,2025-08-07,e28751af,Fix code style issues,1,1,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+mbedtls,adf5d537b2,2025-08-07,e28751af,Fix code style,4,3,7,6,6,5,0,0,0,5,0,0,0,0,0,0,0,225,3,3,6,0,0,0,0,0
+mbedtls,d95ea27e8c,2025-08-07,e28751af,Create new enum mbedtls_pk_sigalg_t,4,3,5,5,4,4,0,0,0,4,0,0,0,0,0,0,0,225,3,3,4,0,0,0,0,0
+mbedtls,a2a1c084ef,2025-08-06,940e229a,mbedtls_check_config: remove reference to MBEDTLS_PSA_ACCEL_ECC_SECP_R1_224,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,6023652711,2025-08-06,e28751af,Remove additional references to sig_algs_heap_allocated,1,1,0,3,0,3,0,0,0,1,0,0,0,1,0,0,0,58,1,0,0,0,0,0,1,0
+mbedtls,d0d0791aed,2025-08-06,940e229a,remove usage of secp192[k|r]1 curves,8,4,1,42,0,22,0,0,0,1,0,1,0,0,0,0,0,12,1,0,0,0,0,0,1,0
+mbedtls,70a4a31cb5,2025-08-06,940e229a,remove secp224[k|r]1 curves,8,4,1,28,0,14,0,0,0,1,0,0,0,1,0,0,0,14,1,0,0,0,0,0,1,0
+mbedtls,9f54408c31,2025-08-05,e28751af,Remove sig_algs_heap_allocated=0 as it is always 0,1,1,0,6,0,6,0,0,0,1,0,0,0,1,0,0,0,59,1,0,0,0,0,0,1,0
+mbedtls,8b91436903,2025-08-05,e28751af,Remove paragraph in comments as it is no longer required,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,8b5c5b4daa,2025-08-05,e28751af,Remove mbedtls_ssl_sig_hash_set_t as it is no longer required,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,9ff2b73636,2025-08-05,e28751af,Change referenc funtion to include/mbedtls/ssl.h in note,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+mbedtls,543caa7ec4,2025-08-05,e28751af,Re-add note,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,27a4cc9de2,2025-08-04,e28751af,Remove mbedtls_ssl_conf_sig_hashes from comments,4,2,2,10,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,9db2e91cfe,2025-08-01,e28751af,Fix style issues,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+mbedtls,73de8aa8c6,2025-08-01,e28751af,Removal of sig_hashes in ssl.h,2,2,0,68,0,68,0,0,0,2,0,0,0,1,0,0,0,60,1,0,0,0,0,0,0,0
+mbedtls,01bf8bafcd,2025-08-01,e28751af,removed mbedtls_ssl_conf_sig_hashes and temporarily re-add sig_hashes,2,2,3,10,3,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0
+mbedtls,b98aa51128,2025-08-01,e28751af,correct logic in ssl_msg,1,1,0,15,0,15,0,0,0,1,0,1,0,0,0,0,0,47,1,0,0,0,0,0,0,0
+mbedtls,d2da53fbe6,2025-08-01,e28751af,Remove further deprecated items,1,1,0,108,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,4a43804d69,2025-08-01,e28751af,Remove deprecated items,7,6,4,69,4,68,0,0,0,1,0,0,0,0,0,2,0,55,1,4,4,0,0,0,1,0
+mbedtls,72d6030f89,2025-08-01,d4250222,Combine psa_pake_set_password_key and psa_pake_setup into a single function,1,1,1,6,1,6,0,0,0,1,0,0,0,0,0,0,0,42,0,0,1,0,0,0,0,0
+mbedtls,a750e1be5f,2025-07-30,e28751af,Minor comment updates,3,1,2,17,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,cdc191b500,2025-07-30,e28751af,Correct code style,1,1,2,3,2,3,0,0,0,2,0,0,0,1,0,0,0,2056,1,1,2,0,0,0,0,0
+mbedtls,98ecfdb440,2025-07-30,e28751af,corrected code style,2,1,9,10,6,8,0,0,0,2,0,0,0,1,0,0,0,2057,1,3,6,0,0,0,0,0
+mbedtls,a4915abc56,2025-07-30,e28751af,fix code style issues,1,1,4,8,4,8,0,0,0,1,0,0,0,1,0,0,0,1857,1,4,4,0,0,0,0,0
+mbedtls,0f21429af5,2025-07-30,e28751af,Correct ifdef logic,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,62278dc93d,2025-07-30,e28751af,remove MBEDTLS_USE_PSA_CRYPTO from ssl progs,2,2,18,128,18,128,0,0,0,4,0,0,0,2,0,0,0,2060,2,16,18,0,0,0,1,0
+mbedtls,6bcdd67f83,2025-07-30,e28751af,Update ssl progs to restore build,2,2,124,17,124,17,0,0,0,4,0,0,2,0,0,0,0,2060,2,88,124,0,0,0,0,0
+mbedtls,4bb98be277,2025-07-30,e28751af,initial remove of MBEDTLS_USE_PSA_CRYPTO,24,15,33,346,22,190,0,0,0,16,0,0,0,14,0,0,0,2060,14,16,22,0,0,0,1,0
+mbedtls,73b3987291,2025-07-29,e28751af,Correct rebase and add in additional type cast,2,2,1,2,1,2,0,0,0,2,0,0,0,1,0,0,0,225,2,1,1,0,0,0,0,0
+mbedtls,d3ae1701f3,2025-07-29,e28751af,Remove pragmas and use alias,2,2,1,4,1,4,0,0,0,1,0,0,1,0,0,0,0,226,1,1,1,0,0,0,1,0
+mbedtls,1c1535f153,2025-07-29,e28751af,Make pragmas more specific,4,3,4,5,4,4,0,0,0,2,0,0,0,0,0,0,0,225,2,4,4,0,0,0,0,0
+mbedtls,04b03d7712,2025-07-29,e28751af,Replace Werror removal with pragma,5,3,14,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,1819a915bc,2025-07-28,d5c722fa,Include limits.h where needed,5,3,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0
+mbedtls,ac637ac9f8,2025-07-28,d5c722fa,Make check_config.h private,3,3,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+mbedtls,018e09872d,2025-07-28,d5c722fa,New source file for configuration checks,3,1,11,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,1b4bfdf554,2025-07-26,d5c722fa,Add missing include,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+mbedtls,361ce2b484,2025-07-24,e28751af,Rename mbedtls_pk_setup_opaque to mbedtls_pk_wrap_psa,3,1,4,4,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+mbedtls,5eb9aba358,2025-07-24,12cc3145,"mbedtls_config.h: Update ""requires"" comments",1,1,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,0668036ada,2025-07-24,12cc3145,Replace MBEDTLS_AES_C,4,1,3,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,8719c2f00b,2025-07-24,12cc3145,ssl_misc.h: Update PKCS1 dependencies,1,1,6,6,6,6,0,0,0,3,0,0,0,0,0,0,0,26,1,2,6,0,0,1,0,0
+mbedtls,27125ceacf,2025-07-21,20f856e1,Update references to tf-psa-crypto/core/common.h,6,2,7,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,0de87611bb,2025-07-21,e28751af,Remove additional calls to mbedtls_pk_verify_ext,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,66,1,1,1,0,0,0,1,0
+mbedtls,306ffd3a36,2025-07-21,e28751af,Switch to mbedtls_pk_verify_new,3,3,4,5,4,5,0,0,0,4,0,0,0,1,0,0,0,225,3,3,4,0,0,0,0,0
+mbedtls,1030f80a0b,2025-07-17,e28751af,Add private include to additional files,3,3,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,1,0
+mbedtls,c801d3293e,2025-07-17,e28751af,include private pk.h internally,11,6,33,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,1,1,0
+mbedtls,901cca7bc3,2025-07-16,7652de91,Disambiguate version.h in doxygen comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,606671b6a5,2025-07-15,d5c722fa,Explicitly enable built-in entropy in sample and test configs,3,3,3,13,3,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,a5f36483ef,2025-07-15,12cc3145,Replace legacy RSA crypto options in check_config.h,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+mbedtls,0b44f56d8d,2025-06-30,d5c722fa,Typos,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,8ba67aef0d,2025-06-30,d5c722fa,Rendered documentation: info about private elements in public headers,1,1,16,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+mbedtls,0204470f38,2025-06-30,d5c722fa,Slight improvement to the Doxygen entry point,1,1,21,4,21,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,09dc57d323,2025-06-27,90f0e5ae,Version Bump,4,1,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,e0fb40e6fb,2025-06-25,940e229a,library: debug: add error log message in mbedtls_debug_print_psa_rsa(),1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,54,1,4,4,0,0,0,0,0
+mbedtls,069617fdce,2025-06-25,940e229a,library: debug: improve input param check in mbedtls_debug_print_psa_rsa(),1,1,7,0,7,0,0,0,0,1,0,0,1,0,0,0,0,50,1,6,6,0,0,0,0,0
+mbedtls,0c92466bb0,2025-06-25,940e229a,library: debug: rename len as bitlen in mbedtls_debug_print_integer(),1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,28,1,3,3,0,0,0,0,0
+mbedtls,a18627a625,2025-06-25,940e229a,library: debug: add comment to explain no-code-check comments,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,1e4423bcfa,2025-06-25,940e229a,library: debug: add comment for follow-up in mbedtls_debug_print_psa_rsa(),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,6676f72a5f,2025-06-25,940e229a,library: debug: rename mbedtls_debug_print_ec_coord(),1,1,7,7,7,7,0,0,0,2,1,1,0,0,1,1,0,44,2,4,7,0,0,0,0,0
+mbedtls,3388c4acee,2025-06-25,940e229a,library: debug: add support for RSA keys in PSA friendly format,1,1,98,11,98,11,0,0,0,3,1,0,1,1,2,0,0,32,3,11,79,0,0,0,0,0
+mbedtls,5b84ae14e9,2025-06-20,c1c9dbf0,Replace __attribute__((nonstring)) with macro MBEDTLS_ATTRIBUTE_UNTERMINATED_STRING,5,2,7,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,79b513894a,2025-06-20,c1c9dbf0,Add __attribute__ ((nonstring)) to remove unterminated-string-initialization warning,5,2,10,5,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+mbedtls,838a114f05,2025-06-19,ad8032b1,Remove MBEDTLS_OID_C from sample configs,2,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,0815c67ce1,2025-06-16,12cc3145,programs: pkey: Use tf-psa-crypto/build_info.h,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+mbedtls,a81d6dfb05,2025-06-12,940e229a,tests|programs: remove usage of mbedtls_ecp_set_max_ops(),2,1,0,2,0,1,0,0,0,1,0,0,0,1,0,0,0,1862,1,0,0,0,0,0,1,0
+mbedtls,eaf578978e,2025-06-12,940e229a,library: remove ECDSA_C dependency from ECP_RESTARTABLE,2,2,18,18,18,18,0,0,0,5,0,0,0,0,0,0,0,114,4,10,18,0,0,1,1,0
+mbedtls,c394fd0ebc,2025-06-12,940e229a,library: debug: replace MBEDTLS_PK_USE_PSA_EC_DATA with PSA_WANT_KEY_TYPE_ECC_PUBLIC_KEY,1,1,4,30,4,30,0,0,0,1,0,1,0,1,0,1,0,29,1,2,4,0,0,0,0,0
+mbedtls,ae89dcc4be,2025-06-12,940e229a,library: tls12: remove usage of MBEDTLS_PK_USE_PSA_EC_DATA,2,2,0,75,0,75,0,0,0,2,0,0,0,1,0,0,0,63,1,0,0,0,0,0,1,0
+mbedtls,c6654fc1b0,2025-06-11,c1c9dbf0,Replace MBEDTLS_ERR_ECP_IN_PROGRESS with alias PSA_OPERATION_INCOMPLETE in documentation,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,67aa959ea1,2025-06-10,f11e8054,Fixed some minor typos in comments.,2,2,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,61,1,1,2,0,0,0,0,0
+mbedtls,43c891ae98,2025-06-10,c1c9dbf0,Remove requirement on MBEDTLS_PLATFORM_C from configs,4,3,0,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,7e7dc6fdda,2025-06-03,d5c722fa,Align endif comments with auxiliary macros,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,dcd43fcc45,2025-06-03,d5c722fa,Move oid_xxx_numeric_string back to oid.h,2,2,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0
+mbedtls,b828820f7a,2025-06-03,d5c722fa,Declare oid_xxx_numeric_string only when they are defined,2,1,5,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,02ec585518,2025-06-03,d5c722fa,Replace MBEDTLS_OID_C by function-specific dependencies,6,4,55,26,50,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,0,1,0,0
+mbedtls,6354411670,2025-06-03,d5c722fa,Remove unused function,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,cd4c0d7b00,2025-06-03,d5c722fa,Move OID string definitions back to mbedtls/oid.h,12,10,261,253,259,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,0,0,0,1,0
+mbedtls,f9ca8ed9dd,2025-06-03,d5c722fa,Create a public header file for OID values,1,1,16,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+mbedtls,71ccc723cd,2025-06-03,d5c722fa,Remove macros for crypto OID,1,1,0,157,0,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,4c83221320,2025-06-03,d5c722fa,Replace MBEDTLS_ERR_OID_NOT_FOUND with MBEDTLS_ERR_X509_UNKNOWN_OID,7,5,25,28,16,19,0,0,0,3,0,0,0,0,0,0,0,121,3,3,8,0,0,0,0,0
+mbedtls,47f1d7be95,2025-06-03,d5c722fa,Replace MBEDTLS_ERR_OID_BUF_TOO_SMALL with PSA_ERROR_BUFFER_TOO_SMALL,5,4,5,7,4,6,0,0,0,3,0,0,0,0,0,0,0,115,2,2,3,0,0,0,0,0
+mbedtls,32a1112e88,2025-06-03,d5c722fa,Remove MBEDTLS_OID_X509_EXT_xxx constants,5,4,34,58,28,52,0,0,0,2,0,0,0,0,0,0,0,140,2,2,27,0,0,0,1,0
+mbedtls,b7ef4df001,2025-06-03,d5c722fa,Remove OID tables that are not used in X.509,4,2,0,517,0,454,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,532e3ee104,2025-06-03,d5c722fa,Switch library and tests to the x509_oid module,9,6,44,44,15,15,0,0,0,13,0,0,0,0,0,0,0,140,8,10,15,0,0,1,0,0
+mbedtls,d2fe51cfc4,2025-06-03,d5c722fa,Add the x509_oid module to the build,3,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+mbedtls,86e45ba0ba,2025-06-03,d5c722fa,Rename OID functions and types to mbedtls_x509_oid_xxx in x509_oid,2,2,70,69,70,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0
+mbedtls,86a47f85fa,2025-06-03,d5c722fa,"Switch to ""x509_oid.h"" in code that uses OID functions",11,8,11,11,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+mbedtls,b825dcfe2d,2025-06-03,d5c722fa,Update file names in comments,2,2,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,86b9d3f299,2025-06-03,d5c722fa,documentation of mbedtls_ssl_async_sign_t with RSA: update to PSA,1,1,4,14,4,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mbedtls,c4949d1426,2025-05-28,d5c722fa,mbedtls_ssl_conf_alpn_protocols: declare list elements as const,6,5,15,9,11,9,0,0,0,6,0,0,0,0,0,0,0,148,1,1,11,0,0,0,0,0
+mbedtls,7f363dfe62,2025-05-27,940e229a,programs: ssl_client2: set max restartable op also in PSA,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1863,1,1,1,0,0,0,0,0
+mbedtls,ffac311aaf,2025-05-27,940e229a,library: debug: fix guards for EC helper functions,1,1,52,52,52,52,1,0,0,1,0,0,0,0,0,0,0,42,1,42,45,0,0,0,0,0
+mbedtls,199a15645d,2025-05-27,940e229a,library: debug: make mbedtls_debug_print_ecp() internal,3,3,3,30,3,30,0,0,0,1,0,0,0,0,0,0,0,16,1,3,3,0,0,0,0,0
+mbedtls,153a906a51,2025-05-23,940e229a,library: debug: remove mbedtls_debug_printf_ecdh(),3,3,0,89,0,89,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,1,0
+mbedtls,28ef01a3c1,2025-05-23,940e229a,library: debug: make mbedtls_debug_print_psa_ec() static,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,21,1,3,3,0,0,0,0,0
+mbedtls,6b8f517e4d,2025-05-21,ad8032b1,"Avoid a useless copy in cert_{req,write}",2,2,8,8,8,8,0,0,0,2,0,0,0,0,0,0,0,605,2,8,8,0,0,0,0,0
+mbedtls,bb8c0aba74,2025-05-21,ad8032b1,Add comment on apparent type mismatch,2,2,8,2,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,8de781d99d,2025-05-21,ad8032b1,Remove redundant free loop,1,1,8,16,8,16,0,0,0,1,0,0,0,1,0,0,0,301,1,7,7,0,0,0,1,0
+mbedtls,92a9bd345c,2025-05-20,ad8032b1,Remove call to pk_decrypt() in ssl_server2,1,1,0,7,0,7,0,0,0,1,0,0,0,0,0,0,0,45,0,0,0,0,0,0,1,0
+mbedtls,7dddc1724f,2025-05-15,87c7615e,Mark ssl_tls12_preset_suiteb_sig_algs const,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,e2d71ccc64,2025-05-15,87c7615e,Mark ssl_tls12_preset_default_sig_algs const,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,b095862722,2025-05-12,ad8032b1,Fix memory leak in cert_write & cert_req,2,2,34,0,34,0,1,0,0,2,0,0,2,0,0,0,0,605,2,24,24,0,0,0,0,0
+mbedtls,6b1147993c,2025-05-12,ad8032b1,Fix runtime error in cert_write & cert_req,2,2,18,8,18,8,1,0,0,2,0,0,2,0,0,0,0,593,2,10,10,0,0,0,0,0
+mbedtls,2dc6b583ac,2025-05-12,ad8032b1,Restore behaviour of mbedtls_x509write_set_foo_name(),2,2,3,0,3,0,0,0,0,3,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+mbedtls,43a1e733d8,2025-05-12,ad8032b1,Fix undocumented free() in x509_string_to_names(),3,2,26,3,8,3,1,0,0,1,0,0,1,0,0,0,0,83,1,3,3,0,0,0,0,0
+mbedtls,4c9ad3cfe6,2025-05-08,e28751af,Add ChangeLog,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,e23afdd765,2025-05-08,e28751af,remove compat-2.x.h,2,1,0,47,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,46771ff0d6,2025-05-07,d5c722fa,Remove trace of secp224k1,1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+mbedtls,47c8579ed0,2025-05-07,d5c722fa,Copy OID files that are getting moved to tf-psa-crypto,4,2,1882,0,1616,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1066,0,0,0,0,0
+mbedtls,7f6f4e6907,2025-05-07,940e229a,library: pass NULL options parameter to mbedtls_pk_verify_ext(),4,3,5,26,4,25,0,0,0,4,0,0,0,2,0,0,0,226,3,3,4,0,0,0,0,0
+mbedtls,d24dfad7af,2025-05-07,940e229a,library: x509: remove sig_opts from mbedtls_x509_sig_alg_gets(),6,5,25,36,10,21,0,0,0,4,0,1,0,3,0,0,0,105,4,9,10,0,0,0,1,0
+mbedtls,68878ccdd0,2025-05-07,940e229a,library: x509: simplify RSA-PSS management,8,8,13,40,13,40,0,0,0,7,0,0,0,3,0,0,0,149,3,3,12,0,0,0,0,1
+mbedtls,02c80e631f,2025-04-29,092e30b5,Fix test and formatting in ssl_context_info,2,1,3,7,0,4,1,0,0,1,0,0,0,1,0,0,0,153,1,0,0,0,0,0,0,0
+mbedtls,5a7a5305e8,2025-04-29,092e30b5,removed trailing whitespace,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,153,1,1,1,0,0,0,0,0
+mbedtls,da95274730,2025-04-29,092e30b5,ssl context fix for 4.0,1,1,1,9,1,9,1,0,0,1,0,0,0,1,0,0,0,153,1,1,1,0,0,0,0,0
+mbedtls,7ac11845d0,2025-04-29,940e229a,configs: add PLATFORM_C to configs using ENTROPY_C,4,3,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+mbedtls,b12205ca7a,2025-04-22,1f62ac45,Removed use of mbedtls_cipher_info from ssl_context_info.c,1,1,0,11,0,11,0,0,0,1,0,0,0,1,0,0,0,159,1,0,0,0,0,0,0,0
+mbedtls,dba07e152e,2025-04-16,f5668e88,Add missing ifdef for mbedtls_ssl_tls13_exporter,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,bc694b3cbd,2025-04-09,d5c722fa,Fix printf of enum,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+mbedtls,7c1dbeff49,2025-04-09,d5c722fa,"Test split, coalesced-split and empty handshake records",3,1,211,0,1,0,0,0,0,1,0,0,1,0,0,0,0,117,1,1,1,0,0,0,1,0
+mbedtls,c67befee6a,2025-04-09,d5c722fa,Add a log message on every SSL state transition,1,1,15,0,15,0,0,1,0,1,0,0,0,0,0,0,0,8,0,0,8,0,0,0,0,0
+mbedtls,f670ba5e52,2025-04-09,d5c722fa,Always call mbedtls_ssl_handshake_set_state,5,5,60,54,60,54,0,0,0,35,0,0,0,0,1,0,0,483,22,41,58,0,0,0,0,0
+mbedtls,7577c9e373,2025-03-28,f5668e88,Fix doxygen for MBEDTLS_SSL_KEYING_MATERIAL_EXPORT,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,af2035fcad,2025-03-28,f5668e88,Fix mistake in previous comment change,1,1,6,1,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,ee33b31f0b,2025-03-28,f5668e88,Fix HkdfLabel comment,1,1,2,6,2,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,5826883ca5,2025-03-28,f5668e88,Allow maximum label length in Hkdf-Expand-Label,2,2,6,5,6,5,0,0,0,1,0,0,0,0,0,0,0,60,1,1,3,0,0,0,0,0
+mbedtls,9c5bae5026,2025-03-28,f5668e88,Fix max. label length in key material exporter,3,2,5,5,4,4,1,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+mbedtls,53d9168502,2025-03-28,f5668e88,Document BAD_INPUT_DATA error in key material exporter,2,2,4,1,4,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,22728dc5e3,2025-03-28,f5668e88,"Use mbedtls_calloc, not regular calloc",2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,2060,2,2,2,0,0,0,0,0
+mbedtls,144cccecb7,2025-03-28,f5668e88,Fix memory leak in example programs,2,2,4,0,4,0,1,0,0,2,0,0,2,0,0,0,0,2060,2,4,4,0,0,0,0,0
+mbedtls,c6fd1a24d2,2025-03-28,f5668e88,Use one maximum key_len for all exported keys,3,2,23,16,20,13,0,0,0,2,0,0,1,1,0,0,0,33,2,4,6,0,0,0,0,0
+mbedtls,3e1291866d,2025-03-28,f5668e88,Fix output size check for key material exporter,3,2,14,8,12,6,1,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+mbedtls,28916ac8fe,2025-03-28,f5668e88,Increase allowed output size of HKDF-Expand-Label,3,2,11,15,10,14,0,0,0,1,0,0,0,0,0,0,0,24,1,3,5,0,0,0,0,0
+mbedtls,0747388254,2025-03-28,f5668e88,Fix #endif comment,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,51bec543bb,2025-03-28,f5668e88,Enable MBEDTLS_SSL_KEYING_MATERIAL_EXPORT by default,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,2fe35f61bf,2025-03-28,27eb3140,Create MBEDTLS_SSL_KEYING_MATERIAL_EXPORT option,6,6,55,19,55,19,0,0,0,3,0,0,0,0,0,0,0,2058,3,5,32,0,0,0,0,0
+mbedtls,281fb79116,2025-03-28,f5668e88,Remove TLS 1.2 Exporter if we don't have randbytes,4,4,23,12,23,12,0,0,0,2,0,0,2,0,0,0,0,2058,2,4,20,0,0,0,1,0
+mbedtls,c9f2c9adba,2025-03-28,f5668e88,"Revert ""Store randbytes for TLS 1.2 TLS-Exporter""",2,2,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,230,1,1,2,0,0,0,0,0
+mbedtls,dbe864569e,2025-03-28,f5668e88,Fix typos in comments,2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,155cea0900,2025-03-28,f5668e88,Use fewer magic numbers in TLS-Exporter functions,1,1,29,18,29,18,0,0,0,2,0,0,1,0,0,0,0,41,2,18,18,0,0,0,0,0
+mbedtls,f2dda15ce8,2025-03-28,f5668e88,Add label length argument to tls_prf_generic(),1,1,7,12,7,12,0,0,0,4,0,0,0,1,0,0,0,58,4,7,7,0,0,0,0,0
+mbedtls,48150f5dc3,2025-03-28,f5668e88,Store randbytes for TLS 1.2 TLS-Exporter,2,2,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,230,1,1,2,0,0,0,0,0
+mbedtls,e10c9849e2,2025-03-28,27eb3140,Fix coding style,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,29beade80f,2025-03-28,27eb3140,Fix build when one of TLS 1.2 or 1.3 is disabled,1,1,8,0,8,0,1,0,0,1,0,0,1,0,0,0,0,30,1,4,8,0,0,0,0,0
+mbedtls,7b72220d42,2025-03-28,27eb3140,Fix coding style,6,5,63,42,61,40,0,0,0,6,0,0,6,0,0,0,0,2058,6,41,42,0,0,0,0,0
+mbedtls,ae7d66a1d5,2025-03-28,27eb3140,Fix doxygen comment parameter name,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,5561994020,2025-03-28,27eb3140,Fix typos in comment,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,9c9989fc6d,2025-03-28,f5668e88,Fix mismatches in function declarations,3,3,13,13,13,13,1,0,0,1,0,0,0,0,0,0,0,25,1,4,13,0,0,0,0,0
+mbedtls,91cff4406b,2025-03-28,f5668e88,Fix key_len check in TLS-Exporter,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,1,1,1,0,0,0,0,0
+mbedtls,81dfc8830b,2025-03-28,f5668e88,Actually set exporter defaults in ssl_client2,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,1834,1,2,2,0,0,0,0,0
+mbedtls,334c367052,2025-03-28,f5668e88,Simplify mbedtls_ssl_tls13_exporter,1,1,4,13,4,13,0,0,0,1,0,0,0,1,0,0,0,22,1,4,4,0,0,0,0,1
+mbedtls,136fe9e4be,2025-03-28,f5668e88,Fix commented out function declaration,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,b2718e17e6,2025-03-28,f5668e88,Add TLS-Exporter options to ssl_client2,1,1,33,0,33,0,0,0,0,1,0,0,1,0,0,0,0,1832,1,24,32,0,0,0,0,0
+mbedtls,32ba7f4a17,2025-03-28,f5668e88,Add TLS-Exporter options to ssl_server2,1,1,35,0,35,0,0,0,0,1,0,0,1,0,0,0,0,2056,1,26,34,0,0,0,0,0
+mbedtls,bd81c9d0f7,2025-03-28,f5668e88,Implement TLS-Exporter feature,4,4,169,0,169,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,120,0,0,0,0,0
+mbedtls,7a84f0f3a9,2025-03-27,e28751af,removed rng parameters from struct mbedtls_ssl_config,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,cd2660fb0e,2025-03-26,e28751af,fixed code style,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,61,1,1,1,0,0,0,0,0
+mbedtls,8224e71262,2025-03-26,e28751af,remove NULL guard,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,61,1,1,1,0,0,0,1,0
+mbedtls,c12152e53e,2025-03-26,e28751af,corrected style,1,1,3,5,3,5,0,0,0,1,0,0,0,1,0,0,0,61,1,3,3,0,0,0,0,0
+mbedtls,03c05c336e,2025-03-26,e28751af,Remove additional line,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,fb68b8cf57,2025-03-26,e28751af,Remove empty ifdef,1,1,0,6,0,6,0,0,0,1,0,0,0,1,0,0,0,316,1,0,0,0,0,0,1,0
+mbedtls,9774e9a176,2025-03-26,e28751af,corrected code style,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,63,1,2,2,0,0,0,0,0
+mbedtls,1f091466c1,2025-03-26,e28751af,tidy up syntax,1,1,1,3,1,3,0,0,0,1,0,0,0,1,0,0,0,63,1,1,1,0,0,0,0,0
+mbedtls,1cd1e01897,2025-03-26,e28751af,Correct code style,4,4,12,10,12,10,0,0,0,6,0,0,1,0,0,0,0,127,4,10,12,0,0,0,0,0
+mbedtls,0deda0e34c,2025-03-26,e28751af,Update debug,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+mbedtls,d5d707842c,2025-03-26,e28751af,removed NR psa-init,1,1,0,4,0,4,0,0,0,1,0,0,0,1,0,0,0,53,1,0,0,0,0,0,0,0
+mbedtls,6ff2da196a,2025-03-26,e28751af,added further debug,1,1,5,2,5,2,0,0,0,1,0,0,1,0,0,0,0,63,1,4,4,0,0,0,0,0
+mbedtls,fd52984896,2025-03-26,e28751af,resolved ci failures,2,2,1,4,1,4,0,0,0,2,0,0,0,1,0,0,0,316,2,1,1,0,0,0,0,0
+mbedtls,602b2968ca,2025-03-26,e28751af,pre-test version of the mbedtls_ssl_conf_rng removal,7,6,23,36,20,30,0,0,0,9,0,0,1,4,0,0,0,318,6,13,16,0,0,0,0,0
+mbedtls,47111a1cb1,2025-03-26,e28751af,initial remove of mbedtls_ssl_conf_rng,20,13,0,47,0,31,0,0,0,11,0,0,0,11,0,1,0,2030,11,0,0,0,0,0,1,0
+mbedtls,fc66d5876d,2025-03-26,e28751af,Delete some sample programs,31,21,25,4296,0,4049,0,0,0,0,0,18,0,0,0,57,0,0,0,0,0,0,0,0,0,0
+mbedtls,440cb2aac2,2025-03-26,e28751af,Remove RNG from x509 and PK,27,22,83,161,57,122,0,0,0,28,0,0,0,19,0,0,0,2031,22,36,57,0,0,0,1,0
+mbedtls,858b829436,2025-03-25,c1c9dbf0,Add define to fuzz/common.c and ssl/ssl_test_lib.c,2,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,1ffdb18cdb,2025-03-24,d5c722fa,Remove mbedtls_low_level_sterr() and mbedtls_high_level_strerr(),3,1,6,32,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,a7e14dc9eb,2025-03-24,d5c722fa,Don't expect added error codes,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,121,2,2,2,0,0,0,0,0
+mbedtls,998760ae5d,2025-03-24,c1c9dbf0,Define MBEDTLS_DECLARE_PRIVATE_IDENTIFIERS in every sample program,60,43,119,0,85,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+mbedtls,58535da8d0,2025-03-20,0b709efd,Only check for certificates if it is supported,2,2,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,51,1,1,4,0,0,0,0,0
+mbedtls,e99e591179,2025-03-20,0b709efd,Remove key exchange based on encryption/decryption,8,8,7,113,7,113,0,0,0,6,0,2,0,4,0,1,0,2033,6,0,5,0,0,0,1,0
+mbedtls,3c7db0e5a8,2025-03-20,0b709efd,Remove `MBEDTLS_TLS_RSA_*` ciphersuite macros,2,2,0,54,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,5814e3e566,2025-03-20,0b709efd,Remove `MBEDTLS_KEY_EXCHANGE_RSA` key exchange type,4,4,0,13,0,13,0,0,0,7,0,0,0,1,0,0,0,50,1,0,0,0,0,0,1,0
+mbedtls,e1e27300a2,2025-03-20,0b709efd,Remove `MBEDTLS_KEY_EXCHANGE_RSA_ENABLED` config option,14,8,8,524,4,512,0,0,0,3,0,1,0,3,0,4,0,233,3,1,4,0,0,0,1,0
+mbedtls,1038b22d74,2025-03-14,ad8032b1,Reduce the level of logging used in tests,2,1,8,4,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,1
+mbedtls,6637ef798f,2025-03-14,ad8032b1,New test function inject_client_content_on_the_wire(),4,1,117,0,3,0,0,0,0,2,0,0,1,0,0,0,0,321,1,2,3,0,0,0,0,0
+mbedtls,7134e52dec,2025-03-13,90f0e5ae,programs -> ssl_client2.c: Added option renego_delay to set record buffer depth.,1,1,11,1,11,1,0,0,0,1,0,0,1,0,0,0,0,1809,1,6,9,0,0,0,0,0
+mbedtls,011b6cb1c5,2025-03-12,20f856e1,Fix comments,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,cd1ece7846,2025-03-12,20f856e1,Never use %zu on MinGW,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,becb21e668,2025-03-12,20f856e1,Fix MSVC version guard for C99 format size specifiers,2,1,8,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,2b78a5abfa,2025-03-12,d5c722fa,State globally that the limitations don't apply to DTLS,1,1,4,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,d9c858039e,2025-03-11,d5c722fa,Clarify DTLS,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,80facedad9,2025-03-11,d5c722fa,ClientHello may be fragmented in renegotiation,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,d8f9e22b5e,2025-03-11,d5c722fa,Move the defragmentation documentation to mbedtls_ssl_handshake,1,1,21,17,21,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,e26a060194,2025-03-11,ad8032b1,Cleanly reject non-HS in-between HS fragments,1,1,12,0,12,0,0,0,0,1,0,0,1,0,0,0,0,83,1,7,7,0,0,0,0,0
+mbedtls,857144c9c2,2025-03-10,e28751af,removed psa_crypto_init from library as this is supposed to be called by the application,1,1,0,8,0,8,0,0,0,2,0,0,0,1,0,0,0,59,1,0,0,0,0,0,0,0
+mbedtls,0cfe54e4e0,2025-03-10,e28751af,remove RNG parameters from SSL API's,8,6,18,31,17,28,0,0,0,7,0,1,1,3,0,0,0,2038,5,8,15,0,0,0,1,0
+mbedtls,816b712680,2025-03-07,7652de91,TLS1.2: Check for failures in Finished calculation,1,1,2,0,2,0,0,0,0,2,0,0,2,0,0,0,0,63,2,2,2,0,0,0,0,0
+mbedtls,e34ec86370,2025-03-07,d5c722fa,Fix a log message,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,140,1,1,1,0,0,0,0,0
+mbedtls,dab1cb5b45,2025-03-06,d5c722fa,Note unused variables when debugging is disabled,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,140,1,2,2,0,0,0,0,0
+mbedtls,b8f1e4bae3,2025-03-06,d5c722fa,Pacify uncrustify,1,1,1,2,1,2,0,0,0,1,0,0,0,1,0,0,0,138,1,1,1,0,0,0,0,0
+mbedtls,afb254c5fe,2025-03-06,d5c722fa,Unify handshake fragment log messages,1,1,14,37,14,37,0,0,0,1,0,0,0,1,0,0,0,139,1,14,14,0,0,0,0,0
+mbedtls,15c072f0de,2025-03-06,d5c722fa,Fix handshake defragmentation when the record has multiple messages,1,1,24,19,24,19,1,0,0,1,0,0,1,0,0,0,0,156,1,18,18,0,0,0,0,0
+mbedtls,0851ec9344,2025-03-06,d5c722fa,Fix end check before memmove,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,156,1,1,1,0,0,0,0,0
+mbedtls,36edd48c61,2025-03-05,d5c722fa,Document the limitations of TLS handshake message defragmentation,1,1,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,90a9593bbd,2025-03-05,d5c722fa,Fix dodgy printf calls,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,156,1,2,2,0,0,0,0,0
+mbedtls,e85ece6584,2025-03-05,d5c722fa,Handshake defragmentation: reassemble incrementally,2,1,110,59,110,52,0,0,0,1,0,0,1,0,0,0,0,156,1,86,86,0,0,0,0,0
+mbedtls,235eae9e03,2025-03-05,d5c722fa,mbedtls_ssl_prepare_handshake_record(): log offsets after decryption,1,1,8,0,8,0,0,0,0,1,0,0,1,0,0,0,0,118,1,7,7,0,0,0,0,0
+mbedtls,7a17696c34,2025-03-05,d5c722fa,mbedtls_ssl_prepare_handshake_record(): refactor first fragment prep,1,1,11,8,11,8,0,0,0,1,0,0,0,1,0,0,0,111,1,6,6,0,0,0,0,1
+mbedtls,07027722cb,2025-03-05,d5c722fa,Tweak handshake fragment log message,1,1,7,6,7,6,0,0,0,1,0,0,1,0,0,0,0,112,1,7,7,0,0,0,0,0
+mbedtls,9bdc8aa80b,2025-03-05,d5c722fa,"Tweak ""waiting for more handshake fragments"" log message",1,1,6,5,6,5,0,0,0,2,0,0,1,0,0,0,0,111,1,3,6,0,0,0,0,0
+mbedtls,2e5a7ea9bc,2025-03-05,d5c722fa,Fix Doxygen markup,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,28c645b951,2025-03-05,940e229a,docs: remove references to DHM,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,15fd5c9925,2025-03-05,940e229a,ssl: remove support for MBEDTLS_DHM_C,3,3,0,146,0,146,0,0,0,4,0,0,0,2,0,3,0,76,2,0,0,0,0,0,1,0
+mbedtls,73cd415c0b,2025-03-05,940e229a,programs: remove DHM_C from ssl_client2 and ssl_server2,2,2,1,72,1,72,0,0,0,2,0,0,0,2,0,0,0,2041,2,0,1,0,0,0,1,0
+mbedtls,540e7f3738,2025-03-05,940e229a,programs: remove dh_client and dh_server,5,2,1,620,0,594,0,0,0,0,0,2,0,0,0,5,0,0,0,0,0,0,0,0,1,0
+mbedtls,fd89acc735,2025-02-24,d5c722fa,ssl_session_reset: preserve HOSTNAME_SET flag,2,2,11,1,11,1,0,0,0,1,0,0,0,0,0,0,0,33,0,0,3,0,0,0,0,0
+mbedtls,eb2d29eb6b,2025-02-24,d5c722fa,Document the need to call mbedtls_ssl_set_hostname,1,1,10,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,96073fb997,2025-02-24,d5c722fa,Improve documentation of mbedtls_ssl_set_hostname,1,1,10,7,10,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,825c3d075a,2025-02-24,d5c722fa,Add a note about calling mbedtls_ssl_set_hostname to mbedtls_ssl_setup,1,1,11,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,488b91929d,2025-02-24,d5c722fa,Require calling mbedtls_ssl_set_hostname() for security,2,1,14,7,4,0,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,1,0,0,0,0
+mbedtls,59a5117072,2025-02-24,d5c722fa,Create error code for mbedtls_ssl_set_hostname not called,1,1,33,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,434016e2eb,2025-02-24,d5c722fa,Keep track of whether mbedtls_ssl_set_hostname() has been called,4,3,48,19,11,6,0,0,0,2,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+mbedtls,b5c079b13c,2025-02-21,5d5d5b9f,fix: rename BEFORE_COLON and BC to avoid conflicts,2,2,12,12,12,12,1,0,0,2,0,0,0,0,0,0,0,106,2,8,12,0,0,0,0,0
+mbedtls,6a9cf11361,2025-02-21,5d5d5b9f,fix: remove superfluous BEFORE_COLON in x509_crl.c,1,1,0,5,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,4ac4008fa0,2025-02-20,d5c722fa,Access ssl->hostname through abstractions in certificate verification,1,1,56,10,56,10,0,0,0,3,0,0,1,1,3,0,0,131,2,9,35,0,0,0,1,0
+mbedtls,e5054e495a,2025-02-20,d5c722fa,mbedtls_ssl_set_hostname tests: baseline,2,1,192,4,35,4,0,0,0,1,0,0,1,0,0,0,0,1836,1,28,33,0,0,0,0,0
+mbedtls,95fe2a6df4,2025-02-20,d5c722fa,Add a flags field to mbedtls_ssl_context,2,2,7,0,7,0,0,0,0,1,0,0,0,0,0,0,0,33,0,0,2,0,0,0,0,0
+mbedtls,eb63613347,2025-02-20,d5c722fa,Make guards more consistent between X.509-has-certs and SSL-has-certs,1,1,1,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,86a66edcd0,2025-02-20,d5c722fa,Fix Doxygen markup,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,aa2594a52e,2025-02-20,d5c722fa,Make ticket_alpn field private,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+mbedtls,c19b8e80e7,2025-02-19,11797725,Update include paths in C files,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+mbedtls,dd14c0a11e,2025-02-13,87c7615e,Remove in_hshdr,3,3,12,22,12,22,0,0,0,3,0,0,0,3,0,0,0,108,3,8,10,0,0,0,1,0
+mbedtls,d137f15e1b,2025-02-06,940e229a,mbedtls_config.h: remove definition of MBEDTLS_KEY_EXCHANGE_DHE_RSA_ENABLED,2,2,0,33,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,02ae66830e,2025-02-06,940e229a,check_config.h: remove checks for DHE-RSA,1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,b7e2eccf1f,2025-02-06,940e229a,ssl_ciphersuites: remove MBEDTLS_KEY_EXCHANGE_SOME_XXDH_1_2_ENABLED,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,b8621b6f9d,2025-02-06,940e229a,ssl_ciphersuites: remove references to DHE-RSA key exchanges,4,4,4,281,4,281,0,0,0,9,0,0,0,1,0,1,0,186,1,0,3,0,0,0,1,0
+mbedtls,89743b5db5,2025-02-06,940e229a,ssl_tls: remove code related to DHE-RSA,4,4,0,151,0,151,0,0,0,4,0,0,0,4,0,2,0,240,4,0,0,0,0,0,1,0
+mbedtls,cf4e6a18e6,2025-02-05,dec5ef6f,Remove unused variable in ssl_server.c,1,1,0,5,0,5,0,0,0,1,0,0,0,1,0,0,0,483,1,0,0,0,0,0,1,0
+mbedtls,c89fa17ba3,2025-02-04,11797725,Update configs README,2,1,7,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,6e5dfa851c,2025-02-04,11797725,Move crypto configs to TF-PSA-Crypto,3,3,0,812,0,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,837130cf65,2025-02-04,e28751af,Improve Changelog and correct alg selection,2,1,10,7,6,6,0,0,0,1,0,0,0,0,0,0,0,68,1,6,6,0,0,0,0,0
+mbedtls,d0498803a1,2025-02-03,e28751af,Correct typos in comments,1,1,3,6,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,afa11db620,2025-02-01,87c7615e,Remove obselete checks due to the introduction of handhsake defragmen...,1,1,0,17,0,17,0,0,0,1,0,0,0,1,0,0,0,488,1,0,0,0,0,0,1,0
+mbedtls,2547ae9fcc,2025-01-31,11797725,Move SSL macro checks from TF-PSA-Crypto to Mbed TLS,2,2,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0
+mbedtls,0c29cf87b1,2025-01-30,e28751af,Move ssl_ticket to the PSA API,5,3,81,42,72,38,0,0,0,3,1,0,2,0,0,0,0,2065,3,59,66,0,0,0,1,0
+mbedtls,072c98eb75,2025-01-29,ad8032b1,Remove empty #if #endif block,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,53fe26c5ad,2025-01-28,ad8032b1,Update a function's doxygen,1,1,3,6,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,28905b76fa,2025-01-28,ad8032b1,Remove mention of USE_PSA_CRYPTO in documentation,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,c7403edad8,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls12_client (part 2),1,1,2,33,2,33,0,0,0,2,0,0,0,1,0,0,0,213,1,2,2,0,0,0,0,0
+mbedtls,fef408976f,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls12_client (part 1),1,1,0,228,0,228,0,0,0,5,0,2,0,2,0,2,0,250,4,0,0,0,0,0,0,0
+mbedtls,8fcfcf947c,2025-01-28,ad8032b1,Appease unifdef,1,1,2,8,2,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,07a1edd590,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls.c (part 2),1,1,5,105,5,105,0,0,0,3,0,1,0,1,0,1,0,125,2,3,5,0,0,0,0,0
+mbedtls,88800ddcc6,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls.c (part 1),1,1,1,688,1,688,0,0,0,22,0,6,0,5,0,8,0,230,9,1,1,0,0,0,0,0
+mbedtls,1a3959c84e,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_msg.c,1,1,0,305,0,305,0,0,0,4,0,1,0,3,0,1,0,324,3,0,0,0,0,0,0,0
+mbedtls,df5e1b6864,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls12_server.c (part 2),1,1,0,9,0,9,0,0,0,1,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0
+mbedtls,58916768b7,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls12_server.c (part 1),1,1,1,181,1,181,0,0,0,6,0,0,0,3,0,1,0,214,3,0,1,0,0,0,0,0
+mbedtls,0b44a81f07,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls13*.c part 2,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0
+mbedtls,855f5bf244,2025-01-28,ad8032b1,Rm dead !USE_PSA code: ssl_tls13_xxx (part 1),2,2,0,69,0,69,0,0,0,5,0,0,0,2,0,0,0,86,2,0,0,0,0,0,0,0
+mbedtls,48e0e3a356,2025-01-28,ad8032b1,Rm dead !USE_PSA code: check_config.h,1,1,2,22,2,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+mbedtls,615914b5ac,2025-01-28,ad8032b1,Rm dead !USE_PSA code: SSL headers (part 2),1,1,2,14,2,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+mbedtls,11ae619e77,2025-01-28,ad8032b1,Rm dead !USE_PSA code: SSL headers (part 1),2,2,0,79,0,79,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+mbedtls,873816129e,2025-01-28,ad8032b1,Rm dead !USE_PSA code: SSL ciphersuite (part 2),1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,daeaa51943,2025-01-28,ad8032b1,Rm dead !USE_PSA code: SSL ciphersuites (part 1),2,2,0,13,0,13,0,0,0,1,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0
+mbedtls,b18c8b957b,2025-01-28,ad8032b1,Rm dead !USE_PSA code: SSL hooks,4,4,0,237,0,237,0,0,0,12,0,2,0,4,0,1,0,68,6,0,0,0,0,0,0,0
+mbedtls,f60b09b019,2025-01-28,ad8032b1,Rm dead !USE_PSA code: X.509,4,4,0,65,0,65,0,0,0,5,0,0,0,4,0,0,0,139,4,0,0,0,0,0,0,0
+mbedtls,b70e76a1e6,2025-01-27,87c7615e,Add a safety check for in_hsfraglen,1,1,3,0,3,0,0,0,0,1,0,0,1,0,0,0,0,110,1,3,3,0,0,0,0,0
+mbedtls,aaa152ed91,2025-01-26,87c7615e,Allow fragments less HS msg header size (4 bytes),1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,107,1,1,1,0,0,1,0,0
+mbedtls,3dfe75e115,2025-01-26,87c7615e,Remove mbedtls_ssl_reset_in_out_pointers,2,2,5,8,5,8,0,0,0,2,0,0,2,0,0,1,0,53,2,4,5,0,0,0,1,0
+mbedtls,27bc56303a,2025-01-24,940e229a,docs: remove references of DHE-PSK,2,1,0,7,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,6ba324de02,2025-01-24,940e229a,mbedtls_config: remove MBEDTLS_KEY_EXCHANGE_DHE_PSK_ENABLED,2,2,0,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,a07345247e,2025-01-24,940e229a,check_config: remove checks for DHE-PSK,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,6348b46c0b,2025-01-24,940e229a,ssl_ciphersuites: remove references/usages of DHE-PSK,3,3,1,221,1,221,0,0,0,3,0,0,0,0,0,0,0,13,0,0,1,0,0,0,1,0
+mbedtls,48659a1f9c,2025-01-24,940e229a,ssl_tls: remove usage of DHE-PSK,4,4,13,140,13,140,0,0,0,7,0,0,0,7,0,0,0,290,7,8,12,0,0,0,1,0
+mbedtls,cad11ada7f,2025-01-18,87c7615e,Review comments,1,1,4,5,4,5,0,0,0,2,0,0,0,0,0,0,0,107,1,3,4,0,0,0,0,0
+mbedtls,6b64a1ba37,2025-01-16,940e229a,x509: remove definition and implementation of x509write_crt_set_serial,2,2,0,46,0,46,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+mbedtls,6402c35eca,2025-01-14,ad8032b1,Remove internal helper mbedtls_ssl_get_groups() Signed-off-by: Manuel Pégourié-Gonnard <manuel.pegou,5,5,6,16,6,16,0,0,0,6,0,0,0,0,0,1,0,243,3,3,6,0,0,0,1,0
+mbedtls,6b720161ca,2025-01-14,ad8032b1,Remove mbedtls_ssl_conf::curve_list,3,3,1,70,1,70,0,0,0,4,0,0,0,2,0,0,0,103,2,0,0,0,0,0,1,0
+mbedtls,93d4591255,2025-01-14,ad8032b1,Remove deprecated function mbedtls_ssl_conf_curves(),5,2,1,144,1,75,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+mbedtls,bc7c523420,2025-01-08,d5c722fa,Remove uses of secp244k1,8,4,1,40,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,ac2cf1f26c,2024-12-25,87c7615e,Defragment incoming TLS handshake messages,5,4,113,15,111,15,0,0,0,5,0,0,3,0,3,1,0,107,3,64,97,0,0,0,0,0
+mbedtls,08d8cc57db,2024-12-16,12cc3145,Remove tf-psa-crypto directory,504,235,0,266351,0,141227,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+mbedtls,1bf85a8634,2024-12-16,90f0e5ae,mbedtls_config: Cleaned up legacy sections.,1,1,13,82,13,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,80e76b66af,2024-12-16,90f0e5ae,Moved options to new sections.,1,1,763,747,763,747,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,0,0
+mbedtls,acd560f887,2024-12-16,90f0e5ae,mbedtls_config: Added new section placeholders.,1,1,37,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,51f228cc1b,2024-12-11,12cc3145,Switch to actual TF-PSA-Crypto build_info.h,17,15,165,120,160,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,0,0,0,0,0
+mbedtls,e11ae17c60,2024-12-11,12cc3145,Split check_config.h,3,3,701,648,701,648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,550,0,0,0,1,0
+mbedtls,f6d17ca13c,2024-12-11,12cc3145,Switch to tf-psa-crypto/build_info.h,68,66,73,118,65,116,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mbedtls,4393dff8ca,2024-12-11,12cd392c,Specify previously missed XMM register clobbers in AES-NI asm blocks,1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,44,0,0,3,0,0,0,0,0
+mbedtls,2654081885,2024-12-10,12cc3145,Adapt TF-M configurations to config split,2,2,543,508,543,508,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,1,0
+mbedtls,c66147df72,2024-12-09,dec5ef6f,Refactor & improve internal iop export public-key setup and complete APIs,1,1,18,18,18,18,0,0,0,2,0,0,0,0,0,0,0,22,0,0,18,0,0,0,0,1
+mbedtls,1daabc113b,2024-12-09,dec5ef6f,Refactor and improve iop export public-key setup and abort APIs,1,1,9,17,9,17,0,0,0,2,0,1,0,0,0,0,0,42,1,7,8,0,0,0,0,1
+mbedtls,3c46535ff9,2024-12-09,dec5ef6f,Rename mbedtls_psa_export_public_key_iop_operation_t,4,4,11,11,11,11,0,0,0,3,0,0,0,0,0,0,0,22,0,0,8,0,0,0,0,0
+mbedtls,f466a284c1,2024-12-09,dec5ef6f,Fix checks for key type in psa_export_public_key_iop_setup(),1,1,4,2,4,2,1,0,0,1,1,0,0,0,0,0,0,51,1,4,4,0,0,0,0,0
+mbedtls,4cffd5d4f3,2024-12-09,dec5ef6f,Add implementaion for psa_export_public_key_iop_complete(),1,1,22,1,22,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,17,0,0,0,0,0
+mbedtls,2cfce63fe6,2024-12-09,dec5ef6f,Fix status variable type in mbedtls_psa_ecp_export_public_key_iop_setup(),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+mbedtls,af2595b4a7,2024-12-09,dec5ef6f,Add implementation for mbedtls_psa_ecp_export_public_key_iop_complete(),1,1,27,0,27,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,22,0,0,0,0,0
+mbedtls,c1fc136b14,2024-12-09,dec5ef6f,Add Header for mbedtls_psa_ecp_export_public_key_iop_complete(),1,1,25,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0
+mbedtls,de7aae1ba0,2024-12-09,d5c722fa,PSA interruptible sign/verify: detect unsupported mechanism in start,2,1,32,4,30,2,0,0,0,2,0,0,0,0,1,0,0,73,2,2,19,0,0,0,0,0
+mbedtls,c5f518357d,2024-12-09,d5c722fa,PSA sign/verify: more uniform error on an unsupported hash,1,1,89,9,89,9,0,0,0,1,1,0,0,0,1,0,0,23,0,0,64,0,0,0,0,0
+mbedtls,6a2cbe77fa,2024-12-04,12cc3145,Move driver wrappers generation to tf-psa-crypto,17,1,18,13,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,1fe5277c88,2024-12-04,12cc3145,Remove unnecessary error.h inclusions,8,7,1,10,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,6924564970,2024-12-04,12cc3145,Move back timing.c to mbedtls,9,2,7,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,18047f0b01,2024-12-04,12cc3145,Move config_adjust_legacy_crypto.h to tf-psa-crypto,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,8b592d28f9,2024-12-04,12cc3145,Move psa_to_ssl_errors,2,2,11,18,11,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0
+mbedtls,80963c64eb,2024-12-04,12cc3145,Move hkdf.h to tf-psa-crypto,2,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,3ed75c5b4f,2024-12-04,12cc3145,Move psa_test_wrappers.h/c to tf-psa-crypto,4,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,a17ffc7a0b,2024-12-04,90f0e5ae,test suites: Refactored component_test_ccm_aes_sha256.,2,1,7,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1
+mbedtls,c1be62361c,2024-12-04,90f0e5ae,tf-psa-crypto config docs: Removed references to MBEDTLS_PSA_CRYPTO_CONFIG.,1,1,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,4f619e12e7,2024-12-04,90f0e5ae,Renamed MBEDTLS_PSA_CRYPTO_CONFIG_FILE & MBEDTLS_PSA_CRYPTO_USER_CONFIG_FILE,9,3,37,37,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,5da58e5c18,2024-12-04,90f0e5ae,tests/configs: Adjusted for migration of MBEDTLS_PSA_CRYPTO_CONFIG_FILE.,10,5,28,31,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,1f0d469e1d,2024-12-04,90f0e5ae,Cleaned up MbedTLS/tf-psa-crypto configs.,1,1,0,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,bee70a7341,2024-12-04,90f0e5ae,configs: Removed references to MBEDTLS_USE_PSA_CRYPTO,4,4,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,2db2f8ba6d,2024-12-04,90f0e5ae,configs: Migrated config-symmetric-only,2,2,34,31,34,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0
+mbedtls,463a3ec6f9,2024-12-04,90f0e5ae,configs: Migrated config-thread,2,2,24,23,24,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,1,0,0,0
+mbedtls,bca85e677b,2024-12-04,90f0e5ae,configs: Migrated config-tfm,2,2,53,56,53,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0
+mbedtls,0d8e319176,2024-12-04,90f0e5ae,configs: Migrated config-suite-b,2,2,39,38,39,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+mbedtls,1ae28bf34a,2024-12-04,90f0e5ae,configs: Migrated config-ccm-psk-(d)tls1_2,3,3,21,37,21,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+mbedtls,861b90c257,2024-12-04,90f0e5ae,Migrated General and test configuration options (contd).,2,2,63,63,63,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,2968dfc2f3,2024-12-04,90f0e5ae,crypto_config: Added Cryptographic mechanism selection section.,1,1,8,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,cb32d084aa,2024-12-04,90f0e5ae,crypto_config: Migrated newer configuration options.,3,2,70,66,66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,f33250fcc1,2024-12-04,90f0e5ae,crypto_config: Migrated MBEDTLS_NULL_CIPHER in legacy-crypto,3,2,30,30,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,127ffb507c,2024-12-04,90f0e5ae,crypto_config: Migrated legacy-crypto selection options.,2,2,755,746,755,746,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0
+mbedtls,a19e07fd14,2024-12-04,90f0e5ae,crypto_config: Migrated crypto-drivers selection options.,2,2,570,563,570,563,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,626439ae50,2024-12-04,90f0e5ae,crypto_config: Migrated PSA core selection options.,2,2,353,344,353,344,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,14489499e7,2024-12-04,90f0e5ae,crypto_config: Migrated data format selection options.,2,2,110,101,110,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+mbedtls,45544e0bc3,2024-12-04,90f0e5ae,crypto_config: Migrated cryptographic mechanism selection options.,2,2,232,223,232,223,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0
+mbedtls,2056958eb3,2024-12-04,90f0e5ae,crypto_config: Migrated General and test configuration options.,2,2,117,107,117,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,25ae42e677,2024-12-04,90f0e5ae,crypto_config: Migrated Platform options.,2,2,356,347,356,347,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+mbedtls,2761d18c00,2024-12-02,ca2b8c28,Add issue reference for ECP_RESTARTABLE limitations,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,745e561d2d,2024-12-02,ca2b8c28,Move the psa_init() warnings to _CLI and _SRV,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,056cb14bad,2024-12-02,ca2b8c28,Remove USE_PSA references from crypto documentation,2,2,17,24,17,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,582ecd0ce1,2024-12-02,ca2b8c28,Remove USE_PSA references from X509 documentation,3,3,22,33,22,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,130ece0b6e,2024-12-02,ca2b8c28,Remove USE_PSA references from SSL documentation,2,2,5,8,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,277bba89fb,2024-12-02,ca2b8c28,Remove USE_PSA references from config documentation,3,3,21,52,21,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,685d128c0f,2024-12-01,e359f7f9,Make mbedTLS compile with MS-DOS DJGPP,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,1,0,0,0,0
+mbedtls,0abc1ce1ea,2024-11-30,12cd392c,Specify register clobbers in mbedtls_aesni_crypt_ecb(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0
+mbedtls,19d418a471,2024-11-29,dec5ef6f,Clarify why we set num_ops to 1 in iop key generation,2,1,10,0,4,0,0,0,0,1,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+mbedtls,29f65a874f,2024-11-28,dec5ef6f,Chane error code in psa_export_public_key_iop_setup() in case key size is 0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,49,0,0,1,0,0,0,0,0
+mbedtls,208c01b663,2024-11-27,dec5ef6f,Add PSA interruptible key generation get num ops API,3,3,20,2,20,2,0,0,0,2,0,0,0,0,1,0,0,33,0,0,9,0,0,0,0,0
+mbedtls,3c7f5c0047,2024-11-27,dec5ef6f,Change pointer init in export public-key iop struct to NULL,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,84cc90f63a,2024-11-27,dec5ef6f,Improve parameter checking in psa_export_public_key_iop_setup(),1,1,7,2,7,2,0,0,0,1,0,0,0,0,0,0,0,49,0,0,5,0,0,0,0,0
+mbedtls,b30233f6c3,2024-11-27,dec5ef6f,Change key param to mbedtls_svc_key_id_t in psa_export_public_key_iop_setup(),3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mbedtls,ada977f4c3,2024-11-27,dec5ef6f,Add PSA iop export public-key abort API,1,1,12,3,12,3,0,0,0,1,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0
+mbedtls,cd189e881b,2024-11-27,dec5ef6f,Add PSA iop export public-key setup API,1,1,52,2,52,2,0,0,0,1,0,0,0,0,0,0,0,46,0,0,43,0,0,0,0,0
+mbedtls,3d5ed793e7,2024-11-27,dec5ef6f,Add PSA internal iop export public-key abort function,1,1,17,0,17,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+mbedtls,14aef98758,2024-11-27,dec5ef6f,Add internal iop export public-key abort API,1,1,10,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+mbedtls,e2a9b6a3b5,2024-11-27,dec5ef6f,Add internal iop export public-key setup API,1,1,25,0,25,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,21,0,0,0,0,0
+mbedtls,9958ff6e96,2024-11-27,dec5ef6f,Add PSA iop export public-key struct members,1,1,7,2,7,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,6,0,0,0,0,0
+mbedtls,07d2bc0ffe,2024-11-27,dec5ef6f,Add headers for internal iop export public-key setup & abort APIs,1,1,38,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,0,0
+mbedtls,5bcd3cc217,2024-11-27,dec5ef6f,Add internal struct for iop export public-key context,1,1,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+mbedtls,8bfa04a182,2024-11-26,1d541fec,Added debug print in tls13 ssl_tls13_write_key_share_ext,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,57,1,1,1,0,0,0,0,0
+mbedtls,1630603ef1,2024-11-25,dec5ef6f,Change internal iop generate key error variable to int,2,2,2,3,2,3,0,0,0,2,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+mbedtls,c57f6fcd05,2024-11-21,dec5ef6f,Fix code stayle in iop export public-key function,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0
+mbedtls,93ba625b96,2024-11-21,12cc3145,Remove MBEDTLS_PSA_CRYPTO_CONFIG configuration option,26,14,40,528,14,446,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+mbedtls,f5a82fd0a2,2024-11-21,dec5ef6f,Add ecp prefix to internal iop generate key function names,3,3,12,11,12,11,0,0,0,3,0,0,0,0,3,3,0,37,0,0,9,0,0,0,0,0
+mbedtls,2266197e9c,2024-11-21,dec5ef6f,Move internal iop generate key function headers to psa_crypto_ecp.h,2,2,61,63,61,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,0
+mbedtls,174a4e9960,2024-11-21,dec5ef6f,Change iop export public-key initlization example,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,61372efe95,2024-11-20,11797725,Refactor tests and programs comment,3,2,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mbedtls,e1d6f74b92,2024-11-20,11797725,Move generate_psa_constants.py to tf-psa-crypto,4,1,27,10,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,75e8e030b1,2024-11-20,11797725,Fix paths for programs/psa,7,2,9,9,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mbedtls,ced26059e3,2024-11-20,11797725,Move psa programs to tf-psa-crypto directory,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,a898127144,2024-11-20,dec5ef6f,Remove PSA_ERROR_NOT_SUPPORTED as a return value to iop abort APIs,1,1,0,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+mbedtls,bf1af30ec9,2024-11-20,dec5ef6f,Correct typos in iop export public-key headers,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+mbedtls,39d54e1fb1,2024-11-20,dec5ef6f,Prevent a warning in case PSA_VENDOR_ECC_MAX_CURVE_BITS is set to 0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0
+mbedtls,44e0f75ca3,2024-11-20,dec5ef6f,Use PSA Macros instead of legacy ones in psa_generate_key_iop_complete(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0
+mbedtls,08e28e6573,2024-11-20,dec5ef6f,Check error codes on called functions in mbedtls_psa_generate_key_iop_complete,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+mbedtls,db0c4a4b2c,2024-11-18,dec5ef6f,Remove MBEDTLS_ECP_MAX_MPI_BYTES macro,2,2,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,32,0,0,1,0,0,0,1,0

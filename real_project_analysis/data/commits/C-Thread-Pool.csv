@@ -1,0 +1,106 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+C-Thread-Pool,29e85feeea,2023-12-18,0d725fb8,Merge ghost commits,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,46,0,0,4,0,0,0,0,0
+C-Thread-Pool,d3f1967cd3,2023-12-18,b767cd0e,fix: ensure that SA_ONSTACK is declared,1,1,3,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+C-Thread-Pool,222340137b,2023-12-18,b767cd0e,"Reapply ""fix: set the SA_ONSTACK flag""",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+C-Thread-Pool,81b76df72e,2023-12-18,0d725fb8,"Revert ""fix: set the SA_ONSTACK flag""",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+C-Thread-Pool,96146f08b4,2023-12-18,b767cd0e,fix: properly destroy mutex during reset,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,1,0,0,0
+C-Thread-Pool,734bdf4d95,2023-10-06,b767cd0e,feat: make the thread name configurable,1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,45,0,0,6,0,1,0,0,0
+C-Thread-Pool,59683c790d,2023-06-27,0c6d6d5d,Fix typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,3fe36a50af,2022-12-25,f17972f7,docs: fix typos,3,1,5,5,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,b2f44889cb,2022-12-19,b767cd0e,fix: set the SA_ONSTACK flag,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+C-Thread-Pool,2ea22f1271,2022-09-30,b767cd0e,feat: compatiblity with Mac OS X,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+C-Thread-Pool,3f46454ca9,2021-04-29,a7e73b93,fix: limit thread name length to 16bytes,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,45,0,0,2,0,1,0,0,0
+C-Thread-Pool,3cff334538,2021-03-16,be0b32ae,Fix error in FreeBSD,1,1,4,0,4,0,1,0,0,1,0,0,0,0,0,0,0,46,0,0,4,0,0,0,0,0
+C-Thread-Pool,3d8745b98c,2020-12-07,a05e94a0,"docs: fix simple typo, successs -> success",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,5fbe481965,2020-09-27,30579c67,Use safe snprintf() instead of sprintf(),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,45,0,0,2,0,0,0,0,0
+C-Thread-Pool,0012ce22b9,2020-07-20,4e024fe6,Fix casting of function pointers,2,2,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+C-Thread-Pool,12656655c7,2019-12-16,77eb2738,fix typo: `untill` -> `until`,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,71f5bc9613,2019-11-22,6e6a1e25,Fix warning at line 285.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+C-Thread-Pool,35a6d7427b,2018-12-06,8ed4ef32,"Fixed wrong check for malloc result, as found with cppcheck",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+C-Thread-Pool,f0d75f72eb,2018-11-30,06bcda9b,thpool.c:458 ~ 464 modify Remark Message,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,ebe78873c0,2017-12-30,b1fe1b9b,Update example.c,1,1,6,11,6,11,0,0,0,1,0,0,0,0,1,2,0,13,0,0,6,0,0,0,0,0
+C-Thread-Pool,29f1537116,2017-01-29,d6151bad,Commented the warning supression in thpool_resume.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,a3916021c8,2017-01-29,20948239,Add POSIX macro to remove any warnings under strict C compilation,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+C-Thread-Pool,e108ee5ab6,2017-01-29,20948239,Small refactoring without affecting functionality,1,1,11,10,11,10,0,0,0,5,0,0,0,0,0,0,0,45,0,0,10,0,0,0,0,1
+C-Thread-Pool,3ac7d25722,2017-01-29,d6151bad,Fix unused arg gcc warnings.,1,1,4,2,4,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+C-Thread-Pool,251b1125c6,2017-01-24,d6151bad,Moved all error msgs to a central macro.,1,1,15,23,15,23,0,0,0,5,0,1,0,0,0,0,0,45,1,3,14,0,0,0,0,0
+C-Thread-Pool,8aa0c1c1a5,2017-01-22,d6151bad,Added macro to disable print statements.,1,1,16,1,16,1,0,0,0,5,1,0,0,0,0,0,0,45,1,8,16,0,0,0,0,0
+C-Thread-Pool,7a2f4e76c7,2017-01-22,d6151bad,Thread name warning should only appear under debug.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,1,0,0,0
+C-Thread-Pool,0b249383d7,2017-01-18,20948239,Fix whitespace,1,1,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,e906f2fa28,2017-01-18,20948239,Solve warning about incompatible types,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0
+C-Thread-Pool,2ba0bd59fa,2017-01-17,20948239,Fix whitespace,4,2,53,54,53,53,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+C-Thread-Pool,48ae25d35a,2017-01-17,20948239,Add API function to get number of working threads,6,2,110,0,27,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,1,0,0,0
+C-Thread-Pool,52552779cc,2016-09-04,e377a654,Change worker return type to void; add extern C,2,2,11,10,11,10,0,0,0,2,0,0,0,0,0,0,0,48,0,0,11,0,0,0,0,0
+C-Thread-Pool,23275063a4,2016-07-29,b5441a75,fix one error msg,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+C-Thread-Pool,49e5cbe5af,2016-02-03,948ea60c,Use prctl on Linux to follow standard GNU/Linux functions,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,48,0,0,4,0,0,0,0,0
+C-Thread-Pool,ff84a85f43,2016-02-03,948ea60c,forgot OS dependent macro,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+C-Thread-Pool,a721288235,2016-02-03,948ea60c,"add _GNU_SOURCE for pthread_setname_np, add NULL check for destroy _GNU_SOURCE: http://man7.org/linu",1,1,4,2,4,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,1,0,0,0
+C-Thread-Pool,e5e9aeee0c,2016-01-27,bd9f48bd,code style: remove space,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,1,0
+C-Thread-Pool,a0c777488d,2015-12-22,89083325,replaced exit with return,2,2,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,12,0,0,4,0,0,0,0,0
+C-Thread-Pool,da2c0fe45e,2015-12-21,a85129d5,move locking inside jobqueue_push and pull,1,1,7,13,7,13,0,0,0,4,0,0,0,0,0,0,0,43,0,0,6,0,1,0,1,0
+C-Thread-Pool,04cf949f9f,2015-12-21,a85129d5,"refactoring jobqueue interface, jobqueue embedded in thpool struct",1,1,54,61,54,61,0,0,0,10,0,0,0,0,0,0,0,46,0,0,54,0,0,0,1,1
+C-Thread-Pool,5e5b177361,2015-12-18,89083325,fixed #21,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+C-Thread-Pool,9f4ac0616b,2015-12-14,d1257faf,Replace prctl w/ pthread_setname_np. Use predefined macros to differ btwn linux and os x.,1,1,9,3,9,3,0,0,0,1,0,0,0,0,0,0,0,48,0,0,7,0,1,0,0,0
+C-Thread-Pool,71adb90e04,2015-12-02,a85129d5,Forgot cond_init,1,1,1,5,1,5,0,0,0,1,0,0,0,0,0,0,0,38,0,0,1,0,0,0,0,0
+C-Thread-Pool,49f19b46f2,2015-12-01,a85129d5,use signaling instead of polling in thpool_wait,1,1,8,39,8,39,0,0,0,2,0,0,0,0,0,0,0,44,0,0,8,0,0,0,0,0
+C-Thread-Pool,90c4561942,2015-11-24,948ea60c,"add thread name, fix warning in the example",2,2,6,0,6,0,1,0,0,1,0,0,0,0,0,0,0,41,0,0,5,0,1,0,0,0
+C-Thread-Pool,b58a5431d3,2015-06-26,26c6e6b3,added some (unlikely required) free()s,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,37,0,0,3,0,0,0,0,0
+C-Thread-Pool,e472a4bf75,2015-06-26,26c6e6b3,Fixes for jobqqeue_init and removed exit(),1,1,21,18,21,18,1,0,0,3,0,0,0,0,0,0,0,34,0,0,16,0,0,0,0,0
+C-Thread-Pool,c1b7898782,2015-06-04,e94f39e4,Fixes valgrind errors,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,40,0,0,2,0,0,0,0,0
+C-Thread-Pool,18142eee71,2015-05-10,f69bc417,initilise jobqueue_p->len to 0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+C-Thread-Pool,5aee2f2574,2015-03-31,20948239,THPOOL_DEBUG moved on top,1,1,8,3,8,3,0,0,0,1,0,0,0,0,0,0,0,33,0,0,7,0,0,0,0,0
+C-Thread-Pool,470dcc7521,2015-03-31,9ed07ccb,Add THPOOL_DEBUG define (mandatory for debug msgs),3,1,5,3,3,1,0,0,0,1,0,0,0,0,0,0,0,32,0,0,3,0,0,0,0,0
+C-Thread-Pool,1485e59e63,2015-03-12,20948239,Edit of bug solution,1,1,7,3,7,3,1,0,0,3,0,0,0,0,0,0,0,32,0,0,4,0,0,0,0,0
+C-Thread-Pool,d9bb612759,2015-03-08,9ed07ccb,Fix nonempty heap/stack bug (unit test now passes),1,1,6,0,6,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+C-Thread-Pool,746cf897c3,2015-03-06,20948239,Works now even when compiled with optimization flags,9,1,62,12,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+C-Thread-Pool,8fcdacbbb7,2015-02-12,88a0c785,fix compile warning,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,34,0,0,2,0,0,0,0,0
+C-Thread-Pool,90174270f6,2015-02-06,20948239,Concise error messages,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,38,0,0,2,0,0,0,0,0
+C-Thread-Pool,c2453a71d9,2015-01-18,20948239,Update thpool.h,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+C-Thread-Pool,e68223a4c5,2015-01-18,7d84aef1,Smart polling implemented,4,2,72,21,71,19,0,0,0,3,0,0,0,0,0,0,0,38,0,0,51,0,0,0,0,0
+C-Thread-Pool,f4159b10b6,2015-01-17,20948239,Update example.c,1,1,6,7,6,7,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+C-Thread-Pool,011b2688bf,2015-01-17,20948239,Update thpool.h,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,0e7dc83bf6,2015-01-17,20948239,simplified examples,1,1,18,16,18,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+C-Thread-Pool,49e7851a69,2015-01-17,20948239,Examples added,1,1,55,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,0ec3115cf4,2015-01-17,20948239,Remove includes,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+C-Thread-Pool,14d0ee9e76,2015-01-17,20948239,updated API,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+C-Thread-Pool,5be1beb087,2015-01-17,20948239,Update thpool.h,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,fdd6ce5938,2015-01-17,20948239,updated API,1,1,16,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+C-Thread-Pool,af69fa7180,2015-01-16,20948239,Update doc,1,1,9,5,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,3712dabce4,2015-01-16,20948239,Prettify,2,1,9,11,2,4,0,0,0,2,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+C-Thread-Pool,27bcb3826a,2015-01-16,20948239,Garbage,1,1,0,62,0,62,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,f269de73f8,2015-01-16,20948239,Final cleanup,2,2,191,240,191,240,0,0,0,19,0,0,0,0,0,0,0,32,0,0,158,0,0,0,0,1
+C-Thread-Pool,9441b849dd,2015-01-15,20948239,Simplified,1,1,14,29,14,29,0,0,0,3,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,1
+C-Thread-Pool,bf44140c4f,2015-01-15,20948239,Seperate private from public functions,3,3,233,280,233,280,0,0,0,0,0,0,0,0,3,0,0,0,0,0,74,0,0,0,1,0
+C-Thread-Pool,fcb69261b2,2015-01-14,20948239,Small fixes,2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+C-Thread-Pool,0b32bf5340,2015-01-14,20948239,Cleanup,2,2,1,10,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+C-Thread-Pool,c11bf82827,2015-01-14,20948239,small fixes,1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+C-Thread-Pool,e60a838d19,2015-01-09,20948239,Refactored tests,6,1,140,282,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+C-Thread-Pool,8658cde5a7,2015-01-09,20948239,small fix,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+C-Thread-Pool,725630a030,2015-01-09,20948239,small sync fixes,1,1,11,16,11,16,1,0,0,3,0,0,0,0,0,0,0,32,0,0,5,0,0,0,0,0
+C-Thread-Pool,3a844f4dfb,2015-01-09,20948239,Memore leaks solved,2,2,17,5,17,5,1,0,0,1,0,0,0,0,0,0,0,33,0,0,3,0,0,0,0,0
+C-Thread-Pool,d6d5f3dcd8,2015-01-09,20948239,Garbage,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,2e8087ca20,2015-01-09,20948239,Volatile!,1,1,32,38,32,38,0,0,0,4,0,0,0,0,1,1,0,33,0,0,24,0,0,0,0,0
+C-Thread-Pool,96fe857f5a,2015-01-03,20948239,thpool_continue -> thpool_resume,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+C-Thread-Pool,1c20ad1cde,2015-01-02,20948239,Simplicity,2,2,246,143,246,143,0,0,0,7,0,0,0,0,6,5,0,33,0,0,88,0,0,0,0,0
+C-Thread-Pool,d42a436bfc,2015-01-01,20948239,Clean working,1,1,139,91,139,91,0,0,0,3,0,0,0,0,8,1,0,36,0,0,95,0,0,0,0,0
+C-Thread-Pool,afc34e2419,2014-12-31,20948239,Working ok,2,2,86,27,86,27,0,0,0,4,0,0,0,0,0,0,0,33,0,0,59,0,0,0,0,0
+C-Thread-Pool,68d3ebd676,2014-12-31,20948239,Threads are encapsulated in structs from now on,2,2,18,16,18,16,0,0,0,2,0,0,0,0,0,0,0,27,0,0,13,0,1,0,1,0
+C-Thread-Pool,f3d1a633a3,2014-12-31,20948239,Before making thread struct,2,2,24,30,24,30,0,0,0,4,0,0,0,0,0,0,0,21,0,0,19,0,1,0,0,0
+C-Thread-Pool,311c072378,2014-12-31,20948239,Single listed queue used from now on,1,1,1,1,1,1,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,ecb57846ce,2014-12-31,20948239,Single listed queue used from now on,2,2,114,94,114,94,0,0,0,5,0,0,0,0,0,5,0,27,0,0,67,0,0,0,0,0
+C-Thread-Pool,5fdd1c57e5,2014-12-30,20948239,Cleanup,3,3,14,48,14,48,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1
+C-Thread-Pool,909cb5ae68,2014-12-30,20948239,Cleanup,2,1,38,19,8,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+C-Thread-Pool,0ff9af3da1,2014-12-30,20948239,Cleanup,2,2,90,92,90,92,0,0,0,9,0,0,0,0,0,0,0,25,0,0,76,0,0,0,0,1
+C-Thread-Pool,8fb75e9a82,2014-12-30,20948239,Deadlocks resolved,1,1,51,61,51,61,1,0,0,9,0,0,0,0,0,1,0,24,0,0,24,0,1,0,0,0
+C-Thread-Pool,84e9a02a34,2014-12-30,20948239,Garbage,1,1,17,29,17,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0
+C-Thread-Pool,1045bbda4e,2014-12-29,20948239,Static where needed,2,2,57,57,57,57,0,0,0,12,0,0,0,0,0,0,0,28,0,0,34,0,0,0,0,0
+C-Thread-Pool,fdd7cb296a,2014-12-29,20948239,Works fine if push/pull are not happening concurrently,4,3,147,88,147,88,0,0,0,10,0,0,0,0,3,0,0,25,0,0,80,0,1,0,0,0
+C-Thread-Pool,66fd978dd4,2014-12-29,20948239,Removed job info from threadpool struct,3,2,8,18,8,18,0,0,0,7,0,0,0,0,0,0,0,28,0,0,7,0,1,0,0,0
+C-Thread-Pool,47eac3da93,2014-12-29,20948239,Queue operations are thread-safe,2,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,28,0,0,0,0,1,0,0,0
+C-Thread-Pool,cfff149a5c,2014-12-29,20948239,Queue operations are thread-safe,4,3,54,57,54,57,0,0,0,9,0,0,0,0,0,1,0,30,0,0,37,0,1,0,0,0
+C-Thread-Pool,720c3ba68c,2014-12-29,20948239,thread pool changes,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+C-Thread-Pool,6d9dfdc938,2014-12-29,20948239,Documentation changes,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,30fde660bb,2014-12-29,20948239,Documentation changes,1,1,16,17,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+C-Thread-Pool,d552a6278c,2014-12-29,20948239,Documentation changes,1,1,14,18,14,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+C-Thread-Pool,4240210b5c,2014-11-23,7d84aef1,initial,3,3,146,102,146,102,0,0,0,4,0,0,0,0,8,5,0,29,0,0,105,0,0,0,0,0
+C-Thread-Pool,093a9b7021,2011-11-07,20948239,Solved race condition that was giving segfault when adding large number of jobs while workers were r,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,1,0,0,0

@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+bottle,aba0c1a7ee,2026-10-23,efa66eb7,change: Drop legacy multipart header stitching,2,1,2,23,2,3,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,1,0,0
+bottle,8ec5fe2942,2026-10-10,efa66eb7,perf: Cache normalized header names,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,1,0,0
+bottle,775fd577fc,2026-10-10,efa66eb7,perf: Avoid unnecessary work in BaseResponse.headerlist,1,1,9,10,9,10,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,1,0,0
+bottle,cea0c9a523,2026-10-10,efa66eb7,perf: Reduce thread-local lookups,1,1,9,8,9,8,0,0,0,2,0,0,0,1,1,0,0,54,1,4,8,0,1,0,0,1
+bottle,c6e543ad7a,2026-10-10,efa66eb7,perf: Reduce thread-local usage change: Limit response status reason to printable ASCII,2,1,34,46,28,40,0,0,0,8,0,0,0,1,0,2,0,29,1,5,27,0,1,0,0,1
+bottle,ba4efd126b,2026-09-18,efa66eb7,fix: ConfigDict meta 'validate' -> 'filter',2,1,17,11,7,11,1,0,0,5,0,0,0,0,0,0,0,22,0,0,7,0,0,0,0,0
+bottle,90bd4aa743,2026-09-15,20a7d882,implement json.enable and json.dump_func configs,3,1,30,12,5,9,0,0,0,3,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+bottle,457a8fa82f,2026-09-06,efa66eb7,fix: etag handling in static_file(),2,1,28,10,5,4,1,0,0,1,0,0,1,0,0,0,0,65,1,5,5,0,0,0,0,0
+bottle,62d7e076e1,2026-07-19,efa66eb7,Minor cleanup,1,1,5,5,5,5,0,0,0,1,0,0,0,0,0,0,0,65,1,5,5,0,0,0,0,1
+bottle,b73bd1db5b,2026-07-19,efa66eb7,fix: If-Modified-Since should be ignored if If-None-Match is present.,2,1,23,4,5,4,1,0,0,1,0,0,1,0,0,0,0,65,1,4,4,0,0,0,0,0
+bottle,2a743a302a,2026-03-23,d1a84a69,refactor: change dict to comprehension,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,1
+bottle,62ca0c3198,2026-01-02,efa66eb7,HTTP -> HTTPS everywhere,17,1,86,86,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,da7e372f21,2026-01-02,efa66eb7,fix: Anonymous route wildcards with filter,2,1,16,8,11,8,1,0,0,3,0,0,0,1,0,0,0,51,1,11,11,0,0,0,0,0
+bottle,a8086fffd7,2025-09-13,893bb1a4,feat: optimize `static_file()`,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,65,1,1,1,0,0,0,0,0
+bottle,0207a34f0c,2025-06-27,efa66eb7,typing: Type hints for pyright,1,1,2,1,2,1,0,0,0,2,0,0,0,0,0,0,0,12,1,2,2,0,0,0,0,0
+bottle,b1bd8bbeaf,2025-06-15,efa66eb7,Formatting and cleanup,1,1,57,62,57,62,0,0,0,22,0,0,0,1,0,0,0,82,5,11,48,0,0,0,0,1
+bottle,e3d8e71107,2025-06-15,efa66eb7,fix: Route.__repr__ and Route.get_undecorated_callback exceptions.,3,1,81,13,19,13,1,0,0,2,0,0,0,0,0,0,0,18,0,0,19,0,0,0,0,0
+bottle,b5631d1d8a,2025-05-09,c46d4325,feat: add support for repeated query params,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+bottle,b2cf884ed8,2025-04-21,0758d347,refactor: Change `dict()` to literal `{}` (#1318),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,1
+bottle,b6fd20c4fd,2025-04-21,e4ac50b2,Update copyrights from 2024 to 2025 (#1475),2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,a565987507,2025-04-21,efa66eb7,refactor: Class syntax changed ages ago,1,1,21,21,21,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,1
+bottle,e0c5ed19e2,2025-04-21,efa66eb7,fix: Closeable body not closed in rare edge cases,4,1,76,12,16,1,1,0,0,3,0,0,1,0,1,0,0,57,1,3,14,0,0,0,0,0
+bottle,c65347fb43,2025-02-15,efa66eb7,fix: Remove old WSGIRequestHandler workaround,1,1,2,5,2,5,1,0,0,1,0,0,0,0,1,2,0,20,0,0,2,0,0,0,1,0
+bottle,750fcbebbc,2024-12-06,efa66eb7,refactor: Switch to inspect.signature(),1,1,13,15,13,15,0,0,0,2,0,0,0,0,0,1,0,11,0,0,13,0,0,0,0,1
+bottle,8585d8cac3,2024-11-18,efa66eb7,refactor: Remove aliases for str or map,2,1,22,26,20,24,0,0,0,14,0,0,0,0,0,0,0,82,4,12,20,0,0,0,1,1
+bottle,8804dd957f,2024-11-18,efa66eb7,fix: touni() should recognize bytearray,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+bottle,3b9e865271,2024-11-18,efa66eb7,"change: Translate WSGI strings to utf8 immediately, not only on demand.",6,1,59,114,40,70,0,0,0,20,0,0,0,0,1,1,0,36,0,0,36,0,0,0,0,0
+bottle,39d1336827,2024-11-18,efa66eb7,change: Use byte literals where possible,1,1,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,33,2,2,5,0,0,0,0,0
+bottle,7ee66b485c,2024-11-18,efa66eb7,change: Remove future import,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+bottle,4a183493ae,2024-11-18,efa66eb7,change: Removed `tonat()` helper,4,1,14,16,5,7,0,0,0,4,0,0,0,0,0,0,0,26,1,1,5,0,0,0,0,0
+bottle,726da5454a,2024-11-18,efa66eb7,change: Removed Python 2 imports and some workarounds,6,1,80,152,61,123,0,0,0,14,0,1,0,0,0,7,0,36,1,1,50,0,0,1,0,0
+bottle,6917b86ea5,2024-11-18,efa66eb7,fix: Fix deprecated Bottle(autojson=False) behavior,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+bottle,7a7e544495,2024-10-15,efa66eb7,fix: depr() should return DeprecationWarning,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+bottle,5740f17794,2024-09-26,efa66eb7,fix: Reloaded chokes on modules without `__file__`,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,1,0,0
+bottle,5053b2322a,2024-09-16,efa66eb7,"change: Rename `bottle.py` script install to `bottle` docs: Update details on CLI use, release notes",5,1,37,15,5,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+bottle,a93eda4ded,2024-09-14,efa66eb7,fix: Reloader choked on very old namespace modules.,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,19,1,1,1,0,0,1,0,0
+bottle,87b2bf16d8,2024-09-11,bbf08d79,"fix: Include captured exception on ""Invalid JSON"" errors (#1454)",2,1,4,2,2,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,1,0,0
+bottle,1d5b4415a4,2024-09-07,0758d347,refactor ServerAdapter.__repr__(),1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,1
+bottle,0568460f05,2024-09-07,0758d347,remove some redundant from FileCheckerThread.run(),1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,19,1,1,1,0,1,0,1,0
+bottle,4684711e90,2024-09-07,efa66eb7,style: Minor style fixes,1,1,9,7,9,7,0,0,0,1,0,0,0,0,0,0,0,22,0,0,5,0,0,0,0,0
+bottle,fcd774a234,2024-09-07,efa66eb7,refactor: Rename badly named positional parameter,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,1
+bottle,7a53615efc,2024-09-07,efa66eb7,fix: Bottle.__setattr__ breaks data descriptors,3,1,6,4,1,2,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,c92516069e,2024-09-07,efa66eb7,chore: Ported project to pyproject.toml and pytest,11,2,95,134,1,45,0,0,0,1,0,0,0,0,0,0,0,41,1,1,1,0,0,0,0,0
+bottle,c833529a52,2024-09-07,efa66eb7,docs: Use shorter class alias for BaseRequest/BaseResponse,6,1,55,55,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+bottle,a014a6c4ce,2024-09-07,efa66eb7,depr: Removed RouteReset and associated logic.,3,1,24,42,19,37,0,0,0,2,0,1,0,0,0,0,0,37,1,15,19,0,0,0,0,0
+bottle,f0b62797bf,2024-09-05,efa66eb7,fix: Display IPv6 URLs correctly on startup,1,1,10,5,10,5,1,0,0,1,0,0,0,1,1,0,0,82,1,1,9,0,0,0,0,0
+bottle,e6bc34b06f,2024-09-05,efa66eb7,chore: Start of 0.14 release,3,1,7,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,ee61a68e84,2024-09-05,efa66eb7,Fix #1350: Serve compressed files as is in static_file(),3,1,28,17,16,15,1,0,0,1,0,0,1,0,0,0,0,65,1,14,14,0,0,0,0,0
+bottle,90d749bef4,2024-09-05,efa66eb7,fix: Avoid ImportWarning when using _ImportRedirect,1,1,6,0,6,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,1,0,0
+bottle,957d9f1439,2024-09-05,efa66eb7,fix: Multipart boundaries are case sensitive,2,1,4,3,2,1,1,0,0,1,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+bottle,dcea468565,2024-09-05,efa66eb7,feat: BaseResponse.expires is now timezone aware (UTC),2,1,15,4,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+bottle,fbee2a09b2,2024-09-05,efa66eb7,fix: Remove unused cgi import and warning,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+bottle,11f36c4162,2024-09-05,efa66eb7,fix: Display correct location for deprecation warnings.,1,1,5,5,5,5,1,0,0,3,0,0,0,0,0,0,0,53,1,1,5,0,0,0,0,0
+bottle,98bf0d7e55,2024-09-05,efa66eb7,docs: Update copyright year,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,5948ba318b,2024-09-05,efa66eb7,fix: Make `ConfigDict.setdefault` API match `dict`,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,bc1171e52c,2024-09-05,efa66eb7,docs: Documentation overhaul,23,1,1401,1487,48,57,0,0,0,9,0,0,0,0,0,0,0,14,0,0,42,0,0,0,0,0
+bottle,0fc2b723a6,2024-09-05,efa66eb7,fix: Replace cgi.FieldStorage,6,1,986,32,270,21,1,0,0,6,3,1,0,0,14,0,0,26,3,39,215,0,0,0,0,0
+bottle,df67999584,2022-09-05,72ff8331,Update fapws link,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,9d523f6576,2022-08-03,efa66eb7,fix #1356: JSONPlugin obscures traceback,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,1,0,0,0
+bottle,fd78d672eb,2022-08-03,9e8d1be9,cleanup: Simplified inspect.getargspec polyfills.,1,1,9,28,9,28,0,0,0,1,0,0,0,0,0,1,0,4,0,0,6,0,0,0,0,1
+bottle,1677de087e,2022-06-29,efa66eb7,"Avoid ""ResourceWarning: unclosed file""",1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+bottle,21453baec0,2022-06-14,efa66eb7,fix: Static file not closed on range requests,1,1,8,10,8,10,1,0,0,1,0,0,1,0,1,1,0,64,1,3,8,0,0,0,0,0
+bottle,8dbae77560,2022-06-12,efa66eb7,fix: view decorator does not forward default values if route result is None,1,1,1,1,1,1,1,0,0,3,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+bottle,ca6762c559,2022-06-12,efa66eb7,Fix #1378: Module loader should move from find_mdoule to find_spec.,1,1,7,2,7,2,1,0,0,1,0,0,0,0,1,0,0,4,0,0,6,0,0,1,1,0
+bottle,d1f2ab570d,2022-06-12,efa66eb7,fix #1251: Deprecation warning for imp module.,2,1,6,4,4,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,1,0,0
+bottle,3f7574b0af,2022-03-01,05975b67,add GitHub URL for PyPi,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,eb1982ea22,2022-02-02,edf3d5d1,Fix handling of empty If-Modified-Since header for static files,2,1,7,2,2,2,1,0,0,1,0,0,0,0,0,0,0,63,1,2,2,0,0,1,0,0
+bottle,a885fd0273,2022-02-02,8ea80f77,Update bottle.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,72f6a4b9ba,2022-02-02,b15eda9a,Fix #1359: check for attribute using hasattr,2,1,4,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+bottle,60e103d70d,2022-01-20,68ef7803,Typo in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,d1413a81ea,2021-07-07,efa66eb7,Fix: Multipart file uploads with empty filename not detected as binary.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,0
+bottle,ae7a40b1c2,2021-03-27,efa66eb7,Refactoring,1,1,16,16,16,16,0,0,0,1,0,0,0,1,0,0,0,86,1,13,13,0,0,0,0,1
+bottle,a1e603a7b3,2021-03-27,efa66eb7,fix #1226: Reloading fails for packages started with `python -m`,1,1,4,0,4,0,1,0,0,1,0,0,1,0,0,0,0,87,1,2,2,0,0,0,0,0
+bottle,f9b1849db4,2021-01-01,0758d347,refactor.WSGIFileWrapper.__iter__(),1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,1
+bottle,d3c50b1793,2021-01-01,efa66eb7,Deprecated diesel server adapter,2,1,2,1,1,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+bottle,5e2efb6ad9,2021-01-01,efa66eb7,#fix 1244 Attribute Error if sys.stdout/sys.stderr is None,1,1,14,17,14,17,1,0,0,3,0,0,0,0,1,0,0,85,2,5,13,0,0,0,0,0
+bottle,b3fa1d687c,2020-12-31,efa66eb7,Changed __repr__ of Route,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,4e78a67564,2020-12-31,89f3c0e3,Fix more typos.,1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+bottle,57402ad012,2020-12-31,48b84a59,Improve __repr__ of Route,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,f8fc2c122b,2020-12-31,efa66eb7,Drop fapws3 and Python 3.5 support.,10,1,30,49,1,0,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,f796498aaa,2020-12-31,edf3d5d1,Don't re-raise critical errors that occur while handling an error,1,1,0,3,0,3,0,0,0,1,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0
+bottle,5c48cee0ec,2020-12-31,edf3d5d1,Provide exc_info to start_response() when handling exceptions,1,1,8,1,8,1,0,0,0,2,0,0,1,0,0,0,0,46,1,1,8,0,0,0,0,0
+bottle,d2a91df453,2020-12-31,48b84a59,Add Python3.8 and Python3.9 classifieres,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,0d2fc452ff,2020-12-31,48b84a59,Drop Python version 3.5,2,1,2,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,7d7fb55f86,2020-12-31,48b84a59,Drop Python3.4,2,1,2,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,4ba312fa33,2020-12-31,edf3d5d1,Don't mutate headers dict passed into static_file(),2,1,11,1,1,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,1,0,0
+bottle,207d51d9a3,2020-12-31,0758d347,change list to tuple,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+bottle,eeede5e77a,2020-12-31,0758d347,remove redundant round brackets,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,1,0
+bottle,c8fc1416be,2020-12-31,0758d347,redundant brackets,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+bottle,74ec1909cb,2020-12-31,0758d347,remove useless assignment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+bottle,2802c44f90,2020-12-31,0758d347,some shortenings,1,1,1,4,1,4,0,0,0,1,0,0,0,1,0,0,0,28,1,1,1,0,0,0,0,0
+bottle,971bc50283,2020-12-31,0758d347,fix erroneous expression,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+bottle,f5a9f76586,2020-11-11,efa66eb7,Do not split query strings on `;` anymore.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,1,0
+bottle,0131e74145,2020-10-30,4db65e36,Correct a typo in bottle.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+bottle,f2ba40de7f,2020-06-02,d8a1726b,reuse port in Bjoern adapter,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,332215b2b1,2020-01-03,efa66eb7,fix #1155: Catastrophic backtracking issue in template parser.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,aaee93a5b1,2020-01-03,efa66eb7,fix #1194: Regular expression catastrophic backtracking in bottle.Router.rule_syntax,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,c84c57f6ea,2020-01-03,efa66eb7,Fix catastrophic backtracking issue in header parsing regular expression.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,8561ffbc2e,2019-12-20,efa66eb7,"Revert ""fix #1186: Bottle fails to find templates on windows""",1,1,3,2,3,2,1,0,0,2,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+bottle,48e9dfef69,2019-12-19,a0829679,gunicorn: switch to use BaseApplication,1,1,5,4,5,4,0,0,0,1,0,0,0,0,1,1,0,11,0,0,5,0,0,0,0,0
+bottle,73ffccef39,2019-12-19,aa3730c1,refine parse_date,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+bottle,9f81b8087b,2019-12-19,aa3730c1,fix date formatting for non-English locales,2,1,27,19,15,13,1,0,0,2,0,0,0,1,0,0,0,33,1,1,11,0,0,0,0,0
+bottle,8e898e408a,2019-12-18,d4ce1621,fix typo in the Route class docstring,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,e33f045a7e,2019-12-18,efa66eb7,Fixup for 5c52eb0,2,1,10,11,2,2,1,0,0,3,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+bottle,085f18615f,2019-12-18,efa66eb7,fix #1186: Bottle fails to find templates on windows,1,1,2,3,2,3,1,0,0,2,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+bottle,5c52eb0c0b,2019-12-18,efa66eb7,fix #1187: Allow non-ASCII characters in status_line,2,1,25,1,16,1,1,0,0,5,0,0,0,0,1,0,0,24,0,0,12,0,0,0,0,0
+bottle,3d9a8c1d86,2019-12-09,0ba5b793,aiohttp: Move from aiohttp<2 to aiohttp-wsgi,3,1,7,18,5,16,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,1,0
+bottle,ccadf88107,2019-12-09,0ba5b793,"uvloop: Pass loop to aiohttp to fix backend ""uvloop""",1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+bottle,c684287381,2019-12-09,0ba5b793,"rocket: Drop support for dead backend ""rocket""",12,1,2,71,0,10,0,0,0,5,1,1,0,1,0,1,0,85,2,0,0,0,0,0,0,0
+bottle,e3492dba46,2019-12-09,efa66eb7,Refactoring,1,1,10,12,10,12,0,0,0,4,0,0,0,0,0,0,0,24,0,0,10,0,0,0,0,1
+bottle,201d0b02b2,2019-12-08,efa66eb7,"fix #1174,#1175: Allow cookie SameSite=None",1,1,10,9,10,9,1,0,0,1,0,0,1,0,0,0,0,37,1,7,9,0,0,0,0,0
+bottle,4164c3f714,2019-12-08,efa66eb7,fix #1167: Allow listening to unix socket for gunicorn server adapter,1,1,10,3,10,3,1,0,0,2,0,0,1,0,0,0,0,85,1,5,9,0,0,0,0,0
+bottle,7eb0af28c8,2019-12-01,dddcd2a3,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,36,1,1,1,0,0,0,0,0
+bottle,b742f53a23,2019-12-01,efa66eb7,#1179: Offer option to add custom headers in static_file,1,1,7,4,7,4,0,0,0,1,0,0,1,0,0,0,0,63,1,7,7,0,0,1,0,0
+bottle,375fb78b38,2019-08-30,208368ca,"[bug] set default value for ""Content-Length""",1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,357a0cb39c,2019-07-10,0ba5b793,Be more consistent about supporting Python 3.4 to 3.7,17,1,21,30,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,eff4960d94,2019-07-10,92e5a194,Fix Python 3.7 collections.abc DeprecationWarning,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,c8179b28d9,2018-12-13,efa66eb7,fix #1115: Some modules set __file__ as None,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,19,1,1,1,0,0,1,0,0
+bottle,5813b873a8,2018-12-11,efa66eb7,fix #1111: Unicode multipart/form-data values in python3,2,1,9,3,3,0,1,0,0,3,0,0,0,0,0,0,0,24,0,0,3,0,0,0,0,0
+bottle,4dab7d81a7,2018-10-25,efa66eb7,fix #1106: SameSite cookie attribute fails when using redirect,2,1,44,16,17,13,1,0,0,2,0,0,1,0,0,0,0,36,1,11,15,0,0,0,0,0
+bottle,33d1b83597,2018-10-25,efa66eb7,Normalized test and build setup,24,1,90,111,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,a4fae48159,2018-10-25,efa66eb7,Updated copyright year,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,e76a736ae5,2018-10-25,efa66eb7,fix: STPL end keyword breaks when not on a separate line,2,1,17,5,7,5,1,0,0,1,0,0,1,0,0,0,0,49,1,7,7,0,0,0,0,0
+bottle,5aeb2562de,2018-07-19,1d532f6c,Remove Python 3.2 and 3.3,1,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+bottle,84c1ee14e1,2018-07-19,1d532f6c,Add Python 3.6 and 3.7 to PyPI page,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,b8eab8b357,2018-07-19,b585a134,Do not require value to delete.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+bottle,dacb9560e8,2018-07-19,2bbe7e5c,add the flag in front of the regexp to avoid Deprecation warning (see Issue #949),1,1,7,1,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,1de24157e7,2018-03-13,38512cc8,fix code style,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+bottle,063b8e8946,2018-02-14,efa66eb7,Make closing the file in _file_iter_range() optional.,1,1,6,4,6,4,0,0,0,2,0,0,0,0,0,0,0,61,1,1,6,0,0,0,0,0
+bottle,245386e4cb,2018-02-14,79cf21ad,Fixed ResourceWarning: unclosed file <_io.BufferedReader... in static_file() #1000,1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+bottle,06cc47b1f5,2017-12-09,feb6a56c,fix pass None to tob (#1018),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,4434916304,2017-11-05,fcd98ac4,Fix Last-Modifed and Date header formats in static_file for non-english locales,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,61,1,3,3,0,0,1,0,0
+bottle,8fcdae957b,2017-10-18,6ed2cb49,Fix spelling errors,5,1,5,5,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+bottle,b26cf80fa5,2017-07-18,141e9682,bugfix: import Morser for python 2.7,1,1,5,5,5,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,8d0054a3a0,2017-07-13,0234e7d1,Update bottle.py,1,1,12,2,12,2,0,0,0,1,0,0,1,0,0,0,0,33,1,7,8,0,0,0,0,0
+bottle,41ed6965de,2017-03-26,efa66eb7,Fix broken command line handling.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+bottle,617d08a2cc,2017-03-25,efa66eb7,"Added 'cheroot' server adapter to list of server names, so it can be selected from the command line ",1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,be90814117,2017-03-25,efa66eb7,Added depr warning for the outdated cherrypy server adapter.,2,1,7,2,5,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,4,0,0,0,0,0
+bottle,b9229eef97,2017-03-25,00ad9933,Add ServerAdapter for CherryPy >= 9,1,1,19,0,19,0,0,0,0,17,1,1,1,0,1,0,0,82,2,0,17,0,0,0,0,0
+bottle,f37d346684,2017-03-20,ebf11f57,Update bottle.py,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,3,0,0,2,0,0,0,0,0
+bottle,af192c25f2,2017-03-18,ebf11f57,make app.error can be used as a decorator or called directly.,1,1,19,6,19,6,0,0,0,1,0,0,0,0,1,1,0,3,0,0,15,0,0,0,0,0
+bottle,5d71ed8033,2017-02-02,d45ad88f,It's 2017....,82,1,82,82,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,cb2c33db78,2017-02-01,a96695eb,Support ujson,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+bottle,5a6fc77c9c,2017-01-22,efa66eb7,fix #930: DeprecationWarning: Flags not at the start of the expression,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,143cbc3914,2017-01-18,c2fbfc15,Add HTTP status code 451 according to RFC 7725,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,2f9ccae095,2017-01-09,efa66eb7,Setting a header with a value if `None` now results in an empty header.,2,1,11,10,8,9,0,0,0,4,0,0,0,1,0,0,0,15,1,3,8,0,0,1,0,0
+bottle,9f44d96512,2017-01-06,efa66eb7,fix #918: AttributeError: 'FileUpload' object has no attribute 'get_header',2,1,9,1,4,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,1,0,0
+bottle,3f838db73f,2016-12-17,efa66eb7,"fix #913: redirect() doesn't filter ""\r\n"" leads to CRLF attack",2,1,19,11,7,10,1,0,0,7,0,0,0,0,0,0,0,4,0,0,7,0,0,0,0,0
+bottle,f936dfaa7c,2016-12-10,efa66eb7,Prepare end of support for pickled-cookies (see #900),3,1,46,31,32,7,0,0,0,5,0,0,1,0,0,0,0,30,1,14,30,0,0,0,0,0
+bottle,6d7e13da0f,2016-12-10,efa66eb7,fix #913: Harden bottle against malformed headers.,2,1,28,11,14,11,1,0,0,5,0,0,0,0,1,0,0,4,0,0,13,0,0,1,0,0
+bottle,568f6ad79a,2016-12-08,1f04f541,Fixed issue #911,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,492985f463,2016-11-12,efa66eb7,Fixed after_request for some obscure case.,3,1,94,27,26,22,1,0,0,1,0,0,1,0,0,0,0,45,1,26,26,0,0,0,0,0
+bottle,8a449076a2,2016-11-12,efa66eb7,Use frozensets to check for restircted response headers.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+bottle,4b26bd0b84,2016-11-12,efa66eb7,Optimized inner `bottle._handle` call. Overall HelloWorld performance increased by 4-5%,1,1,33,31,33,31,0,0,0,1,1,0,0,0,0,1,0,40,1,31,31,0,0,0,0,0
+bottle,5dbbe004f4,2016-10-19,efa66eb7,Track ConfigDict overlays with weak references to avoid memory leaks.,2,1,24,8,17,8,1,0,0,5,0,0,0,0,1,0,0,13,0,0,13,0,0,0,0,0
+bottle,9ea1fad92c,2016-10-19,1c3b2adc,Flush wsgi.errors,1,1,2,0,2,0,0,0,0,3,0,0,0,0,0,0,0,24,0,0,2,0,0,0,0,0
+bottle,e22e38ddd7,2016-09-25,efa66eb7,Rewrite 'overlay' feature for ConfigDict.,4,1,203,95,146,41,0,0,0,8,0,0,1,0,6,4,0,25,1,2,122,0,0,0,0,0
+bottle,c6fb8a46db,2016-09-24,efa66eb7,Fix #882: Do not special-case TemplateErrors.,1,1,2,3,2,3,1,0,0,2,1,1,0,0,0,1,0,19,2,0,2,0,0,0,0,0
+bottle,d1e31686b7,2016-09-24,efa66eb7,Removed json import fallback for python 2.5/2.6,1,1,1,16,1,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0
+bottle,83cfe03bb1,2016-09-21,a7297f41,Handle unprintable errors,1,1,6,1,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+bottle,06f97c74d0,2016-09-21,a7297f41,Provide a name to default_error_handler,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,f65e34bde8,2016-09-21,a7297f41,Fix tracebacks that would contain <string> to contain the template path,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,1,0,0,0
+bottle,bd37c54fbc,2016-09-21,a96695eb,HttpError is a subclass of HttpResponse,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0
+bottle,97a9f85f41,2016-09-20,a96695eb,raise HTTPResponse not working correctly,1,1,2,0,2,0,0,0,0,2,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+bottle,8e4c3c14ce,2016-09-09,48b84a59,Clean up of command line parser,1,1,7,10,7,10,0,0,0,3,0,0,0,0,0,0,0,41,1,1,5,0,0,0,0,1
+bottle,9cc7e66cfd,2016-09-09,48b84a59,"Drop optparser, migrate to argparse",1,1,25,21,25,21,0,0,0,4,0,0,0,0,0,0,0,41,1,13,23,0,0,0,0,0
+bottle,a544c1cb8b,2016-09-09,68ef7803,Fix warning about using absolute template path names,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+bottle,8ceb87be4d,2016-09-02,48b84a59,Tiny update to cached_property,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,0a3e0e01c9,2016-08-30,48b84a59,Add documentation for ConfigDict.load_module,2,1,41,11,15,11,0,0,0,1,0,0,0,0,0,0,0,9,0,0,14,0,0,1,0,0
+bottle,8bda6af305,2016-08-30,48b84a59,Tiny style changes,1,1,9,7,9,7,0,0,0,3,0,0,0,0,0,0,0,61,1,3,7,0,0,0,0,0
+bottle,496efdf477,2016-08-30,48b84a59,Fix typo - main() does not exist anymore,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,aecb7ea0fd,2016-08-29,efa66eb7,Added main function for better testability of the command-line interface.,1,1,6,2,6,2,0,0,0,0,1,0,0,0,2,1,0,0,0,0,4,0,0,0,1,0
+bottle,03f2a82ade,2016-08-29,48b84a59,Fix tests to pass all chanages after removal of _e(),3,1,15,15,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+bottle,14e73bfe30,2016-08-29,48b84a59,"Remove workaround missing as in py 3.1, 3.2",1,1,26,34,26,34,0,0,0,10,0,0,0,1,0,1,0,54,2,6,25,0,0,0,1,0
+bottle,8b54b9d3e6,2016-08-27,48b84a59,with statement is built in Python 2.7 and late,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,2efa9d3884,2016-08-27,48b84a59,Simplify check for Python 2 or 3,1,1,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+bottle,90660f7d4e,2016-08-27,48b84a59,Remove non existing name,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+bottle,5c903be17a,2016-08-27,48b84a59,Remove Python 3.1,1,1,2,17,2,17,0,0,0,3,0,0,0,0,0,1,0,23,0,0,1,0,0,0,1,0
+bottle,786587e8f5,2016-08-27,efa66eb7,Added comments to guide ServerAdapter developers.,1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,12445eb241,2016-08-27,efa66eb7,Improved ConfigDict.load_config() documentation and functionality.,2,1,80,13,38,11,0,0,0,1,0,0,0,0,0,0,0,14,0,0,32,0,0,0,0,0
+bottle,91948e9dfe,2016-08-26,efa66eb7,Removed gebentSocketIO server adapter. Was defunct anyway.,1,1,0,8,0,8,0,0,0,8,1,1,0,1,0,1,0,82,2,0,0,0,0,0,0,0
+bottle,9772d84063,2016-08-26,efa66eb7,depr: AppEngineServer adapter no longer needed,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+bottle,1baf9ebc41,2016-08-26,48b84a59,Remove unused py25,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+bottle,4596307c24,2016-08-26,48b84a59,Clean some more Python 2.5 left overs,1,1,3,11,3,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0
+bottle,c110e0377f,2016-08-26,48b84a59,Remove identifiers for Python 2.6 from setup.py,1,1,2,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+bottle,eb79f7637b,2016-08-26,efa66eb7,docs: Fixed some documentation glitches.,2,1,19,10,19,7,0,0,0,2,0,0,0,0,0,0,0,9,0,0,13,0,0,0,0,0
+bottle,9c583d47f1,2016-07-29,bcc31483,add uvloop,1,1,8,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+bottle,13f46abf86,2016-07-29,bcc31483,add custom asyncio loop,1,1,10,2,10,2,0,0,0,1,0,0,0,0,2,0,0,19,0,0,9,0,1,0,0,0
+bottle,6d236433ac,2016-07-15,97c1a0d3,Jinja2Template: Pass filename to Jinja2,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+bottle,cafc15419c,2016-07-09,10092941,remove deprecated logic from GeventServer,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,1,0
+bottle,d7a3ca9bec,2016-07-05,efa66eb7,"Fix: Hashlib wants bytes, not unicode.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,61,1,1,1,0,0,0,0,0
+bottle,eeaaef2733,2016-07-05,efa66eb7,Added ETag support to static_file(),2,1,70,20,46,20,0,0,0,1,0,0,1,0,0,0,0,61,1,39,39,0,0,0,0,0
+bottle,edae7c4e15,2016-06-06,4fe3fc3e,make it possible to provide a logger for gevent,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+bottle,7665b9a61e,2016-03-31,5993ac2b,Inherit template's syntax while rendering sub-templates,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,1,0
+bottle,1eee51b5ac,2016-02-27,4828bd59,Add PyPI classifier for Py 3.4 and 3.5,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,b2da90e751,2016-02-17,5b2d283c,Fix spelling,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,3f9e2d4f55,2016-02-12,cc0315c5,WaitressServer: pass self.options to serve method,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,999eadb493,2016-02-12,efa66eb7,fix #829: Bottle incorrectly sets Content-Length header when status is 204,2,1,12,2,2,2,1,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,1,0,0
+bottle,73462633d8,2016-02-12,c2fbfc15,Fix coding style,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,0,0,0,0
+bottle,a9b663a8fb,2016-02-12,d609f1f3,json for 'application/json-rpc',1,1,7,5,7,5,0,0,0,1,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,0
+bottle,ba5b4da8af,2016-02-06,c2fbfc15,Mixin args into kwargs earlier in template(),1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,19,1,2,2,0,0,0,0,0
+bottle,3763f68e93,2016-02-01,efa66eb7,Added function to parse complex HTTP headers.,2,1,59,0,36,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,32,0,0,1,0,1
+bottle,08c03eee19,2016-01-13,bd6a6f98,Import module hashlib and change default hashing algorithm of HMAC from MD5 to SHA256,1,1,8,5,8,5,0,0,0,2,0,0,0,0,0,0,0,9,0,0,8,0,0,1,0,0
+bottle,39cea11fb5,2015-12-30,0e4edbbc,Catching redirect exception which is raised in before_request hook,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,4,0,0,0,0,0
+bottle,4b0fcce138,2015-12-21,67d806eb,Remove 2.5 and 3.1 things,5,1,22,51,20,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,1,0
+bottle,fbd79b7c36,2015-12-13,efa66eb7,Fixed dual lookup for Jinja templates.,2,1,15,7,4,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+bottle,49f479cbb2,2015-12-12,af9d2349,Fix charset for application/javascript files,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,50,1,1,1,0,0,0,0,0
+bottle,901f04962b,2015-12-07,efa66eb7,Warn about ending Python 2.5 and 3.1 support.,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,d2127e0a35,2015-12-07,efa66eb7,Deprecating the old route syntax.,2,1,4,18,3,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+bottle,e456b4fe38,2015-12-07,efa66eb7,Rewrote most of Bottle.mount() + more deprecation warnings.,4,1,80,34,71,24,0,0,0,5,0,0,0,0,4,2,0,16,0,0,58,0,0,0,0,0
+bottle,de01f1c2d4,2015-11-28,efa66eb7,"Added (experimental, non public) support for config with fallback.",2,1,88,7,39,7,0,0,0,3,0,0,0,0,6,0,0,15,0,0,30,0,0,0,0,0
+bottle,b7e2975d1c,2015-11-28,efa66eb7,It's 2015...,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,49fcac9074,2015-11-28,efa66eb7,"Added inspection support for func(a, *, b) signature types.",2,1,16,2,9,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+bottle,3334338ba2,2015-11-04,a7715735,"added 'apps' as alias to app, defer 'default app' creation until required and add 'default' property",1,1,11,4,11,4,0,0,0,1,0,0,0,0,1,0,0,2,0,0,9,0,0,0,0,0
+bottle,1a2c4daea9,2015-11-01,efa66eb7,Request object attributes are now read-only.,1,1,9,1,9,1,0,0,0,1,0,0,0,0,1,0,0,6,0,0,9,0,0,0,0,0
+bottle,8db7d38b79,2015-11-01,efa66eb7,Attributes on Bottle instances are now read-only.,3,1,39,1,9,1,0,0,0,1,0,0,0,0,2,0,0,4,0,0,6,0,0,0,0,0
+bottle,b24483e587,2015-11-01,efa66eb7,Maintain BH fpor after-request hooks.,1,1,4,5,4,5,0,0,0,3,0,0,0,0,0,0,0,19,1,2,3,0,0,0,0,0
+bottle,d85a6983ce,2015-11-01,efa66eb7,Actually use _inner_request,1,1,22,38,22,38,0,0,0,1,0,0,0,0,1,1,0,17,0,0,21,0,0,0,0,0
+bottle,cec4f3fa9e,2015-11-01,efa66eb7,Fix #671: Fix based on PR #717,2,1,25,1,13,1,1,0,0,1,0,0,0,0,0,0,0,39,0,0,11,0,0,0,0,0
+bottle,87fe32987c,2015-11-01,eed6e2a6,extracted some code from _handle() to _inner_handle(). feed more information to 'after_request' hook,2,1,26,16,25,15,0,0,0,1,0,0,0,0,1,0,0,29,0,0,24,0,0,0,1,0
+bottle,c6fd201833,2015-10-11,efa66eb7,Removed some random characters that appeared out of nowhere.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,1096cff1a5,2015-10-11,efa66eb7,Make sure the cookie fits into the 4kb header limit of some browsers.,1,1,4,2,4,2,0,0,0,1,0,0,0,1,0,0,0,23,1,2,2,0,0,1,0,0
+bottle,5b893e2c26,2015-10-11,efa66eb7,Moved error instance creation from hot to cold path. Fixed docstring.,1,1,3,5,3,5,1,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+bottle,2647a36474,2015-10-11,2a63c02d,Fix minor error in getargspec,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+bottle,6fd2aae7fd,2015-10-11,2a63c02d,Implement getargspec using inspect.Signature,1,1,20,1,20,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+bottle,8419a4ef56,2015-09-11,499675a1,Modified to support dict squashing,3,1,21,8,9,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,0
+bottle,bcb5caedda,2015-09-11,499675a1,Lol 2.6 doesn't even have importlib!,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,1,0,0
+bottle,7fca9d2a96,2015-09-11,499675a1,Lol 2.5/2.6 doesn't support dict comprehensions,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+bottle,8c407cc5b6,2015-09-11,499675a1,Small fix in line with load_dict(),1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+bottle,0c650cd77e,2015-09-11,499675a1,Fixes https://github.com/bottlepy/bottle/issues/772,3,1,21,0,11,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+bottle,606cb957fd,2015-08-04,d6096ce9,Return 400 with bad json request,1,1,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+bottle,727ce6d797,2015-08-03,efa66eb7,Added command-line arguments for loading config from json or ini files.,2,1,96,35,87,30,0,0,0,1,0,0,1,0,3,0,0,82,1,4,60,0,0,0,0,0
+bottle,3991f265f5,2015-07-24,02ab1aed,Fix #720 : Allow unicode keys in ConfigDict.,2,1,14,3,3,3,1,0,0,3,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+bottle,c12ec2e048,2015-07-19,d684cfef,Test of cookie name and value length,2,1,12,3,2,1,0,0,0,1,0,0,1,0,0,0,0,23,1,2,2,0,0,0,0,0
+bottle,7ef59d3c3d,2015-06-14,efa66eb7,"Fix #723: bottle modifies http.client.responses upon import, likely unintentially",1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,26aecf9056,2015-06-14,efa66eb7,Fix #735: A False `secure` option on `set_cookie` marks cookie as secure in response headers,2,1,22,0,2,0,1,0,0,1,0,0,1,0,0,0,0,22,1,2,2,1,0,1,0,0
+bottle,7ad07e5ba6,2015-06-14,efa66eb7,No longer support mounted WSGI apps that return True or False (which is not allowed anyway).,1,1,1,2,1,2,0,0,0,2,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+bottle,7190a512d9,2015-06-11,0ffb65c0,Docs use new param syntax for route func.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,1,1,1,0,0,0,0,0
+bottle,bda4962c42,2015-04-01,efa66eb7,Whitespace (using https://github.com/google/yapf),1,1,517,342,517,342,0,0,0,110,0,0,10,0,37,1,0,79,11,74,404,0,0,0,0,0
+bottle,bab667cceb,2015-03-24,8ee9c5fc,Removed unnecessary `and func is not None` check.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+bottle,a15af45193,2015-03-24,efa66eb7,Shortcut for requests without a wsgi.input (saves a ByteIO() instance per regular request),1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+bottle,599abe5033,2015-03-24,acd89292,Fixes #727 use default BytesIO() if wsgi.input not present,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,5721333110,2015-03-23,8ee9c5fc,Added fix of the failing test (0d4b53522fd907c2ace7e69333a5cbaa2ea316c6).,1,1,12,1,12,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,9,0,0,0,0,0
+bottle,69529eb12e,2015-03-17,18e8291e,only import subprocess if it's needed,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,71,1,1,2,0,0,1,0,0
+bottle,884ef30e1b,2015-02-10,7f5586b3,add aiohttp support,2,1,32,0,29,0,0,0,0,3,1,1,1,0,1,0,0,70,2,0,24,0,0,0,0,0
+bottle,854fbd7f88,2015-01-01,efa66eb7,Whitespace,1,1,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+bottle,d0bae1d78f,2014-12-30,a7297f41,Use the `pos` argument of re.search.,1,1,12,9,12,9,0,0,0,2,0,0,1,0,0,0,0,46,1,10,11,0,0,0,0,0
+bottle,57325068ba,2014-12-30,a7297f41,Remove repeated slicing when finding python markers,1,1,4,5,4,5,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,1,0
+bottle,8f427001c0,2014-12-28,efa66eb7,Fixed bug where BaseResponse.copy() would not copy Cookies due to a behaviour change in newest Pytho,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+bottle,985f9c5376,2014-12-27,a7297f41,Make `root='/'` work cross-platform,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,46,1,1,1,0,0,0,0,0
+bottle,8a5bfe2f70,2014-12-27,a7297f41,Prevent syntax errors when line-wrapping comprehensions,2,1,33,6,21,6,0,0,0,2,0,0,1,0,0,0,0,44,1,9,12,0,0,0,0,0
+bottle,db0262e50d,2014-12-21,a7297f41,Clean up STPL voodoo,1,1,37,19,37,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,1
+bottle,2201e071dc,2014-12-08,efa66eb7,Revert changes I committed accidently. Meh...,1,1,88,81,88,81,0,1,0,2,1,2,0,0,1,1,0,32,1,22,74,0,0,0,0,0
+bottle,cea519c842,2014-12-08,efa66eb7,Changed all links to the official repository.,9,1,117,124,81,88,0,0,1,2,2,1,0,0,1,1,0,40,1,30,73,0,0,0,0,0
+bottle,58e6608a7f,2014-12-01,efa66eb7,Fixed mixed types in BaseResponse.headerlist in Python2,2,1,26,18,8,9,1,0,0,3,0,0,1,0,0,0,0,16,1,3,8,0,0,1,0,0
+bottle,40fa1ca66e,2014-11-28,a666006a,Fix end-of-code-block template token regex,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,dae51d7bf3,2014-11-27,56cdd403,fix status code 413 description as RFC2616 10.4.14 413 Request Entity Too Large ....................,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+bottle,d02988314c,2014-11-07,9191f795,"Get mime type from download, if download is a file name",2,1,6,1,4,1,0,0,0,1,0,0,1,0,0,0,0,46,1,4,4,0,0,0,0,0
+bottle,cb7a333fa7,2014-10-31,8a354443,typo fix,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,f27a9a3be9,2014-10-31,d82253f3,"Fix the Allow: header value in 405 ""Method not allowed."" response.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,31,1,1,1,0,0,1,0,0
+bottle,ba10495d9b,2014-10-15,00ad9933,"typo ""to handy""",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,c0b3c0d986,2014-10-13,efa66eb7,Fixed py3k bug with unicode headers.,2,1,24,3,13,3,1,0,0,3,1,0,0,0,0,0,0,17,1,5,13,0,0,1,0,0
+bottle,58494cea06,2014-10-07,d13d117e,Update to new rule syntax,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,1,1,1,0,0,0,0,0
+bottle,9281f03fb3,2014-10-02,efa66eb7,ConfigDicht.setdefault should return something.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,5fc8b182cf,2014-09-23,a7297f41,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,1,1,1,0,0,0,0,0
+bottle,12f70a8972,2014-09-15,dad8a7ba,"fix ""Request to Large"" typo",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+bottle,aaef83b259,2014-08-26,e839a93f,Fix except syntax for Python 2.5,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+bottle,8c909e436f,2014-08-19,73939329,_hkey in WSGIHeaderDict for unification,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,1,0,0
+bottle,c4ea59e19e,2014-08-11,e839a93f,Suppress ResourceWarning unclosed socket message,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,5,0,0,0,0,0
+bottle,c57ef1a4db,2014-06-13,d6028690,Pass quiet flag on to waitress.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,bc312ae49d,2014-06-09,efa66eb7,Workaround for #632: PyPy incompatible to CPython re-module.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,d709bfa6ef,2014-06-09,efa66eb7,fix #633: SimpleTemplate \% dropping leading space,2,1,4,2,3,2,1,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,0
+bottle,ed47f10b2c,2014-06-09,efa66eb7,Fixed/reverted broken pull request #631,1,1,3,5,3,5,1,0,0,5,1,1,0,0,2,3,0,16,2,0,2,0,0,0,0,0
+bottle,33115208e3,2014-06-03,a6715080,report back actual port when using port 0,1,1,7,3,7,3,0,0,0,5,1,1,0,0,3,2,0,16,2,0,6,0,0,0,0,0
+bottle,3ec966bb72,2014-05-26,90ff680f,don't fail when request content type is application/json but the body is empty,2,1,12,1,4,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+bottle,5bf2ab25a3,2014-05-20,efa66eb7,Made FileCheckerThread a daemon thread.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,1,0,0,0
+bottle,d61495d7aa,2014-05-04,87c1802d,Eventlet: add support for 'backlog' and 'family',1,1,15,2,15,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,14,0,0,0,0,0
+bottle,27f381d2c6,2014-05-04,87c1802d,Minor Cleanup: refactor socket address variable,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,1
+bottle,52014fa258,2014-05-04,87c1802d,Make sure to monkey_patch with eventlet,1,1,12,5,12,5,0,0,0,1,0,0,0,0,0,0,0,10,0,0,9,0,0,0,0,0
+bottle,e499c6e10d,2014-05-03,56cdd403,"loaded plugins run via command line, ref #619",1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,70,1,2,2,0,0,0,0,0
+bottle,2bd6d66b15,2014-04-29,efa66eb7,fix #567: In python 3.4 multipart file upload breaks due to change in cgi.FieldStorage,1,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+bottle,7c3226867d,2014-04-25,efa66eb7,fix #616: Json content-type not restrictive enough,2,1,11,1,2,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+bottle,33b1683793,2014-04-13,efa66eb7,Testing PyCharms code inspection.,1,1,215,210,215,210,0,1,2,111,0,0,1,2,0,0,0,68,10,16,209,0,0,0,0,0
+bottle,6f9485ea59,2014-04-13,efa66eb7,Request #425: Support HTTP PATCH method as per RFC-5789,6,1,11,7,5,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+bottle,915012ac59,2014-04-13,efa66eb7,Help text for commandline usage,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,33f6fbeb08,2014-04-11,56cdd403,Replicate orrection #611 0.12 to master ResourceWarning: unclosed file <_io.BufferedReader,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+bottle,95bc65eefb,2014-04-05,f95f8f8f,Don't run the twisted reactor if it's already running,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+bottle,665080027b,2014-03-12,03b51f99,Updated error page template,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,c7efc4dc42,2014-03-06,efa66eb7,fix #595: If expressions broken in STPL after upgrading,2,1,9,0,3,0,1,0,0,1,0,0,1,0,0,0,0,37,1,3,3,0,0,0,0,0
+bottle,9169dd4320,2014-03-01,efa66eb7,Minor documentation changes.,6,1,9,14,3,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+bottle,ad63f4ce5a,2014-02-25,efa66eb7,Removed plugins. They are located at https://github.com/bottlepy/bottle-extras,8,6,0,515,0,348,0,0,0,0,0,1,0,0,0,20,0,0,0,0,0,0,0,0,0,0
+bottle,9889a7cb19,2014-02-11,a647f0d8,Fix for Issue #586,1,1,1,0,1,0,1,0,0,2,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,97b5605d84,2014-02-08,99dee5c8,"Consistency between README and website (doc/index.rst), plus year is now 2014",4,1,50,25,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,fcd7fc51e8,2014-02-07,efa66eb7,Static analysis found some rough edges,1,1,9,9,9,9,0,0,0,5,0,0,0,0,0,0,0,34,2,6,9,0,0,0,0,0
+bottle,1fcf81ac85,2014-02-06,efa66eb7,fix 582: Unnecessary lowercasing in FileUpload.filename,2,1,20,12,14,10,1,0,1,1,0,0,0,0,0,0,0,9,0,0,12,0,0,0,0,0
+bottle,a2962b11ab,2014-02-05,efa66eb7,fix #581: Mounted applications are shadowed by other routes.,2,1,15,2,5,2,1,0,0,2,0,0,1,0,0,0,0,32,1,4,5,0,0,0,0,0
+bottle,64c1c8b047,2014-02-05,efa66eb7,Added wheel support,2,1,7,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+bottle,9b3ade8d9c,2014-02-04,efa66eb7,fix 575: typing error in html_quote util funcion,2,1,5,2,1,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+bottle,1098703c76,2014-02-04,3032e217,Handle whitespace control over templates using Windows end of line marker,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+bottle,ae05929d54,2014-02-02,d7525f76,"Correct docs: static_file returns a 403 on permission errors, not a 401",2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,43,1,1,1,0,0,0,0,0
+bottle,e20823977e,2014-01-16,028f78b2,"""attribues"" typo fixes in docstrings",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,eb41475c5d,2013-12-18,efa66eb7,Bottle() as a context manager.,3,1,37,12,7,0,0,0,0,2,0,0,0,0,2,0,0,3,0,0,6,0,0,0,0,0
+bottle,ae0aa21e56,2013-12-04,efa66eb7,fix #564: Unicode in file uploads names.,3,1,14,13,3,2,1,0,0,1,0,0,0,0,0,0,0,25,0,0,3,0,0,0,0,0
+bottle,ac41a89bbb,2013-12-03,efa66eb7,Fix for #563: Still display 0 as '0',2,1,7,2,6,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+bottle,480f449168,2013-12-03,efa66eb7,Code cleanup. Removed APIs deprecated in 0.12,7,1,21,184,13,93,0,0,1,11,0,0,0,0,2,9,0,19,0,0,13,0,0,0,0,1
+bottle,daeb2dd20f,2013-12-03,efa66eb7,Start of 0.13 development. Codename 'Friday',2,1,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,5e122079c6,2013-12-03,0e4edbbc,Rendering none values as empty strings,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,76e5e433f3,2013-12-03,efa66eb7,Less serious error message on abort(xxx) calls without second reason parameter.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,27760afc75,2013-12-03,efa66eb7,Code cleanup. Removed deprecated code.,1,1,16,56,16,56,0,0,0,11,0,1,0,0,0,5,0,25,1,1,16,0,0,0,0,1
+bottle,cade98ee28,2013-11-29,efa66eb7,fix #371: Support utf-8 URLs with Python 3.x,3,1,25,11,11,4,1,0,0,2,0,0,0,0,0,0,0,32,0,0,10,0,0,0,0,0
+bottle,077cc46e55,2013-11-01,efa66eb7,Added (basic) support for Transfer-Encoding:chunked requests.,2,1,84,7,50,7,0,0,0,1,1,0,0,0,3,0,0,15,0,0,47,0,0,0,0,0
+bottle,f6c305001c,2013-11-01,efa66eb7,A faster local_property() implementation.,1,1,14,17,14,17,0,0,0,3,0,0,0,0,0,1,0,9,0,0,14,0,0,0,0,0
+bottle,2b666ab16a,2013-10-21,65c10dc3,Fixed copyright year.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,9459599a1c,2013-10-18,efa66eb7,Removed the ``BaseRequest.MAX_PARAMS`` limit.,3,1,2,32,1,11,0,0,0,3,0,1,0,0,0,0,0,25,1,0,1,0,0,0,0,0
+bottle,ed71b7a02b,2013-09-13,3642ba67,added reloader support to GeventServer,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+bottle,86d60ffa3c,2013-09-06,b2967fe4,BaseRequest MAX_PARAMS attribute can be overriden by ConfigDict,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,29,1,2,4,0,0,0,0,0
+bottle,d131b13391,2013-09-05,fd045c79,modified the cherrypy adapter to support ssl options,1,1,13,0,13,0,0,0,0,1,0,0,0,0,0,0,0,19,0,0,10,0,0,0,0,0
+bottle,e82dbcbcaa,2013-08-27,efa66eb7,Fixed name of base-template content variable to match documentation...,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+bottle,d1c339c3a6,2013-08-26,9c56e368,Fixed some minor stpl bugs and improved documentation.,3,1,92,112,19,7,0,0,0,3,0,0,0,0,0,0,0,25,0,0,19,0,0,0,0,0
+bottle,af547f495d,2013-08-25,efa66eb7,Fix #541: Added ipv6 support to wsgiref development server.,1,1,19,7,19,7,1,0,0,2,0,0,0,0,0,0,0,15,0,0,15,0,0,0,0,0
+bottle,6fd5558434,2013-08-25,efa66eb7,"Changed #528 a bit and added documentation. The charset option now affects all text/* files, not onl",2,1,27,9,22,8,0,0,0,1,0,0,0,1,0,0,0,43,1,19,19,0,0,0,0,0
+bottle,40734036c5,2013-08-25,efa66eb7,Fixed pull request #544,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+bottle,5a5c479b8e,2013-08-20,69666464,Changing bottle to accept options for cherrypy server like numofthreads etc and pass it along with c,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,1,0,0,0
+bottle,bfdf0a6142,2013-08-06,7aa19f70,Don't use super() for old-style classes,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+bottle,91a85578b0,2013-07-30,9b561dc1,typo back instead of brack,1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,5,0,0,2,0,0,0,0,0
+bottle,f899a84e16,2013-07-28,efa66eb7,fix #529: Disable reverse DNS lookups for default server logs.,1,1,7,4,7,4,1,0,0,18,1,1,1,0,2,0,0,68,2,0,7,0,0,0,0,0
+bottle,5029b28f07,2013-07-16,efa66eb7,Config docs,2,1,57,30,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,f493648bea,2013-07-16,efa66eb7,Merged the new ConfDict and the old ConfigDict into one class. Added depr() warnings to all old Conf,3,1,82,53,66,45,0,0,0,10,0,0,0,0,2,0,0,15,1,1,56,0,0,0,0,0
+bottle,a00a438d6b,2013-07-04,efa66eb7,Fix: Syntax error in templates if an {{x}} was found at the very beginning of a line and the previou,2,1,5,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+bottle,bf339a1bc5,2013-07-04,efa66eb7,Added (untested) ConfDict.load_config(ini_file) feature.,1,1,10,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+bottle,1916796187,2013-07-04,efa66eb7,Fix: run() disabling debug mode.,1,1,2,2,2,2,1,0,0,1,0,0,1,0,0,0,0,68,1,2,2,0,0,0,0,0
+bottle,321ccb5441,2013-07-03,efa66eb7,Config documentation and some more public ConfDict APIs.,4,1,165,8,21,6,0,0,0,2,0,0,0,0,4,1,0,18,0,0,18,0,0,0,0,0
+bottle,74fe0b9e1e,2013-07-01,efa66eb7,Fixed auto-generated routes and the string representation of Route objects.,2,1,11,10,7,6,1,0,0,2,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+bottle,90b7cec6d2,2013-06-26,efa66eb7,Added Bottle::conf (as a replacement for Bottle::config),2,1,103,8,65,8,0,0,0,11,1,1,0,0,5,0,0,18,2,0,50,0,0,0,0,0
+bottle,a9f2029957,2013-06-22,02925c56,Update bottle.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,cc3400f21e,2013-06-21,efa66eb7,"Fix #478 #455 #514: Call before/after_request hooks on errors, too.",1,1,62,76,62,76,1,0,0,21,1,1,0,0,5,9,0,34,3,1,49,0,0,0,0,0
+bottle,0f55d6dd64,2013-06-21,efa66eb7,Fix #513: End keyword not recognized if followed by a windows line break.,2,1,9,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,96c9338783,2013-06-17,9c56e368,Fixed py3k bug with different function and method type attributes.,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+bottle,f88de4a3ef,2013-06-17,9c56e368,Fixed more-than-99-groups-in-regexp-patterns bug. Cleaned up the code a bit.,2,1,59,56,54,56,1,0,0,3,0,0,1,1,1,1,0,52,2,31,46,0,0,0,0,0
+bottle,0ed6ccf093,2013-06-17,9c56e368,Fixed corner cases from last test commit,1,1,28,33,28,33,1,0,0,2,0,0,0,0,0,0,0,28,1,24,25,0,0,0,0,0
+bottle,436fd0405f,2013-06-17,9c56e368,Added utilities to Route to get or inspect the original and decorator unwrapped callback function.,2,1,47,2,18,2,0,0,0,1,0,0,0,0,2,0,0,9,0,0,16,0,0,0,0,0
+bottle,1dacc7b4e1,2013-06-16,d3738a36,Properly overwrites routes,1,1,8,6,8,6,0,0,0,2,0,0,1,0,0,0,0,59,1,6,7,0,0,0,0,0
+bottle,0809206cf6,2013-06-16,d3738a36,Small detail about regex,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+bottle,540a5b60b4,2013-06-16,d3738a36,Some more problems with any,1,1,4,3,4,3,0,0,0,1,0,0,1,0,0,0,0,28,1,3,3,0,0,0,0,0
+bottle,1d102e7472,2013-06-16,d3738a36,Fixed problem will any routes,1,1,9,11,9,11,1,0,0,3,0,0,0,1,0,0,0,27,1,6,9,0,0,0,0,0
+bottle,e803cd3571,2013-06-16,d3738a36,Re-implemented 405,1,1,38,20,38,20,0,0,0,4,1,0,0,1,0,0,0,55,2,20,34,0,0,0,0,0
+bottle,7179c91e03,2013-06-16,d3738a36,Modified to resolve using only one regex,1,1,24,23,24,23,0,0,0,2,0,0,1,0,0,0,0,55,1,15,21,0,0,0,0,0
+bottle,069f25e06e,2013-06-16,d3738a36,"Now uses multiple regexes, one for each method",1,1,34,36,34,36,0,0,0,4,0,1,0,1,0,0,0,50,2,25,30,0,0,0,0,0
+bottle,663bad8d1d,2013-06-15,d3738a36,Modified Route.dynamic to be re-created completely each time,1,1,13,7,13,7,0,0,0,2,0,0,0,1,1,0,0,53,1,2,10,0,0,0,0,0
+bottle,f7665db5f6,2013-06-07,257b7780,Small grammar fixes.,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,1a649a702b,2013-06-05,c46b7a54,Modified: Change from ISO-8859-1 to latin1.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,29,1,2,2,0,0,0,0,0
+bottle,9e3f34c3ef,2013-06-05,efa66eb7,Preserve Cookies and other headers set on bottle.response on redirect(),2,1,23,6,11,6,0,0,1,2,0,0,0,0,0,0,0,8,0,0,11,0,0,1,0,0
+bottle,54a82e4ef4,2013-06-04,efa66eb7,Added BaseResponse::expires tests.,2,1,17,12,11,11,0,0,0,1,0,0,0,0,0,0,0,8,0,0,11,0,0,0,0,0
+bottle,079587f715,2013-06-03,6da55772,Coerce Expires header to be RFC 1123 compliant,1,1,10,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,1,0,0
+bottle,832b8c8a72,2013-05-21,efa66eb7,fixed bug in resounce manager lookup,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,193fc0b14e,2013-05-21,efa66eb7,typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+bottle,15d040d80f,2013-05-06,1b482ff4,Attempt to load simplejson first since it is so much faster.,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,0263ddd5f5,2013-04-21,442fdd51,Fixed syntax error.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,6bbf828e41,2013-04-09,5894f1a5,updating setup.py classifiers to show 3.2 and 3.3 support,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+bottle,b541e99188,2013-04-09,39681e62,static_file: add charset to content-type,1,1,3,1,3,1,0,0,0,1,0,0,1,0,0,0,0,44,1,3,3,0,0,0,0,0
+bottle,0f2189050e,2013-04-09,39681e62,remove unused import: urllib,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+bottle,29abc97035,2013-03-26,efa66eb7,Router cleanup.,2,1,105,105,104,105,0,0,0,25,3,3,2,1,3,9,0,57,8,57,94,0,0,0,0,1
+bottle,579c89cc74,2013-03-22,efa66eb7,Moved route parsing implementation into a separate class,1,1,44,26,44,26,0,0,0,23,3,3,2,0,4,1,0,46,7,3,36,0,0,0,0,0
+bottle,2f60328ef2,2013-03-22,efa66eb7,- Ensure that warnings are printed in debug mode. - Fix some warnings triggered by bottle (file not ,1,1,7,4,7,4,1,0,0,4,0,0,1,0,0,0,0,60,1,4,7,0,0,0,0,0
+bottle,3982dc28f9,2013-03-22,efa66eb7,Removed validate() decorator (deprecated since 0.10),1,1,0,21,0,21,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+bottle,2d20c98511,2013-03-22,efa66eb7,Removing template_opts parameter from template plugin (deprecated since 0.9),2,1,1,4,0,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0
+bottle,900412f5e3,2013-03-22,efa66eb7,Whitespace,1,1,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,1b6a95f978,2013-03-22,efa66eb7,Removing SimpleTALTemplate adapter (deprecated since 0.10),1,1,0,27,0,27,0,0,0,2,0,0,0,0,0,2,0,7,0,0,0,0,0,0,0,0
+bottle,6eb7936ef3,2013-03-14,d709a51d,GeventSocketIO support added,1,1,8,0,8,0,0,0,0,7,1,1,1,0,1,0,0,68,2,0,6,0,0,0,0,0
+bottle,ff090df59a,2013-02-27,8e625a55,Update plugins/sqlite/bottle_sqlite.py,1,1,5,3,5,3,0,0,0,3,1,0,0,0,0,0,0,13,1,2,5,0,0,0,0,0
+bottle,104552687f,2013-02-17,efa66eb7,Added BaseRequest.url_args property,2,1,13,1,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+bottle,c16404082e,2013-02-17,efa66eb7,Call start_response with a third error parameter on fatal errors (as suggested by WSGI),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+bottle,166251bb62,2013-02-17,efa66eb7,Fixed two python2/3 bugs,1,1,5,3,5,3,1,0,0,5,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+bottle,79cf8020cd,2013-02-17,efa66eb7,Made _iterchain more flexible (and renamed it to _closeiter),1,1,12,6,12,6,0,0,0,3,0,0,0,1,1,0,0,53,1,1,9,0,0,0,0,0
+bottle,404471131f,2013-02-15,efa66eb7,Docs: Rewrite of the 'Request Data' section of the tutorial.,3,1,139,37,1,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+bottle,910af82184,2013-02-15,efa66eb7,Doc fixes,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+bottle,94494a5dfa,2013-02-13,efa66eb7,fix #460: Jython cannot subclass itertools.chain,1,1,5,1,5,1,1,0,0,7,1,1,0,0,2,0,0,6,1,0,5,0,0,0,0,0
+bottle,b18a938b22,2013-02-13,efa66eb7,Replaced cgi.FieldStorage instances in request.files with a custom FileUpload file wrapper.,2,1,76,23,73,23,0,1,0,8,1,1,1,0,4,0,0,29,2,6,60,0,0,0,0,0
+bottle,48dfa1fa96,2013-02-12,efa66eb7,Fix/API: The JsonPlugin ignored HTTPError or HTTPResponse responses.,2,1,26,1,9,1,1,0,0,2,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+bottle,eeae2212f6,2013-02-12,7f53492c,let start_response accept 3 arguments with beaker,1,1,6,1,6,1,0,0,0,3,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+bottle,2577cffb32,2013-02-11,efa66eb7,fix #399: Raise error for requests bigger than BaseRequest.MEMFILE_MAX,2,1,35,18,28,11,1,0,0,4,1,0,0,0,1,0,0,25,1,8,27,0,0,0,0,0
+bottle,564f3ff7eb,2013-02-01,efa66eb7,Fix #446 (also #438): Wrong subapp response body handling and lost Content-Type header on mounted ap,2,1,21,5,6,5,1,0,0,4,0,0,0,0,0,0,0,15,0,0,6,0,0,1,0,0
+bottle,dceff06e2c,2013-02-01,62f8b0d3,Fixed bug where HTTPResponse adds bad content-type header,1,1,1,1,1,1,1,0,0,2,0,0,0,0,0,0,0,15,0,0,1,0,0,1,0,0
+bottle,8e30e131dd,2013-02-01,efa66eb7,Lots of tests for the new multiblock template syntax and some fixes and improvements in the template,2,1,124,16,18,16,1,0,0,7,0,0,1,0,0,0,0,34,1,2,17,0,0,0,0,0
+bottle,a853d84f53,2013-02-01,efa66eb7,SimpleTemplate now accepts non-utf8 source to maintain bc.,2,1,12,9,12,7,0,0,0,2,0,0,0,0,0,0,0,16,0,0,12,0,0,0,0,0
+bottle,634ba9d82d,2013-02-01,efa66eb7,Turned StplParser.syntax into a property. Fixed some comments.,1,1,17,11,17,11,1,0,0,2,0,0,0,0,1,0,0,10,0,0,10,0,0,0,0,0
+bottle,98a89a2ffb,2013-02-01,efa66eb7,Added BaseRequest.route property.,4,1,30,1,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+bottle,17484d238d,2013-01-31,57c114de,fix: Gevent adapter bug (KeyError),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+bottle,2847888c49,2013-01-25,8d8ff333,add tornado server host name,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+bottle,92dcb5106c,2013-01-21,efa66eb7,"fix #438: ""Some cookies are lost when using mount()""",2,1,14,7,5,5,1,0,0,3,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+bottle,db8b8012e6,2013-01-16,efa66eb7,The gevent server adapter now accepts additional parameters (e.g. SSL cert path).,1,1,7,5,7,5,0,0,0,2,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+bottle,d4b158668c,2013-01-07,efa66eb7,BaseResponse cleanup.,1,1,40,21,40,21,0,1,0,7,1,0,1,0,0,0,0,15,2,10,37,0,0,0,0,1
+bottle,09986b894a,2013-01-07,efa66eb7,Fixing 2.5 bug in mount_wrapper,1,1,1,1,1,1,1,0,0,2,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,705d672964,2013-01-04,6bad9f62,self.quiet should not stop messages to logging,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+bottle,6abd7ddb5b,2012-12-24,6bad9f62,typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+bottle,71c05d37d2,2012-12-17,18770d98,Expose Jinaj2 globals directive,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+bottle,24aa079a6b,2012-12-15,04b94af2,Trying to understand #396,2,1,15,2,2,2,0,0,0,3,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+bottle,83f3ea83da,2012-12-05,04b94af2,Update HTTPResponse call when mounting apps,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,178428dea7,2012-12-03,efa66eb7,Iterators with a .close() method are now wrapped in a way that preserves the .close() method.,2,1,37,10,20,10,0,0,0,1,0,0,1,0,0,0,0,54,1,15,18,0,0,0,0,0
+bottle,30d2f4b119,2012-11-27,e1bc1986,issue 407: 'why render empty string when using @view and no return statement',3,1,13,0,2,0,0,0,0,3,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+bottle,df37217734,2012-11-21,efa66eb7,Fix #405: Templates are not cached properly.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,18,1,1,1,0,0,0,0,0
+bottle,94f5962506,2012-10-17,efa66eb7,fix #389: Bottle still raises DeprecationWarning in bottle.redirect() and Router.match(),1,1,2,3,2,3,1,0,0,2,0,0,0,1,0,0,0,24,1,1,2,0,0,0,0,0
+bottle,9e374eefda,2012-10-17,efa66eb7,"Fix #387: Template lookup found files in workdir, even if TEMPLATE_PATH did not contain '.'.",1,1,12,4,12,4,1,0,0,1,0,0,0,0,0,0,0,15,0,0,10,0,0,0,0,0
+bottle,21dafedf88,2012-10-10,efa66eb7,fix #383: Bottle raises DeprecationWarning - internal,1,1,15,15,15,15,1,0,0,2,0,0,0,0,0,0,0,49,2,15,15,0,0,0,0,0
+bottle,5c86070bc4,2012-10-09,efa66eb7,Start of 0.12 development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,a33e8bf369,2012-10-09,efa66eb7,Release of 0.11.1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,be36389a18,2012-10-09,efa66eb7,Mostly typos in docs,4,1,12,7,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,96645e845b,2012-10-04,efa66eb7,"Fix #382 ""Test failures with Python 3""",1,1,4,3,4,3,1,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0
+bottle,7c45f076c1,2012-09-24,6ed2cb49,plugin.apply: rename context to route,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+bottle,bbfc49b419,2012-09-20,8fb56469,Fix bottle.ext namespacing when importing as bottle (regression in fix for #334),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,c5381b6af7,2012-09-19,04b94af2,Avoid __main__.ext namespace,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,5238c615b3,2012-08-30,efa66eb7,Removed unused parameter docs from GeventServer,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,2b1ed4f746,2012-08-30,efa66eb7,Raise RuntimeError when using gevent without monkey-patches.,1,1,5,4,5,4,0,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+bottle,14020ae680,2012-08-30,efa66eb7,Some micro-optimisations.,2,1,23,27,22,26,0,0,0,9,0,0,0,0,0,0,0,23,0,0,22,0,0,0,0,0
+bottle,9d2f04a3c0,2012-08-30,efa66eb7,Fix: Bottle no longer changes the Content-Length response header if it was set by the application. (,1,1,4,4,4,4,1,0,0,1,0,0,1,0,0,0,0,49,1,4,4,0,0,1,0,0
+bottle,49c65935f5,2012-08-30,efa66eb7,Replaced HTTPResponse and HTTPError with subclasses of BaseResponse.,6,1,88,91,36,36,0,0,1,12,1,1,1,0,2,1,0,49,4,5,31,0,0,0,0,0
+bottle,4047cda0ab,2012-08-30,efa66eb7,Whitespace and typos Fixed copyright date,3,1,9,10,5,6,1,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0
+bottle,9bdaa00c15,2012-08-01,efa66eb7,Code cosmetics,1,1,12,13,12,13,0,0,0,4,0,0,0,0,0,0,0,15,0,0,12,0,0,0,0,0
+bottle,82e4e5bfb5,2012-08-01,efa66eb7,(partial) Fixed most buy and bc incompatibilities,2,1,81,214,72,205,1,0,0,10,0,1,1,0,1,9,0,32,2,10,68,0,0,0,0,0
+bottle,375a7d0e20,2012-07-31,efa66eb7,Partial commit.,1,1,194,3,194,3,0,0,0,1,1,0,0,0,12,0,0,6,0,0,159,0,0,0,0,0
+bottle,cecbd04fc8,2012-07-20,efa66eb7,Fix: Template cache now depends on the ID of the lookup path list.,1,1,10,9,10,9,1,0,0,1,0,0,1,0,0,0,0,18,1,10,10,0,0,0,0,0
+bottle,b652c4f1b5,2012-07-20,efa66eb7,Fix: cgi.FieldStorage had a misleading implementation of __nonzero__ and returned False for bool(req,2,1,8,1,6,1,1,0,0,1,0,0,0,0,1,0,0,21,0,0,4,0,0,0,0,0
+bottle,566239e883,2012-07-08,773d4b42,Respect HTTP_X_FORWARDED_PROTO (if present) so we don't break HTTPS when redirecting,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+bottle,acf5c41da6,2012-07-02,efa66eb7,fix: The ResourceManager now behaves as documented.,2,1,24,11,12,11,1,0,0,1,0,0,0,0,0,0,0,14,0,0,11,0,0,0,0,0
+bottle,a3dcff4cd6,2012-06-26,efa66eb7,fix: Fixes unicode problems with request.query and request.forms (fix #342 fix #344 fix #339),2,1,30,6,28,4,1,0,0,2,0,0,0,0,2,0,0,21,0,0,23,0,0,0,0,0
+bottle,c8cc114099,2012-06-26,efa66eb7,docs: Unicode issues with form values.,2,1,25,6,5,6,0,0,0,1,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+bottle,4edde9b1d5,2012-06-25,efa66eb7,"fix: Unicode errors with Python 3.2+ POST parameters. (fix #344, fix #349)",3,1,22,16,7,4,1,0,0,1,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+bottle,6be6fe4645,2012-06-24,0fb3bb82,Update master,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+bottle,fba90b0862,2012-06-04,efa66eb7,fix: Accessing the uninitialized request/response objects now yields a useful error message.,1,1,10,4,10,4,1,0,0,1,0,0,0,0,2,0,0,3,0,0,9,0,0,0,0,0
+bottle,59434bc971,2012-05-30,efa66eb7,fix: Removed limit from all traceback.format_exc() calls to display full traceback.,1,1,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,49,1,1,3,0,1,0,0,0
+bottle,9b24401605,2012-05-29,efa66eb7,api: Bottle.mount() not adds 'mountpoint' meta-data to the created routes to allow introspection of ,2,1,23,10,14,10,0,0,0,1,0,0,0,0,2,2,0,15,0,0,13,0,0,0,0,0
+bottle,59854c0c1d,2012-05-29,efa66eb7,docs: Changelog and cleanup,2,1,16,7,6,7,0,0,0,4,0,0,0,0,0,0,0,4,0,0,6,0,0,0,0,1
+bottle,f310de85eb,2012-05-14,d39c0d3a,Update bottle.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,85aa8c2623,2012-05-14,efa66eb7,Fix: IOError with mod_wsgi,1,1,7,2,7,2,1,0,0,1,0,0,0,0,0,0,0,3,0,0,5,0,0,0,0,0
+bottle,1a2a72cea0,2012-05-10,1b376140,BUGFIX: avoid cryptic TypeError when pickling FormsDict objects.,1,1,3,0,3,0,1,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+bottle,840ed7081d,2012-04-22,756d2a2a,some basic documentation fixes,8,1,20,20,4,4,0,0,0,2,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+bottle,44f1f454fd,2012-04-19,efa66eb7,Removed 'filemask' feature from ResourceManager.,1,1,41,51,41,51,0,0,0,4,0,0,0,0,1,1,0,13,0,0,38,0,0,0,0,0
+bottle,4e304ab309,2012-04-06,b79f6a72,remove print,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,1,0
+bottle,ecd48591ba,2012-04-06,b79f6a72,"(#307) If 'gevent' and quite=True, suppress output",1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+bottle,a21d71694f,2012-04-04,efa66eb7,Changed the __setattr__ and __getattr__ behavior of Request instances.,2,1,39,28,25,18,0,0,0,6,0,0,0,0,1,0,0,6,0,0,21,0,0,0,0,0
+bottle,8cbd14cb85,2012-04-04,efa66eb7,Added a way to extend BaseRequest on a per-request basis via the bottle.request.ext.* environ namesp,2,1,28,5,10,0,0,0,0,2,0,0,0,0,1,0,0,6,0,0,7,0,0,0,0,0
+bottle,9677046acb,2012-03-26,5794934c,support when bottle is not in the pythonpath,1,1,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+bottle,7d1d824ab9,2012-03-26,efa66eb7,Renamed some methods on ResourceManager and cleaned up documentation.,2,1,21,18,18,15,0,0,0,3,0,0,0,0,1,1,0,11,0,0,16,0,0,0,0,0
+bottle,831c906bcc,2012-03-15,efa66eb7,Moved the resource stuff into a separate class.,3,1,154,120,99,66,0,0,0,5,1,1,0,0,5,3,0,14,1,0,75,0,0,0,0,0
+bottle,423f2c98dd,2012-03-13,efa66eb7,fix #300: Added WaitressServer adapter.,1,1,8,1,8,1,1,0,0,15,1,1,1,0,1,0,0,68,2,0,6,0,0,0,0,0
+bottle,18afaae86b,2012-02-29,efa66eb7,fix: The 'path' wildcard filter should not match empty strings.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,266b1b99ed,2012-02-22,efa66eb7,Replaced some code with a touni() call in SimpleTemplate.,1,1,1,2,1,2,0,0,0,1,0,0,0,1,0,0,0,57,1,1,1,0,0,0,0,0
+bottle,ba572446ad,2012-02-17,efa66eb7,Simplified some code.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,58,1,1,1,0,0,0,0,1
+bottle,16ad05e411,2012-02-16,04b94af2,Stressing encoding definition. I swear I found these bugs by accident.,2,1,6,1,1,1,1,0,0,1,0,0,0,0,0,0,0,58,1,1,1,0,0,0,0,0
+bottle,0d73a07b90,2012-02-16,04b94af2,Removing an useless \escaping in -*- coding -*- regex.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,58,1,1,1,0,0,0,0,0
+bottle,efa628ee06,2012-02-13,efa66eb7,Fix: Missing response.environ on router errors.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+bottle,50a2151683,2012-02-11,efa66eb7,fix: Subtile bug in stpl parser. '.%' was recognized as code line.,1,1,2,1,2,1,1,0,0,1,0,0,1,0,0,0,0,58,1,2,2,0,0,0,0,0
+bottle,ebc93d15be,2012-02-09,efa66eb7,fix #297: Added FormsDict.decode() to better support WTForms.,2,1,34,9,25,9,1,0,0,1,0,0,0,0,2,0,0,5,0,0,21,0,0,0,0,0
+bottle,ace9fdffc5,2012-02-08,efa66eb7,Fixed relative path handling in Bottle.add_resource_path() and added tests.,2,1,70,2,4,2,1,0,0,2,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+bottle,fc8f02f605,2012-02-08,efa66eb7,Added basic resource management support.,1,1,79,9,79,9,0,0,0,1,0,0,0,0,3,0,0,17,0,0,59,0,0,0,0,0
+bottle,74d1d34f11,2012-02-07,efa66eb7,docstrings,1,1,8,2,8,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,6,0,0,0,0,0
+bottle,a1bc1c30e3,2012-02-07,efa66eb7,LocalRequest and LocalResponse are now thread-bound singletons.,1,1,42,11,42,11,0,0,0,1,0,0,0,0,1,0,0,10,0,0,32,0,1,0,0,0
+bottle,aa10da7cd4,2012-02-02,efa66eb7,fix #278: Undefined lockfile variable after failed mkstemp() call.,1,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,0,68,1,1,1,0,1,0,0,0
+bottle,b2b4309228,2012-02-01,efa66eb7,"fix #275: Python 3.x ""dictionary changed size during iteration"" error in FileCheckerThread",1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,19,1,2,2,0,1,0,0,0
+bottle,763d6e5685,2012-01-25,dc1110b3,Fixed unwanted exception being thrown.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,31e736c55f,2012-01-13,efa66eb7,Move more logic to Bottle._handle to make testing easier.,1,1,10,10,10,10,0,0,0,3,0,0,0,0,0,0,0,49,1,6,10,0,0,0,1,0
+bottle,9ca2f9c205,2012-01-11,11904a9d,fixed version position,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,67,1,1,1,0,0,0,0,0
+bottle,9d24735663,2012-01-11,11904a9d,show bottle version when running server,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,67,1,1,1,0,0,0,0,0
+bottle,a810ae4a77,2012-01-11,efa66eb7,fix #240 (again): Reload on any non-critical exception.,1,1,7,4,7,4,1,0,0,1,0,0,1,0,0,0,0,67,1,6,6,0,0,0,0,0
+bottle,5759dab42e,2012-01-11,b0d7e79a,"'quiet = False' already defined ServerAdapter, thanks @iurisilvio",1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,10cf250ac1,2012-01-10,b0d7e79a,Allow to use 'quiet' arg to disable eventletserver output,1,1,13,7,13,7,0,0,0,1,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,0
+bottle,04eade871b,2011-12-30,efa66eb7,Cleanup: Removed globals()[...] hack.,1,1,14,5,14,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,1
+bottle,47779bc395,2011-12-30,efa66eb7,Deprecating SimpleTALTemplate. Some one should write a plugin instead.,1,1,3,3,3,3,0,0,2,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+bottle,661ce51eb5,2011-12-30,efa66eb7,Added BaseRequest.app property.,2,1,13,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+bottle,6946695b69,2011-12-28,efa66eb7,fix: Workaround for a hash collision DoS vulnerability in CPython dicts.,2,1,28,9,11,9,1,0,0,4,0,0,0,0,0,0,0,16,0,0,10,1,0,0,0,0
+bottle,794f119109,2011-12-28,efa66eb7,Added a Bottle.merge() method.,2,1,28,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,9,0,0,0,0,0
+bottle,a45f67ec27,2011-12-28,efa66eb7,New Bottle.add_route() method.,1,1,8,3,8,3,0,0,0,2,0,0,0,0,1,0,0,9,1,1,7,0,0,0,0,0
+bottle,3d86eac213,2011-12-22,efa66eb7,Fixed a bug in HTTPError.__repr__. The repr() builtin breaks for non-ascii unicode strings.,2,1,6,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,f1a216cec7,2011-12-22,efa66eb7,Added debug parameter to run(),1,1,5,4,5,4,0,0,0,1,0,0,1,0,0,0,0,65,1,3,5,0,0,0,0,0
+bottle,3ed0cf3daf,2011-12-17,efa66eb7,fix #267: Possible XSS vulnerability on internal server errors.,1,1,7,5,7,5,1,0,1,1,0,0,0,0,0,0,0,28,0,0,7,1,0,0,0,0
+bottle,33d35ff5f7,2011-12-15,efa66eb7,api: Added bottle.run(),1,1,4,0,4,0,0,0,0,17,1,1,1,0,1,0,0,63,2,0,3,0,0,0,0,0
+bottle,82aa5b557c,2011-12-15,efa66eb7,docstrings,1,1,3,4,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,578789b7e2,2011-12-09,04b94af2,Solving float_filter bug and testing it.,2,1,11,2,2,2,1,0,0,2,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+bottle,ddb7e5acd5,2011-12-08,efa66eb7,Added AUTHORS and renamed LICENSE.txt to LICENSE.,5,1,67,65,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,3e53c28323,2011-12-04,efa66eb7,fix #91: Support for partial downloads (Range header) in static_file().,2,1,68,12,50,11,1,0,0,3,0,0,1,0,2,0,0,42,1,12,47,0,0,1,0,0
+bottle,18a02a8acf,2011-12-03,04b94af2,Typo: _stderr without underscore.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+bottle,2b43464dda,2011-12-02,efa66eb7,Changed order of AutoServer because some versions of CherryPy monkey-patch a bit to much and Debian ,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,b759bd2a91,2011-12-02,efa66eb7,fix: Removed last print statement.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,0efd5bc664,2011-12-02,efa66eb7,fix: All test-cases now support 2.x and 3.x from the same source.,15,1,169,186,8,1,1,0,0,3,0,0,0,0,0,0,0,49,1,1,7,0,0,0,0,0
+bottle,f0a22ee78c,2011-12-01,efa66eb7,docs: Command-line interface,2,1,48,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+bottle,43578841bc,2011-12-01,efa66eb7,Print CLI help if called without parameters.,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,469052a2d8,2011-11-29,39397dc0,allow unicode input,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+bottle,773cc5f5d9,2011-11-26,efa66eb7,Fixing some calls for dict.iter* methods.,1,1,5,6,5,6,1,0,1,4,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+bottle,9cac674546,2011-11-25,efa66eb7,Removed 2to3 code and documentation. Started to port the test cases.,7,1,40,82,6,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+bottle,fa2c8842f3,2011-11-25,efa66eb7,Code cleanup,1,1,9,8,9,8,0,0,0,2,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,1
+bottle,d44d4dd1d7,2011-11-25,efa66eb7,Use next(it) instead of it.next(),1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,49,1,2,3,0,0,0,0,0
+bottle,2ba623c3d5,2011-11-25,efa66eb7,Made python 2.x tests pass again.,1,1,21,15,21,15,0,0,0,4,0,0,0,0,4,0,0,49,1,1,20,0,0,0,0,0
+bottle,18ea724b6f,2011-11-25,efa66eb7,Fixed most of the 2.5/2.6/3.1/3.2 incompatibilities. MultiDict still needs work.,1,1,83,80,83,80,1,1,1,18,0,0,1,0,1,2,0,20,3,3,65,0,0,0,0,0
+bottle,63593554b0,2011-11-24,efa66eb7,Worked around everything that throws a SyntaxError in py3.,1,1,35,29,35,29,0,0,0,10,0,0,0,1,2,0,0,63,3,13,32,0,0,0,0,0
+bottle,684ad16434,2011-11-22,efa66eb7,fix: Workaround for bug in functools.update_wrapper() (fixes #223 #224) Thanks to Brian Wickman,2,1,15,1,6,1,1,0,0,1,0,0,0,0,1,0,0,15,0,0,6,0,0,0,0,0
+bottle,f8ef7884c2,2011-11-19,efa66eb7,Code cleanup.,1,1,13,12,13,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,1
+bottle,2d2fd03eda,2011-11-17,efa66eb7,Added Route.__repr__,1,1,3,0,3,0,0,0,0,3,0,0,0,0,1,0,0,5,0,0,2,0,0,0,0,0
+bottle,dcd9c0f3fb,2011-11-16,efa66eb7,api: Changed BaseResponse.status to return a string. Code cleanup,2,1,24,43,12,31,0,0,0,4,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,1
+bottle,0b117d134a,2011-11-16,efa66eb7,Starting 0.11 development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,db2b85c9e1,2011-11-16,efa66eb7,"fix: load_app now returns any callable, not only Bottle instances.",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+bottle,6235d7e0a4,2011-11-16,efa66eb7,Micro optimizations :),1,1,3,4,3,4,0,0,0,3,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+bottle,a85175a741,2011-11-16,efa66eb7,Added --version command-line argument.,1,1,9,3,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+bottle,e75c78e3f7,2011-11-15,efa66eb7,fix #240: run(reloader=True) now handles SyntaxError and ImportError exceptions raised by a dynamica,1,1,86,87,86,87,1,0,0,3,0,0,1,1,2,2,0,64,2,64,75,0,0,1,0,0
+bottle,b8e371db8c,2011-11-15,efa66eb7,Code cleanup.,1,1,8,10,8,10,0,0,0,1,0,0,0,0,0,0,0,4,0,0,8,0,0,0,0,1
+bottle,925ae20fdb,2011-11-15,efa66eb7,Fixed Makefile target: release,2,1,3,2,1,1,1,0,0,1,0,0,0,0,0,0,0,57,1,1,1,0,0,0,0,0
+bottle,32dbec0f0c,2011-11-15,efa66eb7,"fix: I broke ""bottle.py --help"" some commits ago.",1,1,13,12,13,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+bottle,0cc5e09545,2011-11-15,efa66eb7,Added Python 2.5 deprecation warning.,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,a9431b6336,2011-11-15,efa66eb7,fix: Python 3.x only bug in SimpleTemplate. Templates with an encoding other than the system default,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,57,1,1,1,0,0,0,0,0
+bottle,73621c3451,2011-11-15,efa66eb7,Cleanup.,1,1,9,14,9,14,0,0,0,2,0,0,0,0,0,0,0,11,0,0,8,0,0,0,0,1
+bottle,e93c995a8b,2011-11-15,efa66eb7,fix #247: Correcting set_cookie docstring.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,20,1,1,1,0,0,0,0,0
+bottle,4f359a14d3,2011-11-15,efa66eb7,fix #251: Undefined start_response variable in Bottle.mount() fix: Support for huge body iterators r,1,1,3,3,3,3,1,0,0,3,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+bottle,8daa140a50,2011-11-15,efa66eb7,fix #250: The command-line interface now calls gevent.monkey.patch_all() if the gevent server adapte,3,1,50,40,27,20,1,0,0,0,0,1,0,0,0,1,0,0,0,0,21,0,0,0,1,0
+bottle,620cb12436,2011-11-11,efa66eb7,Removed debug print statement :/,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0
+bottle,fe4ae94e46,2011-11-11,efa66eb7,Code cleanup and some tests.,2,1,47,27,12,16,0,0,0,6,0,0,0,0,0,0,0,45,1,1,12,0,0,0,0,1
+bottle,4cf2344451,2011-11-10,efa66eb7,fix: validate() missed a functools.wraps() (fix #248),1,1,3,2,3,2,1,0,0,3,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+bottle,40bf9c6165,2011-11-10,efa66eb7,api: validate() is no longer needed.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,47449b675e,2011-11-08,efa66eb7,New route syntax /object/<id:int> and support for route wildcard filters.,6,1,340,202,145,135,0,0,0,7,2,2,0,1,8,5,0,45,4,76,128,0,0,0,0,0
+bottle,80f303c24f,2011-10-27,efa66eb7,"Fix: Request.set_cookie() now accepts expire=datetime/int and max_age=timedelta, as documented.",2,1,44,13,18,7,1,0,0,1,1,0,0,0,0,0,0,20,1,15,16,0,0,0,0,0
+bottle,b230cbacd6,2011-10-25,efa66eb7,Added BaseRequest.get_header() for consistency.,1,1,4,0,4,0,0,0,0,1,0,0,0,0,1,0,0,2,0,0,3,0,0,1,0,0
+bottle,da01a3d1fe,2011-10-25,efa66eb7,docs: Details about route matching order.,2,1,32,3,4,3,0,0,0,2,0,0,0,0,0,0,0,21,0,0,3,0,0,0,0,0
+bottle,0ffae7866a,2011-10-24,efa66eb7,Refactoring,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,1
+bottle,f1b5a3a605,2011-10-24,efa66eb7,Fix python 3 unicode error in encode/decode_cookie. (fix #241),1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+bottle,0ec8d474ef,2011-10-20,efa66eb7,Added new HTTP status codes. See https://tools.ietf.org/html/draft-nottingham-http-new-status-02,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+bottle,d478c75b56,2011-10-13,efa66eb7,Typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,ce5f0d3d4a,2011-10-13,efa66eb7,Added deprecation warning to BaseReqiest.status,1,1,23,13,23,13,0,0,0,3,0,0,0,0,3,0,0,24,0,0,20,0,0,0,0,0
+bottle,2e997de5c8,2011-10-11,a41d3207,"Allow options to be passed into GunicornServer (e.g. worker_class, workers)",1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,8,0,0,3,0,0,0,0,0
+bottle,00133d48c4,2011-10-11,efa66eb7,Added three new functions to the SimpleTemplate default namespace:   * get() works like dict.get() o,2,1,17,1,2,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+bottle,bf40a6c6c9,2011-10-11,efa66eb7,Nice error messages for the CLI.,1,1,22,13,22,13,0,0,0,1,1,0,0,0,0,0,0,25,1,19,19,0,0,0,0,0
+bottle,aa655b9007,2011-10-01,efa66eb7,A new global variable NORUN prevents run() from starting a server. It is used by load_app() to work ,1,1,10,4,10,4,0,0,0,2,0,0,1,0,0,0,0,31,1,1,10,0,0,1,0,0
+bottle,ba8ad1a95c,2011-10-01,efa66eb7,Bottle now doubles as a command-line utility to start applications.,2,2,25,0,25,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,22,0,0,0,0,0
+bottle,8b023afd02,2011-10-01,efa66eb7,"Improved Bottle.mount() new: You can now mount any WSGI application, not only Bottle instances. api:",3,1,99,75,35,25,1,0,1,3,0,0,0,0,1,0,0,13,0,0,28,0,0,0,0,0
+bottle,ab98157761,2011-09-30,efa66eb7,FormsDict now de- or recodes values on attribute access and returns unicode. BaseRequest.cookies is ,2,1,59,13,28,13,0,0,0,3,0,0,0,0,1,1,0,4,0,0,24,0,0,0,0,0
+bottle,715603156b,2011-09-25,af633da0,Fix caching for %rebase,1,1,1,2,1,2,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+bottle,cfc7e967e4,2011-09-25,efa66eb7,fix: Request.json too restrictive. (fix #226),2,1,2,2,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+bottle,5e149a9df7,2011-09-25,efa66eb7,Improved ConfigDict:,2,1,39,14,18,3,0,0,0,2,0,0,0,0,1,0,0,4,0,0,16,0,0,0,0,0
+bottle,00e6337285,2011-09-19,04b94af2,Correcting a common typo in Bottle: thread-save -> thread-safe.,2,1,4,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+bottle,424a10fad9,2011-09-19,efa66eb7,Fix: ConfigDict now raises AttributeError if you try to overwrite a dict method. Added tests for Con,2,1,63,4,4,4,1,0,0,2,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+bottle,21c9d2d999,2011-09-19,efa66eb7,Added a ConfigDict(dict) class.,1,1,22,2,22,2,0,0,0,2,0,0,0,0,3,0,0,13,1,1,15,0,0,0,0,0
+bottle,a38dc460a4,2011-09-18,04b94af2,Replace _self to self.,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,249589872a,2011-09-18,04b94af2,Remove old Gunicorn support and change app() to handler.,1,1,7,16,7,16,0,0,0,3,0,0,0,0,0,0,0,7,0,0,7,0,0,0,1,0
+bottle,664894634d,2011-09-17,04b94af2,"Update GunicornServer, based on Itty implementation.",1,1,21,5,21,5,0,0,0,1,0,0,0,0,2,0,0,14,0,0,15,0,0,0,0,0
+bottle,615835fa61,2011-09-15,efa66eb7,Plugin names are now unique for a specific route.,1,1,10,6,10,6,0,0,0,2,0,0,0,0,0,0,0,9,0,0,10,0,0,0,0,0
+bottle,68a8ce1970,2011-09-14,6ed2cb49,remove unused import (see c53172cb57),1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+bottle,07a56a660f,2011-09-13,6ed2cb49,Fix NameError exception in load_app (_load call),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+bottle,f43fe57530,2011-09-12,efa66eb7,Added support for import strings for Bottle.route(callback=...).,1,1,2,0,2,0,0,1,0,2,0,0,0,0,0,0,0,11,1,1,1,0,0,1,0,0
+bottle,24870ae0bd,2011-09-08,efa66eb7,"Fix: ""Error Handling of mounted apps should be delegated to the corresponding mounted app"" (fix #210",1,1,2,1,2,1,1,1,0,2,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,8d5701f2cd,2011-09-08,efa66eb7,BaseResponse.set_cookie now raises ValueError on cookies that exceed 4k in size.,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+bottle,28215a073b,2011-09-08,efa66eb7,"Added ""app_reset"" hook.",1,1,18,13,18,13,0,0,0,7,0,0,0,0,1,0,0,13,0,0,15,0,0,0,0,0
+bottle,14ed1fdd07,2011-09-08,efa66eb7,Added `BaseResponse.__repr__` to make debugging easier.,1,1,6,0,6,0,0,0,0,1,0,0,0,0,1,0,0,5,0,0,5,0,0,0,0,0
+bottle,bac87db74f,2011-09-08,efa66eb7,Added Response.add_header().,1,1,6,6,6,6,0,0,0,1,0,0,0,0,1,0,0,5,0,0,5,0,0,1,0,0
+bottle,b0a8c242b8,2011-09-08,efa66eb7,Docstrings,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,70a77cc47a,2011-09-04,efa66eb7,Fix: Missing import.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,c6efadb491,2011-09-04,efa66eb7,Added a FormsDict(MultiDict) class that allows attribute-like access to form values. Added a `type` ,2,1,32,14,29,14,0,0,0,6,0,0,0,0,1,0,0,13,0,0,28,0,0,0,0,0
+bottle,a110c1add3,2011-09-04,efa66eb7,fix: Missing PluginError exception in bottle. fix: The different template adapters shared a settings,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+bottle,997794c8a4,2011-09-04,04b94af2,Misspelling: extentions -> extensions.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+bottle,6a4e8b790f,2011-09-02,04b94af2,Add **kwargs to SimpleTemplate.prepare to fix upstream #203.,2,1,5,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,df285fa8c6,2011-09-02,efa66eb7,"fix: #202 ""Deprecation Warning in console"" moved to plugin API 2 for all bundled plugins. Thanks rwx",3,3,17,12,17,12,1,0,0,3,0,0,0,0,0,0,0,11,0,0,15,0,0,0,0,0
+bottle,882668ff34,2011-09-02,efa66eb7,"Fix: #201 ""Max recursion depth exceeded"" on len(WSGIHeaderDict({})) Thanks acasajus.",2,1,5,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+bottle,2bbf9ed12e,2011-09-01,efa66eb7,Python 2.5 UserDict.__repr__ is called recursively and crashes if the dict contains itself. bottleBa,1,1,2,0,2,0,1,0,0,1,0,0,0,0,1,0,0,2,0,0,2,0,0,0,0,0
+bottle,0edaf8425d,2011-08-30,efa66eb7,Removed Bottle.serve flag.,2,1,7,19,0,4,0,0,0,2,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0
+bottle,168023ebd6,2011-08-30,efa66eb7,Added two helper functions (html_escape and html_quote) and made html_escape the new default for stp,1,1,13,1,13,1,1,0,0,1,0,0,0,0,2,0,0,7,0,0,9,1,0,0,0,0
+bottle,e46499e584,2011-08-30,efa66eb7,docstrings,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,d38ec150d4,2011-08-29,efa66eb7,More compact code in redirect() and new tests for the HTTP/1.0 special case.,3,1,10,12,2,6,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+bottle,5ba18b4c98,2011-08-29,5c24ca4f,"Use the appropriate redirect default, based on the request protocol. Avoid overwriting any passed-in",1,1,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+bottle,2e475be232,2011-08-26,5a956c9f,Documentation,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+bottle,0adb100afe,2011-08-26,5a956c9f,Fixes #197,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+bottle,fa7733e075,2011-08-20,efa66eb7,Made CachedProperty even faster by turning it into a non-data descriptor.,1,1,15,5,15,5,0,0,1,22,3,3,0,0,2,1,0,13,5,0,11,0,0,0,0,0
+bottle,8ebf74ea16,2011-08-20,efa66eb7,Made load() a public API. A very handy function!,2,1,23,41,16,36,0,0,0,1,0,0,0,0,1,1,0,5,0,0,16,0,0,0,0,0
+bottle,7a4a508bd7,2011-08-20,efa66eb7,Removed the TypeFilterPlugin because it sucks and no one uses it.,1,1,0,27,0,27,0,0,0,10,1,1,0,0,0,5,0,15,1,0,0,0,0,0,0,0
+bottle,b4c0c21ebd,2011-08-20,efa66eb7,Simplified some of the Route code and added Route.all_plugins(),1,1,21,23,21,23,0,0,0,3,0,0,0,0,1,2,0,21,0,0,20,0,0,0,0,1
+bottle,7254cf0782,2011-08-20,efa66eb7,Code cosmetics.,1,1,32,32,32,32,0,2,2,12,2,2,0,0,0,0,0,57,5,1,23,0,0,0,0,0
+bottle,c53172cb57,2011-08-17,efa66eb7,Removed side-effects from Bottle.match(),1,1,4,2,4,2,0,0,0,2,0,0,0,0,0,0,0,18,0,0,3,0,0,0,0,0
+bottle,9477176d48,2011-08-09,efa66eb7,Some whitespace and a witty comment.,1,1,6,4,6,4,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+bottle,a4fa86b053,2011-08-09,efa66eb7,Added a new Route() class that represents a single route and handles most of the route-specific plug,3,1,331,272,104,64,0,0,1,27,2,1,0,0,9,2,0,16,3,15,84,0,0,0,0,0
+bottle,1a714aa724,2011-08-09,efa66eb7,fix: Gevent server adapter now skips the monkey-patching if threading.local is patched already.,1,1,8,8,8,8,1,0,0,2,0,0,0,0,0,0,0,6,0,0,6,0,1,0,0,0
+bottle,c773d11847,2011-07-25,efa66eb7,Typos in docstrings.,1,1,5,6,5,6,0,0,0,2,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+bottle,567a278847,2011-07-25,efa66eb7,fix: Workaround for a bug in some versions of lib2to3 (fix #175),1,1,6,1,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+bottle,addf7ae9eb,2011-07-19,efa66eb7,fix: GAE dev server crash on windows. (fix #183),2,1,9,2,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,4e8a79a313,2011-07-18,bdb16193,"Fix PEP-8 violation in JSONPlugin by renaming 'json' to 'json_result', to avoid name clash with json",1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,1,0,0
+bottle,4a0272bf95,2011-07-18,efa66eb7,Added MultiDict.getone to mimic other multi-dict APIs (Django),1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,08e88007a2,2011-07-17,bdb16193,Ensure JSONPlugin returns content-type text/html if JSON serialization fails,2,1,16,1,4,1,0,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+bottle,b2572600e0,2011-06-27,efa66eb7,fix: Added a workaround for missing PATH_INFO in CGI environments. This fixes #177,1,1,4,1,4,1,1,0,0,1,0,0,0,0,1,0,0,4,0,0,4,0,0,0,0,0
+bottle,87a39d602f,2011-06-24,efa66eb7,Some unused imports.,1,1,6,7,6,7,0,0,0,2,0,0,0,0,0,0,0,19,0,0,6,0,0,1,0,0
+bottle,3f4f8ffd95,2011-06-23,efa66eb7,Added __iter__() and close() to BaseResponse. Fixed some docstrings and whitespace errors.,1,1,26,16,26,16,1,0,1,5,0,0,0,0,2,0,0,10,0,0,21,0,0,0,0,0
+bottle,bb58c8f17a,2011-06-21,efa66eb7,"Fix: ""DeprecationWarning when using mount."". This fixes #173",1,1,2,2,2,2,1,0,0,3,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+bottle,3804d84b51,2011-06-21,efa66eb7,Typos and some PEP-8 fixes.,1,1,98,86,98,86,1,0,0,25,0,0,0,0,0,0,0,13,0,0,96,0,0,0,0,0
+bottle,6ab03c9cc0,2011-06-21,efa66eb7,"BaseRequest now supports a dict-like item access API to read, write and delete headers.",2,1,157,62,110,62,0,0,0,9,0,0,0,0,6,2,0,49,2,3,91,0,0,1,0,0
+bottle,e412cd9fa5,2011-06-16,efa66eb7,"Fix for cherrypy hanging on shutdown. This should fix #14 and #171. Thanks to Joshua Roesslein and """,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+bottle,d09f6ead28,2011-06-16,efa66eb7,Print exceptions to 'wsgi.error' regardless of debug mode. This fixes #167,1,1,4,2,4,2,1,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+bottle,ebeaa9f2fd,2011-06-14,efa66eb7,Lots of tests and slightly more robust BaseResponse.set_status method. BaseRequest.script_name now a,2,1,215,101,14,9,0,0,0,2,0,0,0,0,0,0,0,9,0,0,14,0,0,0,0,0
+bottle,7831617b21,2011-06-13,efa66eb7,"Fix #169 ""Bottle-SQLite doesn't import HTTPError"" Thanks fcamel :)",1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+bottle,f7b523901c,2011-06-10,efa66eb7,Fixed some Python 3 issues.,2,1,19,16,15,12,1,1,0,5,0,0,0,0,0,0,0,13,0,0,14,0,0,0,0,0
+bottle,a96590683a,2011-06-10,efa66eb7,Typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+bottle,dc8fef55af,2011-06-10,efa66eb7,Due to popular demand: Added BaseRequest.json property.,3,1,64,6,20,4,0,0,0,1,0,0,0,0,2,0,0,2,0,0,18,0,0,0,0,0
+bottle,60b172fcff,2011-06-10,efa66eb7,Added 'remote_route' and 'remote_addr' properties to BaseRequest. Added 'REMOTE_USER' support to 'Ba,2,1,78,16,41,13,0,0,0,6,0,0,0,0,2,0,0,6,0,0,39,0,0,0,0,0
+bottle,7d983bc3b0,2011-06-10,efa66eb7,Added BaseRequest.query property as an alias for .GET. BaseRequest.path and .method are properties n,1,1,117,106,117,106,0,0,0,17,0,0,0,0,4,2,0,13,0,0,107,0,0,0,0,0
+bottle,fd88064f05,2011-06-10,efa66eb7,Whitespace.,1,1,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,b7db02dc37,2011-06-07,efa66eb7,Prepared BaseRequest for its new role.,1,1,27,22,27,22,0,0,0,3,0,0,0,0,0,1,0,15,0,0,22,0,0,0,0,0
+bottle,ce626e52cb,2011-06-07,efa66eb7,Added BaseResponse.script_path property. Reordered BaseRequest() and updated some of the docstrings.,1,1,151,131,151,131,0,1,1,22,0,0,0,0,1,0,0,17,0,0,132,0,0,1,0,0
+bottle,a04515257f,2011-06-06,efa66eb7,Splitted Request into [Base/Local]Request. Same with Response.,4,1,81,9,15,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,1,0
+bottle,be86e70ed4,2011-06-03,efa66eb7,Added a helpful error message (ImportError) to json_dumps if no json library is available (python 2.,2,1,6,5,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,1,0,0
+bottle,431262129b,2011-06-03,efa66eb7,Reverted parts of 937328 and fixed MultiDict for py3k.,2,1,39,20,37,20,1,0,0,5,0,0,0,0,3,1,0,12,0,0,31,0,0,0,0,0
+bottle,238a6bd41c,2011-06-03,efa66eb7,"Added `Response.status_line`, `Response.status_code` and `Response.code`, which is currently an alia",1,1,22,7,22,7,0,0,0,3,0,0,0,0,2,0,0,6,0,0,18,0,0,0,0,0
+bottle,fc16e2e232,2011-06-03,efa66eb7,The Response.COOKIES attribute is deprecated now.,1,1,40,30,40,30,0,0,0,5,0,0,0,0,0,0,0,12,0,0,35,0,0,0,0,0
+bottle,906d0bb2b2,2011-06-03,efa66eb7,Added HeaderProperty.,1,1,23,10,23,10,0,0,0,16,2,2,0,0,4,2,0,14,3,0,17,0,0,1,0,0
+bottle,a8daeef500,2011-06-03,efa66eb7,Added 'filter' method to HeaderDict to filter out a number of headers.,1,1,4,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,1,0,0
+bottle,93732849ff,2011-05-30,efa66eb7,MultiDict and HeaderDict cleanup and speedup.,1,1,36,30,36,30,0,0,0,11,1,1,0,0,3,4,0,4,1,0,32,0,0,1,0,1
+bottle,55aca7b586,2011-05-23,fd20f22a,Fix: AttributeError in is_ajax (fix #162),2,1,11,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+bottle,f52ad27ae4,2011-05-14,efa66eb7,Removed debug print statement. (No effect under normal circumstances),1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+bottle,610790db0c,2011-05-14,efa66eb7,Removed most of the deprecated APIs.,5,1,14,95,4,65,0,1,0,5,0,1,0,2,0,10,0,31,3,3,3,0,0,0,0,0
+bottle,3e84344298,2011-05-14,efa66eb7,fix: MakoTemplate now returns a string (instead of a list with only one string) and Jinja2Template r,3,1,8,9,2,2,1,0,0,2,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+bottle,9d60b6e13f,2011-05-13,efa66eb7,"fix: ""SERVER_NAME is substituted for '127.0.0.1' for relative redirects"" issue #159",2,1,12,12,10,9,1,0,0,3,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+bottle,20f775ebab,2011-05-12,efa66eb7,Added interactive debugger to werkzeug plugin. docs: Added documentation for werkzeug and sqlite plu,9,2,211,40,30,10,0,0,0,4,0,0,0,0,1,0,0,10,0,0,23,0,0,0,0,0
+bottle,6e390b6cec,2011-05-05,67e9da50,MakoTemplate: instead of hacks use uri and filename,1,1,4,8,4,8,0,0,1,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+bottle,700733df98,2011-05-02,efa66eb7,Added sqlite plugin (experimental).,3,3,176,0,176,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,134,0,0,0,0,0
+bottle,8ad9455ddf,2011-05-02,efa66eb7,The bottle_werkzeug setup.py learned some new tricks.,2,2,12,35,12,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+bottle,7798e7b4f5,2011-05-02,efa66eb7,fix: Apply plugins immediately in debug mode. This helps a lot during plugin development. (cherry pi,2,1,10,6,6,1,1,0,0,4,0,0,0,0,0,0,0,15,1,1,6,0,0,0,0,0
+bottle,4f33a8db2e,2011-05-02,efa66eb7,Added a TemplatePlugin to replace the old route(template='...') behavior. Added a lot of Deprecation,1,1,48,19,48,19,0,0,1,8,0,0,1,1,3,0,0,49,2,5,43,0,0,0,0,0
+bottle,454bb664b0,2011-05-02,efa66eb7,Added basic tests for the werkzeug plugin. (cherry picked from commit 5b0b83aca97d35040d2e5d99158ae9,2,2,25,2,25,2,0,0,0,0,0,0,0,0,4,1,0,0,0,0,22,0,0,0,0,0
+bottle,6c151597e2,2011-04-29,efa66eb7,docs: licence -> license and 2009/2010 -> 2011,6,1,11,110,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,4ffe685c22,2011-04-28,efa66eb7,Added werkzeug plugin (untested).,2,2,147,0,147,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,117,0,0,0,0,0
+bottle,84c9d86279,2011-04-28,efa66eb7,Version bumb to 0.10.dev.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,b06f0659d7,2011-04-28,efa66eb7,Added a virtual package 'bottle.ext' that redirects imports to 'bottle_%s'.,1,1,36,1,36,1,0,1,0,8,1,1,0,0,3,0,0,34,2,1,26,0,0,1,0,0
+bottle,fd4f4d8c11,2011-04-23,efa66eb7,fix: Plugins are now disabled for sub application. See #149,2,1,29,0,1,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,bfcc4b496e,2011-04-20,efa66eb7,docs: Docstring typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+bottle,8515340b0b,2011-04-20,efa66eb7,Added Request.urlparts property and lots of redirect() tests.,4,1,124,34,33,29,0,0,0,4,0,0,0,0,1,0,0,3,0,0,33,0,0,0,0,0
+bottle,be7b4c14e7,2011-04-17,efa66eb7,"fix: ""Some headers not in request.headers dict."" # 130",2,1,20,3,11,3,1,0,0,2,0,0,0,0,0,0,0,6,0,0,10,0,0,1,0,0
+bottle,3255dac2a2,2011-04-17,efa66eb7,"Code cleanup, mostly in static_file()",1,1,11,11,11,11,0,0,0,3,0,0,0,1,0,0,0,34,1,7,9,0,0,0,0,1
+bottle,512048bf18,2011-04-17,efa66eb7,Added static_file() support for compressed files (Content-Encoding header).,1,1,15,10,15,10,0,0,0,1,0,0,1,0,0,0,0,37,1,15,15,0,0,1,0,0
+bottle,814c562046,2011-04-13,efa66eb7,"fix: ""UnicodeEncodeError in default 404-page with non-ascii URLs."" #145",2,1,19,9,8,8,1,0,0,3,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+bottle,35e81314e4,2011-04-07,efa66eb7,Bottle.mount() cleanup and documentation.,1,1,18,9,18,9,0,0,0,1,0,0,0,0,0,0,0,14,0,0,16,0,0,0,0,1
+bottle,307db32c02,2011-04-07,efa66eb7,Added 'monkey' and 'fast' options to gevent server adapter.,1,1,11,4,11,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,10,0,0,0,0,0
+bottle,d76260f65b,2011-04-07,efa66eb7,fix: request.POST for Python 3.2,2,1,10,8,7,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+bottle,8d13972328,2011-04-07,efa66eb7,Added install/uninstall module-level shortcuts + tests.,2,1,22,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+bottle,4723ce4714,2011-03-25,efa66eb7,mako: Added runtime exception handling for mako templates in debug mode.,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+bottle,cc00b61aae,2011-03-21,67e9da50,"Fix building query string in routes, with tests",2,1,4,2,2,2,1,0,0,1,0,0,0,0,0,0,0,23,1,1,2,0,0,0,0,0
+bottle,351910dad7,2011-03-19,efa66eb7,"docs: Moved files from ""apidoc"" to ""docs"" to make readthedocs.org happy.",33,1,19,18,15,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,474e7d3a00,2011-03-14,efa66eb7,docs: Typos and small config change (locales).,2,1,9,8,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,7b5e2db229,2011-03-11,efa66eb7,Removed a small piece of unused code and two whitespace errors.,1,1,1,7,1,7,0,0,0,1,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0
+bottle,9562d904c4,2011-03-11,efa66eb7,doc: -bottle.paws.de +bottlepy.org,8,3,15,14,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,a7565b7cc0,2011-03-02,efa66eb7,docs: Changed the wording 'secure cookie' in 'signed cookie' to better reflect what it really is.,2,1,16,21,7,7,0,0,0,3,0,0,0,0,0,0,0,8,0,0,7,1,0,0,0,0
+bottle,dce88912e4,2011-02-24,efa66eb7,Replaced deprecated filter support with a temporary plugin.,1,1,34,12,34,12,0,0,0,10,1,1,0,1,5,0,0,46,2,0,25,0,0,0,0,0
+bottle,89da23939a,2011-02-24,efa66eb7,Added HooksPlugin to replace the old hooks-feature.,2,1,57,44,54,28,0,0,0,13,1,1,0,0,7,2,0,20,2,1,41,0,0,0,0,0
+bottle,ff55cb8b6d,2011-02-24,efa66eb7,Added an 'id' field to the route context dictionary. Added Bottle.reset() to allow plugins to refres,2,1,13,6,12,6,0,0,0,5,0,0,0,0,1,0,0,20,1,2,10,0,0,0,0,0
+bottle,15cb0b4c76,2011-02-24,efa66eb7,Added JSONPlugin to implement the autojson feature.,2,1,29,5,26,2,0,0,0,9,1,1,0,0,3,0,0,15,1,0,17,0,0,0,0,0
+bottle,57de5eb507,2011-02-21,efa66eb7,Typos.,1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,20,1,3,3,0,0,0,0,0
+bottle,535d9edb8d,2011-02-21,efa66eb7,Moved the additional @route() keyword arguments to a separate dictionary instead of merging them wit,2,1,7,8,5,6,0,1,0,2,0,0,0,1,0,0,0,20,1,5,5,0,0,0,0,0
+bottle,ed49a9f781,2011-02-21,efa66eb7,Fix for ResetRoute path in Bottle._build_callback().,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,24,0,0,4,0,0,0,0,0
+bottle,412be338a6,2011-02-18,efa66eb7,Lots of whitespace.,1,1,68,40,68,40,0,0,0,8,0,0,1,0,6,0,0,21,3,4,23,0,0,0,0,0
+bottle,88c1c87d4a,2011-02-18,efa66eb7,"new: Immplemented Bottle.install(), Bottle.uninstall() and Bottle.close() and lots of tests.",2,1,241,1,36,1,0,0,0,3,0,0,0,0,3,0,0,21,1,1,33,0,0,0,0,0
+bottle,77621f3b23,2011-02-18,efa66eb7,Added basic plugins support.,3,1,134,70,123,66,0,1,0,5,0,0,1,0,2,2,0,24,1,50,112,0,0,0,0,0
+bottle,19aca2b886,2011-02-18,efa66eb7,Docstrings.,1,1,15,19,15,19,0,0,0,4,0,0,0,0,0,0,0,2,0,0,12,0,0,0,0,0
+bottle,688e0ab32e,2011-02-18,efa66eb7,Moved static-route handling back to the router (still deprecated).,1,1,18,12,18,12,0,0,1,3,1,0,0,0,0,0,0,13,2,6,13,0,0,0,0,0
+bottle,f62002e1b9,2011-02-18,efa66eb7,Removed Router.delete(). It is not useful in its current form.,1,1,0,11,0,11,0,0,0,1,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0
+bottle,5e8bb5b21b,2011-02-18,efa66eb7,Fixed copyright year in module docstring.,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+bottle,5cf06439d5,2011-02-18,efa66eb7,fix: Request.url no longer quotes part of the url. fix: DictProperty used to raise undefined excepti,1,1,15,11,15,11,0,0,0,8,0,0,0,0,0,0,0,23,1,1,14,0,0,0,0,0
+bottle,0789227a3d,2011-02-18,efa66eb7,"docs: Explaining the ""Default applicaton"" and fixing some typos.",3,1,79,45,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,ffe26613ec,2011-01-21,efa66eb7,"Added new DictProperty, lazy_attribute and cached_property helpers.",1,1,128,125,128,125,0,0,2,28,2,2,1,0,9,0,0,23,4,1,117,0,0,0,0,0
+bottle,4e4714a5b5,2011-01-21,efa66eb7,Comments.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bottle,af93ec4f50,2011-01-21,efa66eb7,"The AppEngineServer now adds a main() function to the handler module to enable ""App Caching"".",1,1,5,0,5,0,0,0,0,1,0,0,0,0,0,0,0,6,0,0,3,0,0,1,0,0
+bottle,70a3118d27,2011-01-20,efa66eb7,Moved REQUEST_METHOD handling into the router and fixed Issue #109 for named routes.,3,1,236,231,185,176,1,1,0,25,3,1,1,0,6,10,0,25,3,35,163,0,0,0,0,0
+bottle,b14b9afa3f,2010-12-30,efa66eb7,"The ""regexp from hell"" in SimpleTemplate is now more readable and cached as a class attribute. Thank",1,1,21,14,21,14,0,0,0,1,0,0,0,1,1,1,0,57,1,1,17,0,0,0,0,0
+bottle,0a2d7d6feb,2010-12-30,efa66eb7,Added draft for a HTTP-basic-auth decorator.,1,1,19,6,19,6,0,1,0,4,0,0,0,0,3,0,0,58,2,4,18,0,0,0,0,0
+bottle,8ccb2d64af,2010-12-29,efa66eb7,Reduced module load time by ~30% (~20ms per CGI or GAE request) and improved template parser perform,1,1,16,20,16,20,0,0,0,4,0,0,0,1,0,0,0,58,2,11,13,0,0,1,0,1
+bottle,0dcb349b00,2010-12-29,efa66eb7,Added a cached_property decorator. This will be extremely helpful to speed up GAE/CGI performance an,2,1,26,12,23,9,0,0,0,15,3,3,0,0,8,5,0,11,3,0,19,0,0,0,0,1
+bottle,f72a7c5325,2010-12-29,efa66eb7,"Parsing the error-template at load-time has no benefit, but slows down GAE/CGI performance. Now it i",1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,3,0,0,0,0,0
+bottle,17c5f0625c,2010-12-28,efa66eb7,fix: More helpful exceptions in Router.build().,1,1,5,4,5,4,1,0,0,1,0,0,0,0,0,0,0,10,0,0,5,0,0,0,0,0
+bottle,28c6671064,2010-12-28,efa66eb7,"fix: ""OverflowError in bottle's parse_date"" (#112)",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,1,0,0,0,0
+bottle,bc1b9b33e7,2010-12-28,efa66eb7,"fix: ""Misleading error message when calling url() with wrong arguments"" (#117)",1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+bottle,2b7c4c15b6,2010-12-25,c899112a,Add bjoern (jonashaag/bjoern) server adapter,3,1,13,3,9,2,0,0,0,3,1,1,1,0,1,0,0,30,2,0,6,0,0,0,0,0
+bottle,f40bbce209,2010-12-25,c899112a,Use HTTPS for GitHub everywhere,3,1,9,9,2,2,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,6f0fee8994,2010-12-14,efa66eb7,"fix: ""Digits cannot be used in route parameter names"" (#108)",2,1,9,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+bottle,4dd19daccc,2010-11-12,efa66eb7,"WSGIHeaderDict API is now finite:  - Direct read-only access to environ. It's a wrapper, not a copy.",2,1,47,56,36,33,0,0,0,5,0,0,0,0,4,0,0,4,0,0,27,0,0,1,0,0
+bottle,640517c5e1,2010-11-12,efa66eb7,Added some comments and deleted a temporary variable.,1,1,8,10,8,10,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+bottle,da79d4a5a2,2010-11-11,efa66eb7,Security fix: cookie_decode() vulnerability to statistical timing attacks.,1,1,7,1,7,1,1,0,0,1,0,0,0,0,1,0,0,7,0,0,5,1,0,0,0,0
+bottle,3e1c6e2773,2010-11-10,efa66eb7,Response.delete_cookie() called Response.set_cookie() with wrong parameters. Added test cases.,2,1,23,2,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+bottle,98354e68b7,2010-11-05,f581907f,Docs fix,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,1,1,1,0,0,0,0,0
+bottle,05cd2243ea,2010-10-25,efa66eb7,Removed startbottle.py (outdated).,1,1,0,207,0,207,0,0,0,0,0,1,0,0,0,12,0,0,0,0,0,0,0,0,0,0
+bottle,7d399d4938,2010-10-25,efa66eb7,Removed bottledb.py from repository.,1,1,0,131,0,131,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0
+bottle,670c28b4e2,2010-10-07,21d04048,made DictMixins usable with the @view decorator,1,1,1,1,1,1,0,0,0,3,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,43b2668641,2010-10-06,efa66eb7,More docstrings.,1,1,20,11,20,11,0,0,0,3,0,0,0,0,0,0,0,30,1,3,18,0,0,0,0,0
+bottle,319732175b,2010-09-26,efa66eb7,Added untested support for SimpleTAL templates. Thanks to m35,1,1,28,1,28,1,0,2,0,2,0,0,0,0,2,0,0,12,0,0,23,0,0,0,0,0
+bottle,bb3f10c09b,2010-09-26,b309db6e,"Prior to this patch, one can't use a socket with FlupFCGIServer (because bindAddress is hard-coded a",1,1,3,1,3,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+bottle,3aace73544,2010-09-22,efa66eb7,docs: Updated contact page and donation buttons.,2,1,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+bottle,393c7364b3,2010-09-20,efa66eb7,Added an import helper to get modules or module variables based on a target string.,1,1,34,12,34,12,0,0,0,1,0,0,0,0,1,0,0,5,0,0,30,0,0,1,0,0
+bottle,5f88aa2232,2010-09-20,efa66eb7,Docstrings.,1,1,66,48,66,48,0,0,0,18,0,0,0,0,0,0,0,21,0,0,58,0,0,0,0,0
+bottle,3932ae5034,2010-09-14,efa66eb7,fix: JSON support for GAE (Python 2.5 and django installed) (Issue #98),1,1,12,15,12,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0
+bottle,6f82ddde20,2010-09-13,efa66eb7,Added LICENSE.txt and cleaned up README and module docstring.,6,1,139,161,2,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+bottle,8c9d51b5ea,2010-09-13,efa66eb7,fix: Gunicorn Adapter works again (upstream changed API),1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,0
+bottle,119352ffbd,2010-09-13,efa66eb7,"fix: ""Template args not passed from view() to template() properly "" (issue #97)",4,1,37,5,1,1,1,0,0,3,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+bottle,9e97989d10,2010-09-04,efa66eb7,Simplified route parser implementation.,1,1,19,46,19,46,0,0,0,6,0,0,0,0,0,3,0,8,0,0,17,0,0,0,0,1
+bottle,d4da8442ec,2010-09-02,efa66eb7,typos,1,1,13,13,13,13,0,0,0,8,0,0,0,0,0,0,0,21,1,1,13,0,0,0,0,0
+bottle,ae77b1f62c,2010-09-02,efa66eb7,fix: Response.set_cookie() with a secret should always create a secure cookie. fix: Renaming a secur,2,1,82,27,51,22,0,1,1,4,0,0,0,0,1,0,0,8,0,0,44,1,0,0,0,0
+bottle,7942404fb0,2010-09-03,af10ac0f,handle empty secure cookie,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,1,0,0,0,0
+bottle,a0b5a7d0f0,2010-08-31,efa66eb7,fix: Typo in a header name (Thanks Karl),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,1,0,0
+bottle,d6150d7ba6,2010-08-31,efa66eb7,fix: Last missing change to allow 'self' as a template variable. (Thanks Ian),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,1,1,1,0,0,0,0,0
+bottle,5e609047e6,2010-08-27,efa66eb7,The Request.headers dict is now guaranteed to contain native strings (bytes or unicode) based on the,3,1,58,11,49,10,0,0,0,8,1,1,0,0,4,0,0,7,1,0,40,0,0,1,0,0
+bottle,586020c813,2010-08-26,efa66eb7,Added visual code sections. Refactoring in progress.,1,1,50,10,50,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+bottle,76319b8e17,2010-08-26,efa66eb7,Building HTTP_CODES dict using httplib.responses (to save some LOC).,1,1,3,46,3,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+bottle,089478c281,2010-08-22,b309db6e,fix: Disallowed argument names with template() and SimpleTemplate.,3,1,33,18,31,18,1,0,0,11,1,0,0,0,0,0,0,17,1,8,31,0,0,0,0,0

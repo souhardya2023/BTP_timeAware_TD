@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+boltons,4e5faa3d7e,2026-09-23,20321702,Fix spooled stream write compatibility and backwards text seeks (#513),2,1,91,16,21,16,1,0,0,3,0,0,0,0,0,0,0,27,0,0,20,0,0,0,0,0
+boltons,78ec69cac4,2026-09-07,80805a94,bump version to 26.2.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,4332b35a27,2026-09-07,80805a94,boltons version 26.2.0,2,1,7,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,1216b467c1,2026-09-07,80805a94,Complete September PR sweep for 26.2.0 (#481),11,4,145,33,21,23,0,0,0,6,0,0,0,1,0,0,0,28,1,6,21,0,0,0,0,0
+boltons,73e22c90de,2026-09-07,80805a94,statsutils: finish Pearson zero-denominator review and regression coverage,2,1,17,25,4,0,1,0,0,1,1,0,0,0,0,0,0,32,1,2,2,0,0,0,0,0
+boltons,1cdc0e9d36,2026-09-07,22889197,statsutils: handle zero interquartile range in histograms (#467),2,1,9,0,2,0,0,0,0,1,0,0,1,0,0,0,0,24,1,2,2,0,0,0,0,0
+boltons,5150802911,2026-09-07,22889197,jsonutils: accept explicit end-of-file relative seek (#465),2,1,10,1,1,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+boltons,a180020c76,2026-09-07,fe6754dc,setutils: flatten inputs to IndexedSet.update (#474),3,1,22,2,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+boltons,e00c10a809,2026-09-07,1c8d6a2b,"setutils, listutils: streamline bulk removal and fix list bounds (#440)",4,2,130,6,39,6,1,0,0,6,1,0,0,0,1,0,0,21,1,6,37,1,0,0,0,0
+boltons,efff866a3b,2026-09-07,22889197,mathutils: preserve empty Bits through conversions (#468),2,1,24,0,6,0,0,0,0,3,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+boltons,5eb6cc0455,2026-09-07,330b533e,mathutils: resolve negative Bits indices (#450),2,1,8,1,3,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+boltons,8789df2cc3,2026-09-07,22889197,timeutils: match timezone for default relative time (#469),2,1,19,2,4,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,4,0,0,0,0,0
+boltons,f5f5cd867e,2026-09-07,26be6256,iterutils: correct inclusive GUIDerator size message (#451),2,1,14,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+boltons,970051b664,2026-09-07,8f613d2e,namedutils: reject empty type and field names (#462),2,1,36,8,8,8,0,0,0,2,0,0,2,0,0,0,0,63,2,8,8,0,0,0,0,0
+boltons,9decba3e57,2026-09-07,9d88205a,ecoutils: skip identifying lookups when scrubbing (#461),2,1,50,11,11,11,0,0,0,1,0,0,0,0,0,0,0,42,0,0,10,0,0,0,0,0
+boltons,a1ea1030ed,2026-09-07,08357710,dictutils: preserve iterator values in addlist (#458),3,2,26,0,6,0,0,0,0,2,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+boltons,d45cc414e3,2026-09-07,4a9bc59b,urlutils: honor parse_qsl encoding (#455),2,1,12,2,2,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+boltons,d12d86a470,2026-09-07,fe6754dc,Fix Unicode line separators in iter_splitlines,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+boltons,91b2bb47ae,2026-09-05,22889197,Keep the stop barrel valid during cross-barrel deletion,2,1,13,2,2,2,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,0,0
+boltons,448b1db11a,2026-09-05,22889197,Normalize BarrelList slice bounds and reverse steps,2,1,21,17,5,17,0,0,1,1,0,0,0,0,0,0,0,6,0,0,5,1,0,0,0,0
+boltons,1a04b63790,2026-09-05,22889197,Support relative seeking in binary JSONL streams,2,1,11,3,4,3,0,0,0,1,0,0,0,0,0,0,0,14,0,0,4,0,0,0,0,0
+boltons,967864f897,2026-08-19,f36023b4,"statsutils: add mode() for most-common value, incl. categorical data (#453)",2,1,33,2,22,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,18,0,0,0,0,0
+boltons,5df26592c2,2026-08-19,4a9bc59b,Use the sep argument in args2sh and args2cmd (#454),2,1,17,4,3,3,0,0,0,2,0,0,0,0,0,0,0,28,1,1,2,0,0,0,0,0
+boltons,673e010d0a,2026-08-17,80805a94,strutils: add ellipsize for word-boundary-aware truncation,3,1,106,2,63,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,48,0,0,0,0,0
+boltons,580a9c2d12,2026-08-07,80805a94,"setutils: cover _ComplementSet __ge__'s double-complement branch, drop duplicated NotImplemented che",2,1,10,4,0,4,0,0,0,2,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,1
+boltons,ec1ff9f672,2026-08-07,0f8889db,Fix issupserset typo in _ComplementSet comparisons (#438),2,1,8,2,2,2,0,0,0,2,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+boltons,b5c495bec2,2026-08-07,80805a94,funcutils: forward target-keyword-only args as keywords in wraps invocations (#445),3,1,75,4,24,4,0,0,0,2,0,0,2,0,0,0,0,42,2,17,17,0,0,0,0,0
+boltons,c1c25da365,2026-08-06,a8b784b8,Fix off-by-one in Bits length check,2,1,13,1,1,1,1,0,0,1,0,0,0,0,0,0,0,28,1,1,1,0,0,0,0,0
+boltons,3e9983db7b,2026-08-06,80805a94,iterutils: unify xfrange with frange's count-based semantics,2,1,41,1,2,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+boltons,f1034b07dd,2026-08-06,80805a94,jsonutils: fix JSONLIterator nontermination at EOF and negative rel_seek,2,1,51,5,7,5,1,0,1,2,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+boltons,435774ef8b,2026-08-06,80805a94,strutils: make empty MultiReplace mapping a no-op,2,1,11,0,2,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+boltons,0a3084e305,2026-08-06,80805a94,timeutils: guard daterange against non-advancing steps,2,1,67,6,31,6,0,0,0,1,0,0,1,0,1,0,0,40,1,20,20,0,0,0,0,0
+boltons,1f37cce42f,2026-08-06,80805a94,timeutils: scale isoparse fractional seconds to microseconds,2,1,36,3,10,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+boltons,eb659013fb,2026-08-06,80805a94,tableutils: fix Table.to_text crashes on degenerate tables and headers,2,1,44,6,11,6,1,0,0,2,0,0,1,0,0,0,0,24,1,10,11,0,0,1,0,0
+boltons,99dec84c99,2026-08-02,13c166f6,Fix US timezone fold handling,2,1,72,21,48,19,1,0,0,1,0,0,0,0,2,0,0,15,0,0,39,0,0,0,0,0
+boltons,346fc650de,2026-07-19,a63f1faa,Classify Pearson types IV/V/VI instead of raising 'missed a spot',2,1,15,0,6,0,0,0,0,1,0,0,0,0,0,0,0,30,0,0,6,0,0,0,0,0
+boltons,289edfcd20,2026-07-17,80805a94,funcutils: forward defaulted and kw-only args as keywords in wraps invocations (#343),3,1,93,71,34,25,0,0,0,2,1,0,0,0,0,0,0,23,1,17,22,0,0,0,0,0
+boltons,7b577b0f3c,2026-07-17,80805a94,tbutils: round-trip traceback anchor lines in ParsedException (#333),2,1,39,20,14,4,0,0,0,2,0,0,1,0,0,0,0,55,1,4,11,0,1,0,0,0
+boltons,8c3fc28506,2026-07-17,50cc4c2f,"Pluralize words ending in ""x"" with ""-es"" (box -> boxes)",2,1,16,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+boltons,ead236e278,2026-07-17,c8c28c49,fix: backoff_iter with factor=1.0 and no count raised ZeroDivisionError,2,1,23,2,8,2,1,0,0,1,0,0,1,0,0,0,0,43,1,8,8,0,0,0,0,0
+boltons,29fa061722,2026-07-17,80805a94,bump version to 26.1.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,1d52527175,2026-07-17,80805a94,boltons version 26.1.0,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,1e61524a79,2026-07-17,53cec91a,fix(strutils): stop singularize() mangling words ending in 'ss',2,1,32,0,7,0,1,0,0,1,1,0,0,0,0,0,0,20,1,2,2,0,0,0,0,0
+boltons,55dfe5077b,2026-07-17,a8b784b8,fix(fileutils): accept os.PathLike in AtomicSaver,2,1,18,4,3,2,1,0,0,2,0,0,1,0,0,0,0,28,1,1,3,0,1,0,0,0
+boltons,ebc7a8f776,2026-07-17,03cf4f1a,Fix copy.copy/copy.deepcopy collapsing OrderedMultiDict values,2,1,32,1,8,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+boltons,bba729bf45,2026-07-17,f38f3606,Speed up MultiReplace match lookup,1,1,1,3,1,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,d0a284fc7e,2026-07-16,80805a94,"fix IndexedSet out-of-range negative indexing wrapping around (x[-n-k], pop(-n-k))",2,1,37,7,3,7,1,0,0,2,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+boltons,609cabe932,2026-07-16,80805a94,fix IndexedSet slicing after removals: keep iter_slice bounds in apparent index space (#423),2,1,44,4,10,4,1,0,0,1,0,0,0,0,0,0,0,11,0,0,4,1,0,0,0,0
+boltons,979fa9b613,2026-06-18,80805a94,bump version to 26.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,fb464991b7,2026-06-18,80805a94,boltons version 26.0.0,2,1,25,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,25e8d6b18e,2026-06-18,f38f3606,Match list insert before start in BarrelList,2,1,12,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+boltons,4aa77cddb5,2026-06-18,f38f3606,Fix split maxsplit zero handling,2,1,10,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+boltons,b34c534289,2026-06-18,80805a94,"Modernize CI: uv/tox-uv, OIDC publish",8,1,99,48,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,471dad1c6e,2026-06-17,80805a94,remove unused len(self) call in BarrelList._balance_list,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,1,0
+boltons,c463d1633a,2026-06-17,f32a0d2d,Fix OrderedMultiDict equality to compare values against plain mappings,4,2,26,3,4,2,1,0,0,2,0,0,2,0,0,0,0,28,2,4,4,0,0,0,0,0
+boltons,766b554739,2026-06-17,4ea19b44,fix(strutils): bytes2human rolls over at exact powers of 1024,2,1,25,1,3,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+boltons,8a2a93d821,2026-06-17,5f9ce438,fix(tbutils): avoid IndexError in ParsedException.from_string on truncated tracebacks,2,1,24,5,5,4,1,0,0,1,0,0,1,0,0,0,0,51,1,4,4,0,1,0,0,0
+boltons,80f9eb4296,2026-06-17,fddf6474,Fix syntax error in MultiReplace example,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,207651ee60,2026-03-06,feb25805,Add human_readable_list to __all__ in strutils,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,ce60604a46,2026-03-06,80805a94,bit more info in docstring,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,0
+boltons,c0d580df13,2026-03-06,80805a94,"backwards compatible once decorator (and test). doesn't rely on functools.cache (added in 3.9), just",1,1,13,5,13,5,0,0,0,2,0,0,0,0,0,0,0,9,0,0,10,0,0,0,0,0
+boltons,42586df3dd,2026-03-06,49d043ea,add once decorator,2,1,97,1,35,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,29,0,0,0,0,0
+boltons,49f381eedb,2026-01-27,db1362f9,Extend partition to accept multiple predicates,2,1,57,5,38,5,0,0,0,1,0,0,0,0,1,0,0,14,0,0,31,0,0,0,0,0
+boltons,17374731bc,2026-01-27,7bc35b35,Adds cache option to remap and use in research,2,1,32,4,14,4,0,0,0,2,0,0,1,0,0,0,0,91,2,14,14,0,0,0,0,0
+boltons,ce7c7d2b15,2025-12-30,44b081b7,fix(human_readable_list): altering f-string syntax to have backwards compatibility with Python <3.12,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+boltons,1b1d37875f,2025-12-30,44b081b7,feat(strutils): add human_readable_list function to format lists of strings,2,1,139,5,34,5,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27,0,0,0,0,0
+boltons,b47171245c,2025-12-29,80805a94,fix strutils,1,1,0,8,0,8,1,0,0,2,0,0,0,0,0,1,0,25,0,0,0,0,0,0,0,0
+boltons,c8c442b98b,2025-12-29,80805a94,fix html2text,2,1,8,0,6,0,1,0,0,1,0,0,0,0,1,0,0,3,0,0,6,0,0,0,0,0
+boltons,f9c4f30511,2025-10-04,278e7a02,Fix barrellist sort with multiple lists,2,1,9,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+boltons,0c88f25323,2025-02-07,0b297414,Fix Table.to_text() sizing,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+boltons,a7d9afd61b,2025-02-02,80805a94,add fsync to atomic_save for correctness,1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,23,0,0,2,0,1,0,0,0
+boltons,b4697c1873,2024-12-31,d0225874,Add removeprefix to strutils for older python versions & fix test on windows,2,1,20,5,15,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,12,0,0,0,0,0
+boltons,ad14437427,2024-12-23,eb9b140b,migrate to pyproject.toml,5,1,67,88,0,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+boltons,21dc968d2b,2024-12-23,eb9b140b,replace deprecated utcnow,2,2,6,13,6,13,0,0,0,3,0,0,0,0,0,1,0,13,0,0,6,0,0,0,0,0
+boltons,6e428e956e,2024-12-23,eb9b140b,add python 3.13 support,5,1,11,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,3bfcfdd043,2024-11-28,80805a94,quick file rotation util,2,1,93,2,36,1,0,0,0,1,0,0,0,0,2,0,0,16,0,0,29,0,0,0,0,0
+boltons,60ecb2037e,2024-11-01,80805a94,bump version for 24.1.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,120915ea2c,2024-11-01,80805a94,bump version for 24.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,801e80e953,2024-10-16,7bcb1450,Update typeutils.py,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+boltons,2ccc5098bc,2024-10-16,7bcb1450,Sentinel copy return self,1,1,6,0,6,0,0,0,0,1,0,0,0,0,2,0,0,17,0,0,4,0,0,0,0,0
+boltons,d463c60587,2024-07-09,80805a94,fix module name in multireplace docstring,1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,3,0,0,5,0,0,1,0,0
+boltons,1f07518303,2024-07-01,80805a94,add enter parameter to research to allow traversing custom data types,2,1,97,34,75,34,0,0,0,12,1,4,2,0,7,5,0,85,4,41,66,0,0,0,0,0
+boltons,ee3c660a68,2024-06-29,80805a94,quick implementation of max_depth for boltons.fileutils.iter_find_files,1,1,7,1,7,1,0,0,0,1,0,0,1,0,0,0,0,27,1,7,7,0,0,0,0,0
+boltons,9381c52b80,2024-06-29,53c2589e,Remove more redundant internal compatibility aliases,5,5,20,35,20,35,0,0,0,9,0,0,0,0,0,1,0,36,3,5,16,0,0,0,1,0
+boltons,827f193775,2024-06-24,80805a94,fix timeutils import warning on Python 3.12+ by removing EPOCH_NAIVE,1,1,5,4,5,4,1,0,0,1,0,0,0,0,0,0,0,6,0,0,5,0,0,1,0,0
+boltons,6a363e6c48,2024-06-15,80805a94,skip exact tb formatting comparison in python3.13+ and document the divergence,2,1,12,5,7,3,0,0,2,2,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+boltons,859cfefaf9,2024-06-15,80805a94,slightly more forward-looking fix for partial methods,1,1,8,3,8,3,1,0,0,3,0,0,0,0,1,0,0,2,0,0,5,0,0,0,0,0
+boltons,2d904513f5,2024-06-15,80805a94,fix partial method test error for py3.13+,1,1,5,0,5,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+boltons,57fbaa9b67,2024-03-31,80805a94,bump version for 24.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,90afd0a3a8,2024-03-31,80805a94,bump version for 24.0.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,0e4dc6a7ed,2024-03-31,80805a94,a few more py3 improvements,5,3,12,12,4,11,0,0,0,2,0,1,0,0,0,0,0,26,1,1,3,0,0,0,0,0
+boltons,59dc6be731,2024-03-31,80805a94,"final batch of py3 typing errors, etc., in the core package",7,6,52,93,52,33,0,0,1,10,0,0,0,0,5,1,0,63,3,3,45,0,0,0,0,0
+boltons,65e0354c94,2024-03-31,80805a94,fix tiny cornercase iterutils hostname issue,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+boltons,23635529c6,2024-03-31,80805a94,clean up all the inaccurate basestring translations,6,6,15,20,15,20,0,0,0,13,0,0,0,0,0,0,0,63,5,7,15,0,0,0,0,1
+boltons,e745b48279,2024-03-31,80805a94,couple cacheutils py3 fixups,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,19,1,1,2,0,0,0,1,0
+boltons,459817bff6,2024-03-31,80805a94,fix up fileutils py3 issues,1,1,6,20,6,20,1,0,0,3,0,0,0,1,0,0,0,31,2,3,6,0,0,0,0,0
+boltons,54224994ab,2024-03-31,80805a94,ecoutils py37+ prep,1,1,23,9,23,9,0,1,0,1,0,0,0,0,1,0,0,43,0,0,18,0,0,0,0,0
+boltons,b47faae2d9,2024-03-31,a05efae1,Apply suggestions from code review,2,2,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,7bd0d48663,2024-03-31,a05efae1,Upgrade Python syntax with pyupgrade --py37-plus,22,21,74,74,71,71,0,0,0,58,0,0,0,0,0,0,0,43,4,8,71,0,0,0,0,0
+boltons,9214bd77ce,2024-03-31,a05efae1,Drop support for EOL Python <= 3.6,1,1,49,72,49,72,0,0,0,5,0,0,0,0,0,0,0,19,0,0,49,0,0,0,0,0
+boltons,675afd8a92,2024-03-31,a05efae1,Upgrade Python syntax with pyupgrade --py3-plus,62,32,458,583,312,394,0,0,0,150,0,0,0,0,0,0,0,43,12,26,312,0,0,0,0,0
+boltons,a8fad5e5de,2024-03-31,a05efae1,Drop support for EOL Python 2.6 and 2.7,35,21,214,667,194,555,0,0,0,56,0,1,0,1,0,13,0,63,12,17,187,0,0,0,0,0
+boltons,4b1d728f31,2024-03-23,80805a94,"document string splitting in iterutils.get_path, fixes #363",1,1,5,4,5,4,1,0,0,1,0,0,0,0,0,0,0,24,0,0,5,0,0,0,1,0
+boltons,8191b0ff3c,2024-01-14,ea3783f8,Add support for Python 3.12 (#361),5,1,15,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,469bb26794,2023-11-29,53c2589e,Fix boltons.strutils.__all__ missing names (#356),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,6cac49ce4e,2023-11-02,80805a94,fix OneToOne.update behavior with empty iterables,2,1,5,2,1,0,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+boltons,985df86bbf,2023-11-01,80805a94,bump version for 23.1.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,d82ecc4503,2023-11-01,80805a94,bump version for 23.1.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b8103e6307,2023-10-31,80805a94,bump version for 23.1.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,fca74549b1,2023-10-31,80805a94,bump version for 23.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,3bbb9487aa,2023-10-31,80805a94,Adding fill parameters to pairwise and windowed (#350),2,1,87,25,61,25,0,0,1,4,0,0,0,0,0,0,0,17,0,0,51,0,0,0,0,0
+boltons,4815fc8dd1,2023-10-29,80805a94,Test and fix for #348 (#349),3,1,44,2,2,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+boltons,46599bc0d4,2023-05-06,8566a71f,Support `ior` for `dictutils.OMD` (#341),2,1,17,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,0,0,0,0,0
+boltons,c2b04b4cb1,2023-04-21,e431d712,fix: make copy_function work with keyword-only defaults (#336),2,1,10,1,2,0,1,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+boltons,0341ab3d79,2023-04-20,80805a94,"Make OMD picklable under py3, fixes #337 (#338)",2,1,31,1,15,1,1,0,0,1,0,0,0,0,3,0,0,9,0,0,12,0,0,0,0,0
+boltons,475462811e,2023-04-02,43f544ae,Update tbutils.py to parse tracebacks with anchor lines (#332),2,1,34,1,4,1,0,0,0,1,0,0,1,0,0,0,0,50,1,2,3,0,1,0,0,0
+boltons,f892a2b46e,2023-02-19,80805a94,bump version for 23.0.1dev release,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+boltons,5292dd2a21,2023-02-19,80805a94,bump version for 23.0.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,243de3fb2c,2023-02-19,f02f851e,add chunk_ranges function to iterutils (#312),3,1,75,3,58,3,0,0,0,1,0,0,0,1,2,0,0,29,1,1,46,0,0,0,0,0
+boltons,40a7b47c6e,2023-02-19,db1362f9,bugfix in mathutils.Bits.as_list (#315),2,1,16,12,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,895f7c49e2,2023-02-19,80805a94,Add Python 3.11 to docs/build matrix. (#327),6,1,11,11,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+boltons,1372434369,2022-12-10,be527251,Switch to explicit relative imports (#303),11,11,13,13,13,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,0,0
+boltons,843d675730,2022-12-08,6cdd12be,Update iterutils.py (#313),1,1,6,6,6,6,0,0,0,6,0,0,0,0,0,0,0,18,0,0,6,0,0,0,0,0
+boltons,93185b224e,2022-12-08,a6f9240a,Fix infinite daterange issue when start and stop is same (#302),2,1,19,3,1,1,1,0,0,1,0,0,0,0,0,0,0,34,1,1,1,0,0,0,0,0
+boltons,6505c6b556,2022-12-08,63b6c8f9,Fixes and improvements to SpooledBytesIO & SpooledStringIO (#305),2,1,149,27,95,27,1,0,0,18,0,0,0,0,4,1,0,27,0,0,87,0,0,0,0,0
+boltons,9420cfeb3b,2022-12-08,8ddd7f6e,Add more documentation to multi_replace (#306),1,1,15,7,15,7,0,0,0,2,0,0,0,0,0,0,0,25,0,0,13,0,0,0,0,0
+boltons,8ba3a7fa0d,2022-12-07,80805a94,"test and fix year step and december handling in date_range, fixes #319",2,1,20,4,6,4,1,0,0,1,0,0,1,0,0,0,0,34,1,5,5,0,0,0,0,0
+boltons,6c7fa3e056,2022-04-29,bbcacb74,Fix typos (#308),5,3,9,9,4,4,1,0,0,3,0,0,0,0,0,0,0,60,2,2,4,0,0,0,0,0
+boltons,395f690f4a,2022-01-15,8566a71f,Chaining `boltons.urlutils.URL.navigate()` results in `TypeError` (#298),2,1,21,1,2,1,0,0,0,1,0,0,1,0,0,0,0,27,1,2,2,0,0,0,0,0
+boltons,270e974975,2021-10-10,80805a94,"address ecoutils import issue, fixes #294",1,1,44,43,44,43,1,0,0,3,0,0,0,0,2,2,0,17,0,0,37,0,0,1,0,0
+boltons,1bc49196fd,2021-05-16,80805a94,bump version for 21.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,321e8ce99b,2021-05-16,80805a94,bump version for 21.0.0 release,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,1885ed6400,2021-05-16,26bd2956,Add license statement at start of every module (#276),29,29,901,0,901,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+boltons,8177b933b4,2021-05-16,80805a94,"improve OMD.addlist empty list handling, fixes #284",2,1,26,2,5,1,1,0,0,2,0,0,0,0,0,0,0,19,0,0,5,0,0,0,0,0
+boltons,285c4984d8,2021-05-16,80805a94,more robust module name retrieval,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+boltons,16a258e375,2021-05-16,80805a94,"fix Sentinel module logic, enabling pickling of Sentinels, fixes #285",2,1,20,4,12,2,1,0,0,1,0,0,0,0,0,0,0,15,0,0,10,0,0,1,0,0
+boltons,3c1d3987a9,2021-05-16,1285989b,Use constructor argument (#277),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+boltons,8e1526e8a5,2021-05-15,80805a94,Tox GH Action (#286),7,2,110,125,48,31,0,0,1,2,1,0,0,0,0,0,0,33,1,29,37,0,0,0,0,0
+boltons,4188f13530,2021-05-09,80805a94,expose multireplace docs,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+boltons,30417310c8,2021-03-06,4e2632ce,Clarify docstring example for atomic_save (#281),1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,5,0,1,0,0,0
+boltons,4a2567c79d,2021-02-23,9330b2a4,suport lists as key for bucketize (#279),1,1,18,3,18,3,0,0,0,1,1,0,0,0,0,0,0,28,1,15,15,0,0,0,0,0
+boltons,4a11fbe1c8,2021-02-21,c6d4ab3e,Adds noop function satisfying PEP 559 (#278),2,1,29,1,22,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,18,0,0,0,0,0
+boltons,aacfe37f73,2021-01-06,24561144,Use modern way to name descriptors (#275),1,1,8,2,8,2,0,0,0,2,0,0,0,0,1,0,0,18,1,1,5,0,0,0,0,0
+boltons,754afddf14,2020-11-22,89f3c0e3,Fix Python 3.9 compatibility for FrozenDict due to PEP 584 implementation. (#271),2,1,13,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b495c85d04,2020-11-02,04a5cc52,Bring Python current in classifiers (#268),1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,a382efad2a,2020-08-11,80805a94,bump version for v20.2.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,448a22a6cd,2020-08-11,80805a94,bump version for 20.2.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,a7590db7d9,2020-08-11,6e4eada6,Document shutil.copytree now accepts dirs_exist_ok (#262),1,1,3,0,3,0,0,0,0,1,0,0,0,0,0,0,0,34,1,2,2,0,0,0,0,0
+boltons,810f7fc1c5,2020-08-04,80805a94,"defer import of hashlib and socket for itertools.guiderator, fixes #263",1,1,8,7,8,7,1,0,0,6,0,0,0,0,0,0,0,9,0,0,8,0,0,1,0,0
+boltons,f400b7e298,2020-07-12,80805a94,allow a custom repr in format_invocation,1,1,6,3,6,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+boltons,5a47d92c54,2020-07-10,80805a94,add iterutils.redundant to the docs,2,1,8,7,7,7,0,0,0,4,0,0,0,0,0,0,0,28,1,4,7,0,0,0,0,0
+boltons,f55ecbb98a,2020-06-21,80805a94,bump version for 20.2.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,27dfe62979,2020-06-21,80805a94,bump version for 20.2.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,e79511e6e7,2020-06-21,eba11191,"#122 - Adding lstrip, rstrip, and strip for iterables (#253)",3,1,126,0,94,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,70,0,0,0,0,0
+boltons,3d55169c27,2020-06-21,4c100189,"Rewrite ANSI stripping code with a regex, add tests. (#258)",2,1,76,22,44,22,0,0,0,1,0,0,0,0,0,0,0,10,0,0,30,0,0,0,0,0
+boltons,f57a3abba2,2020-06-21,80805a94,add initial iterutils.untyped_sorted for those rare cases when you long for the flavor of py2 sorted,1,1,41,0,41,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,30,0,0,0,0,0
+boltons,796637ce8b,2020-06-17,a53d3325,Use chain.from_iterable in listutils.py,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,41a926e64f,2020-04-21,47b324a5,"add IndexedSet.__rsub__ which respects proper argument order, fixes #252",2,1,12,1,5,1,1,0,0,1,0,0,0,0,1,0,0,3,0,0,4,0,0,0,0,0
+boltons,47e0c3bfcb,2020-04-06,80805a94,expose text mode flag in AtomicSaver,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,3,0,1,0,0,0
+boltons,17c64d01c2,2020-04-03,80805a94,adjust strutils function names to be consistent,1,1,23,23,23,23,0,0,0,0,0,0,0,0,2,2,0,0,0,0,23,0,0,0,0,0
+boltons,968a62eb35,2020-04-02,4c100189,Fix unittests.,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+boltons,009c842fb8,2020-04-02,4c100189,Fix unittests.,1,1,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,12,0,0,2,0,0,0,0,0
+boltons,3eb51cf22a,2020-04-02,4c100189,Typo.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,66cfa22d17,2020-04-02,4c100189,Add int_list_complement and int_list_to_int_tuples,1,1,125,1,125,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,96,0,0,0,0,0
+boltons,d35aacd96d,2020-03-30,80805a94,bit more indexedset accounting,2,1,16,2,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+boltons,64e6430024,2020-03-30,80805a94,"add more IndexedSet.index() tests and fix typo in get_apparent_index, redressing #240",2,1,18,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+boltons,b9eeaaa7ce,2020-03-29,80805a94,bump version for 20.1.1 dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,496e460aea,2020-03-29,80805a94,bump version for 20.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,4457decc61,2020-03-29,80805a94,"fix IndexedSet.index() to account for removals, fixes #240",2,1,28,1,13,1,1,0,0,1,0,0,0,0,1,0,0,7,0,0,12,0,0,0,0,0
+boltons,0a20b37cc9,2020-03-28,418a9da7,Fix NetstringSocket to correctly use arguments to .read_ns() method.,2,1,70,10,14,5,1,0,0,2,0,0,0,0,1,0,0,22,0,0,12,0,0,0,0,0
+boltons,b1f55c2a0f,2020-03-25,212064ee,different build_from default with partials,2,1,8,4,7,3,0,0,0,1,0,0,1,0,0,0,0,41,1,6,6,0,0,0,0,0
+boltons,293975f5fa,2020-03-23,80805a94,"restore methoddescriptor status to InstancePartial and CachedInstancePartial, while making inspect.s",1,1,15,5,15,5,0,0,0,0,0,0,0,0,2,2,0,0,0,0,12,0,0,0,0,0
+boltons,d056712a4a,2020-03-22,423599db,"Fix singularize(""senses"") == ""sens""",1,1,8,8,8,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+boltons,0402602f55,2020-03-20,212064ee,Add hack to support boltons partial in FunctionBuilder,1,1,6,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+boltons,9dce539da3,2020-03-20,212064ee,Add support for partials in FunctionBuilder,4,1,52,35,15,5,0,0,0,1,0,0,0,0,0,0,0,21,0,0,14,0,0,0,0,0
+boltons,e9e53dd9d3,2020-03-18,212064ee,Add hide_wrapped possibility to update_wrapper,1,1,10,1,10,1,0,0,0,1,0,0,1,0,0,0,0,39,1,9,9,0,0,0,0,0
+boltons,f3a173af54,2020-03-18,212064ee,Extract body of wraps to new update_wrapper and add possibility to choose which func to build from,1,1,58,19,58,19,0,0,0,1,1,1,0,0,1,1,0,3,1,31,52,0,0,0,1,0
+boltons,67e4ba4ce8,2020-02-01,89f3c0e3,Fix warnings regarding invalid escape sequences,5,4,6,6,5,5,1,0,0,2,0,0,0,0,0,0,0,12,0,0,5,1,0,0,0,0
+boltons,98ef3be292,2020-02-01,89f3c0e3,Import ABC from collections.abc instead of collections for Python 3.9 compatibility.,2,1,10,3,4,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,1,0,0
+boltons,deedc79fd1,2020-01-30,8ccb74b1,"Implement seekable, readable, and writable methods",1,1,6,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+boltons,5df7aafeda,2020-01-20,8ccb74b1,"Implement ""seekable"" method as required by spec",1,1,3,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+boltons,daa5371e90,2020-01-09,80805a94,improve FunctionBuilder handling of functions without __module__,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,1,0,0
+boltons,e981cb4d51,2020-01-08,80805a94,bump version for 20.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,c847dea034,2020-01-08,80805a94,bump docs version for 20.0.0 and write changelog,5,1,34,19,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,79b78293f0,2020-01-08,80805a94,bump version for 20.0.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,07f76700df,2020-01-07,80805a94,minidmap and thresholdcounter coverage and py3 compat,2,1,46,7,6,4,0,0,0,4,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+boltons,9b3392a813,2020-01-06,80805a94,"make chunked bytes work as expected on py3, fixes #231",2,1,10,0,3,0,1,0,0,1,0,0,1,0,0,0,0,31,1,2,3,0,0,0,0,0
+boltons,60239af0a1,2019-12-31,a05e94a0,Fix simple typo: compatiblity -> compatibility,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+boltons,ad298b5835,2019-11-28,f128e497,wip,2,1,19,1,3,1,0,0,0,1,0,0,0,0,0,0,0,18,1,2,2,0,0,0,0,0
+boltons,5dab3c15f8,2019-11-14,80805a94,"move _CUR_DIR into the fileutils test, fixes #229",1,1,1,3,1,3,1,0,0,1,0,0,0,0,0,0,0,24,1,1,1,0,0,0,1,0
+boltons,a317b2d242,2019-11-14,80805a94,add strutils.unwrap_text,1,1,31,0,31,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,26,0,0,0,0,0
+boltons,cfedc62dac,2019-11-08,f128e497,Fix doctest issue,1,1,3,3,3,3,1,0,0,1,0,0,0,0,0,0,0,18,1,3,3,0,0,0,0,0
+boltons,faaf214b75,2019-11-08,f128e497,Remove userhome,1,1,8,71,8,71,0,0,0,2,0,0,0,0,0,1,0,9,0,0,8,0,0,0,1,0
+boltons,d58f919681,2019-11-06,f128e497,Address code review comments,1,1,53,50,53,50,0,0,0,4,0,0,0,0,0,0,0,30,1,11,48,0,0,0,0,0
+boltons,3e4f4119b5,2019-11-05,f128e497,Port util_path from ubelt,1,1,212,0,212,0,0,0,0,0,1,0,0,0,4,0,0,0,0,0,172,0,0,0,0,0
+boltons,f4188bd9d1,2019-11-05,80805a94,add tests and determinism to format_invocation,2,1,9,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+boltons,626df0f696,2019-11-05,80805a94,add include_dirs to fileutils.iter_find_files,1,1,14,4,14,4,0,0,0,1,0,0,1,0,0,0,0,24,1,13,13,0,0,1,0,0
+boltons,289c98ca1f,2019-10-28,80805a94,bumping version for 19.3.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,23c7477284,2019-10-28,80805a94,bump for 19.3.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,554260a51a,2019-10-28,80805a94,"format_invocation, fmt_exp_repr, fmt_nonexp_repr",2,1,144,0,141,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,112,0,0,0,0,0
+boltons,2bb6c8055e,2019-10-19,80805a94,bump version for 19.2.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,af4f3d3f64,2019-10-19,80805a94,bump version for 19.2.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,67f32d5766,2019-10-19,ce122458,Docs: change FunctionBuilder's 'default' description to correspond ... (#212),1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,9a5017d831,2019-10-19,909d13ba,Fix formatargspec deprecation warning (#217),3,1,65,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+boltons,2d8734507a,2019-10-19,80805a94,chunked_iter docstring typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,29,1,1,1,0,0,0,0,0
+boltons,c57a0ae136,2019-09-22,47b324a5,fix level in tbutils,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+boltons,1e2d5dc1dc,2019-09-19,f082ef12,Fix minor docstring formatting issues,2,2,10,10,10,10,1,0,0,2,0,0,0,0,0,0,0,19,0,0,9,0,0,0,0,0
+boltons,26a7afa3f3,2019-09-03,c6d4ab3e,Adds attribute getter convenience to bucketize/partition,1,1,19,10,19,10,0,0,0,2,0,0,0,0,0,0,0,19,0,0,16,0,0,0,0,0
+boltons,c5c1513d49,2019-08-26,80805a94,vendor formatargspec to get rid of some py3 warnings,1,1,63,4,63,4,0,0,0,4,0,0,0,0,2,0,0,17,0,0,55,0,0,0,0,0
+boltons,0df36e6aad,2019-08-03,3cdda037,Fixed want,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,35633520cd,2019-08-02,3cdda037,Fixed doctests,3,3,9,9,9,9,1,0,0,3,0,0,0,0,0,0,0,7,0,0,9,0,0,0,0,0
+boltons,02be351508,2019-06-11,80805a94,docstring/test for OneToOne.unique alternate constructor,2,1,17,1,16,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,13,0,0,0,0,0
+boltons,2d7f4a1558,2019-06-11,80805a94,handle non-unique one-to-one inputs,2,1,51,17,34,17,0,0,0,1,1,0,0,0,1,0,0,24,1,23,28,0,0,0,0,0
+boltons,ae222c5f40,2019-06-11,80805a94,sketch in an error when OneToOne's arguments aren't one-to-one,1,1,15,1,15,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,10,0,0,0,0,0
+boltons,49a80e2858,2019-05-09,9954dcb2,Fix incorrect substitution of flatten_iter() and flatten() in docstring,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,d28450f34b,2019-05-07,ca57d986,proper __bool__ on complement set and tests,2,1,11,2,9,2,0,0,0,2,0,0,0,0,1,0,0,4,0,0,7,0,0,0,0,0
+boltons,d34e461849,2019-05-07,ca57d986,added __rsub__ to complement-set so that expressions of form set() - complement(set()) eval correctl,2,1,17,0,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+boltons,fecf391b71,2019-05-02,80805a94,undo addition of multi to m2m repr,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+boltons,f4b2c40a1f,2019-05-02,80805a94,"make OMD.sorted() maintain all items, updated OMD repr to do the same, fixes #209",1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+boltons,67d3186e0e,2019-02-28,80805a94,bump version for 19.1.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,9c13721b5f,2019-02-28,80805a94,bump for 19.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,9d9dc073e4,2019-02-27,80805a94,add gzip_bytes,2,1,37,33,30,33,0,0,0,2,0,0,0,0,1,4,0,28,0,0,23,0,0,0,0,0
+boltons,d075f0b04d,2019-02-27,80805a94,couple of small cleanups,2,2,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,1
+boltons,b2ea6f6361,2019-02-26,80805a94,"FunctionBuilder.get_arg_names, plus some py2 testing",3,1,39,1,8,1,0,0,0,1,0,0,0,0,1,0,0,7,0,0,7,0,0,0,0,0
+boltons,77c10e09f2,2019-02-26,80805a94,functionbuilder: simplify kwonly defaults,1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,7,0,0,3,0,0,0,0,1
+boltons,962b310e5d,2019-02-26,80805a94,fix up functionbuilder get_defaults_dict to support kwonly args,2,1,18,2,6,1,1,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+boltons,90e7426bcf,2019-02-13,3a58431f,adding support for float priorities in queueutils,2,1,30,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,a065dc576c,2019-02-12,80805a94,bump version for 19.0.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,87767a5909,2019-02-12,80805a94,bump for 19.0.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,7351dd6f0f,2019-02-12,80805a94,a bit of docstring whitespace,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+boltons,90be6e6f27,2019-02-12,3a481131,Switch to docstring.,1,1,11,1,11,1,0,0,0,2,0,0,0,0,0,0,0,12,0,0,9,0,0,0,0,0
+boltons,5c2aa8d85f,2019-02-12,3a481131,with_annotations doesn't make sense on Python 2.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+boltons,a036d17806,2019-02-12,3a481131,A less fragile solution.,1,1,6,8,6,8,0,0,0,3,0,0,0,0,0,0,0,25,0,0,6,0,0,0,0,0
+boltons,29146135ea,2019-02-12,3a481131,Fix annotations.,2,1,22,11,13,4,1,0,0,4,0,0,0,0,0,0,0,25,0,0,13,0,0,0,0,0
+boltons,4d9478b59f,2019-02-11,80805a94,add expected to funcutils docstring,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,33,1,4,4,0,0,0,0,0
+boltons,74b383c32c,2019-02-11,80805a94,add docstring for add_arg,1,1,5,0,5,0,0,0,0,2,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+boltons,5a2b011b00,2019-02-11,80805a94,some python version housekeeping,2,1,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,71307e7db6,2019-02-10,80805a94,bump version onto 19.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,2d9385880d,2019-02-10,80805a94,bump for v19.0.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,48b2411ecb,2019-02-10,80805a94,"add funcutils.wraps(expected=['a', 'b']), fixes #167",2,1,87,70,42,18,1,0,1,1,0,0,0,1,1,0,0,33,1,2,31,0,0,0,0,0
+boltons,24da3d4623,2019-02-10,80805a94,"wip version of expected, need to figure out a non-ordereddict way of doing argument ingestion",2,1,79,8,27,8,0,0,0,3,1,0,0,0,0,0,0,45,1,16,24,0,0,0,0,0
+boltons,c6270994d9,2019-02-10,80805a94,initial FunctionBuilder.add_arg(),3,1,85,0,35,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,30,0,0,0,0,0
+boltons,31a5b5d6df,2019-02-10,80805a94,add an important docstring to FrozenDict,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,1,0,0
+boltons,0975d9c67b,2019-02-10,80805a94,more __all__ for dictutils,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,652dae9b80,2019-02-10,80805a94,add frozendict docstring,1,1,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+boltons,6b5b7f8476,2019-02-10,80805a94,frozendict: use slots and cache hash exceptions,2,1,29,5,17,4,0,0,0,1,0,0,0,0,0,0,0,11,0,0,13,0,0,0,0,0
+boltons,9e525f85bf,2019-02-09,80805a94,"add some subdict tests, add ducktype construction to subdict",2,1,21,2,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+boltons,5145f14c53,2019-02-09,80805a94,first pass at dictutils.FrozenDict,2,1,148,1,43,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,29,0,0,0,0,0
+boltons,8b4b5fdd87,2019-02-09,80805a94,bit of ManyToMany reorganization and test coverage with fixes (py26-compat repr). also got a bit mor,2,1,25,13,15,13,1,0,0,6,0,0,0,0,0,0,0,24,1,1,13,0,0,1,0,0
+boltons,d9e7f8fef1,2019-02-09,80805a94,"clean up ManyToMany (add len, switch from tuple to frozenset, sync a bit with relativity), delete Ma",2,1,49,87,42,58,0,0,0,5,0,0,0,0,4,4,0,20,0,0,36,0,0,0,0,1
+boltons,cf696809c5,2019-02-09,80805a94,cacheutils: remove unused deque import and fix debug method impl,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,1,1,0
+boltons,b9a3042eca,2019-02-09,80805a94,"got Bits passing tox locally, had to make the hex be byte-resolution, not octet. need to document th",2,1,34,15,31,12,0,0,0,7,0,0,1,0,0,0,0,28,1,8,26,0,0,0,0,0
+boltons,83e3472610,2019-02-07,c6d4ab3e,Changes LRI be base class with LRU extending it,1,1,49,43,49,43,0,0,0,10,0,0,0,0,1,0,0,13,0,0,45,0,0,0,0,0
+boltons,425e43fb61,2019-02-05,c6d4ab3e,Replaces LRI with an inheriting version,1,1,13,98,13,98,0,0,1,10,1,1,1,0,0,8,0,19,3,0,13,0,0,0,1,0
+boltons,5e27f333b6,2019-02-02,c6d4ab3e,Inheriting proof of concept,1,1,27,0,27,0,0,0,0,2,0,0,0,0,1,0,0,12,0,0,25,0,0,0,1,0
+boltons,e6d484ac63,2019-01-29,21606782,early work on many-to-many,2,1,186,1,140,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,111,0,0,0,0,0
+boltons,fa5452c383,2019-01-29,21606782,adding Bits to mathutils,2,1,152,0,119,0,0,0,0,0,1,0,0,0,20,0,0,0,0,0,97,0,0,0,0,0
+boltons,ed2f5dcad1,2019-01-28,922c55c0,Fix warnings in python3.7,6,6,32,7,32,7,1,0,0,1,0,0,0,0,0,0,0,28,0,0,29,0,0,0,0,0
+boltons,a04aa846b2,2019-01-27,80805a94,finish up complement api/docs,1,1,43,26,43,26,0,0,0,1,0,0,0,0,0,0,0,6,0,0,39,0,0,0,0,0
+boltons,26a50729f4,2019-01-18,ca57d986,fixing for 2.6 doctest,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+boltons,ebe143ca22,2019-01-18,ca57d986,added unit tests swizzled around doctests a little,2,1,3,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+boltons,b70fa958ac,2019-01-18,80805a94,"remember to await on async functions, also is_coroutine -> is_async",2,1,30,4,7,4,0,0,0,3,0,0,0,0,0,0,0,30,0,0,7,0,1,0,0,0
+boltons,8bba6ad829,2019-01-17,80805a94,work on setutils.complement() docstring a bit,1,1,29,29,29,29,0,0,0,1,0,0,0,0,0,0,0,7,0,0,25,0,0,0,0,0
+boltons,a844c1d476,2019-01-17,80805a94,"add initial changes and tests for keeping coroutine functions async in functionbuilder, probably fix",3,1,63,0,14,0,1,0,0,2,0,0,0,0,0,0,0,24,0,0,9,0,1,0,0,0
+boltons,172f8f6064,2019-01-16,80805a94,fix a couple typos,1,1,4,4,4,4,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,1,0
+boltons,dc948a4071,2019-01-15,21606782,fixing doctest,1,1,8,8,8,8,1,0,0,1,0,0,0,0,0,0,0,7,0,0,7,0,0,0,0,0
+boltons,f3b90dbdc8,2019-01-15,21606782,"fixed NotImplemented handling, added unit tests to check that complement set defers to other object ",2,1,48,1,31,1,1,0,0,13,0,0,0,0,0,0,0,16,0,0,31,0,0,0,0,0
+boltons,a2aeb4c8ca,2019-01-15,21606782,polishing up complement set,2,1,42,4,39,4,0,0,0,2,0,0,0,0,1,1,0,7,0,0,27,0,0,0,0,0
+boltons,3d07b32ffe,2019-01-10,80805a94,a couple of tables of contents,3,1,9,1,1,1,0,0,0,1,0,0,0,0,0,0,0,28,1,1,1,0,0,0,1,0
+boltons,bb0389c34b,2019-01-09,80805a94,better signature for iterutils.redundant(),1,1,33,21,33,21,0,0,0,1,0,0,1,0,0,0,0,28,1,29,29,0,0,0,0,0
+boltons,466e0a9af7,2019-01-07,ca57d986,cleaning up some binary operator behaviors,1,1,75,84,75,84,0,0,0,15,0,0,0,0,9,0,0,14,0,0,64,0,0,0,0,0
+boltons,3584ac9399,2019-01-06,80805a94,add iterutils.redundant(),1,1,51,0,51,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,45,0,0,0,0,0
+boltons,42e17a215b,2019-01-04,ca57d986,set mostly working,2,1,58,50,8,4,0,0,0,5,0,0,0,0,0,0,0,19,0,0,8,0,0,0,0,0
+boltons,c96ca01d6b,2019-01-04,ca57d986,getting complement set working,1,1,17,16,17,16,0,0,0,16,0,0,0,0,0,0,0,19,0,0,17,0,0,0,0,0
+boltons,8f7853a874,2019-01-04,ca57d986,finishing pos/neg extension of complement set,1,1,201,61,201,61,0,2,0,18,0,0,0,0,1,1,0,18,0,0,201,0,0,0,0,0
+boltons,61574a2cb0,2019-01-04,ca57d986,starting on support for positive and negative sets,1,1,86,23,86,23,0,0,0,9,0,0,0,0,3,0,0,17,0,0,83,0,0,0,0,0
+boltons,f69477b35f,2018-12-24,21606782,complementset slots,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,d69c177d2d,2018-12-24,21606782,commutivity tests and 2.6 format fix,2,1,4,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,7bb9e32cc1,2018-12-24,21606782,more tests,2,1,15,3,10,3,0,0,1,3,0,0,0,0,0,0,0,8,0,0,10,0,0,0,0,0
+boltons,3b9c35385c,2018-12-24,21606782,cleaning up complement set and fixing 2.6 compatibility,2,1,3,12,0,11,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+boltons,4a446fae02,2018-12-23,21606782,small improvements and added a bunch of unit tests,2,1,65,21,24,20,0,1,1,17,0,0,0,0,0,0,0,7,0,0,24,0,0,0,0,0
+boltons,62fa806d9c,2018-12-22,922c55c0,Add a __str__ function to boltons.urlutils.URL,2,1,9,0,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0
+boltons,7e51ca4d29,2018-12-22,3271ff4e,Support abstract @cachedproperty and @cachedmethods,2,1,31,0,2,0,0,0,0,2,0,0,1,0,0,0,0,19,1,1,2,0,0,0,1,0
+boltons,8d652d0f00,2018-12-22,1167187b,Document that fileutils.iter_find_files works recursively on the specified directory,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,17,1,3,3,0,0,0,0,0
+boltons,6621cb455d,2018-12-19,faa9dcb8,Add **kwargs to IndexedSet.sort,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+boltons,6511b03ae9,2018-12-15,80805a94,tweaks to soft_sorted,1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,12,1,5,5,0,0,0,0,0
+boltons,92a198a0ae,2018-12-14,80805a94,fix lambda syntax error on py26,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,1,1,1,0,0,0,0,0
+boltons,be76e6b6e3,2018-12-13,80805a94,add soft_sorted to iterutils,1,1,42,0,42,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,36,0,0,0,0,0
+boltons,a8a0750b60,2018-12-10,80805a94,future-proof tableutils html escaping a bit more,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+boltons,04e53d9b61,2018-12-10,80805a94,drop dict(omd) documented use case (with note added to docstring) due to py3.7 dict changes,2,1,18,10,16,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+boltons,89bb0a8b96,2018-12-10,80805a94,strutils.singularize: add back in 'es' case for when words end in 's',1,1,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,18,0,0,6,0,0,0,0,0
+boltons,21d37fc8a8,2018-12-10,80805a94,"stop templating in docstrings in the function builder, since it gets copied with __doc__ anyways, fi",3,1,4,6,0,2,1,0,0,1,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0
+boltons,af6ab9fb9d,2018-12-10,80805a94,"es words now singularize properly, fixes #188",1,1,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+boltons,9148be07d9,2018-11-03,db1362f9,rounding out set API,1,1,84,8,84,8,0,1,0,7,0,0,0,0,10,0,0,6,0,0,67,0,0,0,0,0
+boltons,66e8519bd8,2018-11-03,db1362f9,working on complement set (still need to complete the set API and wire up tests),1,1,121,0,121,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,92,0,0,0,0,0
+boltons,d689c7ceef,2018-10-11,ecd5642c,Fix spme spelling errors.,11,6,13,13,7,7,0,1,1,3,0,0,0,0,0,0,0,59,1,1,6,0,0,0,0,0
+boltons,139d5dcd32,2018-10-11,922c55c0,Fix bug in implementation of `timeutils.daterange`,2,1,7,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+boltons,fca22f9157,2018-10-10,1d532f6c,Python 3 fixes,9,8,44,33,38,25,1,0,0,5,0,0,0,0,0,0,0,31,0,0,37,0,0,0,0,0
+boltons,16dbe41de5,2018-10-10,922c55c0,Add `flatten` and `flatten_iter` functions,1,1,27,1,27,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,22,0,0,0,0,0
+boltons,e7dfc59ebe,2018-08-29,80805a94,bump version for 18.0.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,c3b5b2498e,2018-08-29,ad18b9a4,Fix the docs for subdicts,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+boltons,715e57d22d,2018-08-29,80805a94,bump version for 18.0.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,7643086219,2018-08-28,80805a94,switch deferredline over to slots,1,1,14,9,14,9,0,0,0,2,0,0,0,0,0,0,0,16,0,0,13,0,0,0,0,0
+boltons,ba11f0ac91,2018-07-10,fd1e5835,Make more efficient,1,1,23,15,23,15,0,0,0,2,0,0,0,0,0,0,0,28,0,0,22,0,0,0,0,0
+boltons,f7e1cb8111,2018-07-10,fd1e5835,Improve arguments & add shortcut function,2,1,57,20,34,12,0,0,0,2,0,0,0,0,2,1,0,19,0,0,29,0,0,0,0,0
+boltons,387e59b54c,2018-07-10,fd1e5835,Fixed zero length fieldname error for py26,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,19137c3889,2018-07-10,fd1e5835,Fix python2.6 support,1,1,10,8,10,8,1,0,0,2,0,0,0,0,0,0,0,12,0,0,8,0,0,0,0,0
+boltons,0336273acf,2018-07-10,fd1e5835,Add MultiSub tool for single pass substitutions,2,1,134,0,82,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,66,0,0,0,0,0
+boltons,8ceda31a80,2018-06-25,80805a94,switch tableutils text rendition to be more widely markdown compatible,1,1,1,2,1,2,0,0,1,1,0,0,0,0,0,0,0,19,1,1,1,0,0,0,0,0
+boltons,cf38c427bb,2018-06-25,80805a94,add link to bidict,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,e53b93581e,2018-06-06,998a5105,fixes files not been moved to destination when overwrite=False,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+boltons,d4279cfb18,2018-03-03,813fa6e6,Fix a bug where the host is an empty string,1,1,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,36,1,1,1,0,0,0,0,0
+boltons,2c36795661,2018-03-03,813fa6e6,Correctly handle RFC2732 IPv6 addresses with ports,1,1,13,10,13,10,0,0,0,1,1,0,0,0,0,0,0,36,1,12,12,0,0,0,0,0
+boltons,6b0721b6ae,2018-03-02,80805a94,bump release for 18.0.1 development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,3d21f0d884,2018-03-02,80805a94,bump version for 18.0.0 release,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,912af77d27,2018-03-02,80805a94,add cacheutils.MinIDMap (though pypy support is incomplete),2,1,77,1,55,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,43,0,0,0,0,0
+boltons,ffbeaffb6b,2018-03-01,80805a94,"add clarification that tasks must be hashable, a slight improvement to issue #121",1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+boltons,e2c7b18a7b,2018-03-01,80805a94,"tableutils.Table: add thead/tbody tags to the default html table, enabling more styling, and handy s",2,1,11,1,7,1,1,0,0,1,0,0,0,0,0,0,0,28,0,0,6,0,0,0,0,0
+boltons,8afe160129,2018-03-01,80805a94,clean up subdict docs and code. note: items() is faster by a significant margin even in dictionaries,1,1,12,11,12,11,0,0,0,1,0,0,0,0,0,0,0,7,0,0,11,0,0,0,0,1
+boltons,78c42d8378,2018-03-01,ad18b9a4,Update the docstring about mutation,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+boltons,a0017160da,2018-03-01,ad18b9a4,"restrict_to -> keep, omit -> drop",1,1,11,11,11,11,0,0,0,1,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0
+boltons,4fcd52edaa,2018-03-01,ad18b9a4,Add subdict function,1,1,29,0,29,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,22,0,0,0,0,0
+boltons,8916c66121,2018-01-14,80805a94,tweak dictutils.OneToOne docs,1,1,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+boltons,6fa984d54c,2018-01-14,80805a94,add footnote about python3 dicts being ordered,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+boltons,5e11204d02,2018-01-14,80805a94,document dictutils.OneToOne,1,1,29,10,29,10,0,0,0,3,0,0,0,0,0,0,0,7,0,0,24,0,0,0,0,0
+boltons,cfb2f57ea0,2017-12-15,80805a94,bump setup.py version for 17.2.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,88509c7c8c,2017-12-15,80805a94,bump version for 17.2.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,0b3474d33c,2017-12-15,80805a94,add dateutil links to timeutils,2,1,4,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,80813c77be,2017-12-15,80805a94,"broaden remap default_enter supported inputs to support files, strings, other iterables, and scalars",1,1,3,8,3,8,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+boltons,e8da6fbe35,2017-12-12,fd1e5835,Fix integer required error in readline(),1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+boltons,08775051dd,2017-11-18,c26ff0e1,"Refactor; Check for a file-like object by looking for the ""read"" attribute.",1,1,8,4,8,4,0,0,0,1,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,1
+boltons,4659dfaeaf,2017-11-13,c26ff0e1,Catch exception when the value is a file-like iterator and its at end of file.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+boltons,55a2791b77,2017-11-09,fd1e5835,Fix line-by-line file iteration in ioutils modules,2,1,25,10,13,3,1,0,0,2,0,0,0,0,0,0,0,10,0,0,12,0,0,1,0,0
+boltons,9eadcb5a5e,2017-10-10,80805a94,avoid zero-character slugs for one-or-more-character text inputs,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+boltons,f3c6ff202b,2017-09-06,f0e62dc0,DeferredValue: fix get_value and caching,1,1,5,3,5,3,1,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+boltons,48c243ba77,2017-08-19,80805a94,"fix a bit of py3 compat with OneToOne, also tweaked the repr",1,1,5,3,5,3,1,0,0,2,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+boltons,71835c149d,2017-08-19,21606782,fixed OneToOne.update() so that it maintains invariant,1,1,5,3,5,3,1,0,0,1,0,0,0,0,0,0,0,15,0,0,5,0,0,0,0,0
+boltons,68ff258e69,2017-08-19,21606782,added one-to-one class to dictutils,2,1,118,1,76,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,62,0,0,0,0,0
+boltons,42409c9626,2017-08-19,80805a94,change some doctests to accommodate python 3.7's new timedelta repr,1,1,6,6,6,6,0,0,0,1,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+boltons,141c740f2b,2017-07-29,80805a94,docstrings for MultiFileReader,1,1,23,0,23,0,0,0,0,2,0,0,0,0,0,0,0,11,0,0,21,0,0,0,0,0
+boltons,d4f5d8a3f3,2017-07-29,80805a94,"avoid hasattr bc of py2, per @durin42's comments",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+boltons,ba6941ec19,2017-07-29,80805a94,"split out text fileobj checking, add support for legacy StringIO, test as much",2,1,29,4,18,3,0,0,0,1,0,0,0,0,1,0,0,14,0,0,13,0,0,0,1,0
+boltons,b61d5af99e,2017-07-29,80805a94,improved type checking for MultiFileReader (enables more file-like objects including codecs.open etc,2,1,44,11,13,10,0,0,0,2,0,0,0,0,0,0,0,14,0,0,11,0,0,0,0,0
+boltons,f645c63838,2017-07-27,c0d20e79,ioutils: add MultiFileReader to ease concatenation of multiple readers,2,1,60,1,39,1,0,0,0,0,0,0,0,0,3,0,0,0,0,0,34,0,0,0,0,0
+boltons,6e6b7d9496,2017-07-02,90c4b416,Small docstring typo correction for OMD.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,700a577174,2017-06-22,ff2da936,Spooled IO: temp_dir back to dir,1,1,4,4,4,4,0,0,0,3,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+boltons,3af58a2c27,2017-06-22,9bf7fde3,Support passing dir argument to TemporaryFile rollover,2,1,29,3,5,3,0,0,0,3,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+boltons,91de0cb298,2017-06-18,89c04878,add an example using default arguments of clamp,1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+boltons,4bae3f5589,2017-06-18,89c04878,fix default arguments of mathutitls.clamp,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+boltons,14208cf6e3,2017-04-13,80805a94,"fix kwonly arg removal in funcutils.FunctionBuilder, thus fixing funcutils.wraps, which fixes #123",2,1,52,8,15,7,1,0,0,1,0,0,0,0,0,0,0,19,0,0,14,0,0,0,0,0
+boltons,b58ef52a3a,2017-04-13,80805a94,userinfo in the url structure docstring,1,1,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+boltons,0f8666602c,2017-03-28,80805a94,remove a bit of urlutils extraneum,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,1,0
+boltons,6ab47ce1dd,2017-03-20,80805a94,updating quoting approach per hyperlink fixes,1,1,42,41,42,41,1,0,1,5,0,0,0,0,0,0,0,9,0,0,37,0,0,0,0,0
+boltons,56c7f2ec8e,2017-03-19,80805a94,add a test for escaping nonascii userinfo,2,1,6,1,1,1,0,0,1,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,4026708022,2017-03-18,80805a94,"urlutils docs: and finally it is looking to be complete. Plenty of links and explanation, hard won.",2,1,188,41,46,38,0,0,1,9,0,0,0,0,0,0,0,32,2,4,42,0,0,0,0,0
+boltons,1574d73edb,2017-03-17,80805a94,"fix a couple links, probably need to start doing more versionadded stuff",2,1,9,7,7,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0
+boltons,d7cd1dc4d5,2017-03-17,80805a94,clarify schematic to not include ':' in the host,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+boltons,7875e12d21,2017-03-17,80805a94,add some RFC references and a nice URL schematic,1,1,31,8,31,8,0,1,0,2,0,0,0,0,0,0,0,26,1,2,22,0,0,0,0,0
+boltons,06b76085c5,2017-03-16,80805a94,adding in-progress urlutils docs to sphinx,3,1,85,16,38,16,0,1,0,2,0,0,0,0,0,0,0,18,0,0,33,0,0,0,0,0
+boltons,0684d52b04,2017-03-15,80805a94,urlutils: docstrings for QueryParamDict,1,1,28,2,28,2,0,0,2,2,0,0,0,0,0,0,0,10,0,0,24,0,0,0,0,0
+boltons,53a53f25da,2017-03-15,80805a94,urlutils: docstrings for parse_host and parse_url,1,1,25,4,25,4,0,0,0,2,0,0,0,0,0,0,0,34,0,0,20,0,0,0,0,0
+boltons,953fff8295,2017-03-15,80805a94,"urlutils.URL.get_authority: full_quote True->False by default, with_userinfo True->False by default,",2,1,23,5,21,3,0,0,0,2,0,0,1,0,0,0,0,29,1,2,19,0,0,0,0,0
+boltons,8193335a3b,2017-03-15,80805a94,"adding a few more docstrings, change readthedocs.org to readthedocs.io",1,1,30,4,30,4,0,0,0,3,0,0,0,0,0,0,0,26,1,9,24,0,0,0,0,0
+boltons,c841a95323,2017-03-15,80805a94,urlutils: SCHEME_PORT_MAP is more descriptive than DEFAULT_PORT_MAP,1,1,16,16,16,16,0,0,0,3,0,0,0,0,0,0,0,15,0,0,16,0,0,0,0,0
+boltons,c1d4ce0b42,2017-03-14,80805a94,"urlutils docstringing along, change find_all_links default scheme to https to be forward-looking",2,1,69,32,66,29,0,0,0,1,0,0,0,0,0,0,0,32,1,23,54,0,0,0,0,0
+boltons,a106359085,2017-03-11,80805a94,iterutils: add research function,2,1,85,2,63,2,0,1,1,0,0,0,0,0,2,0,0,0,0,0,47,0,0,0,0,0
+boltons,28935c5475,2017-03-11,80805a94,"refactor URL.__init__, parse_url, and URL.__eq__ to be more explicit",2,1,42,30,40,28,0,1,2,3,0,0,1,0,0,0,0,38,1,25,33,0,0,0,0,1
+boltons,891d15577f,2017-03-11,80805a94,urlutils: expanded and cited list of ports and schemes,1,1,10,14,10,14,0,0,0,2,0,0,0,0,0,0,0,15,0,0,6,0,0,0,0,0
+boltons,7cbf50b090,2017-03-10,80805a94,more schemes and ports researched. this is like pulling teeth.,1,1,16,7,16,7,0,0,1,1,0,0,0,0,0,0,0,18,0,0,12,0,0,0,0,0
+boltons,a41cc32aed,2017-03-10,80805a94,urlutils: greatly expand default port map,1,1,10,3,10,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+boltons,aab51bd5f5,2017-03-10,80805a94,docstringing along,1,1,24,2,24,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+boltons,36874404ad,2017-03-10,80805a94,"simplify find_all_links signature, checkpoint docstrings, add a couple doctests",1,1,114,20,114,20,0,1,1,10,0,0,0,0,0,0,0,32,2,20,96,0,0,0,1,1
+boltons,4bcd2ca3b5,2017-03-02,80805a94,fix get_path doctest typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,24,0,0,1,0,0,0,0,0
+boltons,95b1ba93f1,2017-03-02,80805a94,wrap up get_path TODOs and document it accordingly,2,1,53,21,51,21,0,0,5,1,0,0,0,0,0,0,0,24,0,0,44,1,0,0,0,0
+boltons,373276f3c3,2017-02-27,80805a94,"increase guiderator default size from 12 to 24, range from 10-20 to 20-36",2,1,15,14,11,10,0,0,0,1,0,0,0,0,0,0,0,6,0,0,10,0,0,0,0,0
+boltons,d2603c5383,2017-02-27,80805a94,bump version for 17.1.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,6087bdd7c2,2017-02-27,80805a94,bump version for 17.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,8ff7caab37,2017-02-26,80805a94,urlutils: add find_all_links function,2,1,128,20,61,10,0,0,0,1,1,0,0,0,2,0,0,5,0,0,46,0,0,0,0,0
+boltons,566094240b,2017-02-25,80805a94,"support absolute url navigation, add tests to that effect",2,1,46,3,5,3,0,0,1,1,0,0,1,0,0,0,0,26,1,3,3,0,0,0,0,0
+boltons,30f1d7d929,2017-02-25,80805a94,urlutils: added new factory method navigate. q alias became qp. remove suffix-y behavior of normaliz,2,1,56,33,47,27,0,1,1,3,1,1,0,0,1,0,0,18,1,1,43,0,0,0,1,0
+boltons,405d8b9c1b,2017-02-25,80805a94,"urlutils: empty ports ok, add case normalization",2,1,24,7,12,7,0,0,1,2,0,0,0,0,0,0,0,34,0,0,10,0,0,0,0,0
+boltons,884d32d4a0,2017-02-15,fd1e5835,Bring cachedproperty fixes to urlutils,1,1,2,3,2,3,1,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+boltons,2ff30aefe0,2017-02-15,80805a94,setting Sentinel __nonzero__/__bool__ alias and also adding a test for sentinel falsiness,2,1,12,2,5,2,0,0,0,1,0,0,0,0,1,1,0,9,0,0,3,0,0,0,0,0
+boltons,b4dc12d6bf,2017-02-15,80805a94,"couple more urlutils fixes (path setter, no-netloc schemes, allow empty URLs",2,1,40,12,14,12,1,2,1,3,0,0,0,0,1,0,0,34,1,1,12,0,0,0,1,0
+boltons,4fc2f10090,2017-02-14,80805a94,continuing debugging win-py27 ipv6,1,1,3,1,3,1,0,1,1,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,6085694ffc,2017-02-14,80805a94,debugging windows ipv6,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+boltons,e8ea42e0d3,2017-02-14,80805a94,switch to imported inet_pton,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,21,0,0,2,0,0,1,0,0
+boltons,b3a18a403d,2017-02-14,80805a94,add windows inet_pton shim,1,1,31,0,31,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,23,0,0,0,0,0
+boltons,4722701412,2017-02-14,80805a94,"fix doctests and miscellaneous tests, tox finally passes",4,3,27,813,11,807,1,0,0,3,0,2,0,0,0,25,0,21,1,1,10,0,0,0,0,0
+boltons,01b43ec934,2017-02-13,80805a94,python 3 compatible urlutils (+cleanup),2,1,65,50,56,32,0,0,0,5,0,0,0,0,1,0,0,34,0,0,49,0,0,0,0,1
+boltons,7955a6749d,2017-02-13,813fa6e6,Change Sentinel __nonzero__ to __len__ for compat,1,1,2,2,2,2,0,0,0,1,0,0,0,0,1,1,0,8,0,0,2,0,0,0,0,0
+boltons,dc1cfe99ff,2017-02-12,80805a94,add URL.normalize and respective tests,2,1,112,1,49,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,40,0,0,0,0,0
+boltons,c9f2e26e9f,2017-02-09,80805a94,"rename, cleanup, utf8 url test",3,2,335,1340,326,1332,0,12,27,12,2,6,1,0,11,78,0,35,2,33,263,0,0,0,0,1
+boltons,50de92135e,2017-02-09,80805a94,"urlutils cleanup, fix full_quote=False behavior (characters default to themselves if not covered by ",1,1,32,38,32,38,1,1,1,7,0,0,0,0,0,0,0,31,1,1,24,0,0,0,0,1
+boltons,63e6c74f8a,2017-02-09,80805a94,"percent-quote username and password, simplify get_authority() API, and add a couple tests",3,1,54,13,21,13,0,1,3,2,0,0,0,0,1,0,0,22,0,0,16,0,0,0,1,1
+boltons,fef6853fb9,2017-02-07,80805a94,finally got round tripping all twisted's fully-quoted urls working. path is now a property.,2,1,51,39,29,39,0,0,1,8,0,0,2,0,1,2,0,31,2,10,29,0,0,0,0,0
+boltons,b0374d2c53,2017-02-03,80805a94,"actually adding the urlutils code that passes tests. next stop, importing tests from twisted.",1,1,871,32,871,32,0,16,2,4,4,0,0,0,60,2,0,35,1,1,715,0,0,1,0,0
+boltons,5059c1baed,2017-01-28,80805a94,WIP urlutils + txurl merger (urlutils2.py),4,3,1061,3,1014,3,0,4,0,1,3,0,0,0,34,0,0,22,0,0,788,0,0,0,0,0
+boltons,d811696a7c,2017-01-24,80805a94,bump version for 17.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,61b7b40732,2017-01-24,80805a94,bump version for 17.0.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,5554dd8aa1,2017-01-23,80805a94,initial import of urlutils tests (with the appropriate encoding rippage),1,1,6,6,6,6,0,0,0,4,0,0,0,0,0,0,0,30,1,2,6,0,0,1,0,0
+boltons,3a0ca88dca,2017-01-22,80805a94,"bend another test for 3.3 support, though this time it's just pypy3.3",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+boltons,0b5ed904a9,2017-01-22,80805a94,"add a __wrapped__ attribute to functions wrapped with funcutils.wraps, fixing #115.",2,1,5,0,1,0,1,0,0,2,0,0,0,0,0,0,0,27,0,0,1,0,0,0,0,0
+boltons,a32696a696,2017-01-22,80805a94,WIP: url encoding rework,1,1,34,40,34,40,0,1,1,7,0,0,0,0,1,3,0,21,0,0,21,0,0,0,0,0
+boltons,66379ebc77,2017-01-20,80805a94,"urlutils: a couple small interface tweaks, gearing up for the encoding rip",1,1,10,1,10,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,9,0,0,0,1,0
+boltons,d99678d844,2017-01-20,80805a94,ecoutils docs tweak,1,1,8,6,8,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+boltons,c068fc34c9,2017-01-20,fd1e5835,Use 'hex_code' instead of alias 'hex' (python3.3 fix),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+boltons,2775011910,2017-01-16,fd1e5835,Make Callpoint.to_dict result JSON serializable,2,1,9,2,3,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+boltons,7f8608cb4f,2017-01-16,4c100189,Test boltons against all Python-related Travis CI targets.,2,1,30,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+boltons,4abe46233f,2017-01-13,fd1e5835,Preserve original docstring in cachedproperty,2,1,6,3,2,3,0,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+boltons,03c8a66187,2016-12-28,a30468a3,Simplified same.,1,1,2,8,2,8,0,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,1
+boltons,faf11c08fb,2016-12-04,80805a94,expose docs for wrap_trace object wrapper in debugutils,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+boltons,6f2974ebf5,2016-12-03,80805a94,"merging bucketize options under consistent argument names, with tweaked docs, thanks @guyarad!",1,1,11,10,11,10,0,0,0,1,0,0,0,0,0,0,0,17,0,0,9,0,0,0,0,0
+boltons,5372c9fda7,2016-11-29,e73ce951,Enhance `bucketize` by adding filter_by_key and value_transform,1,1,24,4,24,4,0,0,0,1,0,0,0,0,0,0,0,17,0,0,19,0,0,0,0,0
+boltons,f723f17454,2016-11-19,a30468a3,Simplified and optimized iterutils.one.,1,1,3,8,3,8,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,1
+boltons,17717d101f,2016-11-14,fd1e5835,Don't be so pedantic about nonzero being a function,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+boltons,7843356c17,2016-11-14,fd1e5835,Implment __bool__ for python 3.x,1,1,3,0,3,0,0,0,0,1,0,0,0,0,1,0,0,2,0,0,2,0,0,0,0,0
+boltons,8ef0ef772b,2016-11-14,fd1e5835,"Implement __nonzero__ for SpooledBytesIO, SpooledStringIO",2,1,20,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+boltons,87ac574fa4,2016-11-06,80805a94,a little release checklist right in setup.py,1,1,19,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0
+boltons,7b03fbfa00,2016-11-06,80805a94,bump version for 16.5.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,edf5705e32,2016-11-05,80805a94,bump version for 16.5.1 release,2,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,4c71a1a280,2016-11-04,80805a94,iterutils: complete GUIDerator and SequentialGUIDerator. had to take a hammer to python3 support bec,2,1,161,0,120,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,93,0,0,0,0,0
+boltons,78aff59188,2016-10-28,fd1e5835,Rollover to file before writing overflow value,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,1,0,0,0,0
+boltons,2a52b4c23d,2016-10-27,80805a94,misc tweaks,1,1,9,12,9,12,0,1,1,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+boltons,3f6a020c7f,2016-10-26,fd1e5835,Handle odd codepoints in EncodedFile,2,1,13,4,3,3,0,0,0,3,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+boltons,fd77cb81a7,2016-10-26,fd1e5835,Reduce tell complexity by tracking position,2,1,27,66,26,66,0,0,0,7,0,0,0,0,1,0,0,19,0,0,26,0,0,0,0,1
+boltons,d724d8c374,2016-10-25,fd1e5835,Reduce memory usage in seek,2,1,48,8,32,6,0,0,0,1,0,0,0,0,1,0,0,15,0,0,19,0,0,0,0,1
+boltons,9ee7e65b61,2016-10-25,fd1e5835,Cleanup tell more,1,1,12,11,12,11,0,0,0,1,0,0,0,0,0,0,0,34,0,0,7,0,0,0,0,1
+boltons,43b058d52e,2016-10-25,fd1e5835,Improve tell() and seek() implementation,2,1,92,18,77,18,0,0,0,2,0,0,0,0,2,0,0,35,0,0,55,0,0,0,0,0
+boltons,1a69c00278,2016-10-24,fd1e5835,Remove unused uf8_encode_if_unicode,1,1,0,13,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+boltons,5e03690016,2016-10-24,fd1e5835,Improve .tell() efficiency for SpooledStringIO,1,1,20,8,20,8,0,0,1,1,0,0,0,0,0,0,0,21,0,0,14,0,0,0,0,0
+boltons,fbc7933a41,2016-10-24,fd1e5835,Fix call to non-existant attribute,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,cb8af13c2c,2016-10-24,fd1e5835,Fix infinite recursion,1,1,3,3,3,3,1,0,0,2,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+boltons,108bcab038,2016-10-24,fd1e5835,SpooleStringIO tell returns codepoint position,2,1,32,6,25,4,0,1,0,2,0,0,0,0,2,0,0,11,0,0,21,0,0,0,0,0
+boltons,1dbd615d55,2016-10-24,fd1e5835,Make len return number of codepoints in SpooledStringIO,2,1,33,17,31,13,0,0,0,1,0,0,0,0,2,0,0,1,0,0,28,0,0,0,0,0
+boltons,3ebb2fdc71,2016-10-24,fd1e5835,Don't allow comparing different instance types.,2,1,4,5,2,3,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+boltons,0f9581cd85,2016-10-24,fd1e5835,Implment __len__ magic method,2,1,7,2,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+boltons,5c45f57961,2016-10-24,fd1e5835,Use getvalue() when rolling files,1,1,4,6,4,6,0,0,0,2,0,0,0,0,0,0,0,8,0,0,4,0,0,0,0,0
+boltons,fd12387d85,2016-10-24,fd1e5835,Improve accuracy of coverage report,1,1,0,7,0,7,0,0,0,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+boltons,701a71b8d5,2016-10-24,fd1e5835,Replace __buffer with _buffer,1,1,11,11,11,11,0,0,0,4,0,0,0,0,0,0,0,9,0,0,11,0,0,0,0,0
+boltons,a41cde7a53,2016-10-23,80805a94,initial urlutils import (wip),2,1,1006,0,1005,0,0,14,0,0,4,0,0,0,69,0,0,0,0,0,830,0,0,1,0,0
+boltons,a2065ef3ba,2016-10-21,fd1e5835,Fix len to work with pypy,1,1,6,7,6,7,1,0,0,1,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+boltons,359fdd0e5a,2016-10-21,fd1e5835,Remove unused logger,1,1,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+boltons,774ce34bd7,2016-10-21,fd1e5835,Remove six dependenct in ioutils,4,2,69,35,34,15,0,0,0,3,0,0,0,0,1,0,0,9,0,0,30,0,0,1,1,0
+boltons,580142da3b,2016-10-21,fd1e5835,Add ioutils module,5,2,597,0,307,0,0,0,0,0,0,0,0,0,43,0,0,0,0,0,236,0,0,1,0,0
+boltons,10d8cc7a6a,2016-10-14,e976807d,Typo in setutils docstring,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,aba6fe24f0,2016-10-11,80805a94,docs for funcutils.wraps inject_to_varkw,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+boltons,a2de02a947,2016-10-10,80805a94,funcutils.wraps: enable injection spillover into varkw (**kw) (used by lithoxyl for logger wrappers),2,1,45,3,17,3,0,0,0,2,0,0,0,0,0,0,0,27,0,0,15,1,0,0,0,0
+boltons,3c973de488,2016-09-26,a30468a3,Simplified and optimized iterutils.first.,1,1,2,10,2,10,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,1
+boltons,81088a531f,2016-08-04,80805a94,error check bounds on clamp,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,5,1,0,0,0,0
+boltons,224acc8980,2016-08-04,80805a94,link to numpy.clip,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+boltons,bc542e3ddb,2016-08-04,80805a94,add mathutils.clamp,1,1,22,0,22,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,17,0,0,0,0,0
+boltons,a9e6024333,2016-08-04,80805a94,more docstring updates,1,1,12,6,12,6,0,0,0,2,0,0,0,0,0,0,0,7,0,0,9,0,0,0,0,0
+boltons,e99017e6b0,2016-08-04,80805a94,add statsutils.Stats.clear_cache docstring,1,1,8,0,8,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,8,0,0,0,0,0
+boltons,4140386d1f,2016-08-03,80805a94,improving and testing exceptions around classmethod and staticmethod for funcutils.wraps and Functio,2,1,32,0,9,0,1,0,0,2,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+boltons,f74b7e5a7d,2016-07-31,80805a94,"fix for default remap set support, fixes #84",2,1,9,1,1,1,1,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+boltons,0265af68a2,2016-07-19,80805a94,bumping version for 16.5.1 dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,5b91fe1281,2016-07-19,80805a94,bumping version for 16.5.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b1cd936409,2016-07-19,80805a94,cacheutils: (breaking change) adding the scoped argument to @cached and @cachedmethod (and removing ,2,1,55,22,34,20,0,0,0,10,1,0,0,1,0,0,0,18,2,5,33,0,0,0,0,0
+boltons,573387ad5e,2016-07-18,80805a94,make @cached suite's key function configurable (defaults to make_cache_key per usual),1,1,15,9,15,9,0,0,0,9,1,0,0,0,0,0,0,19,1,2,12,0,0,0,0,0
+boltons,3bd3cbd34c,2016-07-18,80805a94,adding total_ordering backport for python 2.6,2,1,75,0,53,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,50,0,0,0,0,0
+boltons,816feedf88,2016-07-17,80805a94,tableutils: enable html value customization,1,1,10,2,10,2,0,0,0,2,0,0,0,0,1,0,0,24,0,0,9,0,0,0,0,0
+boltons,a1f132039d,2016-06-14,80805a94,add a wraps TODO,1,1,2,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+boltons,5ada677d80,2016-06-14,80805a94,make the FunctionBuilder filename that appears in tracebacks configurable,1,1,7,3,7,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,1,0,0,0
+boltons,4adca279eb,2016-06-12,80805a94,bumping version for 16.4.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,2438fcc8d4,2016-06-12,80805a94,bumping for 16.4.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,4f8490ac19,2016-06-11,80805a94,Stats.__init__ now has is_sorted argument (I think this was the original plan),1,1,5,2,5,2,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+boltons,f74044499c,2016-06-11,80805a94,bin deduplication (readily happens with bin_digits=-1),1,1,5,5,5,5,0,0,0,2,0,0,1,0,0,0,0,31,1,3,5,0,0,0,0,1
+boltons,f070cf38eb,2016-06-11,80805a94,add mad to describe,1,1,4,0,4,0,0,0,0,2,0,0,0,0,0,0,0,27,0,0,3,0,0,0,0,0
+boltons,bde94f3fdb,2016-06-11,80805a94,"add mad alias for median_abs_dev, as well as iqr stats property",1,1,17,0,17,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,0,0,0,0,0
+boltons,06bc1df00e,2016-06-11,80805a94,docstrings and examples for statsutils histogram-related stuff,1,1,76,2,76,2,0,0,0,4,0,0,0,0,0,0,0,30,1,15,67,0,0,0,0,0
+boltons,3bd4c85ede,2016-06-11,80805a94,py26 backporting for statsutils format_histogram,1,1,15,6,15,6,0,0,0,2,1,0,0,0,0,0,0,30,1,8,14,0,0,0,0,0
+boltons,8cf9899f02,2016-06-11,80805a94,extract histogram logic into a global function (format_histogram_counts) in case someone has their o,1,1,38,30,38,30,0,0,0,1,0,0,0,0,1,0,0,7,0,0,31,0,0,0,1,0
+boltons,fc523245f6,2016-06-11,80805a94,split format_histogram into format_histogram and get_histogram_counts,1,1,28,19,28,19,0,0,0,2,0,1,0,0,1,1,0,27,2,15,24,0,0,0,1,0
+boltons,4e34957662,2016-06-11,80805a94,remove edge_bin_size/trim from histogram logic,1,1,8,30,8,30,0,0,0,2,0,0,0,2,0,0,0,43,2,7,7,0,0,0,1,0
+boltons,2adfa2778d,2016-06-11,80805a94,adding initial version of statsutils.format_histogram. also fix error condition/message for trim_rel,1,1,113,2,113,2,1,1,0,1,2,0,0,0,3,0,0,11,0,0,96,0,0,0,0,0
+boltons,e93e03f2ae,2016-06-11,80805a94,tbutils: add get_formatted_exception_only method,1,1,3,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+boltons,b8414199de,2016-06-08,80805a94,bumping version for 16.4.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,536f4ed423,2016-06-08,80805a94,bump version for 16.4.0 release,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,039f4376f4,2016-06-08,80805a94,document ecoutils 2.4 and 2.5 support,1,1,9,4,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+boltons,7cbe37eaf9,2016-06-08,80805a94,document funcutils.wraps and funcutils.FunctionBuilder. also switch FunctionBuilder on Python 2 to b,3,1,189,19,155,18,0,0,0,9,0,0,0,0,0,0,0,24,0,0,135,0,0,0,0,0
+boltons,52bfc7cd05,2016-06-07,80805a94,"a little docstring for ParsedException.to_string, pretty much resolving #80",1,1,6,0,6,0,0,0,0,1,0,0,0,0,0,0,0,14,0,0,5,0,0,0,0,0
+boltons,df56a3ba0d,2016-06-07,80805a94,"ecoutils: add check for urandom, tweak python 2.4 json hack, and bump eco_version up to 1.0.1",1,1,50,16,50,16,0,0,1,3,0,0,0,0,3,1,0,20,0,0,38,0,0,0,0,0
+boltons,8fa1d781ab,2016-06-07,80805a94,"add the ability to convert parsed exceptions back into strings, as well as split out testing for the",3,1,69,18,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,1,0
+boltons,353c380762,2016-06-03,f0e62dc0,iterutils: optimize chunked_iter,1,1,7,11,7,11,0,0,0,1,0,0,0,1,0,0,0,29,1,7,7,0,0,0,0,0
+boltons,dd8c8f8aef,2016-05-26,80805a94,making ecoutils Python 2.4-compatible in the most practical way I know how,1,1,60,9,60,9,0,0,0,4,0,0,0,0,3,0,0,43,0,0,47,0,0,0,0,0
+boltons,5dbbf75af0,2016-05-25,4317775d,"functools.FunctionBuilder: Widen keyword-only regex, add tests for it",2,1,29,5,4,4,0,0,0,1,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+boltons,87792db284,2016-05-25,4317775d,funcutils.FunctionBuilder: Replace brittle string replacement with a regex that removes the keyword-,1,1,9,1,9,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,8,0,0,0,0,0
+boltons,20f3e430b7,2016-05-24,4317775d,first draft of python 3 compatible function builder.,2,1,225,34,83,24,0,0,1,6,0,0,0,0,5,0,0,24,0,0,74,0,0,0,0,0
+boltons,9179e8bc2b,2016-05-24,80805a94,bumping version for 16.3.2 development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,1dcdbb3740,2016-05-24,80805a94,bumping version for 16.3.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,d15cac04d4,2016-05-24,80805a94,remove ecoutils dependency on uuid (headed for 2.4 compat),1,1,11,10,11,10,0,0,0,1,0,0,0,0,0,0,0,40,0,0,10,0,0,1,1,0
+boltons,7b11eb61ae,2016-05-23,80805a94,importing FunctionBuilder and wrap for Python hybridization,1,1,160,4,160,4,0,5,0,1,0,0,0,0,10,0,0,3,0,0,116,0,0,1,0,0
+boltons,4791a281e1,2016-05-23,80805a94,quick ecoutils scrub test,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b0f4cdcead,2016-05-23,80805a94,add scrub kwarg to ecoutils for removing identifiable info,1,1,23,2,23,2,0,0,1,1,0,0,0,0,0,0,0,40,0,0,18,0,0,0,0,0
+boltons,40ca9abf75,2016-05-23,80805a94,another ecoutils docstring tweak,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,8eb98e102a,2016-05-23,80805a94,always forgetting to close my parens in docs,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,e8abe7e72d,2016-05-23,80805a94,ecoutils docstring improvements,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,100dac6adb,2016-05-23,80805a94,ecoutils docstring improvements,1,1,73,64,73,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,0,0,0,0,0
+boltons,245d8962ef,2016-05-23,80805a94,"fix a few :type:-os (sphinx wants :class:, not :type:)",2,2,5,5,5,5,1,0,0,1,0,0,0,0,0,0,0,26,0,0,5,0,0,0,0,0
+boltons,e86b2ccf21,2016-05-23,80805a94,improve ecoutils docstrings and add it to the main doc,3,1,108,13,102,13,0,2,1,1,0,0,0,0,0,0,0,29,0,0,88,0,0,0,0,0
+boltons,6d33e9b1e1,2016-05-23,80805a94,bumping version for 16.3.1 dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,154e032246,2016-05-23,80805a94,bumping version for 16.3.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,41808a5a29,2016-05-23,80805a94,add filesystem encoding to ecoutils,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,1,0,0,0,0,0
+boltons,b847b2c65a,2016-05-23,80805a94,"adding ecoutils, a Python feature/configuration profile generator, great for analytics",1,1,277,0,277,0,0,1,0,0,1,0,0,0,6,0,0,0,0,0,188,0,0,0,0,0
+boltons,a6c2d142e0,2016-05-23,80805a94,a few parse/format_int_list docstring updates,1,1,29,15,29,15,0,0,0,2,0,0,1,0,0,0,0,43,1,17,26,0,0,0,0,0
+boltons,f79f0288c8,2016-05-23,6a69bb54,Rename range2list() & list2range() functions to parse_int_list() & format_int_list().,2,1,20,20,7,7,0,0,0,0,1,1,0,0,2,2,0,0,0,0,7,0,0,0,0,0
+boltons,c1699cc8cd,2016-05-23,80805a94,wrap_trace docstring and other minor tweaks and error checking,1,1,46,18,46,18,0,0,0,1,0,0,1,0,1,1,0,59,1,39,41,0,1,0,0,0
+boltons,1cd0828d07,2016-05-23,80805a94,"filtration, events, and better output for wrap_trace",1,1,100,31,100,31,0,0,2,4,0,0,1,0,3,2,0,56,1,55,91,0,1,0,0,0
+boltons,c079000e3e,2016-05-23,6a69bb54,Python 2 compatibility fixes for range2list() and list2range() functions in strutils.py,1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,39,1,2,4,0,0,0,0,0
+boltons,c669103ccb,2016-05-23,6a69bb54,Added range2list() and list2range() functions to strutils.py - added applicable tests to test_struti,2,1,133,1,114,1,0,0,0,0,1,0,0,0,2,0,0,0,0,0,70,0,0,0,0,0
+boltons,01fb908d25,2016-05-22,80805a94,"appveyor seems pretty overloaded (slow), so remove unnecessary environments. also add some test skip",3,1,11,8,4,2,1,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,1,0
+boltons,04ae6c7feb,2016-05-21,80805a94,fixing daterange's xrange link,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+boltons,41b2baceed,2016-05-21,80805a94,a bit of info about the trimean,1,1,5,1,5,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+boltons,294344b84f,2016-05-21,80805a94,allow daterange to run backwards as well as forwards. greatly enhance daterange's docstring. make st,2,1,54,27,44,25,0,0,0,2,0,0,1,0,0,0,0,33,1,36,40,0,0,1,0,0
+boltons,a0c2c992d9,2016-05-20,80805a94,"add month and year support to daterange, address concerns from #75, as well as add some tests and tw",2,1,46,27,32,25,0,0,0,2,1,0,0,0,0,0,0,33,1,29,31,0,0,0,0,0
+boltons,a4409e8f88,2016-05-20,80805a94,a few trace TODOs,2,1,6,1,3,1,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+boltons,926e91bef0,2016-05-20,80805a94,pluggable hook for wrap_trace,2,1,21,10,19,8,0,0,0,5,0,0,0,0,1,1,0,39,1,4,17,0,1,0,0,0
+boltons,8de09bd184,2016-05-19,80805a94,adding preliminary wrap_trace functionality. still need to make action configurable,3,1,188,0,98,0,0,2,0,1,1,0,0,0,6,0,0,7,0,0,71,0,1,0,0,0
+boltons,7fec1ebd78,2016-05-18,a58841a5,Replace assert statements with explicit checks and TypeError exceptions.,1,1,12,9,12,9,0,0,0,1,0,0,0,0,0,0,0,19,0,0,10,0,0,0,0,0
+boltons,e41ebfade2,2016-05-18,a58841a5,"Remove the ValueError exception from strpdate(), per @mahmoud's feedback.",1,1,8,20,8,20,0,0,0,1,0,0,0,0,0,0,0,3,0,0,8,0,0,0,1,0
+boltons,c74252986b,2016-05-17,80805a94,"fix cacheutil's implicit import error, and fix py34 doctest",2,2,3,2,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+boltons,4f3c4bc852,2016-05-17,80805a94,"many cacheutils docstrings, _HashedKey __repr__",1,1,62,5,62,5,0,0,0,6,0,0,0,0,1,0,0,14,0,0,54,0,0,0,0,0
+boltons,3c1094359d,2016-05-17,80805a94,"initial implementation of cachedproperty and tests, addressing #66. docs soon.",2,1,45,1,16,0,0,0,0,1,0,0,0,0,3,0,0,2,0,0,12,0,0,0,0,0
+boltons,d14b5a793d,2016-05-17,80805a94,"adding CachedMethod, complete with descriptor behavior and respective tests. Still need docs, but th",2,1,126,3,61,0,0,0,0,1,0,0,0,0,7,0,0,18,0,0,53,0,0,0,0,0
+boltons,8e6326d2c9,2016-05-16,80805a94,"cached decorator now accepts a callable, addressing #69, as well as performing more rigorous checks ",2,1,55,10,23,9,0,0,0,2,0,0,0,0,2,1,0,13,0,0,21,0,0,0,0,0
+boltons,48a6166c7e,2016-05-17,a58841a5,"Add functions strpdate() and daterange(), which make working with date objects more convenient.",1,1,101,1,101,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,92,0,0,0,0,0
+boltons,e9b4d3c02c,2016-05-15,80805a94,Stats object __init__ args docstring,2,1,11,3,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+boltons,a13bfb16fb,2016-05-15,80805a94,fix a bug with empty Stats and get_quantile,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+boltons,b7a534db3d,2016-05-15,80805a94,statsutils typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,474a07cb59,2016-05-15,80805a94,statsutils docstrings expansion,1,1,23,10,23,10,0,0,0,2,0,0,0,0,0,0,0,26,0,0,19,0,0,0,0,0
+boltons,be720e9e28,2016-05-15,80805a94,"py3 added some more digits to floats, so I switched the describe doctest",1,1,9,9,9,9,0,0,0,1,0,0,0,0,0,0,0,26,0,0,9,0,0,0,0,0
+boltons,8ba4a6fe5c,2016-05-15,80805a94,describe method on Stats and also module-level convenience function,2,1,81,1,81,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,71,0,0,1,0,0
+boltons,350dbe5dea,2016-05-14,80805a94,"better statsutils min/max doctest, Stats.count, and another TODO for statsutils",2,1,15,4,14,3,0,0,0,2,0,0,0,0,1,0,0,4,0,0,12,0,0,0,0,0
+boltons,b360b1bb9f,2016-05-14,80805a94,add min/max methods to statsutils.Stats object,2,1,26,1,26,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,22,0,0,0,0,0
+boltons,c7488f9f49,2016-05-10,80805a94,"fix a copy-paste typo in BufferedSocket.getsockname, uncovered by #73",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,cd987bb5a2,2016-05-10,e654f881,fix #72 fileutils doctest error on Windows,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,1,1,1,0,0,0,0,0
+boltons,fb9c0fe2fa,2016-05-03,80805a94,tiny socketutils docstring typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,4d017bab7f,2016-05-03,80805a94,bumping version for 16.2.3dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,34c63be343,2016-05-03,80805a94,bumping version for 16.2.2 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b771d38666,2016-05-03,80805a94,"revert bak file as it was causing confusion, per nvie/pip-tools#351",1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+boltons,21e0e6fb69,2016-05-03,80805a94,getsendbuffer() returns a bytestring and recv_size() uses the proper ._recvsize on the first socket ,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,39,0,0,3,0,0,0,0,0
+boltons,15eb2ef4ff,2016-05-03,80805a94,"adding an rbuf_unconsumed attribute for post-close debugging, per @doublereedkurt's request",1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+boltons,5a5f29abfe,2016-05-03,80805a94,BufferedSocket: also lock on .shutdown(),1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,1,0,0,0
+boltons,130dc1f9d3,2016-05-03,80805a94,some socketutils exception docstrings,1,1,31,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,0
+boltons,ae341f3b6a,2016-05-02,80805a94,make recv_until conditionally return the delimiter (by default it does not). also fix a NetstringExc,2,1,56,40,18,13,0,0,0,3,0,0,1,0,0,0,0,51,1,14,17,0,0,0,1,0
+boltons,7bba06547b,2016-05-01,80805a94,"fix py3-affecting typo (bytestring, not raw string)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+boltons,7c592152da,2016-05-01,80805a94,socketutils docs minor expansion,2,1,17,11,16,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0
+boltons,b778cef848,2016-05-01,80805a94,a couple docs/comment tweaks,1,1,10,3,10,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,6,0,0,0,1,0
+boltons,96e3043d6d,2016-04-30,80805a94,added some BufferedSocket passthrough properties,1,1,25,0,25,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,22,0,0,0,0,0
+boltons,69a9d5dee4,2016-04-30,80805a94,add and document some nuanced socket passthroughs,1,1,48,7,48,7,0,0,0,1,0,0,0,0,3,0,0,2,0,0,35,0,0,0,0,0
+boltons,aaedbf851c,2016-04-30,80805a94,add a bunch of simple passthrough methods to better fill out socket's API,2,1,58,0,36,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,28,0,0,0,0,0
+boltons,8e3a8431e4,2016-04-29,80805a94,"socketutils: rename BufferedSocket.recv_lock to _recv_lock, and same for send_lock.",1,1,12,13,12,13,0,0,0,11,0,0,0,0,0,0,0,45,1,1,12,0,0,0,0,0
+boltons,17626aa135,2016-04-29,80805a94,add some TODOs to socketutils,1,1,37,3,37,3,0,3,0,1,0,0,0,0,0,0,0,7,0,0,22,1,0,0,0,0
+boltons,fac02be06b,2016-04-29,80805a94,bumping version for 16.2.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,983055993f,2016-04-29,80805a94,various socketutils docstring improvements,1,1,24,6,24,6,0,0,0,2,0,0,0,0,0,0,0,45,1,12,21,0,0,0,0,0
+boltons,9192d323ca,2016-04-28,80805a94,whitespace and clarification,2,1,3,2,3,1,0,0,0,1,0,0,0,0,0,0,0,45,1,1,1,0,0,0,0,0
+boltons,66f285d71d,2016-04-28,80805a94,better timeout defaulting behavior for BufferedSocket,2,1,58,5,16,5,0,0,0,1,0,0,0,0,0,0,0,22,0,0,14,0,0,0,0,0
+boltons,16742d4729,2016-04-28,80805a94,"better MessageTooLong errors, and correctly compute the find_offset_start in recv_until",1,1,4,3,4,3,0,0,0,2,0,0,0,0,0,0,0,45,1,2,4,0,0,0,0,0
+boltons,5a763d287e,2016-04-28,80805a94,work around a python26 issue with recv_until failing on maxsize=None. str.find could not handle None,1,1,5,3,5,3,0,0,0,2,0,0,1,0,0,0,0,45,1,3,5,0,0,0,0,0
+boltons,b049758d60,2016-04-28,80805a94,"recv_until checks buffer, with upper limit, before checking size of buffer. all low-level socket rec",1,1,34,22,34,22,0,0,0,7,0,0,0,0,0,0,0,43,1,12,33,0,0,0,0,0
+boltons,dd252de7b4,2016-04-28,80805a94,fix and test for off-by-one in recv_close,2,1,17,15,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,dc06c07b11,2016-04-28,80805a94,fix BufferedSocket.recv_close argument order,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,e3b23d6584,2016-04-28,80805a94,fix two significant issues with BufferedSocket.recv_until: recv_until now checks the recv buffer for,1,1,8,6,8,6,1,0,0,1,0,0,1,0,0,0,0,43,1,8,8,0,0,0,0,0
+boltons,88d73c3e8b,2016-04-28,80805a94,"many more socketutils docs, now with an rst file for the sphinxing",2,1,77,21,41,21,0,0,0,6,0,0,0,0,1,0,0,25,0,0,39,0,0,0,0,0
+boltons,5ad19a37ed,2016-04-27,80805a94,"change BufferedSocket.recv to always return the rbuf data, even when it is less than the size reques",1,1,17,17,17,17,0,0,0,1,0,0,0,0,0,0,0,18,0,0,17,0,0,0,0,0
+boltons,6cea934392,2016-04-27,80805a94,"BufferedSocket is now threadsafe, no longer has a fileno, and there are ever more socketutils docs",2,1,212,144,208,140,0,0,1,10,0,0,1,0,5,1,0,41,1,39,193,0,1,0,0,0
+boltons,7f1f1c7424,2016-04-27,80805a94,"even more socketutils documentation work. also, make BufferedSocket.recv raise a socketutils.Timeout",1,1,32,12,32,12,0,0,0,4,0,0,0,0,0,0,0,38,0,0,28,0,0,0,0,0
+boltons,eccb21e02f,2016-04-27,80805a94,"docstrings and argument naming changes for BuffereSocket.peek, getting ready for socketutils release",1,1,110,9,110,9,0,0,0,11,0,0,0,0,0,0,0,40,1,11,94,0,0,0,0,0
+boltons,e72b1887b4,2016-04-27,80805a94,"more socketutils cleanup, esp renaming maxbytes to maxsize. generally getting it ready for wider rel",2,1,44,22,43,21,0,0,2,7,0,0,0,0,3,1,0,40,1,5,33,0,0,0,0,1
+boltons,fbfe3bd4eb,2016-04-26,80805a94,"ever better socket exception discipline, also recv_until supports multibyte markers now, so remove a",1,1,32,31,32,31,0,0,0,7,0,0,0,1,1,0,0,40,1,7,30,0,0,0,1,0
+boltons,28e6018973,2016-04-26,80805a94,socketutils string gazing for python3,2,1,5,4,4,3,0,0,0,1,0,0,0,0,0,0,0,42,1,3,3,0,0,0,0,0
+boltons,c84c313e78,2016-04-26,80805a94,better timeout discipline in socketutils,1,1,14,5,14,5,0,0,0,3,0,0,1,0,0,0,0,42,1,4,14,0,0,0,0,0
+boltons,5d722a9a77,2016-04-26,80805a94,revamped BufferedSocket.recv_until to support multibyte delimiters and to return the delimiter in th,1,1,32,26,32,26,0,0,0,3,0,0,1,0,0,0,0,39,1,27,31,0,0,0,0,0
+boltons,d36b95db89,2016-04-18,80805a94,bumping version for 16.2.1dev development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b0c88024f9,2016-04-18,80805a94,bumping version for 16.2.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,c1c0107fc4,2016-04-18,80805a94,"BREAKING: finally fixing iterutils.pairwise. pairwise used to call to chunked, now it calls to windo",1,1,26,8,26,8,1,0,0,2,0,0,0,0,0,0,0,2,0,0,21,0,0,0,0,0
+boltons,baf4619c6d,2016-04-18,80805a94,a couple docs formatting fixes for strutils,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,1,0
+boltons,0bc6ddf58a,2016-04-18,80805a94,gotta mention argparse as well of course,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+boltons,779c0bc045,2016-04-18,80805a94,"adding escape_shell_args, args2cmd, and args2sh, functions to help join command line arguments in co",1,1,144,5,144,5,0,0,1,0,1,0,0,0,3,0,0,0,0,0,105,1,0,0,0,0
+boltons,3a5bcc82b7,2016-03-09,80805a94,simplify remap docstring language,1,1,10,8,10,8,0,0,0,1,0,0,0,0,0,0,0,60,1,8,8,0,0,0,0,1
+boltons,a789878074,2016-03-06,80805a94,iterutils.same docstring tweak,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+boltons,45c75c9bf7,2016-03-06,80805a94,bumping for 16.1.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,56692b31e7,2016-03-06,80805a94,bumping for 16.1.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,55d70b6141,2016-03-06,80805a94,add iterutils.same(),1,1,32,0,32,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,29,0,0,0,0,0
+boltons,3d2266ec87,2016-03-02,42ab8dd2,Update trove classifers.,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+boltons,582d6e7a0b,2016-03-02,42ab8dd2,Catch un-parsable UUIDs.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+boltons,a78b404da2,2016-02-27,de2d1d6f,Add more irregular plurals,1,1,33,18,33,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,0,0,0,0,0
+boltons,225d98f68f,2016-02-25,80805a94,fileutils.replace: bak file for win32 ReplaceFile for slightly better corner case coverage on less f,1,1,3,2,3,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+boltons,a9643c20aa,2016-02-24,80805a94,docs and CHANGELOG updates,4,2,65,8,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+boltons,100da2e6a9,2016-02-24,80805a94,bumping version for 16.1.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,386f920194,2016-02-24,80805a94,bumping version for 16.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,fffc419762,2016-02-24,80805a94,"enable 0-start values for backoff, more validation, more tests!",2,1,51,13,20,11,0,0,1,1,0,0,1,0,0,0,0,37,1,20,20,0,0,0,0,0
+boltons,b3d4d1c54c,2016-02-24,80805a94,"add jitter and better backoff docs, as well as backoff tests",2,1,79,9,38,9,0,1,0,2,1,0,0,0,0,0,0,27,1,30,34,0,0,0,0,0
+boltons,627f444b2e,2016-02-24,80805a94,docstrings and also arguments to match the stdlib,1,1,28,17,28,17,0,0,0,3,0,0,0,0,1,0,0,16,0,0,23,0,0,0,0,0
+boltons,2d63e46070,2016-02-23,80805a94,add a small comment in fileutils atomic saver corner case,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,20,0,0,2,0,1,0,0,0
+boltons,b048c1bb01,2016-02-23,80805a94,"rename or ReplaceFile, do one not both, of course",1,1,6,2,6,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,6,0,0,0,0,0
+boltons,e35f1481a8,2016-02-23,80805a94,better fileutils.replace semantics for windows,1,1,15,8,15,8,0,0,0,2,0,0,0,0,0,0,0,15,0,0,10,0,0,0,0,0
+boltons,f71d79c5ed,2016-02-23,80805a94,"fileutils.replace for windows: fix imports and error message, make atomic_rename work better",1,1,9,5,9,5,1,0,0,2,0,0,0,0,0,0,0,9,0,0,8,0,1,1,0,0
+boltons,2792de26f1,2016-02-23,80805a94,"first cut at ReplaceFile, about to test on Windows",1,1,50,8,50,8,0,0,0,1,0,0,0,0,4,1,0,17,0,0,40,0,0,0,0,0
+boltons,6b535554f6,2016-02-16,80805a94,"clean up some redundant is_uuid code, add args to docs, make naming consistent",1,1,10,8,10,8,0,0,0,1,0,0,0,0,0,0,0,9,0,0,9,0,0,0,0,1
+boltons,fe377387cd,2016-02-16,80805a94,"fixed up is_ascii, per comments on issue #58",1,1,15,5,15,5,1,0,0,1,0,0,0,0,0,0,0,14,0,0,15,0,0,0,0,0
+boltons,65bd592bb2,2016-02-16,80805a94,remove some strutils comments,1,1,0,6,0,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+boltons,be5e80c9c5,2016-02-16,42ab8dd2,Add is_ascii util.,1,1,17,0,17,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,13,0,0,0,0,0
+boltons,973b5e097e,2016-02-16,42ab8dd2,Add is_uuid util to check if a string is a UUID.,1,1,23,0,23,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,20,0,0,0,0,0
+boltons,ae2a90151f,2016-02-13,80805a94,tableutils.Table: make dictionary tables a little more consistent,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+boltons,11f3c151bc,2016-02-10,80805a94,complete integrating the tableutils metadata,2,1,26,12,25,12,0,0,0,5,0,0,1,0,0,0,0,48,2,12,21,0,0,0,0,0
+boltons,e8537015ae,2016-02-10,80805a94,bumping version for 16.0.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,1fd067ae83,2016-02-10,80805a94,bumping version for 16.0.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,0ce49fa94c,2016-02-10,80805a94,the beginnings of adding metadata support to Table,1,1,19,2,19,2,0,0,0,2,0,0,1,0,0,0,0,40,1,15,17,0,0,0,0,0
+boltons,4c5e39fcfa,2016-02-08,80805a94,better error handling in iterutils.get_path,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+boltons,6d186bf327,2016-02-07,80805a94,avoid catching BaseException in all boltons,9,9,17,17,17,17,0,0,0,13,0,0,0,0,0,0,0,60,2,2,17,0,0,0,0,0
+boltons,f942d9b44b,2016-01-27,80805a94,DummyFile closed enforcement,1,1,18,0,18,0,0,0,0,9,0,0,0,0,0,0,0,4,0,0,18,0,0,0,0,0
+boltons,22c5f1d85e,2016-01-25,80805a94,a first stab at a DummyFile,1,1,68,0,68,0,0,2,0,0,0,0,0,0,16,0,0,0,0,0,46,0,0,0,0,0
+boltons,57cc0d350f,2016-01-25,79ba1226,Small format fix in iterutils.one for None,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+boltons,35f7cd6011,2016-01-24,80805a94,bumping setup.py version for 16.0.1dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b01e9f4901,2016-01-24,80805a94,bumping setup.py for 16.0.0 release (and mostly updated CHANGELOG accordingly),2,1,13,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,495d5c2e96,2016-01-24,80805a94,adding strutils.indent,2,1,25,3,17,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,14,0,0,0,0,0
+boltons,7a40e3fc93,2016-01-21,80805a94,python 3 fix for _print_ll,1,1,3,3,3,3,1,0,0,0,0,0,0,0,1,1,0,0,0,0,3,0,0,0,0,0
+boltons,218a423f24,2016-01-21,80805a94,"fixing issue #55, rectifying a small typo in cacheutils and adding much more rigorous doubly-linked ",2,1,56,3,12,1,0,0,0,1,0,0,0,0,1,0,0,10,0,0,11,0,0,0,0,0
+boltons,7c8a646c81,2015-11-18,80805a94,updating for development version 15.1.2dev,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,6b2cfd0ea9,2015-11-18,80805a94,bumping version for 15.1.1 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,07242902b9,2015-11-18,4317775d,"cacheutils.LRU: refactor linked list code, can now handle dupes; improve locking; improve tests",2,1,186,86,127,80,0,0,0,10,0,0,0,0,5,0,0,14,0,0,95,0,1,0,0,1
+boltons,6894873c9f,2015-11-18,813fa6e6,Add a doc string for get_zscore,1,1,4,0,4,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,0,0,0
+boltons,f9c2f04fea,2015-11-18,813fa6e6,Support calculating the z-score in stats,1,1,11,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,0,0,0,0
+boltons,b562da2c61,2015-11-18,813fa6e6,Only delattr when hasattr in Stats.clear_cache,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+boltons,86cff8096d,2015-11-18,80805a94,cacheutils: pull RLock from the right place for python 2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,81056539b1,2015-11-13,80805a94,exposing iter_splitlines docs and also a cacheutils TODO,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+boltons,6dbd63cefa,2015-11-08,80805a94,add a couple more setup.py trove classifiers whynot,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0
+boltons,e54a7a5e06,2015-11-05,9f65ee29,fix links on statsutil's docstring,1,1,4,2,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+boltons,52cc33c3d9,2015-11-05,9f65ee29,missing basestring definition for python3,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,b864e3e77e,2015-10-15,80805a94,iterutils.get_path: tests show that isinstance is faster than try/except in this case,1,1,3,3,3,3,0,1,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+boltons,8c9931f9de,2015-10-15,80805a94,add a missing verb to a docstring,1,1,3,7,3,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,514d1417d9,2015-10-03,80805a94,"fileutils.AtomicSaver: merge dest_perms and part_perms into one more intuitive, more secure file_per",1,1,34,42,34,42,0,0,0,4,0,0,0,0,0,0,0,20,0,0,27,1,1,0,0,0
+boltons,fa9e53eb86,2015-10-01,80805a94,fileutils.AtomicSaver: handle the case where chmod on the might fail,1,1,8,3,8,3,0,0,0,1,0,0,0,0,0,0,0,17,0,0,8,0,1,0,0,0
+boltons,fea88172d7,2015-10-01,80805a94,put a fix and test in for _sending_ large messages with BufferedSocket,2,1,39,20,8,5,1,0,0,1,0,0,0,0,0,0,0,19,0,0,8,0,0,0,0,0
+boltons,c302e86ecf,2015-10-01,80805a94,fileutils.AtomicSaver: last docstring tweak of the night,1,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0
+boltons,2d34fbfc1c,2015-10-01,80805a94,fileutils.AtomicSaver: clarifying umask and reordering docstring args,1,1,9,8,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,1,0,0,0
+boltons,eb963609d0,2015-10-01,80805a94,a more comprehensive approach to destination file permissions,1,1,36,13,36,13,0,0,0,4,0,0,0,0,0,0,0,23,0,0,31,0,0,0,0,0
+boltons,8bbdd94285,2015-09-30,80805a94,trying out a new permissions-preserving AtomicSaver feature,1,1,11,3,11,3,0,0,0,2,0,0,0,0,0,0,0,20,0,0,10,0,1,0,0,0
+boltons,5985e31854,2015-09-27,80805a94,first semi-public pass at get_path,2,1,94,1,73,0,0,4,0,0,0,0,0,0,4,0,0,0,0,0,54,0,0,0,0,0
+boltons,5c79a8a62d,2015-09-24,80805a94,a bunch of docs cleanups,3,1,10,3,5,0,0,0,0,1,0,0,0,0,0,0,0,60,1,3,3,0,0,0,0,1
+boltons,1b6fa45860,2015-09-24,80805a94,updating a couple links in remap's docstring,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,60,1,2,2,0,0,0,1,0
+boltons,125557f00f,2015-09-23,80805a94,"iterutils.remap: probably shouldn't encourage this, but there are some wild n crazy times out there",1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,60,1,1,2,0,0,0,0,0
+boltons,7ffcad9ef7,2015-09-23,80805a94,bumping version for 15.1.1 development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,1d281790cf,2015-09-23,80805a94,bumping version for 15.1.0 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,90ac477732,2015-09-23,80805a94,"add some remap docstring links, remove a bunch of notes from the bottom of iterutils",1,1,10,61,10,61,0,4,1,1,0,0,0,0,0,0,0,60,1,5,5,0,0,0,1,0
+boltons,27a4bc1b6d,2015-09-21,80805a94,switched reraise_visit to be just a kwarg,1,1,4,2,4,2,0,0,1,1,0,0,1,0,0,0,0,60,1,4,4,0,0,0,0,0
+boltons,94657911b6,2015-09-21,80805a94,adding remap docstring documentation,1,1,95,14,95,14,0,1,2,1,0,0,0,0,0,0,0,57,1,75,81,0,0,0,0,0
+boltons,6cecb926da,2015-09-19,80805a94,better argument order for remap's exit(),2,1,8,7,4,3,0,0,0,2,0,0,0,0,0,0,0,57,1,1,2,0,0,0,0,0
+boltons,4a9f50585d,2015-09-19,80805a94,test for registry leakage complete. registry size is equal to the number of 'branch' nodes (inner no,1,1,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+boltons,4c5c6f1fd4,2015-09-19,80805a94,"more remap, 5am is premature micro-optimization time",1,1,16,12,16,12,0,1,1,1,0,0,1,0,0,0,0,57,1,12,12,0,0,0,0,0
+boltons,91b54fc99d,2015-09-19,80805a94,change visit to accept path as well. enter() does not get called for objects that are already added ,2,1,8,7,3,3,0,0,0,2,0,0,0,0,0,0,0,54,1,1,2,0,0,0,0,1
+boltons,f4f6608ecb,2015-09-19,80805a94,iterutils.remap: enter/exit path feature now supported and tested working. finalized enter/exit argu,2,1,33,15,12,9,0,1,1,3,0,0,1,0,0,0,0,54,1,8,10,0,0,0,0,0
+boltons,cf5c471cfd,2015-09-18,80805a94,iterutils.remap design principles,1,1,23,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0
+boltons,ed9f74ea43,2015-09-18,80805a94,"now that remapping can be customized beyond collections, change 'collection' names to 'parent'",2,1,24,23,20,20,0,1,0,2,0,0,0,0,0,0,0,52,1,7,18,0,0,0,0,0
+boltons,d6d8203aac,2015-09-18,80805a94,"test 3 advanced use cases, one per callback visit/enter/exit",2,1,61,1,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+boltons,6c56663fa6,2015-09-18,80805a94,finalize remap argument names visit/enter/exit,2,1,49,51,44,46,0,1,0,1,0,0,0,1,3,3,0,52,1,21,37,0,0,0,0,0
+boltons,4dd5ebbdcf,2015-09-17,80805a94,iterutils.remap: reraise concept for extra practical remapping,1,1,8,2,8,2,0,0,0,1,0,0,1,0,0,0,0,56,1,8,8,0,0,0,0,0
+boltons,2d419c51c8,2015-09-17,80805a94,iterutils.remap: now supports mapping over non-default collections and raises an error when the obje,2,1,36,21,31,20,0,1,2,2,0,0,1,0,0,0,0,50,1,8,22,0,0,0,0,0
+boltons,2c0004f9f7,2015-09-17,80805a94,expand on approach notes a bit,1,1,5,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+boltons,3e7af80d28,2015-09-17,80805a94,"self-referencing and duplicate-referencing data structures now fully supported by remap, along with ",2,1,69,39,57,34,0,1,3,3,0,0,1,0,0,0,0,48,1,15,53,0,0,0,0,1
+boltons,a0f1b3d29a,2015-09-17,80805a94,iterutils.remap: committing abandoned marker approach for reference,2,1,37,4,22,3,0,1,0,1,0,0,1,0,0,0,0,43,1,6,16,0,0,0,0,0
+boltons,2b9b6d5988,2015-09-17,80805a94,remap: work around Python 3 garbage,2,1,6,6,4,4,0,0,0,2,0,0,0,0,0,0,0,40,1,1,4,0,0,0,0,0
+boltons,111bf6b15d,2015-09-17,80805a94,iterutils.remap: initial handling of self-referential values,2,1,14,1,5,1,0,0,0,1,0,0,1,0,0,0,0,40,1,5,5,0,0,0,0,0
+boltons,20ec4592b4,2015-09-17,80805a94,move default callbacks to module scope and test for noncallable callbacks,2,1,46,35,36,35,0,1,1,1,0,0,0,1,3,3,0,36,1,8,26,0,0,1,1,0
+boltons,78ec98572d,2015-09-16,80805a94,easy item drop/retain with handle_item,2,1,9,0,4,0,0,0,0,1,0,0,1,0,0,0,0,39,1,4,4,0,0,0,0,0
+boltons,231e092d1a,2015-09-16,80805a94,move (and add more) remap tests to test_iterutils,2,1,28,15,4,14,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+boltons,838ca5a0ac,2015-09-16,80805a94,first version of iterutils.remap,1,1,92,0,92,0,0,4,0,0,1,0,0,0,4,0,0,0,0,0,65,0,0,0,0,0
+boltons,af22a00b50,2015-09-09,80805a94,bumping version for 15.0.3dev and updating changelog to reflect 15.0.2 release,2,1,20,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,4331558c20,2015-09-09,80805a94,bumping version for 15.0.2 release,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,473503a838,2015-09-09,80805a94,"test OMD.pop and OMD.popall, with some improvements to their implementations",2,1,49,4,10,4,0,0,0,2,0,0,0,0,0,0,0,7,0,0,10,0,0,0,0,0
+boltons,b1df97114e,2015-09-09,80805a94,"fix OMD.setdefault to default to None and not empty list, per documentation (and add a test to the s",2,1,12,2,2,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+boltons,7d446b662c,2015-08-27,80805a94,bumping version for 15.0.2 development,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,c5da4f7d95,2015-08-27,80805a94,"bumping version to 15.0.1 release, updating changelog",2,1,16,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,4b8b52bcc4,2015-08-27,80805a94,a tested and working implementation of dictutils.OrderedMutliDict.sortedvalues(),2,1,42,1,42,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,37,0,0,0,0,0
+boltons,a4245b5ea8,2015-08-27,80805a94,"fix a sizable bug in OMD.addlist() (indentation), and add a test case that would have caught it.",1,1,10,5,10,5,1,0,0,2,0,0,0,0,0,0,0,6,0,0,9,0,0,0,0,0
+boltons,f90b1fd358,2015-08-27,80805a94,"add an OMD microoptimization in .add(), remove an OMD microoptimization in .addlist()",1,1,3,4,3,4,0,0,0,2,0,0,0,0,0,0,0,6,0,0,3,0,0,0,1,0
+boltons,76e47cd139,2015-08-22,80805a94,cacheutils docs updates,2,1,7,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,4981e96633,2015-08-22,80805a94,more readable linkification for the CHANGELOG,2,1,74,63,16,3,0,0,0,3,0,0,0,0,0,0,0,16,0,0,14,0,0,0,0,0
+boltons,18e2663270,2015-08-22,80805a94,adding first version of linkified changelog and the script used to do so,2,1,138,358,42,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,29,0,0,0,0,0
+boltons,39a87960da,2015-08-20,80805a94,slight enhancement to backoff docs,1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+boltons,40d8d73332,2015-08-19,80805a94,iterutils.backoff: fix 'repeat' string identity check to be an equality check,1,1,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+boltons,be2bae1861,2015-08-19,80805a94,bumping version for dev (15.0.1),1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+boltons,8047dc6c44,2015-08-19,80805a94,bumping version for 15.0.0 release,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+boltons,6bb6a134c9,2015-08-19,80805a94,adding backoff function for consistency with rest of iterutils module,2,1,25,4,24,4,0,0,0,1,0,0,0,0,1,0,0,19,0,0,19,0,0,1,0,0
+boltons,84b08f865d,2015-08-19,80805a94,improving docs and compensating for 2.6 float repr,1,1,22,5,22,5,0,0,0,1,0,0,0,0,0,0,0,19,0,0,17,0,0,0,0,0
+boltons,a0ec2940cc,2015-08-19,80805a94,adding exponential backoff to iterutils,1,1,34,0,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,30,0,0,0,0,0
+boltons,23b0715be4,2015-08-19,80805a94,slightly more permissive toward blank line ignoring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+boltons,ad3fb568fe,2015-08-18,80805a94,xfrange,1,1,24,0,24,0,0,0,0,1,0,0,0,0,1,0,0,15,0,0,19,0,0,0,0,0
+boltons,155a64ab26,2015-08-18,80805a94,add initial frange (separate xfrange?),1,1,38,3,38,3,0,0,0,2,0,0,0,0,1,0,0,2,0,0,30,0,0,0,0,0
+boltons,cba1215d95,2015-08-17,80805a94,first version of iter_splitlines,1,1,36,0,36,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27,0,0,0,1,0
+boltons,dfc0debb42,2015-08-16,80805a94,docs update astimezone should have been replace,1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+boltons,e1d724d833,2015-08-16,80805a94,"first implementation of dt_to_timestamp, per the long-lived PR #13. Also a few docs fixes.",2,1,38,8,36,7,0,0,0,4,0,0,0,0,1,0,0,13,0,0,31,0,0,0,0,0
+boltons,027865d9ce,2015-08-16,80805a94,"merging tzutils into timeutils, lots of little timeutils docs enhancements",7,3,252,250,208,224,0,0,0,5,0,0,0,0,17,18,0,17,1,1,137,0,0,0,0,0
+boltons,13d5ee88c7,2015-08-14,80805a94,AtomicSaver: improve docstring and remove extra import,1,1,9,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,1,1,1,0
+boltons,deca65c70c,2015-08-14,80805a94,declutter AtomicSaver's docstring,1,1,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,0,0,0
+boltons,15c8029170,2015-08-14,80805a94,correctly raise an exception when destination path saving fails,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+boltons,e18197c449,2015-08-14,80805a94,adjust AtomicSaver logic for new O_EXCL-enabled part files. Also adjusted docstring and fixed a kwar,1,1,30,31,30,31,1,1,4,2,0,0,0,0,0,0,0,20,0,0,29,0,1,0,0,0
+boltons,4348a49c1c,2015-08-13,80805a94,"refactor, comment, and test the teens support for strutils.ordinalize()",1,1,14,10,14,10,0,0,0,1,0,0,0,0,0,0,0,14,0,0,11,0,0,0,0,1

@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+libpng,18ea3e9404,2026-10-05,4f6ab480,fix: Restore the build with floating-point support disabled,1,1,2,9,2,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,cd952f49f9,2026-09-28,4f6ab480,Release libpng version 1.6.59,16,3,70,58,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+libpng,ba947ba18e,2026-09-23,4f6ab480,doc: Describe the zstream states that `png_read_end` must handle,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,a6a75395be,2026-09-23,4f6ab480,doc: Describe the zstream states that `png_read_end` must handle,1,1,4,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,6c7783b151,2026-09-23,4f6ab480,fix: Clear stale zstream pointers when releasing the inflate stream,1,1,19,14,19,14,1,0,0,4,0,0,2,0,1,0,0,143,2,3,13,0,0,0,0,0
+libpng,aa77ef38c1,2026-09-23,4f6ab480,fix: Clear stale zstream pointers when releasing the inflate stream,1,1,19,14,19,14,1,0,0,4,0,0,2,1,1,0,0,143,3,4,13,0,0,0,0,0
+libpng,813a4963b1,2026-09-07,34872df5,Fix hIST chunk position to match W3C specification,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,cae4745589,2026-06-22,b7d21227,fix: Prevent double-freeing `png_struct` members on allocation failure,4,3,5,0,4,0,1,0,0,4,0,0,4,0,0,0,0,288,4,4,4,1,0,0,0,0
+libpng,a22696be0a,2026-06-22,b7d21227,fix: Prevent double-freeing `png_struct` members on allocation failure,4,3,5,0,4,0,1,0,0,4,0,0,4,0,0,0,0,288,4,4,4,1,0,0,0,0
+libpng,9ec49c2d56,2026-04-29,4f6ab480,fix(apng): Detect short fdAT chunks in push mode,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,97,1,1,1,0,0,0,0,0
+libpng,8c62c3b86a,2026-04-22,4f6ab480,Bump version to 1.6.59.git,12,3,42,33,10,10,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,3061454d98,2026-04-15,4f6ab480,Release libpng version 1.6.58,17,4,55,66,11,14,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+libpng,d4c4e49eb5,2026-04-15,4f6ab480,fix: Sync `info_ptr->palette` unconditionally after in-place transforms,1,1,8,12,8,12,1,0,0,1,0,0,0,1,0,0,0,109,1,4,4,0,0,0,0,0
+libpng,ac07fb0819,2026-04-15,4f6ab480,Bump version to 1.6.58.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,faf0692468,2026-04-13,4f6ab480,fix: Consume chunk body in APNG push-mode discard paths,1,1,12,9,12,9,1,0,0,1,0,0,1,0,0,0,0,170,1,10,10,0,0,0,0,0
+libpng,95ab3fdca8,2026-04-08,4f6ab480,Release libpng version 1.6.57,17,4,65,84,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,c0ba09ecb4,2026-04-06,a7424f46,fix: Prevent integer overflow in rowbytes computation,3,2,18,17,17,17,1,0,0,6,0,0,0,0,0,0,0,158,4,15,17,1,0,0,0,0
+libpng,2c974860c7,2026-04-06,a7424f46,fix: Prevent integer overflow in rowbytes computation,2,1,15,14,14,14,1,0,0,5,0,0,0,0,0,0,0,158,3,12,14,1,0,0,0,0
+libpng,55d20aaa32,2026-03-30,4f6ab480,fix: Handle getter-to-setter aliasing in append-style chunk setters,2,1,347,8,22,3,0,0,0,3,0,0,3,0,0,0,0,137,3,10,10,0,0,0,0,0
+libpng,398cbe3df0,2026-03-30,4f6ab480,fix: Handle self-referencing pointers in getter-to-setter aliasing,5,1,380,3,28,1,1,0,0,3,0,0,2,0,0,0,0,58,2,9,13,0,0,0,0,0
+libpng,2182a677dd,2026-03-27,4f6ab480,Bump version to 1.6.57.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,d5515b5b8b,2026-03-25,4f6ab480,Release libpng version 1.6.56,17,4,107,61,13,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,2f79003f2d,2026-03-25,26699328,fix: Use the correct parameter name in `png_file_add_chunk`,1,1,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,9929ba276e,2026-03-23,4f6ab480,refactor: Avoid undefined behavior (signed int overflow) in negations,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,140,2,2,2,1,0,0,0,1
+libpng,1632f041e4,2026-03-23,4f6ab480,refactor(arm): Replace bit shifts and sizeof with plain expressions,1,1,16,16,16,16,0,0,0,3,0,0,0,0,0,0,0,31,0,0,12,0,0,0,0,1
+libpng,aba9f18eba,2026-03-21,4f6ab480,fix(arm): Resolve out-of-bounds read/write in NEON palette expansion,1,1,13,16,13,16,1,0,0,2,0,0,0,0,0,0,0,31,0,0,2,1,0,0,0,0
+libpng,c1b0318b39,2026-03-20,4f6ab480,fix: Sync `info_ptr->palette` after in-place transforms,1,1,15,0,15,0,1,0,0,1,0,0,1,0,0,0,0,112,1,9,9,0,0,0,0,0
+libpng,7ea9eea884,2026-03-20,4f6ab480,fix: Resolve use-after-free on `png_ptr->palette`,5,5,35,29,35,29,1,0,1,4,0,0,2,0,0,0,0,287,2,12,16,1,0,0,0,0
+libpng,a3a21443ed,2026-03-18,a56ec76e,fix: Initialize tail bytes in `trans_alpha` buffers,1,1,6,1,6,1,1,0,0,1,0,0,1,0,0,0,0,54,1,2,2,0,0,0,0,0
+libpng,2301926976,2026-03-18,a56ec76e,fix: Resolve use-after-free on `png_ptr->trans_alpha`,4,4,30,22,30,22,1,0,1,3,0,0,1,0,0,0,0,52,1,9,15,1,0,0,0,0
+libpng,838b2e89ad,2026-03-06,4f6ab480,build: Deprecate the POINTER_INDEXING config option,2,1,5,48,1,46,0,0,0,2,0,2,0,0,0,0,0,42,2,0,0,0,0,0,0,0
+libpng,28cb99fe65,2026-03-06,4f6ab480,build: Remove the POINTER_INDEXING config option,3,1,1,52,1,46,0,0,0,2,0,2,0,0,0,0,0,42,2,0,0,0,0,0,1,0
+libpng,7d52a80879,2026-03-02,28c4d1b6,Validate shift bit depths in `png_set_shift` to prevent infinite loop,1,1,29,0,29,0,0,0,0,1,1,0,0,0,0,0,0,32,1,24,24,0,0,0,0,0
+libpng,203c843cd7,2026-03-02,28c4d1b6,Validate shift bit depths in `png_set_shift` to prevent infinite loop,1,1,29,0,29,0,0,0,0,1,1,0,0,0,0,0,0,32,1,24,24,0,0,0,0,0
+libpng,b137d2180b,2026-02-27,28c4d1b6,Add missing NULL pointer checks in four public API functions,3,3,9,5,9,5,0,0,0,4,0,0,1,0,0,0,0,284,1,2,6,0,0,0,0,0
+libpng,747dd02240,2026-02-27,28c4d1b6,Add missing NULL pointer checks in four public API functions,3,3,9,5,9,5,0,0,0,4,0,0,1,0,0,0,0,284,1,2,6,0,0,0,0,0
+libpng,0e731d189a,2026-02-27,28c4d1b6,Fix two copy-paste typos in colormap read and sPLT write,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,454,2,2,2,0,0,0,0,0
+libpng,48800443eb,2026-02-27,28c4d1b6,Fix two copy-paste typos in colormap read and sPLT write,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,454,2,2,2,0,0,0,0,0
+libpng,646d55abaa,2026-02-27,28c4d1b6,Fix wrong channel indices in `png_image_read_and_map` RGB_ALPHA path,2,1,5,4,4,4,1,0,0,1,0,0,0,0,0,0,0,125,1,4,4,0,0,0,0,0
+libpng,961721b109,2026-02-27,28c4d1b6,Fix wrong channel indices in `png_image_read_and_map` RGB_ALPHA path,2,1,5,4,4,4,1,0,0,1,0,0,0,0,0,0,0,125,1,4,4,0,0,0,0,0
+libpng,8d245089d1,2026-02-13,5f86d9b8,Fix typographical errors,17,10,43,43,25,25,1,0,0,1,0,0,0,0,0,0,0,62,1,1,2,0,0,0,0,0
+libpng,0094fdbf37,2026-02-13,5f86d9b8,Fix typographical errors,21,14,50,50,32,32,1,0,0,1,0,0,0,0,0,0,0,62,1,1,2,0,0,0,0,0
+libpng,d54127e3db,2026-02-11,4f6ab480,refactor: Clean up pointer variable declarations,5,4,31,24,29,23,0,0,0,7,0,0,3,0,0,0,0,614,6,26,29,0,0,0,0,1
+libpng,e0dbfd4b56,2026-02-11,4f6ab480,refactor: Clean up the redundant top-level const qualifiers,3,1,17,24,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,1
+libpng,61b3a6fc08,2026-02-11,4f6ab480,Bump version to 1.6.56.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,c3e304954a,2026-02-09,4f6ab480,Release libpng version 1.6.55,17,4,57,62,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,01d03b8453,2026-02-06,4f6ab480,Fix a heap buffer overflow in `png_set_quantize`,2,1,4,3,3,3,1,0,0,1,0,0,0,0,0,0,0,282,1,2,2,1,0,0,0,0
+libpng,b884e8c618,2026-02-06,4f6ab480,Bump version to 1.6.55.git,13,4,43,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,02f2b4f469,2026-01-12,4f6ab480,Release libpng 1.6.54,17,4,63,62,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,e086e68fa3,2026-01-10,4f6ab480,refactor: Improve naming clarity in `png_image_write*` and `png_write_*`,2,2,17,15,17,15,0,0,0,3,0,0,0,0,0,0,0,140,3,10,11,0,0,0,0,1
+libpng,cf155de014,2026-01-10,4f6ab480,fix: Remove incorrect truncation casts from `png_write_image_*`,4,1,49,7,5,5,1,0,0,3,0,0,0,0,0,0,0,140,3,4,4,0,0,0,1,0
+libpng,ef14664904,2026-01-09,4f6ab480,refactor: Improve naming clarity in the `png_image_read_*` functions,1,1,42,36,42,36,0,0,0,6,0,0,0,0,0,0,0,261,5,22,27,0,0,0,0,1
+libpng,e4f7ad4ea2,2026-01-09,4f6ab480,Fix a heap buffer over-read in `png_image_read_direct_scaled`,2,1,4,1,3,1,1,0,0,1,0,0,0,0,0,0,0,36,0,0,3,0,0,0,0,0
+libpng,9e4e247afb,2026-01-07,4f6ab480,Update the copyright year,6,3,10,10,6,6,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,54c127584f,2025-12-08,4f6ab480,chore: Tidy up whitespace in declarations and definitions,26,20,1512,1082,1389,987,0,0,0,76,0,0,1,3,0,0,0,261,19,43,1388,0,0,0,0,0
+libpng,0e894374dd,2025-12-08,4f6ab480,fix: Use `png_voidp` instead of `voidp` in pngread.c and pngwrite.c,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,72,2,2,2,0,0,0,0,0
+libpng,e8d40e1280,2025-12-08,4f6ab480,Bump version to 1.6.54.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,4e3f57d50f,2025-12-05,4f6ab480,Release libpng version 1.6.53,17,4,55,63,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,91bcccda7b,2025-12-05,4f6ab480,riscv: Delete unused helper functions and macros,1,1,0,41,0,41,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0
+libpng,57f0a71c61,2025-12-05,4f6ab480,Update the list of contributing authors,2,1,6,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,b1e36caccb,2025-12-05,a50629a6,riscv: Fix the RVV build,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+libpng,d1ec152662,2025-12-05,4f6ab480,Refer to CVE-2025-66293 in a comment about a vulnerability fix,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+libpng,d7447f087b,2025-12-05,4f6ab480,Bump version to 1.6.53.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,fbed16182b,2025-12-03,4f6ab480,Release libpng version 1.6.52,17,4,66,83,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,5b159aed75,2025-12-03,4f6ab480,riscv: Reformat the contributor list and update the AUTHORS file,2,1,4,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,d27beddf9f,2025-12-03,c329ffd5,riscv: Fix undefined behavior in `png_read_filter_row_paeth_rvv`,1,1,18,37,18,37,1,0,0,1,0,0,0,0,0,0,0,36,0,0,15,0,0,0,0,0
+libpng,87ed1cd2b8,2025-12-03,c329ffd5,riscv: Improve averaging performance in `png_read_filter_row_avg_rvv`,1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,23,0,0,1,0,0,0,0,0
+libpng,a05a48b756,2025-12-01,4f6ab480,Finalize the fix for out-of-bounds read in `png_image_read_composite`,2,2,40,19,40,19,1,0,0,2,0,0,2,0,0,0,0,352,2,17,17,1,0,0,0,0
+libpng,788a624d73,2025-11-29,4f6ab480,Fix an out-of-bounds read in `png_image_read_composite`,1,1,7,2,7,2,1,0,0,1,0,0,1,0,0,0,0,82,1,2,2,1,0,0,0,0
+libpng,cf53e54ccf,2025-11-28,4f6ab480,Bump version to 1.6.52.git,13,4,45,35,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,8b5f2153fb,2025-11-24,4f6ab480,chore: Sync with branch 'develop',1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,a199c21e9c,2025-11-24,4f6ab480,refactor: Clean up remaining uses of deprecated pointer typedefs,4,1,3,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+libpng,49363adcfa,2025-11-21,4f6ab480,Release libpng version 1.6.51,17,4,95,64,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,3a3d485a75,2025-11-21,4f6ab480,riscv: Fix `-Wundef` compiler warnings and relax RVV version checks,1,1,2,4,2,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+libpng,9ecda6eaf5,2025-11-20,34872df5,Fix hIST chunk position to match W3C specification,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,218612ddd6,2025-11-19,4f6ab480,Rearchitect the fix to the buffer overflow in `png_image_finish_read`,1,1,75,14,75,14,1,0,0,2,0,0,1,1,1,0,0,261,2,15,50,1,0,0,0,0
+libpng,16b5e38239,2025-11-17,4f6ab480,Fix a buffer overflow in `png_image_finish_read`,1,1,14,0,14,0,1,0,0,1,0,0,1,0,0,0,0,79,1,12,12,1,0,0,0,0
+libpng,08da33b4c8,2025-11-12,4f6ab480,Fix a buffer overflow in `png_init_read_transformations`,1,1,45,13,45,13,1,0,0,1,0,0,1,0,0,0,0,351,1,32,32,1,0,0,0,0
+libpng,83b23a888b,2025-11-10,4f6ab480,refactor: Delete unreachable code from `png_do_read_transformations`,1,1,0,5,0,5,0,0,0,1,0,0,0,1,0,0,0,132,1,0,0,0,0,0,0,1
+libpng,6a528eb5fd,2025-11-10,4f6ab480,Fix a buffer overflow in `png_do_quantize`,1,1,6,2,6,2,1,0,0,1,0,0,0,0,0,0,0,282,1,2,2,1,0,0,0,0
+libpng,ea094764f3,2025-11-10,4f6ab480,Fix a memory leak in function `png_set_quantize`; refactor,2,2,23,21,23,21,1,0,0,1,0,0,0,0,0,0,0,282,1,17,17,0,0,0,0,1
+libpng,2bd84c019c,2025-11-09,4f6ab480,Fix a heap buffer overflow in `png_write_image_8bit`,1,1,1,2,1,2,1,0,0,1,0,0,0,1,0,0,0,140,1,1,1,1,0,0,0,0
+libpng,1ebf432e85,2025-11-07,4f6ab480,refactor: Clean up pointer variable declarations,5,4,31,24,29,23,0,0,0,7,0,0,3,0,0,0,0,704,6,26,29,0,0,0,0,1
+libpng,b15add048b,2025-11-03,de96e46d,Make PNG_INFLATE just resolve to png_zlib_inflate,3,3,4,5,4,5,0,0,0,4,0,0,0,0,0,0,0,110,4,4,4,0,0,0,0,0
+libpng,c7ca4d432a,2025-11-03,de96e46d,Require zlib 1.2.8 -- shed maintenance,7,5,32,77,17,50,0,0,0,7,0,1,0,0,0,0,0,89,7,17,17,0,0,0,0,0
+libpng,e973362b8b,2025-11-03,4f6ab480,refactor: Clean up the redundant top-level const qualifiers,3,1,17,24,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,1
+libpng,67fb334d6a,2025-11-03,4f6ab480,refactor: Rename `struct png_control` to `struct png_control_def`,2,2,7,6,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1
+libpng,d9e9c6d3a0,2025-11-03,4f6ab480,refactor: Replace deprecated pointer typedefs (part 2),62,36,1906,1911,1202,1203,0,0,0,589,0,0,0,0,0,0,0,702,170,245,1199,0,0,0,0,1
+libpng,7c67f70da1,2025-10-29,4f6ab480,refactor: Replace deprecated pointer typedefs (part 1),54,32,1432,1451,1033,1034,0,0,0,284,0,0,2,0,0,0,0,702,105,437,1028,0,0,0,0,1
+libpng,caa0c733f3,2025-10-24,4f6ab480,chore: Tidy up whitespace in declarations and definitions,28,22,1436,1037,1313,942,0,0,0,82,0,0,1,1,0,0,0,246,21,43,1311,0,0,0,0,0
+libpng,ddce3ff853,2025-10-20,4f6ab480,api: Deprecate legacy pointer typedefs,4,4,117,109,117,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,0
+libpng,0ff384943d,2025-10-20,4f6ab480,fix: Use `png_voidp` instead of `voidp` in pngread.c and pngwrite.c,2,2,2,2,2,2,1,0,0,2,0,0,0,0,0,0,0,72,2,2,2,0,0,0,0,0
+libpng,fdc54a788b,2025-10-11,fa5135a3,Simplify png_sig_cmp,1,1,2,5,2,5,0,0,0,1,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,1
+libpng,2acf7daf64,2025-10-01,4f6ab480,doc: Move version numbering history from png.h to libpng-history.txt,2,1,61,85,0,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,b719408de0,2025-10-01,4f6ab480,refactor: Tidy up local definitions in pngerror.c,1,1,18,12,18,12,0,0,0,2,0,0,0,1,0,0,0,47,1,0,13,0,0,0,0,1
+libpng,2a7661b4f7,2025-10-01,fa5135a3,Simplify png_formatted_warning,1,1,4,11,4,11,0,0,0,1,0,0,0,1,0,0,0,26,1,3,3,0,0,0,0,1
+libpng,b993734eda,2025-10-01,fa5135a3,Help compilers optimize pngerror.o size,1,1,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,dfa9f92ae8,2025-10-01,fa5135a3,Clarify pngerror documentation,1,1,5,6,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,2492b77b86,2025-10-01,fa5135a3,Fix typos in pngerror documentation,2,2,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,981e4cd464,2025-09-30,fa5135a3,Remove unused variable in png_format_number,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,1,0
+libpng,8c6b6170ab,2025-09-30,fa5135a3,Turn while into for loop in png_format_buffer,1,1,2,3,2,3,0,0,0,1,0,0,0,0,0,0,0,32,0,0,2,0,0,0,0,0
+libpng,05610eb96f,2025-09-29,fa5135a3,refactor: Drop PNG_STRING_NEWLINE,3,3,21,29,21,29,0,0,0,4,0,0,0,0,0,0,0,11,0,0,21,0,0,0,0,1
+libpng,0634fe4398,2025-09-29,fa5135a3,refactor: Remove unneeded curly bracket block,1,1,3,5,3,5,0,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,1,1
+libpng,bd41aa64d3,2025-09-29,fa5135a3,api! Remove the experimental (and incomplete) ERROR_NUMBERS code,4,4,8,139,8,139,0,0,0,6,0,1,0,0,0,0,0,33,1,0,7,0,0,0,1,0
+libpng,d5b549e073,2025-09-29,4f6ab480,refactor: Delete the vestigial `PNG_LITERAL_*` abstractions,2,2,6,13,6,13,0,0,0,1,0,0,0,0,0,0,0,33,0,0,5,0,0,0,1,1
+libpng,465f654c68,2025-09-29,4f6ab480,api! Remove the experimental (and incomplete) ERROR_NUMBERS feature,10,5,3,156,3,149,0,0,0,5,0,1,0,0,0,1,0,33,1,0,2,0,0,0,1,0
+libpng,f19c3259cb,2025-07-16,5eef7c28,riscv: Leverage `__riscv_v` in pngpriv.h,1,1,2,7,2,7,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+libpng,8e27807406,2025-07-16,5eef7c28,riscv: Support only RVV 1.0,3,1,7,146,7,25,0,0,0,1,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+libpng,b0ce4ca7f6,2025-07-16,4f6ab480,Harden a vestigial check against overflow inside `png_zalloc`,1,1,9,3,9,3,1,0,0,1,0,0,0,0,0,0,0,15,0,0,3,1,0,0,0,0
+libpng,816b008d8f,2025-07-15,5eef7c28,riscv: Leverage `__riscv_v` in pngpriv.h,2,2,7,10,7,10,0,0,0,1,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,0
+libpng,7916eb7ba0,2025-07-15,5eef7c28,riscv: Support only RVV 1.0,5,1,7,154,7,25,0,0,0,1,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+libpng,0c21e5352c,2025-07-14,4f6ab480,Advance libpng version 1.8.0 to beta stage,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,22d83be3fe,2025-07-14,0004718a,fix(apng): Correct `info_rowbytes` in `png_read_reinit`,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+libpng,a27e36f7d8,2025-07-14,4f6ab480,fix(apng): Avoid an internal row size calculation error,2,1,4,2,3,2,1,0,0,1,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+libpng,c994edf059,2025-07-14,0004718a,api(apng): Handle APNG and Apple chunks correctly,2,1,82,1,3,0,0,0,0,1,0,0,1,0,0,0,0,115,1,3,3,0,0,0,0,0
+libpng,c288a8d3e0,2025-07-14,0004718a,test(apng): Correct the APNG checks in pngtest.c,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,702,1,3,3,0,0,0,0,0
+libpng,2bd653cad0,2025-07-14,4f6ab480,refactor(apng): Tidy up the APNG-supporting code,10,10,177,178,177,178,0,2,0,30,0,0,3,5,0,0,0,702,12,69,134,0,0,0,0,1
+libpng,a92c7d779f,2025-07-14,4f6ab480,"Introduce APNG support -- patch applied, animations unlocked!",16,12,1387,3,1357,3,0,0,0,12,7,0,12,0,34,0,0,701,12,352,1114,0,0,0,0,0
+libpng,7cecdcae07,2025-07-03,4f6ab480,Harden a vestigial check against overflow inside `png_zalloc`,1,1,9,3,9,3,1,0,0,1,0,0,0,0,0,0,0,15,0,0,3,1,0,0,0,0
+libpng,cf59edd364,2025-07-02,4f6ab480,Bump version to 1.6.51.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,2b978915d8,2025-07-01,4f6ab480,Release libpng version 1.6.50,16,4,62,56,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,2e5f296bfa,2025-06-30,0004718a,fix: Prevent unknown chunks from causing out-of-place IEND errors,3,3,14,13,14,13,1,0,3,5,0,1,2,2,0,0,0,93,5,7,7,0,0,0,0,0
+libpng,4266c75f40,2025-06-28,5eef7c28,riscv: Remove unused argument,2,1,3,3,2,2,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,1,0
+libpng,f451a4de09,2025-06-28,5eef7c28,riscv: Simplify the runtime check to always be present,3,1,12,81,5,63,0,0,0,1,0,1,0,0,0,0,0,22,1,5,5,0,0,0,0,1
+libpng,3391bb98e3,2025-06-28,5eef7c28,riscv: Use C intrinsics,1,1,99,117,99,117,0,0,0,7,0,0,0,0,0,0,0,45,0,0,56,0,0,0,0,0
+libpng,21895b05ab,2025-06-18,5eef7c28,riscv: Clearly separate the build flow for autotools and cmake,2,1,2,5,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,7084241c75,2025-06-14,4f6ab480,Bump version to 1.6.50.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,640204280f,2025-06-12,4f6ab480,Release libpng version 1.6.49,16,4,54,62,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,cff8620272,2025-05-27,4f6ab480,chore: Add riscv/.editorconfig and pacify editorconfig-checker,3,2,54,23,46,23,0,0,0,5,0,0,0,0,0,0,0,41,0,0,21,0,0,0,0,0
+libpng,0e37c0b477,2025-05-14,5eef7c28,riscv: Fix more comments,3,1,8,13,4,9,1,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+libpng,7108843467,2025-05-14,5eef7c28,riscv: Fix the run-time checking of the RVV availability,4,2,17,13,12,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+libpng,2b0eb78656,2025-05-14,5eef7c28,riscv: Fix autotools definitions and comments,6,3,83,25,17,23,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+libpng,ffb8e8b26f,2025-05-01,5eef7c28,Fix and improve the RISC-V Vector (RVV) implementation,26,8,575,615,451,489,1,0,0,3,1,1,0,2,14,19,0,140,2,0,242,0,0,0,0,0
+libpng,cc5ee6b213,2025-05-01,b09d28a5,Add optimized RISC-V Vector functions,17,7,886,11,595,2,0,0,0,3,1,0,2,0,19,0,0,147,2,19,402,0,0,0,0,0
+libpng,b4800bae33,2025-05-01,4f6ab480,Bump version to 1.6.49.git,16,4,49,39,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,ea12796820,2025-04-30,4f6ab480,Release libpng version 1.6.48,16,4,60,62,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,69a3e5bfd1,2025-04-25,4f6ab480,chore: Clean up the error directives,8,7,27,29,25,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,1
+libpng,c90491724e,2025-04-25,4f6ab480,Discourage the inclusion of private headers outside libpng,4,4,37,50,37,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,1,1,0
+libpng,98448e372d,2025-04-22,0004718a,Remove unused function from write-only configurations,3,1,27,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+libpng,f2b0f5fe1c,2025-04-22,0004718a,fix(mDCv): Correct the floating-point setter `png_set_mDCv`,1,1,8,11,8,11,1,0,0,1,0,0,0,0,0,0,0,17,1,8,8,0,0,0,0,0
+libpng,7101a5569f,2025-04-22,c4e97f9f,Correct mistake in example.c,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,e046c0dc3b,2025-04-22,4f6ab480,"Revert ""Recover from errors in ancillary chunks""",1,1,2,6,2,6,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+libpng,34005e3d3d,2025-03-04,af6a2323,Recover from errors in ancillary chunks,1,1,6,2,6,2,0,0,0,1,0,0,0,0,0,0,0,23,0,0,6,0,0,0,0,0
+libpng,44f97f08d7,2025-02-26,4f6ab480,[libpng18] chore: Clean up the `FILE *` formulations in code and in documentation,9,5,23,22,11,11,0,0,0,2,0,0,0,0,0,0,0,32,0,0,3,0,0,0,0,1
+libpng,044536de92,2025-02-26,4f6ab480,[libpng18] chore: Clean up remnants of the long-discontinued Win16 support,6,6,25,36,25,36,0,0,0,7,0,0,0,0,0,0,0,612,1,2,17,0,0,0,0,1
+libpng,b35a98b873,2025-02-26,0004718a,Fix two build regressions,2,1,4,4,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,fbe0914f6e,2025-02-26,4f6ab480,Remove the vestigial support for custom API calling conventions,27,18,366,487,321,424,0,0,0,18,0,0,0,0,5,5,0,43,1,1,300,0,0,0,1,0
+libpng,c63c546390,2025-02-26,4f6ab480,chore: Clean up the `FILE *` formulations in code and in documentation,9,5,23,22,11,11,0,0,0,2,0,0,0,0,0,0,0,32,0,0,3,0,0,0,0,1
+libpng,e936211760,2025-02-26,4f6ab480,chore: Clean up remnants of the long-discontinued Win16 support,6,6,25,36,25,36,0,0,0,7,0,0,0,0,0,0,0,612,1,2,17,0,0,0,0,1
+libpng,f20e66aa93,2025-02-19,4f6ab480,chore: Apply some of the missed updates to the copyright year,15,10,15,15,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,5d09501462,2025-02-19,4f6ab480,Bump version to 1.6.48.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,872555f4ba,2025-02-18,4f6ab480,Release libpng version 1.6.47,17,4,66,62,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,b20e6fb314,2025-02-17,0004718a,pngimage: clean up on user/internal errors,2,1,34,11,20,6,0,0,0,1,0,0,0,0,0,0,0,18,0,0,7,0,0,0,0,1
+libpng,f6aa44850c,2025-02-02,4f6ab480,build: Move the pnglibconf files and scripts to scripts/pnglibconf/,36,3,305,254,8,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,c4780f33a1,2025-02-01,4f6ab480,api(Windows): Remove the ordinals attached to exported functions,9,3,565,676,272,292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,268,0,0,0,1,0
+libpng,812c34c13c,2025-01-31,0004718a,test: add limit configuration tests,5,3,46,16,6,16,0,0,0,3,0,0,1,0,0,0,0,247,2,3,6,0,0,0,0,0
+libpng,68e090e700,2025-01-30,0004718a,fix: `png_write_iCCP` check on profile length,3,3,9,9,9,9,1,0,0,2,0,0,0,0,0,0,0,59,1,1,6,0,0,0,0,0
+libpng,8c7ed2e3b2,2025-01-30,4f6ab480,fix: Typo in a preprocessor directive,1,1,3,8,3,8,0,0,0,1,0,0,0,0,0,0,0,43,1,2,2,0,0,0,0,0
+libpng,2519a03418,2025-01-30,0004718a,refactor: Clean up the checking of chunk lengths and allocation limits,6,6,221,235,221,235,0,4,6,19,0,2,3,4,0,2,0,141,13,47,121,0,0,0,0,1
+libpng,c4b20d0a3a,2025-01-27,0004718a,test: add configuration tests and fix bugs,3,1,53,0,24,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,18,0,0,0,0,0
+libpng,a8242dd947,2025-01-27,0004718a,PNGv3 colourspace precedence rules conformance,12,11,1737,2863,1731,2858,0,21,3,68,2,7,7,25,12,19,0,454,38,394,1068,0,0,0,0,0
+libpng,171bdd3a6c,2025-01-27,4f6ab480,Bump version to 1.6.47.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,0024abd279,2025-01-23,4f6ab480,Release libpng version 1.6.46,17,4,61,62,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,4d7c99334e,2025-01-21,0004718a,fix: Restore the build for strictly-conforming standard compilers,2,2,56,53,56,53,1,0,0,1,0,0,1,0,0,0,0,68,1,32,40,0,0,0,0,0
+libpng,f753baae52,2025-01-08,0004718a,api(PNGv3): Update the generated files and `PNG_EXPORT_LAST_ORDINAL`,3,1,15,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,92e8581f12,2025-01-08,0004718a,api(PNGv3): Add support for mDCV and cLLI,15,12,716,5,690,5,0,0,0,7,5,0,6,0,14,0,0,612,7,94,520,0,0,0,0,0
+libpng,8ffc967e8a,2025-01-08,4f6ab480,Bump version to 1.6.46.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,51f5bd68b9,2025-01-07,4f6ab480,Release libpng version 1.6.45,17,4,74,79,13,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,0cc367aaea,2025-01-03,0004718a,[libpng16] fix: Write order of colourspace chunks should conform to PNG v3,3,1,58,37,58,37,1,0,0,2,0,0,1,1,0,0,0,94,2,26,26,0,0,0,0,0
+libpng,945f2602a0,2025-01-03,0004718a,fix: Write order of colourspace chunks should conform to PNG v3,3,1,58,37,58,37,1,0,0,2,0,0,1,1,0,0,0,94,2,26,26,0,0,0,0,0
+libpng,3042f74de0,2025-01-03,4f6ab480,[libpng16] fix: Update the cICP implementation yet more,3,3,25,18,25,18,1,0,0,3,0,0,2,0,0,0,0,577,3,19,19,0,0,0,0,0
+libpng,27c2ac722f,2025-01-03,4f6ab480,fix: Update the cICP implementation yet more,3,3,25,18,25,18,1,0,0,3,0,0,2,0,0,0,0,577,3,19,19,0,0,0,0,0
+libpng,823c2d80dc,2025-01-02,4f6ab480,[libpng16] fix: Update the cICP support for better compliance with PNG-3,8,7,79,67,78,66,1,0,0,7,0,0,2,1,0,0,0,577,5,39,74,0,0,0,0,0
+libpng,75748d93ce,2025-01-02,af6a2323,[libpng16] Add support for reading and writing the cICP chunk,17,11,185,1,174,1,0,0,0,4,2,0,4,0,4,0,0,577,4,36,142,0,0,0,0,0
+libpng,4a5345acd0,2025-01-02,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,6f786ff0f6,2025-01-02,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,1f2cd30f72,2024-12-31,4f6ab480,fix: Update the cICP support for better compliance with PNG-3,8,7,79,67,78,66,1,0,0,7,0,0,2,1,0,0,0,577,5,39,74,0,0,0,0,0
+libpng,d9d70e6506,2024-10-17,4f6ab480,[libpng16] refactor: Deduplicate the interlace arrays `png_pass_*`,3,3,48,93,48,93,0,3,0,7,0,0,0,6,0,0,0,196,6,0,18,0,0,0,0,1
+libpng,620a2b73b2,2024-10-17,4f6ab480,refactor: Deduplicate the interlace arrays `png_pass_*`,3,3,48,93,48,93,0,3,0,7,0,0,0,6,0,0,0,196,6,0,18,0,0,0,0,1
+libpng,65470ac86c,2024-10-13,0004718a,fix: Avoid integer overflows in function `png_xy_from_XYZ`,1,1,24,16,24,16,1,0,0,1,0,0,1,0,0,0,0,45,1,19,19,1,0,0,0,0
+libpng,f45531cc14,2024-10-13,0004718a,fix: Avoid integer overflows in function `png_xy_from_XYZ`,1,1,24,16,24,16,1,0,0,1,0,0,1,0,0,0,0,45,1,19,19,1,0,0,0,0
+libpng,d7d950e8bd,2024-10-11,0004718a,[libpng16] chore: Clean up the leading blank lines from all source files,57,31,0,57,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+libpng,37cc20add8,2024-10-11,0004718a,chore: Clean up the leading blank lines from all source files,52,27,0,52,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+libpng,f14d5fcd1e,2024-10-10,0004718a,[libpng16] fix: Correct the function `png_fp_sub` in png.c,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+libpng,79fd6d1edc,2024-10-10,0004718a,fix: Correct the function `png_fp_sub` in png.c,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+libpng,ed689982c2,2024-10-10,0004718a,Update the support for target-specific code,31,24,857,1241,798,984,0,3,0,31,2,3,0,6,9,3,0,170,16,26,381,0,0,0,0,0
+libpng,82f43f71b1,2024-10-08,0004718a,configure: Remove architecture-specific checks for hardware optimization,4,1,17,384,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,ec53479e8d,2024-10-01,0004718a,fix: Adjust colorspace calculations for ACES AP0,1,1,120,36,120,36,1,0,0,2,0,0,1,0,2,0,0,64,1,26,70,0,0,0,0,0
+libpng,65925ad4b2,2024-09-30,af6a2323,Add support for reading and writing the cICP chunk,17,11,185,1,174,1,0,0,0,4,2,0,4,0,4,0,0,577,4,36,142,0,0,0,0,0
+libpng,d3cf9b6e22,2024-09-27,0004718a,[libpng16] arm: Use `png_aligncastconst` for an upcast in Neon intrinsics,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+libpng,a604b12c11,2024-09-27,0004718a,arm: Use `png_aligncastconst` for an upcast in Neon intrinsics,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+libpng,d288a1dd36,2024-09-27,0004718a,fix: Adjust colorspace calculations for ACES AP0,1,1,120,36,120,36,1,0,0,2,0,0,1,0,2,0,0,64,1,26,70,0,0,0,0,0
+libpng,d596351010,2024-09-25,4f6ab480,"api! Remove the stub functions `png_set_filter_heuristics`, etc.",8,4,18,67,18,58,0,0,0,1,0,0,0,0,0,2,0,565,1,6,13,0,0,0,1,0
+libpng,12877b1f39,2024-09-25,4f6ab480,api!: Remove the stub functions `png_get_eXIf` and `png_set_eXIf`,5,3,4,29,4,23,0,0,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0,0,1,0
+libpng,9ed344abdd,2024-09-25,4f6ab480,api!: Remove the deprecated function `png_convert_to_rfc1123`,7,3,16,55,5,36,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,1,0
+libpng,c490e7a477,2024-09-25,4f6ab480,api!: Remove the deprecated macro `png_check_sig`,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,0a27b48e94,2024-09-25,0004718a,[libpng16] mips: Eliminate use of non-ISO-C90 features,1,1,22,22,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0
+libpng,bd39ebbcfd,2024-09-25,0004718a,mips: Eliminate use of non-ISO-C90 features,1,1,22,22,22,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0
+libpng,96bc902169,2024-09-14,4f6ab480,Create the branch 'libpng18' for libpng version 1.8.0 alpha,47,5,153,208,18,18,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,ef153d5325,2024-09-14,4f6ab480,Bump version to 1.6.45.git,13,4,44,34,11,11,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,f5e92d7697,2024-09-12,4f6ab480,Release libpng version 1.6.44,17,4,86,81,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,5a7e87fc04,2024-09-12,0004718a,fix: Prevent overflow in chromaticity calculations,1,1,46,25,46,25,1,0,0,2,1,0,0,1,1,0,0,41,2,19,30,1,0,0,0,0
+libpng,1964d560e9,2024-09-10,4f6ab480,Deprecate PNGARG and remove all of its remaining uses,4,4,12,11,12,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,1,0
+libpng,40878fd6dc,2024-09-08,0c8d3125,fix: Restore STDERR in pngtest.c,1,1,5,5,5,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,20f819c29e,2024-09-07,0004718a,fix: Remove cHRM check to accomodate ACES AP1,1,1,6,20,6,20,1,0,0,1,0,0,0,1,0,0,0,50,1,6,6,0,0,0,1,0
+libpng,9e538750d9,2024-06-15,232371bc,arm: Remove obsolete assembler implementation filter_neon.S,6,1,11,358,0,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,f1848a3b56,2024-02-24,4f6ab480,Bump version to 1.6.44.git,13,4,50,40,15,15,0,0,0,1,0,0,0,0,0,0,0,13,0,0,13,0,0,0,0,0
+libpng,ed217e3e60,2024-02-23,4f6ab480,Release libpng version 1.6.43,18,5,104,96,16,16,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,80691b9da2,2024-02-23,4f6ab480,test: Fix a compiler warning in pngtest.c,1,1,4,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,0fa3c0f698,2024-02-15,4f6ab480,chore: Clean up the spurious uses of `sizeof(png_byte)`; fix the manual,4,1,12,16,7,10,1,0,0,1,0,0,0,1,0,0,0,282,1,7,7,0,0,0,0,1
+libpng,4191872d0d,2024-02-15,4f6ab480,chore: Update the .editorconfig files and pacify editorconfig-checker,15,1,166,108,7,7,0,0,0,1,0,0,0,0,0,0,0,31,0,0,7,0,0,0,0,0
+libpng,920db2ecc0,2024-02-05,4f6ab480,api: Introduce the `PNG_LIBPNG_VER_SHAREDLIB` macro; update pngwin.rc,3,2,11,12,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+libpng,cc8006c48d,2024-02-05,4f6ab480,test: Add consistency checks for the `PNG_LIBPNG_VER*` numbers,1,1,22,11,22,11,0,0,0,1,0,0,0,1,0,0,0,247,1,4,15,0,0,0,0,0
+libpng,aa9023bbd0,2024-02-05,4f6ab480,test: Remove compile-time option `SINGLE_ROWBUF_ALLOC` from pngtest.c,1,1,9,31,9,31,0,0,0,1,0,0,0,1,0,0,0,565,1,0,8,0,0,0,1,0
+libpng,9138be341b,2024-02-02,4f6ab480,"Improve, refactor and clean up pngtest.c",1,1,153,207,153,207,0,0,0,15,0,0,1,1,2,3,0,572,4,50,134,0,0,0,0,1
+libpng,ce1f1f001e,2024-02-02,0004718a,API usage: add 'basic' configuration,5,1,193,22,12,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0
+libpng,805ed7a2d4,2024-02-02,0004718a,Correct row width check in png_check_IHDR,1,1,10,13,10,13,0,0,0,1,0,0,0,0,0,1,0,106,1,2,2,0,0,0,0,0
+libpng,7f1f960d4f,2024-02-01,c4e97f9f,Add eXIf support to push mode,2,1,9,0,8,0,0,0,0,1,0,0,1,0,0,0,0,172,1,7,7,0,0,0,0,0
+libpng,59a68c83f0,2024-01-31,0004718a,Fix contrib/conftest/pngcp.dfa,1,1,5,1,5,1,1,0,0,1,0,0,1,0,0,0,0,153,1,5,5,0,0,0,0,0
+libpng,f0c578748b,2024-01-31,4f6ab480,chore: Fix a comment in pngrtran.c,1,1,5,6,5,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,4356cb0709,2024-01-31,4f6ab480,Bump version to 1.6.43.git,13,4,48,37,14,14,0,0,0,1,0,0,0,0,0,0,0,13,0,0,11,0,0,0,0,0
+libpng,35d9f5ea52,2024-01-29,4f6ab480,Release libpng version 1.6.42,16,4,53,40,10,10,0,0,0,1,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,0
+libpng,31439b6b8d,2024-01-29,4f6ab480,chore: Fix whitespace in pngpriv.h,1,1,6,4,6,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+libpng,ac944e2b36,2024-01-29,4f6ab480,"Fix a regression introduced in ""chore: Clean up the return statements""",3,1,10,10,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+libpng,ba980b8f0c,2024-01-24,4f6ab480,Release libpng version 1.6.41,18,5,114,69,15,15,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,27e548af25,2024-01-23,4f6ab480,chore: Clean up the return statements and update example.c accordingly,11,11,159,159,159,159,0,0,0,69,0,0,0,0,0,0,0,598,11,38,149,0,0,0,0,1
+libpng,92b2128a75,2024-01-23,4f6ab480,"chore: Add, relocate or rephrase debug statements, for better clarity",8,8,89,58,89,58,0,0,0,39,0,0,6,0,0,0,0,598,14,19,48,0,0,0,0,0
+libpng,866fdf6f8f,2024-01-19,196c99ac,Fix an off-by-one error in `png_do_check_palette_indexes`,2,1,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,67,1,1,1,0,0,0,0,0
+libpng,269b753496,2024-01-18,0004718a,Do not build unused Adler32 code,4,2,36,4,6,4,0,0,0,1,0,0,0,0,0,0,0,49,1,1,5,0,0,0,0,0
+libpng,893b8113f0,2024-01-18,f1457bed,Fix unused platform check and configuration for macOS,2,1,4,12,2,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,70d10da35c,2024-01-18,8aced851,MIPS: Fixed undefined MSA interfaces,2,2,7,7,7,7,1,0,0,1,0,0,0,0,0,0,0,65,1,2,7,0,0,0,1,0
+libpng,064f992187,2024-01-18,8aced851,Loongson: Fixed compilation warnings for undefined macros.,1,1,10,0,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+libpng,46f1106a3f,2024-01-18,8aced851,Loongson-mips: Fixed typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,a7fe3414e5,2024-01-17,4f6ab480,mips: Wrap up the MIPS/Loongson port and acknowledge the contributors,9,3,338,44,11,10,0,0,0,1,0,0,0,0,0,0,0,75,1,4,4,0,0,0,0,0
+libpng,ce4b632dd7,2024-01-17,8aced851,Optimize png16 with loongson mmi for 64-bit os,9,4,937,15,657,7,0,0,0,0,5,1,0,0,8,1,0,0,0,0,540,0,0,0,0,0
+libpng,6b0d1bd75b,2024-01-17,fa6c2808,Add loongarch support and LSX SIMD optimizations,5,3,589,0,505,0,0,0,0,0,2,0,0,0,9,0,0,0,0,0,403,0,0,0,0,0
+libpng,2a4f0f5aee,2024-01-17,4f6ab480,De-volatilize the internal implementation of `png_safe_execute`,1,1,10,16,10,16,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,7dacc4d5aa,2024-01-17,4f6ab480,Rewrite various initializations for the benefit of various compilers,2,2,5,5,5,5,0,0,0,5,0,0,0,0,0,0,0,48,1,1,5,0,0,0,0,0
+libpng,f9348b77da,2024-01-16,0004718a,write palette check corrections,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,58,1,2,2,0,0,0,0,0
+libpng,2ea11e2235,2024-01-16,0004718a,Palette index checking fixes,9,1,2,2,2,2,1,0,0,2,0,0,1,0,0,0,0,151,2,2,2,0,0,0,0,0
+libpng,b60316f4ee,2024-01-15,0004718a,Remove GCC7.1 arithmetic overflow fixup,1,1,0,44,0,44,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+libpng,6b241f3786,2024-01-12,4f6ab480,Do not rely on `INT_MAX` in png.h,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,6abf8c1e91,2024-01-03,4f6ab480,Fix the API comment about `png_data_freer`,2,2,2,6,2,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,0dfe422e9f,2024-01-02,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,437b24a958,2023-12-20,4f6ab480,mips: Fix the build for generic ANSI C89 compilers,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,d7f77bf271,2023-06-26,4f6ab480,Bump version to 1.6.41.git,13,4,47,37,14,14,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,f135775ad4,2023-06-21,4f6ab480,Release libpng version 1.6.40,17,4,65,71,13,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,e6c5bf46c4,2023-06-21,4f6ab480,Ensure that only one eXIf chunk is written in the entire datastream,3,3,22,23,22,23,0,0,0,4,0,0,2,0,0,0,0,94,2,6,19,0,0,0,0,0
+libpng,8be5c147d5,2023-06-20,30191dc9,Don't report a valid tRNS chunk if it was canceled,2,1,13,1,12,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+libpng,f7abe3c419,2023-06-20,4f6ab480,Avoid a memory leak when allocation of a pCAL buffer fails,2,1,13,19,12,19,1,0,0,5,0,0,0,0,0,0,0,85,3,5,7,0,0,0,0,0
+libpng,9923515ff4,2023-01-09,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,3c152a8ef7,2022-11-27,85076abb,Fix typos,10,1,15,15,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,3c761b5135,2022-11-27,4f6ab480,Bump version to 1.6.40.git,13,4,45,35,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,07b8803110,2022-11-20,4f6ab480,Release libpng version 1.6.39,16,4,68,60,13,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,77c3a39299,2022-11-20,4f6ab480,Clean up comments and whitespace characters in source files,24,2,26,44,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+libpng,689e06516b,2022-11-20,4f6ab480,Clean up vestigial uses of png_size_tp,3,3,5,5,5,5,0,0,0,2,0,0,0,0,0,0,0,71,2,3,4,0,0,0,0,1
+libpng,33de006e12,2022-11-20,4f6ab480,Turn large PNG chunks into benign errors,2,1,3,2,1,1,0,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+libpng,9b5488054b,2022-11-16,1b03cbb2,Fix comments,2,1,5,5,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,b8ca9108ac,2022-10-12,4f6ab480,arm: Add a compile-time assertion about PNG_ARM_NEON_CHECK_SUPPORTED,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,6fc5119423,2022-09-17,4f6ab480,Bump version to 1.6.39.git,13,4,47,37,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,0a158f3506,2022-09-14,4f6ab480,Release libpng version 1.6.38,22,4,67,78,13,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,9,0,0,0,0,0
+libpng,2733482d8e,2022-09-14,4f6ab480,Fix a last-minute bug in the checking of the EXIF byte-order header,1,1,10,7,10,7,1,0,0,1,0,0,1,0,0,0,0,50,1,10,10,0,0,1,0,0
+libpng,3d57708c91,2022-09-14,4f6ab480,"Revert ""Remove second call to write_eXIf""",1,1,5,0,5,0,0,0,0,1,0,0,1,0,0,0,0,56,1,4,4,0,0,0,1,0
+libpng,62c027d4df,2022-09-14,4f6ab480,Fix handling incorrect hIST chunks of uneven size,1,1,3,2,3,2,1,0,0,1,1,0,0,0,0,0,0,39,1,3,3,0,0,0,0,0
+libpng,e9e9801a84,2022-09-14,4f6ab480,Simplify the definition of png_isaligned and avoid compiler warnings,2,2,18,20,18,20,0,0,0,1,0,0,0,0,0,0,0,170,1,2,13,0,0,0,0,1
+libpng,9cb84c4cb9,2022-09-14,4f6ab480,Delete vestigial declarations formerly used on 16-bit platforms,3,3,8,23,8,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+libpng,8c542ad9df,2022-09-14,4f6ab480,arm: Do not allow PNG_ARM_NEON_CHECK_SUPPORTED on ARM64,1,1,14,14,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+libpng,2abaf81e0f,2022-09-14,4f6ab480,arm: Avoid compiler warnings in palette_neon_intrinsics.c,1,1,5,3,5,3,0,0,0,2,0,0,0,0,0,0,0,34,0,0,5,0,0,0,0,0
+libpng,ad0245bb96,2022-09-14,8c366576,Avoid -Wundef for MIPS and PPC symbols too,1,1,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+libpng,1f974dd2a9,2022-09-14,8c366576,Avoid -Wundef warnings for PNG_ARM_NEON_IMPLEMENTATION,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+libpng,3ec225dd41,2022-09-13,ebdc0a17,Fix a memory leak in png_set_tRNS,2,1,5,1,4,1,1,0,0,1,0,0,1,0,0,0,0,44,1,2,2,0,0,0,0,0
+libpng,36bd1bbd54,2022-09-13,4f6ab480,Fix a crash in png_convert_from_time_t with an invalid time_t argument,1,1,11,1,11,1,1,1,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+libpng,0406deb1ca,2022-09-13,4f6ab480,Fix private macro png_constcast; delete private type png_ptruint,1,1,2,11,2,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+libpng,5f5f98a1a9,2022-09-13,f0219995,Fix an instance of -Wunused-but-set-variable.,1,1,0,3,0,3,1,0,0,1,0,0,0,1,0,0,0,189,1,0,0,0,0,0,0,0
+libpng,f10c6bb603,2022-09-13,02ac8c39,Add spaces around '/*' and '*/',1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,31,0,0,2,0,0,0,0,0
+libpng,f16427e58e,2022-09-13,22991ffa,Fix various typos,10,2,14,14,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,a1a81cc2ac,2022-09-13,1c35ba43,Fix arm neon config for win-arm64 with MSVC,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,723b2d9f2e,2022-08-26,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,b7ea74c97d,2021-03-15,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,a37d483651,2021-03-13,e4790dee,Eliminate spaces between function name and (,2,2,11,11,11,11,0,0,0,11,0,0,0,0,0,0,0,8,0,0,11,0,0,0,0,0
+libpng,3796518809,2021-03-13,e4790dee,Remove duplicate line,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,29,0,0,0,0,0,0,1,1
+libpng,cd03aaf7bf,2021-03-13,e4790dee,Remove second call to write_eXIf,1,1,0,5,0,5,0,0,0,1,0,0,0,1,0,0,0,54,1,0,0,0,0,0,1,0
+libpng,c4bd411c35,2021-03-13,373ba38e,Fix decode fail on image with invalid eXIf chunk,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,47,1,1,1,0,0,0,0,0
+libpng,6dd99ca9c8,2020-04-27,361c2ab4,Fix example.c,1,1,1,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0
+libpng,eb6767273a,2020-04-27,373c7d14,Fix memory leak if eXIf has incorrect crc,1,1,2,4,2,4,1,0,0,1,0,0,0,1,0,0,0,47,1,2,2,0,0,0,0,0
+libpng,2c0aee56a0,2020-02-02,4f6ab480,Update the copyright year,5,2,9,9,5,5,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,386707c6d1,2019-04-24,e4fcabea,arm: Use <arm_neon.h> when compiling aarch64 intrinsics with clang-cl,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,216387f6f7,2019-04-22,4f6ab480,arm: Move a png_debug statement to its correct place,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,1,0
+libpng,5df8e982e2,2019-04-14,4f6ab480,Bump version to 1.6.38.git,15,4,50,40,12,12,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,a40189cf88,2019-04-14,4f6ab480,Release libpng version 1.6.37,19,4,95,123,16,15,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,8da8257d0b,2019-04-14,135425f6,Fix typo in the new v2 license,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,a627bd26a3,2019-04-07,4f6ab480,"arm: Partially revert ""Fix a memory leak in the riffled palette [...]""",1,1,14,16,14,16,1,0,0,2,0,0,1,1,0,0,0,136,2,13,13,0,0,0,0,0
+libpng,82ae623ec9,2019-03-31,4f6ab480,arm: Rename all functions to the pattern png_*_neon; add debug traces,3,3,15,9,15,9,0,0,0,2,0,0,0,0,3,3,0,140,2,3,12,0,1,0,0,0
+libpng,9c0d5c77bf,2019-02-03,4f6ab480,Call png_image_free_function without guarding it with png_safe_execute,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+libpng,8439534daa,2019-02-03,4f6ab480,Fix a memory leak in pngtest.c,1,1,5,3,5,3,1,0,0,1,0,0,1,0,0,0,0,598,1,4,4,0,0,0,0,0
+libpng,70d122aac4,2019-02-03,4f6ab480,Fix a memory leak in the riffled palette optimization on ARM; refactor,6,6,68,66,68,66,1,0,0,5,0,0,2,1,3,3,0,140,3,31,48,0,0,0,0,1
+libpng,fef895aa28,2019-01-19,4f6ab480,Update the copyright year,5,2,11,11,6,6,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,6a94d14567,2018-12-30,4f6ab480,Bump version to 1.6.37.git,20,4,53,44,14,15,0,0,0,1,0,0,0,0,0,0,0,13,0,0,10,0,0,0,0,0
+libpng,eddf902320,2018-12-01,4f6ab480,Release libpng version 1.6.36,20,4,156,110,14,13,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+libpng,85acd919b9,2018-12-01,4f6ab480,[master] Imported from libpng-1.6.36.tar,100,32,1660,2473,803,644,0,0,0,59,0,0,2,2,3,0,0,596,28,96,344,0,0,1,0,0
+libpng,e79085a172,2018-11-25,4f6ab480,Introduce the PNG Reference Library License version 2,4,1,227,150,89,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,81a65de25d,2018-11-25,4f6ab480,"Clean up config, scripts, examples, etc.",9,3,219,246,208,236,0,0,0,1,0,0,0,0,0,0,0,40,0,0,31,0,0,0,0,1
+libpng,94429a335b,2018-09-04,4f6ab480,"Remove the ""last changed"" version information from source comments",10,8,15,13,13,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,1ceaa83a84,2018-09-04,4f6ab480,Fix the build with MSVC ARM64,3,3,17,7,17,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+libpng,b66ed71131,2018-09-04,4f6ab480,Restore the ANSI C compliance after adding the ARM optimization,2,2,57,46,57,46,0,0,0,5,0,0,2,0,0,0,0,138,2,17,44,0,0,0,0,0
+libpng,7734cda20c,2018-09-04,28e37148,Optimize png_do_expand_palette for ARM,7,5,213,10,209,8,0,0,0,3,0,0,2,0,3,0,0,136,2,30,154,0,0,0,0,0
+libpng,2fc5ddff18,2018-09-03,4f6ab480,Restore the ANSI C compliance after applying the MSVC ARM64 fix,1,1,6,3,6,3,1,0,0,3,0,0,0,0,0,0,0,36,0,0,6,0,0,0,0,0
+libpng,8033c96f32,2018-09-03,cce05212,Fix build errors with MSVC ARM64,1,1,16,3,16,3,1,0,0,3,0,0,0,0,0,0,0,35,0,0,10,0,0,0,0,0
+libpng,d3d1baadb4,2018-08-19,ab8befc2,Prefer memcpy to manual pointer arithmetic.,1,1,10,24,10,24,0,0,0,4,0,0,0,0,0,0,0,5,0,0,10,0,0,0,0,0
+libpng,a294c1bcb6,2018-08-19,22991ffa,Some more trivial source typos,9,2,14,14,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,ceb327789b,2018-08-18,4f6ab480,Remove top-level const from function-scope variables,22,12,196,205,71,77,0,0,0,35,0,0,0,2,0,0,0,458,18,41,71,0,0,0,1,0
+libpng,1ef8882814,2018-08-18,4f6ab480,Replace the remaining uses of PNG_CONST with const,19,12,75,76,64,65,0,0,0,21,0,0,0,0,0,0,0,596,12,31,62,0,0,0,0,0
+libpng,8440326590,2018-07-29,4f6ab480,Update the documentation,8,1,179,461,17,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,b729fff4a3,2018-07-28,4f6ab480,Remove the Y2K compliance statement,22,1,20,78,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+libpng,c36c09f004,2018-07-28,4f6ab480,Update the export control information,2,1,44,41,20,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,a873893279,2018-07-28,4f6ab480,"Remove the ""last changed"" version information from source comments",20,20,58,65,58,65,0,0,0,1,0,0,0,0,0,0,0,13,0,0,0,0,0,0,1,0
+libpng,d4fb621429,2018-07-28,4f6ab480,Bump version to 1.6.36.git and update copyright notice,23,4,86,72,33,25,0,0,0,1,0,0,0,0,0,0,0,18,0,0,11,0,0,0,0,0
+libpng,fb6312a9f9,2018-07-16,b4795afe,ARM: Disable hand-written AArch32 NEON on AArch64,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,8da397423e,2018-07-15,4f6ab480,[master] Imported from libpng-1.6.35.tar,131,23,46847,1594,1133,1113,0,0,0,104,0,0,2,5,0,0,0,621,46,689,854,0,0,1,0,0
+libpng,46aedd8961,2018-07-15,4f6ab480,Release libpng version 1.6.35,42,20,168,167,47,46,0,0,0,1,0,0,0,0,0,0,0,16,0,0,7,0,0,0,0,0
+libpng,2471434d29,2018-07-01,4f6ab480,[libpng16] Added missing parentheses to a macro definition,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,8a05766cb7,2018-06-17,4f6ab480,[libpng16] Fix the calculation of row_factor in png_check_chunk_length,1,1,6,3,6,3,1,0,0,1,0,0,1,0,0,0,0,33,1,4,4,0,0,0,0,0
+libpng,a74aa9a002,2018-06-17,4f6ab480,[libpng16] Replace the remaining uses of png_size_t with size_t,36,23,362,367,290,293,0,0,0,96,0,0,0,1,0,0,0,596,40,132,275,0,0,0,0,0
+libpng,916117d970,2018-03-29,4c222d47,[libpng16] Allow compresion-type to be NULL in png_set_iCCP().,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,18,1,1,1,0,0,0,0,0
+libpng,7784cd3f6f,2018-03-28,4c222d47,[libpng16] Fix png_get_iCCP() to allow null compression-type,3,1,13,5,4,4,1,0,0,1,0,0,0,1,0,0,0,17,1,1,1,0,0,0,0,0
+libpng,cde1e1fe79,2018-03-06,4c222d47,[libpng16] Bump version to 1.6.35beta02,23,4,52,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,0e06b5948c,2018-03-06,4c222d47,[libpng16] Imported from libpng-1.6.35beta01.tar,19,5,51,37,13,14,0,0,0,3,0,0,0,1,0,0,0,127,2,2,5,0,0,1,0,0
+libpng,140f3aa280,2018-03-05,47a0e106,Fix png_set_option to work.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+libpng,eb91c0e4ed,2018-02-09,22991ffa,More misc. typos,24,4,39,39,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,d5e4915ebe,2018-01-07,4c222d47,[libpng16] Update copyright year to 2018 in png.c,1,1,4,4,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+libpng,fe669f6f38,2018-01-07,4c222d47,[libpng16] Update copyright year,6,1,22,18,2,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+libpng,84e6e35675,2018-01-07,4c222d47,[libpng16] Fix potential problem  with bKGD (Cosmin Truta),1,1,20,2,20,2,1,0,0,1,0,0,1,0,0,0,0,89,1,16,16,0,0,0,0,0
+libpng,d532334ef5,2017-11-13,8c366576,Avoid -Wundef warnings when building libpng,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+libpng,7292c861b1,2017-11-06,4c222d47,[master] Imported from libpng-1.6.34.tar,59,4,77,104,18,18,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,fc32eb1662,2017-11-04,4c222d47,[libpng16] Initialize entire 256-entry palette in png_set_PLTE().,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,37,1,1,1,0,0,0,0,0
+libpng,7ca2f0e078,2017-11-03,4c222d47,[libpng16] Fix one more typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,b196bd6566,2017-11-03,4c222d47,[Libpng16] Add typecast to NULL argument to png_do_expand(),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,128,1,1,1,0,0,0,0,0
+libpng,f23b41d7b1,2017-11-03,bef4ce5a,Misc. typos,24,8,54,54,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,7125401411,2017-10-31,4c222d47,[libpng16] Undo recent pngrutil.c change that did not fix oss-fuzz issue,1,1,0,3,0,3,1,0,0,1,0,0,0,1,0,0,0,79,1,0,0,0,0,0,0,0
+libpng,4b52ef8e76,2017-10-31,4c222d47,[libpng16] Removed some unnecessary brackets in pngrtran.c,3,1,740,745,734,739,0,0,0,3,0,0,0,3,0,0,0,621,3,542,542,0,0,0,0,0
+libpng,7ee802a5a2,2017-10-29,4c222d47,"[libpng16] Initialize trans_color.red, green, and blue == trans_color.gray",3,1,5,0,3,0,0,0,0,1,0,0,1,0,0,0,0,82,1,3,3,0,0,0,0,0
+libpng,2f8b82ebca,2017-10-29,4c222d47,[libpng16] Revert recent changes that did not help with oss-fuzz issues,4,2,9,11,6,6,0,0,0,3,0,0,0,0,0,0,0,90,3,5,5,0,0,0,0,0
+libpng,aea0ec4346,2017-10-20,4c222d47,[libpng16] Initialize tRNS read buffers in pngrutil.c,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,79,1,3,3,0,0,0,0,0
+libpng,af08094ba6,2017-10-19,4c222d47,[libpng16] Use png_calloc instead of png_malloc in png_set_tRNS,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,42,1,1,1,0,0,0,0,0
+libpng,9bddba26de,2017-10-17,4c222d47,[libpng16] Initialize entire palette array to zero in png_handle_PLTE().,4,2,10,8,5,3,0,0,0,2,0,0,1,0,0,0,0,90,2,3,3,0,0,0,0,0
+libpng,3b5bcea010,2017-10-17,4c222d47,[libpng16] Revert recent changes to pngset.c,1,1,2,6,2,6,0,0,0,1,0,0,0,1,0,0,0,42,1,1,1,0,0,0,0,0
+libpng,adefba1b03,2017-10-16,4c222d47,[libpng16] Free tRNS chunk data when abandoning it,1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,46,1,1,1,0,0,0,0,0
+libpng,48a2460393,2017-10-16,4c222d47,[libpng16] Do not enable tRNS having trans_color with out-of-range value.,3,1,6,6,1,1,0,0,0,1,0,0,0,0,0,0,0,45,1,1,1,0,0,0,0,0
+libpng,2be0f33e7c,2017-10-15,4c222d47,"[libpng16] Nullify trans_color with out-of-range value, to stop oss-fuzz issue.",3,1,9,6,4,3,0,0,0,1,0,0,1,0,0,0,0,45,1,4,4,0,0,0,0,0
+libpng,2227793efc,2017-09-29,4c222d47,[libpng16] Bump version to 1.6.35beta01,28,4,70,68,17,17,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,b78804f9a2,2017-09-29,4c222d47,[libpng16] Imported from libpng-1.6.34.tar,55,4,65,108,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,345fc37fdc,2017-09-28,4c222d47,[libpng16] Bump version to 1.6.34beta01,28,4,85,69,19,19,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,c1effe1bbf,2017-09-28,4c222d47,[master] Imported from libpng-1.6.33.tar,71,9,530,218,79,72,0,0,0,13,0,0,3,3,0,0,0,623,9,38,54,0,0,1,0,0
+libpng,2ee8cb0559,2017-09-28,4c222d47,[libpng16] Imported from libpng-1.6.33.tar,31,8,266,78,20,20,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,13a158690f,2017-09-23,4c222d47,[libpng16] Imported from libpng-1.6.33rc02.tar,8,2,11,11,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,1,0,0
+libpng,3d2d0b52a3,2017-09-23,4c222d47,[libpng16] Fix Coverity defect regarding errmsg in pngrutil.c,1,1,1,7,1,7,1,0,0,1,0,0,0,1,0,0,0,176,1,1,1,0,0,0,0,0
+libpng,073fe76f6a,2017-09-23,4c222d47,[libpng16] Add support for loading images with associated alpha in the,4,2,13,9,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,90dd185aed,2017-09-22,4c222d47,"[libpng16] Removed more redundant tests (suggested by ""irwir"" in Github issue #180).",4,2,5,5,3,5,0,0,0,2,0,0,0,2,0,0,0,177,2,3,3,0,0,0,0,0
+libpng,0165badb9d,2017-09-22,4c222d47,[libpng16] Relocate new memset() call in pngrutil.c (irwir).,3,1,6,3,2,1,0,0,0,1,0,0,0,0,0,0,0,92,1,1,1,0,0,0,0,0
+libpng,2da37077db,2017-09-20,4c222d47,[libpng16] Bump version to 1.6.33rc02,24,4,59,55,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,5efa483265,2017-09-20,4c222d47,"[libpng16] Removed a redundant test (suggested by ""irwir"" in Github issue #180).",3,1,3,3,1,3,0,0,0,1,0,0,0,1,0,0,0,92,1,1,1,0,0,0,0,0
+libpng,5f0c9fabbc,2017-09-20,4c222d47,[libpng16] Bump version to 1.6.33rc01,26,5,73,64,15,18,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,0,0,0
+libpng,397c7eea38,2017-09-19,4c222d47,[libpng16] Add a memset() in png_read_buffer(),1,1,4,3,4,3,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+libpng,066cb34268,2017-09-19,4c222d47,[libpng16] Fix some comments,3,3,9,14,9,14,1,0,0,2,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+libpng,721b96ef90,2017-09-18,4c222d47,[libpng16] zero out memory allocated by png_inflate,1,1,4,0,4,0,0,0,0,1,0,0,1,0,0,0,0,93,1,1,1,0,0,0,0,0
+libpng,562a68513e,2017-09-16,4c222d47,[libpng16] Initialize tag_start etc. in png_icc_check_tag_table().,1,1,9,5,9,5,0,0,0,2,0,0,0,0,0,0,0,26,0,0,8,0,0,0,0,0
+libpng,a7722aee32,2017-09-16,4c222d47,[libpng16] Undo faulty attempt to stifle oss-fuzz complaint about,1,1,5,8,5,8,0,0,0,2,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+libpng,413de0a56a,2017-09-16,4c222d47,[libpng16] Undo another faulty attempt to stifle oss-fuzz complaint,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,134,1,0,0,0,0,0,0,0
+libpng,04e16d2817,2017-09-15,4c222d47,[libng16] Attempt to stop Use of Uninitialized Value in png_set_text_2(),1,1,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,135,1,1,1,0,0,0,0,0
+libpng,d1a0937cae,2017-09-15,4c222d47,[libpng16] Still another attempt to fix oss-fuzz uninitialized value,2,2,8,5,8,5,1,0,0,1,0,0,0,0,0,0,0,26,0,0,6,0,0,0,0,0
+libpng,1c98b85886,2017-09-14,4c222d47,[libpng16] Bump version to 1.6.33beta04,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,4de130c255,2017-09-14,4c222d47,[libpng16] Imported from libpng-1.6.33beta03.tar,13,4,24,24,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+libpng,4ddead1e1c,2017-09-14,4c222d47,[libpng16] Undo failed attempt to prevent UMR in png_icc_check_table().,3,1,5,16,2,5,0,0,0,2,0,0,0,0,0,0,0,23,0,0,2,0,0,0,0,0
+libpng,d7edcc40e4,2017-09-13,4c222d47,[libpng16] Undo failed attempt to debug UMR in png_set_text_2().,1,1,2,10,2,10,0,0,0,1,0,0,0,1,0,0,0,134,1,1,1,0,0,0,0,0
+libpng,7d40b53fbf,2017-09-13,4c222d47,[libpng16] Use png_chunk_report when handling a truncated ICC chunk.,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+libpng,76b269b1f4,2017-09-12,4c222d47,"[libpng16] Attempt to debug Uninitialized Memory Read in png_set_text_2(),",3,1,11,18,3,14,0,0,0,1,0,0,0,1,0,0,0,140,1,2,2,0,0,0,0,0
+libpng,61d29bfc80,2017-09-12,4c222d47,"[libpng16] Guard against Uninitialized Memory Read in png_check_icc_table(),",3,1,12,5,5,2,0,0,0,2,0,0,0,0,0,0,0,26,0,0,5,0,0,0,0,0
+libpng,0f2adc19eb,2017-09-10,4c222d47,[libpng16] Trying to avoid a UMR in png_set_text_2(().,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,148,1,1,1,0,0,0,0,0
+libpng,1aabcfdbae,2017-09-10,4c222d47,[libpng16] Trying to isolate oss-fuzz issue in png_set_text_2().,1,1,12,1,12,1,0,0,0,1,0,0,1,0,0,0,0,148,1,11,11,0,0,0,0,0
+libpng,b5ae93d72e,2017-09-10,4c222d47,[libpng16] Rearrange order of tests in png_iccp_check_tag_table(),1,1,8,11,8,11,0,0,0,2,0,0,0,0,0,0,0,23,0,0,5,0,0,0,0,0
+libpng,3789cba2f2,2017-09-08,4c222d47,[libpng16] Attempt to isolate an oss-fuzz issue in png_set_text_2,2,2,11,3,11,3,0,0,0,1,0,0,1,0,0,0,0,140,1,7,7,0,0,0,0,0
+libpng,8592873f24,2017-09-08,4c222d47,[libpng16] Attempting to fix an oss-fuzz issue.,1,1,6,2,6,2,1,0,0,2,0,0,0,0,0,0,0,25,0,0,4,0,0,0,0,0
+libpng,95046512a4,2017-09-06,ab8befc2,Add support for loading images with associated alpha.,2,2,13,1,13,1,0,0,0,1,0,0,1,0,0,0,0,245,1,8,9,0,0,0,0,0
+libpng,52a566af97,2017-09-04,4c222d47,[libpng16] Fix typecast in pngtrans.c,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,83,1,1,1,0,0,0,0,0
+libpng,4911714f74,2017-09-04,4c222d47,"[libpng16] Fix incorrect typecast of ""intent"" (should be png_alloc_size_t,",1,1,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,42,0,0,4,0,0,0,0,0
+libpng,051d6cc19b,2017-09-03,4c222d47,[libpng16] Fixed incorrect typecast of some arguments to png_malloc() and,3,1,18,10,12,10,1,0,0,2,0,0,1,0,0,0,0,623,2,11,11,0,0,0,0,0
+libpng,fca1862ac9,2017-09-02,4c222d47,[libpng16] Bump version to 1.6.33beta03,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,c2c8b398a9,2017-09-02,4c222d47,[libpng16] Imported from libpng-1.6.33beta02.tar,13,4,25,25,9,9,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,eb2f42aa97,2017-08-31,4c222d47,[libpng16] Compute a larger limit on IDAT because some applications write a,3,1,20,17,13,13,0,0,0,1,0,0,1,0,0,0,0,30,1,13,13,0,0,0,0,0
+libpng,5c27e93f51,2017-08-30,4c222d47,[libpng16] Bump version to 1.6.33beta02,27,4,70,60,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,a1b5be044f,2017-08-29,4c222d47,"[libpng16] Update ""last changed"" date in pngtrans.c",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,58720d3c06,2017-08-29,4c222d47,"[libpng16] Fix ""last changed"" dates",14,13,20,20,19,19,1,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+libpng,d2b9af04ac,2017-08-28,4c222d47,[libpng16] Fixed off-by-one error in png_do_check_palette_indexes() (Bug report,3,1,5,1,1,1,1,0,0,1,0,0,0,0,0,0,0,67,1,1,1,0,0,0,0,0
+libpng,321c24b0d7,2017-08-28,4c222d47,[libpng16] Bump version to 1.6.33beta01,15,3,37,31,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+libpng,f6ca33d42c,2017-08-25,4c222d47,[libpng16] Bump version to 1.6.33beta01,40,13,84,138,28,28,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,f8110669f0,2017-08-24,4c222d47,[master] Imported from libpng-1.6.32.tar,75,14,895,249,299,104,0,0,0,20,2,0,12,0,3,0,0,596,13,147,240,0,0,1,0,0
+libpng,df7e9dae0c,2017-08-24,4c222d47,[libpng16] Imported from libpng-1.6.32.tar,39,14,77,105,27,27,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,1257369169,2017-08-22,4c222d47,[libpng16] Bump version to 1.6.32rc03,25,4,62,57,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,ba5f7f6a3e,2017-08-22,4c222d47,[libpng16] Bump version to 1.6.32rc02,24,4,60,60,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,945759162e,2017-08-18,4c222d47,[libpng16] Imported from libpng-1.6.32rc01.tar,26,4,82,71,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,7b8b7115d9,2017-08-07,4c222d47,[libpng16] Bump version to 1.6.32beta12,22,4,45,45,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,fa2f72258a,2017-08-07,4c222d47,[libpng16] Imported from libpng-1.6.32beta11.tar,15,4,26,25,9,8,0,0,0,2,0,0,1,0,0,0,0,151,1,1,4,0,0,1,0,0
+libpng,c362a8c80e,2017-08-07,4c222d47,[libpng16] Free eXIf_buf when detecting bad byte-order specifier.,1,1,2,0,2,0,0,0,0,1,0,0,1,0,0,0,0,48,1,2,2,0,0,0,0,0
+libpng,33787340a4,2017-08-06,4c222d47,Fix typo (1 should be 2) in png_handle_eXIf,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,46,1,1,1,0,0,0,0,0
+libpng,cf713fb0ab,2017-08-06,4c222d47,[libpng16] Check that the eXIf chunk has at least 2 bytes and begins,3,1,16,0,14,0,0,0,0,1,1,0,0,0,0,0,0,46,1,13,13,0,0,0,0,0
+libpng,c82ae40e9f,2017-08-06,4c222d47,[libpng16] Test or 11 bytes instead of 14 after the iCCP keyword has been read.,1,1,20,12,20,12,0,0,0,1,0,0,1,0,0,0,0,178,1,12,12,0,0,0,0,0
+libpng,099558d100,2017-08-06,4c222d47,[libpng16] Relocate the iCCP length test to a point after reading the keyword,3,1,17,12,13,10,0,0,0,1,0,0,0,0,0,0,0,172,1,6,6,0,0,0,0,0
+libpng,8ed418b042,2017-08-06,4c222d47,"[libpng16] Increase minimum zlib stream from 9 to 14 in png_handle_iCCP(),",3,1,9,4,5,4,0,0,0,1,0,0,0,0,0,0,0,172,1,1,1,0,0,0,0,0
+libpng,39d84f4f6a,2017-08-05,4c222d47,[lbpng16] Attempt to fix a UMR in png_set_text_2() to fix OSS-fuzz issue.,3,1,26,17,22,17,1,0,0,1,0,0,1,0,0,0,0,74,1,16,16,0,0,0,0,0
+libpng,c5c778bcfc,2017-08-05,4c222d47,[libpng16] Initialize profile_header[] in png_handle_iCCP() to fix OSS-fuzz issue.,3,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,172,1,1,1,0,0,1,0,0
+libpng,1ebe4f75cc,2017-08-05,4c222d47,"[Libpng16]  Relocated setting free_me for eXIf data, to stop an OSS-fuzz leak.",3,1,7,4,2,1,1,0,0,1,0,0,0,0,0,0,0,33,0,0,1,0,0,0,0,0
+libpng,13bc0b6b1f,2017-08-05,4c222d47,[libpng16] Make png_check_chunk_length|name() parameters const,3,3,9,9,9,9,0,0,0,3,0,0,0,1,0,0,0,167,2,1,9,0,0,0,0,0
+libpng,fcd1bb9312,2017-08-05,4c222d47,[libpng16] Removed unused chunk_name parameter from png_check_chunk_length().,5,3,6,6,4,6,0,0,0,3,0,0,0,2,0,0,0,168,2,2,4,0,0,0,0,0
+libpng,c33d624988,2017-08-05,4c222d47,[libpng] Added huge_IDAT.png and empty_ancillary_chunks.png to testpngs/crashers,5,1,14,6,9,6,1,0,0,2,0,0,1,0,0,0,0,596,2,9,9,0,0,0,0,0
+libpng,0ec733ce61,2017-08-05,4c222d47,"[libpng16] Added ""eXIf"" to ""chunks_to_ignore[]"" in png_set_keep_unknown_chunks().",3,1,3,0,1,0,0,0,0,1,0,0,1,0,0,0,0,109,1,1,1,0,0,0,0,0
+libpng,dbdeb1f3fa,2017-08-04,4c222d47,[libpng16] Bump version to 1.6.32beta11,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,3d7f3e57b5,2017-08-04,4c222d47,[libpng16] Imported from libpng-1.6.32beta10.tar,15,3,26,28,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,a64c8ca9e9,2017-08-04,4c222d47,[libpng16] Insert a newline at beginning of libpng warning in pngtest.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+libpng,3a957dd96f,2017-08-04,4c222d47,"[lbipng16] Fix ""const"" declaration info_ptr argument to png_get_eXIf_1() and the",4,1,7,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,554d4400ab,2017-08-04,4c222d47,"[libpng16] Fix ""const"" declaration info_ptr argument to png_get_eXIf_1().",6,2,21,15,7,7,1,0,0,1,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+libpng,207392821d,2017-08-04,4c222d47,[libpng16] Moved bad pngs from tests to contrib/libtests/crashers,7,1,41,4,24,4,1,0,0,1,0,0,1,0,0,0,0,245,1,23,24,0,0,0,0,0
+libpng,2dca15686f,2017-08-04,4c222d47,[libpng16] Moved chunk-length check into a png_check_chunk_length() private,5,3,51,66,44,63,0,0,0,2,1,1,0,1,1,0,0,169,2,3,40,0,0,0,1,0
+libpng,469317d9bd,2017-08-04,4c222d47,"[libpng16] Removed a left-over debugging ""printf"" statement from pngrutil.c",1,1,0,2,0,2,0,0,0,1,0,0,0,1,0,0,0,43,1,0,0,0,0,0,0,0
+libpng,894a9869dd,2017-08-03,4c222d47,[libpng16] Bump version to 1.6.32beta10,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,c14be73428,2017-08-03,4c222d47,[libpng16] Imported from libpng-1.6.32beta09.tar,5,1,5,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+libpng,2dbef2f2a9,2017-08-03,4c222d47,[libpng16] Restored IDAT length check. Previously the calculated limit was five,4,2,9,15,9,13,0,0,0,2,0,0,2,0,0,0,0,195,2,9,9,0,0,0,0,0
+libpng,4ac8b5e0d6,2017-08-03,4c222d47,[libpng16] Use png_debug2() instead of printf() for bug reporting.,2,2,4,4,4,4,1,0,0,2,0,0,0,0,0,0,0,194,2,3,3,0,0,0,0,0
+libpng,d683af0f12,2017-08-03,4c222d47,[libpng16] Temporarily disable IDAT length-limiting.,3,1,5,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,095b4ce16b,2017-08-03,4c222d47,[libpng16] Disabled new limit test on IDAT chunks. It was producing too small,2,2,18,2,18,2,0,0,0,2,0,0,2,0,0,0,0,194,2,18,18,0,0,0,0,0
+libpng,bfdabdacff,2017-08-03,4c222d47,[libpng16] Bump version to 1.6.32beta09,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,d930d36155,2017-08-03,4c222d47,[libpng16] Restored png_get_eXIf_1() and png_set_eXIf_1() because strlen(eXIf_buf),7,5,39,13,35,13,0,0,0,4,0,0,0,1,2,0,0,596,1,8,32,0,0,0,0,0
+libpng,a1fe2c9848,2017-08-03,4c222d47,"[libpng16] Check length of IDAT against maximum possible IDAT size, accounting",4,2,36,7,31,6,0,0,0,2,1,0,1,0,0,0,0,188,2,30,30,0,0,0,0,0
+libpng,70041f4038,2017-08-02,4c222d47,[libpng16] Bump version to 1.6.32beta08,24,4,59,55,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,96b65b3644,2017-08-02,4c222d47,[libpng16] Imported from libpng-1.6.32beta07.tar,13,3,26,24,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,347538efbd,2017-08-02,4c222d47,[libng16] Check length of all chunks except IDAT against user limit.,4,2,36,3,31,0,0,0,0,2,0,0,1,0,0,0,0,177,1,14,28,0,0,0,0,0
+libpng,2b37d46564,2017-08-02,4c222d47,[libpng16] Bump version to 1.6.32beta07,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,2df5c96352,2017-08-02,4c222d47,[libpng16] Imported from libpng-1.6.32beta06.tar,17,2,26,26,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,3fa1df48a1,2017-08-02,4c222d47,[libpng16] Removed png_get_eXIf_1() and png_set_eXIf_1().,10,5,40,68,16,36,0,0,0,4,0,0,1,0,0,2,0,598,1,3,12,0,0,0,0,0
+libpng,f30f1ae3ea,2017-08-02,4c222d47,[libpng16] Imported from libpng-1.6.32beta05.tar,17,2,26,26,4,4,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,7c709f039f,2017-08-02,4c222d47,[libpng16] Restored png_get_eXIf() and png_set_eXIf() to maintain API compatability.,9,4,82,37,38,17,0,0,0,1,0,0,1,0,2,0,0,597,1,6,32,0,0,0,0,0
+libpng,fd6b87253c,2017-08-02,4c222d47,[libpng16] Eliminate local eXIf_buf from png_handle_eXIf(),1,1,6,9,6,9,0,0,0,1,0,0,0,0,0,0,0,33,0,0,6,0,0,0,0,0
+libpng,821b1dcf34,2017-08-01,4c222d47,[libpng16] Bump version to 1.6.32beta04,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,611b29acd8,2017-08-01,4c222d47,[libpng16] Imported from libpng-1.6.32beta03.tar,12,3,35,25,20,10,0,0,0,2,0,0,1,0,0,0,0,149,1,12,15,0,0,1,0,0
+libpng,71a56180e5,2017-08-01,4c222d47,[libpng16] Stop memory leak when returning from png_handle_eXIf() with an error,6,4,50,21,42,15,1,0,0,3,0,0,1,0,0,0,0,596,1,22,40,0,0,0,0,0
+libpng,cb628b2e4e,2017-08-01,4c222d47,[libpng16] Bump version to 1.6.32beta03,23,4,53,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,bc68c41d5f,2017-08-01,4c222d47,[libpng16] Initialized btoa[] in pngstest.c; stop memory leak in png_handle_eXIf(),4,1,12,1,3,0,1,0,0,1,0,0,0,0,0,0,0,29,0,0,3,0,0,0,0,0
+libpng,4aad3c0eb0,2017-08-01,4c222d47,[libpng16] Imported from libpng-1.6.32beta02.tar,11,3,22,22,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,90d3ff290f,2017-07-31,4c222d47,[libpng16] Bump version to 1.6.32beta02,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,619cf868e6,2017-07-31,4c222d47,[libpng16] Imported from libpng-1.6.32beta01.tar,10,2,11,12,3,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,1,0,0
+libpng,3524b0d201,2017-07-31,4c222d47,"[libpng16] Update ""Last changed"" dates and some copyright years",9,9,12,15,12,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,3e753f5cbe,2017-07-31,4c222d47,[libpng16] Changed name of png_get_eXIF and png_set_eXIf() to png_get_eXIf_1(),9,5,28,23,9,10,0,0,0,2,0,0,0,0,2,2,0,586,1,4,9,0,0,0,0,0
+libpng,c77274ffa9,2017-07-31,4c222d47,[libpng16] Committed png.h and pngpriv.h that were omitted from previous checkin,2,2,13,8,13,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0
+libpng,323c8655cf,2017-07-31,4c222d47,[libpng16] Updated pngread.c with calls to png_handle_eXIf() omitted from previous checkin,1,1,10,0,10,0,0,0,0,2,0,0,2,0,0,0,0,90,2,8,8,0,0,0,0,0
+libpng,40afb68570,2017-07-31,4c222d47,[libpng16] Added calls to png_handle_eXIf(() in pngread.c and png_write_eXIf(),8,6,46,21,38,21,0,0,0,7,0,0,3,0,0,0,0,586,3,24,31,0,0,0,0,0
+libpng,4ab78af90a,2017-07-30,4c222d47,[libpng16] Avoid possible NULL dereference in png_handle_eXIf when benign_errors,3,1,10,4,3,1,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+libpng,b73c891891,2017-07-27,4c222d47,[libpng16] Bump version to 1.6.32beta01,30,5,72,96,17,17,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,fbff8986e7,2017-07-27,4c222d47,[master] Imported from libpng-1.6.31.tar,53,18,1016,235,351,109,0,0,0,13,0,0,3,0,4,0,0,574,4,27,231,0,0,1,0,0
+libpng,9fcb846402,2017-07-27,4c222d47,[libpng16] Imported from libpng-1.6.31.tar,37,11,75,94,23,23,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,136b3203f4,2017-07-25,4c222d47,[libpng16] Imported from libpng-1.6.31rc02.tar,22,4,48,48,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,1ed0b3f7ca,2017-07-25,4c222d47,[libpng16] Fixed typo in example.c (png_free_image should be png_image_free),3,1,18,10,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,a354e5c1ff,2017-07-19,4c222d47,[libpng16] Imported from libpng-1.6.31rc01.tar,24,4,63,57,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,3de6fa1122,2017-07-18,4c222d47,[libpng16] Imported from libpng-1.6.31beta07.tar,22,4,48,48,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,d2fcc41eec,2017-07-17,4c222d47,[libpng16] Imported from libpng-1.6.31beta06.tar,14,4,26,26,9,9,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,a5b6751bbd,2017-07-13,4c222d47,[libpng16] Bump version to 1.6.31beta06,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,cd8eb93ecb,2017-07-13,4c222d47,[libpng16] Imported from libpng-1.6.31beta05.tar,13,3,25,25,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,68cb0aaee3,2017-07-13,4c222d47,[libpng16] Implement eXIf chunk support,17,10,216,5,171,5,0,0,0,2,0,0,2,0,4,0,0,574,2,22,131,0,0,0,0,0
+libpng,40943eb67a,2017-07-11,4c222d47,[libpng16] Bump version to 1.6.31beta05,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,f78a3e7326,2017-07-11,4c222d47,[libpng16] Imported from libpng-1.6.31beta04.tar,13,3,36,61,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,72d07d3202,2017-07-11,0004718a,[libpng16] Removed one of the GCC-7.1.0 'strict-overflow' warnings that,13,7,124,60,74,29,1,0,0,4,0,0,1,0,0,0,0,180,2,5,29,1,0,0,0,0
+libpng,f2621c5137,2017-07-09,4c222d47,[libpng16] Bump version to 1.6.31beta04,24,4,57,53,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,a947052ec2,2017-07-09,4c222d47,[libpng16] Imported from libpng-1.6.31beta03.tar,14,3,29,27,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,aa6e0482fa,2017-07-09,4c222d47,"[libpng16] Quieted ""declaration after statement"" warnings in intel/filter_sse2.c.",3,1,68,38,64,36,0,0,0,7,0,0,0,0,0,0,0,50,0,0,50,0,0,0,0,0
+libpng,5cc23552a7,2017-07-09,4c222d47,"[libpng16]Change ""int"" to ""png_uint_32"" in intel/filter_sse2.c to prevent",3,1,14,10,10,10,0,0,0,6,0,0,0,0,0,0,0,47,0,0,9,0,0,0,0,0
+libpng,918a6ac2b4,2017-07-08,4c222d47,[libpng16] Bump version to 1.6.31beta03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,bd5a826d37,2017-07-08,4c222d47,[libpng16] Imported from libpng-1.6.31beta02.tar,12,3,23,22,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,23b51990e3,2017-07-05,4c222d47,[libpng16] Bump version to 1.6.31beta02,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,77417b8ea0,2017-07-05,4c222d47,[libpng16] Imported from libpng-1.6.31beta01.tar,12,3,24,24,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,54126d5c59,2017-07-02,4c222d47,[libpng16] Revised pngpriv.h to use PNG_VERSION_INFO_ONLY instead of,1,1,19,23,19,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+libpng,660ce58597,2017-07-01,4c222d47,[libpng16] Revised pngpriv.h to work around failure to compile arm/filter_neon.S,3,1,22,7,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+libpng,9f7134c3fc,2017-06-29,4c222d47,"[libpng16] Update some ""last changed"" dates",7,6,9,9,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+libpng,145361aaac,2017-06-28,4c222d47,[libpng16] Bump version to 1.6.31beta01,24,4,80,60,17,17,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,8c552ddf5b,2017-06-28,4c222d47,[master] Imported from libpng-1.6.30.tar,57,11,491,249,125,64,0,0,0,12,0,0,6,0,0,0,0,219,7,51,85,0,0,1,0,0
+libpng,58649f19cb,2017-06-28,4c222d47,[libpng16] Imported from libpng-1.6.30.tar,24,4,61,71,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,14be73c8a3,2017-06-25,4c222d47,[libpng16] Imported from libpng-1.6.30rc02.tar,26,4,72,64,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,87cd2dc07d,2017-06-14,4c222d47,[libpng16] Imported from libpng-1.6.30rc01.tar,25,4,66,64,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,2d306c4b15,2017-06-06,4c222d47,[libpng16] Bump version to 1.6.30beta05,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,5aaf6e889c,2017-06-06,4c222d47,[libpng16] Imported from libpng-1.6.30beta04.tar,16,4,31,31,10,10,0,0,0,2,0,0,0,0,0,0,0,77,1,2,5,0,0,1,0,0
+libpng,c548328904,2017-06-06,4c222d47,[libpng16] Avoid writing an empty IDAT when the last IDAT exactly fills the,3,1,13,5,4,2,0,0,0,1,0,0,1,0,0,0,0,77,1,4,4,0,0,0,0,0
+libpng,a315efe3b2,2017-05-24,4c222d47,"[libpng16] Mention CVE-2016-5737 in CHANGES, update intel ""last changed"" date",4,2,9,7,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+libpng,6155c6629d,2017-05-22,4c222d47,[libpng16] Bump version to 1.6.30beta04,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,d40ac082ef,2017-05-22,4c222d47,[libpng16] Imported from libpng-1.6.30beta03.tar,15,3,34,32,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,0808d75851,2017-04-22,4c222d47,[libpng16] Bump version to 1.6.30beta03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,2eff8ef504,2017-04-22,4c222d47,[libpng16] Imported from libpng-1.6.30beta02.tar,13,5,25,17,16,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,6,0,0,1,0,0
+libpng,ead7079f1d,2017-04-01,4c222d47,[libpng16] Bump version to 1.6.30beta02,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,82add753e5,2017-04-01,4c222d47,[libpng16] Imported from libpng-1.6.30beta01.tar,15,3,64,62,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,b3ffdc5991,2017-03-31,9237c173,URL updates,11,3,45,45,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,e744ee1338,2017-03-30,4c222d47,"[libpng16] Update CHANGES, ANNOUNCE, and ""last changed"" dates.",10,8,21,19,16,16,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,0,0,0
+libpng,7bbd665b34,2017-03-30,9237c173,tweak,1,1,6,4,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+libpng,dce241c107,2017-03-30,9237c173,silence clang -Wcast-qual const drop warnings,1,1,8,1,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+libpng,8c50acb9d2,2017-03-29,9237c173,silence clang -Wcomma warnings,5,5,75,33,75,33,0,0,0,10,0,0,5,0,0,0,0,219,6,47,59,0,0,0,0,0
+libpng,2239961279,2017-03-21,4c222d47,"[libpng16] Fix ""last changed"" dates in powerpc/*.c",2,2,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,03a6f3f9c9,2017-03-16,4c222d47,[libpng16] Bump version to 1.6.30beta01,32,8,74,84,21,21,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,b363e01e6b,2017-03-16,4c222d47,[master] Imported from libpng-1.6.29.tar,46,12,1488,478,1036,50,0,0,0,6,5,0,1,0,8,0,0,198,4,17,723,0,0,1,0,0
+libpng,d42e88d5b3,2017-03-16,4c222d47,[libpng16] Imported from libpng-1.6.29.tar,35,11,75,82,23,23,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,fae874c8ca,2017-03-08,4c222d47,[libpng16] Imported from libpng-1.6.29rc01.tar,25,4,61,61,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,0b1f7e412b,2017-03-01,4c222d47,[libpng16] Bump version to 1.6.29beta04,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,a8de1a70d1,2017-03-01,4c222d47,[libpng16] Imported from libpng-1.6.29beta03.tar,13,2,26,24,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+libpng,7db98a18fe,2017-03-01,4c222d47,[libpng16] Suppress clang warnings about implicit sign changes in png.c,3,1,8,6,6,6,0,0,0,2,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+libpng,a7029a5b4c,2017-03-01,4c222d47,[libpng16] Change test ZLIB_VERNUM >= 0x1281 to ZLIB_VERNUM >= 0x1290 in,3,1,10,6,3,3,0,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+libpng,4f31b7f242,2017-02-27,4c222d47,[libpng16= Avoid potential overflow of shift operations in png_do_expand() (Aaron Boxer).,3,1,11,9,6,6,1,0,0,2,0,0,0,0,0,0,0,198,2,4,4,1,0,0,0,0
+libpng,b475d0593c,2017-02-22,4c222d47,[libpng16] Update credits and copyright information about powerpc-vsx code,8,3,13,5,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,862a2858b0,2017-02-22,4c222d47,[libpng16] Bump version to 1.6.29beta03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,364450bf8d,2017-02-22,4c222d47,[libpng16] Imported from libpng-1.6.29beta02.tar,12,2,20,19,3,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,1,0,0
+libpng,f6d358ff42,2017-02-21,4c222d47,[libpng16] Update CHANGES and ANNOUNCE,5,1,9,7,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,29775cef5e,2017-02-12,590748f9,Fixed VSX compilation time checks,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,a343882c74,2017-02-11,590748f9,Made VSX code pedantic strict C90 compliant,1,1,64,55,64,55,0,0,0,6,0,0,0,0,0,0,0,125,4,4,61,0,0,0,0,0
+libpng,483bcad21d,2017-02-10,590748f9,Changed minimum supported PowerPC CPU comment,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,310dee21f7,2017-02-10,590748f9,Refactoring,1,1,109,116,109,116,0,0,0,7,0,0,0,4,0,0,0,125,4,39,98,0,0,0,0,1
+libpng,d1c12e85c1,2017-02-09,590748f9,Added support for ppc64 big endian for filter_paeth VSX,1,1,20,3,20,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+libpng,99d7285f20,2017-02-09,590748f9,Fixed filter_paeth for PowerPC VSX,1,1,161,109,161,109,1,0,0,2,0,0,2,0,0,0,0,126,2,130,149,0,0,0,0,0
+libpng,d4bdca45b3,2017-02-08,590748f9,Fixed multiple bugs in VSX filter functions,1,1,307,290,307,290,1,0,0,7,0,0,4,0,0,0,0,111,4,206,234,0,0,0,0,0
+libpng,58e9d5d59d,2017-02-02,590748f9,Refactoring,1,1,31,49,31,49,0,0,0,7,0,0,0,4,0,0,0,107,4,4,20,0,0,0,0,1
+libpng,ae15e839d9,2017-02-02,590748f9,Small bugfix,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,9bd58f9387,2017-01-31,590748f9,Removed PNG_ALIGN check in VSX code since it is not used,1,1,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,ab2a639a2a,2017-01-31,590748f9,Removed trailing spaces,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+libpng,0aa1b967f0,2017-01-31,590748f9,Removed PNG_ALIGN dependency from VSX since it is not needed,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+libpng,bea573d370,2017-01-31,590748f9,Added auxv-based VSX detection method for PowerPC and enabled it by default,2,1,35,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,acb155d893,2017-01-31,590748f9,Implemented filter_paeth PowerPC VSX variant,1,1,272,92,272,92,0,0,0,2,2,0,0,0,0,0,0,111,2,200,219,0,0,0,0,0
+libpng,c43aaa8b20,2017-01-29,590748f9,Implemented filter_avg for PowerPC VXS,1,1,178,35,178,35,0,0,0,2,2,0,0,0,0,0,0,68,2,118,125,0,0,0,0,0
+libpng,6ddcd33daa,2017-01-29,590748f9,Fixed potential align errors for PowerPC VSX filter functions,1,1,10,3,10,3,1,0,0,1,0,0,0,0,0,0,0,34,0,0,6,0,0,0,0,0
+libpng,f604c74a5f,2017-01-20,4c222d47,[libpng16] Avoid conditional directives that break statements in pngrutil.c (Romero     Malaquias),3,1,16,9,9,6,0,0,0,1,0,0,1,0,0,0,0,113,1,9,9,0,0,0,0,0
+libpng,c3f4e5fb1a,2017-01-20,0ee14399,Avoiding conditional directives that break statements,1,1,5,3,5,3,0,0,0,1,0,0,1,0,0,0,0,110,1,4,4,0,0,0,0,0
+libpng,adbf1d6d1c,2017-01-19,590748f9,Fixed missing defines for VSX filter_sub,1,1,12,2,12,2,1,0,0,0,0,0,0,0,2,2,0,0,0,0,9,0,0,0,0,0
+libpng,9b0311a4d8,2017-01-19,590748f9,Implemented filter_sub optimisation for PowerPC VSX,1,1,109,5,109,5,0,0,0,0,0,0,0,0,2,1,0,0,0,0,65,0,0,0,0,0
+libpng,b455622aa8,2017-01-19,590748f9,Fixed potential bug on align calculation for VSX filter_up,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,34,0,0,1,0,0,0,0,0
+libpng,ccef5edbfe,2017-01-16,590748f9,Fixed bug with unaligned input on VSX filter_up,1,1,25,30,25,30,1,0,0,1,0,0,0,0,1,2,0,34,0,0,15,0,0,0,0,0
+libpng,91acd4baf8,2017-01-15,590748f9,Implemented png_read_filter_up_vsx,1,1,41,16,41,16,0,0,0,3,0,0,0,0,0,0,0,28,0,0,20,0,0,0,0,0
+libpng,2b6e59d968,2017-01-14,590748f9,Added initial code for PowerPC VSX optimisation,7,5,445,2,394,2,0,0,0,1,1,0,0,0,8,0,0,14,0,0,250,0,0,0,0,0
+libpng,ae794eefaa,2017-01-12,4c222d47,[libpng16] Bump version to 1.6.29beta02,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,8c6c9e6d56,2017-01-12,4c222d47,"[libpng16] Update credits to include Google Inc, for the Intel/SSE patch.",12,6,66,24,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,bef76802de,2017-01-05,4c222d47,[libpng16] Moved SSE2 optimization code into the main libpng source directory.,8,4,80,367,71,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,0,0,0,0,0
+libpng,4ddac468c4,2017-01-05,4c222d47,[libpng16] Bump version to 1.6.29beta01,29,6,72,73,20,20,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,0a181e1665,2017-01-05,4c222d47,[master] Imported from libpng-1.6.28.tar,30,6,130,111,34,41,0,0,0,2,0,0,0,0,0,0,0,16,0,0,16,0,0,1,0,0
+libpng,17ad597dba,2017-01-05,4c222d47,[libpng16] Imported from libpng-1.6.28.tar,27,6,66,75,18,18,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,93b3476358,2017-01-03,4c222d47,[libpng16] Imported from libpng-1.6.28rc03.tar,30,7,421,166,24,79,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,3785125faf,2017-01-03,4c222d47,[libpng16] Imported from libpng-1.6.28rc02.tar,25,4,66,59,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,edef058e18,2017-01-03,4c222d47,[libpng16] Moved SSE2 optimization code into the main libpng source directory.,10,4,123,367,71,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,0,0,0,0,0
+libpng,24dfd3f2d7,2017-01-03,4c222d47,[libpng16] Imported from libpng-1.6.28rc01.tar,25,4,58,58,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,f8bdbd4d8f,2017-01-02,4c222d47,"[libpng16] Changed png_ptr->options from a png_byte to png_uint_32, to",5,3,22,18,15,15,0,0,0,2,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,aa5bb2c3dd,2016-12-30,4c222d47,"[libpng16] Clean up LICENSE, mention CVE-2016-10087 in CHANGES.",4,1,6,11,2,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+libpng,b9b490c7f5,2016-12-30,4c222d47,[libpng16] Bump version to 1.6.28beta01,29,5,87,92,26,26,0,0,0,1,0,0,0,0,0,0,0,16,0,0,13,0,0,0,0,0
+libpng,e4b59e5583,2016-12-29,4c222d47,[master] Imported from libpng-1.6.27.tar,34,7,158,126,36,36,0,0,0,6,0,0,2,1,0,0,0,564,5,9,21,0,0,1,0,0
+libpng,812768d7a9,2016-12-29,4c222d47,[libpng16] Fixed a potential null pointer dereference in png_set_text_2(),3,1,5,0,1,0,1,0,0,1,0,0,1,0,0,0,0,135,1,1,1,0,0,0,0,0
+libpng,a3b5edc934,2016-12-29,4c222d47,[libpng16] Bump version to 1.6.27,29,7,67,74,19,19,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,0,0,0
+libpng,61a9a054fd,2016-12-27,4c222d47,[libpng16] Imported from libpng-1.6.27rc01.tar,27,5,99,63,21,16,0,0,0,2,0,0,1,0,0,0,0,53,1,6,15,0,0,1,0,0
+libpng,8187ba1518,2016-12-26,4c222d47,[libpng16] PNG_IGNORE_ALDLER32_SUPPORTED -> PNG_IGNORE_ADLER32 in pngtest.c,2,2,2,4,2,4,0,0,0,2,0,0,0,1,0,0,0,564,2,2,2,0,0,0,0,0
+libpng,dbb5fce3d8,2016-12-26,4c222d47,[libpng16] Control ADLER32 checking with new PNG_IGNORE_ADLER32 option.,6,4,30,22,25,17,0,0,0,5,0,0,2,1,0,0,0,564,4,10,16,0,0,0,0,0
+libpng,d65a92b951,2016-11-08,4c222d47,[libpng16] Revert ADLER32 error handling in pngrutil.c and pngpread.c.,4,2,7,18,2,15,0,0,0,2,0,0,0,2,0,0,0,79,2,2,2,0,0,0,0,0
+libpng,a69dd76eac,2016-11-02,4c222d47,[libpng16] Bump version to 1.6.27beta02,24,4,58,54,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,e36003e9b8,2016-11-02,4c222d47,[libpng16] Imported from libpng-1.6.27beta01.tar,16,3,35,32,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,2accfbd6f3,2016-10-28,4c222d47,[libpng16] Restrict the new ADLER32-skipping to IDAT chunks.  It broke iCCP,3,1,7,2,3,2,0,0,0,1,0,0,1,0,0,0,0,50,1,2,2,0,0,0,0,0
+libpng,858cb585d7,2016-10-28,4c222d47,[libpng16] Bump version to 1.6.27beta01,32,7,79,105,21,21,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,35cbe7640b,2016-10-19,4c222d47,[master] Imported from libpng-1.6.26.tar,62,20,611,452,405,348,0,0,0,59,0,0,11,1,0,0,0,623,39,225,335,0,0,1,0,0
+libpng,0c440812db,2016-10-19,4c222d47,[libpng16] Imported from libpng-1.6.26.tar,42,17,96,108,30,30,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,436ce2c6e9,2016-10-17,4c222d47,[libpng16] Bump version to 1.6.26rc02,34,3,68,67,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+libpng,a1312f7b19,2016-10-16,4c222d47,"[libpng16] Cosmetic change ""ptr != 0"" to ""ptr != NULL"" in png.c and pngrutil.c",2,2,8,8,8,8,0,0,0,3,0,0,0,0,0,0,0,170,2,5,8,0,0,0,0,0
+libpng,01e99bbac1,2016-10-12,4c222d47,[libpng16] Imported from libpng-1.6.26rc01.tar,25,4,65,63,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,dd6d7f031f,2016-10-07,4c222d47,[libpng16] Bump version to 1.6.26beta07,24,4,58,54,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,f7fe4db91b,2016-10-07,4c222d47,[libpng16] Imported from libpng-1.6.26beta06.tar,13,3,25,25,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,a106899acd,2016-10-07,4c222d47,[libpng16] Use zlib-1.2.8.1 inflateValidate() instead of inflateReset2() to,3,1,9,5,2,2,0,0,0,1,0,0,0,0,0,0,0,49,1,2,2,0,0,0,0,0
+libpng,ffaeff82d3,2016-10-05,4c222d47,[libpng16] Bump version to 1.6.26beta06,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,13bdd8bcdf,2016-10-05,4c222d47,[libpng16] Imported from libpng-1.6.26beta05.tar,18,5,33,35,12,12,0,0,0,3,0,0,0,0,0,0,0,141,2,4,7,0,0,1,0,0
+libpng,7d7694ae6a,2016-10-05,4c222d47,[libpng16] Changed integer constant 4294967294 to unsigned 4294967294U in pngconf.h,3,1,10,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+libpng,b3540f9932,2016-10-03,4c222d47,[libpng16] Bump version to 1.6.26beta05,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,565a751ca2,2016-10-02,4c222d47,"[libpng16] Quieted (bogus?) clang warnings about ""absolute value has no effect"".",1,1,8,8,8,8,0,0,0,5,0,0,0,0,0,0,0,121,2,3,8,0,0,0,0,0
+libpng,b7b59b7fe9,2016-10-02,4c222d47,[libpng16] Bump version to 1.6.26beta04,25,4,64,60,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,890611200a,2016-10-02,4c222d47,[libpng16] Imported from libpng-1.6.26beta03.tar,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+libpng,761d833372,2016-10-02,4c222d47,[libpng16] Quieted all remaining -Wconversion compiler warnings,8,6,72,54,58,50,0,0,0,19,0,0,4,0,0,0,0,623,16,51,56,0,0,0,0,0
+libpng,3875d9af4c,2016-10-02,4c222d47,[libpng16] Quieted 45 (out of 86 remaining) -Wconversion compiler warnings,9,7,91,80,81,76,0,0,0,21,0,0,3,0,0,0,0,458,13,69,78,0,0,0,0,0
+libpng,ad3318ddc8,2016-10-01,4c222d47,[libpng16] Bump version to 1.6.26beta03,30,7,70,66,18,18,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,7184475a98,2016-10-01,4c222d47,[libpng16] Imported from libpng-1.6.26beta02.tar,14,3,26,25,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,b5b77a72b4,2016-09-30,4c222d47,"Revert ""[libpng16] Quieted about 100 warnings from clang-3.8 in pngtrans.c, pngread.c,""",6,2,21,24,11,11,0,0,0,5,0,0,0,0,0,0,0,237,5,11,11,0,0,0,0,0
+libpng,97dfccb632,2016-09-30,4c222d47,"[libpng16] Quieted about 100 warnings from clang-3.8 in pngtrans.c, pngread.c,",6,2,24,21,11,11,0,0,0,5,0,0,0,0,0,0,0,237,5,11,11,0,0,0,0,0
+libpng,319c9852bf,2016-09-30,0004718a,Unsigned overflow,6,4,52,21,25,7,1,0,0,6,0,0,0,0,0,0,0,237,6,7,11,1,0,0,0,0
+libpng,1b363fa6b0,2016-09-30,4c222d47,[libpng16] Quieted 116 (out of 288) -Wconversion compiler warnings by changing,5,3,18,16,12,12,0,0,0,11,0,0,0,0,0,0,0,121,3,3,12,0,0,0,0,0
+libpng,fa24421216,2016-09-30,4c222d47,[libpng16] Quieted 74 (out of 288) -Wconversion compiler warnings by changing,3,1,86,82,82,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,0,0,0,0,0
+libpng,d84fd77bf8,2016-09-30,4c222d47,[libpng16] Quieted a warning from clang-3.8 in pngtrans.c.,3,1,7,5,2,2,0,0,0,1,0,0,0,0,0,0,0,67,1,1,1,0,0,0,0,0
+libpng,394be58371,2016-09-26,4c222d47,[libpng16] Bump version to 1.6.26beta02,24,4,57,53,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,217546ae43,2016-09-26,4c222d47,[libpng16] Imported from libpng-1.6.26beta01.tar,15,5,27,27,10,10,0,0,0,2,0,0,0,0,0,0,0,53,1,1,4,0,0,1,0,0
+libpng,8aa1638ccc,2016-09-26,4c222d47,[libpng16] Add tests/badcrc.png and tests/badadler.png to tests/pngtest.,6,1,54,53,43,50,0,0,0,4,0,0,1,1,0,0,0,563,3,32,37,0,0,0,0,0
+libpng,89ea081433,2016-09-25,4c222d47,"[libpng16] If CRC handling of critical chunks has been set to PNG_CRC_QUIET_USE,",3,1,26,16,19,13,0,0,0,2,0,0,2,0,0,0,0,87,2,15,15,0,0,0,0,0
+libpng,7835716cef,2016-09-19,4c222d47,"[libpng16] Changed PNG_ZLIB_VERNUM to ZLIB_VERNUM in pngpriv.h, pngstruct.h,",5,3,14,10,7,7,0,0,0,2,0,0,0,0,0,0,0,84,2,4,7,0,0,0,0,0
+libpng,cb1787f033,2016-09-11,4c222d47,[libpng16] Conditionally compile png_set_benign_error in pngtest.c,1,1,6,4,6,4,0,0,0,1,0,0,1,0,0,0,0,562,1,6,6,0,0,0,0,0
+libpng,1842d7c865,2016-09-11,4c222d47,[libpng16] Issue a png_benign_error instead of a png_error on ADLER32 mismatch,4,2,18,4,12,2,0,0,0,2,0,0,2,0,0,0,0,84,2,12,12,0,0,0,0,0
+libpng,bc2bb96cd7,2016-09-11,4c222d47,[libpng16] Conditionally compile png_set_benign_errors() in pngread.c,3,1,7,3,2,0,0,0,0,1,0,0,0,0,0,0,0,37,0,0,2,0,0,0,0,0
+libpng,5cb1700702,2016-09-03,4c222d47,[libpng16] Update CHANGES and ANNOUNCE and last-changed date in pngset.c,3,1,8,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,7dc0329250,2016-09-02,0004718a,[libpng16] png_set_pCAL: do not png_error on read,1,1,17,5,17,5,0,0,0,1,0,0,1,0,0,0,0,84,1,17,17,0,0,0,0,0
+libpng,c9d7b865b6,2016-08-31,4c222d47,[libpng16] Bump version to 1.6.26beta01,30,6,74,75,19,19,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,eb5cdf0c64,2016-08-31,4c222d47,[master] Imported from libpng-1.6.25.tar,39,9,1485,255,1094,60,0,0,0,6,5,0,2,0,9,0,0,562,4,35,888,0,0,1,0,0
+libpng,e3a6631123,2016-08-31,4c222d47,[libpng16] Imported from libpng-1.6.25.tar,30,8,70,91,21,21,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,434aecf327,2016-08-30,4c222d47,[libpng16] Bump version to 1.6.25rc06,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,42e5441888,2016-08-30,4c222d47,[libpng16] Bump version to 1.6.25rc05,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,01b6ca34b7,2016-08-30,4c222d47,[libpng16] Imported from libpng-1.6.25rc04.tar,13,3,25,25,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,4ade4e8a0d,2016-08-30,4c222d47,[libpng16] Updated CHANGES and ANNOUNCE,5,3,10,6,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,d1f14c829a,2016-08-30,eca80faa,Added MIPS MSA optimization for following functions:     1. png_read_filter_row_sub4_msa     2. png_,3,3,654,3,654,3,0,0,0,1,4,0,0,0,6,0,0,32,1,12,586,0,0,0,0,0
+libpng,2e2330bf25,2016-08-29,4c222d47,[libpng16] Bump version to 1.6.25rc04,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,000f07bfbe,2016-08-29,4c222d47,[libpng16] Bump version to 1.6.25rc03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,2e7c3a6e70,2016-08-29,4c222d47,[libpng16] Imported from libpng-1.6.25rc02.tar,26,6,47,47,11,11,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,05a4db1fcd,2016-08-29,4c222d47,"[libpng16] Update CHANGES, ANNOUNCE with entry about MIPS support",5,2,31,23,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+libpng,ee5e39835c,2016-08-29,eca80faa,Added build support for MIPS MSA Also added one msa optimized function: png_read_filter_row_up_msa,8,4,544,7,344,4,0,0,0,0,1,0,0,0,2,0,0,0,0,0,224,0,0,0,0,0
+libpng,143434ac78,2016-08-18,4c222d47,[libpng16] Bump version to 1.6.25beta03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,4dc4b2efac,2016-08-18,4c222d47,[libpng16] Imported from libpng-1.6.25beta02.tar,16,3,31,29,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,2705f55221,2016-08-12,4c222d47,[libpng16] Bump version to 1.6.25beta02,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,4679be7c2b,2016-08-12,4c222d47,[libpng16] Imported from libpng-1.6.25beta01.tar,14,4,31,28,10,10,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,935676cdad,2016-08-12,4c222d47,[libpng16] Revert use of png_malloc_array in iCCP chunk reader,1,1,4,4,4,4,0,0,0,2,0,0,0,0,0,0,0,172,1,3,4,0,0,0,0,0
+libpng,8ff2ed2fe1,2016-08-11,4c222d47,[libng16] Conditionally compile png_inflate().  It's not needed for iCCP,3,1,6,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,6bdaf38d12,2016-08-10,4c222d47,[libpng16] Revert change to png_malloc_array().  It's not needed,3,1,2,9,2,5,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+libpng,92a7c79db2,2016-08-10,0004718a,[libpng16] Reject oversized iCCP profile length,5,3,85,38,78,35,0,0,0,5,0,0,2,0,1,0,0,562,4,35,67,0,0,0,0,0
+libpng,19fefd3a4b,2016-08-10,4c222d47,[libpng16] Return NULL from png_malloc_array() with a warning instead of calling,4,2,19,10,10,7,0,0,0,3,0,0,0,0,0,0,0,172,1,3,8,0,0,0,0,0
+libpng,cdc0e74ee6,2016-08-03,4c222d47,[libpng16] Bump version to 1.6.25beta01,27,4,68,118,16,16,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,0c29ab2b31,2016-08-03,4c222d47,[master] Imported from libpng-1.6.24.tar,67,23,4148,1269,1233,1063,0,2,2,179,0,0,6,3,4,0,0,561,86,637,991,0,0,1,0,0
+libpng,b50d5cea2b,2016-08-03,4c222d47,[libpng16] Imported from libpng-1.6.24.tar,47,21,86,109,34,34,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,3d3c23b39f,2016-08-02,4c222d47,[libpng16] Bump version to 1.6.24rc04,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,2bb9ee89fa,2016-08-02,4c222d47,[libpng16] Imported from libpng-1.6.24rc03.tar,13,3,25,25,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,96db0fff50,2016-08-02,4c222d47,[libpng16] Conditionally compile ARM_NEON headers in pngpriv.h,4,1,20,12,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0
+libpng,99663e95f8,2016-08-01,4c222d47,[libpng16] Bump version to 1.6.24rc03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,1153ddccb6,2016-08-01,4c222d47,[libpng16] Imported from libpng-1.6.24rc02.tar,23,4,50,50,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,8d091a640b,2016-08-01,4c222d47,[libpng16] Conditionally compile png_decompress_chunk().,3,1,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+libpng,faa3e537e1,2016-07-25,4c222d47,[libpng16] Imported from libpng-1.6.24rc01.tar,26,4,65,64,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,d1f9149d8a,2016-07-19,4c222d47,[libpng16] Bump version to 1.6.24beta07,25,4,62,58,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,ee079481c9,2016-07-19,4c222d47,[libpng16] Imported from libpng-1.6.24beta06.tar,17,4,35,32,9,9,0,0,0,2,0,0,0,0,0,0,0,16,0,0,4,0,0,1,0,0
+libpng,639b48625f,2016-07-15,4c222d47,[libpng16] Eliminated unnecessary tests of boolean png_isaligned() vs 0.,3,1,4,2,2,2,0,0,0,1,0,0,0,0,0,0,0,219,1,2,2,0,0,0,0,0
+libpng,dd70604cec,2016-07-15,4c222d47,[libpng16] Fixed more indentation,19,17,606,601,601,598,1,1,1,164,0,0,3,2,0,0,0,561,77,387,561,0,0,0,0,0
+libpng,baed0e32f9,2016-07-14,4c222d47,[libpng16] Bump version to 1.6.24beta06,25,4,62,58,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,0fd9a249de,2016-07-13,4c222d47,"[libpng16] Update ""last changed"" dates",6,6,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,7a18a2de59,2016-07-13,4c222d47,[libpng16] Undo bad indentation change in example.c,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,5d7c7d5132,2016-07-13,4c222d47,[libpng16] Fixed a harmless typo in pngwutil.c,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,121,1,1,1,0,0,0,0,0
+libpng,192e92d681,2016-07-13,4c222d47,[libpng16] Fixed some indentation to comply with our coding style.,12,10,423,416,418,413,0,1,1,16,0,0,1,0,0,0,0,559,10,217,288,0,0,0,0,0
+libpng,1b9f4817c8,2016-07-08,4c222d47,[libpng16] Bump version to 1.6.24beta05,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,d9940f6207,2016-07-08,4c222d47,[libpng16] Imported from libpng-1.6.24beta04.tar,16,3,29,29,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,f7d5419816,2016-07-08,4c222d47,[libpng16] Avoid filter-selection heuristic sum calculations in cases where,3,1,115,10,104,9,0,0,0,1,0,0,0,0,4,0,0,121,1,4,80,0,0,0,0,0
+libpng,9928ee0a52,2016-07-04,4c222d47,[libpng16] Bump version to 1.6.24beta04,23,4,52,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,66f796e74c,2016-07-04,4c222d47,[libpng16] Imported from libpng-1.6.24beta03.tar,18,3,45,33,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,80495124b2,2016-07-03,4c222d47,[libpng16] Don't call png_icc_set_sRGB() when it's not compiled.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,172,1,2,2,0,0,0,0,0
+libpng,2c21a4778d,2016-07-02,4c222d47,[libpng16] Relocated misplaced #endif in png.c sRGB profile checking.,3,1,9,9,4,6,0,0,0,3,0,0,0,0,0,0,0,17,1,1,4,0,0,0,0,0
+libpng,b733c50bc0,2016-07-01,4c222d47,[libpng16] Updated CHANGES and ANNOUNCE,6,2,15,11,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,0ac91cc657,2016-07-01,0004718a,pngcp: tool to copy PNG files,7,2,2344,3,8,2,0,0,0,1,0,0,1,0,0,0,0,47,1,5,8,0,0,0,0,0
+libpng,d9779744f9,2016-06-29,4c222d47,"[libpng16] Optimized absolute value calculation in filter selection, similar to",3,1,41,3,32,0,0,0,0,5,0,0,2,0,0,0,0,121,2,12,32,0,0,0,0,0
+libpng,d43f93ff93,2016-06-23,4c222d47,[libpng16] Bump version to 1.6.24beta03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,3f2879bf60,2016-06-23,4c222d47,[libpng16] Imported from libpng-1.6.24beta02.tar,34,5,149,134,14,14,0,0,0,2,0,0,0,0,0,0,0,120,1,1,9,0,0,1,0,0
+libpng,ee1e535298,2016-06-23,4c222d47,[libpng16] Bump version to 1.6.24beta03,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,4b4a9583b4,2016-06-23,4c222d47,[libpng16] Imported from libpng-1.6.24beta02.tar,24,5,111,128,15,13,0,0,0,2,0,0,0,0,0,0,0,120,1,1,5,0,0,1,0,0
+libpng,1df0ace0b4,2016-06-22,0004718a,Fix MSVC Level 2 warning,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,120,1,1,1,0,0,0,0,0
+libpng,147dc568da,2016-06-19,4c222d47,[libpng16] Backed out previous optimization; the compiler should handle that.,3,1,7,110,7,104,0,0,0,1,0,0,0,0,0,4,0,120,1,4,4,0,0,0,0,0
+libpng,29135161d7,2016-06-19,4c222d47,[libpng16] Avoid filter-selection heuristic sum calculations in cases where,3,1,110,7,104,7,0,0,0,1,0,0,0,0,4,0,0,120,1,4,80,0,0,0,0,0
+libpng,9c04f57cab,2016-06-19,0004718a,[libpng15] Corrected filter heuristic overflow handling.,3,1,54,24,21,21,1,0,0,1,0,0,0,1,0,0,0,120,1,11,11,1,0,0,0,0
+libpng,4a8105e925,2016-06-11,4c222d47,[libpng16] Bump version to 1.6.24beta02,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,51df269afe,2016-06-11,4c222d47,[libpng16] Imported from libpng-1.6.24beta01.tar,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+libpng,5c6b7e177c,2016-06-11,0004718a,[libpng16] Avoid potential overflow of the PNG_IMAGE_SIZE macro.  This macro,3,1,28,1,24,1,1,0,0,1,0,0,1,0,0,0,0,66,1,2,2,1,0,0,0,0
+libpng,428f5ddabd,2016-06-11,4c222d47,[libpng16] Bump version to 1.6.24beta01,30,6,80,90,20,20,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,a4b26efa1f,2016-06-11,0004718a,Change image size checks,1,1,24,1,24,1,0,0,0,1,0,0,1,0,0,0,0,66,1,2,2,0,0,0,0,0
+libpng,5a8b04137f,2016-06-09,4c222d47,[master] Imported from libpng-1.6.23.tar,37,11,637,250,57,42,0,0,0,7,1,0,4,0,0,0,0,166,6,26,35,0,0,1,0,0
+libpng,ed6db9d86b,2016-06-09,4c222d47,[libpng16] Imported from libpng-1.6.23.tar,31,9,68,77,20,20,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,6d4e4d0cce,2016-06-03,4c222d47,[libpng16] Imported from libpng-1.6.23rc02.tar,24,4,58,58,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,89158b9ad1,2016-06-03,4c222d47,[libpng16] Fixed undefined behavior in png_push_save_buffer(). Do not call,3,1,12,1,4,1,1,0,0,1,1,0,0,0,0,0,0,53,1,4,4,0,0,0,0,0
+libpng,1fdac25f66,2016-06-01,4c222d47,[libpng16] Imported from libpng-1.6.23rc01.tar,25,4,61,61,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,1017744c94,2016-06-01,4c222d47,"[libpng16] Added missing "")"" in pngerror.c (Matt Sarrett).",3,1,6,4,1,1,0,0,0,1,0,0,0,0,0,0,0,43,1,1,1,0,0,0,0,0
+libpng,f757d74898,2016-05-31,4c222d47,[libpng16] Moved sse2 prototype from pngpriv.h to contrib/intel/intel_sse.patch.,4,1,33,14,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,a201f859cd,2016-05-29,4c222d47,[libpng16] Bump version to 1.6.23beta02,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,84cc738166,2016-05-29,4c222d47,[libpng16] Imported from libpng-1.6.23beta01.tar,14,3,450,69,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,81f0273d54,2016-05-29,0004718a,[libpng16] Added tests in pngvalid.c to check zero-length IDAT chunks in various,3,1,24,8,18,8,0,0,0,2,0,0,2,0,0,0,0,88,2,11,11,0,0,0,0,0
+libpng,3f46c67c69,2016-05-29,0fba7264,[libpng16] Fixed the progressive reader to handle empty first IDAT chunk,3,1,17,9,8,6,1,0,0,1,0,0,1,0,0,0,0,166,1,5,5,0,0,0,0,0
+libpng,6c7459e455,2016-05-27,4c222d47,[libpng16] Ensure png_ptr->trans_values is set in png_set_tRNS().,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,42,1,2,2,0,0,0,0,0
+libpng,8d16725373,2016-05-27,4c222d47,[libpng16] Stop a potential memleak in png_set_tRNS() (Bug report by Ted Ying).,3,1,9,6,7,6,1,0,0,1,0,0,1,0,0,0,0,41,1,4,4,0,0,0,0,0
+libpng,4e34fd3b8a,2016-05-27,4c222d47,[libpng16] Bump version to 1.6.23beta01,30,6,79,132,20,20,0,0,0,1,0,0,0,0,0,0,0,16,0,0,11,0,0,0,0,0
+libpng,87c14c528a,2016-05-26,4c222d47,[master] Imported from libpng-1.6.22.tar,54,12,3008,511,488,153,0,0,0,20,2,0,6,0,4,0,0,345,10,91,268,0,0,1,0,0
+libpng,ac43a87820,2016-05-26,4c222d47,[libpng16] Imported from libpng-1.6.22.tar,40,9,110,176,23,23,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,474751e6b2,2016-05-18,4c222d47,[libpng16] Bump version to 1.6.22rc04,24,4,59,55,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,37ab4d946c,2016-05-18,4c222d47,[libpng16] Imported from libpng-1.6.22rc03.tar,26,4,66,64,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,add4581894,2016-05-16,4c222d47,[libpng16] Imported from libpng-1.6.22rc02.tar,23,4,50,50,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,1,0,0
+libpng,f6ca49c863,2016-05-14,4c222d47,[libpng16] Imported from libpng-1.6.22rc01.tar,25,4,63,61,15,15,0,0,0,1,0,0,0,0,0,0,0,16,0,0,9,0,0,1,0,0
+libpng,7fa1b5b26c,2016-05-05,4c222d47,[libpng16] Bump version to 1.6.22beta07,25,4,62,58,14,14,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,0794fee913,2016-05-05,4c222d47,[libpng16] Imported from libpng-1.6.22beta06.tar,16,3,33,32,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,830608b4b8,2016-04-27,4c222d47,[libpng16] Bump version to 1.6.22beta06,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,eefd9127ca,2016-04-27,4c222d47,[libpng16] Imported from libpng-1.6.22beta05.tar,16,3,29,29,8,8,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,0392e36e94,2016-04-19,4c222d47,[libpng16] Fixed typo (missing underscore) in #define PNG_READ_16_TO_8_SUPPORTED,3,1,13,9,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+libpng,a967818235,2016-04-19,4c222d47,[libpng16] Moved INTEL-SSE code from pngpriv.h to contrib/intel/intel_sse.patch.,5,1,152,52,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+libpng,fa551df95e,2016-04-11,4c222d47,[libpng16] Added PNG_FAST_FILTERS macro (defined as,5,1,48,28,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+libpng,daf2169797,2016-04-05,4c222d47,[libpng16] Bump version to 1.6.22beta05,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,e0acad59cb,2016-04-05,4c222d47,[libpng16] Imported from libpng-1.6.22beta04.tar,14,3,33,30,10,10,0,0,0,1,0,0,0,0,0,0,0,16,0,0,3,0,0,1,0,0
+libpng,edad4639cf,2016-03-09,4c222d47,[libpng16] Bump version to 1.6.22beta04,24,4,56,52,13,13,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+libpng,1a3fa1e091,2016-03-09,4c222d47,[libpng16] Imported from libpng-1.6.22beta03.tar,20,7,69,45,13,13,0,0,0,2,0,0,0,0,0,0,0,345,1,1,5,0,0,1,0,0
+libpng,9295264b6f,2016-03-07,4c222d47,[libpng16] Update CHANGES and ANNOUNCE,3,1,9,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+libpng,46c47291e8,2016-03-07,a48cec0b,gcc6: fix misleading indentation warning,3,2,28,28,19,19,1,0,0,2,0,0,0,0,0,0,0,237,1,14,19,0,0,0,0,0
+libpng,da9d1d7aa6,2016-02-19,4c222d47,[libpng16] Added pngdebug() statements to the new intel code and the arm code.,5,2,32,6,19,4,0,0,0,8,1,0,2,0,0,0,0,53,3,3,8,0,0,0,0,0
+libpng,f78d1cd47a,2016-02-18,4c222d47,[libpng16] Updated LICENSE to say files in the contrib directory are not,6,1,56,22,19,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+libpng,342c4eab2a,2016-02-18,e35281fe,Move sse opts into contrib/intel,7,3,73,44,10,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0
+libpng,9a308a3344,2016-02-17,e35281fe,Add intel opts to Makefile and configure.ac,5,3,67,15,27,15,0,0,0,2,0,0,0,0,0,0,0,7,0,0,24,0,0,0,0,0
+libpng,5bc58a0ebc,2016-02-16,e35281fe,"Use immintrin, tweak checks for SSE4, SSSE3",2,2,6,7,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+libpng,577c1f0305,2016-02-16,e35281fe,"Reformat a bit, add MSVS checks, add SSE4",3,3,120,82,120,82,0,0,0,7,0,0,0,0,4,0,0,27,0,0,67,0,0,0,0,0

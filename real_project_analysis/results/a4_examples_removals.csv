@@ -1,0 +1,9 @@
+repo,sha,func,nloc0,nloc1,ccn0,ccn1,subject
+jemalloc,b82333fdec,stats_arena_hpa_shard_print,196,7,8,1,Split `stats_arena_hpa_shard_print` function
+hiredis,634314f386,main,129,12,28,2,Rearrange tests to isolated functions
+tqdm,c032868a8e,__init__#4,109,6,35,1,"add `CallbackIOWrapper`, add tests"
+rich,9383774fd9,__rich_console__#9,85,9,26,5,Switching off links
+bottle,b9229eef97,run#22,82,6,32,3,Add ServerAdapter for CherryPy >= 9
+tqdm,2c440b63d0,__init__,81,5,24,2,rework warnings and error framework
+cJSON,9d1b229086,cJSON_Duplicate,71,4,15,1,Added max recusrion depth for cJSONDuplicate to prevent stack exhaustion in case of circular referen
+bottle,884ef30e1b,run#22,70,6,31,3,add aiohttp support

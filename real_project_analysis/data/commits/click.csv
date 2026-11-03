@@ -1,0 +1,701 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+click,9f0bcdf0d8,2026-09-23,4c100189,Add `Parameter.spec` and deprecate `human_readable_name`,7,1,266,26,121,12,0,0,0,8,0,0,0,0,5,1,0,59,2,2,100,0,0,0,0,0
+click,b90faad178,2026-09-22,4c100189,Deprecate a parameter name that Click 9.0 will refuse or lower case,6,1,871,5,90,4,0,0,0,2,0,0,1,0,3,0,0,58,1,7,67,0,0,0,0,0
+click,d036881798,2026-09-11,4c100189,"Revert ""Deprecate a parameter name that is not a Python identifier""",6,1,8,804,4,69,0,0,0,2,0,0,0,1,0,3,0,55,1,4,4,0,0,0,0,0
+click,e2bddbc801,2026-09-11,4c100189,Deprecate a parameter name that is not a Python identifier,6,1,804,8,69,4,0,0,0,2,0,0,1,0,3,0,0,57,1,6,51,0,0,0,0,0
+click,f67c2bb6c2,2026-09-11,4c100189,Fix short help abbreviation,3,1,49,34,20,32,1,0,0,1,0,1,0,0,0,0,0,18,1,12,12,0,0,0,0,0
+click,05f6fd0df4,2026-09-10,4c100189,Always return a help record for an `Argument`,3,1,29,8,12,8,0,0,0,2,0,0,0,0,0,0,0,5,0,0,11,0,0,0,0,0
+click,405a5481e4,2026-09-10,4c100189,Move common `help` argument from `Option` and `Argument` to `Parameter`,3,1,61,31,25,28,0,0,0,5,0,0,1,1,0,1,0,59,2,13,21,0,0,0,1,0
+click,f25f697a43,2026-09-10,4c100189,List every argument in the `Positional arguments` help section,5,1,99,9,12,8,0,0,0,1,0,0,0,0,0,0,0,8,0,0,11,0,0,0,0,0
+click,22177f857a,2026-09-08,4c100189,`path_type` narrows the converted value's type for `convert` and `prompt`,4,1,70,14,29,14,0,0,0,3,0,0,0,0,0,0,0,65,2,3,26,0,0,0,0,0
+click,271effb3d9,2026-09-02,4c100189,Add `Option.get_help_spec` to return the option's help left part,3,1,42,4,15,4,0,0,0,1,0,1,0,0,2,1,0,20,1,4,12,0,0,0,0,0
+click,fc518e4121,2026-08-31,4c100189,Fix race condition on `KeyboardInterrupt` arriving in `Command.main()`,4,1,273,37,52,24,1,0,0,1,0,0,1,0,1,0,0,56,1,22,25,0,1,0,0,0
+click,94f17e276f,2026-08-31,4c100189,Remove unused bindings and constants from `_winconsole`,1,1,0,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+click,f58ca3e814,2026-08-29,4c100189,"Fix `copy`, `deepcopy` and `pickle` of `Sentinel` members",3,1,60,0,9,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,6,0,0,0,0,0
+click,ce57b87ac4,2026-08-28,4c100189,Add FAQ entry about `edit()` returning immediately,2,1,32,0,10,0,0,0,0,1,0,0,0,0,0,0,0,19,1,8,8,0,0,0,0,0
+click,a1d87858ab,2026-08-19,4c100189,Add support of `pathlib.Path` to `edit`,5,2,47,11,20,9,0,0,0,2,0,0,1,0,0,0,0,22,1,13,19,0,0,0,0,0
+click,a6256bfb59,2026-08-19,4c100189,Forwards all user's parameters set in `PAGER`,3,1,227,12,50,11,0,0,0,3,0,0,1,0,1,0,0,43,1,8,34,0,0,0,0,0
+click,9835b0f761,2026-08-18,4c100189,"Resolve the pager command once, in `_pager_contextmanager`",1,1,64,87,64,87,0,0,0,5,0,0,0,1,1,0,0,40,1,4,38,0,0,0,0,0
+click,bc32a92cd2,2026-08-17,4c100189,Refactor pager stream handling; drop text/binary branching,5,2,113,80,59,61,0,0,0,7,0,0,0,1,4,1,0,58,1,3,43,0,0,0,0,1
+click,1f9cd54f68,2026-08-15,4c100189,Close the pager temp file before unlinking it,3,1,69,3,5,0,0,0,0,1,0,0,0,0,0,0,0,31,0,0,1,0,0,0,0,0
+click,f316d5cb3a,2026-08-15,4c100189,Land the progress bar on its final position,3,1,43,0,8,0,0,0,0,1,0,0,0,0,0,0,0,9,0,0,4,0,0,0,0,0
+click,a2ac5839f2,2026-08-13,4c100189,Open the pager temp file in text mode,3,1,77,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+click,047adef258,2026-07-31,4c100189,Preserve declaration order of help option names,3,1,63,4,11,4,0,0,0,1,0,0,0,0,0,0,0,6,0,0,9,0,0,0,0,0
+click,0f4738df88,2026-07-24,4c100189,Fix docs and changelog,11,5,33,21,7,7,0,0,0,3,0,0,0,0,0,0,0,41,2,3,6,0,0,0,0,0
+click,3b16957cba,2026-07-22,4c100189,Make `prompt`/`ParamType` typing work without runtime `typing_extensions`,9,2,174,61,71,45,0,0,0,1,0,0,0,1,1,1,0,46,1,14,54,0,0,0,0,0
+click,0585f456ba,2026-07-22,b5639218,`click.prompt` typing clarifications / improvements,6,2,105,25,89,25,0,0,0,5,0,0,2,0,1,0,0,55,2,34,76,0,0,0,0,0
+click,c2ed41490b,2026-07-20,4c100189,Deprecate `isolated_filesystem` and document its limits,10,1,291,165,26,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,22,0,0,0,0,0
+click,8ee83ddbf5,2026-07-17,4c100189,"Revert ""Deprecate `isolated_filesystem` and document its limits""",9,1,165,292,0,26,0,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0
+click,fbdd434028,2026-07-17,4c100189,Deprecate `isolated_filesystem` and document its limits,9,1,292,165,26,0,0,0,0,1,0,0,0,0,0,0,0,24,0,0,22,0,0,0,0,0
+click,051725fa7e,2026-07-17,8934baf4,Add tests to deprecations. Better deprecate streams.,5,2,48,25,15,16,0,0,0,3,0,0,0,0,2,2,0,56,1,4,14,0,0,0,0,0
+click,7a0a3447f6,2026-07-16,8934baf4,Mark clearly functions private status. Deprecated Python 2 utilities.,13,6,109,68,91,31,0,0,0,11,2,1,0,0,4,3,0,56,3,20,74,0,0,0,1,0
+click,8f300853dc,2026-07-11,4c100189,Streamline option flag management,2,1,234,160,229,160,0,0,0,9,2,0,0,2,7,0,0,56,2,19,167,0,0,0,0,0
+click,71f2bafa54,2026-07-09,4c100189,Strip all ANSI sequences,5,1,254,2,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3495fba163,2026-07-09,4c100189,Warn when an argument name collide with other parameters,6,1,172,4,44,2,0,0,0,2,1,0,0,0,0,0,0,44,1,25,31,0,0,0,0,0
+click,07c909f23f,2026-07-08,4c100189,"Validate style() color arguments, fix explicit black color argument",3,1,88,15,27,15,0,0,0,2,1,0,0,1,0,0,0,41,2,22,22,0,0,0,0,0
+click,13f075c4bd,2026-07-08,4c100189,Update documentation following Colorama removal,3,2,5,10,2,3,0,0,0,1,0,0,0,0,0,0,0,8,0,0,2,0,0,0,0,0
+click,9f9b149ea3,2026-07-07,4c100189,"Add `@custom_version_option`, freeze `@version_option`",5,2,84,0,53,0,0,0,0,1,0,0,0,0,2,0,0,30,1,8,42,0,0,0,0,0
+click,93ba0075f4,2026-07-01,4c100189,Strip ANSI from `confirm()` and `prompt()` when the stream don't support them,3,1,68,0,14,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,9,0,0,0,0,0
+click,6f85d26dcd,2026-06-27,4c100189,Do not trigger a `BytesWarning` under `python -bb`,2,1,27,1,2,1,0,0,0,1,0,0,1,0,0,0,0,65,1,2,2,0,0,0,0,0
+click,1ac08db953,2026-06-26,c3cd550e,Fix ruff E501 line-too-long in PowerShell template,1,1,5,3,5,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+click,27b3ee2633,2026-06-26,c3cd550e,Add built-in PowerShell shell completion support,4,1,157,1,95,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,70,0,0,0,0,0
+click,c4a6b57bb8,2026-06-22,1fdc3fcb,type-hint out varibale,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+click,748a34d01e,2026-06-22,1fdc3fcb,optimize split_arg_string with extend(...) instead of a for loop system.,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,1,0
+click,bec59289d8,2026-06-14,4c100189,Fix `package_name` resolution when top-level module differs from distribution name,3,1,115,6,30,6,1,0,0,2,0,0,0,0,0,0,0,39,1,26,26,0,0,1,0,0
+click,762c97eef7,2026-06-10,4c100189,Fix double-bracketing of choices in synopsis,3,1,48,1,6,1,1,0,0,1,0,0,0,0,0,0,0,14,0,0,2,0,0,0,0,0
+click,051bb0f30b,2026-06-03,4c100189,Do not let the GC close a borrowed `stdout`,4,2,112,27,52,27,0,0,0,5,0,0,1,0,0,4,0,59,1,4,31,0,0,0,0,0
+click,399919f740,2026-05-29,4c100189,Support incremental output in the pager,3,1,45,0,4,0,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+click,bff780ff9d,2026-05-29,4c100189,"Fix layout, align full version",1,1,4,1,4,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+click,684b3f5b51,2026-05-28,484d4617,Add help parameter to arguments,6,1,184,7,43,1,0,0,0,3,0,0,0,0,3,0,0,22,0,0,32,0,0,0,0,0
+click,665736bc85,2026-05-27,4c100189,Mark commands as optional in the synopsis,5,1,72,1,8,1,0,0,0,1,0,0,1,0,0,0,0,42,1,6,6,0,0,0,0,0
+click,88b8e313f7,2026-05-27,1de625e3,platform-dependent `testing.CaptureMode` type alias,1,1,4,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+click,7eb57cff7c,2026-05-27,4c100189,Fix pager test race by raising before yield,4,1,78,9,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+click,aef225df47,2026-05-25,1de625e3,Add type annotations for instance attributes in `formatting`,1,1,11,6,11,6,0,0,0,5,0,0,0,0,0,0,0,30,0,0,10,0,0,0,0,0
+click,9207bdc073,2026-05-25,1de625e3,Add type annotations for instance attributes in `exceptions`,1,1,42,11,42,11,0,0,0,7,0,0,0,0,0,0,0,17,0,0,30,0,0,0,0,0
+click,ea76281c3f,2026-05-25,1de625e3,Add type annotations for instance attributes in `shell_completion`,1,1,11,6,11,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0
+click,bb0cd175d5,2026-05-25,1de625e3,Static typing improvements in `click.shell_completion`,1,1,40,16,40,16,0,0,0,9,0,0,0,0,0,0,0,19,0,0,33,0,0,0,0,0
+click,d5da63588c,2026-05-25,1de625e3,Add type annotations for instance attributes in `click.core`,1,1,124,40,124,40,0,0,0,10,0,0,0,2,0,0,0,109,5,30,114,0,0,0,0,0
+click,e39679ab8d,2026-05-25,1de625e3,Add type annotations for instance attributes in `testing`,1,1,48,15,48,15,0,0,0,8,0,0,0,1,0,0,0,89,3,5,41,0,0,0,0,0
+click,9a2d169fcf,2026-05-25,1de625e3,fix generic typed dict `TypeError` on Python 3.10,1,1,40,11,40,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0
+click,77bd81f3f0,2026-05-25,1de625e3,`types`: fix variance issues and improve type coverage,1,1,117,81,117,81,1,0,0,24,0,0,0,0,0,0,0,32,3,12,108,0,0,0,0,0
+click,745464765a,2026-05-23,cbbf6e73,remove colorama,10,3,26,95,6,63,0,0,0,2,0,0,0,1,0,2,0,40,1,4,4,0,0,0,1,0
+click,82f377c547,2026-05-23,4c100189,Fix deprecated label formatting,4,1,35,2,3,2,1,0,0,2,0,0,0,0,0,0,0,111,1,1,3,0,0,0,0,0
+click,ddf20d0673,2026-05-23,4c100189,"Add changelog entry, fix admonition and add test",3,1,17,3,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+click,b7e5fd4cc7,2026-05-23,015da45f,Fix broken fish completion and multiline help string,2,1,14,65,11,15,1,0,0,1,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+click,c3535905c7,2026-05-23,015da45f,Fix broken fish completion and multiline help string,2,1,14,65,11,15,1,0,0,1,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+click,9c41f46a40,2026-05-21,4c100189,Fix changelog and version admonitions,9,6,35,12,19,5,0,0,0,3,0,0,0,0,0,0,0,40,0,0,16,0,0,0,0,0
+click,becbde5cf4,2026-05-21,2a35965b,pager doesn't close std streams,4,1,38,12,22,2,0,0,0,2,0,0,0,0,4,0,0,7,0,0,15,0,0,0,0,0
+click,4d3db84b25,2026-05-21,7bad13a9,handle empty bytes in echo,3,1,15,8,8,8,0,0,0,1,0,0,1,0,0,0,0,47,1,8,8,0,0,0,0,0
+click,0baa8db077,2026-05-21,4c100189,Document ctx.params bypass with test and doc,4,1,44,5,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,7d05a59b9d,2026-05-21,484d4617,Fix get_parameter_source() during type conversion and eager callbacks,4,1,196,5,9,5,1,0,0,1,0,0,0,0,0,0,0,50,1,3,3,0,0,0,0,0
+click,c6bf75fa74,2026-05-19,99ba33ae,Fixes windows specific error regarding spaces in filepaths for open_url.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,57,1,1,1,0,0,0,0,0
+click,32ae2acd34,2026-05-18,7e6906b8,choice shell autocompletion to use normalize_choice(),3,1,5,3,1,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+click,d15f3c23a1,2026-05-18,68cc522a,fix: Skip flaky pager test on macOS with free-threaded Python 3.14t,2,1,6,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+click,a3321c9ca1,2026-05-18,3ecacf17,Implement Unix line endings for shell completion output to ensure compatibility with Windows (#3277),3,1,20,2,3,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,2,0,0,0,0,0
+click,0551bf5358,2026-05-16,4c100189,Fix `HelpFormatter.write_usage` producing spurious characters,3,1,128,0,8,0,1,0,0,1,0,0,0,0,0,0,0,29,0,0,4,0,0,0,0,0
+click,fc41aa1d0b,2026-05-16,4c100189,Apply class-body annotations to `KeepOpenFile` for consistency,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+click,dbdae17087,2026-05-16,4c100189,Fix documentation,2,1,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+click,1aa2d53d63,2026-05-16,b5639218,Redesigned tests and get_pager_file branching to be more clear and not set color unknowingly.,2,1,117,112,23,11,0,0,0,1,0,0,0,0,1,0,0,10,0,0,11,0,0,0,0,0
+click,ad39d749be,2026-05-15,4c100189,Add `capture` parameter to `CliRunner` and revert default-mode `fileno` exposure,4,1,391,98,103,36,0,0,0,8,2,2,1,1,3,1,0,89,5,21,82,0,0,0,0,0
+click,c040135a74,2026-05-15,4c100189,Deduplicate deprecated label translation,2,1,30,32,26,32,0,0,0,5,0,0,0,1,2,0,0,111,1,2,22,0,0,0,0,1
+click,0039359443,2026-05-15,74bf8e59,Add missing space between option help text and deprecation label (#3423),1,1,5,1,5,1,0,0,0,1,0,0,1,0,0,0,0,119,1,5,5,0,0,0,0,0
+click,2fdde68324,2026-05-15,4c100189,Cleanup #3126,3,1,11,10,9,8,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,1
+click,0f71fe771c,2026-05-15,4c100189,Fix dual-option arbitration to respect explicit defaults,4,1,991,15,46,11,1,0,0,3,1,0,2,0,0,0,0,89,3,26,26,0,0,0,0,0
+click,279ce7b016,2026-05-12,1de625e3,Add type annotations for instance attributes in `utils`,1,1,12,4,12,4,0,0,0,1,0,0,0,1,0,0,0,20,1,2,10,0,0,0,0,0
+click,d946074a8f,2026-05-12,4c100189,Rewrite `_wrap_chunks` in `TextWrapper` to be ANSI-aware,4,2,214,2,145,2,0,0,0,2,1,0,0,0,2,0,0,40,0,0,121,0,0,0,0,0
+click,61bdc2ae81,2026-05-08,4c100189,Implement a regex-based solution to hide hidden input,2,1,162,21,24,17,0,0,0,1,0,0,0,1,1,0,0,46,1,2,19,0,0,0,0,0
+click,a09c1c655e,2026-05-08,58bdd34d,fix: show custom error message in prompt with hide_input=True,3,1,73,1,14,1,1,0,0,1,0,0,1,0,0,0,0,55,1,8,8,0,0,0,0,0
+click,fc6c7c47ed,2026-05-08,208333aa,`FuncParamType` should use `ValueError` message in `self.fail()` (#3211),3,1,30,6,9,6,0,0,0,1,0,0,0,0,0,0,0,13,0,0,8,0,0,0,0,0
+click,5b9630f50f,2026-05-08,fc12e86d,Localisation of more strings (#2902),9,9,54,32,54,32,0,0,0,15,0,0,2,0,0,0,0,55,3,20,54,0,0,0,0,0
+click,73e1550065,2026-05-04,4c34023a,Fix sentinel typing and its uses in parser (#3396),3,3,17,16,17,16,1,0,0,5,0,0,1,0,0,0,0,36,1,1,17,0,0,0,0,0
+click,831c8f0948,2026-04-30,af27a838,Add NoSuchCommand exception with suggestions for misspelled commands (#3228),7,4,86,22,48,18,0,0,0,9,0,0,0,0,3,0,0,17,0,0,40,0,0,0,0,0
+click,19fd4d6e18,2026-04-30,4944e8d8,Fix: Ensure fish completion handles multiline help strings correctly (#3126),4,1,71,8,18,5,1,0,0,1,0,0,0,0,0,0,0,5,0,0,17,0,0,0,0,0
+click,c69643b60c,2026-04-30,3a867e60,Add file-like pager: `click.get_pager_file()` (#1572),7,4,138,74,119,74,0,0,1,6,0,1,1,0,5,1,0,57,1,14,97,0,0,0,0,0
+click,c5cced7b30,2026-04-30,a26dddb4,"fix: `_termui_impl.open_url()` — 'start' on Windows is a cmd built-in, not an executable (#3186)",2,1,12,10,9,10,1,0,0,1,0,0,0,0,0,0,0,57,1,9,9,0,0,0,0,0
+click,2468b70997,2026-04-30,9b50fad3,Fix readline backspace/line-wrapping on linux (#2969),3,1,74,21,24,12,1,0,0,3,0,0,0,1,1,0,0,48,2,2,17,0,0,0,0,0
+click,ddede2147c,2026-04-30,4c34023a,`Parameter` typing improvements (#2805),4,3,46,44,37,44,0,0,0,23,1,1,0,0,0,2,0,115,8,11,36,0,0,0,0,0
+click,d2e4a42ff4,2026-04-30,9d88205a,Extract `_guess_type` from `convert_type` and add overloads (#3372),1,1,69,34,69,34,0,0,0,1,0,0,0,1,1,0,0,28,1,17,48,0,0,0,1,0
+click,3a3e0350b6,2026-04-27,4c100189,Split string values from `default_map` for multi-value parameters,5,1,75,0,5,0,0,0,0,1,1,0,0,0,0,0,0,27,1,2,2,0,0,0,1,0
+click,78a4efcdce,2026-04-27,4c100189,Make `FuncParamType` is generic,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+click,3e2d92c590,2026-04-27,4c100189,Eliminate one type ignore,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+click,6e981edefa,2026-04-27,4c34023a,Narrow down type ignore,1,1,10,8,10,8,0,0,0,1,1,0,0,0,0,0,0,27,1,10,10,0,0,0,0,0
+click,e3c0898975,2026-04-22,cbbf6e73,add codespell pre-commit hook,11,3,26,21,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,5989375dc3,2026-04-22,4c34023a,ParamType typing improvements,5,3,159,95,139,95,0,0,0,27,0,0,0,0,0,1,0,107,5,7,123,0,0,0,0,0
+click,1241abaed4,2026-04-21,4c100189,Use non-shadowed help option name in error hint,3,1,76,1,5,1,0,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+click,4e4c7a69b7,2026-04-21,4c100189,Auto-detect `type=UNPROCESSED` when `flag_value` has non-basic types,3,1,92,19,21,2,0,0,0,1,0,0,1,0,0,0,0,115,1,9,15,0,0,0,0,0
+click,bb59ba0fd2,2026-04-16,4c100189,Apply format guidelines to commits since latest 8.3.2 release,9,3,178,82,16,22,0,0,0,1,0,0,0,0,0,0,0,9,0,0,10,0,0,0,0,0
+click,ac5cec5fe5,2026-04-16,4c100189,Reorder ParameterSource from most to least explicit,4,2,56,13,24,13,0,0,0,2,0,0,0,1,0,0,0,38,1,3,20,0,0,0,0,0
+click,790ebd665c,2026-04-14,4c100189,Mark `make_default_short_help` as private API,2,1,5,1,4,1,0,0,0,1,0,0,0,0,0,0,0,28,1,3,3,0,0,0,1,0
+click,8762c7752c,2026-04-14,4c100189,Expose original file descriptor in `CliRunner`,4,1,137,6,59,6,0,0,0,3,1,0,1,0,2,0,0,94,2,21,46,0,0,0,0,0
+click,39413d9b1d,2026-04-13,4c100189,Test `show_default` set as string and its display in prompt,3,1,55,12,3,2,0,0,0,1,0,0,0,0,0,0,0,48,1,3,3,0,0,0,0,0
+click,607316f9de,2026-04-13,0ef9c8fb,Support show_default string in prompts,5,2,39,5,12,5,0,0,0,3,0,0,1,0,0,0,0,48,2,8,9,0,0,0,0,0
+click,c653ec8200,2026-04-13,4c100189,Reconcile default value passing and default activation,5,1,165,15,24,5,0,0,0,1,0,0,0,0,0,0,0,9,0,0,21,0,0,0,0,0
+click,b55294797e,2026-04-10,4c100189,"Add path normalization edge-cases, verify `shlex.split` behavior",2,1,119,32,10,28,0,0,0,2,0,0,0,0,0,0,0,30,1,1,2,0,0,0,1,0
+click,4f9086bf8f,2026-04-09,4c100189,Patch `pdb` in `CliRunner` to allow debugger interactions in tests,4,1,100,0,45,0,0,0,0,1,0,0,1,0,1,0,0,86,1,38,39,0,0,0,0,0
+click,6de2121518,2026-04-09,4c100189,Treat `UNSET` in a `default_map` as absent,3,1,47,12,24,12,0,0,0,3,0,0,0,0,1,0,0,25,0,0,21,0,0,0,0,0
+click,b96c2601af,2026-04-08,4c100189,Document and fix command string sanitizing with `shlex.split`,3,1,170,14,51,14,1,0,0,5,0,0,0,0,0,0,0,54,2,27,42,1,0,0,1,0
+click,d340b0c120,2026-04-08,4c100189,Fix speculative speculative empty string check,2,1,29,5,1,1,1,0,0,1,0,0,1,0,0,0,0,64,1,1,1,0,0,0,0,0
+click,bb7be1f6a9,2026-03-02,4c100189,"Revert ""Use `default=True` as a sentinel for non-boolean flags""",1,1,5,25,5,25,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+click,6c4a77ba24,2026-03-02,4c100189,Use `default=True` as a sentinel for non-boolean flags,1,1,25,5,25,5,0,0,0,1,0,0,0,0,0,0,0,9,0,0,22,0,0,0,0,0
+click,546f2851f4,2026-03-01,4c100189,Fix callable ``flag_value`` being instantiated when used as a default,4,1,234,9,20,6,1,0,0,1,0,0,0,1,1,0,0,107,1,0,9,0,0,0,0,0
+click,d8e987eae7,2026-02-28,79f60a7d,NamedTextIOWrapper: stop closing buffer,3,1,36,12,9,12,0,0,0,0,0,0,0,0,1,1,0,0,0,0,7,0,0,0,0,0
+click,aaf99a3ee6,2026-02-20,4c100189,Hide `Sentinel.UNSET` values as `None` in `lookup_default()`,3,1,164,6,11,6,0,0,0,3,0,0,0,0,0,0,0,27,0,0,11,0,0,0,0,0
+click,955ca492a6,2025-11-19,bbf08d79,Cleanup changes to fix flag_value bug,3,1,40,34,4,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+click,91de59c6c8,2025-11-19,c4138752,Fix #3084: Correct flag optional value behavior and add comprehensive tests,3,1,49,3,10,3,1,0,0,1,0,0,1,0,0,0,0,109,1,1,4,0,0,0,0,0
+click,437e1e3295,2025-11-12,4c100189,Temporarily provide a fake context to the callback to hide `UNSET` values as `None`,3,1,143,1,31,1,0,0,0,1,1,0,0,0,0,0,0,26,1,14,14,0,0,0,0,0
+click,34723d12b1,2025-09-30,842f6477,Fix _pipepager()/_tempfilepage() to work with multi-call binaries,1,1,9,4,9,4,1,0,0,2,0,0,0,0,0,0,0,54,1,1,2,0,0,0,0,0
+click,18d29196c5,2025-09-25,bbf08d79,Ensure that 'type_cast_value' never gets 'UNSET',4,1,102,9,27,9,0,0,0,2,0,0,0,0,1,1,0,16,0,0,13,0,0,0,0,0
+click,27de74af68,2025-09-25,739b300f,Shorten the docstring annotations for confirm and prompt,1,1,2,10,2,10,0,0,0,2,0,0,0,0,0,0,0,48,2,2,2,0,0,0,0,0
+click,1c9fc6df7c,2025-09-25,739b300f,Add details to `prompt` and `confirm` docstrings regarding 8.3.1 change,1,1,14,0,14,0,0,0,0,2,0,0,0,0,0,0,0,48,2,12,12,0,0,0,0,0
+click,ce7b47dfc9,2025-09-24,bbf08d79,Update comments on UNSET handling during parse_args,1,1,9,5,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,1c20dc6e72,2025-09-24,bbf08d79,Fix default handling to defer UNSET normalization,2,1,37,5,11,5,1,0,0,2,0,0,0,0,0,0,0,38,0,0,5,0,0,0,0,0
+click,5fc3423ae5,2025-09-24,4c100189,Hide UNSET values in Context.invoke,3,1,50,12,11,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,4,0,0,0,0,0
+click,6e4585d77c,2025-09-19,e4076931,Make `uv run --all-extras pyright --verifytypes click` pass,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,109,2,2,2,0,0,0,0,0
+click,7db1f209b0,2025-09-13,1e598b64,Popen() list-arg pager process without shell=True,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,54,1,1,1,0,0,0,0,0
+click,555fa9bb37,2025-09-12,9f88befe,#2447 Forward exception data to exit stack when calling `__exit__`,1,1,22,3,22,3,0,0,0,2,0,0,0,0,1,0,0,12,0,0,18,0,0,0,0,0
+click,a2456134ec,2025-08-26,4c100189,Tone-down the case of `default=True` for flags,5,1,33,51,13,29,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,9c079247f9,2025-08-24,4c100189,Regroup sentinels,3,3,24,14,24,14,0,0,0,2,0,0,0,0,0,0,0,38,1,3,19,0,0,0,0,0
+click,b9abeaa315,2025-08-23,4c100189,Hint at the concepts carried by default,1,1,10,0,10,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,029bbeda76,2025-08-23,4c100189,Hide UNSET in the callback,3,1,9,9,7,6,0,0,0,1,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+click,96e4c75990,2025-08-23,4c100189,Add explanation for the casting,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,abaef53bab,2025-08-23,4c100189,Typing,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+click,4f70b379b5,2025-08-23,4c100189,Fix typing,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+click,7f4fa21aa7,2025-08-23,4c100189,Lint,2,1,19,15,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,06847da912,2025-08-23,4c100189,Support legacy case of default aligning to flag_value for flag whose default=True,6,1,148,54,28,0,0,1,0,1,0,0,1,0,0,0,0,109,1,2,8,0,0,0,0,0
+click,0acca45214,2025-08-23,4c100189,Mark recently documented methods as private,1,1,23,8,23,8,0,0,0,9,0,0,0,0,0,0,0,38,1,3,14,0,0,0,1,0
+click,e9e50023f8,2025-08-21,4c100189,Do not mention UNSET,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+click,11bfb2c9e2,2025-08-21,4c100189,Remove assertion already covered by the type annotation,1,1,0,2,0,2,0,0,0,1,0,0,0,1,0,0,0,33,1,0,0,0,0,0,1,0
+click,8386598a77,2025-08-21,4c100189,Typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+click,2fbc8b1ea9,2025-08-21,4c100189,Reduce unnecessary changes,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,1
+click,2d1ceffe93,2025-08-21,4c100189,Rework method documentation,3,1,43,30,41,28,0,0,0,1,0,0,0,0,0,0,0,38,0,0,28,0,0,0,0,0
+click,f561f1880e,2025-08-21,4c100189,Do not mention UNSET and keep the change entry small,1,1,5,8,5,8,0,0,0,1,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+click,b39590fd85,2025-08-21,4c100189,Make the source selection logic clearer,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,60feda3c92,2025-08-21,4c100189,Do not mention UNSET,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,25,0,0,1,0,0,0,0,0
+click,cf0e5242b3,2025-08-21,4c100189,Keep the change entry concise,1,1,6,8,6,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,44c2bea54e,2025-08-21,4c100189,Do not change the original structure of the code,1,1,11,9,11,9,0,0,0,1,0,0,0,0,0,0,0,13,0,0,7,0,0,0,0,0
+click,634549fc18,2025-08-21,4c100189,Don't refactor variable names unnecessarily,1,1,19,19,19,19,0,0,0,4,0,0,0,0,0,0,0,15,0,0,19,0,0,0,0,1
+click,c442c05c31,2025-08-21,4c100189,Rewrap text,1,1,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,40fb3751ec,2025-08-21,4c100189,Keep original inconsistent ticks to reduce noise,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+click,9be1039f9c,2025-08-21,4c100189,Keep original inconsistent ticks to reduce noise,1,1,10,10,10,10,0,0,0,3,0,0,0,0,0,0,0,50,1,1,7,0,0,0,0,1
+click,8645e70266,2025-08-21,4c100189,Do not simple-tick Python literal values,1,1,33,33,33,33,0,0,0,11,0,0,0,0,0,0,0,50,1,1,29,0,0,0,0,0
+click,b64ea07128,2025-08-16,4c100189,Differentiate absence of value and value of absence for `default` and `flag_value`,11,4,1486,492,355,232,0,0,0,29,0,0,4,1,2,1,0,107,5,39,257,0,0,0,0,0
+click,701b313160,2025-08-09,6b24953e,Fix completions for quoted/escaped parameters in Fish (#3013),2,1,3,0,2,0,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,1,0,0,0,0
+click,1fb4659c80,2025-08-08,7bb87b1a,Update testing.py,1,1,2,1,2,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+click,b9e4052e38,2025-08-08,b629e1f2,[pre-commit.ci lite] apply automatic fixes,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,17cedf797e,2025-08-08,7bb87b1a,Update _termui_impl.py,1,1,13,5,13,5,0,0,0,4,0,0,1,0,0,0,0,54,2,3,6,0,0,0,0,0
+click,a352c6e416,2025-08-08,7bb87b1a,Properly lazily import shutil,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,1,0,0
+click,812b8000f7,2025-07-28,739b300f,Fix rendering when `prompt_suffix` is empty,3,1,32,6,6,6,1,0,0,3,0,0,0,0,0,0,0,48,2,4,4,0,0,0,0,0
+click,e252437313,2025-07-22,90407ae5,"Revert ""Revert ""Merge Stable into master""""",8,4,209,9,38,4,0,0,0,5,0,0,1,0,1,0,0,62,3,4,18,0,0,0,0,0
+click,8bc9127107,2025-07-22,8934baf4,"Revert ""Merge Stable into master""",8,4,9,209,4,38,0,0,0,5,0,0,0,1,0,1,0,60,3,2,4,0,0,0,0,0
+click,a1235aacb1,2025-07-21,f429a2f4,Fix Zsh completions with colons (#2846),3,1,98,1,21,1,1,0,0,1,0,0,0,0,0,0,0,4,0,0,3,0,0,0,0,0
+click,f2ae679984,2025-07-20,4c100189,Use the value of Enum choices to render default,3,1,91,1,2,0,0,0,0,1,0,0,1,0,0,0,0,62,1,2,2,0,0,0,0,0
+click,e37cad2a8b,2025-07-05,5923166e,"BUG/TST: fix a race in `click.testing.StreamMixer`'s finalization, seen in a multi-threaded context",1,1,12,0,12,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,10,0,1,0,0,0
+click,3155dcac03,2025-07-04,7be83dc4,fix(typing): Using correct typing for `param_hint`,2,1,6,3,3,3,1,0,0,3,0,0,0,0,0,0,0,32,2,2,3,0,0,0,0,0
+click,9caedb9206,2025-07-01,4c100189,"Fix reconciliation of envvar with default, flag_value and type parameters for flag options",8,2,421,89,123,38,1,0,0,6,0,0,2,0,1,0,0,102,2,23,95,0,0,0,0,0
+click,d1a80aa95c,2025-06-08,cbbf6e73,update dev dependencies,7,2,113,102,2,2,0,0,0,2,0,0,0,0,0,0,0,45,1,1,2,0,0,1,0,0
+click,1b0e19f505,2025-06-07,6745837a,Don't include envvar in error hint when envvar not configured,3,1,15,1,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,1,0,0
+click,93c6966eb3,2025-05-28,ef4d2709,testing/CliRunner: Fix regression related to EOF introduced in 262bdf0,3,1,15,11,8,9,1,0,0,3,0,0,0,0,0,1,0,82,1,8,8,0,0,0,0,0
+click,80efdf6c10,2025-05-20,4bfecba2,Raise an exception on end of input in CliRunner,5,1,27,6,9,2,0,0,0,3,0,0,0,0,1,0,0,82,1,2,8,0,0,0,0,0
+click,f3a4363d1e,2025-05-20,bbf08d79,flush sys.stderr when CliRunner.invoke finalizes,3,1,23,0,1,0,0,0,0,1,0,0,1,0,0,0,0,59,1,1,1,0,0,0,0,0
+click,ac6a2acfdb,2025-05-20,0d55079c,Fix shell completion for nested groups,3,1,27,2,2,2,1,0,0,1,0,0,0,0,0,0,0,42,0,0,2,0,0,0,0,0
+click,4fd2fea0db,2025-05-20,4bfecba2,Fix condition for setting flag value when type is provided,3,1,44,2,3,2,1,0,0,1,0,0,1,0,0,0,0,100,1,2,2,0,0,0,0,0
+click,6fec395ea5,2025-05-11,e4076931,fix pyright findings,1,1,3,2,3,2,1,0,0,1,0,0,0,0,0,0,0,10,0,0,3,0,0,0,0,0
+click,ba770cbc96,2025-05-10,cbbf6e73,drop end of life python versions,17,2,27,24,5,3,0,0,0,2,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+click,f14b75063f,2025-05-10,cbbf6e73,update dev dependencies,15,4,168,145,10,11,0,0,0,6,0,0,0,0,0,0,0,62,1,1,10,0,0,1,0,0
+click,b1e72b4770,2025-04-12,90407ae5,Fix formatting.,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+click,bd7afd459a,2025-04-12,b629e1f2,[pre-commit.ci lite] apply automatic fixes,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+click,43a7d70f1e,2025-03-27,4c100189,Reconcile #1477 and #2775,2,1,134,59,108,38,0,0,0,5,0,0,3,0,0,0,0,57,3,64,87,0,0,0,0,0
+click,46c32a1afc,2025-03-27,4c100189,Reconcile #2811 and #2840,1,1,26,8,26,8,0,0,0,3,0,0,1,0,0,0,0,30,1,1,15,0,0,0,0,0
+click,0b7a9acc63,2025-03-18,4c100189,Allow customization of help option right from its decorator.,5,3,65,43,24,43,0,0,0,2,0,0,0,0,1,3,0,10,0,0,20,0,0,0,0,0
+click,4ece17a107,2025-01-12,4c34023a,Expand `Choice` token normalization + make generic (#2796),10,3,239,71,106,53,0,0,0,15,0,0,1,0,2,0,0,32,2,4,94,0,0,0,0,0
+click,098f614680,2024-12-22,ce133486,break the loop on identifying last option,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+click,45f89cd5d3,2024-12-22,4c34023a,Improve typing on Windows (#2803),4,3,48,30,39,27,0,0,0,13,0,0,0,0,0,0,0,25,0,0,34,0,0,0,0,0
+click,4ffa1ef3b6,2024-12-22,4c34023a,Correct click.edit typing (#2804),3,2,26,7,25,7,0,0,0,2,0,0,0,0,0,0,0,30,1,2,19,0,0,0,0,0
+click,b5464b7e06,2024-12-22,c17dbf2d,Only try to set flag_value if is_flag is true (#2829),3,1,6,4,2,3,0,0,0,1,0,0,0,0,0,0,0,100,1,2,2,0,0,0,0,0
+click,934813e4d4,2024-12-19,b5639218,release version 8.1.8,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,88328fc874,2024-12-19,dc896d1b,Add CliRunner default `catch_exceptions` parameter (#2818),3,1,38,2,13,2,0,0,0,2,0,0,1,0,0,0,0,58,1,5,11,0,0,0,0,0
+click,ffd43e9dc3,2024-12-04,a81ce191,Fixed missing reset on _compat.should_strip_ansi.,2,1,4,0,2,0,1,0,0,1,0,0,1,0,0,0,0,87,1,2,2,0,0,0,0,0
+click,299efb82e1,2024-11-30,688f24ee,Use subprocess instead of os.system (#1477),3,1,80,32,79,31,0,0,0,5,0,0,3,0,0,0,0,57,3,51,69,0,0,0,0,0
+click,70c673d37e,2024-11-30,9d88205a,Fix eagerness of help option generated by `help_option_names` (#2811),3,1,160,6,25,6,1,0,0,3,0,0,1,0,0,0,0,27,1,1,15,0,0,0,0,0
+click,5961d31fb5,2024-11-29,62747bb3,Introduce Parameter.deprecated + Command.deprecated message customization (#2271),5,1,198,14,91,9,0,0,0,8,0,0,2,0,0,0,0,100,3,22,84,0,0,0,0,0
+click,50bfe239e3,2024-11-12,90407ae5,Cleanup handling files documentation.,4,1,97,115,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1
+click,273fb90106,2024-11-09,da3e12f6,More robust check of bash version (#2639),2,1,13,5,11,4,0,0,0,1,0,0,0,0,0,0,0,27,0,0,10,0,0,0,0,0
+click,fde47b4b4f,2024-11-09,b5639218,Fix issues previously type ignored.,2,2,3,3,3,3,1,0,0,2,1,0,0,0,0,0,0,35,1,2,3,0,0,0,0,0
+click,3b06e0b75a,2024-11-09,2728e71d,Improve echo_via_pager behaviour in face of errors (#2775),3,1,198,33,31,17,0,0,0,1,0,0,1,0,0,0,0,36,1,14,14,0,0,0,0,0
+click,2cabbe3175,2024-11-08,1266f590,specialize progressbar(length=...) as ProgressBar[int] (#2630),3,1,67,0,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,0,0
+click,0d69b6ce8b,2024-11-07,269ed986,Adds support for editing multiple files (#2068),4,2,62,6,43,6,0,0,0,2,0,0,1,0,1,1,0,30,1,12,35,0,0,0,0,0
+click,dea4ff7763,2024-11-04,90407ae5,Fix typing issues.,2,2,3,2,3,2,1,0,0,2,0,0,0,0,0,0,0,13,0,0,3,0,0,0,0,0
+click,0ef55fda47,2024-11-03,4c34023a,Close contexts created during shell completion #2644. (#2800),4,2,66,33,37,33,0,0,0,2,0,0,0,0,0,0,0,42,0,0,33,0,0,0,0,0
+click,d8763b9302,2024-11-03,e728e9b8,"Help shown via no_args_is_help results in exit code 2, was 0 (#1489)",4,2,20,13,13,5,0,0,0,5,0,0,0,0,2,0,0,18,0,0,10,0,0,0,0,0
+click,4271fe283d,2024-11-03,a0a27ae7,feat: new method for choice fail (#2622),4,1,23,9,14,9,0,0,0,1,0,0,0,0,1,0,0,20,0,0,11,0,0,0,0,0
+click,1787497713,2024-11-03,35d1ff0a,Added functionality to set flag_value correctly when using envvar (#2788),3,1,25,3,9,3,0,0,0,1,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+click,380008389b,2024-11-03,99ef2571,Give a UserWarning when Parameter is overriden by name (#2397),4,1,73,4,25,4,0,0,0,2,0,0,0,0,0,0,0,19,0,0,21,0,0,0,0,0
+click,fcd85032cf,2024-11-03,605b2073,Add functionality to hide the progress bar #2609 (#2727),5,2,36,12,21,11,0,0,0,5,0,0,2,0,0,0,0,62,2,13,18,0,0,0,0,0
+click,c326df95e9,2024-11-03,9d88205a,Fix closing of callbacks on CLI exit (#2680),4,1,185,1,7,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,6,0,0,0,0,0
+click,1b524bb30d,2024-11-03,2137f9d1,show env var in error hint (#2696),3,1,26,2,8,2,0,0,0,1,0,0,0,0,1,0,0,5,0,0,7,0,0,0,0,0
+click,7ee6b66126,2024-11-03,90407ae5,Revert incorrect typing changes.,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+click,0e0c00324a,2024-11-03,9d88205a,Keep track of `<stderr>` and `<stdout>` mix in `CliRunner` results (#2523),4,1,126,70,110,49,0,0,0,7,1,1,0,2,4,0,0,80,3,33,88,0,0,0,0,0
+click,2357253dd1,2024-11-02,90407ae5,Resolve typing errors.,2,2,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,13,0,0,2,0,0,0,0,0
+click,948d7a707a,2024-11-02,9d88205a,Split generation of help extra items and rendering (#2517),4,2,63,27,37,15,0,0,0,1,1,0,0,1,1,0,0,25,1,16,31,0,0,0,1,0
+click,a6e0d29368,2024-11-02,f110612b,Hide default value when show_default is False (#2509),3,1,21,0,7,0,0,0,0,1,0,0,0,0,0,0,0,18,0,0,4,0,0,0,0,0
+click,1a4d8c1bb1,2024-11-02,2a7378c0,Fix metavar for Choice options when show_choices=False (#2365),3,1,46,1,7,1,1,0,0,1,0,0,0,0,0,0,0,11,0,0,7,0,0,0,0,0
+click,26aa7bf318,2024-11-02,9d88205a,Deduplicate `--help` option definition (#2563),3,3,39,35,39,35,0,0,0,2,0,0,0,0,2,2,0,6,0,0,35,0,0,0,0,1
+click,8fa833e335,2024-10-26,05317698,core.py: Make error messages more verbose (#2453),1,1,4,2,4,2,0,0,0,2,0,0,1,0,0,0,0,49,1,3,4,0,0,0,0,0
+click,8c842a43e8,2024-10-26,554b2d5a,Pass 'color' explicitly in error echoing (#2273),2,1,30,1,9,1,0,0,0,2,0,0,0,0,0,0,0,8,0,0,7,0,0,0,0,0
+click,afc86c748c,2024-10-26,6e49d1b9,Fix colored output on Windows (#2607),3,1,14,8,1,1,1,0,0,1,0,0,0,0,0,0,0,45,1,1,1,0,0,0,0,0
+click,4d7ce025cf,2024-08-23,cbbf6e73,fix mypy findings,2,2,3,3,3,3,1,0,0,4,0,0,0,0,0,0,0,11,0,0,3,0,0,0,0,0
+click,ab91b5a744,2024-08-23,cbbf6e73,apply ruff fixes,4,3,6,7,6,6,1,0,0,6,0,0,0,0,0,0,0,26,1,1,6,0,0,0,0,0
+click,619f947d39,2024-05-22,a129ba5f,add missing backticks in `format_filename` docs,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,1,0,0,0,0,0
+click,bf1e8be90c,2024-05-22,1e6a2edb,show correct value for flag default when using default_map,3,1,28,1,1,1,0,0,0,1,0,0,0,0,0,0,0,73,1,1,1,0,0,0,0,0
+click,d83868aefc,2024-05-21,a81ce191,test runner handles color on windows,3,1,4,2,2,0,0,0,0,1,0,0,1,0,0,0,0,85,1,1,2,0,0,0,0,0
+click,61f8101f4e,2024-05-21,b9a013f1,Fix printing of default option value to handle empty strings,3,1,12,0,2,0,1,0,0,1,0,0,1,0,0,0,0,73,1,2,2,0,0,0,0,0
+click,3f91d2154e,2024-05-20,545b1d3d,Prevent multiline error message on invalid path,3,1,12,2,1,1,0,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+click,91b84061c5,2024-05-20,6f3b6e03,adjust type hint for filename parameter in open_file to also take an os.PathLike,2,1,9,2,2,2,0,0,0,1,0,0,0,0,0,0,0,16,1,2,2,0,0,0,0,0
+click,471c20a595,2024-04-24,cbbf6e73,update dev dependencies,6,1,143,67,1,1,0,0,0,2,0,0,0,0,0,0,0,8,0,0,1,0,0,1,0,0
+click,525c5f1f28,2024-04-24,cbbf6e73,update project files,49,13,378,490,50,75,0,0,0,24,0,2,1,0,0,24,0,90,4,5,43,0,0,0,0,0
+click,15959d92fd,2024-03-23,cbbf6e73,update dev dependencies,19,6,107,111,33,48,0,0,0,12,0,2,1,0,0,24,0,50,1,0,30,0,0,1,0,0
+click,5e08ef1689,2023-12-29,cbbf6e73,use positional-only arg instead of `__self`,1,1,17,17,17,17,0,0,0,7,0,0,0,0,0,0,0,23,0,0,17,0,0,0,0,0
+click,9cf4e6429e,2023-12-29,cbbf6e73,use ruff lint and format,18,9,54,90,15,27,0,0,0,10,0,0,0,0,0,0,0,48,1,1,14,0,0,0,0,0
+click,f78ee55fb2,2023-12-28,cbbf6e73,use pip-compile instead of pip-compile-multi,10,1,177,96,2,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,0,0,0
+click,149683755e,2023-09-01,cbbf6e73,remove suffixes from generated command name,4,1,46,14,21,13,0,0,0,2,0,0,0,0,0,0,0,27,0,0,18,0,0,0,1,0
+click,d8fa6a04b9,2023-08-30,cbbf6e73,deprecate __version__ attribute,3,1,16,3,13,2,0,0,0,1,0,0,0,0,0,0,0,41,0,0,11,0,0,0,0,0
+click,a3277513d7,2023-08-30,cbbf6e73,remove old upgrading notes,3,1,5,17,3,5,0,0,0,1,0,0,0,0,0,0,0,26,0,0,2,0,0,0,1,0
+click,ec258fef82,2023-08-20,cbbf6e73,use modern typing features,16,15,563,575,562,575,0,0,0,270,0,0,0,3,0,0,0,88,42,205,562,0,0,0,0,0
+click,ecdeb0c62f,2023-08-20,9e208a10,enable deferred evaluation of annotations,18,16,176,140,172,140,0,0,0,114,0,0,0,0,0,0,0,90,15,25,156,0,0,0,0,0
+click,3630addf53,2023-08-20,cbbf6e73,deprecate OptionParser,7,5,160,88,146,84,0,0,0,27,0,0,0,0,5,3,0,90,6,8,121,0,0,0,0,0
+click,238ee070af,2023-08-19,cbbf6e73,remove mentions of deprecated base classes,10,1,195,218,10,15,0,0,0,2,0,0,0,1,0,0,0,37,1,1,8,0,0,0,1,0
+click,9e0d0b26d9,2023-08-19,cbbf6e73,deprecate MultiCommand,4,3,251,241,249,241,0,0,0,26,1,1,2,0,1,4,0,88,5,11,194,0,0,0,0,0
+click,9dd12077ee,2023-08-19,cbbf6e73,deprecate BaseCommand,6,4,323,350,319,348,0,0,0,33,3,2,2,0,4,7,0,88,11,120,239,0,0,0,0,0
+click,61ee5802d3,2023-08-17,cbbf6e73,drop support for python 3.7,17,2,20,34,5,17,0,0,0,3,0,0,0,1,0,0,0,64,2,5,5,0,0,0,0,0
+click,874ca2bc1c,2023-08-17,cbbf6e73,release version 8.1.7,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3c1529e6bc,2023-08-17,94371c7b,add back semicolons in fish script,1,1,14,14,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0
+click,d9db70cabd,2023-08-17,8f53283e,bash version support shows warning instead of error,2,1,9,5,8,5,0,0,0,1,0,0,0,0,0,0,0,21,0,0,8,0,0,0,0,0
+click,d69d2106d8,2023-08-17,cbbf6e73,fix flake8 finding,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+click,af2da1ef9b,2023-08-17,0d7ee4cb,Fix incorrect passing of flags to re.sub,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,0,0
+click,bb6a8727aa,2023-08-17,cbbf6e73,start version 8.1.7,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3793f5b2d7,2023-07-18,cbbf6e73,release version 8.1.6,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,20280d4f76,2023-07-18,f0afa9b2,fix `group` overload with `cls` arg,3,1,15,6,2,6,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+click,56b15be8b8,2023-07-13,cbbf6e73,start version 8.1.6,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,63c1716128,2023-07-13,cbbf6e73,release version 8.1.5,2,1,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,449d38f517,2023-07-13,c15eb83e,"Fix types, introduce type tests (#2562)",14,1,157,19,9,14,1,0,0,7,0,0,0,0,0,0,0,30,1,1,8,0,0,0,0,0
+click,d17dbc2c0f,2023-07-13,cbbf6e73,start version 8.1.5,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3d873a3f56,2023-07-06,cbbf6e73,release version 8.1.4,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,4cf7c6cdb1,2023-07-06,cbbf6e73,completion works for expose_value=False,2,1,3,1,2,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+click,ecb99836a4,2023-07-06,cbbf6e73,echo doesn't fail with no streams,5,3,38,3,27,3,0,0,0,5,0,0,3,0,0,0,0,60,3,6,13,0,0,0,0,0
+click,daca3cfce4,2023-07-06,cbbf6e73,remove app engine detection,2,1,2,5,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+click,8f019ba54e,2023-07-06,cbbf6e73,remove msys2 detection,2,1,2,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+click,43c2e7f331,2023-07-05,f48cc529,format_filename replaces invalid bytes,9,4,193,82,78,45,0,0,0,12,0,0,2,0,1,1,0,65,3,16,71,0,0,0,0,0
+click,b4df3b9c5b,2023-07-03,d98caf1d,Add `cls` to signature of `argument` and `option`,2,1,14,8,12,8,0,0,0,4,0,0,0,0,0,0,0,7,0,0,12,0,0,0,0,0
+click,b36e3ede78,2023-07-03,cbbf6e73,allow multiple=True with flags,4,1,29,8,6,4,0,0,0,1,0,0,1,0,0,0,0,88,1,5,5,0,0,0,0,0
+click,7ed114f89a,2023-06-30,1d783d83,move command cls setting after assert check,3,1,25,3,3,3,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,1,0
+click,422e211018,2023-06-30,ecbd8f2e,Do not suppress EOFError/KeyboardInterrupt when standalone is disabled,3,1,16,2,2,2,0,0,0,1,0,0,0,0,0,0,0,50,1,2,2,0,0,0,0,0
+click,aa4a38e9aa,2023-06-30,cbbf6e73,fix zsh completion loaded from fpath,2,1,8,1,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+click,589ca314ae,2023-06-30,efe06763,avoid empty lines if help text is empty,4,1,26,16,5,2,0,0,0,1,0,0,0,0,0,0,0,11,0,0,4,0,0,0,0,0
+click,bcd3faaaaf,2023-06-30,9a18bb37,completions: style improvements for fish completion function,1,1,17,21,17,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0
+click,0de3704747,2023-06-30,81e456aa,detect exe name when using shiv/pex,3,1,4,1,2,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+click,8924144905,2023-06-30,556cda02,flush output on clear() to improve responsiveness,2,1,4,6,3,6,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+click,9149ebcc78,2023-06-30,554b2d5a,add typing to pass pyright,10,9,77,39,76,39,0,0,0,26,0,0,4,0,1,0,0,86,6,19,73,0,0,0,0,0
+click,36e3765f79,2023-06-29,c26c8557,normalize dots in prog_name for completion,2,1,6,1,5,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,4,0,0,0,0,0
+click,ab7b6c3001,2023-06-29,9d352cfd,wrap BASH_VERSION to handle special characters,2,1,2,1,1,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,1,0,0,0,0,0
+click,b5280c6085,2023-06-27,cbbf6e73,update dependencies,11,2,19,34,2,3,0,0,0,5,0,0,0,0,0,0,0,30,1,1,2,0,0,1,0,0
+click,ac15816133,2023-06-01,cbbf6e73,update dependencies,9,1,32,34,2,2,0,0,0,2,0,0,0,0,0,0,0,11,0,0,2,0,0,1,0,0
+click,25dfd27c30,2023-05-09,a7a3e0b2,"affect vs effect, simple mistake (#2298)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+click,77838f86fa,2023-05-09,f4d0c38e,Docs: add references for varargs and kwargs (#2281),2,2,18,1,18,1,0,0,0,2,0,0,0,0,0,0,0,3,0,0,15,0,0,0,0,0
+click,8473b3ced1,2023-05-08,5a676f77,Use t.Mapping not t.Dict for parameters (#2265),3,2,18,11,16,11,0,0,0,8,0,0,0,0,0,0,0,90,2,3,16,0,0,0,0,0
+click,e002dbc40c,2023-05-08,5cef971f,Fix return value and type signature of `shell_completion.add_completion_class` function (#2421),3,1,80,2,7,2,1,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+click,eb1d760fb4,2023-05-07,81d95375,fix minor typo in `make_context` docs (#2381),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+click,d19d0def9a,2023-05-07,fb2b3775,Correct some typos (#2496),2,2,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+click,292a27d705,2023-03-20,4d107b6b,Fix typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,742a5521c4,2023-01-19,cbbf6e73,switch to pyproject.toml,7,1,93,118,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,a63679e77f,2023-01-19,9be5125c,Type hinting: improve decorator annotations,3,3,135,56,135,56,0,0,0,31,0,0,0,0,5,0,0,30,1,1,101,0,0,0,0,0
+click,085f414a04,2023-01-19,9be5125c,Type hinting: Low-hanging fruit improvements,5,5,10,13,10,13,1,0,0,7,0,0,0,0,0,0,0,25,0,0,10,0,0,0,0,0
+click,a1093bbe0d,2023-01-19,9be5125c,Types: don't leave generic types without a parameter,9,8,49,46,48,46,0,0,0,38,0,0,1,0,0,0,0,84,7,15,48,0,0,0,0,0
+click,a6c7ee060b,2023-01-19,cbbf6e73,start version 8.1.4,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,06a2c0f2ec,2022-12-29,cbbf6e73,update dependencies,7,2,56,56,4,4,0,0,0,3,0,0,0,0,0,0,0,15,0,0,4,0,0,1,0,0
+click,73d7de5f74,2022-09-14,71f7adeb,Fix versionchanged entry for click.Path (#2345),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,5ec77494bd,2022-04-28,cbbf6e73,release version 8.1.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,daa2d8e443,2022-04-28,0ef4de81,disallow use of is_flag and multiple in option,3,1,24,0,3,0,0,0,0,1,0,0,1,0,0,0,0,85,1,2,2,0,0,0,0,0
+click,4695370071,2022-04-26,a03c5dc5,use verbose Callable for @command and @group,2,1,7,4,4,4,0,0,0,3,0,0,0,0,0,0,0,17,0,0,4,0,0,0,0,0
+click,6f35455ddf,2022-04-26,cbbf6e73,start version 8.1.3,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,b36bf8f9b3,2022-03-31,cbbf6e73,restore Path param order,2,1,5,2,2,2,0,0,0,1,0,0,0,0,0,0,0,27,1,2,2,0,0,0,0,0
+click,92cebe902a,2022-03-31,5f19546f,fix readable path check error message,2,1,4,1,1,1,1,0,0,1,0,0,0,0,0,0,0,62,1,1,1,0,0,0,0,0
+click,456fbb6b00,2022-03-31,cbbf6e73,start version 8.1.2,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3c301ebacb,2022-03-30,cbbf6e73,release version 8.1.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,e234cf958d,2022-03-30,f51a6586,fix(types): decorator typing fails,3,2,46,25,43,25,1,0,0,7,0,0,0,0,4,1,0,17,0,0,38,0,0,0,0,0
+click,fb7c6dbab5,2022-03-30,cbbf6e73,start version 8.1.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,f467dd3aef,2022-03-28,cbbf6e73,start version 8.2.0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,f8d811e5d5,2022-03-28,cbbf6e73,release version 8.1.0,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,8d7f03dac8,2022-03-28,cbbf6e73,treat empty auto_envvar as None,3,1,11,4,4,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,3,0,0,0,0,0
+click,f2e579ab18,2022-03-28,046d5ab6,shell completion prioritizes option values over new options,7,2,134,9,11,9,0,0,0,5,0,0,1,0,0,0,0,90,1,1,10,0,0,0,0,0
+click,e003331551,2022-03-19,6107e7cc,fix ParamType.to_info_dict() with no name,4,1,19,1,8,1,1,0,0,1,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+click,7d3a871eb7,2022-03-19,cbbf6e73,group without command passes return value to result callback,3,1,11,8,4,4,0,0,0,1,0,0,0,0,0,0,0,41,0,0,2,0,0,0,0,0
+click,8106446140,2022-03-17,cce33459,"postpone referencing sys.modules[""__main""] in click.utils._detect_program_name",1,1,4,1,4,1,0,0,0,1,0,0,0,0,0,0,0,19,0,0,3,0,0,1,0,0
+click,a0bbbf2033,2022-03-11,79833d79,correctly annotate return type of @command(cls=XYZ),2,1,25,4,23,4,0,0,0,3,0,0,0,0,2,0,0,6,0,0,17,0,0,0,0,0
+click,46b78bcb80,2022-02-21,cbbf6e73,command decorator params argument,3,1,29,3,12,3,0,0,0,2,0,0,0,0,0,0,0,22,0,0,10,0,0,0,0,0
+click,570582b7a3,2022-02-21,cbbf6e73,don't process doc in command decorator,1,1,1,1,1,1,0,0,0,2,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+click,dfae0a1011,2022-02-21,cbbf6e73,refactor try/except,1,1,3,2,3,2,0,0,0,2,0,0,0,0,0,0,0,20,0,0,3,0,0,0,0,1
+click,445428e3eb,2022-02-21,cbbf6e73,inline command decorator code,1,1,19,28,19,28,0,0,0,2,0,0,0,0,0,1,0,19,0,0,16,0,0,0,0,0
+click,3699bcccba,2022-02-21,cbbf6e73,glob expansion on Windows doesn't fail on invalid values,3,1,14,2,10,2,0,0,0,1,0,0,0,0,0,0,0,23,0,0,9,0,0,0,0,0
+click,4f7b255f70,2022-02-21,426d821d,allow empty str input for prompt,3,1,15,7,2,1,0,0,0,1,0,0,1,0,0,0,0,48,1,2,2,0,0,0,0,0
+click,92b30e47cb,2022-02-21,cbbf6e73,"defer processing Command.help, epilog, and short_help",2,1,19,33,14,29,0,0,0,5,0,0,0,1,0,0,0,26,1,0,13,0,0,0,0,0
+click,39ee8b0580,2022-02-20,e47f0ff8,Store raw help string for commands,3,1,27,7,11,7,0,0,0,3,0,0,0,1,0,0,0,32,1,0,5,0,0,0,0,0
+click,40830087dd,2022-02-20,dad691da,enforce required flag,3,1,12,1,1,1,0,0,0,1,0,0,1,0,0,0,0,83,1,1,1,0,0,0,0,0
+click,721c8b0d58,2022-02-20,cbbf6e73,"cleandoc for Command help, epilog, and short_help",3,2,34,20,30,18,0,0,0,2,0,0,1,0,0,0,0,34,1,8,20,0,0,0,0,0
+click,2c70a0c15a,2022-02-20,d98caf1d,Option calls cleandoc on help instead of @option,3,2,9,3,7,3,0,0,0,2,0,0,1,0,0,0,0,83,1,2,5,0,0,0,0,0
+click,f85a35daa4,2022-02-20,d98caf1d,param=None is the same as not passing the param,3,2,10,6,7,6,0,0,0,7,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,0
+click,144f3701b2,2022-02-20,d98caf1d,Option.show_default now overrides Context.show_default,3,1,56,16,32,15,0,0,0,2,0,0,1,0,0,0,0,81,2,11,29,0,0,0,0,0
+click,08ecfd0e7c,2022-02-20,cbbf6e73,keep !r format for now,1,1,3,3,3,3,0,0,0,2,0,0,0,0,0,0,0,62,1,2,3,0,0,0,0,0
+click,06b158831f,2022-02-19,20085eaa,add an ability to check that a Path has an executable bit set,2,1,27,9,25,8,0,0,0,2,0,0,2,0,0,0,0,62,2,16,21,0,0,0,0,0
+click,74e7f7079c,2022-02-19,33a71d6f,command and group decorator parentheses are optional,4,2,124,5,85,5,0,0,0,6,0,0,0,0,4,0,0,17,0,0,62,0,0,0,0,0
+click,0ccada0e64,2022-02-18,cbbf6e73,remove utf-8 detection,3,2,3,105,0,105,0,0,0,1,0,1,0,1,0,1,0,50,1,0,0,0,0,0,1,0
+click,667eac859a,2022-02-18,cbbf6e73,release version 8.0.4,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,bda6381ad0,2022-02-18,29938b13,Fix type for `file` argument,2,1,3,2,1,1,1,0,0,1,0,0,0,0,0,0,0,43,1,1,1,0,0,0,0,0
+click,f30d0128c9,2022-01-16,a03c5dc5,Fix typing in click.secho function,2,1,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,11,1,1,1,0,0,0,0,0
+click,6f33518a82,2021-12-28,666d76c7,Update shell completion to use COMPREPLY instead of COMREPLY for Bash,2,1,5,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,280827938a,2021-12-28,efe06763,Allow a callable default to have its own string representation,3,1,17,1,2,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,2,0,0,0,0,0
+click,03963b2e7d,2021-12-28,eabf91f0,Fix TypeVar for decorators that handle Commands,2,1,3,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,e5f36f3e7e,2021-12-26,62117df4,Fix typo in docs,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,9bf84f86bb,2021-12-26,ba3e4fc8,fix typos,2,2,2,2,2,2,1,0,0,1,0,0,0,0,0,0,0,47,1,1,1,0,0,0,0,0
+click,1e561ec5d6,2021-12-26,33a71d6f,remove duplicate typing imports,3,3,10,13,10,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1
+click,2814073e04,2021-12-26,cbbf6e73,fix new mypy findings,4,3,6,7,5,7,1,0,0,3,0,0,0,1,0,0,0,81,2,1,5,0,0,0,0,0
+click,3510c69cf5,2021-12-26,cbbf6e73,update requirements,7,2,37,38,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,60a5eafaf5,2021-11-10,cbbf6e73,remove deprecated get_os_args,3,2,1,20,0,20,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+click,d88e771a00,2021-11-10,cbbf6e73,remove deprecated get_terminal_size,4,2,2,23,0,21,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+click,51736b9566,2021-11-10,cbbf6e73,remove deprecated Command autocompletion parameter,3,1,2,49,0,35,0,0,0,1,0,0,0,1,0,1,0,71,1,0,0,0,0,0,1,0
+click,f00d15eeea,2021-11-10,cbbf6e73,remove deprecated Group.resultcallback,2,1,4,11,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+click,99bf3ccfdd,2021-10-25,cbbf6e73,update docs for open_file and types.Path,2,2,41,35,41,35,0,0,0,1,0,0,0,0,0,0,0,14,1,20,36,0,0,0,0,0
+click,df114b1eb7,2021-10-25,cbbf6e73,"open_file hanldes pathlib.Path(""-"")",4,1,30,5,3,3,0,0,0,1,0,0,0,0,0,0,0,60,1,1,1,0,0,0,0,0
+click,90fb9f50b0,2021-10-10,cbbf6e73,release version 8.0.3,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,662a30e4ee,2021-10-10,cbbf6e73,invoke type casts default values,3,1,14,8,3,1,0,0,0,1,0,0,0,0,0,0,0,26,0,0,3,0,0,0,0,0
+click,f31d564ff2,2021-10-10,b73b596e,click.confirm preserves prompt when readline is imported,3,1,8,4,4,2,0,0,0,1,0,0,0,0,0,0,0,33,1,2,2,0,0,1,0,0
+click,c8ca29bd35,2021-10-10,cbbf6e73,use pathlib to resolve symlinks,4,1,52,66,5,14,0,0,0,1,0,0,0,1,0,0,0,54,1,2,2,0,0,0,0,0
+click,a14e7b062e,2021-10-08,cbbf6e73,release version 8.0.2,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,aa6f36017e,2021-10-08,5c6728f4,option with multiple and flag_value replaces internal placeholder,3,1,33,0,8,0,0,0,0,1,1,0,0,0,0,0,0,27,1,7,7,0,0,0,0,0
+click,f82ee1ff81,2021-10-08,cbbf6e73,getting default value doesn't perform type cast,3,1,25,16,6,14,0,0,0,2,0,0,0,0,0,0,0,9,0,0,5,0,0,0,0,0
+click,3d029e03eb,2021-10-07,cbbf6e73,count help doesn't show default range type,3,1,17,3,5,1,0,0,0,1,0,0,1,0,0,0,0,63,1,4,4,0,0,0,0,0
+click,05b795c917,2021-09-26,ee91d3e4,Fix copy-paste errors in `click.style()`,3,1,6,4,2,2,0,0,0,1,0,0,0,0,0,0,0,47,1,2,2,0,0,0,0,0
+click,2703f8f373,2021-09-26,29938b13,Fix type annotation for `type` arg,2,1,3,1,1,1,1,0,0,1,0,0,0,0,0,0,0,49,1,1,1,0,0,0,0,0
+click,905b1bfd6e,2021-09-26,cbbf6e73,use exception chaining,6,6,10,10,10,10,0,0,0,10,0,0,0,0,0,0,0,51,5,6,10,0,0,0,0,0
+click,e892389f54,2021-08-14,cb834429,Always close file descriptor to tempfilepager.,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+click,9f620f7207,2021-08-14,cb834429,Add check for WIN in _tempfilepager finally block to prevent file in use error on windows,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,17,0,0,3,0,0,0,0,0
+click,7e6a98f7ef,2021-08-12,689a35b9,"revert path prefix stripping, modify test to work with prefix",2,1,18,14,5,14,0,0,0,1,0,0,0,1,0,0,0,57,1,2,2,0,0,0,0,0
+click,f40631ba97,2021-08-12,689a35b9,add url to page explaining win32 path prefixes,1,1,3,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,c7c217901d,2021-08-12,689a35b9,strip win32 path prefixes from resolved absolute symlinks,1,1,13,5,13,5,0,0,0,1,0,0,1,0,0,0,0,61,1,6,6,0,0,0,0,0
+click,36e7f199a3,2021-08-05,b35fda20,use sys.exit() instead of _fast_exit(),3,1,3,15,1,12,0,0,0,1,0,0,0,0,0,1,0,14,0,0,1,0,0,0,0,0
+click,5ea0257962,2021-08-05,689a35b9,remove logically-dead code,1,1,2,3,2,3,0,0,0,1,0,0,1,0,0,0,0,30,1,2,2,0,0,0,1,0
+click,986f322e43,2021-08-05,689a35b9,resolve relative symlinks to the containing directory,4,1,65,4,13,4,0,0,0,1,0,0,1,0,0,0,0,56,1,4,4,0,0,0,0,0
+click,2cc7244bec,2021-08-05,689a35b9,show_default doesn't show False default for single boolean flag,5,1,72,19,20,13,0,0,0,1,0,0,1,0,0,0,0,62,1,2,19,0,0,0,0,0
+click,91e388027d,2021-07-04,6612fafa,"completion arguments may start with a ""/""",3,1,16,1,6,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,0,0,0,0
+click,18070584fc,2021-07-04,cbbf6e73,"fix type for show_default, can be str",1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,81,1,1,1,0,0,0,0,0
+click,8967b81b69,2021-07-04,43e02ae7,don't show empty multiple=True default,3,1,14,1,2,1,0,0,0,1,0,0,1,0,0,0,0,60,1,2,2,0,0,0,0,0
+click,ffebd597f9,2021-07-03,4f650d02,clarify duplicate option name error,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,47,1,1,1,0,0,0,0,1
+click,908994a4c7,2021-07-03,e22b5881,bash version detection is locale independent,2,1,5,2,4,2,0,0,0,1,0,0,0,0,0,0,0,19,0,0,4,0,0,0,0,0
+click,ee56925bc4,2021-07-03,d98caf1d,Fix is_bool_flag being set to True even if is_flag is False,3,1,24,1,1,1,1,0,0,1,0,0,1,0,0,0,0,81,1,1,1,0,0,0,0,0
+click,c159967b47,2021-06-11,7bb87b1a,Fix help text when using env vars with defaults,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,59,1,1,1,0,0,0,0,0
+click,ec94dd54c9,2021-06-06,38d5c161,"Fix typo in docstring (change ""appnd"" to ""append"") (#1950)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,1,1,1,0,0,0,0,0
+click,8b48450d5d,2021-06-06,38d5c161,"Fix typo in docstring (change ""appnd"" to ""append"") (#1950)",1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,1,1,1,0,0,0,0,0
+click,de6b1ab710,2021-05-23,efe06763,Correct docstring reference,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+click,d6071202cc,2021-05-19,cbbf6e73,start version 8.0.2.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3149679ff1,2021-05-19,cbbf6e73,release version 8.0.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,6439aaedbd,2021-05-19,cbbf6e73,flag to control Windows pattern expansion,2,1,12,1,8,1,0,0,0,1,0,0,1,0,0,0,0,51,1,7,7,0,0,0,0,0
+click,985ca1651b,2021-05-19,cbbf6e73,show help text with invalid default,4,1,44,5,24,4,0,0,0,2,0,0,1,0,0,0,0,59,1,8,17,0,0,0,0,0
+click,0db91e2205,2021-05-19,cbbf6e73,"return resolved name, not original name",5,1,30,2,1,1,0,0,0,1,0,0,0,0,0,0,0,14,0,0,1,0,0,0,0,0
+click,ad52b19c84,2021-05-18,cbbf6e73,detect type from flag_value,4,2,25,21,16,21,0,0,0,4,0,0,0,2,0,0,0,86,4,9,12,0,0,0,0,0
+click,26c9b926df,2021-05-18,cbbf6e73,update changelog about version_option,2,1,8,3,4,1,0,0,0,1,0,0,0,0,0,0,0,31,1,4,4,0,0,0,0,0
+click,83af9bb52e,2021-05-18,7f6613ef,argument with nargs=-1 and envvar prefers command line value,3,1,18,1,3,1,0,0,0,1,0,0,0,0,0,0,0,20,0,0,1,0,0,0,0,0
+click,d77dfb582a,2021-05-18,5a5d149b,install importlib_metadata on Python < 3.8,3,2,10,10,8,10,0,0,0,2,0,1,0,0,0,0,0,31,2,2,8,0,0,1,0,0
+click,0dcfc32faa,2021-05-18,cbbf6e73,ProgressBar inherits Generic,3,2,7,5,5,5,0,0,0,4,0,0,0,0,0,0,0,56,2,2,5,0,0,0,1,0
+click,5295f04026,2021-05-12,cbbf6e73,fix typing that wasn't available in Python 3.6.0,4,3,10,8,8,7,1,0,0,8,0,0,0,0,0,0,0,29,1,1,8,0,0,0,0,0
+click,5a74def4c5,2021-05-12,cbbf6e73,ctx.obj is marked Any instead of Optional[Any],2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,89,1,1,1,0,0,0,0,0
+click,447b6bbb54,2021-05-12,cbbf6e73,explicit reexports,3,1,70,70,67,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,0,0,0,0,0
+click,27d12bd7fb,2021-05-11,cbbf6e73,start version 8.1.0.dev0,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,b700cf6196,2021-05-11,cbbf6e73,start version 8.0.1.dev0,3,1,8,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,dfa6369163,2021-05-11,cbbf6e73,release version 8.0.0,2,1,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,dcd991d986,2021-05-10,d98caf1d,HelpFormatter.write_text uses full width,3,1,13,2,1,2,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+click,e3e1691620,2021-05-10,8ee09ed1,repr is erasing ANSI escapes codes,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,3,0,0,2,1,0,0,0,0
+click,3a39cb21b2,2021-05-03,cbbf6e73,more accurate custom shell_complete annotation,1,1,3,2,3,2,0,0,0,2,0,0,1,0,0,0,0,86,1,3,3,0,0,0,0,0
+click,b3ee530770,2021-04-23,cbbf6e73,remove _winconsole.WindowsChunkedWriter,2,2,0,26,0,26,0,0,0,1,0,0,0,0,0,3,0,14,0,0,0,0,0,0,1,0
+click,6143675b5b,2021-04-23,cbbf6e73,remove _compat.get_strerror,3,3,2,15,2,15,0,0,0,2,0,0,0,0,0,1,0,28,0,0,2,0,0,0,1,0
+click,0103c95706,2021-04-23,cbbf6e73,add typing annotations,22,16,1733,1063,1710,1038,0,0,0,477,3,1,30,1,11,3,0,89,42,491,1554,0,0,0,0,0
+click,77ce48f8d7,2021-04-16,cbbf6e73,inline some unneeded constants,2,2,4,12,4,12,0,0,0,3,0,0,0,0,0,0,0,81,3,4,4,0,0,0,0,0
+click,6708c86e2e,2021-04-16,cbbf6e73,release version 8.0.0rc1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,21e35874e7,2021-04-15,cbbf6e73,mention click in deprecation message,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+click,11b28625b9,2021-04-15,cbbf6e73,refactor type_cast_value,5,2,178,103,129,70,0,0,0,6,0,1,1,1,4,1,0,81,3,45,98,0,0,0,0,1
+click,d48b59be39,2021-04-14,d98caf1d,"fix make_default_short_help max_length, refactor",3,1,79,22,41,22,1,0,0,1,1,0,0,0,0,0,0,28,1,25,25,0,0,0,0,1
+click,f6f8976900,2021-04-14,cbbf6e73,use decorator to pause echo,2,1,33,29,27,20,0,0,0,6,0,0,1,0,1,0,0,77,1,9,19,0,0,0,0,0
+click,0d01686fe6,2021-04-13,c4386240,fix output when using echo_stdin,3,1,102,4,25,4,1,0,0,6,0,0,1,0,1,0,0,74,1,16,21,0,0,0,0,0
+click,b1e7858cae,2021-04-12,cbbf6e73,rename resultcallback to result_callback,6,1,37,19,29,13,0,0,0,4,0,0,0,0,3,2,0,39,1,1,22,0,0,0,0,0
+click,043511294a,2021-04-12,3b440ce6,Fixed inconsistency in forwarding params,3,1,37,0,12,0,1,0,0,2,0,0,0,0,0,0,0,19,0,0,7,0,0,0,0,0
+click,1167ebe1f2,2021-04-12,cbbf6e73,use os.fsdecode to display paths,5,4,11,21,10,20,0,0,0,4,0,0,0,0,0,1,0,53,1,5,9,0,0,0,0,0
+click,ceeeb64957,2021-04-08,cbbf6e73,update urllib unquote import,1,1,4,3,4,3,0,0,0,2,0,0,0,0,0,0,0,48,1,3,3,0,0,1,0,0
+click,4aff02676c,2021-04-06,3b440ce6,fix backspace in prompt with readline enabled,3,1,10,6,4,2,1,0,0,2,0,0,0,0,0,0,0,48,1,2,2,0,0,0,0,0
+click,ad2482bf69,2021-04-04,cbbf6e73,test runner opens stderr with backslashreplace,3,1,26,4,12,4,0,0,0,1,0,0,1,0,0,0,0,71,1,10,10,0,0,0,0,0
+click,8d49e146ab,2021-04-03,cbbf6e73,mark more messages for translation,15,10,218,117,209,110,0,0,0,38,0,0,4,0,0,0,0,77,8,80,200,0,0,0,0,0
+click,03e2fee8a9,2021-04-03,3b440ce6,mark cli messages for translation,6,4,35,16,33,15,0,0,0,10,0,0,1,0,0,0,0,50,4,10,31,0,0,0,0,0
+click,1e02000e17,2021-04-02,f206b372,add italic and overline to style,3,1,19,4,10,1,0,0,0,1,0,0,1,0,0,0,0,47,1,10,10,0,0,0,0,0
+click,bc21607df9,2021-04-02,cbbf6e73,revert adding space between option help,3,1,2,40,0,4,0,0,0,1,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0
+click,ee4feaaa99,2021-04-01,cbbf6e73,expand patterns in Windows args,4,2,69,3,57,3,0,0,0,1,0,0,1,0,1,0,0,50,1,7,41,0,0,0,0,0
+click,0786fda333,2021-03-31,c206bc69,deprecation notice appears at front of help and short help,3,1,31,26,26,24,0,0,0,3,0,0,0,0,0,1,0,11,0,0,19,0,0,0,0,0
+click,df5a6e4801,2021-03-30,c206bc69,resolve symlinks on Windows Python < 3.8,2,1,6,0,4,0,0,0,0,1,0,0,1,0,0,0,0,43,1,2,2,0,0,0,0,0
+click,d2b315ae31,2021-03-05,cbbf6e73,typing for pass decorators,2,1,14,7,13,7,0,0,0,4,0,0,0,0,0,0,0,5,0,0,9,0,0,0,0,0
+click,21a68bd177,2021-03-05,cbbf6e73,add pass_meta_key decorator,4,1,65,0,36,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,28,0,0,0,0,0
+click,1cb8609612,2021-03-05,20f7e93f,Better error message for bad parameter default (#1805),3,1,25,1,9,1,0,0,0,2,0,0,0,0,0,0,0,15,0,0,8,0,0,0,0,0
+click,6d64ca5d0e,2021-03-04,cbbf6e73,path type supports pathlib,3,1,43,18,19,18,0,0,0,3,0,0,0,1,0,0,0,41,2,5,16,0,0,0,0,0
+click,2ba2fe0cf8,2021-03-03,e0f3eb10,progress bar shows current item,4,2,29,20,18,8,0,0,0,3,0,0,0,0,0,0,0,36,1,6,10,0,0,0,0,0
+click,3cc31b10e8,2021-03-03,cbbf6e73,don't hide fast progress bars,4,2,24,44,5,6,0,0,0,4,0,0,0,1,0,1,0,54,2,2,4,0,0,0,0,0
+click,e74508119a,2021-03-03,aa6e3cb9,progressbar: fix regression with hidden bars,4,2,16,5,12,2,1,0,0,2,0,0,0,0,0,0,0,36,1,5,8,0,0,0,0,0
+click,244d914364,2021-03-03,3b440ce6,remove multiline marker from short help text,3,1,23,0,3,0,0,0,0,1,0,0,0,0,0,0,0,25,0,0,2,0,0,0,1,0
+click,3a10d8236c,2021-03-02,c206bc69,Added strikethrough support for style,2,1,9,0,8,0,0,0,0,1,0,0,1,0,0,0,0,41,1,7,7,0,0,0,0,0
+click,24c6b8ab15,2021-02-25,3b440ce6,clirunner.isolation returns bytes_error or none,1,1,2,1,2,1,0,0,0,1,0,0,1,0,0,0,0,67,1,2,2,0,0,0,0,0
+click,06aa862c45,2021-02-24,3b440ce6,customize confirmation prompt,4,2,52,13,27,13,0,0,0,1,0,0,1,0,0,0,0,48,1,16,19,0,0,0,0,0
+click,43d1bcf201,2021-02-24,25dd13c9,allow style support for Jupyter on Windows,4,1,5,10,1,6,0,0,1,2,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+click,05c38db227,2021-02-24,3b440ce6,option callback is invoked when validating prompt value,5,1,50,30,17,20,0,0,0,2,1,0,0,0,0,1,0,23,1,5,15,0,0,0,0,0
+click,d7fac6e160,2021-02-15,cbbf6e73,always install colorama on Windows,15,4,89,126,72,90,0,0,0,3,0,0,0,0,0,0,0,33,1,28,57,0,0,0,0,0
+click,c2a5bb011c,2021-02-15,5019affa,click.confirm with default=None repeats prompt,3,1,24,6,14,6,0,0,0,1,0,0,1,0,0,0,0,28,1,11,11,0,0,0,0,0
+click,5a77d69224,2021-02-15,1b1b54a7,initial type checking configuration,15,7,111,55,59,55,0,0,0,4,0,0,0,0,0,0,0,20,0,0,52,0,0,0,0,0
+click,a9711c50be,2021-02-15,f777f433,custom temp directory with CLIRunner.isolated_filesystem,4,1,51,8,20,8,0,0,0,1,0,0,0,0,0,0,0,13,0,0,16,0,0,0,0,0
+click,5ab1ac2295,2021-02-15,0b125a63,Deprecate click.get_terminal_size() in favor of stdlib shutil.,5,4,19,53,17,53,0,0,0,3,0,1,0,0,0,2,0,30,1,11,15,0,0,0,0,0
+click,32eec71434,2021-02-15,ef28dc0c,show_default string is shown if default is None,3,1,15,2,5,2,0,0,0,1,0,0,1,0,0,0,0,50,1,5,5,0,0,0,0,0
+click,3f44bac661,2021-02-08,cbbf6e73,apply updated pre-commit hooks,5,1,14,20,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+click,2fc486c880,2021-01-14,64611209,Replaced redundant mktemp() with mkstemp()  (#1754),2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+click,6fe4a8d6c3,2020-11-25,4a6d3371,start version 8.0.0a2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,ebcc7cbe57,2020-11-25,4a6d3371,release version 8.0.0a1,3,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,f7cd0ff65e,2020-11-10,6612fafa,use shlex to split completion argument string,3,1,50,17,31,17,0,0,0,1,0,0,0,0,0,0,0,12,0,0,21,0,0,0,1,0
+click,b964c1e2cb,2020-10-31,9a726176,handle case_sensitive=False when completing choices,3,1,20,1,8,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+click,acc91bc4f4,2020-10-31,92eb7d5e,skip frequent progress bar renders (#1698),4,2,43,11,31,11,0,0,0,3,0,0,2,0,0,0,0,55,2,13,24,0,0,0,0,0
+click,17a82fc925,2020-10-30,92eb7d5e,account for linebreak in help summary,3,1,24,0,3,0,0,0,0,1,0,0,0,0,0,0,0,23,0,0,3,0,0,0,0,0
+click,6472e3ee92,2020-10-13,6510a83a,ensure prompt default is cast to type,3,1,12,6,2,6,0,0,0,1,0,0,0,1,0,0,0,44,1,2,2,0,0,0,0,0
+click,42ee8a1f60,2020-10-12,dbd331c7,fix formatting with empty options_metavar,3,1,8,2,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+click,d314f45b8e,2020-10-12,4a6d3371,add ability to provide non-flag option without value,6,2,215,24,75,24,0,0,0,4,0,1,1,0,1,1,0,84,2,8,48,0,0,0,0,0
+click,78a62b37c9,2020-10-11,cbbf6e73,check default_map in param.get_default,2,1,52,22,49,20,0,0,0,4,0,0,0,1,0,0,0,47,1,2,34,0,0,0,0,0
+click,54102a439d,2020-10-11,b54f4214,show_default uses default_map,3,1,22,6,7,5,0,0,0,1,0,0,1,0,0,0,0,47,1,6,6,0,0,0,0,0
+click,ffe7a3bc80,2020-10-11,cbbf6e73,ignore empty env vars consistently,2,1,19,3,16,3,0,0,0,2,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+click,25a88794c1,2020-10-11,cbbf6e73,handle default=None for nargs and multiple,4,1,68,15,25,3,0,0,0,3,0,0,0,0,0,0,0,15,0,0,17,0,0,0,0,0
+click,e79c2b47aa,2020-10-10,cbbf6e73,get default before processing value,7,3,118,85,75,67,0,0,0,15,0,1,0,1,1,1,0,86,2,0,64,0,0,0,0,0
+click,94cc293e1b,2020-10-10,cbbf6e73,correct interaction of default=tuple with multiple=True,3,2,66,26,36,12,0,0,0,2,0,0,2,0,0,0,0,36,2,17,17,0,0,0,0,0
+click,0c1f7f096a,2020-10-10,da8e4b50,boolean type strips space before converting,3,1,20,3,7,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+click,3852f410d6,2020-10-07,308a5de4,ParameterSource is an Enum subclass,6,1,88,107,35,47,0,0,0,3,0,0,0,0,0,1,0,87,1,1,31,0,0,0,0,0
+click,7e4a27fc27,2020-10-07,cbbf6e73,swap order of instruction string,4,1,31,32,6,6,0,0,0,1,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,0
+click,8981a95d40,2020-10-03,cbbf6e73,pass extra context settings to completion,4,2,32,11,13,9,0,0,0,6,0,0,0,0,0,0,0,48,1,1,13,0,0,0,0,0
+click,1b9a657efe,2020-10-03,cbbf6e73,don't pass all args to shell_complete methods,7,3,61,49,36,35,0,0,0,14,0,0,1,0,0,0,0,87,2,3,29,0,0,0,0,0
+click,3faede8b43,2020-10-03,cbbf6e73,rename autocompletion to shell_complete,10,2,166,85,57,20,0,0,0,6,0,0,1,0,1,0,0,44,1,22,47,0,0,0,0,0
+click,cb5c21ee37,2020-10-03,cbbf6e73,return list of CompletionItem objects,6,3,114,58,83,37,0,0,0,12,0,1,0,0,2,0,0,17,1,7,67,0,0,0,0,0
+click,00d5dcc9ed,2020-10-03,d8a0c8d1,complete commands using registered names,3,1,15,6,6,6,0,0,0,3,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+click,de75b40b5f,2020-10-03,4a6d3371,documentation for new shell completion system,10,1,318,169,1,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+click,7029307f9c,2020-10-03,78743cfd,tests for new shell completion system,4,1,243,537,3,1,0,0,0,1,0,0,0,0,1,0,0,3,0,0,3,0,0,0,0,0
+click,3c4cacb1bb,2020-10-03,4a6d3371,redesign shell completion system,4,4,702,390,702,390,0,0,0,2,1,1,0,0,34,14,0,48,1,1,524,0,0,0,0,0
+click,4f3844656a,2020-08-16,cbbf6e73,implement Context.to_info_dict,4,2,91,18,67,9,0,0,0,7,0,0,0,0,2,0,0,18,0,0,51,0,0,0,0,0
+click,d874b0a246,2020-08-16,5855c637,implement export to dictionary,3,2,364,0,107,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,93,0,0,0,0,0
+click,783d63f34d,2020-08-14,cbbf6e73,update API docs about custom ParamType requirements,1,1,33,13,33,13,0,0,0,1,0,0,0,0,0,0,0,2,0,0,27,0,0,0,0,0
+click,183a7f8383,2020-08-14,cbbf6e73,document that launch(wait) only works for blocking programs,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,3,0,0,0,0,0
+click,27ec93877b,2020-08-14,784b2db9,use difflib to suggest possible long option names,3,1,21,1,3,1,0,0,0,1,0,0,0,0,0,0,0,22,0,0,2,0,0,0,0,0
+click,3f17cd89df,2020-08-14,9c715578,support passing a list of commands to Group,3,1,46,5,20,5,0,0,0,1,0,0,0,0,0,0,0,7,0,0,16,0,0,0,0,0
+click,7d7809fcd0,2020-08-13,bc6803de,CliRunner isolation streams have name and mode,3,1,40,8,26,8,0,0,0,3,1,1,1,0,3,0,0,66,3,15,22,0,0,0,0,0
+click,5949dad4bd,2020-08-13,7c983bf6,click.style supports 256/RGB colors,3,1,34,2,30,2,0,0,0,1,0,0,0,0,1,0,0,38,1,12,19,0,0,0,0,0
+click,a2b13e9b6e,2020-08-13,c48124d9,context.show_default defaults to parent context,3,1,42,18,26,18,0,0,0,1,0,0,1,0,0,0,0,86,1,2,19,0,0,0,0,0
+click,e389b5eeee,2020-08-12,adfddd95,suggest renaming option from 'name' to '--name',3,1,10,7,2,2,0,0,0,1,0,0,0,0,0,0,0,45,1,2,2,0,0,0,0,0
+click,d77a0aefad,2020-08-12,cbbf6e73,"refactor int, float, and range types with common bases",7,2,209,231,117,107,0,0,0,12,3,3,1,0,4,3,0,46,6,26,92,0,0,0,0,1
+click,75b708a157,2020-08-10,96642555,add open intervals to FloatRange,3,1,28,4,9,4,0,0,0,2,0,0,1,0,0,0,0,34,1,4,8,0,0,0,0,0
+click,73ed951779,2020-08-10,201a8c15,Annotate required choices with braces,3,1,32,1,8,1,0,0,0,1,0,0,0,0,0,0,0,5,0,0,4,0,1,0,0,0
+click,a7436e89bb,2020-08-10,fc387146,test result captures command return value,3,1,45,12,29,12,0,0,0,2,0,0,2,0,0,0,0,56,2,22,22,0,0,0,0,0
+click,89349070ae,2020-08-09,828ad029,add an ExitStack to the context,4,1,143,12,46,12,0,0,0,3,0,0,1,0,1,0,0,84,1,1,37,0,0,0,0,0
+click,c4659126f7,2020-08-08,cbbf6e73,add command_class and group_class to Group,1,1,46,6,46,6,0,0,0,2,0,0,0,0,0,0,0,9,0,0,23,0,0,0,0,0
+click,dee49e5037,2020-08-08,cbbf6e73,add Context.formatter_class,2,1,20,2,15,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,9,0,0,0,0,0
+click,ca4e4d96e5,2020-08-08,d362cb29,add Command.context_class,1,1,18,4,18,4,0,0,0,2,0,0,0,0,0,0,0,18,0,0,7,0,0,0,0,0
+click,08a0d691d8,2020-08-08,d362cb29,use super() consistently,5,4,35,28,34,27,0,0,0,23,0,0,0,0,0,1,0,77,6,6,24,0,0,0,0,0
+click,9d4fc53be5,2020-08-08,cbbf6e73,clean up Editor.edit code,1,1,21,22,21,22,0,0,0,1,0,1,0,0,0,0,0,28,1,15,15,0,0,0,0,1
+click,11c286a37d,2020-08-08,b9b7e74c,fix edit() require_save check for fast editors,3,1,15,0,7,0,1,0,0,1,0,0,1,0,0,0,0,34,1,1,1,0,0,0,0,0
+click,353dd895ff,2020-08-07,cbbf6e73,pass bytes unstyled from secho to echo,2,1,20,7,10,2,0,0,0,1,0,0,1,0,0,0,0,4,1,7,8,0,0,0,0,0
+click,1516dc6c80,2020-08-07,c1c54303,convert objects to string in style/secho,3,1,23,5,14,5,0,0,0,2,0,0,1,0,0,0,0,38,2,9,9,0,0,0,0,0
+click,f1a41de495,2020-08-07,57626001,show boolean flag name for default,3,1,37,0,6,0,0,0,0,1,0,0,1,0,0,0,0,45,1,4,4,0,0,0,0,0
+click,190b86b37e,2020-08-06,4a6d3371,include parent args in subcommand help synopsis,3,1,47,1,4,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,4,0,0,1,0,0
+click,faaec8294e,2020-08-05,b2b20f29,detect program name when run with python -m,4,2,83,3,51,3,0,0,0,1,0,0,0,1,1,0,0,48,1,1,33,0,0,0,0,0
+click,3d3ea9c644,2020-08-05,4a6d3371,nargs=-1 works with envvar,4,2,62,17,18,0,0,0,0,2,1,0,0,0,0,0,0,20,1,11,13,0,0,0,0,0
+click,32ddbb11f2,2020-08-05,7e65a554,non-chained group invoked without command invokes result callback,3,1,28,12,7,12,0,0,0,2,0,0,0,0,0,0,0,39,0,0,3,0,0,0,0,0
+click,9537f4c17a,2020-08-05,cbbf6e73,use sets for bool string check,4,1,27,27,3,3,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,0
+click,ce498eb559,2020-08-05,2ab4a905,"Make ``BOOL`` accept the strings ""on"" and ""off"".  Closes #1629.",4,1,8,7,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+click,4a337ea913,2020-06-30,57626001,use canonical command name instead of matched name,3,1,21,1,1,1,0,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+click,ce23ce8e9f,2020-06-25,da8e4b50,tolerate UnsupportedOperation in _winconsole._is_console(),3,1,9,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+click,7de47088cd,2020-06-24,4a2c5d72,flag option with duplicate names raises ValueError,3,1,12,0,5,0,0,0,0,1,0,0,1,0,0,0,0,45,1,5,5,0,0,0,0,1
+click,a0c73dc3b6,2020-06-24,7e65a554,show IntRange min and max in --help output,3,1,16,0,4,0,0,0,0,1,0,0,1,0,0,0,0,41,1,3,3,0,0,0,0,0
+click,a6211edff4,2020-06-24,a94c5a8f,omit hidden prompt input from validation error,2,1,6,1,4,1,0,0,0,1,0,0,1,0,0,0,0,46,1,4,4,0,0,0,0,0
+click,a077ed7047,2020-06-24,cbbf6e73,refactor other decorators to match version_option,1,1,54,64,54,64,0,0,0,3,0,0,0,0,2,5,0,10,0,0,52,0,0,0,0,1
+click,b38cb0e2b1,2020-06-24,cbbf6e73,version detection works with python -m package,1,1,12,2,12,2,0,0,0,1,0,0,1,0,0,0,0,27,1,8,8,0,0,0,0,0
+click,81ff0aea6c,2020-06-24,cbbf6e73,refactor version_option,1,1,92,40,92,40,0,0,0,1,2,0,0,0,1,2,0,21,1,79,79,0,0,0,0,1
+click,cb37854c9b,2020-06-24,4a2c5d72,use importlib.metadata for version_option,5,1,15,15,7,15,0,0,0,3,0,1,0,0,0,0,0,21,1,7,7,0,0,1,0,0
+click,c99e0e8baf,2020-06-05,4075b20b,Include --help option in completion (#1504),3,1,50,24,3,3,0,0,0,1,0,0,0,0,0,0,0,33,1,3,3,0,0,1,0,0
+click,1784558ed7,2020-04-27,cbbf6e73,release version 7.1.2,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,0d1b8eab4d,2020-04-27,cbbf6e73,"Revert ""Use shlex.quote for quoting shell arguments""",3,2,9,18,9,17,0,0,0,4,0,0,1,1,0,0,0,46,2,7,9,0,0,0,0,0
+click,a1d726b5a2,2020-04-20,cbbf6e73,remove Python 2/3 from docs,10,3,138,250,10,14,0,0,0,3,1,1,0,0,1,1,0,50,1,1,10,0,0,0,1,0
+click,9897d81d08,2020-04-20,cbbf6e73,f-strings everywhere,40,15,188,227,101,143,0,0,0,51,0,0,1,5,0,0,0,83,17,53,101,0,0,0,0,0
+click,b444e6355e,2020-04-20,cbbf6e73,apply pyupgrade --py36-plus,35,12,204,233,93,101,0,0,0,57,0,0,0,1,0,0,0,77,13,21,93,0,0,0,0,0
+click,62f84aa324,2020-04-20,cbbf6e73,remove more compat code,12,7,25,71,18,35,0,0,0,2,0,0,0,1,0,0,0,24,1,3,9,0,0,0,1,0
+click,00883dd3d0,2020-04-20,cbbf6e73,remove py2 parts of _compat module,16,12,283,655,266,625,0,0,0,57,0,0,0,5,2,23,0,68,14,56,208,0,0,1,1,0
+click,5cddd7f652,2020-04-20,cbbf6e73,remove deprecated callback parameter style,2,1,1,35,1,19,0,0,0,1,0,0,0,0,0,1,0,18,0,0,1,0,0,0,1,0
+click,9374365fdd,2020-04-20,cbbf6e73,drop support for Python 2.7 and 3.5,6,1,43,60,1,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,15b4418f63,2020-04-04,a7a576e3,Minor typo fix in bash completion template,1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,19fdc8509a,2020-04-01,6e4eada6,Remove no-op try/except (#1521),1,1,2,4,2,4,0,0,0,2,0,0,0,0,0,0,0,44,1,1,1,0,0,0,1,0
+click,ef1dd690b5,2020-03-09,cbbf6e73,release version 7.1.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,0dbffb30c7,2020-03-09,cbbf6e73,ClickException goes to stderr,2,1,10,1,1,1,0,0,0,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,0
+click,1e054e0c87,2020-03-09,cbbf6e73,start version 8.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,913ddf258d,2020-03-09,cbbf6e73,release version 7.1,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,18d6551b01,2020-03-09,cbbf6e73,deprecate old param callback style,3,1,9,9,5,8,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+click,f605f9576b,2020-03-09,cbbf6e73,deprecate old param callback style,3,1,9,9,5,8,0,0,0,1,0,0,0,0,0,0,0,13,0,0,4,0,0,0,0,0
+click,718485be48,2020-03-08,cbbf6e73,manual cleanup,34,14,346,390,187,174,0,0,0,85,0,0,7,3,0,0,0,82,21,89,187,0,0,0,0,1
+click,f8f02bfc63,2020-03-08,cbbf6e73,apply pyupgrade,18,11,89,80,47,38,0,0,0,25,0,0,3,1,0,0,0,82,9,24,47,0,0,0,0,0
+click,8fe37afda8,2020-03-06,cbbf6e73,apply formatting,6,2,6,17,3,9,0,0,0,3,0,0,0,1,0,0,0,77,1,1,3,0,0,0,0,0
+click,a1de45c1aa,2020-03-06,cbbf6e73,more relative imports,2,2,22,28,22,28,0,0,0,2,0,0,0,0,0,0,0,70,1,15,20,0,0,1,0,0
+click,5f75f9ec38,2020-03-06,cbbf6e73,apply flake8,27,10,91,100,51,40,0,0,0,20,0,0,0,0,0,0,0,43,2,3,44,0,0,0,0,0
+click,93ba3ba112,2020-03-06,cbbf6e73,apply black,57,18,3250,2652,1339,955,0,0,0,256,0,0,27,7,0,0,0,83,42,519,1245,0,0,0,0,0
+click,488739dfe0,2020-03-06,cbbf6e73,apply reorder-python-imports,37,16,254,188,205,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,201,0,0,1,0,0
+click,079f91a239,2020-03-06,cbbf6e73,move to src directory,18,18,5,2,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0
+click,347b45be00,2020-03-05,cbbf6e73,refactor completion command splitting,1,1,27,21,27,21,0,0,0,3,0,0,0,0,0,0,0,15,0,0,20,0,0,0,1,1
+click,792f03f13e,2020-03-05,a6235dd8,fish completion,2,1,37,6,31,2,0,0,0,2,0,0,0,0,1,0,0,15,0,0,27,0,0,0,0,0
+click,f6710e5406,2020-03-02,e1bf34b4,fix: always use parameter UTF-8 fallback,1,1,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,16,0,0,2,0,0,0,0,0
+click,35929957d8,2020-02-27,cbbf6e73,update project metadata,13,4,69,135,10,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0
+click,44779dfa6d,2020-02-27,c07d7de2,allow zsh to escape completion values,2,1,3,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0
+click,8f0f4e6b81,2020-02-26,42152fc4,don't complete options after separator,3,1,32,1,3,1,0,0,0,1,0,0,1,0,0,0,0,28,1,2,2,0,0,0,0,0
+click,a566781b6a,2020-02-24,cbbf6e73,repr for BaseCommand and Parameter,2,1,8,5,6,3,0,0,0,1,0,0,0,0,1,0,0,2,0,0,4,0,0,0,0,0
+click,870d325ac2,2020-02-24,d3f4203c,add repr to Command,3,1,24,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0
+click,3106951b6f,2020-02-24,456da36f,Correct ZSH completion definitions,3,1,13,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,e798f64ffd,2020-02-23,2ab4a905,Use shlex.quote for quoting shell arguments,4,2,21,15,18,14,0,0,0,4,0,0,0,1,0,0,0,44,2,5,16,0,0,0,0,0
+click,f957fba83b,2020-02-23,c1c54303,fix a memory leak and missing error check in _get_windows_argv,2,1,13,2,11,2,1,0,0,1,0,0,0,0,0,0,0,20,0,0,11,0,0,0,0,0
+click,17cc8d76f9,2020-02-23,2ab4a905,Support Debian's sensible-editor,2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+click,7b1429d0fe,2020-02-23,106e5ae4,add newline padding for multi-line option help,3,1,43,1,4,0,0,0,0,1,0,0,0,0,0,0,0,27,0,0,2,0,0,0,0,0
+click,e4bb120808,2020-02-23,cbbf6e73,fix newline wrapping in option help,4,2,33,21,8,7,1,0,0,2,0,0,0,0,0,0,0,25,0,0,6,0,0,0,0,0
+click,91ea0de0ec,2020-02-22,1d3abda2,prevent automatic environment variables from containing dashes,4,1,27,4,2,0,0,0,0,1,0,0,1,0,0,0,0,65,1,2,2,0,0,0,0,0
+click,22bfb0c7a0,2020-02-22,2ab4a905,Support Debian's sensible-editor,2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,13,0,0,1,0,0,0,0,0
+click,b830139b3b,2020-02-19,cbbf6e73,"type is always IOBase, handle lazy file",5,2,22,18,6,5,0,0,0,1,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+click,2ddc9afdc2,2020-02-19,79c6e687,Formatting file option prompting to path only,5,2,27,2,10,2,0,0,0,1,0,0,0,0,1,0,0,7,1,1,8,0,0,0,0,0
+click,4e85c776ec,2020-02-19,cbbf6e73,refactor open_stream and text stream utilities,2,1,140,143,108,88,0,0,0,4,1,0,0,1,3,0,0,53,1,9,88,0,0,0,0,1
+click,fb880d742d,2020-02-16,7aa304f0,"open_file respects ""errors"" parameter",2,1,69,3,9,3,0,0,0,1,0,0,1,0,0,0,0,61,1,6,6,0,0,0,0,0
+click,99ef35e3b4,2020-02-16,e9fddf35,Fix for string cast of MissingParameter,4,1,33,0,13,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,10,0,0,0,0,0
+click,21ebcb630f,2020-02-16,cb834429,Make option format replace newlines with spaces.,3,1,5,4,2,1,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+click,c7bd8d47b4,2020-02-16,f73dff5c,allow bool type with bool flags,3,1,14,2,2,2,0,0,0,1,0,0,0,0,0,0,0,65,1,1,1,0,0,0,0,0
+click,8a661423fe,2020-02-16,e4076931,remove unused mix_stderr parameter from CliRunner.invoke,2,1,3,1,1,1,0,0,0,1,0,0,0,0,0,0,0,44,1,1,1,0,0,0,1,0
+click,bc5de6f30e,2020-02-16,77226299,don't claim empty stderr wasn't captured separately,3,1,21,3,6,3,0,0,0,2,0,0,1,0,0,0,0,44,1,4,5,0,0,0,0,0
+click,fe257c9b42,2020-02-16,205beb3f,Preserve expected permissions in atomic open_file,2,1,34,3,32,3,0,0,0,1,0,0,1,0,0,0,0,58,1,28,28,0,1,0,0,0
+click,ebc96f678f,2020-02-16,bbf08d79,Restore progressbar iterator interface; add test,4,1,54,4,21,4,0,0,0,1,0,0,0,0,1,0,0,13,0,0,6,0,0,0,1,0
+click,db961430e2,2020-02-16,d3f4203c,ignore set empty environment variable,3,1,27,8,14,7,0,0,0,1,0,0,0,0,0,0,0,12,0,0,11,0,0,0,0,0
+click,d3ed4082e1,2020-02-16,cbbf6e73,add test for unstyling other ansi controls,2,1,39,26,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,e12c25a1f9,2020-02-16,089a20db,strip_ansi handles cursor hide/show sequences,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,3f49ec2b29,2020-02-16,c1c54303,Detect a Windows console handle correctly using GetConsoleMode,2,1,22,7,16,2,0,0,0,1,0,0,0,0,1,0,0,14,0,0,12,0,0,0,0,0
+click,7bc26d2e7c,2020-02-06,5218efc3,Harmonize inline documentation text w/ param text,1,1,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,0,0,0,0,0
+click,8c5f779185,2020-01-30,2bff5e79,Fix error in new AppEngine environments,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,fa0a7b841a,2020-01-30,2bff5e79,Fix error in new AppEngine environments,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,27c4ce4ba2,2020-01-24,5a676f77,Add versionadded for Context(show_default),1,1,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,0be3b61b79,2019-10-09,d5d98cfd,Fix OSError when running on MinGW64 with MSYS2,2,1,3,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,c1b34978f1,2019-09-26,5a676f77,Always return originally passed choice for Choice(),4,1,47,15,21,12,0,0,0,1,0,0,0,0,0,0,0,23,0,0,19,0,0,0,0,0
+click,cbb3c0c3d9,2019-08-01,456da36f,Correct ZSH completion definitions,3,1,14,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,04a17ae5a0,2019-08-01,232ef568,allow ProgressBar.update to set current_item,4,2,77,1,28,1,0,0,0,2,0,0,0,0,0,0,0,13,1,12,24,0,0,0,0,0
+click,6fda3d721b,2019-08-01,232ef568,add docs for get_help vs format_help,1,1,14,4,14,4,0,0,0,4,0,0,0,0,0,0,0,5,0,0,10,0,0,0,0,0
+click,e1714b88bb,2019-08-01,3a130bf6,Explicit cast to HANDLE for Read/WriteConsoleW calls,2,1,4,3,3,3,0,0,0,2,0,0,0,0,0,0,0,19,0,0,3,0,0,0,0,0
+click,d19e10916c,2019-07-18,a05e94a0,Fix Simple Typo: serverly -> severely,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,d64eddae7d,2019-07-17,cbbf6e73,standardize license,3,2,26,32,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+click,00f82cd1ef,2019-07-07,60c53dc9,Fix typos,4,3,6,6,3,3,1,0,0,1,0,0,0,0,0,0,0,12,0,0,1,0,0,0,0,0
+click,7e8146d1c4,2019-06-09,03138020,clarify Parameter behavior when nargs=-1,1,1,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,c296d4415e,2019-06-03,df8c2b8e,Changing ParameterSource.validate unit test to take a descriptive bad value. Changing Context._sourc,2,1,7,8,6,7,0,0,0,4,0,0,0,0,0,0,0,63,1,1,6,0,0,0,0,0
+click,b24a3c6935,2019-06-02,df8c2b8e,Changing the name of Context._parameter_sources to Context._sources_by_paramname,1,1,3,3,3,3,0,0,0,3,0,0,0,0,0,0,0,63,1,1,3,0,0,0,0,0
+click,36da06fe44,2019-06-02,df8c2b8e,Changing documentation in ParameterSource to indicate 'parameter' instead of 'option'. Removed empha,2,1,12,6,5,5,0,0,0,2,0,0,0,0,0,0,0,4,0,0,5,0,0,0,0,0
+click,64bbbe46f8,2019-06-02,df8c2b8e,pydocstyle and flake8 fixes,1,1,30,18,30,18,1,0,0,3,0,0,0,0,0,0,0,4,0,0,23,0,0,0,0,0
+click,73f470ef23,2019-05-31,df8c2b8e,Added documentation on how to use get_parameter_source. Added DEFAULT_MAP as a source and added unit,4,2,59,17,10,6,0,0,0,2,0,0,0,0,0,0,0,12,0,0,9,0,0,0,0,0
+click,17e6f3ba39,2019-05-31,df8c2b8e,Removing ParameterSource from __init__.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,af24c8de54,2019-05-31,df8c2b8e,Adding support to the context to distinguish the source of a command line parameter,3,2,95,2,53,2,0,0,0,2,0,0,1,0,3,0,0,63,1,1,45,0,0,0,0,0
+click,1e7331f346,2019-05-23,3ffce323,Remove one unused import and one redundant import,2,2,1,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0
+click,9ae1614914,2019-05-19,cbbf6e73,Update setup.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,5bbe6b49d3,2019-05-06,d3f4203c,add repr to Command,3,1,28,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+click,defe6c0727,2019-05-06,d396a2d3,Update progressbar docstrings,1,1,7,1,7,1,0,0,0,1,0,0,0,0,0,0,0,13,1,6,6,0,0,0,0,0
+click,abbccb6848,2019-03-14,106e5ae4,Document adding no_args_is_help to Command for 7.1,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,9df9b079dd,2019-03-12,871f83fa,Added show_default parameter to Context enabling it globally.,2,1,24,2,8,2,0,0,0,2,0,0,2,0,0,0,0,63,2,4,7,0,0,0,0,0
+click,06d030811d,2019-01-15,a19e9920,enable colored output on Jupyter notebooks on UNIX,2,1,35,13,13,1,0,1,0,1,0,0,0,0,1,0,0,6,0,0,7,0,0,0,0,0
+click,2c1a6ef34b,2018-12-31,0b125a63,Remove unused compat shim for 'bytes',1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+click,3c767d87ed,2018-12-28,0b125a63,Remove unused compat shim for 'bytes',1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+click,12ebfd3509,2018-11-20,032bce49,add bytearray support too,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,34,1,1,1,0,0,0,0,0
+click,b3dd1b2459,2018-11-20,032bce49,fixed edit() not supporting bytes,1,1,14,8,14,8,1,0,0,1,1,0,0,0,0,0,0,34,1,13,13,0,0,0,0,0
+click,99f3bd4484,2018-11-10,bbf08d79,Add no_args_is_help to click.Command,2,1,20,1,10,1,0,0,0,2,0,0,1,0,0,0,0,17,1,2,9,0,0,0,0,0
+click,0d95fb0d23,2018-10-26,cbbf6e73,"revert to lowercase name ""click""",1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,709a94f0a8,2018-10-23,d7fd7d23,fix link in unicode_literals error message,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,16,0,0,1,0,0,0,0,0
+click,e0d510b51f,2018-10-19,9b80dcc4,Fix get_current_context typo in docstring,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+click,b602e05259,2018-09-25,cbbf6e73,start 8.0,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,930ad81d74,2018-09-25,cbbf6e73,start 7.1,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,a936b99212,2018-09-25,cbbf6e73,release 7.0,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,7818f30f6e,2018-09-25,cbbf6e73,new docs links,6,2,16,14,8,6,0,0,0,3,0,0,1,0,0,0,0,68,1,6,8,0,0,0,0,0
+click,e8bf968c8f,2018-09-24,cbbf6e73,update metadata test on 3.7 fix collections deprecation warning,18,5,189,189,67,75,1,0,0,1,0,0,0,0,0,0,0,12,0,0,63,0,0,0,0,0
+click,6cafd32bdb,2018-09-22,c1c54303,"Rework the ""Not enough space"" workaround for Python 2 on Windows 7 and below",2,2,17,10,17,10,0,0,0,6,0,0,0,0,1,0,0,7,0,0,12,0,0,0,0,0
+click,6c0d58591f,2018-09-22,c1c54303,"Wrap stdout/stderr to avoid ""Not enough space"" in Python 2 on Windows 7",2,2,33,0,33,0,0,0,0,4,0,0,0,0,3,0,0,15,0,0,24,0,0,0,0,0
+click,4da5e93ced,2018-09-19,f8fc3ad2,Prevent error messages/exit code 120 after exiting on EPIPE,2,2,28,1,28,1,0,0,0,1,0,0,1,0,3,0,0,46,1,2,23,0,0,0,0,0
+click,7b53e1541e,2018-09-18,cbbf6e73,fix encoding issues with getchar correctly raises on ^C and ^D echo no longer raises encoding error,2,1,15,5,5,4,1,0,0,2,0,0,0,0,0,0,0,8,0,0,5,0,0,0,0,0
+click,da4a182760,2018-09-18,79833d79,bugfix: make `getchar` work on Windows.,3,2,46,9,45,9,1,0,0,3,0,0,0,0,0,0,0,10,0,0,12,0,0,0,0,0
+click,fa389c1a2f,2018-09-13,a7bf32be,Pass ctx to NoSuchOption exceptions,2,1,4,2,2,2,0,0,0,2,0,0,0,0,0,0,0,33,1,1,2,0,0,0,0,0
+click,5fe0b7e779,2018-09-13,bbf08d79,Add documentation for DateTime param type,4,1,31,4,21,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,16,0,0,0,0,0
+click,6e62332349,2018-09-13,8a45caa9,Included click.DateTime type (with tests),4,2,75,4,38,3,0,0,0,14,4,4,0,1,5,0,0,36,9,0,29,0,0,1,0,0
+click,7dbf7df63e,2018-09-12,bbf08d79,Ensure auto_envvar_prefix is always uppercased,3,1,16,1,1,1,0,0,0,1,0,0,0,0,0,0,0,62,1,1,1,0,0,0,0,0
+click,ecf4ce6243,2018-09-12,2ab1895a,Remove hidden commands and options from completion results,3,1,61,10,22,10,0,0,0,3,0,0,1,0,1,0,0,27,1,2,19,0,0,0,1,0
+click,b073abe1cb,2018-09-12,2ab1895a,Use Python sorting order for ZSH completions. Fixes #1047.,3,1,30,9,18,4,1,0,0,1,0,0,0,0,0,0,0,28,1,1,13,0,0,0,0,0
+click,cabbfcf65a,2018-08-29,49db3387,fix typo,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,dff4fb4bfd,2018-08-28,cbbf6e73,use pallets-sphinx-themes,18,2,109,796,10,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0
+click,a94c0be3b5,2018-08-26,73e2c98c,Bugfix for Exit handling,2,2,17,4,17,4,1,0,0,2,0,0,0,1,0,0,0,44,1,1,2,0,0,0,0,0
+click,1602436cd1,2018-08-26,73e2c98c,Simplify Exit Exception,4,2,32,53,26,40,0,0,0,11,1,1,1,0,0,0,0,46,3,8,22,0,0,0,0,1
+click,4308336623,2018-08-26,daa33021,make context.exit raise a custom exception,3,2,65,10,40,9,0,0,0,10,1,1,1,0,1,0,0,45,3,6,33,0,0,0,0,0
+click,f9e0dbef6a,2018-08-15,bbf08d79,Add requested comment for clarity,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,93c371dadb,2018-08-15,d2f85827,Add ability to truncate help text in docstrings.,3,1,65,0,2,0,0,0,0,1,0,0,1,0,0,0,0,16,1,2,2,0,0,0,0,0
+click,db909671ea,2018-08-13,bbf08d79,"Clarify the ""lazy"" File behaviors",1,1,6,3,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+click,206976869a,2018-08-11,6da55772,Don't arbitrarily strip an argument from make_pass_decorator,1,1,1,1,1,1,0,0,0,3,0,0,0,0,0,0,0,11,0,0,1,0,0,0,0,0
+click,5a5d72050a,2018-07-27,338266d4,Adds missing comma in setup.py,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,cbcd3777a9,2018-07-13,2c29e933,Allows click to be vendored on Windows,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,b61ec644fa,2018-07-03,2ab1895a,Fix bash completion when defaults are present and the way subcommands are handled. This makes the co,4,2,151,55,37,21,1,0,0,6,0,0,1,1,0,0,0,63,2,3,31,0,0,0,0,0
+click,a112bb200a,2018-05-18,c6aec483,Fixes issue #447,1,1,10,1,10,1,1,0,0,1,0,0,0,0,0,0,0,13,0,0,5,0,0,0,0,0
+click,6c7276b5db,2018-05-18,2ab1895a,support descriptions for zsh completions use associative array for zsh completion response add docum,6,2,178,114,47,21,0,0,0,6,0,1,0,0,1,0,0,32,2,3,42,0,0,0,0,0
+click,ad91a6ed45,2018-05-18,f527a08d,path validation bug,1,1,5,4,5,4,1,0,0,1,0,0,1,0,0,0,0,32,1,3,4,0,0,0,0,0
+click,7214afe96f,2018-05-15,927224fe,Wrap click.Choice's missing message,2,1,6,3,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+click,b098d6e1f0,2018-05-15,f73dff5c,don't add newlines by default for progressbars,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,30,0,0,1,0,0,0,0,0
+click,99ff511e9c,2018-05-15,80365114,Only allow one param decl for Arguments,2,1,12,6,3,6,0,0,0,2,0,0,0,0,0,0,0,22,1,1,3,0,0,0,0,0
+click,632ff561ad,2018-05-15,2ab1895a,Explicitly check for zsh source var when determining shell type.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+click,f17dead8e5,2018-05-15,2ab1895a,Enable native completion for zsh,2,1,31,16,22,6,0,0,0,2,0,0,0,0,0,0,0,8,0,0,20,0,0,0,0,0
+click,9b7ffd7541,2018-05-15,c3b85389,Use better formula to determine local GAE environment,1,1,3,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,10c5e796b5,2018-05-15,c3b85389,Add some breathing room,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,e129f181db,2018-05-15,7b6ef798,Fix Google App Engine ImportError.,1,1,2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0
+click,79275462d3,2018-05-15,c3b85389,Handle empty commands list,1,1,9,8,9,8,0,0,0,1,1,0,0,0,0,0,0,18,1,9,9,0,0,0,0,0
+click,75e8d69418,2018-05-15,f0d11fee,"Avoid use of  filter() in format_commands, it breaks on Python3.",1,1,16,5,16,5,0,0,0,1,0,0,0,0,0,0,0,17,0,0,12,0,0,0,0,0
+click,37233e2564,2018-05-15,f0d11fee,Use formatter width and max command name width to autotrim short help before display.,2,1,9,28,7,20,0,0,0,2,0,0,0,1,0,0,0,14,1,0,5,0,0,0,0,0
+click,622e85fbf5,2018-05-15,8202d5b6,with raw_terminal() needs an as fd to fully work.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+click,06763ac9ac,2018-05-15,34434033,Introduce raw_terminal,2,2,21,7,21,7,0,0,0,1,0,0,0,0,3,0,0,7,0,0,17,0,0,0,0,0
+click,85d507685c,2018-05-15,8cf0c8ad,Added deprecation flag to commands,2,1,42,53,26,3,0,0,0,4,0,0,1,0,1,0,0,21,1,2,22,0,0,0,0,0
+click,138a6e3ad1,2018-05-15,73e2c98c,Add `case_sensitive=False` as an option to Choice,2,1,53,6,22,6,0,0,0,2,0,0,0,0,0,0,0,17,0,0,14,0,0,0,0,0
+click,1ac1fb35b1,2018-05-15,86f26721,Better handling of help text for dynamic default option values,4,2,80,11,25,10,0,0,0,1,0,0,1,0,0,0,0,36,1,9,24,0,0,0,0,0
+click,639daa4f43,2018-05-15,39a62134,allow specify short width to address cmd formatting,2,1,13,2,6,1,0,0,0,1,0,0,1,0,0,0,0,20,1,6,6,0,0,0,0,0
+click,82f9c626ff,2018-05-15,993b63e7,Fix test for delayed progress bar display,50,15,1986,367,740,278,1,1,0,79,7,2,13,3,19,2,0,72,28,195,647,0,0,0,0,0
+click,2bc3b2c12c,2018-05-14,f73dff5c,Fix #616: allow setting prog_name in CliRunner.invoke,2,1,17,2,6,2,1,0,0,1,0,0,1,0,0,0,0,41,1,5,5,0,0,0,0,0
+click,f816faf3cb,2018-05-14,eb9c6817,Added a comment explaining get_winterm_size().,1,1,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+click,2c79295111,2018-05-14,927224fe,Support Sphinx 1.7+,2,1,6,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+click,fdceb39d34,2018-05-14,1f3eb084,"CliRunner: add stdout / stderr, allow separating standard streams (#868)",4,1,83,22,52,15,0,0,0,6,0,0,3,0,2,0,0,72,3,23,46,0,0,0,0,0
+click,9af0527f27,2018-05-14,11e89ae6,"Quick fix to get_winterm_size() returning (0, 0)",1,1,5,1,5,1,1,0,0,1,0,0,1,0,0,0,0,28,1,5,5,0,0,0,0,0
+click,f21f0140ba,2018-05-14,73e2c98c,Add test from #612 for usage error Argument format,3,1,27,7,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+click,782389c043,2018-05-14,73e2c98c,"Derive ""param_hint"" in errors from param itself",2,2,21,6,21,6,0,0,0,2,0,0,0,1,3,0,0,25,1,2,16,0,0,0,0,0
+click,a17b544788,2018-05-14,ee41582f,Fix issue #926 - copy option attrs so that custom classes can be re-used.,2,1,36,4,7,4,1,0,0,2,0,0,0,0,0,0,0,7,0,0,5,0,0,0,0,0
+click,535559adbd,2018-05-14,fab4b521,Fix variable precedence,4,1,53,2,3,2,1,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+click,4ebaff2a93,2018-05-14,86f26721,Updating README to match flask style.,3,1,100,68,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+click,b1a35cd76f,2018-05-14,c3b85389,Update python_requires values,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,c48838d069,2018-05-10,87dfa4b3,Change pypi.python.org urls to pypi.org,3,1,3,3,1,1,0,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,0,0,0,0
+click,93e8b9831d,2018-05-08,2cb8abd1,Fix typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0
+click,bb8cd6c7aa,2018-04-20,ade1ccc6,Drop testing for 2.6 and 3.3. Add 3.6.,4,1,16,9,13,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0
+click,7a32558c1a,2018-04-17,22d0d5bc,Fix a typo,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,0,0
+click,e09aba49d6,2018-04-12,0b125a63,Pass python_requires argument to setuptools,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,a87829d2c9,2018-04-11,c7ba33ae,feat: Move fcntl into outer scope for side effects,2,1,3,2,2,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,1,0,0,0,1,0
+click,9261af6042,2018-04-11,828ad029,Revert 60ef759,1,1,7,6,7,6,0,0,0,1,0,0,0,0,0,0,0,9,0,0,7,0,0,0,0,0
+click,5173285e92,2018-04-06,ed8f13b3,make_parser: do not set options twice,1,1,0,2,0,2,0,0,0,1,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0
+click,6ca05bec6b,2018-04-04,33b3fe36,Implement streaming pager. Fixes #409,4,2,80,28,44,25,1,1,0,5,1,0,0,0,0,0,0,30,2,16,37,0,0,0,0,0
+click,7eb990fab5,2018-03-31,c7ba33ae,Make locale optional (Fixes #880),1,1,5,2,5,2,1,0,0,1,0,0,1,0,0,0,0,66,1,5,5,0,0,0,0,0
+click,c67daae57d,2018-03-31,d304b645,Improve docs for Choice type (addresses issue #892) (#900),2,1,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+click,570db30db8,2018-03-31,c7ba33ae,Added workaround for jupyter.  Fixes #918,2,1,42,15,40,15,1,0,0,13,1,0,0,0,0,0,0,16,1,4,39,0,0,0,0,0
+click,c9633645dd,2018-03-31,ac653b23,Use the realpath of original filename in _AtomicFile (#920),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,33,1,1,1,0,1,0,0,0
+click,b8f5744820,2018-03-31,1ed0b3e5,'x' and 'a' filemodes use stdout when file is '-' (#929),1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,33,1,1,1,0,0,0,0,0
+click,60ef759d0e,2018-03-31,c7ba33ae,Move fcntl import to be local,1,1,1,2,1,2,0,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,1,1,0
+click,5d1df0e042,2018-03-31,c7ba33ae,Underscores are now replaced by dashes in commands,4,1,25,8,2,2,0,0,0,2,0,0,0,0,0,0,0,21,0,0,2,0,0,0,0,0
+click,72f1f3e208,2018-03-31,c7ba33ae,We're unlikely going to be able to fix chain for click 7,1,1,1,3,1,3,1,0,0,1,0,0,0,0,0,0,0,17,0,0,1,0,0,0,0,0
+click,abe982ca91,2018-03-27,b43e5961,Set blocking I/O flags for FreeBSD,1,1,21,3,21,3,0,0,0,1,0,0,0,0,2,0,0,2,0,0,17,0,0,0,0,0
+click,2dbc14ea43,2018-03-27,f0b72fab,Fix missing comma in __all__ list (#935),1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,dbd13dc17e,2018-02-07,c1c54303,A TextIOWrapper that wraps _winconsole._WindowsConsoleWriter expects a buffered stream.,1,1,2,2,2,2,0,0,0,2,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+click,2cd71bffc8,2018-01-04,54010c89,Escape Sequences with r'' (#807),3,3,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,1,0,0,0,0
+click,d5cddb9e1c,2018-01-04,54010c89,Escape Sequences with r'' (#807),3,3,3,3,3,3,0,0,0,1,0,0,0,0,0,0,0,5,0,0,3,1,0,0,0,0
+click,9bd66b397f,2017-12-06,c7ba33ae,Fixed unicode behavior for exceptions,2,1,12,3,9,3,1,0,0,1,0,0,0,0,2,0,0,3,0,0,6,0,0,0,0,0
+click,61abbef7ce,2017-10-10,bc517b43,Skip progressbar rendering when `is_hidden` is True,1,1,28,31,28,31,0,0,0,1,0,0,0,0,0,0,0,30,0,0,24,0,0,0,0,0
+click,aae0ae2d87,2017-10-09,2ab1895a,Fix empty return path in get_choices,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,32,1,1,1,0,0,0,0,0
+click,a02cbb7736,2017-10-09,2ab1895a,Cleanup get_choices() to leverage early returns.,1,1,38,42,38,42,0,0,0,1,0,0,0,1,1,0,0,32,1,18,29,0,0,0,0,1
+click,54fec68690,2017-10-06,2ab1895a,Clean up whitespace with autopep8.,1,1,16,12,16,12,0,0,0,2,0,0,1,0,0,0,0,47,1,6,15,0,0,0,0,1
+click,13eda7a5e7,2017-10-06,2ab1895a,Allow returning of user completions that don’t always begin with the incomplete term.,4,1,43,10,9,4,0,0,0,2,0,0,1,0,0,0,0,44,1,6,7,0,0,0,0,0
+click,20b862282e,2017-08-17,9b8adcab,add bool conversions for t and f,2,1,4,4,2,2,0,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+click,e1aa43a382,2017-07-12,1527de5d,it's -> its,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0
+click,950463bd15,2017-07-07,cd561f01,Fix typo (#817),1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,63,1,1,1,0,0,0,0,0
+click,4383f608ef,2017-06-12,59339932,click.style: add support for bright colors,2,1,35,6,34,6,0,0,0,1,0,0,0,0,0,0,0,27,1,14,33,0,0,0,0,0
+click,65da5cc5c4,2017-05-31,2ab1895a,fix overzealous completion when required options are present,3,1,40,27,32,23,1,0,0,3,0,0,1,0,0,0,0,41,1,18,22,0,0,0,0,0
+click,2e96c4b645,2017-05-24,9e306764,Update doc to match arg name for path_type,1,1,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+click,f15f425bc1,2017-05-19,6da55772,Bug fix #793; use the first defined long name,3,1,25,2,2,2,1,0,0,1,0,0,0,0,0,0,0,38,1,2,2,0,0,0,0,0
+click,29ab0b033f,2017-05-04,2ab1895a,Backport fixes for autocompletion on chained commands,3,1,42,6,16,6,1,0,0,2,1,0,0,0,0,0,0,20,1,5,14,0,0,0,0,0
+click,103c1daed9,2017-05-02,2ab1895a,Use fast_exit when invoking bash completion to save about 10ms.,1,1,10,1,10,1,0,0,0,1,0,0,0,0,1,0,0,9,0,0,8,0,0,0,0,0
+click,92c8053bb9,2017-05-02,2ab1895a,Fix bashautocompletion of arguments on chained commands,2,1,40,5,14,5,1,0,0,2,0,0,1,0,0,0,0,39,1,3,12,0,0,0,0,0
+click,dd6b36a39f,2017-05-02,2ab1895a,Allow spaces in bash completion results,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+click,32fb787bbd,2017-04-15,2ab1895a,avoid creating empty list in bash completion if not needed,1,1,6,7,6,7,0,0,0,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+click,73a8f11c2b,2017-04-15,2ab1895a,use generator when returning completions,2,1,8,6,6,5,0,0,0,1,0,0,0,0,0,0,0,10,0,0,6,0,0,0,0,0
+click,b0621f0a85,2017-03-30,2ab1895a,Always add autocomplete to Param,3,2,4,5,2,3,0,0,0,2,0,0,0,1,0,0,0,22,1,1,2,0,0,0,0,0
+click,ba4f40ac11,2017-03-29,2ab1895a,Documentation cleanup,1,1,3,1,3,1,0,0,0,1,0,0,0,0,0,0,0,9,0,0,3,0,0,0,0,1

@@ -1,0 +1,252 @@
+====================================================================================================
+INSIGHTS FROM 33 REAL PROJECTS: PATTERNS AND PROPERTIES OF TECHNICAL DEBT IN REAL CODE
+Purpose: the evidence on which the NEW dataset is built (see DATASET_DESIGN_SPEC.md)
+====================================================================================================
+
+HOW TO READ THIS FILE
+    STATEMENT  what is true, in one or two sentences
+    EVIDENCE   the numbers (the source file is named at the end of each item)
+    STRENGTH   STRONG   large effect, interval clear of zero, same answer in both languages / most repositories
+               MODERATE clear direction, interval touches zero or one language only
+               LEAD     suggestive only
+               FACT     a description of the corpus
+    FIGURE     figures/ file that shows it                      SOURCE   results/ file and the code that made it
+
+THE CORPUS
+    33 real repositories (16 Python, 17 C/C++): the 9 repositories of the earlier study (boltons, click, jinja, werkzeug,
+    cJSON, jansson, libpng, libyaml, zlib) and 24 new ones (requests, flask, attrs, rich, httpx, tqdm, pyyaml, more-itertools,
+    cachetools, bottle, jsonschema, arrow; lz4, libuv, hiredis, jemalloc, libsodium, lua, tmux, cmark, redis, zstd, libxml2,
+    mbedtls). C-Thread-Pool has no release tags and is used only in the commit analysis (34 repositories there).
+    RELEASE LEVEL (a1, a3): the last 20 release tags of each repository (13 and 15 for libyaml and lz4).
+        11,503 debt instances, 148,524 instance-releases, 27,583 interest events, 448.7 person-months of interest.
+        Debt instance = a function that is a Long Method (>50 lines), a Complex Method (cyclomatic complexity >10) or has Many
+        Parameters (>5): one instance per function and smell kind. The SAME detector is used on all 33 repositories (the earlier
+        study used SonarQube issues for the four Python projects), so Python numbers differ a little from the earlier ones.
+        Interest = changed source lines inside a persisting debt function beyond its growth, converted with COCOMO II
+        (A=2.94, E=1.0997, multipliers 1): the method of the earlier study.
+    COMMIT LEVEL (a2, a4): the last 700 commits that touch source files in each repository: 20,988 commits, 20,960 analysed
+        at function level (28 bulk commits with >40 source files are skipped), 15,079 function events.
+    CAUTIONS THAT APPLY TO EVERY ITEM
+        - Large C repositories dominate the pooled counts (libxml2, mbedtls and redis hold about two thirds of the
+          instance-releases). Every key result is therefore also given per repository (median / range) or with repository
+          fixed effects and repository-clustered intervals.
+        - A structural smell is a threshold on size, complexity and parameters. It is a proxy for debt, and 51 % of the code
+          of the corpus sits in functions that exceed a threshold. Interest is implied effort, not measured time.
+        - Commit keywords (bug fix, debt type) come from the commit subject: an approximation.
+        - Many looks were taken; single p-values are not corrected.
+
+
+====================================================================================================
+PART 1.  CONFIRMED ON 33 REPOSITORIES (the earlier results hold at 3.6 times the size)
+====================================================================================================
+
+RP1  Interest is extremely concentrated, and a third of the debt is frozen
+    STATEMENT  A small share of the instances absorbs most of the interest; about a third never pays in 10+ releases.
+    EVIDENCE   Gini 0.883 over 11,503 instances (Python 0.765, C 0.885); the top 10 % of instances hold 80 % of the interest,
+               the top 20 % hold 91 %. Per repository the Gini has median 0.72 (range 0.44 to 0.88). Never-pay share among
+               instances observed for 10+ releases: 35 % pooled, median 22 % per repository (0 to 61 %). Event size: median
+               2.5 interest lines, p90 16 lines, maximum 1,203; the largest 10 % of events hold 67 % of all interest.
+    STRENGTH   STRONG        FIGURE  A2_concentration.png      SOURCE  a3_report.txt (P2); a3_release_analysis.py
+
+RP2  Memory: an instance that paid before pays again, with no sign of fading, and it is not an artefact of size
+    STATEMENT  Interest is a persistent property of an instance.
+    EVIDENCE   P(event | event at lag 1..6) = 0.46, 0.38, 0.41, 0.44, 0.42, 0.32 against 0.11 to 0.13 without an earlier event.
+               Per repository (33): lag 1 median 0.24 against 0.13, higher in 24 of 33. By the number of past events:
+               8 % (0), 18 % (1), 34 % (2), 30 % (3-4), 43 % (5+). With size and repository controlled the odds ratio of an
+               event in the previous release pair is 4.63 (95 % CI 2.76 to 7.75).
+    STRENGTH   STRONG        FIGURE  A3_memory.png       SOURCE  a3_report.txt (P3), a3b_report.txt (C3)
+
+RP3  Exposure: the chance of work on a debt instance rises with the size of its region, almost proportionally
+    STATEMENT  Bigger debt regions are edited more often: size is exposure.
+    EVIDENCE   Logit slope of 'event in this release pair' on log region size, repository fixed effects, clustered by
+               repository: 0.607 (se 0.084), odds ratio 1.52 per doubling of size; Python 0.606, C 0.607 (the same); equal
+               weight per repository 0.552 (se 0.056); one row per function 0.600 (se 0.079). Poisson model of interest lines:
+               lines ~ size^beta with beta = 0.93 (se 0.05), so interest lines grow about linearly with size.
+               Spearman of size with the event rate per instance: median 0.31 over 30 repositories (range -0.27 to 0.74).
+    STRENGTH   STRONG        FIGURE  A4_exposure_size.png (left)       SOURCE  a3_report.txt (P4), a3b_report.txt (C3)
+
+RP4  Frozen debt is small debt (smaller effect than before)
+    EVIDENCE   Among instances observed for 10+ releases, the median size of frozen ones is 53 lines against 63 for live ones
+               (Mann-Whitney p = 5e-64). The earlier 9-repository ratio (17 against 51) was much larger; the structural
+               detector and the larger corpus show a real but smaller difference.
+    STRENGTH   MODERATE      FIGURE  A4_exposure_size.png (right)
+
+RP5  The release clock cannot be predicted from the previous release inside a repository
+    EVIDENCE   Within-repository correlation of the log release interest with the previous release: -0.07 (33 repositories,
+               582 release pairs); with the previous release's churn -0.05. (But see RP12: the clock IS predictable from the
+               type of the release and the time since the previous one.)
+    STRENGTH   STRONG        SOURCE  a3_report.txt (P5)
+
+RP6  No contagion inside a file once the instance's own history is accounted for
+    EVIDENCE   Raw: P(event) is 0.252 when another instance of the same file paid in the previous release pair and 0.111 when
+               none did (ratio 2.27, n = 132,837). Adjusted for the instance's own previous event, its size and the repository
+               the odds ratio is 1.09 (95 % CI 0.60 to 1.96). The raw association is caused by the heterogeneity of files.
+    STRENGTH   MODERATE      SOURCE  a3_report.txt (P3)
+
+
+====================================================================================================
+PART 2.  CORRECTIONS OF EARLIER INSIGHTS (what the larger corpus changes)
+====================================================================================================
+
+RP7  CORRECTION. "Debt is avoided" (enrichment 0.39) was an artefact of the denominator
+    STATEMENT  Edits do not avoid debt functions. At equal size a debt function is edited as often as any other function.
+    EVIDENCE   The earlier number divided the changed lines inside debt functions by ALL changed source lines. On the 33
+               repositories this gives 0.33 pooled (median 0.40, below 1 in 31 of 33). But only 45 % (median) of the changed
+               lines lie in functions that exist in both releases; the rest is new code, deleted code, declarations and
+               top-level code, which can never be in a debt function of the previous release. Restricted to functions
+               present at both releases: debt functions are 51.7 % of that code and receive 57.5 % of its changed lines:
+               enrichment 1.11 (median 1.06, range 0.51 to 2.07, below 1 in 14 of 33 repositories).
+               Function level, 569,677 function-releases, same size and repository: odds ratio of being edited for a debt
+               function against a non-debt function 1.07 (95 % CI 0.92 to 1.25). By size bin (non-debt | debt): 6-10 lines
+               0.067 | 0.089; 11-20 0.105 | 0.122; 21-40 0.153 | 0.174; 41-80 0.200 | 0.214.
+    CONSEQUENCE  Debt costs where size and activity take the team, not "only where the team works". The generator of the new
+               dataset must NOT build in an avoidance effect (the old synthetic baseline had enrichment 0.29).
+    STRENGTH   STRONG        FIGURE  A5_enrichment_correction.png, A4_exposure_size.png (middle)
+    SOURCE     a3b_report.txt (C1), a3_report.txt (P4)
+
+RP8  CORRECTION. Size alone does not tie persistence on 33 repositories; size combined with history beats it
+    EVIDENCE   Leave one repository out, 427 groups, capture of the next release's interest: top 20 % persistence 39.8,
+               persistence with size as tie-break 39.2, size alone 34.4, size + history logistic model 41.5; top 30 %: 51.0,
+               50.1, 45.2, 53.2. Size alone minus persistence: -5.4 points (95 % CI -8.7 to -2.1). Size + history minus
+               persistence with size ties: +2.3 (-0.1 to +4.6) at 20 %, +3.0 (+0.8 to +5.2) at 30 %. Temporal protocol
+               (204 groups): +1.4 (-2.2 to +5.1) and +2.2 (-1.0 to +5.5), same direction, not significant. AUC: size 0.617,
+               persistence 0.749, size + history model 0.789.
+               On the 24 NEW repositories alone: +1.8 (-0.9 to +4.4) at 20 %, +2.4 (+0.1 to +4.7) at 30 %: the pre-set
+               criterion of the earlier plan (>= 3 points with an interval above 0) is NOT met; the effect is real but small.
+    CONSEQUENCE  The earlier "a rule with no history ties persistence" came from nine repositories; a combination of size and
+               history is the baseline to beat, and it is only 2-3 points above persistence.
+    STRENGTH   MODERATE      FIGURE  A8_path_of_work.png      SOURCE  a3_path_of_work_*.csv, a3b_subset_paired.csv
+
+RP9  CORRECTION. Debt activity falls with age (the earlier lead that real debt gets busier late in life is not confirmed)
+    EVIDENCE   5,678 instances introduced inside the window: P(event) by age since introduction 0.20 (0), 0.18 (1), 0.16 (2-3),
+               0.17 (4-6), 0.16 (7+). Odds ratio per release of age 0.929 (95 % CI 0.874 to 0.987), size and repository
+               controlled. New debt is worked on most right after it appears, then settles.
+    STRENGTH   MODERATE      FIGURE  A7_life_cycle.png (left)      SOURCE  a3_report.txt (P6)
+
+
+====================================================================================================
+PART 3.  NEW INSIGHTS
+====================================================================================================
+
+RP10 The release type is the strongest clock: patch releases are quiet, minor and major releases are busy
+    EVIDENCE   615 release pairs. Event rate per instance (share that pays): patch 0.089, minor 0.282, major 0.315
+               (patch against minor/major: Mann-Whitney p = 3e-30). Median churn (changed lines / code): patch 0.57 %,
+               minor 7.2 %, major 13.6 %. Median days between tags 37, 104, 98; median commits 10, 72, 97. 58 % of the
+               release pairs are patch releases.
+    STRENGTH   STRONG        FIGURE  A6_release_clock.png (left)      SOURCE  a3_report.txt (P5)
+
+RP11 The size of a release is the clock: interest follows commits and changed lines, which are partly known in advance
+    EVIDENCE   Within-repository correlation of the log release interest with the log commits since the previous release:
+               0.73; with the days since the previous release 0.41. R2 of the within-repository log release interest, leave
+               one repository out: release step only 0.16; days only 0.16; step + days (known before the release) 0.265;
+               commits 0.535 and changed lines 0.705 (known only after the release). Event rate per instance: step + days
+               0.226. The number of debt instances adds nothing (0.016).
+    CONSEQUENCE  The release clock is exposure of work, and a planned release type plus a date already explain a quarter of
+               it. The pre-set criterion (R2 above 0.10 under leave-one-repository-out) is met.
+    STRENGTH   STRONG        FIGURE  A6_release_clock.png      SOURCE  a3b_report.txt (C2)
+
+RP12 New debt is born in new code, and it stays
+    EVIDENCE   Of 11,647 debt instances that appear during a release pair, 76 % are in a NEW function and 24 % in an existing
+               function that grew past a threshold (many-parameters 89 % new; complex 71 %; long 72 %). Survival of debt
+               introduced inside the window (Kaplan-Meier): 0.93 after 1 release, 0.80 after 3, 0.68 after 6, 0.57 after 12.
+               Repayment per instance-release 6.9 % (C 7.5 %, Python 1.6 %). 47 % of debt functions carry two or three
+               smells at once. Debt share: functions that are smells are 17.2 % of the C functions and 7.9 % of the
+               Python functions of the last releases, and hold a median 41 % of the code lines (range 10 % to 79 %).
+    STRENGTH   STRONG        FIGURE  A7_life_cycle.png      SOURCE  a3_report.txt (P6, P8)
+
+RP13 Nearby recent activity (the 'path of work') adds nothing to size and history
+    EVIDENCE   Features: changed lines of the same file, of the other files in the same directory, and of the repository in
+               the previous release pair. Univariate AUC 0.63 (file), 0.62 (directory), 0.65 (file, relative), 0.59
+               (repository), but added to size + history: -0.2 points (-1.3 to +0.8) at 20 %, 0.0 (-1.0 to +0.9) at 30 %
+               (leave one repository out); +0.2 and +0.2 (n.s.) temporal; the project clock adds -0.1 (CI -0.2 to 0.0).
+               A boosting model with the extra features gains +4.1 (+0.5 to +7.8) points over the boosting base temporally
+               only, because the boosting base is weaker than the logistic model (it stays below the logistic model).
+               The pre-set criterion (>= 3 points over size x history under both protocols) is NOT met.
+    STRENGTH   STRONG (as a negative result)      FIGURE  A8_path_of_work.png      SOURCE  a3_path_of_work_*.csv
+
+RP14 What a real change looks like: small, one function, one file; and tiny against the project
+    EVIDENCE   20,960 commits. Source lines changed (added + deleted): quartiles 4, 12, 38; p90 110; p99 997. Median 1 source
+               file (p90 4) and 1 function (p90 6); 39 % of commits change a single function. A commit changes a median
+               0.149 % of the project's code lines (p90 1.76 %); bug-fix commits 0.092 %. 19 % of commits are bug fixes by the
+               subject; they are smaller (median 8 lines against 13).
+    STRENGTH   STRONG        FIGURE  A9_commits.png (top left)      SOURCE  a4_report.txt (Q1)
+
+RP15 Debt is created and removed in big commits, and the net is growth
+    EVIDENCE   6.5 % of the commits create a debt function and 3.7 % remove one; 41 % touch an existing debt function.
+               The commit that creates debt has a median 122 lines (all commits 12); the one that removes debt 141. Over the
+               20,960 commits 2,728 debt functions were created or introduced and 1,596 removed or deleted (net +1,132; 13.0
+               against 7.6 per 100 commits). Most repositories create more than they remove. Experience matters: authors with 5+
+               commits (334): Spearman of commits with debt created per commit 0.38. The top 10 % of authors make 79 % of the
+               commits and (median over repositories) most of the new debt.
+    STRENGTH   STRONG        FIGURE  A9_commits.png      SOURCE  a4_report.txt (Q2)
+
+RP16 Commits that change debt functions are more often bug fixes; commits that create debt are not
+    EVIDENCE   Commit size, functions touched and repository controlled: a commit that changes a debt function is a bug fix
+               with odds ratio 1.35 (95 % CI 1.17 to 1.55); a commit that creates a debt function with odds ratio 0.76 (0.60
+               to 0.96). Debt is where fixes happen (it is edited as much as other code, RP7, and is bug-prone: in line with
+               the small effect of Sonar issues on faults in the literature), but it is created by features and new code.
+    STRENGTH   MODERATE      SOURCE  a4_report.txt (Q2)
+
+RP17 A TODO/FIXME comment is a marker of debt creation, but rare
+    EVIDENCE   604 self-admitted-debt comments added and 548 removed in 20,960 commits (net +56; added / removed per
+               repository median 1.00). 1.7 % of the commits add one. P(commit creates a debt function) is 0.214 when it adds
+               such a comment against 0.062 when not (ratio 3.4).
+    STRENGTH   MODERATE      SOURCE  a4_report.txt (Q2)
+
+RP18 The five debt types are not equally common in real code, and the 'lines' of each differ
+    EVIDENCE   Keyword in the commit subject (approximate), share of the keyword hits: coupling 0.35, dependency 0.23,
+               complexity 0.18, concurrency 0.14, security 0.09. Security is the type of FIXES: 6.8 % of bug-fix subjects
+               against 0.9 % of other subjects; coupling and complexity are the type of refactorings (8.6 %, 4.4 % of
+               other commits against 2.4 %, 1.2 % of fixes). Median commit size by type: security 11 source lines,
+               dependency 12, concurrency 17, coupling 18, complexity 27; as share of the project 0.067 %, 0.141 %, 0.195 %,
+               0.188 %, 0.338 %. Only 1-2 % of the commits carry two or more type keywords (mixed commits are rare by subject).
+               The real dataset of the earlier study had concurrency 26 of 61 pairs (24 from one project): not a natural mix.
+    STRENGTH   MODERATE (keywords)      FIGURE  A9_commits.png (bottom left)      SOURCE  a4_report.txt (Q3)
+
+RP19 Natural pairs exist at a useful scale
+    EVIDENCE   Small focused commits (<= 60 source lines, <= 3 files) from 34 repositories: 309 that introduce a debt
+               function into an existing function and 118 that create a new debt function (419 debt-introducing commits in 33
+               repositories); 142 that remove a debt function by refactoring and 50 that delete one (143 clean refactoring
+               pairs with <= 3 functions changed in 30 repositories, of which 14 have a refactoring keyword in the subject);
+               2,709 that grow and 901 that shrink an existing debt function. For the two types no function smell detector
+               sees: 244 small security-fix commits (28 repositories) and 121 small concurrency-fix commits (21 repositories)
+               by subject keyword. The list is in results/a4_natural_pair_candidates.csv; the examples (results/
+               a4_examples_removals.csv) show that candidates need a check: some removals are a function split or a
+               deleted feature, not a repair.
+    STRENGTH   FACT         FIGURE  A9_commits.png (bottom right)      SOURCE  a4_report.txt (Q4)
+
+RP20 Real functions are small and log-normally distributed; the debt thresholds flag a large part of the code
+    EVIDENCE   Last releases: C 26,959 functions, median 11 source lines, p90 46, p99 171, log-normal mu 2.47 sigma 1.01;
+               Python 7,195 functions, median 5, p90 22, p99 65, mu 1.78 sigma 0.94; correlation of size with complexity
+               0.91 (C), 0.84 (Python). Code grows x1.15 over the 20 releases (median); the median churn per release pair is
+               1.4 % of the code.
+    STRENGTH   FACT         SOURCE  a3_report.txt (P8)
+
+
+====================================================================================================
+PART 4.  STATUS OF THE EARLIER PLAN (PART J OF final_folder/INSIGHTS_ALL.txt)
+====================================================================================================
+    J1  exposure law + more repositories      DONE. beta = 0.93 (lines) and logit slope 0.61 (RP3). Size x history over persistence
+                                              +2.4 (+0.1 to +4.7) on the 24 new repositories, criterion (>= 3 points, interval
+                                              above 0) NOT met; frozen-score test not run (scores were not frozen in advance).
+    J2  path of work                          DONE, NOT met (RP13); and the 'debt is avoided' premise was an artefact (RP7).
+    J3  release clock from the release type   DONE, MET: R2 0.265 (criterion 0.10), RP10, RP11.
+    J4  natural pairs from commits            STARTED: 419 + 143 + 244 + 121 candidates (RP19); labelling and a check by hand
+                                              of 100 pairs are still to do.
+    J6  generator rebuild                     NEXT: the parameters are in DATASET_DESIGN_SPEC.md.
+    J9  late-life activity                    NOT confirmed: activity falls with age (RP9).
+    J10 commit-level series                   not done.
+    NOT CHANGED: J5 (direction-only linear model), J7 (evaluation checklist), J8 (template diversity).
+
+
+====================================================================================================
+PART 5.  WHAT CAN AND CANNOT BE CLAIMED
+====================================================================================================
+    CAN be claimed: RP1, RP2, RP3, RP5, RP7 (as a correction), RP10, RP11, RP12, RP14, RP15, RP20.
+    WITH CARE: RP4, RP6, RP8, RP9, RP16, RP17, RP18, RP19.
+    CANNOT be claimed: that a structural smell is debt a developer would recognise; that interest is time; that the
+        keyword types are the true types; that the natural-pair candidates are labelled.
+    Everything is observational: no causal claim.
+====================================================================================================
+END
+====================================================================================================

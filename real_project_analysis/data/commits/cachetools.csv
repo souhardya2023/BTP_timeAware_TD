@@ -1,0 +1,262 @@
+repo,sha,date,author,subject,files,src_files,added,deleted,src_added,src_deleted,bugfix,sad_added,sad_removed,funcs_changed,smell_created,smell_removed,smell_grew,smell_shrank,new_funcs,deleted_funcs,bulk,max_changed_func_nloc,smell_touched,smell_touched_lines,code_lines_changed,kw_security,kw_concurrency,kw_dependency,kw_coupling,kw_complexity
+cachetools,340c474a11,2026-10-31,b82db01a,Release v7.2.8.,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c8b4ee2f6c,2026-10-31,b82db01a,"Make ""self"" positional-only in @cachedmethod decorators and keys.",3,2,18,12,12,12,0,0,0,18,0,0,0,0,0,0,0,27,1,1,12,0,0,0,0,0
+cachetools,2e82602ed2,2026-10-28,b82db01a,Release v7.2.7.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,ef1f0d1cf8,2026-10-28,b82db01a,Improve TTL/TLRUCache performance.,1,1,15,19,15,19,0,0,0,4,1,0,0,0,0,2,0,20,1,2,15,0,0,0,0,0
+cachetools,9220c45753,2026-10-28,b82db01a,Improve Cache's default getsizeof() handling.,1,1,42,40,42,40,0,0,0,22,1,0,0,0,0,4,0,33,1,30,42,0,0,0,0,0
+cachetools,2155487f31,2026-10-28,b82db01a,Reuse stored @cachedmethod wrappers for super() access.,2,1,116,37,43,37,0,0,0,1,0,1,0,0,1,0,0,34,1,21,36,0,0,0,0,0
+cachetools,9f2bc196ad,2026-10-26,b82db01a,Release v7.2.6.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,f6066ebe43,2026-10-26,b82db01a,Improve @cached and @cachedmethod condition variant performance.,5,2,106,49,12,4,0,0,0,8,0,0,0,0,0,0,0,27,2,4,8,0,0,0,0,0
+cachetools,822397a5f0,2026-10-26,b82db01a,Minor popitem() performance improvements.,1,1,18,6,18,6,0,0,0,6,0,0,0,0,0,0,0,11,0,0,18,0,0,0,0,0
+cachetools,64558da88d,2026-10-26,b82db01a,Improve __getitem__ performance.,1,1,17,15,17,15,0,0,0,4,0,0,0,0,0,0,0,11,0,0,17,0,0,0,0,0
+cachetools,38c135da40,2026-10-26,b82db01a,Improve keys.hashkey performance.,2,1,23,13,22,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,5,0,0,0,0,0
+cachetools,a2d411e538,2026-10-25,b82db01a,Release v7.2.5.,2,1,17,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,354c075acb,2026-10-24,b82db01a,Various documentation corrections and improvements.,3,1,111,107,5,5,0,0,0,3,0,0,0,0,0,0,0,16,0,0,5,0,0,0,0,0
+cachetools,2609f068f9,2026-10-24,b82db01a,Fix #417: Re-enable pickling of objects with cached methods.,4,2,204,15,44,15,1,0,0,16,0,0,1,0,5,0,0,44,3,6,31,0,0,0,0,0
+cachetools,b34643f371,2026-10-24,b82db01a,Fix @cachedmethod class access with receiver as keyword argument.,2,1,59,4,24,4,1,0,0,2,0,0,0,0,1,0,0,6,0,0,21,0,0,0,0,0
+cachetools,36d4e87f3f,2026-10-22,feca129b,"Forward ""pending"" keyword argument in cached methods.",2,1,23,1,1,1,0,0,0,2,0,0,0,0,0,0,0,21,0,0,1,0,0,0,0,0
+cachetools,6f23e2a7b7,2026-10-19,b82db01a,Release v7.2.4.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,95e6addbd8,2026-10-19,14d396f3,Fix #443: Restore autospec calls to @cachedmethod decorated methods,2,1,36,7,22,7,1,0,0,3,0,0,0,0,2,1,0,6,0,0,17,0,0,0,0,0
+cachetools,07bb960867,2026-10-17,b82db01a,Release v7.2.3.,4,1,122,265,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,41e4b1616a,2026-10-17,b82db01a,Fix @cached stacking behavior.,3,1,46,2,13,2,1,0,0,9,0,0,1,0,0,0,0,35,2,2,9,0,0,0,0,0
+cachetools,be0b2eba99,2026-10-15,b82db01a,Release v7.2.2.,4,1,331,129,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,7388397643,2026-10-15,b82db01a,Refactor method descriptor.,3,2,139,116,133,116,0,0,0,6,1,1,0,0,10,9,0,11,1,1,101,0,0,0,0,1
+cachetools,7cfc812172,2026-10-14,ab067f6a,Compute TTL expiration before changing cache state,2,1,17,1,2,1,0,0,0,1,0,0,0,0,0,0,0,15,0,0,2,0,0,0,0,0
+cachetools,ec0b97b8a4,2026-10-14,9fe5be3d,Fix #437: Preserve cachedmethod super dispatch and expand inheritance coverage,2,1,121,2,15,1,1,0,0,1,1,0,0,0,0,0,0,47,1,13,13,0,0,0,1,0
+cachetools,aa73a19299,2026-10-14,1dd2c25c,Fix #435: Restore class access to cached instance methods (#436),3,1,74,4,8,4,1,0,0,1,0,0,0,0,1,0,0,35,0,0,5,0,0,0,0,0
+cachetools,9976f1a807,2026-10-05,b82db01a,Release v7.2.1.,4,1,29,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,ffe21c44d3,2026-10-05,75fadca9,Fix #430: Honor falsey getsizeof callables (#431),1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,10,0,0,1,0,0,0,0,0
+cachetools,11153c9476,2026-09-27,b82db01a,Prefer pyright file-level comments over relaxing rules globally.,4,2,7,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,bcf9e8176e,2026-09-27,7876deb3,Fix #423: Detect an empty RRCache before calling choice.,2,1,19,5,4,5,1,0,0,1,0,0,0,0,0,0,0,6,0,0,4,0,0,0,0,0
+cachetools,3c082c654c,2026-09-16,b82db01a,Release v7.2.0.,2,1,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,9b7fe6ca65,2026-09-16,b82db01a,Deprecate @cached(cache=None).,3,1,28,4,8,0,0,0,0,1,0,0,1,0,0,0,0,35,1,6,7,0,0,0,0,0
+cachetools,defc58b025,2026-08-31,b82db01a,Prepare v7.1.8.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,dd181c5a72,2026-08-28,411c4091,Reject negative maxsize in Cache.__init__,2,1,26,0,2,0,0,0,0,1,0,0,0,0,0,0,0,10,0,0,2,0,0,0,0,0
+cachetools,ccaa8c8c88,2026-08-01,b82db01a,Minor stylistic improvements.,1,1,13,19,13,19,0,0,0,1,0,0,0,0,1,0,0,13,0,0,10,0,0,0,0,0
+cachetools,c65b625da6,2026-08-01,b82db01a,Prepare v7.1.7.,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,39b31bc9b6,2026-08-01,53cec91a,Fix #405: Fix Cache.__setitem__ over-evicting when growing an existing key,2,1,49,5,8,5,1,0,0,1,0,0,0,0,0,0,0,20,0,0,8,0,0,0,0,0
+cachetools,13bb86a55e,2026-07-24,b82db01a,Minor style improvements to keep ruff happy.,13,2,25,25,6,8,0,0,0,1,0,0,0,0,0,0,0,8,0,0,6,0,0,0,0,0
+cachetools,d64cf805de,2026-07-23,b82db01a,Prepare v7.1.5.,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c0fdf6abab,2026-07-23,03cf4f1a,Fix TLRUCache silently keeping stale value on expired overwrite,2,1,37,1,17,1,1,0,0,1,0,0,0,0,0,0,0,25,0,0,13,0,0,0,0,0
+cachetools,d5c7eea7e5,2026-07-07,f38f3606,Reject negative cache item sizes,2,1,11,0,2,0,0,0,0,1,0,0,0,0,0,0,0,17,0,0,2,0,0,0,0,0
+cachetools,48284d73d0,2026-05-22,b82db01a,Release v7.1.4.,3,1,11,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,92dd756b93,2026-05-18,b82db01a,Prepare v7.1.3.,4,1,51,24,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,39ad61c1db,2026-05-16,b82db01a,Prepare v7.1.2.,3,1,15,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,325e02d36d,2026-05-09,b82db01a,Replace flake8 and black with ruff.,8,1,17,34,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,2e6a2d21c4,2026-05-03,b82db01a,Release v7.1.1.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d9874465a6,2026-05-01,b82db01a,Release v7.1.0.,3,1,10,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,bd3fbc4921,2026-04-30,b82db01a,Improve typing support.,17,3,192,87,16,9,0,0,0,7,0,0,0,0,1,0,0,32,1,5,10,0,0,0,0,0
+cachetools,28d4506f2a,2026-04-20,b82db01a,Release v7.0.6.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,51921a4812,2026-04-20,b82db01a,Remove _TimedCache default timer to simplify type stubs.,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,3,0,0,1,0,0,0,1,1
+cachetools,5dce86fc5c,2026-03-09,b82db01a,Release v7.0.5.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,af5e68812b,2026-03-09,fcca6cb8,Minor @cachedmethod performance improvements.,1,1,10,6,10,6,0,0,0,4,0,0,1,0,1,0,0,9,1,3,8,0,0,0,0,0
+cachetools,5b1fa392d0,2026-03-08,b82db01a,Prepare v7.0.4.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,18e5930ced,2026-03-08,b82db01a,Fix #218: Fix and properly document @cachedmethod.cache_key handling.,3,1,37,18,4,4,1,0,0,7,0,0,0,0,0,0,0,26,1,1,4,0,0,0,0,0
+cachetools,98ec79ff8b,2026-03-08,b82db01a,"Drop ""class method"" from @cachedmethod docstring.",1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,4,0,0,2,0,0,0,0,0
+cachetools,93822a30fc,2026-03-05,b82db01a,Release v7.0.3.,3,1,9,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,57d2e4813d,2026-03-05,14d396f3,Fix #387: Handle obj=None case for inspection in _DescriptorBase.,2,1,18,1,6,1,1,0,0,1,0,0,0,0,0,0,0,32,0,0,3,0,0,0,0,0
+cachetools,8011b71949,2026-03-02,b82db01a,Release v7.0.2.,2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,73d1602569,2026-03-01,b82db01a,Minor cleanups.,3,1,22,7,6,5,0,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,1
+cachetools,2181faddf8,2026-03-01,c4534dc4,Add comment explaining clear() optimization.,1,1,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,595e7af5e2,2026-03-01,c4534dc4,Address PR review comments for clear() methods,1,1,14,16,14,16,0,0,0,8,0,0,0,0,1,0,0,5,0,0,13,0,0,0,0,0
+cachetools,c9c942fa76,2026-03-01,c4534dc4,Add efficient clear() method to all cache classes.,1,1,24,0,24,0,0,0,0,3,0,0,0,0,4,0,0,5,0,0,20,0,0,0,0,0
+cachetools,330f147872,2026-03-01,c4534dc4,"Add efficient clear() method to Cache, LRUCache, and LFUCache.",4,1,114,0,16,0,0,0,0,1,0,0,0,0,3,0,0,5,0,0,13,0,0,0,0,0
+cachetools,e5f8f0172b,2026-02-10,b82db01a,Release v7.0.1.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,45776b23b1,2026-02-01,b82db01a,Minor code and documentation improvements.,4,4,63,30,63,30,0,0,0,12,0,0,0,0,2,2,0,30,2,3,34,0,0,0,0,0
+cachetools,bb72c21aab,2026-02-01,b82db01a,Fix #357: Add cache_info() support for @cachedmethod.,6,2,775,243,196,31,1,0,1,12,2,0,0,0,18,0,0,30,2,19,165,0,0,0,0,0
+cachetools,86352aed2b,2026-02-01,b82db01a,Fix #357: Convert @cachedmethod decorators to descriptors.,5,1,401,176,143,11,1,1,0,4,1,0,0,0,23,0,0,21,0,0,108,0,0,0,0,0
+cachetools,263cf3185f,2026-02-01,b82db01a,Prepare v7.0.0.,3,1,16,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,59d4db25cd,2026-02-01,b82db01a,Drop support for cache(self) returning None in @cachedmethod.,2,1,5,76,5,27,0,0,0,9,0,0,0,0,0,1,0,22,0,0,5,0,0,0,0,0
+cachetools,c933a97673,2026-02-01,b82db01a,"Drop support for passing ""info"" as fourth positional parameter of @cached.",2,1,0,23,0,11,0,0,0,1,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0
+cachetools,8dff9116e7,2026-01-27,b82db01a,Release v6.2.6.,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d312800169,2026-01-27,b82db01a,Minor code readability improvements.,2,2,6,1,6,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,2,0,0,0,0,0
+cachetools,e73a853986,2026-01-27,b82db01a,Improve typedkey performance.,1,1,6,3,6,3,0,0,1,1,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+cachetools,0d1fceca4c,2026-01-25,b82db01a,Release v6.2.5.,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,31c81d4c1b,2025-12-15,b82db01a,Bump version for uploading with updated twine.,2,1,8,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,69b4539a02,2025-12-12,b82db01a,Prepare v6.2.3.,2,1,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,28b5d4c7d7,2025-12-12,b82db01a,Fix #372: Convert setup.cfg to pyproject.toml.,4,1,51,51,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,cc0cf2299e,2025-12-12,b82db01a,Minor style and readability improvements.,3,3,10,5,10,5,0,1,0,4,0,0,0,0,1,0,0,14,0,0,8,0,0,0,0,0
+cachetools,96f8f24eb4,2025-11-13,b82db01a,Release v6.2.2.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,924f8c51e8,2025-11-13,b82db01a,Minor improvements from GitHub Copilot code review.,4,3,110,10,18,10,0,0,0,5,0,0,0,0,0,0,0,9,0,0,6,0,0,0,0,0
+cachetools,15b93744f5,2025-10-12,b82db01a,Release v6.2.1.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,384ba96d34,2025-10-12,b82db01a,Move extended @ttl_cache docs to proper place.,2,1,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+cachetools,b630101398,2025-10-12,b6ea82bc,"docs: clarify what units the `ttl` argument uses (i.e., seconds)",1,1,2,0,2,0,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+cachetools,795e7aa3b2,2025-08-25,b82db01a,Release v6.2.0.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,4d74eb46f5,2025-08-25,b82db01a,Fix #356: Improve RRCache performance.,2,1,55,1,18,1,1,0,0,6,0,0,0,0,2,0,0,14,0,0,16,0,0,0,0,0
+cachetools,342388b9bd,2025-06-16,b82db01a,Release v6.1.0.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,2aeffb0448,2025-06-16,b82db01a,"Fix #260: Use LFUCache implementation based on Blake Reid's ""cacheing"" library.",3,1,65,9,55,9,1,0,0,15,0,0,0,0,3,0,0,16,0,0,51,0,0,0,0,0
+cachetools,dc0404eb2b,2025-05-23,b82db01a,Release v6.0.0.,2,1,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,ef2f543fa4,2025-05-02,b82db01a,Pre-release v6.0.0b4.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c17b0e3ded,2025-04-28,b82db01a,Add cache_condition wrapper attribute (and refactor a bit).,5,3,121,61,59,42,0,0,0,4,2,2,0,0,31,30,0,13,0,0,50,0,0,0,0,1
+cachetools,ab6fa0ee17,2025-04-08,b82db01a,Pre-release v6.0.0b3.,2,1,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d049b50767,2025-04-08,9e039205,"rename __{update,touch}()",1,1,4,3,4,3,0,0,0,2,0,0,0,0,1,1,0,5,0,0,4,0,0,0,0,0
+cachetools,1bfc3c7e7f,2025-04-08,99272053,Deprecate dummy_threading fallback import,1,1,1,5,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0
+cachetools,27397a57bb,2025-04-02,b82db01a,Pre-release v6.0.0b2.,2,1,13,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,da5819a863,2025-04-02,b82db01a,"Add optional ""condition"" parameter to @cachedmethod.",3,2,188,26,50,6,0,0,0,3,0,0,0,0,3,0,0,10,0,0,44,0,0,0,0,0
+cachetools,91d5429503,2025-04-02,b82db01a,Split @cached and @cachedmethod helper submodules.,3,2,67,65,66,1,0,0,0,0,0,0,0,0,7,0,0,0,0,0,55,0,0,1,1,0
+cachetools,e0b98aa418,2025-04-02,b82db01a,"Add optional ""condition"" parameter to @cached.",4,3,204,18,67,18,0,0,0,5,1,0,1,0,7,4,0,25,1,14,61,0,0,0,0,0
+cachetools,e0dde4e5d0,2025-03-19,b82db01a,Pre-release v6.0.0b1.,2,1,18,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,15637a3281,2025-03-19,b82db01a,Refactor @cachedmethod decorator and move implementation details to private submodule.,2,2,65,50,65,50,0,0,0,2,0,0,0,0,7,4,0,6,0,0,54,0,0,1,1,1
+cachetools,a2d34a0d4d,2025-03-19,b82db01a,"Fix #294: Prevent ""cache stampede"" in cachetools.func decorators.",4,3,67,6,53,6,1,0,0,5,1,0,0,0,4,0,0,19,1,3,47,0,0,0,0,0
+cachetools,143e78d528,2025-03-19,b82db01a,Fix #334: Drop MRUCache.,5,2,3,161,2,61,1,0,0,13,0,0,0,0,0,7,0,14,0,0,2,0,0,0,0,0
+cachetools,316a94178e,2025-02-20,b82db01a,Bump version,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,902dce4b45,2025-02-20,b82db01a,Reduce number of decorator lock/unlock operations in case of cache miss.,2,1,25,30,17,18,0,0,0,4,0,0,0,0,0,0,0,16,0,0,15,0,1,0,0,1
+cachetools,08824a4e2b,2025-02-20,b82db01a,"Refactor ""cached"" decorator and move implementation details to private submodule.",2,2,159,127,159,127,0,0,0,2,0,0,0,0,21,16,0,15,0,0,129,0,0,1,1,1
+cachetools,677177c0dc,2025-01-21,b82db01a,Release v5.5.1.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c1fe215041,2024-08-18,b82db01a,Bump version.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d7b24235f8,2024-08-18,b82db01a,"TLRUCache.expire() returns iterable of expired (key, value) pairs.",2,1,16,6,8,1,0,0,0,1,0,0,0,0,0,0,0,18,0,0,7,0,0,0,0,0
+cachetools,bb4b37cfc7,2024-08-18,b82db01a,"Fix #292, fix #205, fix #103: TTLCache.expire() returns iterable of expired (key, value) pairs.",2,1,20,11,8,4,1,0,0,1,0,0,0,0,0,0,0,17,0,0,7,0,0,0,0,0
+cachetools,726b0111e0,2024-07-15,b82db01a,Release v5.4.0.,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,43596b2337,2024-07-15,b82db01a,Fix #256: Deprecate MRUCache class.,4,1,29,4,4,0,1,0,0,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,0,0
+cachetools,d3598664ca,2024-07-15,b82db01a,Fix #256: Deprecate @mru_cache decorator.,3,1,17,6,4,0,1,0,0,1,0,0,0,0,0,0,0,9,0,0,2,0,0,0,0,0
+cachetools,1a015dc6b5,2024-06-02,ba04d573,Add the `keys.typedmethodkey` decorator,3,1,34,23,6,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+cachetools,44903e281a,2024-02-26,b82db01a,Bump copyright year and version.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,83fb0f5b02,2023-10-24,b82db01a,Release v5.3.2.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,ac0b83c76d,2023-05-27,b82db01a,Release v5.3.1.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,dd52790290,2023-01-22,b82db01a,Prepare v5.3.0.,3,1,9,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,814c057b4b,2023-01-22,b82db01a,Fix #131: Add cache_info() function to @cached decorator.,3,2,216,118,157,113,1,0,0,13,0,0,0,0,13,8,0,38,0,0,133,0,0,0,0,0
+cachetools,4d84a4424b,2023-01-08,b82db01a,Prepare v5.2.1.,4,1,14,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d4c8c21058,2022-05-29,b82db01a,Prepare v5.2.0.,2,1,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,6ddbca1884,2022-05-29,b82db01a,Add cache_clear() function to decorators.,4,1,96,28,23,0,0,0,0,4,0,0,0,0,5,0,0,15,0,0,18,0,0,0,0,0
+cachetools,eb672f8997,2022-05-29,b82db01a,Add cachetools.keys.methodkey().,4,2,28,12,9,8,0,0,0,2,0,0,0,0,1,1,0,3,0,0,7,0,0,0,0,0
+cachetools,ece124b086,2022-05-29,b82db01a,Modernize func wrappers.,1,1,6,5,6,5,0,0,0,5,0,0,0,0,0,0,0,16,0,0,6,0,0,0,0,0
+cachetools,3ac5acdb1e,2022-05-15,b82db01a,Prepare v5.1.0.,5,1,10,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,4eb0ad9e92,2022-05-15,b82db01a,Fix #176: Add cache decorator parameters as attributes.,4,1,84,31,8,0,1,0,0,4,0,0,0,0,0,0,0,11,0,0,6,0,0,0,0,0
+cachetools,c91035772d,2021-12-21,b82db01a,Prepare v5.0.0.,2,1,49,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,9dda91f99b,2021-12-21,b82db01a,Fix #159: Pass self to @cachedmethod key function.,2,1,35,9,9,5,1,0,0,5,0,0,0,0,1,0,0,16,0,0,7,0,0,0,0,0
+cachetools,0e778e4410,2021-12-19,b82db01a,Refactor time aware caches.,3,1,151,192,115,158,0,0,0,36,0,0,0,0,1,8,0,14,0,0,105,0,0,0,0,1
+cachetools,ec64a4375a,2021-12-19,b82db01a,Fix #157: Add TLRU cache implementation.,3,1,469,1,161,0,1,0,0,0,0,0,0,0,20,0,0,0,0,0,130,0,0,0,0,0
+cachetools,91aa4c63f5,2021-12-18,b82db01a,Fix #221: Change exact time of expiration in TTLCache.,2,1,16,15,6,6,1,0,0,6,0,0,0,0,0,0,0,13,0,0,6,0,0,0,0,0
+cachetools,4d11ef92d5,2021-12-18,b82db01a,Fix #227: Change Cache.__repr__() format.,1,1,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,2,0,0,0,0,0
+cachetools,4f0804845d,2021-12-18,b82db01a,Remove deprecated submodules.,8,7,0,130,0,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+cachetools,371ba0080b,2021-09-30,e6650144,"use stacklevel=2 for deprecation warnings, so the source/line number of the user code is indicated",7,7,21,7,21,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0
+cachetools,843b89aae1,2021-09-30,b82db01a,Release v4.2.4.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,a17e1edc18,2021-09-30,b82db01a,Fix #225: Add submodule shims for backward compatibility.,9,7,119,1,49,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,1,0,0
+cachetools,f817a07ea2,2021-09-29,b82db01a,Release v4.2.3.,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,6c8e66a557,2021-09-27,b82db01a,Fix #178: Flatten package file hierarchy.,10,10,584,622,584,622,1,0,1,0,0,0,0,0,79,80,0,0,0,0,464,0,0,0,0,0
+cachetools,45790c6d7d,2021-04-27,b82db01a,Release v4.2.2.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,7e9b6ab9fd,2021-04-27,b82db01a,Add src directory.,12,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,e33813d442,2021-04-27,b82db01a,Remove Python 2 remnants.,6,2,11,11,4,4,0,0,0,1,0,0,0,0,0,0,0,4,0,0,4,0,0,0,1,0
+cachetools,2a6a6a4229,2021-04-27,b82db01a,Format code with black.,21,11,80,79,41,28,0,0,0,10,0,0,0,0,0,0,0,15,0,0,26,0,0,0,0,0
+cachetools,254a499f0e,2021-01-24,b82db01a,Prepare v4.2.1.,5,1,12,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c1cb33811b,2021-01-24,b82db01a,Fix #200: Handle __missing__ not storing cache items.,4,3,38,20,6,3,1,0,0,3,0,0,0,0,0,0,0,5,0,0,6,0,0,0,0,0
+cachetools,5391d0990b,2020-12-10,b82db01a,Release v4.2.0.,3,1,3,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,e016abd740,2020-12-09,b82db01a,Prepare v4.2.0.,2,1,16,2,1,2,0,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+cachetools,232101c6a5,2020-12-09,b82db01a,Add FIFO cache implementation.,6,3,124,0,49,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,39,0,0,0,0,0
+cachetools,33cc5a1da2,2020-12-09,b82db01a,"Fix #188: In case of a race, prefer the item already in the cache.",2,2,9,9,9,9,1,0,0,9,0,0,0,0,0,0,0,16,0,0,6,0,1,0,0,0
+cachetools,36a57bf335,2020-12-09,b82db01a,Homogenize cache implementations.,5,5,17,20,17,20,0,0,0,9,0,0,0,0,0,0,0,9,0,0,17,0,0,0,0,0
+cachetools,97cb644e88,2020-12-09,b82db01a,Remove DefaultMapping abstract base class.,2,2,30,48,30,48,0,0,0,0,0,0,0,0,3,5,0,0,0,0,24,0,0,0,1,0
+cachetools,eba03ddaca,2020-08-08,e8f59dc8,Add MRU cache implementation,5,3,110,1,55,1,0,0,0,0,0,0,0,0,7,0,0,0,0,0,43,0,0,0,0,0
+cachetools,dd3d204bab,2020-06-28,b82db01a,Prepare v4.1.1.,3,1,12,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d5b25b8e95,2020-06-28,b82db01a,Fix #174: Improve popitem() exception context handling.,5,4,24,4,8,4,1,0,0,4,0,0,0,0,0,0,0,10,0,0,8,0,0,0,0,0
+cachetools,1e5fd784aa,2020-06-28,b82db01a,Fix #167: Replace float('inf') with math.inf.,1,1,2,1,2,1,1,0,0,1,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0
+cachetools,a09a49cf11,2020-04-08,b82db01a,Prepare v4.1.0.,6,1,15,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,6a70f80e8b,2020-04-08,b82db01a,Fix #164: Support cache_parameters() with cachetools.func decorators.,3,1,48,24,23,17,1,0,0,5,0,0,0,0,1,0,0,12,0,0,19,0,0,0,0,0
+cachetools,9a6cb65aae,2020-04-08,b82db01a,Fix #163: Support user_function with cachetools.func decorators.,3,1,42,14,8,0,1,0,0,4,0,0,0,0,0,0,0,7,0,0,8,0,0,0,0,0
+cachetools,1a84f0f26b,2019-12-15,b82db01a,Prepare v4.0.0.,9,1,124,121,2,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0
+cachetools,c7da0e13c9,2019-12-12,b82db01a,Drop Python 2 support.,11,10,114,163,111,158,0,0,0,5,0,0,0,0,9,12,0,11,0,0,104,0,0,0,0,0
+cachetools,678b779137,2019-05-23,b82db01a,Prepare v3.1.1.,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,462e867950,2019-05-20,b82db01a,Fix #130: Fix pickling/unpickling of cache keys.,2,1,25,1,12,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,8,0,0,0,0,0
+cachetools,15801a67b8,2019-01-29,b82db01a,Prepare v3.1.0.,2,1,11,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,f3339cb49d,2019-01-29,b82db01a,Fix #124: Fix Python 3.8 compatibility issue.,1,1,6,2,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0
+cachetools,0a157a5c3d,2019-01-29,b82db01a,Fix #123: Use time.monotonic as default timer if available.,3,2,19,9,12,4,1,0,0,2,0,0,0,0,0,0,0,7,0,0,10,0,0,0,0,0
+cachetools,8ee5a45419,2018-11-04,b82db01a,Prepare v3.0.0.,2,1,16,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,4a06163613,2018-11-04,b82db01a,Fix #113: Add support for maxsize=None in cachetools.func decorators.,3,1,52,11,34,4,1,0,0,4,0,0,0,0,3,0,0,5,0,0,27,0,0,0,0,0
+cachetools,50ed5d8977,2018-10-27,b82db01a,Increase coverage.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,e4b5f9b6f5,2018-10-27,b82db01a,"Fix #109: Remove ""missing"" constructor argument.",7,5,19,83,14,35,1,0,0,6,0,1,0,0,0,1,0,8,1,2,14,0,0,0,1,0
+cachetools,4dbbef9b09,2018-10-27,b82db01a,Fix #107: Remove 'self' from @cachedmethod key arguments.,2,1,6,2,2,2,1,0,0,4,0,0,0,0,0,0,0,17,0,0,2,0,0,0,1,0
+cachetools,fb0e9cdb3e,2018-10-27,b82db01a,Fix #110: Officially support Python 3.7.,2,1,5,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,91ad85bc30,2018-06-12,7bcb57d6,Test on PyPy Python 3 implementation,3,1,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cachetools,45d9b0da1b,2018-05-12,b82db01a,Prepare v2.1.0.,5,1,16,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,8297633af9,2018-05-12,b82db01a,Fix #58: Deprecate 'missing' Cache constructor parameter.,8,5,65,24,19,11,1,0,0,5,0,0,0,0,0,0,0,13,1,1,16,0,0,0,0,0
+cachetools,83335b6d92,2018-05-12,b82db01a,Fix #95: Fix Python 2.7 RRCache pickling issues.,2,1,12,15,10,1,1,1,0,1,0,0,0,0,1,0,0,7,0,0,6,0,0,0,0,0
+cachetools,d456411316,2018-05-12,b82db01a,Fix #94: Handle overridden getsizeof() method.,1,1,9,11,9,11,1,0,0,3,0,0,0,0,0,1,0,10,0,0,8,0,0,0,0,0
+cachetools,27c84aa474,2017-12-05,b82db01a,Keep flake8 happy.,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,fba5f8a5e8,2017-08-11,b82db01a,Prepare v2.0.1.,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,6bffc176dc,2017-08-11,b82db01a,Fix #86: Officially support Python 3.6.,2,1,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d57c8a3ea7,2017-08-11,b82db01a,"Update copyright statement, keep flake8 happy.",6,3,7,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,e27332bc82,2016-10-03,b82db01a,Prepare v2.0.0.,2,1,13,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,1770a71f3e,2016-10-03,b82db01a,Fix #74: Move key functions to separate package.,12,8,58,44,24,6,1,0,0,4,0,0,0,0,0,0,0,13,0,0,15,0,0,0,1,0
+cachetools,bb87402d37,2016-10-03,b82db01a,Fix #75: Remove deprecated features.,5,2,30,249,20,72,1,0,0,10,0,1,0,0,0,4,0,17,1,2,20,0,0,0,1,0
+cachetools,f9e6e46ab0,2016-10-03,b82db01a,Fix #65: Drop Python 3.2 support.,3,1,2,5,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,7a7c836a20,2016-10-03,b82db01a,Fix #73: Accept non-integer maxsize in __repr__().,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,1,0,0,0,0,0
+cachetools,7f850b8c8f,2016-04-04,b82db01a,Fix #71: No unicode_literals in setup.py.,1,1,0,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,8bb68a235f,2016-04-01,b82db01a,Prepare v1.1.6.,3,1,19,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,977e1c4f19,2016-04-01,b82db01a,Fix #63: Handle ValueError in Cache.__missing__().,2,1,16,1,4,1,1,0,0,1,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+cachetools,d20f70bd18,2016-04-01,b82db01a,Fix #67: Do not call TTLCache.expire() from TTLCache.__delitem__().,2,1,20,31,18,18,1,0,0,4,0,0,0,0,0,0,0,13,0,0,17,0,0,0,0,0
+cachetools,d4da6633d2,2016-04-01,b82db01a,Fix #60: Call __missing__() of derived classes.,2,1,79,35,61,35,1,0,1,7,0,0,0,0,6,2,0,14,0,0,56,0,0,0,0,0
+cachetools,b1d836cfc0,2016-04-01,b82db01a,Fix #62: Improve TTLCache expiration handling.,1,1,26,43,26,43,1,0,0,9,0,0,0,0,0,0,0,14,0,0,25,0,0,0,0,0
+cachetools,b445d7a878,2016-04-01,b82db01a,Fix #64: Reimplement LRUCache and TTLCache using collections.OrderedDict.,2,2,76,156,76,156,1,1,0,17,1,1,0,0,5,15,0,15,1,0,73,0,0,0,0,0
+cachetools,668fdb331d,2016-04-01,b82db01a,Fix #66: Use Counter.most_common() for LFUCache.popitem().,1,1,4,5,4,5,1,0,0,3,0,0,0,0,0,0,0,7,0,0,4,0,0,0,0,0
+cachetools,775c51da45,2016-04-01,b82db01a,Code/build cleanups.,13,7,169,379,102,94,0,0,0,15,0,0,0,0,8,7,0,11,1,1,89,0,0,0,0,1
+cachetools,fd88358d79,2015-11-20,b82db01a,"Revert ""Prototype 'missing' abcs.""",2,2,27,83,27,83,0,0,1,0,0,0,0,0,3,10,0,0,0,0,21,0,0,0,0,0
+cachetools,ddf9db143a,2015-11-08,b82db01a,"Update travis build, Python 3.5 support.",2,1,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,a227419856,2015-10-25,b82db01a,Prototype 'missing' abcs.,2,2,83,27,83,27,0,1,0,0,0,0,0,0,10,3,0,0,0,0,58,0,0,0,0,0
+cachetools,42853733d0,2015-10-25,b82db01a,Prepare v1.1.5.,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,e332a99beb,2015-10-25,b82db01a,Fix #56: Refactor Cache base class.,3,3,80,58,80,58,1,0,2,18,0,0,0,0,9,0,0,16,1,1,69,0,0,0,0,1
+cachetools,41d521bd38,2015-10-24,b82db01a,Prepare v1.1.4.,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,9b35c76cd5,2015-10-24,b82db01a,Fix #51: Refactor cache implementations.,6,5,50,81,50,81,1,2,0,18,0,2,1,0,0,2,0,21,3,15,49,0,0,0,0,1
+cachetools,4f4b452255,2015-09-15,b82db01a,Prepare v1.1.3.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c8c8db1e9c,2015-09-15,b82db01a,Fix pickling of large LRUCache and TTLCache instances.,5,3,87,8,56,1,1,0,0,2,0,0,0,0,8,0,0,5,0,0,48,0,0,0,0,0
+cachetools,5cdedd518b,2015-09-07,b82db01a,Prepare v1.1.1.,2,1,47,37,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,82b80716de,2015-09-07,b82db01a,Fix #46: Improve key functions.,3,1,42,16,16,12,1,0,1,4,0,0,0,0,0,1,0,5,0,0,16,0,0,0,0,0
+cachetools,58bd8c6937,2015-08-28,b82db01a,Remove unused decorators.py.,1,1,0,86,0,86,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,1,0
+cachetools,6a4c6f03a7,2015-08-28,b82db01a,Prepare v1.1.0.,2,1,22,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,b6bc350860,2015-08-28,b82db01a,Code/interface cleanup and documentation.,7,3,303,121,22,14,0,0,0,5,0,0,0,0,6,5,0,17,0,0,18,0,0,0,1,1
+cachetools,00f1aef41d,2015-08-28,b82db01a,Fix #37: Add key argument to @cachedmethod.,1,1,57,20,57,20,1,0,0,3,0,0,0,0,2,0,0,15,0,0,55,0,0,0,0,0
+cachetools,1a4d59ac5f,2015-08-26,b82db01a,Fix #43: Save hash value for decorator keys.,10,7,167,23,115,16,1,1,0,2,0,0,0,0,14,1,0,18,0,0,92,0,0,0,0,0
+cachetools,804be3511e,2015-08-24,b82db01a,Fix #34: Add generic @cache decorator.,7,4,346,115,159,96,1,0,0,5,0,0,1,0,17,12,0,6,1,5,144,0,0,0,0,0
+cachetools,37024a77d1,2015-06-26,b82db01a,Prepare v1.0.3.,2,1,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,da4ea1a8a8,2015-06-24,b82db01a,Fix #42: Clear cache statistics in clear_cache().,7,1,92,66,1,0,1,0,0,3,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+cachetools,0ca640f2c8,2015-06-18,b82db01a,Prepare v1.0.2.,2,1,10,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,385ace836f,2015-06-18,b82db01a,Fix #40: Allow simple cache instances to be pickled.,5,3,85,49,55,47,1,0,1,8,0,0,1,1,4,1,0,25,3,8,48,0,0,0,0,0
+cachetools,7bc51c6dde,2015-06-09,b82db01a,Fix #41: Refactor getsizeof and missing default implementation.,1,1,15,9,15,9,1,0,0,2,0,0,0,0,2,0,0,8,0,0,12,0,0,0,0,1
+cachetools,b26d1e5ced,2015-06-06,b82db01a,Prepare v1.0.1.,2,1,12,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,ec80673eb1,2015-06-06,b82db01a,Fix #33: Code cleanup for improved PEP 8 conformance.,16,10,181,165,169,158,1,0,0,1,1,1,0,0,18,17,0,6,0,0,127,0,0,0,0,1
+cachetools,1daf0c7d27,2014-12-30,b82db01a,Update keywords.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,c6137f2fbc,2014-12-19,b82db01a,Fix #3: Improve documentation.,9,5,99,119,24,78,0,0,0,8,0,0,0,0,0,1,0,11,0,0,20,0,0,0,0,0
+cachetools,5c2a69ba94,2014-12-19,b82db01a,Fix #30: Provide RRCache.choice property.,3,1,8,0,5,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0
+cachetools,f3437a1226,2014-12-19,b82db01a,Prepare v1.0.0,3,2,7,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0
+cachetools,b624bf83a2,2014-12-15,b82db01a,Use NestedTimer for TTLCache.,5,2,139,87,110,65,0,1,0,9,1,1,0,0,7,0,0,24,2,23,98,0,0,0,0,0
+cachetools,d7cb99468c,2014-12-07,b82db01a,Prepare v0.8.1,13,6,44,14,16,14,0,0,0,7,0,0,1,1,1,0,0,24,2,3,15,0,0,0,0,0
+cachetools,bf2de581be,2014-12-03,b82db01a,Prepare v0.8.0,7,4,22,15,13,9,0,0,0,3,0,0,1,0,0,0,0,13,1,7,13,0,0,0,0,0
+cachetools,5f8051938a,2014-12-03,b82db01a,Fix #27: Ignore ValueError in decorators.,6,1,33,5,8,2,1,0,0,6,0,0,0,0,0,0,0,16,0,0,8,0,0,0,0,0
+cachetools,a4f3125a83,2014-12-03,b82db01a,Rename cache implementation source files.,5,1,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0
+cachetools,98e32c43f1,2014-12-03,b82db01a,Fix #13: Add Cache.getsize(),3,2,7,6,5,6,1,0,2,1,0,0,0,0,1,1,0,9,0,0,4,0,0,0,0,0
+cachetools,ebd7920290,2014-12-03,b82db01a,Add Cache.__missing__(),12,5,199,51,95,33,0,0,0,17,3,0,0,0,6,0,0,23,3,10,85,0,0,0,0,0
+cachetools,87d60895dd,2014-12-03,b82db01a,Bump version number for TestPyPI.,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,f240afdd5b,2014-11-24,b82db01a,Package cleanup.,4,1,23,24,8,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,6,0,0,0,0,1
+cachetools,827e2f53ef,2014-11-22,b82db01a,Fix #25: Fix MANIFEST.in,3,1,10,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,b0242092f8,2014-11-12,b82db01a,Fix #24: Skip expired items when iterating over TTLCache.,3,2,128,44,40,5,1,2,0,1,0,0,0,0,5,1,0,5,0,0,34,0,0,0,0,0
+cachetools,cef66537c7,2014-11-11,b82db01a,Fix #23: Refactor LFUCache.,2,1,19,16,14,12,1,0,0,4,0,0,0,0,1,0,0,6,0,0,13,0,0,0,0,1
+cachetools,8dd276486c,2014-11-11,b82db01a,Fix #20: Deprecate TTLCache.ExpiredError,7,3,16,31,5,14,1,0,0,1,0,0,0,0,0,0,0,12,0,0,5,0,0,0,0,0
+cachetools,6c829a41d5,2014-11-11,b82db01a,Fix #21: Add choice argument to RRCache constructor.,9,1,153,225,13,3,1,0,0,2,0,0,0,0,1,0,0,6,0,0,11,0,0,0,0,0
+cachetools,a49f49f2fb,2014-11-10,b82db01a,Fix #20: Move TTLCache.ExpiredError to module.,6,3,37,24,19,10,1,0,0,2,0,0,0,0,0,0,0,12,0,0,15,0,0,1,1,0
+cachetools,07646b7743,2014-11-10,b82db01a,Fix #14: LRU/TTLCache refactoring.,7,3,234,153,117,87,1,0,0,12,0,1,0,0,3,2,0,23,1,17,106,0,0,0,0,1
+cachetools,e626ad022e,2014-11-10,b82db01a,Fix #22: Remove NullContext implementation based on ExitStack.,2,1,10,11,7,10,1,0,0,2,0,0,0,0,0,0,0,2,0,0,6,0,0,0,1,0
+cachetools,101513c781,2014-11-05,b82db01a,Prepare v.0.7.0,5,1,78,72,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,482d35f78b,2014-10-23,b82db01a,Prepare v0.6.0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,34881215cf,2014-10-23,b82db01a,Fix #17: Raise TTLCache.ExpiredError for expired TTLCache items.,3,1,48,29,36,22,1,0,0,4,0,0,0,0,0,0,0,9,0,0,31,0,0,0,0,0
+cachetools,aae7bf592c,2014-10-23,b82db01a,Fix #16: Support unsynchronized function decorators.,10,5,32,19,28,14,1,0,0,10,0,0,0,0,4,2,0,13,1,1,25,0,1,0,0,0
+cachetools,430e338e3a,2014-10-23,b82db01a,Fix #15: Allow @cachedmethod.cache() to return None,3,1,35,17,3,0,1,0,0,3,0,0,0,0,0,0,0,12,0,0,3,0,0,0,0,0
+cachetools,2f95610811,2014-10-12,b82db01a,Add Travis CI,3,1,18,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,44b84324f5,2014-09-25,b82db01a,Prepare v0.5.1,2,1,9,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,d5ef9cc6f3,2014-09-25,b82db01a,Fix #12: No formatting of KeyError arguments.,2,1,12,1,1,1,1,0,0,1,0,0,0,0,0,0,0,5,0,0,1,0,0,0,0,0
+cachetools,36c792475b,2014-09-23,b82db01a,Release 0.5.0,2,1,1,4,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+cachetools,e57eb9c316,2014-09-23,b82db01a,Fix #7: getsizeof() usage,7,4,53,33,25,16,1,0,0,6,0,0,0,0,1,0,0,13,0,0,24,0,0,0,0,0
+cachetools,5ae3b9d9df,2014-09-23,b82db01a,Resolve #9: Add @ttl_cache function decorator.,11,7,114,56,67,50,0,0,1,4,1,0,0,0,9,8,0,10,0,0,52,0,0,0,0,0
+cachetools,e255ae7761,2014-09-23,b82db01a,Fix #6: Non-mutating TTLCache.__getitem__(),15,10,573,484,443,413,1,2,1,0,1,1,0,0,44,40,0,0,0,0,354,0,0,0,0,0
+cachetools,78408a1c1a,2014-09-18,b82db01a,Prepare v0.5.0,4,1,37,16,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,cbd852dca5,2014-06-17,b82db01a,"Update keywords, classifiers.",1,1,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
+cachetools,b210c14c7f,2014-06-16,b82db01a,Prepare v0.4.0,5,1,141,168,42,32,0,1,0,4,0,0,0,0,3,3,0,13,0,0,37,0,0,0,0,0
+cachetools,059216bd26,2014-06-16,b82db01a,"Add TTLCache, refactor base class",8,1,544,242,240,102,0,0,0,24,1,0,0,0,9,4,0,14,0,0,222,0,0,0,0,1
+cachetools,a29e4f0601,2014-05-07,b82db01a,Prepare v0.3.1,2,1,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+cachetools,5aeba23f69,2014-05-07,b82db01a,"Fix #1: Add proper locking for cache_clear(), cache_info()",1,1,7,5,7,5,1,0,0,5,0,0,0,0,0,0,0,13,0,0,7,0,1,0,0,0
+cachetools,fad89ed62e,2014-05-07,b82db01a,Fix #2: Report cache.size in cache_info(),1,1,1,1,1,1,1,0,0,3,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,0
+cachetools,bf206e0650,2014-05-06,b82db01a,Update documentation.,4,1,110,68,43,41,0,0,0,4,0,0,0,0,3,2,0,3,0,0,40,0,0,0,0,0
+cachetools,4953b0be1f,2014-05-06,b82db01a,Add cachedmethod decorator.,4,1,81,1,24,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,17,0,0,0,0,0
+cachetools,5543675c8e,2014-05-06,b82db01a,"Add size, getsizeof cache members.",7,2,212,157,97,85,0,0,1,6,0,0,0,0,15,13,0,8,0,0,91,0,0,0,0,0
+cachetools,3b9d81924a,2014-04-02,b82db01a,Prepare v0.2.0,11,1,253,80,68,60,0,1,0,10,0,0,0,0,10,12,0,8,0,0,63,0,0,0,0,0
+cachetools,35f85f2f78,2014-03-27,b82db01a,Prepare v0.1.0,11,2,312,150,162,99,0,0,2,12,0,0,0,0,19,14,0,5,0,0,143,0,0,0,0,0
+cachetools,a34b1fa18a,2014-03-22,b82db01a,"Add initial implementation, unit tests",6,2,245,31,121,22,0,2,0,12,0,0,0,0,14,2,0,10,0,0,102,0,0,0,0,0
+cachetools,c2e0e6be62,2014-03-22,b82db01a,Add description.,3,2,3,3,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
