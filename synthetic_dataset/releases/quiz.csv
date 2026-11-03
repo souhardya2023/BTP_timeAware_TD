@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+quiz,v0.1,v0.2,0,0.7618,60,168,10,0,2
+quiz,v0.2,v0.3,1,2.1771,74,227,68,0,4
+quiz,v0.3,v0.4,2,1.2146,29,300,91,0,8
+quiz,v0.4,v0.5,3,0.8255,5,327,91,0,8
+quiz,v0.5,v0.6,4,0.7357,5,330,91,0,8

@@ -1,0 +1,15 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+rate_limiter,v0.1,v0.2,0,0.7084,31,279,63,0,7
+rate_limiter,v0.2,v0.3,1,0.2607,25,308,75,2,8
+rate_limiter,v0.3,v0.4,2,0.4404,35,329,75,1,8
+rate_limiter,v0.4,v0.5,3,0.4447,29,362,76,1,8
+rate_limiter,v0.5,v0.6,4,0.1548,25,390,77,0,8
+rate_limiter,v0.6,v0.7,5,0.7905,30,413,89,2,9
+rate_limiter,v0.7,v0.8,6,0.7456,24,435,90,0,9
+rate_limiter,v0.8,v0.9,7,0.7262,24,450,90,2,9
+rate_limiter,v0.9,v0.10,8,0.7734,45,467,90,0,9
+rate_limiter,v0.10,v0.11,9,0.0349,2,502,90,0,9
+rate_limiter,v0.11,v0.12,10,0.2875,12,503,90,2,9
+rate_limiter,v0.12,v0.13,11,8.8678,108,510,86,8,8
+rate_limiter,v0.13,v0.14,12,0.075,1,587,90,0,8
+rate_limiter,v0.14,v0.15,13,0.256,5,587,90,0,8

@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+roman_numerals,v0.1,v0.2,0,2.2459,79,180,13,2,3
+roman_numerals,v0.2,v0.3,1,0.6822,41,250,49,4,7
+roman_numerals,v0.3,v0.4,2,1.7882,43,286,54,5,8
+roman_numerals,v0.4,v0.5,3,0.2368,3,316,55,2,8
+roman_numerals,v0.5,v0.6,4,0.8678,18,316,55,3,8

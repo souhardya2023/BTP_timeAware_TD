@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+parking_lot,v0.1,v0.2,0,3.7511,156,261,19,0,4
+parking_lot,v0.2,v0.3,1,0.2807,20,406,19,0,4
+parking_lot,v0.3,v0.4,2,1.2197,75,422,26,0,5
+parking_lot,v0.4,v0.5,3,0.668,51,481,26,0,5
+parking_lot,v0.5,v0.6,4,0.0536,0,523,54,0,7
+parking_lot,v0.6,v0.7,5,2.418,103,523,54,3,7
+parking_lot,v0.7,v0.8,6,0.2498,22,604,55,2,7
+parking_lot,v0.8,v0.9,7,0.0211,1,617,48,0,6
+parking_lot,v0.9,v0.10,8,0.3623,24,592,23,0,5
+parking_lot,v0.10,v0.11,9,1.8128,71,608,23,3,5

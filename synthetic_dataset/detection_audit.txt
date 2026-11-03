@@ -1,0 +1,15 @@
+# Detection audit (the debt is visible to an objective detector?)
+complexity: 272 of 272 instances flagged (100 %)
+security: 229 of 270 instances flagged (85 %)
+  eval_input              40 of  40 flagged
+  insecure_random         36 of  36 flagged
+  ladder                  71 of  71 flagged
+  long                    66 of  66 flagged
+  nested                  67 of  67 flagged
+  params                  68 of  68 flagged
+  path_traversal           0 of  41 flagged
+  shell_injection         40 of  40 flagged
+  sql_injection           23 of  23 flagged
+  unsafe_deserialize      43 of  43 flagged
+  weak_hash_secret        47 of  47 flagged
+concurrency, coupling_cohesion, dependency_structure: not audited (no detector run)

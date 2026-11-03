@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+task_scheduler,v0.1,v0.2,0,2.4412,104,283,47,5,4
+task_scheduler,v0.2,v0.3,1,0.3992,52,376,51,6,5
+task_scheduler,v0.3,v0.4,2,0.1569,13,417,65,0,6
+task_scheduler,v0.4,v0.5,3,2.0811,106,430,65,2,6
+task_scheduler,v0.5,v0.6,4,2.2218,92,518,89,3,7
+task_scheduler,v0.6,v0.7,5,1.4765,76,596,98,3,8
+task_scheduler,v0.7,v0.8,6,0.1852,0,645,98,0,8
+task_scheduler,v0.8,v0.9,7,0.198,13,621,74,0,7
+task_scheduler,v0.9,v0.10,8,0.5984,56,632,74,2,7

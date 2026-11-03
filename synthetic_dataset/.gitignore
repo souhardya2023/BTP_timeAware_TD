@@ -1,0 +1,3 @@
+# bare git repositories: rebuilt exactly by generator/build.py (deterministic)
+repos/
+__pycache__/

@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+input_validation,v0.1,v0.2,0,0.4608,28,255,81,4,4
+input_validation,v0.2,v0.3,1,0.1212,20,279,101,0,6
+input_validation,v0.3,v0.4,2,1.104,9,299,118,9,8
+input_validation,v0.4,v0.5,3,0.0465,1,300,119,1,8
+input_validation,v0.5,v0.6,4,3.8429,55,300,119,13,8

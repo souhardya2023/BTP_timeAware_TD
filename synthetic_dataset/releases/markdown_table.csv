@@ -1,0 +1,11 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+markdown_table,v0.1,v0.2,0,0.6132,17,227,0,0,0
+markdown_table,v0.2,v0.3,1,0.2298,6,242,3,0,1
+markdown_table,v0.3,v0.4,2,0.5594,77,246,7,1,2
+markdown_table,v0.4,v0.5,3,0.8788,69,320,62,2,6
+markdown_table,v0.5,v0.6,4,0.5371,31,384,63,2,6
+markdown_table,v0.6,v0.7,5,0.8891,41,410,66,3,7
+markdown_table,v0.7,v0.8,6,0.9815,30,442,66,3,7
+markdown_table,v0.8,v0.9,7,0.3779,47,463,67,1,7
+markdown_table,v0.9,v0.10,8,2.4368,71,505,68,8,7
+markdown_table,v0.10,v0.11,9,0.3934,33,552,60,1,5

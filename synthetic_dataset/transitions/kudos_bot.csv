@@ -1,0 +1,143 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+kudos_bot,v0.1,v0.2,0,kudos_bot-D01,kudos_bot/svc_kudos.py,bump_member_counter_1,synth:unlocked_counter,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.1,v0.2,0,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.1,v0.2,0,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,0,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.1,v0.2,0,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,0,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.2,v0.3,1,kudos_bot-D01,kudos_bot/svc_kudos.py,bump_member_counter_1,synth:unlocked_counter,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.2,v0.3,1,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.2,v0.3,1,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,1,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.2,v0.3,1,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,1,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.3,v0.4,2,kudos_bot-D01,kudos_bot/svc_kudos.py,bump_member_counter_1,synth:unlocked_counter,MAJOR,15,12,4,2,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.3,v0.4,2,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.3,v0.4,2,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,2,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.3,v0.4,2,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,2,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.4,v0.5,3,kudos_bot-D01,kudos_bot/svc_kudos.py,bump_member_counter_1,synth:unlocked_counter,MAJOR,15,12,4,3,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.4,v0.5,3,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.4,v0.5,3,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,3,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.4,v0.5,3,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,3,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.5,v0.6,4,kudos_bot-D01,kudos_bot/svc_kudos.py,bump_member_counter_1,synth:unlocked_counter,MAJOR,15,12,4,4,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.5,v0.6,4,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.5,v0.6,4,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,4,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.5,v0.6,4,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,4,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.5,v0.6,4,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,0,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.6,v0.7,5,kudos_bot-D01,kudos_bot/svc_kudos.py,bump_member_counter_1,synth:unlocked_counter,MAJOR,15,12,4,5,0,0,0.02269984787238689,repayment,0,13,5,0.0,0.0
+kudos_bot,v0.6,v0.7,5,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.6,v0.7,5,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,5,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.6,v0.7,5,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,5,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.6,v0.7,5,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,1,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.6,v0.7,5,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.7,v0.8,6,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.7,v0.8,6,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,6,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.7,v0.8,6,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,6,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.7,v0.8,6,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,2,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.7,v0.8,6,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.8,v0.9,7,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.8,v0.9,7,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,7,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.8,v0.9,7,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,7,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.8,v0.9,7,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,3,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.8,v0.9,7,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.8,v0.9,7,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,8,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,8,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,4,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.9,v0.10,8,kudos_bot-D10,kudos_bot/rules.py,classify_member_10,synth:ladder,MAJOR,15,38,18,0,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,9,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,9,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,9,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,5,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D10,kudos_bot/rules.py,classify_member_10,synth:ladder,MAJOR,15,38,18,1,0,0,0.08063718374266897,none,1,38,0,0.0,0.0
+kudos_bot,v0.10,v0.11,9,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,0,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,10,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,10,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,10,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,6,0,0,0.018575791612741793,none,1,10,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D10,kudos_bot/rules.py,classify_member_10,synth:ladder,MAJOR,15,38,18,2,0,0,0.08063718374266897,increase,1,39,1,0.0,0.0
+kudos_bot,v0.11,v0.12,10,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,1,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,11,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,11,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,11,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D05,kudos_bot/svc_leaderboard.py,transfer_kudos_in_5,synth:lock_order,MAJOR,15,10,1,7,0,0,0.018575791612741793,repayment,0,10,2,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D10,kudos_bot/rules.py,classify_member_10,synth:ladder,MAJOR,15,39,18,3,0,0,0.08297381883263105,none,1,39,0,0.0,0.0
+kudos_bot,v0.12,v0.13,11,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,2,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,12,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,12,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,12,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,increase,1,8,1,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D10,kudos_bot/rules.py,classify_member_10,synth:ladder,MAJOR,15,39,18,4,0,0,0.08297381883263105,repayment,0,6,4,0.0,0.0
+kudos_bot,v0.13,v0.14,12,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,3,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,13,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,13,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,13,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,5,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.14,v0.15,13,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,4,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,14,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,14,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,14,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,9,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,6,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.15,v0.16,14,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,5,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,15,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,15,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,15,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,10,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,7,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.16,v0.17,15,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,6,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,16,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,16,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,16,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,11,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,8,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.17,v0.18,16,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,7,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,17,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,17,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,17,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,12,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,9,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,9,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.18,v0.19,17,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,8,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,18,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,18,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,18,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,13,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,10,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,10,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.19,v0.20,18,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,9,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D02,kudos_bot/svc_leaderboard.py,update_leaderboard_total_2,synth:lock_not_released,MAJOR,15,7,2,19,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D03,kudos_bot/svc_kudos.py,record_member_3,synth:shared_list,MAJOR,15,8,2,19,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D04,kudos_bot/svc_leaderboard.py,bump_channel_counter_4,synth:unlocked_counter,MAJOR,15,12,4,19,0,0,0.02269984787238689,none,1,12,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D06,kudos_bot/svc_kudos.py,update_leaderboard_total_6,synth:lock_not_released,MAJOR,15,7,2,14,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D07,kudos_bot/rules.py,<imports>:from . import svc_member,synth:import_cycle,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D08,kudos_bot/services.py,update_kudos_total_8,synth:lock_not_released,MAJOR,15,7,2,11,0,0,0.012548784031360172,none,1,7,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D09,kudos_bot/svc_kudos.py,update_kudos_total_9,synth:lock_not_released,MAJOR,15,8,2,11,0,0,0.014533673151847611,none,1,8,0,0.0,0.0
+kudos_bot,v0.20,v0.21,19,kudos_bot-D11,kudos_bot/svc_member.py,update_member_total_11,synth:lock_not_released,MAJOR,15,7,2,10,0,0,0.012548784031360172,none,1,7,0,0.0,0.0

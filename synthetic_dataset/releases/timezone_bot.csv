@@ -1,0 +1,13 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+timezone_bot,v0.1,v0.2,0,0.4809,5,258,55,1,4
+timezone_bot,v0.2,v0.3,1,0.3483,26,261,58,3,5
+timezone_bot,v0.3,v0.4,2,0.0868,3,284,81,3,6
+timezone_bot,v0.4,v0.5,3,5.9294,151,286,83,7,6
+timezone_bot,v0.5,v0.6,4,0.0572,18,415,75,2,5
+timezone_bot,v0.6,v0.7,5,0.219,12,430,86,2,6
+timezone_bot,v0.7,v0.8,6,0.3355,41,440,93,7,7
+timezone_bot,v0.8,v0.9,7,0.913,32,473,95,9,7
+timezone_bot,v0.9,v0.10,8,0.6471,43,496,99,9,7
+timezone_bot,v0.10,v0.11,9,0.8437,47,529,90,8,6
+timezone_bot,v0.11,v0.12,10,1.0806,37,539,68,7,5
+timezone_bot,v0.12,v0.13,11,0.2285,10,560,71,5,5

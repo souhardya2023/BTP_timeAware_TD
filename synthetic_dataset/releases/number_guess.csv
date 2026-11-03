@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+number_guess,v0.1,v0.2,0,4.5171,85,217,49,4,5
+number_guess,v0.2,v0.3,1,0.206,6,290,53,0,7
+number_guess,v0.3,v0.4,2,0.0109,0,294,57,0,8
+number_guess,v0.4,v0.5,3,0.0544,0,294,57,0,8

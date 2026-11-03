@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+calculator,v0.1,v0.2,0,0.3718,33,203,35,1,2
+calculator,v0.2,v0.3,1,0.2788,8,234,44,3,5
+calculator,v0.3,v0.4,2,0.0814,0,240,51,0,8
+calculator,v0.4,v0.5,3,0.5758,32,240,51,2,8

@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+true_or_false,v0.1,v0.2,0,0.0286,18,198,34,0,4
+true_or_false,v0.2,v0.3,1,0.082,22,216,50,0,6
+true_or_false,v0.3,v0.4,2,4.067,77,238,68,7,8
+true_or_false,v0.4,v0.5,3,0.0681,3,300,71,2,8

@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+podcast_directory,v0.1,v0.2,0,0.513,14,235,21,1,6
+podcast_directory,v0.2,v0.3,1,1.6996,77,246,21,2,6
+podcast_directory,v0.3,v0.4,2,0.8419,76,316,22,1,6
+podcast_directory,v0.4,v0.5,3,0.3001,3,385,26,0,7
+podcast_directory,v0.5,v0.6,4,7.278,163,386,26,6,7
+podcast_directory,v0.6,v0.7,5,0.0645,30,518,28,1,7
+podcast_directory,v0.7,v0.8,6,0.0424,2,544,42,0,9
+podcast_directory,v0.8,v0.9,7,0.1306,3,544,42,0,9
+podcast_directory,v0.9,v0.10,8,0.261,22,544,42,1,9
+podcast_directory,v0.10,v0.11,9,0.6466,22,562,43,1,9
+podcast_directory,v0.11,v0.12,10,0.1317,3,572,39,2,8

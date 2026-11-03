@@ -1,0 +1,14 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+image_scanner,v0.1,v0.2,0,0.9923,59,265,49,1,3
+image_scanner,v0.2,v0.3,1,2.3221,77,316,66,4,5
+image_scanner,v0.3,v0.4,2,0.8554,40,352,34,0,4
+image_scanner,v0.4,v0.5,3,1.2274,33,380,46,0,5
+image_scanner,v0.5,v0.6,4,1.5224,65,402,46,1,5
+image_scanner,v0.6,v0.7,5,0.5588,45,453,59,0,6
+image_scanner,v0.7,v0.8,6,0.6123,32,490,59,0,6
+image_scanner,v0.8,v0.9,7,0.5612,22,515,71,1,7
+image_scanner,v0.9,v0.10,8,0.3646,21,527,71,1,7
+image_scanner,v0.10,v0.11,9,0.5604,44,542,72,1,7
+image_scanner,v0.11,v0.12,10,1.0168,43,579,73,0,7
+image_scanner,v0.12,v0.13,11,1.2908,42,608,73,2,7
+image_scanner,v0.13,v0.14,12,1.4605,61,630,73,5,7

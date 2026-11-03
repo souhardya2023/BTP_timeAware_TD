@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+fizzbuzz_rules,v0.1,v0.2,0,0.0416,30,263,123,0,6
+fizzbuzz_rules,v0.2,v0.3,1,0.4292,32,293,153,1,7
+fizzbuzz_rules,v0.3,v0.4,2,1.1325,46,323,183,2,8
+fizzbuzz_rules,v0.4,v0.5,3,4.2056,88,365,183,9,8
+fizzbuzz_rules,v0.5,v0.6,4,0.037,2,433,185,0,8

@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+github_profiles,v0.1,v0.2,0,0.9004,58,411,184,0,5
+github_profiles,v0.2,v0.3,1,1.6838,36,464,184,2,5
+github_profiles,v0.3,v0.4,2,1.1299,65,493,184,5,5
+github_profiles,v0.4,v0.5,3,2.2459,88,547,186,5,5
+github_profiles,v0.5,v0.6,4,0.248,81,622,201,0,7
+github_profiles,v0.6,v0.7,5,2.7608,136,702,281,3,9
+github_profiles,v0.7,v0.8,6,0.3285,53,820,354,2,10
+github_profiles,v0.8,v0.9,7,0.8666,20,867,354,1,10
+github_profiles,v0.9,v0.10,8,0.6801,53,880,355,2,10
+github_profiles,v0.10,v0.11,9,0.4228,30,924,356,1,10
+github_profiles,v0.11,v0.12,10,0.356,16,949,357,0,10

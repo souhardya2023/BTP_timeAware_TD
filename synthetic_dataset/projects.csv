@@ -1,0 +1,151 @@
+project,title,domain,domain_source,tier,regime,seed,python_files,loc,releases,commits,major_type,n_major,minor_types,instances,repaid,frozen_instances,interest_events,interest_pm
+airline_reservation,Airline Reservation,airline-reservation,C,L,baseline,1942,15,1941,24,406,dependency_structure,9,complexity+security,11,6,4,30,0.0443
+anagram_finder,Anagram Finder,anagram-finder,C,S,sticky,1641,5,416,6,42,coupling_cohesion,6,dependency_structure+security,8,2,1,12,0.0177
+atm_machine,ATM Machine,atm-machine,C,M,baseline,1914,8,638,10,79,dependency_structure,5,concurrency+coupling_cohesion,7,0,4,9,0.0133
+auction_house,Auction House,auction-house,C,L,baseline,1984,15,2182,25,476,concurrency,9,complexity+coupling_cohesion,11,4,6,7,0.0188
+bank_ledger,Bank Ledger,bank-ledger,C,M,baseline,1753,8,833,10,101,coupling_cohesion,5,concurrency+security,7,1,3,8,0.0118
+banking_core,Banking Core,banking-core,C,X,ar_clock,2012,31,2998,25,570,coupling_cohesion,10,security+complexity,12,6,5,24,0.0388
+battleship_bot,Battleship Bot,battleship-bot,A,L,baseline,1487,15,1179,22,198,dependency_structure,9,complexity+security,11,2,8,7,0.0103
+battleship_engine,Battleship Game Engine,battleship-engine,A,L,decay,1494,15,1875,22,179,complexity,9,dependency_structure+security,11,3,3,13,0.0349
+bin2dec,Bin2Dec,bin2dec,A,S,ar_clock,1011,5,404,6,35,concurrency,5,dependency_structure+coupling_cohesion,7,0,1,11,0.0179
+bit_masks,Bit Masks,bit-masks,A,M,baseline,1256,8,1110,14,116,complexity,7,dependency_structure+concurrency,9,2,4,10,0.052
+book_finder,Book Finder App,book-finder,A,M,baseline,1263,8,807,11,78,coupling_cohesion,6,complexity+concurrency,8,1,3,6,0.0089
+boole_bots,Boole Bots Game,boole-bots,A,L,baseline,1501,15,2038,30,463,coupling_cohesion,8,dependency_structure+security,10,6,4,29,0.0462
+border_radius,Border Radius Previewer,border-radius,A,S,decay,1018,5,376,6,19,concurrency,5,security+coupling_cohesion,7,0,1,0,0.0
+budget_planner,Budget Planner,budget-planner,C,M,sticky,1809,8,782,12,134,security,7,coupling_cohesion+dependency_structure,9,2,0,41,0.0605
+bug_tracker,Bug Tracker,bug-tracker,C,M,decay,1879,8,832,15,80,coupling_cohesion,5,dependency_structure+concurrency,7,1,2,3,0.0044
+caesar_cipher,Caesar Cipher,caesar-cipher,C,S,baseline,1676,5,356,5,36,security,5,coupling_cohesion+concurrency,7,0,2,8,0.0118
+calculator,Calculator,calculator,A,S,baseline,1025,5,335,5,15,dependency_structure,6,complexity+coupling_cohesion,8,0,2,5,0.0074
+calculator_cli,Calculator CLI,calculator-cli,A,M,baseline,1270,8,648,14,83,concurrency,7,complexity+security,9,2,3,20,0.0363
+calendar,Calendar,calendar,A,L,baseline,1508,15,2043,24,336,complexity,7,dependency_structure+security,9,3,4,25,0.0747
+calorie_counter,Calorie Counter,calorie-counter,A,L,baseline,1515,15,1879,25,357,complexity,10,coupling_cohesion+concurrency,12,6,6,16,0.1072
+car_rental,Car Rental,car-rental,C,M,baseline,1858,8,772,14,118,dependency_structure,7,concurrency+coupling_cohesion,9,5,3,9,0.0133
+card_memory,Card Memory Game,card-memory,A,M,baseline,1277,8,779,11,99,security,6,dependency_structure+concurrency,8,2,3,7,0.0103
+cause_effect,Cause Effect App,cause-effect,A,S,baseline,1039,5,368,5,34,coupling_cohesion,6,complexity+security,8,2,4,6,0.0105
+charity_finder,Charity Finder App,charity-finder,A,M,baseline,1284,8,684,13,96,dependency_structure,5,security+concurrency,7,2,3,10,0.0165
+chat_app,Chat App,chat-app,A,L,baseline,1522,15,2010,29,402,coupling_cohesion,7,dependency_structure+security,9,3,4,15,0.0221
+christmas_lights,Christmas Lights,christmas-lights,A,S,baseline,1032,5,344,6,24,concurrency,5,coupling_cohesion+security,7,0,1,2,0.003
+chrome_theme,Chrome Theme Extension,chrome-theme,A,M,sticky,1291,8,828,14,140,coupling_cohesion,7,concurrency+security,9,4,1,27,0.0666
+ci_pipeline,CI Pipeline Runner,ci-pipeline,C,L,baseline,1963,15,2091,28,450,concurrency,7,dependency_structure+complexity,9,5,3,30,0.0646
+cinema_booking,Movie Ticket Booking,cinema-booking,C,M,baseline,1865,8,754,15,148,dependency_structure,5,coupling_cohesion+security,7,4,0,14,0.0207
+clinic_appointments,Clinic Appointments,clinic-appointments,C,M,baseline,1774,8,935,12,105,complexity,6,security+dependency_structure,8,2,2,22,0.1303
+cms,Content Management System,cms,C,X,baseline,2040,33,3245,28,782,coupling_cohesion,8,security+concurrency,10,8,5,20,0.0346
+coin_change,Coin Change,coin-change,C,S,ar_clock,1718,5,291,6,43,dependency_structure,6,security+concurrency,8,2,4,4,0.0059
+color_cycle,Color Cycle,color-cycle,A,S,decay,1046,5,506,6,13,complexity,6,concurrency+security,8,0,3,0,0.0
+contribution_tracker,Contribution Tracker App,contribution-tracker,A,L,baseline,1529,15,1479,25,247,complexity,10,coupling_cohesion+security,12,8,6,7,0.0319
+countdown,Countdown Timer,countdown,A,S,baseline,1053,5,347,6,35,dependency_structure,5,concurrency+security,7,0,7,0,0.0
+course_registration,Course Registration,course-registration,C,M,baseline,1781,8,754,10,83,security,7,dependency_structure+coupling_cohesion,9,1,5,8,0.0118
+css_variables,Dynamic CSS Variables,css-variables,A,S,ar_clock,1074,5,343,6,35,dependency_structure,5,security+concurrency,7,0,5,2,0.003
+csv2json,CSV2JSON App,csv2json,A,S,baseline,1060,5,372,5,37,security,6,dependency_structure+coupling_cohesion,8,0,5,3,0.0044
+currency_converter,Currency Converter,currency-converter,A,M,sticky,1298,8,580,11,54,coupling_cohesion,6,dependency_structure+concurrency,8,0,4,15,0.0221
+dice_roller,Dice Roller,dice-roller,C,S,baseline,1711,5,425,6,34,concurrency,6,security+complexity,8,1,3,8,0.0135
+dollars_cents,Dollars to Cents,dollars-cents,A,S,baseline,1067,5,550,5,25,complexity,6,security+concurrency,8,0,5,2,0.0136
+drawing_app,Drawing App,drawing-app,A,M,baseline,1305,8,598,11,76,security,6,dependency_structure+coupling_cohesion,8,2,3,11,0.0234
+elevator,Elevator,elevator,A,L,sticky,1536,15,1866,21,258,complexity,9,dependency_structure+concurrency,11,6,2,44,0.1561
+emoji_translator,Emoji Translator App,emoji-translator,A,M,baseline,1312,8,917,14,120,security,5,dependency_structure+coupling_cohesion,7,2,4,2,0.003
+erp_mini,ERP Mini,erp-mini,C,X,baseline,2019,31,3186,26,516,complexity,9,dependency_structure+coupling_cohesion,11,2,8,2,0.0081
+event_rsvp,Event RSVP,event-rsvp,C,M,baseline,1844,8,1018,14,153,security,6,complexity+dependency_structure,8,3,5,10,0.0165
+exoplanet_query,NASA Exoplanet Query,exoplanet-query,A,L,ar_clock,1585,15,2205,29,539,concurrency,8,security+coupling_cohesion,10,5,4,18,0.0316
+expense_splitter,Expense Splitter,expense-splitter,C,M,sticky,1802,8,878,15,160,coupling_cohesion,6,concurrency+dependency_structure,8,5,0,40,0.0776
+fast_food,Fast Food Simulator,fast-food,A,L,decay,1543,15,1842,21,208,security,7,coupling_cohesion+concurrency,9,1,1,19,0.0348
+fibonacci_memo,Fibonacci Memo,fibonacci-memo,C,S,baseline,1683,5,363,5,32,dependency_structure,5,security+concurrency,7,0,2,4,0.0059
+first_db,First DB App,first-db,A,S,baseline,1081,5,378,6,24,security,5,complexity+concurrency,7,2,2,4,0.0059
+fizzbuzz_rules,FizzBuzz Rules Engine,fizzbuzz-rules,C,S,baseline,1627,5,518,6,34,complexity,6,coupling_cohesion+security,8,0,3,5,0.0161
+flashcards,Flashcards App,flashcards,A,M,baseline,1319,8,759,13,122,coupling_cohesion,6,security+dependency_structure,8,5,2,14,0.0207
+flip_art,Flip Art App,flip-art,A,M,baseline,1326,8,835,13,124,complexity,7,dependency_structure+coupling_cohesion,9,3,5,10,0.0377
+flip_image,Flip Image,flip-image,A,S,baseline,1088,5,380,6,28,security,5,complexity+concurrency,7,0,4,6,0.0089
+food_delivery,Food Delivery,food-delivery,C,L,baseline,1991,15,2097,29,345,concurrency,8,security+complexity,10,6,5,17,0.0251
+game_suggestion,Game Suggestion App,game-suggestion,A,M,contagion,1333,8,786,13,95,dependency_structure,6,security+complexity,8,3,4,5,0.0108
+github_profiles,GitHub Profiles,github-profiles,A,M,baseline,1340,8,1152,12,98,complexity,8,coupling_cohesion+dependency_structure,10,0,7,8,0.0242
+github_status,GitHub Status,github-status,A,S,contagion,1095,5,364,5,31,dependency_structure,6,coupling_cohesion+complexity,8,0,3,4,0.0059
+github_timeline,GitHub Timeline,github-timeline,A,L,baseline,1557,15,2252,21,469,concurrency,9,complexity+security,11,5,7,11,0.0266
+grocery_list,Grocery List,grocery-list,C,M,baseline,1837,8,815,14,104,concurrency,8,coupling_cohesion+dependency_structure,10,2,4,7,0.0154
+gym_membership,Gym Membership,gym-membership,C,M,ar_clock,1851,8,867,13,117,concurrency,7,security+dependency_structure,9,3,4,12,0.0177
+habit_tracker,Habit Tracker,habit-tracker,C,M,baseline,1830,8,910,14,144,coupling_cohesion,5,security+dependency_structure,7,1,3,17,0.0712
+hangman,Hangman,hangman,C,S,baseline,1704,5,308,5,12,security,5,dependency_structure+complexity,7,0,3,1,0.0015
+hello,Hello,hello,A,S,baseline,1102,5,390,6,27,security,5,coupling_cohesion+dependency_structure,7,0,5,4,0.0059
+help_desk,Help Desk Tickets,help-desk,C,M,baseline,1872,8,808,12,64,security,6,dependency_structure+complexity,8,3,7,1,0.0015
+high_striker,HighStriker Game,high-striker,A,M,baseline,1347,8,877,13,133,coupling_cohesion,8,security+complexity,10,2,2,17,0.0354
+hospital_records,Hospital Records,hospital-records,C,L,baseline,1949,15,1698,28,329,security,10,complexity+coupling_cohesion,12,7,5,19,0.0314
+hotel_booking,Hotel Booking,hotel-booking,C,M,ar_clock,1739,8,852,11,111,dependency_structure,6,complexity+security,8,1,5,8,0.0262
+hotel_chain,Hotel Chain Management,hotel-chain,C,X,baseline,2054,30,3274,26,676,coupling_cohesion,10,complexity+security,12,6,6,19,0.0422
+image_scanner,Image Scanner,image-scanner,A,M,ar_clock,1354,8,849,14,141,concurrency,6,complexity+dependency_structure,8,1,4,4,0.0076
+input_validation,JS Input Validation,input-validation,A,S,sticky,1116,5,418,6,37,concurrency,6,complexity+coupling_cohesion,8,0,1,15,0.0359
+instagram_clone,Instagram Clone,instagram-clone,A,L,sticky,1550,15,1360,29,216,concurrency,8,coupling_cohesion+complexity,10,7,1,46,0.114
+inventory,Inventory Tracker,inventory,C,M,baseline,1760,8,722,14,146,dependency_structure,5,concurrency+security,7,4,3,12,0.0177
+invoice_generator,Invoice Generator,invoice-generator,C,M,baseline,1816,8,680,12,106,security,8,complexity+coupling_cohesion,10,0,6,19,0.0314
+iot_mailbox,IOT Mailbox Simulator,iot-mailbox,A,S,baseline,1109,5,389,6,28,security,5,complexity+dependency_structure,7,0,4,3,0.0044
+json2csv,JSON2CSV App,json2csv,A,S,baseline,1123,5,416,6,45,concurrency,6,dependency_structure+security,8,0,2,11,0.0213
+key_value,Key Value,key-value,A,S,ar_clock,1130,5,347,6,20,concurrency,5,complexity+security,7,0,4,4,0.0076
+kudos_bot,Kudos Slackbot,kudos-bot,A,L,baseline,1564,15,1423,21,271,concurrency,9,dependency_structure+complexity,11,3,8,0,0.0
+landing_page,Product Landing Page,landing-page,A,S,contagion,1165,5,411,5,29,dependency_structure,6,complexity+concurrency,8,1,6,3,0.0061
+learning_platform,Learning Management System,learning-platform,C,X,baseline,2005,30,2083,28,298,security,10,coupling_cohesion+complexity,12,7,3,19,0.0402
+library_management,Library Management,library-management,C,M,baseline,1732,8,474,11,47,dependency_structure,7,security+coupling_cohesion,9,1,3,13,0.0192
+log_analyzer,Log Analyzer,log-analyzer,C,M,baseline,1886,8,669,10,78,coupling_cohesion,6,dependency_structure+security,8,1,3,11,0.059
+logistics_tracking,Logistics Tracking,logistics-tracking,C,X,ar_clock,2026,34,3702,25,762,dependency_structure,9,complexity+coupling_cohesion,11,5,5,26,0.0451
+lorem_ipsum,Lorem Ipsum Generator,lorem-ipsum,A,S,decay,1137,5,527,6,24,complexity,5,coupling_cohesion+security,7,1,2,5,0.0127
+markdown_previewer,Markdown Previewer,markdown-previewer,A,M,sticky,1361,8,519,10,54,dependency_structure,5,coupling_cohesion+security,7,1,0,17,0.0251
+markdown_table,Markdown Table Generator,markdown-table,A,M,baseline,1368,8,740,11,68,coupling_cohesion,5,dependency_structure+security,7,2,3,13,0.0192
+math_editor,Math Editor,math-editor,A,M,baseline,1375,8,817,10,70,concurrency,8,coupling_cohesion+complexity,10,2,4,1,0.0015
+meme_generator,Meme Generator App,meme-generator,A,M,decay,1382,8,827,15,73,concurrency,7,coupling_cohesion+complexity,9,1,1,8,0.0118
+mortgage_calculator,Mortgage Calculator,mortgage-calculator,C,S,decay,1725,5,408,6,20,security,5,concurrency+dependency_structure,7,1,1,0,0.0
+movie_app,Movie App,movie-app,A,L,contagion,1571,15,1935,22,336,security,8,concurrency+coupling_cohesion,10,5,6,16,0.0236
+my_podcast_library,MyPodcast Library,my-podcast-library,A,L,decay,1578,15,1922,27,350,dependency_structure,10,complexity+security,12,6,6,6,0.0089
+name_generator,Name Generation using RNNs,name-generator,A,M,ar_clock,1389,8,779,10,104,concurrency,8,complexity+dependency_structure,10,1,4,18,0.0604
+notes,Notes App,notes,A,S,contagion,1144,5,387,6,32,dependency_structure,6,security+concurrency,8,0,5,4,0.0094
+number_guess,Number Guessing Game,number-guess,C,S,baseline,1690,5,366,5,39,dependency_structure,6,coupling_cohesion+complexity,8,0,5,2,0.003
+online_exams,Online Exams,online-exams,C,L,baseline,1998,15,2200,29,533,complexity,10,coupling_cohesion+dependency_structure,12,9,8,7,0.0224
+online_store,Simple Online Store,online-store,A,M,baseline,1431,8,759,14,65,complexity,8,concurrency+coupling_cohesion,10,4,7,2,0.0046
+palindrome,Palindrome Checker,palindrome,C,S,baseline,1648,5,341,5,29,dependency_structure,5,coupling_cohesion+complexity,7,0,5,3,0.0061
+parking_lot,Parking Lot,parking-lot,C,M,baseline,1746,8,832,11,107,coupling_cohesion,5,concurrency+security,7,3,4,3,0.0044
+password_generator,Password Generator,password-generator,A,M,baseline,1396,8,978,10,80,complexity,8,dependency_structure+coupling_cohesion,10,0,5,4,0.0181
+pastebin,Pastebin,pastebin,C,M,contagion,1795,8,572,10,69,dependency_structure,7,concurrency+security,9,2,4,14,0.0207
+payroll,Payroll,payroll,C,M,contagion,1767,8,850,15,116,security,7,complexity+concurrency,9,1,3,23,0.0498
+pearson,Pearson Regression,pearson,A,S,sticky,1151,5,353,5,33,coupling_cohesion,6,dependency_structure+security,8,1,3,7,0.0103
+podcast_directory,Podcast Directory,podcast-directory,A,M,baseline,1403,8,718,12,89,dependency_structure,8,complexity+coupling_cohesion,10,3,6,8,0.0118
+pomodoro,Pomodoro Clock,pomodoro,A,S,contagion,1158,5,481,6,39,complexity,6,security+concurrency,8,0,4,11,0.0518
+prime_sieve,Prime Sieve,prime-sieve,C,S,sticky,1655,5,456,5,46,coupling_cohesion,6,concurrency+dependency_structure,8,0,0,21,0.0327
+qr_badge,QR Code Badge Generator,qr-badge,A,M,baseline,1410,8,717,12,55,complexity,7,coupling_cohesion+dependency_structure,9,1,6,5,0.0236
+quiz,Quiz App,quiz,A,S,decay,1172,5,419,6,22,security,6,complexity+concurrency,8,0,3,0,0.0
+random_meal,Random Meal Generator,random-meal,A,S,baseline,1186,5,386,6,28,concurrency,6,coupling_cohesion+security,8,0,5,3,0.0044
+random_number,Random Number Generator,random-number,A,S,baseline,1193,5,491,6,30,complexity,6,dependency_structure+security,8,2,2,4,0.0167
+rate_limiter,Rate Limiter,rate-limiter,C,M,baseline,1893,8,752,15,102,concurrency,7,security+coupling_cohesion,9,1,4,8,0.0135
+recipe,Recipe App,recipe,A,S,baseline,1179,5,246,5,10,dependency_structure,6,concurrency+security,8,0,5,0,0.0
+regex_helper,Regular Expression Helper,regex-helper,A,M,contagion,1417,8,619,12,54,security,7,complexity+coupling_cohesion,9,1,7,7,0.0103
+ride_dispatch,Ride Dispatch,ride-dispatch,C,L,baseline,1935,15,1338,22,238,security,9,coupling_cohesion+concurrency,11,6,4,18,0.0266
+rock_paper_scissors,Rock Paper Scissors,rock-paper-scissors,C,S,baseline,1697,5,508,6,34,complexity,6,concurrency+dependency_structure,8,1,4,7,0.0242
+roman_numerals,Roman to Decimal Converter,roman-numerals,A,S,baseline,1200,5,413,6,41,dependency_structure,6,concurrency+complexity,8,0,3,13,0.0209
+sales_receipts,Sales Receipts App,sales-receipts,A,M,decay,1424,8,856,10,53,complexity,5,dependency_structure+security,7,0,0,0,0.0
+shell_game,Shell Game,shell-game,A,L,baseline,1592,15,1452,25,257,coupling_cohesion,10,concurrency+security,12,7,7,5,0.0074
+shopping_cart,E-commerce Cart and Checkout,shopping-cart,C,L,baseline,1921,15,2080,29,469,security,9,dependency_structure+coupling_cohesion,11,7,4,16,0.0236
+shuffle_deck,Shuffle Deck,shuffle-deck,A,L,baseline,1599,15,1365,28,206,complexity,10,security+concurrency,12,6,1,23,0.1017
+slack_archiver,Slack Archiver,slack-archiver,A,L,baseline,1606,15,2407,28,477,concurrency,10,complexity+coupling_cohesion,12,6,5,19,0.0399
+slider_design,Slider Design,slider-design,A,S,baseline,1207,5,384,5,30,security,6,dependency_structure+coupling_cohesion,8,2,4,5,0.0127
+smart_home,Smart Home Rules,smart-home,C,L,sticky,1970,15,1833,22,369,security,8,complexity+concurrency,10,4,1,74,0.1586
+social_feed,Social Network Feed,social-feed,C,X,baseline,2033,29,2703,28,553,coupling_cohesion,9,dependency_structure+concurrency,11,5,4,24,0.0354
+spell_it,Spell-It App,spell-it,A,L,baseline,1613,15,974,25,128,coupling_cohesion,10,dependency_structure+concurrency,12,7,2,14,0.0298
+sports_bracket,Sports Bracket Generator,sports-bracket,A,M,decay,1438,8,769,13,44,complexity,5,coupling_cohesion+security,7,1,2,3,0.0096
+stock_portfolio,Stock Portfolio,stock-portfolio,C,L,sticky,1956,15,1371,25,239,coupling_cohesion,10,dependency_structure+complexity,12,9,1,46,0.0765
+stopwatch,Stopwatch App,stopwatch,A,S,ar_clock,1214,5,353,6,47,dependency_structure,5,concurrency+coupling_cohesion,7,0,2,7,0.012
+string_art,String Art,string-art,A,M,ar_clock,1445,8,822,11,95,complexity,5,dependency_structure+security,7,1,4,10,0.032
+survey,Survey App,survey,A,L,decay,1620,15,1828,21,176,complexity,9,dependency_structure+security,11,2,7,1,0.0015
+task_scheduler,Task Scheduler,task-scheduler,C,M,baseline,1900,8,859,10,101,coupling_cohesion,7,concurrency+security,9,2,5,10,0.0165
+telecom_billing,Telecom Billing,telecom-billing,C,X,decay,2047,33,3022,30,316,complexity,9,concurrency+dependency_structure,11,5,2,24,0.0675
+temperature_converter,Temperature Converter,temperature-converter,C,S,contagion,1634,5,511,5,28,complexity,5,security+dependency_structure,7,1,2,6,0.0436
+this_or_that,This or That Game,this-or-that,A,M,baseline,1452,8,641,12,46,concurrency,8,coupling_cohesion+security,10,2,6,5,0.0091
+time_tracker,Time Tracker,time-tracker,C,M,baseline,1823,8,712,12,100,security,5,complexity+coupling_cohesion,7,2,4,19,0.0281
+timezone_bot,Timezone Slackbot,timezone-bot,A,M,contagion,1459,8,724,13,102,coupling_cohesion,6,concurrency+security,8,3,2,31,0.061
+tip_calculator,Tip Calculator,tip-calculator,C,S,baseline,1662,5,461,6,39,coupling_cohesion,5,security+complexity,7,3,5,2,0.003
+todo,To-Do App,todo,A,M,contagion,1466,8,723,14,92,concurrency,7,security+coupling_cohesion,9,2,6,10,0.0232
+tournament_scheduler,Tournament Scheduler,tournament-scheduler,C,L,baseline,1977,15,1890,27,422,dependency_structure,8,coupling_cohesion+complexity,10,7,4,27,0.0467
+true_or_false,TrueOrFalse,true-or-false,A,S,contagion,1221,5,391,5,31,concurrency,6,coupling_cohesion+dependency_structure,8,0,1,5,0.0074
+typing_practice,Typing Practice,typing-practice,A,M,contagion,1473,8,777,10,91,complexity,8,concurrency+coupling_cohesion,10,5,1,29,0.1672
+unit_converter,Unit Converter,unit-converter,C,S,decay,1669,5,396,5,12,concurrency,5,complexity+security,7,0,2,1,0.0015
+url_shortener,URL Shortener,url-shortener,C,M,baseline,1788,8,700,11,77,security,8,complexity+concurrency,10,2,7,5,0.0074
+vending_machine,Vending Machine,vending-machine,C,M,ar_clock,1907,8,766,11,111,coupling_cohesion,5,security+concurrency,7,3,2,12,0.0177
+vigenere,Vigenere Cipher,vigenere,A,S,contagion,1228,5,338,5,21,coupling_cohesion,5,complexity+concurrency,7,2,2,7,0.0619
+voting,Voting App,voting,A,M,baseline,1480,8,941,15,148,concurrency,8,coupling_cohesion+dependency_structure,10,0,4,30,0.0527
+warehouse_picking,Warehouse Picking,warehouse-picking,C,L,sticky,1928,15,1610,22,238,security,7,dependency_structure+complexity,9,5,1,31,0.0492
+weather,Weather App,weather,A,S,ar_clock,1249,5,283,5,25,dependency_structure,6,coupling_cohesion+concurrency,8,0,1,6,0.0089
+wind_chill,Wind Chill,wind-chill,A,S,sticky,1235,5,476,6,40,complexity,6,concurrency+security,8,1,0,19,0.0624
+word_frequency,Word Frequency,word-frequency,A,S,baseline,1242,5,367,5,31,concurrency,6,dependency_structure+security,8,2,5,2,0.003

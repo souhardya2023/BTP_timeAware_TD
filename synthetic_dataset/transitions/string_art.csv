@@ -1,0 +1,53 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+string_art,v0.1,v0.2,0,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,54,17,0,0,0,0.11867541199348862,interest,1,55,4,3.0,0.004942396395519926
+string_art,v0.1,v0.2,0,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,0,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.2,v0.3,1,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,55,17,1,3,1,0.12109443355780221,interest,1,56,4,3.0,0.004942396395519926
+string_art,v0.2,v0.3,1,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,1,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.3,v0.4,2,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,56,17,2,6,2,0.12351784435531092,none,1,56,0,0.0,0.0
+string_art,v0.3,v0.4,2,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,2,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.3,v0.4,2,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+string_art,v0.3,v0.4,2,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,0,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.3,v0.4,2,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,0,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.4,v0.5,3,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,56,17,3,6,2,0.12351784435531092,interest,1,56,2,2.0,0.003164390096496418
+string_art,v0.4,v0.5,3,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,3,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.4,v0.5,3,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,1,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+string_art,v0.4,v0.5,3,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,1,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.4,v0.5,3,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,1,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.5,v0.6,4,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,56,17,4,8,3,0.12351784435531092,increase,1,57,1,0.0,0.0
+string_art,v0.5,v0.6,4,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,4,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.5,v0.6,4,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,2,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+string_art,v0.5,v0.6,4,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,2,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.5,v0.6,4,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,2,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.5,v0.6,4,string_art-D06,string_art/rules.py,handle_nail_6,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.6,v0.7,5,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,57,17,5,8,3,0.1259455737508172,interest,1,57,2,2.0,0.003164390096496418
+string_art,v0.6,v0.7,5,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,5,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.6,v0.7,5,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,3,1,1,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+string_art,v0.6,v0.7,5,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,3,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.6,v0.7,5,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,3,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.6,v0.7,5,string_art-D06,string_art/rules.py,handle_nail_6,synth:nested,MAJOR,15,30,17,1,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.6,v0.7,5,string_art-D07,string_art/rules.py,handle_nail_7,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,interest,1,30,1,1.0,0.001476547186496228
+string_art,v0.7,v0.8,6,string_art-D01,string_art/rules.py,report_nail_1,synth:long,MAJOR,15,57,17,6,10,4,0.1259455737508172,repayment,0,2,1,0.0,0.0
+string_art,v0.7,v0.8,6,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,6,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.7,v0.8,6,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,4,2,2,0.001476547186496228,none,1,1,0,0.0,0.0
+string_art,v0.7,v0.8,6,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,4,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.7,v0.8,6,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,4,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.7,v0.8,6,string_art-D06,string_art/rules.py,handle_nail_6,synth:nested,MAJOR,15,30,17,2,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.7,v0.8,6,string_art-D07,string_art/rules.py,handle_nail_7,synth:nested,MAJOR,15,30,17,1,1,1,0.06217811821415762,interest,1,30,3,3.0,0.004942396395519926
+string_art,v0.8,v0.9,7,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,7,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.8,v0.9,7,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,5,2,2,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+string_art,v0.8,v0.9,7,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,5,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.8,v0.9,7,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,5,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.8,v0.9,7,string_art-D06,string_art/rules.py,handle_nail_6,synth:nested,MAJOR,15,30,17,3,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.8,v0.9,7,string_art-D07,string_art/rules.py,handle_nail_7,synth:nested,MAJOR,15,30,17,2,4,2,0.06217811821415762,interest,1,30,3,3.0,0.004942396395519926
+string_art,v0.9,v0.10,8,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,8,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.9,v0.10,8,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,6,3,3,0.001476547186496228,none,1,1,0,0.0,0.0
+string_art,v0.9,v0.10,8,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,6,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.9,v0.10,8,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,6,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.9,v0.10,8,string_art-D06,string_art/rules.py,handle_nail_6,synth:nested,MAJOR,15,30,17,4,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.9,v0.10,8,string_art-D07,string_art/rules.py,handle_nail_7,synth:nested,MAJOR,15,30,17,3,7,3,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.10,v0.11,9,string_art-D02,string_art/services.py,sign_nail_2,synth:weak_hash_secret,MAJOR,15,3,1,9,0,0,0.004942396395519926,none,1,3,0,0.0,0.0
+string_art,v0.10,v0.11,9,string_art-D03,string_art/rules.py,<imports>:from .utils import *,synth:wildcard_import,MAJOR,15,1,1,7,3,3,0.001476547186496228,none,1,1,0,0.0,0.0
+string_art,v0.10,v0.11,9,string_art-D04,string_art/rules.py,build_board_4,synth:params,MAJOR,15,11,4,7,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+string_art,v0.10,v0.11,9,string_art-D05,string_art/rules.py,classify_thread_5,synth:ladder,MAJOR,15,32,15,7,0,0,0.06675145884150166,none,1,32,0,0.0,0.0
+string_art,v0.10,v0.11,9,string_art-D06,string_art/rules.py,handle_nail_6,synth:nested,MAJOR,15,30,17,5,0,0,0.06217811821415762,none,1,30,0,0.0,0.0
+string_art,v0.10,v0.11,9,string_art-D07,string_art/rules.py,handle_nail_7,synth:nested,MAJOR,15,30,17,4,7,3,0.06217811821415762,none,1,30,0,0.0,0.0

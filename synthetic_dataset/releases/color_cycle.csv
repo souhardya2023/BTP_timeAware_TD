@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+color_cycle,v0.1,v0.2,0,0.2025,36,330,139,0,5
+color_cycle,v0.2,v0.3,1,0.3041,43,366,175,0,6
+color_cycle,v0.3,v0.4,2,0.482,6,409,210,0,8
+color_cycle,v0.4,v0.5,3,2.1267,15,415,210,0,8
+color_cycle,v0.5,v0.6,4,0.2921,0,429,210,0,8

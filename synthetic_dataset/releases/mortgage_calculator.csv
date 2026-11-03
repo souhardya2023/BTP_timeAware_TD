@@ -1,0 +1,6 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+mortgage_calculator,v0.1,v0.2,0,0.6546,9,154,11,0,3
+mortgage_calculator,v0.2,v0.3,1,0.4952,65,163,18,0,4
+mortgage_calculator,v0.3,v0.4,2,0.381,11,227,34,0,7
+mortgage_calculator,v0.4,v0.5,3,2.8868,80,238,34,0,7
+mortgage_calculator,v0.5,v0.6,4,0.1589,2,316,34,1,7

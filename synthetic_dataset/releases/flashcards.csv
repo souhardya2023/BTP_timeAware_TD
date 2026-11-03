@@ -1,0 +1,13 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+flashcards,v0.1,v0.2,0,1.3493,66,260,20,1,5
+flashcards,v0.2,v0.3,1,0.0863,24,315,20,0,5
+flashcards,v0.3,v0.4,2,0.1233,3,339,44,0,6
+flashcards,v0.4,v0.5,3,0.2208,11,342,47,2,7
+flashcards,v0.5,v0.6,4,0.997,55,348,47,3,7
+flashcards,v0.6,v0.7,5,6.2815,102,391,51,8,8
+flashcards,v0.7,v0.8,6,0.5563,28,461,50,5,7
+flashcards,v0.8,v0.9,7,0.0698,4,474,42,2,5
+flashcards,v0.9,v0.10,8,1.9294,99,473,38,2,4
+flashcards,v0.10,v0.11,9,0.1954,14,553,38,0,4
+flashcards,v0.11,v0.12,10,0.4086,36,563,38,0,4
+flashcards,v0.12,v0.13,11,0.4188,14,591,38,1,4

@@ -1,0 +1,151 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+logistics_tracking,v0.1,v0.2,0,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.2,v0.3,1,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,increase,1,5,1,0.0,0.0
+logistics_tracking,v0.3,v0.4,2,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,2,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.3,v0.4,2,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.4,v0.5,3,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,3,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.4,v0.5,3,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.5,v0.6,4,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,4,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.5,v0.6,4,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.6,v0.7,5,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,5,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.6,v0.7,5,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.6,v0.7,5,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.7,v0.8,6,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,6,0,0,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.7,v0.8,6,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.7,v0.8,6,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.8,v0.9,7,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,7,0,0,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+logistics_tracking,v0.8,v0.9,7,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.8,v0.9,7,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.8,v0.9,7,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.8,v0.9,7,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.9,v0.10,8,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,8,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.9,v0.10,8,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.9,v0.10,8,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.9,v0.10,8,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.9,v0.10,8,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.9,v0.10,8,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,11,4,0,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,9,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,11,4,1,0,0,0.02062846280146194,none,1,11,0,0.0,0.0
+logistics_tracking,v0.10,v0.11,9,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,10,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,11,4,2,0,0,0.02062846280146194,increase,1,13,2,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.11,v0.12,10,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,11,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,4,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,13,4,3,0,0,0.0247885335262108,interest,1,13,2,2.0,0.003164390096496418
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.12,v0.13,11,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,5,1,12,1,1,0.008667715422666181,interest,1,6,2,1.0,0.001476547186496228
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,5,1,1,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,13,4,4,2,1,0.0247885335262108,interest,1,13,2,2.0,0.003164390096496418
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.13,v0.14,12,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,6,1,13,2,2,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,6,2,2,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,13,4,5,4,2,0.0247885335262108,interest,1,13,2,2.0,0.003164390096496418
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,4,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.14,v0.15,13,logistics_tracking-D11,logistics_tracking/feat_14.py,notify_upstream_11,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,6,1,14,3,3,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,9,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,7,3,3,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,13,4,6,6,3,0.0247885335262108,increase,1,14,1,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,5,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,4,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.15,v0.16,14,logistics_tracking-D11,logistics_tracking/feat_14.py,notify_upstream_11,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,repayment,0,2,1,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,6,1,15,4,4,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,10,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,8,1,1,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D05,logistics_tracking/validators.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,8,4,4,0.006781608318638173,repayment,0,2,1,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,14,4,7,6,3,0.026893314534794217,interest,1,15,3,2.0,0.003164390096496418
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,6,1,1,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,5,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.16,v0.17,15,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,6,1,16,5,5,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,14,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,11,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,9,2,2,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D06,logistics_tracking/feat_17.py,build_route_6,synth:params,MAJOR,15,15,4,8,8,4,0.02901315031051142,repayment,0,2,2,0.0,0.0
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,7,1,1,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,6,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.17,v0.18,16,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,6,1,17,6,6,0.010592055810999847,interest,1,7,2,1.0,0.001476547186496228
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,15,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,12,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,10,3,3,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,8,2,2,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,4,1,7,1,1,0.006781608318638173,interest,1,5,2,1.0,0.001476547186496228
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.18,v0.19,17,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D01,logistics_tracking/feat_07.py,notify_upstream_1,synth:layer_violation,MAJOR,15,7,1,18,7,7,0.012548784031360172,repayment,0,2,1,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,16,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,13,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,11,4,4,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,9,3,3,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,5,1,8,2,2,0.008667715422666181,increase,1,6,1,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.19,v0.20,18,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,17,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,14,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,12,4,4,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,10,4,4,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,6,1,9,2,2,0.010592055810999847,none,1,6,0,0.0,0.0
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.20,v0.21,19,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,18,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,15,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,13,5,5,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,11,4,4,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,6,1,10,2,2,0.010592055810999847,none,1,6,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.21,v0.22,20,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,19,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,16,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,14,5,5,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,12,4,4,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,6,1,11,2,2,0.010592055810999847,none,1,6,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.22,v0.23,21,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,20,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,17,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D04,logistics_tracking/rules.py,<imports>:from . import cli,synth:import_cycle,MAJOR,15,1,1,15,5,5,0.001476547186496228,repayment,0,0,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,13,4,4,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,6,1,12,2,2,0.010592055810999847,none,1,6,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.23,v0.24,22,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,9,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.24,v0.25,23,logistics_tracking-D02,logistics_tracking/cli.py,<imports>:from .reports import *,synth:wildcard_import,MAJOR,15,1,1,21,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.24,v0.25,23,logistics_tracking-D03,logistics_tracking/services.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,18,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+logistics_tracking,v0.24,v0.25,23,logistics_tracking-D07,logistics_tracking/storage.py,<imports>:from . import feat_18,synth:import_cycle,MAJOR,15,1,1,14,4,4,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.24,v0.25,23,logistics_tracking-D08,logistics_tracking/feat_03.py,notify_upstream_8,synth:layer_violation,MAJOR,15,6,1,13,2,2,0.010592055810999847,none,1,6,0,0.0,0.0
+logistics_tracking,v0.24,v0.25,23,logistics_tracking-D09,logistics_tracking/svc_scan.py,<imports>:from .models import *,synth:wildcard_import,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+logistics_tracking,v0.24,v0.25,23,logistics_tracking-D10,logistics_tracking/svc_truck.py,reset_hub_store_10,synth:private_access,MAJOR,15,4,1,10,0,0,0.006781608318638173,none,1,4,0,0.0,0.0

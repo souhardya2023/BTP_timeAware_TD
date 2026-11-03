@@ -1,0 +1,12 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+regex_helper,v0.1,v0.2,0,0.2524,11,244,16,0,3
+regex_helper,v0.2,v0.3,1,0.0594,5,255,25,0,5
+regex_helper,v0.3,v0.4,2,0.0374,11,260,29,0,6
+regex_helper,v0.4,v0.5,3,0.1148,28,271,40,0,7
+regex_helper,v0.5,v0.6,4,9.1766,131,299,66,2,9
+regex_helper,v0.6,v0.7,5,0.0766,1,416,66,1,9
+regex_helper,v0.7,v0.8,6,0.0609,1,416,66,1,9
+regex_helper,v0.8,v0.9,7,0.3687,12,417,67,1,9
+regex_helper,v0.9,v0.10,8,0.2749,3,425,67,1,9
+regex_helper,v0.10,v0.11,9,0.4695,26,426,64,1,8
+regex_helper,v0.11,v0.12,10,0.2418,37,448,64,2,8

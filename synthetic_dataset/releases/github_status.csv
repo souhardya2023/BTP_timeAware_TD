@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+github_status,v0.1,v0.2,0,1.4792,47,167,3,0,1
+github_status,v0.2,v0.3,1,1.8043,72,206,11,1,3
+github_status,v0.3,v0.4,2,0.8658,16,273,32,4,8
+github_status,v0.4,v0.5,3,0.5109,3,281,34,1,8

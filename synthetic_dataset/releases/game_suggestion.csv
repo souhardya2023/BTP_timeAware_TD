@@ -1,0 +1,13 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+game_suggestion,v0.1,v0.2,0,0.1774,1,242,18,0,5
+game_suggestion,v0.2,v0.3,1,1.5526,52,242,18,3,5
+game_suggestion,v0.3,v0.4,2,0.6675,4,291,22,1,6
+game_suggestion,v0.4,v0.5,3,0.4184,35,292,22,0,6
+game_suggestion,v0.5,v0.6,4,6.2724,158,320,26,4,7
+game_suggestion,v0.6,v0.7,5,0.3397,35,459,23,0,6
+game_suggestion,v0.7,v0.8,6,0.4023,6,494,34,1,7
+game_suggestion,v0.8,v0.9,7,0.2864,4,493,30,1,6
+game_suggestion,v0.9,v0.10,8,0.0877,0,495,31,0,6
+game_suggestion,v0.10,v0.11,9,1.0493,67,495,31,0,6
+game_suggestion,v0.11,v0.12,10,0.0657,0,552,30,0,5
+game_suggestion,v0.12,v0.13,11,1.1106,91,552,30,1,5

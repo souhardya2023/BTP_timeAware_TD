@@ -1,0 +1,15 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+meme_generator,v0.1,v0.2,0,2.087,81,233,35,0,2
+meme_generator,v0.2,v0.3,1,0.2044,43,314,35,0,2
+meme_generator,v0.3,v0.4,2,0.7887,30,357,67,0,5
+meme_generator,v0.4,v0.5,3,0.1436,20,387,75,0,6
+meme_generator,v0.5,v0.6,4,0.953,41,406,82,0,7
+meme_generator,v0.6,v0.7,5,4.154,87,444,93,1,8
+meme_generator,v0.7,v0.8,6,1.1886,21,526,101,1,9
+meme_generator,v0.8,v0.9,7,1.1523,45,542,101,2,9
+meme_generator,v0.9,v0.10,8,0.5875,20,577,101,3,9
+meme_generator,v0.10,v0.11,9,0.1462,4,589,101,4,9
+meme_generator,v0.11,v0.12,10,0.1245,2,590,93,0,8
+meme_generator,v0.12,v0.13,11,0.3274,38,591,93,2,8
+meme_generator,v0.13,v0.14,12,0.6888,13,626,95,2,8
+meme_generator,v0.14,v0.15,13,0.5597,21,635,95,0,8

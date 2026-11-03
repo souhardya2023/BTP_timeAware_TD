@@ -1,0 +1,10 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+sales_receipts,v0.1,v0.2,0,0.3729,6,383,156,0,5
+sales_receipts,v0.2,v0.3,1,1.1634,22,389,156,0,5
+sales_receipts,v0.3,v0.4,2,0.3593,33,410,156,0,5
+sales_receipts,v0.4,v0.5,3,1.9813,85,442,162,0,6
+sales_receipts,v0.5,v0.6,4,0.1826,2,524,194,0,7
+sales_receipts,v0.6,v0.7,5,2.8186,108,524,194,0,7
+sales_receipts,v0.7,v0.8,6,0.3468,12,627,194,0,7
+sales_receipts,v0.8,v0.9,7,0.7209,29,635,194,0,7
+sales_receipts,v0.9,v0.10,8,1.1015,56,660,194,0,7

@@ -1,0 +1,5 @@
+repo,v0,v1,vi,activity,total_added,total_nloc,region_nloc,region_changed,instances
+weather,v0.1,v0.2,0,1.3076,47,143,4,1,2
+weather,v0.2,v0.3,1,1.075,21,186,21,0,4
+weather,v0.3,v0.4,2,1.0793,18,202,34,3,8
+weather,v0.4,v0.5,3,0.5116,6,216,34,3,8

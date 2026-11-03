@@ -1,0 +1,128 @@
+repo,v0,v1,vi,key,file,func,rule,severity,sonar_effort_min,nloc0,ccn0,age,past_il,past_n,principal_pm,cls,persisted,nloc1,changed,interest_lines,pm_interest
+tournament_scheduler,v0.1,v0.2,0,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.1,v0.2,0,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.1,v0.2,0,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.1,v0.2,0,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,0,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.2,v0.3,1,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,1,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.2,v0.3,1,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.2,v0.3,1,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.2,v0.3,1,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,1,0,0,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.2,v0.3,1,tournament_scheduler-D05,tournament_scheduler/services.py,notify_upstream_5,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,interest,1,5,2,1.0,0.001476547186496228
+tournament_scheduler,v0.3,v0.4,2,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,2,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.3,v0.4,2,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.3,v0.4,2,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.3,v0.4,2,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,2,1,1,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.3,v0.4,2,tournament_scheduler-D05,tournament_scheduler/services.py,notify_upstream_5,synth:layer_violation,MAJOR,15,5,1,1,1,1,0.008667715422666181,repayment,0,2,1,0.0,0.0
+tournament_scheduler,v0.4,v0.5,3,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,3,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.4,v0.5,3,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+tournament_scheduler,v0.4,v0.5,3,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,3,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.4,v0.5,3,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,3,2,2,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.5,v0.6,4,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,4,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.5,v0.6,4,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,4,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.5,v0.6,4,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,4,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.5,v0.6,4,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,4,2,2,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.6,v0.7,5,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,5,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.6,v0.7,5,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,5,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.6,v0.7,5,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,5,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.6,v0.7,5,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,5,2,2,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.7,v0.8,6,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,6,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.7,v0.8,6,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,6,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.7,v0.8,6,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,6,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.7,v0.8,6,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,6,3,3,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.7,v0.8,6,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.8,v0.9,7,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,7,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.8,v0.9,7,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,7,1,1,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.8,v0.9,7,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,7,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.8,v0.9,7,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,7,3,3,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.8,v0.9,7,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+tournament_scheduler,v0.8,v0.9,7,tournament_scheduler-D07,tournament_scheduler/validators.py,notify_upstream_7,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,8,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,4,1,8,1,1,0.006781608318638173,increase,1,5,1,0.0,0.0
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,8,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,8,4,4,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,2,1,1,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D07,tournament_scheduler/validators.py,notify_upstream_7,synth:layer_violation,MAJOR,15,4,1,1,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.9,v0.10,8,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,0,0,0,0.06217811821415762,interest,1,30,3,3.0,0.004942396395519926
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,9,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,5,1,9,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,9,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,9,5,5,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,3,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D07,tournament_scheduler/validators.py,notify_upstream_7,synth:layer_violation,MAJOR,15,4,1,2,0,0,0.006781608318638173,repayment,0,2,1,0.0,0.0
+tournament_scheduler,v0.10,v0.11,9,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,1,3,1,0.06217811821415762,none,1,30,0,0.0,0.0
+tournament_scheduler,v0.11,v0.12,10,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,10,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.11,v0.12,10,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,5,1,10,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.11,v0.12,10,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,10,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.11,v0.12,10,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,10,5,5,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.11,v0.12,10,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,4,2,2,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.11,v0.12,10,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,2,3,1,0.06217811821415762,none,1,30,0,0.0,0.0
+tournament_scheduler,v0.12,v0.13,11,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,11,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.12,v0.13,11,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,5,1,11,1,1,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.12,v0.13,11,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,11,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.12,v0.13,11,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,11,6,6,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.12,v0.13,11,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,5,2,2,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+tournament_scheduler,v0.12,v0.13,11,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,3,3,1,0.06217811821415762,none,1,30,0,0.0,0.0
+tournament_scheduler,v0.13,v0.14,12,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,12,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.13,v0.14,12,tournament_scheduler-D02,tournament_scheduler/config.py,notify_upstream_2,synth:layer_violation,MAJOR,15,5,1,12,1,1,0.008667715422666181,repayment,0,2,1,0.0,0.0
+tournament_scheduler,v0.13,v0.14,12,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,12,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.13,v0.14,12,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,12,7,7,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.13,v0.14,12,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,6,3,3,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+tournament_scheduler,v0.13,v0.14,12,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,4,3,1,0.06217811821415762,none,1,30,0,0.0,0.0
+tournament_scheduler,v0.14,v0.15,13,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,13,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.14,v0.15,13,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,13,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.14,v0.15,13,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,13,8,8,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.14,v0.15,13,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,4,1,7,4,4,0.006781608318638173,increase,1,5,1,0.0,0.0
+tournament_scheduler,v0.14,v0.15,13,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,5,3,1,0.06217811821415762,interest,1,30,2,2.0,0.003164390096496418
+tournament_scheduler,v0.14,v0.15,13,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,4,1,0,0,0,0.006781608318638173,interest,1,4,1,1.0,0.001476547186496228
+tournament_scheduler,v0.15,v0.16,14,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,14,0,0,0.001476547186496228,none,1,1,0,0.0,0.0
+tournament_scheduler,v0.15,v0.16,14,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,14,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.15,v0.16,14,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,14,9,9,0.001476547186496228,interest,1,1,1,1.0,0.001476547186496228
+tournament_scheduler,v0.15,v0.16,14,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,5,1,8,4,4,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+tournament_scheduler,v0.15,v0.16,14,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,6,5,2,0.06217811821415762,interest,1,30,2,2.0,0.003164390096496418
+tournament_scheduler,v0.15,v0.16,14,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,4,1,1,1,1,0.006781608318638173,interest,1,5,2,1.0,0.001476547186496228
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D01,tournament_scheduler/config.py,<imports>:from . import reports,synth:import_cycle,MAJOR,15,1,1,15,0,0,0.001476547186496228,repayment,0,0,0,0.0,0.0
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,15,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D04,tournament_scheduler/services.py,<imports>:from .svc_team import *,synth:wildcard_import,MAJOR,15,1,1,15,10,10,0.001476547186496228,repayment,0,0,0,0.0,0.0
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,5,1,9,5,5,0.008667715422666181,increase,1,6,1,0.0,0.0
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,7,7,3,0.06217811821415762,none,1,30,0,0.0,0.0
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,2,2,2,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.16,v0.17,15,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,0,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.17,v0.18,16,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,16,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.17,v0.18,16,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,10,5,5,0.010592055810999847,none,1,6,0,0.0,0.0
+tournament_scheduler,v0.17,v0.18,16,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,8,7,3,0.06217811821415762,none,1,30,0,0.0,0.0
+tournament_scheduler,v0.17,v0.18,16,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,3,2,2,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.17,v0.18,16,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,1,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.18,v0.19,17,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,17,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.18,v0.19,17,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,11,5,5,0.010592055810999847,none,1,6,0,0.0,0.0
+tournament_scheduler,v0.18,v0.19,17,tournament_scheduler-D08,tournament_scheduler/rules.py,handle_standing_8,synth:nested,MAJOR,15,30,17,9,7,3,0.06217811821415762,repayment,0,2,1,0.0,0.0
+tournament_scheduler,v0.18,v0.19,17,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,4,2,2,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.18,v0.19,17,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,2,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.19,v0.20,18,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,18,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.19,v0.20,18,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,12,5,5,0.010592055810999847,none,1,6,0,0.0,0.0
+tournament_scheduler,v0.19,v0.20,18,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,5,2,2,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+tournament_scheduler,v0.19,v0.20,18,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,3,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.20,v0.21,19,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,19,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.20,v0.21,19,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,13,5,5,0.010592055810999847,none,1,6,0,0.0,0.0
+tournament_scheduler,v0.20,v0.21,19,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,6,3,3,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.20,v0.21,19,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,4,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.21,v0.22,20,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,20,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.21,v0.22,20,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,14,5,5,0.010592055810999847,none,1,6,0,0.0,0.0
+tournament_scheduler,v0.21,v0.22,20,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,7,3,3,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.21,v0.22,20,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,5,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.22,v0.23,21,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,21,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.22,v0.23,21,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,15,5,5,0.010592055810999847,interest,1,6,1,1.0,0.001476547186496228
+tournament_scheduler,v0.22,v0.23,21,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,8,3,3,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.22,v0.23,21,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,6,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.23,v0.24,22,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,22,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.23,v0.24,22,tournament_scheduler-D06,tournament_scheduler/svc_standing.py,notify_upstream_6,synth:layer_violation,MAJOR,15,6,1,16,6,6,0.010592055810999847,repayment,0,2,1,0.0,0.0
+tournament_scheduler,v0.23,v0.24,22,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,9,3,3,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+tournament_scheduler,v0.23,v0.24,22,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,7,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.24,v0.25,23,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,23,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.24,v0.25,23,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,10,4,4,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+tournament_scheduler,v0.24,v0.25,23,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,8,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.25,v0.26,24,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,24,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.25,v0.26,24,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,11,5,5,0.008667715422666181,interest,1,5,1,1.0,0.001476547186496228
+tournament_scheduler,v0.25,v0.26,24,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,9,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
+tournament_scheduler,v0.26,v0.27,25,tournament_scheduler-D03,tournament_scheduler/storage.py,notify_upstream_3,synth:layer_violation,MAJOR,15,4,1,25,0,0,0.006781608318638173,none,1,4,0,0.0,0.0
+tournament_scheduler,v0.26,v0.27,25,tournament_scheduler-D09,tournament_scheduler/config.py,notify_upstream_9,synth:layer_violation,MAJOR,15,5,1,12,6,6,0.008667715422666181,none,1,5,0,0.0,0.0
+tournament_scheduler,v0.26,v0.27,25,tournament_scheduler-D10,tournament_scheduler/svc_fixture.py,VenueManager10,synth:god_class,MAJOR,15,24,2,10,0,0,0.048648071972429215,none,1,24,0,0.0,0.0
