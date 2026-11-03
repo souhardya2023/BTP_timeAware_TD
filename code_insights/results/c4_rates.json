@@ -1,0 +1,98 @@
+{
+ "many_callees|python": {
+  "n": 1592,
+  "with_trait": 0.116,
+  "expected": 0.112,
+  "rr": 1.04,
+  "repos": 12,
+  "n_repos_above1": 6
+ },
+ "many_callees|c": {
+  "n": 14195,
+  "with_trait": 0.272,
+  "expected": 0.185,
+  "rr": 1.47,
+  "repos": 17,
+  "n_repos_above1": 15
+ },
+ "repeated_lines|python": {
+  "n": 1179,
+  "with_trait": 0.136,
+  "expected": 0.125,
+  "rr": 1.09,
+  "repos": 11,
+  "n_repos_above1": 8
+ },
+ "repeated_lines|c": {
+  "n": 12008,
+  "with_trait": 0.173,
+  "expected": 0.234,
+  "rr": 0.74,
+  "repos": 17,
+  "n_repos_above1": 5
+ },
+ "pointer_field|c": {
+  "n": 12893,
+  "with_trait": 0.262,
+  "expected": 0.195,
+  "rr": 1.34,
+  "repos": 17,
+  "n_repos_above1": 12
+ },
+ "goto|c": {
+  "n": 10382,
+  "with_trait": 0.272,
+  "expected": 0.25,
+  "rr": 1.09,
+  "repos": 17,
+  "n_repos_above1": 8
+ },
+ "unsafe|c": {
+  "n": 7206,
+  "with_trait": 0.255,
+  "expected": 0.262,
+  "rr": 0.98,
+  "repos": 17,
+  "n_repos_above1": 10
+ },
+ "alloc|c": {
+  "n": 6759,
+  "with_trait": 0.284,
+  "expected": 0.276,
+  "rr": 1.03,
+  "repos": 15,
+  "n_repos_above1": 9
+ },
+ "clone|python": {
+  "n": 1472,
+  "with_trait": 0.113,
+  "expected": 0.109,
+  "rr": 1.04,
+  "repos": 11,
+  "n_repos_above1": 7
+ },
+ "clone|c": {
+  "n": 12114,
+  "with_trait": 0.22,
+  "expected": 0.212,
+  "rr": 1.04,
+  "repos": 17,
+  "n_repos_above1": 13
+ },
+ "nesting|python": {
+  "n": 2115,
+  "with_trait": 0.117,
+  "expected": 0.096,
+  "rr": 1.22,
+  "repos": 11,
+  "n_repos_above1": 7
+ },
+ "nesting|c": {
+  "n": 21338,
+  "with_trait": 0.223,
+  "expected": 0.215,
+  "rr": 1.04,
+  "repos": 17,
+  "n_repos_above1": 10
+ }
+}
